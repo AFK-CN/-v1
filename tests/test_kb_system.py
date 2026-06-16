@@ -167,6 +167,8 @@ class KBSystemTests(unittest.TestCase):
             (root / "14_KB_System" / "index").mkdir(parents=True)
             (root / "14_KB_System" / "assets").mkdir(parents=True)
             (root / "14_KB_System" / "reports").mkdir(parents=True)
+            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents").mkdir(parents=True)
+            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references").mkdir(parents=True)
             (root / "13_Evolving_Skills" / "active").mkdir(parents=True)
             (root / "13_Evolving_Skills" / "proposals").mkdir(parents=True)
             (root / "11_Project_Use").mkdir()
@@ -177,11 +179,35 @@ class KBSystemTests(unittest.TestCase):
             (root / "14_KB_System" / "index" / "task_entry_index.md").write_text("按需调用\n", encoding="utf-8")
             (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text("{}", encoding="utf-8")
             (root / "14_KB_System" / "reports" / "latest_kb_system_review_report.md").write_text("# report\n", encoding="utf-8")
+            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md").write_text(
+                "description: 禁止全盘扫库，默认不读取 数据/\n", encoding="utf-8"
+            )
+            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents" / "openai.yaml").write_text(
+                'interface:\n  display_name: "知识库"\n', encoding="utf-8"
+            )
+            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references" / "calling-rules.md").write_text(
+                "按索引调用\n", encoding="utf-8"
+            )
 
             result = validate_system(root)
 
             self.assertTrue(result["ok"])
             self.assertEqual(result["failed"], [])
+
+    def test_knowledge_base_skill_package_is_a_single_index_first_entry(self):
+        skill = Path("14_KB_System/skill_packages/knowledge-base/SKILL.md")
+        ui = Path("14_KB_System/skill_packages/knowledge-base/agents/openai.yaml")
+        rules = Path("14_KB_System/skill_packages/knowledge-base/references/calling-rules.md")
+
+        self.assertTrue(skill.exists())
+        self.assertTrue(ui.exists())
+        self.assertTrue(rules.exists())
+        skill_text = skill.read_text(encoding="utf-8")
+        ui_text = ui.read_text(encoding="utf-8")
+        self.assertIn("name: knowledge-base", skill_text)
+        self.assertIn("/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md", skill_text)
+        self.assertIn("Do not scan the whole knowledge base", skill_text)
+        self.assertIn("display_name: \"知识库\"", ui_text)
 
     def test_evolution_report_writes_candidate_only_without_active_skill_changes(self):
         from tools.kb.evolution import write_evolution_report

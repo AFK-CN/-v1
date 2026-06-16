@@ -33,6 +33,7 @@
 - `12_User_Preferences/`：你的偏好、修改习惯、正负反馈。
 - `13_Evolving_Skills/`：可进化 Skill、提案、历史版本、回滚机制。
 - `14_KB_System/`：系统操作层，只放索引、状态、任务、日志、报告和候选资产，不放正式知识。
+- `14_KB_System/skill_packages/`：对外调用 Skill 源包，只放入口封装，不放正式知识。
 - `99_Archive/`：低价值、无效、重复资料的索引，不放原始删除动作。
 
 ## 当前已读原始数据
@@ -57,3 +58,11 @@
 - `11_Project_Use/项目调用规则.md`
 
 默认先读 `14_KB_System/index/task_entry_index.md` 和 `14_KB_System/index/knowledge_index.json`，按任务精准读取文件。除非你明确要求，其他项目禁止全库扫描，也禁止读取 `数据/`、`00_Inbox/`、`99_Archive/` 和未确认 Skill 提案。
+
+## Skill 入口
+
+对外固定入口源包：
+
+- `14_KB_System/skill_packages/knowledge-base/`
+
+其他项目优先通过 `$knowledge-base` / “知识库” Skill 入口调用，不要直接 `@知识库` 搜一批 Markdown 文件。该 Skill 默认只读入口和索引，再按任务读取少量正式知识文件。
