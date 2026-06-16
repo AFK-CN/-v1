@@ -4,7 +4,13 @@ __pycache__/
 *.pyc
 01_Case_Cleaning/video_learning/video_artifacts/
 01_Case_Cleaning/video_learning/image_artifacts/
+01_Case_Cleaning/video_learning/account_cards/
+01_Case_Cleaning/video_learning/deep_cards/
 01_Case_Cleaning/video_learning/selected_deep_cards/
+01_Case_Cleaning/video_learning/latest_*.json
+01_Case_Cleaning/video_learning/latest_*.md
+01_Case_Cleaning/video_learning/queues/
+01_Case_Cleaning/video_learning/state/
 *.log
 .pytest_cache/
 .mypy_cache/
