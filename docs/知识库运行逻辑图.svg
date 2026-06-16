@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="980" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">知识库运行逻辑图</title>
+  <desc id="desc">小红书与抖音自媒体创作知识库的输入、处理、沉淀、生产、反馈和 Skill 进化闭环。</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2f3a45"/>
+    </marker>
+    <marker id="arrow-soft" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#7b8794"/>
+    </marker>
+    <style>
+      .bg { fill: #f7f8fa; }
+      .title { font: 700 34px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #16202a; }
+      .subtitle { font: 400 17px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #52606d; }
+      .lane-title { font: 700 19px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #24313d; }
+      .box-title { font: 700 18px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #17212b; }
+      .box-text { font: 400 15px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #384554; }
+      .small { font: 400 13px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #52606d; }
+      .guard-title { font: 700 17px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #5b2b10; }
+      .guard-text { font: 400 14px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #6d3d1d; }
+      .lane { fill: #ffffff; stroke: #d8dee6; stroke-width: 1.2; rx: 14; }
+      .input { fill: #e9f5ff; stroke: #8dc5f3; stroke-width: 1.5; rx: 12; }
+      .process { fill: #eef8f1; stroke: #8ccf9c; stroke-width: 1.5; rx: 12; }
+      .decision { fill: #fff7e6; stroke: #dfaa3a; stroke-width: 1.5; }
+      .knowledge { fill: #f0f0ff; stroke: #a8a4e6; stroke-width: 1.5; rx: 12; }
+      .output { fill: #fff0f4; stroke: #e4a0b2; stroke-width: 1.5; rx: 12; }
+      .feedback { fill: #ecfbfb; stroke: #7bc9cc; stroke-width: 1.5; rx: 12; }
+      .skill { fill: #f7f1ff; stroke: #b99ce9; stroke-width: 1.5; rx: 12; }
+      .guard { fill: #fff4e8; stroke: #e0b17d; stroke-width: 1.5; rx: 12; }
+      .archive { fill: #f1f3f5; stroke: #b9c0c8; stroke-width: 1.2; rx: 10; }
+      .arrow { stroke: #2f3a45; stroke-width: 2.4; fill: none; marker-end: url(#arrow); }
+      .soft-arrow { stroke: #7b8794; stroke-width: 2; fill: none; marker-end: url(#arrow-soft); stroke-dasharray: 6 5; }
+      .label { font: 600 13px -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; fill: #344050; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1600" height="980"/>
+  <text class="title" x="70" y="70">知识库运行逻辑图</text>
+  <text class="subtitle" x="70" y="102">从原始资料进入，到方法论/选题沉淀，再到内容生产、反馈复盘与 Skill 进化的闭环。</text>
+
+  <rect class="lane" x="50" y="140" width="1500" height="430"/>
+  <text class="lane-title" x="75" y="175">主运行链路</text>
+
+  <rect class="input" x="80" y="215" width="220" height="145"/>
+  <text class="box-title" x="105" y="250">输入层</text>
+  <text class="box-text" x="105" y="282">00_Inbox / 数据/</text>
+  <text class="box-text" x="105" y="310">JSON、截图、表格</text>
+  <text class="box-text" x="105" y="338">文字反馈</text>
+
+  <rect class="process" x="360" y="215" width="265" height="145"/>
+  <text class="box-title" x="385" y="250">处理层</text>
+  <text class="box-text" x="385" y="282">平台识别、字段标准化</text>
+  <text class="box-text" x="385" y="310">去重、噪音识别</text>
+  <text class="box-text" x="385" y="338">质量评分、证据记录</text>
+
+  <polygon class="decision" points="760,205 880,287 760,370 640,287"/>
+  <text class="box-title" x="724" y="278">入库决策</text>
+  <text class="small" x="697" y="305">keep / review</text>
+  <text class="small" x="700" y="326">archive / discard</text>
+
+  <rect class="knowledge" x="940" y="185" width="285" height="205"/>
+  <text class="box-title" x="965" y="220">知识沉淀层</text>
+  <text class="box-text" x="965" y="252">02_Viral_Methods 爆款方法论</text>
+  <text class="box-text" x="965" y="280">03_Topic_Ideas 选题灵感库</text>
+  <text class="box-text" x="965" y="308">04_Platform_Knowledge 平台知识</text>
+  <text class="box-text" x="965" y="336">06_Sub_KB 已确认子库</text>
+  <text class="box-text" x="965" y="364">12_User_Preferences 用户偏好</text>
+
+  <rect class="output" x="1280" y="205" width="220" height="165"/>
+  <text class="box-title" x="1305" y="240">生产层</text>
+  <text class="box-text" x="1305" y="272">08_Content_Factory</text>
+  <text class="box-text" x="1305" y="300">小红书图文</text>
+  <text class="box-text" x="1305" y="328">抖音脚本</text>
+  <text class="box-text" x="1305" y="356">标题、封面、选题</text>
+
+  <rect class="archive" x="675" y="430" width="170" height="90"/>
+  <text class="box-title" x="710" y="464">非正式沉淀</text>
+  <text class="small" x="700" y="490">review 人工判断</text>
+  <text class="small" x="700" y="512">archive / discard</text>
+
+  <path class="arrow" d="M300 288 L360 288"/>
+  <path class="arrow" d="M625 288 L640 288"/>
+  <path class="arrow" d="M880 288 L940 288"/>
+  <path class="arrow" d="M1225 288 L1280 288"/>
+  <path class="soft-arrow" d="M760 370 L760 430"/>
+  <text class="label" x="900" y="270">keep</text>
+
+  <rect class="lane" x="50" y="610" width="940" height="280"/>
+  <text class="lane-title" x="75" y="645">反馈与进化闭环</text>
+
+  <rect class="feedback" x="90" y="690" width="250" height="125"/>
+  <text class="box-title" x="115" y="725">发布与观察</text>
+  <text class="box-text" x="115" y="757">平台表现、评论区</text>
+  <text class="box-text" x="115" y="785">人工反馈、截图/表格</text>
+
+  <rect class="feedback" x="405" y="690" width="240" height="125"/>
+  <text class="box-title" x="430" y="725">反馈层</text>
+  <text class="box-text" x="430" y="757">09_Performance_Feedback</text>
+  <text class="box-text" x="430" y="785">10_Weekly_Review</text>
+
+  <rect class="skill" x="710" y="675" width="245" height="155"/>
+  <text class="box-title" x="735" y="710">进化层</text>
+  <text class="box-text" x="735" y="742">13_Evolving_Skills/proposals</text>
+  <text class="box-text" x="735" y="770">用户确认后进入 active</text>
+  <text class="box-text" x="735" y="798">JSON入库 / 截图复盘 / 表格复盘</text>
+
+  <path class="arrow" d="M1500 370 C1500 555, 215 555, 215 690"/>
+  <path class="arrow" d="M340 753 L405 753"/>
+  <path class="arrow" d="M645 753 L710 753"/>
+  <path class="arrow" d="M833 675 C833 600, 492 600, 492 360"/>
+  <path class="soft-arrow" d="M525 690 C525 605, 1082 605, 1082 390"/>
+  <text class="label" x="815" y="626">Skill 规则回流到处理层</text>
+  <text class="label" x="1095" y="600">有效反馈沉淀为知识</text>
+
+  <rect class="lane" x="1030" y="610" width="520" height="280"/>
+  <text class="lane-title" x="1055" y="645">调用边界与硬规则</text>
+
+  <rect class="knowledge" x="1070" y="680" width="205" height="130"/>
+  <text class="box-title" x="1095" y="715">其他项目调用</text>
+  <text class="box-text" x="1095" y="747">11_Project_Use</text>
+  <text class="box-text" x="1095" y="775">默认只用已整理知识</text>
+
+  <rect class="guard" x="1315" y="660" width="200" height="190"/>
+  <text class="guard-title" x="1340" y="695">硬规则</text>
+  <text class="guard-text" x="1340" y="727">原始文件只读</text>
+  <text class="guard-text" x="1340" y="755">新增正式子库先确认</text>
+  <text class="guard-text" x="1340" y="783">active Skill 先 proposal</text>
+  <text class="guard-text" x="1340" y="811">低价值资料不进正式库</text>
+
+  <path class="arrow" d="M1275 745 L1315 745"/>
+  <path class="soft-arrow" d="M1415 660 C1415 590, 190 590, 190 360"/>
+  <path class="soft-arrow" d="M1415 660 C1415 565, 1082 565, 1082 390"/>
+  <path class="soft-arrow" d="M1415 660 C1415 585, 832 585, 832 675"/>
+
+  <text class="small" x="70" y="930">依据：知识库入口.md、本机使用速查.md、README.md、知识库运行规则.md、06_Sub_KB/知识成长自媒体方法论/README.md、11_Project_Use/项目调用规则.md</text>
+</svg>

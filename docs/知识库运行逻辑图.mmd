@@ -1,0 +1,26 @@
+flowchart LR
+  A["输入层<br/>00_Inbox / 数据<br/>JSON / 截图 / 表格 / 文字反馈"] --> B["处理层<br/>平台识别 -> 字段标准化 -> 去重<br/>噪音识别 -> 质量评分 -> 入库决策"]
+
+  B --> C{"入库决策"}
+  C -->|keep| D["知识沉淀层<br/>02_Viral_Methods 爆款方法论<br/>03_Topic_Ideas 选题灵感库<br/>04_Platform_Knowledge 平台知识<br/>06_Sub_KB 已确认子库<br/>12_User_Preferences 用户偏好"]
+  C -->|review| E["人工判断<br/>补充证据 / 确认方向"]
+  C -->|archive| F["99_Archive<br/>低价值 / 重复 / 无效资料索引"]
+  C -->|discard| G["不进入正式知识库<br/>原始资料仍保留"]
+  E --> B
+
+  D --> H["生产层<br/>08_Content_Factory<br/>小红书图文 / 抖音脚本<br/>标题封面 / 选题组合"]
+  H --> I["发布与观察<br/>平台表现 / 评论区 / 人工反馈"]
+  I --> J["反馈层<br/>09_Performance_Feedback<br/>10_Weekly_Review"]
+  J --> K["进化层<br/>13_Evolving_Skills/proposals<br/>Skill 提案"]
+  K -->|用户确认| L["13_Evolving_Skills/active<br/>JSON入库 / 截图复盘 / 表格复盘"]
+  L --> B
+  J --> D
+
+  D --> M["其他项目调用<br/>11_Project_Use<br/>默认只调用已整理知识"]
+  M --> H
+
+  N["硬规则<br/>原始文件只读<br/>新增正式子库先确认<br/>修改 active Skill 先 proposal<br/>低价值资料不进正式知识库"] -.约束.-> A
+  N -.约束.-> B
+  N -.约束.-> D
+  N -.约束.-> K
+

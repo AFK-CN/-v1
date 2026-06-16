@@ -1,0 +1,12 @@
+.DS_Store
+.venv/
+__pycache__/
+*.pyc
+01_Case_Cleaning/video_learning/video_artifacts/
+01_Case_Cleaning/video_learning/image_artifacts/
+01_Case_Cleaning/video_learning/selected_deep_cards/
+*.log
+.pytest_cache/
+.mypy_cache/
+feishu-auth-qrcode.png
+14_KB_System/tasks/running/
