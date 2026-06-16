@@ -15,4 +15,9 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 feishu-auth-qrcode.png
+14_KB_System/assets/
+14_KB_System/reports/latest_*
+14_KB_System/state/
 14_KB_System/tasks/running/
+14_KB_System/tasks/done/
+14_KB_System/tasks/failed/

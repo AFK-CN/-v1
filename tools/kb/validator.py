@@ -12,11 +12,12 @@ REQUIRED_FILES = (
     "11_Project_Use/项目调用规则.md",
     "14_KB_System/index/knowledge_index.json",
     "14_KB_System/index/task_entry_index.md",
-    "14_KB_System/assets/candidate_topics.jsonl",
-    "14_KB_System/reports/latest_kb_system_review_report.md",
     "14_KB_System/skill_packages/knowledge-base/SKILL.md",
     "14_KB_System/skill_packages/knowledge-base/agents/openai.yaml",
     "14_KB_System/skill_packages/knowledge-base/references/calling-rules.md",
+    "14_KB_System/skill_packages/知识库/SKILL.md",
+    "14_KB_System/skill_packages/知识库/agents/openai.yaml",
+    "14_KB_System/skill_packages/知识库/references/calling-rules.md",
 )
 
 
@@ -30,6 +31,8 @@ def validate_system(root: Path) -> dict[str, Any]:
     project_use_text = read_text(root / "11_Project_Use" / "项目调用规则.md")
     skill_text = read_text(root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md")
     skill_ui_text = read_text(root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents" / "openai.yaml")
+    zh_skill_text = read_text(root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md")
+    zh_skill_ui_text = read_text(root / "14_KB_System" / "skill_packages" / "知识库" / "agents" / "openai.yaml")
     if "索引" not in entry_text:
         failed.append("entry_missing_index_first_rule")
     if "禁止全盘扫库" not in project_use_text and "禁止全量扫库" not in project_use_text:
@@ -42,6 +45,10 @@ def validate_system(root: Path) -> dict[str, Any]:
         failed.append("skill_missing_data_protection")
     if "display_name: \"知识库\"" not in skill_ui_text:
         failed.append("skill_ui_missing_knowledge_base_display_name")
+    if "@知识库" not in zh_skill_text:
+        failed.append("zh_skill_missing_at_knowledge_base_trigger")
+    if "display_name: \"知识库\"" not in zh_skill_ui_text:
+        failed.append("zh_skill_ui_missing_knowledge_base_display_name")
     report_dir = root / SYSTEM_DIR / "reports"
     report_dir.mkdir(parents=True, exist_ok=True)
     report_path = report_dir / "latest_system_validation_report.md"
@@ -61,5 +68,5 @@ def render_validation_report(failed: list[str]) -> str:
         lines.append("## 失败项")
         lines.extend(f"- {item}" for item in failed)
     else:
-        lines.append("关键入口、索引、候选资产、调用规则均已具备。")
+        lines.append("关键入口、索引、Skill 入口、调用规则均已具备。候选资产、运行状态和最新报告属于运行产物，不要求进入 Git。")
     return "\n".join(lines) + "\n"

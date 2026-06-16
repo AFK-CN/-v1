@@ -63,6 +63,7 @@
 
 对外固定入口源包：
 
+- `14_KB_System/skill_packages/知识库/`：中文快捷入口，优先用于 `@知识库`
 - `14_KB_System/skill_packages/knowledge-base/`
 
-其他项目优先通过 `$knowledge-base` / “知识库” Skill 入口调用，不要直接 `@知识库` 搜一批 Markdown 文件。该 Skill 默认只读入口和索引，再按任务读取少量正式知识文件。
+其他项目优先通过 `@知识库` / “知识库” Skill 入口调用，不要直接用文件搜索选一批 Markdown 文件。该 Skill 默认只读入口和索引，再按任务读取少量正式知识文件。若当前界面不识别中文入口，再使用兼容入口 `$knowledge-base`。

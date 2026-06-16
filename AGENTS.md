@@ -2,7 +2,7 @@
 
 ## 知识库入口
 
-优先使用本仓库维护的 Skill 源包：`14_KB_System/skill_packages/knowledge-base/`。
+优先使用本仓库维护的中文 Skill 源包：`14_KB_System/skill_packages/知识库/`。兼容入口为 `14_KB_System/skill_packages/knowledge-base/`。
 
 当用户在本项目中输入 `使用知识库`、`调用知识库`、`读取知识库`，或要求基于本机知识库工作时，先读取：
 

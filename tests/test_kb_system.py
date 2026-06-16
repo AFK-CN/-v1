@@ -165,10 +165,10 @@ class KBSystemTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "14_KB_System" / "index").mkdir(parents=True)
-            (root / "14_KB_System" / "assets").mkdir(parents=True)
-            (root / "14_KB_System" / "reports").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references").mkdir(parents=True)
+            (root / "14_KB_System" / "skill_packages" / "知识库" / "agents").mkdir(parents=True)
+            (root / "14_KB_System" / "skill_packages" / "知识库" / "references").mkdir(parents=True)
             (root / "13_Evolving_Skills" / "active").mkdir(parents=True)
             (root / "13_Evolving_Skills" / "proposals").mkdir(parents=True)
             (root / "11_Project_Use").mkdir()
@@ -177,8 +177,6 @@ class KBSystemTests(unittest.TestCase):
             (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库，按索引按需调用，禁止读取数据目录\n", encoding="utf-8")
             (root / "14_KB_System" / "index" / "knowledge_index.json").write_text('{"files":[]}', encoding="utf-8")
             (root / "14_KB_System" / "index" / "task_entry_index.md").write_text("按需调用\n", encoding="utf-8")
-            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text("{}", encoding="utf-8")
-            (root / "14_KB_System" / "reports" / "latest_kb_system_review_report.md").write_text("# report\n", encoding="utf-8")
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md").write_text(
                 "description: 禁止全盘扫库，默认不读取 数据/\n", encoding="utf-8"
             )
@@ -187,6 +185,15 @@ class KBSystemTests(unittest.TestCase):
             )
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references" / "calling-rules.md").write_text(
                 "按索引调用\n", encoding="utf-8"
+            )
+            (root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md").write_text(
+                "description: @知识库，禁止全盘扫库，默认不读取 数据/\n", encoding="utf-8"
+            )
+            (root / "14_KB_System" / "skill_packages" / "知识库" / "agents" / "openai.yaml").write_text(
+                'interface:\n  display_name: "知识库"\n', encoding="utf-8"
+            )
+            (root / "14_KB_System" / "skill_packages" / "知识库" / "references" / "calling-rules.md").write_text(
+                "@知识库\n", encoding="utf-8"
             )
 
             result = validate_system(root)
@@ -198,16 +205,25 @@ class KBSystemTests(unittest.TestCase):
         skill = Path("14_KB_System/skill_packages/knowledge-base/SKILL.md")
         ui = Path("14_KB_System/skill_packages/knowledge-base/agents/openai.yaml")
         rules = Path("14_KB_System/skill_packages/knowledge-base/references/calling-rules.md")
+        zh_skill = Path("14_KB_System/skill_packages/知识库/SKILL.md")
+        zh_ui = Path("14_KB_System/skill_packages/知识库/agents/openai.yaml")
 
         self.assertTrue(skill.exists())
         self.assertTrue(ui.exists())
         self.assertTrue(rules.exists())
+        self.assertTrue(zh_skill.exists())
+        self.assertTrue(zh_ui.exists())
         skill_text = skill.read_text(encoding="utf-8")
         ui_text = ui.read_text(encoding="utf-8")
+        zh_skill_text = zh_skill.read_text(encoding="utf-8")
+        zh_ui_text = zh_ui.read_text(encoding="utf-8")
         self.assertIn("name: knowledge-base", skill_text)
         self.assertIn("/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md", skill_text)
         self.assertIn("Do not scan the whole knowledge base", skill_text)
         self.assertIn("display_name: \"知识库\"", ui_text)
+        self.assertIn("name: 知识库", zh_skill_text)
+        self.assertIn("@知识库", zh_skill_text)
+        self.assertIn("display_name: \"知识库\"", zh_ui_text)
 
     def test_evolution_report_writes_candidate_only_without_active_skill_changes(self):
         from tools.kb.evolution import write_evolution_report
