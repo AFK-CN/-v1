@@ -20,7 +20,12 @@ def calling_scope(relative_path: str) -> str:
         return "blocked_by_default"
     if first == SYSTEM_DIR:
         return "system_internal"
-    if first in FORMAL_KNOWLEDGE_DIRS or relative_path in {"知识库入口.md", "README.md", "本机使用速查.md", "知识库运行规则.md"}:
+    if first in FORMAL_KNOWLEDGE_DIRS or relative_path in {
+        "知识库入口.md",
+        "README.md",
+        "14_KB_System/rules/本机使用速查.md",
+        "14_KB_System/rules/知识库运行规则.md",
+    }:
         return "allowed"
     return "internal_or_review"
 
@@ -109,11 +114,11 @@ def build_file_relations(index: dict[str, Any]) -> dict[str, Any]:
     return {
         "generated_at": index["generated_at"],
         "relations": [
-            {"from": "知识库入口.md", "to": "本机使用速查.md", "relation": "entry_requires"},
+            {"from": "知识库入口.md", "to": "14_KB_System/rules/本机使用速查.md", "relation": "entry_requires"},
             {"from": "知识库入口.md", "to": "README.md", "relation": "entry_requires"},
-            {"from": "知识库入口.md", "to": "知识库运行规则.md", "relation": "entry_requires"},
-            {"from": "选题生成规则.md", "to": "03_Topic_Ideas/选题灵感库_v1.md", "relation": "defines_schema_for"},
-            {"from": "周复盘规则.md", "to": "13_Evolving_Skills/proposals", "relation": "may_create_proposal"},
+            {"from": "知识库入口.md", "to": "14_KB_System/rules/知识库运行规则.md", "relation": "entry_requires"},
+            {"from": "14_KB_System/rules/选题生成规则.md", "to": "03_Topic_Ideas/选题灵感库_v1.md", "relation": "defines_schema_for"},
+            {"from": "14_KB_System/rules/周复盘规则.md", "to": "13_Evolving_Skills/proposals", "relation": "may_create_proposal"},
         ],
     }
 
@@ -147,7 +152,7 @@ def render_task_entry_index() -> str:
 
 ## 通用使用
 
-- 先读：`知识库入口.md`、`本机使用速查.md`、`README.md`、`知识库运行规则.md`。
+- 先读：`知识库入口.md`、`14_KB_System/rules/本机使用速查.md`、`README.md`、`14_KB_System/rules/知识库运行规则.md`。
 
 ## 内容创作
 
@@ -156,7 +161,7 @@ def render_task_entry_index() -> str:
 
 ## 复盘和自我学习
 
-- 读取：`周复盘规则.md`、`10_Weekly_Review/`、`09_Performance_Feedback/`、`12_User_Preferences/`。
+- 读取：`14_KB_System/rules/周复盘规则.md`、`10_Weekly_Review/`、`09_Performance_Feedback/`、`12_User_Preferences/`。
 - Skill 更新只能写入 `13_Evolving_Skills/proposals/`。
 
 ## 其他项目调用

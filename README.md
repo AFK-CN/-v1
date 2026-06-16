@@ -32,6 +32,7 @@
 - `11_Project_Use/`：其他项目调用本知识库的规则。
 - `12_User_Preferences/`：你的偏好、修改习惯、正负反馈。
 - `13_Evolving_Skills/`：可进化 Skill、提案、历史版本、回滚机制。
+- `14_KB_System/`：系统操作层，只放索引、状态、任务、日志、报告和候选资产，不放正式知识。
 - `99_Archive/`：低价值、无效、重复资料的索引，不放原始删除动作。
 
 ## 当前已读原始数据
@@ -51,6 +52,8 @@
 新对话或其他项目调用方式见：
 
 - `知识库入口.md`
-- `本机使用速查.md`
-- `使用文档.md`
+- `14_KB_System/rules/本机使用速查.md`
+- `14_KB_System/rules/使用文档.md`
 - `11_Project_Use/项目调用规则.md`
+
+默认先读 `14_KB_System/index/task_entry_index.md` 和 `14_KB_System/index/knowledge_index.json`，按任务精准读取文件。除非你明确要求，其他项目禁止全库扫描，也禁止读取 `数据/`、`00_Inbox/`、`99_Archive/` 和未确认 Skill 提案。

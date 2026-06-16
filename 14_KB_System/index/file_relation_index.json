@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-06-16T12:21:28",
+  "generated_at": "2026-06-16T14:59:57",
   "relations": [
     {
       "from": "知识库入口.md",
-      "to": "本机使用速查.md",
+      "to": "14_KB_System/rules/本机使用速查.md",
       "relation": "entry_requires"
     },
     {
@@ -13,16 +13,16 @@
     },
     {
       "from": "知识库入口.md",
-      "to": "知识库运行规则.md",
+      "to": "14_KB_System/rules/知识库运行规则.md",
       "relation": "entry_requires"
     },
     {
-      "from": "选题生成规则.md",
+      "from": "14_KB_System/rules/选题生成规则.md",
       "to": "03_Topic_Ideas/选题灵感库_v1.md",
       "relation": "defines_schema_for"
     },
     {
-      "from": "周复盘规则.md",
+      "from": "14_KB_System/rules/周复盘规则.md",
       "to": "13_Evolving_Skills/proposals",
       "relation": "may_create_proposal"
     }

@@ -5,22 +5,24 @@
 当用户在本项目中输入 `使用知识库`、`调用知识库`、`读取知识库`，或要求基于本机知识库工作时，先读取：
 
 1. `知识库入口.md`
-2. `本机使用速查.md`
+2. `14_KB_System/rules/本机使用速查.md`
 3. `README.md`
+4. `14_KB_System/index/task_entry_index.md`
 
 然后根据任务类型继续读取相关文件：
 
-- JSON 入库：读取 `13_Evolving_Skills/active/JSON入库Skill_v1.md`、`JSON入库清洗规则.md`、`去重规则.md`。
+- JSON 入库：读取 `13_Evolving_Skills/active/JSON入库Skill_v1.md`、`14_KB_System/rules/JSON入库清洗规则.md`、`14_KB_System/rules/去重规则.md`。
 - 截图复盘：读取 `13_Evolving_Skills/active/截图复盘Skill_v1.md`、`09_Performance_Feedback/反馈入库模板.md`。
 - 表格复盘：读取 `13_Evolving_Skills/active/表格复盘Skill_v1.md`、`10_Weekly_Review/周复盘模板.md`。
 - 内容创作：读取 `02_Viral_Methods/`、`03_Topic_Ideas/`、`04_Platform_Knowledge/`、`08_Content_Factory/`。
 - 知识成长/自媒体方向：额外读取 `06_Sub_KB/知识成长自媒体方法论/`。
-- 子库判断：读取 `子知识库创建规则.md`、`05_Sub_KB_Candidates/`、`06_Sub_KB/`。
+- 子库判断：读取 `14_KB_System/rules/子知识库创建规则.md`、`05_Sub_KB_Candidates/`、`06_Sub_KB/`。
 
 ## 硬规则
 
 - 原始文件不删除、不修改。
 - `数据/` 和 `00_Inbox/` 中的原始资料只读处理。
+- 默认按 `14_KB_System/index/` 索引按需调用，禁止全盘扫库；除非用户明确要求，不展开扫描 `数据/`。
 - 新增正式子库前必须先向用户确认。
 - 修改 active Skill 前必须先进入 proposal，用户确认后再生效。
 - 无效信息、重复信息、低价值资料不进入正式知识库。

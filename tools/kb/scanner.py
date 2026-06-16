@@ -11,6 +11,8 @@ CLEANUP_NAMES = {".DS_Store", "feishu-auth-qrcode.png"}
 CLEANUP_SUFFIXES = {".pyc", ".tmp", ".log"}
 CLEANUP_PARTS = {"__pycache__", ".pytest_cache", ".mypy_cache"}
 RAW_SUFFIXES = {".json", ".csv", ".xlsx", ".xls", ".png", ".jpg", ".jpeg", ".webp", ".mp4", ".mov"}
+SKIP_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", ".mypy_cache", "数据"}
+PROTECTED_DIRS = {"数据"}
 
 
 def is_under(path: Path, names: tuple[str, ...]) -> bool:
@@ -59,11 +61,15 @@ def classify_file(root: Path, path: Path) -> dict[str, Any]:
 def scan_files(root: Path) -> dict[str, Any]:
     root = root.resolve()
     files = []
+    protected_directories = []
+    for name in sorted(PROTECTED_DIRS):
+        if (root / name).exists():
+            protected_directories.append({"path": name, "reason": "protected_raw_source_not_expanded"})
     for path in sorted(root.rglob("*")):
-        if not path.is_file():
-            continue
         relative = path.relative_to(root)
-        if ".git" in relative.parts:
+        if any(part in SKIP_DIRS for part in relative.parts):
+            continue
+        if not path.is_file():
             continue
         files.append(classify_file(root, path))
     cleanup = [item for item in files if item["cleanup_candidate"]]
@@ -72,6 +78,7 @@ def scan_files(root: Path) -> dict[str, Any]:
         "root": str(root),
         "file_count": len(files),
         "cleanup_candidate_count": len(cleanup),
+        "protected_directories": protected_directories,
         "files": files,
         "cleanup_candidates": cleanup,
     }
@@ -90,11 +97,20 @@ def write_scan_report(root: Path) -> dict[str, Any]:
         f"文件数量：{result['file_count']}",
         f"清理候选：{result['cleanup_candidate_count']}",
         "",
-        "## 清理候选",
+        "## 受保护目录",
         "",
         "| 路径 | 原因 |",
         "| --- | --- |",
     ]
+    for item in result["protected_directories"]:
+        lines.append(f"| {item['path']} | {item['reason']} |")
+    lines.extend([
+        "",
+        "## 清理候选",
+        "",
+        "| 路径 | 原因 |",
+        "| --- | --- |",
+    ])
     for item in result["cleanup_candidates"]:
         lines.append(f"| {item['path']} | {item['cleanup_reason']} |")
     report_path.write_text("\n".join(lines) + "\n", encoding="utf-8")

@@ -2,7 +2,7 @@
 
 ## 通用使用
 
-- 先读：`知识库入口.md`、`本机使用速查.md`、`README.md`、`知识库运行规则.md`。
+- 先读：`知识库入口.md`、`14_KB_System/rules/本机使用速查.md`、`README.md`、`14_KB_System/rules/知识库运行规则.md`。
 
 ## 内容创作
 
@@ -11,7 +11,7 @@
 
 ## 复盘和自我学习
 
-- 读取：`周复盘规则.md`、`10_Weekly_Review/`、`09_Performance_Feedback/`、`12_User_Preferences/`。
+- 读取：`14_KB_System/rules/周复盘规则.md`、`10_Weekly_Review/`、`09_Performance_Feedback/`、`12_User_Preferences/`。
 - Skill 更新只能写入 `13_Evolving_Skills/proposals/`。
 
 ## 其他项目调用

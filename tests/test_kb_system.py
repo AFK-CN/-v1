@@ -117,6 +117,91 @@ class KBSystemTests(unittest.TestCase):
             self.assertTrue(any(item["path"] == "知识库入口.md" for item in data["files"]))
             self.assertIn("其他项目调用", task_index.read_text(encoding="utf-8"))
 
+    def test_scanner_protects_data_directory_without_expanding_contents(self):
+        from tools.kb.scanner import scan_files
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json"
+            data_dir.mkdir(parents=True)
+            (data_dir / "large.json").write_text("[{}]", encoding="utf-8")
+            (root / "README.md").write_text("# KB\n", encoding="utf-8")
+
+            result = scan_files(root)
+
+            paths = {item["path"] for item in result["files"]}
+            protected = {item["path"] for item in result["protected_directories"]}
+            self.assertIn("README.md", paths)
+            self.assertNotIn("数据/douyin/json/large.json", paths)
+            self.assertIn("数据", protected)
+
+    def test_reorganizer_plans_root_cleanup_without_touching_submission_dirs(self):
+        from tools.kb.reorganizer import plan_reorganization
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "00_Inbox").mkdir()
+            (root / "数据").mkdir()
+            (root / "JSON入库清洗规则.md").write_text("# rule\n", encoding="utf-8")
+            (root / "验收报告_2026-06-14.md").write_text("# report\n", encoding="utf-8")
+            (root / "feishu_doc_read").mkdir()
+            (root / "feishu_doc_read" / "doc.md").write_text("# imported\n", encoding="utf-8")
+            (root / ".DS_Store").write_text("mac", encoding="utf-8")
+
+            plan = plan_reorganization(root)
+
+            actions = {item["path"]: item for item in plan["actions"]}
+            self.assertEqual(actions["JSON入库清洗规则.md"]["action"], "move")
+            self.assertEqual(actions["JSON入库清洗规则.md"]["target"], "14_KB_System/rules/JSON入库清洗规则.md")
+            self.assertEqual(actions["验收报告_2026-06-14.md"]["target"], "14_KB_System/reports/history/验收报告_2026-06-14.md")
+            self.assertEqual(actions["feishu_doc_read"]["target"], "99_Archive/feishu_doc_read")
+            self.assertEqual(actions[".DS_Store"]["action"], "delete_candidate")
+            self.assertNotIn("00_Inbox", actions)
+            self.assertNotIn("数据", actions)
+
+    def test_validate_system_checks_call_rules_and_core_outputs(self):
+        from tools.kb.validator import validate_system
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / "14_KB_System" / "index").mkdir(parents=True)
+            (root / "14_KB_System" / "assets").mkdir(parents=True)
+            (root / "14_KB_System" / "reports").mkdir(parents=True)
+            (root / "13_Evolving_Skills" / "active").mkdir(parents=True)
+            (root / "13_Evolving_Skills" / "proposals").mkdir(parents=True)
+            (root / "11_Project_Use").mkdir()
+            (root / "知识库入口.md").write_text("先读索引，禁止全盘扫库\n", encoding="utf-8")
+            (root / "README.md").write_text("14_KB_System\n", encoding="utf-8")
+            (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库，按索引按需调用，禁止读取数据目录\n", encoding="utf-8")
+            (root / "14_KB_System" / "index" / "knowledge_index.json").write_text('{"files":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "task_entry_index.md").write_text("按需调用\n", encoding="utf-8")
+            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text("{}", encoding="utf-8")
+            (root / "14_KB_System" / "reports" / "latest_kb_system_review_report.md").write_text("# report\n", encoding="utf-8")
+
+            result = validate_system(root)
+
+            self.assertTrue(result["ok"])
+            self.assertEqual(result["failed"], [])
+
+    def test_evolution_report_writes_candidate_only_without_active_skill_changes(self):
+        from tools.kb.evolution import write_evolution_report
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            active = root / "13_Evolving_Skills" / "active"
+            active.mkdir(parents=True)
+            active_file = active / "JSON入库Skill_v1.md"
+            active_file.write_text("active skill", encoding="utf-8")
+            (root / "14_KB_System" / "assets").mkdir(parents=True)
+            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
+
+            result = write_evolution_report(root)
+
+            self.assertEqual(active_file.read_text(encoding="utf-8"), "active skill")
+            report = root / result["report"]
+            self.assertTrue(report.exists())
+            self.assertIn("只生成候选", report.read_text(encoding="utf-8"))
+
 
 if __name__ == "__main__":
     unittest.main()

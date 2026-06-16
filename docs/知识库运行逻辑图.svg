@@ -118,19 +118,19 @@
   <rect class="knowledge" x="1070" y="680" width="205" height="130"/>
   <text class="box-title" x="1095" y="715">其他项目调用</text>
   <text class="box-text" x="1095" y="747">11_Project_Use</text>
-  <text class="box-text" x="1095" y="775">默认只用已整理知识</text>
+  <text class="box-text" x="1095" y="775">索引优先按需调用</text>
 
   <rect class="guard" x="1315" y="660" width="200" height="190"/>
   <text class="guard-title" x="1340" y="695">硬规则</text>
   <text class="guard-text" x="1340" y="727">原始文件只读</text>
   <text class="guard-text" x="1340" y="755">新增正式子库先确认</text>
   <text class="guard-text" x="1340" y="783">active Skill 先 proposal</text>
-  <text class="guard-text" x="1340" y="811">低价值资料不进正式库</text>
+  <text class="guard-text" x="1340" y="811">默认不全盘扫库</text>
 
   <path class="arrow" d="M1275 745 L1315 745"/>
   <path class="soft-arrow" d="M1415 660 C1415 590, 190 590, 190 360"/>
   <path class="soft-arrow" d="M1415 660 C1415 565, 1082 565, 1082 390"/>
   <path class="soft-arrow" d="M1415 660 C1415 585, 832 585, 832 675"/>
 
-  <text class="small" x="70" y="930">依据：知识库入口.md、本机使用速查.md、README.md、知识库运行规则.md、06_Sub_KB/知识成长自媒体方法论/README.md、11_Project_Use/项目调用规则.md</text>
+  <text class="small" x="70" y="930">依据：知识库入口.md、14_KB_System/index、14_KB_System/rules、README.md、11_Project_Use/项目调用规则.md</text>
 </svg>
