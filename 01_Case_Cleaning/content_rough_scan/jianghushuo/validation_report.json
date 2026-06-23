@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-06-20T19:58:18",
+  "profile_id": "jianghushuo",
+  "account_name": "姜胡说",
+  "total": 573,
+  "deep_learning_targets": 127,
+  "non_deep_learning": 446,
+  "needs_review": 0,
+  "direction_counts": {
+    "个人成长": 60,
+    "人生策略": 52,
+    "创业": 28,
+    "商业机会": 27,
+    "技能沉淀": 27,
+    "短视频": 44,
+    "结构化理解": 36,
+    "自媒体": 27,
+    "表达文案": 22,
+    "认知升级": 65,
+    "财富策略": 34,
+    "赚钱": 103,
+    "阅读输入": 48
+  },
+  "errors": [],
+  "valid": true
+}

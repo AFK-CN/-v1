@@ -1,0 +1,1276 @@
+{
+  "generated_at": "2026-06-21T16:29:00",
+  "profile_id": "jianghushuo",
+  "account": "姜胡说",
+  "direction": "人生策略",
+  "policy": "正式热知识保留；大体积证据登记云端候选；候选区原件待迁移/删除审核。",
+  "items": [
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3866,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 1920090,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 2397,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 972428,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 266,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 91,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 91,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 266,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3331,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 10198328,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4674,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 104688,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 230,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 45775001,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 5661,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 4962,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 4962,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 5661,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3195,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 4311234,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4672,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 139420,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 137229,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 162567,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 126379,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 515,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 27048696,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 3334,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 2418,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 2418,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3334,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3814,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 1920090,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 2397,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 972428,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 165,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 45,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 45,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 165,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3783,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 1920090,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 2397,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 972428,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 165,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 45,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 45,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 165,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3340,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 5157600,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4617,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 281283,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 230,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 31317045,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 8620,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 4676,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 4676,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 8620,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/07_7401507931113475363_选择性博弈.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3639,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 18872606,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4620,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 304571,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 232,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 93941521,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 37290,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 19083,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 19083,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 37290,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/08_7542157131752033546_省力路径设计.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3642,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 10965190,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4619,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 212825,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 232,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 51483392,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 20369,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 11005,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 11005,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 20369,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3683,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 18520406,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4628,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 601875,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 684076,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 576574,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 638449,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 636102,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 641687,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 625911,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 640648,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 643538,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 583395,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 684935,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 566134,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 643151,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 688729,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 490696,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 600681,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 642967,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 769693,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 570298,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 710304,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 696501,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 666100,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 676043,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 648264,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 652254,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 647494,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 648623,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 677207,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-029-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 646437,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-030-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 689168,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-031-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 581583,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-032-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 666674,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-033-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 614120,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-034-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 618077,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-035-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 537037,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-036-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 631764,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-037-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 551846,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-038-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 642518,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-039-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 601524,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-040-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 628975,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-041-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 623787,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-042-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 611030,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-043-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 608272,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-044-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 611097,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-045-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 592866,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-046-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 592031,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-047-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 605936,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-048-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 631712,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-049-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 474143,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-050-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 639848,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-051-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 461670,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-052-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 570536,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-053-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 624137,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-054-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 657386,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-055-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 460515,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-056-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 607406,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-057-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 619845,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scene-058-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 380243,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 5474,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 386980983,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 48039,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 23387,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 23387,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 48039,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 3990,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 16670194,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4621,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 104492,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 170404,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 115320,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 159653,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 98544,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 124023,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 101182,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 149369,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 107818,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 161137,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 111463,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 159091,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 114192,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 154464,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 94225,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181531,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 107485,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 144944,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 91834,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 155759,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 97732,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 154869,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 105455,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 161050,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 106253,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 144282,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 109580,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 149620,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 2706,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 59081228,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 39636,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 20264,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 20264,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 39636,
+      "note": "逐字稿正式副本。"
+    }
+  ]
+}
