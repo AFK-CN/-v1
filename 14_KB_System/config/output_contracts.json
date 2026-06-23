@@ -1,0 +1,58 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-06-22",
+  "clarification_policy": {
+    "max_questions": 3,
+    "rule": "固定高级入口缺少最低信息时先反问，不直接生成；只缺可选信息时可采用默认值并说明。"
+  },
+  "contracts": [
+    {
+      "route_id": "topic_generation",
+      "name": "出选题输出契约",
+      "required_fields": ["选题标题", "对应方法论", "受众痛点", "钩子角度", "核心观点", "对标知识库内容", "原链接或证据来源", "来源层级", "证据边界"],
+      "must_not": ["不把候选资产写成正式知识", "不编造原链接、source_id、收益或案例", "不只换关键词批量输出"]
+    },
+    {
+      "route_id": "script_generation",
+      "name": "写文案/口播输出契约",
+      "required_fields": ["黄金3s", "完整文案", "互动收尾", "对标知识库内容", "source_id", "原链接", "来源层级", "证据边界"],
+      "must_not": ["不直接反写正式知识", "不把粗扫线索写成已验证事实", "不复用同一个钩子批量套壳"]
+    },
+    {
+      "route_id": "account_learning",
+      "name": "账号学习输出契约",
+      "required_fields": ["方向统计", "Top内容清单", "深度学习卡", "候选学习卡", "审核清单", "入库建议", "不能入库或需补证据内容"],
+      "must_not": ["不直接写正式账号中心", "不自动创建正式子库", "不跳过审核注册表"]
+    },
+    {
+      "route_id": "json_ingest",
+      "name": "JSON 入库输出契约",
+      "required_fields": ["数据盘点", "字段统计", "去重统计", "噪音判断", "keep/review/archive/discard 决策", "候选内容", "需用户确认事项"],
+      "must_not": ["不修改原始 JSON", "不删除原始资料", "不只按指标判断长期价值"]
+    },
+    {
+      "route_id": "screenshot_review",
+      "name": "截图复盘输出契约",
+      "required_fields": ["platform", "page_type", "content_id", "visible_metrics", "uncertain_metrics", "performance_signal", "next_review_action"],
+      "must_not": ["不猜测看不清的数字", "不单凭截图决定长期方法论有效", "不跨平台硬比"]
+    },
+    {
+      "route_id": "table_review",
+      "name": "表格复盘输出契约",
+      "required_fields": ["platform", "date_range", "rows", "columns", "best_items", "worst_items", "method_updates", "topic_updates", "uncertain_columns"],
+      "must_not": ["不混用不同平台字段定义", "不只看数字不看内容结构", "缺少内容文本时必须回查标题或案例"]
+    },
+    {
+      "route_id": "skill_evolution",
+      "name": "Skill 沉淀输出契约",
+      "required_fields": ["适用范围", "触发条件", "证据", "拟变更规则", "风险", "验证用例", "回滚方式"],
+      "must_not": ["不直接覆盖 active Skill", "不把账号专属规则写成通用规则", "不把一次性反馈沉淀为长期规则"]
+    },
+    {
+      "route_id": "system_audit",
+      "name": "系统审计输出契约",
+      "required_fields": ["入口状态", "active Skill", "待确认 proposal", "候选待审核", "账号中心状态", "最近学习状态", "验证结果", "建议下一步动作"],
+      "must_not": ["不把 history/proposals 当 active", "不忽略候选/正式边界", "不只报告文件存在而不检查路由"]
+    }
+  ]
+}

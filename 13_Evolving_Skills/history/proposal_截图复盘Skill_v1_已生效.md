@@ -1,6 +1,6 @@
 # Skill 提案：截图复盘 v1
 
-状态：proposal，待你确认后才能进入 active。
+状态：history，已生效为 `13_Evolving_Skills/active/截图复盘Skill_v1.md`，不再作为待确认 proposal 调用。
 
 ## 触发原因
 
@@ -39,4 +39,3 @@ next_review_action:
 ## 回滚方式
 
 如果该 Skill 导致截图解读变差，撤回本提案，不进入 active。
-

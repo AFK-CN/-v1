@@ -1,6 +1,16 @@
 {
-  "generated_at": "2026-06-16T14:59:57",
+  "generated_at": "2026-06-22T09:23:53",
   "relations": [
+    {
+      "from": "知识库入口.md",
+      "to": "14_KB_System/rules/用户操作台.md",
+      "relation": "entry_requires"
+    },
+    {
+      "from": "知识库入口.md",
+      "to": "14_KB_System/index/controller_routes.json",
+      "relation": "entry_requires"
+    },
     {
       "from": "知识库入口.md",
       "to": "14_KB_System/rules/本机使用速查.md",

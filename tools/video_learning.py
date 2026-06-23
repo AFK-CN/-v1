@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
 import statistics
@@ -511,6 +512,240 @@ def reusable_template(direction: str, record: NormalizedRecord) -> str:
     return "强观点开头 -> 解释为什么 -> 给具体动作 -> 金句或行动号召"
 
 
+def golden_3s_hook(record: NormalizedRecord) -> str:
+    source = record.title or first_sentence(record.body, 80)
+    hook = first_sentence(source, 42)
+    return f"{hook}。"
+
+
+def ending_quote_or_interaction(record: NormalizedRecord) -> str:
+    text = first_sentence(record.body or record.title, 180)
+    if any(marker in text for marker in ["评论", "留言", "想一想", "思考", "行动", "试试", "记住"]):
+        return text
+    return "未明确"
+
+
+def first_non_unknown(directions: list[str]) -> str:
+    for direction in directions:
+        if direction != "未归类":
+            return direction
+    return directions[0] if directions else "未归类"
+
+
+def candidate_topic_angle(direction: str, record: NormalizedRecord) -> str:
+    if direction in {"赚钱", "创业", "自媒体", "短视频", "个人成长", "人生策略", "做事框架", "高手思考模型", "认知升级", "结构化理解", "商业机会", "财富策略"}:
+        return f"围绕{direction}拆成一个可执行的方法或行动模板"
+    if direction in {"剧情短剧", "喜剧反转", "身份错位短剧", "生活荒诞反转", "爱情关系喜剧", "性格标签喜剧", "人际社交观察", "职场关系"}:
+        return f"围绕{direction}拆成角色关系、场景冲突和反转结构"
+    if record.platform == "xhs":
+        return f"围绕{direction}做成步骤清单、周期清单或结果清单"
+    return f"围绕{direction}提炼可复用表达结构"
+
+
+def candidate_content_format(record: NormalizedRecord) -> str:
+    return "图文清单/教程" if record.platform == "xhs" else "口播短视频/图文改写"
+
+
+def candidate_topic_rows(rankings: dict[str, list[RankedRecord]]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for direction, ranked_items in rankings.items():
+        for item in ranked_items:
+            record = item.record
+            rows.append(
+                {
+                    "topic_id": f"candidate-{record.platform}-{direction}-{record.source_id}",
+                    "platform": record.platform,
+                    "account_name": record.account_name or record.author_name,
+                    "direction": direction,
+                    "rank": item.rank,
+                    "score": item.score,
+                    "source_id": record.source_id,
+                    "source_url": record.url,
+                    "title": record.title,
+                    "topic_angle": candidate_topic_angle(direction, record),
+                    "content_format": candidate_content_format(record),
+                    "audience": infer_audience(direction, record),
+                    "template": reusable_template(direction, record),
+                    "metrics": record.metrics,
+                    "published_at": record.published_at,
+                    "status": "candidate",
+                }
+            )
+    return rows
+
+
+def content_inventory_rows(records: list[NormalizedRecord], rankings: dict[str, list[RankedRecord]]) -> list[dict[str, Any]]:
+    best_rankings: dict[tuple[str, str], dict[str, Any]] = {}
+    for direction, ranked_items in rankings.items():
+        for item in ranked_items:
+            key = (item.record.platform, item.record.source_id)
+            current = best_rankings.get(key)
+            if current is None or item.score > current["score"] or (item.score == current["score"] and item.rank < current["rank"]):
+                best_rankings[key] = {"direction": direction, "rank": item.rank, "score": item.score}
+
+    rows: list[dict[str, Any]] = []
+    for record in sorted(records, key=lambda item: (item.account_name or item.author_name, item.platform, item.source_id)):
+        directions = detect_directions(record)
+        primary_direction = first_non_unknown(directions)
+        best = best_rankings.get((record.platform, record.source_id), {})
+        best_rank = int(best["rank"]) if best.get("rank") else 999
+        rows.append(
+            {
+                "platform": record.platform,
+                "account_name": record.account_name or record.author_name,
+                "source_id": record.source_id,
+                "source_url": record.url,
+                "published_at": record.published_at,
+                "title": record.title,
+                "body_snippet": first_sentence(record.body or record.title, 120),
+                "directions": directions,
+                "primary_direction": primary_direction,
+                "direction_count": len([direction for direction in directions if direction != "未归类"]),
+                "heat_score": heat_score(record),
+                "metrics": record.metrics,
+                "best_direction": best.get("direction", primary_direction),
+                "best_direction_rank": best.get("rank", ""),
+                "best_direction_score": best.get("score", ""),
+                "content_hint": candidate_topic_angle(primary_direction, record),
+                "content_format": candidate_content_format(record),
+                "learning_priority": "high" if best_rank <= 3 else "medium" if heat_score(record) >= 20 else "low",
+            }
+        )
+    return rows
+
+
+def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
+    path.write_text("\n".join(json.dumps(row, ensure_ascii=False) for row in rows) + ("\n" if rows else ""), encoding="utf-8")
+
+
+def render_content_inventory_md(rows: list[dict[str, Any]], account_name: str, records: list[NormalizedRecord], raw_counts: dict[str, int], dedupe_stats: dict[str, int]) -> str:
+    lines = [
+        "# 初扫知识池：内容清单",
+        "",
+        f"生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"账号过滤：{account_name or '未启用'}",
+        f"清洗后内容数：{len(rows)}",
+        "",
+        "## 数据概览",
+        "",
+        f"- 抖音内容：{raw_counts.get('douyin_contents', 0)}",
+        f"- 小红书内容：{raw_counts.get('xhs_contents', 0)}",
+        f"- 抖音评论：{raw_counts.get('douyin_comments', 0)}",
+        f"- 去重后内容：{dedupe_stats.get('unique_records', len(records))}",
+        "",
+        "## 账号与方向",
+        "",
+        "| 账号 | 平台 | 内容数 | 点赞合计 | 收藏合计 | 评论合计 | 转发合计 |",
+        "| --- | --- | ---: | ---: | ---: | ---: | ---: |",
+    ]
+    for row in account_summary(records):
+        lines.append(
+            f"| {row['account_name']} | {row['platform']} | {row['count']} | {row['likes_sum']} | {row['collects_sum']} | {row['comments_sum']} | {row['shares_sum']} |"
+        )
+    lines.extend([
+        "",
+        "| 账号 | 平台 | 方向 | 内容数 | Top内容 | Top分数 |",
+        "| --- | --- | --- | ---: | --- | ---: |",
+    ])
+    for row in account_direction_summary(records):
+        lines.append(
+            f"| {row['account_name']} | {row['platform']} | {row['direction']} | {row['count']} | {row['top_title'].replace(chr(10), ' ')[:40]} | {row['top_score']} |"
+        )
+    lines.extend([
+        "",
+        "## 内容清单 Top50",
+        "",
+        "| 账号 | 平台 | 标题 | 主方向 | 热度分 | 建议 | 原链接 |",
+        "| --- | --- | --- | --- | ---: | --- | --- |",
+    ])
+    top_rows = sorted(rows, key=lambda row: (float(row["heat_score"]), float(row["best_direction_score"] or 0)), reverse=True)[:50]
+    for row in top_rows:
+        title = str(row["title"]).replace("\n", " ")[:60]
+        lines.append(
+            f"| {row['account_name']} | {row['platform']} | {title} | {row['primary_direction']} | {row['heat_score']} | {row['learning_priority']} | {row['source_url']} |"
+        )
+    return "\n".join(lines) + "\n"
+
+
+def render_topic_pool_md(rows: list[dict[str, Any]], account_name: str) -> str:
+    lines = [
+        "# 初扫知识池：代选选题池",
+        "",
+        f"生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"账号过滤：{account_name or '未启用'}",
+        "",
+        "全部内容均为候选，不等于正式知识。",
+        "",
+        "| 方向 | 排名 | 账号 | 平台 | 原标题 | 候选选题角度 | 热度分 | 证据 |",
+        "| --- | ---: | --- | --- | --- | --- | ---: | --- |",
+    ]
+    for row in sorted(rows, key=lambda item: (item["direction"], item["rank"], -float(item["score"]))):
+        title = str(row["title"]).replace("\n", " ")[:48]
+        angle = str(row["topic_angle"]).replace("\n", " ")[:48]
+        lines.append(
+            f"| {row['direction']} | {row['rank']} | {row['account_name']} | {row['platform']} | {title} | {angle} | {row['score']} | {row['source_url']} |"
+        )
+    return "\n".join(lines) + "\n"
+
+
+def render_direction_matrix_md(rankings: dict[str, list[RankedRecord]], account_name: str) -> str:
+    lines = [
+        "# 初扫知识池：方向矩阵",
+        "",
+        f"生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        f"账号过滤：{account_name or '未启用'}",
+        "",
+        "每个方向按数据热度取 Top10 代表视频。",
+        "",
+    ]
+    for direction, ranked_items in rankings.items():
+        lines.extend(
+            [
+                f"## {direction}",
+                "",
+                "| 排名 | 账号 | 平台 | 标题 | 热度分 | 点赞 | 收藏 | 评论 | 转发 | 证据 |",
+                "| ---: | --- | --- | --- | ---: | ---: | ---: | ---: | ---: | --- |",
+            ]
+        )
+        for item in ranked_items:
+            record = item.record
+            metrics = record.metrics
+            title = record.title.replace("\n", " ")[:60]
+            lines.append(
+                f"| {item.rank} | {record.account_name or record.author_name} | {record.platform} | {title} | {item.score} | {metrics['likes']} | {metrics['collects']} | {metrics['comments']} | {metrics['shares']} | {record.url} |"
+            )
+        lines.append("")
+    return "\n".join(lines) + "\n"
+
+
+def write_initial_knowledge_outputs(
+    root: Path,
+    account_name: str,
+    records: list[NormalizedRecord],
+    raw_counts: dict[str, int],
+    dedupe_stats: dict[str, int],
+    rankings: dict[str, list[RankedRecord]],
+) -> dict[str, str]:
+    output_dir = video_learning_dir(root) / "initial_knowledge"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    inventory_rows = content_inventory_rows(records, rankings)
+    topic_rows = candidate_topic_rows(rankings)
+    write_jsonl(output_dir / "latest_content_inventory.jsonl", inventory_rows)
+    (output_dir / "latest_content_inventory.md").write_text(
+        render_content_inventory_md(inventory_rows, account_name, records, raw_counts, dedupe_stats),
+        encoding="utf-8",
+    )
+    write_jsonl(output_dir / "latest_topic_pool.jsonl", topic_rows)
+    (output_dir / "latest_topic_pool.md").write_text(render_topic_pool_md(topic_rows, account_name), encoding="utf-8")
+    (output_dir / "latest_direction_matrix.md").write_text(render_direction_matrix_md(rankings, account_name), encoding="utf-8")
+    return {
+        "initial_knowledge_dir": str(output_dir.relative_to(root)),
+        "content_inventory": str((output_dir / "latest_content_inventory.md").relative_to(root)),
+        "topic_pool": str((output_dir / "latest_topic_pool.md").relative_to(root)),
+        "direction_matrix": str((output_dir / "latest_direction_matrix.md").relative_to(root)),
+    }
+
+
 def high_confidence(item: RankedRecord) -> bool:
     record = item.record
     if item.direction == "未归类":
@@ -525,6 +760,56 @@ def high_confidence(item: RankedRecord) -> bool:
 def safe_filename(value: str) -> str:
     cleaned = re.sub(r"[^\w\u4e00-\u9fff.-]+", "_", value, flags=re.UNICODE).strip("_")
     return cleaned or "unknown"
+
+
+def media_duration_seconds(path: Path) -> float:
+    ffprobe = find_executable("ffprobe")
+    if not ffprobe or not path.exists():
+        return 0.0
+    try:
+        probe = subprocess.run(
+            [ffprobe, "-v", "error", "-show_entries", "format=duration", "-of", "json", str(path)],
+            check=True,
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        return float(json.loads(probe.stdout).get("format", {}).get("duration") or 0.0)
+    except (OSError, ValueError, TypeError, json.JSONDecodeError, subprocess.SubprocessError):
+        return 0.0
+
+
+def transcript_covers_video(video_path: Path, transcript_json_path: Path) -> bool:
+    duration = media_duration_seconds(video_path)
+    if duration <= 0 or not transcript_json_path.exists() or transcript_json_path.stat().st_size <= 0:
+        return False
+    try:
+        transcript = json.loads(transcript_json_path.read_text(encoding="utf-8"))
+        segments = transcript.get("segments") or []
+        transcript_end = max((float(segment.get("end") or 0.0) for segment in segments), default=0.0)
+    except (OSError, ValueError, TypeError, json.JSONDecodeError):
+        return False
+    allowed_tail_gap = max(10.0, duration * 0.05)
+    return transcript_end >= duration - allowed_tail_gap
+
+
+def existing_video_bundle_is_complete(
+    video_path: Path,
+    audio_path: Path,
+    metadata_path: Path,
+    transcript_json_path: Path,
+    transcript_srt_path: Path,
+    scene_files: list[Path],
+) -> bool:
+    derived_paths = [audio_path, metadata_path, transcript_json_path, transcript_srt_path, *scene_files]
+    if not video_path.exists() or not scene_files or any(not path.exists() or path.stat().st_size <= 0 for path in derived_paths):
+        return False
+    if not media_file_is_usable(video_path):
+        return False
+    video_mtime = video_path.stat().st_mtime
+    if any(path.stat().st_mtime < video_mtime for path in derived_paths):
+        return False
+    return transcript_covers_video(video_path, transcript_json_path)
 
 
 def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> dict[str, Any]:
@@ -545,7 +830,14 @@ def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> d
     transcript_json_path = artifact_dir / "transcript.json"
     transcript_srt_path = artifact_dir / "transcript.srt"
     existing_scene_files = sorted(artifact_dir.glob("*Scenes.csv"))
-    if video_path.exists() and audio_path.exists() and metadata_path.exists() and transcript_json_path.exists() and transcript_srt_path.exists() and existing_scene_files:
+    if existing_video_bundle_is_complete(
+        video_path,
+        audio_path,
+        metadata_path,
+        transcript_json_path,
+        transcript_srt_path,
+        existing_scene_files,
+    ):
         status["status"] = "video_transcribed_and_scenes_detected"
         status["artifacts"] = {
             "video": str(video_path.relative_to(root)),
@@ -720,12 +1012,17 @@ def download_image_url(url: str, path: Path) -> None:
 
 
 VIDEO_DOWNLOAD_TIMEOUT_SECONDS = 300
+VIDEO_RESUME_TIMEOUT_SECONDS = 1800
 VIDEO_CONNECT_TIMEOUT_SECONDS = 20
 
 
 def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIMEOUT_SECONDS) -> None:
     curl = find_executable("curl")
     if curl:
+        resuming = path.exists() and path.stat().st_size > 0
+        resume_args = ["--continue-at", "-"] if resuming else []
+        retry_count = "0" if resuming else "3"
+        effective_timeout = max(timeout, VIDEO_RESUME_TIMEOUT_SECONDS) if resuming else timeout
         subprocess.run(
             [
                 curl,
@@ -736,9 +1033,9 @@ def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIME
                 "--connect-timeout",
                 str(VIDEO_CONNECT_TIMEOUT_SECONDS),
                 "--max-time",
-                str(timeout),
+                str(effective_timeout),
                 "--retry",
-                "3",
+                retry_count,
                 "--retry-delay",
                 "2",
                 "--retry-all-errors",
@@ -746,6 +1043,7 @@ def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIME
                 "1024",
                 "--speed-time",
                 "60",
+                *resume_args,
                 "-A",
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/125.0 Safari/537.36",
@@ -760,9 +1058,10 @@ def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIME
             check=True,
             capture_output=True,
             text=True,
-            timeout=timeout + 30,
+            timeout=effective_timeout + 30,
         )
         return
+    path.unlink(missing_ok=True)
     request = urllib.request.Request(
         url,
         headers={
@@ -791,17 +1090,41 @@ def media_file_is_readable(path: Path) -> bool:
     return probe.returncode == 0
 
 
+def media_file_decodes(path: Path) -> bool:
+    if not path.exists() or path.stat().st_size <= 0:
+        return False
+    ffmpeg = find_executable("ffmpeg")
+    if not ffmpeg:
+        return media_file_is_readable(path)
+    probe = subprocess.run(
+        [ffmpeg, "-xerror", "-v", "error", "-i", str(path), "-map", "0:v:0", "-f", "null", "-"],
+        capture_output=True,
+        text=True,
+        timeout=300,
+    )
+    return probe.returncode == 0
+
+
+def media_file_is_usable(path: Path) -> bool:
+    return media_file_is_readable(path) and media_file_decodes(path)
+
+
 def ensure_video_file(url: str, path: Path) -> list[str]:
-    if media_file_is_readable(path):
+    if media_file_is_usable(path):
         return ["using_existing_video_file"]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    download_path = path.with_name(f"{path.name}.download")
     try:
-        download_binary_url(url, path)
+        download_binary_url(url, download_path)
     except Exception as exc:
-        if media_file_is_readable(path):
-            return [f"download_reported_error_but_file_is_readable: {exc}"]
+        if media_file_is_usable(download_path):
+            download_path.replace(path)
+            return [f"download_reported_error_but_file_is_usable: {exc}"]
         raise
-    if not media_file_is_readable(path):
-        raise RuntimeError(f"downloaded video is not readable: {path}")
+    if not media_file_is_usable(download_path):
+        download_path.unlink(missing_ok=True)
+        raise RuntimeError(f"downloaded video is not usable: {path}")
+    download_path.replace(path)
     return []
 
 
@@ -978,6 +1301,7 @@ rank: {item.rank}
 heat_score: {item.score}
 title: {record.title}
 url: {record.url}
+original_video_url: {record.url}
 metrics:
   likes: {metrics["likes"]}
   collects: {metrics["collects"]}
@@ -988,6 +1312,8 @@ image_analysis_status: {image["status"]}
 decision: {"keep" if high_confidence(item) else "review"}
 ```
 
+原视频链接：{record.url}
+
 ## 为什么入选
 
 - 账号：{record.account_name or "未知账号"}。
@@ -997,10 +1323,12 @@ decision: {"keep" if high_confidence(item) else "review"}
 
 ## 内容结构
 
+- 黄金 3 秒钩子：{golden_3s_hook(record)}
 - 开头：{first_sentence(record.title, 60)}
 - 痛点：{infer_audience(item.direction, record)}需要更低门槛、更可复用的方法。
 - 展开：{first_sentence(record.body, 120)}
 - 结尾：适合收束为一个可复述的行动建议或清单承诺。
+- 结尾金句/互动引导：{ending_quote_or_interaction(record)}
 
 ## 可复用价值
 
@@ -1202,6 +1530,7 @@ def write_outputs(
     dedupe_stats: dict[str, int],
     records: list[NormalizedRecord],
     rankings: dict[str, list[RankedRecord]],
+    account_name: str,
     apply: bool,
     analyze_video: bool,
     video_limit: int,
@@ -1251,6 +1580,8 @@ def write_outputs(
             if high_confidence(item):
                 high_items.append(item)
 
+    initial_knowledge_outputs = write_initial_knowledge_outputs(root, account_name, records, raw_counts, dedupe_stats, rankings)
+
     ranking_json = {
         direction: [
             {
@@ -1263,6 +1594,10 @@ def write_outputs(
                 "metrics": item.record.metrics,
                 "url": item.record.url,
                 "image_count": len(item.record.image_urls),
+                "published_at": item.record.published_at,
+                "primary_direction": first_non_unknown(detect_directions(item.record)),
+                "topic_angle": candidate_topic_angle(item.direction, item.record),
+                "content_format": candidate_content_format(item.record),
             }
             for item in ranked
         ]
@@ -1277,7 +1612,7 @@ def write_outputs(
         encoding="utf-8",
     )
 
-    report = report_markdown(raw_counts, dedupe_stats, records, rankings, high_items, apply, analyze_video, analyze_images)
+    report = report_markdown(raw_counts, dedupe_stats, records, rankings, high_items, apply, analyze_video, analyze_images, account_name)
     (output_dir / "latest_scan_report.md").write_text(report, encoding="utf-8")
 
     formal_counts = {"methods": 0, "topics": 0, "templates": 0}
@@ -1297,6 +1632,7 @@ def write_outputs(
         "high_confidence": len(high_items),
         "formal_counts": formal_counts,
         "candidate_subkb_directions": candidate_count,
+        "initial_knowledge": initial_knowledge_outputs,
         "report": str((output_dir / "latest_scan_report.md").relative_to(root)),
     }
 
@@ -1310,6 +1646,7 @@ def report_markdown(
     apply: bool,
     analyze_video: bool,
     analyze_images: bool,
+    account_name: str,
 ) -> str:
     lines = [
         "# 视频深度学习轻量扫描报告",
@@ -1322,7 +1659,9 @@ def report_markdown(
         f"- 小红书内容：{raw_counts.get('xhs_contents', 0)}",
         f"- 抖音评论：{raw_counts.get('douyin_comments', 0)}",
         f"- 创作者：{raw_counts.get('creators', 0)}",
-        f"- 去重后内容：{dedupe_stats.get('unique_records', len(records))}",
+        f"- 账号过滤：{account_name or '未启用'}",
+        f"- 输出内容数：{len(records)}",
+        f"- 全库去重后内容：{dedupe_stats.get('unique_records', len(records))}",
         f"- ID 重复：{dedupe_stats.get('duplicate_source_id', 0)}",
         f"- 文本重复：{dedupe_stats.get('duplicate_text', 0)}",
         "",
@@ -1452,6 +1791,7 @@ directions: {direction_text}
 heat_score: {heat_score(record)}
 title: {record.title}
 url: {record.url}
+original_video_url: {record.url}
 metrics:
   likes: {metrics["likes"]}
   collects: {metrics["collects"]}
@@ -1462,6 +1802,8 @@ image_analysis_status: {image["status"]}
 decision: review
 ```
 
+原视频链接：{record.url}
+
 ## 为什么学习
 
 - 这是人工确认进入深度学习队列的内容。
@@ -1471,10 +1813,12 @@ decision: review
 
 ## 内容结构
 
+- 黄金 3 秒钩子：{golden_3s_hook(record)}
 - 开头：{first_sentence(record.title, 80)}
 - 目标人群：{infer_audience(directions[0], record)}
 - 展开：{first_sentence(record.body, 160)}
 - 可复用结构：{reusable_template(directions[0], record)}
+- 结尾金句/互动引导：{ending_quote_or_interaction(record)}
 
 ## 视频层状态
 
@@ -1619,6 +1963,35 @@ def selected_report_markdown(result: dict[str, Any], statuses: dict[str, dict[st
     return "\n".join(lines) + "\n"
 
 
+def download_report_markdown(result: dict[str, Any], statuses: dict[str, dict[str, Any]], missing: list[str]) -> str:
+    lines = [
+        "# 视频批次下载报告",
+        "",
+        f"生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## 汇总",
+        "",
+        f"- 请求数量：{result['requested']}",
+        f"- 找到数量：{result['found']}",
+        f"- 下载完成：{result['downloaded']}",
+        f"- 复用本地文件：{result['reused']}",
+        f"- 失败数量：{result['failed']}",
+        f"- 未找到数量：{len(missing)}",
+        "",
+        "## 状态明细",
+        "",
+        "| 内容ID | 状态 | 本地文件 | 失败原因 |",
+        "| --- | --- | --- | --- |",
+    ]
+    for key, item in statuses.items():
+        errors = "; ".join(item.get("errors", []))[:120]
+        lines.append(f"| {key} | {item.get('status', '')} | {item.get('video_path', '')} | {errors} |")
+    if missing:
+        lines.extend(["", "## 未找到", ""])
+        lines.extend(f"- {source_id}" for source_id in missing)
+    return "\n".join(lines) + "\n"
+
+
 def run_selected_deep_learning(
     root: Path,
     source_ids: set[str] | None = None,
@@ -1701,6 +2074,75 @@ def run_selected_deep_learning(
     return result
 
 
+def download_selected_media(root: Path, source_ids: set[str] | None = None) -> dict[str, Any]:
+    requested_ids = source_ids or selected_ids_from_queue(root)
+    records, raw_counts, dedupe_stats = load_unique_records(root)
+    by_id = records_by_source_id(records)
+    output_dir = video_learning_dir(root)
+    statuses: dict[str, dict[str, Any]] = {}
+    missing: list[str] = []
+    downloaded = 0
+    reused = 0
+    failed = 0
+
+    for source_id in sorted(requested_ids):
+        record = by_id.get(source_id)
+        if not record:
+            missing.append(source_id)
+            continue
+        artifact_dir = output_dir / "video_artifacts" / f"{record.platform}_{record.source_id}"
+        video_path = artifact_dir / "source.mp4"
+        entry = {
+            "platform": record.platform,
+            "source_id": record.source_id,
+            "account_name": record.account_name or record.author_name,
+            "title": record.title,
+            "video_path": str(video_path.relative_to(root)),
+            "status": "pending",
+            "warnings": [],
+            "errors": [],
+        }
+        if not record.video_download_url:
+            entry["status"] = "missing_video_url"
+            failed += 1
+            statuses[source_id] = entry
+            continue
+        try:
+            warnings = ensure_video_file(record.video_download_url, video_path)
+            entry["warnings"] = warnings
+            if warnings and warnings[0] == "using_existing_video_file":
+                entry["status"] = "reused_local_file"
+                reused += 1
+            else:
+                entry["status"] = "downloaded"
+                downloaded += 1
+        except Exception as exc:
+            entry["status"] = "failed"
+            entry["errors"].append(str(exc))
+            failed += 1
+        statuses[source_id] = entry
+
+    result = {
+        "raw_counts": raw_counts,
+        "dedupe_stats": dedupe_stats,
+        "requested": len(requested_ids),
+        "found": len(requested_ids) - len(missing),
+        "downloaded": downloaded,
+        "reused": reused,
+        "failed": failed,
+        "missing": missing,
+        "video_artifacts_dir": str((output_dir / "video_artifacts").relative_to(root)),
+        "report": str((output_dir / "latest_video_download_report.md").relative_to(root)),
+    }
+    write_json_file(output_dir / "latest_video_download_statuses.json", statuses)
+    (output_dir / "latest_video_download_report.md").write_text(
+        download_report_markdown(result, statuses, missing),
+        encoding="utf-8",
+    )
+    result["downloaded_files"] = [item["video_path"] for item in statuses.values() if item.get("status") in {"downloaded", "reused_local_file"}]
+    return result
+
+
 def learning_status(root: Path) -> dict[str, Any]:
     queue = load_queue(root)
     manifest = load_manifest(root)
@@ -1725,10 +2167,13 @@ def run_pipeline(
     analyze_images: bool = False,
     image_limit: int = 1,
     max_images_per_note: int = 18,
+    account_name: str = "",
     source_ids: set[str] | None = None,
 ) -> dict[str, Any]:
     records, raw_counts = load_records(root)
     unique_records, dedupe_stats = deduplicate_records(records)
+    if account_name:
+        unique_records = [record for record in unique_records if account_name in {record.account_name, record.author_name}]
     rankings = build_direction_rankings(unique_records)
     return write_outputs(
         root,
@@ -1736,6 +2181,7 @@ def run_pipeline(
         dedupe_stats,
         unique_records,
         rankings,
+        account_name,
         apply,
         analyze_video,
         video_limit,
@@ -1788,8 +2234,39 @@ def parse_source_ids(value: str) -> set[str] | None:
     return {item.strip() for item in value.split(",") if item.strip()} or None
 
 
+class MacSleepGuard:
+    """Keep long video jobs awake on macOS while downloads or analysis run."""
+
+    def __init__(self, enabled: bool) -> None:
+        self.enabled = enabled
+        self.proc: subprocess.Popen[Any] | None = None
+
+    def __enter__(self) -> "MacSleepGuard":
+        if not self.enabled or sys.platform != "darwin" or not shutil.which("caffeinate"):
+            return self
+        self.proc = subprocess.Popen(
+            ["caffeinate", "-dimsu", "-w", str(os.getpid())],
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+        return self
+
+    def __exit__(self, exc_type: object, exc: object, tb: object) -> None:
+        if self.proc and self.proc.poll() is None:
+            self.proc.terminate()
+
+
+def should_prevent_sleep(args: argparse.Namespace) -> bool:
+    command = getattr(args, "command", "")
+    if command == "download":
+        return True
+    if command in {"scan", "learn"} and bool(getattr(args, "analyze_video", False)):
+        return True
+    return not command and bool(getattr(args, "analyze_video", False))
+
+
 def main() -> int:
-    if len(sys.argv) > 1 and sys.argv[1] in {"scan", "select", "learn", "status"}:
+    if len(sys.argv) > 1 and sys.argv[1] in {"scan", "select", "learn", "download", "status"}:
         parser = argparse.ArgumentParser(description="Run video learning workflow for the knowledge base.")
         subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -1801,6 +2278,7 @@ def main() -> int:
         scan_parser.add_argument("--analyze-images", action="store_true", help="Try image analysis during scan")
         scan_parser.add_argument("--image-limit", type=int, default=1, help="Maximum image posts to analyze during scan")
         scan_parser.add_argument("--max-images-per-note", type=int, default=18, help="Maximum images per post")
+        scan_parser.add_argument("--account-name", default="", help="Exact account name filter for scan outputs")
         scan_parser.add_argument("--source-ids", default="", help="Comma-separated source IDs to target during scan video analysis")
 
         select_parser = subparsers.add_parser("select", help="Queue confirmed content for deep learning")
@@ -1819,42 +2297,50 @@ def main() -> int:
         learn_parser.add_argument("--max-images-per-note", type=int, default=18, help="Maximum images per post")
         learn_parser.add_argument("--force", action="store_true", help="Re-learn items already marked completed")
 
+        download_parser = subparsers.add_parser("download", help="Download queued or selected content without deep learning")
+        download_parser.add_argument("--root", default=".", help="Knowledge base root")
+        download_parser.add_argument("--source-ids", default="", help="Comma-separated source IDs to download instead of queue")
+
         status_parser = subparsers.add_parser("status", help="Show queue and manifest status")
         status_parser.add_argument("--root", default=".", help="Knowledge base root")
 
         args = parser.parse_args()
         root = Path(args.root).resolve()
-        if args.command == "scan":
-            result = run_pipeline(
-                root,
-                apply=args.apply,
-                analyze_video=args.analyze_video,
-                video_limit=max(args.video_limit, 0),
-                analyze_images=args.analyze_images,
-                image_limit=max(args.image_limit, 0),
-                max_images_per_note=max(args.max_images_per_note, 0),
-                source_ids=parse_source_ids(args.source_ids),
-            )
-        elif args.command == "select":
-            result = select_deep_learning(
-                root,
-                source_ids=parse_source_ids(args.source_ids),
-                account_name=args.account_name,
-                direction=args.direction,
-                top_n=max(args.top_n, 0),
-            )
-        elif args.command == "learn":
-            result = run_selected_deep_learning(
-                root,
-                source_ids=parse_source_ids(args.source_ids),
-                analyze_video=args.analyze_video,
-                video_limit=max(args.video_limit, 0),
-                analyze_images=args.analyze_images,
-                max_images_per_note=max(args.max_images_per_note, 0),
-                force=args.force,
-            )
-        else:
-            result = learning_status(root)
+        with MacSleepGuard(should_prevent_sleep(args)):
+            if args.command == "scan":
+                result = run_pipeline(
+                    root,
+                    apply=args.apply,
+                    analyze_video=args.analyze_video,
+                    video_limit=max(args.video_limit, 0),
+                    analyze_images=args.analyze_images,
+                    image_limit=max(args.image_limit, 0),
+                    max_images_per_note=max(args.max_images_per_note, 0),
+                    account_name=args.account_name,
+                    source_ids=parse_source_ids(args.source_ids),
+                )
+            elif args.command == "select":
+                result = select_deep_learning(
+                    root,
+                    source_ids=parse_source_ids(args.source_ids),
+                    account_name=args.account_name,
+                    direction=args.direction,
+                    top_n=max(args.top_n, 0),
+                )
+            elif args.command == "learn":
+                result = run_selected_deep_learning(
+                    root,
+                    source_ids=parse_source_ids(args.source_ids),
+                    analyze_video=args.analyze_video,
+                    video_limit=max(args.video_limit, 0),
+                    analyze_images=args.analyze_images,
+                    max_images_per_note=max(args.max_images_per_note, 0),
+                    force=args.force,
+                )
+            elif args.command == "download":
+                result = download_selected_media(root, source_ids=parse_source_ids(args.source_ids))
+            else:
+                result = learning_status(root)
         print(json.dumps(result, ensure_ascii=False, indent=2))
         return 0
 
@@ -1866,6 +2352,7 @@ def main() -> int:
     parser.add_argument("--analyze-images", action="store_true", help="Try XHS image download, OCR, and image learning")
     parser.add_argument("--image-limit", type=int, default=1, help="Maximum image posts to analyze in one run")
     parser.add_argument("--max-images-per-note", type=int, default=18, help="Maximum images to download per image post")
+    parser.add_argument("--account-name", default="", help="Exact account name filter for scan outputs")
     parser.add_argument("--source-ids", default="", help="Comma-separated source IDs to target for video analysis")
     parser.add_argument("--check-env", action="store_true", help="Print tool availability and exit")
     args = parser.parse_args()
@@ -1874,16 +2361,18 @@ def main() -> int:
     if args.check_env:
         print(json.dumps(check_env(), ensure_ascii=False, indent=2))
         return 0
-    result = run_pipeline(
-        root,
-        apply=args.apply,
-        analyze_video=args.analyze_video,
-        video_limit=max(args.video_limit, 0),
-        analyze_images=args.analyze_images,
-        image_limit=max(args.image_limit, 0),
-        max_images_per_note=max(args.max_images_per_note, 0),
-        source_ids=parse_source_ids(args.source_ids),
-    )
+    with MacSleepGuard(should_prevent_sleep(args)):
+        result = run_pipeline(
+            root,
+            apply=args.apply,
+            analyze_video=args.analyze_video,
+            video_limit=max(args.video_limit, 0),
+            analyze_images=args.analyze_images,
+            image_limit=max(args.image_limit, 0),
+            max_images_per_note=max(args.max_images_per_note, 0),
+            account_name=args.account_name,
+            source_ids=parse_source_ids(args.source_ids),
+        )
     print(json.dumps(result, ensure_ascii=False, indent=2))
     return 0
 

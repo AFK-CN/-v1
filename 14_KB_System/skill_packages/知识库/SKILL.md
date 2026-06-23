@@ -10,10 +10,20 @@ description: 当用户输入 @知识库、使用知识库、调用知识库、�
 ## 默认先读
 
 1. `/Users/lao_wu/codexAI/知识库/知识库入口.md`
-2. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md`
-3. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/knowledge_index.json`
+2. `/Users/lao_wu/codexAI/知识库/14_KB_System/rules/用户操作台.md`
+3. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/controller_routes.json`
+4. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md`
 
-然后按任务只读取少量相关正式知识文件。
+然后由总控路由判断任务类型，再只读取少量相关正式知识文件。
+
+## 总控智能体
+
+用户只需要说 `@知识库 + 需求`。本 Skill 负责：
+
+1. 识别需求类型。
+2. 按 `controller_routes.json` 选择路由。
+3. 调度规划器、检索器、工作流执行器、账号知识、内容生成、复盘、Skill 沉淀或审计能力。
+4. 输出本次命中的路由、读取的知识层级、正式知识与候选证据边界。
 
 ## 禁止默认行为
 
@@ -23,5 +33,19 @@ description: 当用户输入 @知识库、使用知识库、调用知识库、�
 - 禁止默认读取 `/Users/lao_wu/codexAI/知识库/99_Archive/`。
 - 禁止把 `14_KB_System/assets/` 候选资产当作正式知识。
 - 禁止把未确认的 proposals 当作已生效规则。
+- 禁止内容生成结果直接反写正式知识。
+- active Skill 修改必须先进入 `13_Evolving_Skills/proposals/`，用户确认后再生效。
+
+## 账号/主题定向创作
+
+当用户要求“按某账号方式/某主题”生成选题或内容时，先查候选资产，不要只查正式知识后直接回答“没有发现”。
+
+优先使用本地命令：
+
+```bash
+.venv/bin/python -m tools.kb.cli --root . search-candidates --account "<账号名>" --query "<主题词>" --limit 10
+```
+
+如果候选资产没有命中，且用户明确要求基于原始资料追溯，再加 `--include-raw` 做动态检索。该模式会读取原始记录，但仍只输出候选检索报告，不自动写入正式知识。
 
 如需更细的调用边界，读取 `references/calling-rules.md`。

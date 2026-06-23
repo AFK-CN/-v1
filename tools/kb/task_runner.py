@@ -22,7 +22,7 @@ def write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def create_task(root: Path, task_name: str, command: str = "") -> dict[str, Any]:
+def create_task(root: Path, task_name: str, command: str = "", payload: dict[str, Any] | None = None) -> dict[str, Any]:
     root = root.resolve()
     task_id = task_id_for(task_name)
     task_dir = tasks_root(root) / "pending" / task_id
@@ -41,6 +41,8 @@ def create_task(root: Path, task_name: str, command: str = "") -> dict[str, Any]
     (task_dir / "summary_report.md").write_text("# 摘要报告\n\n任务尚未完成。\n", encoding="utf-8")
     (task_dir / "errors.log").write_text("", encoding="utf-8")
     write_json(task_dir / "outputs_manifest.json", {"outputs": []})
+    if payload is not None:
+        write_json(task_dir / "request.json", payload)
     return {"task_id": task_id, "task_dir": as_posix(task_dir.relative_to(root)), "task_status": "pending"}
 
 
@@ -80,4 +82,3 @@ def finish_task(root: Path, task_id: str, status: str, summary: str, outputs: li
     (task_dir / "errors.log").write_text("\n".join(errors or []), encoding="utf-8")
     write_json(task_dir / "outputs_manifest.json", {"outputs": outputs or [], "updated_at": now_iso()})
     return {"task_id": task_id, "task_status": status, "task_dir": as_posix(task_dir.relative_to(root))}
-

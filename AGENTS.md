@@ -1,5 +1,11 @@
 # 本项目 Codex 使用规则
 
+## 启动默认行为
+
+进入本项目或新开对话时，只读取本文件即可，不要主动扫描项目、不要读取目录树、不要展开 `14_KB_System/index/knowledge_index.json`、不要读取 `数据/`、`00_Inbox/`、`01_Case_Cleaning/video_learning/`、`14_KB_System/assets/`、`14_KB_System/reports/` 或其他大文件。
+
+除非用户给出明确任务，默认停在等待状态。可以只说明“已进入知识库项目，等待下一步指令”，不要为了预热上下文而读多个知识文件。
+
 ## 知识库入口
 
 优先使用本仓库维护的中文 Skill 源包：`14_KB_System/skill_packages/知识库/`。兼容入口为 `14_KB_System/skill_packages/knowledge-base/`。
@@ -7,9 +13,12 @@
 当用户在本项目中输入 `使用知识库`、`调用知识库`、`读取知识库`，或要求基于本机知识库工作时，先读取：
 
 1. `知识库入口.md`
-2. `14_KB_System/rules/本机使用速查.md`
-3. `README.md`
-4. `14_KB_System/index/task_entry_index.md`
+2. `14_KB_System/index/task_entry_index.md`
+
+只有当任务需要更多背景时，再读取：
+
+- `README.md`
+- `14_KB_System/rules/本机使用速查.md`
 
 然后根据任务类型继续读取相关文件：
 
@@ -25,6 +34,7 @@
 - 原始文件不删除、不修改。
 - `数据/` 和 `00_Inbox/` 中的原始资料只读处理。
 - 默认按 `14_KB_System/index/` 索引按需调用，禁止全盘扫库；除非用户明确要求，不展开扫描 `数据/`。
+- `14_KB_System/assets/`、`14_KB_System/reports/`、`14_KB_System/state/` 是运行产物区，默认不读；只有候选审核、检索报告、状态检查等任务才读取。
 - 新增正式子库前必须先向用户确认。
 - 修改 active Skill 前必须先进入 proposal，用户确认后再生效。
 - 无效信息、重复信息、低价值资料不进入正式知识库。

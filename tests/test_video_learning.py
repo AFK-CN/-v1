@@ -487,12 +487,14 @@ class VideoLearningTests(unittest.TestCase):
 
             with patch("tools.video_learning.download_binary_url", side_effect=fake_download), patch(
                 "tools.video_learning.media_file_is_readable", side_effect=[False, True]
+            ), patch(
+                "tools.video_learning.media_file_decodes", return_value=True
             ):
                 warnings = video_learning.ensure_video_file("https://example.com/video.mp4", target)
 
             self.assertEqual(target.read_bytes(), b"valid-video-bytes")
             self.assertEqual(len(warnings), 1)
-            self.assertIn("download_reported_error_but_file_is_readable", warnings[0])
+            self.assertIn("download_reported_error_but_file_is_usable", warnings[0])
 
     def test_ensure_video_file_reuses_existing_valid_source_without_redownload(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -501,11 +503,104 @@ class VideoLearningTests(unittest.TestCase):
 
             with patch("tools.video_learning.download_binary_url") as download, patch(
                 "tools.video_learning.media_file_is_readable", return_value=True
+            ), patch(
+                "tools.video_learning.media_file_decodes", return_value=True
             ):
                 warnings = video_learning.ensure_video_file("https://example.com/video.mp4", target)
 
             download.assert_not_called()
             self.assertEqual(warnings, ["using_existing_video_file"])
+
+    def test_ensure_video_file_redownloads_existing_readable_but_corrupt_source(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "source.mp4"
+            target.write_bytes(b"corrupt-video")
+
+            def fake_download(url, path):
+                path.write_bytes(b"fixed-video")
+
+            with patch("tools.video_learning.download_binary_url", side_effect=fake_download) as download, patch(
+                "tools.video_learning.media_file_is_readable", return_value=True
+            ), patch(
+                "tools.video_learning.media_file_decodes", side_effect=[False, True]
+            ):
+                warnings = video_learning.ensure_video_file("https://example.com/video.mp4", target)
+
+            download.assert_called_once()
+            self.assertEqual(target.read_bytes(), b"fixed-video")
+            self.assertEqual(warnings, [])
+
+    def test_ensure_video_file_preserves_existing_source_and_partial_replacement_when_download_fails(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "source.mp4"
+            target.write_bytes(b"existing-corrupt-video")
+
+            def fake_download(url, path):
+                path.write_bytes(b"partial-replacement")
+                raise RuntimeError("curl timed out")
+
+            with patch("tools.video_learning.download_binary_url", side_effect=fake_download), patch(
+                "tools.video_learning.media_file_is_readable", return_value=True
+            ), patch(
+                "tools.video_learning.media_file_decodes", return_value=False
+            ):
+                with self.assertRaisesRegex(RuntimeError, "curl timed out"):
+                    video_learning.ensure_video_file("https://example.com/video.mp4", target)
+
+            self.assertEqual(target.read_bytes(), b"existing-corrupt-video")
+            self.assertEqual((target.parent / "source.mp4.download").read_bytes(), b"partial-replacement")
+
+    def test_download_binary_url_resumes_existing_partial_file(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "source.mp4.download"
+            target.write_bytes(b"partial")
+            captured = {}
+
+            def fake_run(cmd, check, capture_output, text, timeout):
+                captured["cmd"] = cmd
+
+            with patch("tools.video_learning.find_executable", return_value="/usr/bin/curl"), patch(
+                "tools.video_learning.subprocess.run", side_effect=fake_run
+            ):
+                video_learning.download_binary_url("https://example.com/video.mp4", target)
+
+            self.assertIn("--continue-at", captured["cmd"])
+            self.assertIn("-", captured["cmd"])
+            retry_index = captured["cmd"].index("--retry")
+            self.assertEqual(captured["cmd"][retry_index + 1], "0")
+            max_time_index = captured["cmd"].index("--max-time")
+            self.assertEqual(captured["cmd"][max_time_index + 1], "1800")
+
+    def test_existing_video_bundle_rejects_transcript_that_does_not_cover_video(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            artifact_dir = Path(tmp)
+            video_path = artifact_dir / "source.mp4"
+            audio_path = artifact_dir / "audio.wav"
+            metadata_path = artifact_dir / "ffprobe.json"
+            transcript_json_path = artifact_dir / "transcript.json"
+            transcript_srt_path = artifact_dir / "transcript.srt"
+            scene_path = artifact_dir / "source-Scenes.csv"
+            for path in (video_path, audio_path, metadata_path, transcript_srt_path, scene_path):
+                path.write_text("present", encoding="utf-8")
+            transcript_json_path.write_text(
+                json.dumps({"segments": [{"start": 60.0, "end": 68.0, "text": "partial"}]}),
+                encoding="utf-8",
+            )
+
+            bundle_check = getattr(video_learning, "existing_video_bundle_is_complete", lambda *args: True)
+            with patch("tools.video_learning.media_file_is_usable", return_value=True), patch(
+                "tools.video_learning.media_duration_seconds", return_value=100.0, create=True
+            ):
+                complete = bundle_check(
+                    video_path,
+                    audio_path,
+                    metadata_path,
+                    transcript_json_path,
+                    transcript_srt_path,
+                    [scene_path],
+                )
+
+            self.assertFalse(complete)
 
     def test_image_analysis_respects_limit(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -658,6 +753,10 @@ class VideoLearningTests(unittest.TestCase):
             result = video_learning.run_pipeline(root, apply=True, analyze_video=False)
 
             report = root / "01_Case_Cleaning" / "video_learning" / "latest_scan_report.md"
+            inventory_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_content_inventory.md"
+            inventory_jsonl = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_content_inventory.jsonl"
+            topic_pool_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_topic_pool.md"
+            direction_matrix_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_direction_matrix.md"
             account_card = root / "01_Case_Cleaning" / "video_learning" / "account_cards" / "作者_douyin.md"
             card = root / "01_Case_Cleaning" / "video_learning" / "deep_cards" / "赚钱_douyin_a9.md"
             methods = root / "02_Viral_Methods" / "抖音爆款方法论_v1.md"
@@ -665,6 +764,10 @@ class VideoLearningTests(unittest.TestCase):
 
             self.assertEqual(result["raw_counts"]["douyin_contents"], 10)
             self.assertTrue(report.exists())
+            self.assertTrue(inventory_md.exists())
+            self.assertTrue(inventory_jsonl.exists())
+            self.assertTrue(topic_pool_md.exists())
+            self.assertTrue(direction_matrix_md.exists())
             self.assertTrue(account_card.exists())
             self.assertTrue(card.exists())
             self.assertIn("direction: 赚钱", card.read_text(encoding="utf-8"))
@@ -672,9 +775,67 @@ class VideoLearningTests(unittest.TestCase):
             self.assertIn("topic_id: auto-douyin", topics.read_text(encoding="utf-8"))
             self.assertIn("账号：作者", card.read_text(encoding="utf-8"))
             self.assertIn("| 作者 | douyin | 1 |", report.read_text(encoding="utf-8"))
+            self.assertIn("# 初扫知识池：内容清单", inventory_md.read_text(encoding="utf-8"))
+            self.assertIn("# 初扫知识池：代选选题池", topic_pool_md.read_text(encoding="utf-8"))
+            self.assertIn("# 初扫知识池：方向矩阵", direction_matrix_md.read_text(encoding="utf-8"))
+            self.assertIn("\"primary_direction\": \"赚钱\"", inventory_jsonl.read_text(encoding="utf-8"))
             self.assertIn("# 账号学习卡：作者 / douyin", account_card.read_text(encoding="utf-8"))
             self.assertFalse((stale_dir / "douyin_a9.md").exists())
             self.assertGreaterEqual(len(list(stale_dir.glob("*.md"))), 5)
+
+    def test_scan_account_filter_limits_initial_outputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json"
+            data_dir.mkdir(parents=True)
+            (root / "01_Case_Cleaning" / "video_learning").mkdir(parents=True)
+
+            rows = [
+                {
+                    "aweme_id": "a1",
+                    "title": "#赚钱 普通人做自媒体",
+                    "desc": "创业 方法 短视频",
+                    "nickname": "姜胡说",
+                    "liked_count": "100",
+                    "collected_count": "80",
+                    "comment_count": "20",
+                    "share_count": "40",
+                    "aweme_url": "https://example.com/a1",
+                    "video_download_url": "",
+                },
+                {
+                    "aweme_id": "a2",
+                    "title": "职场关系",
+                    "desc": "沟通 反转",
+                    "nickname": "李宗恒",
+                    "liked_count": "10",
+                    "collected_count": "5",
+                    "comment_count": "2",
+                    "share_count": "1",
+                    "aweme_url": "https://example.com/a2",
+                    "video_download_url": "",
+                },
+            ]
+            (data_dir / "creator_contents_test.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+
+            result = video_learning.run_pipeline(root, apply=False, analyze_video=False, account_name="姜胡说")
+
+            inventory_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_content_inventory.md"
+            topic_pool_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_topic_pool.md"
+            direction_matrix_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_direction_matrix.md"
+
+            self.assertGreaterEqual(result["directions"], 1)
+            self.assertEqual(result["account_cards"], 1)
+            self.assertTrue(inventory_md.exists())
+            self.assertTrue(topic_pool_md.exists())
+            self.assertTrue(direction_matrix_md.exists())
+            self.assertIn("账号过滤：姜胡说", inventory_md.read_text(encoding="utf-8"))
+            self.assertIn("姜胡说", inventory_md.read_text(encoding="utf-8"))
+            self.assertNotIn("李宗恒", inventory_md.read_text(encoding="utf-8"))
+            self.assertIn("姜胡说", topic_pool_md.read_text(encoding="utf-8"))
+            self.assertNotIn("李宗恒", topic_pool_md.read_text(encoding="utf-8"))
+            self.assertIn("姜胡说", direction_matrix_md.read_text(encoding="utf-8"))
+            self.assertNotIn("李宗恒", direction_matrix_md.read_text(encoding="utf-8"))
 
     def test_video_analysis_respects_limit(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -996,6 +1157,10 @@ class VideoLearningTests(unittest.TestCase):
             artifact_dir.mkdir(parents=True)
             for name in ["source.mp4", "audio.wav", "ffprobe.json", "transcript.json", "transcript.srt", "source-Scenes.csv"]:
                 (artifact_dir / name).write_text("x", encoding="utf-8")
+            (artifact_dir / "transcript.json").write_text(
+                json.dumps({"segments": [{"start": 90.0, "end": 99.0, "text": "complete"}]}),
+                encoding="utf-8",
+            )
             record = video_learning.NormalizedRecord(
                 platform="douyin",
                 source_id="a1",
@@ -1011,7 +1176,10 @@ class VideoLearningTests(unittest.TestCase):
                 text_fingerprint="fp",
             )
 
-            status = video_learning.video_status(root, record, analyze_video=False)
+            with patch("tools.video_learning.media_file_is_usable", return_value=True), patch(
+                "tools.video_learning.media_duration_seconds", return_value=100.0
+            ):
+                status = video_learning.video_status(root, record, analyze_video=False)
 
             self.assertEqual(status["status"], "video_transcribed_and_scenes_detected")
             self.assertIn("transcript_json", status["artifacts"])

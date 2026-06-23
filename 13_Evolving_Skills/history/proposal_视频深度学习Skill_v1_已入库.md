@@ -3,17 +3,19 @@
 ```yaml
 skill_name: 视频深度学习
 version: v1
-status: proposal
+status: history_confirmed
 created_at: 2026-06-14
-trigger: 新增或指定视频/图文元数据后，需要扫描方向、筛选Top内容、生成深度学习卡，并把高置信结果沉淀进正式知识库
+trigger: 新增或指定视频/图文元数据后，需要扫描方向、筛选Top内容、生成深度学习卡，并把可沉淀结果提交审核
 evidence: 当前知识库已有抖音内容、小红书内容、抖音评论及视频下载链接字段，且已具备JSON入库、去重、评分、方法论和选题卡格式
-current_problem: 现有JSON入库只完成清洗和候选判断，缺少方向级榜单、Top内容深学、视频层分析和持续自动入库闭环
-proposed_behavior: 先轻量扫描全量元数据，再按方向选Top10生成深度学习卡；高置信内容自动写入方法论、选题库和内容模板，低置信内容保留review
-what_will_change: 新增video_learning派生产物、方向榜单、深度学习卡、环境检查、视频分析降级机制和高置信自动入库规则
+current_problem: 现有JSON入库只完成清洗和候选判断，缺少方向级榜单、Top内容深学、视频层分析和审核入库闭环
+proposed_behavior: 先轻量扫描全量元数据，再按方向选Top10生成深度学习卡；可沉淀内容先进入候选学习卡和审核清单，用户确认后再进入正式方法论、选题库、内容模板或账号中心
+what_will_change: 新增video_learning派生产物、方向榜单、深度学习卡、环境检查、视频分析降级机制和审核入库规则
 risk: 自动提炼可能过度概括；视频下载和转写依赖外部链接、模型和本地环境，可能失败或成本较高
-rollback_plan: 删除或回滚自动追加的video-learning标记区块；保留原始JSON不变；active Skill不自动更新
-needs_user_confirmation: true
+rollback_plan: 删除候选学习卡、审核清单或已确认追加的video-learning标记区块；保留原始JSON不变；active Skill不自动更新
+needs_user_confirmation: false
 ```
+
+确认结果：已入库为 `13_Evolving_Skills/active/视频深度学习Skill_v1.md`。本历史提案不再作为待确认 proposal 调用。
 
 ## 触发原因
 
@@ -23,7 +25,7 @@ needs_user_confirmation: true
 - 统计每个方向有多少选题。
 - 按平台指标选出每个方向 Top10。
 - 对 Top 内容生成深度学习卡。
-- 对高置信规律自动沉淀到正式知识库。
+- 对可沉淀规律生成候选学习卡和审核清单，用户确认后再进入正式知识库。
 
 ## 证据
 
@@ -38,7 +40,7 @@ needs_user_confirmation: true
 3. 每个方向保留 Top10，不用单一总榜替代方向榜。
 4. 小红书热度分：`收藏 * 0.45 + 点赞 * 0.3 + 分享 * 0.15 + 评论 * 0.1`。
 5. 抖音热度分：`分享 * 0.3 + 收藏 * 0.3 + 评论 * 0.2 + 点赞 * 0.2`。
-6. 高置信内容可自动追加到正式方法论、选题库和内容模板。
+6. 高置信内容只能先进入候选学习卡和审核清单；正式方法论、选题库、内容模板或账号中心写入必须经过用户确认或已验证审核注册表。
 7. 新子库仍只进入候选区，不能自动进入 `06_Sub_KB/`。
 8. active Skill 修改仍必须先经过 proposal。
 9. 视频分析工具缺失时降级为元数据学习，不中断扫描。
@@ -62,10 +64,10 @@ needs_user_confirmation: true
 - 高指标不等于完全适合本账号，需要后续发布反馈校准。
 - 视频链接可能过期，导致只能做元数据学习。
 - faster-whisper 和 PySceneDetect 依赖本地环境，缺失时需要安装或绑定。
-- 自动追加内容可能产生重复，需要通过 `video-learning` 标记防重复。
+- 候选内容可能重复，需要通过 `video-learning` 标记、source_id 和审核注册表防重复。
 
 ## 回滚方式
 
-- 删除正式知识库中带有 `video-learning:auto-method`、`video-learning:auto-topic`、`video-learning:auto-template` 标记的自动追加区块。
+- 删除候选学习卡、审核清单，或删除正式知识库中经确认后追加的 `video-learning:confirmed-method`、`video-learning:confirmed-topic`、`video-learning:confirmed-template` 标记区块。
 - 删除 `01_Case_Cleaning/video_learning/` 下派生产物后可重新生成。
 - 不需要修改原始 JSON 或 `数据/`、`00_Inbox/`。

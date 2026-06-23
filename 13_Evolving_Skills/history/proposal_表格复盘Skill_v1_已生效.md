@@ -1,6 +1,6 @@
 # Skill 提案：表格复盘 v1
 
-状态：proposal，待你确认后才能进入 active。
+状态：history，已生效为 `13_Evolving_Skills/active/表格复盘Skill_v1.md`，不再作为待确认 proposal 调用。
 
 ## 触发原因
 
@@ -39,4 +39,3 @@ uncertain_columns:
 ## 回滚方式
 
 如果该 Skill 让复盘过度依赖数字、忽略内容质量，撤回本提案并改小范围。
-

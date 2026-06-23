@@ -1,6 +1,6 @@
 # Skill 提案：JSON 入库 v1
 
-状态：proposal，待你确认后才能进入 active。
+状态：history，已生效为 `13_Evolving_Skills/active/JSON入库Skill_v1.md`，不再作为待确认 proposal 调用。
 
 ## 触发原因
 
@@ -26,4 +26,3 @@
 ## 回滚方式
 
 保留原始文件不动；若清洗结果有误，只重建派生产物。
-

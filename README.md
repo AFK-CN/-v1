@@ -53,11 +53,12 @@
 新对话或其他项目调用方式见：
 
 - `知识库入口.md`
+- `14_KB_System/rules/用户操作台.md`
 - `14_KB_System/rules/本机使用速查.md`
 - `14_KB_System/rules/使用文档.md`
 - `11_Project_Use/项目调用规则.md`
 
-默认先读 `14_KB_System/index/task_entry_index.md` 和 `14_KB_System/index/knowledge_index.json`，按任务精准读取文件。除非你明确要求，其他项目禁止全库扫描，也禁止读取 `数据/`、`00_Inbox/`、`99_Archive/` 和未确认 Skill 提案。
+默认先读 `14_KB_System/index/controller_routes.json` 和 `14_KB_System/index/task_entry_index.md`，按任务精准读取文件。除非你明确要求，其他项目禁止全库扫描，也禁止读取 `数据/`、`00_Inbox/`、`99_Archive/` 和未确认 Skill 提案。
 
 ## Skill 入口
 
@@ -66,4 +67,4 @@
 - `14_KB_System/skill_packages/知识库/`：中文快捷入口，优先用于 `@知识库`
 - `14_KB_System/skill_packages/knowledge-base/`
 
-其他项目优先通过 `@知识库` / “知识库” Skill 入口调用，不要直接用文件搜索选一批 Markdown 文件。该 Skill 默认只读入口和索引，再按任务读取少量正式知识文件。若当前界面不识别中文入口，再使用兼容入口 `$knowledge-base`。
+其他项目优先通过 `@知识库 + 需求` / “知识库” Skill 入口调用，不要直接用文件搜索选一批 Markdown 文件。该 Skill 默认只读入口、用户操作台、总控路由和索引，再按任务读取少量正式知识文件。若当前界面不识别中文入口，再使用兼容入口 `knowledge-base + 需求`。
