@@ -189,10 +189,11 @@
       "read_first": [
         "11_Project_Use/项目调用规则.md",
         "14_KB_System/index/task_entry_index.md",
-        "14_KB_System/index/controller_routes.json"
+        "14_KB_System/index/controller_routes.json",
+        "14_KB_System/config/output_contracts.json"
       ],
       "tools": ["tools.kb.cli validate-system"],
-      "output_contract": "只调用已整理知识和索引，说明本次使用范围和禁止范围。",
+      "output_contract": "输出调用入口、命中路由、读取层级、允许使用范围、禁止使用范围、正式知识来源、候选证据状态和下一步调用建议。",
       "write_policy": "默认不读取原始数据、不读取候选资产，除非用户明确要求审核候选。"
     },
     {
@@ -202,7 +203,10 @@
       "agents": ["controller", "auditor"],
       "read_first": [
         "14_KB_System/index/controller_routes.json",
-        "14_KB_System/index/knowledge_index.json",
+        "14_KB_System/index/knowledge_index_summary.md",
+        "14_KB_System/index/formal_knowledge_index.json",
+        "14_KB_System/index/candidate_asset_index.json",
+        "14_KB_System/index/raw_blocked_index.json",
         "14_KB_System/index/account_knowledge_index.json",
         "14_KB_System/config/output_contracts.json",
         "14_KB_System/state/kb_registry.json"

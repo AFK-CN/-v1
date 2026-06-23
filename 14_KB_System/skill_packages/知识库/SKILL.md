@@ -13,8 +13,10 @@ description: 当用户输入 @知识库、使用知识库、调用知识库、�
 2. `/Users/lao_wu/codexAI/知识库/14_KB_System/rules/用户操作台.md`
 3. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/controller_routes.json`
 4. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md`
+5. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/knowledge_index_summary.md`
 
 然后由总控路由判断任务类型，再只读取少量相关正式知识文件。
+`knowledge_index.json` 是全量机器索引，只给脚本、全量审计或用户明确要求时使用。
 
 ## 总控智能体
 

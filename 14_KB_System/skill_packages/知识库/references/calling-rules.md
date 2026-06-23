@@ -20,8 +20,10 @@ $knowledge-base
 2. `14_KB_System/rules/用户操作台.md`
 3. `14_KB_System/index/controller_routes.json`
 4. `14_KB_System/index/task_entry_index.md`
+5. `14_KB_System/index/knowledge_index_summary.md`
 
 先用 `controller_routes.json` 判断任务类型，再按任务入口索引读取少量文件。
+`knowledge_index.json` 是全量机器索引，只给脚本、全量审计或用户明确要求时使用。
 
 ## 总控与高级入口
 

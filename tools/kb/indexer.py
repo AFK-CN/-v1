@@ -52,6 +52,35 @@ def purpose_for_path(relative_path: str) -> str:
     return "supporting_file"
 
 
+def is_formal_knowledge_item(item: dict[str, Any]) -> bool:
+    path = item["path"]
+    first = path.split("/", 1)[0]
+    if path.startswith("13_Evolving_Skills/proposals/") or path.startswith("13_Evolving_Skills/history/"):
+        return False
+    if path.startswith("13_Evolving_Skills/active/"):
+        return True
+    return first in FORMAL_KNOWLEDGE_DIRS
+
+
+def is_candidate_asset_item(item: dict[str, Any]) -> bool:
+    path = item["path"]
+    if "video_artifacts/" in path:
+        return False
+    return (
+        path.startswith("05_Sub_KB_Candidates/")
+        or path.startswith(f"{SYSTEM_DIR}/assets/")
+        or path.startswith("01_Case_Cleaning/content_rough_scan/")
+        or path.startswith("01_Case_Cleaning/video_learning/deep_cards/")
+        or path.startswith("01_Case_Cleaning/video_learning/learned_cards/")
+        or path.startswith("01_Case_Cleaning/video_learning/selected_deep_cards/")
+        or path.startswith("01_Case_Cleaning/video_learning/account_cards/")
+        or path.startswith("01_Case_Cleaning/video_learning/plans/")
+        or path.startswith("01_Case_Cleaning/video_learning/queues/")
+        or path.startswith("01_Case_Cleaning/video_learning/state/")
+        or path.startswith("01_Case_Cleaning/video_learning/latest_")
+    )
+
+
 def build_knowledge_index(root: Path) -> dict[str, Any]:
     scan = scan_files(root)
     indexed = []
@@ -77,6 +106,61 @@ def build_knowledge_index(root: Path) -> dict[str, Any]:
     }
 
 
+def compact_index_item(item: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "path": item["path"],
+        "type": item["type"],
+        "purpose": item["purpose"],
+        "content_status": item["content_status"],
+        "calling_scope": item["calling_scope"],
+        "updated_at": item["updated_at"],
+    }
+
+
+def build_formal_knowledge_index(index: dict[str, Any]) -> dict[str, Any]:
+    items = [compact_index_item(item) for item in index["files"] if is_formal_knowledge_item(item)]
+    return {
+        "generated_at": index["generated_at"],
+        "source_index": "knowledge_index.json",
+        "description": "正式可调用知识索引；不包含候选资产、原始资料、归档和系统运行产物。",
+        "item_count": len(items),
+        "items": items,
+    }
+
+
+def build_candidate_asset_index(index: dict[str, Any]) -> dict[str, Any]:
+    items = [compact_index_item(item) for item in index["files"] if is_candidate_asset_item(item)]
+    return {
+        "generated_at": index["generated_at"],
+        "source_index": "knowledge_index.json",
+        "description": "候选和待审核资产索引；默认不当作正式知识，明确审核候选时才读取。",
+        "item_count": len(items),
+        "items": items,
+    }
+
+
+def build_raw_blocked_index(root: Path, index: dict[str, Any]) -> dict[str, Any]:
+    blocked_dirs = ("00_Inbox", "数据", "99_Archive")
+    items = []
+    for name in blocked_dirs:
+        items.append(
+            {
+                "path": f"{name}/",
+                "calling_scope": "blocked_by_default",
+                "reason": "默认禁止读取；只有用户明确要求处理、审核或追溯时才按需进入。",
+                "expanded": False,
+                "exists": (root / name).exists(),
+            }
+        )
+    return {
+        "generated_at": index["generated_at"],
+        "source_index": "knowledge_index.json",
+        "description": "默认禁止读取的原始资料和归档边界索引；记录目录边界，不展开受保护原始数据。",
+        "item_count": len(items),
+        "items": items,
+    }
+
+
 def write_json(path: Path, value: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
@@ -88,14 +172,27 @@ def write_indexes(root: Path) -> dict[str, Any]:
     target.mkdir(parents=True, exist_ok=True)
     index = build_knowledge_index(root)
     write_json(target / "knowledge_index.json", index)
+    formal_index = build_formal_knowledge_index(index)
+    candidate_index = build_candidate_asset_index(index)
+    raw_blocked_index = build_raw_blocked_index(root, index)
+    write_json(target / "formal_knowledge_index.json", formal_index)
+    write_json(target / "candidate_asset_index.json", candidate_index)
+    write_json(target / "raw_blocked_index.json", raw_blocked_index)
     write_json(target / "file_relation_index.json", build_file_relations(index))
     write_json(root / SYSTEM_DIR / "state" / "content_state.json", build_content_state(index))
+    (target / "knowledge_index_summary.md").write_text(
+        render_knowledge_index_summary(index, formal_index, candidate_index, raw_blocked_index),
+        encoding="utf-8",
+    )
     (target / "知识库总索引.md").write_text(render_human_index(index), encoding="utf-8")
     (target / "task_entry_index.md").write_text(render_task_entry_index(), encoding="utf-8")
     return {
-        "index_files": 4,
+        "index_files": 8,
         "index_dir": as_posix(target.relative_to(root)),
         "file_count": len(index["files"]),
+        "formal_knowledge_count": formal_index["item_count"],
+        "candidate_asset_count": candidate_index["item_count"],
+        "raw_blocked_count": raw_blocked_index["item_count"],
         "cleanup_candidate_count": len(index["cleanup_candidates"]),
     }
 
@@ -133,7 +230,9 @@ def build_file_relations(index: dict[str, Any]) -> dict[str, Any]:
 
 def render_human_index(index: dict[str, Any]) -> str:
     lines = [
-        "# 知识库总索引",
+        "# 知识库总索引（全量审计用）",
+        "",
+        "默认不要读取本文件；日常调用先看 `knowledge_index_summary.md`、`task_entry_index.md` 和账号索引。",
         "",
         f"生成时间：{index['generated_at']}",
         f"文件数量：{len(index['files'])}",
@@ -155,6 +254,48 @@ def render_human_index(index: dict[str, Any]) -> str:
     for item in index["files"]:
         lines.append(f"| {item['path']} | {item['purpose']} | {item['content_status']} | {item['calling_scope']} |")
     return "\n".join(lines) + "\n"
+
+
+def render_knowledge_index_summary(
+    index: dict[str, Any],
+    formal_index: dict[str, Any],
+    candidate_index: dict[str, Any],
+    raw_blocked_index: dict[str, Any],
+) -> str:
+    return "\n".join(
+        [
+            "# 知识库索引摘要",
+            "",
+            "这是给 Codex 和人工快速判断状态的轻量索引。默认不要读取全量索引 `knowledge_index.json` 或全量审计索引 `知识库总索引.md`。",
+            "",
+            f"生成时间：{index['generated_at']}",
+            f"全量文件数：{len(index['files'])}",
+            f"正式知识条目：{formal_index['item_count']}",
+            f"候选资产条目：{candidate_index['item_count']}",
+            f"默认禁止读取边界：{raw_blocked_index['item_count']}",
+            f"清理候选：{len(index['cleanup_candidates'])}",
+            "",
+            "## 默认读取顺序",
+            "",
+            "1. `知识库入口.md`",
+            "2. `14_KB_System/rules/用户操作台.md`",
+            "3. `14_KB_System/index/controller_routes.json`",
+            "4. `14_KB_System/index/task_entry_index.md`",
+            "5. `14_KB_System/index/knowledge_index_summary.md`",
+            "",
+            "## 分层索引",
+            "",
+            "- `knowledge_index.json`：全量机器索引，只给脚本和全量审计使用。",
+            "- `knowledge_index_summary.md`：轻量状态摘要，给 Codex 和人工默认查看。",
+            "- `task_entry_index.md`：任务入口索引。",
+            "- `account_knowledge_index.json/md`：账号中心索引。",
+            "- `formal_knowledge_index.json`：正式知识索引。",
+            "- `candidate_asset_index.json`：候选资产索引。",
+            "- `raw_blocked_index.json`：默认禁止读取目录边界。",
+            "- `知识库总索引.md`：全量人类审计索引，默认不读。",
+            "",
+        ]
+    )
 
 
 def render_task_entry_index() -> str:
@@ -200,7 +341,8 @@ def render_task_entry_index() -> str:
 
 ## 系统审计
 
-- 读取：`14_KB_System/index/controller_routes.json`、`14_KB_System/index/knowledge_index.json`、`14_KB_System/index/account_knowledge_index.json`、`14_KB_System/config/output_contracts.json`。
+- 读取：`14_KB_System/index/controller_routes.json`、`14_KB_System/index/knowledge_index_summary.md`、`14_KB_System/index/account_knowledge_index.json`、`14_KB_System/config/output_contracts.json`。
+- `14_KB_System/index/knowledge_index.json` 是全量机器索引，只在脚本验证、全量审计或用户明确要求时读取。
 - 运行：`.venv/bin/python -m tools.kb.cli --root . validate-system` 或 `.venv/bin/python -m tools.kb.cli --root . dashboard`。
 - 输出：入口、索引、路由、Skill 包、账号中心、proposal、候选注册表、输出契约和报告状态。
 """

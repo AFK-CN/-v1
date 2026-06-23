@@ -53,12 +53,13 @@
 新对话或其他项目调用方式见：
 
 - `知识库入口.md`
+- `ENVIRONMENT.md`
 - `14_KB_System/rules/用户操作台.md`
 - `14_KB_System/rules/本机使用速查.md`
 - `14_KB_System/rules/使用文档.md`
 - `11_Project_Use/项目调用规则.md`
 
-默认先读 `14_KB_System/index/controller_routes.json` 和 `14_KB_System/index/task_entry_index.md`，按任务精准读取文件。除非你明确要求，其他项目禁止全库扫描，也禁止读取 `数据/`、`00_Inbox/`、`99_Archive/` 和未确认 Skill 提案。
+默认先读 `14_KB_System/index/controller_routes.json`、`14_KB_System/index/task_entry_index.md` 和 `14_KB_System/index/knowledge_index_summary.md`，按任务精准读取文件。`knowledge_index.json` 是全量机器索引，只给脚本、全量审计或明确要求时使用。除非你明确要求，其他项目禁止全库扫描，也禁止读取 `数据/`、`00_Inbox/`、`99_Archive/` 和未确认 Skill 提案。
 
 ## Skill 入口
 

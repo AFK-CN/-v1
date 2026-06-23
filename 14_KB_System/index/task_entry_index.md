@@ -40,6 +40,7 @@
 
 ## 系统审计
 
-- 读取：`14_KB_System/index/controller_routes.json`、`14_KB_System/index/knowledge_index.json`、`14_KB_System/index/account_knowledge_index.json`、`14_KB_System/config/output_contracts.json`。
+- 读取：`14_KB_System/index/controller_routes.json`、`14_KB_System/index/knowledge_index_summary.md`、`14_KB_System/index/account_knowledge_index.json`、`14_KB_System/config/output_contracts.json`。
+- `14_KB_System/index/knowledge_index.json` 是全量机器索引，只在脚本验证、全量审计或用户明确要求时读取。
 - 运行：`.venv/bin/python -m tools.kb.cli --root . validate-system` 或 `.venv/bin/python -m tools.kb.cli --root . dashboard`。
 - 输出：入口、索引、路由、Skill 包、账号中心、proposal、候选注册表、输出契约和报告状态。

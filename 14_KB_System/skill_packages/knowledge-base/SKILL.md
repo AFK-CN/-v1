@@ -15,8 +15,10 @@ Read only these files first:
 2. `/Users/lao_wu/codexAI/知识库/14_KB_System/rules/用户操作台.md`
 3. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/controller_routes.json`
 4. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md`
+5. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/knowledge_index_summary.md`
 
 Then use the controller route table to classify the user's task and read only the small set of files required by that route.
+`knowledge_index.json` is the full machine index for scripts, full audits, or explicit user requests only.
 
 ## Controller Behavior
 

@@ -16,6 +16,10 @@ REQUIRED_FILES = (
     "14_KB_System/config/output_contracts.json",
     "14_KB_System/index/controller_routes.json",
     "14_KB_System/index/knowledge_index.json",
+    "14_KB_System/index/knowledge_index_summary.md",
+    "14_KB_System/index/formal_knowledge_index.json",
+    "14_KB_System/index/candidate_asset_index.json",
+    "14_KB_System/index/raw_blocked_index.json",
     "14_KB_System/index/task_entry_index.md",
     "14_KB_System/skill_packages/knowledge-base/SKILL.md",
     "14_KB_System/skill_packages/knowledge-base/agents/openai.yaml",
@@ -44,6 +48,7 @@ def validate_system(root: Path) -> dict[str, Any]:
     controller = load_json(root / "14_KB_System" / "index" / "controller_routes.json", failed, "controller_routes_invalid_json")
     output_contracts = load_json(root / "14_KB_System" / "config" / "output_contracts.json", failed, "output_contracts_invalid_json")
     account_index = load_json(root / "14_KB_System" / "index" / "account_knowledge_index.json", failed, "account_index_invalid_json")
+    raw_blocked_index = load_json(root / "14_KB_System" / "index" / "raw_blocked_index.json", failed, "raw_blocked_index_invalid_json")
     if "索引" not in entry_text:
         failed.append("entry_missing_index_first_rule")
     if "controller_routes.json" not in entry_text:
@@ -54,6 +59,7 @@ def validate_system(root: Path) -> dict[str, Any]:
         failed.append("task_index_missing_controller_route")
     if "输出契约" not in output_contract_text:
         failed.append("output_contract_doc_missing_title")
+    validate_raw_blocked_index(raw_blocked_index, failed)
     if "禁止全盘扫库" not in project_use_text and "禁止全量扫库" not in project_use_text:
         failed.append("project_use_missing_no_full_scan_rule")
     if "数据" not in project_use_text:
@@ -156,6 +162,7 @@ def validate_output_contracts(payload: dict[str, Any], failed: list[str]) -> dic
         "screenshot_review",
         "table_review",
         "skill_evolution",
+        "external_use",
         "system_audit",
     }
     contract_ids = {item.get("route_id") for item in contracts if isinstance(item, dict)}
@@ -170,6 +177,21 @@ def validate_output_contracts(payload: dict[str, Any], failed: list[str]) -> dic
         if not contract.get("must_not"):
             failed.append(f"output_contract_missing_must_not:{contract.get('route_id', 'unknown')}")
     return {"contract_count": len(contracts)}
+
+
+def validate_raw_blocked_index(payload: dict[str, Any], failed: list[str]) -> None:
+    if not payload:
+        return
+    items = payload.get("items", [])
+    if not isinstance(items, list):
+        failed.append("raw_blocked_index_missing_items")
+        return
+    paths = [item.get("path", "") for item in items if isinstance(item, dict)]
+    if "数据/" not in paths:
+        failed.append("raw_blocked_index_missing_data_boundary")
+    for path in paths:
+        if path.startswith("数据/") and path != "数据/":
+            failed.append("raw_blocked_index_expands_data")
 
 
 def build_health_summary(root: Path, account_index: dict[str, Any], route_summary: dict[str, int]) -> dict[str, Any]:

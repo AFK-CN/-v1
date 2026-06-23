@@ -105,16 +105,36 @@ class KBSystemTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "知识库入口.md").write_text("# 入口\n", encoding="utf-8")
+            (root / "02_Viral_Methods").mkdir()
+            (root / "02_Viral_Methods" / "method.md").write_text("# 方法\n", encoding="utf-8")
+            (root / "05_Sub_KB_Candidates").mkdir()
+            (root / "05_Sub_KB_Candidates" / "candidate.md").write_text("# 候选\n", encoding="utf-8")
+            (root / "14_KB_System" / "assets").mkdir(parents=True)
+            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
             (root / "00_Inbox").mkdir()
             (root / "00_Inbox" / "raw.json").write_text("[]", encoding="utf-8")
 
             result = write_indexes(root)
 
-            self.assertEqual(result["index_files"], 4)
-            knowledge_index = root / "14_KB_System" / "index" / "knowledge_index.json"
-            task_index = root / "14_KB_System" / "index" / "task_entry_index.md"
+            self.assertEqual(result["index_files"], 8)
+            index_dir = root / "14_KB_System" / "index"
+            knowledge_index = index_dir / "knowledge_index.json"
+            summary_index = index_dir / "knowledge_index_summary.md"
+            formal_index = index_dir / "formal_knowledge_index.json"
+            candidate_index = index_dir / "candidate_asset_index.json"
+            raw_blocked_index = index_dir / "raw_blocked_index.json"
+            task_index = index_dir / "task_entry_index.md"
             data = json.loads(knowledge_index.read_text(encoding="utf-8"))
             self.assertTrue(any(item["path"] == "知识库入口.md" for item in data["files"]))
+            self.assertIn("默认不要读取全量索引", summary_index.read_text(encoding="utf-8"))
+            formal = json.loads(formal_index.read_text(encoding="utf-8"))
+            self.assertTrue(any(item["path"] == "02_Viral_Methods/method.md" for item in formal["items"]))
+            candidate = json.loads(candidate_index.read_text(encoding="utf-8"))
+            candidate_paths = {item["path"] for item in candidate["items"]}
+            self.assertIn("05_Sub_KB_Candidates/candidate.md", candidate_paths)
+            self.assertIn("14_KB_System/assets/candidate_topics.jsonl", candidate_paths)
+            raw_blocked = json.loads(raw_blocked_index.read_text(encoding="utf-8"))
+            self.assertTrue(any(item["path"] == "00_Inbox/" for item in raw_blocked["items"]))
             self.assertIn("其他项目调用", task_index.read_text(encoding="utf-8"))
 
     def test_scanner_protects_data_directory_without_expanding_contents(self):
@@ -176,6 +196,10 @@ class KBSystemTests(unittest.TestCase):
             (root / "README.md").write_text("14_KB_System\n", encoding="utf-8")
             (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库，按索引按需调用，禁止读取数据目录\n", encoding="utf-8")
             (root / "14_KB_System" / "index" / "knowledge_index.json").write_text('{"files":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "knowledge_index_summary.md").write_text("# 知识库索引摘要\n", encoding="utf-8")
+            (root / "14_KB_System" / "index" / "formal_knowledge_index.json").write_text('{"items":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "candidate_asset_index.json").write_text('{"items":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "raw_blocked_index.json").write_text('{"items":[{"path":"数据/"}]}', encoding="utf-8")
             (root / "14_KB_System" / "index" / "task_entry_index.md").write_text("按需调用 controller_routes.json\n", encoding="utf-8")
             (root / "14_KB_System" / "index" / "controller_routes.json").write_text(
                 json.dumps(
@@ -226,6 +250,7 @@ class KBSystemTests(unittest.TestCase):
                                 "json_ingest",
                                 "screenshot_review",
                                 "table_review",
+                                "external_use",
                                 "skill_evolution",
                                 "system_audit",
                             )
@@ -264,7 +289,7 @@ class KBSystemTests(unittest.TestCase):
             self.assertEqual(result["health"]["route_count"], 9)
             self.assertEqual(result["health"]["agent_count"], 8)
             self.assertEqual(result["health"]["account_count"], 1)
-            self.assertEqual(result["health"]["contract_count"], 8)
+            self.assertEqual(result["health"]["contract_count"], 9)
 
     def test_knowledge_base_skill_package_is_a_single_index_first_entry(self):
         skill = Path("14_KB_System/skill_packages/knowledge-base/SKILL.md")
@@ -351,6 +376,7 @@ class KBSystemTests(unittest.TestCase):
         self.assertIn("topic_generation", route_ids)
         self.assertIn("script_generation", route_ids)
         self.assertIn("account_learning", route_ids)
+        self.assertIn("external_use", route_ids)
         self.assertIn("system_audit", route_ids)
         for contract in payload["contracts"]:
             self.assertTrue(contract["required_fields"])
@@ -384,6 +410,10 @@ class KBSystemTests(unittest.TestCase):
                 encoding="utf-8",
             )
             (root / "14_KB_System" / "index" / "knowledge_index.json").write_text('{"files":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "knowledge_index_summary.md").write_text("# 知识库索引摘要\n", encoding="utf-8")
+            (root / "14_KB_System" / "index" / "formal_knowledge_index.json").write_text('{"items":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "candidate_asset_index.json").write_text('{"items":[]}', encoding="utf-8")
+            (root / "14_KB_System" / "index" / "raw_blocked_index.json").write_text('{"items":[{"path":"数据/"}]}', encoding="utf-8")
             (root / "14_KB_System" / "index" / "task_entry_index.md").write_text("controller_routes.json\n", encoding="utf-8")
             (root / "14_KB_System" / "index" / "account_knowledge_index.json").write_text(
                 json.dumps({"accounts": [{"account_name": "测试账号", "platform": "抖音", "directions": [{"direction": "赚钱"}]}]}, ensure_ascii=False),
@@ -413,7 +443,7 @@ class KBSystemTests(unittest.TestCase):
                 encoding="utf-8",
             )
             (root / "14_KB_System" / "config" / "output_contracts.json").write_text(
-                json.dumps({"contracts": [{"route_id": route_id, "required_fields": ["x"], "must_not": ["y"]} for route_id in route_ids if route_id != "external_use"]}, ensure_ascii=False),
+                json.dumps({"contracts": [{"route_id": route_id, "required_fields": ["x"], "must_not": ["y"]} for route_id in route_ids]}, ensure_ascii=False),
                 encoding="utf-8",
             )
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md").write_text("全盘扫库 数据/ controller_routes.json\n", encoding="utf-8")
