@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, as_posix, now_iso
 from .validator import validate_system
 
@@ -37,9 +38,9 @@ def pending_proposals(root: Path) -> list[str]:
 
 
 def task_counts(root: Path) -> dict[str, int]:
-    base = root / SYSTEM_DIR / "tasks"
+    base = runtime_path(root, "tasks")
     counts: dict[str, int] = {}
-    for status in ("pending", "running", "done", "failed", "paused"):
+    for status in ("pending", "running", "stale", "done", "failed", "paused"):
         current = base / status
         counts[status] = len([path for path in current.iterdir() if path.is_dir()]) if current.exists() else 0
     return counts
@@ -65,7 +66,9 @@ def account_summary(root: Path) -> dict[str, Any]:
 
 
 def candidate_summary(root: Path) -> dict[str, Any]:
-    path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    if not path.exists():
+        path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     if not path.exists():
         return {"candidate_topic_count": 0, "unique_source_count": 0, "top_directions": []}
     count = 0
@@ -202,9 +205,9 @@ def write_dashboard(root: Path) -> dict[str, Any]:
     validation = validate_system(root)
     data = registry(root)
     data["validation"] = {"ok": validation.get("ok"), "failed": validation.get("failed", [])}
-    registry_path = root / SYSTEM_DIR / "state" / "kb_registry.json"
-    report_json = root / SYSTEM_DIR / "reports" / "latest_kb_dashboard.json"
-    report_md = root / SYSTEM_DIR / "reports" / "latest_kb_dashboard.md"
+    registry_path = runtime_path(root, "state") / "kb_registry.json"
+    report_json = runtime_path(root, "reports") / "latest_kb_dashboard.json"
+    report_md = runtime_path(root, "reports") / "latest_kb_dashboard.md"
     write_json(registry_path, data)
     write_json(report_json, data)
     report_md.parent.mkdir(parents=True, exist_ok=True)

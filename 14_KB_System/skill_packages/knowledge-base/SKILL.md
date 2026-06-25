@@ -9,6 +9,14 @@ Use this skill as the stable entrypoint for `/Users/lao_wu/codexAI/知识库`.
 
 ## Start Here
 
+Before normal routing, run:
+
+```bash
+.venv/bin/python -m tools.kb.cli --root /Users/lao_wu/codexAI/知识库 health-gate
+```
+
+The gate only reads the shared daily credential and fixed control metadata; it must not walk formal knowledge files. Run `kb init` for `requires_init`; run `kb doctor` and, only when repairable, `kb repair` for `requires_doctor`.
+
 Read only these files first:
 
 1. `/Users/lao_wu/codexAI/知识库/知识库入口.md`
@@ -33,7 +41,7 @@ The user should only need `@知识库` or `knowledge-base` plus the request. Thi
 
 - Do not scan the whole knowledge base unless the user explicitly asks.
 - Do not read or expand `/Users/lao_wu/codexAI/知识库/数据/` by default.
-- Treat `/Users/lao_wu/codexAI/知识库/14_KB_System/assets/` as candidate assets, not formal knowledge.
+- Treat `/Users/lao_wu/codexAI/知识库/14_KB_System/runtime/cache/assets/` as candidate assets, not formal knowledge.
 - Formal knowledge lives in `02_Viral_Methods/`, `03_Topic_Ideas/`, `04_Platform_Knowledge/`, `06_Sub_KB/`, `08_Content_Factory/`, and `13_Evolving_Skills/`.
 - Active Skill changes must first be proposed; do not directly edit active skills.
 - Content generation outputs must not be written back into formal knowledge directly.

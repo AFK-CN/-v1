@@ -3,15 +3,18 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
 
 
 def write_review_report(root: Path) -> dict[str, str]:
     root = root.resolve()
-    reports = root / SYSTEM_DIR / "reports"
+    reports = runtime_path(root, "reports")
     reports.mkdir(parents=True, exist_ok=True)
     index_path = root / SYSTEM_DIR / "index" / "knowledge_index.json"
-    topics_path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+    topics_path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    if not topics_path.exists():
+        topics_path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     file_count = 0
     cleanup_count = 0
     topic_count = 0
@@ -44,4 +47,3 @@ def write_review_report(root: Path) -> dict[str, str]:
         encoding="utf-8",
     )
     return {"report": str(report.relative_to(root))}
-

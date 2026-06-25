@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
 
 
@@ -12,6 +13,7 @@ REQUIRED_FILES = (
     "README.md",
     "11_Project_Use/项目调用规则.md",
     "14_KB_System/rules/用户操作台.md",
+    "14_KB_System/rules/初始化生命周期.md",
     "14_KB_System/rules/输出契约.md",
     "14_KB_System/config/output_contracts.json",
     "14_KB_System/index/controller_routes.json",
@@ -30,7 +32,7 @@ REQUIRED_FILES = (
 )
 
 
-def validate_system(root: Path) -> dict[str, Any]:
+def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     root = root.resolve()
     failed = []
     for relative in REQUIRED_FILES:
@@ -86,11 +88,14 @@ def validate_system(root: Path) -> dict[str, Any]:
     contract_summary = validate_output_contracts(output_contracts, failed) if output_contracts else {"contract_count": 0}
     health = build_health_summary(root, account_index, route_summary)
     health.update(contract_summary)
-    report_dir = root / SYSTEM_DIR / "reports"
-    report_dir.mkdir(parents=True, exist_ok=True)
-    report_path = report_dir / "latest_system_validation_report.md"
-    report_path.write_text(render_validation_report(failed, health), encoding="utf-8")
-    return {"ok": not failed, "failed": failed, "health": health, "report": str(report_path.relative_to(root))}
+    result = {"ok": not failed, "failed": failed, "health": health}
+    if write_report:
+        report_dir = runtime_path(root, "reports")
+        report_dir.mkdir(parents=True, exist_ok=True)
+        report_path = report_dir / "latest_system_validation_report.md"
+        report_path.write_text(render_validation_report(failed, health), encoding="utf-8")
+        result["report"] = str(report_path.relative_to(root))
+    return result
 
 
 def read_text(path: Path) -> str:
@@ -197,11 +202,11 @@ def validate_raw_blocked_index(payload: dict[str, Any], failed: list[str]) -> No
 def build_health_summary(root: Path, account_index: dict[str, Any], route_summary: dict[str, int]) -> dict[str, Any]:
     accounts = account_index.get("accounts", []) if isinstance(account_index.get("accounts"), list) else []
     proposals_dir = root / "13_Evolving_Skills" / "proposals"
-    reports_dir = root / SYSTEM_DIR / "reports"
+    reports_dir = runtime_path(root, "reports")
     proposal_count = len([path for path in proposals_dir.glob("*.md") if path.name != "Skill提案模板.md"]) if proposals_dir.exists() else 0
     report_count = len(list(reports_dir.glob("*"))) if reports_dir.exists() else 0
-    registry_exists = (root / SYSTEM_DIR / "state" / "kb_registry.json").exists()
-    dashboard_exists = (root / SYSTEM_DIR / "reports" / "latest_kb_dashboard.md").exists()
+    registry_exists = (runtime_path(root, "state") / "kb_registry.json").exists()
+    dashboard_exists = (runtime_path(root, "reports") / "latest_kb_dashboard.md").exists()
     direction_count = 0
     for account in accounts:
         directions = account.get("directions", []) if isinstance(account, dict) else []

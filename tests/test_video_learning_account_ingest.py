@@ -60,6 +60,9 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
             account_index = (root / config.formal_account_dir / "账号索引.md").read_text(encoding="utf-8")
             formal_card = (root / config.formal_account_dir / "directions/表达/cards/01_9002_测试卡.md").read_text(encoding="utf-8")
             global_index = json.loads((root / config.global_account_index_json).read_text(encoding="utf-8"))
+            dirty_state = json.loads(
+                (root / "14_KB_System/runtime/state/dirty_generation.json").read_text(encoding="utf-8")
+            )
             wrong_account_dir = root / "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说"
 
         self.assertEqual(result["profile_id"], "demo_profile")
@@ -69,6 +72,8 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
         self.assertIn("状态：formal_ingested", formal_card)
         self.assertNotIn("候选学习卡", formal_card)
         self.assertEqual(global_index["accounts"][0]["account_id"], "demo_account")
+        self.assertEqual(dirty_state["dirty_generation"], 1)
+        self.assertEqual(dirty_state["events"][-1]["reason"], "formal_account_ingest")
         self.assertFalse(wrong_account_dir.exists())
 
 

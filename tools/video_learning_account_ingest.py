@@ -9,6 +9,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from tools.kb.runtime import mark_dirty
+
 
 def as_posix(path: Path) -> str:
     return path.as_posix()
@@ -539,6 +541,11 @@ def ingest_directions(
     (account_dir / "减少AI味输出规则.md").write_text(_render_anti_ai_style(config), encoding="utf-8")
     (account_dir / "内容输出标准模板.md").write_text(_render_account_content_template(config), encoding="utf-8")
     _write_global_account_index(root, config, direction_entries)
+    mark_dirty(
+        root,
+        "formal_account_ingest",
+        [str(config.formal_account_dir), str(config.global_account_index_json)],
+    )
     return {
         "dry_run": False,
         "profile_id": config.profile_id,

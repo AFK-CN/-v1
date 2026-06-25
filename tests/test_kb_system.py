@@ -1,6 +1,10 @@
 import json
+import os
+import subprocess
+import sys
 import tempfile
 import unittest
+from datetime import datetime
 from pathlib import Path
 
 
@@ -68,8 +72,8 @@ class KBSystemTests(unittest.TestCase):
             result = build_candidate_assets(root, top_n=10)
 
             self.assertGreaterEqual(result["candidate_topics_count"], 1)
-            candidate_path = root / "14_KB_System" / "assets" / "candidate_topics.jsonl"
-            top10_path = root / "14_KB_System" / "assets" / "candidate_top10_by_category.md"
+            candidate_path = root / "14_KB_System" / "runtime" / "cache" / "assets" / "candidate_topics.jsonl"
+            top10_path = root / "14_KB_System" / "runtime" / "cache" / "assets" / "candidate_top10_by_category.md"
             candidates = [json.loads(line) for line in candidate_path.read_text(encoding="utf-8").splitlines()]
             candidate = next(item for item in candidates if item["source_id"] == "a1")
             top10 = top10_path.read_text(encoding="utf-8")
@@ -90,7 +94,7 @@ class KBSystemTests(unittest.TestCase):
             task = create_task(root, "scan_kb", command="python -m tools.kb.cli scan")
             finish_task(root, task["task_id"], "done", summary="scan completed", outputs=["14_KB_System/index/knowledge_index.json"])
 
-            task_dir = root / "14_KB_System" / "tasks" / "done" / task["task_id"]
+            task_dir = root / "14_KB_System" / "runtime" / "tasks" / "done" / task["task_id"]
             self.assertTrue((task_dir / "status.json").exists())
             self.assertTrue((task_dir / "action_log.md").exists())
             self.assertTrue((task_dir / "summary_report.md").exists())
@@ -98,6 +102,45 @@ class KBSystemTests(unittest.TestCase):
             self.assertTrue((task_dir / "outputs_manifest.json").exists())
             status = json.loads((task_dir / "status.json").read_text(encoding="utf-8"))
             self.assertEqual(status["task_status"], "done")
+
+    def test_runtime_cli_exposes_init_health_gate_doctor_repair_and_mark_dirty(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+
+            init = subprocess.run(
+                [sys.executable, "-m", "tools.kb.cli", "--root", str(root), "init", "--no-rebuild", "--no-migrate"],
+                cwd=Path.cwd(),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            gate = subprocess.run(
+                [sys.executable, "-m", "tools.kb.cli", "--root", str(root), "health-gate"],
+                cwd=Path.cwd(),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            dirty = subprocess.run(
+                [
+                    sys.executable,
+                    "-m",
+                    "tools.kb.cli",
+                    "--root",
+                    str(root),
+                    "mark-dirty",
+                    "--reason",
+                    "test",
+                ],
+                cwd=Path.cwd(),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+            self.assertEqual(init.returncode, 0)
+            self.assertEqual(json.loads(gate.stdout)["status"], "healthy")
+            self.assertEqual(json.loads(dirty.stdout)["dirty_generation"], 1)
 
     def test_indexer_writes_machine_and_human_indexes(self):
         from tools.kb.indexer import write_indexes
@@ -111,6 +154,9 @@ class KBSystemTests(unittest.TestCase):
             (root / "05_Sub_KB_Candidates" / "candidate.md").write_text("# 候选\n", encoding="utf-8")
             (root / "14_KB_System" / "assets").mkdir(parents=True)
             (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
+            runtime_assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
+            runtime_assets.mkdir(parents=True)
+            (runtime_assets / "candidate_method_cards.md").write_text("# candidate\n", encoding="utf-8")
             (root / "00_Inbox").mkdir()
             (root / "00_Inbox" / "raw.json").write_text("[]", encoding="utf-8")
 
@@ -133,6 +179,8 @@ class KBSystemTests(unittest.TestCase):
             candidate_paths = {item["path"] for item in candidate["items"]}
             self.assertIn("05_Sub_KB_Candidates/candidate.md", candidate_paths)
             self.assertIn("14_KB_System/assets/candidate_topics.jsonl", candidate_paths)
+            self.assertIn("14_KB_System/runtime/cache/assets/candidate_method_cards.md", candidate_paths)
+            self.assertFalse(any(item["path"].startswith("14_KB_System/runtime/") for item in data["files"]))
             raw_blocked = json.loads(raw_blocked_index.read_text(encoding="utf-8"))
             self.assertTrue(any(item["path"] == "00_Inbox/" for item in raw_blocked["items"]))
             self.assertIn("其他项目调用", task_index.read_text(encoding="utf-8"))
@@ -185,6 +233,7 @@ class KBSystemTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             (root / "14_KB_System" / "index").mkdir(parents=True)
+            (root / "14_KB_System" / "rules").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "知识库" / "agents").mkdir(parents=True)
@@ -201,6 +250,10 @@ class KBSystemTests(unittest.TestCase):
             (root / "14_KB_System" / "index" / "candidate_asset_index.json").write_text('{"items":[]}', encoding="utf-8")
             (root / "14_KB_System" / "index" / "raw_blocked_index.json").write_text('{"items":[{"path":"数据/"}]}', encoding="utf-8")
             (root / "14_KB_System" / "index" / "task_entry_index.md").write_text("按需调用 controller_routes.json\n", encoding="utf-8")
+            (root / "14_KB_System" / "rules" / "初始化生命周期.md").write_text(
+                "kb init health-gate maintenance lock\n",
+                encoding="utf-8",
+            )
             (root / "14_KB_System" / "index" / "controller_routes.json").write_text(
                 json.dumps(
                     {
@@ -545,6 +598,322 @@ class KBSystemTests(unittest.TestCase):
 
             self.assertEqual(result["count"], 1)
             self.assertEqual(result["skipped_asset_lines"], 1)
+
+    def test_candidate_search_reports_broken_raw_files_and_keeps_valid_results(self):
+        from tools.kb.candidate_search import search_candidates
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json" / "李宗恒"
+            data_dir.mkdir(parents=True)
+            (data_dir / "broken.json").write_text('{"broken": ', encoding="utf-8")
+            (data_dir / "valid.json").write_text(
+                json.dumps(
+                    [
+                        {
+                            "aweme_id": "a1",
+                            "title": "高考生加油",
+                            "desc": "高考采访",
+                            "nickname": "李宗恒",
+                            "aweme_url": "https://www.douyin.com/video/a1",
+                        }
+                    ],
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            result = search_candidates(
+                root,
+                query="高考",
+                account_name="李宗恒",
+                include_raw=True,
+            )
+
+            self.assertEqual(result["items"][0]["source_id"], "a1")
+            self.assertTrue(result["partial_success"])
+            self.assertEqual(result["failed_files"][0]["path"], "数据/douyin/json/李宗恒/broken.json")
+            report = (root / result["report"]).read_text(encoding="utf-8")
+            self.assertIn("损坏原始文件", report)
+            self.assertIn("数据/douyin/json/李宗恒/broken.json", report)
+
+    def test_candidate_search_expands_synonyms_and_explains_ranking(self):
+        from tools.kb.candidate_search import search_candidates
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            assets = root / "14_KB_System" / "assets"
+            assets.mkdir(parents=True)
+            rows = [
+                {
+                    "platform": "douyin",
+                    "领域": "商业机会",
+                    "account_name": "姜胡说",
+                    "source_id": "synonym",
+                    "source_url": "https://www.douyin.com/video/synonym",
+                    "可生成标题": ["普通人增加收入的三个方法"],
+                    "痛点": "副业没有稳定变现路径",
+                    "内容承诺": "找到可执行的商业机会",
+                    "正文/脚本方向": "从技能到收入",
+                    "score": 500,
+                    "rank": 2,
+                },
+                {
+                    "platform": "douyin",
+                    "领域": "赚钱",
+                    "account_name": "姜胡说",
+                    "source_id": "exact",
+                    "source_url": "https://www.douyin.com/video/exact",
+                    "可生成标题": ["赚钱不是靠运气"],
+                    "痛点": "不知道如何开始",
+                    "内容承诺": "建立赚钱路径",
+                    "正文/脚本方向": "先找到需求",
+                    "score": 100,
+                    "rank": 1,
+                },
+            ]
+            (assets / "candidate_topics.jsonl").write_text(
+                "\n".join(json.dumps(row, ensure_ascii=False) for row in rows) + "\n",
+                encoding="utf-8",
+            )
+
+            result = search_candidates(root, query="赚钱", account_name="姜胡说", limit=10)
+
+            self.assertEqual(result["backend"], "weighted_jsonl_v1")
+            self.assertEqual([item["source_id"] for item in result["items"]], ["exact", "synonym"])
+            self.assertIn("收入", result["query_expansions"])
+            self.assertIn("变现", result["query_expansions"])
+            self.assertNotIn("投资", result["query_expansions"])
+            self.assertGreater(result["items"][0]["match_score"], result["items"][1]["match_score"])
+            self.assertIn("title", result["items"][0]["matched_fields"])
+            self.assertIn("赚钱", result["items"][0]["matched_terms"])
+
+    def test_scanner_uses_real_file_mtime_and_keeps_it_stable(self):
+        from tools.kb.scanner import scan_files
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            target = root / "README.md"
+            target.write_text("# KB\n", encoding="utf-8")
+            expected_epoch = 1_700_000_000
+            os.utime(target, (expected_epoch, expected_epoch))
+
+            first = scan_files(root)
+            second = scan_files(root)
+            first_item = next(item for item in first["files"] if item["path"] == "README.md")
+            second_item = next(item for item in second["files"] if item["path"] == "README.md")
+
+            self.assertEqual(first_item["modified_at"], second_item["modified_at"])
+            self.assertEqual(datetime.fromisoformat(first_item["modified_at"]).timestamp(), expected_epoch)
+
+    def test_resolve_call_routes_user_prompt_through_account_search_and_contract(self):
+        from tools.kb.call_resolver import resolve_call
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_dir = root / "14_KB_System" / "index"
+            config_dir = root / "14_KB_System" / "config"
+            assets_dir = root / "14_KB_System" / "assets"
+            account_dir = root / "06_Sub_KB" / "知识成长自媒体方法论" / "账号中心" / "姜胡说"
+            direction_dir = account_dir / "directions" / "赚钱"
+            index_dir.mkdir(parents=True)
+            config_dir.mkdir(parents=True)
+            assets_dir.mkdir(parents=True)
+            direction_dir.mkdir(parents=True)
+            (account_dir / "账号索引.md").write_text("# 账号索引\n", encoding="utf-8")
+            (account_dir / "内容生产使用说明.md").write_text("# 使用说明\n", encoding="utf-8")
+            (account_dir / "内容输出标准模板.md").write_text("# 模板\n", encoding="utf-8")
+            (direction_dir / "方向方法论总结.md").write_text("# 方法论\n", encoding="utf-8")
+            (direction_dir / "粗扫内容和选题.md").write_text("# 粗扫\n", encoding="utf-8")
+            (index_dir / "controller_routes.json").write_text(
+                json.dumps(
+                    {
+                        "routes": [
+                            {
+                                "id": "topic_generation",
+                                "triggers": ["我要出选题", "出选题", "选题"],
+                                "read_first": ["14_KB_System/index/account_knowledge_index.md"],
+                            }
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (index_dir / "account_knowledge_index.json").write_text(
+                json.dumps(
+                    {
+                        "accounts": [
+                            {
+                                "account_id": "jianghushuo",
+                                "account_name": "姜胡说",
+                                "formal_account_dir": str(account_dir.relative_to(root)),
+                                "directions": [
+                                    {
+                                        "direction": "赚钱",
+                                        "status": "formal_ingested",
+                                        "formal_direction_dir": str(direction_dir.relative_to(root)),
+                                    }
+                                ],
+                            }
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (config_dir / "output_contracts.json").write_text(
+                json.dumps(
+                    {
+                        "contracts": [
+                            {
+                                "route_id": "topic_generation",
+                                "required_fields": ["选题标题", "证据边界"],
+                                "must_not": ["不把候选资产写成正式知识"],
+                            }
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            candidate = {
+                "platform": "douyin",
+                "领域": "赚钱",
+                "account_name": "姜胡说",
+                "source_id": "a1",
+                "source_url": "https://www.douyin.com/video/a1",
+                "可生成标题": ["赚钱先解决真实需求"],
+                "score": 100,
+                "rank": 1,
+            }
+            (assets_dir / "candidate_topics.jsonl").write_text(
+                json.dumps(candidate, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+
+            result = resolve_call(root, "@知识库 按姜胡说的方式出2个赚钱选题")
+
+            self.assertEqual(result["route_id"], "topic_generation")
+            self.assertEqual(result["account_name"], "姜胡说")
+            self.assertEqual(result["direction"], "赚钱")
+            self.assertEqual(result["requested_count"], 2)
+            self.assertEqual(result["search"]["items"][0]["source_id"], "a1")
+            self.assertIn("选题标题", result["output_contract"]["required_fields"])
+            self.assertTrue(all((root / path).exists() for path in result["read_paths"]))
+            self.assertIn(
+                str((direction_dir / "方向方法论总结.md").relative_to(root)),
+                result["read_paths"],
+            )
+            self.assertIn(
+                str((direction_dir / "粗扫内容和选题.md").relative_to(root)),
+                result["read_paths"],
+            )
+            self.assertEqual(result["knowledge_boundary"]["candidate_assets"], "candidate_evidence_only")
+
+    def test_resolve_call_prefers_specific_task_over_generic_external_entry(self):
+        from tools.kb.call_resolver import resolve_route
+
+        routes = [
+            {"id": "external_use", "triggers": ["@知识库", "knowledge-base"]},
+            {"id": "topic_generation", "triggers": ["出选题", "选题"]},
+        ]
+
+        result = resolve_route("@知识库 按姜胡说的方式出2个赚钱选题", routes)
+
+        self.assertEqual(result["id"], "topic_generation")
+
+    def test_resolve_call_cli_returns_nonzero_for_unresolved_prompt(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_dir = root / "14_KB_System" / "index"
+            config_dir = root / "14_KB_System" / "config"
+            index_dir.mkdir(parents=True)
+            config_dir.mkdir(parents=True)
+            (index_dir / "controller_routes.json").write_text(
+                json.dumps({"routes": []}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (index_dir / "account_knowledge_index.json").write_text(
+                json.dumps({"accounts": []}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (config_dir / "output_contracts.json").write_text(
+                json.dumps({"contracts": []}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+
+            completed = subprocess.run(
+                [
+                    sys.executable,
+                    "-m",
+                    "tools.kb.cli",
+                    "--root",
+                    str(root),
+                    "resolve-call",
+                    "--text",
+                    "这是一条无法识别的请求",
+                ],
+                cwd=Path.cwd(),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+            payload = json.loads(completed.stdout)
+            self.assertEqual(completed.returncode, 2)
+            self.assertFalse(payload["ok"])
+            self.assertIn("route_not_resolved", payload["errors"])
+
+    def test_resolve_call_does_not_search_candidates_for_system_audit(self):
+        from tools.kb.call_resolver import resolve_call
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index_dir = root / "14_KB_System" / "index"
+            config_dir = root / "14_KB_System" / "config"
+            index_dir.mkdir(parents=True)
+            config_dir.mkdir(parents=True)
+            (index_dir / "controller_routes.json").write_text(
+                json.dumps(
+                    {
+                        "routes": [
+                            {
+                                "id": "system_audit",
+                                "triggers": ["我要看状态"],
+                                "read_first": ["14_KB_System/index/controller_routes.json"],
+                            }
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            (index_dir / "account_knowledge_index.json").write_text(
+                json.dumps({"accounts": []}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (config_dir / "output_contracts.json").write_text(
+                json.dumps(
+                    {
+                        "contracts": [
+                            {
+                                "route_id": "system_audit",
+                                "required_fields": ["验证结果"],
+                                "must_not": ["不只检查文件存在"],
+                            }
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            result = resolve_call(root, "@知识库 我要看状态")
+
+            self.assertEqual(result["route_id"], "system_audit")
+            self.assertEqual(result["search"]["status"], "not_applicable")
+            self.assertFalse((root / "14_KB_System" / "reports").exists())
 
     def test_evolution_report_writes_candidate_only_without_active_skill_changes(self):
         from tools.kb.evolution import write_evolution_report

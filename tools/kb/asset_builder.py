@@ -6,11 +6,12 @@ from typing import Any
 
 from tools import video_learning
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
 
 
 def assets_dir(root: Path) -> Path:
-    return root / SYSTEM_DIR / "assets"
+    return runtime_path(root, "cache") / "assets"
 
 
 def topic_candidate(item: video_learning.RankedRecord) -> dict[str, Any]:
@@ -46,7 +47,7 @@ def build_candidate_assets(root: Path, top_n: int = 10) -> dict[str, Any]:
     root = root.resolve()
     target = assets_dir(root)
     target.mkdir(parents=True, exist_ok=True)
-    records, raw_counts, dedupe_stats = video_learning.load_unique_records(root)
+    records, raw_counts, dedupe_stats, failed_files = video_learning.load_unique_records_detailed(root)
     rankings = video_learning.build_direction_rankings(records, limit=top_n)
     candidates = [topic_candidate(item) for ranked in rankings.values() for item in ranked]
     write_jsonl(target / "candidate_topics.jsonl", candidates)
@@ -61,6 +62,8 @@ def build_candidate_assets(root: Path, top_n: int = 10) -> dict[str, Any]:
         "generated_at": now_iso(),
         "raw_counts": raw_counts,
         "dedupe_stats": dedupe_stats,
+        "failed_files": failed_files,
+        "partial_success": bool(failed_files),
         "directions": len(rankings),
         "candidate_topics_count": len(candidates),
         "assets_dir": str(target.relative_to(root)),
@@ -68,7 +71,7 @@ def build_candidate_assets(root: Path, top_n: int = 10) -> dict[str, Any]:
 
 
 def write_asset_state(root: Path, candidates: list[dict[str, Any]]) -> None:
-    state_dir = root / SYSTEM_DIR / "state"
+    state_dir = runtime_path(root, "state")
     state_dir.mkdir(parents=True, exist_ok=True)
     state = {
         "generated_at": now_iso(),

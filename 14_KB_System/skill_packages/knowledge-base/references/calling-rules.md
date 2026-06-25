@@ -2,6 +2,8 @@
 
 ## 默认入口
 
+新机器、runtime/凭证缺失、schema 不匹配或旧目录待迁移时先执行 `kb init`。初始化后的日常调用只执行 `health-gate`；它禁止遍历正式知识文件，同一 KB root 的凭证当天跨项目共享。init、doctor、repair 使用同一个 maintenance lock；repair 只能重建可再生产物和标记 stale，不能恢复或重跑任务。
+
 其他项目调用知识库时，先使用 Skill 入口，不要直接 `@` 一堆 Markdown 文件。
 
 默认读取：
@@ -38,13 +40,23 @@
 
 候选资产没有命中且用户要求追溯原始资料时，才加 `--include-raw`。
 
+## 确定性调用链验收
+
+需要验证一条真实用户请求会命中哪个路由、账号中心、候选检索和输出契约时，运行：
+
+```bash
+.venv/bin/python -m tools.kb.cli --root . resolve-call --text "@知识库 按姜胡说的方式出2个赚钱选题"
+```
+
+该命令不调用模型、不写正式知识。无法识别路由时返回结构化错误并以非零状态退出。
+
 ## 默认禁止
 
 - 禁止全盘扫库。
 - 禁止默认读取 `数据/`。
 - 禁止默认读取 `00_Inbox/`。
 - 禁止默认读取 `99_Archive/`。
-- 禁止把 `14_KB_System/assets/` 当作正式知识。
+- 禁止把 `14_KB_System/runtime/cache/assets/` 当作正式知识。
 - 禁止把未确认的 proposals 当作已生效规则。
 - 内容生成结果不能直接反写正式知识。
 - Skill 更新只能先写入 `13_Evolving_Skills/proposals/`。

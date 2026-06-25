@@ -10,6 +10,7 @@ from urllib.parse import urlparse
 
 from tools import video_learning
 
+from .runtime import runtime_path
 from .asset_builder import build_candidate_assets
 from .schemas import SYSTEM_DIR, as_posix, now_iso
 from .task_runner import create_task, finish_task, find_task_dir, move_task_dir, tasks_root
@@ -20,7 +21,7 @@ WEB_STATE_FILE = "web_console_state.json"
 
 
 def web_state_path(root: Path) -> Path:
-    return root / SYSTEM_DIR / "state" / WEB_STATE_FILE
+    return runtime_path(root, "state") / WEB_STATE_FILE
 
 
 def read_json_file(path: Path, default: Any) -> Any:
@@ -57,7 +58,7 @@ def task_dirs(root: Path) -> list[Path]:
     if not root_dir.exists():
         return []
     dirs: list[Path] = []
-    for status in ("pending", "running", "done", "failed", "paused"):
+    for status in ("pending", "running", "stale", "done", "failed", "paused"):
         current = root_dir / status
         if not current.exists():
             continue
@@ -95,7 +96,9 @@ def list_tasks(root: Path) -> list[dict[str, Any]]:
 
 
 def candidate_batches(root: Path) -> list[dict[str, Any]]:
-    path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    if not path.exists():
+        path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     if not path.exists():
         return []
 
@@ -230,16 +233,18 @@ def run_scan_task(root: Path, request: dict[str, Any]) -> dict[str, Any]:
     return {
         "summary": f"候选资产已生成，方向数 {result['directions']}，候选数 {result['candidate_topics_count']}",
         "outputs": [
-            "14_KB_System/assets/candidate_topics.jsonl",
-            "14_KB_System/assets/candidate_top10_by_category.md",
-            "14_KB_System/assets/candidate_method_cards.md",
+            "14_KB_System/runtime/cache/assets/candidate_topics.jsonl",
+            "14_KB_System/runtime/cache/assets/candidate_top10_by_category.md",
+            "14_KB_System/runtime/cache/assets/candidate_method_cards.md",
         ],
         "result": result,
     }
 
 
 def _candidate_source_ids(root: Path, direction: str) -> list[str]:
-    path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    if not path.exists():
+        path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     if not path.exists():
         return []
     source_ids: list[str] = []
@@ -309,6 +314,14 @@ def run_pending_web_tasks_once(root: Path, state: dict[str, Any] | None = None) 
             save_web_state(root, state)
         move_task_dir(root, str(status.get("task_id")), "running")
         running_dir = find_task_dir(root, str(status.get("task_id")))
+        running_status_path = running_dir / "status.json"
+        running_status = read_json_file(running_status_path, {})
+        if isinstance(running_status, dict):
+            running_status["task_status"] = "running"
+            running_status["started_at"] = running_status.get("started_at") or now_iso()
+            running_status["heartbeat_at"] = now_iso()
+            running_status["updated_at"] = now_iso()
+            write_json_file(running_status_path, running_status)
         try:
             result = process_web_task(root, running_dir)
             finish_task(

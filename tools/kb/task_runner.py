@@ -5,11 +5,12 @@ import shutil
 from pathlib import Path
 from typing import Any
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, as_posix, now_iso, validate_task_status
 
 
 def tasks_root(root: Path) -> Path:
-    return root / SYSTEM_DIR / "tasks"
+    return runtime_path(root, "tasks")
 
 
 def task_id_for(task_name: str) -> str:
@@ -47,7 +48,7 @@ def create_task(root: Path, task_name: str, command: str = "", payload: dict[str
 
 
 def find_task_dir(root: Path, task_id: str) -> Path:
-    for status in ("pending", "running", "done", "failed", "paused"):
+    for status in ("pending", "running", "stale", "done", "failed", "paused"):
         candidate = tasks_root(root) / status / task_id
         if candidate.exists():
             return candidate

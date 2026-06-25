@@ -61,7 +61,7 @@ class KBWebConsoleTests(unittest.TestCase):
                 processed = web_console.run_pending_web_tasks_once(root)
 
             self.assertTrue(processed)
-            task_dir = root / "14_KB_System" / "tasks" / "done" / task["task_id"]
+            task_dir = root / "14_KB_System" / "runtime" / "tasks" / "done" / task["task_id"]
             self.assertTrue(task_dir.exists())
             status = json.loads((task_dir / "status.json").read_text(encoding="utf-8"))
             self.assertEqual(status["task_status"], "done")

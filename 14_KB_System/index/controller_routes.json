@@ -209,9 +209,16 @@
         "14_KB_System/index/raw_blocked_index.json",
         "14_KB_System/index/account_knowledge_index.json",
         "14_KB_System/config/output_contracts.json",
-        "14_KB_System/state/kb_registry.json"
+        "14_KB_System/runtime/state/kb_registry.json"
       ],
-      "tools": ["tools.kb.cli validate-system", "tools.kb.cli dashboard"],
+      "tools": [
+        "tools.kb.cli health-gate",
+        "tools.kb.cli init",
+        "tools.kb.cli doctor",
+        "tools.kb.cli repair",
+        "tools.kb.cli validate-system",
+        "tools.kb.cli dashboard"
+      ],
       "output_contract": "输出入口、索引、路由、Skill 包、账号中心、proposal、候选注册表、输出契约和报告状态。",
       "write_policy": "只写系统验证报告，不改正式知识。"
     }

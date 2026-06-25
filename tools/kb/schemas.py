@@ -16,7 +16,7 @@ CONTENT_STATUSES = (
     "rejected",
 )
 
-TASK_STATUSES = ("pending", "running", "done", "failed", "paused")
+TASK_STATUSES = ("pending", "running", "stale", "done", "failed", "paused")
 
 RAW_INPUT_DIRS = ("00_Inbox", "数据")
 FORMAL_KNOWLEDGE_DIRS = (
@@ -47,4 +47,3 @@ def validate_task_status(status: str) -> str:
 
 def as_posix(path: Any) -> str:
     return str(path).replace("\\", "/")
-

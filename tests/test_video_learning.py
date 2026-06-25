@@ -76,6 +76,65 @@ class VideoLearningTests(unittest.TestCase):
             self.assertEqual(raw_counts["xhs_contents"], 1)
             self.assertEqual({record.account_name for record in records}, {"姜胡说", "李宗恒", "省钱也要喂饱自己（沪漂版）"})
 
+    def test_load_records_detailed_continues_after_broken_json_and_reports_failure(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json" / "姜胡说"
+            data_dir.mkdir(parents=True)
+            (data_dir / "broken.json").write_text('{"broken": ', encoding="utf-8")
+            (data_dir / "valid.json").write_text(
+                json.dumps([{"aweme_id": "a1", "title": "赚钱", "desc": "方法"}], ensure_ascii=False),
+                encoding="utf-8",
+            )
+
+            records, raw_counts, failed_files = video_learning.load_records_detailed(root)
+
+            self.assertEqual([record.source_id for record in records], ["a1"])
+            self.assertEqual(raw_counts["douyin_contents"], 1)
+            self.assertEqual(len(failed_files), 1)
+            self.assertEqual(failed_files[0]["path"], "数据/douyin/json/姜胡说/broken.json")
+            self.assertEqual(failed_files[0]["stage"], "json_decode")
+            self.assertEqual(failed_files[0]["error_type"], "JSONDecodeError")
+
+    def test_load_records_detailed_isolates_valid_json_with_invalid_record_shape(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json" / "姜胡说"
+            data_dir.mkdir(parents=True)
+            (data_dir / "invalid_rows.json").write_text(
+                json.dumps(["not-an-object"], ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (data_dir / "valid.json").write_text(
+                json.dumps([{"aweme_id": "a1", "title": "赚钱", "desc": "方法"}], ensure_ascii=False),
+                encoding="utf-8",
+            )
+
+            records, raw_counts, failed_files = video_learning.load_records_detailed(root)
+
+            self.assertEqual([record.source_id for record in records], ["a1"])
+            self.assertEqual(raw_counts["douyin_contents"], 1)
+            self.assertEqual(len(failed_files), 1)
+            self.assertEqual(failed_files[0]["path"], "数据/douyin/json/姜胡说/invalid_rows.json")
+            self.assertEqual(failed_files[0]["stage"], "record_validation")
+
+    def test_select_deep_learning_reports_source_file_failures_without_stopping(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json" / "姜胡说"
+            data_dir.mkdir(parents=True)
+            (data_dir / "broken.json").write_text('{"broken": ', encoding="utf-8")
+            (data_dir / "valid.json").write_text(
+                json.dumps([{"aweme_id": "a1", "title": "赚钱", "desc": "方法"}], ensure_ascii=False),
+                encoding="utf-8",
+            )
+
+            result = video_learning.select_deep_learning(root, source_ids={"a1"})
+
+            self.assertEqual(result["selected"], 1)
+            self.assertTrue(result["partial_success"])
+            self.assertEqual(result["failed_files"][0]["path"], "数据/douyin/json/姜胡说/broken.json")
+
     def test_direction_detection_and_platform_heat_scores(self):
         douyin_record = video_learning.NormalizedRecord(
             platform="douyin",

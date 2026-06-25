@@ -1,9 +1,12 @@
 from __future__ import annotations
 
 import hashlib
+import os
+from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from .runtime import runtime_path
 from .schemas import RAW_INPUT_DIRS, SYSTEM_DIR, as_posix, now_iso
 
 
@@ -11,7 +14,7 @@ CLEANUP_NAMES = {".DS_Store", "feishu-auth-qrcode.png"}
 CLEANUP_SUFFIXES = {".pyc", ".tmp", ".log"}
 CLEANUP_PARTS = {"__pycache__", ".pytest_cache", ".mypy_cache"}
 RAW_SUFFIXES = {".json", ".csv", ".xlsx", ".xls", ".png", ".jpg", ".jpeg", ".webp", ".mp4", ".mov"}
-SKIP_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", ".mypy_cache", "数据"}
+SKIP_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", ".mypy_cache", "数据", "runtime"}
 PROTECTED_DIRS = {"数据"}
 
 
@@ -49,7 +52,7 @@ def classify_file(root: Path, path: Path) -> dict[str, Any]:
         "name": path.name,
         "suffix": path.suffix.lower(),
         "size_bytes": stat.st_size,
-        "modified_at": now_iso(),
+        "modified_at": datetime.fromtimestamp(stat.st_mtime).astimezone().isoformat(timespec="seconds"),
         "is_raw_input": is_raw,
         "is_system_file": SYSTEM_DIR in relative.parts,
         "cleanup_candidate": bool(reason),
@@ -58,19 +61,25 @@ def classify_file(root: Path, path: Path) -> dict[str, Any]:
     }
 
 
-def scan_files(root: Path) -> dict[str, Any]:
+def scan_files(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]:
     root = root.resolve()
     files = []
     protected_directories = []
     for name in sorted(PROTECTED_DIRS):
         if (root / name).exists():
             protected_directories.append({"path": name, "reason": "protected_raw_source_not_expanded"})
-    for path in sorted(root.rglob("*")):
-        relative = path.relative_to(root)
-        if any(part in SKIP_DIRS for part in relative.parts):
-            continue
-        if not path.is_file():
-            continue
+    discovered: list[Path] = []
+    for current, dirnames, filenames in os.walk(root):
+        current_path = Path(current)
+        at_root = current_path == root
+        dirnames[:] = sorted(
+            name
+            for name in dirnames
+            if name not in SKIP_DIRS
+            and not (at_root and not include_raw_inputs and name in RAW_INPUT_DIRS)
+        )
+        discovered.extend(current_path / name for name in sorted(filenames))
+    for path in sorted(discovered):
         files.append(classify_file(root, path))
     cleanup = [item for item in files if item["cleanup_candidate"]]
     return {
@@ -87,7 +96,7 @@ def scan_files(root: Path) -> dict[str, Any]:
 def write_scan_report(root: Path) -> dict[str, Any]:
     root = root.resolve()
     result = scan_files(root)
-    report_dir = root / SYSTEM_DIR / "reports"
+    report_dir = runtime_path(root, "reports")
     report_dir.mkdir(parents=True, exist_ok=True)
     report_path = report_dir / "latest_file_inventory_report.md"
     lines = [

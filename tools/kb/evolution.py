@@ -2,16 +2,19 @@ from __future__ import annotations
 
 from pathlib import Path
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
 
 
 def write_evolution_report(root: Path) -> dict[str, str | int]:
     root = root.resolve()
-    assets_path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+    assets_path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    if not assets_path.exists():
+        assets_path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     topic_count = 0
     if assets_path.exists():
         topic_count = len([line for line in assets_path.read_text(encoding="utf-8").splitlines() if line.strip()])
-    report_dir = root / SYSTEM_DIR / "reports"
+    report_dir = runtime_path(root, "reports")
     report_dir.mkdir(parents=True, exist_ok=True)
     report_path = report_dir / "latest_evolution_candidate_report.md"
     report_path.write_text(

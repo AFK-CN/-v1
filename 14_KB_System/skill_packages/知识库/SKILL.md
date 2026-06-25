@@ -9,6 +9,14 @@ description: 当用户输入 @知识库、使用知识库、调用知识库、�
 
 ## 默认先读
 
+调用前先运行：
+
+```bash
+.venv/bin/python -m tools.kb.cli --root /Users/lao_wu/codexAI/知识库 health-gate
+```
+
+`healthy` 时直接读取；`requires_init` 时执行一次 `kb init`；`requires_doctor` 时执行 `kb doctor`，仅 repairable 时执行 `kb repair`。`health-gate` 不是 preflight，禁止遍历正式知识文件，同一 KB root 的凭证当天跨项目共享。
+
 1. `/Users/lao_wu/codexAI/知识库/知识库入口.md`
 2. `/Users/lao_wu/codexAI/知识库/14_KB_System/rules/用户操作台.md`
 3. `/Users/lao_wu/codexAI/知识库/14_KB_System/index/controller_routes.json`
@@ -33,7 +41,7 @@ description: 当用户输入 @知识库、使用知识库、调用知识库、�
 - 禁止默认读取 `/Users/lao_wu/codexAI/知识库/数据/`。
 - 禁止默认读取 `/Users/lao_wu/codexAI/知识库/00_Inbox/`。
 - 禁止默认读取 `/Users/lao_wu/codexAI/知识库/99_Archive/`。
-- 禁止把 `14_KB_System/assets/` 候选资产当作正式知识。
+- 禁止把 `14_KB_System/runtime/cache/assets/` 候选资产当作正式知识。
 - 禁止把未确认的 proposals 当作已生效规则。
 - 禁止内容生成结果直接反写正式知识。
 - active Skill 修改必须先进入 `13_Evolving_Skills/proposals/`，用户确认后再生效。

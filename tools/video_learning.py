@@ -317,7 +317,7 @@ def classify_json(path: Path, rows: list[dict[str, Any]]) -> str:
     return "unknown"
 
 
-def load_records(root: Path) -> tuple[list[NormalizedRecord], dict[str, int]]:
+def load_records_detailed(root: Path) -> tuple[list[NormalizedRecord], dict[str, int], list[dict[str, str]]]:
     raw_counts = {
         "douyin_contents": 0,
         "xhs_contents": 0,
@@ -326,14 +326,58 @@ def load_records(root: Path) -> tuple[list[NormalizedRecord], dict[str, int]]:
         "unknown": 0,
     }
     records: list[NormalizedRecord] = []
+    failed_files: list[dict[str, str]] = []
     search_roots = [root / "数据", root / "00_Inbox"]
     for search_root in search_roots:
         if not search_root.exists():
             continue
         for path in sorted(search_root.rglob("*.json")):
-            rows = json.loads(path.read_text(encoding="utf-8"))
+            relative_path = str(path.relative_to(root))
+            try:
+                content = path.read_text(encoding="utf-8")
+            except (OSError, UnicodeError) as exc:
+                failed_files.append(
+                    {
+                        "path": relative_path,
+                        "stage": "read",
+                        "error_type": type(exc).__name__,
+                        "message": str(exc),
+                    }
+                )
+                continue
+            try:
+                rows = json.loads(content)
+            except json.JSONDecodeError as exc:
+                failed_files.append(
+                    {
+                        "path": relative_path,
+                        "stage": "json_decode",
+                        "error_type": type(exc).__name__,
+                        "message": str(exc),
+                    }
+                )
+                continue
             if not isinstance(rows, list):
                 raw_counts["unknown"] += 1
+                failed_files.append(
+                    {
+                        "path": relative_path,
+                        "stage": "top_level_validation",
+                        "error_type": "InvalidTopLevelType",
+                        "message": f"expected list, got {type(rows).__name__}",
+                    }
+                )
+                continue
+            if any(not isinstance(row, dict) for row in rows):
+                raw_counts["unknown"] += len(rows)
+                failed_files.append(
+                    {
+                        "path": relative_path,
+                        "stage": "record_validation",
+                        "error_type": "InvalidRecordType",
+                        "message": "expected every record to be an object",
+                    }
+                )
                 continue
             kind = classify_json(path, rows)
             raw_counts[kind] = raw_counts.get(kind, 0) + len(rows)
@@ -341,6 +385,11 @@ def load_records(root: Path) -> tuple[list[NormalizedRecord], dict[str, int]]:
                 records.extend(normalize_record("douyin", row, path.relative_to(root)) for row in rows)
             elif kind == "xhs_contents":
                 records.extend(normalize_record("xhs", row, path.relative_to(root)) for row in rows)
+    return records, raw_counts, failed_files
+
+
+def load_records(root: Path) -> tuple[list[NormalizedRecord], dict[str, int]]:
+    records, raw_counts, _ = load_records_detailed(root)
     return records, raw_counts
 
 
@@ -1724,9 +1773,17 @@ def record_key(record: NormalizedRecord) -> str:
 
 
 def load_unique_records(root: Path) -> tuple[list[NormalizedRecord], dict[str, int], dict[str, int]]:
-    records, raw_counts = load_records(root)
+    records, raw_counts, _ = load_records_detailed(root)
     unique_records, dedupe_stats = deduplicate_records(records)
     return unique_records, raw_counts, dedupe_stats
+
+
+def load_unique_records_detailed(
+    root: Path,
+) -> tuple[list[NormalizedRecord], dict[str, int], dict[str, int], list[dict[str, str]]]:
+    records, raw_counts, failed_files = load_records_detailed(root)
+    unique_records, dedupe_stats = deduplicate_records(records)
+    return unique_records, raw_counts, dedupe_stats, failed_files
 
 
 def records_by_source_id(records: list[NormalizedRecord]) -> dict[str, NormalizedRecord]:
@@ -1860,7 +1917,7 @@ def select_deep_learning(
     direction: str = "",
     top_n: int = 0,
 ) -> dict[str, Any]:
-    records, raw_counts, dedupe_stats = load_unique_records(root)
+    records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
     by_id = records_by_source_id(records)
     selected: list[NormalizedRecord] = []
     missing: list[str] = []
@@ -1899,6 +1956,8 @@ def select_deep_learning(
     return {
         "raw_counts": raw_counts,
         "dedupe_stats": dedupe_stats,
+        "failed_files": failed_files,
+        "partial_success": bool(failed_files),
         "requested": len(source_ids or []),
         "selected": len(selected),
         "queued": queued,
@@ -1960,6 +2019,7 @@ def selected_report_markdown(result: dict[str, Any], statuses: dict[str, dict[st
     if skipped:
         lines.extend(["", "## 已跳过", ""])
         lines.extend(f"- {source_id}" for source_id in skipped)
+    append_source_failures(lines, result.get("failed_files", []))
     return "\n".join(lines) + "\n"
 
 
@@ -1989,7 +2049,28 @@ def download_report_markdown(result: dict[str, Any], statuses: dict[str, dict[st
     if missing:
         lines.extend(["", "## 未找到", ""])
         lines.extend(f"- {source_id}" for source_id in missing)
+    append_source_failures(lines, result.get("failed_files", []))
     return "\n".join(lines) + "\n"
+
+
+def append_source_failures(lines: list[str], failed_files: list[dict[str, str]]) -> None:
+    if not failed_files:
+        return
+    lines.extend(
+        [
+            "",
+            "## 原始文件读取失败",
+            "",
+            "| 文件 | 阶段 | 错误类型 | 错误摘要 |",
+            "| --- | --- | --- | --- |",
+        ]
+    )
+    for failure in failed_files:
+        message = str(failure.get("message", "")).replace("\n", " ")[:160]
+        lines.append(
+            f"| {failure.get('path', '')} | {failure.get('stage', '')} | "
+            f"{failure.get('error_type', '')} | {message} |"
+        )
 
 
 def run_selected_deep_learning(
@@ -2002,7 +2083,7 @@ def run_selected_deep_learning(
     force: bool = False,
 ) -> dict[str, Any]:
     requested_ids = source_ids or selected_ids_from_queue(root)
-    records, raw_counts, dedupe_stats = load_unique_records(root)
+    records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
     by_id = records_by_source_id(records)
     output_dir = video_learning_dir(root)
     cards_dir = output_dir / "selected_deep_cards"
@@ -2056,6 +2137,8 @@ def run_selected_deep_learning(
     result = {
         "raw_counts": raw_counts,
         "dedupe_stats": dedupe_stats,
+        "failed_files": failed_files,
+        "partial_success": bool(failed_files),
         "requested": len(requested_ids),
         "found": len(requested_ids) - len(missing),
         "learned": learned,
@@ -2076,7 +2159,7 @@ def run_selected_deep_learning(
 
 def download_selected_media(root: Path, source_ids: set[str] | None = None) -> dict[str, Any]:
     requested_ids = source_ids or selected_ids_from_queue(root)
-    records, raw_counts, dedupe_stats = load_unique_records(root)
+    records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
     by_id = records_by_source_id(records)
     output_dir = video_learning_dir(root)
     statuses: dict[str, dict[str, Any]] = {}
@@ -2125,6 +2208,8 @@ def download_selected_media(root: Path, source_ids: set[str] | None = None) -> d
     result = {
         "raw_counts": raw_counts,
         "dedupe_stats": dedupe_stats,
+        "failed_files": failed_files,
+        "partial_success": bool(failed_files),
         "requested": len(requested_ids),
         "found": len(requested_ids) - len(missing),
         "downloaded": downloaded,

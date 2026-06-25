@@ -5,6 +5,7 @@ import shutil
 from pathlib import Path
 from typing import Any
 
+from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, as_posix, now_iso
 
 
@@ -97,7 +98,7 @@ def plan_reorganization(root: Path) -> dict[str, Any]:
 def write_reorganization_plan(root: Path) -> dict[str, Any]:
     root = root.resolve()
     plan = plan_reorganization(root)
-    report_dir = root / SYSTEM_DIR / "reports"
+    report_dir = runtime_path(root, "reports")
     report_dir.mkdir(parents=True, exist_ok=True)
     json_path = report_dir / "latest_root_reorganization_plan.json"
     md_path = report_dir / "latest_root_reorganization_plan.md"
@@ -148,7 +149,7 @@ def apply_reorganization_plan(root: Path, plan_path: Path, allow_delete: bool = 
                 applied.append(item)
             else:
                 skipped.append({"path": item["path"], "reason": "delete_not_allowed"})
-    report_dir = root / SYSTEM_DIR / "reports"
+    report_dir = runtime_path(root, "reports")
     report_dir.mkdir(parents=True, exist_ok=True)
     report_path = report_dir / "latest_root_reorganization_apply_report.md"
     report_path.write_text(render_apply_report(applied, skipped), encoding="utf-8")

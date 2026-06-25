@@ -4,7 +4,8 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .scanner import scan_files
+from .runtime import runtime_path
+from .scanner import classify_file, scan_files
 from .schemas import FORMAL_KNOWLEDGE_DIRS, RAW_INPUT_DIRS, SYSTEM_DIR, as_posix, now_iso
 
 
@@ -81,8 +82,8 @@ def is_candidate_asset_item(item: dict[str, Any]) -> bool:
     )
 
 
-def build_knowledge_index(root: Path) -> dict[str, Any]:
-    scan = scan_files(root)
+def build_knowledge_index(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]:
+    scan = scan_files(root, include_raw_inputs=include_raw_inputs)
     indexed = []
     for item in scan["files"]:
         relative_path = item["path"]
@@ -128,12 +129,34 @@ def build_formal_knowledge_index(index: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def build_candidate_asset_index(index: dict[str, Any]) -> dict[str, Any]:
+def build_runtime_candidate_items(root: Path) -> list[dict[str, Any]]:
+    assets = runtime_path(root, "cache") / "assets"
+    if not assets.exists():
+        return []
+    items = []
+    for path in sorted(candidate for candidate in assets.rglob("*") if candidate.is_file()):
+        scanned = classify_file(root, path)
+        items.append(
+            {
+                "path": scanned["path"],
+                "type": scanned["suffix"].lstrip(".") or "unknown",
+                "purpose": "candidate_asset",
+                "content_status": "candidate",
+                "calling_scope": "internal_or_review",
+                "updated_at": scanned["modified_at"],
+            }
+        )
+    return items
+
+
+def build_candidate_asset_index(root: Path, index: dict[str, Any]) -> dict[str, Any]:
     items = [compact_index_item(item) for item in index["files"] if is_candidate_asset_item(item)]
+    known_paths = {item["path"] for item in items}
+    items.extend(item for item in build_runtime_candidate_items(root) if item["path"] not in known_paths)
     return {
         "generated_at": index["generated_at"],
-        "source_index": "knowledge_index.json",
-        "description": "候选和待审核资产索引；默认不当作正式知识，明确审核候选时才读取。",
+        "source_index": "knowledge_index.json + runtime/cache/assets",
+        "description": "候选和待审核资产索引；包含 runtime/cache/assets，但默认不当作正式知识，明确审核候选时才读取。",
         "item_count": len(items),
         "items": items,
     }
@@ -166,20 +189,20 @@ def write_json(path: Path, value: Any) -> None:
     path.write_text(json.dumps(value, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
-def write_indexes(root: Path) -> dict[str, Any]:
+def write_indexes(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]:
     root = root.resolve()
     target = index_dir(root)
     target.mkdir(parents=True, exist_ok=True)
-    index = build_knowledge_index(root)
+    index = build_knowledge_index(root, include_raw_inputs=include_raw_inputs)
     write_json(target / "knowledge_index.json", index)
     formal_index = build_formal_knowledge_index(index)
-    candidate_index = build_candidate_asset_index(index)
+    candidate_index = build_candidate_asset_index(root, index)
     raw_blocked_index = build_raw_blocked_index(root, index)
     write_json(target / "formal_knowledge_index.json", formal_index)
     write_json(target / "candidate_asset_index.json", candidate_index)
     write_json(target / "raw_blocked_index.json", raw_blocked_index)
     write_json(target / "file_relation_index.json", build_file_relations(index))
-    write_json(root / SYSTEM_DIR / "state" / "content_state.json", build_content_state(index))
+    write_json(runtime_path(root, "state") / "content_state.json", build_content_state(index))
     (target / "knowledge_index_summary.md").write_text(
         render_knowledge_index_summary(index, formal_index, candidate_index, raw_blocked_index),
         encoding="utf-8",
@@ -336,11 +359,13 @@ def render_task_entry_index() -> str:
 
 ## 代码批处理
 
-- 读取：`14_KB_System/tasks/`、`14_KB_System/reports/`、`14_KB_System/logs/`。
+- 读取：`14_KB_System/runtime/tasks/`、`14_KB_System/runtime/reports/`、`14_KB_System/runtime/logs/`。
 - 代码只能生成候选资产和报告，不能直接写正式知识。
 
 ## 系统审计
 
+- 日常调用先运行 `.venv/bin/python -m tools.kb.cli --root . health-gate`；该命令禁止遍历正式知识文件。
+- 新机器、runtime/凭证缺失、schema 不匹配或旧目录待迁移时运行 `kb init`。
 - 读取：`14_KB_System/index/controller_routes.json`、`14_KB_System/index/knowledge_index_summary.md`、`14_KB_System/index/account_knowledge_index.json`、`14_KB_System/config/output_contracts.json`。
 - `14_KB_System/index/knowledge_index.json` 是全量机器索引，只在脚本验证、全量审计或用户明确要求时读取。
 - 运行：`.venv/bin/python -m tools.kb.cli --root . validate-system` 或 `.venv/bin/python -m tools.kb.cli --root . dashboard`。
