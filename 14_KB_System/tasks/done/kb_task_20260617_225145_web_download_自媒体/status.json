@@ -1,0 +1,9 @@
+{
+  "task_id": "kb_task_20260617_225145_web_download_自媒体",
+  "task_name": "web_download_自媒体",
+  "task_status": "done",
+  "command": "web console: download batch (direction=自媒体)",
+  "created_at": "2026-06-17T22:51:45",
+  "updated_at": "2026-06-17T22:52:56",
+  "task_type": "web"
+}

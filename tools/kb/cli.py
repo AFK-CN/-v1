@@ -13,6 +13,7 @@ from .indexer import write_indexes
 from .reorganizer import apply_reorganization_plan, write_reorganization_plan
 from .review_report import write_review_report
 from .runtime import doctor_runtime, health_gate, initialize_runtime, mark_dirty, repair_runtime
+from .skill_package import write_skill_packages
 from .web_console import serve as serve_web_console
 from .scanner import write_scan_report
 from .task_runner import create_task, finish_task
@@ -50,6 +51,7 @@ def main() -> int:
     apply_reorg_parser.add_argument("--allow-delete", action="store_true")
     subparsers.add_parser("validate-system", help="Validate minimum KB system behavior")
     subparsers.add_parser("dashboard", help="Write KB runtime dashboard and registry")
+    subparsers.add_parser("skill-packages", help="Regenerate Skill packages from the shared contract")
     init_parser = subparsers.add_parser("init", help="Initialize or migrate the KB runtime lifecycle")
     init_parser.add_argument("--no-rebuild", action="store_true")
     init_parser.add_argument("--no-migrate", action="store_true")
@@ -101,6 +103,8 @@ def main() -> int:
             limit=args.limit,
             include_raw=args.include_raw,
         )
+        if result.get("status") == "requires_init":
+            exit_code = 2
     elif args.command == "resolve-call":
         result = resolve_call(root, args.text)
         if not result.get("ok", False):
@@ -115,6 +119,8 @@ def main() -> int:
         result = validate_system(root)
     elif args.command == "dashboard":
         result = write_dashboard(root)
+    elif args.command == "skill-packages":
+        result = write_skill_packages(root)
     elif args.command == "init":
         try:
             result = initialize_runtime(

@@ -1,0 +1,9 @@
+{
+  "task_id": "kb_task_20260617_224246_web_download_高手思考模型",
+  "task_name": "web_download_高手思考模型",
+  "task_status": "done",
+  "command": "web console: download batch (direction=高手思考模型)",
+  "created_at": "2026-06-17T22:42:46",
+  "updated_at": "2026-06-17T22:49:58",
+  "task_type": "web"
+}

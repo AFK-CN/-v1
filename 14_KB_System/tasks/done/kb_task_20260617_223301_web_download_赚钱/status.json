@@ -1,0 +1,9 @@
+{
+  "task_id": "kb_task_20260617_223301_web_download_赚钱",
+  "task_name": "web_download_赚钱",
+  "task_status": "done",
+  "command": "web console: download batch (direction=赚钱)",
+  "created_at": "2026-06-17T22:33:01",
+  "updated_at": "2026-06-17T22:34:52",
+  "task_type": "web"
+}

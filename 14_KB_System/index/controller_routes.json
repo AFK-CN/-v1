@@ -4,6 +4,8 @@
   "default_entry": "@知识库",
   "compatible_entry": "knowledge-base",
   "global_priority": true,
+  "agent_model": "logical_roles",
+  "agent_model_notice": "以下 Agent 是同一 AI 调用中的逻辑职责提示，不是独立进程、权限隔离或安全边界；强制边界由代码、索引、schema 和输出契约实现。",
   "clarification_policy": {
     "max_questions": 3,
     "rule": "固定高级入口缺少最低信息时先反问，不直接生成；只缺可选信息时可采用默认值并说明。",
@@ -22,46 +24,55 @@
     {
       "id": "controller",
       "name": "知识库总控智能体",
+      "kind": "logical_role",
       "responsibility": "作为唯一默认入口，识别用户需求、选择路由、调度规划器、检索器、工作流和专用智能体。"
     },
     {
       "id": "planner",
       "name": "任务规划器",
+      "kind": "logical_role",
       "responsibility": "把复杂需求拆成读取、检索、学习、生成、验证等可执行步骤。"
     },
     {
       "id": "retriever",
       "name": "检索器",
+      "kind": "logical_role",
       "responsibility": "只负责查找正式知识、候选资产和证据链，不负责生成内容或写入正式知识。"
     },
     {
       "id": "workflow_runner",
       "name": "工作流执行器",
+      "kind": "logical_role",
       "responsibility": "调用本地脚本、生成候选报告、维护任务状态和运行日志。"
     },
     {
       "id": "account_knowledge",
       "name": "账号知识智能体",
+      "kind": "logical_role",
       "responsibility": "维护账号中心、账号学习、方向方法论、内容规则、证据卡和逐字稿索引。"
     },
     {
       "id": "content_generator",
       "name": "内容生成智能体",
+      "kind": "logical_role",
       "responsibility": "基于正式知识和必要候选证据输出选题、文案、脚本、标题和封面方向。"
     },
     {
       "id": "skill_evolution",
       "name": "Skill 沉淀智能体",
+      "kind": "logical_role",
       "responsibility": "把反复出现的用户纠正和稳定流程写成 proposal，不直接修改 active Skill。"
     },
     {
       "id": "review",
       "name": "复盘智能体",
+      "kind": "logical_role",
       "responsibility": "根据表现数据判断方法论有效、失效和需要补充的证据。"
     },
     {
       "id": "auditor",
       "name": "验证审计器",
+      "kind": "logical_role",
       "responsibility": "检查入口、路由、索引、候选待审、proposal、测试和边界违规。"
     }
   ],

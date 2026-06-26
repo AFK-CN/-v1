@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-06-24T08:45:07",
+  "source": "tools.kb.dashboard",
+  "active_skills": [
+    "JSON入库Skill_v1.md",
+    "截图复盘Skill_v1.md",
+    "表格复盘Skill_v1.md",
+    "视频深度学习Skill_v1.md"
+  ],
+  "pending_proposals": [
+    "姜胡说批量内容验收标准_v1_提案.md"
+  ],
+  "accounts": {
+    "account_count": 1,
+    "formal_direction_count": 13,
+    "accounts": [
+      {
+        "account_id": "jianghushuo",
+        "account_name": "姜胡说",
+        "platform": "抖音",
+        "direction_count": 13
+      }
+    ]
+  },
+  "candidates": {
+    "candidate_topic_count": 518,
+    "unique_source_count": 312,
+    "top_directions": [
+      {
+        "direction": "AI",
+        "count": 10
+      },
+      {
+        "direction": "一人食",
+        "count": 10
+      },
+      {
+        "direction": "个人成长",
+        "count": 10
+      },
+      {
+        "direction": "人生策略",
+        "count": 10
+      },
+      {
+        "direction": "人际社交观察",
+        "count": 10
+      },
+      {
+        "direction": "代际观察",
+        "count": 10
+      },
+      {
+        "direction": "信息源判断",
+        "count": 10
+      },
+      {
+        "direction": "借势杠杆",
+        "count": 10
+      },
+      {
+        "direction": "做事框架",
+        "count": 10
+      },
+      {
+        "direction": "减脂餐",
+        "count": 10
+      }
+    ]
+  },
+  "learning": {
+    "manifest_item_count": 163,
+    "status_counts": {
+      "completed": 160,
+      "failed": 3
+    }
+  },
+  "tasks": {
+    "pending": 1,
+    "running": 1,
+    "done": 11,
+    "failed": 0,
+    "paused": 0
+  },
+  "validation": {
+    "ok": true,
+    "failed": []
+  }
+}

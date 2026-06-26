@@ -1,0 +1,68 @@
+{
+  "douyin:7580396616813776162": {
+    "platform": "douyin",
+    "source_id": "7580396616813776162",
+    "account_name": "姜胡说",
+    "title": "我的收入来源 一、知识博主的7种赚钱方式\n做知识博主能赚钱吗？能。 \n我知道的收入来源有7种\n1. 平台给的稿费\n每月收入：2万元左右\n很多人以为博主是花钱买流量赚钱，其实不是。\n我们创作内容，给平台带来流量，所以平台付钱给我们。\n我粉丝多但流量一般，因为我不刻意追求爆款视频，每天只花10分钟拍一条。如果你认真做流量，100-200万粉丝可能收入比我高一倍。 \n2. 卖书赚佣金\n每月收入：1万元左右\n我只挂自己读过的觉得不错的书，但几乎不卖。只挂在那儿。\n这是最轻松的卖货方式。如果你专门做卖书，收入肯定比我多。 \n3. 接广告\n市场价：5-8万左右/条\n我不接广告，但市场行情就是这个价。 \n4. 做付费专栏\n每月收入：几万元\n8月开始做线上专栏，从10.24元涨到128元。4个月吸引了近4800人购买，扣掉平台费和税，月入几万。\n这只是我向老伙计们展示怎么站着赚钱的一个试验。 \n5. 做社Q\n我的社Q不打广告。需要主动寻找。\n每月收入：几万元 \n6. 出书版税\n每月收入：2-3万元\n我的书印了12次，至少卖了十几万册。上次收到版税7万多，平均每月2-3万。\n这还只是第一本书的收入。 \n7. 做咨询\n时薪：1万元左右\n偶尔接一些咨询，换换思路。有了名气后，咨询费比以前高很多。\n聊2-3小时，对方一般会给红包，平均时薪1万左右。 \n二、做知识博主的其他好处\n就算不赚钱，做这件事也很有价值。 \n1. 帮你更好地学习\n每天分享内容，就是每天整理知识。\n讲不清楚，说明你没学会。你会马上发现哪里没懂，然后去学。\n这是最快的学习方法。 \n2. 提高个人影响力\n影响力看不见摸不着，但能带来实际好处。\n比如咨询费涨价、认识更多厉害的人、得到更多合作机会。 \n3. 认识更多人\n粉丝多了，口碑好了，就会有人介绍企业家、名人给你认识。\n和他们交流学到的东西，都是无价的。 \n做知识博主是可以赚钱的。\n就算不赚钱，也能提升你的影响力、思考能力和学习能力。\n每天读书、学习、分享，还能赚点钱。\n百利而无一害。 \n#姜胡说  #创作系统  #短视频  #赚钱  #变现",
+    "directions": [
+      "赚钱",
+      "创业",
+      "自媒体",
+      "短视频",
+      "个人成长",
+      "财富策略",
+      "阅读输入",
+      "机会准备",
+      "信息源判断",
+      "结构化理解",
+      "市场周期理解",
+      "认知升级"
+    ],
+    "status": "completed",
+    "card_path": "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7580396616813776162.md",
+    "video": {
+      "requested": true,
+      "has_video_url": true,
+      "ffmpeg": "/opt/homebrew/bin/ffmpeg",
+      "faster_whisper": true,
+      "scenedetect": true,
+      "status": "video_transcribed_and_scenes_detected",
+      "artifacts": {
+        "video": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source.mp4",
+        "audio": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/audio.wav",
+        "metadata": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/ffprobe.json",
+        "transcript_json": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/transcript.json",
+        "transcript_srt": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/transcript.srt",
+        "scenes_csv": "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scenes.csv",
+        "keyframes": [
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-001-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-002-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-003-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-004-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-005-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-006-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-007-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-008-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-009-01.jpg",
+          "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/source-Scene-010-01.jpg"
+        ]
+      },
+      "errors": [
+        "using_existing_video_file"
+      ]
+    },
+    "image": {
+      "requested": false,
+      "has_image_urls": false,
+      "status": "metadata_only",
+      "original_image_count": 0,
+      "downloaded_count": 0,
+      "ocr_success_count": 0,
+      "truncated": false,
+      "artifacts": {},
+      "images": [],
+      "errors": []
+    },
+    "last_run_at": "2026-06-20T18:21:26"
+  }
+}

@@ -26,17 +26,42 @@ def resolve_call(root: Path, text: str) -> dict[str, Any]:
     account_index = read_json(root / SYSTEM_DIR / "index" / "account_knowledge_index.json", {"accounts": []})
     contracts = read_json(root / SYSTEM_DIR / "config" / "output_contracts.json", {"contracts": []})
 
-    route = resolve_route(prompt, controller.get("routes", []))
+    route_result = resolve_route_result(prompt, controller.get("routes", []))
+    route = route_result["route"]
+    if route_result["status"] == "ambiguous":
+        return {
+            "ok": False,
+            "errors": ["route_ambiguous"],
+            "input": prompt,
+            "route_id": "",
+            "route_candidates": route_result["candidates"],
+            "clarification_questions": ["你要走哪个入口？请补充截图复盘、表格复盘、出选题、写文案等具体动作。"],
+            "account_name": "",
+            "direction": "",
+            "requested_count": resolve_requested_count(prompt),
+            "read_paths": [],
+            "missing_read_paths": [],
+            "search": {"items": [], "count": 0},
+            "output_contract": {},
+            "knowledge_boundary": {
+                "formal_account_knowledge": "not_resolved",
+                "candidate_assets": "not_read",
+                "raw_data": "blocked_by_default",
+            },
+        }
     if not route:
         return {
             "ok": False,
             "errors": ["route_not_resolved"],
             "input": prompt,
             "route_id": "",
+            "route_candidates": [],
+            "clarification_questions": ["请补充你要做的动作，例如出选题、写文案、查账号、JSON 入库或复盘。"],
             "account_name": "",
             "direction": "",
             "requested_count": resolve_requested_count(prompt),
             "read_paths": [],
+            "missing_read_paths": [],
             "search": {"items": [], "count": 0},
             "output_contract": {},
             "knowledge_boundary": {
@@ -70,15 +95,19 @@ def resolve_call(root: Path, text: str) -> dict[str, Any]:
         (item for item in contracts.get("contracts", []) if isinstance(item, dict) and item.get("route_id") == route_id),
         {},
     )
+    read_status = resolve_read_path_status(root, route, account, direction)
     return {
         "ok": True,
         "errors": [],
         "input": prompt,
         "route_id": route_id,
+        "route_candidates": [{"route_id": route_id, "matched_triggers": route_result["matched_triggers"]}],
+        "clarification_questions": [],
         "account_name": account_name,
         "direction": direction,
         "requested_count": requested_count,
-        "read_paths": resolve_read_paths(root, route, account, direction),
+        "read_paths": read_status["read_paths"],
+        "missing_read_paths": read_status["missing_read_paths"],
         "search": search,
         "output_contract": contract,
         "knowledge_boundary": {
@@ -90,6 +119,10 @@ def resolve_call(root: Path, text: str) -> dict[str, Any]:
 
 
 def resolve_route(prompt: str, routes: Any) -> dict[str, Any]:
+    return resolve_route_result(prompt, routes)["route"]
+
+
+def resolve_route_result(prompt: str, routes: Any) -> dict[str, Any]:
     matches = []
     for route in routes if isinstance(routes, list) else []:
         if not isinstance(route, dict):
@@ -98,12 +131,46 @@ def resolve_route(prompt: str, routes: Any) -> dict[str, Any]:
         matched = [trigger for trigger in triggers if trigger in prompt]
         if matched:
             is_generic_entry = route.get("id") == "external_use"
-            matches.append((is_generic_entry, max(len(trigger) for trigger in matched), route))
+            matches.append(
+                {
+                    "is_generic_entry": is_generic_entry,
+                    "max_trigger_length": max(len(trigger) for trigger in matched),
+                    "matched_triggers": matched,
+                    "route": route,
+                }
+            )
     if not matches:
-        return {}
-    task_matches = [item for item in matches if not item[0]]
-    selected = max(task_matches or matches, key=lambda item: item[1])
-    return selected[2]
+        return {"status": "not_found", "route": {}, "candidates": [], "matched_triggers": []}
+    task_matches = [item for item in matches if not item["is_generic_entry"]]
+    candidates = task_matches or matches
+    best_length = max(int(item["max_trigger_length"]) for item in candidates)
+    best = [item for item in candidates if int(item["max_trigger_length"]) == best_length]
+    if len(best) == 1:
+        return {"status": "resolved", "route": best[0]["route"], "candidates": [], "matched_triggers": best[0]["matched_triggers"]}
+    trigger_counts: dict[str, int] = {}
+    for item in best:
+        for trigger in item["matched_triggers"]:
+            trigger_counts[trigger] = trigger_counts.get(trigger, 0) + 1
+    specific = [item for item in best if any(trigger_counts[trigger] == 1 for trigger in item["matched_triggers"])]
+    if len(specific) == 1:
+        return {
+            "status": "resolved",
+            "route": specific[0]["route"],
+            "candidates": [],
+            "matched_triggers": specific[0]["matched_triggers"],
+        }
+    return {
+        "status": "ambiguous",
+        "route": {},
+        "matched_triggers": [],
+        "candidates": [
+            {
+                "route_id": str(item["route"].get("id", "")),
+                "matched_triggers": item["matched_triggers"],
+            }
+            for item in best
+        ],
+    }
 
 
 def resolve_account(prompt: str, accounts: Any) -> dict[str, Any]:
@@ -140,6 +207,10 @@ def extract_query(prompt: str, route: dict[str, Any]) -> str:
 
 
 def resolve_read_paths(root: Path, route: dict[str, Any], account: dict[str, Any], direction: str) -> list[str]:
+    return resolve_read_path_status(root, route, account, direction)["read_paths"]
+
+
+def resolve_read_path_status(root: Path, route: dict[str, Any], account: dict[str, Any], direction: str) -> dict[str, list[str]]:
     candidates = []
     if isinstance(route, dict):
         candidates.extend(str(path) for path in route.get("read_first", []) if "{" not in str(path))
@@ -165,7 +236,12 @@ def resolve_read_paths(root: Path, route: dict[str, Any], account: dict[str, Any
                 ]
             )
     result = []
+    missing = []
     for relative in candidates:
-        if relative not in result and (root / relative).exists():
+        if relative in result or relative in missing:
+            continue
+        if (root / relative).exists():
             result.append(relative)
-    return result
+        else:
+            missing.append(relative)
+    return {"read_paths": result, "missing_read_paths": missing}

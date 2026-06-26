@@ -69,7 +69,6 @@ def is_candidate_asset_item(item: dict[str, Any]) -> bool:
         return False
     return (
         path.startswith("05_Sub_KB_Candidates/")
-        or path.startswith(f"{SYSTEM_DIR}/assets/")
         or path.startswith("01_Case_Cleaning/content_rough_scan/")
         or path.startswith("01_Case_Cleaning/video_learning/deep_cards/")
         or path.startswith("01_Case_Cleaning/video_learning/learned_cards/")

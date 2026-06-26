@@ -1,0 +1,128 @@
+{
+  "requested": true,
+  "has_image_urls": true,
+  "status": "degraded_image_failed",
+  "original_image_count": 7,
+  "downloaded_count": 0,
+  "ocr_success_count": 0,
+  "truncated": false,
+  "artifacts": {
+    "image_index": "01_Case_Cleaning/video_learning/image_artifacts/xhs_69fdc6340000000035021c5e/image_index.json"
+  },
+  "images": [
+    {
+      "index": 1,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/a758bff584a229c9ee7e06389e17fd4b/notes_pre_post/1040g3k031vtgk2jul60g4busfur776f81hp9fkg!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "index": 2,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/1f41f72f365f0510ed8f5a503b4e4e66/notes_pre_post/1040g3k031vtgk2jul6004busfur776f8agku0v8!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "index": 3,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/0561db68759bfb16fae43b31fcb8b3a2/notes_pre_post/1040g3k031vtgk2jul6104busfur776f87vtmq1g!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "index": 4,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/05f45068a196253a0409b7bf32dbe690/notes_pre_post/1040g3k031vtgk2jul61g4busfur776f80hag5v8!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "index": 5,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/af9ffb3628be9d470e607c5d1acb9406/notes_pre_post/1040g3k031vtgk2jul6204busfur776f8q67s0g0!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "index": 6,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/b0eb82e7439a5edbcd5c65f521a707c0/notes_pre_post/1040g3k031vtgk2jul62g4busfur776f8dp3tfmg!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    },
+    {
+      "index": 7,
+      "url": "http://sns-webpic-qc.xhscdn.com/202606132107/20973309581f8812218740950104add0/notes_pre_post/1040g3k031vtgk2jul6304busfur776f8r6rh2n0!nd_dft_wlteh_webp_3",
+      "allowed": true,
+      "status": "download_failed",
+      "local_path": "",
+      "file_size": 0,
+      "width": 0,
+      "height": 0,
+      "format": "",
+      "ocr_text": "",
+      "errors": [
+        "HTTP Error 403: Forbidden"
+      ]
+    }
+  ],
+  "errors": [
+    "image_1_download_failed: HTTP Error 403: Forbidden",
+    "image_2_download_failed: HTTP Error 403: Forbidden",
+    "image_3_download_failed: HTTP Error 403: Forbidden",
+    "image_4_download_failed: HTTP Error 403: Forbidden",
+    "image_5_download_failed: HTTP Error 403: Forbidden",
+    "image_6_download_failed: HTTP Error 403: Forbidden",
+    "image_7_download_failed: HTTP Error 403: Forbidden"
+  ]
+}

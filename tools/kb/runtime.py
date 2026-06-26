@@ -17,7 +17,8 @@ from .schemas import FORMAL_KNOWLEDGE_DIRS, SYSTEM_DIR, as_posix, now_iso
 
 RUNTIME_SCHEMA_VERSION = 1
 GENERATOR_VERSION = "1.0"
-MIGRATION_VERSION = "legacy_runtime_v1"
+MIGRATION_VERSIONS = ("legacy_runtime_v1", "candidate_assets_runtime_v2")
+MIGRATION_VERSION = MIGRATION_VERSIONS[-1]
 RUNTIME_SECTIONS = ("state", "cache", "reports", "logs", "tasks", "locks", "quarantine")
 TASK_STATES = ("pending", "running", "stale", "done", "failed", "paused")
 CONTROL_FILES = (
@@ -26,6 +27,8 @@ CONTROL_FILES = (
     "14_KB_System/index/task_entry_index.md",
     "14_KB_System/index/account_knowledge_index.json",
     "14_KB_System/config/output_contracts.json",
+    "14_KB_System/config/search_terms.json",
+    "14_KB_System/config/skill_contract.json",
     "14_KB_System/rules/初始化生命周期.md",
     "14_KB_System/skill_packages/知识库/SKILL.md",
     "tools/kb/runtime.py",
@@ -204,7 +207,7 @@ def health_gate(root: Path) -> dict[str, Any]:
         or credential.get("schema_version") != RUNTIME_SCHEMA_VERSION
     ):
         return gate_result(root, "requires_init", ["schema_mismatch"], started)
-    if MIGRATION_VERSION not in manifest.get("applied_migrations", []):
+    if any(version not in manifest.get("applied_migrations", []) for version in MIGRATION_VERSIONS):
         return gate_result(root, "requires_init", ["migration_required"], started)
     if manifest.get("root_id") != root_id(root) or credential.get("root_id") != root_id(root):
         return gate_result(root, "requires_init", ["root_identity_mismatch"], started)
@@ -331,7 +334,7 @@ def initialize_runtime(
             "root_id": root_id(root),
             "would_create": [f"{SYSTEM_DIR}/runtime/{section}" for section in RUNTIME_SECTIONS],
             "would_migrate": plan_legacy_migration(root) if migrate else [],
-            "would_rebuild": ["indexes", "dashboard"] if rebuild else [],
+            "would_rebuild": ["skill_packages", "indexes", "dashboard"] if rebuild else [],
         }
     ensure_runtime_dirs(root)
     with MaintenanceLock(root, "init") as lock:
@@ -340,11 +343,17 @@ def initialize_runtime(
         initialized_at = existing.get("initialized_at") or now_iso()
         migrations = list(existing.get("applied_migrations", []))
         migration_actions: list[str] = []
-        if migrate and MIGRATION_VERSION not in migrations:
-            migration_actions = migrate_legacy_runtime(root)
-            migrations.append(MIGRATION_VERSION)
-        elif not migrate and MIGRATION_VERSION not in migrations and not plan_legacy_migration(root):
-            migrations.append(MIGRATION_VERSION)
+        for version in MIGRATION_VERSIONS:
+            if version in migrations:
+                continue
+            if migrate:
+                if version == "legacy_runtime_v1":
+                    migration_actions.extend(migrate_legacy_runtime(root))
+                elif version == "candidate_assets_runtime_v2":
+                    migration_actions.extend(migrate_legacy_candidate_assets(root))
+                migrations.append(version)
+            elif not plan_legacy_migration(root):
+                migrations.append(version)
         manifest = {
             "root_id": root_id(root),
             "root": str(root),
@@ -391,7 +400,6 @@ def migrate_legacy_runtime(root: Path) -> list[str]:
     system = root / SYSTEM_DIR
     mappings = {
         "state": runtime_path(root, "state"),
-        "assets": runtime_path(root, "cache") / "assets",
         "logs": runtime_path(root, "logs"),
     }
     for name, target in mappings.items():
@@ -420,13 +428,40 @@ def migrate_legacy_runtime(root: Path) -> list[str]:
     return actions
 
 
+def migrate_legacy_candidate_assets(root: Path) -> list[str]:
+    actions: list[str] = []
+    source = root / SYSTEM_DIR / "assets"
+    if not source.exists():
+        return actions
+    target = runtime_path(root, "cache") / "assets"
+    target.mkdir(parents=True, exist_ok=True)
+    conflict_dir = runtime_path(root, "quarantine") / "legacy_assets_conflicts"
+    for path in sorted(source.iterdir()):
+        destination = target / path.name
+        if destination.exists():
+            conflict_dir.mkdir(parents=True, exist_ok=True)
+            quarantine_target = unique_destination(conflict_dir / path.name)
+            shutil.move(str(path), str(quarantine_target))
+            actions.append(f"quarantine_legacy_asset_conflict:{path.relative_to(root)}->{quarantine_target.relative_to(root)}")
+            continue
+        shutil.move(str(path), str(destination))
+        actions.append(f"migrate_candidate_asset:{path.relative_to(root)}->{destination.relative_to(root)}")
+    return actions
+
+
 def plan_legacy_migration(root: Path) -> list[str]:
     actions: list[str] = []
     system = root / SYSTEM_DIR
-    for name in ("state", "assets", "logs"):
+    for name in ("state", "logs"):
         source = system / name
         if source.exists():
             actions.extend(f"migrate:{path.relative_to(root)}" for path in sorted(source.iterdir()))
+    legacy_assets = system / "assets"
+    if legacy_assets.exists():
+        for path in sorted(legacy_assets.iterdir()):
+            target = runtime_path(root, "cache") / "assets" / path.name
+            prefix = "quarantine_legacy_asset_conflict" if target.exists() else "migrate_candidate_asset"
+            actions.append(f"{prefix}:{path.relative_to(root)}")
     reports = system / "reports"
     if reports.exists():
         actions.extend(f"migrate:{path.relative_to(root)}" for path in sorted(reports.glob("latest_*")))
@@ -456,6 +491,19 @@ def move_if_needed(source: Path, target: Path) -> None:
     if target.exists():
         return
     shutil.move(str(source), str(target))
+
+
+def unique_destination(path: Path) -> Path:
+    if not path.exists():
+        return path
+    stem = path.stem
+    suffix = path.suffix
+    index = 1
+    while True:
+        candidate = path.with_name(f"{stem}_{index}{suffix}")
+        if not candidate.exists():
+            return candidate
+        index += 1
 
 
 def doctor_runtime(root: Path) -> dict[str, Any]:
@@ -640,8 +688,11 @@ def worker_is_active(root: Path, stale_after_seconds: int) -> bool:
 def rebuild_reproducible_outputs(root: Path) -> list[str]:
     from .dashboard import write_dashboard
     from .indexer import write_indexes
+    from .skill_package import write_skill_packages
 
     outputs = []
+    write_skill_packages(root)
+    outputs.append("skill_packages")
     write_indexes(root, include_raw_inputs=False)
     outputs.append("indexes")
     write_dashboard(root)

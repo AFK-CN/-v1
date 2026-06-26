@@ -150,6 +150,8 @@ class KBSystemTests(unittest.TestCase):
             (root / "知识库入口.md").write_text("# 入口\n", encoding="utf-8")
             (root / "02_Viral_Methods").mkdir()
             (root / "02_Viral_Methods" / "method.md").write_text("# 方法\n", encoding="utf-8")
+            (root / "04_Platform_Knowledge").mkdir()
+            (root / "04_Platform_Knowledge" / "douyin.md").write_text("# 平台\n", encoding="utf-8")
             (root / "05_Sub_KB_Candidates").mkdir()
             (root / "05_Sub_KB_Candidates" / "candidate.md").write_text("# 候选\n", encoding="utf-8")
             (root / "14_KB_System" / "assets").mkdir(parents=True)
@@ -175,10 +177,11 @@ class KBSystemTests(unittest.TestCase):
             self.assertIn("默认不要读取全量索引", summary_index.read_text(encoding="utf-8"))
             formal = json.loads(formal_index.read_text(encoding="utf-8"))
             self.assertTrue(any(item["path"] == "02_Viral_Methods/method.md" for item in formal["items"]))
+            self.assertTrue(any(item["path"] == "04_Platform_Knowledge/douyin.md" for item in formal["items"]))
             candidate = json.loads(candidate_index.read_text(encoding="utf-8"))
             candidate_paths = {item["path"] for item in candidate["items"]}
             self.assertIn("05_Sub_KB_Candidates/candidate.md", candidate_paths)
-            self.assertIn("14_KB_System/assets/candidate_topics.jsonl", candidate_paths)
+            self.assertNotIn("14_KB_System/assets/candidate_topics.jsonl", candidate_paths)
             self.assertIn("14_KB_System/runtime/cache/assets/candidate_method_cards.md", candidate_paths)
             self.assertFalse(any(item["path"].startswith("14_KB_System/runtime/") for item in data["files"]))
             raw_blocked = json.loads(raw_blocked_index.read_text(encoding="utf-8"))
@@ -228,6 +231,7 @@ class KBSystemTests(unittest.TestCase):
             self.assertNotIn("数据", actions)
 
     def test_validate_system_checks_call_rules_and_core_outputs(self):
+        from tools.kb.skill_package import write_skill_packages
         from tools.kb.validator import validate_system
 
         with tempfile.TemporaryDirectory() as tmp:
@@ -259,7 +263,8 @@ class KBSystemTests(unittest.TestCase):
                     {
                         "default_entry": "@知识库",
                         "global_priority": True,
-                        "agents": [{"id": f"agent_{index}", "name": "测试", "responsibility": "测试"} for index in range(8)],
+                        "agent_model": "logical_roles",
+                        "agents": [{"id": f"agent_{index}", "name": "测试", "kind": "logical_role", "responsibility": "测试"} for index in range(8)],
                         "routes": [
                             {
                                 "id": route_id,
@@ -316,24 +321,27 @@ class KBSystemTests(unittest.TestCase):
             (root / "14_KB_System" / "rules").mkdir(exist_ok=True)
             (root / "14_KB_System" / "rules" / "用户操作台.md").write_text("@知识库 + 你的需求\n", encoding="utf-8")
             (root / "14_KB_System" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
-            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md").write_text(
-                "description: 禁止全盘扫库，默认不读取 数据/，controller_routes.json\n", encoding="utf-8"
+            (root / "14_KB_System" / "rules" / "规则权威源.md").write_text(
+                "controller_routes.json skill_contract.json schemas.py\n不要在 Markdown 文档里再维护一份并行规则清单\n",
+                encoding="utf-8",
             )
-            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents" / "openai.yaml").write_text(
-                'interface:\n  display_name: "知识库"\n  short_description: "总控"\n', encoding="utf-8"
+            (root / "14_KB_System" / "config" / "search_terms.json").write_text(
+                '{"synonym_groups":[["赚钱","变现"]],"direction_terms":{"赚钱":["副业"]}}',
+                encoding="utf-8",
             )
-            (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references" / "calling-rules.md").write_text(
-                "按索引调用\n", encoding="utf-8"
+            (root / "14_KB_System" / "config" / "skill_contract.json").write_text(
+                json.dumps(
+                    {
+                        "version": 1,
+                        "kb_root": str(root),
+                        "startup_read_order": ["知识库入口.md", "14_KB_System/index/task_entry_index.md"],
+                        "blocked_dirs": ["数据/", "00_Inbox/"],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
             )
-            (root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md").write_text(
-                "description: @知识库，禁止全盘扫库，默认不读取 数据/，controller_routes.json\n", encoding="utf-8"
-            )
-            (root / "14_KB_System" / "skill_packages" / "知识库" / "agents" / "openai.yaml").write_text(
-                'interface:\n  display_name: "知识库"\n  short_description: "总控"\n', encoding="utf-8"
-            )
-            (root / "14_KB_System" / "skill_packages" / "知识库" / "references" / "calling-rules.md").write_text(
-                "@知识库\n", encoding="utf-8"
-            )
+            write_skill_packages(root)
 
             result = validate_system(root)
 
@@ -364,7 +372,7 @@ class KBSystemTests(unittest.TestCase):
         self.assertIn("/Users/lao_wu/codexAI/知识库/14_KB_System/index/controller_routes.json", skill_text)
         self.assertIn("/Users/lao_wu/codexAI/知识库/14_KB_System/index/task_entry_index.md", skill_text)
         self.assertIn("Do not scan the whole knowledge base", skill_text)
-        self.assertIn("Controller Behavior", skill_text)
+        self.assertIn("logical AI roles", skill_text)
         self.assertIn("display_name: \"知识库\"", ui_text)
         self.assertIn("总控", ui_text)
         self.assertIn("name: 知识库", zh_skill_text)
@@ -373,6 +381,218 @@ class KBSystemTests(unittest.TestCase):
         self.assertIn("display_name: \"知识库\"", zh_ui_text)
         self.assertIn("总控", zh_ui_text)
         self.assertIn("search-candidates", zh_skill_text)
+
+    def test_skill_packages_are_deterministically_generated_from_shared_contract(self):
+        from tools.kb.skill_package import load_skill_contract, skill_package_drift, write_skill_packages
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            contract = root / "14_KB_System" / "config" / "skill_contract.json"
+            contract.parent.mkdir(parents=True)
+            contract.write_text(
+                json.dumps(
+                    {
+                        "version": 1,
+                        "kb_root": "/tmp/kb",
+                        "startup_read_order": ["知识库入口.md", "14_KB_System/index/task_entry_index.md"],
+                        "blocked_dirs": ["数据/", "00_Inbox/"],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            result = write_skill_packages(root)
+
+            self.assertEqual(result["written_count"], 6)
+            self.assertEqual(load_skill_contract(root)["startup_read_order"][0], "知识库入口.md")
+            self.assertEqual(skill_package_drift(root), [])
+            en = root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md"
+            zh = root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md"
+            self.assertIn("Do not scan the whole knowledge base", en.read_text(encoding="utf-8"))
+            self.assertIn("logical AI roles", en.read_text(encoding="utf-8"))
+            self.assertIn("@知识库", zh.read_text(encoding="utf-8"))
+            self.assertIn("search-candidates", zh.read_text(encoding="utf-8"))
+
+    def test_validate_system_detects_generated_skill_package_drift(self):
+        from tools.kb.skill_package import write_skill_packages
+        from tools.kb.validator import validate_system
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_minimum_valid_system_fixture(root)
+            write_skill_packages(root)
+            skill = root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md"
+            skill.write_text(skill.read_text(encoding="utf-8") + "\nmanual drift\n", encoding="utf-8")
+
+            result = validate_system(root)
+
+            self.assertIn("skill_package_drift:14_KB_System/skill_packages/知识库/SKILL.md", result["failed"])
+
+    def test_controller_declares_agents_as_logical_roles_not_process_boundaries(self):
+        routes_path = Path("14_KB_System/index/controller_routes.json")
+        payload = json.loads(routes_path.read_text(encoding="utf-8"))
+
+        self.assertEqual(payload["agent_model"], "logical_roles")
+        self.assertIn("不是独立进程", payload["agent_model_notice"])
+        self.assertTrue(all(agent.get("kind") == "logical_role" for agent in payload["agents"]))
+
+    def test_rule_authority_document_assigns_each_rule_family_to_one_source(self):
+        authority = Path("14_KB_System/rules/规则权威源.md")
+        self.assertTrue(authority.exists())
+        text = authority.read_text(encoding="utf-8")
+
+        self.assertIn("controller_routes.json", text)
+        self.assertIn("skill_contract.json", text)
+        self.assertIn("schemas.py", text)
+        self.assertIn("不要在 Markdown 文档里再维护一份并行规则清单", text)
+
+    def test_end_to_end_user_call_chain_acceptance(self):
+        from tools.kb.call_resolver import resolve_call
+        from tools.kb.runtime import health_gate, initialize_runtime, runtime_path
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_minimum_valid_system_fixture(root)
+            account_center = root / "06_Sub_KB" / "姜胡说" / "账号中心"
+            account_center.mkdir(parents=True)
+            for name in ("账号索引.md", "内容生产使用说明.md", "减少AI味输出规则.md", "内容输出标准模板.md"):
+                (account_center / name).write_text(name, encoding="utf-8")
+            index = root / "14_KB_System" / "index"
+            account_index = {
+                "accounts": [
+                    {
+                        "account_name": "姜胡说",
+                        "formal_account_dir": "06_Sub_KB/姜胡说/账号中心",
+                        "directions": [{"direction": "赚钱"}],
+                    }
+                ]
+            }
+            index.joinpath("account_knowledge_index.json").write_text(json.dumps(account_index, ensure_ascii=False), encoding="utf-8")
+            routes = json.loads(index.joinpath("controller_routes.json").read_text(encoding="utf-8"))
+            topic_route = next(route for route in routes["routes"] if route["id"] == "topic_generation")
+            topic_route["triggers"] = ["我要出选题", "出选题"]
+            topic_route["read_first"] = ["知识库入口.md", "14_KB_System/index/task_entry_index.md"]
+            index.joinpath("controller_routes.json").write_text(json.dumps(routes, ensure_ascii=False), encoding="utf-8")
+            runtime_assets = runtime_path(root, "cache") / "assets"
+            runtime_assets.mkdir(parents=True)
+            runtime_assets.joinpath("candidate_topics.jsonl").write_text(
+                json.dumps(
+                    {
+                        "platform": "douyin",
+                        "account_name": "姜胡说",
+                        "领域": "赚钱",
+                        "source_id": "a1",
+                        "source_url": "https://example.com/a1",
+                        "可生成标题": ["普通人赚钱选题"],
+                        "score": 100,
+                        "rank": 1,
+                    },
+                    ensure_ascii=False,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            initialize_runtime(root, rebuild=False, migrate=True)
+            gate = health_gate(root)
+            result = resolve_call(root, "@知识库 姜胡说 赚钱 我要出选题 1个")
+
+            self.assertEqual(gate["status"], "healthy")
+            self.assertTrue(result["ok"])
+            self.assertEqual(result["route_id"], "topic_generation")
+            self.assertEqual(result["search"]["status"], "ok")
+            self.assertEqual(result["search"]["count"], 1)
+            self.assertIn("06_Sub_KB/姜胡说/账号中心/账号索引.md", result["read_paths"])
+            self.assertEqual(result["missing_read_paths"], [])
+            self.assertEqual(result["output_contract"]["route_id"], "topic_generation")
+            self.assertEqual(result["knowledge_boundary"]["raw_data"], "blocked_by_default")
+
+    def _write_minimum_valid_system_fixture(self, root: Path) -> None:
+        route_ids = (
+            "topic_generation",
+            "script_generation",
+            "account_learning",
+            "skill_evolution",
+            "json_ingest",
+            "screenshot_review",
+            "table_review",
+            "external_use",
+            "system_audit",
+        )
+        for directory in (
+            "11_Project_Use",
+            "14_KB_System/rules",
+            "14_KB_System/config",
+            "14_KB_System/index",
+        ):
+            (root / directory).mkdir(parents=True, exist_ok=True)
+        (root / "知识库入口.md").write_text("索引 controller_routes.json\n", encoding="utf-8")
+        (root / "README.md").write_text("规则权威源\n", encoding="utf-8")
+        (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库 数据\n", encoding="utf-8")
+        (root / "14_KB_System" / "rules" / "用户操作台.md").write_text("@知识库 + 你的需求\n", encoding="utf-8")
+        (root / "14_KB_System" / "rules" / "初始化生命周期.md").write_text("初始化生命周期\n", encoding="utf-8")
+        (root / "14_KB_System" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
+        (root / "14_KB_System" / "rules" / "规则权威源.md").write_text("controller_routes.json skill_contract.json schemas.py\n", encoding="utf-8")
+        (root / "14_KB_System" / "config" / "search_terms.json").write_text(
+            '{"synonym_groups":[["赚钱","变现"]],"direction_terms":{"赚钱":["副业"]}}',
+            encoding="utf-8",
+        )
+        (root / "14_KB_System" / "config" / "skill_contract.json").write_text(
+            json.dumps(
+                {
+                    "version": 1,
+                    "kb_root": "/tmp/kb",
+                    "startup_read_order": ["知识库入口.md", "14_KB_System/index/task_entry_index.md"],
+                    "blocked_dirs": ["数据/", "00_Inbox/"],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        (root / "14_KB_System" / "index" / "controller_routes.json").write_text(
+            json.dumps(
+                {
+                    "default_entry": "@知识库",
+                    "global_priority": True,
+                    "agent_model": "logical_roles",
+                    "agents": [{"id": f"agent_{index}", "kind": "logical_role"} for index in range(8)],
+                    "routes": [
+                        {
+                            "id": route_id,
+                            "triggers": [route_id],
+                            "agents": ["agent_0"],
+                            "read_first": ["知识库入口.md"],
+                            "output_contract": "测试输出",
+                            "write_policy": "测试写入边界",
+                        }
+                        for route_id in route_ids
+                    ],
+                },
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        (root / "14_KB_System" / "index" / "account_knowledge_index.json").write_text(
+            '{"accounts":[{"directions":[{"direction":"赚钱"}]}]}',
+            encoding="utf-8",
+        )
+        (root / "14_KB_System" / "config" / "output_contracts.json").write_text(
+            json.dumps(
+                {"contracts": [{"route_id": route_id, "required_fields": ["字段"], "must_not": ["禁止项"]} for route_id in route_ids]},
+                ensure_ascii=False,
+            ),
+            encoding="utf-8",
+        )
+        for name, content in (
+            ("knowledge_index.json", '{"files":[]}'),
+            ("knowledge_index_summary.md", "# 摘要"),
+            ("formal_knowledge_index.json", '{"items":[]}'),
+            ("candidate_asset_index.json", '{"items":[]}'),
+            ("raw_blocked_index.json", '{"items":[{"path":"数据/"}]}'),
+            ("task_entry_index.md", "controller_routes.json"),
+        ):
+            (root / "14_KB_System" / "index" / name).write_text(content, encoding="utf-8")
 
     def test_controller_routes_define_required_agents_and_routes(self):
         routes_path = Path("14_KB_System/index/controller_routes.json")
@@ -520,7 +740,7 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            assets = root / "14_KB_System" / "assets"
+            assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
             assets.mkdir(parents=True)
             asset_rows = [{
                 "platform": "douyin",
@@ -579,7 +799,7 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            assets = root / "14_KB_System" / "assets"
+            assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
             assets.mkdir(parents=True)
             good_row = {
                 "platform": "douyin",
@@ -598,6 +818,191 @@ class KBSystemTests(unittest.TestCase):
 
             self.assertEqual(result["count"], 1)
             self.assertEqual(result["skipped_asset_lines"], 1)
+
+    def test_candidate_search_requires_init_instead_of_reading_legacy_assets(self):
+        from tools.kb.candidate_search import search_candidates
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            legacy_assets = root / "14_KB_System" / "assets"
+            legacy_assets.mkdir(parents=True)
+            legacy_assets.joinpath("candidate_topics.jsonl").write_text(
+                json.dumps(
+                    {
+                        "account_name": "姜胡说",
+                        "领域": "赚钱",
+                        "source_id": "legacy",
+                        "可生成标题": ["赚钱选题"],
+                    },
+                    ensure_ascii=False,
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+
+            result = search_candidates(root, query="赚钱", account_name="姜胡说", limit=10)
+
+            self.assertEqual(result["status"], "requires_init")
+            self.assertEqual(result["reasons"], ["runtime_candidate_assets_missing"])
+            self.assertEqual(result["next_action"], "kb init")
+            self.assertEqual(result["count"], 0)
+
+    def test_candidate_search_cli_returns_requires_init_exit_code_for_legacy_assets(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            legacy_assets = root / "14_KB_System" / "assets"
+            legacy_assets.mkdir(parents=True)
+            legacy_assets.joinpath("candidate_topics.jsonl").write_text(
+                json.dumps({"account_name": "姜胡说", "领域": "赚钱", "source_id": "legacy"}, ensure_ascii=False)
+                + "\n",
+                encoding="utf-8",
+            )
+
+            result = subprocess.run(
+                [
+                    sys.executable,
+                    "-m",
+                    "tools.kb.cli",
+                    "--root",
+                    str(root),
+                    "search-candidates",
+                    "--query",
+                    "赚钱",
+                ],
+                cwd=Path.cwd(),
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+
+            self.assertEqual(result.returncode, 2)
+            self.assertEqual(json.loads(result.stdout)["status"], "requires_init")
+
+    def test_resolve_call_reports_ambiguous_routes_instead_of_using_route_order(self):
+        from tools.kb.call_resolver import resolve_call
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index = root / "14_KB_System" / "index"
+            config = root / "14_KB_System" / "config"
+            index.mkdir(parents=True)
+            config.mkdir(parents=True)
+            index.joinpath("controller_routes.json").write_text(
+                json.dumps(
+                    {
+                        "routes": [
+                            {"id": "screenshot_review", "triggers": ["我要复盘"], "read_first": ["a.md"]},
+                            {"id": "table_review", "triggers": ["我要复盘"], "read_first": ["b.md"]},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            index.joinpath("account_knowledge_index.json").write_text('{"accounts":[]}', encoding="utf-8")
+            config.joinpath("output_contracts.json").write_text('{"contracts":[]}', encoding="utf-8")
+
+            result = resolve_call(root, "@知识库 我要复盘")
+
+            self.assertFalse(result["ok"])
+            self.assertIn("route_ambiguous", result["errors"])
+            self.assertEqual({item["route_id"] for item in result["route_candidates"]}, {"screenshot_review", "table_review"})
+            self.assertTrue(result["clarification_questions"])
+
+    def test_resolve_route_uses_unique_specific_trigger_to_break_shared_trigger_tie(self):
+        from tools.kb.call_resolver import resolve_call
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index = root / "14_KB_System" / "index"
+            config = root / "14_KB_System" / "config"
+            index.mkdir(parents=True)
+            config.mkdir(parents=True)
+            index.joinpath("controller_routes.json").write_text(
+                json.dumps(
+                    {
+                        "routes": [
+                            {"id": "screenshot_review", "triggers": ["我要复盘", "截图复盘"], "read_first": []},
+                            {"id": "table_review", "triggers": ["我要复盘", "表格复盘"], "read_first": []},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            index.joinpath("account_knowledge_index.json").write_text('{"accounts":[]}', encoding="utf-8")
+            config.joinpath("output_contracts.json").write_text('{"contracts":[]}', encoding="utf-8")
+
+            result = resolve_call(root, "@知识库 我要复盘 表格复盘")
+
+            self.assertTrue(result["ok"])
+            self.assertEqual(result["route_id"], "table_review")
+
+    def test_resolve_call_reports_declared_but_missing_read_paths(self):
+        from tools.kb.call_resolver import resolve_call
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            index = root / "14_KB_System" / "index"
+            config = root / "14_KB_System" / "config"
+            index.mkdir(parents=True)
+            config.mkdir(parents=True)
+            (root / "exists.md").write_text("exists", encoding="utf-8")
+            index.joinpath("controller_routes.json").write_text(
+                json.dumps(
+                    {"routes": [{"id": "external_use", "triggers": ["查"], "read_first": ["exists.md", "missing.md"]}]},
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            index.joinpath("account_knowledge_index.json").write_text('{"accounts":[]}', encoding="utf-8")
+            config.joinpath("output_contracts.json").write_text('{"contracts":[]}', encoding="utf-8")
+
+            result = resolve_call(root, "@知识库 查")
+
+            self.assertEqual(result["read_paths"], ["exists.md"])
+            self.assertEqual(result["missing_read_paths"], ["missing.md"])
+
+    def test_search_terms_config_is_required_and_schema_validated(self):
+        from tools.kb.validator import validate_system
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            for relative in (
+                "知识库入口.md",
+                "README.md",
+                "11_Project_Use/项目调用规则.md",
+                "14_KB_System/rules/用户操作台.md",
+                "14_KB_System/rules/初始化生命周期.md",
+                "14_KB_System/rules/输出契约.md",
+                "14_KB_System/config/output_contracts.json",
+                "14_KB_System/index/controller_routes.json",
+                "14_KB_System/index/knowledge_index.json",
+                "14_KB_System/index/knowledge_index_summary.md",
+                "14_KB_System/index/formal_knowledge_index.json",
+                "14_KB_System/index/candidate_asset_index.json",
+                "14_KB_System/index/raw_blocked_index.json",
+                "14_KB_System/index/task_entry_index.md",
+                "14_KB_System/skill_packages/knowledge-base/SKILL.md",
+                "14_KB_System/skill_packages/knowledge-base/agents/openai.yaml",
+                "14_KB_System/skill_packages/knowledge-base/references/calling-rules.md",
+                "14_KB_System/skill_packages/知识库/SKILL.md",
+                "14_KB_System/skill_packages/知识库/agents/openai.yaml",
+                "14_KB_System/skill_packages/知识库/references/calling-rules.md",
+            ):
+                path = root / relative
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text("x", encoding="utf-8")
+
+            result = validate_system(root)
+
+            self.assertIn("missing:14_KB_System/config/search_terms.json", result["failed"])
+
+            search_terms = root / "14_KB_System" / "config" / "search_terms.json"
+            search_terms.write_text('{"synonym_groups":[],"direction_terms":{"赚钱":[""]}}', encoding="utf-8")
+            result = validate_system(root)
+            self.assertIn("search_terms_missing_synonym_groups", result["failed"])
+            self.assertIn("search_terms_empty_direction_term:赚钱", result["failed"])
 
     def test_candidate_search_reports_broken_raw_files_and_keeps_valid_results(self):
         from tools.kb.candidate_search import search_candidates
@@ -642,7 +1047,7 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            assets = root / "14_KB_System" / "assets"
+            assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
             assets.mkdir(parents=True)
             rows = [
                 {
@@ -713,7 +1118,7 @@ class KBSystemTests(unittest.TestCase):
             root = Path(tmp)
             index_dir = root / "14_KB_System" / "index"
             config_dir = root / "14_KB_System" / "config"
-            assets_dir = root / "14_KB_System" / "assets"
+            assets_dir = root / "14_KB_System" / "runtime" / "cache" / "assets"
             account_dir = root / "06_Sub_KB" / "知识成长自媒体方法论" / "账号中心" / "姜胡说"
             direction_dir = account_dir / "directions" / "赚钱"
             index_dir.mkdir(parents=True)

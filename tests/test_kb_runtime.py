@@ -231,7 +231,7 @@ class KBRuntimeTests(unittest.TestCase):
             self.assertEqual(quarantined[0].read_text(encoding="utf-8"), "{broken")
 
     def test_init_migrates_runtime_outputs_and_separates_long_lived_plan(self):
-        from tools.kb.runtime import initialize_runtime, runtime_path
+        from tools.kb.runtime import MIGRATION_VERSIONS, initialize_runtime, runtime_path
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -255,6 +255,29 @@ class KBRuntimeTests(unittest.TestCase):
             self.assertTrue((runtime_path(root, "tasks") / "running" / "task_a" / "status.json").exists())
             self.assertTrue((root / "14_KB_System" / "plans" / "long_plan" / "task.md").exists())
             self.assertIn("legacy_runtime_v1", result["applied_migrations"])
+            self.assertEqual(result["applied_migrations"], list(MIGRATION_VERSIONS))
+
+    def test_init_migrates_legacy_candidate_assets_and_quarantines_conflicts(self):
+        from tools.kb.runtime import initialize_runtime, runtime_path
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            legacy_assets = root / "14_KB_System" / "assets"
+            runtime_assets = runtime_path(root, "cache") / "assets"
+            legacy_assets.mkdir(parents=True)
+            runtime_assets.mkdir(parents=True)
+            (legacy_assets / "candidate_topics.jsonl").write_text("legacy\n", encoding="utf-8")
+            (legacy_assets / "legacy_only.jsonl").write_text("legacy only\n", encoding="utf-8")
+            (runtime_assets / "candidate_topics.jsonl").write_text("runtime\n", encoding="utf-8")
+
+            result = initialize_runtime(root, rebuild=False, migrate=True)
+
+            self.assertEqual((runtime_assets / "candidate_topics.jsonl").read_text(encoding="utf-8"), "runtime\n")
+            self.assertEqual((runtime_assets / "legacy_only.jsonl").read_text(encoding="utf-8"), "legacy only\n")
+            quarantined = list((runtime_path(root, "quarantine") / "legacy_assets_conflicts").glob("candidate_topics*.jsonl"))
+            self.assertEqual(len(quarantined), 1)
+            self.assertEqual(quarantined[0].read_text(encoding="utf-8"), "legacy\n")
+            self.assertIn("candidate_assets_runtime_v2", result["applied_migrations"])
 
     def test_init_dry_run_does_not_create_or_move_files(self):
         from tools.kb.runtime import initialize_runtime, runtime_root
@@ -346,9 +369,16 @@ class KBRuntimeTests(unittest.TestCase):
                     visited.append(Path(current))
                     yield current, dirnames, filenames
 
+            from tools.kb.scanner import file_sha1 as real_file_sha1
+
+            def raw_guard_file_sha1(path: Path) -> str:
+                if "数据" in path.parts or "00_Inbox" in path.parts:
+                    raise AssertionError("raw files must not be hashed")
+                return real_file_sha1(path)
+
             with (
                 patch("tools.kb.scanner.os.walk", side_effect=tracking_walk),
-                patch("tools.kb.scanner.file_sha1", side_effect=AssertionError("raw files must not be hashed")),
+                patch("tools.kb.scanner.file_sha1", side_effect=raw_guard_file_sha1),
                 patch("tools.kb.validator.validate_system", return_value={"ok": True, "failed": []}),
             ):
                 result = repair_runtime(root, rebuild=True)

@@ -1,0 +1,9 @@
+{
+  "task_id": "kb_task_20260617_222812_web_scan_assets",
+  "task_name": "web_scan_assets",
+  "task_status": "done",
+  "command": "web console: scan assets (top_n=10)",
+  "created_at": "2026-06-17T22:28:12",
+  "updated_at": "2026-06-17T22:28:14",
+  "task_type": "web"
+}

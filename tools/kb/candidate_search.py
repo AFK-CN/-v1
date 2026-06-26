@@ -7,6 +7,7 @@ from typing import Any
 
 from tools import video_learning
 
+from .candidate_assets import candidate_asset_path, candidate_asset_status
 from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
 
@@ -51,6 +52,25 @@ def search_candidates(
     account_name = account_name.strip()
     direction = direction.strip()
     query_terms = expand_query(root, query)
+    status = candidate_asset_status(root)
+    if status["status"] == "requires_init" and not include_raw:
+        return {
+            "status": "requires_init",
+            "reasons": status["reasons"],
+            "next_action": status["next_action"],
+            "query": query,
+            "account_name": account_name,
+            "direction": direction,
+            "query_expansions": query_terms,
+            "backend": "weighted_jsonl_v1",
+            "source": "candidate_assets",
+            "count": 0,
+            "skipped_asset_lines": 0,
+            "failed_files": [],
+            "partial_success": False,
+            "report": "",
+            "items": [],
+        }
     backend_result = run_search_backend(
         root,
         query,
@@ -75,6 +95,7 @@ def search_candidates(
         failed_files,
     )
     return {
+        "status": "ok",
         "query": query,
         "account_name": account_name,
         "direction": direction,
@@ -123,9 +144,7 @@ def search_asset_topics(
     direction: str,
     query_terms: list[str] | None = None,
 ) -> tuple[list[dict[str, Any]], int]:
-    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
-    if not path.exists():
-        path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+    path = candidate_asset_path(root)
     if not path.exists():
         return [], 0
     query_terms = query_terms if query_terms is not None else expand_query(root, query)

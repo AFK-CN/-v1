@@ -22,6 +22,7 @@ RAW_INPUT_DIRS = ("00_Inbox", "数据")
 FORMAL_KNOWLEDGE_DIRS = (
     "02_Viral_Methods",
     "03_Topic_Ideas",
+    "04_Platform_Knowledge",
     "06_Sub_KB",
     "08_Content_Factory",
     "13_Evolving_Skills",

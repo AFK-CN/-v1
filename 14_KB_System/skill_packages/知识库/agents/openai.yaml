@@ -1,4 +1,3 @@
 interface:
   display_name: "知识库"
-  short_description: "总控调用本机知识库"
-  default_prompt: "使用 @知识库 调用 /Users/lao_wu/codexAI/知识库；先走总控路由，默认禁止全盘扫库和读取 数据/。"
+  short_description: "总控：按索引、路由和输出契约调用本机知识库"

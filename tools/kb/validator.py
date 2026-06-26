@@ -6,6 +6,7 @@ from typing import Any
 
 from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
+from .skill_package import skill_package_drift
 
 
 REQUIRED_FILES = (
@@ -16,6 +17,9 @@ REQUIRED_FILES = (
     "14_KB_System/rules/初始化生命周期.md",
     "14_KB_System/rules/输出契约.md",
     "14_KB_System/config/output_contracts.json",
+    "14_KB_System/config/search_terms.json",
+    "14_KB_System/config/skill_contract.json",
+    "14_KB_System/rules/规则权威源.md",
     "14_KB_System/index/controller_routes.json",
     "14_KB_System/index/knowledge_index.json",
     "14_KB_System/index/knowledge_index_summary.md",
@@ -49,6 +53,7 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     output_contract_text = read_text(root / "14_KB_System" / "rules" / "输出契约.md")
     controller = load_json(root / "14_KB_System" / "index" / "controller_routes.json", failed, "controller_routes_invalid_json")
     output_contracts = load_json(root / "14_KB_System" / "config" / "output_contracts.json", failed, "output_contracts_invalid_json")
+    search_terms = load_json(root / "14_KB_System" / "config" / "search_terms.json", failed, "search_terms_invalid_json")
     account_index = load_json(root / "14_KB_System" / "index" / "account_knowledge_index.json", failed, "account_index_invalid_json")
     raw_blocked_index = load_json(root / "14_KB_System" / "index" / "raw_blocked_index.json", failed, "raw_blocked_index_invalid_json")
     if "索引" not in entry_text:
@@ -66,7 +71,7 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
         failed.append("project_use_missing_no_full_scan_rule")
     if "数据" not in project_use_text:
         failed.append("project_use_missing_data_protection")
-    if "full-library scans" not in skill_text and "全盘扫库" not in skill_text:
+    if "full-library scans" not in skill_text and "scan the whole knowledge base" not in skill_text and "全盘扫库" not in skill_text:
         failed.append("skill_missing_no_full_scan_rule")
     if "数据/" not in skill_text:
         failed.append("skill_missing_data_protection")
@@ -86,6 +91,11 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
         failed.append("zh_skill_ui_missing_controller_wording")
     route_summary = validate_controller_routes(controller, failed) if controller else {"route_count": 0, "agent_count": 0}
     contract_summary = validate_output_contracts(output_contracts, failed) if output_contracts else {"contract_count": 0}
+    if search_terms:
+        validate_search_terms(search_terms, failed)
+    if (root / "14_KB_System" / "config" / "skill_contract.json").exists():
+        for relative in skill_package_drift(root):
+            failed.append(f"skill_package_drift:{relative}")
     health = build_health_summary(root, account_index, route_summary)
     health.update(contract_summary)
     result = {"ok": not failed, "failed": failed, "health": health}
@@ -127,6 +137,12 @@ def validate_controller_routes(controller: dict[str, Any], failed: list[str]) ->
         failed.append("controller_missing_global_priority")
     if not isinstance(agents, list) or len(agents) < 8:
         failed.append("controller_missing_agent_system")
+    if controller.get("agent_model") and controller.get("agent_model") != "logical_roles":
+        failed.append("controller_agent_model_not_logical_roles")
+    if isinstance(agents, list):
+        for agent in agents:
+            if isinstance(agent, dict) and agent.get("kind") and agent.get("kind") != "logical_role":
+                failed.append(f"controller_agent_not_logical_role:{agent.get('id', 'unknown')}")
     if not isinstance(routes, list) or len(routes) < 8:
         failed.append("controller_missing_route_system")
         routes = []
@@ -152,6 +168,32 @@ def validate_controller_routes(controller: dict[str, Any], failed: list[str]) ->
             if key not in route:
                 failed.append(f"controller_route_missing_{key}:{route.get('id', 'unknown')}")
     return {"route_count": len(routes), "agent_count": len(agents)}
+
+
+def validate_search_terms(payload: dict[str, Any], failed: list[str]) -> None:
+    groups = payload.get("synonym_groups")
+    if not isinstance(groups, list) or not groups:
+        failed.append("search_terms_missing_synonym_groups")
+    elif not any(isinstance(group, list) and any(str(term).strip() for term in group) for group in groups):
+        failed.append("search_terms_missing_synonym_groups")
+    for index, group in enumerate(groups if isinstance(groups, list) else []):
+        if not isinstance(group, list):
+            failed.append(f"search_terms_synonym_group_not_list:{index}")
+            continue
+        for term in group:
+            if not str(term).strip():
+                failed.append(f"search_terms_empty_synonym:{index}")
+    direction_terms = payload.get("direction_terms", {})
+    if direction_terms and not isinstance(direction_terms, dict):
+        failed.append("search_terms_direction_terms_not_object")
+        return
+    for direction, terms in direction_terms.items() if isinstance(direction_terms, dict) else []:
+        if not isinstance(terms, list):
+            failed.append(f"search_terms_direction_terms_not_list:{direction}")
+            continue
+        for term in terms:
+            if not str(term).strip():
+                failed.append(f"search_terms_empty_direction_term:{direction}")
 
 
 def validate_output_contracts(payload: dict[str, Any], failed: list[str]) -> dict[str, int]:
