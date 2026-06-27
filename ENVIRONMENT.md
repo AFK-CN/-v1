@@ -178,6 +178,18 @@ OCR 当前使用 `chi_sim+eng` 语言组合。检查中文识别支持时，确�
 
 ## 系统依赖检查
 
+一键检查当前机器环境：
+
+```bash
+.venv/bin/python tools/check_env.py
+```
+
+Windows PowerShell：
+
+```powershell
+.\.venv\Scripts\python.exe tools\check_env.py
+```
+
 检查系统命令路径：
 
 ```bash
@@ -210,7 +222,7 @@ tesseract --list-langs
 
 运行视频学习环境检查时，macOS 上可能出现 `av` 和 `cv2` 动态库重复加载提示。只要检查命令输出的 JSON 中对应项目为可用，不直接把该提示视为失败。
 
-当前没有 `tools/check_env.py` 这个总环境检查脚本。如果后续需要一次性检查基础依赖、视频学习依赖、OCR 依赖和系统命令，再补一个总检查脚本。
+`tools/check_env.py` 是总环境检查入口；视频学习仍保留 `tools/check_video_learning_env.py` 作为专项检查。
 
 ## NAS 归档边界
 

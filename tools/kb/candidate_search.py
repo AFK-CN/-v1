@@ -9,7 +9,7 @@ from tools import video_learning
 
 from .candidate_assets import candidate_asset_path, candidate_asset_status
 from .runtime import runtime_path
-from .schemas import SYSTEM_DIR, now_iso
+from .schemas import SYSTEM_CONFIG_DIR, now_iso
 
 
 DEFAULT_SYNONYM_GROUPS = [
@@ -271,7 +271,7 @@ def aggregate_rows(rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def load_search_terms(root: Path) -> tuple[list[list[str]], dict[str, list[str]]]:
-    path = root / SYSTEM_DIR / "config" / "search_terms.json"
+    path = root / SYSTEM_CONFIG_DIR / "search_terms.json"
     if not path.exists():
         return DEFAULT_SYNONYM_GROUPS, {}
     try:

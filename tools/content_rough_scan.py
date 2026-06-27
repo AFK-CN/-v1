@@ -12,7 +12,7 @@ from typing import Any
 from tools.video_learning import NormalizedRecord, heat_score, load_unique_records, transcript_covers_video
 
 
-DEFAULT_PROFILES_PATH = Path("14_KB_System/config/content_rough_scan_profiles.json")
+DEFAULT_PROFILES_PATH = Path("00_System/shareable/config/content_rough_scan_profiles.json")
 OUTPUT_BASE = Path("10_Knowledge/candidates/account_assets/content_rough_scan")
 
 

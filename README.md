@@ -12,7 +12,7 @@
 - 原始文件不删除、不修改。`数据/` 和 `00_Inbox/` 中的原始资料只读处理。
 - 默认不全盘扫库，日常调用先读入口、任务索引和轻量摘要。
 - 系统底座和知识资产分离：系统可以分享，知识资产不进入系统模板包。
-- 运行状态和本机配置不分享：`00_System/runtime/`、`00_System/runtime/`、`80_Local/` 默认阻断。
+- 运行状态和本机配置不分享：`00_System/runtime/`、`80_Local/` 默认阻断。
 - 候选资产属于知识层，进入 `10_Knowledge/candidates/`，不能当正式知识直接调用。
 - Skill 属于系统能力。通用 active Skill、proposal 模板和回滚规则归系统层；账号风格和个人偏好不写入系统级 Skill。
 - 正式子库新增前必须先问用户；active Skill 修改前必须先进入 proposal，确认后再生效。
@@ -27,11 +27,11 @@
 - `99_Archive/`：归档层，放历史、废弃、低价值内容索引。
 - `数据/`：受保护原始资料，默认不展开、不删除、不分享。
 
-当前仍采用渐进迁移，旧编号目录通过 `14_KB_System/config/layer_map.json` 映射到新层级。详细结构见 `00_System/shareable/docs/知识库优化目录结构.md`。
+当前系统层已物理收口到 `00_System/shareable/` 和 `00_System/runtime/`。详细结构见 `00_System/shareable/docs/知识库优化目录结构.md`。
 
 ## 已迁移目录
 
-- `14_KB_System/`：旧系统目录，逐步拆分为 `00_System/shareable/` 和 `00_System/runtime/`。
+- 旧系统目录已物理迁移完成，不再作为根目录里的系统入口。
 - `13_Evolving_Skills/` 已迁入 `00_System/shareable/skills/`。
 - `02_Viral_Methods/`、`03_Topic_Ideas/`、`04_Platform_Knowledge/`、`06_Sub_KB/`、`08_Content_Factory/`、`09_Performance_Feedback/`、`10_Weekly_Review/` 已迁入 `10_Knowledge/formal/`。
 - `05_Sub_KB_Candidates/` 已迁入 `10_Knowledge/candidates/sub_kbs/`。
@@ -43,12 +43,12 @@
 新对话或其他项目调用方式见：
 
 - `知识库入口.md`
-- `14_KB_System/rules/用户操作台.md`
-- `14_KB_System/rules/本机使用速查.md`
-- `14_KB_System/rules/使用文档.md`
+- `00_System/shareable/rules/用户操作台.md`
+- `00_System/shareable/rules/本机使用速查.md`
+- `00_System/shareable/rules/使用文档.md`
 - `00_System/shareable/docs/project_use/项目调用规则.md`
 
-默认先读 `14_KB_System/index/controller_routes.json`、`14_KB_System/index/task_entry_index.md` 和 `14_KB_System/index/knowledge_index_summary.md`。`knowledge_index.json` 是全量机器索引，只给脚本、全量审计或明确要求时使用。
+默认先读 `00_System/shareable/index/controller_routes.json`、`00_System/shareable/index/task_entry_index.md` 和 `10_Knowledge/evidence/index/knowledge_index_summary.md`。`knowledge_index.json` 是全量机器索引，只给脚本、全量审计或明确要求时使用。
 
 ## 系统命令
 
@@ -66,7 +66,7 @@
 
 对外固定入口源包：
 
-- `14_KB_System/skill_packages/知识库/`：中文快捷入口，优先用于 `@知识库`
-- `14_KB_System/skill_packages/knowledge-base/`
+- `00_System/shareable/skill_packages/知识库/`：中文快捷入口，优先用于 `@知识库`
+- `00_System/shareable/skill_packages/knowledge-base/`
 
 其他项目优先通过 `@知识库 + 需求` / “知识库” Skill 入口调用，不要直接用文件搜索选一批 Markdown 文件。

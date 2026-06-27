@@ -1,0 +1,3824 @@
+{
+  "generated_at": "2026-06-27T20:06:38",
+  "source_index": "knowledge_index.json",
+  "description": "正式可调用知识索引；不包含候选资产、原始资料、归档和系统运行产物。",
+  "item_count": 477,
+  "items": [
+    {
+      "path": "10_Knowledge/formal/README.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-26T14:30:25+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/README.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-14T10:26:48+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/03_7525084574431317286_自学终极技能.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7517285713059138879_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7517285713059138879_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7525084574431317286_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7525084574431317286_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7537695497272790282_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7537695497272790282_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7542519534188645683_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7542519534188645683_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7545859136433573170_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7545859136433573170_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7556253638943853867_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7556253638943853867_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7569977115399998766_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7569977115399998766_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7574452831827053876_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7574452831827053876_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7639005685547568399_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7639005685547568399_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:40+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/07_7401507931113475363_选择性博弈.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/08_7542157131752033546_省力路径设计.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:40+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/03_7567763940030057755_极简创业法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/07_7586645512623901978_机会来自日常积累.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/09_7618589475425275145_机会在规则空白期.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7475723067688308018_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7475723067688308018_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7514323799211756863_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7514323799211756863_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7523959225278647590_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7523959225278647590_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7536196932503506217_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7536196932503506217_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7567763940030057755_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7567763940030057755_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7586645512623901978_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7586645512623901978_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7590403619493629190_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7590403619493629190_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7618589475425275145_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7618589475425275145_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7620096888573873417_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7620096888573873417_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7432683956031540491_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7432683956031540491_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7461266943811620133_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7461266943811620133_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7523594090828041526_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7523594090828041526_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7593729386504047914_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7593729386504047914_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7596705620514835748_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7596705620514835748_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7598553754534776118_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7598553754534776118_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7616745251776122138_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7616745251776122138_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7644578414015401235_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7644578414015401235_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7648295360862899456_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7648295360862899456_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/04_7557371251321343295_作品思维.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7520521925358030120_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7520521925358030120_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7551062641335209257_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7551062641335209257_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7557371251321343295_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7557371251321343295_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7582931244523048244_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7582931244523048244_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7593362807756721414_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7593362807756721414_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7597450892647992618_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7597450892647992618_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7599316326846385462_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7599316326846385462_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7614896500782402858_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7614896500782402858_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7619348188293565759_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7619348188293565759_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:40+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:07+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7568130374224629002_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7568130374224629002_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7580014753293012264_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7580014753293012264_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7601154241889193251_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7601154241889193251_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7603386512180383012_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7603386512180383012_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7607072666188631305_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7607072666188631305_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7617851728397962542_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7617851728397962542_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7622329208672406834_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7622329208672406834_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7631599967408360746_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7631599967408360746_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7642736662568635675_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7642736662568635675_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7049353047872425223_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7049353047872425223_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7058641665652821255_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7058641665652821255_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7070143597873515810_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7070143597873515810_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7270315554093731133_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7270315554093731133_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7274939371835428131_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7274939371835428131_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7351006613240696090_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7351006613240696090_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7578110142638542115_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7578110142638542115_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7630837327660584238_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7630837327660584238_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:40+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7541046418572660020_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7541046418572660020_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7549574243395112192_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7549574243395112192_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7552895793951264039_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7552895793951264039_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7561436598668184858_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7561436598668184858_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7568818546345963243_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7568818546345963243_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7620452140850384179_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7620452140850384179_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7621518948420324658_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7621518948420324658_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7642363455722229042_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7642363455722229042_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7646802062281346356_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7646802062281346356_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6821719966333668616_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6821719966333668616_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7048251304447069453_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7048251304447069453_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7129521528927948068_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7129521528927948068_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7186260197860543803_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7186260197860543803_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7356919376555052328_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7356919376555052328_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7384068155007651107_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7384068155007651107_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7561825588315442468_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7561825588315442468_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7597233865270910534_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7597233865270910534_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/05_7594110311276219686_重装操作系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7571846145677249830_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7571846145677249830_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7579257801478786319_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7579257801478786319_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7592259516792622399_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7592259516792622399_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7594110311276219686_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7594110311276219686_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7615244850891345158_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7615244850891345158_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634543338351250740_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634543338351250740_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634940154272156947_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634940154272156947_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7637536206296747315_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7637536206296747315_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7641608326068948260_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7641608326068948260_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:00+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7540648379617987891_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7540648379617987891_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7573700909629263156_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7573700909629263156_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7575936937542962432_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7575936937542962432_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7578515738357402914_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7578515738357402914_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7591878323370741046_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7591878323370741046_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7611180315444268351_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7611180315444268351_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7620840179279858995_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7620840179279858995_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7623432595895749926_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7623432595895749926_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7474952939895934259_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7474952939895934259_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7482406384856730918_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7482406384856730918_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7546226278702058779_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7546226278702058779_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7576672805584964904_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7576672805584964904_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7577381671138364724_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7577381671138364724_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7580396616813776162_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7580396616813776162_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7624160450304920847_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7624160450304920847_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7625643184860826926_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7625643184860826926_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7637902663966838042_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7637902663966838042_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7173673281491307776_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7173673281491307776_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7185541439814651194_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7185541439814651194_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7233757661416705320_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7233757661416705320_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7486844955646774565_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7486844955646774565_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7548090908445609250_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7548090908445609250_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7596338568050593060_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7596338568050593060_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7614151116225252651_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7614151116225252651_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7636042183547587875_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7636042183547587875_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7637158369555451187_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7637158369555451187_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/入库回执.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/存储分层清单.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/存储分层清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:29:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:30:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:28:59+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容生产使用说明.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-27T19:09:56+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容输出标准模板.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:31:26+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/减少AI味输出规则.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:31:26+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/正式入库总验收报告.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:32:03+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号方法论总览.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:31:25+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号索引.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-21T16:31:25+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/content_factory/.DS_Store",
+      "type": "unknown",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-23T19:33:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/content_factory/jianghushuo_50_content_2026-06-22/姜胡说_50条知识分享口播_完整稿.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-22T14:56:43+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/content_factory/jianghushuo_50_content_2026-06-22/验收报告.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-22T15:00:11+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/content_factory/内容生产模板_v1.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-16T10:38:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/methods/小红书爆款方法论_v1.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-14T22:55:35+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/methods/抖音爆款方法论_v1.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-16T10:38:39+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/platforms/小红书与抖音差异_v1.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-14T10:22:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/reviews/feedback/反馈入库模板.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-14T10:22:45+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/reviews/weekly/周复盘模板.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-14T10:22:45+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/topics/选题灵感库_v1.md",
+      "type": "md",
+      "purpose": "formal_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-16T10:39:06+08:00"
+    }
+  ]
+}

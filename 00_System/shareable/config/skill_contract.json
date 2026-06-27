@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "kb_root_mode": "repository_root",
+  "startup_read_order": [
+    "知识库入口.md",
+    "00_System/shareable/index/task_entry_index.md"
+  ],
+  "blocked_dirs": [
+    "数据/",
+    "00_Inbox/",
+    "99_Archive/",
+    "80_Local/",
+    "20_User/private/",
+    "00_System/runtime/"
+  ]
+}

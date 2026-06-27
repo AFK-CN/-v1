@@ -5,11 +5,13 @@ import json
 from pathlib import Path
 
 from .asset_builder import build_candidate_assets
+from .agent_registry import write_agent_registry, validate_agent_registry
 from .candidate_search import search_candidates
 from .call_resolver import resolve_call
 from .dashboard import write_dashboard
 from .evolution import write_evolution_report
 from .indexer import write_indexes
+from .memory import create_memory_candidate, evaluate_memory_capture, list_memory
 from .reorganizer import apply_reorganization_plan, initialize_layer_structure, write_reorganization_plan
 from .review_report import write_review_report
 from .runtime import doctor_runtime, health_gate, initialize_runtime, mark_dirty, repair_runtime
@@ -55,6 +57,15 @@ def main() -> int:
     subparsers.add_parser("validate-system", help="Validate minimum KB system behavior")
     subparsers.add_parser("dashboard", help="Write KB runtime dashboard and registry")
     subparsers.add_parser("skill-packages", help="Regenerate Skill packages from the shared contract")
+    agents_parser = subparsers.add_parser("agents", help="Regenerate or validate the user-syncable agent registry")
+    agents_parser.add_argument("--validate-only", action="store_true")
+    memory_parser = subparsers.add_parser("memory", help="List memory locations or create a pending memory candidate")
+    memory_parser.add_argument("--title", default="")
+    memory_parser.add_argument("--content", default="")
+    memory_parser.add_argument("--category", default="session_summary")
+    memory_parser.add_argument("--source", default="manual")
+    memory_parser.add_argument("--evaluate-text", default="")
+    memory_parser.add_argument("--dry-run", action="store_true")
     init_parser = subparsers.add_parser("init", help="Initialize or migrate the KB runtime lifecycle")
     init_parser.add_argument("--no-rebuild", action="store_true")
     init_parser.add_argument("--no-migrate", action="store_true")
@@ -143,6 +154,21 @@ def main() -> int:
         result = write_dashboard(root)
     elif args.command == "skill-packages":
         result = write_skill_packages(root)
+    elif args.command == "agents":
+        result = validate_agent_registry(root) if args.validate_only else write_agent_registry(root)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "memory":
+        if args.evaluate_text:
+            result = evaluate_memory_capture(root, args.evaluate_text, source=args.source, dry_run=args.dry_run)
+        elif args.title or args.content:
+            if not args.title or not args.content:
+                result = {"ok": False, "error": "memory_requires_title_and_content"}
+                exit_code = 2
+            else:
+                result = create_memory_candidate(root, args.title, args.content, category=args.category, source=args.source)
+        else:
+            result = list_memory(root)
     elif args.command == "init":
         try:
             result = initialize_runtime(

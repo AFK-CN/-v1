@@ -1,0 +1,46 @@
+{
+  "version": "1.0",
+  "required_fields": [
+    "memory_id",
+    "title",
+    "category",
+    "status",
+    "source",
+    "target_layer",
+    "content",
+    "created_at"
+  ],
+  "categories": [
+    "session_summary",
+    "resolved_issue",
+    "user_preference",
+    "decision",
+    "agent_boundary",
+    "workflow"
+  ],
+  "statuses": ["pending", "approved", "rejected", "archived"],
+  "target_layers": [
+    "runtime_pending",
+    "user_syncable",
+    "user_private",
+    "knowledge_evidence",
+    "knowledge_formal",
+    "shareable_system"
+  ],
+  "optional_auto_capture_fields": [
+    "capture_mode",
+    "capture_score",
+    "capture_threshold",
+    "capture_reasons"
+  ],
+  "forbidden_sensitive_terms": [
+    "password",
+    "token",
+    "secret",
+    "api_key",
+    "access_token",
+    "refresh_token",
+    "密钥",
+    "密码"
+  ]
+}

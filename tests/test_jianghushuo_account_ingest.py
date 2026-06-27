@@ -55,7 +55,7 @@ class JianghushuoAccountIngestTests(unittest.TestCase):
             account_index = (account_dir / "账号索引.md").read_text(encoding="utf-8")
             formal_card = (account_dir / "directions/创业/cards/01_2002_测试卡.md").read_text(encoding="utf-8")
             formal_summary = (account_dir / "directions/创业/方向方法论总结.md").read_text(encoding="utf-8")
-            global_index = json.loads((root / "14_KB_System/index/account_knowledge_index.json").read_text(encoding="utf-8"))
+            global_index = json.loads((root / "10_Knowledge/evidence/index/account_knowledge_index.json").read_text(encoding="utf-8"))
 
         self.assertEqual(result["direction_count"], 2)
         self.assertIn("| 赚钱 | formal_ingested |", account_index)
@@ -123,7 +123,7 @@ class JianghushuoAccountIngestTests(unittest.TestCase):
             result = ingest_direction(root, "赚钱")
             formal_dir = root / result["formal_direction_dir"]
             account_index = root / "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号索引.md"
-            total_index = root / "14_KB_System/index/account_knowledge_index.json"
+            total_index = root / "10_Knowledge/evidence/index/account_knowledge_index.json"
             storage_manifest = json.loads((formal_dir / "存储分层清单.json").read_text(encoding="utf-8"))
             total_index_payload = json.loads(total_index.read_text(encoding="utf-8"))
 
@@ -173,7 +173,7 @@ class JianghushuoAccountIngestTests(unittest.TestCase):
             usage = (account_dir / "内容生产使用说明.md").read_text(encoding="utf-8")
             style = (account_dir / "减少AI味输出规则.md").read_text(encoding="utf-8")
             template = (account_dir / "内容输出标准模板.md").read_text(encoding="utf-8")
-            total_index = json.loads((root / "14_KB_System/index/account_knowledge_index.json").read_text(encoding="utf-8"))
+            total_index = json.loads((root / "10_Knowledge/evidence/index/account_knowledge_index.json").read_text(encoding="utf-8"))
 
         self.assertIn("会话外调用", usage)
         self.assertIn("不要全扫候选区", usage)

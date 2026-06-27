@@ -5,7 +5,21 @@ from pathlib import Path
 from typing import Any
 
 from .runtime import runtime_path
-from .schemas import SYSTEM_DIR, now_iso, skill_proposals_dir
+from .schemas import (
+    EVIDENCE_INDEX_DIR,
+    EVIDENCE_MEMORY_DIR,
+    SYSTEM_AGENTS_DIR,
+    SYSTEM_CONFIG_DIR,
+    SYSTEM_INDEX_DIR,
+    SYSTEM_MEMORY_DIR,
+    SYSTEM_RULES_DIR,
+    SYSTEM_SKILL_PACKAGES_DIR,
+    USER_SYNCABLE_AGENTS_DIR,
+    USER_SYNCABLE_MEMORY_DIR,
+    now_iso,
+    skill_proposals_dir,
+)
+from .agent_registry import validate_agent_registry
 from .skill_package import skill_package_drift
 
 
@@ -13,27 +27,39 @@ REQUIRED_FILES = (
     "知识库入口.md",
     "README.md",
     "00_System/shareable/docs/project_use/项目调用规则.md",
-    "14_KB_System/rules/用户操作台.md",
-    "14_KB_System/rules/初始化生命周期.md",
-    "14_KB_System/rules/输出契约.md",
-    "14_KB_System/config/output_contracts.json",
-    "14_KB_System/config/search_terms.json",
-    "14_KB_System/config/skill_contract.json",
-    "14_KB_System/config/layer_map.json",
-    "14_KB_System/rules/规则权威源.md",
-    "14_KB_System/index/controller_routes.json",
-    "14_KB_System/index/knowledge_index.json",
-    "14_KB_System/index/knowledge_index_summary.md",
-    "14_KB_System/index/formal_knowledge_index.json",
-    "14_KB_System/index/candidate_asset_index.json",
-    "14_KB_System/index/raw_blocked_index.json",
-    "14_KB_System/index/task_entry_index.md",
-    "14_KB_System/skill_packages/knowledge-base/SKILL.md",
-    "14_KB_System/skill_packages/knowledge-base/agents/openai.yaml",
-    "14_KB_System/skill_packages/knowledge-base/references/calling-rules.md",
-    "14_KB_System/skill_packages/知识库/SKILL.md",
-    "14_KB_System/skill_packages/知识库/agents/openai.yaml",
-    "14_KB_System/skill_packages/知识库/references/calling-rules.md",
+    f"{SYSTEM_RULES_DIR}/用户操作台.md",
+    f"{SYSTEM_RULES_DIR}/初始化生命周期.md",
+    f"{SYSTEM_RULES_DIR}/输出契约.md",
+    f"{SYSTEM_CONFIG_DIR}/output_contracts.json",
+    f"{SYSTEM_CONFIG_DIR}/search_terms.json",
+    f"{SYSTEM_CONFIG_DIR}/skill_contract.json",
+    f"{SYSTEM_CONFIG_DIR}/layer_map.json",
+    f"{SYSTEM_RULES_DIR}/规则权威源.md",
+    f"{SYSTEM_MEMORY_DIR}/memory_rules.md",
+    f"{SYSTEM_MEMORY_DIR}/memory_schema.json",
+    f"{SYSTEM_MEMORY_DIR}/retention_policy.md",
+    f"{SYSTEM_MEMORY_DIR}/memory_workflow.md",
+    f"{SYSTEM_AGENTS_DIR}/agent_registry_schema.json",
+    f"{SYSTEM_AGENTS_DIR}/agent_capability_rules.md",
+    f"{SYSTEM_INDEX_DIR}/controller_routes.json",
+    f"{EVIDENCE_INDEX_DIR}/knowledge_index.json",
+    f"{EVIDENCE_INDEX_DIR}/knowledge_index_summary.md",
+    f"{EVIDENCE_INDEX_DIR}/formal_knowledge_index.json",
+    f"{EVIDENCE_INDEX_DIR}/candidate_asset_index.json",
+    f"{EVIDENCE_INDEX_DIR}/raw_blocked_index.json",
+    f"{SYSTEM_INDEX_DIR}/task_entry_index.md",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/knowledge-base/SKILL.md",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/knowledge-base/agents/openai.yaml",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/knowledge-base/references/calling-rules.md",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/知识库/SKILL.md",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/知识库/agents/openai.yaml",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/知识库/references/calling-rules.md",
+    f"{USER_SYNCABLE_MEMORY_DIR}/记忆总入口.md",
+    f"{USER_SYNCABLE_MEMORY_DIR}/用户偏好与决策.md",
+    f"{USER_SYNCABLE_AGENTS_DIR}/agent_registry.md",
+    f"{EVIDENCE_MEMORY_DIR}/README.md",
+    f"{EVIDENCE_MEMORY_DIR}/session_summaries/README.md",
+    f"{EVIDENCE_MEMORY_DIR}/resolved_issues/README.md",
 )
 
 
@@ -45,19 +71,21 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
             failed.append(f"missing:{relative}")
     entry_text = read_text(root / "知识库入口.md")
     project_use_text = read_text(root / "00_System" / "shareable" / "docs" / "project_use" / "项目调用规则.md")
-    skill_text = read_text(root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md")
-    skill_ui_text = read_text(root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents" / "openai.yaml")
-    zh_skill_text = read_text(root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md")
-    zh_skill_ui_text = read_text(root / "14_KB_System" / "skill_packages" / "知识库" / "agents" / "openai.yaml")
-    task_index_text = read_text(root / "14_KB_System" / "index" / "task_entry_index.md")
-    user_console_text = read_text(root / "14_KB_System" / "rules" / "用户操作台.md")
-    output_contract_text = read_text(root / "14_KB_System" / "rules" / "输出契约.md")
-    controller = load_json(root / "14_KB_System" / "index" / "controller_routes.json", failed, "controller_routes_invalid_json")
-    output_contracts = load_json(root / "14_KB_System" / "config" / "output_contracts.json", failed, "output_contracts_invalid_json")
-    search_terms = load_json(root / "14_KB_System" / "config" / "search_terms.json", failed, "search_terms_invalid_json")
-    layer_map = load_json(root / "14_KB_System" / "config" / "layer_map.json", failed, "layer_map_invalid_json")
-    account_index = load_json(root / "14_KB_System" / "index" / "account_knowledge_index.json", failed, "account_index_invalid_json")
-    raw_blocked_index = load_json(root / "14_KB_System" / "index" / "raw_blocked_index.json", failed, "raw_blocked_index_invalid_json")
+    skill_text = read_text(root / SYSTEM_SKILL_PACKAGES_DIR / "knowledge-base" / "SKILL.md")
+    skill_ui_text = read_text(root / SYSTEM_SKILL_PACKAGES_DIR / "knowledge-base" / "agents" / "openai.yaml")
+    zh_skill_text = read_text(root / SYSTEM_SKILL_PACKAGES_DIR / "知识库" / "SKILL.md")
+    zh_skill_ui_text = read_text(root / SYSTEM_SKILL_PACKAGES_DIR / "知识库" / "agents" / "openai.yaml")
+    task_index_text = read_text(root / SYSTEM_INDEX_DIR / "task_entry_index.md")
+    user_console_text = read_text(root / SYSTEM_RULES_DIR / "用户操作台.md")
+    output_contract_text = read_text(root / SYSTEM_RULES_DIR / "输出契约.md")
+    controller = load_json(root / SYSTEM_INDEX_DIR / "controller_routes.json", failed, "controller_routes_invalid_json")
+    output_contracts = load_json(root / SYSTEM_CONFIG_DIR / "output_contracts.json", failed, "output_contracts_invalid_json")
+    search_terms = load_json(root / SYSTEM_CONFIG_DIR / "search_terms.json", failed, "search_terms_invalid_json")
+    layer_map = load_json(root / SYSTEM_CONFIG_DIR / "layer_map.json", failed, "layer_map_invalid_json")
+    memory_schema = load_json(root / SYSTEM_MEMORY_DIR / "memory_schema.json", failed, "memory_schema_invalid_json")
+    agent_schema = load_json(root / SYSTEM_AGENTS_DIR / "agent_registry_schema.json", failed, "agent_registry_schema_invalid_json")
+    account_index = load_json(root / EVIDENCE_INDEX_DIR / "account_knowledge_index.json", failed, "account_index_invalid_json")
+    raw_blocked_index = load_json(root / EVIDENCE_INDEX_DIR / "raw_blocked_index.json", failed, "raw_blocked_index_invalid_json")
     if "索引" not in entry_text:
         failed.append("entry_missing_index_first_rule")
     if "controller_routes.json" not in entry_text:
@@ -97,10 +125,17 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
         validate_search_terms(search_terms, failed)
     if layer_map:
         validate_layer_map(layer_map, failed)
-    if (root / "14_KB_System" / "config" / "skill_contract.json").exists():
+    if memory_schema:
+        validate_memory_schema(memory_schema, failed)
+    if agent_schema:
+        validate_agent_schema(agent_schema, failed)
+    agent_registry_result = validate_agent_registry(root)
+    failed.extend(agent_registry_result["failed"])
+    if (root / SYSTEM_CONFIG_DIR / "skill_contract.json").exists():
         for relative in skill_package_drift(root):
             failed.append(f"skill_package_drift:{relative}")
     health = build_health_summary(root, account_index, route_summary)
+    health["agent_registry_count"] = agent_registry_result.get("agent_count", 0)
     health.update(contract_summary)
     result = {"ok": not failed, "failed": failed, "health": health}
     if write_report:
@@ -160,6 +195,8 @@ def validate_controller_routes(controller: dict[str, Any], failed: list[str]) ->
         "table_review",
         "external_use",
         "system_audit",
+        "memory_capture",
+        "agent_registry",
     }
     route_ids = {route.get("id") for route in routes if isinstance(route, dict)}
     for route_id in sorted(required_routes - route_ids):
@@ -215,6 +252,8 @@ def validate_output_contracts(payload: dict[str, Any], failed: list[str]) -> dic
         "skill_evolution",
         "external_use",
         "system_audit",
+        "memory_capture",
+        "agent_registry",
     }
     contract_ids = {item.get("route_id") for item in contracts if isinstance(item, dict)}
     for route_id in sorted(required - contract_ids):
@@ -271,6 +310,29 @@ def validate_layer_map(payload: dict[str, Any], failed: list[str]) -> None:
                 failed.append(f"layer_map_missing_share_exclusion:{required}")
     else:
         failed.append("layer_map_share_exclusions_not_list")
+
+
+def validate_memory_schema(payload: dict[str, Any], failed: list[str]) -> None:
+    required = set(payload.get("required_fields", [])) if isinstance(payload.get("required_fields"), list) else set()
+    for field in ("memory_id", "title", "category", "target_layer", "content", "created_at"):
+        if field not in required:
+            failed.append(f"memory_schema_missing_required_field:{field}")
+    categories = payload.get("categories", [])
+    if not isinstance(categories, list) or "session_summary" not in categories or "resolved_issue" not in categories:
+        failed.append("memory_schema_missing_core_categories")
+    layers = payload.get("target_layers", [])
+    if not isinstance(layers, list) or "user_private" not in layers or "knowledge_evidence" not in layers:
+        failed.append("memory_schema_missing_core_layers")
+
+
+def validate_agent_schema(payload: dict[str, Any], failed: list[str]) -> None:
+    required = set(payload.get("required_fields", [])) if isinstance(payload.get("required_fields"), list) else set()
+    for field in ("agent_id", "primary_function", "auth_status", "memory_scope", "blocked_actions"):
+        if field not in required:
+            failed.append(f"agent_schema_missing_required_field:{field}")
+    statuses = payload.get("auth_statuses", [])
+    if not isinstance(statuses, list) or "not_required" not in statuses or "configured" not in statuses:
+        failed.append("agent_schema_missing_auth_statuses")
 
 
 def build_health_summary(root: Path, account_index: dict[str, Any], route_summary: dict[str, int]) -> dict[str, Any]:

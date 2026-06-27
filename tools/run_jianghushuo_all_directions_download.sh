@@ -3,7 +3,7 @@ set -uo pipefail
 
 ROOT="${1:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 QUEUE="$ROOT/90_Temp/scratch/video_learning/queues/jianghushuo_all_directions_download.json"
-LOG_FILE="${LOG_FILE:-$ROOT/14_KB_System/logs/video_learning/jianghushuo_all_directions_download_20260618.log}"
+LOG_FILE="${LOG_FILE:-$ROOT/00_System/runtime/logs/video_learning/jianghushuo_all_directions_download_20260618.log}"
 STATUS_FILE="${STATUS_FILE:-${LOG_FILE%.log}.status.json}"
 PID_FILE="${PID_FILE:-${LOG_FILE%.log}.pid}"
 

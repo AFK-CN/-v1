@@ -184,7 +184,7 @@ class KBRuntimeTests(unittest.TestCase):
             active = root / "00_System" / "shareable" / "skills" / "active" / "skill.md"
             active.parent.mkdir(parents=True)
             active.write_text("# active\n", encoding="utf-8")
-            running = root / "14_KB_System" / "tasks" / "running" / "task_a"
+            running = root / "00_System" / "runtime" / "tasks" / "running" / "task_a"
             write_json(
                 running / "status.json",
                 {
@@ -230,13 +230,13 @@ class KBRuntimeTests(unittest.TestCase):
             self.assertEqual(len(quarantined), 1)
             self.assertEqual(quarantined[0].read_text(encoding="utf-8"), "{broken")
 
-    def test_init_migrates_runtime_outputs_and_separates_long_lived_plan(self):
+    def test_init_preserves_current_runtime_outputs_after_physical_migration(self):
         from tools.kb.runtime import MIGRATION_VERSIONS, initialize_runtime, runtime_path
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            write_json(root / "14_KB_System" / "state" / "kb_registry.json", {"legacy": True})
-            running = root / "14_KB_System" / "tasks" / "running" / "task_a"
+            write_json(root / "00_System" / "runtime" / "state" / "kb_registry.json", {"legacy": True})
+            running = root / "00_System" / "runtime" / "tasks" / "running" / "task_a"
             write_json(
                 running / "status.json",
                 {
@@ -245,7 +245,7 @@ class KBRuntimeTests(unittest.TestCase):
                     "updated_at": "2020-01-01T00:00:00",
                 },
             )
-            plan = root / "14_KB_System" / "tasks" / "pending" / "long_plan"
+            plan = root / "00_System" / "runtime" / "tasks" / "pending" / "long_plan"
             plan.mkdir(parents=True)
             (plan / "task.md").write_text("# Long-lived plan\n", encoding="utf-8")
 
@@ -253,30 +253,23 @@ class KBRuntimeTests(unittest.TestCase):
 
             self.assertTrue((runtime_path(root, "state") / "kb_registry.json").exists())
             self.assertTrue((runtime_path(root, "tasks") / "running" / "task_a" / "status.json").exists())
-            self.assertTrue((root / "14_KB_System" / "plans" / "long_plan" / "task.md").exists())
-            self.assertIn("legacy_runtime_v1", result["applied_migrations"])
+            self.assertTrue((runtime_path(root, "tasks") / "pending" / "long_plan" / "task.md").exists())
+            self.assertEqual(result["migration_actions"], [])
             self.assertEqual(result["applied_migrations"], list(MIGRATION_VERSIONS))
 
-    def test_init_migrates_legacy_candidate_assets_and_quarantines_conflicts(self):
-        from tools.kb.runtime import initialize_runtime, runtime_path
+    def test_init_keeps_candidate_assets_in_knowledge_layer(self):
+        from tools.kb.runtime import initialize_runtime
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            legacy_assets = root / "14_KB_System" / "assets"
-            runtime_assets = root / "10_Knowledge" / "candidates" / "generated_assets"
-            legacy_assets.mkdir(parents=True)
-            runtime_assets.mkdir(parents=True)
-            (legacy_assets / "candidate_topics.jsonl").write_text("legacy\n", encoding="utf-8")
-            (legacy_assets / "legacy_only.jsonl").write_text("legacy only\n", encoding="utf-8")
-            (runtime_assets / "candidate_topics.jsonl").write_text("runtime\n", encoding="utf-8")
+            assets = root / "10_Knowledge" / "candidates" / "generated_assets"
+            assets.mkdir(parents=True)
+            (assets / "candidate_topics.jsonl").write_text("candidate\n", encoding="utf-8")
 
             result = initialize_runtime(root, rebuild=False, migrate=True)
 
-            self.assertEqual((runtime_assets / "candidate_topics.jsonl").read_text(encoding="utf-8"), "runtime\n")
-            self.assertEqual((runtime_assets / "legacy_only.jsonl").read_text(encoding="utf-8"), "legacy only\n")
-            quarantined = list((runtime_path(root, "quarantine") / "legacy_assets_conflicts").glob("candidate_topics*.jsonl"))
-            self.assertEqual(len(quarantined), 1)
-            self.assertEqual(quarantined[0].read_text(encoding="utf-8"), "legacy\n")
+            self.assertEqual((assets / "candidate_topics.jsonl").read_text(encoding="utf-8"), "candidate\n")
+            self.assertEqual(result["migration_actions"], [])
             self.assertIn("candidate_assets_runtime_v2", result["applied_migrations"])
 
     def test_init_dry_run_does_not_create_or_move_files(self):
@@ -284,14 +277,15 @@ class KBRuntimeTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            legacy = root / "14_KB_System" / "state" / "kb_registry.json"
+            legacy = root / "00_System" / "runtime" / "state" / "kb_registry.json"
             write_json(legacy, {"legacy": True})
 
             result = initialize_runtime(root, rebuild=False, migrate=True, dry_run=True)
 
             self.assertTrue(result["dry_run"])
             self.assertTrue(legacy.exists())
-            self.assertFalse(runtime_root(root).exists())
+            self.assertEqual(result["would_migrate"], [])
+            self.assertTrue(runtime_root(root).exists())
 
     def test_repair_only_rebuilds_whitelisted_outputs_and_marks_stale(self):
         from tools.kb.runtime import initialize_runtime, repair_runtime, runtime_path
@@ -345,7 +339,7 @@ class KBRuntimeTests(unittest.TestCase):
             self.assertTrue(result["dry_run"])
             self.assertIn("task_a", result["would_mark_stale"])
             self.assertTrue((runtime_path(root, "tasks") / "running" / "task_a").exists())
-            self.assertFalse((root / "14_KB_System/index/knowledge_index.json").exists())
+            self.assertFalse((root / "10_Knowledge/evidence/index/knowledge_index.json").exists())
 
     def test_repair_does_not_expand_raw_input_directories(self):
         from tools.kb.runtime import initialize_runtime, repair_runtime
@@ -452,7 +446,7 @@ class KBRuntimeTests(unittest.TestCase):
             result = validate_system(root)
 
             self.assertFalse(result["ok"])
-            self.assertFalse((root / "14_KB_System" / "runtime" / "reports").exists())
+            self.assertFalse((root / "00_System" / "runtime" / "reports").exists())
 
 
 if __name__ == "__main__":

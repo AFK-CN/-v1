@@ -2,7 +2,7 @@
 
 这里是未来可剥离给其他人使用的系统包边界。
 
-分享边界以 `share_manifest.json` 为准。当前为了保持脚本导入稳定，部分系统源码仍保留在根目录的 `tools/`、`tests/` 和 `14_KB_System/` 下；打包时按清单包含和排除。
+分享边界以 `share_manifest.json` 为准。当前为了保持脚本导入稳定，部分系统源码仍保留在根目录的 `tools/`、`tests/` 和 `00_System/shareable/` 下；打包时按清单包含和排除。
 
 允许放入：
 

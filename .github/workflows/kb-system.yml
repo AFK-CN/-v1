@@ -1,0 +1,38 @@
+name: KB System
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: ${{ matrix.os }} / Python 3.12
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-latest, windows-latest]
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install base dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover tests
+
+      - name: Regenerate Skill packages
+        run: python -m tools.kb.cli --root . skill-packages
+
+      - name: Regenerate indexes
+        run: python -m tools.kb.cli --root . index
+
+      - name: Validate KB system
+        run: python -m tools.kb.cli --root . validate-system

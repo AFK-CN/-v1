@@ -3,7 +3,7 @@ set -euo pipefail
 
 ROOT="${1:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
 VIDEO_LIMIT="${VIDEO_LIMIT:-34}"
-LOG_FILE="${LOG_FILE:-$ROOT/14_KB_System/logs/video_learning/jianghushuo_top10x12_download_20260617.log}"
+LOG_FILE="${LOG_FILE:-$ROOT/00_System/runtime/logs/video_learning/jianghushuo_top10x12_download_20260617.log}"
 STATUS_FILE="${STATUS_FILE:-${LOG_FILE%.log}.status.json}"
 PID_FILE="${PID_FILE:-${LOG_FILE%.log}.pid}"
 

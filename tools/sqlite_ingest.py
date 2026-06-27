@@ -15,7 +15,7 @@ from tools.video_learning import normalize_record
 DEFAULT_DB_PATH = Path("数据") / "sqlite_tables.db"
 STATE_PATH = Path("00_System/runtime/state/sqlite_ingest/state.json")
 INBOX_ROOT = Path("00_Inbox/sqlite_imports")
-INDEX_DIR = Path("14_KB_System/index")
+INDEX_DIR = Path("10_Knowledge/evidence/index")
 ACCOUNT_ASSET_ROOT = Path("10_Knowledge/candidates/account_assets/sqlite_imports")
 FORMAL_ACCOUNT_CENTER = Path("10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心")
 

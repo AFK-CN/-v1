@@ -15,9 +15,12 @@ env/
 # Local-only knowledge-base state and configuration.
 00_System/runtime/*
 !00_System/runtime/README.md
-14_KB_System/runtime/
 80_Local/
 20_User/private/*
 !20_User/private/README.md
+!20_User/private/agents/
+20_User/private/agents/*
+!20_User/private/agents/README.md
+!20_User/private/agents/agent_auth_registry.template.md
 90_Temp/*
 !90_Temp/README.md

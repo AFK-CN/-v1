@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .runtime import runtime_path
-from .schemas import SYSTEM_DIR, as_posix, load_layer_map, now_iso
+from .schemas import SYSTEM_RULES_DIR, as_posix, load_layer_map, now_iso
 
 
 KEEP_ROOT_NAMES = {
@@ -26,7 +26,6 @@ KEEP_ROOT_DIRS = {
     "00_Inbox",
     "00_System",
     "10_Knowledge",
-    "14_KB_System",
     "20_User",
     "80_Local",
     "90_Temp",
@@ -97,9 +96,9 @@ def classify_root_item(path: Path) -> dict[str, Any]:
     if name in KEEP_ROOT_NAMES or name in KEEP_ROOT_DIRS:
         return {"path": name, "action": "keep_root", "target": name, "reason": "root_entry_or_primary_directory"}
     if name in RULE_FILES:
-        return {"path": name, "action": "move", "target": f"{SYSTEM_DIR}/rules/{name}", "reason": "centralize_rules"}
+        return {"path": name, "action": "move", "target": f"{SYSTEM_RULES_DIR}/{name}", "reason": "centralize_rules"}
     if name.startswith("验收报告_") and name.endswith(".md"):
-        return {"path": name, "action": "move", "target": f"{SYSTEM_DIR}/reports/history/{name}", "reason": "historical_report"}
+        return {"path": name, "action": "move", "target": f"00_System/runtime/reports/history/{name}", "reason": "historical_report"}
     if name == "feishu_doc_read":
         return {"path": name, "action": "move", "target": "99_Archive/feishu_doc_read", "reason": "import_artifact_not_formal_knowledge"}
     if name in DELETE_ALLOWLIST:

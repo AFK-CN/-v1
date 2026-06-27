@@ -4,11 +4,11 @@
   "purpose": "Define the shareable knowledge-base system package boundary.",
   "include": [
     "00_System/shareable/",
-    "14_KB_System/config/",
-    "14_KB_System/rules/",
-    "14_KB_System/skill_packages/",
-    "14_KB_System/index/controller_routes.json",
-    "14_KB_System/index/task_entry_index.md",
+    "00_System/shareable/config/",
+    "00_System/shareable/rules/",
+    "00_System/shareable/skill_packages/",
+    "00_System/shareable/index/controller_routes.json",
+    "00_System/shareable/index/task_entry_index.md",
     "tools/",
     "tests/",
     "00_System/shareable/docs/知识库优化目录结构.md",
@@ -29,17 +29,17 @@
     "数据/",
     "00_Inbox/",
     "10_Knowledge/candidates/generated_assets/",
-    "14_KB_System/index/account_knowledge_index.json",
-    "14_KB_System/index/account_knowledge_index.md",
-    "14_KB_System/index/candidate_asset_index.json",
-    "14_KB_System/index/formal_knowledge_index.json",
-    "14_KB_System/index/knowledge_index.json",
-    "14_KB_System/index/knowledge_index_summary.md",
-    "14_KB_System/index/raw_blocked_index.json",
-    "14_KB_System/index/知识库总索引.md"
+    "10_Knowledge/evidence/index/account_knowledge_index.json",
+    "10_Knowledge/evidence/index/account_knowledge_index.md",
+    "10_Knowledge/evidence/index/candidate_asset_index.json",
+    "10_Knowledge/evidence/index/formal_knowledge_index.json",
+    "10_Knowledge/evidence/index/knowledge_index.json",
+    "10_Knowledge/evidence/index/knowledge_index_summary.md",
+    "10_Knowledge/evidence/index/raw_blocked_index.json",
+    "10_Knowledge/evidence/index/知识库总索引.md"
   ],
   "notes": [
-    "Current executable system source still lives in root-level tools, tests, and 14_KB_System while imports remain stable.",
+    "Current executable system source still lives in root-level tools and tests while imports remain stable.",
     "Only this manifest and 00_System/shareable are safe defaults for packaging decisions.",
     "Local paths, accounts, secrets, NAS addresses, runtime state, and current knowledge assets must not be included."
   ]

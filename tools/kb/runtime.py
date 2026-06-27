@@ -12,7 +12,17 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from .schemas import FORMAL_KNOWLEDGE_DIRS, SYSTEM_DIR, active_skills_dir, as_posix, now_iso
+from .schemas import (
+    EVIDENCE_INDEX_DIR,
+    FORMAL_KNOWLEDGE_DIRS,
+    SYSTEM_CONFIG_DIR,
+    SYSTEM_INDEX_DIR,
+    SYSTEM_RULES_DIR,
+    SYSTEM_SKILL_PACKAGES_DIR,
+    active_skills_dir,
+    as_posix,
+    now_iso,
+)
 
 
 RUNTIME_SCHEMA_VERSION = 1
@@ -23,22 +33,26 @@ RUNTIME_SECTIONS = ("state", "cache", "reports", "logs", "tasks", "locks", "quar
 TASK_STATES = ("pending", "running", "stale", "done", "failed", "paused")
 CONTROL_FILES = (
     "知识库入口.md",
-    "14_KB_System/index/controller_routes.json",
-    "14_KB_System/index/task_entry_index.md",
-    "14_KB_System/index/account_knowledge_index.json",
-    "14_KB_System/config/output_contracts.json",
-    "14_KB_System/config/search_terms.json",
-    "14_KB_System/config/skill_contract.json",
-    "14_KB_System/config/layer_map.json",
-    "14_KB_System/rules/初始化生命周期.md",
-    "14_KB_System/skill_packages/知识库/SKILL.md",
+    f"{SYSTEM_INDEX_DIR}/controller_routes.json",
+    f"{SYSTEM_INDEX_DIR}/task_entry_index.md",
+    f"{EVIDENCE_INDEX_DIR}/account_knowledge_index.json",
+    f"{SYSTEM_CONFIG_DIR}/output_contracts.json",
+    f"{SYSTEM_CONFIG_DIR}/search_terms.json",
+    f"{SYSTEM_CONFIG_DIR}/skill_contract.json",
+    f"{SYSTEM_CONFIG_DIR}/layer_map.json",
+    f"{SYSTEM_RULES_DIR}/初始化生命周期.md",
+    "00_System/shareable/memory/memory_rules.md",
+    "00_System/shareable/agents/agent_registry_schema.json",
+    "20_User/syncable/memory/记忆总入口.md",
+    "20_User/syncable/agents/agent_registry.md",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/知识库/SKILL.md",
     "tools/kb/runtime.py",
     "tools/kb/cli.py",
     "tools/kb/schemas.py",
 )
 FULL_FINGERPRINT_DIRS = (
     *FORMAL_KNOWLEDGE_DIRS,
-    "14_KB_System/config",
+    SYSTEM_CONFIG_DIR,
 )
 
 
@@ -140,7 +154,7 @@ def full_knowledge_fingerprint(root: Path) -> str:
         files.extend(path for path in active.rglob("*") if path.is_file())
     for path in sorted(set(files)):
         relative = path.relative_to(root)
-        if SYSTEM_DIR in relative.parts and "runtime" in relative.parts:
+        if relative.parts[:2] == ("00_System", "runtime"):
             continue
         stat = path.stat()
         digest.update(as_posix(relative).encode("utf-8"))
@@ -332,7 +346,7 @@ def initialize_runtime(
             "ok": True,
             "dry_run": True,
             "root_id": root_id(root),
-            "would_create": [f"{SYSTEM_DIR}/runtime/{section}" for section in RUNTIME_SECTIONS],
+            "would_create": [f"00_System/runtime/{section}" for section in RUNTIME_SECTIONS],
             "would_migrate": plan_legacy_migration(root) if migrate else [],
             "would_rebuild": ["skill_packages", "indexes", "dashboard"] if rebuild else [],
         }
@@ -396,82 +410,15 @@ def initialize_runtime(
 
 
 def migrate_legacy_runtime(root: Path) -> list[str]:
-    actions: list[str] = []
-    system = root / SYSTEM_DIR
-    mappings = {
-        "state": runtime_path(root, "state"),
-        "logs": runtime_path(root, "logs"),
-    }
-    for name, target in mappings.items():
-        source = system / name
-        if source.exists():
-            actions.extend(move_children(source, target, prefix=name))
-    reports = system / "reports"
-    if reports.exists():
-        for path in sorted(reports.glob("latest_*")):
-            target = runtime_path(root, "reports") / path.name
-            move_if_needed(path, target)
-            actions.append(f"migrate:{path.relative_to(root)}->{target.relative_to(root)}")
-    legacy_tasks = system / "tasks"
-    if legacy_tasks.exists():
-        for state in TASK_STATES:
-            source_state = legacy_tasks / state
-            if not source_state.exists():
-                continue
-            for task_dir in sorted(path for path in source_state.iterdir() if path.is_dir()):
-                if (task_dir / "status.json").exists():
-                    target = runtime_path(root, "tasks") / state / task_dir.name
-                else:
-                    target = system / "plans" / task_dir.name
-                move_if_needed(task_dir, target)
-                actions.append(f"migrate:{task_dir.relative_to(root)}->{target.relative_to(root)}")
-    return actions
+    return []
 
 
 def migrate_legacy_candidate_assets(root: Path) -> list[str]:
-    actions: list[str] = []
-    source = root / SYSTEM_DIR / "assets"
-    if not source.exists():
-        return actions
-    target = root / "10_Knowledge" / "candidates" / "generated_assets"
-    target.mkdir(parents=True, exist_ok=True)
-    conflict_dir = runtime_path(root, "quarantine") / "legacy_assets_conflicts"
-    for path in sorted(source.iterdir()):
-        destination = target / path.name
-        if destination.exists():
-            conflict_dir.mkdir(parents=True, exist_ok=True)
-            quarantine_target = unique_destination(conflict_dir / path.name)
-            shutil.move(str(path), str(quarantine_target))
-            actions.append(f"quarantine_legacy_asset_conflict:{path.relative_to(root)}->{quarantine_target.relative_to(root)}")
-            continue
-        shutil.move(str(path), str(destination))
-        actions.append(f"migrate_candidate_asset:{path.relative_to(root)}->{destination.relative_to(root)}")
-    return actions
+    return []
 
 
 def plan_legacy_migration(root: Path) -> list[str]:
-    actions: list[str] = []
-    system = root / SYSTEM_DIR
-    for name in ("state", "logs"):
-        source = system / name
-        if source.exists():
-            actions.extend(f"migrate:{path.relative_to(root)}" for path in sorted(source.iterdir()))
-    legacy_assets = system / "assets"
-    if legacy_assets.exists():
-        for path in sorted(legacy_assets.iterdir()):
-            target = root / "10_Knowledge" / "candidates" / "generated_assets" / path.name
-            prefix = "quarantine_legacy_asset_conflict" if target.exists() else "migrate_candidate_asset"
-            actions.append(f"{prefix}:{path.relative_to(root)}")
-    reports = system / "reports"
-    if reports.exists():
-        actions.extend(f"migrate:{path.relative_to(root)}" for path in sorted(reports.glob("latest_*")))
-    tasks = system / "tasks"
-    if tasks.exists():
-        for state in TASK_STATES:
-            state_dir = tasks / state
-            if state_dir.exists():
-                actions.extend(f"migrate:{path.relative_to(root)}" for path in sorted(state_dir.iterdir()) if path.is_dir())
-    return actions
+    return []
 
 
 def move_children(source: Path, target: Path, prefix: str) -> list[str]:
@@ -542,13 +489,13 @@ def diagnose_system(root: Path) -> dict[str, Any]:
     validation = validate_system(root, write_report=False)
     failed = list(validation.get("failed", []))
     repairable_prefixes = (
-        "missing:14_KB_System/index/knowledge_index",
-        "missing:14_KB_System/index/knowledge_index_summary",
-        "missing:14_KB_System/index/formal_knowledge_index",
-        "missing:14_KB_System/index/candidate_asset_index",
-        "missing:14_KB_System/index/raw_blocked_index",
-        "missing:14_KB_System/index/file_relation_index",
-        "missing:14_KB_System/index/task_entry_index",
+        f"missing:{EVIDENCE_INDEX_DIR}/knowledge_index",
+        f"missing:{EVIDENCE_INDEX_DIR}/knowledge_index_summary",
+        f"missing:{EVIDENCE_INDEX_DIR}/formal_knowledge_index",
+        f"missing:{EVIDENCE_INDEX_DIR}/candidate_asset_index",
+        f"missing:{EVIDENCE_INDEX_DIR}/raw_blocked_index",
+        f"missing:{EVIDENCE_INDEX_DIR}/file_relation_index",
+        f"missing:{SYSTEM_INDEX_DIR}/task_entry_index",
     )
     blocked = [item for item in failed if not item.startswith(repairable_prefixes)]
     if blocked:

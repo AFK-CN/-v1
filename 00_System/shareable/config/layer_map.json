@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "updated_at": "2026-06-27",
+  "migration_mode": "physical_system_consolidated",
+  "target_layers": {
+    "00_System": {
+      "description": "系统层：知识库底座，负责代码、规则、CLI、Skill、索引、schema 和系统文档。",
+      "share_policy": "only 00_System/shareable is shareable",
+      "children": {
+        "shareable": "可分享系统底座；可打包给其他人初始化自己的知识库。",
+        "runtime": "不可分享运行状态；保存任务、缓存、日志、报告、健康凭证、锁和本机 registry。"
+      }
+    },
+    "10_Knowledge": {
+      "description": "知识层：使用系统后沉淀的正式知识、候选知识和证据索引。",
+      "children": {
+        "formal": "正式知识；默认可被知识库调用。",
+        "candidates": "候选知识资产；待审核，不能当正式知识直接调用。",
+        "evidence": "证据索引；来源链接、片段映射和追溯关系，不默认展开原始资料。"
+      }
+    },
+    "20_User": {
+      "description": "用户层：个人偏好、纠正规则和个人工作流。",
+      "children": {
+        "syncable": "可同步用户偏好；可跨设备或项目复用。",
+        "private": "用户私有内容；默认不分享、不外部调用。"
+      }
+    },
+    "80_Local": {
+      "description": "本机私有配置：本机路径、账号标识、NAS 地址、私有开关、环境配置和密钥引用说明。",
+      "share_policy": "never share"
+    },
+    "90_Temp": {
+      "description": "临时层：短期输入、草稿、一次性中间文件、临时导出和待清理内容。",
+      "share_policy": "do not store candidate knowledge assets here"
+    },
+    "99_Archive": {
+      "description": "归档层：历史、废弃、低价值内容索引；原始文件仍不删除。"
+    },
+    "数据": {
+      "description": "受保护原始资料：默认不展开、不删除、不分享。"
+    }
+  },
+  "legacy_mapping": {
+    "tools": "00_System/shareable/cli",
+    "tests": "00_System/shareable/tests",
+    "docs": "00_System/shareable/docs",
+    "13_Evolving_Skills": "00_System/shareable/skills",
+    "02_Viral_Methods": "10_Knowledge/formal/methods",
+    "03_Topic_Ideas": "10_Knowledge/formal/topics",
+    "04_Platform_Knowledge": "10_Knowledge/formal/platforms",
+    "06_Sub_KB": "10_Knowledge/formal/accounts",
+    "08_Content_Factory": "10_Knowledge/formal/content_factory",
+    "09_Performance_Feedback": "10_Knowledge/formal/reviews",
+    "10_Weekly_Review": "10_Knowledge/formal/reviews",
+    "05_Sub_KB_Candidates": "10_Knowledge/candidates/sub_kbs",
+    "01_Case_Cleaning/content_rough_scan": "10_Knowledge/candidates/account_assets/content_rough_scan",
+    "01_Case_Cleaning/video_learning/deep_cards": "10_Knowledge/candidates/learning_cards/deep_cards",
+    "01_Case_Cleaning/video_learning/learned_cards": "10_Knowledge/candidates/learning_cards/learned_cards",
+    "01_Case_Cleaning/video_learning/selected_deep_cards": "10_Knowledge/candidates/learning_cards/selected_deep_cards",
+    "01_Case_Cleaning/video_learning/account_cards": "10_Knowledge/candidates/account_assets/account_cards",
+    "01_Case_Cleaning/video_learning/plans": "10_Knowledge/candidates/review_registers/plans",
+    "01_Case_Cleaning/video_learning/queues": "90_Temp/scratch/video_learning/queues",
+    "01_Case_Cleaning/video_learning/state": "00_System/runtime/state/video_learning",
+    "01_Case_Cleaning/video_learning/video_artifacts": "00_System/runtime/cache/video_learning/video_artifacts",
+    "01_Case_Cleaning/video_learning/image_artifacts": "00_System/runtime/cache/video_learning/image_artifacts",
+    "01_Case_Cleaning/案例评分规则_v1.md": "00_System/shareable/rules/case_cleaning/案例评分规则_v1.md",
+    "07_Trend_Radar": "00_System/shareable/rules/trend_radar",
+    "12_User_Preferences": "20_User/syncable",
+    "00_Inbox": "90_Temp/inbox",
+    "99_Archive": "99_Archive",
+    "数据": "数据"
+  },
+  "share_exclusions": [
+    "00_System/runtime/",
+    "20_User/private/",
+    "80_Local/",
+    "90_Temp/",
+    "99_Archive/",
+    "数据/",
+    "10_Knowledge/",
+    "00_Inbox/",
+    "01_Case_Cleaning/"
+  ],
+  "default_blocked_dirs": [
+    "数据/",
+    "00_Inbox/",
+    "99_Archive/",
+    "80_Local/",
+    "20_User/private/",
+    "00_System/runtime/"
+  ],
+  "candidate_asset_roots": [
+    "10_Knowledge/candidates/",
+    "10_Knowledge/candidates/account_assets/content_rough_scan/",
+    "10_Knowledge/candidates/learning_cards/deep_cards/",
+    "10_Knowledge/candidates/learning_cards/learned_cards/",
+    "10_Knowledge/candidates/learning_cards/selected_deep_cards/",
+    "10_Knowledge/candidates/account_assets/account_cards/",
+    "10_Knowledge/candidates/review_registers/plans/",
+    "10_Knowledge/candidates/generated_assets/"
+  ],
+  "formal_knowledge_roots": [
+    "10_Knowledge/formal/"
+  ],
+  "system_skill_roots": [
+    "00_System/shareable/skills/active/"
+  ]
+}

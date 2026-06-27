@@ -6,7 +6,7 @@ flowchart LR
     U["用户 / Codex / 其他项目"]
     E["@知识库 + 需求<br/>兼容：knowledge-base + 需求"]
     ENTRY["知识库入口.md<br/>用户操作台.md"]
-    PKG["已生效 Skill 包<br/>14_KB_System/skill_packages/知识库<br/>兼容：knowledge-base"]
+    PKG["已生效 Skill 包<br/>00_System/shareable/skill_packages/知识库<br/>兼容：knowledge-base"]
     U --> E --> ENTRY --> PKG
   end
 
@@ -52,7 +52,7 @@ flowchart LR
     RAW["受保护原始资料<br/>00_Inbox / 数据/<br/>JSON / 截图 / 表格 / 视频<br/>只读，不删除不修改"]
     CLEAN["10_Knowledge/candidates<br/>识别 -> 标准化 -> 去重 -> 降噪 -> 评分"]
     VIDEO["视频/账号学习产物<br/>00_System/runtime/reports/video_learning<br/>粗扫 -> 深学 -> 候选学习卡 -> 审核清单"]
-    SYS["14_KB_System 系统层<br/>tasks / state / logs / reports"]
+    SYS["00_System 系统层<br/>tasks / state / logs / reports"]
     TOOLS["本地脚本<br/>tools.kb.cli<br/>tools.video_learning<br/>content_rough_scan / ingest"]
   end
 

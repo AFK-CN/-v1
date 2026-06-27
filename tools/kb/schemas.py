@@ -30,7 +30,6 @@ BLOCKED_BY_DEFAULT_DIRS = (
 BLOCKED_BY_DEFAULT_PREFIXES = (
     "20_User/private/",
     "00_System/runtime/",
-    "00_System/runtime/",
 )
 FORMAL_KNOWLEDGE_DIRS = (
     "02_Viral_Methods",
@@ -41,8 +40,20 @@ FORMAL_KNOWLEDGE_DIRS = (
     "09_Performance_Feedback",
     "10_Weekly_Review",
 )
-SYSTEM_DIR = "14_KB_System"
-LAYER_MAP_PATH = "14_KB_System/config/layer_map.json"
+SYSTEM_DIR = "00_System"
+SYSTEM_SHAREABLE_DIR = "00_System/shareable"
+SYSTEM_CONFIG_DIR = "00_System/shareable/config"
+SYSTEM_RULES_DIR = "00_System/shareable/rules"
+SYSTEM_INDEX_DIR = "00_System/shareable/index"
+SYSTEM_SKILL_PACKAGES_DIR = "00_System/shareable/skill_packages"
+SYSTEM_MEMORY_DIR = "00_System/shareable/memory"
+SYSTEM_AGENTS_DIR = "00_System/shareable/agents"
+EVIDENCE_INDEX_DIR = "10_Knowledge/evidence/index"
+EVIDENCE_MEMORY_DIR = "10_Knowledge/evidence/memory"
+USER_SYNCABLE_MEMORY_DIR = "20_User/syncable/memory"
+USER_SYNCABLE_AGENTS_DIR = "20_User/syncable/agents"
+USER_PRIVATE_AGENTS_DIR = "20_User/private/agents"
+LAYER_MAP_PATH = "00_System/shareable/config/layer_map.json"
 
 TARGET_FORMAL_KNOWLEDGE_PREFIXES = ("10_Knowledge/formal/",)
 TARGET_CANDIDATE_ASSET_PREFIXES = ("10_Knowledge/candidates/",)

@@ -29,9 +29,9 @@ class SqliteIngestTests(unittest.TestCase):
             records_path = batch_dir / "records.jsonl"
             manifest_path = batch_dir / "manifest.json"
             state_path = root / "00_System" / "runtime" / "state" / "sqlite_ingest" / "state.json"
-            source_index = root / "14_KB_System" / "index" / "sqlite_source_index.md"
-            status_index = root / "14_KB_System" / "index" / "sqlite_import_status.md"
-            source_json = root / "14_KB_System" / "index" / "sqlite_source_index.json"
+            source_index = root / "10_Knowledge" / "evidence" / "index" / "sqlite_source_index.md"
+            status_index = root / "10_Knowledge" / "evidence" / "index" / "sqlite_import_status.md"
+            source_json = root / "10_Knowledge" / "evidence" / "index" / "sqlite_source_index.json"
             account_candidates_md = root / "10_Knowledge" / "candidates" / "account_assets" / "sqlite_imports" / "latest_account_candidates.md"
             account_candidates_json = root / "10_Knowledge" / "candidates" / "account_assets" / "sqlite_imports" / "latest_account_candidates.json"
 
@@ -101,7 +101,7 @@ class SqliteIngestTests(unittest.TestCase):
             self.assertEqual(result["content"]["new"], 2)
             self.assertFalse((root / "00_Inbox").exists())
             self.assertFalse((root / "00_System" / "runtime" / "state" / "sqlite_ingest" / "state.json").exists())
-            self.assertFalse((root / "14_KB_System" / "index" / "sqlite_source_index.md").exists())
+            self.assertFalse((root / "10_Knowledge" / "evidence" / "index" / "sqlite_source_index.md").exists())
 
     def test_cli_applies_sqlite_ingest_and_reports_status(self):
         with tempfile.TemporaryDirectory() as tmp:

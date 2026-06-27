@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .candidate_search import search_candidates
-from .schemas import SYSTEM_DIR
+from .schemas import EVIDENCE_INDEX_DIR, SYSTEM_CONFIG_DIR, SYSTEM_INDEX_DIR
 
 
 def read_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
@@ -22,9 +22,9 @@ def read_json(path: Path, default: dict[str, Any]) -> dict[str, Any]:
 def resolve_call(root: Path, text: str) -> dict[str, Any]:
     root = root.resolve()
     prompt = text.strip()
-    controller = read_json(root / SYSTEM_DIR / "index" / "controller_routes.json", {"routes": []})
-    account_index = read_json(root / SYSTEM_DIR / "index" / "account_knowledge_index.json", {"accounts": []})
-    contracts = read_json(root / SYSTEM_DIR / "config" / "output_contracts.json", {"contracts": []})
+    controller = read_json(root / SYSTEM_INDEX_DIR / "controller_routes.json", {"routes": []})
+    account_index = read_json(root / EVIDENCE_INDEX_DIR / "account_knowledge_index.json", {"accounts": []})
+    contracts = read_json(root / SYSTEM_CONFIG_DIR / "output_contracts.json", {"contracts": []})
 
     route_result = resolve_route_result(prompt, controller.get("routes", []))
     route = route_result["route"]

@@ -25,8 +25,8 @@ class AccountIngestConfig:
     platform: str = "抖音"
     learned_base: Path | None = None
     artifacts_dir: Path = Path("00_System/runtime/cache/video_learning/video_artifacts")
-    global_account_index_md: Path = Path("14_KB_System/index/account_knowledge_index.md")
-    global_account_index_json: Path = Path("14_KB_System/index/account_knowledge_index.json")
+    global_account_index_md: Path = Path("10_Knowledge/evidence/index/account_knowledge_index.md")
+    global_account_index_json: Path = Path("10_Knowledge/evidence/index/account_knowledge_index.json")
 
     @classmethod
     def for_profile(
@@ -240,7 +240,7 @@ def _render_content_usage(config: AccountIngestConfig, directions: list[dict[str
         "",
         "## 会话外调用入口",
         "",
-        "1. `14_KB_System/index/account_knowledge_index.md`：确认账号中心位置。",
+        "1. `10_Knowledge/evidence/index/account_knowledge_index.md`：确认账号中心位置。",
         "2. `账号索引.md`：确认账号内有哪些方向已经正式入库。",
         "3. `账号方法论总览.md`：确认账号定位和使用边界。",
         "4. `减少AI味输出规则.md`：确认输出风格和禁用写法。",
@@ -580,8 +580,8 @@ def main() -> int:
     parser.add_argument("--formal-account-dir", required=True)
     parser.add_argument("--learned-base")
     parser.add_argument("--artifacts-dir", default="00_System/runtime/cache/video_learning/video_artifacts")
-    parser.add_argument("--global-account-index-md", default="14_KB_System/index/account_knowledge_index.md")
-    parser.add_argument("--global-account-index-json", default="14_KB_System/index/account_knowledge_index.json")
+    parser.add_argument("--global-account-index-md", default="10_Knowledge/evidence/index/account_knowledge_index.md")
+    parser.add_argument("--global-account-index-json", default="10_Knowledge/evidence/index/account_knowledge_index.json")
     parser.add_argument("--direction", action="append")
     parser.add_argument("--all-approved", action="store_true")
     parser.add_argument("--audit-register")
