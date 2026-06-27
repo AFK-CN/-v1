@@ -6,12 +6,12 @@ from typing import Any
 
 from tools import video_learning
 
-from .runtime import runtime_path
 from .schemas import SYSTEM_DIR, now_iso
+from .candidate_assets import candidate_assets_dir
 
 
 def assets_dir(root: Path) -> Path:
-    return runtime_path(root, "cache") / "assets"
+    return candidate_assets_dir(root)
 
 
 def topic_candidate(item: video_learning.RankedRecord) -> dict[str, Any]:
@@ -71,7 +71,7 @@ def build_candidate_assets(root: Path, top_n: int = 10) -> dict[str, Any]:
 
 
 def write_asset_state(root: Path, candidates: list[dict[str, Any]]) -> None:
-    state_dir = runtime_path(root, "state")
+    state_dir = root.resolve() / "00_System" / "runtime" / "state"
     state_dir.mkdir(parents=True, exist_ok=True)
     state = {
         "generated_at": now_iso(),

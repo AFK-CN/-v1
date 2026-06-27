@@ -61,11 +61,11 @@ class KBWebConsoleTests(unittest.TestCase):
                 processed = web_console.run_pending_web_tasks_once(root)
 
             self.assertTrue(processed)
-            task_dir = root / "14_KB_System" / "runtime" / "tasks" / "done" / task["task_id"]
+            task_dir = root / "00_System" / "runtime" / "tasks" / "done" / task["task_id"]
             self.assertTrue(task_dir.exists())
             status = json.loads((task_dir / "status.json").read_text(encoding="utf-8"))
             self.assertEqual(status["task_status"], "done")
-            self.assertTrue((root / "01_Case_Cleaning" / "video_learning" / "video_artifacts" / f"douyin_{source_id}" / "source.mp4").exists())
+            self.assertTrue((root / "00_System" / "runtime" / "cache" / "video_learning" / "video_artifacts" / f"douyin_{source_id}" / "source.mp4").exists())
             queue = video_learning.load_queue(root)
             self.assertTrue(any(item.get("source_id") == source_id for item in queue.get("items", [])))
 

@@ -10,7 +10,7 @@ from .call_resolver import resolve_call
 from .dashboard import write_dashboard
 from .evolution import write_evolution_report
 from .indexer import write_indexes
-from .reorganizer import apply_reorganization_plan, write_reorganization_plan
+from .reorganizer import apply_reorganization_plan, initialize_layer_structure, write_reorganization_plan
 from .review_report import write_review_report
 from .runtime import doctor_runtime, health_gate, initialize_runtime, mark_dirty, repair_runtime
 from .skill_package import write_skill_packages
@@ -46,6 +46,7 @@ def main() -> int:
     resolve_parser.add_argument("--text", required=True)
     subparsers.add_parser("report", help="Write review report")
     subparsers.add_parser("plan-reorg", help="Plan root directory reorganization")
+    subparsers.add_parser("init-layers", help="Create the target layered directory skeleton")
     apply_reorg_parser = subparsers.add_parser("apply-reorg", help="Apply a reviewed root reorganization plan")
     apply_reorg_parser.add_argument("--plan", required=True)
     apply_reorg_parser.add_argument("--allow-delete", action="store_true")
@@ -113,6 +114,8 @@ def main() -> int:
         result = write_review_report(root)
     elif args.command == "plan-reorg":
         result = write_reorganization_plan(root)
+    elif args.command == "init-layers":
+        result = initialize_layer_structure(root)
     elif args.command == "apply-reorg":
         result = apply_reorganization_plan(root, root / args.plan, allow_delete=args.allow_delete)
     elif args.command == "validate-system":

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 
-BASE_DIR = Path("01_Case_Cleaning/video_learning/learned_cards/jianghushuo")
+BASE_DIR = Path("10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo")
 
 REQUIRED_SECTIONS = [
     "## 1. 为什么值得学习",

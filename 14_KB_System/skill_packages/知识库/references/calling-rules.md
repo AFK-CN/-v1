@@ -12,7 +12,10 @@ Do not scan the whole knowledge base by default. 默认不读取：
 - `数据/`
 - `00_Inbox/`
 - `99_Archive/`
-- `14_KB_System/runtime/`
+- `80_Local/`
+- `20_User/private/`
+- `00_System/runtime/`
+- `00_System/runtime/`
 
 ## Authority
 

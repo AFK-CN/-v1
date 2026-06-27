@@ -1,0 +1,23 @@
+# Python cache and local environments.
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# OS metadata.
+.DS_Store
+
+# Local-only knowledge-base state and configuration.
+00_System/runtime/*
+!00_System/runtime/README.md
+14_KB_System/runtime/
+80_Local/
+20_User/private/*
+!20_User/private/README.md
+90_Temp/*
+!90_Temp/README.md

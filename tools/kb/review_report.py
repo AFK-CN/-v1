@@ -12,7 +12,7 @@ def write_review_report(root: Path) -> dict[str, str]:
     reports = runtime_path(root, "reports")
     reports.mkdir(parents=True, exist_ok=True)
     index_path = root / SYSTEM_DIR / "index" / "knowledge_index.json"
-    topics_path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    topics_path = root.resolve() / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
     if not topics_path.exists():
         topics_path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     file_count = 0

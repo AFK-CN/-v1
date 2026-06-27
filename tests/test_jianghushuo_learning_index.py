@@ -10,7 +10,7 @@ class JianghushuoLearningIndexTests(unittest.TestCase):
     def test_write_learning_index_links_scope_cards_and_direction_files(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            scope = root / "01_Case_Cleaning/content_rough_scan/jianghushuo/deep_learning_scope.json"
+            scope = root / "10_Knowledge/candidates/account_assets/content_rough_scan/jianghushuo/deep_learning_scope.json"
             scope.parent.mkdir(parents=True)
             scope.write_text(
                 json.dumps(
@@ -36,7 +36,7 @@ class JianghushuoLearningIndexTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
-            money_dir = root / "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱"
+            money_dir = root / "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱"
             cards_dir = money_dir / "cards"
             cards_dir.mkdir(parents=True)
             (money_dir / "方向方法论总结.md").write_text("# 赚钱方向方法论总结\n", encoding="utf-8")
@@ -56,7 +56,7 @@ class JianghushuoLearningIndexTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
-            insights = root / "01_Case_Cleaning/content_rough_scan/jianghushuo/directions/赚钱/rough_scan_insights.json"
+            insights = root / "10_Knowledge/candidates/account_assets/content_rough_scan/jianghushuo/directions/赚钱/rough_scan_insights.json"
             insights.parent.mkdir(parents=True)
             (insights.parent / "粗扫内容和选题.md").write_text("# canonical rough scan\n", encoding="utf-8")
             insights.write_text(
@@ -73,7 +73,7 @@ class JianghushuoLearningIndexTests(unittest.TestCase):
 
         self.assertEqual(index["scope_count"], 2)
         self.assertEqual(index["unique_source_id_count"], 2)
-        self.assertIn("01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/01_1_普通人赚钱.md", markdown)
+        self.assertIn("10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/01_1_普通人赚钱.md", markdown)
         self.assertIn("## AI 读取顺序", markdown)
         self.assertEqual(synced_rough_scan, "# canonical rough scan\n")
         self.assertEqual(synced_insights["topic_clusters"], [{"topic": "赚钱"}])

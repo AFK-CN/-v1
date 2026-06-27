@@ -24,7 +24,7 @@ class AccountIngestConfig:
     formal_account_dir: Path
     platform: str = "抖音"
     learned_base: Path | None = None
-    artifacts_dir: Path = Path("01_Case_Cleaning/video_learning/video_artifacts")
+    artifacts_dir: Path = Path("00_System/runtime/cache/video_learning/video_artifacts")
     global_account_index_md: Path = Path("14_KB_System/index/account_knowledge_index.md")
     global_account_index_json: Path = Path("14_KB_System/index/account_knowledge_index.json")
 
@@ -44,11 +44,11 @@ class AccountIngestConfig:
             account_name=account_name,
             platform=platform,
             formal_account_dir=formal_account_dir,
-            learned_base=Path("01_Case_Cleaning/video_learning/learned_cards") / profile_id,
+            learned_base=Path("10_Knowledge/candidates/learning_cards/learned_cards") / profile_id,
         )
 
     def resolved_learned_base(self) -> Path:
-        return self.learned_base or Path("01_Case_Cleaning/video_learning/learned_cards") / self.profile_id
+        return self.learned_base or Path("10_Knowledge/candidates/learning_cards/learned_cards") / self.profile_id
 
 
 def _write_json(path: Path, value: Any) -> None:
@@ -563,7 +563,7 @@ def _config_from_args(args: argparse.Namespace) -> AccountIngestConfig:
         account_name=args.account_name,
         platform=args.platform,
         formal_account_dir=Path(args.formal_account_dir),
-        learned_base=Path(args.learned_base) if args.learned_base else Path("01_Case_Cleaning/video_learning/learned_cards") / args.profile,
+        learned_base=Path(args.learned_base) if args.learned_base else Path("10_Knowledge/candidates/learning_cards/learned_cards") / args.profile,
         artifacts_dir=Path(args.artifacts_dir),
         global_account_index_md=Path(args.global_account_index_md),
         global_account_index_json=Path(args.global_account_index_json),
@@ -579,7 +579,7 @@ def main() -> int:
     parser.add_argument("--platform", default="抖音")
     parser.add_argument("--formal-account-dir", required=True)
     parser.add_argument("--learned-base")
-    parser.add_argument("--artifacts-dir", default="01_Case_Cleaning/video_learning/video_artifacts")
+    parser.add_argument("--artifacts-dir", default="00_System/runtime/cache/video_learning/video_artifacts")
     parser.add_argument("--global-account-index-md", default="14_KB_System/index/account_knowledge_index.md")
     parser.add_argument("--global-account-index-json", default="14_KB_System/index/account_knowledge_index.json")
     parser.add_argument("--direction", action="append")

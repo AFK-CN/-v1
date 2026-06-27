@@ -10,8 +10,8 @@ from pathlib import Path
 from typing import Any
 
 
-DEFAULT_SELECTED_DIR = Path("01_Case_Cleaning/video_learning/selected_deep_cards")
-DEFAULT_ARTIFACTS_DIR = Path("01_Case_Cleaning/video_learning/video_artifacts")
+DEFAULT_SELECTED_DIR = Path("10_Knowledge/candidates/learning_cards/selected_deep_cards")
+DEFAULT_ARTIFACTS_DIR = Path("00_System/runtime/cache/video_learning/video_artifacts")
 
 SECTION_TITLES = [
     "为什么值得学习",
@@ -77,11 +77,11 @@ class AuditConfig:
 
     @classmethod
     def for_profile(cls, profile_id: str) -> "AuditConfig":
-        learned_base = Path("01_Case_Cleaning/video_learning/learned_cards") / profile_id
+        learned_base = Path("10_Knowledge/candidates/learning_cards/learned_cards") / profile_id
         return cls(
             profile_id=profile_id,
             learned_base=learned_base,
-            scope_path=Path("01_Case_Cleaning/content_rough_scan") / profile_id / "deep_learning_scope.json",
+            scope_path=Path("10_Knowledge/candidates/account_assets/content_rough_scan") / profile_id / "deep_learning_scope.json",
             audit_dir=learned_base / "audit",
             report_title=f"{profile_id} 深度学习机器审计报告",
         )

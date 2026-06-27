@@ -72,8 +72,8 @@ class KBSystemTests(unittest.TestCase):
             result = build_candidate_assets(root, top_n=10)
 
             self.assertGreaterEqual(result["candidate_topics_count"], 1)
-            candidate_path = root / "14_KB_System" / "runtime" / "cache" / "assets" / "candidate_topics.jsonl"
-            top10_path = root / "14_KB_System" / "runtime" / "cache" / "assets" / "candidate_top10_by_category.md"
+            candidate_path = root / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
+            top10_path = root / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_top10_by_category.md"
             candidates = [json.loads(line) for line in candidate_path.read_text(encoding="utf-8").splitlines()]
             candidate = next(item for item in candidates if item["source_id"] == "a1")
             top10 = top10_path.read_text(encoding="utf-8")
@@ -94,7 +94,7 @@ class KBSystemTests(unittest.TestCase):
             task = create_task(root, "scan_kb", command="python -m tools.kb.cli scan")
             finish_task(root, task["task_id"], "done", summary="scan completed", outputs=["14_KB_System/index/knowledge_index.json"])
 
-            task_dir = root / "14_KB_System" / "runtime" / "tasks" / "done" / task["task_id"]
+            task_dir = root / "00_System" / "runtime" / "tasks" / "done" / task["task_id"]
             self.assertTrue((task_dir / "status.json").exists())
             self.assertTrue((task_dir / "action_log.md").exists())
             self.assertTrue((task_dir / "summary_report.md").exists())
@@ -154,10 +154,9 @@ class KBSystemTests(unittest.TestCase):
             (root / "04_Platform_Knowledge" / "douyin.md").write_text("# 平台\n", encoding="utf-8")
             (root / "05_Sub_KB_Candidates").mkdir()
             (root / "05_Sub_KB_Candidates" / "candidate.md").write_text("# 候选\n", encoding="utf-8")
-            (root / "14_KB_System" / "assets").mkdir(parents=True)
-            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
-            runtime_assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
+            runtime_assets = root / "10_Knowledge" / "candidates" / "generated_assets"
             runtime_assets.mkdir(parents=True)
+            (runtime_assets / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
             (runtime_assets / "candidate_method_cards.md").write_text("# candidate\n", encoding="utf-8")
             (root / "00_Inbox").mkdir()
             (root / "00_Inbox" / "raw.json").write_text("[]", encoding="utf-8")
@@ -181,12 +180,55 @@ class KBSystemTests(unittest.TestCase):
             candidate = json.loads(candidate_index.read_text(encoding="utf-8"))
             candidate_paths = {item["path"] for item in candidate["items"]}
             self.assertIn("05_Sub_KB_Candidates/candidate.md", candidate_paths)
-            self.assertNotIn("14_KB_System/assets/candidate_topics.jsonl", candidate_paths)
-            self.assertIn("14_KB_System/runtime/cache/assets/candidate_method_cards.md", candidate_paths)
-            self.assertFalse(any(item["path"].startswith("14_KB_System/runtime/") for item in data["files"]))
+            self.assertIn("10_Knowledge/candidates/generated_assets/candidate_topics.jsonl", candidate_paths)
+            self.assertIn("10_Knowledge/candidates/generated_assets/candidate_method_cards.md", candidate_paths)
+            self.assertFalse(any(item["path"].startswith("00_System/runtime/") for item in data["files"]))
             raw_blocked = json.loads(raw_blocked_index.read_text(encoding="utf-8"))
             self.assertTrue(any(item["path"] == "00_Inbox/" for item in raw_blocked["items"]))
             self.assertIn("其他项目调用", task_index.read_text(encoding="utf-8"))
+
+    def test_layer_map_separates_system_skills_candidates_and_private_boundaries(self):
+        from tools.kb.indexer import write_indexes
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config_dir = root / "14_KB_System" / "config"
+            config_dir.mkdir(parents=True)
+            layer_map = {
+                "version": 1,
+                "default_blocked_dirs": ["数据/", "00_Inbox/", "99_Archive/", "80_Local/", "20_User/private/"],
+                "formal_knowledge_roots": ["10_Knowledge/formal/", "02_Viral_Methods/"],
+                "candidate_asset_roots": ["10_Knowledge/candidates/", "05_Sub_KB_Candidates/"],
+                "system_skill_roots": ["00_System/shareable/skills/active/"],
+            }
+            (config_dir / "layer_map.json").write_text(json.dumps(layer_map, ensure_ascii=False), encoding="utf-8")
+            (root / "10_Knowledge" / "formal" / "methods").mkdir(parents=True)
+            (root / "10_Knowledge" / "formal" / "methods" / "method.md").write_text("# method\n", encoding="utf-8")
+            (root / "10_Knowledge" / "candidates" / "topics").mkdir(parents=True)
+            (root / "10_Knowledge" / "candidates" / "topics" / "candidate.md").write_text("# candidate\n", encoding="utf-8")
+            (root / "00_System" / "shareable" / "skills" / "active").mkdir(parents=True)
+            (root / "00_System" / "shareable" / "skills" / "active" / "JSON入库Skill_v1.md").write_text("# skill\n", encoding="utf-8")
+            (root / "80_Local").mkdir()
+            (root / "80_Local" / "paths.md").write_text("# local\n", encoding="utf-8")
+
+            write_indexes(root)
+
+            index_dir = root / "14_KB_System" / "index"
+            formal = json.loads((index_dir / "formal_knowledge_index.json").read_text(encoding="utf-8"))
+            candidate = json.loads((index_dir / "candidate_asset_index.json").read_text(encoding="utf-8"))
+            full_index = json.loads((index_dir / "knowledge_index.json").read_text(encoding="utf-8"))
+            raw_blocked = json.loads((index_dir / "raw_blocked_index.json").read_text(encoding="utf-8"))
+            formal_paths = {item["path"] for item in formal["items"]}
+            candidate_paths = {item["path"] for item in candidate["items"]}
+            scopes = {item["path"]: item["calling_scope"] for item in full_index["files"]}
+            blocked_paths = {item["path"] for item in raw_blocked["items"]}
+
+            self.assertIn("10_Knowledge/formal/methods/method.md", formal_paths)
+            self.assertNotIn("00_System/shareable/skills/active/JSON入库Skill_v1.md", formal_paths)
+            self.assertIn("10_Knowledge/candidates/topics/candidate.md", candidate_paths)
+            self.assertEqual(scopes["00_System/shareable/skills/active/JSON入库Skill_v1.md"], "system_internal")
+            self.assertNotIn("80_Local/paths.md", scopes)
+            self.assertIn("80_Local/", blocked_paths)
 
     def test_scanner_protects_data_directory_without_expanding_contents(self):
         from tools.kb.scanner import scan_files
@@ -211,8 +253,19 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
+            (root / "14_KB_System" / "config").mkdir(parents=True)
+            (root / "14_KB_System" / "config" / "layer_map.json").write_text(
+                json.dumps({"legacy_mapping": {"13_Evolving_Skills": "00_System/shareable/skills"}}),
+                encoding="utf-8",
+            )
             (root / "00_Inbox").mkdir()
+            (root / "00_System").mkdir()
             (root / "数据").mkdir()
+            (root / "13_Evolving_Skills").mkdir()
+            (root / "10_Knowledge").mkdir()
+            (root / "20_User").mkdir()
+            (root / "80_Local").mkdir()
+            (root / "90_Temp").mkdir()
             (root / "JSON入库清洗规则.md").write_text("# rule\n", encoding="utf-8")
             (root / "验收报告_2026-06-14.md").write_text("# report\n", encoding="utf-8")
             (root / "feishu_doc_read").mkdir()
@@ -228,7 +281,37 @@ class KBSystemTests(unittest.TestCase):
             self.assertEqual(actions["feishu_doc_read"]["target"], "99_Archive/feishu_doc_read")
             self.assertEqual(actions[".DS_Store"]["action"], "delete_candidate")
             self.assertNotIn("00_Inbox", actions)
+            self.assertNotIn("00_System", actions)
+            self.assertNotIn("10_Knowledge", actions)
+            self.assertNotIn("20_User", actions)
+            self.assertNotIn("80_Local", actions)
+            self.assertNotIn("90_Temp", actions)
             self.assertNotIn("数据", actions)
+            preview = {item["source"]: item for item in plan["migration_preview"]}
+            self.assertEqual(preview["13_Evolving_Skills"]["target"], "00_System/shareable/skills")
+
+    def test_layer_structure_initializer_creates_target_skeleton(self):
+        from tools.kb.reorganizer import initialize_layer_structure
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+
+            result = initialize_layer_structure(root)
+
+            self.assertGreater(result["created"], 0)
+            for relative in (
+                "00_System/shareable",
+                "00_System/runtime/state",
+                "10_Knowledge/formal",
+                "10_Knowledge/candidates",
+                "10_Knowledge/evidence",
+                "20_User/syncable",
+                "20_User/private",
+                "80_Local",
+                "90_Temp/inbox",
+            ):
+                self.assertTrue((root / relative).is_dir(), relative)
+            self.assertTrue((root / result["report"]).exists())
 
     def test_validate_system_checks_call_rules_and_core_outputs(self):
         from tools.kb.skill_package import write_skill_packages
@@ -242,12 +325,12 @@ class KBSystemTests(unittest.TestCase):
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "知识库" / "agents").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "知识库" / "references").mkdir(parents=True)
-            (root / "13_Evolving_Skills" / "active").mkdir(parents=True)
-            (root / "13_Evolving_Skills" / "proposals").mkdir(parents=True)
-            (root / "11_Project_Use").mkdir()
+            (root / "00_System" / "shareable" / "skills" / "active").mkdir(parents=True)
+            (root / "00_System" / "shareable" / "skills" / "proposals").mkdir(parents=True)
+            (root / "00_System" / "shareable" / "docs" / "project_use").mkdir(parents=True)
             (root / "知识库入口.md").write_text("先读索引和 controller_routes.json，禁止全盘扫库\n", encoding="utf-8")
             (root / "README.md").write_text("14_KB_System\n", encoding="utf-8")
-            (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库，按索引按需调用，禁止读取数据目录\n", encoding="utf-8")
+            (root / "00_System" / "shareable" / "docs" / "project_use" / "项目调用规则.md").write_text("禁止全盘扫库，按索引按需调用，禁止读取数据目录\n", encoding="utf-8")
             (root / "14_KB_System" / "index" / "knowledge_index.json").write_text('{"files":[]}', encoding="utf-8")
             (root / "14_KB_System" / "index" / "knowledge_index_summary.md").write_text("# 知识库索引摘要\n", encoding="utf-8")
             (root / "14_KB_System" / "index" / "formal_knowledge_index.json").write_text('{"items":[]}', encoding="utf-8")
@@ -327,6 +410,29 @@ class KBSystemTests(unittest.TestCase):
             )
             (root / "14_KB_System" / "config" / "search_terms.json").write_text(
                 '{"synonym_groups":[["赚钱","变现"]],"direction_terms":{"赚钱":["副业"]}}',
+                encoding="utf-8",
+            )
+            (root / "14_KB_System" / "config" / "layer_map.json").write_text(
+                json.dumps(
+                    {
+                        "target_layers": {
+                            "00_System": {},
+                            "10_Knowledge": {},
+                            "20_User": {},
+                            "80_Local": {},
+                            "90_Temp": {},
+                            "99_Archive": {},
+                            "数据": {},
+                        },
+                        "legacy_mapping": {},
+                        "share_exclusions": ["00_System/runtime/", "80_Local/", "20_User/private/", "数据/"],
+                        "default_blocked_dirs": ["数据/", "00_Inbox/", "99_Archive/", "80_Local/"],
+                        "candidate_asset_roots": ["10_Knowledge/candidates/"],
+                        "formal_knowledge_roots": ["10_Knowledge/formal/"],
+                        "system_skill_roots": ["00_System/shareable/skills/"],
+                    },
+                    ensure_ascii=False,
+                ),
                 encoding="utf-8",
             )
             (root / "14_KB_System" / "config" / "skill_contract.json").write_text(
@@ -454,7 +560,7 @@ class KBSystemTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             self._write_minimum_valid_system_fixture(root)
-            account_center = root / "06_Sub_KB" / "姜胡说" / "账号中心"
+            account_center = root / "10_Knowledge" / "formal" / "accounts" / "姜胡说" / "账号中心"
             account_center.mkdir(parents=True)
             for name in ("账号索引.md", "内容生产使用说明.md", "减少AI味输出规则.md", "内容输出标准模板.md"):
                 (account_center / name).write_text(name, encoding="utf-8")
@@ -463,7 +569,7 @@ class KBSystemTests(unittest.TestCase):
                 "accounts": [
                     {
                         "account_name": "姜胡说",
-                        "formal_account_dir": "06_Sub_KB/姜胡说/账号中心",
+                        "formal_account_dir": "10_Knowledge/formal/accounts/姜胡说/账号中心",
                         "directions": [{"direction": "赚钱"}],
                     }
                 ]
@@ -474,7 +580,7 @@ class KBSystemTests(unittest.TestCase):
             topic_route["triggers"] = ["我要出选题", "出选题"]
             topic_route["read_first"] = ["知识库入口.md", "14_KB_System/index/task_entry_index.md"]
             index.joinpath("controller_routes.json").write_text(json.dumps(routes, ensure_ascii=False), encoding="utf-8")
-            runtime_assets = runtime_path(root, "cache") / "assets"
+            runtime_assets = root / "10_Knowledge" / "candidates" / "generated_assets"
             runtime_assets.mkdir(parents=True)
             runtime_assets.joinpath("candidate_topics.jsonl").write_text(
                 json.dumps(
@@ -503,7 +609,7 @@ class KBSystemTests(unittest.TestCase):
             self.assertEqual(result["route_id"], "topic_generation")
             self.assertEqual(result["search"]["status"], "ok")
             self.assertEqual(result["search"]["count"], 1)
-            self.assertIn("06_Sub_KB/姜胡说/账号中心/账号索引.md", result["read_paths"])
+            self.assertIn("10_Knowledge/formal/accounts/姜胡说/账号中心/账号索引.md", result["read_paths"])
             self.assertEqual(result["missing_read_paths"], [])
             self.assertEqual(result["output_contract"]["route_id"], "topic_generation")
             self.assertEqual(result["knowledge_boundary"]["raw_data"], "blocked_by_default")
@@ -521,7 +627,7 @@ class KBSystemTests(unittest.TestCase):
             "system_audit",
         )
         for directory in (
-            "11_Project_Use",
+            "00_System/shareable/docs/project_use",
             "14_KB_System/rules",
             "14_KB_System/config",
             "14_KB_System/index",
@@ -529,7 +635,7 @@ class KBSystemTests(unittest.TestCase):
             (root / directory).mkdir(parents=True, exist_ok=True)
         (root / "知识库入口.md").write_text("索引 controller_routes.json\n", encoding="utf-8")
         (root / "README.md").write_text("规则权威源\n", encoding="utf-8")
-        (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库 数据\n", encoding="utf-8")
+        (root / "00_System" / "shareable" / "docs" / "project_use" / "项目调用规则.md").write_text("禁止全盘扫库 数据\n", encoding="utf-8")
         (root / "14_KB_System" / "rules" / "用户操作台.md").write_text("@知识库 + 你的需求\n", encoding="utf-8")
         (root / "14_KB_System" / "rules" / "初始化生命周期.md").write_text("初始化生命周期\n", encoding="utf-8")
         (root / "14_KB_System" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
@@ -668,17 +774,17 @@ class KBSystemTests(unittest.TestCase):
             (root / "14_KB_System" / "skill_packages" / "knowledge-base" / "references").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "知识库" / "agents").mkdir(parents=True)
             (root / "14_KB_System" / "skill_packages" / "知识库" / "references").mkdir(parents=True)
-            (root / "13_Evolving_Skills" / "active").mkdir(parents=True)
-            (root / "13_Evolving_Skills" / "proposals").mkdir(parents=True)
-            (root / "11_Project_Use").mkdir()
+            (root / "00_System" / "shareable" / "skills" / "active").mkdir(parents=True)
+            (root / "00_System" / "shareable" / "skills" / "proposals").mkdir(parents=True)
+            (root / "00_System" / "shareable" / "docs" / "project_use").mkdir(parents=True)
             (root / "知识库入口.md").write_text("索引 controller_routes.json\n", encoding="utf-8")
             (root / "README.md").write_text("README\n", encoding="utf-8")
-            (root / "11_Project_Use" / "项目调用规则.md").write_text("禁止全盘扫库 数据\n", encoding="utf-8")
+            (root / "00_System" / "shareable" / "docs" / "project_use" / "项目调用规则.md").write_text("禁止全盘扫库 数据\n", encoding="utf-8")
             (root / "14_KB_System" / "rules" / "用户操作台.md").write_text("@知识库 + 你的需求\n", encoding="utf-8")
             (root / "14_KB_System" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
-            (root / "13_Evolving_Skills" / "active" / "JSON入库Skill_v1.md").write_text("active", encoding="utf-8")
-            (root / "14_KB_System" / "assets").mkdir()
-            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text(
+            (root / "00_System" / "shareable" / "skills" / "active" / "JSON入库Skill_v1.md").write_text("active", encoding="utf-8")
+            (root / "10_Knowledge" / "candidates" / "generated_assets").mkdir(parents=True)
+            (root / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl").write_text(
                 json.dumps({"source_id": "s1", "领域": "赚钱"}, ensure_ascii=False) + "\n",
                 encoding="utf-8",
             )
@@ -740,7 +846,7 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
+            assets = root / "10_Knowledge" / "candidates" / "generated_assets"
             assets.mkdir(parents=True)
             asset_rows = [{
                 "platform": "douyin",
@@ -799,7 +905,7 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
+            assets = root / "10_Knowledge" / "candidates" / "generated_assets"
             assets.mkdir(parents=True)
             good_row = {
                 "platform": "douyin",
@@ -843,7 +949,7 @@ class KBSystemTests(unittest.TestCase):
             result = search_candidates(root, query="赚钱", account_name="姜胡说", limit=10)
 
             self.assertEqual(result["status"], "requires_init")
-            self.assertEqual(result["reasons"], ["runtime_candidate_assets_missing"])
+            self.assertEqual(result["reasons"], ["candidate_assets_missing"])
             self.assertEqual(result["next_action"], "kb init")
             self.assertEqual(result["count"], 0)
 
@@ -971,7 +1077,7 @@ class KBSystemTests(unittest.TestCase):
             for relative in (
                 "知识库入口.md",
                 "README.md",
-                "11_Project_Use/项目调用规则.md",
+                "00_System/shareable/docs/project_use/项目调用规则.md",
                 "14_KB_System/rules/用户操作台.md",
                 "14_KB_System/rules/初始化生命周期.md",
                 "14_KB_System/rules/输出契约.md",
@@ -1047,7 +1153,7 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            assets = root / "14_KB_System" / "runtime" / "cache" / "assets"
+            assets = root / "10_Knowledge" / "candidates" / "generated_assets"
             assets.mkdir(parents=True)
             rows = [
                 {
@@ -1118,8 +1224,8 @@ class KBSystemTests(unittest.TestCase):
             root = Path(tmp)
             index_dir = root / "14_KB_System" / "index"
             config_dir = root / "14_KB_System" / "config"
-            assets_dir = root / "14_KB_System" / "runtime" / "cache" / "assets"
-            account_dir = root / "06_Sub_KB" / "知识成长自媒体方法论" / "账号中心" / "姜胡说"
+            assets_dir = root / "10_Knowledge" / "candidates" / "generated_assets"
+            account_dir = root / "10_Knowledge" / "formal" / "accounts" / "知识成长自媒体方法论" / "账号中心" / "姜胡说"
             direction_dir = account_dir / "directions" / "赚钱"
             index_dir.mkdir(parents=True)
             config_dir.mkdir(parents=True)
@@ -1325,12 +1431,12 @@ class KBSystemTests(unittest.TestCase):
 
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            active = root / "13_Evolving_Skills" / "active"
+            active = root / "00_System" / "shareable" / "skills" / "active"
             active.mkdir(parents=True)
             active_file = active / "JSON入库Skill_v1.md"
             active_file.write_text("active skill", encoding="utf-8")
-            (root / "14_KB_System" / "assets").mkdir(parents=True)
-            (root / "14_KB_System" / "assets" / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
+            (root / "10_Knowledge" / "candidates" / "generated_assets").mkdir(parents=True)
+            (root / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl").write_text('{"topic_id":"t1"}\n', encoding="utf-8")
 
             result = write_evolution_report(root)
 

@@ -13,6 +13,7 @@ from tools.video_learning import (
     load_unique_records,
     media_file_is_usable,
     transcript_covers_video,
+    video_artifacts_dir,
 )
 
 
@@ -66,7 +67,7 @@ def relevance_score(record: NormalizedRecord, direction: str) -> int:
 
 
 def has_complete_material(root: Path, record: NormalizedRecord) -> bool:
-    artifact_dir = root / "01_Case_Cleaning" / "video_learning" / "video_artifacts" / f"{record.platform}_{record.source_id}"
+    artifact_dir = video_artifacts_dir(root) / f"{record.platform}_{record.source_id}"
     video = artifact_dir / "source.mp4"
     transcript_json = artifact_dir / "transcript.json"
     transcript_srt = artifact_dir / "transcript.srt"
@@ -141,8 +142,8 @@ def write_plan(root: Path) -> dict[str, Any]:
     records, raw_counts, dedupe_stats = load_unique_records(root)
     result = build_download_plan(root, records)
     generated_at = datetime.now().isoformat(timespec="seconds")
-    plans_dir = root / "01_Case_Cleaning" / "video_learning" / "plans"
-    queues_dir = root / "01_Case_Cleaning" / "video_learning" / "queues"
+    plans_dir = root / "10_Knowledge" / "candidates" / "review_registers" / "plans"
+    queues_dir = root / "90_Temp" / "scratch" / "video_learning" / "queues"
     plans_dir.mkdir(parents=True, exist_ok=True)
     queues_dir.mkdir(parents=True, exist_ok=True)
     plan_path = plans_dir / "jianghushuo_primary_top10.json"

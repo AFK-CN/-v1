@@ -98,7 +98,7 @@ class KBRuntimeTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             initialize_runtime(root, rebuild=False, migrate=True)
-            mark_dirty(root, "formal_ingest", ["06_Sub_KB/account.md"])
+            mark_dirty(root, "formal_ingest", ["10_Knowledge/formal/accounts/account.md"])
 
             with patch("tools.kb.runtime.full_knowledge_fingerprint", side_effect=AssertionError("must not run")):
                 result = health_gate(root)
@@ -181,7 +181,7 @@ class KBRuntimeTests(unittest.TestCase):
             formal = root / "02_Viral_Methods" / "method.md"
             formal.parent.mkdir(parents=True)
             formal.write_text("# formal\n", encoding="utf-8")
-            active = root / "13_Evolving_Skills" / "active" / "skill.md"
+            active = root / "00_System" / "shareable" / "skills" / "active" / "skill.md"
             active.parent.mkdir(parents=True)
             active.write_text("# active\n", encoding="utf-8")
             running = root / "14_KB_System" / "tasks" / "running" / "task_a"
@@ -263,7 +263,7 @@ class KBRuntimeTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             legacy_assets = root / "14_KB_System" / "assets"
-            runtime_assets = runtime_path(root, "cache") / "assets"
+            runtime_assets = root / "10_Knowledge" / "candidates" / "generated_assets"
             legacy_assets.mkdir(parents=True)
             runtime_assets.mkdir(parents=True)
             (legacy_assets / "candidate_topics.jsonl").write_text("legacy\n", encoding="utf-8")
@@ -442,7 +442,7 @@ class KBRuntimeTests(unittest.TestCase):
 
             result = scan_files(root)
 
-            self.assertFalse(any(item["path"].startswith("14_KB_System/runtime/") for item in result["files"]))
+            self.assertFalse(any(item["path"].startswith("00_System/runtime/") for item in result["files"]))
 
     def test_validate_system_is_read_only_by_default(self):
         from tools.kb.validator import validate_system

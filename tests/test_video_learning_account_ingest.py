@@ -14,7 +14,7 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
                 profile_id="demo_profile",
                 account_id="demo_account",
                 account_name="测试账号",
-                formal_account_dir=Path("06_Sub_KB/测试账号中心/测试账号"),
+                formal_account_dir=Path("10_Knowledge/formal/accounts/测试账号中心/测试账号"),
             )
             audit_items = []
             for index, direction in enumerate(("赚钱", "表达"), start=1):
@@ -61,9 +61,9 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
             formal_card = (root / config.formal_account_dir / "directions/表达/cards/01_9002_测试卡.md").read_text(encoding="utf-8")
             global_index = json.loads((root / config.global_account_index_json).read_text(encoding="utf-8"))
             dirty_state = json.loads(
-                (root / "14_KB_System/runtime/state/dirty_generation.json").read_text(encoding="utf-8")
+                (root / "00_System/runtime/state/dirty_generation.json").read_text(encoding="utf-8")
             )
-            wrong_account_dir = root / "06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说"
+            wrong_account_dir = root / "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说"
 
         self.assertEqual(result["profile_id"], "demo_profile")
         self.assertEqual(result["direction_count"], 2)

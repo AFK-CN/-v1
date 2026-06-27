@@ -12,7 +12,7 @@ from pathlib import Path
 from typing import Any
 from zoneinfo import ZoneInfo
 
-from .schemas import FORMAL_KNOWLEDGE_DIRS, SYSTEM_DIR, as_posix, now_iso
+from .schemas import FORMAL_KNOWLEDGE_DIRS, SYSTEM_DIR, active_skills_dir, as_posix, now_iso
 
 
 RUNTIME_SCHEMA_VERSION = 1
@@ -29,6 +29,7 @@ CONTROL_FILES = (
     "14_KB_System/config/output_contracts.json",
     "14_KB_System/config/search_terms.json",
     "14_KB_System/config/skill_contract.json",
+    "14_KB_System/config/layer_map.json",
     "14_KB_System/rules/初始化生命周期.md",
     "14_KB_System/skill_packages/知识库/SKILL.md",
     "tools/kb/runtime.py",
@@ -37,13 +38,12 @@ CONTROL_FILES = (
 )
 FULL_FINGERPRINT_DIRS = (
     *FORMAL_KNOWLEDGE_DIRS,
-    "04_Platform_Knowledge",
     "14_KB_System/config",
 )
 
 
 def runtime_root(root: Path) -> Path:
-    return root.resolve() / SYSTEM_DIR / "runtime"
+    return root.resolve() / "00_System" / "runtime"
 
 
 def runtime_path(root: Path, section: str) -> Path:
@@ -135,7 +135,7 @@ def full_knowledge_fingerprint(root: Path) -> str:
             files.append(base)
         elif base.exists():
             files.extend(path for path in base.rglob("*") if path.is_file())
-    active = root / "13_Evolving_Skills" / "active"
+    active = active_skills_dir(root)
     if active.exists():
         files.extend(path for path in active.rglob("*") if path.is_file())
     for path in sorted(set(files)):
@@ -433,7 +433,7 @@ def migrate_legacy_candidate_assets(root: Path) -> list[str]:
     source = root / SYSTEM_DIR / "assets"
     if not source.exists():
         return actions
-    target = runtime_path(root, "cache") / "assets"
+    target = root / "10_Knowledge" / "candidates" / "generated_assets"
     target.mkdir(parents=True, exist_ok=True)
     conflict_dir = runtime_path(root, "quarantine") / "legacy_assets_conflicts"
     for path in sorted(source.iterdir()):
@@ -459,7 +459,7 @@ def plan_legacy_migration(root: Path) -> list[str]:
     legacy_assets = system / "assets"
     if legacy_assets.exists():
         for path in sorted(legacy_assets.iterdir()):
-            target = runtime_path(root, "cache") / "assets" / path.name
+            target = root / "10_Knowledge" / "candidates" / "generated_assets" / path.name
             prefix = "quarantine_legacy_asset_conflict" if target.exists() else "migrate_candidate_asset"
             actions.append(f"{prefix}:{path.relative_to(root)}")
     reports = system / "reports"

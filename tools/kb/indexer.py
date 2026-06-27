@@ -6,26 +6,55 @@ from typing import Any
 
 from .runtime import runtime_path
 from .scanner import classify_file, scan_files
-from .schemas import FORMAL_KNOWLEDGE_DIRS, RAW_INPUT_DIRS, SYSTEM_DIR, as_posix, now_iso
+from .schemas import (
+    BLOCKED_BY_DEFAULT_DIRS,
+    BLOCKED_BY_DEFAULT_PREFIXES,
+    FORMAL_KNOWLEDGE_DIRS,
+    RAW_INPUT_DIRS,
+    SYSTEM_DIR,
+    SYSTEM_SKILL_PREFIXES,
+    TARGET_CANDIDATE_ASSET_PREFIXES,
+    TARGET_FORMAL_KNOWLEDGE_PREFIXES,
+    as_posix,
+    layer_prefixes,
+    load_layer_map,
+    now_iso,
+)
 
 
 def index_dir(root: Path) -> Path:
     return root / SYSTEM_DIR / "index"
 
 
-def calling_scope(relative_path: str) -> str:
+def has_prefix(relative_path: str, prefixes: tuple[str, ...]) -> bool:
+    return any(relative_path.startswith(prefix) for prefix in prefixes)
+
+
+def calling_scope(relative_path: str, layer_map: dict[str, Any] | None = None) -> str:
+    layer_map = layer_map or {}
     first = relative_path.split("/", 1)[0]
-    if first in RAW_INPUT_DIRS:
+    blocked_prefixes = layer_prefixes(layer_map, "default_blocked_dirs", tuple(f"{item}/" for item in BLOCKED_BY_DEFAULT_DIRS))
+    blocked_prefixes = tuple(blocked_prefixes) + BLOCKED_BY_DEFAULT_PREFIXES
+    if first in BLOCKED_BY_DEFAULT_DIRS or has_prefix(relative_path, blocked_prefixes):
         return "blocked_by_default"
-    if first == "99_Archive":
-        return "blocked_by_default"
-    if relative_path.startswith("13_Evolving_Skills/proposals/") or relative_path.startswith("13_Evolving_Skills/history/"):
+    if (
+        relative_path.startswith("00_System/shareable/skills/proposals/")
+        or relative_path.startswith("00_System/shareable/skills/history/")
+        or relative_path.startswith("13_Evolving_Skills/proposals/")
+        or relative_path.startswith("13_Evolving_Skills/history/")
+    ):
         return "internal_or_review"
-    if relative_path.startswith("13_Evolving_Skills/active/"):
-        return "allowed"
-    if first == SYSTEM_DIR:
+    system_skill_roots = layer_prefixes(layer_map, "system_skill_roots", SYSTEM_SKILL_PREFIXES)
+    if has_prefix(relative_path, system_skill_roots):
         return "system_internal"
-    if first in FORMAL_KNOWLEDGE_DIRS or relative_path in {
+    if first == SYSTEM_DIR or has_prefix(relative_path, ("00_System/shareable/", "tools/", "tests/", "docs/")):
+        return "system_internal"
+    formal_roots = layer_prefixes(
+        layer_map,
+        "formal_knowledge_roots",
+        TARGET_FORMAL_KNOWLEDGE_PREFIXES + tuple(f"{item}/" for item in FORMAL_KNOWLEDGE_DIRS),
+    )
+    if has_prefix(relative_path, formal_roots) or relative_path in {
         "知识库入口.md",
         "README.md",
         "14_KB_System/rules/用户操作台.md",
@@ -34,54 +63,94 @@ def calling_scope(relative_path: str) -> str:
         "14_KB_System/rules/知识库运行规则.md",
     }:
         return "allowed"
+    if relative_path.startswith("20_User/syncable/"):
+        return "allowed"
     return "internal_or_review"
 
 
 def purpose_for_path(relative_path: str) -> str:
     if relative_path == "知识库入口.md":
         return "knowledge_base_entry"
+    if relative_path.startswith("00_System/shareable/skills/active/"):
+        return "system_skill"
+    if relative_path.startswith("00_System/shareable/skills/"):
+        return "system_skill_support"
+    if relative_path.startswith("00_System/shareable/"):
+        return "shareable_system"
+    if relative_path.startswith("00_System/runtime/"):
+        return "runtime_state"
+    if relative_path.startswith("10_Knowledge/formal/"):
+        return "formal_knowledge"
+    if relative_path.startswith("10_Knowledge/candidates/"):
+        return "candidate_asset"
+    if relative_path.startswith("10_Knowledge/evidence/"):
+        return "evidence_index"
+    if relative_path.startswith("20_User/syncable/"):
+        return "syncable_user_preference"
+    if relative_path.startswith("20_User/private/"):
+        return "private_user_preference"
+    if relative_path.startswith("80_Local/"):
+        return "local_private_config"
+    if relative_path.startswith("90_Temp/"):
+        return "temporary_file"
     if relative_path.startswith("02_Viral_Methods/"):
         return "viral_method"
     if relative_path.startswith("03_Topic_Ideas/"):
         return "formal_topic_library"
-    if relative_path.startswith("06_Sub_KB/"):
-        return "confirmed_sub_knowledge_base"
+    if relative_path.startswith("10_Knowledge/formal/accounts/"):
+        return "formal_account_knowledge"
     if relative_path.startswith("13_Evolving_Skills/active/"):
-        return "active_skill"
+        return "system_skill"
     if relative_path.startswith(tuple(f"{item}/" for item in RAW_INPUT_DIRS)):
         return "raw_input"
     return "supporting_file"
 
 
-def is_formal_knowledge_item(item: dict[str, Any]) -> bool:
+def is_formal_knowledge_item(item: dict[str, Any], layer_map: dict[str, Any] | None = None) -> bool:
+    layer_map = layer_map or {}
     path = item["path"]
     first = path.split("/", 1)[0]
-    if path.startswith("13_Evolving_Skills/proposals/") or path.startswith("13_Evolving_Skills/history/"):
+    if (
+        path.startswith("00_System/shareable/skills/proposals/")
+        or path.startswith("00_System/shareable/skills/history/")
+        or path.startswith("13_Evolving_Skills/proposals/")
+        or path.startswith("13_Evolving_Skills/history/")
+    ):
         return False
     if path.startswith("13_Evolving_Skills/active/"):
-        return True
-    return first in FORMAL_KNOWLEDGE_DIRS
+        return False
+    formal_roots = layer_prefixes(
+        layer_map,
+        "formal_knowledge_roots",
+        TARGET_FORMAL_KNOWLEDGE_PREFIXES + tuple(f"{item}/" for item in FORMAL_KNOWLEDGE_DIRS),
+    )
+    return has_prefix(path, formal_roots) or first in FORMAL_KNOWLEDGE_DIRS
 
 
-def is_candidate_asset_item(item: dict[str, Any]) -> bool:
+def is_candidate_asset_item(item: dict[str, Any], layer_map: dict[str, Any] | None = None) -> bool:
+    layer_map = layer_map or {}
     path = item["path"]
     if "video_artifacts/" in path:
         return False
-    return (
-        path.startswith("05_Sub_KB_Candidates/")
-        or path.startswith("01_Case_Cleaning/content_rough_scan/")
-        or path.startswith("01_Case_Cleaning/video_learning/deep_cards/")
-        or path.startswith("01_Case_Cleaning/video_learning/learned_cards/")
-        or path.startswith("01_Case_Cleaning/video_learning/selected_deep_cards/")
-        or path.startswith("01_Case_Cleaning/video_learning/account_cards/")
-        or path.startswith("01_Case_Cleaning/video_learning/plans/")
-        or path.startswith("01_Case_Cleaning/video_learning/queues/")
-        or path.startswith("01_Case_Cleaning/video_learning/state/")
-        or path.startswith("01_Case_Cleaning/video_learning/latest_")
+    candidate_roots = layer_prefixes(
+        layer_map,
+        "candidate_asset_roots",
+        TARGET_CANDIDATE_ASSET_PREFIXES
+        + (
+            "05_Sub_KB_Candidates/",
+            "10_Knowledge/candidates/account_assets/content_rough_scan/",
+            "10_Knowledge/candidates/learning_cards/deep_cards/",
+            "10_Knowledge/candidates/learning_cards/learned_cards/",
+            "10_Knowledge/candidates/learning_cards/selected_deep_cards/",
+            "10_Knowledge/candidates/account_assets/account_cards/",
+            "10_Knowledge/candidates/review_registers/plans/",
+        ),
     )
+    return has_prefix(path, candidate_roots)
 
 
 def build_knowledge_index(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]:
+    layer_map = load_layer_map(root)
     scan = scan_files(root, include_raw_inputs=include_raw_inputs)
     indexed = []
     for item in scan["files"]:
@@ -92,7 +161,7 @@ def build_knowledge_index(root: Path, include_raw_inputs: bool = True) -> dict[s
                 "type": item["suffix"].lstrip(".") or "unknown",
                 "purpose": purpose_for_path(relative_path),
                 "content_status": "new" if item["is_raw_input"] else "approved",
-                "calling_scope": calling_scope(relative_path),
+                "calling_scope": calling_scope(relative_path, layer_map),
                 "is_raw_input": item["is_raw_input"],
                 "cleanup_candidate": item["cleanup_candidate"],
                 "updated_at": item["modified_at"],
@@ -101,6 +170,7 @@ def build_knowledge_index(root: Path, include_raw_inputs: bool = True) -> dict[s
     return {
         "generated_at": now_iso(),
         "root": scan["root"],
+        "layer_map_version": layer_map.get("version"),
         "files": indexed,
         "cleanup_candidates": scan["cleanup_candidates"],
     }
@@ -117,8 +187,8 @@ def compact_index_item(item: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def build_formal_knowledge_index(index: dict[str, Any]) -> dict[str, Any]:
-    items = [compact_index_item(item) for item in index["files"] if is_formal_knowledge_item(item)]
+def build_formal_knowledge_index(index: dict[str, Any], layer_map: dict[str, Any] | None = None) -> dict[str, Any]:
+    items = [compact_index_item(item) for item in index["files"] if is_formal_knowledge_item(item, layer_map)]
     return {
         "generated_at": index["generated_at"],
         "source_index": "knowledge_index.json",
@@ -129,7 +199,7 @@ def build_formal_knowledge_index(index: dict[str, Any]) -> dict[str, Any]:
 
 
 def build_runtime_candidate_items(root: Path) -> list[dict[str, Any]]:
-    assets = runtime_path(root, "cache") / "assets"
+    assets = root / "10_Knowledge" / "candidates" / "generated_assets"
     if not assets.exists():
         return []
     items = []
@@ -148,30 +218,33 @@ def build_runtime_candidate_items(root: Path) -> list[dict[str, Any]]:
     return items
 
 
-def build_candidate_asset_index(root: Path, index: dict[str, Any]) -> dict[str, Any]:
-    items = [compact_index_item(item) for item in index["files"] if is_candidate_asset_item(item)]
+def build_candidate_asset_index(root: Path, index: dict[str, Any], layer_map: dict[str, Any] | None = None) -> dict[str, Any]:
+    items = [compact_index_item(item) for item in index["files"] if is_candidate_asset_item(item, layer_map)]
     known_paths = {item["path"] for item in items}
     items.extend(item for item in build_runtime_candidate_items(root) if item["path"] not in known_paths)
     return {
         "generated_at": index["generated_at"],
-        "source_index": "knowledge_index.json + runtime/cache/assets",
-        "description": "候选和待审核资产索引；包含 runtime/cache/assets，但默认不当作正式知识，明确审核候选时才读取。",
+        "source_index": "knowledge_index.json + 10_Knowledge/candidates/generated_assets",
+        "description": "候选和待审核资产索引；候选资产属于知识层 candidates，包含候选卡、粗扫资产和生成候选资产，但默认不当作正式知识。",
         "item_count": len(items),
         "items": items,
     }
 
 
 def build_raw_blocked_index(root: Path, index: dict[str, Any]) -> dict[str, Any]:
-    blocked_dirs = ("00_Inbox", "数据", "99_Archive")
+    layer_map = load_layer_map(root)
+    configured = layer_prefixes(layer_map, "default_blocked_dirs", tuple(f"{item}/" for item in BLOCKED_BY_DEFAULT_DIRS))
+    blocked_dirs = tuple(dict.fromkeys(configured + BLOCKED_BY_DEFAULT_PREFIXES))
     items = []
     for name in blocked_dirs:
+        display = name if name.endswith("/") else f"{name}/"
         items.append(
             {
-                "path": f"{name}/",
+                "path": display,
                 "calling_scope": "blocked_by_default",
                 "reason": "默认禁止读取；只有用户明确要求处理、审核或追溯时才按需进入。",
                 "expanded": False,
-                "exists": (root / name).exists(),
+                "exists": (root / display.rstrip("/")).exists(),
             }
         )
     return {
@@ -190,12 +263,13 @@ def write_json(path: Path, value: Any) -> None:
 
 def write_indexes(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]:
     root = root.resolve()
+    layer_map = load_layer_map(root)
     target = index_dir(root)
     target.mkdir(parents=True, exist_ok=True)
     index = build_knowledge_index(root, include_raw_inputs=include_raw_inputs)
     write_json(target / "knowledge_index.json", index)
-    formal_index = build_formal_knowledge_index(index)
-    candidate_index = build_candidate_asset_index(root, index)
+    formal_index = build_formal_knowledge_index(index, layer_map)
+    candidate_index = build_candidate_asset_index(root, index, layer_map)
     raw_blocked_index = build_raw_blocked_index(root, index)
     write_json(target / "formal_knowledge_index.json", formal_index)
     write_json(target / "candidate_asset_index.json", candidate_index)
@@ -244,8 +318,8 @@ def build_file_relations(index: dict[str, Any]) -> dict[str, Any]:
             {"from": "知识库入口.md", "to": "14_KB_System/rules/本机使用速查.md", "relation": "entry_requires"},
             {"from": "知识库入口.md", "to": "README.md", "relation": "entry_requires"},
             {"from": "知识库入口.md", "to": "14_KB_System/rules/知识库运行规则.md", "relation": "entry_requires"},
-            {"from": "14_KB_System/rules/选题生成规则.md", "to": "03_Topic_Ideas/选题灵感库_v1.md", "relation": "defines_schema_for"},
-            {"from": "14_KB_System/rules/周复盘规则.md", "to": "13_Evolving_Skills/proposals", "relation": "may_create_proposal"},
+            {"from": "14_KB_System/rules/选题生成规则.md", "to": "10_Knowledge/formal/topics/选题灵感库_v1.md", "relation": "defines_schema_for"},
+            {"from": "14_KB_System/rules/周复盘规则.md", "to": "00_System/shareable/skills/proposals", "relation": "may_create_proposal"},
         ],
     }
 
@@ -265,8 +339,9 @@ def render_human_index(index: dict[str, Any]) -> str:
         "- `知识库入口.md`：主入口。",
         "- `14_KB_System/rules/用户操作台.md`：用户可复制入口。",
         "- `14_KB_System/index/controller_routes.json`：总控路由表。",
-        "- `11_Project_Use/项目调用规则.md`：其他项目调用入口。",
-        "- `14_KB_System/`：系统操作层，只存放索引、状态、任务、日志、报告和候选资产。",
+        "- `00_System/shareable/docs/project_use/项目调用规则.md`：其他项目调用入口。",
+        "- `14_KB_System/`：旧系统操作层，当前兼容索引、配置、任务、日志和报告；目标系统层是 `00_System/`。",
+        "- `10_Knowledge/candidates/`：候选知识资产目标层；旧候选目录继续兼容。",
         "",
         "## 文件清单",
         "",
@@ -328,43 +403,45 @@ def render_task_entry_index() -> str:
 - 先读：`知识库入口.md`、`14_KB_System/rules/用户操作台.md`、`14_KB_System/index/controller_routes.json`、`14_KB_System/rules/本机使用速查.md`。
 - 默认入口：`@知识库 + 需求`。兼容入口：`knowledge-base + 需求`。
 - 总控优先：先用 `controller_routes.json` 判断任务类型，再按本索引读取少量相关文件。
+- 分层权威源：`14_KB_System/config/layer_map.json`。`00_System/shareable/` 才是可分享系统底座；`00_System/runtime/`、`80_Local/`、`20_User/private/`、`数据/` 默认阻断。
 
 ## 内容创作
 
-- 读取：`02_Viral_Methods/`、`03_Topic_Ideas/`、`04_Platform_Knowledge/`、`08_Content_Factory/`。
-- 知识成长/自媒体方向额外读取：`06_Sub_KB/知识成长自媒体方法论/`。
+- 读取：`10_Knowledge/formal/methods/`、`10_Knowledge/formal/topics/`、`10_Knowledge/formal/platforms/`、`10_Knowledge/formal/content_factory/`。
+- 知识成长/自媒体方向额外读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/`。
 - 当用户提到账号名、知识成长、自媒体、赚钱方向、出选题、写文案、口播、对标账号时，先读取：`14_KB_System/index/account_knowledge_index.md`。
-- 如命中账号中心，例如姜胡说，继续读取：`06_Sub_KB/知识成长自媒体方法论/账号中心/{账号}/账号索引.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
+- 如命中账号中心，例如姜胡说，继续读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号索引.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
 - 账号中心调用默认禁止全扫候选区；需要证据时再读取正式单卡，需要核查时再读取逐字稿。
 - 内容生成不能直接反写正式知识；可沉淀的规则进入复盘或 Skill proposal。
 
 ## 账号学习
 
-- 读取：`14_KB_System/index/account_knowledge_index.md`、`14_KB_System/index/controller_routes.json`、`13_Evolving_Skills/active/视频深度学习Skill_v1.md`。
+- 读取：`14_KB_System/index/account_knowledge_index.md`、`14_KB_System/index/controller_routes.json`、`00_System/shareable/skills/active/视频深度学习Skill_v1.md`。
 - 工作流：粗扫 -> 深度学习 -> 候选卡 -> 审核 -> 用户确认 -> 正式账号中心。
-- 脚本只能生成候选资产、学习卡、报告和状态；正式账号知识必须经过审核。
+- 脚本只能生成候选资产、学习卡、报告和状态；候选资产目标层是 `10_Knowledge/candidates/`，正式账号知识必须经过审核。
 
 ## 复盘和自我学习
 
-- 读取：`14_KB_System/rules/周复盘规则.md`、`10_Weekly_Review/`、`09_Performance_Feedback/`、`12_User_Preferences/`。
-- Skill 更新只能写入 `13_Evolving_Skills/proposals/`。
+- 读取：`14_KB_System/rules/周复盘规则.md`、`10_Knowledge/formal/reviews/`、`20_User/syncable/`。
+- Skill 更新只能写入系统级 proposal：`00_System/shareable/skills/proposals/`。
 - 当用户说“以后都这样”“沉淀成规则”“更新 Skill”时，进入 Skill 沉淀路由，只生成 proposal，不直接改 active。
 
 ## 其他项目调用
 
-- 读取：`11_Project_Use/项目调用规则.md`。
-- 默认禁止调用：`00_Inbox/`、`数据/`、`99_Archive/`、未确认 Skill 提案。
+- 读取：`00_System/shareable/docs/project_use/项目调用规则.md`。
+- 默认禁止调用：`00_Inbox/`、`数据/`、`99_Archive/`、`80_Local/`、`20_User/private/`、runtime、未确认 Skill 提案。
 - 其他项目优先调用全局 `@知识库` Skill；若入口失效，回退到读取 `知识库入口.md`。
 
 ## 代码批处理
 
-- 读取：`14_KB_System/runtime/tasks/`、`14_KB_System/runtime/reports/`、`14_KB_System/runtime/logs/`。
+- 读取 runtime tasks、reports、logs。旧路径兼容：`00_System/runtime/`。
 - 代码只能生成候选资产和报告，不能直接写正式知识。
 
 ## 系统审计
 
 - 日常调用先运行 `.venv/bin/python -m tools.kb.cli --root . health-gate`；该命令禁止遍历正式知识文件。
 - 新机器、runtime/凭证缺失、schema 不匹配或旧目录待迁移时运行 `kb init`。
+- 目标分层目录缺失时运行 `.venv/bin/python -m tools.kb.cli --root . init-layers`。
 - 读取：`14_KB_System/index/controller_routes.json`、`14_KB_System/index/knowledge_index_summary.md`、`14_KB_System/index/account_knowledge_index.json`、`14_KB_System/config/output_contracts.json`。
 - `14_KB_System/index/knowledge_index.json` 是全量机器索引，只在脚本验证、全量审计或用户明确要求时读取。
 - 运行：`.venv/bin/python -m tools.kb.cli --root . validate-system` 或 `.venv/bin/python -m tools.kb.cli --root . dashboard`。

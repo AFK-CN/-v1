@@ -8,7 +8,7 @@
       "expected_deep_count": 127,
       "confidence_margin": 0.2,
       "candidate_limit_per_direction": 20,
-      "deep_learning_plan": "01_Case_Cleaning/video_learning/plans/jianghushuo_primary_top10.json",
+      "deep_learning_plan": "10_Knowledge/candidates/review_registers/plans/jianghushuo_primary_top10.json",
       "excluded_deep_ids": [
         "7163502772296486159",
         "7264211001535483194"

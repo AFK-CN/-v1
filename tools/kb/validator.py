@@ -5,20 +5,21 @@ from pathlib import Path
 from typing import Any
 
 from .runtime import runtime_path
-from .schemas import SYSTEM_DIR, now_iso
+from .schemas import SYSTEM_DIR, now_iso, skill_proposals_dir
 from .skill_package import skill_package_drift
 
 
 REQUIRED_FILES = (
     "知识库入口.md",
     "README.md",
-    "11_Project_Use/项目调用规则.md",
+    "00_System/shareable/docs/project_use/项目调用规则.md",
     "14_KB_System/rules/用户操作台.md",
     "14_KB_System/rules/初始化生命周期.md",
     "14_KB_System/rules/输出契约.md",
     "14_KB_System/config/output_contracts.json",
     "14_KB_System/config/search_terms.json",
     "14_KB_System/config/skill_contract.json",
+    "14_KB_System/config/layer_map.json",
     "14_KB_System/rules/规则权威源.md",
     "14_KB_System/index/controller_routes.json",
     "14_KB_System/index/knowledge_index.json",
@@ -43,7 +44,7 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
         if not (root / relative).exists():
             failed.append(f"missing:{relative}")
     entry_text = read_text(root / "知识库入口.md")
-    project_use_text = read_text(root / "11_Project_Use" / "项目调用规则.md")
+    project_use_text = read_text(root / "00_System" / "shareable" / "docs" / "project_use" / "项目调用规则.md")
     skill_text = read_text(root / "14_KB_System" / "skill_packages" / "knowledge-base" / "SKILL.md")
     skill_ui_text = read_text(root / "14_KB_System" / "skill_packages" / "knowledge-base" / "agents" / "openai.yaml")
     zh_skill_text = read_text(root / "14_KB_System" / "skill_packages" / "知识库" / "SKILL.md")
@@ -54,6 +55,7 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     controller = load_json(root / "14_KB_System" / "index" / "controller_routes.json", failed, "controller_routes_invalid_json")
     output_contracts = load_json(root / "14_KB_System" / "config" / "output_contracts.json", failed, "output_contracts_invalid_json")
     search_terms = load_json(root / "14_KB_System" / "config" / "search_terms.json", failed, "search_terms_invalid_json")
+    layer_map = load_json(root / "14_KB_System" / "config" / "layer_map.json", failed, "layer_map_invalid_json")
     account_index = load_json(root / "14_KB_System" / "index" / "account_knowledge_index.json", failed, "account_index_invalid_json")
     raw_blocked_index = load_json(root / "14_KB_System" / "index" / "raw_blocked_index.json", failed, "raw_blocked_index_invalid_json")
     if "索引" not in entry_text:
@@ -93,6 +95,8 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     contract_summary = validate_output_contracts(output_contracts, failed) if output_contracts else {"contract_count": 0}
     if search_terms:
         validate_search_terms(search_terms, failed)
+    if layer_map:
+        validate_layer_map(layer_map, failed)
     if (root / "14_KB_System" / "config" / "skill_contract.json").exists():
         for relative in skill_package_drift(root):
             failed.append(f"skill_package_drift:{relative}")
@@ -241,9 +245,37 @@ def validate_raw_blocked_index(payload: dict[str, Any], failed: list[str]) -> No
             failed.append("raw_blocked_index_expands_data")
 
 
+def validate_layer_map(payload: dict[str, Any], failed: list[str]) -> None:
+    required_keys = {
+        "target_layers",
+        "legacy_mapping",
+        "share_exclusions",
+        "default_blocked_dirs",
+        "candidate_asset_roots",
+        "formal_knowledge_roots",
+        "system_skill_roots",
+    }
+    for key in sorted(required_keys - set(payload)):
+        failed.append(f"layer_map_missing:{key}")
+    target_layers = payload.get("target_layers", {})
+    if not isinstance(target_layers, dict):
+        failed.append("layer_map_target_layers_not_object")
+        return
+    for layer in ("00_System", "10_Knowledge", "20_User", "80_Local", "90_Temp", "99_Archive", "数据"):
+        if layer not in target_layers:
+            failed.append(f"layer_map_missing_target_layer:{layer}")
+    share_exclusions = payload.get("share_exclusions", [])
+    if isinstance(share_exclusions, list):
+        for required in ("00_System/runtime/", "80_Local/", "20_User/private/", "数据/"):
+            if required not in share_exclusions:
+                failed.append(f"layer_map_missing_share_exclusion:{required}")
+    else:
+        failed.append("layer_map_share_exclusions_not_list")
+
+
 def build_health_summary(root: Path, account_index: dict[str, Any], route_summary: dict[str, int]) -> dict[str, Any]:
     accounts = account_index.get("accounts", []) if isinstance(account_index.get("accounts"), list) else []
-    proposals_dir = root / "13_Evolving_Skills" / "proposals"
+    proposals_dir = skill_proposals_dir(root)
     reports_dir = runtime_path(root, "reports")
     proposal_count = len([path for path in proposals_dir.glob("*.md") if path.name != "Skill提案模板.md"]) if proposals_dir.exists() else 0
     report_count = len(list(reports_dir.glob("*"))) if reports_dir.exists() else 0

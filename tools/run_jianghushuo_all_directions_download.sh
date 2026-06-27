@@ -2,7 +2,7 @@
 set -uo pipefail
 
 ROOT="${1:-$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)}"
-QUEUE="$ROOT/01_Case_Cleaning/video_learning/queues/jianghushuo_all_directions_download.json"
+QUEUE="$ROOT/90_Temp/scratch/video_learning/queues/jianghushuo_all_directions_download.json"
 LOG_FILE="${LOG_FILE:-$ROOT/14_KB_System/logs/video_learning/jianghushuo_all_directions_download_20260618.log}"
 STATUS_FILE="${STATUS_FILE:-${LOG_FILE%.log}.status.json}"
 PID_FILE="${PID_FILE:-${LOG_FILE%.log}.pid}"
@@ -39,7 +39,7 @@ trap 'rm -f "$WORKLIST"' EXIT
 jq -r '.items[] | select(.status == "pending" or .status == "failed") | .source_id' "$QUEUE" >"$WORKLIST"
 
 while IFS= read -r source_id; do
-  artifact_dir="$ROOT/01_Case_Cleaning/video_learning/video_artifacts/douyin_${source_id}"
+  artifact_dir="$ROOT/00_System/runtime/cache/video_learning/video_artifacts/douyin_${source_id}"
   if [[ -s "$artifact_dir/source.mp4" && -s "$artifact_dir/transcript.srt" ]]; then
     update_item "$source_id" "complete_reused"
     completed=$((completed + 1))

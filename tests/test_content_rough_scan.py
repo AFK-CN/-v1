@@ -88,10 +88,10 @@ class ContentRoughScanTests(unittest.TestCase):
     def test_build_inventory_supports_douyin_transcript_and_xhs_ocr(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            transcript_dir = root / "01_Case_Cleaning/video_learning/video_artifacts/douyin_d1"
+            transcript_dir = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_d1"
             transcript_dir.mkdir(parents=True)
             (transcript_dir / "transcript.srt").write_text("1\n00:00:00,000 --> 00:00:01,000\n赚钱方法\n", encoding="utf-8")
-            manifest_dir = root / "01_Case_Cleaning/video_learning/state"
+            manifest_dir = root / "00_System/runtime/state/video_learning"
             manifest_dir.mkdir(parents=True)
             (manifest_dir / "learning_manifest.json").write_text(
                 json.dumps({"items": {"xhs:x1": {"image": {"images": [{"ocr_text": "阅读一本好书"}]}}}}, ensure_ascii=False),
@@ -116,7 +116,7 @@ class ContentRoughScanTests(unittest.TestCase):
     def test_partial_transcript_is_flagged_for_video_review(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            artifact_dir = root / "01_Case_Cleaning/video_learning/video_artifacts/douyin_d1"
+            artifact_dir = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_d1"
             artifact_dir.mkdir(parents=True)
             (artifact_dir / "source.mp4").write_bytes(b"video")
             (artifact_dir / "transcript.srt").write_text(
@@ -221,7 +221,7 @@ class ContentRoughScanTests(unittest.TestCase):
     def test_direction_markdown_extracts_candidate_radar_sections(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            transcript_dir = root / "01_Case_Cleaning/video_learning/video_artifacts/douyin_1"
+            transcript_dir = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_1"
             transcript_dir.mkdir(parents=True)
             (transcript_dir / "transcript.srt").write_text(
                 "1\n00:00:00,000 --> 00:00:02,000\n很多人以为赚钱靠项目，其实赚钱靠解决问题。\n",

@@ -1,0 +1,132 @@
+flowchart LR
+  %% 知识库运行逻辑图 v2026-06-22
+  %% 目标：突出实际调用路径、当前生效路由、智能体、Skill 与边界。
+
+  subgraph L1["1. 入口层：用户只从这里进"]
+    U["用户 / Codex / 其他项目"]
+    E["@知识库 + 需求<br/>兼容：knowledge-base + 需求"]
+    ENTRY["知识库入口.md<br/>用户操作台.md"]
+    PKG["已生效 Skill 包<br/>14_KB_System/skill_packages/知识库<br/>兼容：knowledge-base"]
+    U --> E --> ENTRY --> PKG
+  end
+
+  subgraph L2["2. 总控层：先判路由，再按需读取"]
+    CTRL["controller_routes.json<br/>知识库总控智能体"]
+    IDX["task_entry_index.md<br/>account_knowledge_index.*<br/>knowledge_index.json"]
+    ROUTE{"命中任务路由"}
+    R1["出选题"]
+    R2["写文案 / 口播"]
+    R3["账号学习"]
+    R4["JSON 入库"]
+    R5["截图复盘"]
+    R6["表格复盘"]
+    R7["Skill 沉淀"]
+    R8["系统审计 / 其他项目调用"]
+    CTRL --> IDX --> ROUTE
+    ROUTE --> R1
+    ROUTE --> R2
+    ROUTE --> R3
+    ROUTE --> R4
+    ROUTE --> R5
+    ROUTE --> R6
+    ROUTE --> R7
+    ROUTE --> R8
+  end
+
+  subgraph L3["3. 智能体层：不同任务交给不同角色"]
+    A0["controller<br/>总控智能体"]
+    A1["planner<br/>任务规划器"]
+    A2["retriever<br/>检索器"]
+    A3["workflow_runner<br/>工作流执行器"]
+    A4["account_knowledge<br/>账号知识智能体"]
+    A5["content_generator<br/>内容生成智能体"]
+    A6["review<br/>复盘智能体"]
+    A7["skill_evolution<br/>Skill 沉淀智能体"]
+    A8["auditor<br/>验证审计器"]
+  end
+
+  subgraph L4["4. 知识与资产层：正式知识、候选证据、原始资料分开"]
+    K["正式知识层<br/>02 方法论 / 03 选题 / 04 平台<br/>06 子库与账号中心 / 08 模板 / 12 偏好"]
+    ACC["账号中心<br/>账号索引 / 内容生产说明<br/>反 AI 味规则 / 输出模板<br/>方向方法论 / cards / transcripts"]
+    CAND["候选资产<br/>10_Knowledge/candidates/generated_assets<br/>search-candidates 命中结果<br/>不是正式知识"]
+    RAW["受保护原始资料<br/>00_Inbox / 数据/<br/>JSON / 截图 / 表格 / 视频<br/>只读，不删除不修改"]
+    CLEAN["10_Knowledge/candidates<br/>识别 -> 标准化 -> 去重 -> 降噪 -> 评分"]
+    VIDEO["视频/账号学习产物<br/>00_System/runtime/reports/video_learning<br/>粗扫 -> 深学 -> 候选学习卡 -> 审核清单"]
+    SYS["14_KB_System 系统层<br/>tasks / state / logs / reports"]
+    TOOLS["本地脚本<br/>tools.kb.cli<br/>tools.video_learning<br/>content_rough_scan / ingest"]
+  end
+
+  subgraph L5["5. 当前 active Skill：已确认生效"]
+    S1["JSON入库Skill_v1<br/>JSON 清洗、去重、入库候选"]
+    S2["截图复盘Skill_v1<br/>只读清晰可见指标"]
+    S3["表格复盘Skill_v1<br/>按平台和周期复盘"]
+    S4["视频深度学习Skill_v1<br/>粗扫、深学、候选卡、审核"]
+  end
+
+  subgraph L6["6. 输出、反馈、进化层"]
+    OUT["输出<br/>选题 / 文案 / 口播 / 图文<br/>证据来源 / 原链接 / 方法论说明"]
+    PUB["发布与观察<br/>平台数据 / 评论 / 人工修改"]
+    FB["反馈沉淀<br/>10_Knowledge/formal/reviews<br/>20_User/syncable"]
+    PROP["Skill proposal<br/>00_System/shareable/skills/proposals<br/>只生成提案"]
+    ACTIVE["active Skill<br/>用户确认后才生效"]
+  end
+
+  PKG --> CTRL
+  R1 --> A1
+  R1 --> A2
+  R1 --> A5
+  R2 --> A2
+  R2 --> A5
+  R3 --> A1
+  R3 --> A3
+  R3 --> A4
+  R3 --> A8
+  R4 --> A3
+  R4 --> A8
+  R5 --> A6
+  R5 --> A7
+  R6 --> A6
+  R6 --> A7
+  R7 --> A7
+  R7 --> A8
+  R8 --> A8
+
+  A2 --> K
+  A2 --> CAND
+  A4 --> ACC
+  A5 --> K
+  A5 --> ACC
+  A5 --> CAND
+  K --> OUT
+  ACC --> OUT
+  CAND --> OUT
+
+  RAW --> CLEAN --> CAND
+  RAW --> VIDEO --> CAND
+  A3 --> SYS --> TOOLS
+  TOOLS --> CLEAN
+  TOOLS --> VIDEO
+  TOOLS --> CAND
+  SYS --> A8
+
+  R4 --> S1
+  R5 --> S2
+  R6 --> S3
+  R3 --> S4
+
+  OUT --> PUB --> FB --> A6
+  A6 --> A7 --> PROP
+  PROP -->|用户确认| ACTIVE
+  ACTIVE --> CTRL
+  ACTIVE --> CLEAN
+
+  A8 --> IDX
+  A8 --> PROP
+  A8 --> SYS
+
+  RULE["硬边界<br/>1. 默认不全盘扫库<br/>2. 数据/、00_Inbox、99_Archive 默认不读<br/>3. 候选资产不等于正式知识<br/>4. 内容生成不能直接反写正式知识<br/>5. 新子库和 active Skill 必须用户确认"]
+  RULE -.约束.-> ROUTE
+  RULE -.约束.-> RAW
+  RULE -.约束.-> CAND
+  RULE -.约束.-> PROP
+  RULE -.约束.-> ACTIVE

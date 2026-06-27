@@ -4,10 +4,10 @@
 
 ## 目录
 
-- `13_Evolving_Skills/active/`：当前生效 Skill。
-- `13_Evolving_Skills/proposals/`：待你确认的 Skill 更新提案。
-- `13_Evolving_Skills/history/`：历史版本。
-- `13_Evolving_Skills/rollback.md`：回滚记录和规则。
+- `00_System/shareable/skills/active/`：当前生效 Skill。
+- `00_System/shareable/skills/proposals/`：待你确认的 Skill 更新提案。
+- `00_System/shareable/skills/history/`：历史版本。
+- `00_System/shareable/skills/rollback.md`：回滚记录和规则。
 
 ## 更新规则
 
@@ -28,5 +28,4 @@ AI 不能直接覆盖 `active/`。更新流程：
 
 ## 回滚
 
-如果新 Skill 让输出变差，按 `13_Evolving_Skills/rollback.md` 回滚到上一版。
-
+如果新 Skill 让输出变差，按 `00_System/shareable/skills/rollback.md` 回滚到上一版。

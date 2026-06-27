@@ -18,6 +18,14 @@ from pathlib import Path
 from typing import Any
 
 
+VIDEO_LEARNING_REPORTS_DIR = Path("00_System/runtime/reports/video_learning")
+VIDEO_LEARNING_CACHE_DIR = Path("00_System/runtime/cache/video_learning")
+VIDEO_LEARNING_STATE_DIR = Path("00_System/runtime/state/video_learning")
+VIDEO_LEARNING_QUEUE_DIR = Path("90_Temp/scratch/video_learning/queues")
+CANDIDATE_LEARNING_DIR = Path("10_Knowledge/candidates/learning_cards")
+CANDIDATE_ACCOUNT_ASSETS_DIR = Path("10_Knowledge/candidates/account_assets")
+
+
 DIRECTION_KEYWORDS = {
     "赚钱": ["赚钱", "财富", "收入", "商业", "商机", "变现", "副业"],
     "创业": ["创业", "一人公司", "产品化", "机会", "项目"],
@@ -872,7 +880,7 @@ def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> d
         "artifacts": {},
         "errors": [],
     }
-    artifact_dir = root / "01_Case_Cleaning" / "video_learning" / "video_artifacts" / f"{record.platform}_{record.source_id}"
+    artifact_dir = video_artifacts_dir(root) / f"{record.platform}_{record.source_id}"
     video_path = artifact_dir / "source.mp4"
     audio_path = artifact_dir / "audio.wav"
     metadata_path = artifact_dir / "ffprobe.json"
@@ -1216,7 +1224,7 @@ def image_status(root: Path, record: NormalizedRecord, analyze_images: bool, max
     limit = max(max_images_per_note, 0)
     urls = record.image_urls[:limit] if limit else []
     status["truncated"] = len(record.image_urls) > len(urls)
-    artifact_dir = root / "01_Case_Cleaning" / "video_learning" / "image_artifacts" / f"{record.platform}_{record.source_id}"
+    artifact_dir = image_artifacts_dir(root) / f"{record.platform}_{record.source_id}"
     artifact_dir.mkdir(parents=True, exist_ok=True)
     index_path = artifact_dir / "image_index.json"
 
@@ -1489,6 +1497,7 @@ def template_signature(items: list[RankedRecord]) -> str:
 
 
 def append_once(path: Path, marker: str, text: str) -> bool:
+    path.parent.mkdir(parents=True, exist_ok=True)
     current = path.read_text(encoding="utf-8") if path.exists() else ""
     if marker in current:
         return False
@@ -1500,8 +1509,8 @@ def append_once(path: Path, marker: str, text: str) -> bool:
 def write_formal_entries(root: Path, high_items: list[RankedRecord]) -> dict[str, int]:
     counts = {"methods": 0, "topics": 0, "templates": 0}
     for item in high_items:
-        method_path = root / "02_Viral_Methods" / ("小红书爆款方法论_v1.md" if item.record.platform == "xhs" else "抖音爆款方法论_v1.md")
-        topic_path = root / "03_Topic_Ideas" / "选题灵感库_v1.md"
+        method_path = root / "10_Knowledge" / "formal" / "methods" / ("小红书爆款方法论_v1.md" if item.record.platform == "xhs" else "抖音爆款方法论_v1.md")
+        topic_path = root / "10_Knowledge" / "formal" / "topics" / "选题灵感库_v1.md"
         method_marker = f"video-learning:auto-method:{item.record.platform}:{item.record.source_id}:{item.direction}"
         topic_marker = f"video-learning:auto-topic:{item.record.platform}:{item.record.source_id}:{item.direction}"
         if append_once(method_path, method_marker, formal_method_entry(item)):
@@ -1509,7 +1518,7 @@ def write_formal_entries(root: Path, high_items: list[RankedRecord]) -> dict[str
         if append_once(topic_path, topic_marker, formal_topic_entry(item)):
             counts["topics"] += 1
 
-    template_path = root / "08_Content_Factory" / "内容生产模板_v1.md"
+    template_path = root / "10_Knowledge" / "formal" / "content_factory" / "内容生产模板_v1.md"
     signature = template_signature(high_items)
     if append_once(template_path, f"video-learning:auto-template:{signature}", formal_template_entry(high_items)):
         counts["templates"] += 1
@@ -1550,7 +1559,7 @@ def account_card_markdown(account_name: str, platform: str, records: list[Normal
 
 
 def write_account_cards(root: Path, records: list[NormalizedRecord], rankings: dict[str, list[RankedRecord]]) -> int:
-    account_dir = root / "01_Case_Cleaning" / "video_learning" / "account_cards"
+    account_dir = account_cards_dir(root)
     account_dir.mkdir(parents=True, exist_ok=True)
     for old_card in account_dir.glob("*.md"):
         old_card.unlink()
@@ -1562,10 +1571,11 @@ def write_account_cards(root: Path, records: list[NormalizedRecord], rankings: d
 
 
 def write_candidate_subkb(root: Path, rankings: dict[str, list[RankedRecord]]) -> int:
-    path = root / "05_Sub_KB_Candidates" / "候选子库_视频深度学习方向.md"
+    path = root / "10_Knowledge" / "candidates" / "sub_kbs" / "候选子库_视频深度学习方向.md"
     new_directions = sorted(direction for direction in rankings if direction not in KNOWN_DIRECTIONS and direction != "未归类")
     if not new_directions:
         return 0
+    path.parent.mkdir(parents=True, exist_ok=True)
     content = "# 候选子库：视频深度学习方向\n\n"
     for direction in new_directions:
         content += f"- {direction}: {len(rankings[direction])} 条候选内容，需要人工确认是否转正。\n"
@@ -1588,8 +1598,8 @@ def write_outputs(
     max_images_per_note: int,
     source_ids: set[str] | None,
 ) -> dict[str, Any]:
-    output_dir = root / "01_Case_Cleaning" / "video_learning"
-    cards_dir = output_dir / "deep_cards"
+    output_dir = video_learning_dir(root)
+    cards_dir = deep_cards_dir(root)
     output_dir.mkdir(parents=True, exist_ok=True)
     cards_dir.mkdir(parents=True, exist_ok=True)
     for old_card in cards_dir.glob("*.md"):
@@ -1765,7 +1775,27 @@ def report_markdown(
 
 
 def video_learning_dir(root: Path) -> Path:
-    return root / "01_Case_Cleaning" / "video_learning"
+    return root / VIDEO_LEARNING_REPORTS_DIR
+
+
+def deep_cards_dir(root: Path) -> Path:
+    return root / CANDIDATE_LEARNING_DIR / "deep_cards"
+
+
+def selected_deep_cards_dir(root: Path) -> Path:
+    return root / CANDIDATE_LEARNING_DIR / "selected_deep_cards"
+
+
+def account_cards_dir(root: Path) -> Path:
+    return root / CANDIDATE_ACCOUNT_ASSETS_DIR / "account_cards"
+
+
+def video_artifacts_dir(root: Path) -> Path:
+    return root / VIDEO_LEARNING_CACHE_DIR / "video_artifacts"
+
+
+def image_artifacts_dir(root: Path) -> Path:
+    return root / VIDEO_LEARNING_CACHE_DIR / "image_artifacts"
 
 
 def record_key(record: NormalizedRecord) -> str:
@@ -1802,11 +1832,11 @@ def write_json_file(path: Path, value: Any) -> None:
 
 
 def queue_path(root: Path) -> Path:
-    return video_learning_dir(root) / "queues" / "pending_deep_learning.json"
+    return root / VIDEO_LEARNING_QUEUE_DIR / "pending_deep_learning.json"
 
 
 def manifest_path(root: Path) -> Path:
-    return video_learning_dir(root) / "state" / "learning_manifest.json"
+    return root / VIDEO_LEARNING_STATE_DIR / "learning_manifest.json"
 
 
 def load_queue(root: Path) -> dict[str, Any]:
@@ -2086,7 +2116,7 @@ def run_selected_deep_learning(
     records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
     by_id = records_by_source_id(records)
     output_dir = video_learning_dir(root)
-    cards_dir = output_dir / "selected_deep_cards"
+    cards_dir = selected_deep_cards_dir(root)
     cards_dir.mkdir(parents=True, exist_ok=True)
 
     manifest = load_manifest(root)
@@ -2173,7 +2203,7 @@ def download_selected_media(root: Path, source_ids: set[str] | None = None) -> d
         if not record:
             missing.append(source_id)
             continue
-        artifact_dir = output_dir / "video_artifacts" / f"{record.platform}_{record.source_id}"
+        artifact_dir = video_artifacts_dir(root) / f"{record.platform}_{record.source_id}"
         video_path = artifact_dir / "source.mp4"
         entry = {
             "platform": record.platform,
@@ -2216,7 +2246,7 @@ def download_selected_media(root: Path, source_ids: set[str] | None = None) -> d
         "reused": reused,
         "failed": failed,
         "missing": missing,
-        "video_artifacts_dir": str((output_dir / "video_artifacts").relative_to(root)),
+        "video_artifacts_dir": str(video_artifacts_dir(root).relative_to(root)),
         "report": str((output_dir / "latest_video_download_report.md").relative_to(root)),
     }
     write_json_file(output_dir / "latest_video_download_statuses.json", statuses)

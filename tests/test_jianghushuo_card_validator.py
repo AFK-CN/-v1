@@ -50,7 +50,7 @@ class JianghushuoCardValidatorTests(unittest.TestCase):
     def test_validate_cards_accepts_current_template(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            card = root / "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/01_1.md"
+            card = root / "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/01_1.md"
             card.parent.mkdir(parents=True)
             card.write_text(VALID_CARD, encoding="utf-8")
 
@@ -62,7 +62,7 @@ class JianghushuoCardValidatorTests(unittest.TestCase):
     def test_validate_cards_rejects_old_ending_and_extension_topics(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            card = root / "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/01_1.md"
+            card = root / "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/01_1.md"
             card.parent.mkdir(parents=True)
             card.write_text(VALID_CARD.replace("收尾/互动引导", "结尾金句/互动引导") + "\n可延展选题\n", encoding="utf-8")
 

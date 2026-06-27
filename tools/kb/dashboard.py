@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any
 
 from .runtime import runtime_path
-from .schemas import SYSTEM_DIR, as_posix, now_iso
+from .schemas import SYSTEM_DIR, active_skills_dir, as_posix, now_iso, skill_proposals_dir
 from .validator import validate_system
 
 
@@ -24,14 +24,14 @@ def write_json(path: Path, value: Any) -> None:
 
 
 def active_skills(root: Path) -> list[str]:
-    active_dir = root / "13_Evolving_Skills" / "active"
+    active_dir = active_skills_dir(root)
     if not active_dir.exists():
         return []
     return sorted(path.name for path in active_dir.glob("*.md"))
 
 
 def pending_proposals(root: Path) -> list[str]:
-    proposals_dir = root / "13_Evolving_Skills" / "proposals"
+    proposals_dir = skill_proposals_dir(root)
     if not proposals_dir.exists():
         return []
     return sorted(path.name for path in proposals_dir.glob("*.md") if path.name != "Skill提案模板.md")
@@ -66,7 +66,7 @@ def account_summary(root: Path) -> dict[str, Any]:
 
 
 def candidate_summary(root: Path) -> dict[str, Any]:
-    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    path = root.resolve() / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
     if not path.exists():
         path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     if not path.exists():
@@ -92,7 +92,7 @@ def candidate_summary(root: Path) -> dict[str, Any]:
 
 
 def learning_summary(root: Path) -> dict[str, Any]:
-    manifest = read_json(root / "01_Case_Cleaning" / "video_learning" / "state" / "learning_manifest.json", {"items": {}})
+    manifest = read_json(root / "00_System" / "runtime" / "state" / "video_learning" / "learning_manifest.json", {"items": {}})
     items = manifest.get("items", {}) if isinstance(manifest, dict) else {}
     status_counts: dict[str, int] = {}
     if isinstance(items, dict):

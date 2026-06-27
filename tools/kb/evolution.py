@@ -8,7 +8,7 @@ from .schemas import SYSTEM_DIR, now_iso
 
 def write_evolution_report(root: Path) -> dict[str, str | int]:
     root = root.resolve()
-    assets_path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    assets_path = root.resolve() / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
     if not assets_path.exists():
         assets_path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     topic_count = 0
@@ -28,7 +28,7 @@ def write_evolution_report(root: Path) -> dict[str, str | int]:
                 "",
                 f"- 候选选题数量：{topic_count}",
                 "- 方法论沉淀：等待 Codex 审核候选资产后写入正式目录。",
-                "- Skill 进化：只允许生成 `13_Evolving_Skills/proposals/` 提案，不能自动覆盖 active。",
+                "- Skill 进化：只允许生成 `00_System/shareable/skills/proposals/` 提案，不能自动覆盖 active。",
             ]
         )
         + "\n",

@@ -7,15 +7,15 @@ from pathlib import Path
 from typing import Any
 
 from .runtime import runtime_path
-from .schemas import RAW_INPUT_DIRS, SYSTEM_DIR, as_posix, now_iso
+from .schemas import BLOCKED_BY_DEFAULT_DIRS, RAW_INPUT_DIRS, SYSTEM_DIR, as_posix, now_iso
 
 
 CLEANUP_NAMES = {".DS_Store", "feishu-auth-qrcode.png"}
 CLEANUP_SUFFIXES = {".pyc", ".tmp", ".log"}
 CLEANUP_PARTS = {"__pycache__", ".pytest_cache", ".mypy_cache"}
 RAW_SUFFIXES = {".json", ".csv", ".xlsx", ".xls", ".png", ".jpg", ".jpeg", ".webp", ".mp4", ".mov"}
-SKIP_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", ".mypy_cache", "数据", "runtime"}
-PROTECTED_DIRS = {"数据"}
+SKIP_DIRS = {".git", ".venv", "__pycache__", ".pytest_cache", ".mypy_cache", "数据", "80_Local", "runtime"}
+PROTECTED_DIRS = {"数据", "80_Local"}
 
 
 def is_under(path: Path, names: tuple[str, ...]) -> bool:
@@ -76,7 +76,9 @@ def scan_files(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]:
             name
             for name in dirnames
             if name not in SKIP_DIRS
-            and not (at_root and not include_raw_inputs and name in RAW_INPUT_DIRS)
+            and not (at_root and not include_raw_inputs and name in BLOCKED_BY_DEFAULT_DIRS)
+            and not (current_path.name == "00_System" and name == "runtime")
+            and not (current_path.name == "20_User" and name == "private")
         )
         discovered.extend(current_path / name for name in sorted(filenames))
     for path in sorted(discovered):

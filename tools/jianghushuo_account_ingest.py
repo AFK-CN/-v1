@@ -14,7 +14,7 @@ JIANGHUSHUO_CONFIG = AccountIngestConfig.for_profile(
     profile_id="jianghushuo",
     account_id="jianghushuo",
     account_name="姜胡说",
-    formal_account_dir=Path("06_Sub_KB/知识成长自媒体方法论/账号中心/姜胡说"),
+    formal_account_dir=Path("10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说"),
 )
 
 

@@ -96,7 +96,7 @@ def list_tasks(root: Path) -> list[dict[str, Any]]:
 
 
 def candidate_batches(root: Path) -> list[dict[str, Any]]:
-    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    path = root.resolve() / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
     if not path.exists():
         path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     if not path.exists():
@@ -130,7 +130,7 @@ def candidate_batches(root: Path) -> list[dict[str, Any]]:
             record = by_id.get(source_id)
             if not record:
                 continue
-            artifact = root / "01_Case_Cleaning" / "video_learning" / "video_artifacts" / f"{record.platform}_{record.source_id}" / "source.mp4"
+            artifact = video_learning.video_artifacts_dir(root) / f"{record.platform}_{record.source_id}" / "source.mp4"
             if artifact.exists():
                 downloaded += 1
             if any(str(item.get("source_id")) == source_id and str(item.get("status")) == "pending" for item in queue_items):
@@ -155,7 +155,7 @@ def candidate_batches(root: Path) -> list[dict[str, Any]]:
 def _batch_item_is_downloaded(root: Path, record: video_learning.NormalizedRecord | None) -> bool:
     if not record:
         return False
-    artifact = root / "01_Case_Cleaning" / "video_learning" / "video_artifacts" / f"{record.platform}_{record.source_id}" / "source.mp4"
+    artifact = video_learning.video_artifacts_dir(root) / f"{record.platform}_{record.source_id}" / "source.mp4"
     return artifact.exists()
 
 
@@ -233,16 +233,16 @@ def run_scan_task(root: Path, request: dict[str, Any]) -> dict[str, Any]:
     return {
         "summary": f"候选资产已生成，方向数 {result['directions']}，候选数 {result['candidate_topics_count']}",
         "outputs": [
-            "14_KB_System/runtime/cache/assets/candidate_topics.jsonl",
-            "14_KB_System/runtime/cache/assets/candidate_top10_by_category.md",
-            "14_KB_System/runtime/cache/assets/candidate_method_cards.md",
+            "10_Knowledge/candidates/generated_assets/candidate_topics.jsonl",
+            "10_Knowledge/candidates/generated_assets/candidate_top10_by_category.md",
+            "10_Knowledge/candidates/generated_assets/candidate_method_cards.md",
         ],
         "result": result,
     }
 
 
 def _candidate_source_ids(root: Path, direction: str) -> list[str]:
-    path = runtime_path(root, "cache") / "assets" / "candidate_topics.jsonl"
+    path = root.resolve() / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
     if not path.exists():
         path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
     if not path.exists():

@@ -2,7 +2,7 @@
 
 ## 启动默认行为
 
-进入本项目或新开对话时，只读取本文件即可，不要主动扫描项目、不要读取目录树、不要展开 `14_KB_System/index/knowledge_index.json`、不要读取 `数据/`、`00_Inbox/`、`01_Case_Cleaning/video_learning/`、`14_KB_System/assets/`、`14_KB_System/reports/` 或其他大文件。
+进入本项目或新开对话时，只读取本文件即可，不要主动扫描项目、不要读取目录树、不要展开 `14_KB_System/index/knowledge_index.json`、不要读取 `数据/`、`00_Inbox/`、`10_Knowledge/candidates/generated_assets/`、`00_System/runtime/` 或其他大文件。
 
 除非用户给出明确任务，默认停在等待状态。可以只说明“已进入知识库项目，等待下一步指令”，不要为了预热上下文而读多个知识文件。
 
@@ -19,7 +19,7 @@
 - 原始文件不删除、不修改。
 - `数据/` 和 `00_Inbox/` 中的原始资料只读处理。
 - 默认按 `14_KB_System/index/` 索引按需调用，禁止全盘扫库；除非用户明确要求，不展开扫描 `数据/`。
-- `14_KB_System/runtime/` 是运行产物区，默认不读；只有候选审核、检索报告、状态检查等任务才读取。
+- `00_System/runtime/` 是运行产物区，默认不读；只有候选审核、检索报告、状态检查等任务才读取。
 - 新增正式子库前必须先向用户确认。
 - 修改 active Skill 前必须先进入 proposal，用户确认后再生效。
 - 无效信息、重复信息、低价值资料不进入正式知识库。

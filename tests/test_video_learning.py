@@ -377,7 +377,7 @@ class VideoLearningTests(unittest.TestCase):
             status = video_learning.image_status(root, record, analyze_images=False)
 
             self.assertEqual(status["status"], "metadata_only")
-            self.assertFalse((root / "01_Case_Cleaning" / "video_learning" / "image_artifacts").exists())
+            self.assertFalse((root / "00_System" / "runtime" / "cache" / "video_learning" / "image_artifacts").exists())
 
     def test_image_status_downloads_indexes_and_ocr_when_enabled(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -413,7 +413,7 @@ class VideoLearningTests(unittest.TestCase):
             ):
                 status = video_learning.image_status(root, record, analyze_images=True, max_images_per_note=1)
 
-            index_path = root / "01_Case_Cleaning" / "video_learning" / "image_artifacts" / "xhs_n1" / "image_index.json"
+            index_path = root / "00_System" / "runtime" / "cache" / "video_learning" / "image_artifacts" / "xhs_n1" / "image_index.json"
             self.assertEqual(status["status"], "images_downloaded_ocr_completed")
             self.assertTrue(status["truncated"])
             self.assertEqual(status["downloaded_count"], 1)
@@ -779,16 +779,14 @@ class VideoLearningTests(unittest.TestCase):
             root = Path(tmp)
             data_dir = root / "数据" / "douyin" / "json"
             data_dir.mkdir(parents=True)
-            (root / "01_Case_Cleaning" / "video_learning").mkdir(parents=True)
-            (root / "02_Viral_Methods").mkdir(parents=True)
-            (root / "03_Topic_Ideas").mkdir(parents=True)
-            (root / "08_Content_Factory").mkdir(parents=True)
-            (root / "05_Sub_KB_Candidates").mkdir(parents=True)
-
-            (root / "02_Viral_Methods" / "抖音爆款方法论_v1.md").write_text("# 抖音\n", encoding="utf-8")
-            (root / "03_Topic_Ideas" / "选题灵感库_v1.md").write_text("# 选题\n", encoding="utf-8")
-            (root / "08_Content_Factory" / "内容生产模板_v1.md").write_text("# 模板\n", encoding="utf-8")
-            stale_dir = root / "01_Case_Cleaning" / "video_learning" / "deep_cards"
+            (root / "00_System" / "runtime" / "reports" / "video_learning").mkdir(parents=True)
+            (root / "10_Knowledge" / "formal" / "methods").mkdir(parents=True)
+            (root / "10_Knowledge" / "formal" / "topics").mkdir(parents=True)
+            (root / "10_Knowledge" / "formal" / "content_factory").mkdir(parents=True)
+            (root / "10_Knowledge" / "formal" / "methods" / "抖音爆款方法论_v1.md").write_text("# 抖音\n", encoding="utf-8")
+            (root / "10_Knowledge" / "formal" / "topics" / "选题灵感库_v1.md").write_text("# 选题\n", encoding="utf-8")
+            (root / "10_Knowledge" / "formal" / "content_factory" / "内容生产模板_v1.md").write_text("# 模板\n", encoding="utf-8")
+            stale_dir = root / "10_Knowledge" / "candidates" / "learning_cards" / "deep_cards"
             stale_dir.mkdir(parents=True)
             (stale_dir / "douyin_a9.md").write_text("stale", encoding="utf-8")
 
@@ -811,15 +809,15 @@ class VideoLearningTests(unittest.TestCase):
 
             result = video_learning.run_pipeline(root, apply=True, analyze_video=False)
 
-            report = root / "01_Case_Cleaning" / "video_learning" / "latest_scan_report.md"
-            inventory_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_content_inventory.md"
-            inventory_jsonl = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_content_inventory.jsonl"
-            topic_pool_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_topic_pool.md"
-            direction_matrix_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_direction_matrix.md"
-            account_card = root / "01_Case_Cleaning" / "video_learning" / "account_cards" / "作者_douyin.md"
-            card = root / "01_Case_Cleaning" / "video_learning" / "deep_cards" / "赚钱_douyin_a9.md"
-            methods = root / "02_Viral_Methods" / "抖音爆款方法论_v1.md"
-            topics = root / "03_Topic_Ideas" / "选题灵感库_v1.md"
+            report = root / "00_System" / "runtime" / "reports" / "video_learning" / "latest_scan_report.md"
+            inventory_md = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_content_inventory.md"
+            inventory_jsonl = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_content_inventory.jsonl"
+            topic_pool_md = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_topic_pool.md"
+            direction_matrix_md = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_direction_matrix.md"
+            account_card = root / "10_Knowledge" / "candidates" / "account_assets" / "account_cards" / "作者_douyin.md"
+            card = root / "10_Knowledge" / "candidates" / "learning_cards" / "deep_cards" / "赚钱_douyin_a9.md"
+            methods = root / "10_Knowledge" / "formal" / "methods" / "抖音爆款方法论_v1.md"
+            topics = root / "10_Knowledge" / "formal" / "topics" / "选题灵感库_v1.md"
 
             self.assertEqual(result["raw_counts"]["douyin_contents"], 10)
             self.assertTrue(report.exists())
@@ -847,7 +845,7 @@ class VideoLearningTests(unittest.TestCase):
             root = Path(tmp)
             data_dir = root / "数据" / "douyin" / "json"
             data_dir.mkdir(parents=True)
-            (root / "01_Case_Cleaning" / "video_learning").mkdir(parents=True)
+            (root / "00_System" / "runtime" / "reports" / "video_learning").mkdir(parents=True)
 
             rows = [
                 {
@@ -879,9 +877,9 @@ class VideoLearningTests(unittest.TestCase):
 
             result = video_learning.run_pipeline(root, apply=False, analyze_video=False, account_name="姜胡说")
 
-            inventory_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_content_inventory.md"
-            topic_pool_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_topic_pool.md"
-            direction_matrix_md = root / "01_Case_Cleaning" / "video_learning" / "initial_knowledge" / "latest_direction_matrix.md"
+            inventory_md = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_content_inventory.md"
+            topic_pool_md = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_topic_pool.md"
+            direction_matrix_md = root / "00_System" / "runtime" / "reports" / "video_learning" / "initial_knowledge" / "latest_direction_matrix.md"
 
             self.assertGreaterEqual(result["directions"], 1)
             self.assertEqual(result["account_cards"], 1)
@@ -901,7 +899,7 @@ class VideoLearningTests(unittest.TestCase):
             root = Path(tmp)
             data_dir = root / "数据" / "douyin" / "json"
             data_dir.mkdir(parents=True)
-            (root / "01_Case_Cleaning" / "video_learning").mkdir(parents=True)
+            (root / "00_System" / "runtime" / "reports" / "video_learning").mkdir(parents=True)
             rows = [
                 {
                     "aweme_id": f"a{index}",
@@ -948,7 +946,7 @@ class VideoLearningTests(unittest.TestCase):
             root = Path(tmp)
             data_dir = root / "数据" / "douyin" / "json"
             data_dir.mkdir(parents=True)
-            (root / "01_Case_Cleaning" / "video_learning").mkdir(parents=True)
+            (root / "00_System" / "runtime" / "reports" / "video_learning").mkdir(parents=True)
             rows = [
                 {
                     "aweme_id": f"a{index}",
@@ -995,7 +993,7 @@ class VideoLearningTests(unittest.TestCase):
             root = Path(tmp)
             data_dir = root / "数据" / "douyin" / "json"
             data_dir.mkdir(parents=True)
-            (root / "01_Case_Cleaning" / "video_learning").mkdir(parents=True)
+            (root / "00_System" / "runtime" / "reports" / "video_learning").mkdir(parents=True)
             rows = [
                 {
                     "aweme_id": "a1",
@@ -1034,12 +1032,12 @@ class VideoLearningTests(unittest.TestCase):
             finally:
                 video_learning.video_status = original
 
-            cards = list((root / "01_Case_Cleaning" / "video_learning" / "deep_cards").glob("*_douyin_a1.md"))
+            cards = list((root / "10_Knowledge" / "candidates" / "learning_cards" / "deep_cards").glob("*_douyin_a1.md"))
             self.assertGreaterEqual(len(cards), 2)
             self.assertEqual(calls, [True])
             for card in cards:
                 self.assertIn("video_analysis_status: shared_status", card.read_text(encoding="utf-8"))
-            status_path = root / "01_Case_Cleaning" / "video_learning" / "latest_video_statuses.json"
+            status_path = root / "00_System" / "runtime" / "reports" / "video_learning" / "latest_video_statuses.json"
             statuses = json.loads(status_path.read_text(encoding="utf-8"))
             self.assertEqual(statuses["douyin:a1"]["status"], "shared_status")
             self.assertEqual(result["video_analysis_requested"], 1)
@@ -1067,7 +1065,7 @@ class VideoLearningTests(unittest.TestCase):
 
             result = video_learning.select_deep_learning(root, source_ids={"a1"})
 
-            queue_path = root / "01_Case_Cleaning" / "video_learning" / "queues" / "pending_deep_learning.json"
+            queue_path = root / "90_Temp" / "scratch" / "video_learning" / "queues" / "pending_deep_learning.json"
             queue = json.loads(queue_path.read_text(encoding="utf-8"))
             self.assertEqual(result["queued"], 1)
             self.assertEqual(queue["items"][0]["source_id"], "a1")
@@ -1078,12 +1076,14 @@ class VideoLearningTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             data_dir = root / "数据" / "douyin" / "json" / "作者"
-            output_dir = root / "01_Case_Cleaning" / "video_learning"
+            output_dir = root / "00_System" / "runtime" / "reports" / "video_learning"
+            cards_dir = root / "10_Knowledge" / "candidates" / "learning_cards"
             data_dir.mkdir(parents=True)
-            (output_dir / "deep_cards").mkdir(parents=True)
+            output_dir.mkdir(parents=True)
+            (cards_dir / "deep_cards").mkdir(parents=True)
             (output_dir / "latest_scan_report.md").write_text("existing scan", encoding="utf-8")
             (output_dir / "latest_direction_rankings.json").write_text('{"existing": true}', encoding="utf-8")
-            (output_dir / "deep_cards" / "old.md").write_text("old card", encoding="utf-8")
+            (cards_dir / "deep_cards" / "old.md").write_text("old card", encoding="utf-8")
             rows = [
                 {
                     "aweme_id": "a1",
@@ -1134,13 +1134,13 @@ class VideoLearningTests(unittest.TestCase):
             finally:
                 video_learning.video_status = original
 
-            selected_cards = list((output_dir / "selected_deep_cards").glob("douyin_a1.md"))
+            selected_cards = list((cards_dir / "selected_deep_cards").glob("douyin_a1.md"))
             self.assertEqual(calls, [("a1", True)])
             self.assertEqual(len(selected_cards), 1)
-            self.assertFalse((output_dir / "selected_deep_cards" / "douyin_a2.md").exists())
+            self.assertFalse((cards_dir / "selected_deep_cards" / "douyin_a2.md").exists())
             self.assertEqual((output_dir / "latest_scan_report.md").read_text(encoding="utf-8"), "existing scan")
             self.assertEqual((output_dir / "latest_direction_rankings.json").read_text(encoding="utf-8"), '{"existing": true}')
-            self.assertEqual((output_dir / "deep_cards" / "old.md").read_text(encoding="utf-8"), "old card")
+            self.assertEqual((cards_dir / "deep_cards" / "old.md").read_text(encoding="utf-8"), "old card")
             self.assertEqual(result["requested"], 1)
             self.assertEqual(result["learned"], 1)
 
@@ -1164,7 +1164,7 @@ class VideoLearningTests(unittest.TestCase):
                 }
             ]
             (data_dir / "creator_contents_test.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
-            state_dir = root / "01_Case_Cleaning" / "video_learning" / "state"
+            state_dir = root / "00_System" / "runtime" / "state" / "video_learning"
             state_dir.mkdir(parents=True)
             (state_dir / "learning_manifest.json").write_text(
                 json.dumps(
@@ -1172,7 +1172,7 @@ class VideoLearningTests(unittest.TestCase):
                         "items": {
                             "douyin:a1": {
                                 "status": "completed",
-                                "card_path": "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_a1.md",
+                                "card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_a1.md",
                             }
                         }
                     },
@@ -1212,7 +1212,7 @@ class VideoLearningTests(unittest.TestCase):
     def test_video_status_reuses_existing_artifacts(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            artifact_dir = root / "01_Case_Cleaning" / "video_learning" / "video_artifacts" / "douyin_a1"
+            artifact_dir = root / "00_System" / "runtime" / "cache" / "video_learning" / "video_artifacts" / "douyin_a1"
             artifact_dir.mkdir(parents=True)
             for name in ["source.mp4", "audio.wav", "ffprobe.json", "transcript.json", "transcript.srt", "source-Scenes.csv"]:
                 (artifact_dir / name).write_text("x", encoding="utf-8")

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-23T21:36:53",
+  "generated_at": "2026-06-27T13:56:15",
   "relations": [
     {
       "from": "知识库入口.md",
@@ -28,12 +28,12 @@
     },
     {
       "from": "14_KB_System/rules/选题生成规则.md",
-      "to": "03_Topic_Ideas/选题灵感库_v1.md",
+      "to": "10_Knowledge/formal/topics/选题灵感库_v1.md",
       "relation": "defines_schema_for"
     },
     {
       "from": "14_KB_System/rules/周复盘规则.md",
-      "to": "13_Evolving_Skills/proposals",
+      "to": "00_System/shareable/skills/proposals",
       "relation": "may_create_proposal"
     }
   ]

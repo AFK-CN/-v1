@@ -102,9 +102,9 @@
       "agents": ["controller", "retriever", "content_generator"],
       "read_first": [
         "14_KB_System/index/account_knowledge_index.md",
-        "06_Sub_KB/知识成长自媒体方法论/账号中心/{账号}/内容生产使用说明.md",
-        "06_Sub_KB/知识成长自媒体方法论/账号中心/{账号}/减少AI味输出规则.md",
-        "06_Sub_KB/知识成长自媒体方法论/账号中心/{账号}/内容输出标准模板.md"
+        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容生产使用说明.md",
+        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/减少AI味输出规则.md",
+        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容输出标准模板.md"
       ],
       "tools": ["tools.kb.cli search-candidates"],
       "output_contract": "输出黄金3s、完整文案、互动收尾、证据来源，并说明使用的账号/方向知识层级。",
@@ -120,7 +120,7 @@
       "read_first": [
         "14_KB_System/index/account_knowledge_index.md",
         "14_KB_System/config/content_rough_scan_profiles.json",
-        "13_Evolving_Skills/active/视频深度学习Skill_v1.md"
+        "00_System/shareable/skills/active/视频深度学习Skill_v1.md"
       ],
       "tools": [
         "tools.content_rough_scan",
@@ -138,9 +138,9 @@
       "clarify_when_missing": ["要沉淀哪条规则或哪类反馈？", "这是通用规则还是账号专属规则？", "有没有反例或适用边界？"],
       "agents": ["controller", "skill_evolution", "auditor"],
       "read_first": [
-        "13_Evolving_Skills/active/",
-        "13_Evolving_Skills/proposals/Skill提案模板.md",
-        "13_Evolving_Skills/rollback.md"
+        "00_System/shareable/skills/active/",
+        "00_System/shareable/skills/proposals/Skill提案模板.md",
+        "00_System/shareable/skills/rollback.md"
       ],
       "tools": ["tools.kb.cli evolution-report"],
       "output_contract": "输出 proposal，包含适用范围、触发条件、变更内容、验证用例和回滚说明。",
@@ -154,7 +154,7 @@
       "clarify_when_missing": ["要处理的资料在哪里或是哪一类？", "是否只生成候选和报告？", "是否允许进入正式入库审核？"],
       "agents": ["controller", "workflow_runner", "auditor"],
       "read_first": [
-        "13_Evolving_Skills/active/JSON入库Skill_v1.md",
+        "00_System/shareable/skills/active/JSON入库Skill_v1.md",
         "14_KB_System/rules/JSON入库清洗规则.md",
         "14_KB_System/rules/去重规则.md"
       ],
@@ -170,8 +170,8 @@
       "clarify_when_missing": ["复盘对象是哪张截图或哪类反馈？", "平台和时间范围是什么？", "你想要单条内容复盘还是方法论复盘？"],
       "agents": ["controller", "review", "skill_evolution"],
       "read_first": [
-        "13_Evolving_Skills/active/截图复盘Skill_v1.md",
-        "09_Performance_Feedback/反馈入库模板.md"
+        "00_System/shareable/skills/active/截图复盘Skill_v1.md",
+        "10_Knowledge/formal/reviews/feedback/反馈入库模板.md"
       ],
       "tools": [],
       "output_contract": "只记录清晰可见指标，标注不确定字段，并给出对方法论/选题/周复盘的影响。",
@@ -185,8 +185,8 @@
       "clarify_when_missing": ["表格或数据来源在哪里？", "平台和时间范围是什么？", "你想看周复盘、单条复盘还是方法论复盘？"],
       "agents": ["controller", "review", "skill_evolution"],
       "read_first": [
-        "13_Evolving_Skills/active/表格复盘Skill_v1.md",
-        "10_Weekly_Review/周复盘模板.md"
+        "00_System/shareable/skills/active/表格复盘Skill_v1.md",
+        "10_Knowledge/formal/reviews/weekly/周复盘模板.md"
       ],
       "tools": [],
       "output_contract": "按平台和时间范围输出最佳内容、最差内容、异常内容、方法论更新和下周建议。",
@@ -198,7 +198,7 @@
       "triggers": ["其他项目", "项目外", "外部调用", "@知识库"],
       "agents": ["controller", "retriever", "auditor"],
       "read_first": [
-        "11_Project_Use/项目调用规则.md",
+        "00_System/shareable/docs/project_use/项目调用规则.md",
         "14_KB_System/index/task_entry_index.md",
         "14_KB_System/index/controller_routes.json",
         "14_KB_System/config/output_contracts.json"
@@ -220,7 +220,7 @@
         "14_KB_System/index/raw_blocked_index.json",
         "14_KB_System/index/account_knowledge_index.json",
         "14_KB_System/config/output_contracts.json",
-        "14_KB_System/runtime/state/kb_registry.json"
+        "00_System/runtime/state/kb_registry.json"
       ],
       "tools": [
         "tools.kb.cli health-gate",

@@ -1,2 +1,0 @@
-
-=== .venv/bin/python -m tools.video_learning learn --root . --analyze-video --video-limit 36 ===

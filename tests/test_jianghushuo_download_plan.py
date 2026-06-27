@@ -35,7 +35,7 @@ class JianghushuoDownloadPlanTests(unittest.TestCase):
         records = [record("1", "赚钱方法"), record("2", "创业项目"), record("3", "技能积累与产品化")]
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            complete_dir = root / "01_Case_Cleaning/video_learning/video_artifacts/douyin_1"
+            complete_dir = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_1"
             complete_dir.mkdir(parents=True)
             (complete_dir / "source.mp4").write_bytes(b"video")
             (complete_dir / "transcript.srt").write_text("text", encoding="utf-8")
@@ -61,7 +61,7 @@ class JianghushuoDownloadPlanTests(unittest.TestCase):
     def test_incomplete_transcript_is_not_counted_as_complete_material(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            artifact_dir = root / "01_Case_Cleaning/video_learning/video_artifacts/douyin_1"
+            artifact_dir = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_1"
             artifact_dir.mkdir(parents=True)
             (artifact_dir / "source.mp4").write_bytes(b"video")
             (artifact_dir / "transcript.srt").write_text("partial", encoding="utf-8")

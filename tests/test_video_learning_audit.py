@@ -101,25 +101,25 @@ class VideoLearningAuditTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             profile = "demo_profile"
-            card_path = root / f"01_Case_Cleaning/video_learning/learned_cards/{profile}/赚钱/cards/01_1001_测试卡.md"
+            card_path = root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/赚钱/cards/01_1001_测试卡.md"
             card_path.parent.mkdir(parents=True)
             card_path.write_text(build_card(account="测试账号"), encoding="utf-8")
-            scope_path = root / f"01_Case_Cleaning/content_rough_scan/{profile}/deep_learning_scope.json"
+            scope_path = root / f"10_Knowledge/candidates/account_assets/content_rough_scan/{profile}/deep_learning_scope.json"
             scope_path.parent.mkdir(parents=True)
             scope_path.write_text(
                 json.dumps({"items": [{"source_id": "1001", "card_path": card_path.relative_to(root).as_posix()}]}, ensure_ascii=False),
                 encoding="utf-8",
             )
-            selected = root / "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_1001.md"
+            selected = root / "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_1001.md"
             selected.parent.mkdir(parents=True)
             selected.write_text("video_analysis_status: video_transcribed_scene_ok\n", encoding="utf-8")
-            artifact = root / "01_Case_Cleaning/video_learning/video_artifacts/douyin_1001"
+            artifact = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_1001"
             artifact.mkdir(parents=True)
             (artifact / "transcript.json").write_text(json.dumps({"text": "测试"}, ensure_ascii=False), encoding="utf-8")
 
             result = run_audit(root, AuditConfig.for_profile(profile))
-            report = root / f"01_Case_Cleaning/video_learning/learned_cards/{profile}/audit/machine_audit.md"
-            wrong_report = root / "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/audit/machine_audit.md"
+            report = root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/audit/machine_audit.md"
+            wrong_report = root / "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/audit/machine_audit.md"
             report_exists = report.exists()
             wrong_report_exists = wrong_report.exists()
 

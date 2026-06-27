@@ -13,7 +13,7 @@ from tools.video_learning import NormalizedRecord, heat_score, load_unique_recor
 
 
 DEFAULT_PROFILES_PATH = Path("14_KB_System/config/content_rough_scan_profiles.json")
-OUTPUT_BASE = Path("01_Case_Cleaning/content_rough_scan")
+OUTPUT_BASE = Path("10_Knowledge/candidates/account_assets/content_rough_scan")
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -57,14 +57,14 @@ def load_profile(root: Path, profile_id: str, path: Path | None = None) -> dict[
 
 
 def manifest_ocr_text(root: Path, record: NormalizedRecord) -> str:
-    manifest = read_json(root / "01_Case_Cleaning/video_learning/state/learning_manifest.json", {"items": {}})
+    manifest = read_json(root / "00_System/runtime/state/video_learning/learning_manifest.json", {"items": {}})
     entry = manifest.get("items", {}).get(f"{record.platform}:{record.source_id}", {})
     images = entry.get("image", {}).get("images", [])
     return "\n".join(str(image.get("ocr_text", "")).strip() for image in images if image.get("ocr_text"))
 
 
 def transcript_text(root: Path, record: NormalizedRecord) -> str:
-    path = root / "01_Case_Cleaning/video_learning/video_artifacts" / f"{record.platform}_{record.source_id}" / "transcript.srt"
+    path = root / "00_System/runtime/cache/video_learning/video_artifacts" / f"{record.platform}_{record.source_id}" / "transcript.srt"
     if not path.exists():
         return ""
     text = path.read_text(encoding="utf-8", errors="ignore")
@@ -87,7 +87,7 @@ def text_evidence(root: Path, record: NormalizedRecord) -> tuple[dict[str, str],
     }
     sources = ["metadata"]
     if evidence["transcript"]:
-        artifact_dir = root / "01_Case_Cleaning/video_learning/video_artifacts" / f"{record.platform}_{record.source_id}"
+        artifact_dir = root / "00_System/runtime/cache/video_learning/video_artifacts" / f"{record.platform}_{record.source_id}"
         video_path = artifact_dir / "source.mp4"
         transcript_json_path = artifact_dir / "transcript.json"
         if video_path.exists() and transcript_json_path.exists() and not transcript_covers_video(video_path, transcript_json_path):
@@ -155,7 +155,7 @@ def classification(evidence: dict[str, str], profile: dict[str, Any]) -> dict[st
 
 def material_status(root: Path, record: NormalizedRecord) -> str:
     if record.platform == "douyin":
-        directory = root / "01_Case_Cleaning/video_learning/video_artifacts" / f"douyin_{record.source_id}"
+        directory = root / "00_System/runtime/cache/video_learning/video_artifacts" / f"douyin_{record.source_id}"
         video_path = directory / "source.mp4"
         transcript_srt_path = directory / "transcript.srt"
         transcript_json_path = directory / "transcript.json"

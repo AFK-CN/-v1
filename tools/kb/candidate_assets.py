@@ -3,12 +3,11 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
-from .runtime import runtime_path
 from .schemas import SYSTEM_DIR
 
 
 def candidate_assets_dir(root: Path) -> Path:
-    return runtime_path(root, "cache") / "assets"
+    return root.resolve() / "10_Knowledge" / "candidates" / "generated_assets"
 
 
 def candidate_asset_path(root: Path, filename: str = "candidate_topics.jsonl") -> Path:
@@ -29,7 +28,7 @@ def candidate_asset_status(root: Path, filename: str = "candidate_topics.jsonl")
             "status": "requires_init",
             "path": runtime_file,
             "legacy_path": legacy_file,
-            "reasons": ["runtime_candidate_assets_missing"],
+            "reasons": ["candidate_assets_missing"],
             "next_action": "kb init",
         }
     return {

@@ -11,9 +11,9 @@ from typing import Any
 
 ACCOUNT_ID = "jianghushuo"
 ACCOUNT_NAME = "姜胡说"
-BASE_DIR = Path("01_Case_Cleaning/video_learning/learned_cards/jianghushuo")
-SCOPE_PATH = Path("01_Case_Cleaning/content_rough_scan/jianghushuo/deep_learning_scope.json")
-ROUGH_SCAN_DIR = Path("01_Case_Cleaning/content_rough_scan/jianghushuo/directions")
+BASE_DIR = Path("10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo")
+SCOPE_PATH = Path("10_Knowledge/candidates/account_assets/content_rough_scan/jianghushuo/deep_learning_scope.json")
+ROUGH_SCAN_DIR = Path("10_Knowledge/candidates/account_assets/content_rough_scan/jianghushuo/directions")
 
 
 def read_json(path: Path, default: Any) -> Any:
