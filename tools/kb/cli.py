@@ -18,6 +18,8 @@ from .web_console import serve as serve_web_console
 from .scanner import write_scan_report
 from .task_runner import create_task, finish_task
 from .validator import validate_system
+from tools.creator_db_export import export_creator_database
+from tools.sqlite_ingest import ingest_sqlite_database, sqlite_ingest_status
 from tools.jianghushuo_learning_index import write_learning_index
 from tools.jianghushuo_card_validator import validate_cards
 from tools.jianghushuo_account_ingest import ingest_direction
@@ -79,6 +81,23 @@ def main() -> int:
     web_parser.add_argument("--host", default="127.0.0.1")
     web_parser.add_argument("--port", type=int, default=8787)
     web_parser.add_argument("--no-worker", action="store_true")
+    export_parser = subparsers.add_parser("export-creator-db", help="Export one creator's database contents/comments and optionally write a Feishu sheet")
+    export_parser.add_argument("--creator", required=True, help="Creator/blogger nickname to match")
+    export_parser.add_argument("--platform", default="", help="Optional platform filter: douyin/xhs/weibo/bilibili/kuaishou/tieba/zhihu")
+    export_parser.add_argument("--db-path", default="", help="SQLite database path, defaults to 数据/sqlite_tables.db")
+    export_parser.add_argument("--output-dir", default="", help="Output directory, defaults to 90_Temp/exports/creator_db")
+    export_parser.add_argument("--limit", type=int, default=0, help="Optional max content rows per content table")
+    export_parser.add_argument("--no-comments", action="store_true", help="Do not export comments")
+    export_parser.add_argument("--to-feishu", action="store_true", help="Create a Feishu spreadsheet and write exported rows")
+    export_parser.add_argument("--public-share", action="store_true", help="Set Feishu link sharing to internet-readable after writing")
+    export_parser.add_argument("--dry-run", action="store_true", help="Write local export and print Feishu dry-run requests if --to-feishu is set")
+    sqlite_ingest_parser = subparsers.add_parser("sqlite-ingest", help="Read 数据/sqlite_tables.db and generate incremental candidate summaries")
+    sqlite_ingest_mode = sqlite_ingest_parser.add_mutually_exclusive_group()
+    sqlite_ingest_mode.add_argument("--apply", action="store_true", help="Write state, inbox candidates and lightweight indexes")
+    sqlite_ingest_mode.add_argument("--dry-run", action="store_true", help="Preview changes without writing outputs")
+    sqlite_ingest_parser.add_argument("--db-path", default="", help="SQLite database path, defaults to 数据/sqlite_tables.db")
+    sqlite_ingest_parser.add_argument("--batch-id", default="", help="Optional deterministic batch id for tests or reruns")
+    subparsers.add_parser("sqlite-status", help="Show SQLite ingest state")
 
     args = parser.parse_args()
     root = Path(args.root).resolve()
@@ -185,6 +204,32 @@ def main() -> int:
         result = create_task(root, args.name, command=args.task_command)
     elif args.command == "web":
         return serve_web_console(root, host=args.host, port=args.port, start_worker=not args.no_worker)
+    elif args.command == "export-creator-db":
+        result = export_creator_database(
+            root,
+            args.creator,
+            platform=args.platform or None,
+            db_path=Path(args.db_path) if args.db_path else None,
+            output_dir=Path(args.output_dir) if args.output_dir else None,
+            include_comments=not args.no_comments,
+            limit=args.limit or None,
+            dry_run=args.dry_run,
+            to_feishu=args.to_feishu,
+            public_share=args.public_share,
+        )
+    elif args.command == "sqlite-ingest":
+        result = ingest_sqlite_database(
+            root,
+            apply=bool(args.apply),
+            db_path=Path(args.db_path) if args.db_path else None,
+            batch_id=args.batch_id or None,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "sqlite-status":
+        result = sqlite_ingest_status(root)
+        if not result.get("ok", False):
+            exit_code = 2
     else:
         result = finish_task(root, args.task_id, args.status, summary=args.summary)
     print(json.dumps(result, ensure_ascii=False, indent=2))

@@ -123,6 +123,7 @@
         "00_System/shareable/skills/active/视频深度学习Skill_v1.md"
       ],
       "tools": [
+        "tools.kb.cli sqlite-ingest",
         "tools.content_rough_scan",
         "tools.video_learning",
         "tools.jianghushuo_account_ingest"

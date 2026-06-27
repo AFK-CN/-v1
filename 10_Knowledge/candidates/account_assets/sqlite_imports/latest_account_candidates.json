@@ -1,0 +1,558 @@
+{
+  "accounts": [
+    {
+      "account_name": "于洋",
+      "changed_count": 0,
+      "content_count": 1,
+      "direction_counts": {
+        "未归类": 1
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 1,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 747,
+            "source_id": "7435164189984951578",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7435164189984951578",
+          "title": "我还得给你洗衣服钱 @李宗恒",
+          "url": "https://www.douyin.com/video/7435164189984951578"
+        }
+      ]
+    },
+    {
+      "account_name": "刘大悦er",
+      "changed_count": 0,
+      "content_count": 1,
+      "direction_counts": {
+        "未归类": 1
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 1,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 847,
+            "source_id": "7270753140561988920",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7270753140561988920",
+          "title": "班主任：服了这俩老六了～#搞笑 #剧情",
+          "url": "https://www.douyin.com/video/7270753140561988920"
+        }
+      ]
+    },
+    {
+      "account_name": "大伟老三",
+      "changed_count": 0,
+      "content_count": 2,
+      "direction_counts": {
+        "未归类": 2
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 2,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 781,
+            "source_id": "7378078197872594203",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7378078197872594203",
+          "title": "同学，考怎么样？ #2024高考",
+          "url": "https://www.douyin.com/video/7378078197872594203"
+        },
+        {
+          "raw_locator": {
+            "pk": 687,
+            "source_id": "7513635636088409354",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7513635636088409354",
+          "title": "《高考采访 题名金榜》 @李宗恒 #大伟老三 #高考 #高考生的精选",
+          "url": "https://www.douyin.com/video/7513635636088409354"
+        }
+      ]
+    },
+    {
+      "account_name": "大白show",
+      "changed_count": 0,
+      "content_count": 1,
+      "direction_counts": {
+        "未归类": 1
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 1,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 881,
+            "source_id": "7208153808625487165",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7208153808625487165",
+          "title": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗！快@你的冤种兄弟来看看！~#大白show #李宗恒 #喜剧 #春晚 #舔狗 #抖音蓝海计划",
+          "url": "https://www.douyin.com/video/7208153808625487165"
+        }
+      ]
+    },
+    {
+      "account_name": "妈妈再灭我一次",
+      "changed_count": 0,
+      "content_count": 1,
+      "direction_counts": {
+        "未归类": 1
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 1,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 777,
+            "source_id": "7383343697410182439",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7383343697410182439",
+          "title": "假如吵架可以找“代吵” #李宗恒 #一定要看到结尾",
+          "url": "https://www.douyin.com/video/7383343697410182439"
+        }
+      ]
+    },
+    {
+      "account_name": "姜胡说",
+      "changed_count": 0,
+      "content_count": 598,
+      "direction_counts": {
+        "AI": 69,
+        "个人成长": 253,
+        "人生策略": 208,
+        "信息源判断": 18,
+        "借势杠杆": 44,
+        "做事框架": 47,
+        "关键知识": 4,
+        "创业": 202,
+        "商业机会": 179,
+        "备餐": 14,
+        "宏观趋势": 2,
+        "市场周期理解": 46,
+        "心智修炼": 62,
+        "技能资产": 169,
+        "未归类": 36,
+        "机会准备": 100,
+        "短视频": 169,
+        "结构化理解": 172,
+        "自媒体": 128,
+        "自我进化": 6,
+        "自知谦逊": 2,
+        "表达文案": 84,
+        "认知升级": 374,
+        "财富策略": 291,
+        "赚钱": 256,
+        "阅读输入": 138,
+        "风险避坑": 33,
+        "高手思考模型": 26
+      },
+      "fans": "4684430",
+      "knowledge_status": "formal_account_exists",
+      "new_count": 598,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 3,
+            "source_id": "7401507931113475363",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7401507931113475363",
+          "title": "作弊 这个世界是可以作弊的。 一件事无论你在过程中如何丢脸，失败了多少次，都不要紧，这个世界奖励的是你做的最好的那次。 而且，你完全可以发起一场不公平的博弈。 ...",
+          "url": "https://www.douyin.com/video/7401507931113475363"
+        },
+        {
+          "raw_locator": {
+            "pk": 269,
+            "source_id": "7486844955646774565",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7486844955646774565",
+          "title": "1个小时，改变一生 关键在于行动，而非仅仅积累知识。 适当的学习是好的。但无休止的学习就是拖延。 最有效的方法是选择一个感兴趣的主题，深入阅读几本这个领域的好书...",
+          "url": "https://www.douyin.com/video/7486844955646774565"
+        },
+        {
+          "raw_locator": {
+            "pk": 176,
+            "source_id": "7569977115399998766",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7569977115399998766",
+          "title": "一些看起来毫不起眼的习惯决定了你会成为什么样的人 你过去的习惯说明了你是一个什么样的人，你正在养成的新习惯说明你想成为一个什么样的人。 花时间把你过去所有养成的...",
+          "url": "https://www.douyin.com/video/7569977115399998766"
+        },
+        {
+          "raw_locator": {
+            "pk": 562,
+            "source_id": "6914665561863621896",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:6914665561863621896",
+          "title": "墙裂推荐！值得你反复多看两遍。真正的学习，是学习他人思考问题的方式。#元认知 @DOU+小助手",
+          "url": "https://www.douyin.com/video/6914665561863621896"
+        },
+        {
+          "raw_locator": {
+            "pk": 273,
+            "source_id": "7474952939895934259",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7474952939895934259",
+          "title": "赚点小钱系列：4种来源 1、赚钱是一种技能。你需要了解、学习、与人交流、持续练习的。就像开车一样。 2、努力决定了你的下限，上限取决于认知。 3、创新是通往财富...",
+          "url": "https://www.douyin.com/video/7474952939895934259"
+        }
+      ]
+    },
+    {
+      "account_name": "张百乔",
+      "changed_count": 0,
+      "content_count": 2,
+      "direction_counts": {
+        "未归类": 2
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 2,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 790,
+            "source_id": "7353559755618635058",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7353559755618635058",
+          "title": "一个扶梯 两种爱情",
+          "url": "https://www.douyin.com/video/7353559755618635058"
+        },
+        {
+          "raw_locator": {
+            "pk": 749,
+            "source_id": "7431419332342713651",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7431419332342713651",
+          "title": "我五年前就准备好了",
+          "url": "https://www.douyin.com/video/7431419332342713651"
+        }
+      ]
+    },
+    {
+      "account_name": "抖音小助手",
+      "changed_count": 0,
+      "content_count": 1,
+      "direction_counts": {
+        "未归类": 1
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 1,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 616,
+            "source_id": "7617061092556033330",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7617061092556033330",
+          "title": "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前。@李宗恒 #抖音人物故事 #生活闪亮时2026",
+          "url": "https://www.douyin.com/video/7617061092556033330"
+        }
+      ]
+    },
+    {
+      "account_name": "李宗恒",
+      "changed_count": 0,
+      "content_count": 421,
+      "direction_counts": {
+        "AI": 2,
+        "个人成长": 1,
+        "人际社交观察": 30,
+        "代际观察": 25,
+        "作品代表作索引": 1,
+        "冲突吵架技巧": 3,
+        "剧情短剧": 8,
+        "压力崩溃喜剧": 5,
+        "叛逆反差": 4,
+        "口号仪式反讽": 2,
+        "吃饭点菜场景": 4,
+        "咖啡生活梗": 5,
+        "品牌植入": 16,
+        "商战利益博弈": 3,
+        "喜剧反转": 18,
+        "家庭身份关系": 14,
+        "心理博弈": 19,
+        "心眼疑心拟人": 5,
+        "性格标签喜剧": 21,
+        "情感关系": 8,
+        "情绪自洽": 8,
+        "暗示沟通": 1,
+        "朋友熟人关系": 6,
+        "未归类": 117,
+        "校园大学生": 37,
+        "求助边界拉扯": 1,
+        "沟通误解喜剧": 10,
+        "消费体验反差": 5,
+        "爱情关系喜剧": 50,
+        "生活荒诞反转": 22,
+        "短视频": 1,
+        "礼貌社交规则": 3,
+        "职场关系": 25,
+        "自信夸奖喜剧": 3,
+        "节日家庭场景": 18,
+        "语言表达喜剧": 12,
+        "身份错位短剧": 71,
+        "身体状态喜剧": 7,
+        "部门组织拟人": 3,
+        "金钱边界喜剧": 4
+      },
+      "fans": "25251894",
+      "knowledge_status": "candidate_account",
+      "new_count": 421,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 601,
+            "source_id": "7448474289319251239",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7448474289319251239",
+          "title": "《幸运的倒霉蛋》 #李宗恒",
+          "url": "https://www.douyin.com/video/7448474289319251239"
+        },
+        {
+          "raw_locator": {
+            "pk": 665,
+            "source_id": "7537158061102763315",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7537158061102763315",
+          "title": "《关于员工都比老板有钱这件事》 @李什么闯 #李宗恒",
+          "url": "https://www.douyin.com/video/7537158061102763315"
+        },
+        {
+          "raw_locator": {
+            "pk": 694,
+            "source_id": "7508292805878713638",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7508292805878713638",
+          "title": "《一镜到底》 #李宗恒",
+          "url": "https://www.douyin.com/video/7508292805878713638"
+        },
+        {
+          "raw_locator": {
+            "pk": 600,
+            "source_id": "7016989254769331456",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7016989254769331456",
+          "title": "《怎么啦？》#大学生 #李宗恒 #高情商",
+          "url": "https://www.douyin.com/video/7016989254769331456"
+        },
+        {
+          "raw_locator": {
+            "pk": 670,
+            "source_id": "7526054162607738121",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7526054162607738121",
+          "title": "这不是倒霉，这是费斯汀格法则。 #李宗恒 #一定要看到最后",
+          "url": "https://www.douyin.com/video/7526054162607738121"
+        }
+      ]
+    },
+    {
+      "account_name": "钟婷xo",
+      "changed_count": 0,
+      "content_count": 1,
+      "direction_counts": {
+        "未归类": 1
+      },
+      "fans": "",
+      "knowledge_status": "candidate_account",
+      "new_count": 1,
+      "platform": "douyin",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 742,
+            "source_id": "7444488197377101116",
+            "table": "douyin_aweme"
+          },
+          "stable_id": "douyin:aweme:7444488197377101116",
+          "title": "相亲成功但总感觉有什么地方不对劲… @李宗恒",
+          "url": "https://www.douyin.com/video/7444488197377101116"
+        }
+      ]
+    },
+    {
+      "account_name": "小森林的小世界",
+      "changed_count": 0,
+      "content_count": 426,
+      "direction_counts": {
+        "个人成长": 30,
+        "创业": 21,
+        "备餐": 40,
+        "未归类": 275,
+        "短视频": 43,
+        "自媒体": 2,
+        "认知升级": 60,
+        "赚钱": 2
+      },
+      "fans": "322645",
+      "knowledge_status": "candidate_account",
+      "new_count": 426,
+      "platform": "xhs",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 117,
+            "source_id": "6a0c3b590000000006022a9a",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:6a0c3b590000000006022a9a",
+          "title": "让我全脸细腻的毛孔深层清洁5.0来了！",
+          "url": "https://www.xiaohongshu.com/explore/6a0c3b590000000006022a9a?xsec_token=ABTFupDuejZBYCbVGlhB2_iAKiYBicbdviib6WDdcz-C4=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 421,
+            "source_id": "64b8b4fb000000000a0186a3",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:64b8b4fb000000000a0186a3",
+          "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+          "url": "https://www.xiaohongshu.com/explore/64b8b4fb000000000a0186a3?xsec_token=AB9Dex74ca98DibW_qbYN-xWjt7q_bFEv6ef0i8NOCJ7E=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 123,
+            "source_id": "6a20f3210000000022015948",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:6a20f3210000000022015948",
+          "title": "无酸搞定颗粒脸",
+          "url": "https://www.xiaohongshu.com/explore/6a20f3210000000022015948?xsec_token=ABPce3fZmad6sNgK_qxlFZm--wUR8o3TLbCUtWkwUEOKU=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 168,
+            "source_id": "6950aad8000000001e035c17",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:6950aad8000000001e035c17",
+          "title": "怒花几千块总结的大实话！oy好物歹物全分享",
+          "url": "https://www.xiaohongshu.com/explore/6950aad8000000001e035c17?xsec_token=AB9GjNXnSI0xjL19oLaCE7Mq0Lw1YGlfg8z1ZOTCLTzDA=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 349,
+            "source_id": "6624dcd800000000010307b0",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:6624dcd800000000010307b0",
+          "title": "一张常年用酸的脸",
+          "url": "https://www.xiaohongshu.com/explore/6624dcd800000000010307b0?xsec_token=ABV46AUfHCxlGhBpLVnOouZPnhBv8tdhOobJ_91cBR2HI=&xsec_source=pc_search"
+        }
+      ]
+    },
+    {
+      "account_name": "省钱也要喂饱自己（沪漂版）",
+      "changed_count": 0,
+      "content_count": 116,
+      "direction_counts": {
+        "AI": 2,
+        "一人食": 112,
+        "个人成长": 26,
+        "减脂餐": 112,
+        "创业": 2,
+        "备餐": 47,
+        "短视频": 2,
+        "自媒体": 1,
+        "认知升级": 5,
+        "赚钱": 1
+      },
+      "fans": "43047",
+      "knowledge_status": "candidate_account",
+      "new_count": 116,
+      "platform": "xhs",
+      "top_records": [
+        {
+          "raw_locator": {
+            "pk": 50,
+            "source_id": "698469a1000000000a032560",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:698469a1000000000a032560",
+          "title": "一周减脂餐合集来啦！！！",
+          "url": "https://www.xiaohongshu.com/explore/698469a1000000000a032560?xsec_token=ABX7jvto4pKb5gymFUouotf7adN9YP4Hnt2MkJtdS3Hs8=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 9,
+            "source_id": "6a1ee0840000000035025a38",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:6a1ee0840000000035025a38",
+          "title": "一周减脂餐合集来啦！！！",
+          "url": "https://www.xiaohongshu.com/explore/6a1ee0840000000035025a38?xsec_token=AB0RrBV4ZB5vfYNfG5UhmkVaaONB1gnLaEHSSZJpuQVnY=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 42,
+            "source_id": "69afe9aa000000002203b952",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:69afe9aa000000002203b952",
+          "title": "一周减脂餐合集来啦！！！",
+          "url": "https://www.xiaohongshu.com/explore/69afe9aa000000002203b952?xsec_token=AB4hOsQD_yhr6YjeIOi6Qsq67ESgZoT3EJ71SHcq3EYSg=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 91,
+            "source_id": "690f1793000000000700ba0a",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:690f1793000000000700ba0a",
+          "title": "独居一人食｜减脂餐合集请查收！！",
+          "url": "https://www.xiaohongshu.com/explore/690f1793000000000700ba0a?xsec_token=AB7y7YR-XJj5Tn2BwsLaByiUwj1F5FcBB0-mZatnS8Tz0=&xsec_source=pc_search"
+        },
+        {
+          "raw_locator": {
+            "pk": 64,
+            "source_id": "695a3771000000001d038d69",
+            "table": "xhs_note"
+          },
+          "stable_id": "xhs:note:695a3771000000001d038d69",
+          "title": "独居一人食｜今天吃酸辣美味减脂餐！",
+          "url": "https://www.xiaohongshu.com/explore/695a3771000000001d038d69?xsec_token=AB5v4CmiebtyFQF8vZbzr-Ze9WNY8mdH121sTF3fxqx5w=&xsec_source=pc_search"
+        }
+      ]
+    }
+  ],
+  "batch_id": "20260627_152903",
+  "comment_policy": "ignored",
+  "source_batch_dir": "00_Inbox/sqlite_imports/20260627_152903",
+  "version": 1
+}

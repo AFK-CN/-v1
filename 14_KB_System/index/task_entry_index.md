@@ -19,6 +19,8 @@
 ## 账号学习
 
 - 读取：`14_KB_System/index/account_knowledge_index.md`、`14_KB_System/index/controller_routes.json`、`00_System/shareable/skills/active/视频深度学习Skill_v1.md`。
+- SQLite 总库接入：`数据/sqlite_tables.db` 仍是受保护原始资料；先运行 `tools.kb.cli sqlite-ingest --dry-run/--apply` 生成增量候选摘要和轻量索引，再进入账号学习流程。
+- SQLite 账号候选入口：`10_Knowledge/candidates/account_assets/sqlite_imports/latest_account_candidates.md`；评论暂不进入学习流程。
 - 工作流：粗扫 -> 深度学习 -> 候选卡 -> 审核 -> 用户确认 -> 正式账号中心。
 - 脚本只能生成候选资产、学习卡、报告和状态；候选资产目标层是 `10_Knowledge/candidates/`，正式账号知识必须经过审核。
 
@@ -37,6 +39,7 @@
 ## 代码批处理
 
 - 读取 runtime tasks、reports、logs。旧路径兼容：`00_System/runtime/`。
+- SQLite ingest 读取 `数据/sqlite_tables.db` 时只能生成 `00_Inbox/sqlite_imports/` 候选摘要、`00_System/runtime/state/sqlite_ingest/` 状态和 `14_KB_System/index/sqlite_*` 轻量索引；禁止把数据库完整镜像到 Inbox。
 - 代码只能生成候选资产和报告，不能直接写正式知识。
 
 ## 系统审计

@@ -1,0 +1,240 @@
+{
+  "accounts": [
+    {
+      "account_name": "于洋",
+      "content_count": 1,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "刘大悦er",
+      "content_count": 1,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "大伟老三",
+      "content_count": 2,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "大白show",
+      "content_count": 1,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "妈妈再灭我一次",
+      "content_count": 1,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "姜胡说",
+      "content_count": 598,
+      "creator_table": "dy_creator",
+      "fans": "4684430",
+      "last_modify_ts": 1781343733372,
+      "platform": "douyin",
+      "user_id": "MS4wLjABAAAAxaSHyjKQyfWHKjIS1mYbpxxEQZpT8ogl_eyks2M_Twc"
+    },
+    {
+      "account_name": "张百乔",
+      "content_count": 2,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "抖音小助手",
+      "content_count": 1,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "李宗恒",
+      "content_count": 421,
+      "creator_table": "dy_creator",
+      "fans": "25251894",
+      "last_modify_ts": 1781403026652,
+      "platform": "douyin",
+      "user_id": "MS4wLjABAAAAhYCwfJpCgIy9aao47My7ZwQT_pP_LzJlnb-800tywOg"
+    },
+    {
+      "account_name": "钟婷xo",
+      "content_count": 1,
+      "creator_table": "",
+      "fans": "",
+      "last_modify_ts": "",
+      "platform": "douyin",
+      "user_id": ""
+    },
+    {
+      "account_name": "小森林的小世界",
+      "content_count": 426,
+      "creator_table": "xhs_creator",
+      "fans": "322645",
+      "last_modify_ts": 1782400420780,
+      "platform": "xhs",
+      "user_id": "5a201295e8ac2b0dbae9063a"
+    },
+    {
+      "account_name": "省钱也要喂饱自己（沪漂版）",
+      "content_count": 116,
+      "creator_table": "xhs_creator",
+      "fans": "43047",
+      "last_modify_ts": 1782397633470,
+      "platform": "xhs",
+      "user_id": "5c09367300000000060099e8"
+    }
+  ],
+  "batch_id": "20260627_152903",
+  "candidate_count": 1571,
+  "comments": {
+    "status": "ignored"
+  },
+  "content": {
+    "changed": 0,
+    "missing": 0,
+    "new": 1571,
+    "total": 1571,
+    "unchanged": 0
+  },
+  "database": "/Users/lao_wu/codexAI/知识库/数据/sqlite_tables.db",
+  "missing_stable_ids": [],
+  "ok": true,
+  "status": "applied",
+  "tables": [
+    {
+      "count": 0,
+      "schema_hash": "e768afbb0e7b0d8df0e6e72aa4f50288f927b475",
+      "table": "bilibili_contact_info"
+    },
+    {
+      "count": 0,
+      "schema_hash": "26184fa05ace41d8612feb32ef3a782bd15db494",
+      "table": "bilibili_up_dynamic"
+    },
+    {
+      "count": 0,
+      "schema_hash": "ce632ce6688d006fda3e09719f97de0b76f1d5fb",
+      "table": "bilibili_up_info"
+    },
+    {
+      "count": 0,
+      "schema_hash": "7b0a2adbb1ebafca96aabdfa77ec51cddaf65d37",
+      "table": "bilibili_video"
+    },
+    {
+      "count": 0,
+      "schema_hash": "8cf21faae95c8f96dd1fb770c1f154a888e72be2",
+      "table": "bilibili_video_comment"
+    },
+    {
+      "count": 1029,
+      "schema_hash": "987ca59f9a9bf21fb7d87a2c07338f5d8c710fa3",
+      "table": "douyin_aweme"
+    },
+    {
+      "count": 10280,
+      "schema_hash": "ae893ff04d2fd486bbc528b5c5cd51823dfd029e",
+      "table": "douyin_aweme_comment"
+    },
+    {
+      "count": 2,
+      "schema_hash": "7cc05b5fde5254ea81e4d5bfbe6295817cff81c3",
+      "table": "dy_creator"
+    },
+    {
+      "count": 0,
+      "schema_hash": "8fa8817ff7ed055d8dc51ca99b97c49ff5181cb5",
+      "table": "kuaishou_video"
+    },
+    {
+      "count": 0,
+      "schema_hash": "cb5026f12124974b33e6a700760639ebd3af2e2d",
+      "table": "kuaishou_video_comment"
+    },
+    {
+      "count": 0,
+      "schema_hash": "c2760b3a1b8e847b67e3c1add665732139f3202f",
+      "table": "tieba_comment"
+    },
+    {
+      "count": 0,
+      "schema_hash": "f2a36777cf1ade396c09c69e542c2ffdf944c384",
+      "table": "tieba_creator"
+    },
+    {
+      "count": 0,
+      "schema_hash": "6fd12856f9bdffb8c6844c29b6a11bf76928d656",
+      "table": "tieba_note"
+    },
+    {
+      "count": 0,
+      "schema_hash": "4b263cfda11e10c7beb9d96b95d37dd6270758d1",
+      "table": "weibo_creator"
+    },
+    {
+      "count": 0,
+      "schema_hash": "c625c0c514c323e5df18fd3201a37b6ab3c6b512",
+      "table": "weibo_note"
+    },
+    {
+      "count": 0,
+      "schema_hash": "2b4e6e1b43518804b2055521a72d7e49279e1605",
+      "table": "weibo_note_comment"
+    },
+    {
+      "count": 2,
+      "schema_hash": "1186d492a2a2964d3cf6b473f187ddaf7c267848",
+      "table": "xhs_creator"
+    },
+    {
+      "count": 542,
+      "schema_hash": "0cf391700153000b2a6eb9af0e2214dcecf3d82a",
+      "table": "xhs_note"
+    },
+    {
+      "count": 497,
+      "schema_hash": "0cae170c7dca91a54848c755de9b05160e78b387",
+      "table": "xhs_note_comment"
+    },
+    {
+      "count": 0,
+      "schema_hash": "5cfe8a29c28ab8ffaa3cb49bd328d270bfa4841a",
+      "table": "zhihu_comment"
+    },
+    {
+      "count": 0,
+      "schema_hash": "6c48998cd50ad80763fd22cb4b89401f3ffc55aa",
+      "table": "zhihu_content"
+    },
+    {
+      "count": 0,
+      "schema_hash": "917387b4179e1793327960d5d3ad14d394dfd66c",
+      "table": "zhihu_creator"
+    }
+  ]
+}
