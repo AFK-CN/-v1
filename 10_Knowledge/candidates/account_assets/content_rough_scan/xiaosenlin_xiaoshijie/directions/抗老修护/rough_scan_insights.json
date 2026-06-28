@@ -1,0 +1,1109 @@
+{
+  "direction": "抗老修护",
+  "topic_clusters": [
+    {
+      "topic": "抗老",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "63c103ab000000001b015fe5",
+          "title": "油痘肌抗老其实很简单",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "640eebf5000000001300b5f5",
+          "title": "正确抗老的皮肤真的透亮又饱满",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "642431980000000014026d90",
+          "title": "油痘肌爱用的神仙抗老精华",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "64ae5423000000001a01263d",
+          "title": "油痘肌平价抗老晚间护肤✨",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "65421449000000001d01471f",
+          "title": "分享我脸刚垮时如何用抗老面霜补救回来",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "眼纹",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "65018783000000001f00492a",
+          "title": "淡化黑眼圈的干货来了",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "65472ea8000000001e03e2e0",
+          "title": "淡化眼纹、黑眼圈的方法！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "682ec4d60000000021007d89",
+          "title": "30岁淡化眼纹、黑眼圈超绝的方法！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "696b3c94000000000e03f1bf",
+          "title": "坚持了很多年 淡眼纹、去黑眼圈的护眼干货",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "紧致",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "642431980000000014026d90",
+          "title": "油痘肌爱用的神仙抗老精华",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "66c71790000000001d019c61",
+          "title": "垮脸救星！家庭版胶原肌肤灌注！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6a1d54940000000007027ae5",
+          "title": "搞定眼纹、泪沟、松弛的眼周抗老干货！",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "胶原",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "6712558700000000210011e9",
+          "title": "油敏K老思路，换季不垮脸是我应得的~",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "694e7815000000001f00e629",
+          "title": "垮脸跟练！3min速速回春的胶原按摩法",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "垮脸",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "6718acb4000000001b03e9f9",
+          "title": "油痘肌抗老：不长痘和嫩肤我都要！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "694e7815000000001f00e629",
+          "title": "垮脸跟练！3min速速回春的胶原按摩法",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "饱满",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "640eebf5000000001300b5f5",
+          "title": "正确抗老的皮肤真的透亮又饱满",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "65ba1bed000000000702875c",
+          "title": "这真的是一晚上的效果吗？我直接爱了！",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "抗老修护",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "67614235000000001300029b",
+          "title": "一张常年刷A醇的脸",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "68db91b80000000005001e8f",
+          "title": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "抗初老",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "6400678700000000140276fc",
+          "title": "28岁抗初老我做对了什么",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "63c103ab000000001b015fe5",
+      "title": "油痘肌抗老其实很简单",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "油痘肌抗老其实很简单 作为一个油痘肌，想找一款抗老面霜真是太心累了😭很多贵价抗老面霜都做得特别滋润，花了大价钱买回来，还没体会到抗老的效果闭口痘痘就先来了",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "抗老面霜",
+        "油痘肌护肤",
+        "欧莱雅金致小蜜罐",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6400678700000000140276fc",
+      "title": "28岁抗初老我做对了什么",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "28岁抗初老我做对了什么 我们平时加班熬夜，生活比较忙碌，皮肤比10多岁那会问题多点也是很正常的，仙女们不用过度担心～ 看看我抗初老的实际经验吧～ # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抗初老",
+        "抗初老攻略",
+        "早C晚A",
+        "淡纹紧致",
+        "去黄提亮",
+        "欧诗漫小橘灯精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "640eebf5000000001300b5f5",
+      "title": "正确抗老的皮肤真的透亮又饱满",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "正确抗老的皮肤真的透亮又饱满 很多人第一次见我都以为我大学没毕业，但其实我已经28岁啦",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "修丽可age面霜",
+        "抗老",
+        "好皮肤养成记",
+        "抗糖",
+        "抗老面霜"
+      ],
+      "short_phrases": [
+        "今天认真分享一下我的抗老经验~ 抗老这件事是一定需要内外兼修的",
+        "2. 是否根源解决问题：因为自己本"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "642431980000000014026d90",
+      "title": "油痘肌爱用的神仙抗老精华",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌爱用的神仙抗老精华 夏天来了，油痘肌最不喜欢脸上涂的黏黏腻腻，感觉分分钟要爆痘",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抗老",
+        "抗老精华",
+        "精华",
+        "PITERA",
+        "神仙水",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "最有效的抗老精华"
+      ],
+      "short_phrases": [
+        "但又希望皮肤是细腻紧致、水油平衡的",
+        "所以会更倾向于质地清爽好吸收，功效又比较多的护肤品",
+        "神仙水作为水状的精华，里面蕴含了90%的PI"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64ae5423000000001a01263d",
+      "title": "油痘肌平价抗老晚间护肤✨",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌平价抗老晚间护肤✨ 这个很适合我们油皮的k老晚间护肤分享给大家～ 还是那句话，只要懂护肤，用非常平价的护肤品也能拥有好皮肤～ # # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "抗老",
+        "抗老面霜",
+        "油皮抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65018783000000001f00492a",
+      "title": "淡化黑眼圈的干货来了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "淡化黑眼圈的干货来了 终于琢磨出怎么淡化黑眼圈了， 重点就是通过 眼部按摩+热敷 来疏通眼下循环 去美容院人家也是给我这样做，咱们自己在家做",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "COSFACE永久花眼油",
+        "精华油",
+        "以油养肤",
+        "眼纹",
+        "黑眼圈",
+        "黑眼圈散退"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65421449000000001d01471f",
+      "title": "分享我脸刚垮时如何用抗老面霜补救回来",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "分享我脸刚垮时如何用抗老面霜补救回来 如果刚刚发现脸垮，感觉有疲惫、憔悴感的时候，不要担心",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "修丽可age面霜",
+        "抗老",
+        "油痘肌护肤",
+        "抗老面霜推荐"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "分享我脸刚垮时如何用抗老面霜补救回来 如果刚刚发现脸垮，感觉有疲惫、憔悴感的时候，不要担心"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65472ea8000000001e03e2e0",
+      "title": "淡化眼纹、黑眼圈的方法！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "淡化眼纹、黑眼圈的方法",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "去黑眼圈",
+        "眼纹",
+        "黑眼圈",
+        "眼部护理",
+        "小红书礼物季"
+      ],
+      "short_phrases": [
+        "淡化眼纹、黑眼圈的方法"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "65ba1bed000000000702875c",
+      "title": "这真的是一晚上的效果吗？我直接爱了！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这真的是一晚上的效果吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "贵妇面霜",
+        "油皮护肤",
+        "YSL藏金面霜",
+        "抗老",
+        "抗老好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "这真的是一晚上的效果吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66c71790000000001d019c61",
+      "title": "垮脸救星！家庭版胶原肌肤灌注！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "垮脸救星",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "抗老面霜",
+        "美容护肤",
+        "院线护肤",
+        "快速变美",
+        "晚间护肤",
+        "欧莱雅小蜜罐",
+        "紧致面霜",
+        "面霜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "66f91b56000000001a021614",
+      "title": "油痘肌如何养成更扛老的健康皮肤",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "油痘肌如何养成更扛老的健康皮肤 姐妹们",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "精简护肤",
+        "抗老面霜",
+        "海蓝之谜奇迹云绒霜",
+        "法令纹",
+        "淡纹",
+        "贵妇面霜",
+        "油皮抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "油痘肌如何养成更扛老的健康皮肤 姐妹们"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6712558700000000210011e9",
+      "title": "油敏K老思路，换季不垮脸是我应得的~",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油敏K老思路，换季不垮脸是我应得的~ 以前每到了换季的时候 我就特别容易烂脸翻车 好不容易补进皮肤里的胶原 一夜之间就会被打回原形 后来我终于搞懂了—— 内养外修才是油敏皮有效的K",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "娇韵诗第九代黄金双萃",
+        "娇韵诗双萃精华",
+        "双萃精华",
+        "双十一清单",
+        "双十一必买",
+        "双十一攻略",
+        "油敏皮",
+        "拯救敏感肌",
+        "抗老更扛老",
+        "抗老精华",
+        "护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6718acb4000000001b03e9f9",
+      "title": "油痘肌抗老：不长痘和嫩肤我都要！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌抗老：不长痘和嫩肤我都要",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌抗老",
+        "抗老",
+        "如何拯救痘痘肌",
+        "Acaderma",
+        "Acader绿洲面霜"
+      ],
+      "short_phrases": [
+        "油痘肌抗老：不长痘和嫩肤我都要"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "67614235000000001300029b",
+      "title": "一张常年刷A醇的脸",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一张常年刷A醇的脸 今年是刷A的第5年，我是11年的油痘肌，以前用了各种产品都没有刷A和用酸带给我的效果好",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "2024时髦存档",
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "油痘肌护肤",
+        "油皮",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "（ps：眼周的光泽也是用A醇眼霜刷出来的",
+        "）A醇能真正的缩毛孔、改善痘痘、提亮肤色、K老，甚至想淡B也要刷A",
+        "千元面霜和a醇让我选，我肯定选A醇，太香了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "）A醇能真正的缩毛孔、改善痘痘、提亮肤色、K老，甚至想淡B也要刷A"
+      ],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "682ec4d60000000021007d89",
+      "title": "30岁淡化眼纹、黑眼圈超绝的方法！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "30岁淡化眼纹、黑眼圈超绝的方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "去黑眼圈",
+        "眼纹",
+        "黑眼圈",
+        "眼部护理",
+        "黑眼圈退散"
+      ],
+      "short_phrases": [
+        "30岁淡化眼纹、黑眼圈超绝的方法",
+        "以前我的黑眼圈和眼纹特别严重，哪怕我睡眠再好，眼下也是一团乌青"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68db91b80000000005001e8f",
+      "title": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔 这是我为自己准备的7日嫩肤流程，给大家参考一下~我是30岁的油皮，需要的是k老以及皮肤细腻，最近一年多因为仪器+A醇的搭配，毛孔真的肉眼可",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "细腻毛孔",
+        "跟练",
+        "补胶原",
+        "油皮好物",
+        "美容仪",
+        "嫩肤",
+        "抗老"
+      ],
+      "short_phrases": [
+        "第一晚：家庭版🌊飞秀 我每周一定会做这个来清洁毛孔垃圾",
+        "油皮出油多、毛孔大、长痘闭口、暗沉粗糙都和毛孔太堵有关",
+        "每周清一次是油皮好皮肤的基础，这也是给我后面的6天打"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "694e7815000000001f00e629",
+      "title": "垮脸跟练！3min速速回春的胶原按摩法",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "垮脸跟练",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "护肤",
+        "胶原灌肤",
+        "护肤内行人",
+        "补胶原",
+        "面部提升",
+        "资生堂悦薇胶原炮面霜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "696b3c94000000000e03f1bf",
+      "title": "坚持了很多年 淡眼纹、去黑眼圈的护眼干货",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "坚持了很多年 淡眼纹、去黑眼圈的护眼干货 分享给大家我实践下来对淡化眼纹、黑眼圈都非常有用的眼部保养方法，和我一直都很喜欢的眼霜～ 虽然这条是广，但是这个眼霜是我自己实实在在用了五",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "去黑眼圈",
+        "眼纹",
+        "黑眼圈",
+        "眼部护理",
+        "资生堂悦薇小针管眼面霜"
+      ],
+      "short_phrases": [
+        "大家可以根据自己的情况理性种草～ # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "69c5f94f000000002202bc26",
+      "title": "NAD+抗老到底靠谱吗？说说我的真实感受",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "NAD+抗老到底靠谱吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油皮好物",
+        "嫩肤",
+        "抗老",
+        "油痘肌护肤",
+        "抗老面霜",
+        "与时光相映成光",
+        "雅诗兰黛白月光面霜"
+      ],
+      "short_phrases": [
+        "NAD+抗老到底靠谱吗"
+      ],
+      "question_phrases": [
+        "NAD+抗老到底靠谱吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6a1d54940000000007027ae5",
+      "title": "搞定眼纹、泪沟、松弛的眼周抗老干货！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "搞定眼纹、泪沟、松弛的眼周抗老干货",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "上眼皮松弛",
+        "泪沟",
+        "眼纹",
+        "眼部护理",
+        "抗老精华",
+        "眼部精华",
+        "抗老眼霜推荐",
+        "圣歌兰",
+        "圣歌兰sos眼精华",
+        "圣歌兰sos精华",
+        "618"
+      ],
+      "short_phrases": [
+        "搞定眼纹、泪沟、松弛的眼周抗老干货"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "6400678700000000140276fc",
+      "title": "28岁抗初老我做对了什么",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "28岁抗初老我做对了什么 我们平时加班熬夜，生活比较忙碌，皮肤比10多岁那会问题多点也是很正常的，仙女们不用过度担心～ 看看我抗初老的实际经验吧～ # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抗初老",
+        "抗初老攻略",
+        "早C晚A",
+        "淡纹紧致",
+        "去黄提亮",
+        "欧诗漫小橘灯精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "640eebf5000000001300b5f5",
+      "title": "正确抗老的皮肤真的透亮又饱满",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "正确抗老的皮肤真的透亮又饱满 很多人第一次见我都以为我大学没毕业，但其实我已经28岁啦",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "修丽可age面霜",
+        "抗老",
+        "好皮肤养成记",
+        "抗糖",
+        "抗老面霜"
+      ],
+      "short_phrases": [
+        "今天认真分享一下我的抗老经验~ 抗老这件事是一定需要内外兼修的",
+        "2. 是否根源解决问题：因为自己本"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "642431980000000014026d90",
+      "title": "油痘肌爱用的神仙抗老精华",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌爱用的神仙抗老精华 夏天来了，油痘肌最不喜欢脸上涂的黏黏腻腻，感觉分分钟要爆痘",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抗老",
+        "抗老精华",
+        "精华",
+        "PITERA",
+        "神仙水",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "最有效的抗老精华"
+      ],
+      "short_phrases": [
+        "但又希望皮肤是细腻紧致、水油平衡的",
+        "所以会更倾向于质地清爽好吸收，功效又比较多的护肤品",
+        "神仙水作为水状的精华，里面蕴含了90%的PI"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64ae5423000000001a01263d",
+      "title": "油痘肌平价抗老晚间护肤✨",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌平价抗老晚间护肤✨ 这个很适合我们油皮的k老晚间护肤分享给大家～ 还是那句话，只要懂护肤，用非常平价的护肤品也能拥有好皮肤～ # # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "抗老",
+        "抗老面霜",
+        "油皮抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65018783000000001f00492a",
+      "title": "淡化黑眼圈的干货来了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "淡化黑眼圈的干货来了 终于琢磨出怎么淡化黑眼圈了， 重点就是通过 眼部按摩+热敷 来疏通眼下循环 去美容院人家也是给我这样做，咱们自己在家做",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "COSFACE永久花眼油",
+        "精华油",
+        "以油养肤",
+        "眼纹",
+        "黑眼圈",
+        "黑眼圈散退"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65421449000000001d01471f",
+      "title": "分享我脸刚垮时如何用抗老面霜补救回来",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "分享我脸刚垮时如何用抗老面霜补救回来 如果刚刚发现脸垮，感觉有疲惫、憔悴感的时候，不要担心",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "修丽可age面霜",
+        "抗老",
+        "油痘肌护肤",
+        "抗老面霜推荐"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "分享我脸刚垮时如何用抗老面霜补救回来 如果刚刚发现脸垮，感觉有疲惫、憔悴感的时候，不要担心"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65ba1bed000000000702875c",
+      "title": "这真的是一晚上的效果吗？我直接爱了！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这真的是一晚上的效果吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "贵妇面霜",
+        "油皮护肤",
+        "YSL藏金面霜",
+        "抗老",
+        "抗老好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "这真的是一晚上的效果吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66f91b56000000001a021614",
+      "title": "油痘肌如何养成更扛老的健康皮肤",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "油痘肌如何养成更扛老的健康皮肤 姐妹们",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "精简护肤",
+        "抗老面霜",
+        "海蓝之谜奇迹云绒霜",
+        "法令纹",
+        "淡纹",
+        "贵妇面霜",
+        "油皮抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "油痘肌如何养成更扛老的健康皮肤 姐妹们"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6712558700000000210011e9",
+      "title": "油敏K老思路，换季不垮脸是我应得的~",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油敏K老思路，换季不垮脸是我应得的~ 以前每到了换季的时候 我就特别容易烂脸翻车 好不容易补进皮肤里的胶原 一夜之间就会被打回原形 后来我终于搞懂了—— 内养外修才是油敏皮有效的K",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "娇韵诗第九代黄金双萃",
+        "娇韵诗双萃精华",
+        "双萃精华",
+        "双十一清单",
+        "双十一必买",
+        "双十一攻略",
+        "油敏皮",
+        "拯救敏感肌",
+        "抗老更扛老",
+        "抗老精华",
+        "护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68db91b80000000005001e8f",
+      "title": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔 这是我为自己准备的7日嫩肤流程，给大家参考一下~我是30岁的油皮，需要的是k老以及皮肤细腻，最近一年多因为仪器+A醇的搭配，毛孔真的肉眼可",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "细腻毛孔",
+        "跟练",
+        "补胶原",
+        "油皮好物",
+        "美容仪",
+        "嫩肤",
+        "抗老"
+      ],
+      "short_phrases": [
+        "第一晚：家庭版🌊飞秀 我每周一定会做这个来清洁毛孔垃圾",
+        "油皮出油多、毛孔大、长痘闭口、暗沉粗糙都和毛孔太堵有关",
+        "每周清一次是油皮好皮肤的基础，这也是给我后面的6天打"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "6400678700000000140276fc",
+      "title": "28岁抗初老我做对了什么",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "28岁抗初老我做对了什么 我们平时加班熬夜，生活比较忙碌，皮肤比10多岁那会问题多点也是很正常的，仙女们不用过度担心～ 看看我抗初老的实际经验吧～ # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抗初老",
+        "抗初老攻略",
+        "早C晚A",
+        "淡纹紧致",
+        "去黄提亮",
+        "欧诗漫小橘灯精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "640eebf5000000001300b5f5",
+      "title": "正确抗老的皮肤真的透亮又饱满",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "正确抗老的皮肤真的透亮又饱满 很多人第一次见我都以为我大学没毕业，但其实我已经28岁啦",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "修丽可age面霜",
+        "抗老",
+        "好皮肤养成记",
+        "抗糖",
+        "抗老面霜"
+      ],
+      "short_phrases": [
+        "今天认真分享一下我的抗老经验~ 抗老这件事是一定需要内外兼修的",
+        "2. 是否根源解决问题：因为自己本"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "642431980000000014026d90",
+      "title": "油痘肌爱用的神仙抗老精华",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌爱用的神仙抗老精华 夏天来了，油痘肌最不喜欢脸上涂的黏黏腻腻，感觉分分钟要爆痘",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抗老",
+        "抗老精华",
+        "精华",
+        "PITERA",
+        "神仙水",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "最有效的抗老精华"
+      ],
+      "short_phrases": [
+        "但又希望皮肤是细腻紧致、水油平衡的",
+        "所以会更倾向于质地清爽好吸收，功效又比较多的护肤品",
+        "神仙水作为水状的精华，里面蕴含了90%的PI"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64ae5423000000001a01263d",
+      "title": "油痘肌平价抗老晚间护肤✨",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌平价抗老晚间护肤✨ 这个很适合我们油皮的k老晚间护肤分享给大家～ 还是那句话，只要懂护肤，用非常平价的护肤品也能拥有好皮肤～ # # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "抗老",
+        "抗老面霜",
+        "油皮抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65018783000000001f00492a",
+      "title": "淡化黑眼圈的干货来了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "淡化黑眼圈的干货来了 终于琢磨出怎么淡化黑眼圈了， 重点就是通过 眼部按摩+热敷 来疏通眼下循环 去美容院人家也是给我这样做，咱们自己在家做",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "COSFACE永久花眼油",
+        "精华油",
+        "以油养肤",
+        "眼纹",
+        "黑眼圈",
+        "黑眼圈散退"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65421449000000001d01471f",
+      "title": "分享我脸刚垮时如何用抗老面霜补救回来",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "分享我脸刚垮时如何用抗老面霜补救回来 如果刚刚发现脸垮，感觉有疲惫、憔悴感的时候，不要担心",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "修丽可age面霜",
+        "抗老",
+        "油痘肌护肤",
+        "抗老面霜推荐"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "分享我脸刚垮时如何用抗老面霜补救回来 如果刚刚发现脸垮，感觉有疲惫、憔悴感的时候，不要担心"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65ba1bed000000000702875c",
+      "title": "这真的是一晚上的效果吗？我直接爱了！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这真的是一晚上的效果吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "贵妇面霜",
+        "油皮护肤",
+        "YSL藏金面霜",
+        "抗老",
+        "抗老好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "这真的是一晚上的效果吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66f91b56000000001a021614",
+      "title": "油痘肌如何养成更扛老的健康皮肤",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "油痘肌如何养成更扛老的健康皮肤 姐妹们",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "精简护肤",
+        "抗老面霜",
+        "海蓝之谜奇迹云绒霜",
+        "法令纹",
+        "淡纹",
+        "贵妇面霜",
+        "油皮抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "油痘肌如何养成更扛老的健康皮肤 姐妹们"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6712558700000000210011e9",
+      "title": "油敏K老思路，换季不垮脸是我应得的~",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油敏K老思路，换季不垮脸是我应得的~ 以前每到了换季的时候 我就特别容易烂脸翻车 好不容易补进皮肤里的胶原 一夜之间就会被打回原形 后来我终于搞懂了—— 内养外修才是油敏皮有效的K",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "娇韵诗第九代黄金双萃",
+        "娇韵诗双萃精华",
+        "双萃精华",
+        "双十一清单",
+        "双十一必买",
+        "双十一攻略",
+        "油敏皮",
+        "拯救敏感肌",
+        "抗老更扛老",
+        "抗老精华",
+        "护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68db91b80000000005001e8f",
+      "title": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "7日嫩肤跟练～国庆哪都不去，就在家缩毛孔 这是我为自己准备的7日嫩肤流程，给大家参考一下~我是30岁的油皮，需要的是k老以及皮肤细腻，最近一年多因为仪器+A醇的搭配，毛孔真的肉眼可",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "细腻毛孔",
+        "跟练",
+        "补胶原",
+        "油皮好物",
+        "美容仪",
+        "嫩肤",
+        "抗老"
+      ],
+      "short_phrases": [
+        "第一晚：家庭版🌊飞秀 我每周一定会做这个来清洁毛孔垃圾",
+        "油皮出油多、毛孔大、长痘闭口、暗沉粗糙都和毛孔太堵有关",
+        "每周清一次是油皮好皮肤的基础，这也是给我后面的6天打"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

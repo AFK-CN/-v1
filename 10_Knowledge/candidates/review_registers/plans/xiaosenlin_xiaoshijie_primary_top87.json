@@ -1,0 +1,793 @@
+{
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "account_name": "小森林的小世界",
+  "platform": "xhs",
+  "generated_at": "2026-06-28T01:58:56",
+  "selection_rule": "per direction max 10; no total cap; rank by heat score then classification score after review overrides",
+  "expected_count": 87,
+  "items": [
+    {
+      "source_id": "62db869c000000001b03ec75",
+      "primary_direction": "护肤功效",
+      "direction_rank": 1,
+      "title": "油痘肌用了不会闷痘的清爽防晒",
+      "source_url": "https://www.xiaohongshu.com/explore/62db869c000000001b03ec75?xsec_token=ABShU0T_695sSn0mub3rcwtUmXgn4QXmTqqVF6QM8Qx0k=&xsec_source=pc_search",
+      "heat_score": 5105.25,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "67f64650000000001a006dd1",
+      "primary_direction": "护肤功效",
+      "direction_rank": 2,
+      "title": "手把手分享我是怎么搞定外油内干的！",
+      "source_url": "https://www.xiaohongshu.com/explore/67f64650000000001a006dd1?xsec_token=AB_QeBPp--WNvsbVyomOVXNlZQZfYpKJyZqh6f2IU99DA=&xsec_source=pc_search",
+      "heat_score": 4509.85,
+      "review_note": "rule_reviewed: 外油内干解决方法"
+    },
+    {
+      "source_id": "64c615ca000000000a01ab8a",
+      "primary_direction": "护肤功效",
+      "direction_rank": 3,
+      "title": "2年没去美容院，皮肤反而更好了",
+      "source_url": "https://www.xiaohongshu.com/explore/64c615ca000000000a01ab8a?xsec_token=ABYs9IMS13H1dQONwqSX3KQYCj78hEbWbf1YM39OjXNuU=&xsec_source=pc_search",
+      "heat_score": 3946.95,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "62b2dbbe000000000102c8e5",
+      "primary_direction": "护肤功效",
+      "direction_rank": 4,
+      "title": "敏M肌正确洗脸方式",
+      "source_url": "https://www.xiaohongshu.com/explore/62b2dbbe000000000102c8e5?xsec_token=AB_rS2oZBp8AVQu9vjqs_NIERv6p_-68n7qRbuAIfQgYw=&xsec_source=pc_search",
+      "heat_score": 3685.5,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "62725331000000002103acec",
+      "primary_direction": "护肤功效",
+      "direction_rank": 5,
+      "title": "洗面奶对于恢复皮肤屏障真的很重要！",
+      "source_url": "https://www.xiaohongshu.com/explore/62725331000000002103acec?xsec_token=ABVynyiwrUA2xvfZUXvhkCNcrCmtAN4Zp1hrkl5ARrfM4=&xsec_source=pc_search",
+      "heat_score": 3669.4,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "62b69b12000000000f008069",
+      "primary_direction": "护肤功效",
+      "direction_rank": 6,
+      "title": "痘肌好皮养成～大家都能拥有素颜光泽肌",
+      "source_url": "https://www.xiaohongshu.com/explore/62b69b12000000000f008069?xsec_token=ABu8GBwcOhR-ywi6z0vZKFZJW5fpKURwIpTSoRlkb_Z5g=&xsec_source=pc_search",
+      "heat_score": 3668.55,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "67ed251b000000001d027d32",
+      "primary_direction": "护肤功效",
+      "direction_rank": 7,
+      "title": "12年油痘肌变成妈生好皮，我的变脸经历。",
+      "source_url": "https://www.xiaohongshu.com/explore/67ed251b000000001d027d32?xsec_token=ABdTH_vwaUH1dSMsSXaAmhkxfLnZ6374e2XNwVnxisQX0=&xsec_source=pc_search",
+      "heat_score": 3322.8,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "67697519000000001300076f",
+      "primary_direction": "护肤功效",
+      "direction_rank": 8,
+      "title": "刷A醇的第五年",
+      "source_url": "https://www.xiaohongshu.com/explore/67697519000000001300076f?xsec_token=ABX-g-AnKH8yXeN6qrWIVG0wEriIcV36_ajBve_4nTmMQ=&xsec_source=pc_search",
+      "heat_score": 3186.25,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6309d5f5000000001e009276",
+      "primary_direction": "护肤功效",
+      "direction_rank": 9,
+      "title": "油痘肌2022上半年护肤品爱用！自用🈚️广！",
+      "source_url": "https://www.xiaohongshu.com/explore/6309d5f5000000001e009276?xsec_token=ABWXpt8GjDmCiJNm4fs_tZTb2IOEca0vGo5NjMqah1VAo=&xsec_source=pc_search",
+      "heat_score": 3023.65,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65051544000000001f0054d5",
+      "primary_direction": "护肤功效",
+      "direction_rank": 10,
+      "title": "分享我觉得效果特别好的护肤搭配给大家",
+      "source_url": "https://www.xiaohongshu.com/explore/65051544000000001f0054d5?xsec_token=ABm_kwETwy1sBuWmvAInsliZG7WO4R5uIAUdLcB_GcPwE=&xsec_source=pc_search",
+      "heat_score": 2976.95,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6a0c3b590000000006022a9a",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 1,
+      "title": "让我全脸细腻的毛孔深层清洁5.0来了！",
+      "source_url": "https://www.xiaohongshu.com/explore/6a0c3b590000000006022a9a?xsec_token=ABTFupDuejZBYCbVGlhB2_iAKiYBicbdviib6WDdcz-C4=&xsec_source=pc_search",
+      "heat_score": 6924.15,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "674752270000000007024b95",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 2,
+      "title": "手把手分享我是如何一周解决痘痘闭口粉刺的",
+      "source_url": "https://www.xiaohongshu.com/explore/674752270000000007024b95?xsec_token=AB1__ijZxaUKOEOUSbgfKRJIUISNlDj_RjxETcR1c8HpQ=&xsec_source=pc_search",
+      "heat_score": 5054.4,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6a03ecba000000000702eb7a",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 3,
+      "title": "缩毛孔真的很简单（具体实操篇）",
+      "source_url": "https://www.xiaohongshu.com/explore/6a03ecba000000000702eb7a?xsec_token=ABVCkylhTMotWnn_ZOrT1-AjwbQxReQOo-2yE0xrlF6fY=&xsec_source=pc_search",
+      "heat_score": 4847.35,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "68e49ee60000000004023c09",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 4,
+      "title": "水光版毛孔深层清洁跟练！深层清洁全脸发光",
+      "source_url": "https://www.xiaohongshu.com/explore/68e49ee60000000004023c09?xsec_token=AB6kXLPIEco7-zM0au7G_D6t198BQaY7MV_s7OtTwRapg=&xsec_source=pc_search",
+      "heat_score": 4270.35,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "62f60c35000000001402ba24",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 5,
+      "title": "正确去闭口保姆级教程，针清后注意事项",
+      "source_url": "https://www.xiaohongshu.com/explore/62f60c35000000001402ba24?xsec_token=ABrbWpcy_Y310f0PWoTygrf_3HPSqzjTjlOmULbQoaxkA=&xsec_source=pc_search",
+      "heat_score": 3434.85,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "62296ef5000000000102d689",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 6,
+      "title": "去闭口干货（便宜、有效、直接抄作业）",
+      "source_url": "https://www.xiaohongshu.com/explore/62296ef5000000000102d689?xsec_token=AB7dH0Xh6VhaByHgL_TSo0TuKdqzGWlDk7d8ANOxiFL_w=&xsec_source=pc_search",
+      "heat_score": 3132.75,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6795eedf000000002901deee",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 7,
+      "title": "分享我是如何缩小毛孔的",
+      "source_url": "https://www.xiaohongshu.com/explore/6795eedf000000002901deee?xsec_token=ABXzydv-zqGOWZwt5ELNTPfG4lmY2ItftDWZhu_2MFg34=&xsec_source=pc_search",
+      "heat_score": 3048.5,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "689f013e000000001c00752b",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 8,
+      "title": "5min手把手去闭口教程❗️（狠人洗护跟练",
+      "source_url": "https://www.xiaohongshu.com/explore/689f013e000000001c00752b?xsec_token=ABpD85PqmVAkT0oK1HV8va-jsKHzTV3OP0aRwqM3PHshQ=&xsec_source=pc_search",
+      "heat_score": 2872.7,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6a01af100000000006033f62",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 9,
+      "title": "13年油痘肌缩毛孔干货来咯（100%无广",
+      "source_url": "https://www.xiaohongshu.com/explore/6a01af100000000006033f62?xsec_token=ABn-vKAAiTdA0Kr1VutQvu_mMomFYdNY_x4gMxwdSAh70=&xsec_source=pc_search",
+      "heat_score": 2633.9,
+      "review_note": ""
+    },
+    {
+      "source_id": "620f1f7d00000000210366b5",
+      "primary_direction": "毛孔清洁",
+      "direction_rank": 10,
+      "title": "真实有效去闭口、痘痘经验分享",
+      "source_url": "https://www.xiaohongshu.com/explore/620f1f7d00000000210366b5?xsec_token=AB8mHeISjVv4Jf4EywdCKyXnDw2S3al1sXmIFnjjizEY0=&xsec_source=pc_search",
+      "heat_score": 2571.45,
+      "review_note": ""
+    },
+    {
+      "source_id": "6a20f3210000000022015948",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 1,
+      "title": "无酸搞定颗粒脸",
+      "source_url": "https://www.xiaohongshu.com/explore/6a20f3210000000022015948?xsec_token=ABPce3fZmad6sNgK_qxlFZm--wUR8o3TLbCUtWkwUEOKU=&xsec_source=pc_search",
+      "heat_score": 5635.25,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6624dcd800000000010307b0",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 2,
+      "title": "一张常年用酸的脸",
+      "source_url": "https://www.xiaohongshu.com/explore/6624dcd800000000010307b0?xsec_token=ABV46AUfHCxlGhBpLVnOouZPnhBv8tdhOobJ_91cBR2HI=&xsec_source=pc_search",
+      "heat_score": 4926.05,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "66f0e5e6000000001a023f47",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 3,
+      "title": "11年油痘肌教你如何正确用水杨酸！",
+      "source_url": "https://www.xiaohongshu.com/explore/66f0e5e6000000001a023f47?xsec_token=ABZCfQqXy8H7cwxz0K9bepbrsZ4AhHQJPKtP433t_bP0Q=&xsec_source=pc_search",
+      "heat_score": 3474.1,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "68777040000000001d00d5d7",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 4,
+      "title": "12年油痘肌，用酸干货+爱用酸分享！",
+      "source_url": "https://www.xiaohongshu.com/explore/68777040000000001d00d5d7?xsec_token=ABkDhGWEp7j6B-i13LJ5ne67_TxSr7VRyBlc8sMU9SzSg=&xsec_source=pc_search",
+      "heat_score": 1975.2,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "69fee36d00000000230073b9",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 5,
+      "title": "一张常年用酸年的脸",
+      "source_url": "https://www.xiaohongshu.com/explore/69fee36d00000000230073b9?xsec_token=ABV_axaQPnSwXS_SfUuzxlu99ogEwrZIDFMn5ukKNf8F8=&xsec_source=pc_search",
+      "heat_score": 1972.3,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65e307db000000000400283c",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 6,
+      "title": "几十块钱的酸，让我从油痘肌变成水光肌",
+      "source_url": "https://www.xiaohongshu.com/explore/65e307db000000000400283c?xsec_token=ABsoB-GbME8RqbWJOHjfxr2j52O2VgIavFn1JAnxP33_o=&xsec_source=pc_search",
+      "heat_score": 1522.2,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6788ff6c00000000180308ff",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 7,
+      "title": "一张常年用酸的脸",
+      "source_url": "https://www.xiaohongshu.com/explore/6788ff6c00000000180308ff?xsec_token=ABZyNGDbRPhI-MFMRCJ4fMC2Io7Nq7uGTUMez_O7Grp1U=&xsec_source=pc_search",
+      "heat_score": 900.65,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6800afe1000000001d014ca7",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 8,
+      "title": "用酸6年的脸",
+      "source_url": "https://www.xiaohongshu.com/explore/6800afe1000000001d014ca7?xsec_token=ABWMZgF3atKKm9TpHJ5M0Px4Wj_Dtx4IH6Ri_axX3dfp4=&xsec_source=pc_search",
+      "heat_score": 841.0,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "695a2561000000001f0096c0",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 9,
+      "title": "经常用酸的好处",
+      "source_url": "https://www.xiaohongshu.com/explore/695a2561000000001f0096c0?xsec_token=AB5v4CmiebtyFQF8vZbzr-ZVxjA1YK4Af9LKT3LrceV7E=&xsec_source=pc_search",
+      "heat_score": 762.4,
+      "review_note": ""
+    },
+    {
+      "source_id": "67fb49a0000000001d01cbb4",
+      "primary_direction": "刷酸焕肤",
+      "direction_rank": 10,
+      "title": "感谢酸A晚间护肤还我妈生好皮",
+      "source_url": "https://www.xiaohongshu.com/explore/67fb49a0000000001d01cbb4?xsec_token=AB3tCNoiS0N7zDbvBDE-R0BhlW47ve46qj4aIgvQwYjJA=&xsec_source=pc_search",
+      "heat_score": 750.5,
+      "review_note": "rule_reviewed: 酸 A 晚间护肤"
+    },
+    {
+      "source_id": "67614235000000001300029b",
+      "primary_direction": "抗老修护",
+      "direction_rank": 1,
+      "title": "一张常年刷A醇的脸",
+      "source_url": "https://www.xiaohongshu.com/explore/67614235000000001300029b?xsec_token=ABjCJhD3qJ2JbhHOeU1jgf6le1gNPT8ooC8iE0WlIxhOM=&xsec_source=pc_search",
+      "heat_score": 2025.75,
+      "review_note": "rule_reviewed: A 醇长期使用，归抗老修护"
+    },
+    {
+      "source_id": "66c71790000000001d019c61",
+      "primary_direction": "抗老修护",
+      "direction_rank": 2,
+      "title": "垮脸救星！家庭版胶原肌肤灌注！",
+      "source_url": "https://www.xiaohongshu.com/explore/66c71790000000001d019c61?xsec_token=ABSdtYBwpdcysx830stnPK0S_J6EUIK5Fauwv0vFin-8o=&xsec_source=pc_search",
+      "heat_score": 1039.8,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "696b3c94000000000e03f1bf",
+      "primary_direction": "抗老修护",
+      "direction_rank": 3,
+      "title": "坚持了很多年 淡眼纹、去黑眼圈的护眼干货",
+      "source_url": "https://www.xiaohongshu.com/explore/696b3c94000000000e03f1bf?xsec_token=ABod5m36w6bMm7ScpwyWfSH5DWj4sWlYqNNWCChXKhQx4=&xsec_source=pc_search",
+      "heat_score": 965.6,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65472ea8000000001e03e2e0",
+      "primary_direction": "抗老修护",
+      "direction_rank": 4,
+      "title": "淡化眼纹、黑眼圈的方法！",
+      "source_url": "https://www.xiaohongshu.com/explore/65472ea8000000001e03e2e0?xsec_token=AB-Icf9BaWLgeVtRGXwjaP1kd2k_E_6jdT1ear4mTJy7k=&xsec_source=pc_search",
+      "heat_score": 734.0,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "694e7815000000001f00e629",
+      "primary_direction": "抗老修护",
+      "direction_rank": 5,
+      "title": "垮脸跟练！3min速速回春的胶原按摩法",
+      "source_url": "https://www.xiaohongshu.com/explore/694e7815000000001f00e629?xsec_token=AByqY3rW3Cs79t0-IUMxWeoxTDOzbkkS3hEKBR2zIe7eE=&xsec_source=pc_search",
+      "heat_score": 643.55,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6a1d54940000000007027ae5",
+      "primary_direction": "抗老修护",
+      "direction_rank": 6,
+      "title": "搞定眼纹、泪沟、松弛的眼周抗老干货！",
+      "source_url": "https://www.xiaohongshu.com/explore/6a1d54940000000007027ae5?xsec_token=ABsOmrpSU0ZgRBZ8Ltx0xGX0utzINzG0BH3q72w0fGYI0=&xsec_source=pc_search",
+      "heat_score": 633.9,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6718acb4000000001b03e9f9",
+      "primary_direction": "抗老修护",
+      "direction_rank": 7,
+      "title": "油痘肌抗老：不长痘和嫩肤我都要！",
+      "source_url": "https://www.xiaohongshu.com/explore/6718acb4000000001b03e9f9?xsec_token=ABRh-zkiNywP9f-SA4eoQrw_b4oQVqfDi-3ZAbDXyZj5k=&xsec_source=pc_search",
+      "heat_score": 385.75,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "63c103ab000000001b015fe5",
+      "primary_direction": "抗老修护",
+      "direction_rank": 8,
+      "title": "油痘肌抗老其实很简单",
+      "source_url": "https://www.xiaohongshu.com/explore/63c103ab000000001b015fe5?xsec_token=ABMOQn1O4TpQDEj2iymD2-caQ5p7DDz0IhaqzKaPTjMoY=&xsec_source=pc_search",
+      "heat_score": 355.15,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "682ec4d60000000021007d89",
+      "primary_direction": "抗老修护",
+      "direction_rank": 9,
+      "title": "30岁淡化眼纹、黑眼圈超绝的方法！",
+      "source_url": "https://www.xiaohongshu.com/explore/682ec4d60000000021007d89?xsec_token=ABbdNdq1e_iAl9-YGmoVO926lXsfWNCLnFb1HMQ2SW4SU=&xsec_source=pc_search",
+      "heat_score": 333.4,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "69c5f94f000000002202bc26",
+      "primary_direction": "抗老修护",
+      "direction_rank": 10,
+      "title": "NAD+抗老到底靠谱吗？说说我的真实感受",
+      "source_url": "https://www.xiaohongshu.com/explore/69c5f94f000000002202bc26?xsec_token=ABTYY5iKh0v_bOBYggUoRtTFkCTy4ukq2xXKMDW-vcJB0=&xsec_source=pc_search",
+      "heat_score": 318.85,
+      "review_note": ""
+    },
+    {
+      "source_id": "64b8b4fb000000000a0186a3",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 1,
+      "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+      "source_url": "https://www.xiaohongshu.com/explore/64b8b4fb000000000a0186a3?xsec_token=AB9Dex74ca98DibW_qbYN-xWjt7q_bFEv6ef0i8NOCJ7E=&xsec_source=pc_search",
+      "heat_score": 5817.35,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "66a4b2bd0000000027012756",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 2,
+      "title": "家庭版水光发教程！",
+      "source_url": "https://www.xiaohongshu.com/explore/66a4b2bd0000000027012756?xsec_token=AB8WroyzR1TlIYGFRExuepdXLChaHrhtNGkDHZS3KF6RA=&xsec_source=pc_search",
+      "heat_score": 3560.35,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "66fd4382000000001a021c8b",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 3,
+      "title": "家庭版光子真的让皮肤变得好细腻通透",
+      "source_url": "https://www.xiaohongshu.com/explore/66fd4382000000001a021c8b?xsec_token=AB977zF-Gzi99REDvl-B_WXj2nVo1_YW31wmD1U-Rx1Gc=&xsec_source=pc_search",
+      "heat_score": 1986.1,
+      "review_note": "rule_reviewed: 家庭版光子明确项目平替"
+    },
+    {
+      "source_id": "6857fab6000000002400fecb",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 4,
+      "title": "沉浸式！一周一次家庭版🌊飞秀～",
+      "source_url": "https://www.xiaohongshu.com/explore/6857fab6000000002400fecb?xsec_token=AB_GduQMrkG1FWLbsZGEfQ6Zc2DHa_hfk-wqs9KaM_WUQ=&xsec_source=pc_search",
+      "heat_score": 1851.95,
+      "review_note": "rule_reviewed: 家庭版飞秀"
+    },
+    {
+      "source_id": "664829ea0000000014018add",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 5,
+      "title": "养好发质的方法（水光发教程）",
+      "source_url": "https://www.xiaohongshu.com/explore/664829ea0000000014018add?xsec_token=ABpCI6qVeA8TsZPwa4u9Jrli_MUFyvK1MvwEX1DraxDU0=&xsec_source=pc_search",
+      "heat_score": 1013.6,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "66daaa6a000000001e01b1bd",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 6,
+      "title": "分享我的家庭版舒敏之星，敏肌超爱！",
+      "source_url": "https://www.xiaohongshu.com/explore/66daaa6a000000001e01b1bd?xsec_token=ABjVouKcmLaFS513w0CsZUHjKskcK67bY93tn5Oq5iCbI=&xsec_source=pc_search",
+      "heat_score": 864.1,
+      "review_note": "rule_reviewed: 家庭版舒敏之星属于家用项目平替"
+    },
+    {
+      "source_id": "6a0ebd99000000000803d4d2",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 7,
+      "title": "又省钱又有效果的家庭版项目图文来咯！",
+      "source_url": "https://www.xiaohongshu.com/explore/6a0ebd99000000000803d4d2?xsec_token=ABPQYplgpSZOG5X6-G9d1LHUeRy_YM2Hbk4jtVa29npl8=&xsec_source=pc_search",
+      "heat_score": 825.85,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "659cdcba000000001a000038",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 8,
+      "title": "油痘肌变水光肌，油光和水光就差一点点",
+      "source_url": "https://www.xiaohongshu.com/explore/659cdcba000000001a000038?xsec_token=ABAM60FNC6ejkxAoixgNNcgRdOOeuw9pPAyK1o0QVGHr4=&xsec_source=pc_search",
+      "heat_score": 786.55,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "68c2ac85000000001b03d2ca",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 9,
+      "title": "5min居家版胶原灌肤省钱跟练‼️做完嫩到发光",
+      "source_url": "https://www.xiaohongshu.com/explore/68c2ac85000000001b03d2ca?xsec_token=ABAFA18biX-3gI5-_LUApG0SefXsUzXPl9YD0uQppqTZk=&xsec_source=pc_search",
+      "heat_score": 634.5,
+      "review_note": "rule_reviewed: 居家胶原灌肤省钱跟练"
+    },
+    {
+      "source_id": "670d12720000000021002837",
+      "primary_direction": "美容项目平替",
+      "direction_rank": 10,
+      "title": "一些油痘肌超爱的狠货（深圳秋冬天版）",
+      "source_url": "https://www.xiaohongshu.com/explore/670d12720000000021002837?xsec_token=ABIN5YBCfs5_GJ7cEtKp22JeO9XfvaLhUDv_hhXb8OgXQ=&xsec_source=pc_search",
+      "heat_score": 599.45,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6950aad8000000001e035c17",
+      "primary_direction": "好物测评",
+      "direction_rank": 1,
+      "title": "怒花几千块总结的大实话！oy好物歹物全分享",
+      "source_url": "https://www.xiaohongshu.com/explore/6950aad8000000001e035c17?xsec_token=AB9GjNXnSI0xjL19oLaCE7Mq0Lw1YGlfg8z1ZOTCLTzDA=&xsec_source=pc_search",
+      "heat_score": 5581.7,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "63072d4c000000001b01d33f",
+      "primary_direction": "好物测评",
+      "direction_rank": 2,
+      "title": "告别猪肝红！告别乌唇！深唇变浅唇经验分享！",
+      "source_url": "https://www.xiaohongshu.com/explore/63072d4c000000001b01d33f?xsec_token=ABLunYMCHv7OBNcRl-jviNaNWf04HwHubz-6we5LF5wJk=&xsec_source=pc_search",
+      "heat_score": 4408.65,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "667bd501000000001e010ec4",
+      "primary_direction": "好物测评",
+      "direction_rank": 3,
+      "title": "365天都在用的油皮真爱底妆！",
+      "source_url": "https://www.xiaohongshu.com/explore/667bd501000000001e010ec4?xsec_token=ABfSbAaRaquXM8As6PEFu_23KEwPAtJLxeQt9AaEKtfWc=&xsec_source=pc_search",
+      "heat_score": 4161.95,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6975d4de000000001a02c269",
+      "primary_direction": "好物测评",
+      "direction_rank": 4,
+      "title": "不知道，橄榄皮涂烟紫色口红很曼妙",
+      "source_url": "https://www.xiaohongshu.com/explore/6975d4de000000001a02c269?xsec_token=ABl8QCL5tHlMgUsoyTfkhOojwGUQqzmIcv73T3mFV6j5k=&xsec_source=pc_search",
+      "heat_score": 3792.3,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "64eae6c1000000000c034f78",
+      "primary_direction": "好物测评",
+      "direction_rank": 5,
+      "title": "油痘肌用了不会闷痘的防晒！（非日系）",
+      "source_url": "https://www.xiaohongshu.com/explore/64eae6c1000000000c034f78?xsec_token=ABZX_IeffKkcXNK1SQ2UFRPovsIp3Nwe1uNww2ZRmtsH0=&xsec_source=pc_search",
+      "heat_score": 3468.9,
+      "review_note": "rule_reviewed: 防晒产品评价"
+    },
+    {
+      "source_id": "65d4624f0000000001029e88",
+      "primary_direction": "好物测评",
+      "direction_rank": 6,
+      "title": "只要几十块的油痘肌平价好物！超爱！",
+      "source_url": "https://www.xiaohongshu.com/explore/65d4624f0000000001029e88?xsec_token=ABso1P1L6apCBpPnB_S-OIvJop6AgUS027rAscMaaI-RY=&xsec_source=pc_search",
+      "heat_score": 3421.2,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "631bfe28000000001103c53c",
+      "primary_direction": "好物测评",
+      "direction_rank": 7,
+      "title": "让油痘肌皮肤又细又滑的三款夜间精华分享",
+      "source_url": "https://www.xiaohongshu.com/explore/631bfe28000000001103c53c?xsec_token=ABLda5m5gxmkpLW1_EaS-MO-5mZPa8Slru0P5cJGj0_TM=&xsec_source=pc_search",
+      "heat_score": 3089.15,
+      "review_note": "rule_reviewed: 三款夜间精华分享，产品清单属性更强"
+    },
+    {
+      "source_id": "62442027000000002103ca20",
+      "primary_direction": "好物测评",
+      "direction_rank": 8,
+      "title": "眼部拨经12年，我现在眼睛怎么样了",
+      "source_url": "https://www.xiaohongshu.com/explore/62442027000000002103ca20?xsec_token=ABo6PPaBgMi8zRYY0qY4EuVy-OU4cUaRa0DKP4xDhW-0g=&xsec_source=pc_search",
+      "heat_score": 3005.15,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "63034030000000001b01d176",
+      "primary_direction": "好物测评",
+      "direction_rank": 9,
+      "title": "适合油痘肌，用了绝不闷痘的好用面霜分享",
+      "source_url": "https://www.xiaohongshu.com/explore/63034030000000001b01d176?xsec_token=AB2OcJa3poX8PfbIw-zXiOd4DznkG4aHl50A9PQTZ_RyI=&xsec_source=pc_search",
+      "heat_score": 2994.95,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "67f20142000000001e0086ca",
+      "primary_direction": "好物测评",
+      "direction_rank": 10,
+      "title": "回购10年的油皮真爱底妆（油痘敏肌）",
+      "source_url": "https://www.xiaohongshu.com/explore/67f20142000000001e0086ca?xsec_token=AB1g7Pg6BtnuF3Af_AbU_oy4TXTnWl7L_vgW3vpe2elV0=&xsec_source=pc_search",
+      "heat_score": 2823.95,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65c4aefe000000002c0103d9",
+      "primary_direction": "变美经验",
+      "direction_rank": 1,
+      "title": "紧急变美！试试家庭版肌肤灌注！省下几千块~",
+      "source_url": "https://www.xiaohongshu.com/explore/65c4aefe000000002c0103d9?xsec_token=ABrY-d8UjY-OqDq_BNrvXIhqHiewcwFgdqtpPU-19zItA=&xsec_source=pc_search",
+      "heat_score": 1442.55,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6867b1210000000024008ed6",
+      "primary_direction": "变美经验",
+      "direction_rank": 2,
+      "title": "一包搞定变美！跟随我多次旅行的 mini彩妆～",
+      "source_url": "https://www.xiaohongshu.com/explore/6867b1210000000024008ed6?xsec_token=ABRi6GF7yzFrERng_BlSnWe1eiUsxFUQ3pXgkEKq32Q1o=&xsec_source=pc_search",
+      "heat_score": 1408.15,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65d0422300000000070047b9",
+      "primary_direction": "变美经验",
+      "direction_rank": 3,
+      "title": "聊聊我如何通过养生变美的",
+      "source_url": "https://www.xiaohongshu.com/explore/65d0422300000000070047b9?xsec_token=ABFHJTtYWsITRkK1bgCgrVet23lzLKK7sm9syyr4qO0rY=&xsec_source=pc_search",
+      "heat_score": 1358.0,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65ec424e000000000102950d",
+      "primary_direction": "变美经验",
+      "direction_rank": 4,
+      "title": "这个油痘皮遮瑕方法绝了",
+      "source_url": "https://www.xiaohongshu.com/explore/65ec424e000000000102950d?xsec_token=AB8u8gYhpiGFdY2SJohY6gN8-dbheizZdimAYZtC4IgZY=&xsec_source=pc_search",
+      "heat_score": 1225.1,
+      "review_note": "rule_reviewed: 遮瑕方法技巧"
+    },
+    {
+      "source_id": "63478bdf000000000801388a",
+      "primary_direction": "变美经验",
+      "direction_rank": 5,
+      "title": "干净、清透的底妆分享",
+      "source_url": "https://www.xiaohongshu.com/explore/63478bdf000000000801388a?xsec_token=AByIfPTg3jtW34nwt7Jq_X43Xhe9yCNRBylKeXhfuBf4Q=&xsec_source=pc_search",
+      "heat_score": 537.05,
+      "review_note": "rule_reviewed: 干净清透底妆技巧"
+    },
+    {
+      "source_id": "6934f083000000001f005af1",
+      "primary_direction": "变美经验",
+      "direction_rank": 6,
+      "title": "普女爆改vlog～花50w体验韩女三件套！",
+      "source_url": "https://www.xiaohongshu.com/explore/6934f083000000001f005af1?xsec_token=ABT1a_eRPHM2TrFkHLpI-VdaLox96s2y0wFVa4lW5P_zc=&xsec_source=pc_search",
+      "heat_score": 522.45,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "692c1681000000001e022a14",
+      "primary_direction": "变美经验",
+      "direction_rank": 7,
+      "title": "🇰🇷剪发vlog～花17w能笑着走出来吗？",
+      "source_url": "https://www.xiaohongshu.com/explore/692c1681000000001e022a14?xsec_token=ABqYMJRL1BjSHHvOq1Mzv--rWATzMajRi5DrJaMu63Oro=&xsec_source=pc_search",
+      "heat_score": 507.3,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "66f3fc4f000000001a0209b9",
+      "primary_direction": "变美经验",
+      "direction_rank": 8,
+      "title": "10分钟搞定的慵懒卷发（保姆级教程了）",
+      "source_url": "https://www.xiaohongshu.com/explore/66f3fc4f000000001a0209b9?xsec_token=ABakCE8aznFQo1yDqLoC8xIIULMTs9u2OSxiiXk8RWttA=&xsec_source=pc_search",
+      "heat_score": 203.5,
+      "review_note": ""
+    },
+    {
+      "source_id": "6690fcbc00000000250051b3",
+      "primary_direction": "变美经验",
+      "direction_rank": 9,
+      "title": "一包搞定变美！跟随我多次旅行的mini彩妆",
+      "source_url": "https://www.xiaohongshu.com/explore/6690fcbc00000000250051b3?xsec_token=ABP31WwdUu7IE-NjlQ2LT4zEBJIe5FPZ9bpScLqQhH1mU=&xsec_source=pc_search",
+      "heat_score": 115.95,
+      "review_note": ""
+    },
+    {
+      "source_id": "688eeb360000000023030410",
+      "primary_direction": "生活方式",
+      "direction_rank": 1,
+      "title": "黄皮素颜口红（原相机！日常显白！懒人必备！",
+      "source_url": "https://www.xiaohongshu.com/explore/688eeb360000000023030410?xsec_token=ABdJmB47RrSiNz9M0968y43rXC3Ih9pqklYFupgPKmFfo=&xsec_source=pc_search",
+      "heat_score": 852.35,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "68aec3e8000000001b03d106",
+      "primary_direction": "生活方式",
+      "direction_rank": 2,
+      "title": "12年油痘肌超爱的健康果蔬汁配方～",
+      "source_url": "https://www.xiaohongshu.com/explore/68aec3e8000000001b03d106?xsec_token=ABKxp0METMwadpWKObitbEJ4295506gO9JhrHaT4_tIBA=&xsec_source=pc_search",
+      "heat_score": 707.1,
+      "review_note": "rule_reviewed: 健康果蔬汁配方"
+    },
+    {
+      "source_id": "69bf6e26000000002800895f",
+      "primary_direction": "生活方式",
+      "direction_rank": 3,
+      "title": "🇯🇵vlog🍜这一路的麻辣鲜香只有自己知道…",
+      "source_url": "https://www.xiaohongshu.com/explore/69bf6e26000000002800895f?xsec_token=ABeYyxmC_sG3aCUn_QXv20IRmEfd0ivNV9A4xABu4_jVI=&xsec_source=pc_search",
+      "heat_score": 603.4,
+      "review_note": "rule_reviewed: 日本 vlog 和饮食旅行"
+    },
+    {
+      "source_id": "68ba84be000000001c00ec0a",
+      "primary_direction": "生活方式",
+      "direction_rank": 4,
+      "title": "12年油痘肌养成不长痘体质（内调实操篇",
+      "source_url": "https://www.xiaohongshu.com/explore/68ba84be000000001c00ec0a?xsec_token=ABCe5eD7VKjfJGc-aKqEcYbje6SCsHWsYfERcuKB6vm8U=&xsec_source=pc_search",
+      "heat_score": 546.6,
+      "review_note": "rule_reviewed: 内调实操偏生活方式"
+    },
+    {
+      "source_id": "697ed0c7000000002802148f",
+      "primary_direction": "生活方式",
+      "direction_rank": 5,
+      "title": "12年油痘人 一天吃什么vlog～",
+      "source_url": "https://www.xiaohongshu.com/explore/697ed0c7000000002802148f?xsec_token=ABtC8J9GUtparpwnHJmyx5HMYyH4goUPH0yLufWiFcPKg=&xsec_source=pc_search",
+      "heat_score": 485.05,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6922c5c9000000001e03699a",
+      "primary_direction": "生活方式",
+      "direction_rank": 6,
+      "title": "8min下饭菜！买了超多秋冬衣服配饰📦爽拆！",
+      "source_url": "https://www.xiaohongshu.com/explore/6922c5c9000000001e03699a?xsec_token=AB0qqJzHF4cCAOnsdKIJloVdofzPrAEm4Qqd1MSXApml0=&xsec_source=pc_search",
+      "heat_score": 438.9,
+      "review_note": "rule_reviewed: 下饭菜和衣服配饰开箱"
+    },
+    {
+      "source_id": "69db2205000000001f006e3c",
+      "primary_direction": "生活方式",
+      "direction_rank": 7,
+      "title": "13min超长下饭春夏开箱📦爽拆！",
+      "source_url": "https://www.xiaohongshu.com/explore/69db2205000000001f006e3c?xsec_token=ABnhxktMsG_WBzzfFRZ4nGgpmXETdo5JlLEZgj-gWR6oA=&xsec_source=pc_search",
+      "heat_score": 395.3,
+      "review_note": "rule_reviewed: 春夏开箱和生活消费记录"
+    },
+    {
+      "source_id": "62fa3cab0000000015008f05",
+      "primary_direction": "生活方式",
+      "direction_rank": 8,
+      "title": "常年生活在夏季但一点没黑，我真的会谢",
+      "source_url": "https://www.xiaohongshu.com/explore/62fa3cab0000000015008f05?xsec_token=AB43DaaAryE-SLXDp09_eaRVFtcyd6F4BVDkiZdyUkbPI=&xsec_source=pc_search",
+      "heat_score": 159.35,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "65532e6b000000001100efdf",
+      "primary_direction": "生活方式",
+      "direction_rank": 9,
+      "title": "小森林的Vlog｜去香港吃吃逛逛买水晶咯～🔮",
+      "source_url": "https://www.xiaohongshu.com/explore/65532e6b000000001100efdf?xsec_token=ABpYHm4xpmQ3epay0zK2rq_aOHp49jkmIHL_FAtVP2FoQ=&xsec_source=pc_search",
+      "heat_score": 159.0,
+      "review_note": ""
+    },
+    {
+      "source_id": "69fda6690000000022024dad",
+      "primary_direction": "生活方式",
+      "direction_rank": 10,
+      "title": "3️⃣个！13年油痘肌超爱去黄蔬果汁配方～",
+      "source_url": "https://www.xiaohongshu.com/explore/69fda6690000000022024dad?xsec_token=ABLE8mufKXqkuJkRgZWp2lljkVYY0nA_MgafoTxNTvP0w=&xsec_source=pc_search",
+      "heat_score": 129.95,
+      "review_note": "rule_reviewed: 去黄蔬果汁配方"
+    },
+    {
+      "source_id": "69995208000000001a031908",
+      "primary_direction": "账号运营",
+      "direction_rank": 1,
+      "title": "30w粉福，是谁会莫名其妙的收到一个🎁呢",
+      "source_url": "https://www.xiaohongshu.com/explore/69995208000000001a031908?xsec_token=ABpdehFZkQL3w9guxkMEcrVpgdycMXkuBb8o8Qclc-zUM=&xsec_source=pc_search",
+      "heat_score": 984.85,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6313284d0000000013039b5e",
+      "primary_direction": "账号运营",
+      "direction_rank": 2,
+      "title": "六个月，从0到10w粉～感谢小红书感谢你们🎁🙏",
+      "source_url": "https://www.xiaohongshu.com/explore/6313284d0000000013039b5e?xsec_token=ABJQ2uNVZtEowwa11cyxkJD8AL5vy829Guh5lgQ7ddnDg=&xsec_source=pc_search",
+      "heat_score": 403.85,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "6601240000000000120215ed",
+      "primary_direction": "账号运营",
+      "direction_rank": 3,
+      "title": "你是我惟一一个相信的博主，希望一直都是",
+      "source_url": "https://www.xiaohongshu.com/explore/6601240000000000120215ed?xsec_token=ABOEB3VTNPYse9jJInuHamEWynoJPPEg_Gqzv3GfFA9jg=&xsec_source=pc_search",
+      "heat_score": 335.3,
+      "review_note": "rule_reviewed: 粉丝信任关系表达"
+    },
+    {
+      "source_id": "6708e2ec000000001a0224e9",
+      "primary_direction": "账号运营",
+      "direction_rank": 4,
+      "title": "不花冤枉钱！双11直播间必买清单🧾",
+      "source_url": "https://www.xiaohongshu.com/explore/6708e2ec000000001a0224e9?xsec_token=ABXzbhzWLFSANlNnXYUuEtQ0gFva5LKxP5UEEf-JB9EHI=&xsec_source=pc_search",
+      "heat_score": 319.05,
+      "review_note": "deep_plan_authoritative"
+    },
+    {
+      "source_id": "691d78d3000000001e02e242",
+      "primary_direction": "账号运营",
+      "direction_rank": 5,
+      "title": "最简单的转场出现了！记录开心的东北行🚗",
+      "source_url": "https://www.xiaohongshu.com/explore/691d78d3000000001e02e242?xsec_token=ABq6wXB9e5KSn3RI_IQCfhWTLJm7jXGsP2jII0XNgMu94=&xsec_source=pc_search",
+      "heat_score": 253.55,
+      "review_note": "rule_reviewed: 转场与记录技巧"
+    },
+    {
+      "source_id": "6562aa89000000001701deda",
+      "primary_direction": "账号运营",
+      "direction_rank": 6,
+      "title": "真的很可怕，这种品牌请你不要再找我合作",
+      "source_url": "https://www.xiaohongshu.com/explore/6562aa89000000001701deda?xsec_token=ABOHGNxX9uk6tSXMpLI4EyEieqsd3tMuhifMuMoVwHiS8=&xsec_source=pc_search",
+      "heat_score": 224.85,
+      "review_note": "rule_reviewed: 品牌合作筛选和商业边界"
+    },
+    {
+      "source_id": "65a20f9e000000001d035c85",
+      "primary_direction": "账号运营",
+      "direction_rank": 7,
+      "title": "做小红书买手10个月了，来说说心里话🫰",
+      "source_url": "https://www.xiaohongshu.com/explore/65a20f9e000000001d035c85?xsec_token=ABlgPQEi9FlYCCbJPchIcOLDBVvpyLBJzBh2Y3tDmBT_I=&xsec_source=pc_search",
+      "heat_score": 167.75,
+      "review_note": ""
+    },
+    {
+      "source_id": "654f97740000000032008bd1",
+      "primary_direction": "账号运营",
+      "direction_rank": 8,
+      "title": "超级感谢大家💕",
+      "source_url": "https://www.xiaohongshu.com/explore/654f97740000000032008bd1?xsec_token=ABM29Z4xzuyUjaWG70Ex49nt-q-aREHto3GnkHax5eYto=&xsec_source=pc_search",
+      "heat_score": 57.55,
+      "review_note": "rule_reviewed: 粉丝感谢/互动类内容"
+    }
+  ]
+}

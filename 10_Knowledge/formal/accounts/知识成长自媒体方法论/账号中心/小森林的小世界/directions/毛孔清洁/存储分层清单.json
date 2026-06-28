@@ -1,0 +1,3523 @@
+{
+  "generated_at": "2026-06-28T21:58:05",
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "account": "小森林的小世界",
+  "direction": "毛孔清洁",
+  "policy": "正式热知识保留；大体积证据登记云端候选；候选区原件待迁移/删除审核。",
+  "items": [
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/01_6a0c3b590000000006022a9a_让我全脸细腻的毛孔深层清洁5_0来了.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7996,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 17055088,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4562,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 149755,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 141785,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 145920,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 202640,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 147924,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183021,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198497,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 221346,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190697,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177781,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 194543,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 166634,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 194995,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 136061,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201404,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201363,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190478,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199852,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 176089,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181606,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180534,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187197,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 144432,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193073,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180268,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192140,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 156053,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 161760,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-029-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182399,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-030-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 160270,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-031-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189259,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-032-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 155495,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-033-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 195649,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-034-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 159831,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-035-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185825,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-036-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 188495,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-037-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 194608,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-038-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 203270,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-039-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 214062,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-040-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 231345,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-041-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 216160,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-042-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199952,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-043-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200741,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-044-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 195369,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-045-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 197238,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-046-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192698,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-047-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 204784,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-048-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 194991,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-049-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201843,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-050-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192624,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-051-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 209451,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-052-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193883,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-053-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191924,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-054-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 158397,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-055-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 156728,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-056-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 164711,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-057-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 167135,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-058-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 169670,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-059-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 174793,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-060-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 156620,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-061-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 165456,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-062-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 132508,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-063-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191288,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-064-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193448,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-065-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 196991,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-066-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 207344,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-067-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 213893,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-068-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 144719,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-069-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198643,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-070-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 163320,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-071-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168192,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-072-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200995,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-073-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 166090,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-074-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 165950,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-075-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 91853,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-076-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178476,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-077-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185042,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-078-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 158908,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-079-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 186783,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-080-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 202467,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-081-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200234,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-082-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 179540,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-083-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 186116,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-084-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190558,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-085-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193277,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-086-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193082,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-087-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193779,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-088-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200375,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-089-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191493,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-090-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 174279,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-091-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 207343,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-092-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187749,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-093-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175285,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-094-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183801,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-095-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 164057,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-096-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 171515,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scene-097-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185669,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 8981,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 77513873,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 41741,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 21404,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 21404,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 41741,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/02_674752270000000007024b95_手把手分享我是如何一周解决痘痘闭口粉刺的.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 8224,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 5573656,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4474,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 156131,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184087,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199423,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 205814,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 113394,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 116733,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 244447,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 258607,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 237060,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193203,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 232679,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 136620,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180028,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 104533,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 218027,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 141738,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 242403,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 130585,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 240735,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 249805,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201664,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 237208,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 216487,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 227127,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180622,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 221777,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 225710,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 214180,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-029-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 229258,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-030-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 211060,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-031-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 224516,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-032-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 220868,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-033-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 207630,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-034-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 204810,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-035-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 211475,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-036-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 210444,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-037-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178426,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-038-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178694,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-039-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175721,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scene-040-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 242092,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 3697,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 31506763,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 12721,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 6771,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 6771,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 12721,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/03_6a03ecba000000000702eb7a_缩毛孔真的很简单_具体实操篇.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7468,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 11263844,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4561,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192602,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168167,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 188581,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191831,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 138930,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 139120,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 162353,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 173742,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 149035,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 145145,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 164742,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 158549,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175602,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 188304,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 142214,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192254,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191092,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193208,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184536,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192523,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187256,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 150786,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 133390,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 145559,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 145231,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191654,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 206516,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 162153,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-029-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 179121,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-030-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 197001,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-031-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181635,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-032-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 188928,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-033-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177124,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-034-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 171400,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-035-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182721,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-036-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 172872,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-037-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187627,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-038-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 145032,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-039-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 186667,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-040-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 165522,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-041-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168949,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-042-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 173530,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-043-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 160203,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-044-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 207856,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-045-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 165659,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-046-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 179439,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-047-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175717,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-048-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 130118,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-049-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180178,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-050-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 152258,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-051-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183678,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-052-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 150154,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-053-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180986,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-054-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 173368,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-055-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189387,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-056-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191597,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-057-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 169075,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-058-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180068,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-059-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175243,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-060-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198579,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-061-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 179709,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-062-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 188003,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-063-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 176994,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-064-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190538,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-065-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175207,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-066-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 171541,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-067-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184409,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-068-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 170662,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-069-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 165086,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-070-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178683,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-071-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178798,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-072-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175845,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-073-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189714,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-074-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 170787,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-075-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168537,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-076-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 153597,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-077-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 161100,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scene-078-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 160159,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 7235,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 59028649,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 24941,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 13209,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 13209,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 24941,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/04_68e49ee60000000004023c09_水光版毛孔深层清洁跟练_深层清洁全脸发光.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 8273,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 9367610,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4560,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184181,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 159521,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 171053,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 167869,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198508,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192137,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192866,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 179965,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184412,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185064,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184544,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183727,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183225,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 172538,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175344,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189121,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189196,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 174294,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 172437,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177410,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181459,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 155817,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177612,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180377,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 171874,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 172603,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 179084,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 2560,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 46357145,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 22129,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 11375,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 11375,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 22129,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/05_62f60c35000000001402ba24_正确去闭口保姆级教程_针清后注意事项.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7865,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 7624442,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4573,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 196405,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191686,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201395,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191490,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 196392,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 206866,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201114,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 771,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 36444252,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 17946,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 9364,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 9364,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 17946,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/06_62296ef5000000000102d689_去闭口干货_便宜_有效_直接抄作业.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 8069,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 7102828,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4477,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 169749,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 188026,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191035,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 174443,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 160513,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187466,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 170678,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 164940,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184309,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 957,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 39638359,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 13375,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 7428,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7428,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 13375,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/07_6795eedf000000002901deee_分享我是如何缩小毛孔的.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7393,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6795eedf000000002901deee/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 368,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/08_689f013e000000001c00752b_5min手把手去闭口教程_狠人洗护跟练.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 8060,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 9391388,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4560,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 163207,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180886,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181224,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181394,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177757,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175090,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168087,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 167860,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 164390,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 163416,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 133530,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 174047,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 104541,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 129358,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 136072,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 122908,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 121010,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185997,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192758,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 202005,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185863,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 176223,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177460,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 153428,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193667,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 161902,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191334,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 218803,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-029-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 210802,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-030-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168269,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-031-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201509,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-032-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183654,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-033-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175090,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-034-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 170933,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-035-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189398,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-036-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175419,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-037-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 163247,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-038-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 169273,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-039-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 180678,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-040-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 164934,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-041-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184774,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-042-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 167799,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-043-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184128,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-044-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177780,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-045-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181345,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-046-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175775,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-047-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 176058,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-048-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 166249,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-049-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175120,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-050-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 177177,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-051-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200511,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-052-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182147,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-053-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191931,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-054-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187698,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-055-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 183266,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-056-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 173140,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-057-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182623,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-058-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 166643,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-059-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 158500,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-060-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 144340,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scene-061-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178933,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 5618,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 40907072,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 20126,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 10825,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 10825,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 20126,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/09_6a01af100000000006033f62_13年油痘肌缩毛孔干货来咯_100_无广.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7492,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 11076598,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4475,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 226917,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 140766,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 246187,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 239441,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 235925,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 152243,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 155439,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 135553,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 156641,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 126254,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 212628,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190548,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182435,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-014-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 150286,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-015-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 217401,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-016-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 217366,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-017-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 224533,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-018-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 216800,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-019-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199857,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-020-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 214651,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-021-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 156264,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-022-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 252892,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-023-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 212743,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-024-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 143679,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-025-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 153367,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-026-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 240166,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-027-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190828,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-028-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 289058,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-029-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201302,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-030-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199801,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-031-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 195067,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-032-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201630,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-033-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200956,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-034-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 197495,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-035-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 214980,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-036-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182359,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-037-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 212314,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-038-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 207444,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-039-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201439,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-040-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 215761,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-041-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 208628,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-042-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 202555,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-043-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 196739,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-044-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201529,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-045-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 219271,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-046-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 206072,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-047-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182964,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-048-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201890,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-049-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 208439,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-050-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 194060,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-051-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187681,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-052-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 210261,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-053-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 197114,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-054-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 213399,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-055-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200691,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-056-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192904,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-057-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 173986,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-058-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200790,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-059-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 204824,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-060-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199829,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-061-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 203322,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-062-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 185331,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-063-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 201264,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-064-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 192346,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-065-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 189891,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-066-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 197618,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-067-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198510,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-068-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 207124,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-069-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198486,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-070-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193434,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-071-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 125028,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-072-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 204583,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-073-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 168033,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-074-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 191693,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-075-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 182823,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-076-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 187906,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-077-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 208528,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scene-078-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 199510,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 7255,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 67896014,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 26542,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 13861,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 13861,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 26542,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/10_620f1f7d00000000210366b5_真实有效去闭口_痘痘经验分享.md",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 7432,
+      "note": "单卡进入正式账号中心。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/_pipeline_state.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 1192,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/audio.wav",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 6821960,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/ffprobe.json",
+      "tier": "local_evidence",
+      "action": "keep_original_until_cleanup_review",
+      "size_bytes": 4477,
+      "note": "机器分析中间产物，只在核查时读取。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-001-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 197397,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-002-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 190808,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-003-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 200257,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-004-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 206932,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-005-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198342,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-006-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 193161,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-007-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 205335,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-008-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 181075,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-009-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 175656,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-010-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 184241,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-011-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 198678,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-012-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 178401,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scene-013-01.jpg",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 23652,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source-Scenes.csv",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 1323,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/source.mp4",
+      "tier": "cloud_candidate",
+      "action": "keep_original_until_cloud_or_delete_review",
+      "size_bytes": 36226082,
+      "note": "大体积或中间证据，不进入热知识区。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/transcript.json",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 20243,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/transcript.srt",
+      "tier": "formal_hot",
+      "action": "copy_to_formal_account",
+      "size_bytes": 10031,
+      "note": "逐字稿跟随单卡入库，便于写作回溯。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.srt",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 10031,
+      "note": "逐字稿正式副本。"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.json",
+      "tier": "formal_hot",
+      "action": "copied_to_formal_account",
+      "size_bytes": 20243,
+      "note": "逐字稿正式副本。"
+    }
+  ]
+}

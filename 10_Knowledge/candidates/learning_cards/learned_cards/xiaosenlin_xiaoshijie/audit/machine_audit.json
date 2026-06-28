@@ -1,0 +1,2995 @@
+{
+  "generated_at": "2026-06-28T21:59:27",
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "scope_path": "10_Knowledge/candidates/account_assets/content_rough_scan/xiaosenlin_xiaoshijie/deep_learning_scope.json",
+  "learned_base": "10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie",
+  "scope_count": 87,
+  "card_count": 87,
+  "missing_card_source_ids": [],
+  "machine_pass_count": 87,
+  "machine_review_count": 0,
+  "similarity_pair_count": 0,
+  "repeated_passage_count": 0,
+  "cards": [
+    {
+      "source_id": "62725331000000002103acec",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/05_62725331000000002103acec_洗面奶对于恢复皮肤屏障真的很重要.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62725331000000002103acec.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62725331000000002103acec/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62725331000000002103acec/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "皮肤屏障受损",
+          "拯救敏感肌",
+          "敏感肌皮肤屏障修复",
+          "洁面分享",
+          "经验分享",
+          "敏感肌洁面"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62b2dbbe000000000102c8e5",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/04_62b2dbbe000000000102c8e5_敏M肌正确洗脸方式.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62b2dbbe000000000102c8e5.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62b2dbbe000000000102c8e5/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62b2dbbe000000000102c8e5/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "拯救敏感肌",
+          "敏感肌修护",
+          "敏感肌",
+          "敏感肌洁面",
+          "好皮肤养成记"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62b69b12000000000f008069",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/06_62b69b12000000000f008069_痘肌好皮养成_大家都能拥有素颜光泽肌.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62b69b12000000000f008069.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "好皮肤养成记",
+          "闭口粉刺",
+          "怎么才能去闭口",
+          "油痘肌",
+          "油痘肌护肤",
+          "油痘肌大作战",
+          "痘痘肌",
+          "如何拯救痘痘肌",
+          "素颜"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62db869c000000001b03ec75",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/01_62db869c000000001b03ec75_油痘肌用了不会闷痘的清爽防晒.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62db869c000000001b03ec75.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62db869c000000001b03ec75/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62db869c000000001b03ec75/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "油痘肌大作战",
+          "防晒分享",
+          "防晒",
+          "平价防晒",
+          "物理防晒",
+          "每天涂防晒",
+          "防晒霜推荐",
+          "好用的防晒推荐"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6309d5f5000000001e009276",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/09_6309d5f5000000001e009276_油痘肌2022上半年护肤品爱用_自用_广.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6309d5f5000000001e009276.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌大作战",
+          "油痘肌护肤",
+          "油皮痘痘肌",
+          "好皮肤养成记"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "64c615ca000000000a01ab8a",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/03_64c615ca000000000a01ab8a_2年没去美容院_皮肤反而更好了.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_64c615ca000000000a01ab8a.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "油痘肌大作战",
+          "如何拯救痘痘肌",
+          "护肤",
+          "闭口粉刺",
+          "怎么才能去闭口"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65051544000000001f0054d5",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/10_65051544000000001f0054d5_分享我觉得效果特别好的护肤搭配给大家.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65051544000000001f0054d5.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "如何拯救痘痘肌",
+          "油痘肌大作战",
+          "油敏肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "67697519000000001300076f",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/08_67697519000000001300076f_刷A醇的第五年.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_67697519000000001300076f.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "我的护肤年度总结",
+          "年度护肤报告",
+          "油痘肌护肤",
+          "A醇",
+          "缩毛孔"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "67ed251b000000001d027d32",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/07_67ed251b000000001d027d32_12年油痘肌变成妈生好皮_我的变脸经历.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_67ed251b000000001d027d32.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67ed251b000000001d027d32/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67ed251b000000001d027d32/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "普通人的变美思路",
+          "不要低估一个女生变美的决心",
+          "祛痘帮帮忙",
+          "痘痘",
+          "油皮",
+          "祛痘印",
+          "护肤干货"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "67f64650000000001a006dd1",
+      "direction": "护肤功效",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/护肤功效/cards/02_67f64650000000001a006dd1_手把手分享我是怎么搞定外油内干的.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_67f64650000000001a006dd1.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67f64650000000001a006dd1/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67f64650000000001a006dd1/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "外油内干",
+          "油敏肌",
+          "护肤",
+          "油痘肌护肤",
+          "油皮",
+          "敏感"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "620f1f7d00000000210366b5",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/10_620f1f7d00000000210366b5_真实有效去闭口_痘痘经验分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_620f1f7d00000000210366b5.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_620f1f7d00000000210366b5/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "笔记灵感",
+          "怎么才能去闭口",
+          "闭口粉刺",
+          "长痘",
+          "长痘痘怎么办",
+          "刷酸",
+          "油痘肌护肤"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62296ef5000000000102d689",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/06_62296ef5000000000102d689_去闭口干货_便宜_有效_直接抄作业.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62296ef5000000000102d689.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62296ef5000000000102d689/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "干货分享",
+          "油痘肌护肤",
+          "闭口",
+          "怎么才能去闭口",
+          "闭口粉刺"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62f60c35000000001402ba24",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/05_62f60c35000000001402ba24_正确去闭口保姆级教程_针清后注意事项.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62f60c35000000001402ba24.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62f60c35000000001402ba24/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "如何拯救痘痘肌",
+          "笔记灵感",
+          "油痘肌护肤",
+          "油痘肌大作战",
+          "怎么才能去闭口",
+          "闭口粉刺",
+          "去闭口",
+          "痘痘肌肤",
+          "油痘肌",
+          "痘痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "674752270000000007024b95",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/02_674752270000000007024b95_手把手分享我是如何一周解决痘痘闭口粉刺的.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_674752270000000007024b95.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_674752270000000007024b95/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "如何拯救痘痘肌",
+          "祛痘",
+          "痘痘闭口",
+          "痘印怎么淡化",
+          "痘痘肌",
+          "干货"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6795eedf000000002901deee",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/07_6795eedf000000002901deee_分享我是如何缩小毛孔的.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6795eedf000000002901deee.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "缩毛孔",
+          "毛孔粗大",
+          "深层清洁",
+          "油痘肌护肤"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "689f013e000000001c00752b",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/08_689f013e000000001c00752b_5min手把手去闭口教程_狠人洗护跟练.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_689f013e000000001c00752b.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_689f013e000000001c00752b/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "狠人洗护跟练",
+          "去闭口跟练",
+          "普通人变美思路",
+          "闭口",
+          "终结痘痘闭口",
+          "一周循环护肤公式",
+          "如何拯救痘痘肌",
+          "宅家清毛孔大赛",
+          "开学前逆袭班花"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "68e49ee60000000004023c09",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/04_68e49ee60000000004023c09_水光版毛孔深层清洁跟练_深层清洁全脸发光.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_68e49ee60000000004023c09.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68e49ee60000000004023c09/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "油皮",
+          "深层清洁",
+          "痘痘闭口",
+          "护肤干货",
+          "好皮肤入秋计划"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6a01af100000000006033f62",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/09_6a01af100000000006033f62_13年油痘肌缩毛孔干货来咯_100_无广.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6a01af100000000006033f62.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a01af100000000006033f62/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "毛孔粗大",
+          "油痘肌护肤",
+          "缩毛孔",
+          "毛孔",
+          "毛孔清洁"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6a03ecba000000000702eb7a",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/03_6a03ecba000000000702eb7a_缩毛孔真的很简单_具体实操篇.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6a03ecba000000000702eb7a.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a03ecba000000000702eb7a/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "毛孔粗大",
+          "油痘肌护肤",
+          "补胶原",
+          "缩毛孔",
+          "毛孔",
+          "毛孔清洁",
+          "油皮好物"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6a0c3b590000000006022a9a",
+      "direction": "毛孔清洁",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/毛孔清洁/cards/01_6a0c3b590000000006022a9a_让我全脸细腻的毛孔深层清洁5_0来了.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6a0c3b590000000006022a9a.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a0c3b590000000006022a9a/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "小森林家庭版毛孔深层清洁",
+          "油痘肌护肤",
+          "油皮",
+          "痘痘闭口",
+          "去黑头",
+          "小森林"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65e307db000000000400283c",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/06_65e307db000000000400283c_几十块钱的酸_让我从油痘肌变成水光肌.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65e307db000000000400283c.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65e307db000000000400283c/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65e307db000000000400283c/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "如何拯救痘痘肌",
+          "黑头闭口",
+          "毛孔粗大",
+          "长痘",
+          "油皮"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6624dcd800000000010307b0",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/02_6624dcd800000000010307b0_一张常年用酸的脸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6624dcd800000000010307b0.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "如何拯救痘痘肌",
+          "油痘肌大作战",
+          "闭口粉刺",
+          "油痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "66f0e5e6000000001a023f47",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/03_66f0e5e6000000001a023f47_11年油痘肌教你如何正确用水杨酸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_66f0e5e6000000001a023f47.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66f0e5e6000000001a023f47/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66f0e5e6000000001a023f47/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "毛孔粗大",
+          "油痘肌护肤",
+          "皮肤粗糙",
+          "闭口痘痘",
+          "黑头"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6788ff6c00000000180308ff",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/07_6788ff6c00000000180308ff_一张常年用酸的脸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6788ff6c00000000180308ff.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "我的护肤年度总结",
+          "年前突击变美",
+          "油痘肌护肤",
+          "痘痘肌",
+          "闭口粉刺",
+          "油皮",
+          "刷酸"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "67fb49a0000000001d01cbb4",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/10_67fb49a0000000001d01cbb4_感谢酸A晚间护肤还我妈生好皮.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_67fb49a0000000001d01cbb4.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67fb49a0000000001d01cbb4/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67fb49a0000000001d01cbb4/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "酸",
+          "A醇",
+          "素颜好皮帮帮忙",
+          "祛痘帮帮忙",
+          "痘痘闭口",
+          "如何拯救痘痘肌",
+          "护肤干货"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6800afe1000000001d014ca7",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/08_6800afe1000000001d014ca7_用酸6年的脸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6800afe1000000001d014ca7.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6800afe1000000001d014ca7/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6800afe1000000001d014ca7/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "素颜好皮帮帮忙",
+          "祛痘帮帮忙",
+          "Medature葆科美",
+          "葆科美色修冻霜",
+          "色修霜",
+          "PS素颜精华",
+          "多酸焕肌精华液"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "68777040000000001d00d5d7",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/04_68777040000000001d00d5d7_12年油痘肌_用酸干货_爱用酸分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_68777040000000001d00d5d7.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68777040000000001d00d5d7/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68777040000000001d00d5d7/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "油皮护肤",
+          "痘痘肌逆袭",
+          "普通人的变美思路",
+          "果酸",
+          "水杨酸"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "695a2561000000001f0096c0",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/09_695a2561000000001f0096c0_经常用酸的好处.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_695a2561000000001f0096c0.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "痘痘闭口",
+          "闭口",
+          "如何拯救痘痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "69fee36d00000000230073b9",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/05_69fee36d00000000230073b9_一张常年用酸年的脸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_69fee36d00000000230073b9.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "痘痘肌",
+          "闭口粉刺",
+          "油皮",
+          "刷酸"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6a20f3210000000022015948",
+      "direction": "刷酸焕肤",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/刷酸焕肤/cards/01_6a20f3210000000022015948_无酸搞定颗粒脸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6a20f3210000000022015948.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a20f3210000000022015948/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a20f3210000000022015948/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "麻麻赖赖",
+          "小疙瘩",
+          "毛孔堵塞",
+          "YSL夜皇后调皮水",
+          "YSL夜皇后调皮水乳"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "63c103ab000000001b015fe5",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/08_63c103ab000000001b015fe5_油痘肌抗老其实很简单.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_63c103ab000000001b015fe5.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "抗老面霜",
+          "油痘肌护肤",
+          "欧莱雅金致小蜜罐",
+          "油痘肌大作战"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65472ea8000000001e03e2e0",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/04_65472ea8000000001e03e2e0_淡化眼纹_黑眼圈的方法.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65472ea8000000001e03e2e0.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65472ea8000000001e03e2e0/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65472ea8000000001e03e2e0/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "去黑眼圈",
+          "眼纹",
+          "黑眼圈",
+          "眼部护理",
+          "小红书礼物季"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "66c71790000000001d019c61",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/02_66c71790000000001d019c61_垮脸救星_家庭版胶原肌肤灌注.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_66c71790000000001d019c61.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66c71790000000001d019c61/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66c71790000000001d019c61/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "抗老面霜",
+          "美容护肤",
+          "院线护肤",
+          "快速变美",
+          "晚间护肤",
+          "欧莱雅小蜜罐",
+          "紧致面霜",
+          "面霜"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6718acb4000000001b03e9f9",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/07_6718acb4000000001b03e9f9_油痘肌抗老_不长痘和嫩肤我都要.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6718acb4000000001b03e9f9.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6718acb4000000001b03e9f9/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6718acb4000000001b03e9f9/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌抗老",
+          "抗老",
+          "如何拯救痘痘肌",
+          "Acaderma",
+          "Acader绿洲面霜"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "67614235000000001300029b",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/01_67614235000000001300029b_一张常年刷A醇的脸.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_67614235000000001300029b.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "2024时髦存档",
+          "我的护肤年度总结",
+          "年度护肤报告",
+          "油痘肌护肤",
+          "油皮",
+          "油痘肌大作战",
+          "如何拯救痘痘肌",
+          "家庭版毛孔深层清洁"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "682ec4d60000000021007d89",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/09_682ec4d60000000021007d89_30岁淡化眼纹_黑眼圈超绝的方法.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_682ec4d60000000021007d89.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "去黑眼圈",
+          "眼纹",
+          "黑眼圈",
+          "眼部护理",
+          "黑眼圈退散"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "694e7815000000001f00e629",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/05_694e7815000000001f00e629_垮脸跟练_3min速速回春的胶原按摩法.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_694e7815000000001f00e629.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_694e7815000000001f00e629/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_694e7815000000001f00e629/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "好皮肤养成记",
+          "护肤",
+          "胶原灌肤",
+          "护肤内行人",
+          "补胶原",
+          "面部提升",
+          "资生堂悦薇胶原炮面霜"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "696b3c94000000000e03f1bf",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/03_696b3c94000000000e03f1bf_坚持了很多年_淡眼纹_去黑眼圈的护眼干货.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_696b3c94000000000e03f1bf.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_696b3c94000000000e03f1bf/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_696b3c94000000000e03f1bf/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "去黑眼圈",
+          "眼纹",
+          "黑眼圈",
+          "眼部护理",
+          "资生堂悦薇小针管眼面霜"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "69c5f94f000000002202bc26",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/10_69c5f94f000000002202bc26_NAD_抗老到底靠谱吗_说说我的真实感受.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_69c5f94f000000002202bc26.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69c5f94f000000002202bc26/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69c5f94f000000002202bc26/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油皮好物",
+          "嫩肤",
+          "抗老",
+          "油痘肌护肤",
+          "抗老面霜",
+          "与时光相映成光",
+          "雅诗兰黛白月光面霜"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6a1d54940000000007027ae5",
+      "direction": "抗老修护",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/抗老修护/cards/06_6a1d54940000000007027ae5_搞定眼纹_泪沟_松弛的眼周抗老干货.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6a1d54940000000007027ae5.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a1d54940000000007027ae5/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6a1d54940000000007027ae5/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "上眼皮松弛",
+          "泪沟",
+          "眼纹",
+          "眼部护理",
+          "抗老精华",
+          "眼部精华",
+          "抗老眼霜推荐",
+          "圣歌兰",
+          "圣歌兰sos眼精华",
+          "圣歌兰sos精华",
+          "618"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "64b8b4fb000000000a0186a3",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/01_64b8b4fb000000000a0186a3_家庭版水光海菲秀_皮肤细腻通透到全脸发光.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_64b8b4fb000000000a0186a3.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_64b8b4fb000000000a0186a3/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_64b8b4fb000000000a0186a3/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "如何拯救痘痘肌",
+          "油痘肌大作战",
+          "油痘肌护肤",
+          "油皮",
+          "闭口粉刺",
+          "去黑头",
+          "怎么才能去闭口",
+          "小森林家庭版海菲秀"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "659cdcba000000001a000038",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/08_659cdcba000000001a000038_油痘肌变水光肌_油光和水光就差一点点.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_659cdcba000000001a000038.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "如何拯救痘痘肌",
+          "油痘肌护肤",
+          "油痘肌大作战",
+          "水光肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "664829ea0000000014018add",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/05_664829ea0000000014018add_养好发质的方法_水光发教程.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_664829ea0000000014018add.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_664829ea0000000014018add/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_664829ea0000000014018add/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "头皮护理",
+          "护发",
+          "发质改善",
+          "护发心得分享",
+          "沙发"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "66a4b2bd0000000027012756",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/02_66a4b2bd0000000027012756_家庭版水光发教程.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_66a4b2bd0000000027012756.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66a4b2bd0000000027012756/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66a4b2bd0000000027012756/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "护发养发",
+          "护发",
+          "洗头方法",
+          "头发护理"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "66daaa6a000000001e01b1bd",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/06_66daaa6a000000001e01b1bd_分享我的家庭版舒敏之星_敏肌超爱.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_66daaa6a000000001e01b1bd.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66daaa6a000000001e01b1bd/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66daaa6a000000001e01b1bd/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "敏感肌",
+          "舒缓修护",
+          "敏肌修护",
+          "敏感肌修护",
+          "舒敏之星",
+          "小森林家庭版舒敏之星",
+          "护肤",
+          "毕生之研冻干次抛"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "66fd4382000000001a021c8b",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/03_66fd4382000000001a021c8b_家庭版光子真的让皮肤变得好细腻通透.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_66fd4382000000001a021c8b.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66fd4382000000001a021c8b/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66fd4382000000001a021c8b/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "控油",
+          "毛孔粗大",
+          "痘痘闭口",
+          "缩毛孔",
+          "去痘印",
+          "家用美容仪",
+          "易科美",
+          "光子"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "670d12720000000021002837",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/10_670d12720000000021002837_一些油痘肌超爱的狠货_深圳秋冬天版.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_670d12720000000021002837.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "双十一小红书必买清单",
+          "油皮",
+          "痘痘",
+          "毛孔粗大",
+          "内服",
+          "洗发水"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6857fab6000000002400fecb",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/04_6857fab6000000002400fecb_沉浸式_一周一次家庭版_飞秀.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6857fab6000000002400fecb.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6857fab6000000002400fecb/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6857fab6000000002400fecb/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "沉浸式护肤"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "68c2ac85000000001b03d2ca",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/09_68c2ac85000000001b03d2ca_5min居家版胶原灌肤省钱跟练_做完嫩到发光.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_68c2ac85000000001b03d2ca.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68c2ac85000000001b03d2ca/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68c2ac85000000001b03d2ca/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "好皮肤养成记",
+          "护肤",
+          "护肤内行人",
+          "补胶原"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6a0ebd99000000000803d4d2",
+      "direction": "美容项目平替",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/美容项目平替/cards/07_6a0ebd99000000000803d4d2_又省钱又有效果的家庭版项目图文来咯.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6a0ebd99000000000803d4d2.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌护肤",
+          "居家经验分享",
+          "小森林家庭版毛孔深层清洁"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62442027000000002103ca20",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/08_62442027000000002103ca20_眼部拨经12年_我现在眼睛怎么样了.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62442027000000002103ca20.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62442027000000002103ca20/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_62442027000000002103ca20/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "眼部保养",
+          "爱护眼睛",
+          "眼睛健康",
+          "眼部护理",
+          "近视",
+          "眼部抗衰",
+          "护眼",
+          "护眼丸"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "63034030000000001b01d176",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/09_63034030000000001b01d176_适合油痘肌_用了绝不闷痘的好用面霜分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_63034030000000001b01d176.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_63034030000000001b01d176/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_63034030000000001b01d176/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌大作战",
+          "油痘肌护肤",
+          "笔记灵感",
+          "好皮肤养成记",
+          "怎么才能去闭口",
+          "闭口粉刺",
+          "护肤",
+          "好用的面霜",
+          "面霜测评",
+          "如何拯救痘痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "63072d4c000000001b01d33f",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/02_63072d4c000000001b01d33f_告别猪肝红_告别乌唇_深唇变浅唇经验分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_63072d4c000000001b01d33f.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_63072d4c000000001b01d33f/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_63072d4c000000001b01d33f/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "深唇",
+          "深唇浅唇",
+          "唇色深",
+          "改善唇色暗沉",
+          "妈生唇色",
+          "冥想"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "631bfe28000000001103c53c",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/07_631bfe28000000001103c53c_让油痘肌皮肤又细又滑的三款夜间精华分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_631bfe28000000001103c53c.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_631bfe28000000001103c53c/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_631bfe28000000001103c53c/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌大作战",
+          "油痘肌护肤",
+          "好皮肤养成记",
+          "如何拯救痘痘肌",
+          "痘痘肌肤",
+          "怎么才能去闭口",
+          "闭口粉刺",
+          "痘痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "64eae6c1000000000c034f78",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/05_64eae6c1000000000c034f78_油痘肌用了不会闷痘的防晒_非日系.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_64eae6c1000000000c034f78.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_64eae6c1000000000c034f78/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_64eae6c1000000000c034f78/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "防晒分享",
+          "平价防晒",
+          "防晒",
+          "油痘肌护肤"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65d4624f0000000001029e88",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/06_65d4624f0000000001029e88_只要几十块的油痘肌平价好物_超爱.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65d4624f0000000001029e88.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65d4624f0000000001029e88/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65d4624f0000000001029e88/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "我的平价好物",
+          "油痘肌护肤",
+          "学生党",
+          "如何拯救痘痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "667bd501000000001e010ec4",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/03_667bd501000000001e010ec4_365天都在用的油皮真爱底妆.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_667bd501000000001e010ec4.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_667bd501000000001e010ec4/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_667bd501000000001e010ec4/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油皮粉底推荐",
+          "底妆分享",
+          "底妆",
+          "爱用物分享"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "67f20142000000001e0086ca",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/10_67f20142000000001e0086ca_回购10年的油皮真爱底妆_油痘敏肌.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_67f20142000000001e0086ca.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67f20142000000001e0086ca/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_67f20142000000001e0086ca/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "清透底妆",
+          "底妆测评",
+          "油皮粉底液",
+          "底妆",
+          "底妆分享",
+          "遮瑕"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6950aad8000000001e035c17",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/01_6950aad8000000001e035c17_怒花几千块总结的大实话_oy好物歹物全分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6950aad8000000001e035c17.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6950aad8000000001e035c17/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6950aad8000000001e035c17/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "Oliveyoung",
+          "避雷指南",
+          "oliveyoung必买",
+          "分享爱用物",
+          "韩国购物分享",
+          "无广测评",
+          "韩系彩妆",
+          "韩女的秘密",
+          "歹物分享"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6975d4de000000001a02c269",
+      "direction": "好物测评",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/好物测评/cards/04_6975d4de000000001a02c269_不知道_橄榄皮涂烟紫色口红很曼妙.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6975d4de000000001a02c269.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6975d4de000000001a02c269/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6975d4de000000001a02c269/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "口红试色",
+          "淡人",
+          "口红",
+          "唇蜜",
+          "镜面唇釉",
+          "原相机试色",
+          "好物分享"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "63478bdf000000000801388a",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/05_63478bdf000000000801388a_干净_清透的底妆分享.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_63478bdf000000000801388a.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "妆容分享",
+          "底妆分享",
+          "完美底妆这样画",
+          "底妆",
+          "定妆",
+          "花西子"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65c4aefe000000002c0103d9",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/01_65c4aefe000000002c0103d9_紧急变美_试试家庭版肌肤灌注_省下几千块.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65c4aefe000000002c0103d9.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65c4aefe000000002c0103d9/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65c4aefe000000002c0103d9/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "美容护肤",
+          "美容院",
+          "院线护肤",
+          "快速变美",
+          "我的护肤日常",
+          "修护",
+          "晚间护肤"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65d0422300000000070047b9",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/03_65d0422300000000070047b9_聊聊我如何通过养生变美的.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65d0422300000000070047b9.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "养生"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65ec424e000000000102950d",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/04_65ec424e000000000102950d_这个油痘皮遮瑕方法绝了.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65ec424e000000000102950d.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65ec424e000000000102950d/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65ec424e000000000102950d/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "油痘肌",
+          "新手化妆",
+          "眼部遮瑕教程",
+          "遮瑕",
+          "干货分享",
+          "油皮",
+          "油皮底妆"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6690fcbc00000000250051b3",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/09_6690fcbc00000000250051b3_一包搞定变美_跟随我多次旅行的mini彩妆.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6690fcbc00000000250051b3.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6690fcbc00000000250051b3/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6690fcbc00000000250051b3/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "迷你化妆品",
+          "我的平价好物",
+          "巨小巨好用",
+          "好物分享",
+          "平价彩妆"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "66f3fc4f000000001a0209b9",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/08_66f3fc4f000000001a0209b9_10分钟搞定的慵懒卷发_保姆级教程了.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_66f3fc4f000000001a0209b9.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66f3fc4f000000001a0209b9/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_66f3fc4f000000001a0209b9/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "发型",
+          "卷发教程",
+          "发型教程",
+          "高颅顶",
+          "手残党"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6867b1210000000024008ed6",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/02_6867b1210000000024008ed6_一包搞定变美_跟随我多次旅行的_mini彩妆.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6867b1210000000024008ed6.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6867b1210000000024008ed6/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6867b1210000000024008ed6/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "迷你化妆品",
+          "我的平价好物",
+          "巨小巨好用",
+          "好物分享",
+          "平价彩妆"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "692c1681000000001e022a14",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/07_692c1681000000001e022a14_剪发vlog_花17w能笑着走出来吗.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_692c1681000000001e022a14.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_692c1681000000001e022a14/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_692c1681000000001e022a14/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "vlog",
+          "韩国剪发",
+          "女Tony",
+          "韩式发型",
+          "变美",
+          "韩系发型",
+          "菱形脸发型",
+          "韩女的秘密"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6934f083000000001f005af1",
+      "direction": "变美经验",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/变美经验/cards/06_6934f083000000001f005af1_普女爆改vlog_花50w体验韩女三件套.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6934f083000000001f005af1.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6934f083000000001f005af1/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6934f083000000001f005af1/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "vlog",
+          "我的日常",
+          "韩国vlog",
+          "韩女三件套",
+          "韩式证件照",
+          "韩国化妆室",
+          "韩女妆容",
+          "氛围感",
+          "韩女的秘密"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "62fa3cab0000000015008f05",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/08_62fa3cab0000000015008f05_常年生活在夏季但一点没黑_我真的会谢.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_62fa3cab0000000015008f05.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "兰蔻小白管防晒乳",
+          "兰蔻防晒",
+          "防晒分享",
+          "防晒",
+          "每天涂防晒",
+          "防晒推荐"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65532e6b000000001100efdf",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/09_65532e6b000000001100efdf_小森林的Vlog_去香港吃吃逛逛买水晶咯.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65532e6b000000001100efdf.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65532e6b000000001100efdf/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_65532e6b000000001100efdf/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "vlog",
+          "我的日常Vlog",
+          "水晶"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "688eeb360000000023030410",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/01_688eeb360000000023030410_黄皮素颜口红_原相机_日常显白_懒人必备.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_688eeb360000000023030410.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_688eeb360000000023030410/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_688eeb360000000023030410/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "无滤镜口红试色",
+          "口红分享",
+          "口红试色",
+          "显白口红",
+          "素颜口红",
+          "化妆就是玩儿",
+          "涨粉涨赞用薯条"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "68aec3e8000000001b03d106",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/02_68aec3e8000000001b03d106_12年油痘肌超爱的健康果蔬汁配方.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_68aec3e8000000001b03d106.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68aec3e8000000001b03d106/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68aec3e8000000001b03d106/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "内养外调好气色",
+          "果蔬汁",
+          "破壁机食谱",
+          "喝出好肤色",
+          "普通人的变美思路",
+          "油痘肌",
+          "中式养颜法",
+          "民间护肤配方"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "68ba84be000000001c00ec0a",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/04_68ba84be000000001c00ec0a_12年油痘肌养成不长痘体质_内调实操篇.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_68ba84be000000001c00ec0a.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68ba84be000000001c00ec0a/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_68ba84be000000001c00ec0a/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "内调外养祛痘",
+          "内调",
+          "痘痘远离我",
+          "下巴长痘",
+          "油痘肌自救",
+          "swisse黑绷带鱼油",
+          "swisse高纯鱼油",
+          "swisse鱼油",
+          "鱼油"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6922c5c9000000001e03699a",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/06_6922c5c9000000001e03699a_8min下饭菜_买了超多秋冬衣服配饰_爽拆.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6922c5c9000000001e03699a.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6922c5c9000000001e03699a/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6922c5c9000000001e03699a/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "unboxing",
+          "开箱",
+          "拆快递",
+          "购物分享",
+          "新衣试穿",
+          "种草视频",
+          "买买买日常"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "697ed0c7000000002802148f",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/05_697ed0c7000000002802148f_12年油痘人_一天吃什么vlog.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_697ed0c7000000002802148f.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_697ed0c7000000002802148f/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_697ed0c7000000002802148f/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "vlog",
+          "一天吃什么",
+          "vlog我的一天",
+          "吃吃喝喝又一天"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "69bf6e26000000002800895f",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/03_69bf6e26000000002800895f_vlog_这一路的麻辣鲜香只有自己知道.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_69bf6e26000000002800895f.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69bf6e26000000002800895f/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69bf6e26000000002800895f/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "一天吃什么",
+          "美食",
+          "VLOG",
+          "旅行"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "69db2205000000001f006e3c",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/07_69db2205000000001f006e3c_13min超长下饭春夏开箱_爽拆.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_69db2205000000001f006e3c.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69db2205000000001f006e3c/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69db2205000000001f006e3c/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "开箱",
+          "拆快递",
+          "购物分享",
+          "新衣试穿",
+          "种草视频",
+          "买买买日常"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "69fda6690000000022024dad",
+      "direction": "生活方式",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/生活方式/cards/10_69fda6690000000022024dad_3_个_13年油痘肌超爱去黄蔬果汁配方.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_69fda6690000000022024dad.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69fda6690000000022024dad/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69fda6690000000022024dad/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "内养外调好气色",
+          "果蔬汁",
+          "破壁机食谱",
+          "喝出好肤色",
+          "普通人的变美思路",
+          "油痘肌",
+          "中式养颜法",
+          "民间护肤配方"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6313284d0000000013039b5e",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/02_6313284d0000000013039b5e_六个月_从0到10w粉_感谢小红书感谢你们.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6313284d0000000013039b5e.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6313284d0000000013039b5e/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6313284d0000000013039b5e/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "小红书涨粉",
+          "涨粉",
+          "感谢平台",
+          "感谢小红书平台我要上热门",
+          "感谢小红书平台感谢大家支持",
+          "感谢我的粉丝们"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "654f97740000000032008bd1",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/08_654f97740000000032008bd1_超级感谢大家.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_654f97740000000032008bd1.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": []
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6562aa89000000001701deda",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/06_6562aa89000000001701deda_真的很可怕_这种品牌请你不要再找我合作.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6562aa89000000001701deda.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6562aa89000000001701deda/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6562aa89000000001701deda/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "直播",
+          "行业内幕",
+          "博主"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "65a20f9e000000001d035c85",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/07_65a20f9e000000001d035c85_做小红书买手10个月了_来说说心里话.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_65a20f9e000000001d035c85.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "小红书电商年度榜单",
+          "rise100",
+          "在小红书用心经营这一年"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6601240000000000120215ed",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/03_6601240000000000120215ed_你是我惟一一个相信的博主_希望一直都是.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": false,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": false,
+        "scene_status": "metadata_only",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6601240000000000120215ed.md",
+        "transcript_paths": [],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "笔记灵感",
+          "油痘肌护肤",
+          "如何拯救痘痘肌"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "6708e2ec000000001a0224e9",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/04_6708e2ec000000001a0224e9_不花冤枉钱_双11直播间必买清单.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_6708e2ec000000001a0224e9.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6708e2ec000000001a0224e9/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_6708e2ec000000001a0224e9/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "直播预告",
+          "双十一必买清单",
+          "双11小红书买买节",
+          "1年1度购物狂欢",
+          "小森林的小世界",
+          "红薯买手集"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "691d78d3000000001e02e242",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/05_691d78d3000000001e02e242_最简单的转场出现了_记录开心的东北行.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_691d78d3000000001e02e242.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_691d78d3000000001e02e242/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_691d78d3000000001e02e242/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "旅行转场挑战",
+          "转场",
+          "抽象",
+          "旅行转场",
+          "长白山",
+          "东北旅行"
+        ]
+      },
+      "machine_decision": "pass"
+    },
+    {
+      "source_id": "69995208000000001a031908",
+      "direction": "账号运营",
+      "card_path": "/Users/lao_wu/codexAI/知识库/10_Knowledge/candidates/learning_cards/learned_cards/xiaosenlin_xiaoshijie/账号运营/cards/01_69995208000000001a031908_30w粉福_是谁会莫名其妙的收到一个_呢.md",
+      "structure_errors": [],
+      "depth_risks": [],
+      "publish_content_layer_risks": [],
+      "video_content_layer_risks": [],
+      "evidence_risks": [],
+      "evidence": {
+        "platform": "xhs",
+        "transcript_available": true,
+        "selected_card_available": true,
+        "publish_title_available": true,
+        "publish_body_available": true,
+        "publish_topics_available": true,
+        "scene_artifacts_available": true,
+        "scene_status": "video_transcribed_and_scenes_detected",
+        "selected_card_path": "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_69995208000000001a031908.md",
+        "transcript_paths": [
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69995208000000001a031908/transcript.json",
+          "00_System/runtime/cache/video_learning/video_artifacts/xhs_69995208000000001a031908/transcript.srt"
+        ],
+        "publish_db_source": "sqlite:xhs_note",
+        "publish_topics": [
+          "拆箱分享",
+          "粉丝福利",
+          "开箱",
+          "新春市集",
+          "小红书新春市集",
+          "小红书春节指南",
+          "我和我的春节"
+        ]
+      },
+      "machine_decision": "pass"
+    }
+  ]
+}

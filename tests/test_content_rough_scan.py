@@ -113,6 +113,74 @@ class ContentRoughScanTests(unittest.TestCase):
         self.assertEqual(by_id["x1"]["content_type"], "image_text")
         self.assertIn("ocr", by_id["x1"]["text_sources"])
 
+    def test_load_rough_scan_records_includes_sqlite_candidate_batch(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            candidate_dir = root / "10_Knowledge/candidates/account_assets/sqlite_imports"
+            candidate_dir.mkdir(parents=True)
+            batch_dir = root / "00_Inbox/sqlite_imports/20260627_152903"
+            batch_dir.mkdir(parents=True)
+            (candidate_dir / "latest_account_candidates.json").write_text(
+                json.dumps({"source_batch_dir": "00_Inbox/sqlite_imports/20260627_152903"}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            row = {
+                "stable_id": "xhs:note:x1",
+                "platform": "xhs",
+                "account_name": "小森林的小世界",
+                "source_id": "x1",
+                "title": "家庭版水光海菲秀",
+                "summary": "皮肤细腻通透到全脸发光",
+                "url": "https://example.com/x1",
+                "metrics": {"likes": 10, "collects": 20, "comments": 3, "shares": 2},
+                "tags": ["护肤"],
+            }
+            (batch_dir / "records.jsonl").write_text(json.dumps(row, ensure_ascii=False) + "\n", encoding="utf-8")
+
+            records = content_rough_scan.load_rough_scan_records(root)
+
+        self.assertEqual(len(records), 1)
+        self.assertEqual(records[0].account_name, "小森林的小世界")
+        self.assertEqual(records[0].platform, "xhs")
+        self.assertEqual(records[0].metrics["collects"], 20)
+
+    def test_load_deep_items_ignores_stale_scope_items_when_plan_exists(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            plan_path = root / "plan.json"
+            plan_path.write_text(
+                json.dumps(
+                    {
+                        "items": [
+                            {"source_id": "keep", "primary_direction": "赚钱", "direction_rank": 1},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            profile = test_profile(expected_count=1)
+            profile["deep_learning_plan"] = "plan.json"
+            output = root / "10_Knowledge/candidates/account_assets/content_rough_scan/fixture"
+            output.mkdir(parents=True)
+            (output / "deep_learning_scope.json").write_text(
+                json.dumps(
+                    {
+                        "items": [
+                            {"source_id": "keep", "primary_direction": "赚钱", "learning_status": "selected"},
+                            {"source_id": "stale", "primary_direction": "赚钱"},
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            items = content_rough_scan.load_deep_items(root, profile)
+
+        self.assertEqual(set(items), {"keep"})
+        self.assertEqual(items["keep"]["learning_status"], "selected")
+
     def test_partial_transcript_is_flagged_for_video_review(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -238,10 +306,18 @@ class ContentRoughScanTests(unittest.TestCase):
 
             markdown = content_rough_scan.direction_markdown("赚钱", [row for row in rows if row["primary_direction"] == "赚钱"], test_profile())
 
-        self.assertIn("## 3. 主题簇", markdown)
-        self.assertIn("## 4. 候选短句", markdown)
-        self.assertIn("## 5. 候选问题句", markdown)
-        self.assertIn("## 6. 候选反常识表达", markdown)
+        self.assertIn("# 赚钱方向粗学与选题池", markdown)
+        self.assertIn("状态：candidate_learning_pool", markdown)
+        self.assertIn("粗学重点：发布内容层，包括标题、正文/文案、话题/标签、内容结构协同", markdown)
+        self.assertIn("视频边界：粗扫阶段未下载视频", markdown)
+        self.assertIn("评论处理：不学习评论正文", markdown)
+        self.assertIn("## 3. 标题学习", markdown)
+        self.assertIn("## 4. 正文/文案学习", markdown)
+        self.assertIn("## 5. 话题/标签学习", markdown)
+        self.assertIn("## 6. 主题簇", markdown)
+        self.assertIn("## 7. 候选短句", markdown)
+        self.assertIn("## 8. 候选问题句", markdown)
+        self.assertIn("## 9. 候选反常识表达", markdown)
         self.assertIn("[transcript_available]", markdown)
         self.assertIn("普通人如何赚钱", markdown)
 
@@ -258,6 +334,7 @@ class ContentRoughScanTests(unittest.TestCase):
             insights = json.loads(insights_path.read_text(encoding="utf-8"))
 
         self.assertEqual(insights["direction"], "赚钱")
+        self.assertFalse(insights["asset_learning_policy"]["learn_comment_text"])
         self.assertTrue(insights["topic_clusters"])
         self.assertTrue(insights["expressions"])
 

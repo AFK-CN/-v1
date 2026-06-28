@@ -76,6 +76,53 @@ class VideoLearningTests(unittest.TestCase):
             self.assertEqual(raw_counts["xhs_contents"], 1)
             self.assertEqual({record.account_name for record in records}, {"姜胡说", "李宗恒", "省钱也要喂饱自己（沪漂版）"})
 
+    def test_load_records_includes_sqlite_candidate_batch(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            candidate_dir = root / "10_Knowledge/candidates/account_assets/sqlite_imports"
+            candidate_dir.mkdir(parents=True)
+            batch_dir = root / "00_Inbox/sqlite_imports/20260627_152903"
+            batch_dir.mkdir(parents=True)
+            (candidate_dir / "latest_account_candidates.json").write_text(
+                json.dumps({"source_batch_dir": "00_Inbox/sqlite_imports/20260627_152903"}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            row = {
+                "stable_id": "xhs:note:x1",
+                "platform": "xhs",
+                "account_name": "小森林的小世界",
+                "source_id": "x1",
+                "title": "家庭版水光海菲秀",
+                "summary": "皮肤细腻通透到全脸发光",
+                "url": "https://example.com/x1",
+                "video_url": "https://sns-video-qc.xhscdn.com/x1.mp4",
+                "metrics": {"likes": 10, "collects": 20, "comments": 3, "shares": 2},
+                "tags": ["护肤"],
+            }
+            (batch_dir / "records.jsonl").write_text(json.dumps(row, ensure_ascii=False) + "\n", encoding="utf-8")
+
+            records, raw_counts, failed_files = video_learning.load_records_detailed(root)
+
+        self.assertEqual(raw_counts["sqlite_candidates"], 1)
+        self.assertEqual(failed_files, [])
+        self.assertEqual(records[0].source_id, "x1")
+        self.assertEqual(records[0].account_name, "小森林的小世界")
+        self.assertEqual(records[0].metrics["collects"], 20)
+        self.assertEqual(records[0].video_download_url, "https://sns-video-qc.xhscdn.com/x1.mp4")
+
+    def test_load_records_skips_sqlite_import_manifest_metadata(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            batch_dir = root / "00_Inbox/sqlite_imports/20260627_152903"
+            batch_dir.mkdir(parents=True)
+            (batch_dir / "manifest.json").write_text(json.dumps({"metadata": True}), encoding="utf-8")
+
+            records, raw_counts, failed_files = video_learning.load_records_detailed(root)
+
+        self.assertEqual(records, [])
+        self.assertEqual(failed_files, [])
+        self.assertEqual(raw_counts["unknown"], 0)
+
     def test_load_records_detailed_continues_after_broken_json_and_reports_failure(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -511,6 +558,45 @@ class VideoLearningTests(unittest.TestCase):
             self.assertIn("Mozilla", captured["request"].headers["User-agent"])
             self.assertEqual(captured["timeout"], 300)
 
+    def test_extract_xhs_video_urls_from_html_decodes_embedded_urls(self):
+        html = r'''
+        <script>
+        window.__INITIAL_STATE__ = {"masterUrl":"https:\/\/sns-video-qc.xhscdn.com\/stream\/abc.mp4?sign=1\u0026t=2"};
+        </script>
+        '''
+
+        urls = video_learning.extract_xhs_video_urls_from_html(html)
+
+        self.assertEqual(urls, ["https://sns-video-qc.xhscdn.com/stream/abc.mp4?sign=1&t=2"])
+
+    def test_resolve_xhs_video_url_uses_browser_when_enabled(self):
+        with patch.dict("tools.video_learning.os.environ", {"XHS_BROWSER_RESOLVE": "1"}), patch(
+            "tools.video_learning.fetch_xhs_page_html", return_value="<html></html>"
+        ), patch(
+            "tools.video_learning.resolve_xhs_video_urls_with_browser",
+            return_value=["https://sns-video-qc.xhscdn.com/browser.mp4"],
+        ):
+            url, candidates = video_learning.resolve_xhs_video_url("https://www.xiaohongshu.com/explore/n1")
+
+        self.assertEqual(url, "https://sns-video-qc.xhscdn.com/browser.mp4")
+        self.assertEqual(candidates, ["https://sns-video-qc.xhscdn.com/browser.mp4"])
+
+    def test_download_binary_url_uses_xhs_referer_for_xhscdn(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            target = Path(tmp) / "source.mp4"
+            captured = {}
+
+            def fake_run(cmd, check, capture_output, text, timeout):
+                captured["cmd"] = cmd
+                target.write_bytes(b"video-bytes")
+
+            with patch("tools.video_learning.find_executable", return_value="/usr/bin/curl"), patch(
+                "tools.video_learning.subprocess.run", side_effect=fake_run
+            ):
+                video_learning.download_binary_url("https://sns-video-qc.xhscdn.com/video.mp4", target)
+
+            self.assertIn("Referer: https://www.xiaohongshu.com/", captured["cmd"])
+
     def test_download_binary_url_prefers_curl_with_total_timeout(self):
         with tempfile.TemporaryDirectory() as tmp:
             target = Path(tmp) / "source.mp4"
@@ -651,6 +737,75 @@ class VideoLearningTests(unittest.TestCase):
                 "tools.video_learning.media_duration_seconds", return_value=100.0, create=True
             ):
                 complete = bundle_check(
+                    video_path,
+                    audio_path,
+                    metadata_path,
+                    transcript_json_path,
+                    transcript_srt_path,
+                    [scene_path],
+                )
+
+            self.assertFalse(complete)
+
+    def test_video_status_writes_pipeline_state_for_reused_complete_bundle(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            artifact_dir = root / "00_System" / "runtime" / "cache" / "video_learning" / "video_artifacts" / "douyin_a1"
+            artifact_dir.mkdir(parents=True)
+            for name in ["source.mp4", "audio.wav", "ffprobe.json", "transcript.json", "transcript.srt", "source-Scenes.csv"]:
+                (artifact_dir / name).write_text("present", encoding="utf-8")
+            (artifact_dir / "transcript.json").write_text(
+                json.dumps({"segments": [{"start": 0.0, "end": 99.0, "text": "complete"}]}),
+                encoding="utf-8",
+            )
+            Image.new("RGB", (4, 4)).save(artifact_dir / "source-Scene-001-01.jpg")
+            record = video_learning.NormalizedRecord(
+                platform="douyin",
+                source_id="a1",
+                source_file="douyin.json",
+                title="标题",
+                body="内容",
+                author_name="作者",
+                published_at="",
+                metrics={"likes": 1, "collects": 1, "comments": 1, "shares": 1},
+                tags=[],
+                url="",
+                video_download_url="https://example.com/a1.mp4",
+                text_fingerprint="fp",
+            )
+
+            with patch("tools.video_learning.media_file_is_usable", return_value=True), patch(
+                "tools.video_learning.media_duration_seconds", return_value=100.0
+            ):
+                status = video_learning.video_status(root, record, analyze_video=False)
+
+            state = json.loads((artifact_dir / "_pipeline_state.json").read_text(encoding="utf-8"))
+            self.assertEqual(status["status"], "video_transcribed_and_scenes_detected")
+            self.assertEqual(state["current_step"], "completed")
+            self.assertEqual(state["steps"]["download"]["validation"], "valid")
+            self.assertEqual(state["steps"]["transcribe"]["validation"], "valid")
+            self.assertEqual(state["steps"]["scene_detect"]["validation"], "valid")
+
+    def test_existing_video_bundle_rejects_missing_keyframes(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            artifact_dir = Path(tmp)
+            video_path = artifact_dir / "source.mp4"
+            audio_path = artifact_dir / "audio.wav"
+            metadata_path = artifact_dir / "ffprobe.json"
+            transcript_json_path = artifact_dir / "transcript.json"
+            transcript_srt_path = artifact_dir / "transcript.srt"
+            scene_path = artifact_dir / "source-Scenes.csv"
+            for path in (video_path, audio_path, metadata_path, transcript_srt_path, scene_path):
+                path.write_text("present", encoding="utf-8")
+            transcript_json_path.write_text(
+                json.dumps({"segments": [{"start": 0.0, "end": 99.0, "text": "complete"}]}),
+                encoding="utf-8",
+            )
+
+            with patch("tools.video_learning.media_file_is_usable", return_value=True), patch(
+                "tools.video_learning.media_duration_seconds", return_value=100.0
+            ):
+                complete = video_learning.existing_video_bundle_is_complete(
                     video_path,
                     audio_path,
                     metadata_path,
@@ -1166,6 +1321,9 @@ class VideoLearningTests(unittest.TestCase):
             (data_dir / "creator_contents_test.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
             state_dir = root / "00_System" / "runtime" / "state" / "video_learning"
             state_dir.mkdir(parents=True)
+            card_path = root / "10_Knowledge" / "candidates" / "learning_cards" / "selected_deep_cards" / "douyin_a1.md"
+            card_path.parent.mkdir(parents=True)
+            card_path.write_text("video_analysis_status: video_transcribed_and_scenes_detected\n", encoding="utf-8")
             (state_dir / "learning_manifest.json").write_text(
                 json.dumps(
                     {
@@ -1220,6 +1378,7 @@ class VideoLearningTests(unittest.TestCase):
                 json.dumps({"segments": [{"start": 90.0, "end": 99.0, "text": "complete"}]}),
                 encoding="utf-8",
             )
+            Image.new("RGB", (4, 4)).save(artifact_dir / "source-Scene-001-01.jpg")
             record = video_learning.NormalizedRecord(
                 platform="douyin",
                 source_id="a1",
@@ -1243,6 +1402,189 @@ class VideoLearningTests(unittest.TestCase):
             self.assertEqual(status["status"], "video_transcribed_and_scenes_detected")
             self.assertIn("transcript_json", status["artifacts"])
             self.assertIn("scenes_csv", status["artifacts"])
+
+    def test_video_status_uses_nas_account_artifact_dir_and_absolute_paths(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "kb"
+            nas_root = Path(tmp) / "nas" / "zhishikushuju"
+            artifact_dir = nas_root / "姜胡说" / "douyin_a1"
+            artifact_dir.mkdir(parents=True)
+            for name in ["source.mp4", "audio.wav", "ffprobe.json", "transcript.json", "transcript.srt", "source-Scenes.csv"]:
+                (artifact_dir / name).write_text("x", encoding="utf-8")
+            (artifact_dir / "transcript.json").write_text(
+                json.dumps({"segments": [{"start": 90.0, "end": 99.0, "text": "complete"}]}),
+                encoding="utf-8",
+            )
+            Image.new("RGB", (4, 4)).save(artifact_dir / "source-Scene-001-01.jpg")
+            record = video_learning.NormalizedRecord(
+                platform="douyin",
+                source_id="a1",
+                source_file="douyin.json",
+                title="标题",
+                body="内容",
+                author_name="姜胡说",
+                published_at="",
+                metrics={"likes": 1, "collects": 1, "comments": 1, "shares": 1},
+                tags=[],
+                url="",
+                video_download_url="https://example.com/a1.mp4",
+                text_fingerprint="fp",
+                account_name="姜胡说",
+            )
+
+            with patch("tools.video_learning.media_file_is_usable", return_value=True), patch(
+                "tools.video_learning.media_duration_seconds", return_value=100.0
+            ):
+                status = video_learning.video_status(
+                    root,
+                    record,
+                    analyze_video=False,
+                    artifacts_dir=nas_root,
+                    artifact_layout="account",
+                )
+
+            self.assertEqual(status["status"], "video_transcribed_and_scenes_detected")
+            self.assertEqual(status["artifacts"]["video"], str(artifact_dir / "source.mp4"))
+            self.assertEqual(status["artifacts"]["transcript_srt"], str(artifact_dir / "transcript.srt"))
+
+    def test_nas_learning_mirrors_plan_progress_and_artifact_index_to_account_dir(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp) / "kb"
+            nas_root = Path(tmp) / "nas" / "zhishikushuju"
+            data_dir = root / "数据" / "douyin" / "json" / "姜胡说"
+            data_dir.mkdir(parents=True)
+            rows = [
+                {
+                    "aweme_id": "a1",
+                    "title": "#赚钱 普通人做自媒体",
+                    "desc": "创业 方法 短视频",
+                    "nickname": "姜胡说",
+                    "liked_count": "100",
+                    "collected_count": "100",
+                    "comment_count": "30",
+                    "share_count": "40",
+                    "aweme_url": "https://example.com/a1",
+                    "video_download_url": "https://example.com/a1.mp4",
+                }
+            ]
+            (data_dir / "creator_contents_test.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+
+            account_dir = nas_root / "姜胡说"
+            artifact_dir = account_dir / "douyin_a1"
+            artifact_dir.mkdir(parents=True)
+            (artifact_dir / "source.mp4").write_text("video", encoding="utf-8")
+            (artifact_dir / "transcript.srt").write_text("1\n00:00:00,000 --> 00:00:01,000\n你好\n", encoding="utf-8")
+
+            original = video_learning.video_status
+
+            def fake_video_status(root_path, record, analyze_video, **kwargs):
+                return {
+                    "requested": analyze_video,
+                    "has_video_url": bool(record.video_download_url),
+                    "ffmpeg": "",
+                    "faster_whisper": False,
+                    "scenedetect": False,
+                    "status": "video_transcribed_scene_failed",
+                    "artifacts": {
+                        "video": str(artifact_dir / "source.mp4"),
+                        "transcript_srt": str(artifact_dir / "transcript.srt"),
+                    },
+                    "errors": [],
+                }
+
+            try:
+                video_learning.video_status = fake_video_status
+                result = video_learning.run_selected_deep_learning(
+                    root,
+                    source_ids={"a1"},
+                    analyze_video=True,
+                    artifacts_dir=nas_root,
+                    artifact_layout="account",
+                    mirror_nas_state=True,
+                )
+            finally:
+                video_learning.video_status = original
+
+            self.assertEqual(result["learned"], 1)
+            for name in ["_learning_plan.json", "_learning_progress.json", "_artifact_index.json", "_latest_report.md"]:
+                self.assertTrue((account_dir / name).exists(), name)
+            progress = json.loads((account_dir / "_learning_progress.json").read_text(encoding="utf-8"))
+            self.assertEqual(progress["items"]["douyin:a1"]["status"], "completed")
+            self.assertEqual(progress["items"]["douyin:a1"]["current_step"], "completed")
+            self.assertEqual(progress["items"]["douyin:a1"]["artifact_dir"], str(artifact_dir))
+            artifact_index = json.loads((account_dir / "_artifact_index.json").read_text(encoding="utf-8"))
+            self.assertTrue(artifact_index["items"]["douyin:a1"]["has_video"])
+            self.assertTrue(artifact_index["items"]["douyin:a1"]["has_transcript"])
+
+    def test_download_selected_media_writes_pipeline_download_state(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "douyin" / "json" / "作者"
+            data_dir.mkdir(parents=True)
+            rows = [
+                {
+                    "aweme_id": "a1",
+                    "title": "标题",
+                    "desc": "内容",
+                    "nickname": "作者",
+                    "aweme_url": "https://example.com/a1",
+                    "video_download_url": "https://example.com/a1.mp4",
+                }
+            ]
+            (data_dir / "creator_contents_test.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+
+            def fake_ensure(url, path, force_download=False):
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(b"video")
+                return []
+
+            with patch("tools.video_learning.ensure_video_file", side_effect=fake_ensure), patch(
+                "tools.video_learning.validate_video_artifact", return_value={"validation": "valid", "reason": ""}
+            ):
+                result = video_learning.download_selected_media(root, source_ids={"a1"})
+
+            artifact_dir = root / "00_System" / "runtime" / "cache" / "video_learning" / "video_artifacts" / "douyin_a1"
+            state = json.loads((artifact_dir / "_pipeline_state.json").read_text(encoding="utf-8"))
+            self.assertEqual(result["downloaded"], 1)
+            self.assertEqual(state["steps"]["download"]["status"], "completed")
+            self.assertEqual(state["steps"]["download"]["validation"], "valid")
+
+    def test_download_selected_media_resolves_xhs_page_when_video_url_missing(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            data_dir = root / "数据" / "xhs" / "json" / "作者"
+            data_dir.mkdir(parents=True)
+            rows = [
+                {
+                    "note_id": "n1",
+                    "title": "标题",
+                    "desc": "内容",
+                    "nickname": "作者",
+                    "note_url": "https://www.xiaohongshu.com/explore/n1",
+                }
+            ]
+            (data_dir / "creator_contents_test.json").write_text(json.dumps(rows, ensure_ascii=False), encoding="utf-8")
+
+            def fake_ensure(url, path, force_download=False):
+                self.assertEqual(url, "https://sns-video-qc.xhscdn.com/n1.mp4")
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_bytes(b"video")
+                return []
+
+            with patch(
+                "tools.video_learning.resolve_xhs_video_url",
+                return_value=("https://sns-video-qc.xhscdn.com/n1.mp4", ["https://sns-video-qc.xhscdn.com/n1.mp4"]),
+            ), patch("tools.video_learning.ensure_video_file", side_effect=fake_ensure), patch(
+                "tools.video_learning.validate_video_artifact", return_value={"validation": "valid", "reason": ""}
+            ):
+                result = video_learning.download_selected_media(root, source_ids={"n1"})
+
+            statuses = json.loads(
+                (root / "00_System/runtime/reports/video_learning/latest_video_download_statuses.json").read_text(encoding="utf-8")
+            )
+            self.assertEqual(result["downloaded"], 1)
+            self.assertEqual(statuses["n1"]["status"], "downloaded")
+            self.assertIn("resolved_xhs_page_video_url candidates=1", statuses["n1"]["warnings"])
 
     def test_srt_formatting(self):
         segments = [

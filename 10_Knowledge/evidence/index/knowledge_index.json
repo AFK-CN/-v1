@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-27T20:06:38",
+  "generated_at": "2026-06-28T01:40:15",
   "root": "/Users/lao_wu/codexAI/知识库",
   "layer_map_version": 1,
   "files": [
@@ -32,86 +32,6 @@
       "is_raw_input": false,
       "cleanup_candidate": false,
       "updated_at": "2026-06-27T19:26:51+08:00"
-    },
-    {
-      "path": "00_Inbox/.DS_Store",
-      "type": "unknown",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": true,
-      "updated_at": "2026-06-27T18:22:07+08:00"
-    },
-    {
-      "path": "00_Inbox/README.md",
-      "type": "md",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-14T10:22:45+08:00"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/.DS_Store",
-      "type": "unknown",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": true,
-      "updated_at": "2026-06-27T18:22:42+08:00"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/20260627_152903/accounts.md",
-      "type": "md",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-27T18:25:40+08:00"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/20260627_152903/import_summary.md",
-      "type": "md",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-27T18:25:40+08:00"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/20260627_152903/manifest.json",
-      "type": "json",
-      "purpose": "raw_input",
-      "content_status": "new",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": true,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-27T18:25:40+08:00"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/20260627_152903/next_actions.md",
-      "type": "md",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-27T18:25:40+08:00"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/20260627_152903/records.jsonl",
-      "type": "jsonl",
-      "purpose": "raw_input",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-27T18:25:40+08:00"
     },
     {
       "path": "00_System/.DS_Store",
@@ -201,7 +121,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:42:07+08:00"
+      "updated_at": "2026-06-27T20:17:59+08:00"
     },
     {
       "path": "00_System/shareable/config/search_terms.json",
@@ -311,7 +231,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:27:57+08:00"
+      "updated_at": "2026-06-27T20:17:44+08:00"
     },
     {
       "path": "00_System/shareable/index/task_entry_index.md",
@@ -321,7 +241,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:16:12+08:00"
     },
     {
       "path": "00_System/shareable/memory/memory_rules.md",
@@ -541,7 +461,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:09:12+08:00"
+      "updated_at": "2026-06-28T01:40:13+08:00"
     },
     {
       "path": "00_System/shareable/skill_packages/knowledge-base/agents/openai.yaml",
@@ -551,7 +471,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:09:12+08:00"
+      "updated_at": "2026-06-28T01:40:13+08:00"
     },
     {
       "path": "00_System/shareable/skill_packages/knowledge-base/references/calling-rules.md",
@@ -561,7 +481,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:09:12+08:00"
+      "updated_at": "2026-06-28T01:40:13+08:00"
     },
     {
       "path": "00_System/shareable/skill_packages/知识库/SKILL.md",
@@ -571,7 +491,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:09:12+08:00"
+      "updated_at": "2026-06-28T01:40:13+08:00"
     },
     {
       "path": "00_System/shareable/skill_packages/知识库/agents/openai.yaml",
@@ -581,7 +501,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:09:12+08:00"
+      "updated_at": "2026-06-28T01:40:13+08:00"
     },
     {
       "path": "00_System/shareable/skill_packages/知识库/references/calling-rules.md",
@@ -591,7 +511,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:09:12+08:00"
+      "updated_at": "2026-06-28T01:40:13+08:00"
     },
     {
       "path": "00_System/shareable/skills/.DS_Store",
@@ -10101,7 +10021,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/index/file_relation_index.json",
@@ -10111,7 +10031,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/index/formal_knowledge_index.json",
@@ -10121,7 +10041,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/index/knowledge_index.json",
@@ -10131,7 +10051,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/index/knowledge_index_summary.md",
@@ -10141,7 +10061,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/index/raw_blocked_index.json",
@@ -10151,7 +10071,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/index/sqlite_import_status.md",
@@ -10191,7 +10111,7 @@
       "calling_scope": "internal_or_review",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T20:04:39+08:00"
+      "updated_at": "2026-06-27T20:06:38+08:00"
     },
     {
       "path": "10_Knowledge/evidence/memory/README.md",
@@ -15434,146 +15354,6 @@
       "updated_at": "2026-06-26T19:03:59+08:00"
     },
     {
-      "path": "99_Archive/.DS_Store",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": true,
-      "updated_at": "2026-06-23T14:44:37+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/.DS_Store",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": true,
-      "updated_at": "2026-06-23T14:44:37+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/codex-obsidian-knowledgebase.md",
-      "type": "md",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:47:44+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_1",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:25+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_10",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:30+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_11",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:31+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_2",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:27+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_3",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:28+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_4",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:28+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_5",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:29+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_6",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:29+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_7",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:29+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_8",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:30+08:00"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/media/media_9",
-      "type": "unknown",
-      "purpose": "supporting_file",
-      "content_status": "approved",
-      "calling_scope": "blocked_by_default",
-      "is_raw_input": false,
-      "cleanup_candidate": false,
-      "updated_at": "2026-06-13T21:49:30+08:00"
-    },
-    {
       "path": "AGENTS.md",
       "type": "md",
       "purpose": "supporting_file",
@@ -15721,7 +15501,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:43:43+08:00"
+      "updated_at": "2026-06-27T20:16:48+08:00"
     },
     {
       "path": "tests/test_kb_web_console.py",
@@ -15751,7 +15531,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:04:15+08:00"
+      "updated_at": "2026-06-28T00:54:01+08:00"
     },
     {
       "path": "tests/test_video_learning_account_ingest.py",
@@ -15981,7 +15761,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:28:53+08:00"
+      "updated_at": "2026-06-27T20:16:27+08:00"
     },
     {
       "path": "tools/kb/memory.py",
@@ -16121,7 +15901,7 @@
       "calling_scope": "system_internal",
       "is_raw_input": false,
       "cleanup_candidate": false,
-      "updated_at": "2026-06-27T19:03:51+08:00"
+      "updated_at": "2026-06-28T00:55:18+08:00"
     },
     {
       "path": "tools/video_learning_account_ingest.py",
@@ -16166,30 +15946,6 @@
       "cleanup_candidate": true,
       "cleanup_reason": "system_or_auth_artifact",
       "sha1": "b8c9b1c66703bef41b2a18d7f6ddf8b466f367c9"
-    },
-    {
-      "path": "00_Inbox/.DS_Store",
-      "name": ".DS_Store",
-      "suffix": "",
-      "size_bytes": 6148,
-      "modified_at": "2026-06-27T18:22:07+08:00",
-      "is_raw_input": false,
-      "is_system_file": false,
-      "cleanup_candidate": true,
-      "cleanup_reason": "system_or_auth_artifact",
-      "sha1": "3df739c20692a742fef7e165771735ad4e4ef17e"
-    },
-    {
-      "path": "00_Inbox/sqlite_imports/.DS_Store",
-      "name": ".DS_Store",
-      "suffix": "",
-      "size_bytes": 6148,
-      "modified_at": "2026-06-27T18:22:42+08:00",
-      "is_raw_input": false,
-      "is_system_file": false,
-      "cleanup_candidate": true,
-      "cleanup_reason": "system_or_auth_artifact",
-      "sha1": "34aac599c2cc21914f8dcfe81e69a89b50c26f99"
     },
     {
       "path": "00_System/.DS_Store",
@@ -16310,30 +16066,6 @@
       "cleanup_candidate": true,
       "cleanup_reason": "system_or_auth_artifact",
       "sha1": "89b5b30be887a1f5708b30664423eb33f9678a60"
-    },
-    {
-      "path": "99_Archive/.DS_Store",
-      "name": ".DS_Store",
-      "suffix": "",
-      "size_bytes": 8196,
-      "modified_at": "2026-06-23T14:44:37+08:00",
-      "is_raw_input": false,
-      "is_system_file": false,
-      "cleanup_candidate": true,
-      "cleanup_reason": "system_or_auth_artifact",
-      "sha1": "e992e243dcf8375de39ed1bc6c243ac4eab1f05e"
-    },
-    {
-      "path": "99_Archive/feishu_doc_read/.DS_Store",
-      "name": ".DS_Store",
-      "suffix": "",
-      "size_bytes": 6148,
-      "modified_at": "2026-06-23T14:44:37+08:00",
-      "is_raw_input": false,
-      "is_system_file": false,
-      "cleanup_candidate": true,
-      "cleanup_reason": "system_or_auth_artifact",
-      "sha1": "f37b3ec3efcf4c89ea63e2c4107dd9883952875b"
     },
     {
       "path": "tools/.DS_Store",

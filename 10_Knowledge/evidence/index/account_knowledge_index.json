@@ -1,6 +1,321 @@
 {
-  "generated_at": "2026-06-21T16:29:00",
+  "generated_at": "2026-06-28T21:58:13",
   "accounts": [
+    {
+      "account_id": "xiaosenlin_xiaoshijie",
+      "account_name": "小森林的小世界",
+      "platform": "小红书",
+      "formal_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界",
+      "directions": [
+        {
+          "direction": "护肤功效",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 10,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效"
+        },
+        {
+          "direction": "毛孔清洁",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 18,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁"
+        },
+        {
+          "direction": "刷酸焕肤",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 12,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤"
+        },
+        {
+          "direction": "抗老修护",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 14,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护"
+        },
+        {
+          "direction": "美容项目平替",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 14,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替"
+        },
+        {
+          "direction": "好物测评",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 20,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评"
+        },
+        {
+          "direction": "变美经验",
+          "status": "formal_ingested",
+          "card_count": 9,
+          "transcript_file_count": 14,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验"
+        },
+        {
+          "direction": "生活方式",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 18,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式"
+        },
+        {
+          "direction": "账号运营",
+          "status": "formal_ingested",
+          "card_count": 8,
+          "transcript_file_count": 10,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营"
+        }
+      ],
+      "knowledge_layers": [
+        {
+          "layer": "account_overview",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号方法论总览.md",
+          "description": "账号整体方法和读取边界。"
+        },
+        {
+          "layer": "account_summary",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号整体方法论.md",
+          "description": "账号级总结、跨方向模型和内容资产学习口径。"
+        },
+        {
+          "layer": "content_usage",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容生产使用说明.md",
+          "description": "会话外调用和内容生产读取规则。"
+        },
+        {
+          "layer": "anti_ai_style",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/减少AI味输出规则.md",
+          "description": "账号级风格控制和批量输出防雷同规则。"
+        },
+        {
+          "layer": "account_content_template",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容输出标准模板.md",
+          "description": "账号通用选题和文案输出模板。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "护肤功效",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "护肤功效",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "护肤功效",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "护肤功效",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "毛孔清洁",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "毛孔清洁",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "毛孔清洁",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "毛孔清洁",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "刷酸焕肤",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "刷酸焕肤",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "刷酸焕肤",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "刷酸焕肤",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "抗老修护",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "抗老修护",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "抗老修护",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "抗老修护",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "美容项目平替",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "美容项目平替",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "美容项目平替",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "美容项目平替",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "好物测评",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "好物测评",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "好物测评",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "好物测评",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "变美经验",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "变美经验",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "变美经验",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "变美经验",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "生活方式",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "生活方式",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "生活方式",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "生活方式",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "账号运营",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "账号运营",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "账号运营",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "账号运营",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        }
+      ],
+      "storage_policy": "热知识进账号中心；大体积媒体留原地址并登记为云端候选。"
+    },
     {
       "account_id": "jianghushuo",
       "account_name": "姜胡说",
@@ -8,95 +323,95 @@
       "formal_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说",
       "directions": [
         {
-          "direction": "赚钱",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱"
-        },
-        {
-          "direction": "财富策略",
-          "status": "formal_ingested",
-          "card_count": 9,
-          "transcript_file_count": 18,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略"
-        },
-        {
-          "direction": "创业",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业"
-        },
-        {
-          "direction": "商业机会",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会"
-        },
-        {
-          "direction": "自媒体",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体"
-        },
-        {
-          "direction": "短视频",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频"
-        },
-        {
-          "direction": "表达文案",
-          "status": "formal_ingested",
-          "card_count": 9,
-          "transcript_file_count": 18,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案"
-        },
-        {
-          "direction": "结构化理解",
-          "status": "formal_ingested",
-          "card_count": 9,
-          "transcript_file_count": 18,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解"
-        },
-        {
-          "direction": "阅读输入",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入"
-        },
-        {
-          "direction": "认知升级",
-          "status": "formal_ingested",
-          "card_count": 10,
-          "transcript_file_count": 20,
-          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级"
-        },
-        {
           "direction": "个人成长",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 20,
+          "transcript_file_count": 0,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长"
         },
         {
           "direction": "人生策略",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 20,
+          "transcript_file_count": 0,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略"
+        },
+        {
+          "direction": "创业",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业"
+        },
+        {
+          "direction": "商业机会",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会"
         },
         {
           "direction": "技能沉淀",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 20,
+          "transcript_file_count": 0,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀"
+        },
+        {
+          "direction": "短视频",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频"
+        },
+        {
+          "direction": "结构化理解",
+          "status": "formal_ingested",
+          "card_count": 9,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解"
+        },
+        {
+          "direction": "自媒体",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体"
+        },
+        {
+          "direction": "表达文案",
+          "status": "formal_ingested",
+          "card_count": 9,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案"
+        },
+        {
+          "direction": "认知升级",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级"
+        },
+        {
+          "direction": "财富策略",
+          "status": "formal_ingested",
+          "card_count": 9,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略"
+        },
+        {
+          "direction": "赚钱",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱"
+        },
+        {
+          "direction": "阅读输入",
+          "status": "formal_ingested",
+          "card_count": 10,
+          "transcript_file_count": 0,
+          "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入"
         }
       ],
       "knowledge_layers": [
@@ -104,6 +419,11 @@
           "layer": "account_overview",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号方法论总览.md",
           "description": "账号整体方法和读取边界。"
+        },
+        {
+          "layer": "account_summary",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号整体方法论.md",
+          "description": "账号级总结、跨方向模型和内容资产学习口径。"
         },
         {
           "layer": "content_usage",
@@ -122,246 +442,6 @@
         },
         {
           "layer": "direction_method",
-          "direction": "赚钱",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "赚钱",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "赚钱",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "赚钱",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "财富策略",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "财富策略",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "财富策略",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "财富策略",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "创业",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "创业",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "创业",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "创业",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "商业机会",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "商业机会",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "商业机会",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "商业机会",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "自媒体",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "自媒体",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "自媒体",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "自媒体",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "短视频",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "短视频",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "短视频",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "短视频",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "表达文案",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "表达文案",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "表达文案",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "表达文案",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "结构化理解",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "结构化理解",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "结构化理解",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "结构化理解",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "阅读输入",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "阅读输入",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "阅读输入",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "阅读输入",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
-          "direction": "认知升级",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向方法论总结.md",
-          "description": "方向级方法论总结。"
-        },
-        {
-          "layer": "single_cards",
-          "direction": "认知升级",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards",
-          "description": "一视频一文件知识卡。"
-        },
-        {
-          "layer": "rough_scan",
-          "direction": "认知升级",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
-        },
-        {
-          "layer": "transcripts",
-          "direction": "认知升级",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts",
-          "description": "证据回溯用逐字稿。"
-        },
-        {
-          "layer": "direction_method",
           "direction": "个人成长",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/方向方法论总结.md",
           "description": "方向级方法论总结。"
@@ -373,16 +453,16 @@
           "description": "一视频一文件知识卡。"
         },
         {
-          "layer": "rough_scan",
+          "layer": "rough_learning_pool",
           "direction": "个人成长",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
         },
         {
           "layer": "transcripts",
           "direction": "个人成长",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts",
-          "description": "证据回溯用逐字稿。"
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
         },
         {
           "layer": "direction_method",
@@ -397,16 +477,64 @@
           "description": "一视频一文件知识卡。"
         },
         {
-          "layer": "rough_scan",
+          "layer": "rough_learning_pool",
           "direction": "人生策略",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
         },
         {
           "layer": "transcripts",
           "direction": "人生策略",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts",
-          "description": "证据回溯用逐字稿。"
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "创业",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "创业",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "创业",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "创业",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "商业机会",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "商业机会",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "商业机会",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "商业机会",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
         },
         {
           "layer": "direction_method",
@@ -421,16 +549,208 @@
           "description": "一视频一文件知识卡。"
         },
         {
-          "layer": "rough_scan",
+          "layer": "rough_learning_pool",
           "direction": "技能沉淀",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/粗扫内容和选题.md",
-          "description": "高频主题和选题规律。"
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
         },
         {
           "layer": "transcripts",
           "direction": "技能沉淀",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts",
-          "description": "证据回溯用逐字稿。"
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "短视频",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "短视频",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "短视频",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "短视频",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "结构化理解",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "结构化理解",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "结构化理解",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "结构化理解",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "自媒体",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "自媒体",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "自媒体",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "自媒体",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "表达文案",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "表达文案",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "表达文案",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "表达文案",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "认知升级",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "认知升级",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "认知升级",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "认知升级",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "财富策略",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "财富策略",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "财富策略",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "财富策略",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "赚钱",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "赚钱",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "赚钱",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "赚钱",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
+        },
+        {
+          "layer": "direction_method",
+          "direction": "阅读输入",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向方法论总结.md",
+          "description": "方向级方法论总结。"
+        },
+        {
+          "layer": "single_cards",
+          "direction": "阅读输入",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards",
+          "description": "一视频一文件知识卡。"
+        },
+        {
+          "layer": "rough_learning_pool",
+          "direction": "阅读输入",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/粗扫内容和选题.md",
+          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+        },
+        {
+          "layer": "transcripts",
+          "direction": "阅读输入",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts",
+          "description": "视频证据回溯用逐字稿；图文或元数据卡不强求。"
         }
       ],
       "storage_policy": "热知识进账号中心；大体积媒体留原地址并登记为云端候选。"

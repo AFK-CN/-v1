@@ -1,0 +1,664 @@
+{
+  "direction": "美容项目平替",
+  "topic_clusters": [
+    {
+      "topic": "水光",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "64b8b4fb000000000a0186a3",
+          "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "659cdcba000000001a000038",
+          "title": "油痘肌变水光肌，油光和水光就差一点点",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "664829ea0000000014018add",
+          "title": "养好发质的方法（水光发教程）",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "66a4b2bd0000000027012756",
+          "title": "家庭版水光发教程！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "670d12720000000021002837",
+          "title": "一些油痘肌超爱的狠货（深圳秋冬天版）",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "家庭版",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "6469843c0000000013002780",
+          "title": "家庭版海菲秀第二天",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "66a4b2bd0000000027012756",
+          "title": "家庭版水光发教程！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "66daaa6a000000001e01b1bd",
+          "title": "分享我的家庭版舒敏之星，敏肌超爱！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6857fab6000000002400fecb",
+          "title": "沉浸式！一周一次家庭版🌊飞秀～",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6a0ebd99000000000803d4d2",
+          "title": "又省钱又有效果的家庭版项目图文来咯！",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "美容仪",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "66fd4382000000001a021c8b",
+          "title": "家庭版光子真的让皮肤变得好细腻通透",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "681b78f6000000002101a5dd",
+          "title": "4年没去美容院，皮肤反而更好了",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "68cac007000000000e032efd",
+          "title": "家庭版光子的护肤搭配（答疑解惑版",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "海菲秀",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "6469843c0000000013002780",
+          "title": "家庭版海菲秀第二天",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "64b8b4fb000000000a0186a3",
+          "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "光子",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "66fd4382000000001a021c8b",
+          "title": "家庭版光子真的让皮肤变得好细腻通透",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "68cac007000000000e032efd",
+          "title": "家庭版光子的护肤搭配（答疑解惑版",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "家用",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "670d12720000000021002837",
+          "title": "一些油痘肌超爱的狠货（深圳秋冬天版）",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "项目",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "6a0ebd99000000000803d4d2",
+          "title": "又省钱又有效果的家庭版项目图文来咯！",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "在家做",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "63579622000000001402837b",
+          "title": "在家做spa，疗愈卸妆 & 护肤分享🌙",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "63579622000000001402837b",
+      "title": "在家做spa，疗愈卸妆 & 护肤分享🌙",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "在家做spa，疗愈卸妆 & 护肤分享🌙 不管再忙碌，也要学会卸下&放松自己 # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "朵梵",
+        "朵梵卸妆膏",
+        "卸妆膏",
+        "我的护肤日常",
+        "spa"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6469843c0000000013002780",
+      "title": "家庭版海菲秀第二天",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版海菲秀第二天 早上起来洗脸的时候就明显感觉毛孔很干净，皮肤细腻、光滑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "油痘肌",
+        "小森林家庭版海菲秀"
+      ],
+      "short_phrases": [
+        "家庭版海菲秀第二天 早上起来洗脸的时候就明显感觉毛孔很干净，皮肤细腻、光滑"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64b8b4fb000000000a0186a3",
+      "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版水光海菲秀，皮肤细腻通透到全脸发光 这一套护理，对痘痘闭口粉刺黑头非常有效，一周做一次，在闭口还没形成之前，就把毛孔里堵塞的油脂清出来",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "油皮",
+        "闭口粉刺",
+        "去黑头",
+        "怎么才能去闭口",
+        "小森林家庭版海菲秀"
+      ],
+      "short_phrases": [
+        "为什么大家用了🍋还长闭口",
+        "这个升级版，对比前一版最主要的是换了🍋和后续的精华"
+      ],
+      "question_phrases": [
+        "为什么大家用了🍋还长闭口"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "659cdcba000000001a000038",
+      "title": "油痘肌变水光肌，油光和水光就差一点点",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌变水光肌，油光和水光就差一点点 我这个油痘肌最羡慕的皮肤状态就是那种细腻水光肌，那种皮肤泛着透亮的光泽感的状态让我特别着迷",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "水光肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "664829ea0000000014018add",
+      "title": "养好发质的方法（水光发教程）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "养好发质的方法（水光发教程） 很多姐妹都夸我发质好 但有一段时间因为护理不当 变成了不折不扣的油头沙发 这么多年来坚持养发护发确实小有成就 想知道我是怎么从鸡窝头 变成人见人夸的水",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "头皮护理",
+        "护发",
+        "发质改善",
+        "护发心得分享",
+        "沙发"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "66a4b2bd0000000027012756",
+      "title": "家庭版水光发教程！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "家庭版水光发教程",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "护发养发",
+        "护发",
+        "洗头方法",
+        "头发护理"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "66daaa6a000000001e01b1bd",
+      "title": "分享我的家庭版舒敏之星，敏肌超爱！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "分享我的家庭版舒敏之星，敏肌超爱",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "敏感肌",
+        "舒缓修护",
+        "敏肌修护",
+        "敏感肌修护",
+        "舒敏之星",
+        "小森林家庭版舒敏之星",
+        "护肤",
+        "毕生之研冻干次抛"
+      ],
+      "short_phrases": [
+        "分享我的家庭版舒敏之星，敏肌超爱"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "66fd4382000000001a021c8b",
+      "title": "家庭版光子真的让皮肤变得好细腻通透",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "家庭版光子真的让皮肤变得好细腻通透 油皮姐妹集合",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "控油",
+        "毛孔粗大",
+        "痘痘闭口",
+        "缩毛孔",
+        "去痘印",
+        "家用美容仪",
+        "易科美",
+        "光子"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "670d12720000000021002837",
+      "title": "一些油痘肌超爱的狠货（深圳秋冬天版）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一些油痘肌超爱的狠货（深圳秋冬天版） 1、点阵仪：用过很多家用仪器，但最终都是闲置在角落里吃灰，但是这台就不一样了，效果好到我恨不得每天都用",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "双十一小红书必买清单",
+        "油皮",
+        "痘痘",
+        "毛孔粗大",
+        "内服",
+        "洗发水"
+      ],
+      "short_phrases": [
+        "第二天皮肤超嫩，让我妆感巨高级",
+        "配合它家15%的酸，第二天感觉自己皮肤比韩国女生"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "681b78f6000000002101a5dd",
+      "title": "4年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4年没去美容院，皮肤反而更好了 被痘印痘坑困扰的姐妹这期一定要看 我会手把手带大家护肤跟练 教你们怎么和护肤品搭配来放大效果 在家就能实现 控油、嫩肤、淡痘印、缩毛孔、提升肤质 #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "控油",
+        "毛孔粗大",
+        "痘痘闭口",
+        "缩毛孔",
+        "去痘印",
+        "家用美容仪",
+        "光子",
+        "水光肌",
+        "易科美"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6857fab6000000002400fecb",
+      "title": "沉浸式！一周一次家庭版🌊飞秀～",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "沉浸式",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "沉浸式护肤"
+      ],
+      "short_phrases": [
+        "一周一次家庭版🌊飞秀～ # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68c2ac85000000001b03d2ca",
+      "title": "5min居家版胶原灌肤省钱跟练‼️做完嫩到发光",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "5min居家版胶原灌肤省钱跟练‼️做完嫩到发光 垮脸姐妹们都一定要试试这个护肤流程， 是我每次状态不好或者有重要场合前必做的",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "护肤",
+        "护肤内行人",
+        "补胶原"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68cac007000000000e032efd",
+      "title": "家庭版光子的护肤搭配（答疑解惑版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版光子的护肤搭配（答疑解惑版 这是我这个油皮最爱的一台美容仪，细腻皮肤、提亮肤色、缩小毛孔、淡化痘印它通通可以做到，而且用起来方便快捷，不需要插电不用涂凝胶",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "美白",
+        "细腻毛孔",
+        "跟练",
+        "补胶原",
+        "如何拯救痘痘肌",
+        "油皮好物",
+        "美容仪",
+        "嫩肤",
+        "跨脸",
+        "抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a0ebd99000000000803d4d2",
+      "title": "又省钱又有效果的家庭版项目图文来咯！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "又省钱又有效果的家庭版项目图文来咯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "居家经验分享",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "63579622000000001402837b",
+      "title": "在家做spa，疗愈卸妆 & 护肤分享🌙",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "在家做spa，疗愈卸妆 & 护肤分享🌙 不管再忙碌，也要学会卸下&放松自己 # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "朵梵",
+        "朵梵卸妆膏",
+        "卸妆膏",
+        "我的护肤日常",
+        "spa"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6469843c0000000013002780",
+      "title": "家庭版海菲秀第二天",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版海菲秀第二天 早上起来洗脸的时候就明显感觉毛孔很干净，皮肤细腻、光滑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "油痘肌",
+        "小森林家庭版海菲秀"
+      ],
+      "short_phrases": [
+        "家庭版海菲秀第二天 早上起来洗脸的时候就明显感觉毛孔很干净，皮肤细腻、光滑"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "681b78f6000000002101a5dd",
+      "title": "4年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4年没去美容院，皮肤反而更好了 被痘印痘坑困扰的姐妹这期一定要看 我会手把手带大家护肤跟练 教你们怎么和护肤品搭配来放大效果 在家就能实现 控油、嫩肤、淡痘印、缩毛孔、提升肤质 #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "控油",
+        "毛孔粗大",
+        "痘痘闭口",
+        "缩毛孔",
+        "去痘印",
+        "家用美容仪",
+        "光子",
+        "水光肌",
+        "易科美"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68cac007000000000e032efd",
+      "title": "家庭版光子的护肤搭配（答疑解惑版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版光子的护肤搭配（答疑解惑版 这是我这个油皮最爱的一台美容仪，细腻皮肤、提亮肤色、缩小毛孔、淡化痘印它通通可以做到，而且用起来方便快捷，不需要插电不用涂凝胶",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "美白",
+        "细腻毛孔",
+        "跟练",
+        "补胶原",
+        "如何拯救痘痘肌",
+        "油皮好物",
+        "美容仪",
+        "嫩肤",
+        "跨脸",
+        "抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "63579622000000001402837b",
+      "title": "在家做spa，疗愈卸妆 & 护肤分享🌙",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "在家做spa，疗愈卸妆 & 护肤分享🌙 不管再忙碌，也要学会卸下&放松自己 # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "朵梵",
+        "朵梵卸妆膏",
+        "卸妆膏",
+        "我的护肤日常",
+        "spa"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6469843c0000000013002780",
+      "title": "家庭版海菲秀第二天",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版海菲秀第二天 早上起来洗脸的时候就明显感觉毛孔很干净，皮肤细腻、光滑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "油痘肌",
+        "小森林家庭版海菲秀"
+      ],
+      "short_phrases": [
+        "家庭版海菲秀第二天 早上起来洗脸的时候就明显感觉毛孔很干净，皮肤细腻、光滑"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "681b78f6000000002101a5dd",
+      "title": "4年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4年没去美容院，皮肤反而更好了 被痘印痘坑困扰的姐妹这期一定要看 我会手把手带大家护肤跟练 教你们怎么和护肤品搭配来放大效果 在家就能实现 控油、嫩肤、淡痘印、缩毛孔、提升肤质 #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "控油",
+        "毛孔粗大",
+        "痘痘闭口",
+        "缩毛孔",
+        "去痘印",
+        "家用美容仪",
+        "光子",
+        "水光肌",
+        "易科美"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68cac007000000000e032efd",
+      "title": "家庭版光子的护肤搭配（答疑解惑版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版光子的护肤搭配（答疑解惑版 这是我这个油皮最爱的一台美容仪，细腻皮肤、提亮肤色、缩小毛孔、淡化痘印它通通可以做到，而且用起来方便快捷，不需要插电不用涂凝胶",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "美白",
+        "细腻毛孔",
+        "跟练",
+        "补胶原",
+        "如何拯救痘痘肌",
+        "油皮好物",
+        "美容仪",
+        "嫩肤",
+        "跨脸",
+        "抗老"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

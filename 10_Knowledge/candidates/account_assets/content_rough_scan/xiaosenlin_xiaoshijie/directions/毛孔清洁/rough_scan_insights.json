@@ -1,0 +1,2314 @@
+{
+  "direction": "毛孔清洁",
+  "topic_clusters": [
+    {
+      "topic": "毛孔",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62b43de9000000000e00d55c",
+          "title": "小森林家庭版毛孔深层清洁",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "62de4772000000001e01708e",
+          "title": "用A醇缩小毛孔晚间护肤分享",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "64146d5c0000000012030eba",
+          "title": "家庭版毛孔深层清洁答疑补充",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "6434e0b800000000130345a1",
+          "title": "缩毛孔真的很简单",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "65866aa000000000380296c4",
+          "title": "毛孔粗大的进！实践1年得出来的细毛孔方法！",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "黑头",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "631995c7000000001203b8fe",
+          "title": "油痘肌告别黑头、闭口、痘痘的精简护肤方式",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "659a7317000000001d0248bc",
+          "title": "终于把黑头给解决了！",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "65b5e095000000002c037fcf",
+          "title": "去黑头真的很简单",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "6618ec46000000001a00ffee",
+          "title": "油皮从根源解决黑头、闭口、痘痘问题",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "67a5c8b9000000002803dafa",
+          "title": "去黑头真的很简单",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "清洁",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62296ef5000000000102d689",
+          "title": "去闭口干货（便宜、有效、直接抄作业）",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "62b43de9000000000e00d55c",
+          "title": "小森林家庭版毛孔深层清洁",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "6304d6c0000000001902be1a",
+          "title": "清洁是痘痘肌养成好皮肤的第一步",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "64146d5c0000000012030eba",
+          "title": "家庭版毛孔深层清洁答疑补充",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "6434e0b800000000130345a1",
+          "title": "缩毛孔真的很简单",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "闭口",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "620b3572000000000102e6e3",
+          "title": "烂脸战“痘”成妈生皮",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "620f1f7d00000000210366b5",
+          "title": "真实有效去闭口、痘痘经验分享",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6267c0a10000000001027382",
+          "title": "不走弯路去闭口，诚意分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "629acfe00000000001026c08",
+          "title": "我皮肤好你听我的～油痘皮千万别瞎买！",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62d2548e000000000d026178",
+          "title": "如何保持脸上不长痘痘闭口",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "粉刺",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "620f1f7d00000000210366b5",
+          "title": "真实有效去闭口、痘痘经验分享",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6267c0a10000000001027382",
+          "title": "不走弯路去闭口，诚意分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "629acfe00000000001026c08",
+          "title": "我皮肤好你听我的～油痘皮千万别瞎买！",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62d2548e000000000d026178",
+          "title": "如何保持脸上不长痘痘闭口",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "62f60c35000000001402ba24",
+          "title": "正确去闭口保姆级教程，针清后注意事项",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "毛孔清洁",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "684e320b000000002101b422",
+          "title": "每天睡够10小时（素颜发光版）",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6905c4900000000004020633",
+          "title": "5年没去美容院，全靠这几位帮我省下六位数",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "6a3b8b49000000002102159e",
+          "title": "🌳618顺利收官！来给大家售后啦～",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "深层清洁",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "62296ef5000000000102d689",
+          "title": "去闭口干货（便宜、有效、直接抄作业）",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "693e7b70000000001e02bc3f",
+          "title": "沉浸式晚间护肤🚿油痘肌在家自己清闭口",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "细腻",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "6795eedf000000002901deee",
+          "title": "分享我是如何缩小毛孔的",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6968a1d7000000001a01e715",
+          "title": "13年油痘肌在家缩毛孔流程",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "620b3572000000000102e6e3",
+      "title": "烂脸战“痘”成妈生皮",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "烂脸战“痘”成妈生皮 今年，是我战“痘”的第九个年头，我终于，战胜了它",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "祛痘",
+        "怎么才能去闭口",
+        "油痘肌",
+        "油痘肌大作战",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "烂脸战“痘”成妈生皮 今年，是我战“痘”的第九个年头，我终于，战胜了它",
+        "2013年，我进入大学，就开始了我的战痘生涯"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "620f1f7d00000000210366b5",
+      "title": "真实有效去闭口、痘痘经验分享",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "真实有效去闭口、痘痘经验分享 我的祛痘经验分享～ # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "笔记灵感",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "长痘",
+        "长痘痘怎么办",
+        "刷酸",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "真实有效去闭口、痘痘经验分享 我的祛痘经验分享～ # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "62296ef5000000000102d689",
+      "title": "去闭口干货（便宜、有效、直接抄作业）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口干货（便宜、有效、直接抄作业） 脸上有闭口，不能用酸，怕脸上大面积爆痘",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "干货分享",
+        "油痘肌护肤",
+        "闭口",
+        "怎么才能去闭口",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "去闭口干货（便宜、有效、直接抄作业） 脸上有闭口，不能用酸，怕脸上大面积爆痘",
+        "先针清，针清完了休息3-5天",
+        "深层清洁大法一周用一、二次",
+        "另外敏感肌不能用我说的这些方法～ 我长了9年痘痘，这些都是我真实的经验"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6267c0a10000000001027382",
+      "title": "不走弯路去闭口，诚意分享",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "不走弯路去闭口，诚意分享 我长了9年的闭口痘痘，喝中药、去美容院、天天研究各种成分、看医生…都没用，走了无数弯路，我曾经以为我这辈子就要和闭口相爱相杀了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "闭口粉刺",
+        "閉口",
+        "怎么才能去闭口",
+        "平价护肤",
+        "学生党"
+      ],
+      "short_phrases": [
+        "但突然摸到方法后，我就不长闭口了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "629acfe00000000001026c08",
+      "title": "我皮肤好你听我的～油痘皮千万别瞎买！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "我皮肤好你听我的～油痘皮千万别瞎买",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:17[时刻]",
+        "01:29[时刻]",
+        "618千万别买踩雷单品",
+        "笔记灵感",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "油痘肌大作战",
+        "油痘肌",
+        "购物分享",
+        "雷品大吐槽"
+      ],
+      "short_phrases": [
+        "我皮肤好你听我的～油痘皮千万别瞎买",
+        "油痘皮在护肤品上是要小心再小心，不要被商家pua了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62b43de9000000000e00d55c",
+      "title": "小森林家庭版毛孔深层清洁",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "小森林家庭版毛孔深层清洁 这一套护理，对闭口痘痘非常有效",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "闭口",
+        "去闭口好物推荐",
+        "黑头粉刺",
+        "黑头",
+        "去黑头",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "小森林家庭版毛孔深层清洁 这一套护理，对闭口痘痘非常有效"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62d2548e000000000d026178",
+      "title": "如何保持脸上不长痘痘闭口",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何保持脸上不长痘痘闭口 我长了9年的痘痘闭口，是极易冒痘冒闭口肤质，但现在皮肤已经被我保持的很稳定了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "怎么才能去闭口",
+        "油痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "对于油痘肌而言经常闷痘闷闭口，护肤品是主要原因",
+        "她说，那肯定是你用的太滋养了，换个清爽的保湿"
+      ],
+      "question_phrases": [
+        "如何保持脸上不长痘痘闭口 我长了9年的痘痘闭口，是极易冒痘冒闭口肤质，但现在皮肤已经被我保持的很稳定了",
+        "曾经我找了深圳最好的皮肤👩‍⚕️问为什么我只要不用s，就会冒粉刺闭口，我感觉我s停不下来"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62de4772000000001e01708e",
+      "title": "用A醇缩小毛孔晚间护肤分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "用A醇缩小毛孔晚间护肤分享 有一些宝宝问我脸颊毛孔粗大怎么办",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "收缩毛孔",
+        "毛孔粗大",
+        "毛孔清洁",
+        "我的护肤日常",
+        "油痘肌",
+        "护肤",
+        "油皮",
+        "毛孔粗大怎么办"
+      ],
+      "short_phrases": [
+        "刚开始用a醇的宝，这款面霜建议用一"
+      ],
+      "question_phrases": [
+        "用A醇缩小毛孔晚间护肤分享 有一些宝宝问我脸颊毛孔粗大怎么办"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62f60c35000000001402ba24",
+      "title": "正确去闭口保姆级教程，针清后注意事项",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "正确去闭口保姆级教程，针清后注意事项 # # # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "笔记灵感",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "去闭口",
+        "痘痘肌肤",
+        "油痘肌",
+        "痘痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6304d6c0000000001902be1a",
+      "title": "清洁是痘痘肌养成好皮肤的第一步",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "清洁是痘痘肌养成好皮肤的第一步 清洁是我觉得在护肤当中最重要的一步，其实护肤里只要做好 清洁、保湿、防晒，皮肤就已经可以很好了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "卸妆分享",
+        "卸妆",
+        "好皮肤养成记",
+        "清洁好物",
+        "卸妆测评",
+        "平价卸妆",
+        "艾天然卸妆液"
+      ],
+      "short_phrases": [
+        "所以，有一个好的清洁产品是油痘皮、油敏皮养成好皮肤的第一步"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64146d5c0000000012030eba",
+      "title": "家庭版毛孔深层清洁答疑补充",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版毛孔深层清洁答疑补充 爱长闭口的宝子你们一定要试试我的深层清洁大法（图3⃣️），只单纯用酸是无法让皮肤达到很光滑细腻不长闭口的皮肤状态的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "闭口粉刺",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "毛孔清洁",
+        "收缩毛孔",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "我们油痘肌特别容易毛孔堵塞，一定需要定期深层清理毛孔",
+        "别看我现在皮肤挺好的，我如果10天不做清洁脸上照样闭口痘痘不断"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6434e0b800000000130345a1",
+      "title": "缩毛孔真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "缩毛孔真的很简单 经常有一些评论说我不可能是油痘肌，因为看不到啥毛孔 但，我亲测油痘肌毛孔是真的有可能变小的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "毛孔粗大",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "缩毛孔",
+        "大毛孔",
+        "毛孔",
+        "毛孔清洁"
+      ],
+      "short_phrases": [
+        "今天分享一些我缩毛孔的经验～ 其实真的很简单",
+        "因为长过3k多个痘，毛孔超大",
+        "但自从我开始做深层清洁+甘醇酸后毛孔就小了好多"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64d71c44000000000301cf55",
+      "title": "去闭口其实很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口其实很简单 去闭口其实非常简单，很多人都把它想复杂了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "闭口",
+        "油痘肌护肤",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "去闭口其实很简单 去闭口其实非常简单，很多人都把它想复杂了",
+        "我长了8年的闭口，之前感觉是用什么护肤品都没用，一度以为就这样了",
+        "但掌握正确方法后，我发现闭口这玩意实在是太好解决了",
+        "而且花费极低，绝对比乱买护肤品要省钱多了"
+      ],
+      "question_phrases": [
+        "我长了8年的闭口，之前感觉是用什么护肤品都没用，一度以为就这样了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "653cf5bc0000000020000991",
+      "title": "10年经验分享如何解决痘痘闭口！不走弯路！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "10年经验分享如何解决痘痘闭口",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "经验分享",
+        "痘痘肌",
+        "痘痘",
+        "干货分享",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "油痘肌零基础护肤小白第四期来咯～～ # # # # # # # #"
+      ],
+      "question_phrases": [
+        "10年经验分享如何解决痘痘闭口"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65866aa000000000380296c4",
+      "title": "毛孔粗大的进！实践1年得出来的细毛孔方法！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "毛孔粗大的进",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "毛孔粗大",
+        "收缩毛孔"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "之前很多人都很好奇为什么我长完dou之后，皮肤还是白白净净，甚至毛孔都不怎么明显的，今天我来交功课了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65b5e095000000002c037fcf",
+      "title": "去黑头真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去黑头真的很简单 这篇献给所有有黑头的女孩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "黑头",
+        "如何去黑头",
+        "去黑头方法"
+      ],
+      "short_phrases": [
+        "作为一个10几年的黑头妹，现在鼻头光滑、干净",
+        "1⃣️首先我想说的是，千万别相信清洁泥膜能帮我们清黑头",
+        "如果清洁泥膜能去黑头，那大家都不会有黑头了（人手一罐清洁泥膜吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "666d5c1a000000000e032127",
+      "title": "如何自测是否适合做家庭版毛孔深层清洁流程",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何自测是否适合做家庭版毛孔深层清洁流程 今天是一期干货视频 教大家分辨自己是否适合做家庭版毛孔深层清洁流程 为什么有的人坚持做皮肤越来越好 而有的人做完后开始爆痘 今天这个视频都",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "666e5d42000000000d00d3cc",
+      "title": "2年没怎么长闭口，闭口真的是最好解决的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "2年没怎么长闭口，闭口真的是最好解决的 都2024年了，居然还有很多姐妹被闭口困扰",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "闭口粉刺",
+        "怎么才能去闭口"
+      ],
+      "short_phrases": [
+        "首先毛孔堵才会长闭口，每一个闭口里都有一个小米粒样的角栓，或者说是油脂粒"
+      ],
+      "question_phrases": [
+        "2年没怎么长闭口，闭口真的是最好解决的 都2024年了，居然还有很多姐妹被闭口困扰"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66d97897000000000c01858f",
+      "title": "长3000颗痘再回到妈生好皮",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "长3000颗痘再回到妈生好皮 作为一个全脸长过3000颗痘的过来人，吃过太多亏，走过太多弯路",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "油皮",
+        "红薯买手集"
+      ],
+      "short_phrases": [
+        "分享一下怎么快速让痘痘变好，怎么变成不易长痘肤质，以及快速改善痘印",
+        "1、脸上有很多闭口粉刺痘痘的时候，一定要去针清",
+        "很多姐妹有一个误区就是觉得针清不好，想让痘痘闭口自己代谢掉"
+      ],
+      "question_phrases": [
+        "分享一下怎么快速让痘痘变好，怎么变成不易长痘肤质，以及快速改善痘印"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "671b52010000000026034e31",
+      "title": "油痘肌终结闭口痘痘！无痘人生太爽了~",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌终结闭口痘痘",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "闭口",
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "护肤",
+        "油痘肌大作战",
+        "祛痘",
+        "seayeo大排灯",
+        "昔又",
+        "seayeo大排灯经典s"
+      ],
+      "short_phrases": [
+        "无痘人生太爽了~ 今天这期视频油痘肌姐妹一定要看"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "674752270000000007024b95",
+      "title": "手把手分享我是如何一周解决痘痘闭口粉刺的",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "手把手分享我是如何一周解决痘痘闭口粉刺的 这期视频我想做好久了~ 一直在等着脸上长痘长闭口的时候拍摄 刚好上周痘痘闭口粉刺全都找上门来 直接给我提供了视频素材 今天这个视频我一次性",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "祛痘",
+        "痘痘闭口",
+        "痘印怎么淡化",
+        "痘痘肌",
+        "干货"
+      ],
+      "short_phrases": [
+        "非常快速而且不会留痕迹~ 大家赶快试试然后给我交功课哟 # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "676501d40000000009017e2e",
+      "title": "家庭版毛孔深层清洁后续护肤分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "家庭版毛孔深层清洁后续护肤分享 我11年油痘肌，毛孔粗大、草莓鼻、脸上很多痘和闭口",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "但自从在家一周做一次家庭版毛孔清洁之后皮肤就像开挂一样，变得又细腻又通透",
+        "毛孔深层清洁的原理就是在油脂还未形成闭口造成大面积堵塞时，就先清出来",
+        "里面有两个清洁步骤，先打开皮肤通道，再清理毛孔里的深层油脂"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6795eedf000000002901deee",
+      "title": "分享我是如何缩小毛孔的",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "分享我是如何缩小毛孔的 我大学的时候是个不折不扣的痘妹，脸上长了超过几千颗痘痘",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "缩毛孔",
+        "毛孔粗大",
+        "深层清洁",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "后来痘痘好了之后，毛孔就变得很明显，尤其是鼻翼两侧密密麻麻都是小黑洞",
+        "今天就来分享一些我的缩毛孔经验~ 我亲测油痘肌是真的可以通过护肤+仪"
+      ],
+      "question_phrases": [
+        "分享我是如何缩小毛孔的 我大学的时候是个不折不扣的痘妹，脸上长了超过几千颗痘痘"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "67a5c8b9000000002803dafa",
+      "title": "去黑头真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去黑头真的很简单 我从初中开始长黑头，到现在总算摸出来了比较有效的一套去黑头方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "去黑头",
+        "黑头",
+        "油痘肌",
+        "油皮",
+        "年前突击变美",
+        "我的护肤年度总结"
+      ],
+      "short_phrases": [
+        "首先，如果看到谁分享一劳永逸去黑头的方法，赶紧取关赶紧跑，ta就是来骗钱的",
+        "因为只要我们的鼻子出油很厉害，黑头就是会不断地长"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67b7f516000000002901d6f2",
+      "title": "攒了10多天的黑头就为了拍这个去黑头大法",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "攒了10多天的黑头就为了拍这个去黑头大法 去黑头实用功课来啦~ 攒了十多天的黑头就为了拍这期视频 效果真的很直观很明显 大家可以跟练起来~ 希望你们都能收获水煮蛋一样的鼻子",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "去黑头",
+        "黑头",
+        "油皮",
+        "黑头粉刺",
+        "深层清洁",
+        "油痘肌护肤",
+        "美蒂菲",
+        "medipeel",
+        "黑头导出液"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67f782d2000000001d02c40d",
+      "title": "去闭口真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口真的很简单 我长了10年闭口，曾经以为脸就这样了，反反复复，长了就消，消了又长",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "黑头闭口",
+        "闭口粉刺",
+        "毛孔粗大",
+        "科颜氏溜溜瓶"
+      ],
+      "short_phrases": [
+        "一般在三五天内就能消失得干干净净，但针清再好也只能治标，只"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68073d1b000000001d03aefb",
+      "title": "分享我是怎么靠洗脸把痘痘搞好了！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "分享我是怎么靠洗脸把痘痘搞好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "正确洗脸",
+        "护肤",
+        "洁面",
+        "丝塔芙三酸洁面",
+        "痘肌",
+        "油痘肌",
+        "祛痘",
+        "油痘肌洗面奶"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "分享我是怎么靠洗脸把痘痘搞好了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "681852230000000021018936",
+      "title": "让我不再长痘痘闭口的深层清洁流程！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "让我不再长痘痘闭口的深层清洁流程",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "小森林",
+        "油痘肌护肤",
+        "油皮",
+        "深层清洁",
+        "痘痘闭口",
+        "去黑头",
+        "素颜好皮帮帮忙",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "家庭版毛孔深层清洁 4.0升级版来咯 这期超详细"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "684e320b000000002101b422",
+      "title": "每天睡够10小时（素颜发光版）",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "每天睡够10小时（素颜发光版） 这段时间我终于明白了什么叫做“睡饱觉赢过所有的贵价护肤品”，甚至不需要做美美项目，皮肤就能好到发光",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "素顔好皮帮帮忙",
+        "水光肌",
+        "皮肤自带水光感",
+        "养肤",
+        "素颜",
+        "熬夜",
+        "睡觉的重要性",
+        "小森林家庭版毛孔深层清洁",
+        "护肤干货"
+      ],
+      "short_phrases": [
+        "1.每天打底睡够8小时，比你吃各种名贵补品，去美容院do项目更有用",
+        "不一样的作息养出来的皮肤完全不是一个level的：晚11"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "685bb2120000000022032fad",
+      "title": "一年针清20次，闭口怎么还没好？",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一年针清20次，闭口怎么还没好",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "闭口没有了",
+        "油痘肌护肤",
+        "如何去闭口",
+        "素颜好皮帮帮忙"
+      ],
+      "short_phrases": [
+        "一年针清20次，闭口怎么还没好",
+        "不清还不行，脸上全是凸起的闭口，显的皮肤特别脏",
+        "像我们这种肤质，油"
+      ],
+      "question_phrases": [
+        "一年针清20次，闭口怎么还没好"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "689f013e000000001c00752b",
+      "title": "5min手把手去闭口教程❗️（狠人洗护跟练",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "5min手把手去闭口教程❗️（狠人洗护跟练 这条视频记录了🪡清开始7天全部的流程🧾 做得用的都记录下来了把去闭口这口饭给大家喂进嘴里",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "狠人洗护跟练",
+        "去闭口跟练",
+        "普通人变美思路",
+        "闭口",
+        "终结痘痘闭口",
+        "一周循环护肤公式",
+        "如何拯救痘痘肌",
+        "宅家清毛孔大赛",
+        "开学前逆袭班花"
+      ],
+      "short_phrases": [
+        "你们跟着我做循环两周就能恢复鸡蛋肌～ 希望所有姐妹都不会再被闭口困扰"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68a44731000000001b01c056",
+      "title": "4分钟快速去黑头清毛孔跟练",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4分钟快速去黑头清毛孔跟练 攒了十多天黑头就为了手把手教你们清毛孔～ 深层清洁➕毛孔收缩，做完鼻子毛孔像抛了光～ 希望所有油痘肌朋友都可以被自己的素颜爽到",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "黑头",
+        "黑头闭口",
+        "宅家清毛孔大赛",
+        "去黑头",
+        "暑期逆袭班花",
+        "素颜好皮肤",
+        "护肤内行人",
+        "跟练",
+        "科瑞肤毛孔精华"
+      ],
+      "short_phrases": [
+        "这就是我的目标～ # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68c43bb8000000001b0365b0",
+      "title": "一篇说清楚油皮如何不长痘",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一篇说清楚油皮如何不长痘 每个油痘肌应该都有很多祛痘产品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "痘肌",
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "科颜氏没痘痘露"
+      ],
+      "short_phrases": [
+        "疏通的、控油的、下痘的、代谢的"
+      ],
+      "question_phrases": [
+        "一篇说清楚油皮如何不长痘 每个油痘肌应该都有很多祛痘产品",
+        "但为什么脸总是不好呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68caa1f3000000000e032b58",
+      "title": "细毛孔✈️快的方法跟练（没耐心狠人版",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "细毛孔✈️快的方法跟练（没耐心狠人版 # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "护肤",
+        "好皮肤",
+        "养出细腻好皮肤",
+        "护肤内行人",
+        "跟练",
+        "黑头闭口"
+      ],
+      "short_phrases": [
+        "细毛孔✈️快的方法跟练（没耐心狠人版 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68e49ee60000000004023c09",
+      "title": "水光版毛孔深层清洁跟练！深层清洁全脸发光",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "水光版毛孔深层清洁跟练",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油皮",
+        "深层清洁",
+        "痘痘闭口",
+        "护肤干货",
+        "好皮肤入秋计划"
+      ],
+      "short_phrases": [
+        "深层清洁全脸发光 水光版就是在深层清洁的基础上，增加了进阶的护肤步骤",
+        "在我们毛孔干净通畅的时候再用一个含胶原、水光类的护肤品，让皮肤真正的吃进去",
+        "我做完这套流程皮肤除了干净通透外，素颜整个皮肤都在发光",
+        "坚持跟我一起做深层清洁的姐妹们，你们真的要试试～ # # # ##"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "在我们毛孔干净通畅的时候再用一个含胶原、水光类的护肤品，让皮肤真正的吃进去"
+      ],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68f89cd30000000005030cb8",
+      "title": "沉浸式体验～家庭版毛孔深层清洁",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "沉浸式体验～家庭版毛孔深层清洁 # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "沉浸式护肤",
+        "深层清洁",
+        "好皮肤入秋计划",
+        "护肤干货",
+        "痘痘闭口"
+      ],
+      "short_phrases": [
+        "沉浸式体验～家庭版毛孔深层清洁 # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6905c4900000000004020633",
+      "title": "5年没去美容院，全靠这几位帮我省下六位数",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "5年没去美容院，全靠这几位帮我省下六位数 已经5年没去过美容院了，但皮肤状态肉眼可见越来越好，今天分享一下帮我省下六位数，可以代替美美的几个护肤品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "变白变美",
+        "护肤分享",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "1️⃣胶原炮 它直接帮我省下六位数的do脸钱，让30岁的我无痛k老k衰",
+        "身边所有人都发现我脸上凹陷干瘪的地方丰盈了很多，面中饱"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "693e7b70000000001e02bc3f",
+      "title": "沉浸式晚间护肤🚿油痘肌在家自己清闭口",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "沉浸式晚间护肤🚿油痘肌在家自己清闭口 # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "沉浸式护肤",
+        "深层清洁",
+        "护肤干货",
+        "痘痘闭口",
+        "晚间护肤",
+        "闭口"
+      ],
+      "short_phrases": [
+        "沉浸式晚间护肤🚿油痘肌在家自己清闭口 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6982cba4000000001a023cf0",
+      "title": "从油痘肌到妈生好皮的清洁流程",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "从油痘肌到妈生好皮的清洁流程 从满脸痘痘闭口的油痘肌到现在人人都说好皮肤，最重要的一步就是做好了清洁",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "卸妆油推荐",
+        "以油养肤",
+        "植村秀琥珀洁颜油"
+      ],
+      "short_phrases": [
+        "黑头、痘痘闭口、粉刺、痘印都有了很大的改善～ 大家有困扰的话，也一定要试试"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69ff0b86000000001a036c09",
+      "title": "清黑头/缩毛孔/加固毛孔全流程!没用来骂我",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "清黑头/缩毛孔/加固毛孔全流程",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "黑头",
+        "黑头闭口",
+        "去黑头",
+        "素颜好皮肤",
+        "跟练"
+      ],
+      "short_phrases": [
+        "清黑头/缩毛孔/加固毛孔全流程",
+        "深层清洁➕毛孔收缩，做完鼻子毛孔像抛了光一样细腻滑溜"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a01af100000000006033f62",
+      "title": "13年油痘肌缩毛孔干货来咯（100%无广",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "13年油痘肌缩毛孔干货来咯（100%无广 # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "毛孔粗大",
+        "油痘肌护肤",
+        "缩毛孔",
+        "毛孔",
+        "毛孔清洁"
+      ],
+      "short_phrases": [
+        "13年油痘肌缩毛孔干货来咯（100%无广 # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6a03ecba000000000702eb7a",
+      "title": "缩毛孔真的很简单（具体实操篇）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "缩毛孔真的很简单（具体实操篇） # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "毛孔粗大",
+        "油痘肌护肤",
+        "补胶原",
+        "缩毛孔",
+        "毛孔",
+        "毛孔清洁",
+        "油皮好物"
+      ],
+      "short_phrases": [
+        "缩毛孔真的很简单（具体实操篇） # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6a0c3b590000000006022a9a",
+      "title": "让我全脸细腻的毛孔深层清洁5.0来了！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "让我全脸细腻的毛孔深层清洁5.0来了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "小森林家庭版毛孔深层清洁",
+        "油痘肌护肤",
+        "油皮",
+        "痘痘闭口",
+        "去黑头",
+        "小森林"
+      ],
+      "short_phrases": [
+        "让我全脸细腻的毛孔深层清洁5.0来了",
+        "家庭版毛孔深层清洁5.0来了",
+        "长达九分钟的保姆级教程📝 5.0加入了补胶原缩毛孔的部分",
+        "不仅是能把我们毛孔清的干干净净， 让我们不被痘痘闭口粉刺困扰",
+        "还能把清空的毛孔及时给撑起来， 做完这一套整个皮肤就是又干净又细腻还很饱满"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6a2a602300000000060342b0",
+      "title": "关于我是怎么缩小毛孔的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "关于我是怎么缩小毛孔的 # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "素颜好皮肤",
+        "毛孔粗大",
+        "油痘肌护肤",
+        "补胶原",
+        "缩毛孔",
+        "毛孔",
+        "毛孔清洁",
+        "油皮好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "关于我是怎么缩小毛孔的 # # # # # # # # #"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a3b8b49000000002102159e",
+      "title": "🌳618顺利收官！来给大家售后啦～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "🌳618顺利收官",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "一万种howto买买买"
+      ],
+      "short_phrases": [
+        "🌳618顺利收官"
+      ],
+      "question_phrases": [
+        "很多姐妹种草购入了一些护肤品，但不知道怎么搭配，今天就把这些产品该怎么搭配怎么用都跟大家讲"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "62b43de9000000000e00d55c",
+      "title": "小森林家庭版毛孔深层清洁",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "小森林家庭版毛孔深层清洁 这一套护理，对闭口痘痘非常有效",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "闭口",
+        "去闭口好物推荐",
+        "黑头粉刺",
+        "黑头",
+        "去黑头",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "小森林家庭版毛孔深层清洁 这一套护理，对闭口痘痘非常有效"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62d2548e000000000d026178",
+      "title": "如何保持脸上不长痘痘闭口",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何保持脸上不长痘痘闭口 我长了9年的痘痘闭口，是极易冒痘冒闭口肤质，但现在皮肤已经被我保持的很稳定了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "怎么才能去闭口",
+        "油痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "对于油痘肌而言经常闷痘闷闭口，护肤品是主要原因",
+        "她说，那肯定是你用的太滋养了，换个清爽的保湿"
+      ],
+      "question_phrases": [
+        "如何保持脸上不长痘痘闭口 我长了9年的痘痘闭口，是极易冒痘冒闭口肤质，但现在皮肤已经被我保持的很稳定了",
+        "曾经我找了深圳最好的皮肤👩‍⚕️问为什么我只要不用s，就会冒粉刺闭口，我感觉我s停不下来"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62de4772000000001e01708e",
+      "title": "用A醇缩小毛孔晚间护肤分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "用A醇缩小毛孔晚间护肤分享 有一些宝宝问我脸颊毛孔粗大怎么办",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "收缩毛孔",
+        "毛孔粗大",
+        "毛孔清洁",
+        "我的护肤日常",
+        "油痘肌",
+        "护肤",
+        "油皮",
+        "毛孔粗大怎么办"
+      ],
+      "short_phrases": [
+        "刚开始用a醇的宝，这款面霜建议用一"
+      ],
+      "question_phrases": [
+        "用A醇缩小毛孔晚间护肤分享 有一些宝宝问我脸颊毛孔粗大怎么办"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64146d5c0000000012030eba",
+      "title": "家庭版毛孔深层清洁答疑补充",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版毛孔深层清洁答疑补充 爱长闭口的宝子你们一定要试试我的深层清洁大法（图3⃣️），只单纯用酸是无法让皮肤达到很光滑细腻不长闭口的皮肤状态的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "闭口粉刺",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "毛孔清洁",
+        "收缩毛孔",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "我们油痘肌特别容易毛孔堵塞，一定需要定期深层清理毛孔",
+        "别看我现在皮肤挺好的，我如果10天不做清洁脸上照样闭口痘痘不断"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6434e0b800000000130345a1",
+      "title": "缩毛孔真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "缩毛孔真的很简单 经常有一些评论说我不可能是油痘肌，因为看不到啥毛孔 但，我亲测油痘肌毛孔是真的有可能变小的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "毛孔粗大",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "缩毛孔",
+        "大毛孔",
+        "毛孔",
+        "毛孔清洁"
+      ],
+      "short_phrases": [
+        "今天分享一些我缩毛孔的经验～ 其实真的很简单",
+        "因为长过3k多个痘，毛孔超大",
+        "但自从我开始做深层清洁+甘醇酸后毛孔就小了好多"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64d71c44000000000301cf55",
+      "title": "去闭口其实很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口其实很简单 去闭口其实非常简单，很多人都把它想复杂了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "闭口",
+        "油痘肌护肤",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "去闭口其实很简单 去闭口其实非常简单，很多人都把它想复杂了",
+        "我长了8年的闭口，之前感觉是用什么护肤品都没用，一度以为就这样了",
+        "但掌握正确方法后，我发现闭口这玩意实在是太好解决了",
+        "而且花费极低，绝对比乱买护肤品要省钱多了"
+      ],
+      "question_phrases": [
+        "我长了8年的闭口，之前感觉是用什么护肤品都没用，一度以为就这样了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65b5e095000000002c037fcf",
+      "title": "去黑头真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去黑头真的很简单 这篇献给所有有黑头的女孩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "黑头",
+        "如何去黑头",
+        "去黑头方法"
+      ],
+      "short_phrases": [
+        "作为一个10几年的黑头妹，现在鼻头光滑、干净",
+        "1⃣️首先我想说的是，千万别相信清洁泥膜能帮我们清黑头",
+        "如果清洁泥膜能去黑头，那大家都不会有黑头了（人手一罐清洁泥膜吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "666d5c1a000000000e032127",
+      "title": "如何自测是否适合做家庭版毛孔深层清洁流程",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何自测是否适合做家庭版毛孔深层清洁流程 今天是一期干货视频 教大家分辨自己是否适合做家庭版毛孔深层清洁流程 为什么有的人坚持做皮肤越来越好 而有的人做完后开始爆痘 今天这个视频都",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "666e5d42000000000d00d3cc",
+      "title": "2年没怎么长闭口，闭口真的是最好解决的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "2年没怎么长闭口，闭口真的是最好解决的 都2024年了，居然还有很多姐妹被闭口困扰",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "闭口粉刺",
+        "怎么才能去闭口"
+      ],
+      "short_phrases": [
+        "首先毛孔堵才会长闭口，每一个闭口里都有一个小米粒样的角栓，或者说是油脂粒"
+      ],
+      "question_phrases": [
+        "2年没怎么长闭口，闭口真的是最好解决的 都2024年了，居然还有很多姐妹被闭口困扰"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66d97897000000000c01858f",
+      "title": "长3000颗痘再回到妈生好皮",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "长3000颗痘再回到妈生好皮 作为一个全脸长过3000颗痘的过来人，吃过太多亏，走过太多弯路",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "油皮",
+        "红薯买手集"
+      ],
+      "short_phrases": [
+        "分享一下怎么快速让痘痘变好，怎么变成不易长痘肤质，以及快速改善痘印",
+        "1、脸上有很多闭口粉刺痘痘的时候，一定要去针清",
+        "很多姐妹有一个误区就是觉得针清不好，想让痘痘闭口自己代谢掉"
+      ],
+      "question_phrases": [
+        "分享一下怎么快速让痘痘变好，怎么变成不易长痘肤质，以及快速改善痘印"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "676501d40000000009017e2e",
+      "title": "家庭版毛孔深层清洁后续护肤分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "家庭版毛孔深层清洁后续护肤分享 我11年油痘肌，毛孔粗大、草莓鼻、脸上很多痘和闭口",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "但自从在家一周做一次家庭版毛孔清洁之后皮肤就像开挂一样，变得又细腻又通透",
+        "毛孔深层清洁的原理就是在油脂还未形成闭口造成大面积堵塞时，就先清出来",
+        "里面有两个清洁步骤，先打开皮肤通道，再清理毛孔里的深层油脂"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67a5c8b9000000002803dafa",
+      "title": "去黑头真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去黑头真的很简单 我从初中开始长黑头，到现在总算摸出来了比较有效的一套去黑头方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "去黑头",
+        "黑头",
+        "油痘肌",
+        "油皮",
+        "年前突击变美",
+        "我的护肤年度总结"
+      ],
+      "short_phrases": [
+        "首先，如果看到谁分享一劳永逸去黑头的方法，赶紧取关赶紧跑，ta就是来骗钱的",
+        "因为只要我们的鼻子出油很厉害，黑头就是会不断地长"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67b7f516000000002901d6f2",
+      "title": "攒了10多天的黑头就为了拍这个去黑头大法",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "攒了10多天的黑头就为了拍这个去黑头大法 去黑头实用功课来啦~ 攒了十多天的黑头就为了拍这期视频 效果真的很直观很明显 大家可以跟练起来~ 希望你们都能收获水煮蛋一样的鼻子",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "去黑头",
+        "黑头",
+        "油皮",
+        "黑头粉刺",
+        "深层清洁",
+        "油痘肌护肤",
+        "美蒂菲",
+        "medipeel",
+        "黑头导出液"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67f782d2000000001d02c40d",
+      "title": "去闭口真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口真的很简单 我长了10年闭口，曾经以为脸就这样了，反反复复，长了就消，消了又长",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "黑头闭口",
+        "闭口粉刺",
+        "毛孔粗大",
+        "科颜氏溜溜瓶"
+      ],
+      "short_phrases": [
+        "一般在三五天内就能消失得干干净净，但针清再好也只能治标，只"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "681852230000000021018936",
+      "title": "让我不再长痘痘闭口的深层清洁流程！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "让我不再长痘痘闭口的深层清洁流程",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "小森林",
+        "油痘肌护肤",
+        "油皮",
+        "深层清洁",
+        "痘痘闭口",
+        "去黑头",
+        "素颜好皮帮帮忙",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "家庭版毛孔深层清洁 4.0升级版来咯 这期超详细"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "685bb2120000000022032fad",
+      "title": "一年针清20次，闭口怎么还没好？",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一年针清20次，闭口怎么还没好",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "闭口没有了",
+        "油痘肌护肤",
+        "如何去闭口",
+        "素颜好皮帮帮忙"
+      ],
+      "short_phrases": [
+        "一年针清20次，闭口怎么还没好",
+        "不清还不行，脸上全是凸起的闭口，显的皮肤特别脏",
+        "像我们这种肤质，油"
+      ],
+      "question_phrases": [
+        "一年针清20次，闭口怎么还没好"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68a44731000000001b01c056",
+      "title": "4分钟快速去黑头清毛孔跟练",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4分钟快速去黑头清毛孔跟练 攒了十多天黑头就为了手把手教你们清毛孔～ 深层清洁➕毛孔收缩，做完鼻子毛孔像抛了光～ 希望所有油痘肌朋友都可以被自己的素颜爽到",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "黑头",
+        "黑头闭口",
+        "宅家清毛孔大赛",
+        "去黑头",
+        "暑期逆袭班花",
+        "素颜好皮肤",
+        "护肤内行人",
+        "跟练",
+        "科瑞肤毛孔精华"
+      ],
+      "short_phrases": [
+        "这就是我的目标～ # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6905c4900000000004020633",
+      "title": "5年没去美容院，全靠这几位帮我省下六位数",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "5年没去美容院，全靠这几位帮我省下六位数 已经5年没去过美容院了，但皮肤状态肉眼可见越来越好，今天分享一下帮我省下六位数，可以代替美美的几个护肤品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "变白变美",
+        "护肤分享",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "1️⃣胶原炮 它直接帮我省下六位数的do脸钱，让30岁的我无痛k老k衰",
+        "身边所有人都发现我脸上凹陷干瘪的地方丰盈了很多，面中饱"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "69ff0b86000000001a036c09",
+      "title": "清黑头/缩毛孔/加固毛孔全流程!没用来骂我",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "清黑头/缩毛孔/加固毛孔全流程",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "黑头",
+        "黑头闭口",
+        "去黑头",
+        "素颜好皮肤",
+        "跟练"
+      ],
+      "short_phrases": [
+        "清黑头/缩毛孔/加固毛孔全流程",
+        "深层清洁➕毛孔收缩，做完鼻子毛孔像抛了光一样细腻滑溜"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a2a602300000000060342b0",
+      "title": "关于我是怎么缩小毛孔的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "关于我是怎么缩小毛孔的 # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "素颜好皮肤",
+        "毛孔粗大",
+        "油痘肌护肤",
+        "补胶原",
+        "缩毛孔",
+        "毛孔",
+        "毛孔清洁",
+        "油皮好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "关于我是怎么缩小毛孔的 # # # # # # # # #"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "62b43de9000000000e00d55c",
+      "title": "小森林家庭版毛孔深层清洁",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "小森林家庭版毛孔深层清洁 这一套护理，对闭口痘痘非常有效",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "闭口",
+        "去闭口好物推荐",
+        "黑头粉刺",
+        "黑头",
+        "去黑头",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "小森林家庭版毛孔深层清洁 这一套护理，对闭口痘痘非常有效"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62d2548e000000000d026178",
+      "title": "如何保持脸上不长痘痘闭口",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何保持脸上不长痘痘闭口 我长了9年的痘痘闭口，是极易冒痘冒闭口肤质，但现在皮肤已经被我保持的很稳定了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "怎么才能去闭口",
+        "油痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "对于油痘肌而言经常闷痘闷闭口，护肤品是主要原因",
+        "她说，那肯定是你用的太滋养了，换个清爽的保湿"
+      ],
+      "question_phrases": [
+        "如何保持脸上不长痘痘闭口 我长了9年的痘痘闭口，是极易冒痘冒闭口肤质，但现在皮肤已经被我保持的很稳定了",
+        "曾经我找了深圳最好的皮肤👩‍⚕️问为什么我只要不用s，就会冒粉刺闭口，我感觉我s停不下来"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62de4772000000001e01708e",
+      "title": "用A醇缩小毛孔晚间护肤分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "用A醇缩小毛孔晚间护肤分享 有一些宝宝问我脸颊毛孔粗大怎么办",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "收缩毛孔",
+        "毛孔粗大",
+        "毛孔清洁",
+        "我的护肤日常",
+        "油痘肌",
+        "护肤",
+        "油皮",
+        "毛孔粗大怎么办"
+      ],
+      "short_phrases": [
+        "刚开始用a醇的宝，这款面霜建议用一"
+      ],
+      "question_phrases": [
+        "用A醇缩小毛孔晚间护肤分享 有一些宝宝问我脸颊毛孔粗大怎么办"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64146d5c0000000012030eba",
+      "title": "家庭版毛孔深层清洁答疑补充",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家庭版毛孔深层清洁答疑补充 爱长闭口的宝子你们一定要试试我的深层清洁大法（图3⃣️），只单纯用酸是无法让皮肤达到很光滑细腻不长闭口的皮肤状态的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "闭口粉刺",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "毛孔清洁",
+        "收缩毛孔",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "我们油痘肌特别容易毛孔堵塞，一定需要定期深层清理毛孔",
+        "别看我现在皮肤挺好的，我如果10天不做清洁脸上照样闭口痘痘不断"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6434e0b800000000130345a1",
+      "title": "缩毛孔真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "缩毛孔真的很简单 经常有一些评论说我不可能是油痘肌，因为看不到啥毛孔 但，我亲测油痘肌毛孔是真的有可能变小的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "毛孔粗大",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "缩毛孔",
+        "大毛孔",
+        "毛孔",
+        "毛孔清洁"
+      ],
+      "short_phrases": [
+        "今天分享一些我缩毛孔的经验～ 其实真的很简单",
+        "因为长过3k多个痘，毛孔超大",
+        "但自从我开始做深层清洁+甘醇酸后毛孔就小了好多"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64d71c44000000000301cf55",
+      "title": "去闭口其实很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口其实很简单 去闭口其实非常简单，很多人都把它想复杂了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "闭口",
+        "油痘肌护肤",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "去闭口其实很简单 去闭口其实非常简单，很多人都把它想复杂了",
+        "我长了8年的闭口，之前感觉是用什么护肤品都没用，一度以为就这样了",
+        "但掌握正确方法后，我发现闭口这玩意实在是太好解决了",
+        "而且花费极低，绝对比乱买护肤品要省钱多了"
+      ],
+      "question_phrases": [
+        "我长了8年的闭口，之前感觉是用什么护肤品都没用，一度以为就这样了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65b5e095000000002c037fcf",
+      "title": "去黑头真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去黑头真的很简单 这篇献给所有有黑头的女孩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "黑头",
+        "如何去黑头",
+        "去黑头方法"
+      ],
+      "short_phrases": [
+        "作为一个10几年的黑头妹，现在鼻头光滑、干净",
+        "1⃣️首先我想说的是，千万别相信清洁泥膜能帮我们清黑头",
+        "如果清洁泥膜能去黑头，那大家都不会有黑头了（人手一罐清洁泥膜吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "666d5c1a000000000e032127",
+      "title": "如何自测是否适合做家庭版毛孔深层清洁流程",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何自测是否适合做家庭版毛孔深层清洁流程 今天是一期干货视频 教大家分辨自己是否适合做家庭版毛孔深层清洁流程 为什么有的人坚持做皮肤越来越好 而有的人做完后开始爆痘 今天这个视频都",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "666e5d42000000000d00d3cc",
+      "title": "2年没怎么长闭口，闭口真的是最好解决的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "2年没怎么长闭口，闭口真的是最好解决的 都2024年了，居然还有很多姐妹被闭口困扰",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "闭口粉刺",
+        "怎么才能去闭口"
+      ],
+      "short_phrases": [
+        "首先毛孔堵才会长闭口，每一个闭口里都有一个小米粒样的角栓，或者说是油脂粒"
+      ],
+      "question_phrases": [
+        "2年没怎么长闭口，闭口真的是最好解决的 都2024年了，居然还有很多姐妹被闭口困扰"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66d97897000000000c01858f",
+      "title": "长3000颗痘再回到妈生好皮",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "长3000颗痘再回到妈生好皮 作为一个全脸长过3000颗痘的过来人，吃过太多亏，走过太多弯路",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "油皮",
+        "红薯买手集"
+      ],
+      "short_phrases": [
+        "分享一下怎么快速让痘痘变好，怎么变成不易长痘肤质，以及快速改善痘印",
+        "1、脸上有很多闭口粉刺痘痘的时候，一定要去针清",
+        "很多姐妹有一个误区就是觉得针清不好，想让痘痘闭口自己代谢掉"
+      ],
+      "question_phrases": [
+        "分享一下怎么快速让痘痘变好，怎么变成不易长痘肤质，以及快速改善痘印"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "676501d40000000009017e2e",
+      "title": "家庭版毛孔深层清洁后续护肤分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "家庭版毛孔深层清洁后续护肤分享 我11年油痘肌，毛孔粗大、草莓鼻、脸上很多痘和闭口",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "但自从在家一周做一次家庭版毛孔清洁之后皮肤就像开挂一样，变得又细腻又通透",
+        "毛孔深层清洁的原理就是在油脂还未形成闭口造成大面积堵塞时，就先清出来",
+        "里面有两个清洁步骤，先打开皮肤通道，再清理毛孔里的深层油脂"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67a5c8b9000000002803dafa",
+      "title": "去黑头真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去黑头真的很简单 我从初中开始长黑头，到现在总算摸出来了比较有效的一套去黑头方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "去黑头",
+        "黑头",
+        "油痘肌",
+        "油皮",
+        "年前突击变美",
+        "我的护肤年度总结"
+      ],
+      "short_phrases": [
+        "首先，如果看到谁分享一劳永逸去黑头的方法，赶紧取关赶紧跑，ta就是来骗钱的",
+        "因为只要我们的鼻子出油很厉害，黑头就是会不断地长"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67b7f516000000002901d6f2",
+      "title": "攒了10多天的黑头就为了拍这个去黑头大法",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "攒了10多天的黑头就为了拍这个去黑头大法 去黑头实用功课来啦~ 攒了十多天的黑头就为了拍这期视频 效果真的很直观很明显 大家可以跟练起来~ 希望你们都能收获水煮蛋一样的鼻子",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "去黑头",
+        "黑头",
+        "油皮",
+        "黑头粉刺",
+        "深层清洁",
+        "油痘肌护肤",
+        "美蒂菲",
+        "medipeel",
+        "黑头导出液"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67f782d2000000001d02c40d",
+      "title": "去闭口真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "去闭口真的很简单 我长了10年闭口，曾经以为脸就这样了，反反复复，长了就消，消了又长",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "黑头闭口",
+        "闭口粉刺",
+        "毛孔粗大",
+        "科颜氏溜溜瓶"
+      ],
+      "short_phrases": [
+        "一般在三五天内就能消失得干干净净，但针清再好也只能治标，只"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "681852230000000021018936",
+      "title": "让我不再长痘痘闭口的深层清洁流程！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "让我不再长痘痘闭口的深层清洁流程",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "小森林",
+        "油痘肌护肤",
+        "油皮",
+        "深层清洁",
+        "痘痘闭口",
+        "去黑头",
+        "素颜好皮帮帮忙",
+        "小森林家庭版毛孔深层清洁"
+      ],
+      "short_phrases": [
+        "家庭版毛孔深层清洁 4.0升级版来咯 这期超详细"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "685bb2120000000022032fad",
+      "title": "一年针清20次，闭口怎么还没好？",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一年针清20次，闭口怎么还没好",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "闭口没有了",
+        "油痘肌护肤",
+        "如何去闭口",
+        "素颜好皮帮帮忙"
+      ],
+      "short_phrases": [
+        "一年针清20次，闭口怎么还没好",
+        "不清还不行，脸上全是凸起的闭口，显的皮肤特别脏",
+        "像我们这种肤质，油"
+      ],
+      "question_phrases": [
+        "一年针清20次，闭口怎么还没好"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68a44731000000001b01c056",
+      "title": "4分钟快速去黑头清毛孔跟练",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4分钟快速去黑头清毛孔跟练 攒了十多天黑头就为了手把手教你们清毛孔～ 深层清洁➕毛孔收缩，做完鼻子毛孔像抛了光～ 希望所有油痘肌朋友都可以被自己的素颜爽到",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "黑头",
+        "黑头闭口",
+        "宅家清毛孔大赛",
+        "去黑头",
+        "暑期逆袭班花",
+        "素颜好皮肤",
+        "护肤内行人",
+        "跟练",
+        "科瑞肤毛孔精华"
+      ],
+      "short_phrases": [
+        "这就是我的目标～ # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6905c4900000000004020633",
+      "title": "5年没去美容院，全靠这几位帮我省下六位数",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "5年没去美容院，全靠这几位帮我省下六位数 已经5年没去过美容院了，但皮肤状态肉眼可见越来越好，今天分享一下帮我省下六位数，可以代替美美的几个护肤品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "变白变美",
+        "护肤分享",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "1️⃣胶原炮 它直接帮我省下六位数的do脸钱，让30岁的我无痛k老k衰",
+        "身边所有人都发现我脸上凹陷干瘪的地方丰盈了很多，面中饱"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "69ff0b86000000001a036c09",
+      "title": "清黑头/缩毛孔/加固毛孔全流程!没用来骂我",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "清黑头/缩毛孔/加固毛孔全流程",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "黑头",
+        "黑头闭口",
+        "去黑头",
+        "素颜好皮肤",
+        "跟练"
+      ],
+      "short_phrases": [
+        "清黑头/缩毛孔/加固毛孔全流程",
+        "深层清洁➕毛孔收缩，做完鼻子毛孔像抛了光一样细腻滑溜"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a2a602300000000060342b0",
+      "title": "关于我是怎么缩小毛孔的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "关于我是怎么缩小毛孔的 # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "细腻毛孔",
+        "素颜好皮肤",
+        "毛孔粗大",
+        "油痘肌护肤",
+        "补胶原",
+        "缩毛孔",
+        "毛孔",
+        "毛孔清洁",
+        "油皮好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "关于我是怎么缩小毛孔的 # # # # # # # # #"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

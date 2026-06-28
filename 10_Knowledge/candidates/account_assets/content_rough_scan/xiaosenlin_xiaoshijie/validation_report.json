@@ -1,0 +1,24 @@
+{
+  "generated_at": "2026-06-28T21:56:43",
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "account_name": "小森林的小世界",
+  "total": 426,
+  "deep_learning_targets": 87,
+  "non_deep_learning": 339,
+  "needs_review": 25,
+  "direction_counts": {
+    "刷酸焕肤": 15,
+    "变美经验": 9,
+    "好物测评": 98,
+    "抗老修护": 20,
+    "护肤功效": 197,
+    "毛孔清洁": 54,
+    "生活方式": 11,
+    "美容项目平替": 14,
+    "账号运营": 8
+  },
+  "errors": [
+    "needs_review remains: 25"
+  ],
+  "valid": false
+}

@@ -1,0 +1,2677 @@
+{
+  "direction": "好物测评",
+  "topic_clusters": [
+    {
+      "topic": "测评",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "63034030000000001b01d176",
+          "title": "适合油痘肌，用了绝不闷痘的好用面霜分享",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6304a383000000001d035607",
+          "title": "适合油痘肌的超好用不闷痘修护面霜分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "63184122000000000900fcfb",
+          "title": "Covermark粉霜，怼脸测评",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "63296d4a000000000801d847",
+          "title": "这养肤粉霜居然怼脸都看不出妆感",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "635e89960000000016018129",
+          "title": "适合油痘肌，好用不闷痘的秋冬面霜分享～",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "好物",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "627f811e00000000210385e3",
+          "title": "Tony问我用的什么洗护产品，他想买",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "628b599e000000002103e406",
+          "title": "痘肌爱用平价好用物",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62e62fda000000000e032015",
+          "title": "油痘肌好用物分享❤️",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "6351015f000000001700f572",
+          "title": "秋冬防晒～油痘肌不闷痘防晒合集2⃣️",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "63773624000000001c034e22",
+          "title": "11月宝藏爱用品分享，精华、面霜、粉底、洁面",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "空瓶",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "63bbe5e40000000019023981",
+          "title": "油痘肌年度爱用空瓶分享，脸越来越干净了～",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "66091515000000001a011957",
+          "title": "一年只分享一次！油痘肌博主爱用空瓶分享～",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "67d2c990000000001d0191de",
+          "title": "一年只分享一次！油痘肌博主真爱空瓶分享❤️",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "684a7b120000000021009892",
+          "title": "100%自用好物！反复回购才是真爱！",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "68ce40d2000000000b03dd3e",
+          "title": "🍠1年1度空瓶分享～都是无限回购的真爱品！",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "爱用",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "628b599e000000002103e406",
+          "title": "痘肌爱用平价好用物",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "63773624000000001c034e22",
+          "title": "11月宝藏爱用品分享，精华、面霜、粉底、洁面",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "64fc0c9a000000001d014abf",
+          "title": "值得反复回购的心机彩妆分享（混油痘肌）",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "650e893d000000001e02dd21",
+          "title": "爱用洁面分享（油敏痘肌）",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "657e87d20000000038036b61",
+          "title": "年度爱用面膜分享（油敏痘肌）",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "分享",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62162e3a000000002103bb8b",
+          "title": "给混油皮安利一款无敌好用的伪素颜神器防晒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "621f2c15000000002103473a",
+          "title": "给姐妹们分享一个祛痘神器",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "622c39660000000021035ea2",
+          "title": "你们绝对不知道的超好用防晒分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62442027000000002103ca20",
+          "title": "眼部拨经12年，我现在眼睛怎么样了",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "62651edb0000000001029f4c",
+          "title": "效果超好的眼部保养大法分享",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "回购",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62162e3a000000002103bb8b",
+          "title": "给混油皮安利一款无敌好用的伪素颜神器防晒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "622c39660000000021035ea2",
+          "title": "你们绝对不知道的超好用防晒分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "632d6749000000000802ac34",
+          "title": "适合油痘肌平价又好用的卸妆洁面产品分享～",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "66e2bafa000000001e01b276",
+          "title": "值得早八人反复回购的心机彩妆（油敏痘肌）",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6825b6c0000000002102ff45",
+          "title": "我的直播间年度好物~",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "精华",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "631bfe28000000001103c53c",
+          "title": "让油痘肌皮肤又细又滑的三款夜间精华分享",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6639fa11000000001e030b67",
+          "title": "油皮夏季好物，从头清爽到脚～",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6837f6ce0000000022024e24",
+          "title": "高回报抗老！用完会反复爱上的精华水！",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "面膜",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "62d8f7c2000000000f000871",
+          "title": "一张张试，Fanbeauty面膜到底好用吗",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "622c39660000000021035ea2",
+      "title": "你们绝对不知道的超好用防晒分享",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "你们绝对不知道的超好用防晒分享 这款防晒适合干皮、混油皮也可以，大油田不合适 可以把这款当作养肤粉底来用，我一般上两层，不擦防晒了，不是广告哈",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "防晒分享",
+        "每天涂防晒",
+        "好物分享",
+        "大牌平替",
+        "贵妇粉霜"
+      ],
+      "short_phrases": [
+        "我2020年买的，今年又心心念念回购了～ 不闷痘",
+        "妆感和cpb晶钻粉霜特别像，低遮瑕、贵妇光、无粉"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62442027000000002103ca20",
+      "title": "眼部拨经12年，我现在眼睛怎么样了",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "眼部拨经12年，我现在眼睛怎么样了 看过之前那只视频的宝宝们不好意思哦，那支视频出了点问题，所以我重发一遍～ 眼保健操我从6岁做到现在，视力从小学1.0-高中大学1.2-现在1.5",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "眼部保养",
+        "爱护眼睛",
+        "眼睛健康",
+        "眼部护理",
+        "近视",
+        "眼部抗衰",
+        "护眼",
+        "护眼丸"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "627f811e00000000210385e3",
+      "title": "Tony问我用的什么洗护产品，他想买",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "Tony问我用的什么洗护产品，他想买 终于给tony反向安利一波",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "头发",
+        "受损发质",
+        "护发心得分享",
+        "柔顺效果好的护发素",
+        "洗發水",
+        "好用洗发水",
+        "我的平价好物",
+        "头发扁塌必入蓬松洗发水"
+      ],
+      "short_phrases": [
+        "Tony问我用的什么洗护产品，他想买 终于给tony反向安利一波"
+      ],
+      "question_phrases": [
+        "Tony问我用的什么洗护产品，他想买 终于给tony反向安利一波"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62d8f7c2000000000f000871",
+      "title": "一张张试，Fanbeauty面膜到底好用吗",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一张张试，Fanbeauty面膜到底好用吗 Fanbeauty家面膜风太大了，隔三差五就能刷到 我也心痒痒，想知道到底好不好用 所以这次除了油敷，我都买了回来，一张张试 我觉得作为",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "fanbeauty",
+        "范冰冰",
+        "面膜",
+        "面膜测评",
+        "面膜分享",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [
+        "面膜在我心中是作为急救的， 就是要敷完有容光焕发的感觉",
+        "扫除脸上的黄气、疲惫、倦怠感"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62e62fda000000000e032015",
+      "title": "油痘肌好用物分享❤️",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌好用物分享❤️ # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "痘痘肌",
+        "好物",
+        "好物分享",
+        "视频分享好物",
+        "平价好物分享",
+        "学生党平价好物"
+      ],
+      "short_phrases": [
+        "油痘肌好用物分享❤️ # # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63034030000000001b01d176",
+      "title": "适合油痘肌，用了绝不闷痘的好用面霜分享",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "适合油痘肌，用了绝不闷痘的好用面霜分享 # # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "笔记灵感",
+        "好皮肤养成记",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "护肤",
+        "好用的面霜",
+        "面霜测评",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "63072d4c000000001b01d33f",
+      "title": "告别猪肝红！告别乌唇！深唇变浅唇经验分享！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "告别猪肝红",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:40[时刻]",
+        "01:51[时刻]",
+        "深唇",
+        "深唇浅唇",
+        "唇色深",
+        "改善唇色暗沉",
+        "妈生唇色",
+        "冥想"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "631bfe28000000001103c53c",
+      "title": "让油痘肌皮肤又细又滑的三款夜间精华分享",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "让油痘肌皮肤又细又滑的三款夜间精华分享 # 第一款 janmarini 六酸精华 # 第二款 达尔肤 杏仁酸8% # 第三款 修丽可 rbe # # # # # #",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "00:41[时刻]",
+        "01:48[时刻]",
+        "02:50[时刻]",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "如何拯救痘痘肌",
+        "痘痘肌肤",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "痘痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "632d6749000000000802ac34",
+      "title": "适合油痘肌平价又好用的卸妆洁面产品分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "适合油痘肌平价又好用的卸妆洁面产品分享～ 卸妆、清洁类产品是我觉得在护肤当中很重要的一步，一款好的清洁产品要洗的干净又温和，不伤害皮脂膜",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "卸妆分享",
+        "卸妆",
+        "平价卸妆",
+        "我的平价好物"
+      ],
+      "short_phrases": [
+        "这几款卸妆、清洁产品是我非常喜欢的",
+        "卸妆产品的选择上我的要求是不止要卸的干净，最好"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63806c3c000000001f024d91",
+      "title": "从油痘肌变成不易长痘肤质，离不开的好物",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "从油痘肌变成不易长痘肤质，离不开的好物 这些都是帮助我从满脸痘痘闭口变成细腻光泽肌的秘密武器，分享给你们～💛痘痘水我是看了包子的分享买的～超感谢她",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:31[时刻]",
+        "01:19[时刻]",
+        "02:35[时刻]",
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "❤️@彭包子_ # 不易长痘肤质的关键"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63bbe5e40000000019023981",
+      "title": "油痘肌年度爱用空瓶分享，脸越来越干净了～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌年度爱用空瓶分享，脸越来越干净了～ 这些都是我经常用并且非常喜欢的真爱护肤品❤️ 希望对你们有帮助❤️ # # # # # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "爱用物分享",
+        "好物分享",
+        "敏感肌",
+        "修复面霜",
+        "敏感肌面霜",
+        "油痘肌大作战",
+        "怎样美白",
+        "去痘印"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63f87119000000001203c80e",
+      "title": "从油痘肌变成不易长痘肤质，宝藏好物分享",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "从油痘肌变成不易长痘肤质，宝藏好物分享 不长痘痘真的很开心",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:30[时刻]",
+        "01:36[时刻]",
+        "02:40[时刻]",
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "怎样祛痘",
+        "我的祛痘妙招",
+        "祛痘好物",
+        "祛痘",
+        "祛痘精华"
+      ],
+      "short_phrases": [
+        "从油痘肌变成不易长痘肤质，宝藏好物分享 不长痘痘真的很开心"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6475cce70000000013006e7d",
+      "title": "关于防脱我想说两句",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "关于防脱我想说两句 想要头发牢固地扒在头皮，重点关注毛囊养护",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "护发心得分享",
+        "护发",
+        "脱发",
+        "头发护理分享",
+        "防脱发方法分享",
+        "防脱发洗发水",
+        "宝藏个护ontime",
+        "密思丝密洗发露"
+      ],
+      "short_phrases": [
+        "关于防脱我想说两句 想要头发牢固地扒在头皮，重点关注毛囊养护"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6486dec90000000013008f1a",
+      "title": "油痘肌粉底，平价粉霜居然完胜千元粉霜！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌粉底，平价粉霜居然完胜千元粉霜",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:23[时刻]",
+        "01:13[时刻]",
+        "01:56[时刻]",
+        "粉底测评",
+        "贵妇粉霜",
+        "粉霜测评",
+        "粉霜",
+        "底妆分享"
+      ],
+      "short_phrases": [
+        "油痘肌粉底，平价粉霜居然完胜千元粉霜"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "649bacc800000000130135b6",
+      "title": "油痘肌贵妇好物，没有一分钱是白花的",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌贵妇好物，没有一分钱是白花的 先选出这四款来分享～ 喜欢的话告诉我哈",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "油痘肌贵妇好物，没有一分钱是白花的 先选出这四款来分享～ 喜欢的话告诉我哈",
+        "我就更新其他的哈哈哈[飞吻R] # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64eae6c1000000000c034f78",
+      "title": "油痘肌用了不会闷痘的防晒！（非日系）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌用了不会闷痘的防晒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:39[时刻]",
+        "01:20[时刻]",
+        "01:57[时刻]",
+        "02:34[时刻]",
+        "02:53[时刻]",
+        "防晒分享",
+        "平价防晒",
+        "防晒",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "64f732d3000000001f03aacd",
+      "title": "缓解焦虑的放松、舒压好物",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "缓解焦虑的放松、舒压好物 希望对你有帮助❤️ # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "解压放松",
+        "拒绝焦虑",
+        "焦虑",
+        "书荒焦虑求推荐",
+        "放松心情"
+      ],
+      "short_phrases": [
+        "缓解焦虑的放松、舒压好物 希望对你有帮助❤️ # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64fc0c9a000000001d014abf",
+      "title": "值得反复回购的心机彩妆分享（混油痘肌）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "值得反复回购的心机彩妆分享（混油痘肌） 我喜欢那种很裸很透比较清纯的白开水妆 如果你也喜欢 请看下去吧[红色心形R] 都是我自用很久非常惊艳的彩妆品 分享给你们～ 希望对你有帮助❤",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌",
+        "混油皮",
+        "好物分享",
+        "爱用物分享",
+        "彩妆",
+        "彩妆分享"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "650e893d000000001e02dd21",
+      "title": "爱用洁面分享（油敏痘肌）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "爱用洁面分享（油敏痘肌） 这几只是我爱用的洗面奶，分享给跟我一样油敏痘肌的宝宝～给你们做个参考～❤️ # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "洁面",
+        "洗面奶分享",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "洁面分享",
+        "平价洁面",
+        "氨基酸洗面奶"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "657e87d20000000038036b61",
+      "title": "年度爱用面膜分享（油敏痘肌）",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "年度爱用面膜分享（油敏痘肌） 我选护肤品的标准是：好用且有效果",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "面膜",
+        "面膜分享",
+        "油痘肌护肤",
+        "面膜推荐"
+      ],
+      "short_phrases": [
+        "年度爱用面膜分享（油敏痘肌） 我选护肤品的标准是：好用且有效果",
+        "价格啥的我无所谓，便宜的贵的我都接受",
+        "但在贵价面膜里，目前还真没发现特别满意的"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "659fbbd3000000001103279e",
+      "title": "年度热销top1⃣️居然是它！？",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "年度热销top1⃣️居然是它",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "笔记灵感"
+      ],
+      "short_phrases": [
+        "年度热销top1⃣️居然是它",
+        "你们买的上榜了吗[doge] # # #"
+      ],
+      "question_phrases": [
+        "你们买的上榜了吗[doge] # # #"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65d4624f0000000001029e88",
+      "title": "只要几十块的油痘肌平价好物！超爱！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "只要几十块的油痘肌平价好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "我的平价好物",
+        "油痘肌护肤",
+        "学生党",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "65f3b739000000001203f625",
+      "title": "油皮爱死了的平价防晒分享✨",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油皮爱死了的平价防晒分享✨ 杜绝厚重闷痘防晒，今天我给大家准备的这3个都是我用下来肤感好、防晒力强、性价比又高的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "防晒",
+        "防晒霜",
+        "防晒分享",
+        "油皮防晒",
+        "平价防晒"
+      ],
+      "short_phrases": [
+        "无广无广无广，每个防晒的优点缺点都讲明白了，大家可以对照自己的肤质按需选择"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66091515000000001a011957",
+      "title": "一年只分享一次！油痘肌博主爱用空瓶分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "一年只分享一次",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "空瓶分享",
+        "爱用物",
+        "好物分享",
+        "就这样护肤呗",
+        "种草视频"
+      ],
+      "short_phrases": [
+        "❤️ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6614fe92000000001a00c527",
+      "title": "油皮换季爱用，黑头导出液、防晒、粉饼、面膜…",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮换季爱用，黑头导出液、防晒、粉饼、面膜… 深圳已经变成夏季了，每天都感觉皮肤好油腻好闷，分享一些换季好物给大家",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮",
+        "油痘肌大作战",
+        "防晒分享",
+        "好物分享"
+      ],
+      "short_phrases": [
+        "2、超清爽防晒：如果你用什么防晒都觉得油腻，不妨试试这两支"
+      ],
+      "question_phrases": [
+        "2、超清爽防晒：如果你用什么防晒都觉得油腻，不妨试试这两支"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6639fa11000000001e030b67",
+      "title": "油皮夏季好物，从头清爽到脚～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮夏季好物，从头清爽到脚～ A醇精华：油皮宝子夏天一定要把A醇用起来，又k老又嫩肤缩毛孔还能减少皮肤出油",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "爱用物分享",
+        "618超会买买手",
+        "小红书618"
+      ],
+      "short_phrases": [
+        "卸妆：最近超爱的卸妆油，经常能用它在脸上按出一些油脂小颗粒来，很"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "667bd501000000001e010ec4",
+      "title": "365天都在用的油皮真爱底妆！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "365天都在用的油皮真爱底妆",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油皮粉底推荐",
+        "底妆分享",
+        "底妆",
+        "爱用物分享"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "667fc9d1000000001f004de0",
+      "title": "我在我直播间买了这些🤔",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我在我直播间买了这些🤔 今天分享一下 我会在自己直播间下单的东西 很多都是我多次回购的单品 好用",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "购物分享",
+        "夏日好物"
+      ],
+      "short_phrases": [
+        "姐妹也可以当作购物功课来看～ # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67398310000000001a01d85a",
+      "title": "百元内油痘肌秋冬好物（学生党友好）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "百元内油痘肌秋冬好物（学生党友好） 给油痘肌姐妹们精挑细选了 一些均价不过百的秋冬平价好物 有消灭痘痘的，淡化唇纹的 以及刚需的秋冬防晒 全部都是我自用真心分享~ # # # # ",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "平价好物",
+        "爱用物分享",
+        "防晒",
+        "润唇膏",
+        "学生党"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "679d908a0000000028035b58",
+      "title": "油痘敏肌2024年度爱用护肤品！🈚️广！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘敏肌2024年度爱用护肤品",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "年度爱用",
+        "爱用物分享",
+        "油痘肌护肤",
+        "我的护肤年度总结",
+        "年前突击变美",
+        "素颜好皮帮帮忙"
+      ],
+      "short_phrases": [
+        "姐妹们新年快乐呀~年度爱用献上",
+        "细水流长那种我不行，没那个耐心",
+        "比我用过的所有泥膜清洁效果都要好，敷的时候"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "679f4123000000002902b85c",
+      "title": "好皮肤是用对了精华，年度爱用精华分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "好皮肤是用对了精华，年度爱用精华分享 我的护肤理念就是，根据不同的皮肤状态，选择不同的护肤品，把皮肤维持在一个细腻、光滑、稳定的状态",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "年度爱用",
+        "爱用物分享",
+        "油痘肌护肤",
+        "我的护肤年度总结",
+        "年前突击变美",
+        "素颜好皮帮帮忙",
+        "精华分享"
+      ],
+      "short_phrases": [
+        "这几只年度爱用精华，每一只都割舍不了",
+        "去痘的、细毛孔的、提亮肤色的、修护维稳的、每一只都在各自的领域超级能打"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67adb996000000002903299b",
+      "title": "让油皮不费力变好看的春季好物",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "让油皮不费力变好看的春季好物 1、矿物质定妆粉：我目前用下来觉得最适合油痘肌的定妆粉，暂时没有之一",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油皮",
+        "护肤分享",
+        "我的护肤日常",
+        "拯救痘痘肌",
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "祛痘帮帮忙"
+      ],
+      "short_phrases": [
+        "我之前也买过好几个牌子的矿物质粉饼，颗粒非常粗糙，粉感重到现实中完全没眼看"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67d2c990000000001d0191de",
+      "title": "一年只分享一次！油痘肌博主真爱空瓶分享❤️",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "一年只分享一次",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "空瓶记",
+        "我的年度空瓶",
+        "空瓶分享",
+        "普通人的变美思路",
+        "素颜好皮帮帮忙",
+        "祛痘帮帮忙",
+        "我的年度总结",
+        "油痘肌护肤",
+        "爱用物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67f20142000000001e0086ca",
+      "title": "回购10年的油皮真爱底妆（油痘敏肌）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "回购10年的油皮真爱底妆（油痘敏肌） 分享几个每次用都被要链接的底妆 非常好用而且不会闷痘 最长时间的我已经用了快10年了 不管是油皮/痘肌/纸皮/玫瑰 都给你们选好了 大家按需种",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "清透底妆",
+        "底妆测评",
+        "油皮粉底液",
+        "底妆",
+        "底妆分享",
+        "遮瑕"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6819760d000000002102ed3f",
+      "title": "洗漱台钉子户～油皮用了离不开的精华！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "洗漱台钉子户～油皮用了离不开的精华",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油皮好物",
+        "痘痘闭口",
+        "水光肌",
+        "油皮",
+        "好物分享",
+        "种草",
+        "绽媄娅球PDRN能量棒",
+        "三文鱼水光",
+        "宝藏新品牌"
+      ],
+      "short_phrases": [
+        "洗漱台钉子户～油皮用了离不开的精华"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6846b033000000002202402d",
+      "title": "油痘敏肌爱用面膜！用了就离不开了~",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘敏肌爱用面膜",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "面膜分享",
+        "面膜推荐",
+        "小众面膜",
+        "修护",
+        "爱用面膜",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "684a7b120000000021009892",
+      "title": "100%自用好物！反复回购才是真爱！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "100%自用好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草"
+      ],
+      "short_phrases": [
+        "100%自用好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68737733000000002203f9d0",
+      "title": "高质价比长期主义 ，30+爱用物分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "高质价比长期主义 ，30+爱用物分享～ 分享几个我觉得物超所值的好物~ 真的是花很低的价格就能拥有贵妇级的体验",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "平价好物",
+        "爱用物",
+        "油皮底妆",
+        "油痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "688b25a7000000002303147f",
+      "title": "堪比蛋白矫正的沙发爱用洗护分享（自用🈚️广",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "堪比蛋白矫正的沙发爱用洗护分享（自用🈚️广 这都是我这么多年用下来最好的搭子们 让本沙发人已经next level了～ （真的是自用无广 审核员求放过",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "护发心得分享",
+        "懒人护发",
+        "护发",
+        "头发护理分享",
+        "涨粉涨赞用薯条"
+      ],
+      "short_phrases": [
+        "@薯条小助手 # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6893290100000000230399ce",
+      "title": "能让你告别脂溢性头皮的护理方法（纯干货！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "能让你告别脂溢性头皮的护理方法（纯干货",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "洗发水推荐",
+        "油头洗发水",
+        "二硫化硒洗发水",
+        "去屑洗发水",
+        "薇姿绿标洗发水"
+      ],
+      "short_phrases": [
+        "能让你告别脂溢性头皮的护理方法（纯干货",
+        "曾经也被油屑困扰的我现在把经验分享给大家～ # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68946716000000002302f9df",
+      "title": "真正有用！冷门身体洗护好物！身体嫩滑必备❗️",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正有用",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "身体护理",
+        "好物分享",
+        "浴室好物",
+        "洗护",
+        "个人护理好物",
+        "狠人洗护跟练",
+        "从头白到脚",
+        "涨赞涨粉用薯条"
+      ],
+      "short_phrases": [
+        "身体嫩滑必备❗️ # # # # # # # # @薯条小助手"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68b40d25000000001c0121d0",
+      "title": "4个！油皮爱用气垫（100%无广",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4个",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "底妆",
+        "无滤镜粉底液测评",
+        "油皮",
+        "底妆测评",
+        "油皮底妆",
+        "持妆气垫",
+        "底妆分享"
+      ],
+      "short_phrases": [
+        "分享给大家～ # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68bd5366000000001b03f22f",
+      "title": "实用主义机场翻包🧳超多mini好物！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "实用主义机场翻包🧳超多mini好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "沉浸式出行",
+        "翻包",
+        "机场翻包",
+        "mini好物",
+        "出门带什么",
+        "翻包记",
+        "出行好物"
+      ],
+      "short_phrases": [
+        "实用主义机场翻包🧳超多mini好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68ce40d2000000000b03dd3e",
+      "title": "🍠1年1度空瓶分享～都是无限回购的真爱品！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "🍠1年1度空瓶分享～都是无限回购的真爱品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:10[时刻]",
+        "00:52[时刻]",
+        "01:04[时刻]",
+        "01:30[时刻]",
+        "01:52[时刻]",
+        "02:24[时刻]",
+        "02:49[时刻]",
+        "03:10[时刻]",
+        "03:35[时刻]",
+        "小红书1年1度购物狂欢",
+        "1年1度爱用大公开",
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草",
+        "油痘肌护肤",
+        "空瓶记"
+      ],
+      "short_phrases": [
+        "🍠1年1度空瓶分享～都是无限回购的真爱品",
+        "分享一下我本年度陆续回购的空瓶们～ 全部都是补货了的很多次的真爱用"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68ef66ef000000000503be22",
+      "title": "12年油痘肌亲测 真正适合油皮的好东西！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌亲测 真正适合油皮的好东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "回购好物",
+        "护肤品锐评大赛",
+        "真用真上脸",
+        "好皮肤入秋计划",
+        "好物分享",
+        "爱用好物",
+        "种草",
+        "油痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68f208a20000000004012bfd",
+      "title": "双十一必囤！油痘肌博主的购物清单🛒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "双十一必囤",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草",
+        "油痘肌护肤",
+        "空瓶记",
+        "双十一购物",
+        "双十一购物清单"
+      ],
+      "short_phrases": [
+        "油痘肌博主的购物清单🛒 我的双十一购物清单整理好啦"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68fb512b0000000005010529",
+      "title": "6套超舒乎睡衣分享🧸软糯耐穿！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "6套超舒乎睡衣分享🧸软糯耐穿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "睡衣分享",
+        "宅家",
+        "家居服",
+        "好物分享",
+        "睡衣"
+      ],
+      "short_phrases": [
+        "6套超舒乎睡衣分享🧸软糯耐穿"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "693bdf97000000001f00c6c0",
+      "title": "写写本油痘敏肌入冬后爱用好物（自用无广！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写写本油痘敏肌入冬后爱用好物（自用无广",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "秋冬底妆大作战",
+        "油痘肌护肤",
+        "秋冬护肤",
+        "敏感肌",
+        "好物分享",
+        "分享",
+        "身体护理",
+        "彩妆分享"
+      ],
+      "short_phrases": [
+        "写写本油痘敏肌入冬后爱用好物（自用无广",
+        "12年油痘敏肌，夏天混油冬天混干",
+        "现在入冬明显感觉涂多了很厚，涂薄了又干，但我又是个油皮，所以总感觉又油又干",
+        "但最近护理的蛮好的，水水嫩嫩，光光滑滑",
+        "分享一下近日的护肤搭子～脸上的、身上的、彩妆、护唇都有"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6947ac32000000001f006ad8",
+      "title": "分享四个我从沙发到绸缎发的养发心得！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "分享四个我从沙发到绸缎发的养发心得",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "护发心得分享",
+        "懒人护发",
+        "护发",
+        "头发护理分享",
+        "我好像得了没毛病",
+        "我的头发真的吃得很好",
+        "超绝发张力"
+      ],
+      "short_phrases": [
+        "🙏审核员不要误判"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6950aad8000000001e035c17",
+      "title": "怒花几千块总结的大实话！oy好物歹物全分享",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "怒花几千块总结的大实话",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "Oliveyoung",
+        "避雷指南",
+        "oliveyoung必买",
+        "分享爱用物",
+        "韩国购物分享",
+        "无广测评",
+        "韩系彩妆",
+        "韩女的秘密",
+        "歹物分享"
+      ],
+      "short_phrases": [
+        "总结出来了风大但难用的歹物，用下来真正好用的好物，以及挖到了冷门好物",
+        "给大家有效种草和避雷一下～ # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "695e0b89000000001a031913",
+      "title": "无废话纯分享 12年油痘肌2025空瓶大赏",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "无废话纯分享 12年油痘肌2025空瓶大赏 欢迎大家收看我今年的空瓶报告，除了护肤还有一些洗护产品",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "空瓶记",
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "都是我纯纯自用的，给大家参考～ 拍完这期，攒了一年的空瓶终于可以扔了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6967610e000000000d00bcdc",
+      "title": "2025年度爱用 ！7分钟纯享 每个品类只选一个",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2025年度爱用",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "都是我空瓶、回购很多次的真爱用，每个品类只入选了一位",
+        "希望给大家有用的参考🧾 # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6971e0a5000000001a02c240",
+      "title": "人，怎么能用这么多唇膏。。。",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "人，怎么能用这么多唇膏",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "润唇膏",
+        "好物分享",
+        "平价好物",
+        "唇膏",
+        "唇膜",
+        "唇部护理",
+        "年度爱用"
+      ],
+      "short_phrases": [
+        "人，怎么能用这么多唇膏"
+      ],
+      "question_phrases": [
+        "人，怎么能用这么多唇膏"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6975d4de000000001a02c269",
+      "title": "不知道，橄榄皮涂烟紫色口红很曼妙",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "不知道，橄榄皮涂烟紫色口红很曼妙 25年最大的收获就是去🇰🇷找到了自己最适配的彩妆颜色：烟紫烟粉色，真的好适合我们橄榄皮",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "口红试色",
+        "淡人",
+        "口红",
+        "唇蜜",
+        "镜面唇釉",
+        "原相机试色",
+        "好物分享"
+      ],
+      "short_phrases": [
+        "Ps：这条都是暖光拍摄，所以整体颜色偏暖～ # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "698a2451000000001a0215e0",
+      "title": "低至十几块的油痘肌祛🫘好物！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "低至十几块的油痘肌祛🫘好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "护肤",
+        "爱用物分享",
+        "油皮好物",
+        "好物分享",
+        "祛痘"
+      ],
+      "short_phrases": [
+        "低至十几块的油痘肌祛🫘好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "698ae4740000000028021daf",
+      "title": "请大数据把我推给睡不好的姐妹（100%🈚️广",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "请大数据把我推给睡不好的姐妹（100%🈚️广 都是我自己用下来真的有用的助眠好物，对我们这种容易睡眠障碍的人来说，好睡眠真的是靠各种努力堆出来的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "卧室好物",
+        "睡眠好物",
+        "好物分享",
+        "一觉睡到大天亮",
+        "家居",
+        "无广告纯分享"
+      ],
+      "short_phrases": [
+        "希望我的分享对大家有用，都能睡个好觉",
+        "😪 # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69afc26f0000000005033cbd",
+      "title": "分享5️⃣个年度爱用化妆包",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "分享5️⃣个年度爱用化妆包 # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "化妆包分享",
+        "大容量化妆包",
+        "出门带什么",
+        "化妆包翻包",
+        "收纳包"
+      ],
+      "short_phrases": [
+        "分享5️⃣个年度爱用化妆包 # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69c63cb5000000001b02251b",
+      "title": "这4️⃣个油痘肌平价夯物真能处！花小钱办大事",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "这4️⃣个油痘肌平价夯物真能处",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "护肤",
+        "爱用物分享",
+        "油皮好物",
+        "好物分享"
+      ],
+      "short_phrases": [
+        "这4️⃣个油痘肌平价夯物真能处"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69cb9aaf000000001f00492b",
+      "title": "4️⃣个让油痘皮很爽的吸油好物！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4️⃣个让油痘皮很爽的吸油好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "控油",
+        "拯救大油皮",
+        "护肤好物",
+        "夏日好物",
+        "夏季好物分享",
+        "吸油气垫",
+        "YSL冰气垫"
+      ],
+      "short_phrases": [
+        "4️⃣个让油痘皮很爽的吸油好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69ddfd160000000022029fb9",
+      "title": "4支不闷痘防晒分享（100%无广",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4支不闷痘防晒分享（100%无广 这四只都是我自用了两三年的的爱用防晒 都是肤感好",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "防晒分享",
+        "防晒推荐",
+        "防晒",
+        "好物分享"
+      ],
+      "short_phrases": [
+        "特别适合我们油皮的～ # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6a1560850000000008026000",
+      "title": "油痘人翻包👛安全感满满的祛痘包分享！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘人翻包👛安全感满满的祛痘包分享",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "翻包记",
+        "翻包行动",
+        "翻包日记",
+        "日常翻包",
+        "爱用物分享",
+        "油痘肌护肤",
+        "祛痘",
+        "去痘印",
+        "长期主义",
+        "RED新生代创作大赛"
+      ],
+      "short_phrases": [
+        "油痘人翻包👛安全感满满的祛痘包分享"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6a27896000000000070280fe",
+      "title": "瘪痘、消痘、不留印！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "瘪痘、消痘、不留印",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "红肿痘",
+        "祛痘",
+        "祛痘好物"
+      ],
+      "short_phrases": [
+        "瘪痘、消痘、不留印"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6a327c8d000000002102241a",
+      "title": "2026年中爱用空瓶大盘点，自用无广！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2026年中爱用空瓶大盘点，自用无广",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "空瓶记",
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "2026年中爱用空瓶大盘点，自用无广"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "62e62fda000000000e032015",
+      "title": "油痘肌好用物分享❤️",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌好用物分享❤️ # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "痘痘肌",
+        "好物",
+        "好物分享",
+        "视频分享好物",
+        "平价好物分享",
+        "学生党平价好物"
+      ],
+      "short_phrases": [
+        "油痘肌好用物分享❤️ # # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "632d6749000000000802ac34",
+      "title": "适合油痘肌平价又好用的卸妆洁面产品分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "适合油痘肌平价又好用的卸妆洁面产品分享～ 卸妆、清洁类产品是我觉得在护肤当中很重要的一步，一款好的清洁产品要洗的干净又温和，不伤害皮脂膜",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "卸妆分享",
+        "卸妆",
+        "平价卸妆",
+        "我的平价好物"
+      ],
+      "short_phrases": [
+        "这几款卸妆、清洁产品是我非常喜欢的",
+        "卸妆产品的选择上我的要求是不止要卸的干净，最好"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63bbe5e40000000019023981",
+      "title": "油痘肌年度爱用空瓶分享，脸越来越干净了～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌年度爱用空瓶分享，脸越来越干净了～ 这些都是我经常用并且非常喜欢的真爱护肤品❤️ 希望对你们有帮助❤️ # # # # # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "爱用物分享",
+        "好物分享",
+        "敏感肌",
+        "修复面霜",
+        "敏感肌面霜",
+        "油痘肌大作战",
+        "怎样美白",
+        "去痘印"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64fc0c9a000000001d014abf",
+      "title": "值得反复回购的心机彩妆分享（混油痘肌）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "值得反复回购的心机彩妆分享（混油痘肌） 我喜欢那种很裸很透比较清纯的白开水妆 如果你也喜欢 请看下去吧[红色心形R] 都是我自用很久非常惊艳的彩妆品 分享给你们～ 希望对你有帮助❤",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌",
+        "混油皮",
+        "好物分享",
+        "爱用物分享",
+        "彩妆",
+        "彩妆分享"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "650e893d000000001e02dd21",
+      "title": "爱用洁面分享（油敏痘肌）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "爱用洁面分享（油敏痘肌） 这几只是我爱用的洗面奶，分享给跟我一样油敏痘肌的宝宝～给你们做个参考～❤️ # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "洁面",
+        "洗面奶分享",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "洁面分享",
+        "平价洁面",
+        "氨基酸洗面奶"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66091515000000001a011957",
+      "title": "一年只分享一次！油痘肌博主爱用空瓶分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "一年只分享一次",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "空瓶分享",
+        "爱用物",
+        "好物分享",
+        "就这样护肤呗",
+        "种草视频"
+      ],
+      "short_phrases": [
+        "❤️ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67398310000000001a01d85a",
+      "title": "百元内油痘肌秋冬好物（学生党友好）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "百元内油痘肌秋冬好物（学生党友好） 给油痘肌姐妹们精挑细选了 一些均价不过百的秋冬平价好物 有消灭痘痘的，淡化唇纹的 以及刚需的秋冬防晒 全部都是我自用真心分享~ # # # # ",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "平价好物",
+        "爱用物分享",
+        "防晒",
+        "润唇膏",
+        "学生党"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "679f4123000000002902b85c",
+      "title": "好皮肤是用对了精华，年度爱用精华分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "好皮肤是用对了精华，年度爱用精华分享 我的护肤理念就是，根据不同的皮肤状态，选择不同的护肤品，把皮肤维持在一个细腻、光滑、稳定的状态",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "年度爱用",
+        "爱用物分享",
+        "油痘肌护肤",
+        "我的护肤年度总结",
+        "年前突击变美",
+        "素颜好皮帮帮忙",
+        "精华分享"
+      ],
+      "short_phrases": [
+        "这几只年度爱用精华，每一只都割舍不了",
+        "去痘的、细毛孔的、提亮肤色的、修护维稳的、每一只都在各自的领域超级能打"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67d2c990000000001d0191de",
+      "title": "一年只分享一次！油痘肌博主真爱空瓶分享❤️",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "一年只分享一次",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "空瓶记",
+        "我的年度空瓶",
+        "空瓶分享",
+        "普通人的变美思路",
+        "素颜好皮帮帮忙",
+        "祛痘帮帮忙",
+        "我的年度总结",
+        "油痘肌护肤",
+        "爱用物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6846b033000000002202402d",
+      "title": "油痘敏肌爱用面膜！用了就离不开了~",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘敏肌爱用面膜",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "面膜分享",
+        "面膜推荐",
+        "小众面膜",
+        "修护",
+        "爱用面膜",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "684a7b120000000021009892",
+      "title": "100%自用好物！反复回购才是真爱！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "100%自用好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草"
+      ],
+      "short_phrases": [
+        "100%自用好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68737733000000002203f9d0",
+      "title": "高质价比长期主义 ，30+爱用物分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "高质价比长期主义 ，30+爱用物分享～ 分享几个我觉得物超所值的好物~ 真的是花很低的价格就能拥有贵妇级的体验",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "平价好物",
+        "爱用物",
+        "油皮底妆",
+        "油痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68ce40d2000000000b03dd3e",
+      "title": "🍠1年1度空瓶分享～都是无限回购的真爱品！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "🍠1年1度空瓶分享～都是无限回购的真爱品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:10[时刻]",
+        "00:52[时刻]",
+        "01:04[时刻]",
+        "01:30[时刻]",
+        "01:52[时刻]",
+        "02:24[时刻]",
+        "02:49[时刻]",
+        "03:10[时刻]",
+        "03:35[时刻]",
+        "小红书1年1度购物狂欢",
+        "1年1度爱用大公开",
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草",
+        "油痘肌护肤",
+        "空瓶记"
+      ],
+      "short_phrases": [
+        "🍠1年1度空瓶分享～都是无限回购的真爱品",
+        "分享一下我本年度陆续回购的空瓶们～ 全部都是补货了的很多次的真爱用"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68ef66ef000000000503be22",
+      "title": "12年油痘肌亲测 真正适合油皮的好东西！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌亲测 真正适合油皮的好东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "回购好物",
+        "护肤品锐评大赛",
+        "真用真上脸",
+        "好皮肤入秋计划",
+        "好物分享",
+        "爱用好物",
+        "种草",
+        "油痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68f208a20000000004012bfd",
+      "title": "双十一必囤！油痘肌博主的购物清单🛒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "双十一必囤",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草",
+        "油痘肌护肤",
+        "空瓶记",
+        "双十一购物",
+        "双十一购物清单"
+      ],
+      "short_phrases": [
+        "油痘肌博主的购物清单🛒 我的双十一购物清单整理好啦"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "693bdf97000000001f00c6c0",
+      "title": "写写本油痘敏肌入冬后爱用好物（自用无广！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写写本油痘敏肌入冬后爱用好物（自用无广",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "秋冬底妆大作战",
+        "油痘肌护肤",
+        "秋冬护肤",
+        "敏感肌",
+        "好物分享",
+        "分享",
+        "身体护理",
+        "彩妆分享"
+      ],
+      "short_phrases": [
+        "写写本油痘敏肌入冬后爱用好物（自用无广",
+        "12年油痘敏肌，夏天混油冬天混干",
+        "现在入冬明显感觉涂多了很厚，涂薄了又干，但我又是个油皮，所以总感觉又油又干",
+        "但最近护理的蛮好的，水水嫩嫩，光光滑滑",
+        "分享一下近日的护肤搭子～脸上的、身上的、彩妆、护唇都有"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "695e0b89000000001a031913",
+      "title": "无废话纯分享 12年油痘肌2025空瓶大赏",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "无废话纯分享 12年油痘肌2025空瓶大赏 欢迎大家收看我今年的空瓶报告，除了护肤还有一些洗护产品",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "空瓶记",
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "都是我纯纯自用的，给大家参考～ 拍完这期，攒了一年的空瓶终于可以扔了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6967610e000000000d00bcdc",
+      "title": "2025年度爱用 ！7分钟纯享 每个品类只选一个",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2025年度爱用",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "都是我空瓶、回购很多次的真爱用，每个品类只入选了一位",
+        "希望给大家有用的参考🧾 # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "698a2451000000001a0215e0",
+      "title": "低至十几块的油痘肌祛🫘好物！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "低至十几块的油痘肌祛🫘好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "护肤",
+        "爱用物分享",
+        "油皮好物",
+        "好物分享",
+        "祛痘"
+      ],
+      "short_phrases": [
+        "低至十几块的油痘肌祛🫘好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a327c8d000000002102241a",
+      "title": "2026年中爱用空瓶大盘点，自用无广！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2026年中爱用空瓶大盘点，自用无广",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "空瓶记",
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "2026年中爱用空瓶大盘点，自用无广"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "62e62fda000000000e032015",
+      "title": "油痘肌好用物分享❤️",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌好用物分享❤️ # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "痘痘肌",
+        "好物",
+        "好物分享",
+        "视频分享好物",
+        "平价好物分享",
+        "学生党平价好物"
+      ],
+      "short_phrases": [
+        "油痘肌好用物分享❤️ # # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "632d6749000000000802ac34",
+      "title": "适合油痘肌平价又好用的卸妆洁面产品分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "适合油痘肌平价又好用的卸妆洁面产品分享～ 卸妆、清洁类产品是我觉得在护肤当中很重要的一步，一款好的清洁产品要洗的干净又温和，不伤害皮脂膜",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "卸妆分享",
+        "卸妆",
+        "平价卸妆",
+        "我的平价好物"
+      ],
+      "short_phrases": [
+        "这几款卸妆、清洁产品是我非常喜欢的",
+        "卸妆产品的选择上我的要求是不止要卸的干净，最好"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63bbe5e40000000019023981",
+      "title": "油痘肌年度爱用空瓶分享，脸越来越干净了～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌年度爱用空瓶分享，脸越来越干净了～ 这些都是我经常用并且非常喜欢的真爱护肤品❤️ 希望对你们有帮助❤️ # # # # # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "爱用物分享",
+        "好物分享",
+        "敏感肌",
+        "修复面霜",
+        "敏感肌面霜",
+        "油痘肌大作战",
+        "怎样美白",
+        "去痘印"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64fc0c9a000000001d014abf",
+      "title": "值得反复回购的心机彩妆分享（混油痘肌）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "值得反复回购的心机彩妆分享（混油痘肌） 我喜欢那种很裸很透比较清纯的白开水妆 如果你也喜欢 请看下去吧[红色心形R] 都是我自用很久非常惊艳的彩妆品 分享给你们～ 希望对你有帮助❤",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌",
+        "混油皮",
+        "好物分享",
+        "爱用物分享",
+        "彩妆",
+        "彩妆分享"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "650e893d000000001e02dd21",
+      "title": "爱用洁面分享（油敏痘肌）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "爱用洁面分享（油敏痘肌） 这几只是我爱用的洗面奶，分享给跟我一样油敏痘肌的宝宝～给你们做个参考～❤️ # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "洁面",
+        "洗面奶分享",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "洁面分享",
+        "平价洁面",
+        "氨基酸洗面奶"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66091515000000001a011957",
+      "title": "一年只分享一次！油痘肌博主爱用空瓶分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "一年只分享一次",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "空瓶分享",
+        "爱用物",
+        "好物分享",
+        "就这样护肤呗",
+        "种草视频"
+      ],
+      "short_phrases": [
+        "❤️ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67398310000000001a01d85a",
+      "title": "百元内油痘肌秋冬好物（学生党友好）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "百元内油痘肌秋冬好物（学生党友好） 给油痘肌姐妹们精挑细选了 一些均价不过百的秋冬平价好物 有消灭痘痘的，淡化唇纹的 以及刚需的秋冬防晒 全部都是我自用真心分享~ # # # # ",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "平价好物",
+        "爱用物分享",
+        "防晒",
+        "润唇膏",
+        "学生党"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "679f4123000000002902b85c",
+      "title": "好皮肤是用对了精华，年度爱用精华分享",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "好皮肤是用对了精华，年度爱用精华分享 我的护肤理念就是，根据不同的皮肤状态，选择不同的护肤品，把皮肤维持在一个细腻、光滑、稳定的状态",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "年度爱用",
+        "爱用物分享",
+        "油痘肌护肤",
+        "我的护肤年度总结",
+        "年前突击变美",
+        "素颜好皮帮帮忙",
+        "精华分享"
+      ],
+      "short_phrases": [
+        "这几只年度爱用精华，每一只都割舍不了",
+        "去痘的、细毛孔的、提亮肤色的、修护维稳的、每一只都在各自的领域超级能打"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67d2c990000000001d0191de",
+      "title": "一年只分享一次！油痘肌博主真爱空瓶分享❤️",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "一年只分享一次",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "空瓶记",
+        "我的年度空瓶",
+        "空瓶分享",
+        "普通人的变美思路",
+        "素颜好皮帮帮忙",
+        "祛痘帮帮忙",
+        "我的年度总结",
+        "油痘肌护肤",
+        "爱用物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6846b033000000002202402d",
+      "title": "油痘敏肌爱用面膜！用了就离不开了~",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘敏肌爱用面膜",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "面膜分享",
+        "面膜推荐",
+        "小众面膜",
+        "修护",
+        "爱用面膜",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "684a7b120000000021009892",
+      "title": "100%自用好物！反复回购才是真爱！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "100%自用好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草"
+      ],
+      "short_phrases": [
+        "100%自用好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68737733000000002203f9d0",
+      "title": "高质价比长期主义 ，30+爱用物分享～",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "高质价比长期主义 ，30+爱用物分享～ 分享几个我觉得物超所值的好物~ 真的是花很低的价格就能拥有贵妇级的体验",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好物分享",
+        "平价好物",
+        "爱用物",
+        "油皮底妆",
+        "油痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68ce40d2000000000b03dd3e",
+      "title": "🍠1年1度空瓶分享～都是无限回购的真爱品！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "🍠1年1度空瓶分享～都是无限回购的真爱品",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:10[时刻]",
+        "00:52[时刻]",
+        "01:04[时刻]",
+        "01:30[时刻]",
+        "01:52[时刻]",
+        "02:24[时刻]",
+        "02:49[时刻]",
+        "03:10[时刻]",
+        "03:35[时刻]",
+        "小红书1年1度购物狂欢",
+        "1年1度爱用大公开",
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草",
+        "油痘肌护肤",
+        "空瓶记"
+      ],
+      "short_phrases": [
+        "🍠1年1度空瓶分享～都是无限回购的真爱品",
+        "分享一下我本年度陆续回购的空瓶们～ 全部都是补货了的很多次的真爱用"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68ef66ef000000000503be22",
+      "title": "12年油痘肌亲测 真正适合油皮的好东西！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌亲测 真正适合油皮的好东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "回购好物",
+        "护肤品锐评大赛",
+        "真用真上脸",
+        "好皮肤入秋计划",
+        "好物分享",
+        "爱用好物",
+        "种草",
+        "油痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68f208a20000000004012bfd",
+      "title": "双十一必囤！油痘肌博主的购物清单🛒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "双十一必囤",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好物分享",
+        "回购好物",
+        "爱用好物",
+        "种草",
+        "油痘肌护肤",
+        "空瓶记",
+        "双十一购物",
+        "双十一购物清单"
+      ],
+      "short_phrases": [
+        "油痘肌博主的购物清单🛒 我的双十一购物清单整理好啦"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "693bdf97000000001f00c6c0",
+      "title": "写写本油痘敏肌入冬后爱用好物（自用无广！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写写本油痘敏肌入冬后爱用好物（自用无广",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "秋冬底妆大作战",
+        "油痘肌护肤",
+        "秋冬护肤",
+        "敏感肌",
+        "好物分享",
+        "分享",
+        "身体护理",
+        "彩妆分享"
+      ],
+      "short_phrases": [
+        "写写本油痘敏肌入冬后爱用好物（自用无广",
+        "12年油痘敏肌，夏天混油冬天混干",
+        "现在入冬明显感觉涂多了很厚，涂薄了又干，但我又是个油皮，所以总感觉又油又干",
+        "但最近护理的蛮好的，水水嫩嫩，光光滑滑",
+        "分享一下近日的护肤搭子～脸上的、身上的、彩妆、护唇都有"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "695e0b89000000001a031913",
+      "title": "无废话纯分享 12年油痘肌2025空瓶大赏",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "无废话纯分享 12年油痘肌2025空瓶大赏 欢迎大家收看我今年的空瓶报告，除了护肤还有一些洗护产品",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "空瓶记",
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "都是我纯纯自用的，给大家参考～ 拍完这期，攒了一年的空瓶终于可以扔了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6967610e000000000d00bcdc",
+      "title": "2025年度爱用 ！7分钟纯享 每个品类只选一个",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2025年度爱用",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "都是我空瓶、回购很多次的真爱用，每个品类只入选了一位",
+        "希望给大家有用的参考🧾 # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "698a2451000000001a0215e0",
+      "title": "低至十几块的油痘肌祛🫘好物！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "低至十几块的油痘肌祛🫘好物",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "护肤",
+        "爱用物分享",
+        "油皮好物",
+        "好物分享",
+        "祛痘"
+      ],
+      "short_phrases": [
+        "低至十几块的油痘肌祛🫘好物"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6a327c8d000000002102241a",
+      "title": "2026年中爱用空瓶大盘点，自用无广！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2026年中爱用空瓶大盘点，自用无广",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "空瓶记",
+        "年度爱用",
+        "护肤",
+        "无广分享",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "2026年中爱用空瓶大盘点，自用无广"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

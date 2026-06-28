@@ -1,0 +1,389 @@
+{
+  "direction": "生活方式",
+  "topic_clusters": [
+    {
+      "topic": "日常",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "64a95cc5000000001a013736",
+          "title": "新加坡vlog～🌴和我一起工作吧💚",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "65532e6b000000001100efdf",
+          "title": "小森林的Vlog｜去香港吃吃逛逛买水晶咯～🔮",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "688eeb360000000023030410",
+          "title": "黄皮素颜口红（原相机！日常显白！懒人必备！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6922c5c9000000001e03699a",
+          "title": "8min下饭菜！买了超多秋冬衣服配饰📦爽拆！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "697ed0c7000000002802148f",
+          "title": "12年油痘人 一天吃什么vlog～",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "生活方式",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "68aec3e8000000001b03d106",
+          "title": "12年油痘肌超爱的健康果蔬汁配方～",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "68ba84be000000001c00ec0a",
+          "title": "12年油痘肌养成不长痘体质（内调实操篇",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "69bf6e26000000002800895f",
+          "title": "🇯🇵vlog🍜这一路的麻辣鲜香只有自己知道…",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "69fda6690000000022024dad",
+          "title": "3️⃣个！13年油痘肌超爱去黄蔬果汁配方～",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "生活",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "62fa3cab0000000015008f05",
+          "title": "常年生活在夏季但一点没黑，我真的会谢",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "62fa3cab0000000015008f05",
+      "title": "常年生活在夏季但一点没黑，我真的会谢",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "常年生活在夏季但一点没黑，我真的会谢 生活在常年夏天的城市，防晒真是太重要了 我一般出行硬防晒软防晒都会做到位， 我是从10岁就开始有防晒意识了 （小时候看《我是大美人》学的哈哈哈",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "兰蔻小白管防晒乳",
+        "兰蔻防晒",
+        "防晒分享",
+        "防晒",
+        "每天涂防晒",
+        "防晒推荐"
+      ],
+      "short_phrases": [
+        "但我是油痘肌， 所以在防"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "64a95cc5000000001a013736",
+      "title": "新加坡vlog～🌴和我一起工作吧💚",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "新加坡vlog～🌴和我一起工作吧💚 一次半工半私的旅途～💚 （原来vlog是要踩点的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "工作Vlog",
+        "vlog",
+        "新加坡",
+        "日常vlog"
+      ],
+      "short_phrases": [
+        "又学到了👏～） 感谢观看🫶 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65532e6b000000001100efdf",
+      "title": "小森林的Vlog｜去香港吃吃逛逛买水晶咯～🔮",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "小森林的Vlog｜去香港吃吃逛逛买水晶咯～🔮 最近在培养自己随时记录的习惯， 之后想要多多的录有意思的vlog～～[红色心形R] # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "vlog",
+        "我的日常Vlog",
+        "水晶"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "688eeb360000000023030410",
+      "title": "黄皮素颜口红（原相机！日常显白！懒人必备！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "黄皮素颜口红（原相机",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "无滤镜口红试色",
+        "口红分享",
+        "口红试色",
+        "显白口红",
+        "素颜口红",
+        "化妆就是玩儿",
+        "涨粉涨赞用薯条"
+      ],
+      "short_phrases": [
+        "黄皮素颜口红（原相机",
+        "@薯条小助手 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68aec3e8000000001b03d106",
+      "title": "12年油痘肌超爱的健康果蔬汁配方～",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌超爱的健康果蔬汁配方～ # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "内养外调好气色",
+        "果蔬汁",
+        "破壁机食谱",
+        "喝出好肤色",
+        "普通人的变美思路",
+        "油痘肌",
+        "中式养颜法",
+        "民间护肤配方"
+      ],
+      "short_phrases": [
+        "12年油痘肌超爱的健康果蔬汁配方～ # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68ba84be000000001c00ec0a",
+      "title": "12年油痘肌养成不长痘体质（内调实操篇",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌养成不长痘体质（内调实操篇 我用了差不多十年的时间才养成了现在的不易长痘体质",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "内调外养祛痘",
+        "内调",
+        "痘痘远离我",
+        "下巴长痘",
+        "油痘肌自救",
+        "swisse黑绷带鱼油",
+        "swisse高纯鱼油",
+        "swisse鱼油",
+        "鱼油"
+      ],
+      "short_phrases": [
+        "总结下来就是要护肤➕内调一手抓",
+        "今天就来跟大家分享我的内调心得～ 希望大家都可以早日摆脱痘痘"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6922c5c9000000001e03699a",
+      "title": "8min下饭菜！买了超多秋冬衣服配饰📦爽拆！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "8min下饭菜",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "unboxing",
+        "开箱",
+        "拆快递",
+        "购物分享",
+        "新衣试穿",
+        "种草视频",
+        "买买买日常"
+      ],
+      "short_phrases": [
+        "买了超多秋冬衣服配饰📦爽拆"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "697ed0c7000000002802148f",
+      "title": "12年油痘人 一天吃什么vlog～",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "12年油痘人 一天吃什么vlog～ 第一次录自己一天的小日常，希望大家会喜欢🥰🥰 # # # #",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "vlog",
+        "一天吃什么",
+        "vlog我的一天",
+        "吃吃喝喝又一天"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "12年油痘人 一天吃什么vlog～ 第一次录自己一天的小日常，希望大家会喜欢🥰🥰 # # # #"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "69bf6e26000000002800895f",
+      "title": "🇯🇵vlog🍜这一路的麻辣鲜香只有自己知道…",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "🇯🇵vlog🍜这一路的麻辣鲜香只有自己知道… # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "一天吃什么",
+        "美食",
+        "VLOG",
+        "旅行"
+      ],
+      "short_phrases": [
+        "🇯🇵vlog🍜这一路的麻辣鲜香只有自己知道… # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "69db2205000000001f006e3c",
+      "title": "13min超长下饭春夏开箱📦爽拆！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "13min超长下饭春夏开箱📦爽拆",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "开箱",
+        "拆快递",
+        "购物分享",
+        "新衣试穿",
+        "种草视频",
+        "买买买日常"
+      ],
+      "short_phrases": [
+        "13min超长下饭春夏开箱📦爽拆"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "69fda6690000000022024dad",
+      "title": "3️⃣个！13年油痘肌超爱去黄蔬果汁配方～",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3️⃣个",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "内养外调好气色",
+        "果蔬汁",
+        "破壁机食谱",
+        "喝出好肤色",
+        "普通人的变美思路",
+        "油痘肌",
+        "中式养颜法",
+        "民间护肤配方"
+      ],
+      "short_phrases": [
+        "13年油痘肌超爱去黄蔬果汁配方～ # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "64a95cc5000000001a013736",
+      "title": "新加坡vlog～🌴和我一起工作吧💚",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "新加坡vlog～🌴和我一起工作吧💚 一次半工半私的旅途～💚 （原来vlog是要踩点的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "工作Vlog",
+        "vlog",
+        "新加坡",
+        "日常vlog"
+      ],
+      "short_phrases": [
+        "又学到了👏～） 感谢观看🫶 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "64a95cc5000000001a013736",
+      "title": "新加坡vlog～🌴和我一起工作吧💚",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "新加坡vlog～🌴和我一起工作吧💚 一次半工半私的旅途～💚 （原来vlog是要踩点的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "工作Vlog",
+        "vlog",
+        "新加坡",
+        "日常vlog"
+      ],
+      "short_phrases": [
+        "又学到了👏～） 感谢观看🫶 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

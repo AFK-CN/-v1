@@ -128,6 +128,32 @@ class VideoLearningAuditTests(unittest.TestCase):
         self.assertTrue(report_exists)
         self.assertFalse(wrong_report_exists)
 
+    def test_run_audit_falls_back_to_source_id_when_scope_card_path_is_stale(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            profile = "moved_profile"
+            card_path = root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/赚钱/cards/01_1001_测试卡.md"
+            card_path.parent.mkdir(parents=True)
+            card_path.write_text(build_card(account="测试账号"), encoding="utf-8")
+            scope_path = root / f"10_Knowledge/candidates/account_assets/content_rough_scan/{profile}/deep_learning_scope.json"
+            scope_path.parent.mkdir(parents=True)
+            scope_path.write_text(
+                json.dumps({"items": [{"source_id": "1001", "card_path": "01_Case_Cleaning/video_learning/learned_cards/old/cards/01_1001_测试卡.md"}]}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            selected = root / "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_1001.md"
+            selected.parent.mkdir(parents=True)
+            selected.write_text("title: 测试标题\nbody: 正文内容\ntopics: 测试话题\nvideo_analysis_status: video_transcribed_scene_ok\n", encoding="utf-8")
+            artifact = root / "00_System/runtime/cache/video_learning/video_artifacts/douyin_1001"
+            artifact.mkdir(parents=True)
+            (artifact / "transcript.json").write_text(json.dumps({"text": "测试"}, ensure_ascii=False), encoding="utf-8")
+            (artifact / "scenes.csv").write_text("Scene Number,Start Timecode\n1,00:00:00\n", encoding="utf-8")
+
+            result = run_audit(root, AuditConfig.for_profile(profile))
+
+        self.assertEqual(result["card_count"], 1)
+        self.assertEqual(result["missing_card_source_ids"], [])
+
     def test_missing_required_section_fails_structure_gate(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = Path(tmp) / "card.md"
@@ -138,6 +164,31 @@ class VideoLearningAuditTests(unittest.TestCase):
 
         self.assertIn("missing_section:可复用案例", result.structure_errors)
         self.assertNotEqual(result.machine_decision, "pass")
+
+    def test_xhs_card_uses_selected_card_without_douyin_transcript_requirement(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            profile = "xhs_profile"
+            card_path = root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/护肤功效/cards/01_x1_测试卡.md"
+            card_path.parent.mkdir(parents=True)
+            card_path.write_text(
+                build_card(source_id="x1", account="小红书账号").replace("平台：抖音", "平台：小红书").replace("原视频链接：https://www.douyin.com/video/x1", "原视频链接：https://example.com/x1"),
+                encoding="utf-8",
+            )
+            scope_path = root / f"10_Knowledge/candidates/account_assets/content_rough_scan/{profile}/deep_learning_scope.json"
+            scope_path.parent.mkdir(parents=True)
+            scope_path.write_text(
+                json.dumps({"items": [{"source_id": "x1", "card_path": card_path.relative_to(root).as_posix()}]}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            selected = root / "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_x1.md"
+            selected.parent.mkdir(parents=True)
+            selected.write_text("video_analysis_status: metadata_only\n", encoding="utf-8")
+
+            result = run_audit(root, AuditConfig.for_profile(profile))
+
+        self.assertEqual(result["card_count"], 1)
+        self.assertNotIn("transcript_missing", result["cards"][0]["evidence_risks"])
 
     def test_shallow_method_and_template_are_flagged(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -183,8 +234,37 @@ class VideoLearningAuditTests(unittest.TestCase):
             )
             result = audit_card(parse_card(path), evidence)
 
-        self.assertIn("unsupported_scene_detail", result.evidence_risks)
+        self.assertIn("unsupported_scene_detail", result.video_content_layer_risks)
         self.assertNotEqual(result.machine_decision, "pass")
+
+    def test_audit_reports_publish_content_and_video_content_layer_risks(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            profile = "layer_profile"
+            card_path = root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/护肤/cards/01_x1_测试卡.md"
+            card_path.parent.mkdir(parents=True)
+            card_path.write_text(
+                build_card(source_id="x1", direction="护肤").replace("平台：抖音", "平台：小红书").replace("## 5. 视频层学习", "## 5. 视频层学习"),
+                encoding="utf-8",
+            )
+            scope_path = root / f"10_Knowledge/candidates/account_assets/content_rough_scan/{profile}/deep_learning_scope.json"
+            scope_path.parent.mkdir(parents=True)
+            scope_path.write_text(
+                json.dumps({"items": [{"source_id": "x1", "card_path": card_path.relative_to(root).as_posix()}]}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            selected = root / "10_Knowledge/candidates/learning_cards/selected_deep_cards/xhs_x1.md"
+            selected.parent.mkdir(parents=True)
+            selected.write_text("title: 测试标题\nbody: 正文内容\nvideo_analysis_status: metadata_only\n", encoding="utf-8")
+
+            result = run_audit(root, AuditConfig.for_profile(profile))
+            report = (root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/audit/machine_audit.md").read_text(encoding="utf-8")
+
+        self.assertIn("publish_content_layer_risks", result["cards"][0])
+        self.assertIn("video_content_layer_risks", result["cards"][0])
+        self.assertIn("publish_topics_not_audited", result["cards"][0]["publish_content_layer_risks"])
+        self.assertIn("发布内容层风险", report)
+        self.assertIn("视频内容层风险", report)
 
     def test_similarity_flags_three_of_four_key_sections(self):
         with tempfile.TemporaryDirectory() as tmp:

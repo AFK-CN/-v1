@@ -5,15 +5,18 @@ import json
 import re
 import sys
 from collections import Counter, defaultdict
+from dataclasses import replace
 from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from tools.video_learning import NormalizedRecord, heat_score, load_unique_records, transcript_covers_video
+from tools.publish_content_source import load_publish_content_from_sqlite
+from tools.video_learning import NormalizedRecord, deduplicate_records, heat_score, load_unique_records, transcript_covers_video
 
 
 DEFAULT_PROFILES_PATH = Path("00_System/shareable/config/content_rough_scan_profiles.json")
 OUTPUT_BASE = Path("10_Knowledge/candidates/account_assets/content_rough_scan")
+SQLITE_ACCOUNT_CANDIDATES_PATH = Path("10_Knowledge/candidates/account_assets/sqlite_imports/latest_account_candidates.json")
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -54,6 +57,82 @@ def load_profile(root: Path, profile_id: str, path: Path | None = None) -> dict[
     profile = dict(profiles[profile_id])
     profile.setdefault("profile_id", profile_id)
     return profile
+
+
+def latest_sqlite_candidate_records_path(root: Path) -> Path | None:
+    payload = read_json(root / SQLITE_ACCOUNT_CANDIDATES_PATH, {})
+    batch_dir = str(payload.get("source_batch_dir", "")).strip() if isinstance(payload, dict) else ""
+    if not batch_dir:
+        return None
+    path = root / batch_dir / "records.jsonl"
+    return path if path.exists() else None
+
+
+def sqlite_candidate_to_record(row: dict[str, Any]) -> NormalizedRecord:
+    metrics = row.get("metrics", {}) if isinstance(row.get("metrics"), dict) else {}
+    tags = row.get("tags", []) if isinstance(row.get("tags"), list) else []
+    source_id = str(row.get("source_id") or row.get("stable_id") or "")
+    title = str(row.get("title") or "")
+    body = str(row.get("summary") or "")
+    account_name = str(row.get("account_name") or row.get("source_keyword") or "")
+    stable_id = str(row.get("stable_id") or f"{row.get('platform', '')}:{source_id}")
+    return NormalizedRecord(
+        platform=str(row.get("platform") or ""),
+        source_id=source_id,
+        source_file=stable_id,
+        title=title,
+        body=body,
+        author_name=account_name,
+        published_at="",
+        metrics={
+            "likes": int(metrics.get("likes", 0) or 0),
+            "collects": int(metrics.get("collects", 0) or 0),
+            "comments": int(metrics.get("comments", 0) or 0),
+            "shares": int(metrics.get("shares", 0) or 0),
+        },
+        tags=[str(tag) for tag in tags],
+        url=str(row.get("url") or ""),
+        video_download_url="",
+        text_fingerprint=stable_id,
+        account_name=account_name,
+    )
+
+
+def load_sqlite_candidate_records(root: Path) -> list[NormalizedRecord]:
+    path = latest_sqlite_candidate_records_path(root)
+    if path is None:
+        return []
+    rows = read_jsonl(path)
+    records: list[NormalizedRecord] = []
+    for row in rows:
+        if not isinstance(row, dict):
+            continue
+        platform = str(row.get("platform") or "")
+        source_id = str(row.get("source_id") or row.get("stable_id") or "")
+        if platform not in {"douyin", "xhs"} or not source_id:
+            continue
+        records.append(sqlite_candidate_to_record(row))
+    return records
+
+
+def load_rough_scan_records(root: Path) -> list[NormalizedRecord]:
+    records, _, _ = load_unique_records(root)
+    sqlite_records = load_sqlite_candidate_records(root)
+    if sqlite_records:
+        records, _ = deduplicate_records([*records, *sqlite_records])
+    return records
+
+
+def enrich_record_from_publish_db(root: Path, record: NormalizedRecord) -> NormalizedRecord:
+    publish = load_publish_content_from_sqlite(root, record.platform, record.source_id)
+    if publish is None:
+        return record
+    return replace(
+        record,
+        title=publish.title or record.title,
+        body=publish.body or record.body,
+        tags=list(publish.tags) or record.tags,
+    )
 
 
 def manifest_ocr_text(root: Path, record: NormalizedRecord) -> str:
@@ -176,6 +255,16 @@ def compact_summary(record: NormalizedRecord, limit: int = 160) -> str:
     return text[:limit]
 
 
+def extract_topic_tags(*values: str) -> list[str]:
+    text = " ".join(value for value in values if value)
+    tags: list[str] = []
+    for match in re.finditer(r"#\s*([^#\s]+?)(?:\[话题\]#|#|\s|$)", text):
+        tag = normalize_text(match.group(1)).strip("#")
+        if tag:
+            tags.append(tag)
+    return list(dict.fromkeys(tags))
+
+
 def normalize_text(value: str) -> str:
     return re.sub(r"\s+", " ", value.replace("\u2028", " ")).strip()
 
@@ -185,6 +274,44 @@ def text_fragments(row: dict[str, Any]) -> list[str]:
     text = re.sub(r"#[^\s#]+", " ", text)
     parts = re.split(r"[。！？!?；;\n\r]+", text)
     return [normalize_text(part) for part in parts if normalize_text(part)]
+
+
+def opening_fragment(row: dict[str, Any]) -> str:
+    fragments = text_fragments(row)
+    return fragments[0] if fragments else normalize_text(str(row.get("title", "")))[:80]
+
+
+def title_pattern(row: dict[str, Any]) -> str:
+    title = normalize_text(str(row.get("title", "")))
+    if any(marker in title for marker in QUESTION_MARKERS):
+        return "问题型标题"
+    if re.search(r"\d|一周|几天|多年|分钟|小时|步骤|清单|教程", title):
+        return "数字/步骤/周期型标题"
+    if any(word in title for word in ("真的", "直接", "不要", "别", "不是", "其实", "反而", "没想到")):
+        return "强判断/反常识型标题"
+    if any(word in title for word in ("分享", "经验", "方法", "干货", "攻略")):
+        return "经验方法型标题"
+    return "结果/场景型标题"
+
+
+def body_pattern(row: dict[str, Any]) -> str:
+    text = normalize_text(str(row.get("topic_summary", "")))
+    if re.search(r"1[、.．]|2[、.．]|第一|第二|步骤|流程|教程", text):
+        return "步骤拆解"
+    if any(word in text for word in ("我以前", "我之前", "亲测", "自用", "真实", "坚持")):
+        return "个人经历背书"
+    if any(word in text for word in ("适合", "不适合", "翻车", "敏感", "风险", "注意")):
+        return "适用边界说明"
+    if text:
+        return "问题到行动"
+    return "正文缺失，仅保留标题学习"
+
+
+def topic_tag_summary(row: dict[str, Any]) -> str:
+    tags = row.get("topic_tags") or []
+    if tags:
+        return "、".join(str(tag) for tag in tags[:8])
+    return "未提取到显式话题"
 
 
 def evidence_level(row: dict[str, Any]) -> str:
@@ -300,6 +427,12 @@ def direction_insights(direction: str, rows: list[dict[str, Any]], profile: dict
                     "source_id": row["source_id"],
                     "title": normalize_text(str(row.get("title", "")))[:90],
                     "evidence_level": evidence_level(row),
+                    "title_pattern": title_pattern(row),
+                    "opening_fragment": opening_fragment(row)[:90],
+                    "body_pattern": body_pattern(row),
+                    "topic_tags": row.get("topic_tags") or extract_topic_tags(
+                        str(row.get("title", "")), str(row.get("topic_summary", ""))
+                    ),
                     "short_phrases": short_phrases,
                     "question_phrases": question_phrases,
                     "contrarian_phrases": contrarian_phrases,
@@ -311,6 +444,12 @@ def direction_insights(direction: str, rows: list[dict[str, Any]], profile: dict
         "direction": direction,
         "topic_clusters": topic_clusters(direction, rows, profile),
         "expressions": expression_rows,
+        "asset_learning_policy": {
+            "learn_title": True,
+            "learn_body_or_caption": True,
+            "learn_topic_tags": True,
+            "learn_comment_text": False,
+        },
         "candidate_deep_learning": [item for item in expression_rows if item["deep_relation"] in {"可补强", "需复核"}][:20],
         "needs_video_review": [item for item in expression_rows if item["evidence_level"] == "needs_video_review"][:20],
     }
@@ -334,6 +473,7 @@ def build_inventory(
     ]
     rows: list[dict[str, Any]] = []
     for record in sorted(selected, key=lambda item: (item.platform, item.source_id)):
+        record = enrich_record_from_publish_db(root, record)
         evidence, sources = text_evidence(root, record)
         classified = classification(evidence, profile)
         deep = deep_items.get(str(record.source_id))
@@ -368,6 +508,13 @@ def build_inventory(
             "published_at": record.published_at,
             "title": record.title,
             "topic_summary": compact_summary(record),
+            "topic_tags": extract_topic_tags(record.title, record.body, " ".join(record.tags)),
+            "asset_learning_scope": {
+                "title": True,
+                "body_or_caption": bool(record.body),
+                "topic_tags": bool(record.tags or extract_topic_tags(record.title, record.body)),
+                "comment_text": False,
+            },
             "text_sources": sources,
             "metrics": record.metrics,
             "heat_score": heat_score(record),
@@ -498,33 +645,61 @@ def inventory_markdown(rows: list[dict[str, Any]], profile: dict[str, Any]) -> s
 def direction_markdown(direction: str, rows: list[dict[str, Any]], profile: dict[str, Any]) -> str:
     insights = direction_insights(direction, rows, profile)
     lines = [
-        f"# {direction}方向粗扫内容和选题",
+        f"# {direction}方向粗学与选题池",
         "",
         f"账号：{profile['account_name']}",
         f"方向：{direction}",
-        f"粗扫范围：{len(rows)}条",
-        "状态：candidate",
+        f"粗学范围：{len(rows)}条",
+        "状态：candidate_learning_pool",
         "",
         "## 1. 方向素材总览",
         "",
         f"- 内容总数：{len(rows)}条。",
-        f"- 已确认深学：{sum(1 for row in rows if row.get('confirmed_learned'))}条。",
+        f"- 已确认深学卡：{sum(1 for row in rows if row.get('confirmed_learned'))}条。",
         f"- 候补深学：{sum(1 for row in rows if row.get('candidate_deep_learning'))}条。",
         f"- 需视频复核：{len(insights['needs_video_review'])}条。",
+        "- 粗学重点：发布内容层，包括标题、正文/文案、话题/标签、内容结构协同。",
+        "- 视频边界：粗扫阶段未下载视频，不学习逐字稿、抽帧或分镜；需要进入深度学习后补齐视频内容层。",
+        "- 评论处理：不学习评论正文；评论数只作为平台互动指标保留。",
         "",
-        "## 2. 全部粗扫清单",
+        "## 2. 全部粗学素材清单",
         "",
-        "| source_id | 原视频/笔记链接 | 标题/主题 | 辅方向 | 粗扫价值 | 深学状态 | 是否候补深学 |",
-        "|---|---|---|---|---|---|---|",
+        "| source_id | 原视频/笔记链接 | 标题/主题 | 话题/标签 | 辅方向 | 粗学价值 | 深学状态 | 是否候补深学 |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for row in rows:
         title = re.sub(r"\s+", " ", row["title"])[:72]
+        tags = topic_tag_summary(row)
         secondary = "、".join(row["secondary_directions"])
         lines.append(
-            f"| {row['source_id']} | {row['source_url']} | {title} | {secondary} | {row['rough_scan_value']} | "
+            f"| {row['source_id']} | {row['source_url']} | {title} | {tags} | {secondary} | {row['rough_scan_value']} | "
             f"{row['deep_learning_status']} | {'是' if row['candidate_deep_learning'] else '否'} |"
         )
-    lines.extend(["", "## 3. 主题簇", ""])
+    lines.extend(["", "## 3. 标题学习", ""])
+    title_count = 0
+    for item in insights["expressions"][:40]:
+        lines.append(f"- `{item['source_id']}` [{item['evidence_level']}] {item['title_pattern']}：{item['title']}")
+        title_count += 1
+    if not title_count:
+        lines.append("- 无。")
+    lines.extend(["", "## 4. 正文/文案学习", ""])
+    body_count = 0
+    for item in insights["expressions"][:40]:
+        lines.append(f"- `{item['source_id']}` [{item['evidence_level']}] {item['body_pattern']}：{item['opening_fragment']}")
+        body_count += 1
+    if not body_count:
+        lines.append("- 无。")
+    lines.extend(["", "## 5. 话题/标签学习", ""])
+    topic_tag_count = 0
+    for item in insights["expressions"][:40]:
+        tags = "、".join(item.get("topic_tags") or [])
+        if not tags:
+            continue
+        lines.append(f"- `{item['source_id']}`：{tags}")
+        topic_tag_count += 1
+    if not topic_tag_count:
+        lines.append("- 无显式话题/标签；保留标题与正文语义学习。")
+    lines.extend(["", "## 6. 主题簇", ""])
     for cluster in insights["topic_clusters"]:
         lines.append(f"### {cluster['topic']}（{cluster['count']}条）")
         lines.append("")
@@ -533,7 +708,7 @@ def direction_markdown(direction: str, rows: list[dict[str, Any]], profile: dict
         lines.append("")
     if not insights["topic_clusters"]:
         lines.append("- 无。")
-    lines.extend(["", "## 4. 候选短句", ""])
+    lines.extend(["", "## 7. 候选短句", ""])
     short_count = 0
     for item in insights["expressions"]:
         for phrase in item["short_phrases"][:3]:
@@ -545,7 +720,7 @@ def direction_markdown(direction: str, rows: list[dict[str, Any]], profile: dict
             break
     if not short_count:
         lines.append("- 无。")
-    lines.extend(["", "## 5. 候选问题句", ""])
+    lines.extend(["", "## 8. 候选问题句", ""])
     question_count = 0
     for item in insights["expressions"]:
         for phrase in item["question_phrases"][:3]:
@@ -557,7 +732,7 @@ def direction_markdown(direction: str, rows: list[dict[str, Any]], profile: dict
             break
     if not question_count:
         lines.append("- 无。")
-    lines.extend(["", "## 6. 候选反常识表达", ""])
+    lines.extend(["", "## 9. 候选反常识表达", ""])
     contrarian_count = 0
     for item in insights["expressions"]:
         for phrase in item["contrarian_phrases"][:3]:
@@ -569,21 +744,23 @@ def direction_markdown(direction: str, rows: list[dict[str, Any]], profile: dict
             break
     if not contrarian_count:
         lines.append("- 无。")
-    lines.extend(["", "## 7. 候补深学池", ""])
+    lines.extend(["", "## 10. 候补深学池", ""])
     for item in insights["candidate_deep_learning"]:
         lines.append(f"- `{item['source_id']}` [{item['evidence_level']}] {item['candidate_reason']}：{item['title']}")
     if not insights["candidate_deep_learning"]:
         lines.append("- 无。")
-    lines.extend(["", "## 8. 与已深学卡的关系", ""])
+    lines.extend(["", "## 11. 与已深学卡的关系", ""])
     for item in insights["expressions"][:40]:
         lines.append(f"- `{item['source_id']}`：{item['deep_relation']}。{item['candidate_reason']}")
     if not insights["expressions"]:
         lines.append("- 无。")
-    lines.extend(["", "## 9. 需要复核的问题", ""])
+    lines.extend(["", "## 12. 需要复核的问题", ""])
     for item in insights["needs_video_review"]:
         lines.append(f"- `{item['source_id']}`：候选素材来自元数据或不完整材料，需要视频/逐字稿复核。")
     if not insights["needs_video_review"]:
         lines.append("- 无。")
+    lines.extend(["", "## 13. 评论边界", "", "- 不学习评论正文，不从评论区提炼观点、痛点或话术。"])
+    lines.append("- 评论数量只作为平台互动指标，不进入标题、正文、话题或方法论学习。")
     return "\n".join(lines) + "\n"
 
 
@@ -705,10 +882,11 @@ def load_deep_items(root: Path, profile: dict[str, Any]) -> dict[str, dict[str, 
     if not value:
         return {}
     payload = read_json(root / value, {"items": []})
+    plan_items = payload.get("items", [])
     confirmed = {str(source_id): str(direction) for source_id, direction in profile.get("confirmed_deep_items", {}).items()}
     limits = {str(direction): int(limit) for direction, limit in profile.get("deep_direction_limits", {}).items()}
     excluded = {str(source_id) for source_id in profile.get("excluded_deep_ids", [])}
-    resolved = resolve_deep_items(payload.get("items", []), confirmed, limits, excluded)
+    resolved = resolve_deep_items(plan_items, confirmed, limits, excluded)
     existing_scope = read_json(output_dir(root, profile) / "deep_learning_scope.json", {"items": []})
     existing_items = existing_scope.get("items", existing_scope) if isinstance(existing_scope, dict) else existing_scope
     for item in existing_items:
@@ -725,7 +903,7 @@ def load_deep_items(root: Path, profile: dict[str, Any]) -> dict[str, dict[str, 
                     "card_path": item.get("card_path", ""),
                 }
             )
-        else:
+        elif not plan_items:
             resolved[source_id] = {
                 "source_id": source_id,
                 "primary_direction": item.get("primary_direction", ""),
@@ -737,12 +915,32 @@ def load_deep_items(root: Path, profile: dict[str, Any]) -> dict[str, dict[str, 
     return resolved
 
 
+def hydrate_rows_from_deep_scope(root: Path, profile: dict[str, Any], rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    scope = read_json(output_dir(root, profile) / "deep_learning_scope.json", {"items": []})
+    items = scope.get("items", scope) if isinstance(scope, dict) else scope
+    by_id = {str(item.get("source_id", "")): item for item in items if isinstance(item, dict)}
+    hydrated: list[dict[str, Any]] = []
+    for row in rows:
+        source_id = str(row.get("source_id", ""))
+        item = by_id.get(source_id)
+        if not item:
+            hydrated.append(row)
+            continue
+        updated = dict(row)
+        updated["is_deep_learning_target"] = True
+        updated["confirmed_learned"] = bool(item.get("confirmed_learned", updated.get("confirmed_learned", False)))
+        updated["deep_learning_status"] = str(item.get("learning_status") or updated.get("deep_learning_status") or "selected")
+        updated["primary_direction"] = str(item.get("primary_direction") or updated.get("primary_direction") or "")
+        hydrated.append(updated)
+    return hydrated
+
+
 def output_dir(root: Path, profile: dict[str, Any]) -> Path:
     return root / OUTPUT_BASE / profile["profile_id"]
 
 
 def build_command(root: Path, profile: dict[str, Any]) -> tuple[dict[str, Any], int]:
-    records, _, _ = load_unique_records(root)
+    records = load_rough_scan_records(root)
     deep_items = load_deep_items(root, profile)
     rows = build_inventory(root, records, profile, deep_items=deep_items)
     expected_deep = int(profile.get("expected_deep_count", len(deep_items)))
@@ -753,7 +951,7 @@ def build_command(root: Path, profile: dict[str, Any]) -> tuple[dict[str, Any], 
 
 def apply_command(root: Path, profile: dict[str, Any]) -> tuple[dict[str, Any], int]:
     directory = output_dir(root, profile)
-    rows = read_jsonl(directory / "all_content_inventory.jsonl")
+    rows = hydrate_rows_from_deep_scope(root, profile, read_jsonl(directory / "all_content_inventory.jsonl"))
     payload = read_json(directory / "review_overrides.json", {"items": {}})
     overrides = payload.get("items", payload)
     reviewed = assign_rough_scan_values(apply_overrides(rows, overrides, profile), profile)
@@ -764,7 +962,7 @@ def apply_command(root: Path, profile: dict[str, Any]) -> tuple[dict[str, Any], 
 
 
 def validate_command(root: Path, profile: dict[str, Any]) -> tuple[dict[str, Any], int]:
-    rows = read_jsonl(output_dir(root, profile) / "all_content_inventory.jsonl")
+    rows = hydrate_rows_from_deep_scope(root, profile, read_jsonl(output_dir(root, profile) / "all_content_inventory.jsonl"))
     expected_deep = int(profile.get("expected_deep_count", 0))
     errors = validate_inventory(rows, profile, expected_deep_count=expected_deep)
     result = write_outputs(root, profile, rows, errors)

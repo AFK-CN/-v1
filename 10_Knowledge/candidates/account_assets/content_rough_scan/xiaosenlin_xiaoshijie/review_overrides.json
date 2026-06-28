@@ -1,0 +1,232 @@
+{
+  "items": {
+    "62bc1465000000000303f249": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 晚间护肤效果表达，水光肌为效果词，不是具体美容项目"
+    },
+    "62de4772000000001e01708e": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 标题核心是缩小毛孔"
+    },
+    "6304a383000000001d035607": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 面霜产品分享，产品评测属性更强"
+    },
+    "6304d6c0000000001902be1a": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 清洁和痘痘治理为核心"
+    },
+    "631bfe28000000001103c53c": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 三款夜间精华分享，产品清单属性更强"
+    },
+    "632049b000000000090320fb": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 正确护肤方法论表达"
+    },
+    "63579622000000001402837b": {
+      "primary_direction": "美容项目平替",
+      "note": "rule_reviewed: 在家 spa 场景对应项目平替"
+    },
+    "63806c3c000000001f024d91": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 标题明确离不开的好物"
+    },
+    "64a95cc5000000001a013736": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 新加坡 vlog 和工作记录"
+    },
+    "64eae6c1000000000c034f78": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 防晒产品评价"
+    },
+    "654f97740000000032008bd1": {
+      "primary_direction": "账号运营",
+      "note": "rule_reviewed: 粉丝感谢/互动类内容"
+    },
+    "6562aa89000000001701deda": {
+      "primary_direction": "账号运营",
+      "note": "rule_reviewed: 品牌合作筛选和商业边界"
+    },
+    "659fbbd3000000001103279e": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 年度热销 top1 产品表达"
+    },
+    "65ec424e000000000102950d": {
+      "primary_direction": "变美经验",
+      "note": "rule_reviewed: 遮瑕方法技巧"
+    },
+    "6601240000000000120215ed": {
+      "primary_direction": "账号运营",
+      "note": "rule_reviewed: 粉丝信任关系表达"
+    },
+    "6639fa11000000001e030b67": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 夏季好物清单"
+    },
+    "6646cb420000000014019b72": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 标题核心是毛孔缩小"
+    },
+    "66daaa6a000000001e01b1bd": {
+      "primary_direction": "美容项目平替",
+      "note": "rule_reviewed: 家庭版舒敏之星属于家用项目平替"
+    },
+    "66fd4382000000001a021c8b": {
+      "primary_direction": "美容项目平替",
+      "note": "rule_reviewed: 家庭版光子明确项目平替"
+    },
+    "6712558700000000210011e9": {
+      "primary_direction": "抗老修护",
+      "note": "rule_reviewed: K 老和不垮脸为核心"
+    },
+    "6724abd30000000019016191": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 突袭变美晚间护肤，核心是护肤效果"
+    },
+    "673c4c4b0000000008007631": {
+      "primary_direction": "刷酸焕肤",
+      "note": "rule_reviewed: 用酸后护肤搭配"
+    },
+    "67614235000000001300029b": {
+      "primary_direction": "抗老修护",
+      "note": "rule_reviewed: A 醇长期使用，归抗老修护"
+    },
+    "679d908a0000000028035b58": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 年度爱用护肤品"
+    },
+    "679f4123000000002902b85c": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 年度爱用精华分享"
+    },
+    "67aee84f000000002902d58f": {
+      "primary_direction": "刷酸焕肤",
+      "note": "rule_reviewed: 猛药翻车与修护思路，归刷酸/猛药使用复盘"
+    },
+    "67beed600000000029026261": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 痘印淡化为护肤效果"
+    },
+    "68073d1b000000001d03aefb": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 洗脸解决痘痘"
+    },
+    "6857fab6000000002400fecb": {
+      "primary_direction": "美容项目平替",
+      "note": "rule_reviewed: 家庭版飞秀"
+    },
+    "68a6d2f7000000001c00645d": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 防晒和修护攻略"
+    },
+    "68aec3e8000000001b03d106": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 健康果蔬汁配方"
+    },
+    "68ba84be000000001c00ec0a": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 内调实操偏生活方式"
+    },
+    "68c2ac85000000001b03d2ca": {
+      "primary_direction": "美容项目平替",
+      "note": "rule_reviewed: 居家胶原灌肤省钱跟练"
+    },
+    "68c43bb8000000001b0365b0": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 油皮不长痘方法"
+    },
+    "68cac007000000000e032efd": {
+      "primary_direction": "美容项目平替",
+      "note": "rule_reviewed: 家庭版光子答疑"
+    },
+    "691d78d3000000001e02e242": {
+      "primary_direction": "账号运营",
+      "note": "rule_reviewed: 转场与记录技巧"
+    },
+    "693e7b70000000001e02bc3f": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 在家清闭口"
+    },
+    "69bf6e26000000002800895f": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 日本 vlog 和饮食旅行"
+    },
+    "69fda6690000000022024dad": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 去黄蔬果汁配方"
+    },
+    "620b3572000000000102e6e3": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 战痘和烂脸修复"
+    },
+    "63478bdf000000000801388a": {
+      "primary_direction": "变美经验",
+      "note": "rule_reviewed: 干净清透底妆技巧"
+    },
+    "653cf5bc0000000020000991": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 解决痘痘闭口"
+    },
+    "68e75ae30000000004011880": {
+      "primary_direction": "毛孔清洁",
+      "note": "rule_reviewed: 一周祛痘护肤搭配"
+    },
+    "67fb49a0000000001d01cbb4": {
+      "primary_direction": "刷酸焕肤",
+      "note": "rule_reviewed: 酸 A 晚间护肤"
+    },
+    "65421449000000001d01471f": {
+      "primary_direction": "抗老修护",
+      "note": "rule_reviewed: 抗老面霜补救垮脸"
+    },
+    "63296d4a000000000801d847": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 养肤粉霜产品表现"
+    },
+    "642431980000000014026d90": {
+      "primary_direction": "抗老修护",
+      "note": "rule_reviewed: 抗老精华"
+    },
+    "64675e6e0000000013002ad8": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 女主播使用好物清单"
+    },
+    "6606ce3d000000001a0152c3": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 暗黄提亮效果"
+    },
+    "67569ab2000000000700cc13": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 痘肌平价好物"
+    },
+    "67adb996000000002903299b": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 春季好物"
+    },
+    "67e3db3e000000001c00cfc3": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 清爽防晒产品"
+    },
+    "67f64650000000001a006dd1": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 外油内干解决方法"
+    },
+    "6819760d000000002102ed3f": {
+      "primary_direction": "好物测评",
+      "note": "rule_reviewed: 精华产品"
+    },
+    "689f041d000000001c0112c0": {
+      "primary_direction": "护肤功效",
+      "note": "rule_reviewed: 去油嫩肤指南"
+    },
+    "6922c5c9000000001e03699a": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 下饭菜和衣服配饰开箱"
+    },
+    "69db2205000000001f006e3c": {
+      "primary_direction": "生活方式",
+      "note": "rule_reviewed: 春夏开箱和生活消费记录"
+    }
+  }
+}

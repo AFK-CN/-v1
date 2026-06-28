@@ -1,0 +1,245 @@
+{
+  "direction": "账号运营",
+  "topic_clusters": [
+    {
+      "topic": "小红书",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "6313284d0000000013039b5e",
+          "title": "六个月，从0到10w粉～感谢小红书感谢你们🎁🙏",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "65a20f9e000000001d035c85",
+          "title": "做小红书买手10个月了，来说说心里话🫰",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6708e2ec000000001a0224e9",
+          "title": "不花冤枉钱！双11直播间必买清单🧾",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "69995208000000001a031908",
+          "title": "30w粉福，是谁会莫名其妙的收到一个🎁呢",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "账号运营",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "654f97740000000032008bd1",
+          "title": "超级感谢大家💕",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6562aa89000000001701deda",
+          "title": "真的很可怕，这种品牌请你不要再找我合作",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6601240000000000120215ed",
+          "title": "你是我惟一一个相信的博主，希望一直都是",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "691d78d3000000001e02e242",
+          "title": "最简单的转场出现了！记录开心的东北行🚗",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "笔记",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "6313284d0000000013039b5e",
+          "title": "六个月，从0到10w粉～感谢小红书感谢你们🎁🙏",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "6313284d0000000013039b5e",
+      "title": "六个月，从0到10w粉～感谢小红书感谢你们🎁🙏",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "六个月，从0到10w粉～感谢小红书感谢你们🎁🙏 还记得发的第一篇笔记，当天写到凌晨两点，从3千个字修改到1千个字以内～ 喊了5个好朋友帮我修改文案，换封面",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "小红书涨粉",
+        "涨粉",
+        "感谢平台",
+        "感谢小红书平台我要上热门",
+        "感谢小红书平台感谢大家支持",
+        "感谢我的粉丝们"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "654f97740000000032008bd1",
+      "title": "超级感谢大家💕",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "超级感谢大家💕 我的双十一直播收官啦～ 非常感谢大家的支持",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [
+        "超级感谢大家💕 我的双十一直播收官啦～ 非常感谢大家的支持",
+        "有任何问题可以跟我留言， 或者联系@小森林工作室 售后一直在滴",
+        "[红色心形R] 爱你们～～[飞吻R]"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6562aa89000000001701deda",
+      "title": "真的很可怕，这种品牌请你不要再找我合作",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "真的很可怕，这种品牌请你不要再找我合作 人与人的信任就是被这种事情给搞没的 # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "直播",
+        "行业内幕",
+        "博主"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "65a20f9e000000001d035c85",
+      "title": "做小红书买手10个月了，来说说心里话🫰",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "做小红书买手10个月了，来说说心里话🫰 先跟大家分享一个好消息~ 我入选了小红书电商年度百大买手榜",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "小红书电商年度榜单",
+        "rise100",
+        "在小红书用心经营这一年"
+      ],
+      "short_phrases": [
+        "在小红书买手是自由的~ 对我来说做买手这10个"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6601240000000000120215ed",
+      "title": "你是我惟一一个相信的博主，希望一直都是",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你是我惟一一个相信的博主，希望一直都是 今天中午突然看到了这条评论，让我这个infp突然就泪目了",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "笔记灵感",
+        "油痘肌护肤",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "真的很感谢大家的支持与信任❤️ 总是会被身边的人问道，你为什么会去做博主"
+      ],
+      "question_phrases": [
+        "真的很感谢大家的支持与信任❤️ 总是会被身边的人问道，你为什么会去做博主"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6708e2ec000000001a0224e9",
+      "title": "不花冤枉钱！双11直播间必买清单🧾",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "不花冤枉钱",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "直播预告",
+        "双十一必买清单",
+        "双11小红书买买节",
+        "1年1度购物狂欢",
+        "小森林的小世界",
+        "红薯买手集"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "691d78d3000000001e02e242",
+      "title": "最简单的转场出现了！记录开心的东北行🚗",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "最简单的转场出现了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "旅行转场挑战",
+        "转场",
+        "抽象",
+        "旅行转场",
+        "长白山",
+        "东北旅行"
+      ],
+      "short_phrases": [
+        "记录开心的东北行🚗 # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "69995208000000001a031908",
+      "title": "30w粉福，是谁会莫名其妙的收到一个🎁呢",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "30w粉福，是谁会莫名其妙的收到一个🎁呢 # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "拆箱分享",
+        "粉丝福利",
+        "开箱",
+        "新春市集",
+        "小红书新春市集",
+        "小红书春节指南",
+        "我和我的春节"
+      ],
+      "short_phrases": [
+        "30w粉福，是谁会莫名其妙的收到一个🎁呢 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [],
+  "needs_video_review": []
+}

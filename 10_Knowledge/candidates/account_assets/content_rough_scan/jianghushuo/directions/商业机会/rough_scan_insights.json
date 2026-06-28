@@ -13,7 +13,7 @@
         {
           "source_id": "7432683956031540491",
           "title": "一个完整的商业闭环： 发现问题，解决问题； 用自己的一技之长，去帮助他人； 当你帮助他人时，就能发现需求； 构建一款产品，解决别人的问题； 普及知识，建立影响力",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7434902565440998719",
@@ -23,12 +23,12 @@
         {
           "source_id": "7461266943811620133",
           "title": "你自己就是一家公司 你自己就可以是一家公司，我也是。我一个人可能创造的价值超过了一些小公司。随着人工智能的发展，我们的生产力会不断扩大。 你也可以成为一家公司。",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7523594090828041526",
           "title": "创业的方法 上 创业转型与自我认知 - 当现实工作与理想差距太大时，我们往往会开始重新认识自己。 - 要找到真正的兴趣，看看你空闲时间做什么，观察你长期坚持的活",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         }
       ]
     },
@@ -49,17 +49,17 @@
         {
           "source_id": "7416961845786873100",
           "title": "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工。大多数人的思维是严重受限的。他们很多人仍然认为自己的收入愿意老板或者领导。但实际上，你的收入来自于你的",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7432683956031540491",
           "title": "一个完整的商业闭环： 发现问题，解决问题； 用自己的一技之长，去帮助他人； 当你帮助他人时，就能发现需求； 构建一款产品，解决别人的问题； 普及知识，建立影响力",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7461266943811620133",
           "title": "你自己就是一家公司 你自己就可以是一家公司，我也是。我一个人可能创造的价值超过了一些小公司。随着人工智能的发展，我们的生产力会不断扩大。 你也可以成为一家公司。",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         }
       ]
     },
@@ -116,7 +116,7 @@
         {
           "source_id": "7416961845786873100",
           "title": "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工。大多数人的思维是严重受限的。他们很多人仍然认为自己的收入愿意老板或者领导。但实际上，你的收入来自于你的",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7581486743254207784",
@@ -148,7 +148,7 @@
     },
     {
       "topic": "商业机会",
-      "count": 3,
+      "count": 2,
       "representative_items": [
         {
           "source_id": "7033031248079506696",
@@ -159,11 +159,6 @@
           "source_id": "7083504023571041544",
           "title": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西。#姜胡说 #打造用的出来的知识体系",
           "evidence_level": "needs_video_review"
-        },
-        {
-          "source_id": "7139163129530879263",
-          "title": "#姜胡说 内部会议时聊到了，有点激动。顺便把它记录下来。老伙计应该会懂。很有可能会删。",
-          "evidence_level": "transcript_available"
         }
       ]
     },
@@ -200,6 +195,15 @@
       "source_id": "6822463034955435277",
       "title": "#商机 从哪儿来？ #知识 #机会 #认知",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "从哪儿来",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "商机",
+        "知识",
+        "机会",
+        "认知"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -210,6 +214,13 @@
       "source_id": "6829271542636088587",
       "title": "像高手一样#思考 #商机 之前那条太卡，重发",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "思考",
+        "商机"
+      ],
       "short_phrases": [
         "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发"
       ],
@@ -222,6 +233,15 @@
       "source_id": "6833613684049300743",
       "title": "推荐大家参照以下几条线思考：#种子用户 #势能 #裂变 #价值连接",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考：",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "种子用户",
+        "势能",
+        "裂变",
+        "价值连接"
+      ],
       "short_phrases": [
         "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考"
       ],
@@ -234,6 +254,13 @@
       "source_id": "7033031248079506696",
       "title": "摆脱困境的方法，反而是帮助他人。有多少人能够理解这句话呢？很多人只有在摆脱了之后才明白。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "摆脱困境的方法，反而是帮助他人",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "摆脱困境的方法，反而是帮助他人"
       ],
@@ -248,6 +275,13 @@
       "source_id": "7036331147193847071",
       "title": "再说走出困境的方法。1、💰是交易的产物。即便到困境，你依然可以通过时间和体力与人交换，只要有手机，你就能建立交易的链接。2、走出困境的方法，还真是多想想如何可以帮别人做点什么。#姜",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "再说走出困境的方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "1、💰是交易的产物",
         "2、走出困境的方法，还真是多想想如何可以帮别人做点什么"
@@ -263,6 +297,13 @@
       "source_id": "7083504023571041544",
       "title": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "与聪明人为伍蕞有效的方法是：你身上有他想要的东西"
       ],
@@ -275,20 +316,14 @@
       "source_id": "7092040678661836040",
       "title": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7139163129530879263",
-      "title": "#姜胡说 内部会议时聊到了，有点激动。顺便把它记录下来。老伙计应该会懂。很有可能会删。",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "内部会议时聊到了，有点激动"
       ],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -299,6 +334,13 @@
       "source_id": "7345834038550121743",
       "title": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题。 而这个世界99%的问题都有标准答案，找个懂的人问问就好了。 很多人遇到问题的第一反映是退缩，希望别人帮助自己解决。 ",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
         "而这个世界99%的问题都有标准答案，找个懂的人问问就好了",
@@ -315,6 +357,13 @@
       "source_id": "7346562207859330344",
       "title": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会。 我当初随手发布的一些内容，有些现在已经没有了。有些留了下来。 一开始，没几个人看。甚至我都不知道有没有人看",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
         "我当初随手发布的一些内容，有些现在已经没有了",
@@ -333,6 +382,13 @@
       "source_id": "7351774759887080719",
       "title": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念。 用户购买的从来不是你的产品，而是更好的自己。 #姜胡说 #真正有用的知识",
       "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
         "用户购买的从来不是你的产品，而是更好的自己"
@@ -348,6 +404,14 @@
       "source_id": "7361457079065775394",
       "title": "机会 窝在原地是没有机会的。 走出去，增加自己的幸运表面积，才有机会。 你能看到什么，取决于你想看到什么。 知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交。帮助",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "机会 窝在原地是没有机会的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "社交",
+        "陷阱"
+      ],
       "short_phrases": [
         "走出去，增加自己的幸运表面积，才有机会",
         "你能看到什么，取决于你想看到什么",
@@ -368,6 +432,16 @@
       "source_id": "7373534995803147535",
       "title": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识。比如一些普世的智慧，比如：人性。 2、战术上，反而是那些变化的，能够推动社会发展的新技术。恰恰是这些新的先进的生产",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "变与不变",
+        "普世智慧",
+        "人性",
+        "新技术"
+      ],
       "short_phrases": [
         "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
         "比如一些普世的智慧，比如：人性",
@@ -386,7 +460,17 @@
     {
       "source_id": "7416961845786873100",
       "title": "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工。大多数人的思维是严重受限的。他们很多人仍然认为自己的收入愿意老板或者领导。但实际上，你的收入来自于你的劳动技能所得。 如果",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "副业",
+        "产品",
+        "复制",
+        "杠杆"
+      ],
       "short_phrases": [
         "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工",
         "但实际上，你的收入来自于你的劳动技能所得",
@@ -398,13 +482,23 @@
         "一旦进入这个阶段，你自己就知道后面该怎么做了"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7432683956031540491",
       "title": "一个完整的商业闭环： 发现问题，解决问题； 用自己的一技之长，去帮助他人； 当你帮助他人时，就能发现需求； 构建一款产品，解决别人的问题； 普及知识，建立影响力； 从用户的反馈中获",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "一个完整的商业闭环： 发现问题，解决问题",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "问题",
+        "产品",
+        "营销",
+        "影响力"
+      ],
       "short_phrases": [
         "一个完整的商业闭环： 发现问题，解决问题",
         "用自己的一技之长，去帮助他人",
@@ -414,13 +508,23 @@
       ],
       "question_phrases": [],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7434902565440998719",
       "title": "如何赚点小钱？ 怎么发现商机？ 怎么更好的满足用户的需求？ 关键点在哪儿？ 会遇到哪些问题？怎么解决的？ 为什么会失败？ 从中获得了哪些启示？ #姜胡说 #赚钱 #商机 #商业模式",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何赚点小钱",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "赚钱",
+        "商机",
+        "商业模式",
+        "洞见"
+      ],
       "short_phrases": [],
       "question_phrases": [
         "如何赚点小钱",
@@ -436,7 +540,16 @@
     {
       "source_id": "7461266943811620133",
       "title": "你自己就是一家公司 你自己就可以是一家公司，我也是。我一个人可能创造的价值超过了一些小公司。随着人工智能的发展，我们的生产力会不断扩大。 你也可以成为一家公司。 但要怎么做呢？ 首",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你自己就是一家公司 你自己就可以是一家公司，我也是",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "方法"
+      ],
       "short_phrases": [
         "你自己就是一家公司 你自己就可以是一家公司，我也是",
         "随着人工智能的发展，我们的生产力会不断扩大",
@@ -448,13 +561,23 @@
         "但要怎么做呢"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7523594090828041526",
       "title": "创业的方法 上 创业转型与自我认知 - 当现实工作与理想差距太大时，我们往往会开始重新认识自己。 - 要找到真正的兴趣，看看你空闲时间做什么，观察你长期坚持的活动，并分清社会期望和",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "创业的方法 上 创业转型与自我认知 - 当现实工作与理想差距太大时，我们往往会开始重新认识自己",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "设计",
+        "访谈",
+        "干货分享"
+      ],
       "short_phrases": [
         "- 决定你是什么样的人不是你做了什么，而是你主动放弃了什么",
         "- 前期的经验帮你更好地了解自己，尝试错误虽然代价不小，但对认识自我非常必要",
@@ -471,13 +594,23 @@
         "- 要找到真正的兴趣，看看你空闲时间做什么，观察你长期坚持的活动，并分清社会期望和自己真正喜欢的事",
         "- 决定你是什么样的人不是你做了什么，而是你主动放弃了什么"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7581486743254207784",
       "title": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰。 而是因为两个原因:从事无效的工作,或者做了错误的决策。 那些快速逆袭的人,表面看是努力和勤奋,实际原因只有一个:他坐的是电梯,",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "趋势",
+        "自媒体",
+        "AI",
+        "赚钱"
+      ],
       "short_phrases": [
         "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
         "而是因为两个原因:从事无效的工作,或者做了错误的决策",
@@ -493,7 +626,17 @@
     {
       "source_id": "7593729386504047914",
       "title": "知识如何转化为财富？两次跃迁法 你看了100本书，考了3个证，但赚不到什么钱。 为什么？ 知识本身不值钱。 举个例子。你去饭店点菜，说来盘鱼。服务员直接从水里捞条活鱼，扔桌上让你吃",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "知识如何转化为财富",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "知识变现",
+        "赚钱",
+        "知识卡片",
+        "产品设计"
+      ],
       "short_phrases": [
         "两次跃迁法 你看了100本书，考了3个证，但赚不到什么钱",
         "你去饭店点菜，说来盘鱼",
@@ -509,13 +652,23 @@
         "它解决什么问题（痛点）"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7596705620514835748",
       "title": "副业指南 必须有一份保证基本生活的稳定工作。 稳定后,主动学习这4项技能: 产品能力:发现需求,解决问题,把解决方案变成产品 销售能力:把东西卖出去。短视频就是高级销售——流量大的",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "副业指南 必须有一份保证基本生活的稳定工作",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "思维",
+        "方法"
+      ],
       "short_phrases": [
         "根据我总结的经验,我可以做什么",
         "根据别人常问的问题,我可以做什么",
@@ -529,13 +682,23 @@
         "根据别人常问的问题,我可以做什么"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7598553754534776118",
       "title": "别学了，先做完。 一个人是否成长，不是看你学会了多少知识，而是看你交付了多少个完整的产品并获得市场反馈。 很多人学了很多东西没成果，就是因为周转率太低。知识都是库存，成品卖不出去。",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "别学了，先做完",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "学习",
+        "成长",
+        "作品",
+        "方法"
+      ],
       "short_phrases": [
         "很多人学了很多东西没成果，就是因为周转率太低",
         "知识都是库存，成品卖不出去",
@@ -554,13 +717,23 @@
         "一个人是否成长，不是看你学会了多少知识，而是看你交付了多少个完整的产品并获得市场反馈",
         "但我告诉你：真正的护城河，恰恰是冰山下的细节"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7616745251776122138",
       "title": "普通人赚钱5步法 第1步:把事做到极致 大多数人的思维误区:差不多就行。 错了。 所谓能力,其实只不过是把一件事反复做好的结果。 两个原因: 你很快能冒头,所有人第一个想到你 你有",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "普通人赚钱5步法 第1步:把事做到极致 大多数人的思维误区:差不多就行",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "赚钱",
+        "升职加薪",
+        "一人公司",
+        "产品",
+        "系统"
+      ],
       "short_phrases": [
         "普通人赚钱5步法 第1步:把事做到极致 大多数人的思维误区:差不多就行",
         "所谓能力,其实只不过是把一件事反复做好的结果",
@@ -574,13 +747,22 @@
       "contrarian_phrases": [
         "能力的反面不是无能,而是没有系统"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7633459459083275558",
       "title": "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"。这就是所有人都踩的坑——标准错配。 大多数人的逻辑是这样的：我要完美才能发布。把内",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "自媒体",
+        "创业",
+        "赚钱",
+        "市场反馈"
+      ],
       "short_phrases": [
         "这就是所有人都踩的坑——标准错配",
         "大多数人的逻辑是这样的：我要完美才能发布",
@@ -606,6 +788,16 @@
       "source_id": "7633813934260243753",
       "title": "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩？因为每天都在重复昨天的事，做完一个项目就清零。根本问题是：从未持之以恒地做属于自己的事，做过的",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "AI",
+        "逆袭之路",
+        "机会",
+        "定投",
+        "姜胡说"
+      ],
       "short_phrases": [
         "因为每天都在重复昨天的事，做完一个项目就清零",
         "根本问题是：从未持之以恒地做属于自己的事，做过的事情从未积累",
@@ -630,7 +822,17 @@
     {
       "source_id": "7644578414015401235",
       "title": "普通人赚钱最简单的方法：发现问题，解决问题，做成产品 普通人赚钱最靠谱的方法是什么？不是炒股，不是副业，是发现问题、解决问题、做成产品。 我反反复复说了很多遍——你活了这么多年，不",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "普通人赚钱最简单的方法：发现问题，解决问题，做成产品 普通人赚钱最靠谱的方法是什么",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "产品思维",
+        "赚钱",
+        "创业避坑",
+        "MVP",
+        "姜胡说"
+      ],
       "short_phrases": [
         "不是炒股，不是副业，是发现问题、解决问题、做成产品",
         "我反反复复说了很多遍——你活了这么多年，不会什么都没有",
@@ -645,13 +847,23 @@
         "《价值心法》怎么来的"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7648295360862899456",
       "title": "把重复的工作包装成产品 忙不能让你致富，越忙可能会越穷。因为你的时间都拿去挣钱了，没有时间去思考更高级的东西。 赚钱的方法就在你每天做的重复劳动里。 我10多年前当老师。第一次讲最",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "把重复的工作包装成产品 忙不能让你致富，越忙可能会越穷",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "一人公司",
+        "服务产品化",
+        "个人IP",
+        "价值心法",
+        "姜胡说"
+      ],
       "short_phrases": [
         "把重复的工作包装成产品 忙不能让你致富，越忙可能会越穷",
         "因为你的时间都拿去挣钱了，没有时间去思考更高级的东西",
@@ -669,15 +881,30 @@
       "contrarian_phrases": [
         "你最重复的地方，反而可能是你的第一个产品"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     }
   ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
   "candidate_deep_learning": [
     {
       "source_id": "6822463034955435277",
       "title": "#商机 从哪儿来？ #知识 #机会 #认知",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "从哪儿来",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "商机",
+        "知识",
+        "机会",
+        "认知"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -688,6 +915,13 @@
       "source_id": "6829271542636088587",
       "title": "像高手一样#思考 #商机 之前那条太卡，重发",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "思考",
+        "商机"
+      ],
       "short_phrases": [
         "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发"
       ],
@@ -700,6 +934,15 @@
       "source_id": "6833613684049300743",
       "title": "推荐大家参照以下几条线思考：#种子用户 #势能 #裂变 #价值连接",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考：",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "种子用户",
+        "势能",
+        "裂变",
+        "价值连接"
+      ],
       "short_phrases": [
         "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考"
       ],
@@ -712,6 +955,13 @@
       "source_id": "7033031248079506696",
       "title": "摆脱困境的方法，反而是帮助他人。有多少人能够理解这句话呢？很多人只有在摆脱了之后才明白。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "摆脱困境的方法，反而是帮助他人",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "摆脱困境的方法，反而是帮助他人"
       ],
@@ -726,6 +976,13 @@
       "source_id": "7036331147193847071",
       "title": "再说走出困境的方法。1、💰是交易的产物。即便到困境，你依然可以通过时间和体力与人交换，只要有手机，你就能建立交易的链接。2、走出困境的方法，还真是多想想如何可以帮别人做点什么。#姜",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "再说走出困境的方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "1、💰是交易的产物",
         "2、走出困境的方法，还真是多想想如何可以帮别人做点什么"
@@ -741,6 +998,13 @@
       "source_id": "7083504023571041544",
       "title": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "与聪明人为伍蕞有效的方法是：你身上有他想要的东西"
       ],
@@ -753,20 +1017,14 @@
       "source_id": "7092040678661836040",
       "title": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7139163129530879263",
-      "title": "#姜胡说 内部会议时聊到了，有点激动。顺便把它记录下来。老伙计应该会懂。很有可能会删。",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "内部会议时聊到了，有点激动"
       ],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -777,6 +1035,13 @@
       "source_id": "7345834038550121743",
       "title": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题。 而这个世界99%的问题都有标准答案，找个懂的人问问就好了。 很多人遇到问题的第一反映是退缩，希望别人帮助自己解决。 ",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
         "而这个世界99%的问题都有标准答案，找个懂的人问问就好了",
@@ -793,6 +1058,13 @@
       "source_id": "7346562207859330344",
       "title": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会。 我当初随手发布的一些内容，有些现在已经没有了。有些留了下来。 一开始，没几个人看。甚至我都不知道有没有人看",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
         "我当初随手发布的一些内容，有些现在已经没有了",
@@ -811,6 +1083,13 @@
       "source_id": "7351774759887080719",
       "title": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念。 用户购买的从来不是你的产品，而是更好的自己。 #姜胡说 #真正有用的知识",
       "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
         "用户购买的从来不是你的产品，而是更好的自己"
@@ -826,6 +1105,14 @@
       "source_id": "7361457079065775394",
       "title": "机会 窝在原地是没有机会的。 走出去，增加自己的幸运表面积，才有机会。 你能看到什么，取决于你想看到什么。 知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交。帮助",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "机会 窝在原地是没有机会的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "社交",
+        "陷阱"
+      ],
       "short_phrases": [
         "走出去，增加自己的幸运表面积，才有机会",
         "你能看到什么，取决于你想看到什么",
@@ -846,312 +1133,16 @@
       "source_id": "7373534995803147535",
       "title": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识。比如一些普世的智慧，比如：人性。 2、战术上，反而是那些变化的，能够推动社会发展的新技术。恰恰是这些新的先进的生产",
       "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
-        "比如一些普世的智慧，比如：人性",
-        "2、战术上，反而是那些变化的，能够推动社会发展的新技术",
-        "恰恰是这些新的先进的生产力，给了你我弯道超车的机会"
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "变与不变",
+        "普世智慧",
+        "人性",
+        "新技术"
       ],
-      "question_phrases": [
-        "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识"
-      ],
-      "contrarian_phrases": [
-        "2、战术上，反而是那些变化的，能够推动社会发展的新技术"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7416961845786873100",
-      "title": "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工。大多数人的思维是严重受限的。他们很多人仍然认为自己的收入愿意老板或者领导。但实际上，你的收入来自于你的劳动技能所得。 如果",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "提高收入的方法和途径 简单赚点小钱的三个层次： 1、打工",
-        "但实际上，你的收入来自于你的劳动技能所得",
-        "如果你能理解这个逻辑，那你就可以试着进入下一个关卡",
-        "利用业余时间固定的接一些“零工”",
-        "重要的是你的技能具体化了，你可以把技能出售给多个用户"
-      ],
-      "question_phrases": [
-        "一旦进入这个阶段，你自己就知道后面该怎么做了"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7432683956031540491",
-      "title": "一个完整的商业闭环： 发现问题，解决问题； 用自己的一技之长，去帮助他人； 当你帮助他人时，就能发现需求； 构建一款产品，解决别人的问题； 普及知识，建立影响力； 从用户的反馈中获",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "一个完整的商业闭环： 发现问题，解决问题",
-        "用自己的一技之长，去帮助他人",
-        "当你帮助他人时，就能发现需求",
-        "构建一款产品，解决别人的问题",
-        "普及知识，建立影响力"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7434902565440998719",
-      "title": "如何赚点小钱？ 怎么发现商机？ 怎么更好的满足用户的需求？ 关键点在哪儿？ 会遇到哪些问题？怎么解决的？ 为什么会失败？ 从中获得了哪些启示？ #姜胡说 #赚钱 #商机 #商业模式",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [
-        "如何赚点小钱",
-        "怎么发现商机",
-        "怎么更好的满足用户的需求",
-        "会遇到哪些问题",
-        "为什么会失败"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7461266943811620133",
-      "title": "你自己就是一家公司 你自己就可以是一家公司，我也是。我一个人可能创造的价值超过了一些小公司。随着人工智能的发展，我们的生产力会不断扩大。 你也可以成为一家公司。 但要怎么做呢？ 首",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "你自己就是一家公司 你自己就可以是一家公司，我也是",
-        "随着人工智能的发展，我们的生产力会不断扩大",
-        "首先，一个伟大的公司能改变人的生活",
-        "第二，停止思考那些本不存在的事，专注于改变自己",
-        "伟大的公司能改变人的生活，而改变本身就是一款好产品"
-      ],
-      "question_phrases": [
-        "但要怎么做呢"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7523594090828041526",
-      "title": "创业的方法 上 创业转型与自我认知 - 当现实工作与理想差距太大时，我们往往会开始重新认识自己。 - 要找到真正的兴趣，看看你空闲时间做什么，观察你长期坚持的活动，并分清社会期望和",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "- 决定你是什么样的人不是你做了什么，而是你主动放弃了什么",
-        "- 前期的经验帮你更好地了解自己，尝试错误虽然代价不小，但对认识自我非常必要",
-        "- 分享创业经验最大的好处是帮助他人少走弯路，通过真实案例减少决策失误",
-        "- 榜样的作用在于传递价值观和方法",
-        "- 解决问题要用灵活的\"农村思维\"，而非僵化的\"工厂思维\""
-      ],
-      "question_phrases": [
-        "- 要找到真正的兴趣，看看你空闲时间做什么，观察你长期坚持的活动，并分清社会期望和自己真正喜欢的事",
-        "- 决定你是什么样的人不是你做了什么，而是你主动放弃了什么",
-        "知识连接与创新 - 相关笔记功能用时间顺序展示知识如何逐步发展，帮助我们把过去的想法和现在的理解联系起来"
-      ],
-      "contrarian_phrases": [
-        "- 要找到真正的兴趣，看看你空闲时间做什么，观察你长期坚持的活动，并分清社会期望和自己真正喜欢的事",
-        "- 决定你是什么样的人不是你做了什么，而是你主动放弃了什么"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7581486743254207784",
-      "title": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰。 而是因为两个原因:从事无效的工作,或者做了错误的决策。 那些快速逆袭的人,表面看是努力和勤奋,实际原因只有一个:他坐的是电梯,",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
-        "而是因为两个原因:从事无效的工作,或者做了错误的决策",
-        "你要选择未来5-10年一定会高速发展的行业,年增长率不低于20%",
-        "一二线城市和四五线城市之间,一定有信息差",
-        "越早理解这个世界,越早享受时代红利"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7593729386504047914",
-      "title": "知识如何转化为财富？两次跃迁法 你看了100本书，考了3个证，但赚不到什么钱。 为什么？ 知识本身不值钱。 举个例子。你去饭店点菜，说来盘鱼。服务员直接从水里捞条活鱼，扔桌上让你吃",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "两次跃迁法 你看了100本书，考了3个证，但赚不到什么钱",
-        "你去饭店点菜，说来盘鱼",
-        "服务员直接从水里捞条活鱼，扔桌上让你吃",
-        "你要的是做好的鱼，是能解决你饥饿问题的产品",
-        "很多人大量囤积知识，但缺了一个关键技能： 知识产品化的能力"
-      ],
-      "question_phrases": [
-        "知识如何转化为财富",
-        "两次跃迁法 你看了100本书，考了3个证，但赚不到什么钱",
-        "真正值钱的是什么",
-        "知识卡包含3个要素： 这是什么知识",
-        "它解决什么问题（痛点）"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    }
-  ],
-  "needs_video_review": [
-    {
-      "source_id": "6822463034955435277",
-      "title": "#商机 从哪儿来？ #知识 #机会 #认知",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6829271542636088587",
-      "title": "像高手一样#思考 #商机 之前那条太卡，重发",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6833613684049300743",
-      "title": "推荐大家参照以下几条线思考：#种子用户 #势能 #裂变 #价值连接",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7033031248079506696",
-      "title": "摆脱困境的方法，反而是帮助他人。有多少人能够理解这句话呢？很多人只有在摆脱了之后才明白。#姜胡说 #打造用的出来的知识体系",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "摆脱困境的方法，反而是帮助他人"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [
-        "摆脱困境的方法，反而是帮助他人"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7036331147193847071",
-      "title": "再说走出困境的方法。1、💰是交易的产物。即便到困境，你依然可以通过时间和体力与人交换，只要有手机，你就能建立交易的链接。2、走出困境的方法，还真是多想想如何可以帮别人做点什么。#姜",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "1、💰是交易的产物",
-        "2、走出困境的方法，还真是多想想如何可以帮别人做点什么"
-      ],
-      "question_phrases": [
-        "2、走出困境的方法，还真是多想想如何可以帮别人做点什么"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7083504023571041544",
-      "title": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西。#姜胡说 #打造用的出来的知识体系",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "与聪明人为伍蕞有效的方法是：你身上有他想要的东西"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7092040678661836040",
-      "title": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接。#姜胡说",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7345834038550121743",
-      "title": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题。 而这个世界99%的问题都有标准答案，找个懂的人问问就好了。 很多人遇到问题的第一反映是退缩，希望别人帮助自己解决。 ",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
-        "而这个世界99%的问题都有标准答案，找个懂的人问问就好了",
-        "很多人遇到问题的第一反映是退缩，希望别人帮助自己解决",
-        "当你成为那个总是可以帮助别人解决问题的人时，你的身边一定聚满了人",
-        "一个善于解决问题的人，从来不缺少用户"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7346562207859330344",
-      "title": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会。 我当初随手发布的一些内容，有些现在已经没有了。有些留了下来。 一开始，没几个人看。甚至我都不知道有没有人看",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
-        "我当初随手发布的一些内容，有些现在已经没有了",
-        "一开始，没几个人看",
-        "但很显然，现在看到的人越来越多",
-        "不是我生而擅长，手熟罢了"
-      ],
-      "question_phrases": [
-        "甚至我都不知道有没有人看"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7351774759887080719",
-      "title": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念。 用户购买的从来不是你的产品，而是更好的自己。 #姜胡说 #真正有用的知识",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
-        "用户购买的从来不是你的产品，而是更好的自己"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [
-        "用户购买的从来不是你的产品，而是更好的自己"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7361457079065775394",
-      "title": "机会 窝在原地是没有机会的。 走出去，增加自己的幸运表面积，才有机会。 你能看到什么，取决于你想看到什么。 知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交。帮助",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "走出去，增加自己的幸运表面积，才有机会",
-        "你能看到什么，取决于你想看到什么",
-        "知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交",
-        "你能得到什么，取决于你能做什么",
-        "即便你暂时无法给他人提供价值，你仍然可以学习，提升自己的视野和认知"
-      ],
-      "question_phrases": [
-        "你能看到什么，取决于你想看到什么",
-        "知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交",
-        "你能得到什么，取决于你能做什么"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7373534995803147535",
-      "title": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识。比如一些普世的智慧，比如：人性。 2、战术上，反而是那些变化的，能够推动社会发展的新技术。恰恰是这些新的先进的生产",
-      "evidence_level": "needs_video_review",
       "short_phrases": [
         "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
         "比如一些普世的智慧，比如：人性",
@@ -1171,6 +1162,16 @@
       "source_id": "7434902565440998719",
       "title": "如何赚点小钱？ 怎么发现商机？ 怎么更好的满足用户的需求？ 关键点在哪儿？ 会遇到哪些问题？怎么解决的？ 为什么会失败？ 从中获得了哪些启示？ #姜胡说 #赚钱 #商机 #商业模式",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何赚点小钱",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "赚钱",
+        "商机",
+        "商业模式",
+        "洞见"
+      ],
       "short_phrases": [],
       "question_phrases": [
         "如何赚点小钱",
@@ -1187,6 +1188,16 @@
       "source_id": "7581486743254207784",
       "title": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰。 而是因为两个原因:从事无效的工作,或者做了错误的决策。 那些快速逆袭的人,表面看是努力和勤奋,实际原因只有一个:他坐的是电梯,",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "趋势",
+        "自媒体",
+        "AI",
+        "赚钱"
+      ],
       "short_phrases": [
         "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
         "而是因为两个原因:从事无效的工作,或者做了错误的决策",
@@ -1203,6 +1214,15 @@
       "source_id": "7633459459083275558",
       "title": "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"。这就是所有人都踩的坑——标准错配。 大多数人的逻辑是这样的：我要完美才能发布。把内",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "自媒体",
+        "创业",
+        "赚钱",
+        "市场反馈"
+      ],
       "short_phrases": [
         "这就是所有人都踩的坑——标准错配",
         "大多数人的逻辑是这样的：我要完美才能发布",
@@ -1228,6 +1248,405 @@
       "source_id": "7633813934260243753",
       "title": "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩？因为每天都在重复昨天的事，做完一个项目就清零。根本问题是：从未持之以恒地做属于自己的事，做过的",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "AI",
+        "逆袭之路",
+        "机会",
+        "定投",
+        "姜胡说"
+      ],
+      "short_phrases": [
+        "因为每天都在重复昨天的事，做完一个项目就清零",
+        "根本问题是：从未持之以恒地做属于自己的事，做过的事情从未积累",
+        "我的公式很简单：成绩 = 正确方向 × 每天进步一点点 × 反馈闭环",
+        "这不是三个加法，是乘法——任何一个为零，结果就是零",
+        "很多人说\"坚持就能成功\"，这是错的"
+      ],
+      "question_phrases": [
+        "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩",
+        "我六年拍视频到400万粉丝，不是因为坚持，而是因为我在正确方向上，每天都在迭代内容，每条视频都有数据反馈告诉我什么有效",
+        "为什么AI一定能赚钱",
+        "第四周：开始小规模实践转化——看别人怎么赚钱，自己跟着试"
+      ],
+      "contrarian_phrases": [
+        "我六年拍视频到400万粉丝，不是因为坚持，而是因为我在正确方向上，每天都在迭代内容，每条视频都有数据反馈告诉我什么有效",
+        "关键不是懂AI理论，而是把AI当工具用起来",
+        "二是\"我太晚了\"，其实现在进入反而成本最低"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "6822463034955435277",
+      "title": "#商机 从哪儿来？ #知识 #机会 #认知",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "从哪儿来",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "商机",
+        "知识",
+        "机会",
+        "认知"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6829271542636088587",
+      "title": "像高手一样#思考 #商机 之前那条太卡，重发",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "思考",
+        "商机"
+      ],
+      "short_phrases": [
+        "像高手一样 之前那条太卡，重发 像高手一样 之前那条太卡，重发"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6833613684049300743",
+      "title": "推荐大家参照以下几条线思考：#种子用户 #势能 #裂变 #价值连接",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考：",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "种子用户",
+        "势能",
+        "裂变",
+        "价值连接"
+      ],
+      "short_phrases": [
+        "推荐大家参照以下几条线思考： 推荐大家参照以下几条线思考"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7033031248079506696",
+      "title": "摆脱困境的方法，反而是帮助他人。有多少人能够理解这句话呢？很多人只有在摆脱了之后才明白。#姜胡说 #打造用的出来的知识体系",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "摆脱困境的方法，反而是帮助他人",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [
+        "摆脱困境的方法，反而是帮助他人"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "摆脱困境的方法，反而是帮助他人"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7036331147193847071",
+      "title": "再说走出困境的方法。1、💰是交易的产物。即便到困境，你依然可以通过时间和体力与人交换，只要有手机，你就能建立交易的链接。2、走出困境的方法，还真是多想想如何可以帮别人做点什么。#姜",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "再说走出困境的方法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [
+        "1、💰是交易的产物",
+        "2、走出困境的方法，还真是多想想如何可以帮别人做点什么"
+      ],
+      "question_phrases": [
+        "2、走出困境的方法，还真是多想想如何可以帮别人做点什么"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7083504023571041544",
+      "title": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西。#姜胡说 #打造用的出来的知识体系",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "与聪明人为伍蕞有效的方法是：你身上有他想要的东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [
+        "与聪明人为伍蕞有效的方法是：你身上有他想要的东西"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7092040678661836040",
+      "title": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接。#姜胡说",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
+      "short_phrases": [
+        "好用户（有需求）+ 好产品（有价值，边际成本低），做那个好连接"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7345834038550121743",
+      "title": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题。 而这个世界99%的问题都有标准答案，找个懂的人问问就好了。 很多人遇到问题的第一反映是退缩，希望别人帮助自己解决。 ",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
+      "short_phrases": [
+        "成为那个解决问题的人 走出困境的最好方法是：帮助别人解决问题",
+        "而这个世界99%的问题都有标准答案，找个懂的人问问就好了",
+        "很多人遇到问题的第一反映是退缩，希望别人帮助自己解决",
+        "当你成为那个总是可以帮助别人解决问题的人时，你的身边一定聚满了人",
+        "一个善于解决问题的人，从来不缺少用户"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7346562207859330344",
+      "title": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会。 我当初随手发布的一些内容，有些现在已经没有了。有些留了下来。 一开始，没几个人看。甚至我都不知道有没有人看",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
+      "short_phrases": [
+        "看见 哪怕再不起眼，再渺小，哪怕看到的人很少，只要看到了，就可能是机会",
+        "我当初随手发布的一些内容，有些现在已经没有了",
+        "一开始，没几个人看",
+        "但很显然，现在看到的人越来越多",
+        "不是我生而擅长，手熟罢了"
+      ],
+      "question_phrases": [
+        "甚至我都不知道有没有人看"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7351774759887080719",
+      "title": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念。 用户购买的从来不是你的产品，而是更好的自己。 #姜胡说 #真正有用的知识",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
+      "short_phrases": [
+        "场景+理念 把任何普通商品销售出去的方法：一个是场景，一个是理念",
+        "用户购买的从来不是你的产品，而是更好的自己"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "用户购买的从来不是你的产品，而是更好的自己"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7361457079065775394",
+      "title": "机会 窝在原地是没有机会的。 走出去，增加自己的幸运表面积，才有机会。 你能看到什么，取决于你想看到什么。 知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交。帮助",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "机会 窝在原地是没有机会的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "社交",
+        "陷阱"
+      ],
+      "short_phrases": [
+        "走出去，增加自己的幸运表面积，才有机会",
+        "你能看到什么，取决于你想看到什么",
+        "知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交",
+        "你能得到什么，取决于你能做什么",
+        "即便你暂时无法给他人提供价值，你仍然可以学习，提升自己的视野和认知"
+      ],
+      "question_phrases": [
+        "你能看到什么，取决于你想看到什么",
+        "知道自己能够给别人带来什么价值，就很容易分辨是有效社交还是无效社交",
+        "你能得到什么，取决于你能做什么"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7373534995803147535",
+      "title": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识。比如一些普世的智慧，比如：人性。 2、战术上，反而是那些变化的，能够推动社会发展的新技术。恰恰是这些新的先进的生产",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "变与不变",
+        "普世智慧",
+        "人性",
+        "新技术"
+      ],
+      "short_phrases": [
+        "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识",
+        "比如一些普世的智慧，比如：人性",
+        "2、战术上，反而是那些变化的，能够推动社会发展的新技术",
+        "恰恰是这些新的先进的生产力，给了你我弯道超车的机会"
+      ],
+      "question_phrases": [
+        "学什么特别有用 1、战略上，学习那些未来几十年不会发生变化的知识"
+      ],
+      "contrarian_phrases": [
+        "2、战术上，反而是那些变化的，能够推动社会发展的新技术"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7434902565440998719",
+      "title": "如何赚点小钱？ 怎么发现商机？ 怎么更好的满足用户的需求？ 关键点在哪儿？ 会遇到哪些问题？怎么解决的？ 为什么会失败？ 从中获得了哪些启示？ #姜胡说 #赚钱 #商机 #商业模式",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何赚点小钱",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "赚钱",
+        "商机",
+        "商业模式",
+        "洞见"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "如何赚点小钱",
+        "怎么发现商机",
+        "怎么更好的满足用户的需求",
+        "会遇到哪些问题",
+        "为什么会失败"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7581486743254207784",
+      "title": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰。 而是因为两个原因:从事无效的工作,或者做了错误的决策。 那些快速逆袭的人,表面看是努力和勤奋,实际原因只有一个:他坐的是电梯,",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "趋势",
+        "自媒体",
+        "AI",
+        "赚钱"
+      ],
+      "short_phrases": [
+        "3个你应该抓住的红利 一个人贫穷,往往不是因为懒惰",
+        "而是因为两个原因:从事无效的工作,或者做了错误的决策",
+        "你要选择未来5-10年一定会高速发展的行业,年增长率不低于20%",
+        "一二线城市和四五线城市之间,一定有信息差",
+        "越早理解这个世界,越早享受时代红利"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7633459459083275558",
+      "title": "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"。这就是所有人都踩的坑——标准错配。 大多数人的逻辑是这样的：我要完美才能发布。把内",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "自媒体",
+        "创业",
+        "赚钱",
+        "市场反馈"
+      ],
+      "short_phrases": [
+        "这就是所有人都踩的坑——标准错配",
+        "大多数人的逻辑是这样的：我要完美才能发布",
+        "把内容改了又改，反复打磨到自己满意才敢上线",
+        "三个月过去了，竞争对手已经发了三十个版本，每个版本都被真实用户反馈校准过",
+        "你的\"完美\"是想象中的完美，他的\"粗糙\"是用户反馈打造的精准"
+      ],
+      "question_phrases": [
+        "学会粗糙 太精细了是你发财的障碍 你一直在用单机思维打磨内容，但市场在用联网反馈定义什么叫\"好\"",
+        "为什么会这样",
+        "你在优化\"你觉得好\"的东西，市场在反馈\"什么对我有用\"",
+        "这就是为什么有人赚钱，有人在那边调字体"
+      ],
+      "contrarian_phrases": [
+        "你离真正的\"好\"越来越远",
+        "这时候标准不是来自市场，而是来自客观规律",
+        "你的第一版永远不会完美，但只要你能比别人快十倍收集反馈，你就能比别人快十倍逼近真正的好"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7633813934260243753",
+      "title": "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩？因为每天都在重复昨天的事，做完一个项目就清零。根本问题是：从未持之以恒地做属于自己的事，做过的",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "抓住科技红利窗口 + 正确方向上持续进步 = 普通人逆袭之路 普通人为什么很难有成绩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "AI",
+        "逆袭之路",
+        "机会",
+        "定投",
+        "姜胡说"
+      ],
       "short_phrases": [
         "因为每天都在重复昨天的事，做完一个项目就清零",
         "根本问题是：从未持之以恒地做属于自己的事，做过的事情从未积累",

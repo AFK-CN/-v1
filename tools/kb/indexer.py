@@ -427,7 +427,7 @@ def render_task_entry_index() -> str:
 - 读取：`10_Knowledge/formal/methods/`、`10_Knowledge/formal/topics/`、`10_Knowledge/formal/platforms/`、`10_Knowledge/formal/content_factory/`。
 - 知识成长/自媒体方向额外读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/`。
 - 当用户提到账号名、知识成长、自媒体、赚钱方向、出选题、写文案、口播、对标账号时，先读取：`10_Knowledge/evidence/index/account_knowledge_index.md`。
-- 如命中账号中心，例如姜胡说，继续读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号索引.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
+- 如命中账号中心，继续读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号索引.md`、`账号整体方法论.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
 - 账号中心调用默认禁止全扫候选区；需要证据时再读取正式单卡，需要核查时再读取逐字稿。
 - 内容生成不能直接反写正式知识；可沉淀的规则进入复盘或 Skill proposal。
 

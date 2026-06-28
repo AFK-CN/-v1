@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import html as html_lib
 import hashlib
 import json
 import os
@@ -232,7 +233,8 @@ def split_tags(value: Any) -> list[str]:
         return []
     if isinstance(value, list):
         return [str(item).strip() for item in value if str(item).strip()]
-    return [item.strip() for item in str(value).split(",") if item.strip()]
+    text = decode_maybe_json_string(value)
+    return [item.strip().strip('"').strip("'") for item in text.split(",") if item.strip().strip('"').strip("'")]
 
 
 def split_image_urls(value: Any) -> list[str]:
@@ -241,8 +243,33 @@ def split_image_urls(value: Any) -> list[str]:
     if isinstance(value, list):
         candidates = [str(item).strip() for item in value]
     else:
-        candidates = [item.strip() for item in str(value).split(",")]
+        text = decode_maybe_json_string(value)
+        candidates = [item.strip().strip('"').strip("'") for item in text.split(",")]
     return [url for url in candidates if url]
+
+
+def decode_maybe_json_string(value: Any) -> str:
+    text = str(value or "").strip()
+    if not text:
+        return ""
+    try:
+        decoded = json.loads(text)
+    except (TypeError, json.JSONDecodeError):
+        return text
+    return str(decoded) if not isinstance(decoded, list) else ",".join(str(item) for item in decoded)
+
+
+def first_media_url(value: Any) -> str:
+    urls = split_image_urls(value)
+    return urls[0] if urls else ""
+
+
+def first_non_empty(*values: Any) -> str:
+    for value in values:
+        text = str(value or "").strip()
+        if text:
+            return text
+    return ""
 
 
 def hashtag_tags(text: str) -> list[str]:
@@ -279,7 +306,7 @@ def normalize_record(platform: str, row: dict[str, Any], source_file: Path) -> N
         tags = split_tags(row.get("tag_list"))
         source_id = str(row.get("note_id") or "")
         url = str(row.get("note_url") or "")
-        video_download_url = str(row.get("video_url") or "")
+        video_download_url = first_media_url(row.get("video_url"))
         published_at = str(row.get("time") or row.get("last_update_time") or "")
         image_urls = split_image_urls(row.get("image_list"))
     else:
@@ -311,6 +338,105 @@ def normalize_record(platform: str, row: dict[str, Any], source_file: Path) -> N
     )
 
 
+SQLITE_ACCOUNT_CANDIDATES_PATH = Path("10_Knowledge/candidates/account_assets/sqlite_imports/latest_account_candidates.json")
+
+
+def latest_sqlite_candidate_records_path(root: Path) -> Path | None:
+    path = root / SQLITE_ACCOUNT_CANDIDATES_PATH
+    if not path.exists():
+        return None
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    batch_dir = str(payload.get("source_batch_dir", "")).strip() if isinstance(payload, dict) else ""
+    if not batch_dir:
+        return None
+    records_path = root / batch_dir / "records.jsonl"
+    return records_path if records_path.exists() else None
+
+
+def normalize_sqlite_candidate_record(row: dict[str, Any]) -> NormalizedRecord:
+    metrics = row.get("metrics", {}) if isinstance(row.get("metrics"), dict) else {}
+    tags = row.get("tags", []) if isinstance(row.get("tags"), list) else []
+    source_id = str(row.get("source_id") or row.get("stable_id") or "")
+    title = str(row.get("title") or "")
+    body = str(row.get("summary") or "")
+    account_name = str(row.get("account_name") or row.get("source_keyword") or "")
+    stable_id = str(row.get("stable_id") or f"{row.get('platform', '')}:{source_id}")
+    video_download_url = first_media_url(
+        first_non_empty(
+            row.get("video_url"),
+            row.get("video_download_url"),
+            row.get("download_url"),
+            row.get("play_url"),
+        )
+    )
+    return NormalizedRecord(
+        platform=str(row.get("platform") or ""),
+        source_id=source_id,
+        source_file=stable_id,
+        title=title,
+        body=body,
+        author_name=account_name,
+        published_at="",
+        metrics={
+            "likes": parse_int(metrics.get("likes")),
+            "collects": parse_int(metrics.get("collects")),
+            "comments": parse_int(metrics.get("comments")),
+            "shares": parse_int(metrics.get("shares")),
+        },
+        tags=[str(tag) for tag in tags],
+        url=str(row.get("url") or ""),
+        video_download_url=video_download_url,
+        text_fingerprint=stable_id,
+        account_name=account_name,
+    )
+
+
+def load_sqlite_candidate_records(root: Path) -> tuple[list[NormalizedRecord], int, list[dict[str, str]]]:
+    path = latest_sqlite_candidate_records_path(root)
+    if path is None:
+        return [], 0, []
+    records: list[NormalizedRecord] = []
+    failed_rows: list[dict[str, str]] = []
+    try:
+        lines = path.read_text(encoding="utf-8").splitlines()
+    except (OSError, UnicodeError) as exc:
+        return [], 0, [{"path": str(path.relative_to(root)), "stage": "read", "error_type": type(exc).__name__, "message": str(exc)}]
+    for index, line in enumerate(lines, start=1):
+        if not line.strip():
+            continue
+        try:
+            row = json.loads(line)
+        except json.JSONDecodeError as exc:
+            failed_rows.append(
+                {
+                    "path": f"{path.relative_to(root)}:{index}",
+                    "stage": "jsonl_decode",
+                    "error_type": type(exc).__name__,
+                    "message": str(exc),
+                }
+            )
+            continue
+        if not isinstance(row, dict):
+            failed_rows.append(
+                {
+                    "path": f"{path.relative_to(root)}:{index}",
+                    "stage": "record_validation",
+                    "error_type": "InvalidRecordType",
+                    "message": "expected record to be an object",
+                }
+            )
+            continue
+        platform = str(row.get("platform") or "")
+        source_id = str(row.get("source_id") or row.get("stable_id") or "")
+        if platform not in {"douyin", "xhs"} or not source_id:
+            continue
+        records.append(normalize_sqlite_candidate_record(row))
+    return records, len(records), failed_rows
+
+
 def classify_json(path: Path, rows: list[dict[str, Any]]) -> str:
     name = path.name.lower()
     sample = rows[0] if rows else {}
@@ -332,6 +458,7 @@ def load_records_detailed(root: Path) -> tuple[list[NormalizedRecord], dict[str,
         "douyin_comments": 0,
         "creators": 0,
         "unknown": 0,
+        "sqlite_candidates": 0,
     }
     records: list[NormalizedRecord] = []
     failed_files: list[dict[str, str]] = []
@@ -341,6 +468,8 @@ def load_records_detailed(root: Path) -> tuple[list[NormalizedRecord], dict[str,
             continue
         for path in sorted(search_root.rglob("*.json")):
             relative_path = str(path.relative_to(root))
+            if path.name == "manifest.json" and "sqlite_imports" in path.parts:
+                continue
             try:
                 content = path.read_text(encoding="utf-8")
             except (OSError, UnicodeError) as exc:
@@ -393,6 +522,10 @@ def load_records_detailed(root: Path) -> tuple[list[NormalizedRecord], dict[str,
                 records.extend(normalize_record("douyin", row, path.relative_to(root)) for row in rows)
             elif kind == "xhs_contents":
                 records.extend(normalize_record("xhs", row, path.relative_to(root)) for row in rows)
+    sqlite_records, sqlite_count, sqlite_failed = load_sqlite_candidate_records(root)
+    records.extend(sqlite_records)
+    raw_counts["sqlite_candidates"] = sqlite_count
+    failed_files.extend(sqlite_failed)
     return records, raw_counts, failed_files
 
 
@@ -836,6 +969,35 @@ def media_duration_seconds(path: Path) -> float:
         return 0.0
 
 
+def media_has_stream(path: Path, stream_selector: str) -> bool:
+    ffprobe = find_executable("ffprobe")
+    if not ffprobe or not path.exists():
+        return True
+    try:
+        probe = subprocess.run(
+            [
+                ffprobe,
+                "-v",
+                "error",
+                "-select_streams",
+                stream_selector,
+                "-show_entries",
+                "stream=codec_type",
+                "-of",
+                "json",
+                str(path),
+            ],
+            check=True,
+            capture_output=True,
+            text=True,
+            timeout=30,
+        )
+        streams = json.loads(probe.stdout).get("streams") or []
+        return bool(streams)
+    except (OSError, ValueError, TypeError, json.JSONDecodeError, subprocess.SubprocessError):
+        return False
+
+
 def transcript_covers_video(video_path: Path, transcript_json_path: Path) -> bool:
     duration = media_duration_seconds(video_path)
     if duration <= 0 or not transcript_json_path.exists() or transcript_json_path.stat().st_size <= 0:
@@ -848,6 +1010,230 @@ def transcript_covers_video(video_path: Path, transcript_json_path: Path) -> boo
         return False
     allowed_tail_gap = max(10.0, duration * 0.05)
     return transcript_end >= duration - allowed_tail_gap
+
+
+def transcript_tail_gap_seconds(video_path: Path, segments: list[dict[str, Any]]) -> float:
+    duration = media_duration_seconds(video_path)
+    transcript_end = max((float(segment.get("end") or 0.0) for segment in segments), default=0.0)
+    return max(duration - transcript_end, 0.0)
+
+
+def append_no_speech_tail_marker(video_path: Path, segments: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    duration = media_duration_seconds(video_path)
+    if duration <= 0:
+        return segments
+    last_end = max((float(segment.get("end") or 0.0) for segment in segments), default=0.0)
+    allowed_tail_gap = max(10.0, duration * 0.05)
+    if segments and duration - last_end > allowed_tail_gap:
+        segments = [
+            *segments,
+            {
+                "index": len(segments) + 1,
+                "start": round(last_end, 2),
+                "end": round(duration, 2),
+                "text": "[尾部无可识别语音/音乐或环境声]",
+            },
+        ]
+    return segments
+
+
+def write_transcript_artifacts(
+    transcript_json_path: Path,
+    transcript_srt_path: Path,
+    language: str,
+    duration: Any,
+    segments: list[dict[str, Any]],
+) -> None:
+    transcript_json_path.write_text(
+        json.dumps(
+            {
+                "language": language,
+                "duration": duration,
+                "segments": segments,
+            },
+            ensure_ascii=False,
+            indent=2,
+        ),
+        encoding="utf-8",
+    )
+    transcript_srt_path.write_text(srt_from_segments(segments), encoding="utf-8")
+
+
+PIPELINE_STEPS = ["download", "validate_video", "extract_audio", "transcribe", "scene_detect", "write_card"]
+
+
+def pipeline_state_path(artifact_dir: Path) -> Path:
+    return artifact_dir / "_pipeline_state.json"
+
+
+def load_pipeline_state(artifact_dir: Path, record: NormalizedRecord | None = None) -> dict[str, Any]:
+    path = pipeline_state_path(artifact_dir)
+    if path.exists():
+        try:
+            state = json.loads(path.read_text(encoding="utf-8"))
+            if isinstance(state, dict):
+                state.setdefault("steps", {})
+                return state
+        except (OSError, json.JSONDecodeError):
+            pass
+    return {
+        "platform": record.platform if record else "",
+        "source_id": record.source_id if record else "",
+        "account_name": (record.account_name or record.author_name) if record else "",
+        "current_step": "pending",
+        "steps": {},
+    }
+
+
+def save_pipeline_state(artifact_dir: Path, state: dict[str, Any]) -> None:
+    artifact_dir.mkdir(parents=True, exist_ok=True)
+    state["updated_at"] = datetime.now().isoformat(timespec="seconds")
+    write_json_file(pipeline_state_path(artifact_dir), state)
+
+
+def mark_pipeline_step(
+    artifact_dir: Path,
+    state: dict[str, Any],
+    step: str,
+    status: str,
+    validation: str = "",
+    reason: str = "",
+    error: str = "",
+) -> None:
+    now = datetime.now().isoformat(timespec="seconds")
+    entry = state.setdefault("steps", {}).setdefault(step, {})
+    entry["status"] = status
+    if validation:
+        entry["validation"] = validation
+    if reason:
+        entry["reason"] = reason
+    elif "reason" in entry and validation == "valid":
+        entry.pop("reason", None)
+    if error:
+        entry["last_error"] = error
+        entry["failed_at"] = now
+    elif status == "completed":
+        entry.pop("last_error", None)
+        entry["completed_at"] = now
+    elif status == "running":
+        entry["started_at"] = now
+    state["current_step"] = step if status != "completed" else state.get("current_step", step)
+    save_pipeline_state(artifact_dir, state)
+
+
+def mark_pipeline_bundle_complete(artifact_dir: Path, state: dict[str, Any]) -> None:
+    for step in ["download", "validate_video", "extract_audio", "transcribe", "scene_detect"]:
+        mark_pipeline_step(artifact_dir, state, step, "completed", "valid")
+    state["current_step"] = "completed"
+    save_pipeline_state(artifact_dir, state)
+
+
+def valid_keyframe_files(artifact_dir: Path) -> list[Path]:
+    image_files = sorted(artifact_dir.glob("*.jpg")) + sorted(artifact_dir.glob("*.png"))
+    keyframes_dir = artifact_dir / "keyframes"
+    if keyframes_dir.is_dir():
+        image_files.extend(sorted(keyframes_dir.glob("*.jpg")) + sorted(keyframes_dir.glob("*.png")))
+    valid: list[Path] = []
+    for path in image_files:
+        if not path.is_file() or path.stat().st_size <= 0:
+            continue
+        try:
+            from PIL import Image
+
+            with Image.open(path) as image:
+                image.verify()
+            valid.append(path)
+        except Exception:
+            continue
+    return valid
+
+
+def validate_video_artifact(video_path: Path) -> dict[str, str]:
+    if not video_path.exists() or video_path.stat().st_size <= 0:
+        return {"validation": "missing", "reason": "video_missing"}
+    if not media_file_is_readable(video_path):
+        return {"validation": "corrupt", "reason": "ffprobe_failed"}
+    if not media_file_decodes(video_path):
+        return {"validation": "corrupt", "reason": "ffmpeg_decode_failed"}
+    if not media_has_stream(video_path, "v:0"):
+        return {"validation": "corrupt", "reason": "video_stream_missing"}
+    duration = media_duration_seconds(video_path)
+    if duration <= 1.0:
+        return {"validation": "corrupt", "reason": "duration_too_short"}
+    return {"validation": "valid", "reason": ""}
+
+
+def validate_audio_artifact(video_path: Path, audio_path: Path) -> dict[str, str]:
+    if not audio_path.exists() or audio_path.stat().st_size <= 0:
+        return {"validation": "missing", "reason": "audio_missing"}
+    if video_path.exists() and audio_path.stat().st_mtime < video_path.stat().st_mtime:
+        return {"validation": "stale", "reason": "audio_older_than_video"}
+    duration = media_duration_seconds(audio_path)
+    if duration <= 0:
+        return {"validation": "corrupt", "reason": "audio_duration_missing"}
+    if not media_has_stream(audio_path, "a:0"):
+        return {"validation": "corrupt", "reason": "audio_stream_missing"}
+    video_duration = media_duration_seconds(video_path)
+    if video_duration > 0 and abs(duration - video_duration) > max(10.0, video_duration * 0.1):
+        return {"validation": "partial", "reason": "audio_duration_mismatch"}
+    return {"validation": "valid", "reason": ""}
+
+
+def validate_transcript_artifact(video_path: Path, audio_path: Path, transcript_json_path: Path, transcript_srt_path: Path) -> dict[str, str]:
+    if not transcript_json_path.exists() or transcript_json_path.stat().st_size <= 0:
+        return {"validation": "missing", "reason": "transcript_json_missing"}
+    if not transcript_srt_path.exists() or transcript_srt_path.stat().st_size <= 0:
+        return {"validation": "missing", "reason": "transcript_srt_missing"}
+    upstream_mtime = max(path.stat().st_mtime for path in [video_path, audio_path] if path.exists())
+    if transcript_json_path.stat().st_mtime < upstream_mtime or transcript_srt_path.stat().st_mtime < upstream_mtime:
+        return {"validation": "stale", "reason": "transcript_older_than_upstream"}
+    try:
+        transcript = json.loads(transcript_json_path.read_text(encoding="utf-8"))
+        segments = transcript.get("segments") or []
+        if not segments:
+            return {"validation": "partial", "reason": "transcript_segments_empty"}
+        for segment in segments:
+            if segment.get("start") is None or segment.get("end") is None or not str(segment.get("text") or "").strip():
+                return {"validation": "partial", "reason": "transcript_segment_invalid"}
+    except (OSError, TypeError, ValueError, json.JSONDecodeError):
+        return {"validation": "corrupt", "reason": "transcript_json_invalid"}
+    if not transcript_covers_video(video_path, transcript_json_path):
+        return {"validation": "partial", "reason": "transcript_end_before_video_end"}
+    return {"validation": "valid", "reason": ""}
+
+
+def validate_scene_artifacts(video_path: Path, artifact_dir: Path) -> dict[str, str]:
+    scene_files = sorted(artifact_dir.glob("*Scenes.csv")) + sorted(artifact_dir.glob("scenes.csv"))
+    if not scene_files:
+        return {"validation": "missing", "reason": "scenes_missing"}
+    if any(not path.is_file() or path.stat().st_size <= 0 for path in scene_files):
+        return {"validation": "corrupt", "reason": "scenes_empty"}
+    if video_path.exists() and any(path.stat().st_mtime < video_path.stat().st_mtime for path in scene_files):
+        return {"validation": "stale", "reason": "scenes_older_than_video"}
+    keyframes = valid_keyframe_files(artifact_dir)
+    if not keyframes:
+        return {"validation": "missing", "reason": "keyframes_missing_or_corrupt"}
+    if video_path.exists() and any(path.stat().st_mtime < video_path.stat().st_mtime for path in keyframes):
+        return {"validation": "stale", "reason": "keyframes_older_than_video"}
+    return {"validation": "valid", "reason": ""}
+
+
+def validate_learning_card(root: Path, manifest_entry: dict[str, Any]) -> dict[str, str]:
+    if manifest_entry.get("status") != "completed":
+        return {"validation": "missing", "reason": "manifest_not_completed"}
+    card_path_text = str(manifest_entry.get("card_path") or "")
+    if not card_path_text:
+        return {"validation": "missing", "reason": "card_path_missing"}
+    card_path = root / card_path_text
+    if not card_path.exists() or card_path.stat().st_size <= 0:
+        return {"validation": "missing", "reason": "card_missing"}
+    try:
+        text = card_path.read_text(encoding="utf-8")
+    except OSError:
+        return {"validation": "corrupt", "reason": "card_unreadable"}
+    if "video_analysis_status: degraded" in text or "video_analysis_status: degraded_video_failed" in text:
+        return {"validation": "corrupt", "reason": "card_video_analysis_failed"}
+    return {"validation": "valid", "reason": ""}
 
 
 def existing_video_bundle_is_complete(
@@ -866,27 +1252,38 @@ def existing_video_bundle_is_complete(
     video_mtime = video_path.stat().st_mtime
     if any(path.stat().st_mtime < video_mtime for path in derived_paths):
         return False
+    if not valid_keyframe_files(video_path.parent):
+        return False
     return transcript_covers_video(video_path, transcript_json_path)
 
 
-def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> dict[str, Any]:
+def video_status(
+    root: Path,
+    record: NormalizedRecord,
+    analyze_video: bool,
+    artifacts_dir: Path | None = None,
+    artifact_layout: str = "flat",
+) -> dict[str, Any]:
     status: dict[str, Any] = {
         "requested": analyze_video,
         "has_video_url": bool(record.video_download_url),
+        "resolved_video_url": "",
         "ffmpeg": find_executable("ffmpeg"),
         "faster_whisper": False,
         "scenedetect": False,
         "status": "metadata_only",
         "artifacts": {},
+        "warnings": [],
         "errors": [],
     }
-    artifact_dir = video_artifacts_dir(root) / f"{record.platform}_{record.source_id}"
+    artifact_dir = resolved_video_artifact_dir(root, record, artifacts_dir, artifact_layout)
     video_path = artifact_dir / "source.mp4"
     audio_path = artifact_dir / "audio.wav"
     metadata_path = artifact_dir / "ffprobe.json"
     transcript_json_path = artifact_dir / "transcript.json"
     transcript_srt_path = artifact_dir / "transcript.srt"
     existing_scene_files = sorted(artifact_dir.glob("*Scenes.csv"))
+    pipeline_state = load_pipeline_state(artifact_dir, record)
     if existing_video_bundle_is_complete(
         video_path,
         audio_path,
@@ -895,22 +1292,35 @@ def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> d
         transcript_srt_path,
         existing_scene_files,
     ):
+        mark_pipeline_bundle_complete(artifact_dir, pipeline_state)
         status["status"] = "video_transcribed_and_scenes_detected"
         status["artifacts"] = {
-            "video": str(video_path.relative_to(root)),
-            "audio": str(audio_path.relative_to(root)),
-            "metadata": str(metadata_path.relative_to(root)),
-            "transcript_json": str(transcript_json_path.relative_to(root)),
-            "transcript_srt": str(transcript_srt_path.relative_to(root)),
-            "scenes_csv": str(existing_scene_files[0].relative_to(root)),
+            "video": path_for_report(video_path, root),
+            "audio": path_for_report(audio_path, root),
+            "metadata": path_for_report(metadata_path, root),
+            "transcript_json": path_for_report(transcript_json_path, root),
+            "transcript_srt": path_for_report(transcript_srt_path, root),
+            "scenes_csv": path_for_report(existing_scene_files[0], root),
         }
         image_files = sorted(artifact_dir.glob("*.jpg")) + sorted(artifact_dir.glob("*.png"))
         if image_files:
-            status["artifacts"]["keyframes"] = [str(path.relative_to(root)) for path in image_files[:10]]
+            status["artifacts"]["keyframes"] = [path_for_report(path, root) for path in image_files[:10]]
         return status
 
-    if not analyze_video or not record.video_download_url:
+    if not analyze_video:
         return status
+    try:
+        download_url, resolve_warnings = resolved_record_video_url(record)
+    except Exception as exc:
+        status["status"] = "missing_video_url"
+        status["errors"].append(f"xhs_video_url_resolve_failed: {exc}")
+        return status
+    if not download_url:
+        status["status"] = "missing_video_url"
+        return status
+    status["has_video_url"] = True
+    status["resolved_video_url"] = download_url
+    status["warnings"].extend(resolve_warnings)
     try:
         import faster_whisper  # type: ignore # noqa: F401
 
@@ -930,14 +1340,37 @@ def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> d
 
     artifact_dir.mkdir(parents=True, exist_ok=True)
 
+    video_validation = validate_video_artifact(video_path)
     try:
-        status["errors"].extend(ensure_video_file(record.video_download_url, video_path))
-        subprocess.run(
-            [status["ffmpeg"], "-y", "-i", str(video_path), "-vn", "-acodec", "pcm_s16le", "-ar", "16000", "-ac", "1", str(audio_path)],
-            check=True,
-            capture_output=True,
-            text=True,
-        )
+        if video_validation["validation"] != "valid":
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "download",
+                "running",
+                video_validation["validation"],
+                video_validation["reason"],
+            )
+            status["errors"].extend(
+                ensure_video_file(
+                    download_url,
+                    video_path,
+                    force_download=video_validation["validation"] in {"corrupt", "partial", "stale"},
+                )
+            )
+            video_validation = validate_video_artifact(video_path)
+        if video_validation["validation"] != "valid":
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "download",
+                "failed",
+                video_validation["validation"],
+                video_validation["reason"],
+            )
+            raise RuntimeError(f"video_validation_failed: {video_validation['reason']}")
+        mark_pipeline_step(artifact_dir, pipeline_state, "download", "completed", "valid")
+        mark_pipeline_step(artifact_dir, pipeline_state, "validate_video", "completed", "valid")
         probe = subprocess.run(
             [find_executable("ffprobe"), "-v", "quiet", "-print_format", "json", "-show_format", "-show_streams", str(video_path)],
             check=True,
@@ -945,80 +1378,178 @@ def video_status(root: Path, record: NormalizedRecord, analyze_video: bool) -> d
             text=True,
         )
         metadata_path.write_text(probe.stdout, encoding="utf-8")
-        status["status"] = "video_downloaded_audio_extracted"
-        status["artifacts"] = {
-            "video": str(video_path.relative_to(root)),
-            "audio": str(audio_path.relative_to(root)),
-            "metadata": str(metadata_path.relative_to(root)),
-        }
+        status["artifacts"]["video"] = path_for_report(video_path, root)
+        status["artifacts"]["metadata"] = path_for_report(metadata_path, root)
     except Exception as exc:
         status["status"] = "degraded_video_failed"
         status["errors"].append(str(exc))
         return status
 
     try:
-        from faster_whisper import WhisperModel  # type: ignore
-
-        model = WhisperModel("tiny", device="cpu", compute_type="int8")
-        segments, info = model.transcribe(str(audio_path), language="zh", vad_filter=True)
-        transcript_segments = []
-        for index, segment in enumerate(segments, start=1):
-            transcript_segments.append(
-                {
-                    "index": index,
-                    "start": float(segment.start),
-                    "end": float(segment.end),
-                    "text": segment.text.strip(),
-                }
+        audio_validation = validate_audio_artifact(video_path, audio_path)
+        if audio_validation["validation"] != "valid":
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "extract_audio",
+                "running",
+                audio_validation["validation"],
+                audio_validation["reason"],
             )
-        transcript_json_path.write_text(
-            json.dumps(
-                {
-                    "language": getattr(info, "language", "zh"),
-                    "duration": getattr(info, "duration", None),
-                    "segments": transcript_segments,
-                },
-                ensure_ascii=False,
-                indent=2,
-            ),
-            encoding="utf-8",
-        )
-        transcript_srt_path.write_text(srt_from_segments(transcript_segments), encoding="utf-8")
-        status["artifacts"]["transcript_json"] = str(transcript_json_path.relative_to(root))
-        status["artifacts"]["transcript_srt"] = str(transcript_srt_path.relative_to(root))
+            subprocess.run(
+                [status["ffmpeg"], "-y", "-i", str(video_path), "-vn", "-acodec", "pcm_s16le", "-ar", "16000", "-ac", "1", str(audio_path)],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            audio_validation = validate_audio_artifact(video_path, audio_path)
+        if audio_validation["validation"] != "valid":
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "extract_audio",
+                "failed",
+                audio_validation["validation"],
+                audio_validation["reason"],
+            )
+            raise RuntimeError(f"audio_validation_failed: {audio_validation['reason']}")
+        mark_pipeline_step(artifact_dir, pipeline_state, "extract_audio", "completed", "valid")
+        status["status"] = "video_downloaded_audio_extracted"
+        status["artifacts"]["audio"] = path_for_report(audio_path, root)
     except Exception as exc:
+        status["status"] = "degraded_video_failed"
+        status["errors"].append(str(exc))
+        return status
+
+    try:
+        transcript_validation = validate_transcript_artifact(video_path, audio_path, transcript_json_path, transcript_srt_path)
+        if transcript_validation["validation"] != "valid":
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "transcribe",
+                "running",
+                transcript_validation["validation"],
+                transcript_validation["reason"],
+            )
+            from faster_whisper import WhisperModel  # type: ignore
+
+            model = WhisperModel("tiny", device="cpu", compute_type="int8")
+            segments, info = model.transcribe(str(audio_path), language="zh", vad_filter=True)
+            transcript_segments = []
+            for index, segment in enumerate(segments, start=1):
+                transcript_segments.append(
+                    {
+                        "index": index,
+                        "start": float(segment.start),
+                        "end": float(segment.end),
+                        "text": segment.text.strip(),
+                    }
+                )
+            write_transcript_artifacts(
+                transcript_json_path,
+                transcript_srt_path,
+                getattr(info, "language", "zh"),
+                getattr(info, "duration", None),
+                transcript_segments,
+            )
+            transcript_validation = validate_transcript_artifact(video_path, audio_path, transcript_json_path, transcript_srt_path)
+            if transcript_validation["validation"] != "valid":
+                segments, info = model.transcribe(str(audio_path), language="zh", vad_filter=False, condition_on_previous_text=False)
+                transcript_segments = []
+                for index, segment in enumerate(segments, start=1):
+                    text = segment.text.strip()
+                    if not text:
+                        continue
+                    transcript_segments.append(
+                        {
+                            "index": len(transcript_segments) + 1,
+                            "start": float(segment.start),
+                            "end": float(segment.end),
+                            "text": text,
+                        }
+                    )
+                transcript_segments = append_no_speech_tail_marker(video_path, transcript_segments)
+                write_transcript_artifacts(
+                    transcript_json_path,
+                    transcript_srt_path,
+                    getattr(info, "language", "zh"),
+                    getattr(info, "duration", None),
+                    transcript_segments,
+                )
+                transcript_validation = validate_transcript_artifact(video_path, audio_path, transcript_json_path, transcript_srt_path)
+        if transcript_validation["validation"] == "valid":
+            mark_pipeline_step(artifact_dir, pipeline_state, "transcribe", "completed", "valid")
+            status["artifacts"]["transcript_json"] = path_for_report(transcript_json_path, root)
+            status["artifacts"]["transcript_srt"] = path_for_report(transcript_srt_path, root)
+        else:
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "transcribe",
+                "failed",
+                transcript_validation["validation"],
+                transcript_validation["reason"],
+            )
+            status["errors"].append(f"transcription_validation_failed: {transcript_validation['reason']}")
+    except Exception as exc:
+        mark_pipeline_step(artifact_dir, pipeline_state, "transcribe", "failed", error=str(exc))
         status["errors"].append(f"transcription_failed: {exc}")
 
     try:
-        scenedetect_bin = Path(sys.executable).parent / "scenedetect"
-        if not scenedetect_bin.exists():
-            scenedetect_bin = Path(shutil.which("scenedetect") or "")
-        if not scenedetect_bin:
-            raise RuntimeError("scenedetect command not found")
-        subprocess.run(
-            [
-                str(scenedetect_bin),
-                "-i",
-                str(video_path),
-                "-o",
-                str(artifact_dir),
-                "detect-content",
-                "list-scenes",
-                "save-images",
-                "--num-images",
-                "1",
-            ],
-            check=True,
-            capture_output=True,
-            text=True,
-        )
+        scene_validation = validate_scene_artifacts(video_path, artifact_dir)
+        if scene_validation["validation"] != "valid":
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "scene_detect",
+                "running",
+                scene_validation["validation"],
+                scene_validation["reason"],
+            )
+            scenedetect_bin = Path(sys.executable).parent / "scenedetect"
+            if not scenedetect_bin.exists():
+                scenedetect_bin = Path(shutil.which("scenedetect") or "")
+            if not scenedetect_bin:
+                raise RuntimeError("scenedetect command not found")
+            subprocess.run(
+                [
+                    str(scenedetect_bin),
+                    "-i",
+                    str(video_path),
+                    "-o",
+                    str(artifact_dir),
+                    "detect-content",
+                    "list-scenes",
+                    "save-images",
+                    "--num-images",
+                    "1",
+                ],
+                check=True,
+                capture_output=True,
+                text=True,
+            )
+            scene_validation = validate_scene_artifacts(video_path, artifact_dir)
         scene_files = sorted(artifact_dir.glob("*Scenes.csv"))
         image_files = sorted(artifact_dir.glob("*.jpg")) + sorted(artifact_dir.glob("*.png"))
-        if scene_files:
-            status["artifacts"]["scenes_csv"] = str(scene_files[0].relative_to(root))
-        if image_files:
-            status["artifacts"]["keyframes"] = [str(path.relative_to(root)) for path in image_files[:10]]
+        if scene_validation["validation"] == "valid":
+            mark_pipeline_step(artifact_dir, pipeline_state, "scene_detect", "completed", "valid")
+        else:
+            mark_pipeline_step(
+                artifact_dir,
+                pipeline_state,
+                "scene_detect",
+                "failed",
+                scene_validation["validation"],
+                scene_validation["reason"],
+            )
+            status["errors"].append(f"scene_validation_failed: {scene_validation['reason']}")
+        if scene_validation["validation"] == "valid" and scene_files:
+            status["artifacts"]["scenes_csv"] = path_for_report(scene_files[0], root)
+        if scene_validation["validation"] == "valid" and image_files:
+            status["artifacts"]["keyframes"] = [path_for_report(path, root) for path in image_files[:10]]
     except Exception as exc:
+        mark_pipeline_step(artifact_dir, pipeline_state, "scene_detect", "failed", error=str(exc))
         status["errors"].append(f"scene_detection_failed: {exc}")
 
     if status["artifacts"].get("transcript_json") and status["artifacts"].get("scenes_csv"):
@@ -1068,9 +1599,160 @@ def download_image_url(url: str, path: Path) -> None:
     path.write_bytes(data)
 
 
+XHS_PAGE_HOSTS = {"www.xiaohongshu.com", "xiaohongshu.com", "xhslink.com"}
+XHS_VIDEO_HOST_MARKERS = ("xhscdn.com", "xiaohongshu.com")
+BUNDLED_NODE = Path("/Users/lao_wu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node")
+BUNDLED_NODE_MODULES = Path("/Users/lao_wu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules")
+
+
+def is_xhs_page_url(url: str) -> bool:
+    parsed = urlparse(url)
+    host = (parsed.hostname or "").lower()
+    return parsed.scheme in {"http", "https"} and (host in XHS_PAGE_HOSTS or host.endswith(".xiaohongshu.com"))
+
+
+def xhs_request_headers() -> dict[str, str]:
+    return {
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/125.0 Safari/537.36",
+        "Referer": "https://www.xiaohongshu.com/",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    }
+
+
+def fetch_xhs_page_html(url: str, timeout: int = 30) -> str:
+    request = urllib.request.Request(url, headers=xhs_request_headers())
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        charset = response.headers.get_content_charset() or "utf-8"
+        return response.read().decode(charset, errors="replace")
+
+
+def decoded_url_text_variants(text: str) -> list[str]:
+    variants = [text, html_lib.unescape(text)]
+    slash_decoded = html_lib.unescape(text).replace("\\u002F", "/").replace("\\/", "/")
+    variants.append(slash_decoded)
+    try:
+        variants.append(slash_decoded.encode("utf-8").decode("unicode_escape"))
+    except UnicodeError:
+        pass
+    unique: list[str] = []
+    for variant in variants:
+        if variant not in unique:
+            unique.append(variant)
+    return unique
+
+
+def normalize_embedded_url(url: str) -> str:
+    text = html_lib.unescape(url).replace("\\u002F", "/").replace("\\/", "/")
+    text = text.replace("\\u0026", "&").replace("\\&", "&")
+    return text.rstrip("\\").strip()
+
+
+def extract_xhs_video_urls_from_html(html: str) -> list[str]:
+    candidates: list[str] = []
+    patterns = [
+        r"https?:\\?/\\?/[^\"'<>\s]+?(?:\.mp4|/video/|sns-video)[^\"'<>\s]*",
+        r"https?://[^\"'<>\s]+?(?:\.mp4|/video/|sns-video)[^\"'<>\s]*",
+    ]
+    for text in decoded_url_text_variants(html):
+        for pattern in patterns:
+            for match in re.findall(pattern, text):
+                url = normalize_embedded_url(match)
+                host = (urlparse(url).hostname or "").lower()
+                if any(marker in host for marker in XHS_VIDEO_HOST_MARKERS) and url not in candidates:
+                    candidates.append(url)
+    return candidates
+
+
+def resolve_xhs_video_url(page_url: str) -> tuple[str, list[str]]:
+    html = fetch_xhs_page_html(page_url)
+    candidates = extract_xhs_video_urls_from_html(html)
+    if not candidates and xhs_browser_resolve_enabled():
+        browser_candidates = resolve_xhs_video_urls_with_browser(page_url)
+        candidates.extend(url for url in browser_candidates if url not in candidates)
+    if not candidates:
+        raise RuntimeError("xhs_video_url_not_found_in_page")
+    return candidates[0], candidates
+
+
+def xhs_browser_resolve_enabled() -> bool:
+    return str(os.environ.get("XHS_BROWSER_RESOLVE", "")).lower() in {"1", "true", "yes", "on"}
+
+
+def node_executable_for_xhs_browser_resolve() -> str:
+    configured = str(os.environ.get("XHS_NODE") or "").strip()
+    if configured:
+        return configured
+    if BUNDLED_NODE.exists():
+        return str(BUNDLED_NODE)
+    return find_executable("node")
+
+
+def node_path_for_xhs_browser_resolve() -> str:
+    paths = []
+    configured = str(os.environ.get("NODE_PATH") or "").strip()
+    if configured:
+        paths.append(configured)
+    xhs_node_path = str(os.environ.get("XHS_NODE_PATH") or "").strip()
+    if xhs_node_path:
+        paths.append(xhs_node_path)
+    if BUNDLED_NODE_MODULES.exists():
+        paths.append(str(BUNDLED_NODE_MODULES))
+    return os.pathsep.join(paths)
+
+
+def resolve_xhs_video_urls_with_browser(page_url: str) -> list[str]:
+    node = node_executable_for_xhs_browser_resolve()
+    if not node:
+        raise RuntimeError("xhs_browser_resolve_node_not_found")
+    script = Path(__file__).with_name("xhs_video_capture.cjs")
+    env = dict(os.environ)
+    node_path = node_path_for_xhs_browser_resolve()
+    if node_path:
+        env["NODE_PATH"] = node_path
+    timeout_seconds = int(int(env.get("XHS_BROWSER_TIMEOUT_MS", "20000")) / 1000) + 10
+    completed = subprocess.run(
+        [node, str(script), page_url],
+        check=False,
+        capture_output=True,
+        text=True,
+        timeout=timeout_seconds,
+        env=env,
+    )
+    try:
+        payload = json.loads(completed.stdout or "{}")
+    except json.JSONDecodeError as exc:
+        raise RuntimeError(f"xhs_browser_resolve_bad_output: {exc}") from exc
+    if completed.returncode != 0:
+        raise RuntimeError(f"xhs_browser_resolve_failed: {payload.get('error') or completed.stderr.strip()}")
+    urls = payload.get("video_urls", [])
+    return [str(url) for url in urls if str(url).strip()]
+
+
+def resolved_record_video_url(record: NormalizedRecord) -> tuple[str, list[str]]:
+    if record.video_download_url:
+        return record.video_download_url, []
+    if record.platform == "xhs" and record.url and is_xhs_page_url(record.url):
+        resolved_url, candidates = resolve_xhs_video_url(record.url)
+        return resolved_url, [f"resolved_xhs_page_video_url candidates={len(candidates)}"]
+    return "", []
+
+
+def can_attempt_record_video(record: NormalizedRecord) -> bool:
+    return bool(record.video_download_url) or (record.platform == "xhs" and bool(record.url) and is_xhs_page_url(record.url))
+
+
 VIDEO_DOWNLOAD_TIMEOUT_SECONDS = 300
 VIDEO_RESUME_TIMEOUT_SECONDS = 1800
 VIDEO_CONNECT_TIMEOUT_SECONDS = 20
+
+
+def referer_for_download_url(url: str) -> str:
+    host = (urlparse(url).hostname or "").lower()
+    if "xhscdn.com" in host or "xiaohongshu.com" in host:
+        return "https://www.xiaohongshu.com/"
+    return "https://www.douyin.com/"
 
 
 def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIMEOUT_SECONDS) -> None:
@@ -1105,7 +1787,7 @@ def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIME
                 "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
                 "(KHTML, like Gecko) Chrome/125.0 Safari/537.36",
                 "-H",
-                "Referer: https://www.douyin.com/",
+                f"Referer: {referer_for_download_url(url)}",
                 "-H",
                 "Accept: */*",
                 "-o",
@@ -1124,7 +1806,7 @@ def download_binary_url(url: str, path: Path, timeout: int = VIDEO_DOWNLOAD_TIME
         headers={
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
             "(KHTML, like Gecko) Chrome/125.0 Safari/537.36",
-            "Referer": "https://www.douyin.com/",
+            "Referer": referer_for_download_url(url),
             "Accept": "*/*",
         },
     )
@@ -1166,8 +1848,8 @@ def media_file_is_usable(path: Path) -> bool:
     return media_file_is_readable(path) and media_file_decodes(path)
 
 
-def ensure_video_file(url: str, path: Path) -> list[str]:
-    if media_file_is_usable(path):
+def ensure_video_file(url: str, path: Path, force_download: bool = False) -> list[str]:
+    if not force_download and media_file_is_usable(path):
         return ["using_existing_video_file"]
     path.parent.mkdir(parents=True, exist_ok=True)
     download_path = path.with_name(f"{path.name}.download")
@@ -1391,7 +2073,8 @@ decision: {"keep" if high_confidence(item) else "review"}
 
 - 可复用标题结构：{reusable_template(item.direction, record)}
 - 可复用脚本结构：{reusable_template(item.direction, record)}
-- 可生成选题：围绕 `{item.direction}` 做同主题变体、步骤化教程、评论区问题回答。
+- 可生成选题：围绕 `{item.direction}` 做同主题变体、步骤化教程、标题/正文/话题组合。
+- 评论边界：不学习评论正文，不从评论区提炼观点、痛点或话术；评论数量只作为互动指标。
 - 可改写平台：{"小红书图文/清单" if record.platform == "xhs" else "抖音口播/小红书图文"}
 
 ## 视频层状态
@@ -1616,7 +2299,7 @@ def write_outputs(
             should_analyze_video = (
                 analyze_video
                 and analyzed_videos < video_limit
-                and bool(item.record.video_download_url)
+                and can_attempt_record_video(item.record)
                 and video_key not in video_statuses
                 and (source_ids is None or item.record.source_id in source_ids)
             )
@@ -1794,6 +2477,33 @@ def video_artifacts_dir(root: Path) -> Path:
     return root / VIDEO_LEARNING_CACHE_DIR / "video_artifacts"
 
 
+def path_for_report(path: Path, root: Path) -> str:
+    try:
+        return str(path.relative_to(root))
+    except ValueError:
+        return str(path)
+
+
+def artifact_account_name(record: NormalizedRecord) -> str:
+    return record.account_name or record.author_name or "unknown_account"
+
+
+def resolved_video_artifacts_root(root: Path, artifacts_dir: Path | None = None) -> Path:
+    return artifacts_dir if artifacts_dir is not None else video_artifacts_dir(root)
+
+
+def resolved_video_artifact_dir(
+    root: Path,
+    record: NormalizedRecord,
+    artifacts_dir: Path | None = None,
+    artifact_layout: str = "flat",
+) -> Path:
+    base = resolved_video_artifacts_root(root, artifacts_dir)
+    if artifact_layout == "account":
+        base = base / artifact_account_name(record)
+    return base / f"{record.platform}_{record.source_id}"
+
+
 def image_artifacts_dir(root: Path) -> Path:
     return root / VIDEO_LEARNING_CACHE_DIR / "image_artifacts"
 
@@ -1868,6 +2578,7 @@ def save_manifest(root: Path, manifest: dict[str, Any]) -> None:
 def selected_card_markdown(record: NormalizedRecord, directions: list[str], video: dict[str, Any], image: dict[str, Any]) -> str:
     metrics = record.metrics
     direction_text = "、".join(directions)
+    topic_tags = "、".join(record.tags) if record.tags else "未提取到显式话题/标签；按标题与正文语义学习。"
     return f"""# 已确认深度学习卡：{record.platform} {record.source_id}
 
 ```yaml
@@ -1902,6 +2613,8 @@ decision: review
 
 - 黄金 3 秒钩子：{golden_3s_hook(record)}
 - 开头：{first_sentence(record.title, 80)}
+- 发布内容层：标题《{record.title}》；正文/文案摘要：{first_sentence(record.body, 120)}
+- 话题/标签：{topic_tags}
 - 目标人群：{infer_audience(directions[0], record)}
 - 展开：{first_sentence(record.body, 160)}
 - 可复用结构：{reusable_template(directions[0], record)}
@@ -2039,10 +2752,9 @@ def selected_report_markdown(result: dict[str, Any], statuses: dict[str, dict[st
         artifacts = status.get("video", {}).get("artifacts", {})
         transcript = artifacts.get("transcript_srt", "")
         errors = status.get("video", {}).get("errors", []) + status.get("image", {}).get("errors", [])
-        lines.append(
-            f"| {key} | {status.get('status', '')} | {status.get('card_path', '')} | {transcript} | "
-            f"{'; '.join(errors)[:120]} |"
-        )
+        current_step = status.get("current_step", "")
+        display_status = f"{status.get('status', '')} / {current_step}" if current_step else status.get("status", "")
+        lines.append(f"| {key} | {display_status} | {status.get('card_path', '')} | {transcript} | " f"{'; '.join(errors)[:120]} |")
     if missing:
         lines.extend(["", "## 未找到", ""])
         lines.extend(f"- {source_id}" for source_id in missing)
@@ -2075,7 +2787,9 @@ def download_report_markdown(result: dict[str, Any], statuses: dict[str, dict[st
     ]
     for key, item in statuses.items():
         errors = "; ".join(item.get("errors", []))[:120]
-        lines.append(f"| {key} | {item.get('status', '')} | {item.get('video_path', '')} | {errors} |")
+        current_step = item.get("current_step", "")
+        display_status = f"{item.get('status', '')} / {current_step}" if current_step else item.get("status", "")
+        lines.append(f"| {key} | {display_status} | {item.get('video_path', '')} | {errors} |")
     if missing:
         lines.extend(["", "## 未找到", ""])
         lines.extend(f"- {source_id}" for source_id in missing)
@@ -2103,6 +2817,165 @@ def append_source_failures(lines: list[str], failed_files: list[dict[str, str]])
         )
 
 
+def account_artifact_dir_from_base(artifacts_dir: Path, account_name: str) -> Path:
+    return artifacts_dir / (account_name or "unknown_account")
+
+
+def artifact_bundle_status(artifact_dir: Path) -> dict[str, Any]:
+    transcript_files = [artifact_dir / "transcript.srt", artifact_dir / "transcript.json"]
+    keyframes = sorted(artifact_dir.glob("*.jpg")) + sorted(artifact_dir.glob("*.png"))
+    keyframes_dir = artifact_dir / "keyframes"
+    if keyframes_dir.is_dir():
+        keyframes.extend(sorted(keyframes_dir.glob("*.jpg")) + sorted(keyframes_dir.glob("*.png")))
+    scenes = sorted(artifact_dir.glob("*Scenes.csv")) + sorted(artifact_dir.glob("scenes.csv"))
+    return {
+        "artifact_dir": str(artifact_dir),
+        "has_video": (artifact_dir / "source.mp4").is_file(),
+        "has_audio": (artifact_dir / "audio.wav").is_file(),
+        "has_metadata": (artifact_dir / "ffprobe.json").is_file(),
+        "has_transcript": any(path.is_file() and path.stat().st_size > 0 for path in transcript_files),
+        "has_keyframes": any(path.is_file() and path.stat().st_size > 0 for path in keyframes),
+        "has_scenes": any(path.is_file() and path.stat().st_size > 0 for path in scenes),
+    }
+
+
+def infer_platform_source_from_artifact_dir(path: Path) -> tuple[str, str]:
+    name = path.name
+    if "_" not in name:
+        return "", name
+    platform, source_id = name.split("_", 1)
+    return platform, source_id
+
+
+def scan_account_artifacts(account_dir: Path) -> dict[str, dict[str, Any]]:
+    items: dict[str, dict[str, Any]] = {}
+    if not account_dir.is_dir():
+        return items
+    for artifact_dir in sorted(path for path in account_dir.iterdir() if path.is_dir() and not path.name.startswith("_")):
+        platform, source_id = infer_platform_source_from_artifact_dir(artifact_dir)
+        if not source_id:
+            continue
+        key = f"{platform}:{source_id}" if platform else source_id
+        items[key] = {
+            "platform": platform,
+            "source_id": source_id,
+            **artifact_bundle_status(artifact_dir),
+        }
+    return items
+
+
+def pipeline_current_step(artifact_dir: Path) -> str:
+    state = load_pipeline_state(artifact_dir)
+    return str(state.get("current_step") or "pending")
+
+
+def nas_mirror_report(account_name: str, plan: dict[str, Any], progress: dict[str, Any], artifact_index: dict[str, Any]) -> str:
+    planned = len(plan.get("items", {}))
+    progressed = len(progress.get("items", {}))
+    indexed = len(artifact_index.get("items", {}))
+    lines = [
+        f"# NAS 学习进度：{account_name}",
+        "",
+        f"更新时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}",
+        "",
+        "## 汇总",
+        "",
+        f"- 计划条数：{planned}",
+        f"- 有进度条数：{progressed}",
+        f"- 产物索引条数：{indexed}",
+        "",
+        "## 最近进度",
+        "",
+        "| 内容ID | 状态 | 当前步骤 | 产物目录 |",
+        "| --- | --- | --- | --- |",
+    ]
+    for key, item in sorted(progress.get("items", {}).items()):
+        lines.append(f"| {key} | {item.get('status', '')} | {item.get('current_step', '')} | {item.get('artifact_dir', '')} |")
+    return "\n".join(lines) + "\n"
+
+
+def write_nas_account_mirror(
+    account_dir: Path,
+    account_name: str,
+    planned_records: list[NormalizedRecord],
+    statuses: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, str]:
+    account_dir.mkdir(parents=True, exist_ok=True)
+    now = datetime.now().isoformat(timespec="seconds")
+    artifact_items = scan_account_artifacts(account_dir)
+
+    plan_items: dict[str, dict[str, Any]] = {}
+    progress_items = read_json_file(account_dir / "_learning_progress.json", {"items": {}}).get("items", {})
+    if not isinstance(progress_items, dict):
+        progress_items = {}
+    statuses = statuses or {}
+
+    for record in planned_records:
+        key = record_key(record)
+        artifact_dir = account_dir / f"{record.platform}_{record.source_id}"
+        artifact_items[key] = {
+            "platform": record.platform,
+            "source_id": record.source_id,
+            **artifact_bundle_status(artifact_dir),
+        }
+        plan_items[key] = {
+            "platform": record.platform,
+            "source_id": record.source_id,
+            "account_name": record.account_name or record.author_name,
+            "title": record.title,
+            "artifact_dir": str(artifact_dir),
+            "planned_at": now,
+        }
+        status = statuses.get(key)
+        if status:
+            video = status.get("video", {})
+            progress_items[key] = {
+                "platform": record.platform,
+                "source_id": record.source_id,
+                "account_name": record.account_name or record.author_name,
+                "title": record.title,
+                "status": status.get("status", ""),
+                "current_step": pipeline_current_step(artifact_dir),
+                "video_status": video.get("status", ""),
+                "card_path": status.get("card_path", ""),
+                "artifact_dir": str(artifact_dir),
+                "updated_at": now,
+            }
+        else:
+            progress_items.setdefault(
+                key,
+                {
+                    "platform": record.platform,
+                    "source_id": record.source_id,
+                    "account_name": record.account_name or record.author_name,
+                    "title": record.title,
+                    "status": "planned",
+                    "current_step": pipeline_current_step(artifact_dir),
+                    "artifact_dir": str(artifact_dir),
+                    "updated_at": now,
+                },
+            )
+
+    plan = {"account_name": account_name, "updated_at": now, "items": plan_items}
+    progress = {"account_name": account_name, "updated_at": now, "items": progress_items}
+    artifact_index = {"account_name": account_name, "updated_at": now, "items": artifact_items}
+
+    plan_path = account_dir / "_learning_plan.json"
+    progress_path = account_dir / "_learning_progress.json"
+    index_path = account_dir / "_artifact_index.json"
+    report_path = account_dir / "_latest_report.md"
+    write_json_file(plan_path, plan)
+    write_json_file(progress_path, progress)
+    write_json_file(index_path, artifact_index)
+    report_path.write_text(nas_mirror_report(account_name, plan, progress, artifact_index), encoding="utf-8")
+    return {
+        "plan": str(plan_path),
+        "progress": str(progress_path),
+        "artifact_index": str(index_path),
+        "report": str(report_path),
+    }
+
+
 def run_selected_deep_learning(
     root: Path,
     source_ids: set[str] | None = None,
@@ -2111,10 +2984,23 @@ def run_selected_deep_learning(
     analyze_images: bool = False,
     max_images_per_note: int = 18,
     force: bool = False,
+    artifacts_dir: Path | None = None,
+    artifact_layout: str = "flat",
+    account_name: str = "",
+    mirror_nas_state: bool = False,
 ) -> dict[str, Any]:
-    requested_ids = source_ids or selected_ids_from_queue(root)
     records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
     by_id = records_by_source_id(records)
+    requested_ids = source_ids or selected_ids_from_queue(root)
+    if not requested_ids and account_name:
+        requested_ids = {
+            record.source_id
+            for record in records
+            if record.source_id and account_name in {record.account_name, record.author_name}
+        }
+    if not requested_ids and artifacts_dir is not None and artifact_layout == "account" and account_name:
+        account_dir = account_artifact_dir_from_base(artifacts_dir, account_name)
+        requested_ids = {str(item.get("source_id")) for item in scan_account_artifacts(account_dir).values() if item.get("source_id")}
     output_dir = video_learning_dir(root)
     cards_dir = selected_deep_cards_dir(root)
     cards_dir.mkdir(parents=True, exist_ok=True)
@@ -2124,6 +3010,7 @@ def run_selected_deep_learning(
     statuses: dict[str, dict[str, Any]] = {}
     missing: list[str] = []
     skipped: list[str] = []
+    planned_records: list[NormalizedRecord] = []
     learned = 0
     analyzed_videos = 0
 
@@ -2132,20 +3019,34 @@ def run_selected_deep_learning(
         if not record:
             missing.append(source_id)
             continue
+        planned_records.append(record)
         key = record_key(record)
         existing = manifest_items.get(key, {})
-        if existing.get("status") == "completed" and not force:
+        card_validation = validate_learning_card(root, existing)
+        if existing.get("status") == "completed" and card_validation["validation"] == "valid" and not force:
             skipped.append(source_id)
             continue
-        should_analyze_video = analyze_video and analyzed_videos < video_limit and bool(record.video_download_url)
+        should_analyze_video = analyze_video and analyzed_videos < video_limit and can_attempt_record_video(record)
         if should_analyze_video:
             analyzed_videos += 1
-        video = video_status(root, record, should_analyze_video)
+        if artifacts_dir is None and artifact_layout == "flat":
+            video = video_status(root, record, should_analyze_video)
+        else:
+            video = video_status(root, record, should_analyze_video, artifacts_dir=artifacts_dir, artifact_layout=artifact_layout)
         image = image_status(root, record, analyze_images and record.platform == "xhs", max_images_per_note=max_images_per_note)
         directions = detect_directions(record)
         card_path = cards_dir / f"{record.platform}_{record.source_id}.md"
+        artifact_dir = resolved_video_artifact_dir(root, record, artifacts_dir, artifact_layout)
+        pipeline_state = load_pipeline_state(artifact_dir, record)
+        mark_pipeline_step(artifact_dir, pipeline_state, "write_card", "running")
         card_path.write_text(selected_card_markdown(record, directions, video, image), encoding="utf-8")
         status = learning_outcome(video, image, analyze_video, analyze_images)
+        if status == "completed":
+            mark_pipeline_step(artifact_dir, pipeline_state, "write_card", "completed", "valid")
+            pipeline_state["current_step"] = "completed"
+            save_pipeline_state(artifact_dir, pipeline_state)
+        else:
+            mark_pipeline_step(artifact_dir, pipeline_state, "write_card", "failed", "corrupt", "learning_outcome_failed")
         entry = {
             "platform": record.platform,
             "source_id": record.source_id,
@@ -2153,6 +3054,7 @@ def run_selected_deep_learning(
             "title": record.title,
             "directions": directions,
             "status": status,
+            "current_step": pipeline_current_step(artifact_dir),
             "card_path": str(card_path.relative_to(root)),
             "video": video,
             "image": image,
@@ -2164,6 +3066,16 @@ def run_selected_deep_learning(
         learned += 1
 
     save_manifest(root, manifest)
+    nas_mirror: dict[str, str] = {}
+    if mirror_nas_state and artifacts_dir is not None and artifact_layout == "account":
+        mirror_account_name = account_name or (planned_records[0].account_name or planned_records[0].author_name if planned_records else "")
+        if mirror_account_name:
+            nas_mirror = write_nas_account_mirror(
+                account_artifact_dir_from_base(artifacts_dir, mirror_account_name),
+                mirror_account_name,
+                planned_records,
+                statuses,
+            )
     result = {
         "raw_counts": raw_counts,
         "dedupe_stats": dedupe_stats,
@@ -2178,6 +3090,7 @@ def run_selected_deep_learning(
         "selected_cards_dir": str(cards_dir.relative_to(root)),
         "manifest": str(manifest_path(root).relative_to(root)),
         "report": str((output_dir / "latest_selected_deep_learning_report.md").relative_to(root)),
+        "nas_mirror": nas_mirror,
     }
     write_json_file(output_dir / "latest_selected_video_statuses.json", statuses)
     (output_dir / "latest_selected_deep_learning_report.md").write_text(
@@ -2187,53 +3100,123 @@ def run_selected_deep_learning(
     return result
 
 
-def download_selected_media(root: Path, source_ids: set[str] | None = None) -> dict[str, Any]:
+def download_selected_media(
+    root: Path,
+    source_ids: set[str] | None = None,
+    artifacts_dir: Path | None = None,
+    artifact_layout: str = "flat",
+    account_name: str = "",
+    mirror_nas_state: bool = False,
+    direct_video_urls: dict[str, str] | None = None,
+) -> dict[str, Any]:
     requested_ids = source_ids or selected_ids_from_queue(root)
     records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
     by_id = records_by_source_id(records)
+    if not requested_ids and account_name:
+        requested_ids = {
+            record.source_id
+            for record in records
+            if record.source_id and account_name in {record.account_name, record.author_name}
+        }
     output_dir = video_learning_dir(root)
     statuses: dict[str, dict[str, Any]] = {}
     missing: list[str] = []
+    planned_records: list[NormalizedRecord] = []
     downloaded = 0
     reused = 0
     failed = 0
+    direct_video_urls = direct_video_urls or {}
 
     for source_id in sorted(requested_ids):
         record = by_id.get(source_id)
         if not record:
             missing.append(source_id)
             continue
-        artifact_dir = video_artifacts_dir(root) / f"{record.platform}_{record.source_id}"
+        planned_records.append(record)
+        artifact_dir = resolved_video_artifact_dir(root, record, artifacts_dir, artifact_layout)
         video_path = artifact_dir / "source.mp4"
+        pipeline_state = load_pipeline_state(artifact_dir, record)
         entry = {
             "platform": record.platform,
             "source_id": record.source_id,
             "account_name": record.account_name or record.author_name,
             "title": record.title,
-            "video_path": str(video_path.relative_to(root)),
+            "video_path": path_for_report(video_path, root),
             "status": "pending",
             "warnings": [],
             "errors": [],
         }
-        if not record.video_download_url:
+        if direct_video_urls.get(source_id):
+            download_url = direct_video_urls[source_id]
+            resolve_warnings = ["using_direct_video_url_override"]
+        else:
+            try:
+                download_url, resolve_warnings = resolved_record_video_url(record)
+            except Exception as exc:
+                entry["errors"].append(f"xhs_video_url_resolve_failed: {exc}")
+                entry["status"] = "missing_video_url"
+                failed += 1
+                statuses[source_id] = entry
+                continue
+        if not download_url:
             entry["status"] = "missing_video_url"
             failed += 1
             statuses[source_id] = entry
             continue
         try:
-            warnings = ensure_video_file(record.video_download_url, video_path)
-            entry["warnings"] = warnings
+            video_validation = validate_video_artifact(video_path)
+            if video_validation["validation"] != "valid":
+                mark_pipeline_step(
+                    artifact_dir,
+                    pipeline_state,
+                    "download",
+                    "running",
+                    video_validation["validation"],
+                    video_validation["reason"],
+                )
+            warnings = ensure_video_file(
+                download_url,
+                video_path,
+                force_download=video_validation["validation"] in {"corrupt", "partial", "stale"},
+            )
+            video_validation = validate_video_artifact(video_path)
+            if video_validation["validation"] != "valid":
+                mark_pipeline_step(
+                    artifact_dir,
+                    pipeline_state,
+                    "download",
+                    "failed",
+                    video_validation["validation"],
+                    video_validation["reason"],
+                )
+                raise RuntimeError(f"video_validation_failed: {video_validation['reason']}")
+            mark_pipeline_step(artifact_dir, pipeline_state, "download", "completed", "valid")
+            entry["warnings"] = resolve_warnings + warnings
             if warnings and warnings[0] == "using_existing_video_file":
                 entry["status"] = "reused_local_file"
                 reused += 1
             else:
                 entry["status"] = "downloaded"
                 downloaded += 1
+            entry["current_step"] = pipeline_current_step(artifact_dir)
         except Exception as exc:
             entry["status"] = "failed"
             entry["errors"].append(str(exc))
             failed += 1
+            entry["current_step"] = pipeline_current_step(artifact_dir)
         statuses[source_id] = entry
+
+    nas_mirror: dict[str, str] = {}
+    if mirror_nas_state and artifacts_dir is not None and artifact_layout == "account":
+        mirror_account_name = account_name or (planned_records[0].account_name or planned_records[0].author_name if planned_records else "")
+        if mirror_account_name:
+            status_by_key = {f"{item.get('platform')}:{source_id}": {"status": item.get("status"), "video": {}} for source_id, item in statuses.items()}
+            nas_mirror = write_nas_account_mirror(
+                account_artifact_dir_from_base(artifacts_dir, mirror_account_name),
+                mirror_account_name,
+                planned_records,
+                status_by_key,
+            )
 
     result = {
         "raw_counts": raw_counts,
@@ -2246,8 +3229,9 @@ def download_selected_media(root: Path, source_ids: set[str] | None = None) -> d
         "reused": reused,
         "failed": failed,
         "missing": missing,
-        "video_artifacts_dir": str(video_artifacts_dir(root).relative_to(root)),
+        "video_artifacts_dir": path_for_report(resolved_video_artifacts_root(root, artifacts_dir), root),
         "report": str((output_dir / "latest_video_download_report.md").relative_to(root)),
+        "nas_mirror": nas_mirror,
     }
     write_json_file(output_dir / "latest_video_download_statuses.json", statuses)
     (output_dir / "latest_video_download_report.md").write_text(
@@ -2256,6 +3240,29 @@ def download_selected_media(root: Path, source_ids: set[str] | None = None) -> d
     )
     result["downloaded_files"] = [item["video_path"] for item in statuses.values() if item.get("status") in {"downloaded", "reused_local_file"}]
     return result
+
+
+def generate_nas_account_index(root: Path, artifacts_dir: Path, account_name: str) -> dict[str, Any]:
+    records, raw_counts, dedupe_stats, failed_files = load_unique_records_detailed(root)
+    planned_records = [
+        record
+        for record in records
+        if account_name in {record.account_name, record.author_name}
+    ]
+    account_dir = account_artifact_dir_from_base(artifacts_dir, account_name)
+    mirror = write_nas_account_mirror(account_dir, account_name, planned_records, {})
+    artifact_index = read_json_file(account_dir / "_artifact_index.json", {"items": {}})
+    return {
+        "raw_counts": raw_counts,
+        "dedupe_stats": dedupe_stats,
+        "failed_files": failed_files,
+        "partial_success": bool(failed_files),
+        "account_name": account_name,
+        "account_dir": str(account_dir),
+        "planned_records": len(planned_records),
+        "indexed_artifacts": len(artifact_index.get("items", {})),
+        "nas_mirror": mirror,
+    }
 
 
 def learning_status(root: Path) -> dict[str, Any]:
@@ -2380,8 +3387,12 @@ def should_prevent_sleep(args: argparse.Namespace) -> bool:
     return not command and bool(getattr(args, "analyze_video", False))
 
 
+def parsed_artifacts_dir(value: str) -> Path | None:
+    return Path(value).expanduser().resolve() if value else None
+
+
 def main() -> int:
-    if len(sys.argv) > 1 and sys.argv[1] in {"scan", "select", "learn", "download", "status"}:
+    if len(sys.argv) > 1 and sys.argv[1] in {"scan", "select", "learn", "download", "nas-index", "status"}:
         parser = argparse.ArgumentParser(description="Run video learning workflow for the knowledge base.")
         subparsers = parser.add_subparsers(dest="command", required=True)
 
@@ -2411,10 +3422,23 @@ def main() -> int:
         learn_parser.add_argument("--analyze-images", action="store_true", help="Try XHS image download and OCR")
         learn_parser.add_argument("--max-images-per-note", type=int, default=18, help="Maximum images per post")
         learn_parser.add_argument("--force", action="store_true", help="Re-learn items already marked completed")
+        learn_parser.add_argument("--artifacts-dir", default="", help="Optional external video artifacts root, such as a NAS folder")
+        learn_parser.add_argument("--artifact-layout", choices=["flat", "account"], default="flat", help="Artifact directory layout")
+        learn_parser.add_argument("--account-name", default="", help="Account folder/name for NAS account layout")
+        learn_parser.add_argument("--mirror-nas-state", action="store_true", help="Mirror plan/progress/index files to the NAS account folder")
 
         download_parser = subparsers.add_parser("download", help="Download queued or selected content without deep learning")
         download_parser.add_argument("--root", default=".", help="Knowledge base root")
         download_parser.add_argument("--source-ids", default="", help="Comma-separated source IDs to download instead of queue")
+        download_parser.add_argument("--artifacts-dir", default="", help="Optional external video artifacts root, such as a NAS folder")
+        download_parser.add_argument("--artifact-layout", choices=["flat", "account"], default="flat", help="Artifact directory layout")
+        download_parser.add_argument("--account-name", default="", help="Account folder/name for NAS account layout")
+        download_parser.add_argument("--mirror-nas-state", action="store_true", help="Mirror plan/progress/index files to the NAS account folder")
+
+        nas_index_parser = subparsers.add_parser("nas-index", help="Refresh NAS account artifact index and progress mirror")
+        nas_index_parser.add_argument("--root", default=".", help="Knowledge base root")
+        nas_index_parser.add_argument("--artifacts-dir", required=True, help="NAS artifacts root")
+        nas_index_parser.add_argument("--account-name", required=True, help="Account folder/name to index")
 
         status_parser = subparsers.add_parser("status", help="Show queue and manifest status")
         status_parser.add_argument("--root", default=".", help="Knowledge base root")
@@ -2451,9 +3475,22 @@ def main() -> int:
                     analyze_images=args.analyze_images,
                     max_images_per_note=max(args.max_images_per_note, 0),
                     force=args.force,
+                    artifacts_dir=parsed_artifacts_dir(args.artifacts_dir),
+                    artifact_layout=args.artifact_layout,
+                    account_name=args.account_name,
+                    mirror_nas_state=args.mirror_nas_state,
                 )
             elif args.command == "download":
-                result = download_selected_media(root, source_ids=parse_source_ids(args.source_ids))
+                result = download_selected_media(
+                    root,
+                    source_ids=parse_source_ids(args.source_ids),
+                    artifacts_dir=parsed_artifacts_dir(args.artifacts_dir),
+                    artifact_layout=args.artifact_layout,
+                    account_name=args.account_name,
+                    mirror_nas_state=args.mirror_nas_state,
+                )
+            elif args.command == "nas-index":
+                result = generate_nas_account_index(root, parsed_artifacts_dir(args.artifacts_dir) or Path(args.artifacts_dir), args.account_name)
             else:
                 result = learning_status(root)
         print(json.dumps(result, ensure_ascii=False, indent=2))

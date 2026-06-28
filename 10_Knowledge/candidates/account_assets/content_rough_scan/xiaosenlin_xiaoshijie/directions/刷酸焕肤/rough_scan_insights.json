@@ -1,0 +1,727 @@
+{
+  "direction": "刷酸焕肤",
+  "topic_clusters": [
+    {
+      "topic": "酸",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "657adb3d000000003802ab3b",
+          "title": "用酸爆痘烂脸的姐妹看过来！",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "65e307db000000000400283c",
+          "title": "几十块钱的酸，让我从油痘肌变成水光肌",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6624dcd800000000010307b0",
+          "title": "一张常年用酸的脸",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "66f0e5e6000000001a023f47",
+          "title": "11年油痘肌教你如何正确用水杨酸！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "673c4c4b0000000008007631",
+          "title": "油痘肌用酸后离不开的护肤搭配",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "水杨酸",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "6624dcd800000000010307b0",
+          "title": "一张常年用酸的脸",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "66f0e5e6000000001a023f47",
+          "title": "11年油痘肌教你如何正确用水杨酸！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "68777040000000001d00d5d7",
+          "title": "12年油痘肌，用酸干货+爱用酸分享！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "68f20a3b00000000040137f5",
+          "title": "一篇讲清楚丝塔芙洁面怎么选？不花冤枉钱！",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "耐受",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "65e307db000000000400283c",
+          "title": "几十块钱的酸，让我从油痘肌变成水光肌",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "67fb49a0000000001d01cbb4",
+          "title": "感谢酸A晚间护肤还我妈生好皮",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "刷酸",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "673c4c4b0000000008007631",
+          "title": "油痘肌用酸后离不开的护肤搭配",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "无酸",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "6a20f3210000000022015948",
+          "title": "无酸搞定颗粒脸",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "角质",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "6788ff6c00000000180308ff",
+          "title": "一张常年用酸的脸",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "常年用酸",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "69fee36d00000000230073b9",
+          "title": "一张常年用酸年的脸",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "657adb3d000000003802ab3b",
+      "title": "用酸爆痘烂脸的姐妹看过来！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用酸爆痘烂脸的姐妹看过来",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [
+        "这两个小tips大家注意好，酸真的很香"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65e307db000000000400283c",
+      "title": "几十块钱的酸，让我从油痘肌变成水光肌",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "几十块钱的酸，让我从油痘肌变成水光肌 油痘肌零基础护肤栏目终于回归了",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "黑头闭口",
+        "毛孔粗大",
+        "长痘",
+        "油皮"
+      ],
+      "short_phrases": [
+        "几十块钱的酸，让我从油痘肌变成水光肌 油痘肌零基础护肤栏目终于回归了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6624dcd800000000010307b0",
+      "title": "一张常年用酸的脸",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一张常年用酸的脸 今年是用酸的第5个年头了，素颜皮肤看起来光滑、细腻，毛孔很小，也不怎么长闭口痘痘了，整体肤质比5年前要好很多",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "油痘肌"
+      ],
+      "short_phrases": [
+        "我大概一周会用五次酸，都是在晚上用",
+        "之前有朋友问：为什么我也用酸，却达不到你这种效果"
+      ],
+      "question_phrases": [
+        "之前有朋友问：为什么我也用酸，却达不到你这种效果"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "66f0e5e6000000001a023f47",
+      "title": "11年油痘肌教你如何正确用水杨酸！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "11年油痘肌教你如何正确用水杨酸",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "毛孔粗大",
+        "油痘肌护肤",
+        "皮肤粗糙",
+        "闭口痘痘",
+        "黑头"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "11年油痘肌教你如何正确用水杨酸"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "673c4c4b0000000008007631",
+      "title": "油痘肌用酸后离不开的护肤搭配",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌用酸后离不开的护肤搭配 油痘肌护肤真的离不开酸 它能让我们的皮肤越用越细腻 但是有很多姐妹一用酸就翻车 6年用酸老手来跟大家分享个 用酸不翻车的方法 每次用完酸后爆痘干燥脱皮",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "刷酸",
+        "修护",
+        "绽妍",
+        "绽妍速修精华",
+        "逆袭变美",
+        "项目后修护"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6788ff6c00000000180308ff",
+      "title": "一张常年用酸的脸",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一张常年用酸的脸 用酸5年，酸是我最爱的一个护肤品，让我从满脸痘痘闭口到现在皮肤细腻光滑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "我的护肤年度总结",
+        "年前突击变美",
+        "油痘肌护肤",
+        "痘痘肌",
+        "闭口粉刺",
+        "油皮",
+        "刷酸"
+      ],
+      "short_phrases": [
+        "毛孔变小、有光泽、皮肤干净，它都功不可没",
+        "很多姐妹一说酸就害怕，我觉得是用法和产"
+      ],
+      "question_phrases": [
+        "大家搓过澡吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "67ac540d000000002903e2f2",
+      "title": "用酸6年，彻底不长痘后的一些心得",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "用酸6年，彻底不长痘后的一些心得 我用了快6年酸了，皮肤直接从一脸的麻麻赖赖，变成了光滑水煮蛋，所以很多朋友刚见到我的时候，都不相信我是油痘肌",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "闭口",
+        "毛孔粗大",
+        "油痘肌护肤",
+        "痘痘闭口",
+        "刷酸",
+        "精华推荐",
+        "Janmarini",
+        "六酸精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67aee84f000000002902d58f",
+      "title": "无数次猛药翻车总结出来的快速修护思路",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无数次猛药翻车总结出来的快速修护思路 我特别喜欢用各种功效护肤 反正见效越快越好 我现在的素颜状态保持得还不错 其实酸、A醇、VC这些都有功劳~ 但是常言道：伴猛药如伴虎 所以以前",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "敏感肌",
+        "护肤",
+        "油痘肌护肤",
+        "A醇",
+        "刷酸",
+        "绽妍",
+        "绽妍面膜",
+        "绽妍敷料",
+        "屏障受损",
+        "do脸"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67fb49a0000000001d01cbb4",
+      "title": "感谢酸A晚间护肤还我妈生好皮",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "感谢酸A晚间护肤还我妈生好皮 今天是一期「酸A晚间护肤」跟练，手把手教大家把酸和A搭配起来用",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "酸",
+        "A醇",
+        "素颜好皮帮帮忙",
+        "祛痘帮帮忙",
+        "痘痘闭口",
+        "如何拯救痘痘肌",
+        "护肤干货"
+      ],
+      "short_phrases": [
+        "只要你对酸和A都耐受了，就可以按照我这个方法来操作~ PS.敏敏肌就不要试"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6800afe1000000001d014ca7",
+      "title": "用酸6年的脸",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "用酸6年的脸 感谢酸让我的脸从满脸麻麻赖赖变成了现在干净光滑，今天我就把我的早晚间用酸干货分享给你们，按照我的方法来不用担心敏敏爆痘~希望大家都可以收获水灵灵的好皮肤❤️ # # ",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "素颜好皮帮帮忙",
+        "祛痘帮帮忙",
+        "Medature葆科美",
+        "葆科美色修冻霜",
+        "色修霜",
+        "PS素颜精华",
+        "多酸焕肌精华液"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68777040000000001d00d5d7",
+      "title": "12年油痘肌，用酸干货+爱用酸分享！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌，用酸干货+爱用酸分享",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油皮护肤",
+        "痘痘肌逆袭",
+        "普通人的变美思路",
+        "果酸",
+        "水杨酸"
+      ],
+      "short_phrases": [
+        "12年油痘肌，用酸干货+爱用酸分享"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "68f20a3b00000000040137f5",
+      "title": "一篇讲清楚丝塔芙洁面怎么选？不花冤枉钱！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一篇讲清楚丝塔芙洁面怎么选",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌洗面奶",
+        "丝塔芙洗面奶",
+        "丝塔芙",
+        "水杨酸洁",
+        "丝塔芙小云朵洁面",
+        "氨基酸洗面奶",
+        "丝塔芙蓝朋友洁面",
+        "敏感肌洗面奶",
+        "丝塔芙三酸洁面"
+      ],
+      "short_phrases": [
+        "这三款我都用过，今天跟大家分享一下不同肤质怎么选"
+      ],
+      "question_phrases": [
+        "一篇讲清楚丝塔芙洁面怎么选",
+        "这三款我都用过，今天跟大家分享一下不同肤质怎么选"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "695a2561000000001f0096c0",
+      "title": "经常用酸的好处",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "经常用酸的好处 用了5年酸，没有出现皮肤越来越薄、越来越敏的情况，反而柔嫩平滑细腻有光泽，谁都看不出我是12年油痘肌✌️真的非常建议油痘肌姐妹把酸用起来",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "痘痘闭口",
+        "闭口",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "但现在，就算长闭"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "经常用酸的好处 用了5年酸，没有出现皮肤越来越薄、越来越敏的情况，反而柔嫩平滑细腻有光泽，谁都看不出我是12年油痘肌✌️真的非常建议油痘肌姐妹把酸用起来"
+      ],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "69fee36d00000000230073b9",
+      "title": "一张常年用酸年的脸",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一张常年用酸年的脸 和几年前的脸完全是判若两人，闭口、毛孔、肤色，全部都改善了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "痘痘肌",
+        "闭口粉刺",
+        "油皮",
+        "刷酸"
+      ],
+      "short_phrases": [
+        "结合👩‍⚕️教我的，我总结了一下我的方法",
+        "1、爱长闭口 一周至少3-5次酸",
+        "我刚开始怕酸太猛翻车，一周就用1次，闭"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6a20f3210000000022015948",
+      "title": "无酸搞定颗粒脸",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无酸搞定颗粒脸 # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "麻麻赖赖",
+        "小疙瘩",
+        "毛孔堵塞",
+        "YSL夜皇后调皮水",
+        "YSL夜皇后调皮水乳"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "657adb3d000000003802ab3b",
+      "title": "用酸爆痘烂脸的姐妹看过来！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用酸爆痘烂脸的姐妹看过来",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [
+        "这两个小tips大家注意好，酸真的很香"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "673c4c4b0000000008007631",
+      "title": "油痘肌用酸后离不开的护肤搭配",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌用酸后离不开的护肤搭配 油痘肌护肤真的离不开酸 它能让我们的皮肤越用越细腻 但是有很多姐妹一用酸就翻车 6年用酸老手来跟大家分享个 用酸不翻车的方法 每次用完酸后爆痘干燥脱皮",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "刷酸",
+        "修护",
+        "绽妍",
+        "绽妍速修精华",
+        "逆袭变美",
+        "项目后修护"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67ac540d000000002903e2f2",
+      "title": "用酸6年，彻底不长痘后的一些心得",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "用酸6年，彻底不长痘后的一些心得 我用了快6年酸了，皮肤直接从一脸的麻麻赖赖，变成了光滑水煮蛋，所以很多朋友刚见到我的时候，都不相信我是油痘肌",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "闭口",
+        "毛孔粗大",
+        "油痘肌护肤",
+        "痘痘闭口",
+        "刷酸",
+        "精华推荐",
+        "Janmarini",
+        "六酸精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67aee84f000000002902d58f",
+      "title": "无数次猛药翻车总结出来的快速修护思路",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无数次猛药翻车总结出来的快速修护思路 我特别喜欢用各种功效护肤 反正见效越快越好 我现在的素颜状态保持得还不错 其实酸、A醇、VC这些都有功劳~ 但是常言道：伴猛药如伴虎 所以以前",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "敏感肌",
+        "护肤",
+        "油痘肌护肤",
+        "A醇",
+        "刷酸",
+        "绽妍",
+        "绽妍面膜",
+        "绽妍敷料",
+        "屏障受损",
+        "do脸"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68f20a3b00000000040137f5",
+      "title": "一篇讲清楚丝塔芙洁面怎么选？不花冤枉钱！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一篇讲清楚丝塔芙洁面怎么选",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌洗面奶",
+        "丝塔芙洗面奶",
+        "丝塔芙",
+        "水杨酸洁",
+        "丝塔芙小云朵洁面",
+        "氨基酸洗面奶",
+        "丝塔芙蓝朋友洁面",
+        "敏感肌洗面奶",
+        "丝塔芙三酸洁面"
+      ],
+      "short_phrases": [
+        "这三款我都用过，今天跟大家分享一下不同肤质怎么选"
+      ],
+      "question_phrases": [
+        "一篇讲清楚丝塔芙洁面怎么选",
+        "这三款我都用过，今天跟大家分享一下不同肤质怎么选"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "657adb3d000000003802ab3b",
+      "title": "用酸爆痘烂脸的姐妹看过来！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用酸爆痘烂脸的姐妹看过来",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌",
+        "如何拯救痘痘肌",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [
+        "这两个小tips大家注意好，酸真的很香"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "673c4c4b0000000008007631",
+      "title": "油痘肌用酸后离不开的护肤搭配",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌用酸后离不开的护肤搭配 油痘肌护肤真的离不开酸 它能让我们的皮肤越用越细腻 但是有很多姐妹一用酸就翻车 6年用酸老手来跟大家分享个 用酸不翻车的方法 每次用完酸后爆痘干燥脱皮",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "刷酸",
+        "修护",
+        "绽妍",
+        "绽妍速修精华",
+        "逆袭变美",
+        "项目后修护"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67ac540d000000002903e2f2",
+      "title": "用酸6年，彻底不长痘后的一些心得",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "用酸6年，彻底不长痘后的一些心得 我用了快6年酸了，皮肤直接从一脸的麻麻赖赖，变成了光滑水煮蛋，所以很多朋友刚见到我的时候，都不相信我是油痘肌",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "闭口",
+        "毛孔粗大",
+        "油痘肌护肤",
+        "痘痘闭口",
+        "刷酸",
+        "精华推荐",
+        "Janmarini",
+        "六酸精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67aee84f000000002902d58f",
+      "title": "无数次猛药翻车总结出来的快速修护思路",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无数次猛药翻车总结出来的快速修护思路 我特别喜欢用各种功效护肤 反正见效越快越好 我现在的素颜状态保持得还不错 其实酸、A醇、VC这些都有功劳~ 但是常言道：伴猛药如伴虎 所以以前",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "敏感肌",
+        "护肤",
+        "油痘肌护肤",
+        "A醇",
+        "刷酸",
+        "绽妍",
+        "绽妍面膜",
+        "绽妍敷料",
+        "屏障受损",
+        "do脸"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68f20a3b00000000040137f5",
+      "title": "一篇讲清楚丝塔芙洁面怎么选？不花冤枉钱！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一篇讲清楚丝塔芙洁面怎么选",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌洗面奶",
+        "丝塔芙洗面奶",
+        "丝塔芙",
+        "水杨酸洁",
+        "丝塔芙小云朵洁面",
+        "氨基酸洗面奶",
+        "丝塔芙蓝朋友洁面",
+        "敏感肌洗面奶",
+        "丝塔芙三酸洁面"
+      ],
+      "short_phrases": [
+        "这三款我都用过，今天跟大家分享一下不同肤质怎么选"
+      ],
+      "question_phrases": [
+        "一篇讲清楚丝塔芙洁面怎么选",
+        "这三款我都用过，今天跟大家分享一下不同肤质怎么选"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

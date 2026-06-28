@@ -1,0 +1,4012 @@
+{
+  "direction": "护肤功效",
+  "topic_clusters": [
+    {
+      "topic": "护肤",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "6221e85b00000000210366b8",
+          "title": "我靠洗脸把皮肤屏障修复好了！",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "623afb410000000021037017",
+          "title": "不输大牌的痘皮平价护肤攻略（直接抄作业）",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62b57513000000000102a167",
+          "title": "269元搞定不输大牌的精简有效平价痘肌护肤",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62b69b12000000000f008069",
+          "title": "痘肌好皮养成～大家都能拥有素颜光泽肌",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "62bc1465000000000303f249",
+          "title": "油痘皮妈生水光肌，晚间护肤分享～（1）",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "皮肤",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "6221e85b00000000210366b8",
+          "title": "我靠洗脸把皮肤屏障修复好了！",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "623afb410000000021037017",
+          "title": "不输大牌的痘皮平价护肤攻略（直接抄作业）",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "62725331000000002103acec",
+          "title": "洗面奶对于恢复皮肤屏障真的很重要！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6274f51e0000000001026ece",
+          "title": "修护皮肤屏障注意事项（不花钱版）",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "628700ee000000000102ef07",
+          "title": "不走弯路，逆光疹 痊愈 经验分享",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "肤质",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62db869c000000001b03ec75",
+          "title": "油痘肌用了不会闷痘的清爽防晒",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6309d5f5000000001e009276",
+          "title": "油痘肌2022上半年护肤品爱用！自用🈚️广！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6336bc47000000001d013a93",
+          "title": "细腻皮肤的干货来了",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "63636a360000000008011202",
+          "title": "油痘肌购物指南，千万别瞎买分分钟烂脸‼️",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "646479f1000000001300b978",
+          "title": "油痘肌养成通透感好皮肤",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "修护",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "6274f51e0000000001026ece",
+          "title": "修护皮肤屏障注意事项（不花钱版）",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "635cdec6000000001403678a",
+          "title": "油痘肌精简护肤💆秋冬氧气感养成秘诀",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "636b6ddd0000000009002790",
+          "title": "油M皮正确护肤，mm痘痘一网打尽‼️",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "64507395000000001300a9a3",
+          "title": "油痘肌正确护肤：让300元有3000元效果",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6527d2b2000000001e00c0e4",
+          "title": "让我脱离高原红的神奇玩意（油敏痘肌）",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "屏障",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62725331000000002103acec",
+          "title": "洗面奶对于恢复皮肤屏障真的很重要！",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "628700ee000000000102ef07",
+          "title": "不走弯路，逆光疹 痊愈 经验分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6501c0e4000000001e0292f2",
+          "title": "好皮肤是因为我会洗脸",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "658fab3d000000001101ca96",
+          "title": "一定要分享我是怎么解决外油内干的！",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "69f829f9000000002202492e",
+          "title": "百元搞定家庭版舒红之星，褪红超快！",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "美白",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62357658000000000102ff8b",
+          "title": "我没见过有谁牙齿比我白🦷",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6368afb0000000000a00bd99",
+          "title": "油痘肌白白好物分享",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "63ee0197000000001203253c",
+          "title": "油痘肌也可以嫩嫩白白，干干净净",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "6606ce3d000000001a0152c3",
+          "title": "闭眼黄睁眼亮，暗黄皮才懂它的含金量~",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "66e1698c000000000c01b249",
+          "title": "从黄二白重返黄一白~",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "暗沉",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "646db263000000000800c14f",
+          "title": "油痘肌抗老，拥有透亮好皮肤",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "66612eac000000000e030952",
+          "title": "油皮素颜好皮肤，教你们去暗沉黄气呀～",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "674eaf650000000007031e04",
+          "title": "下巴颗粒终于没了",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "686200f2000000002203d7ce",
+          "title": "不到300元搞定油痘肌平价早晚间护肤",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "68cf82400000000011014e8d",
+          "title": "好皮肤的第一步是去浊气",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "脸",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "62b2dbbe000000000102c8e5",
+          "title": "敏M肌正确洗脸方式",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "62bc1465000000000303f249",
+          "title": "油痘皮妈生水光肌，晚间护肤分享～（1）",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "63eef3c7000000001300430f",
+          "title": "油痘肌晨间护肤：5个小时过去脸上没有一点油",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "645f025c00000000070384f5",
+          "title": "油痘肌素颜好皮如何养出来",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "652d00c8000000001f03efd1",
+          "title": "1108这场会上的一些宝藏（油敏痘肌）",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "615678770000000001024cfb",
+      "title": "真的能淡化黑眼圈的眼霜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "真的能淡化黑眼圈的眼霜 我以前一直以为黑眼圈和泪沟只能靠别的方法解决了",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "好用的眼霜",
+        "去皱",
+        "有效去黑眼圈的眼霜"
+      ],
+      "short_phrases": [
+        "直到有一天，我刷小红书的时候发现有人说这款眼霜导致她眼部变干、敏感"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6221e85b00000000210366b8",
+      "title": "我靠洗脸把皮肤屏障修复好了！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我靠洗脸把皮肤屏障修复好了",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "敏感肌修护",
+        "皮肤屏障受损",
+        "干货分享",
+        "修复",
+        "温和洁面"
+      ],
+      "short_phrases": [
+        "我之前洗完澡、晒太阳、卸完妆，皮肤都会很红，很烫，有时候还很痛",
+        "买了好多好多大牌修复产品，都没有修复好皮肤",
+        "差不多1个月就慢慢的好了，我之前可是敏感泛红了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62725331000000002103acec",
+      "title": "洗面奶对于恢复皮肤屏障真的很重要！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "洗面奶对于恢复皮肤屏障真的很重要",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "拯救敏感肌",
+        "敏感肌皮肤屏障修复",
+        "洁面分享",
+        "经验分享",
+        "敏感肌洁面"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6274f51e0000000001026ece",
+      "title": "修护皮肤屏障注意事项（不花钱版）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "修护皮肤屏障注意事项（不花钱版） 不注意这些，花再多钱屏障也好不了 # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "敏感肌修护",
+        "拯救敏感肌",
+        "敏感肌皮肤屏障修复"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62b2dbbe000000000102c8e5",
+      "title": "敏M肌正确洗脸方式",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "敏M肌正确洗脸方式 我曾经高原红一年多，每次洗完澡脸都是红扑扑的",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "拯救敏感肌",
+        "敏感肌修护",
+        "敏感肌",
+        "敏感肌洁面",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "敏M肌正确洗脸方式 我曾经高原红一年多，每次洗完澡脸都是红扑扑的",
+        "但我用了医生推荐给我的这个温和洗脸方法，配合温和的洁面和卸妆产品"
+      ],
+      "question_phrases": [
+        "怎么脸上敏感恢复那么难呢， 一个因为你总是在用刺激的洁面产品刺激脸部， 什么是刺"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "62b69b12000000000f008069",
+      "title": "痘肌好皮养成～大家都能拥有素颜光泽肌",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "痘肌好皮养成～大家都能拥有素颜光泽肌 我真的是长了9年的闭口痘痘",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "好皮肤养成记",
+        "闭口粉刺",
+        "怎么才能去闭口",
+        "油痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "痘痘肌",
+        "如何拯救痘痘肌",
+        "素颜"
+      ],
+      "short_phrases": [
+        "痘肌好皮养成～大家都能拥有素颜光泽肌 我真的是长了9年的闭口痘痘",
+        "一般是中性皮才能这样） 但我最近无意间把这个光泽肌给解锁了，所"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "62c138f100000000060359df",
+      "title": "想要好皮肤真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "想要好皮肤真的很简单 我长了9年闭口痘痘，是标准的油痘肌，（图3左下是我以前的皮肤常态，九年一直都那样）所以油痘肌宝宝别焦虑，咱们真的可以变成水煮🥚",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "油痘肌",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "痘痘",
+        "素颜"
+      ],
+      "short_phrases": [
+        "想要皮肤细腻、平滑、有光泽，这些护肤品就能达到，而且不需"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62c7dc03000000000d027be8",
+      "title": "油痘肌护肤小白，想皮肤细腻不长痘看这个",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤小白，想皮肤细腻不长痘看这个 发现许多油痘肌宝宝还对s有一些恐惧，把s与烂脸等同一起，认为只能去医院才能S",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "油痘肌",
+        "护肤",
+        "痘痘肌",
+        "我的护肤日常",
+        "怎么才能去闭口",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "s对于油痘肌而言是非常好的，我从闭口痘痘星人变成现在的皮肤很大程度是🍋用的好",
+        "因为我们油痘肌出油量大，容易角质堆积，皮肤就不"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62d7bb5c000000001200188c",
+      "title": "极简护肤我爱了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "极简护肤我爱了 我是一个长了9年痘痘闭口的油痘肌，现在皮肤被我保养的蛮好，细腻、光滑、不会随意长痘痘闭口了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "兰蔻极光精华水乳",
+        "兰蔻",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "精简护肤",
+        "好皮肤养成记",
+        "闭口粉刺",
+        "护肤"
+      ],
+      "short_phrases": [
+        "皮肤出油量很大，如果还用厚重的护肤品，皮肤会马上抗议给你看，痘痘闭口层出不穷",
+        "油痘肌的宝宝们试试用s，可以加速皮肤新陈代谢，让皮肤"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62db869c000000001b03ec75",
+      "title": "油痘肌用了不会闷痘的清爽防晒",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌用了不会闷痘的清爽防晒 我是特别容易闷痘闷闭口的肤质，这些防晒我都用了挺久的，都不闷痘，痘肌宝宝们放心～ # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "防晒分享",
+        "防晒",
+        "平价防晒",
+        "物理防晒",
+        "每天涂防晒",
+        "防晒霜推荐",
+        "好用的防晒推荐"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "62ea2209000000001202c728",
+      "title": "油痘肌早晚间护肤，跟我一起变成水光肌～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌早晚间护肤，跟我一起变成水光肌～ # # # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "好皮肤养成记",
+        "油皮",
+        "痘痘肌",
+        "如何拯救痘痘肌",
+        "痘痘肌肤",
+        "护肤",
+        "素颜"
+      ],
+      "short_phrases": [
+        "油痘肌早晚间护肤，跟我一起变成水光肌～ # # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62f08aa9000000001b024588",
+      "title": "熬夜后怎么补救|皮肤细腻饱满的秘诀",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "熬夜后怎么补救|皮肤细腻饱满的秘诀 每次发现新的好用护肤品都好兴奋",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "修丽可抗氧化",
+        "修丽可早C晚B",
+        "修丽可日夜抗氧",
+        "去黄提亮",
+        "熬夜后怎么补救"
+      ],
+      "short_phrases": [
+        "熬夜后怎么补救|皮肤细腻饱满的秘诀 每次发现新的好用护肤品都好兴奋",
+        "随时照镜子皮肤都非常漂亮， 是那种淡淡如珍珠表皮在发光的那"
+      ],
+      "question_phrases": [
+        "熬夜后怎么补救|皮肤细腻饱满的秘诀 每次发现新的好用护肤品都好兴奋"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "62fe33f5000000001b01fd82",
+      "title": "毛孔缩小、皮肤细腻通透的精华护肤大法！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "毛孔缩小、皮肤细腻通透的精华护肤大法",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "精华",
+        "精华推荐",
+        "PITERA",
+        "抗老精华",
+        "笔记灵感",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "油痘肌",
+        "毛孔粗大",
+        "毛孔粗大怎么办",
+        "护肤",
+        "素颜",
+        "护肤分享"
+      ],
+      "short_phrases": [
+        "毛孔缩小、皮肤细腻通透的精华护肤大法"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6301e7d9000000001702e444",
+      "title": "油痘肌姐妹快来跟我一起护肤啊啊啊",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌姐妹快来跟我一起护肤啊啊啊 不长闭口是真的很开心",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "痘坑",
+        "怎么才能去闭口",
+        "好皮肤养成记",
+        "痘痘",
+        "素颜",
+        "如何拯救痘痘肌",
+        "去痘印",
+        "油痘肌"
+      ],
+      "short_phrases": [
+        "不长痘痘、不留痘印痘坑，脸就会慢慢变干净",
+        "做好深层清洁毛孔就能呼吸不长闭口，把护肤品营养吃进去",
+        "看看图3⃣️4⃣️的反馈～还有收到啦很多皮肤变好的反馈我都忘记截图了哈"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6309d5f5000000001e009276",
+      "title": "油痘肌2022上半年护肤品爱用！自用🈚️广！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘肌2022上半年护肤品爱用",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "油皮痘痘肌",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "这期我分享的爱用都是我亲测不会闷闭口，又能带给我们油痘肌惊喜的护肤品",
+        "有大痘子、或者想镇定"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "63147930000000000900f3e0",
+      "title": "让皮肤变好的从来不是护肤品，而是护肤方式",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "让皮肤变好的从来不是护肤品，而是护肤方式 很多人看我现在的皮肤都不相信我是油痘肌，我长了9年痘痘闭口",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "如何拯救痘痘肌",
+        "痘痘肌肤",
+        "怎么才能去闭口",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "现在皮肤挺细腻、又有光泽，不会随意的长闭口了",
+        "我心中油痘肌护肤的重要程度：敏感>痘痘闭口>平滑细腻肌肤>美b、k氧化、k"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "让皮肤变好的从来不是护肤品，而是护肤方式 很多人看我现在的皮肤都不相信我是油痘肌，我长了9年痘痘闭口"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "632049b000000000090320fb",
+      "title": "油痘肌正确护肤分享，不是不好用是你不会用",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "油痘肌正确护肤分享，不是不好用是你不会用 之前分享过一些在网上非常有名的油痘肌天菜护肤品，比如：神*水、极*水，总是会在下面看到一些油痘肌宝宝反馈，怎么用完感觉痘痘更多了呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "痘痘肌",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "为什么毫无作用"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6336bc47000000001d013a93",
+      "title": "细腻皮肤的干货来了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "细腻皮肤的干货来了 我是长达9年的油痘肌肤质，但现在皮肤还挺细腻光滑的",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "科颜氏A醇精华",
+        "早C晚A",
+        "油痘肌大作战",
+        "好皮肤养成记",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "细腻皮肤的干货来了 我是长达9年的油痘肌肤质，但现在皮肤还挺细腻光滑的",
+        "关于细腻皮肤、缩小毛孔这方面，我很建议你们试试A醇",
+        "最近我发现了一个很温和但效果又很好的A醇精华，科颜氏A醇精华",
+        "这款很适合新手，里面复"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "635b863d0000000014036249",
+      "title": "皮肤变得细腻又平滑的晚间护肤～提升肤质！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "皮肤变得细腻又平滑的晚间护肤～提升肤质",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "我的护肤日常",
+        "好皮肤养成记",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "皮肤变得细腻又平滑的晚间护肤～提升肤质",
+        "这个护肤方法可以缩毛孔、细腻皮肤、提升肤质～ 用了第二天摸脸就会感觉很光滑",
+        "但注意一定要用耐受的a醇，不确定a醇耐不耐受不能用这个方法"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63622c6b000000000601d65d",
+      "title": "油痘肌养成好皮肤，经验分享～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌养成好皮肤，经验分享～ 咱们油痘肌出油多、角质层容易堆积，所以很容易长闭口、闷痘痘、皮肤还看着蜡黄、气色差",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "兰蔻极光精华水乳",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "因为它不管是细腻皮肤、平衡水油还是去闭口、美白的效果都很好",
+        "你不用烦恼瓶瓶罐罐要如何搭配，极光水乳都搭配好了"
+      ],
+      "question_phrases": [
+        "你不用烦恼瓶瓶罐罐要如何搭配，极光水乳都搭配好了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63636a360000000008011202",
+      "title": "油痘肌购物指南，千万别瞎买分分钟烂脸‼️",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘肌购物指南，千万别瞎买分分钟烂脸‼️ 油痘肌千万要理性购物哦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "00:30[时刻]",
+        "01:21[时刻]",
+        "02:31[时刻]",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "双十一攻略",
+        "双十一购物"
+      ],
+      "short_phrases": [
+        "油痘肌购物指南，千万别瞎买分分钟烂脸‼️ 油痘肌千万要理性购物哦"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6368afb0000000000a00bd99",
+      "title": "油痘肌白白好物分享",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌白白好物分享 我以前的皮肤一直都不是很白，是黄皮那种",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "美白精华",
+        "美白精华推荐",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "油痘肌白白好物分享 我以前的皮肤一直都不是很白，是黄皮那种",
+        "一暗沉就很显黑，看起来气色差",
+        "美白精华一直都用，但说实话对我效果甚微",
+        "直到遇到这两款，是我用到现在确定能变白的，而且速度快"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "639833fb000000001e03e545",
+      "title": "油痘肌学会分区护理，真香！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌学会分区护理，真香",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "油痘肌学会分区护理，真香",
+        "1、在洗脸的时候分区域护肤就要开始了，着重的洗t区这种出油猛的地方"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63c0cfbb000000001f0013f5",
+      "title": "从油痘肌到奶油肌，我终于懂了！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "从油痘肌到奶油肌，我终于懂了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "植村秀琥珀养肤洁颜油",
+        "油痘肌护肤",
+        "卸妆分享",
+        "有哪些好用的卸妆油",
+        "我的护肤日常"
+      ],
+      "short_phrases": [
+        "从油痘肌到奶油肌，我终于懂了",
+        "很多油痘肌觉得自己出油多，化妆后像有洁癖一样一遍遍做清洁，其实对皮肤伤害很大",
+        "现在有一个肤质叫油敏皮，又油又敏敏，很大一部分原因就是清洁过头了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63c23fcc000000001f02793b",
+      "title": "长痘、皮肤粗糙时期护肤流程，快速回到🥚肌",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "长痘、皮肤粗糙时期护肤流程，快速回到🥚肌 脸上长红肿痘，皮肤粗糙有颗粒感都可以参考我的这个护肤流程",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "01:19[时刻]",
+        "03:07[时刻]",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "我的护肤日常",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "希望对你们有帮助❤️ # 晚间护肤开始 # 晨间护肤开始 # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63d783b900000000080279c9",
+      "title": "油痘肌护肤：从大牌追逐者变成实用护肤主义",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤：从大牌追逐者变成实用护肤主义 我长了9年的痘痘，曾经的额头密密麻麻全是闭口，前9年我的脸几乎没有一天是平整的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "1⃣️不要盲目追逐品牌"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63e5e2e10000000013005925",
+      "title": "油痘肌精简护肤，真香",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌精简护肤，真香 今年我28岁啦，所以在护肤方面简单的补水、保湿已经满足不了我的需求了",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "兰蔻三管精华",
+        "面部平整度",
+        "抗老",
+        "油痘肌护肤",
+        "油痘肌",
+        "油痘肌大作战",
+        "精简护肤",
+        "抗老精华"
+      ],
+      "short_phrases": [
+        "我最近在尝试精简护肤，效果很好~分享给你们❤ # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63e73031000000001203d6e8",
+      "title": "我长过的痘不会让你再长",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我长过的痘不会让你再长 最近收到一个护肤品，是我特别喜欢的一个品牌寄来的",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "油痘肌"
+      ],
+      "short_phrases": [
+        "我长过的痘不会让你再长 最近收到一个护肤品，是我特别喜欢的一个品牌寄来的",
+        "但很可惜，试用后发现它闷痘，于是我拒绝了这次合作",
+        "从做博主开始，找我的品牌就很多，而且大多都是耳熟能详的大牌",
+        "但说实话，适合油痘肌的护肤品并不多，而且我本人在护肤品上很挑剔"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63ee0197000000001203253c",
+      "title": "油痘肌也可以嫩嫩白白，干干净净",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌也可以嫩嫩白白，干干净净 油痘肌的宝子别再问我怎么美白啦～这就来给你们分享",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "美白",
+        "美白精华",
+        "去痘印",
+        "敏感肌能用的精华",
+        "雅顿冷光银胶"
+      ],
+      "short_phrases": [
+        "直到我用了这个雅顿冷光银胶，真的狠狠把我惊艳到了......真能白"
+      ],
+      "question_phrases": [
+        "油痘肌也可以嫩嫩白白，干干净净 油痘肌的宝子别再问我怎么美白啦～这就来给你们分享"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "63f095db0000000013036d96",
+      "title": "油痘肌1-2月爱用，面膜、粉霜、防晒、爽肤水",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘肌1-2月爱用，面膜、粉霜、防晒、爽肤水 虽迟但到",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好用物分享",
+        "我的平价好物",
+        "防晒分享",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "油痘肌1-2月爱用，面膜、粉霜、防晒、爽肤水 虽迟但到",
+        "（很多贵妇面膜用的是一个心理安慰而已） 2⃣️MD防晒：我叫它“空气防晒”"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6406c09c000000001300521b",
+      "title": "别问我平时怎么护肤的啦",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "别问我平时怎么护肤的啦 很多姐妹问我关于皮肤好的问题，所以今天来分享一些我的相关经验～ 平时除了好好护肤，我会比较注意养生",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "FILLMED菲欧曼",
+        "护肤",
+        "皮肤管理",
+        "spa",
+        "素颜",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "比如每天冥想，吃大量的蔬菜水果，泡澡加速身体血液循环",
+        "也会定期去做皮肤管理，让肌肤维持在一个发光肌的状态"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "640da5be000000002702b6d6",
+      "title": "油痘肌护肤攻略，从满脸痘痘闭口到妈生好皮",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌护肤攻略，从满脸痘痘闭口到妈生好皮 我是长达十年的油痘肌，图四是我以前的皮肤[哭惹R]从满脸痘痘闭口到现在皮肤细腻光滑，确实是有护肤窍门的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "痘痘肌",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "1⃣️脸上mm、泛红，同时又有痘痘和闭口",
+        "这种情况要先治mm，因为皮肤mm的情况下很多qu痘的东西"
+      ],
+      "question_phrases": [
+        "今天把我的护肤套路分享给你们～ 从1⃣️-4⃣️是一个皮肤变好的过程，你们看自己现在是哪个阶段就知道该如何护肤了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64144bf20000000011011970",
+      "title": "不到300元搞定油痘肌平价祛痘晚间护肤！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "不到300元搞定油痘肌平价祛痘晚间护肤",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "敷尔佳",
+        "敷尔佳祛痘面膜",
+        "痘肌友好更亲肤",
+        "战痘模范",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "我的平价好物"
+      ],
+      "short_phrases": [
+        "希望对你有帮助❤️ # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "642143370000000014026a09",
+      "title": "对咱们油皮而言，用的贵不如用的对",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "对咱们油皮而言，用的贵不如用的对 我发现很多油皮姐妹对于让皮肤变好这个事都有一个误解，我自己以前也是有这样的误解",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "悦诗风吟A白瓶",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "我的护肤日常"
+      ],
+      "short_phrases": [
+        "我是长达10年的油痘肌肤质，但掌握了护肤方"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "642e77430000000011012bd5",
+      "title": "油痘肌养成好皮篇",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌养成好皮篇 清洁是我在护肤里最重视的一步，因为只有清洁得当，我们的屏障才会是健康的，护肤品里的营养才能被皮肤所吸收，不然用再好的护肤品皮肤吸收不进去也是无效护肤",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌",
+        "卸妆油",
+        "贝玲妃卸妆油",
+        "反孔精英",
+        "护肤好物",
+        "好物分享",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "对我们油痘肌而言，清洁产品的"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64507395000000001300a9a3",
+      "title": "油痘肌正确护肤：让300元有3000元效果",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘肌正确护肤：让300元有3000元效果 我用了很长时间总结了这三个油痘肌的护肤方法，效果真的很惊艳的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "面霜",
+        "修护",
+        "护肤技巧",
+        "换季护肤",
+        "科瑞肤兜底面霜"
+      ],
+      "short_phrases": [
+        "分享给你们～希望对你们有帮助哦❤️ # # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "645b1afa0000000012030b5e",
+      "title": "油痘肌护肤｜精减出来的好皮肤～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤｜精减出来的好皮肤～ 夏天马上要来了～又来给油痘肌宝宝们分享护肤心得了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "精简护肤",
+        "油痘肌",
+        "油痘肌护肤",
+        "我的护肤日常",
+        "欧莱雅金致小蜜罐",
+        "抗老面霜",
+        "抗老眼霜"
+      ],
+      "short_phrases": [
+        "像我们油痘肌本身就爱出油，尤其在夏天，叠加太多护肤品的话，皮肤马上抗议",
+        "面霜我会选择功能更全一点的，我用的是欧莱雅小蜜罐轻盈版"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "645f025c00000000070384f5",
+      "title": "油痘肌素颜好皮如何养出来",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "油痘肌素颜好皮如何养出来 我以前的脸是蜡黄的，而且还有很多闭口、痘痘、痘印，不化妆的时候就像😷",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "素颜",
+        "补气血",
+        "如何拯救痘痘肌",
+        "内调"
+      ],
+      "short_phrases": [
+        "现在虽不说面若桃花，但气色、皮肤真的比以前好很多🤗",
+        "然后就试着开始内调，每天早上都把"
+      ],
+      "question_phrases": [
+        "油痘肌素颜好皮如何养出来 我以前的脸是蜡黄的，而且还有很多闭口、痘痘、痘印，不化妆的时候就像😷"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "646479f1000000001300b978",
+      "title": "油痘肌养成通透感好皮肤",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌养成通透感好皮肤 这瓶刚出的的兰蔻极光精华，我自用下来很惊艳",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "兰蔻极光精华",
+        "大牌新品",
+        "新品上市",
+        "新品抢先发",
+        "美白精华"
+      ],
+      "short_phrases": [
+        "油痘肌养成通透感好皮肤 这瓶刚出的的兰蔻极光精华，我自用下来很惊艳",
+        "超能打，用了几天感觉皮肤变细腻了，很光滑干净，让整张脸变得很有光泽",
+        "就这一瓶，米白、嫩肤、代谢角质、细腻毛孔都做到了，油皮爱惨",
+        "喜欢用它搭配a醇用～效果巨好～发光肌",
+        "（之前分享过pha+a醇效果绝绝子，第二天皮肤肤质能明显提升"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "646db263000000000800c14f",
+      "title": "油痘肌抗老，拥有透亮好皮肤",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌抗老，拥有透亮好皮肤 我28了，素颜出门总有人以为我还在上大学哈哈哈✌️虽然平时工作特别忙，加上学业的双重压力，几乎是天天熬夜的状态，但皮肤也没有暗沉松垮",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "抗老精华推荐25岁以上",
+        "面部提亮",
+        "精华",
+        "欧莱雅黑金精华",
+        "油痘肌护肤",
+        "抗初老",
+        "抗初老攻略",
+        "精华分享",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "如果前一天晚上熬夜很晚，只要用它，第二天早上，脸不黄，摸上去也会"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "今天就来分享一下我的k老经验～ 对我们油痘肌而言，k老思路不是用的产品越多越好，而是要少而精"
+      ],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64717ea500000000130376ae",
+      "title": "比洗洁精还去油的油痘肌控油法宝！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "比洗洁精还去油的油痘肌控油法宝",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "控油祛痘",
+        "控油",
+        "直播预告"
+      ],
+      "short_phrases": [
+        "希望对油痘肌的宝宝们有帮助哦～ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6482f1ac0000000013005c41",
+      "title": "痘肌到底怎么选卸妆产品",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "痘肌到底怎么选卸妆产品 发现很多痘肌宝宝都不会选卸妆产品，但其实卸妆是护肤当中特别重要的一步，我亲测想要好皮肤的话，好的卸妆清洁产品是比护肤品更重要的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "ELEMIS卸妆膏",
+        "卸妆分享",
+        "我的护肤日记"
+      ],
+      "short_phrases": [
+        "不是清洁力很强伤害屏障，就"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "648ad92f000000001300975f",
+      "title": "油皮夏日精简护肤，皮肤越来越细腻健康了！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮夏日精简护肤，皮肤越来越细腻健康了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "我的护肤日常",
+        "精简护肤",
+        "护肤流程",
+        "护肤就爱小众品牌",
+        "国货护肤好推荐",
+        "onTop脂霜",
+        "onTop小花茉莉洁颜膏",
+        "onTop精华"
+      ],
+      "short_phrases": [
+        "油皮夏日精简护肤，皮肤越来越细腻健康了",
+        "- 精简护肤原则：一瓶多效，简化护肤步"
+      ],
+      "question_phrases": [
+        "其实皮肤没什么特别大的问题，精简的护肤方式就完全够了，用更少的护肤品做到更有效的护肤（less is more）"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64c0be78000000000a01a303",
+      "title": "循环护肤我爱了，皮肤细腻饱满到发光",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "循环护肤我爱了，皮肤细腻饱满到发光 这个循环护肤我一开始只是抱着试试的心态，因为其实跟我之前的护肤方法也没有很大的差别",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "抗老",
+        "达尔肤超A精华"
+      ],
+      "short_phrases": [
+        "但试下来发现效果确实不错，皮肤变得很细腻，很有光泽",
+        "你们也试试看～ # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64c615ca000000000a01ab8a",
+      "title": "2年没去美容院，皮肤反而更好了",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "2年没去美容院，皮肤反而更好了 我是10年的痘肌，黑头、闭口、粉刺、痘痘前几年没有断过，以前每个月都要做项目，每周一次针清，但后来掌握正确护肤方法不长痘了就没去过美容院了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "如何拯救痘痘肌",
+        "护肤",
+        "闭口粉刺",
+        "怎么才能去闭口"
+      ],
+      "short_phrases": [
+        "前几天去清两个大痘子，我特别要求把两年前的visia调出来做个对比，结果"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "64ccca800000000010031194",
+      "title": "🈚️广！油痘肌2023上半年度爱用物分享_",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "🈚️广",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "爱用物分享"
+      ],
+      "short_phrases": [
+        "无需二次清洁，卸后脸干干净净却一点都不紧绷",
+        "效果还好，我实在无法忍受护肤品需要28天才能看出效果，这款"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64dc8637000000001700d8ec",
+      "title": "其实不是黑，是黄！平价去黄气方法来了～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "其实不是黑，是黄",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "去黄气",
+        "欧莱雅真C瓶",
+        "抗老"
+      ],
+      "short_phrases": [
+        "其实不是黑，是黄",
+        "去黄气绝了～ # # # #"
+      ],
+      "question_phrases": [
+        "平价去黄气方法来了～ 如果有宝宝和我之前一样，感觉用什么变白的护肤品效果都不明显，那我强烈安利你们试试用原型vc"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64e3195d000000001700e640",
+      "title": "分享我的晨间护肤大法！皮肤超透亮！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "分享我的晨间护肤大法",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "防晒",
+        "防晒分享",
+        "修丽可防晒小银伞"
+      ],
+      "short_phrases": [
+        "不管用什么护肤品，不做防晒就是无用功，所以大家一定要重视防晒"
+      ],
+      "question_phrases": [
+        "不管用什么护肤品，不做防晒就是无用功，所以大家一定要重视防晒"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "64f2da9c000000001e029dea",
+      "title": "没花一分钱就把屏障修护好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "没花一分钱就把屏障修护好了 今天分享我不花钱版的修护屏障经验～ 其实修护屏障这件事真花不了什么钱，因为皮肤本身就有自Y能力，修护了半天总不好多半不是护肤品的问题，而是自己无意识的护",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "修护",
+        "屏障修护",
+        "拯救敏感肌"
+      ],
+      "short_phrases": [
+        "我之前高原红状态持续了两年，时好时坏",
+        "有时候感觉不红了，化个妆洗把脸又红回来了",
+        "买了一堆贵妇产品回来修护，但好像都用了个寂寞，不止没用还因为总换护肤品导"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6501c0e4000000001e0292f2",
+      "title": "好皮肤是因为我会洗脸",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "好皮肤是因为我会洗脸 看看还有谁",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "氨基酸洗面奶推荐",
+        "珣秘洗面奶",
+        "敏感肌洗面奶",
+        "氨基酸洁面",
+        "油痘肌护肤",
+        "油敏肌"
+      ],
+      "short_phrases": [
+        "我以前就是这样，因为总是长闭口痘痘嘛，老以为是脸没洗干净，每次在洗脸上可猛了",
+        "于是我被洗成了一个高原红，皮肤经常敏敏泛红"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65051544000000001f0054d5",
+      "title": "分享我觉得效果特别好的护肤搭配给大家",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "分享我觉得效果特别好的护肤搭配给大家 肤质：油敏痘肌",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "油敏肌"
+      ],
+      "short_phrases": [
+        "分享我觉得效果特别好的护肤搭配给大家 肤质：油敏痘肌"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6517cff70000000020001919",
+      "title": "油痘肌小白零基础护肤1⃣️皮肤变美顺序",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘肌小白零基础护肤1⃣️皮肤变美顺序 我是10年的油痘肌肤质，在油痘肌变成细腻光泽肌方面我真的非常有经验",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "希望能帮助到更多油痘肌的宝宝[红色心形R] # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6535f83d000000001f004e78",
+      "title": "轻轻松松让皮肤水水嫩嫩又稳定",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "轻轻松松让皮肤水水嫩嫩又稳定 问题肌应该跟我有过一样的经历，不管怎么修护，皮肤还是会在“爆发—稳定—又爆发“中不断循环",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "赫莲娜绿宝瓶精华",
+        "赫莲娜",
+        "油敏皮护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "轻轻松松让皮肤水水嫩嫩又稳定 问题肌应该跟我有过一样的经历，不管怎么修护，皮肤还是会在“爆发—稳定—又爆发“中不断循环"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6544ba1f000000001f03bf83",
+      "title": "秋冬身体护理，从沙漠干到滑溜溜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "秋冬身体护理，从沙漠干到滑溜溜 身体护理一直是我很关注的，因为我的身体皮肤是最难搞的那种",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "雅顿白茶身体乳",
+        "好闻的身体乳有哪些",
+        "超滋润身体乳",
+        "清爽不黏腻的身体乳",
+        "身体护理"
+      ],
+      "short_phrases": [
+        "非常干，不涂身体乳就会干燥到发痒，摸起来的手感也很粗糙"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65685787000000003903391d",
+      "title": "油痘肌小白跟护肤博主同住4天，逆袭！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油痘肌小白跟护肤博主同住4天，逆袭",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "痘痘"
+      ],
+      "short_phrases": [
+        "油痘肌小白跟护肤博主同住4天，逆袭",
+        "这次出来玩，给油痘肌朋友安排了4天护肤品，效果好的她惊叫连连"
+      ],
+      "question_phrases": [
+        "她说这是她第一次感受到护肤品有效果，以前涂什么都没用所以不喜欢护肤（其实也是懒[生气R]）"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "658552e4000000001502c58d",
+      "title": "真的有用！冬季养好保持一年好状态！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "真的有用",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "养生",
+        "健康养生",
+        "宝宝辅食",
+        "冬季必备"
+      ],
+      "short_phrases": [
+        "作为一个养生的受益人，我想告诉你们——冬季养生真的很重要"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "658d53990000000015003788",
+      "title": "油痘肌护肤的尽头是酸和A醇",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤的尽头是酸和A醇 作为一个10年油痘肌，我的亲身经历是把酸和A醇用好了，皮肤就好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战",
+        "闭口粉刺",
+        "笔记灵感"
+      ],
+      "short_phrases": [
+        "曾经的我是大牌追逐者，护肤理念是：如果我皮肤不好，那一定是我用的不够贵",
+        "于是我护肤品上越买越贵，但痘痘闭口长满脸，皮肤变得很薄，动不动就泛红",
+        "还记得曾经用了一款贵妇面霜，一夜之间，我的脸上长了30多个痘",
+        "后来我变成了实用护肤主义，开始尝试酸和A，结果皮"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "658fab3d000000001101ca96",
+      "title": "一定要分享我是怎么解决外油内干的！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一定要分享我是怎么解决外油内干的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "外油内干",
+        "油敏皮",
+        "屏障修护",
+        "修护",
+        "油敏皮护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "一定要分享我是怎么解决外油内干的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65bca20e000000000702a4ee",
+      "title": "写给学生党的超值省钱油痘肌护肤指南！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写给学生党的超值省钱油痘肌护肤指南",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大家的新年礼",
+        "大家的春晚看大家",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "学生党"
+      ],
+      "short_phrases": [
+        "总收到学生党妹妹们的留言，觉得我推荐的太贵了，有没有平价点的油痘肌好用物呢",
+        "反倒是过尽千帆，研究正确的油皮护肤思路后，从油痘肌变成了水光肌",
+        "今天不分享产品，就分享一些超值省钱护肤干货"
+      ],
+      "question_phrases": [
+        "总收到学生党妹妹们的留言，觉得我推荐的太贵了，有没有平价点的油痘肌好用物呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65c0a2ca000000002c0382d4",
+      "title": "这些是我做博主的意义🫶",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这些是我做博主的意义🫶 每次收到姐妹们给我的反馈 都会超开心",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大家的新年礼",
+        "大家的春晚看大家",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [
+        "这些是我做博主的意义🫶 每次收到姐妹们给我的反馈 都会超开心",
+        "做博主到现在，我可以骄傲的说：我没有恰过一条烂饭"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65c5869d000000000702b3ba",
+      "title": "早睡是不可能的，但熬完夜皮肤也还是很细腻",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "早睡是不可能的，但熬完夜皮肤也还是很细腻 作为护肤博主，我总是需要不断的去试新品给大家挖宝",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "熬夜",
+        "夜间护肤",
+        "修丽可RBE",
+        "修丽可熬夜抗氧瓶"
+      ],
+      "short_phrases": [
+        "但不试品时，有什么护肤品是我愿意一直用的"
+      ],
+      "question_phrases": [
+        "但不试品时，有什么护肤品是我愿意一直用的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65cae15e000000002d002342",
+      "title": "给油皮们试过了，这个底妆技巧真的巨贴脸！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "给油皮们试过了，这个底妆技巧真的巨贴脸",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "新手化妆技巧",
+        "完美底妆这样画",
+        "新手化妆",
+        "底妆干货"
+      ],
+      "short_phrases": [
+        "给油皮们试过了，这个底妆技巧真的巨贴脸"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65daf5cd000000000700783e",
+      "title": "油皮春日爱用，适合油皮的底妆、vc、防晒、面膜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮春日爱用，适合油皮的底妆、vc、防晒、面膜 1、气垫：这款是我用过的最清爽的气垫，不会让脸有多余的油光、上脸是一种素颜裸肌感，非常清透自然，粉质非常细腻且贴脸，不容易脱妆和浮粉",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮",
+        "如何拯救痘痘肌",
+        "平价好物分享",
+        "换季护肤"
+      ],
+      "short_phrases": [
+        "2、精华水：它其实是一款b5精华，但质地做的跟水一样我就把它当爽肤水来用了",
+        "虽说是一款精华，但100出头能买一大瓶，所以怎么用都不心疼"
+      ],
+      "question_phrases": [
+        "虽说是一款精华，但100出头能买一大瓶，所以怎么用都不心疼"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65e6d3f8000000000102872f",
+      "title": "从早到晚手把手教你精简美白护肤",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "从早到晚手把手教你精简美白护肤 油皮的痛除了痘痘闭口之外，还有粗糙暗沉蜡黄，我自己就是深有体会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "美白精华",
+        "去黄提亮",
+        "抗初老精华",
+        "OLAY超抗小白瓶",
+        "油皮",
+        "护肤",
+        "OLAY小白瓶",
+        "美白",
+        "精华",
+        "精华推荐"
+      ],
+      "short_phrases": [
+        "只有美白提亮和抗光老双管齐下，才能养出白嫩细腻的好皮肤～ # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "所以今天我想跟大家分享一套很有效的油皮美白护肤，因为很多油皮的“黑”并不是单纯的黑而是黄"
+      ],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65f80ef60000000012021334",
+      "title": "300元搞定痘肌平价早晚间护肤，皮肤好细腻！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "300元搞定痘肌平价早晚间护肤，皮肤好细腻",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "平价护肤",
+        "闭口痘痘",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "300元搞定痘肌平价早晚间护肤，皮肤好细腻"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "65fd3666000000001203c54f",
+      "title": "高原红终于远离我了，开心！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "高原红终于远离我了，开心",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "丝塔芙自修精华",
+        "精华推荐",
+        "敏感肌",
+        "油痘肌护肤",
+        "拯救敏感肌",
+        "敏感肌修护",
+        "敏感肌精华",
+        "宝拉珍选绿鼻涕洁面",
+        "ontop脂霜"
+      ],
+      "short_phrases": [
+        "高原红终于远离我了，开心",
+        "作为一个曾经高原红了好几年的油痘敏肌，太了解油痘敏的不易",
+        "越修护痘痘越多，也不敢轻易换护肤品，因为一不小心敏敏还会加重"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6606ce3d000000001a0152c3",
+      "title": "闭眼黄睁眼亮，暗黄皮才懂它的含金量~",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "闭眼黄睁眼亮，暗黄皮才懂它的含金量~ 赶在夏天来之前，给各位姐妹们分享我挖到的美白好物~从去年到现在我试了大概十几款号称可以白白的面膜，结果敷完后要么是毫无感觉，要么一晚上给我闷出",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "提亮",
+        "去黄",
+        "面膜测评",
+        "欧莱雅VC面膜"
+      ],
+      "short_phrases": [
+        "每次敷完揭下来后，皮肤润得就像是刚大口喝饱水一样，摸起来特别滑"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "661611f3000000001a00c7aa",
+      "title": "有备无患！外出时敏敏泛红的快速急救干货！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "有备无患",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "拯救敏感肌",
+        "薄皮大挑战",
+        "敏感肌修护",
+        "敏感肌",
+        "油痘肌护肤",
+        "油敏皮",
+        "蒂佳婷积雪草走红霜",
+        "修护面霜"
+      ],
+      "short_phrases": [
+        "真心推荐所有敏肌姐妹们，出门在外都常备一个敏敏急救包"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6618ef91000000001a0176de",
+      "title": "外油内干晚间护肤",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "外油内干晚间护肤 经常收到一些姐妹的私信，说自己是外油内干，不管怎么补水控油都没有改善",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "外油内干",
+        "油敏肌",
+        "如何拯救痘痘肌",
+        "护肤"
+      ],
+      "short_phrases": [
+        "在这里我想告诉大家——那是因为你们抓错重点啦"
+      ],
+      "question_phrases": [
+        "外油内干晚间护肤 经常收到一些姐妹的私信，说自己是外油内干，不管怎么补水控油都没有改善"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "661e2eea0000000004019ed8",
+      "title": "透明感好皮肤",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "透明感好皮肤 皮肤黄、嘴唇乌白、整个人发灰暗淡，说的就是我以前",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "美白",
+        "养生",
+        "去黄提亮",
+        "美白精华"
+      ],
+      "short_phrases": [
+        "透明感好皮肤 皮肤黄、嘴唇乌白、整个人发灰暗淡，说的就是我以前",
+        "现在变成一个皮肤很通透的白皮，我真的真的做了很多努力",
+        "首先要变白一定要内调，要把脾调好"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66348763000000001e03354f",
+      "title": "显化了好皮肤",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "显化了好皮肤 显化好皮肤很难吗",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "显化",
+        "好皮肤养成记",
+        "如何拯救痘痘肌",
+        "吸引力法则"
+      ],
+      "short_phrases": [
+        "显化第一步，觉察"
+      ],
+      "question_phrases": [
+        "显化了好皮肤 显化好皮肤很难吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "663c90dd000000001e037dd7",
+      "title": "一些让油皮素颜很美丽的护肤搭配",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一些让油皮素颜很美丽的护肤搭配 肤质：油痘敏肌 护肤需求：长痘的时候能快速灭了，不留痘印",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "618超会买买手",
+        "小红书618"
+      ],
+      "short_phrases": [
+        "皮肤维持在光洁细腻的状态，毛孔再小一些，脸得看起来水润光泽白皙",
+        "1、缩毛孔：宝拉烟酰胺+a醇 几乎所有姐妹都想毛孔小一"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66852e43000000001c0264d6",
+      "title": "3年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3年没去美容院，皮肤反而更好了 已经对美容院祛魅了，3年没去过，皮肤没有变差，反而比之前更好更稳定",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "我的护肤日常",
+        "护肤分享"
+      ],
+      "short_phrases": [
+        "我觉得不是护肤品的原因，而是正确的护肤方式帮了我，毕竟每天早晚都需要护肤",
+        "如果你对皮肤的追求是细腻、光滑、水嫩，相信我，正确护肤就能达到",
+        "1、雷打不动一周做一次家庭版毛孔深层清洁，因为我是油痘皮，毛孔非常容易堵"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "3年没去美容院，皮肤反而更好了 已经对美容院祛魅了，3年没去过，皮肤没有变差，反而比之前更好更稳定",
+        "我觉得不是护肤品的原因，而是正确的护肤方式帮了我，毕竟每天早晚都需要护肤"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "669c6dda0000000025003da0",
+      "title": "帮我养成妈生好皮的6组晚间护肤搭配（油皮）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "帮我养成妈生好皮的6组晚间护肤搭配（油皮） 我是油痘敏肌，29岁，其实大部分油皮姐妹都跟我一样，是在健康/油痘/油敏之间反复横跳，那下面这些套组是我亲测非常有效并且不会踩雷的，希望",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "全世界的好成分",
+        "祛痘去闭口",
+        "油皮",
+        "油痘肌爱用"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66a23f7700000000270136c3",
+      "title": "好的晨间护肤会让白天有个漂亮的素颜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "好的晨间护肤会让白天有个漂亮的素颜 俺这个油痘敏一到夏天就烦",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮",
+        "油痘肌护肤",
+        "护肤分享"
+      ],
+      "short_phrases": [
+        "温度高、出油大，用的东西稍微不注意，一天下来就能闷出几十个粉刺"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66c5b6ff000000001d015d82",
+      "title": "油皮离不开的初秋好物~💐✨💛",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮离不开的初秋好物~💐✨💛 1、烟酰胺：真爱烟酰胺精华终于补到货了，我个人是两支起囤",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "小红书秋日焕新",
+        "油痘肌护肤",
+        "换季好物",
+        "油皮"
+      ],
+      "short_phrases": [
+        "去黄真的比我喝🀄️还要快",
+        "k老也很厉害，还能控油，感觉是全能选手并且全肤质都能用",
+        "2、多酸精华：新找到的一款猛酸",
+        "5%的果酸+2%的水杨酸+0.5%的壬二酸"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66d177cc000000001d017631",
+      "title": "学会正确的油痘肌养脸思路之后皮肤超好！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "学会正确的油痘肌养脸思路之后皮肤超好",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "痘痘肌逆袭",
+        "还原美貌",
+        "熬夜急救",
+        "珣秘三因面膜"
+      ],
+      "short_phrases": [
+        "2️⃣敷贴片面膜要谨慎选择，很多成分不好的面膜上脸就等于在敷防腐剂增稠剂",
+        "3️⃣皮肤不敏敏的话，可以在日常"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66d3f325000000001d016236",
+      "title": "历时三个月，油痘瑕疵皮爆改成水煮蛋！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "历时三个月，油痘瑕疵皮爆改成水煮蛋",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油皮",
+        "护肤流程",
+        "如何拯救痘痘肌",
+        "还原美貌",
+        "烂脸",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "历时三个月，油痘瑕疵皮爆改成水煮蛋"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66daa4570000000012011008",
+      "title": "感谢每周一次轻油敷，对改变气色太有用了！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "感谢每周一次轻油敷，对改变气色太有用了",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "以油养肤",
+        "以油养眼",
+        "雅顿轻感金胶",
+        "油敏皮",
+        "面部按摩"
+      ],
+      "short_phrases": [
+        "感谢每周一次轻油敷，对改变气色太有用了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "66fe57bb000000001902d35e",
+      "title": "国庆哪都不去，就在家搞脸，7日嫩肤计划",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "国庆哪都不去，就在家搞脸，7日嫩肤计划 我觉得想皮肤变好的话，护肤计划真的非常有必要",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "我的护肤日记",
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "红薯买手集"
+      ],
+      "short_phrases": [
+        "皮肤变好了也不知道是用了什么，皮肤变差了也找不到原因",
+        "主要的还是酸和A，没"
+      ],
+      "question_phrases": [
+        "皮肤变好了也不知道是用了什么，皮肤变差了也找不到原因"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "670214c3000000001b022274",
+      "title": "3年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3年没去美容院，皮肤反而更好了 11年油痘肌，为了改善我的痘痘、闭口、毛孔，前几年光是在美容院do项目就花了不下6位数",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "美容护肤",
+        "院线护肤",
+        "小森林家庭版海菲秀",
+        "油痘肌护肤",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "皮肤确实变好了不少，但是只要项目一停，很容易又会被打回原形",
+        "下面是我研究出来的「家庭版美容院系列」，低成本高回报，大家试试"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "3年没去美容院，皮肤反而更好了 11年油痘肌，为了改善我的痘痘、闭口、毛孔，前几年光是在美容院do项目就花了不下6位数"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "671f88980000000024014b49",
+      "title": "油皮护肤的尽头原来是用酸",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮护肤的尽头原来是用酸 长了十多年痘，我一直很羡慕那些皮肤细腻光滑的水光肌",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "痘痘肌",
+        "闭口粉刺",
+        "刷酸",
+        "alra嫩豆腐精华"
+      ],
+      "short_phrases": [
+        "油皮护肤的尽头原来是用酸 长了十多年痘，我一直很羡慕那些皮肤细腻光滑的水光肌",
+        "之前总以为人家是天生基因好，或者是定期去美容院氪金"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6724abd30000000019016191",
+      "title": "油痘肌变水光肌~突袭变美晚间护肤！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌变水光肌~突袭变美晚间护肤",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "水光肌",
+        "油痘肌大作战"
+      ],
+      "short_phrases": [
+        "油痘肌变水光肌~突袭变美晚间护肤"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "675fe932000000001300cd23",
+      "title": "如何保持脸上不长痘痘闭口！（避雷篇）",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何保持脸上不长痘痘闭口",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "2024时髦存档",
+        "我的护肤年度总结",
+        "年前突击变美",
+        "油痘肌护肤",
+        "痘痘闭口",
+        "油皮",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "（避雷篇） 以前我总是长那种莫名其妙的红肿痘，毫无征兆",
+        "后来我总结除了一些经验，避开了这些雷，痘痘闭口真的少了很多很多",
+        "我有段时间脸颊两侧总是反反复复长闭口，每个星期都要针清",
+        "后来发现，是因为我换了新的护发素",
+        "你们如果跟我一样脸其它的地方不长就长脸颊两侧，还特别爱侧睡"
+      ],
+      "question_phrases": [
+        "如何保持脸上不长痘痘闭口"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67697519000000001300076f",
+      "title": "刷A醇的第五年",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "刷A醇的第五年 刷了五年A醇，它带给我的好处我就不多说了，反正现在出去经常会被夸，你皮肤好好会发光，你在皮肤上花了很多钱吧，你真的是油痘肌",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "油痘肌护肤",
+        "A醇",
+        "缩毛孔"
+      ],
+      "short_phrases": [
+        "上一次分享了我个人特殊的A醇用法，今天分享我"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "67763f4a000000000902dfac",
+      "title": "本油皮超爱的秋冬防晒，巴不得365天每天用！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "本油皮超爱的秋冬防晒，巴不得365天每天用",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "防晒分享",
+        "有色面霜",
+        "素颜霜",
+        "隔离",
+        "油皮防晒"
+      ],
+      "short_phrases": [
+        "本油皮超爱的秋冬防晒，巴不得365天每天用"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67808d5d000000002001f906",
+      "title": "冬天到了油皮皮肤最好的时候，护肤搭配献上！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "冬天到了油皮皮肤最好的时候，护肤搭配献上",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "油痘肌护肤",
+        "油皮",
+        "护肤搭配"
+      ],
+      "short_phrases": [
+        "冬天到了油皮皮肤最好的时候，护肤搭配献上",
+        "先用酸冻膜，打开皮肤通道"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67920b600000000029011c7b",
+      "title": "如何从油痘肌变成不易长痘肤质",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何从油痘肌变成不易长痘肤质 我从2013年开始长痘，2022年调成了不易长痘肤质",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "我的护肤年度总结",
+        "年前突击变美",
+        "素颜",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "在我这么多年的战痘过程中，发现护肤思路比护肤品重要多了",
+        "我的战痘护肤思路：修护+平痘+根源抑痘+日常维护",
+        "1、我最开始烂脸其实就是用了当时很火的可x可x洗面奶，把脸搞得又黑又红的"
+      ],
+      "question_phrases": [
+        "如何从油痘肌变成不易长痘肤质 我从2013年开始长痘，2022年调成了不易长痘肤质"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67beed600000000029026261",
+      "title": "作为11年油痘肌，我的痘印真的淡的很快",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "作为11年油痘肌，我的痘印真的淡的很快 无广纯个人分享~我长过11年的痘痘，并且跟各种类型的痘印“厮杀”多年，无数次实战总结出来的我个人觉得非常有效的淡痘印方法👇🏻 首先第一个请加",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "痘印",
+        "淡化痘印",
+        "去痘印",
+        "红痘印",
+        "红黑痘印"
+      ],
+      "short_phrases": [
+        "我真的很讨厌运动，所以我的方法是让自己多出汗",
+        "蒸桑拿/泡澡/泡脚/等等（你要是能运动那更好），只要能出汗的都可以",
+        "用汗去疏通和冲刷毛孔，皮肤会变得更健康，痘印消得也更快"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67c95f12000000002a00da9d",
+      "title": "油痘敏肌爱用面膜分享",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘敏肌爱用面膜分享 每次听到大家跟我说，美容院的人说她外油内干是因为皮肤肌底缺水需要补水、美容院的人说她皮肤油长痘痘是因为水油不平衡需要补水，我就特别着急",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "我的护肤年度总结",
+        "面膜推荐",
+        "油痘肌面膜",
+        "油皮",
+        "油痘敏肌"
+      ],
+      "short_phrases": [
+        "皮肤敏的时候，尤其不能乱敷面膜",
+        "而每天敷面膜对皮肤也没有什么好处，反而会容易造"
+      ],
+      "question_phrases": [
+        "而每天敷面膜对皮肤也没有什么好处，反而会容易造"
+      ],
+      "contrarian_phrases": [
+        "而每天敷面膜对皮肤也没有什么好处，反而会容易造"
+      ],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67e21fa5000000001d005ef5",
+      "title": "细腻抛光晚间护肤~我和黄气势不两立！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "细腻抛光晚间护肤~我和黄气势不两立",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "痘痘闭口",
+        "嫩肤",
+        "抛光",
+        "payot晨光面膜",
+        "涂抹面膜",
+        "面膜推荐",
+        "去黄提亮"
+      ],
+      "short_phrases": [
+        "细腻抛光晚间护肤~我和黄气势不两立"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "67ed251b000000001d027d32",
+      "title": "12年油痘肌变成妈生好皮，我的变脸经历。",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌变成妈生好皮，我的变脸经历",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "普通人的变美思路",
+        "不要低估一个女生变美的决心",
+        "祛痘帮帮忙",
+        "痘痘",
+        "油皮",
+        "祛痘印",
+        "护肤干货"
+      ],
+      "short_phrases": [
+        "12年油痘肌变成妈生好皮，我的变脸经历",
+        "视频里面不含任何的广告，大家可以借鉴思路，像完形填空一样自己往里面填产品"
+      ],
+      "question_phrases": [
+        "所以我把以前长痘的经历，和我是怎么跟痘痘斗争的，以及油痘肌怎么变成细腻光滑水光肌的思路毫无保留地分享给大家"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "67f64650000000001a006dd1",
+      "title": "手把手分享我是怎么搞定外油内干的！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "手把手分享我是怎么搞定外油内干的",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "外油内干",
+        "油敏肌",
+        "护肤",
+        "油痘肌护肤",
+        "油皮",
+        "敏感"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "手把手分享我是怎么搞定外油内干的",
+        "今天这个视频一次性给油敏肌讲清楚：为什么会外油内干，外油内干怎么紧急护理，后续护肤搭配应该注意什么"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6808bc37000000001d03914b",
+      "title": "用了5年A醇的脸",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "用了5年A醇的脸 今年是我用A醇的第5年，我很负责任地告诉你们，A醇是真的能把瑕疵皮爆改成水煮蛋的",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌护肤",
+        "A醇",
+        "HBN双A晚霜",
+        "HBN"
+      ],
+      "short_phrases": [
+        "经常有人问我皮肤为什么那么有光泽，细腻得不像油痘肌，其实也都是A醇的功劳",
+        "很多人不敢用A醇担心会翻车，但是其实只要掌握"
+      ],
+      "question_phrases": [
+        "我长过11年的痘，但是现在的素颜很干净，没什么痘印痘坑，不凑近看的话甚至看不到明显的毛孔",
+        "经常有人问我皮肤为什么那么有光泽，细腻得不像油痘肌，其实也都是A醇的功劳"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "681074cc0000000021002ead",
+      "title": "油痘肌护肤：从大牌追逐者变实用护肤主义",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤：从大牌追逐者变实用护肤主义 以前我皮肤差的时候，最喜欢的事情就是去美容院做项目买各种小众大牌护肤品，我认为只要肯花钱，皮肤一定好",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "拯救大油皮"
+      ],
+      "short_phrases": [
+        "因为护肤品每天都涂，但我们和别的肤质不同，别人用错顶多干燥起皮"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "然而并没有，因为我频繁的搞项目，各种乱用护肤品，反而把自己搞成了油痘敏肌，一张脸上又是高原红又是闭口又是痘印…… 我觉得油皮想要皮肤好，更应该注意日常护肤"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "687dedf9000000002203ef72",
+      "title": "让油皮夏日爽翻的5️⃣个好东西！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "让油皮夏日爽翻的5️⃣个好东西",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油皮好物",
+        "油皮护肤",
+        "油皮",
+        "吸油纸",
+        "油痘肌护肤",
+        "护肤分享"
+      ],
+      "short_phrases": [
+        "让油皮夏日爽翻的5️⃣个好东西",
+        "咱们油皮也能体面过夏天～ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6880a645000000002203019e",
+      "title": "老油痘肌的去黄提亮攻略（狠人护肤心得！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "老油痘肌的去黄提亮攻略（狠人护肤心得",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮好物",
+        "好皮肤",
+        "去黄提亮",
+        "变白变漂亮",
+        "普通人的变美思路",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "老油痘肌的去黄提亮攻略（狠人护肤心得",
+        "油皮朋友们也可以试试～ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "689f041d000000001c0112c0",
+      "title": "油糙皮去油嫩肤指南！（12年经验分享",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "油糙皮去油嫩肤指南",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "毛孔粗大",
+        "油皮护肤",
+        "油皮精华",
+        "皮肤粗糙",
+        "好物推荐",
+        "精华",
+        "PITERA",
+        "sk2",
+        "神仙水",
+        "抗老精华"
+      ],
+      "short_phrases": [
+        "毕竟护肤品是天天要用的，一定要用能够平衡水油、控制住我们多余油脂的",
+        "我用了很多年的SK-II 的神仙水精华真的是油皮亲妈",
+        "里面的PITERA™我真的很爱～ # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68a7ced3000000001c0069b4",
+      "title": "一些让我皮肤变好的搭配（100%无广",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "一些让我皮肤变好的搭配（100%无广 1、毛孔粗大（烟酰胺+毛孔精华+兜底） 在细毛孔方面除了每周一次的家庭版毛孔深层清洁做清洁外，我会持续用毛孔精华来缩毛孔，先用烟酰胺全脸打底，",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤干货",
+        "油皮护肤",
+        "油皮",
+        "毛孔粗大",
+        "祛痘",
+        "敏肌修护",
+        "水光肌"
+      ],
+      "short_phrases": [
+        "毛孔精华里有酸也有A, 最重要"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68bff69f000000001c00b0f4",
+      "title": "护肤博主出行洗漱包大公开👝自用🈚️广！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "护肤博主出行洗漱包大公开👝自用🈚️广",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "洗漱包",
+        "外出旅行必备好物",
+        "我的旅行化妆包",
+        "真用真上脸",
+        "护肤分享",
+        "出门带什么",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "护肤博主出行洗漱包大公开👝自用🈚️广"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68c942d90000000007029d50",
+      "title": "12年油痘肌，3套真正有用的护肤搭配。",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘肌，3套真正有用的护肤搭配",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "护肤干货",
+        "护肤搭配",
+        "新手护肤",
+        "油痘肌",
+        "精简护肤",
+        "Medature葆科美"
+      ],
+      "short_phrases": [
+        "12年油痘肌，3套真正有用的护肤搭配",
+        "能解决三种情况：皮肤红敏修护、快速解决痘痘闭口、油皮k老"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68cf82400000000011014e8d",
+      "title": "好皮肤的第一步是去浊气",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "好皮肤的第一步是去浊气 好多姐妹觉得我现在皮肤看起来很细腻、干净、明亮，但其实我以前皮肤状态也是蜡黄、暗沉很多痘痘的状态",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "浊相",
+        "我的养生日常",
+        "养生变美",
+        "护肤分享",
+        "素颜",
+        "变美"
+      ],
+      "short_phrases": [
+        "后来别人告诉我，这是好现象，是身体自发的在排浊"
+      ],
+      "question_phrases": [
+        "给大家分享一下我都做了什么~ 1、冥想 我21年开始接触冥想打坐，但有个很尴尬的事情，我每次打坐前10分钟，会不停的打嗝"
+      ],
+      "contrarian_phrases": [
+        "20出头的时候皮肤状态反而还没有现在30岁时候状态好"
+      ],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68d8e916000000000e00d3f7",
+      "title": "6min下饭电子榨菜（护肤博主首闯开箱圈",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "6min下饭电子榨菜（护肤博主首闯开箱圈 # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "开箱",
+        "拆快递",
+        "购物分享",
+        "新衣试穿",
+        "种草视频",
+        "买买买日常"
+      ],
+      "short_phrases": [
+        "6min下饭电子榨菜（护肤博主首闯开箱圈 # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68da45cd000000001003d8ce",
+      "title": "不走弯路不反复！手把手逆光包自救跟练～",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "不走弯路不反复",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "敏感肌",
+        "护肤",
+        "皮肤屏障",
+        "闭口",
+        "屏障受损",
+        "好皮肤入秋计划",
+        "痘肌修护"
+      ],
+      "short_phrases": [
+        "手把手逆光包自救跟练～ # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68df50330000000004014436",
+      "title": "🍠1年1度油痘肌爱用1.0 抢先播报",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "🍠1年1度油痘肌爱用1.0 抢先播报 hello大家，2025年度爱用第一篇来了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "1年1度爱用大公开",
+        "小红书1年1度购物狂欢",
+        "护肤好物",
+        "油痘肌护肤",
+        "我的双十一人脉",
+        "我的双11人脉"
+      ],
+      "short_phrases": [
+        "（好早…[暗中观察R]） 胶原炮： 第一个放它，用了2个月直接冲到爱用榜一",
+        "30岁我最大的痛点是凹陷，面部明显不如20出头那会流畅，皮肤看着不水灵、干瘪",
+        "这是我目前用到的补胶原方面坠有效果的产品（比我啃鸡爪猪蹄快多了",
+        "）录视频拍照的时候感觉脸"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "68e5f8e30000000005032773",
+      "title": "一套搞定油痘肌祛痘、淡印、k老的护肤流程",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一套搞定油痘肌祛痘、淡印、k老的护肤流程 # # # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "狠人护肤心得",
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌",
+        "晚间护肤",
+        "好皮肤养成",
+        "好皮肤入秋计划"
+      ],
+      "short_phrases": [
+        "一套搞定油痘肌祛痘、淡印、k老的护肤流程 # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69315d62000000001e03a6ed",
+      "title": "12年油痘敏肌分享（不花钱护肤版",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "12年油痘敏肌分享（不花钱护肤版 作为一个12年油痘敏肌，在护肤方面我之前真是踩了很多雷",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "闭口粉刺",
+        "如何拯救痘痘肌",
+        "闭口",
+        "油痘肌护肤",
+        "长痘",
+        "红肿痘",
+        "痘痘闭口",
+        "好皮肤养成记",
+        "敏感肌"
+      ],
+      "short_phrases": [
+        "越修护痘痘越多，越祛痘皮肤越敏",
+        "我之前就是这样，一停秒好"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "694bbef3000000001f007a58",
+      "title": "油皮去黄找对思路其实就是顺手的事",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "油皮去黄找对思路其实就是顺手的事 咱们油皮想白，必须去黄提亮、抗氧化、去角质一把抓",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油皮好物",
+        "好皮肤",
+        "去黄提亮",
+        "变白变漂亮",
+        "普通人的变美思路",
+        "油痘肌护肤",
+        "YSL夜皇后精华",
+        "熬夜精华"
+      ],
+      "short_phrases": [
+        "先把脸上的肤色都调理均匀了，再去进阶"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "699ab79b000000001a01c610",
+      "title": "13年油痘肌 快速消痘、淡印、k老护肤流程",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "13年油痘肌 快速消痘、淡印、k老护肤流程 分享一套我这个13年油痘肌经常在做的净肤祛痘护肤流程，痘痘痘印都能像开了倍速一样速速淡掉，简单又很高效",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤",
+        "跟练",
+        "油皮好物",
+        "嫩肤",
+        "祛痘",
+        "淡痘印",
+        "新春市集",
+        "小红书新春市集"
+      ],
+      "short_phrases": [
+        "大家快跟练起来～ # # # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69aad5e8000000000e00d139",
+      "title": "零成本跟练！美容院偷师回来的饱满按摩法",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "零成本跟练",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "护肤",
+        "面部瑜伽",
+        "护肤干货",
+        "赫莲娜小露珠",
+        "饱满如露",
+        "美有万千饱满最动人"
+      ],
+      "short_phrases": [
+        "跟着我做完这套，隔天起来脸不仅是像水煮蛋一样细腻嫩滑",
+        "整体都是向上走的（妈妈扎紧点即视感）嘭嘭弹弹的饱满状态超级好"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69c5115a000000001a02fa66",
+      "title": "13年油痘肌变妈生好皮，我的换脸经历。",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "13年油痘肌变妈生好皮，我的换脸经历",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "油痘肌护肤",
+        "痘痘",
+        "油皮抗老",
+        "油皮水乳",
+        "好物分享",
+        "护肤干货",
+        "海蓝之谜油皮精萃水乳",
+        "海蓝之谜全新油皮精萃水乳"
+      ],
+      "short_phrases": [
+        "13年油痘肌变妈生好皮，我的换脸经历"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69eb1ed60000000020038d51",
+      "title": "关于保持长期不长痘（13年油痘肌）",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "关于保持长期不长痘（13年油痘肌） 我是13年的油痘肌，从油痘肌变成不易长痘肤质这个事，我不想再分享什么饮食、什么别喝牛奶、别吃油炸食物这种痘肌全都知道而知道了也无法阻止长新痘的这",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "痘痘远离我",
+        "如何拯救痘痘肌"
+      ],
+      "short_phrases": [
+        "这篇我不分享任何产品，就分享在我看来保持不长痘最重要的几件事情",
+        "这13年来，我的脸起起伏伏，每当我觉得我已经"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "69f829f9000000002202492e",
+      "title": "百元搞定家庭版舒红之星，褪红超快！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "百元搞定家庭版舒红之星，褪红超快",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "屏障修护",
+        "修护",
+        "敏感肌",
+        "修护流程",
+        "珀莱雅源力精华",
+        "珀莱雅源力",
+        "珀莱雅源力水乳"
+      ],
+      "short_phrases": [
+        "百元搞定家庭版舒红之星，褪红超快"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6a07f9f300000000060213e1",
+      "title": "终于把外油内干解决啦！",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "终于把外油内干解决啦",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "外油内干",
+        "油敏肌护肤",
+        "护肤分享",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "跟着这套流程做，皮肤肯定会回归健康状态"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6a094a7c000000000702667b",
+      "title": "让我肤质发生质变且无替代的几个（100%无广",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "让我肤质发生质变且无替代的几个（100%无广 13年油痘敏肌，这几款都是我用着效果很牛还不闷痘不致痘的",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "皮肤自带水光感",
+        "好皮肤"
+      ],
+      "short_phrases": [
+        "没有广告，纯发自肺腑的分享",
+        "1、紫水光 它能让我脸达到韩式水光肌的效果，图一的皮肤就是用它期间的皮肤状态",
+        "脸上没光泽时，第一晚猛灌一瓶上脸，全部吸收，第二天光泽恢复20%",
+        "第二晚皮肤没那么渴了，只能吃进去2/3瓶，早上起来光泽度到达50%"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "6a0ac1a400000000080024d6",
+      "title": "13年油痘肌 祛红黑痘印全流程（喂饭版",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "13年油痘肌 祛红黑痘印全流程（喂饭版 # # # # #",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "红痘印",
+        "黑痘印",
+        "去痘印",
+        "痘印",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "13年油痘肌 祛红黑痘印全流程（喂饭版 # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "6274f51e0000000001026ece",
+      "title": "修护皮肤屏障注意事项（不花钱版）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "修护皮肤屏障注意事项（不花钱版） 不注意这些，花再多钱屏障也好不了 # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "敏感肌修护",
+        "拯救敏感肌",
+        "敏感肌皮肤屏障修复"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62c138f100000000060359df",
+      "title": "想要好皮肤真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "想要好皮肤真的很简单 我长了9年闭口痘痘，是标准的油痘肌，（图3左下是我以前的皮肤常态，九年一直都那样）所以油痘肌宝宝别焦虑，咱们真的可以变成水煮🥚",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "油痘肌",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "痘痘",
+        "素颜"
+      ],
+      "short_phrases": [
+        "想要皮肤细腻、平滑、有光泽，这些护肤品就能达到，而且不需"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62c7dc03000000000d027be8",
+      "title": "油痘肌护肤小白，想皮肤细腻不长痘看这个",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤小白，想皮肤细腻不长痘看这个 发现许多油痘肌宝宝还对s有一些恐惧，把s与烂脸等同一起，认为只能去医院才能S",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "油痘肌",
+        "护肤",
+        "痘痘肌",
+        "我的护肤日常",
+        "怎么才能去闭口",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "s对于油痘肌而言是非常好的，我从闭口痘痘星人变成现在的皮肤很大程度是🍋用的好",
+        "因为我们油痘肌出油量大，容易角质堆积，皮肤就不"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62d7bb5c000000001200188c",
+      "title": "极简护肤我爱了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "极简护肤我爱了 我是一个长了9年痘痘闭口的油痘肌，现在皮肤被我保养的蛮好，细腻、光滑、不会随意长痘痘闭口了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "兰蔻极光精华水乳",
+        "兰蔻",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "精简护肤",
+        "好皮肤养成记",
+        "闭口粉刺",
+        "护肤"
+      ],
+      "short_phrases": [
+        "皮肤出油量很大，如果还用厚重的护肤品，皮肤会马上抗议给你看，痘痘闭口层出不穷",
+        "油痘肌的宝宝们试试用s，可以加速皮肤新陈代谢，让皮肤"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63147930000000000900f3e0",
+      "title": "让皮肤变好的从来不是护肤品，而是护肤方式",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "让皮肤变好的从来不是护肤品，而是护肤方式 很多人看我现在的皮肤都不相信我是油痘肌，我长了9年痘痘闭口",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "如何拯救痘痘肌",
+        "痘痘肌肤",
+        "怎么才能去闭口",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "现在皮肤挺细腻、又有光泽，不会随意的长闭口了",
+        "我心中油痘肌护肤的重要程度：敏感>痘痘闭口>平滑细腻肌肤>美b、k氧化、k"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "让皮肤变好的从来不是护肤品，而是护肤方式 很多人看我现在的皮肤都不相信我是油痘肌，我长了9年痘痘闭口"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6336bc47000000001d013a93",
+      "title": "细腻皮肤的干货来了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "细腻皮肤的干货来了 我是长达9年的油痘肌肤质，但现在皮肤还挺细腻光滑的",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "科颜氏A醇精华",
+        "早C晚A",
+        "油痘肌大作战",
+        "好皮肤养成记",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "细腻皮肤的干货来了 我是长达9年的油痘肌肤质，但现在皮肤还挺细腻光滑的",
+        "关于细腻皮肤、缩小毛孔这方面，我很建议你们试试A醇",
+        "最近我发现了一个很温和但效果又很好的A醇精华，科颜氏A醇精华",
+        "这款很适合新手，里面复"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63d783b900000000080279c9",
+      "title": "油痘肌护肤：从大牌追逐者变成实用护肤主义",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤：从大牌追逐者变成实用护肤主义 我长了9年的痘痘，曾经的额头密密麻麻全是闭口，前9年我的脸几乎没有一天是平整的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "1⃣️不要盲目追逐品牌"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "640da5be000000002702b6d6",
+      "title": "油痘肌护肤攻略，从满脸痘痘闭口到妈生好皮",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌护肤攻略，从满脸痘痘闭口到妈生好皮 我是长达十年的油痘肌，图四是我以前的皮肤[哭惹R]从满脸痘痘闭口到现在皮肤细腻光滑，确实是有护肤窍门的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "痘痘肌",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "1⃣️脸上mm、泛红，同时又有痘痘和闭口",
+        "这种情况要先治mm，因为皮肤mm的情况下很多qu痘的东西"
+      ],
+      "question_phrases": [
+        "今天把我的护肤套路分享给你们～ 从1⃣️-4⃣️是一个皮肤变好的过程，你们看自己现在是哪个阶段就知道该如何护肤了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "648ad92f000000001300975f",
+      "title": "油皮夏日精简护肤，皮肤越来越细腻健康了！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮夏日精简护肤，皮肤越来越细腻健康了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "我的护肤日常",
+        "精简护肤",
+        "护肤流程",
+        "护肤就爱小众品牌",
+        "国货护肤好推荐",
+        "onTop脂霜",
+        "onTop小花茉莉洁颜膏",
+        "onTop精华"
+      ],
+      "short_phrases": [
+        "油皮夏日精简护肤，皮肤越来越细腻健康了",
+        "- 精简护肤原则：一瓶多效，简化护肤步"
+      ],
+      "question_phrases": [
+        "其实皮肤没什么特别大的问题，精简的护肤方式就完全够了，用更少的护肤品做到更有效的护肤（less is more）"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64f2da9c000000001e029dea",
+      "title": "没花一分钱就把屏障修护好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "没花一分钱就把屏障修护好了 今天分享我不花钱版的修护屏障经验～ 其实修护屏障这件事真花不了什么钱，因为皮肤本身就有自Y能力，修护了半天总不好多半不是护肤品的问题，而是自己无意识的护",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "修护",
+        "屏障修护",
+        "拯救敏感肌"
+      ],
+      "short_phrases": [
+        "我之前高原红状态持续了两年，时好时坏",
+        "有时候感觉不红了，化个妆洗把脸又红回来了",
+        "买了一堆贵妇产品回来修护，但好像都用了个寂寞，不止没用还因为总换护肤品导"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "658fab3d000000001101ca96",
+      "title": "一定要分享我是怎么解决外油内干的！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一定要分享我是怎么解决外油内干的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "外油内干",
+        "油敏皮",
+        "屏障修护",
+        "修护",
+        "油敏皮护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "一定要分享我是怎么解决外油内干的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65fd3666000000001203c54f",
+      "title": "高原红终于远离我了，开心！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "高原红终于远离我了，开心",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "丝塔芙自修精华",
+        "精华推荐",
+        "敏感肌",
+        "油痘肌护肤",
+        "拯救敏感肌",
+        "敏感肌修护",
+        "敏感肌精华",
+        "宝拉珍选绿鼻涕洁面",
+        "ontop脂霜"
+      ],
+      "short_phrases": [
+        "高原红终于远离我了，开心",
+        "作为一个曾经高原红了好几年的油痘敏肌，太了解油痘敏的不易",
+        "越修护痘痘越多，也不敢轻易换护肤品，因为一不小心敏敏还会加重"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "663c90dd000000001e037dd7",
+      "title": "一些让油皮素颜很美丽的护肤搭配",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一些让油皮素颜很美丽的护肤搭配 肤质：油痘敏肌 护肤需求：长痘的时候能快速灭了，不留痘印",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "618超会买买手",
+        "小红书618"
+      ],
+      "short_phrases": [
+        "皮肤维持在光洁细腻的状态，毛孔再小一些，脸得看起来水润光泽白皙",
+        "1、缩毛孔：宝拉烟酰胺+a醇 几乎所有姐妹都想毛孔小一"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66852e43000000001c0264d6",
+      "title": "3年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3年没去美容院，皮肤反而更好了 已经对美容院祛魅了，3年没去过，皮肤没有变差，反而比之前更好更稳定",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "我的护肤日常",
+        "护肤分享"
+      ],
+      "short_phrases": [
+        "我觉得不是护肤品的原因，而是正确的护肤方式帮了我，毕竟每天早晚都需要护肤",
+        "如果你对皮肤的追求是细腻、光滑、水嫩，相信我，正确护肤就能达到",
+        "1、雷打不动一周做一次家庭版毛孔深层清洁，因为我是油痘皮，毛孔非常容易堵"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "3年没去美容院，皮肤反而更好了 已经对美容院祛魅了，3年没去过，皮肤没有变差，反而比之前更好更稳定",
+        "我觉得不是护肤品的原因，而是正确的护肤方式帮了我，毕竟每天早晚都需要护肤"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "669c6dda0000000025003da0",
+      "title": "帮我养成妈生好皮的6组晚间护肤搭配（油皮）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "帮我养成妈生好皮的6组晚间护肤搭配（油皮） 我是油痘敏肌，29岁，其实大部分油皮姐妹都跟我一样，是在健康/油痘/油敏之间反复横跳，那下面这些套组是我亲测非常有效并且不会踩雷的，希望",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "全世界的好成分",
+        "祛痘去闭口",
+        "油皮",
+        "油痘肌爱用"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66fe57bb000000001902d35e",
+      "title": "国庆哪都不去，就在家搞脸，7日嫩肤计划",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "国庆哪都不去，就在家搞脸，7日嫩肤计划 我觉得想皮肤变好的话，护肤计划真的非常有必要",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "我的护肤日记",
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "红薯买手集"
+      ],
+      "short_phrases": [
+        "皮肤变好了也不知道是用了什么，皮肤变差了也找不到原因",
+        "主要的还是酸和A，没"
+      ],
+      "question_phrases": [
+        "皮肤变好了也不知道是用了什么，皮肤变差了也找不到原因"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "670214c3000000001b022274",
+      "title": "3年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3年没去美容院，皮肤反而更好了 11年油痘肌，为了改善我的痘痘、闭口、毛孔，前几年光是在美容院do项目就花了不下6位数",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "美容护肤",
+        "院线护肤",
+        "小森林家庭版海菲秀",
+        "油痘肌护肤",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "皮肤确实变好了不少，但是只要项目一停，很容易又会被打回原形",
+        "下面是我研究出来的「家庭版美容院系列」，低成本高回报，大家试试"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "3年没去美容院，皮肤反而更好了 11年油痘肌，为了改善我的痘痘、闭口、毛孔，前几年光是在美容院do项目就花了不下6位数"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67808d5d000000002001f906",
+      "title": "冬天到了油皮皮肤最好的时候，护肤搭配献上！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "冬天到了油皮皮肤最好的时候，护肤搭配献上",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "油痘肌护肤",
+        "油皮",
+        "护肤搭配"
+      ],
+      "short_phrases": [
+        "冬天到了油皮皮肤最好的时候，护肤搭配献上",
+        "先用酸冻膜，打开皮肤通道"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "681074cc0000000021002ead",
+      "title": "油痘肌护肤：从大牌追逐者变实用护肤主义",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤：从大牌追逐者变实用护肤主义 以前我皮肤差的时候，最喜欢的事情就是去美容院做项目买各种小众大牌护肤品，我认为只要肯花钱，皮肤一定好",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "拯救大油皮"
+      ],
+      "short_phrases": [
+        "因为护肤品每天都涂，但我们和别的肤质不同，别人用错顶多干燥起皮"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "然而并没有，因为我频繁的搞项目，各种乱用护肤品，反而把自己搞成了油痘敏肌，一张脸上又是高原红又是闭口又是痘印…… 我觉得油皮想要皮肤好，更应该注意日常护肤"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68a7ced3000000001c0069b4",
+      "title": "一些让我皮肤变好的搭配（100%无广",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "一些让我皮肤变好的搭配（100%无广 1、毛孔粗大（烟酰胺+毛孔精华+兜底） 在细毛孔方面除了每周一次的家庭版毛孔深层清洁做清洁外，我会持续用毛孔精华来缩毛孔，先用烟酰胺全脸打底，",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤干货",
+        "油皮护肤",
+        "油皮",
+        "毛孔粗大",
+        "祛痘",
+        "敏肌修护",
+        "水光肌"
+      ],
+      "short_phrases": [
+        "毛孔精华里有酸也有A, 最重要"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "6274f51e0000000001026ece",
+      "title": "修护皮肤屏障注意事项（不花钱版）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "修护皮肤屏障注意事项（不花钱版） 不注意这些，花再多钱屏障也好不了 # # # # #",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "敏感肌修护",
+        "拯救敏感肌",
+        "敏感肌皮肤屏障修复"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62c138f100000000060359df",
+      "title": "想要好皮肤真的很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "想要好皮肤真的很简单 我长了9年闭口痘痘，是标准的油痘肌，（图3左下是我以前的皮肤常态，九年一直都那样）所以油痘肌宝宝别焦虑，咱们真的可以变成水煮🥚",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "油痘肌",
+        "怎么才能去闭口",
+        "闭口粉刺",
+        "痘痘",
+        "素颜"
+      ],
+      "short_phrases": [
+        "想要皮肤细腻、平滑、有光泽，这些护肤品就能达到，而且不需"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62c7dc03000000000d027be8",
+      "title": "油痘肌护肤小白，想皮肤细腻不长痘看这个",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤小白，想皮肤细腻不长痘看这个 发现许多油痘肌宝宝还对s有一些恐惧，把s与烂脸等同一起，认为只能去医院才能S",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "油痘肌",
+        "护肤",
+        "痘痘肌",
+        "我的护肤日常",
+        "怎么才能去闭口",
+        "闭口粉刺"
+      ],
+      "short_phrases": [
+        "s对于油痘肌而言是非常好的，我从闭口痘痘星人变成现在的皮肤很大程度是🍋用的好",
+        "因为我们油痘肌出油量大，容易角质堆积，皮肤就不"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "62d7bb5c000000001200188c",
+      "title": "极简护肤我爱了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "极简护肤我爱了 我是一个长了9年痘痘闭口的油痘肌，现在皮肤被我保养的蛮好，细腻、光滑、不会随意长痘痘闭口了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "兰蔻极光精华水乳",
+        "兰蔻",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "精简护肤",
+        "好皮肤养成记",
+        "闭口粉刺",
+        "护肤"
+      ],
+      "short_phrases": [
+        "皮肤出油量很大，如果还用厚重的护肤品，皮肤会马上抗议给你看，痘痘闭口层出不穷",
+        "油痘肌的宝宝们试试用s，可以加速皮肤新陈代谢，让皮肤"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63147930000000000900f3e0",
+      "title": "让皮肤变好的从来不是护肤品，而是护肤方式",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "让皮肤变好的从来不是护肤品，而是护肤方式 很多人看我现在的皮肤都不相信我是油痘肌，我长了9年痘痘闭口",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "油痘肌大作战",
+        "油痘肌护肤",
+        "好皮肤养成记",
+        "如何拯救痘痘肌",
+        "痘痘肌肤",
+        "怎么才能去闭口",
+        "痘痘肌"
+      ],
+      "short_phrases": [
+        "现在皮肤挺细腻、又有光泽，不会随意的长闭口了",
+        "我心中油痘肌护肤的重要程度：敏感>痘痘闭口>平滑细腻肌肤>美b、k氧化、k"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "让皮肤变好的从来不是护肤品，而是护肤方式 很多人看我现在的皮肤都不相信我是油痘肌，我长了9年痘痘闭口"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6336bc47000000001d013a93",
+      "title": "细腻皮肤的干货来了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "细腻皮肤的干货来了 我是长达9年的油痘肌肤质，但现在皮肤还挺细腻光滑的",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "科颜氏A醇精华",
+        "早C晚A",
+        "油痘肌大作战",
+        "好皮肤养成记",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "细腻皮肤的干货来了 我是长达9年的油痘肌肤质，但现在皮肤还挺细腻光滑的",
+        "关于细腻皮肤、缩小毛孔这方面，我很建议你们试试A醇",
+        "最近我发现了一个很温和但效果又很好的A醇精华，科颜氏A醇精华",
+        "这款很适合新手，里面复"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "63d783b900000000080279c9",
+      "title": "油痘肌护肤：从大牌追逐者变成实用护肤主义",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤：从大牌追逐者变成实用护肤主义 我长了9年的痘痘，曾经的额头密密麻麻全是闭口，前9年我的脸几乎没有一天是平整的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤"
+      ],
+      "short_phrases": [
+        "1⃣️不要盲目追逐品牌"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "640da5be000000002702b6d6",
+      "title": "油痘肌护肤攻略，从满脸痘痘闭口到妈生好皮",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "油痘肌护肤攻略，从满脸痘痘闭口到妈生好皮 我是长达十年的油痘肌，图四是我以前的皮肤[哭惹R]从满脸痘痘闭口到现在皮肤细腻光滑，确实是有护肤窍门的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "如何拯救痘痘肌",
+        "油痘肌护肤",
+        "油痘肌大作战",
+        "怎么才能去闭口",
+        "痘痘肌",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "1⃣️脸上mm、泛红，同时又有痘痘和闭口",
+        "这种情况要先治mm，因为皮肤mm的情况下很多qu痘的东西"
+      ],
+      "question_phrases": [
+        "今天把我的护肤套路分享给你们～ 从1⃣️-4⃣️是一个皮肤变好的过程，你们看自己现在是哪个阶段就知道该如何护肤了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "648ad92f000000001300975f",
+      "title": "油皮夏日精简护肤，皮肤越来越细腻健康了！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油皮夏日精简护肤，皮肤越来越细腻健康了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "好皮肤养成记",
+        "我的护肤日常",
+        "精简护肤",
+        "护肤流程",
+        "护肤就爱小众品牌",
+        "国货护肤好推荐",
+        "onTop脂霜",
+        "onTop小花茉莉洁颜膏",
+        "onTop精华"
+      ],
+      "short_phrases": [
+        "油皮夏日精简护肤，皮肤越来越细腻健康了",
+        "- 精简护肤原则：一瓶多效，简化护肤步"
+      ],
+      "question_phrases": [
+        "其实皮肤没什么特别大的问题，精简的护肤方式就完全够了，用更少的护肤品做到更有效的护肤（less is more）"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "64f2da9c000000001e029dea",
+      "title": "没花一分钱就把屏障修护好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "没花一分钱就把屏障修护好了 今天分享我不花钱版的修护屏障经验～ 其实修护屏障这件事真花不了什么钱，因为皮肤本身就有自Y能力，修护了半天总不好多半不是护肤品的问题，而是自己无意识的护",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "皮肤屏障受损",
+        "修护",
+        "屏障修护",
+        "拯救敏感肌"
+      ],
+      "short_phrases": [
+        "我之前高原红状态持续了两年，时好时坏",
+        "有时候感觉不红了，化个妆洗把脸又红回来了",
+        "买了一堆贵妇产品回来修护，但好像都用了个寂寞，不止没用还因为总换护肤品导"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "658fab3d000000001101ca96",
+      "title": "一定要分享我是怎么解决外油内干的！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一定要分享我是怎么解决外油内干的",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "外油内干",
+        "油敏皮",
+        "屏障修护",
+        "修护",
+        "油敏皮护肤"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "一定要分享我是怎么解决外油内干的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "65fd3666000000001203c54f",
+      "title": "高原红终于远离我了，开心！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "高原红终于远离我了，开心",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "丝塔芙自修精华",
+        "精华推荐",
+        "敏感肌",
+        "油痘肌护肤",
+        "拯救敏感肌",
+        "敏感肌修护",
+        "敏感肌精华",
+        "宝拉珍选绿鼻涕洁面",
+        "ontop脂霜"
+      ],
+      "short_phrases": [
+        "高原红终于远离我了，开心",
+        "作为一个曾经高原红了好几年的油痘敏肌，太了解油痘敏的不易",
+        "越修护痘痘越多，也不敢轻易换护肤品，因为一不小心敏敏还会加重"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "663c90dd000000001e037dd7",
+      "title": "一些让油皮素颜很美丽的护肤搭配",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一些让油皮素颜很美丽的护肤搭配 肤质：油痘敏肌 护肤需求：长痘的时候能快速灭了，不留痘印",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油皮",
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "618超会买买手",
+        "小红书618"
+      ],
+      "short_phrases": [
+        "皮肤维持在光洁细腻的状态，毛孔再小一些，脸得看起来水润光泽白皙",
+        "1、缩毛孔：宝拉烟酰胺+a醇 几乎所有姐妹都想毛孔小一"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66852e43000000001c0264d6",
+      "title": "3年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3年没去美容院，皮肤反而更好了 已经对美容院祛魅了，3年没去过，皮肤没有变差，反而比之前更好更稳定",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌护肤",
+        "如何拯救痘痘肌",
+        "我的护肤日常",
+        "护肤分享"
+      ],
+      "short_phrases": [
+        "我觉得不是护肤品的原因，而是正确的护肤方式帮了我，毕竟每天早晚都需要护肤",
+        "如果你对皮肤的追求是细腻、光滑、水嫩，相信我，正确护肤就能达到",
+        "1、雷打不动一周做一次家庭版毛孔深层清洁，因为我是油痘皮，毛孔非常容易堵"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "3年没去美容院，皮肤反而更好了 已经对美容院祛魅了，3年没去过，皮肤没有变差，反而比之前更好更稳定",
+        "我觉得不是护肤品的原因，而是正确的护肤方式帮了我，毕竟每天早晚都需要护肤"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "669c6dda0000000025003da0",
+      "title": "帮我养成妈生好皮的6组晚间护肤搭配（油皮）",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "帮我养成妈生好皮的6组晚间护肤搭配（油皮） 我是油痘敏肌，29岁，其实大部分油皮姐妹都跟我一样，是在健康/油痘/油敏之间反复横跳，那下面这些套组是我亲测非常有效并且不会踩雷的，希望",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "油痘肌护肤",
+        "全世界的好成分",
+        "祛痘去闭口",
+        "油皮",
+        "油痘肌爱用"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "66fe57bb000000001902d35e",
+      "title": "国庆哪都不去，就在家搞脸，7日嫩肤计划",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "国庆哪都不去，就在家搞脸，7日嫩肤计划 我觉得想皮肤变好的话，护肤计划真的非常有必要",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "我的护肤日记",
+        "好皮肤养成记",
+        "油痘肌护肤",
+        "红薯买手集"
+      ],
+      "short_phrases": [
+        "皮肤变好了也不知道是用了什么，皮肤变差了也找不到原因",
+        "主要的还是酸和A，没"
+      ],
+      "question_phrases": [
+        "皮肤变好了也不知道是用了什么，皮肤变差了也找不到原因"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "670214c3000000001b022274",
+      "title": "3年没去美容院，皮肤反而更好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "3年没去美容院，皮肤反而更好了 11年油痘肌，为了改善我的痘痘、闭口、毛孔，前几年光是在美容院do项目就花了不下6位数",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "美容护肤",
+        "院线护肤",
+        "小森林家庭版海菲秀",
+        "油痘肌护肤",
+        "好皮肤养成记"
+      ],
+      "short_phrases": [
+        "皮肤确实变好了不少，但是只要项目一停，很容易又会被打回原形",
+        "下面是我研究出来的「家庭版美容院系列」，低成本高回报，大家试试"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "3年没去美容院，皮肤反而更好了 11年油痘肌，为了改善我的痘痘、闭口、毛孔，前几年光是在美容院do项目就花了不下6位数"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "67808d5d000000002001f906",
+      "title": "冬天到了油皮皮肤最好的时候，护肤搭配献上！",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "冬天到了油皮皮肤最好的时候，护肤搭配献上",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "我的护肤年度总结",
+        "年度护肤报告",
+        "油痘肌护肤",
+        "油皮",
+        "护肤搭配"
+      ],
+      "short_phrases": [
+        "冬天到了油皮皮肤最好的时候，护肤搭配献上",
+        "先用酸冻膜，打开皮肤通道"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "681074cc0000000021002ead",
+      "title": "油痘肌护肤：从大牌追逐者变实用护肤主义",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "油痘肌护肤：从大牌追逐者变实用护肤主义 以前我皮肤差的时候，最喜欢的事情就是去美容院做项目买各种小众大牌护肤品，我认为只要肯花钱，皮肤一定好",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "拯救大油皮"
+      ],
+      "short_phrases": [
+        "因为护肤品每天都涂，但我们和别的肤质不同，别人用错顶多干燥起皮"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "然而并没有，因为我频繁的搞项目，各种乱用护肤品，反而把自己搞成了油痘敏肌，一张脸上又是高原红又是闭口又是痘印…… 我觉得油皮想要皮肤好，更应该注意日常护肤"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "68a7ced3000000001c0069b4",
+      "title": "一些让我皮肤变好的搭配（100%无广",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "一些让我皮肤变好的搭配（100%无广 1、毛孔粗大（烟酰胺+毛孔精华+兜底） 在细毛孔方面除了每周一次的家庭版毛孔深层清洁做清洁外，我会持续用毛孔精华来缩毛孔，先用烟酰胺全脸打底，",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "护肤干货",
+        "油皮护肤",
+        "油皮",
+        "毛孔粗大",
+        "祛痘",
+        "敏肌修护",
+        "水光肌"
+      ],
+      "short_phrases": [
+        "毛孔精华里有酸也有A, 最重要"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

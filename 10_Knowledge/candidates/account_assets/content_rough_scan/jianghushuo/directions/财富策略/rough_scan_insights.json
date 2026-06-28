@@ -21,13 +21,13 @@
           "evidence_level": "needs_video_review"
         },
         {
-          "source_id": "7067539493338828062",
+          "source_id": "7062341768276102441",
           "title": "聊聊学习投资",
           "evidence_level": "needs_video_review"
         },
         {
-          "source_id": "7074568247122611492",
-          "title": "真正的投资。#姜胡说",
+          "source_id": "7067539493338828062",
+          "title": "聊聊学习投资",
           "evidence_level": "needs_video_review"
         }
       ]
@@ -49,17 +49,17 @@
         {
           "source_id": "7540648379617987891",
           "title": "真正有用的知识 真正的财富来自于两个关键行动：构建有价值的产品和掌握有效的营销方法。 大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用。我们从",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7575936937542962432",
           "title": "赚钱是最简单的修行 穷不是风骨，是病，得治。 很多人一谈钱就觉得肮脏、上不了台面。但孩子上学要钱，老人养老要钱，家人生病要钱。 最讽刺的是：住着父母买的房子，却",
-          "evidence_level": "needs_video_review"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7578515738357402914",
           "title": "你认真做事的边角料都是极好的资产 工业时代，只有成品才能卖钱。半成品不值钱。 但移动互联网时代，做产品的过程本身就能变现。 这是一个根本性的转变。 1. 学习笔",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         }
       ]
     },
@@ -75,17 +75,17 @@
         {
           "source_id": "7176998179462728994",
           "title": "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能。忍是一条线，能又是一条线，两者之间就是生存空间。” 别人想做，做不到，你能做，你就",
-          "evidence_level": "needs_video_review"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7611180315444268351",
           "title": "钱不是省出来的。那是怎么来的？ 钱不是省出来的。还有可能越省钱越穷。 为什么？ 因为你只看到了局部成本（钱），忽略了全局成本（钱+时间+精力+机会）。 物理学有",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7620840179279858995",
           "title": "穷富思维差异：用时间换钱vs花钱买时间 穷人用时间换钱。 想赚钱了，第一反应是加班、接单、做副业。把时间都用来换钱，反而没时间思考更重要的事。这是死循环。 富人",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         }
       ]
     },
@@ -132,7 +132,7 @@
         {
           "source_id": "7573700909629263156",
           "title": "最应该学习的技能 最值得学的技能，不是编程、管理、AI，也不是做自媒体。 而是：赚钱！ 学会赚钱比什么都重要。 很多人以为学赚钱只是为了买更多东西。 其实不是。",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7585936020093324584",
@@ -180,6 +180,13 @@
       "source_id": "6884082129827794189",
       "title": "希望你能更早的理解到这句话的意思。 #芬钛计划 #牛市来了吗",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "希望你能更早的理解到这句话的意思",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "芬钛计划",
+        "牛市来了吗"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -190,6 +197,13 @@
       "source_id": "6942487118799211784",
       "title": "有点抽象，但值得你反复多看两遍。#姜胡说 #知识就是财富",
       "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "有点抽象，但值得你反复多看两遍",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "知识就是财富"
+      ],
       "short_phrases": [
         "有点抽象，但值得你反复多看两遍"
       ],
@@ -202,6 +216,13 @@
       "source_id": "6946183839828004133",
       "title": "尽可能做电梯，别自己爬楼梯。#姜胡说 #知识就是财富",
       "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "尽可能做电梯，别自己爬楼梯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "知识就是财富"
+      ],
       "short_phrases": [
         "尽可能做电梯，别自己爬楼梯"
       ],
@@ -214,6 +235,13 @@
       "source_id": "7017782129727671582",
       "title": "1、多少存点💰 2、别做蠢货！ 3、温饱小康富足自由 4、资产配比：% 5、向大师学习 6、给予，利他就是利己。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "1、多少存点💰 2、别做蠢货",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "1、多少存点💰 2、别做蠢货"
       ],
@@ -226,6 +254,13 @@
       "source_id": "7022619355741572386",
       "title": "这是我理解的：蕞简单的投资。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是我理解的：蕞简单的投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "这是我理解的：蕞简单的投资"
       ],
@@ -238,6 +273,15 @@
       "source_id": "7024871070935174400",
       "title": "真正的富人，是那些有大量的时间可以用来挥霍的人。 #姜胡说 #复利 #可成长 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正的富人，是那些有大量的时间可以用来挥霍的人",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "复利",
+        "可成长",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "真正的富人，是那些有大量的时间可以用来挥霍的人"
       ],
@@ -252,6 +296,13 @@
       "source_id": "7026320210902781215",
       "title": "这差不多就是我理解的，关于投资的全部了。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这差不多就是我理解的，关于投资的全部了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "这差不多就是我理解的，关于投资的全部了"
       ],
@@ -264,6 +315,12 @@
       "source_id": "7027463222697479424",
       "title": "做自己喜欢、擅长、复利的事。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "做自己喜欢、擅长、复利的事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "做自己喜欢、擅长、复利的事"
       ],
@@ -276,6 +333,26 @@
       "source_id": "7030805530822167815",
       "title": "这是一条关于常识、复利、投资、行动的视频，信息密度有点大，建议反复多看两遍，好好琢磨琢磨。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是一条关于常识、复利、投资、行动的视频，信息密度有点大，建议反复多看两遍，好好琢磨琢磨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7062341768276102441",
+      "title": "聊聊学习投资",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习投资 聊聊学习投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -286,6 +363,10 @@
       "source_id": "7067539493338828062",
       "title": "聊聊学习投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习投资 聊聊学习投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -296,6 +377,12 @@
       "source_id": "7074568247122611492",
       "title": "真正的投资。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正的投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -306,6 +393,10 @@
       "source_id": "7080924412383481102",
       "title": "我的思考与投资框架",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我的思考与投资框架 我的思考与投资框架",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -316,6 +407,10 @@
       "source_id": "7091268111373978894",
       "title": "聊聊学习、思考、投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习、思考、投资 聊聊学习、思考、投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [
         "聊聊学习、思考、投资 聊聊学习、思考、投资"
       ],
@@ -328,6 +423,12 @@
       "source_id": "7135449225596341539",
       "title": "#姜胡说 投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了。所以，它并不容易。",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了",
         "所以，它并不容易"
@@ -338,19 +439,15 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7145489802316483847",
-      "title": "投资与思维模型",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
       "source_id": "7154004687308459271",
       "title": "#姜胡说 学习学习，再学习。学习（编程）、学习（抖音）、学习（投资）、学习（做生意）……",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "学习学习，再学习",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "学习学习，再学习",
         "学习（编程）、学习（抖音）、学习（投资）、学习（做生意）……"
@@ -364,6 +461,12 @@
       "source_id": "7159566730837134605",
       "title": "#姜胡说 城镇化、工业化；服务、消费+互联网；新能源车、碳中和、高精尖……",
       "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "城镇化、工业化",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "服务、消费+互联网",
         "新能源车、碳中和、高精尖…… 城镇化、工业化",
@@ -377,7 +480,14 @@
     {
       "source_id": "7176998179462728994",
       "title": "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能。忍是一条线，能又是一条线，两者之间就是生存空间。” 别人想做，做不到，你能做，你就能赚到钱；挣得是能力",
-      "evidence_level": "needs_video_review",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "学以致用"
+      ],
       "short_phrases": [
         "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能",
         "忍是一条线，能又是一条线，两者之间就是生存空间",
@@ -393,13 +503,19 @@
         "因为那里是近距离观察别人“如何射门得分”的最佳场所"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7195534646212300066",
       "title": "1、了解自己，知道在哪里可以获得财富。 即便从0岁开始培养，我也无法成为勒布朗.詹姆斯，成为老虎伍兹。再努力也不行。作为一名普通人，我必须待在一个能够获得运气的地方。 为什么要做抖",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "1、了解自己，知道在哪里可以获得财富",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "1、了解自己，知道在哪里可以获得财富",
         "即便从0岁开始培养，我也无法成为勒布朗.詹姆斯，成为老虎伍兹",
@@ -422,6 +538,10 @@
       "source_id": "7202627097226005820",
       "title": "重新理解投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "重新理解投资 重新理解投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -432,6 +552,10 @@
       "source_id": "7251983252007832892",
       "title": "价值心法.第一桶金",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "价值心法.第一桶金 价值心法.第一桶金",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [],
       "short_phrases": [
         "价值心法.第一桶金 价值心法.第一桶金"
       ],
@@ -444,6 +568,15 @@
       "source_id": "7432307054242581814",
       "title": "4条认知 1、失败并不一定是成功之母。 2、努力不一定会成功。 3、不一定要听你父母的话。 4、最好的投资是投资自己。 #姜胡说 #努力 #投资 #个人成长",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4条认知 1、失败并不一定是成功之母",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "努力",
+        "投资",
+        "个人成长"
+      ],
       "short_phrases": [
         "4条认知 1、失败并不一定是成功之母",
         "2、努力不一定会成功",
@@ -459,6 +592,16 @@
       "source_id": "7538383610173508900",
       "title": "你有问题 拿你有的换你想要的 “天下没有白走的路，走过的都算数”，过往学会的技能，如从不会演讲到会演讲、从不会做自媒体到会做自媒体、从不会投资到会投资、从不会做软件到会做软件等，这",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你有问题 拿你有的换你想要的 “天下没有白走的路，走过的都算数”，过往学会的技能，如从不会演讲到会演讲、从不会做自媒体到会做自媒体、从不会投资到会投资、从不会做软件到会做软件等，这",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "问题",
+        "干货分享"
+      ],
       "short_phrases": [
         "要好好盘点自己拥有的资产，然后用其去换取想要的",
         "若觉得自己没有什么，那就花几分钟列出自身问题，如晚睡、肥胖、缺乏自制力等",
@@ -478,7 +621,17 @@
     {
       "source_id": "7540648379617987891",
       "title": "真正有用的知识 真正的财富来自于两个关键行动：构建有价值的产品和掌握有效的营销方法。 大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用。我们从小被教育要不断学习，",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "真正有用的知识 真正的财富来自于两个关键行动：构建有价值的产品和掌握有效的营销方法",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "干货分享",
+        "知识"
+      ],
       "short_phrases": [
         "大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用",
         "我们从小被教育要不断学习，却没人教我们如何把知识转化为财富",
@@ -498,13 +651,23 @@
         "大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用",
         "真正的知识不在于你觉得懂了，而在于你能用出来"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7573700909629263156",
       "title": "最应该学习的技能 最值得学的技能，不是编程、管理、AI，也不是做自媒体。 而是：赚钱！ 学会赚钱比什么都重要。 很多人以为学赚钱只是为了买更多东西。 其实不是。学会赚钱后，你得到的",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "最应该学习的技能 最值得学的技能，不是编程、管理、AI，也不是做自媒体",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "个人OS",
+        "价值心法",
+        "创作系统",
+        "赚钱"
+      ],
       "short_phrases": [
         "最应该学习的技能 最值得学的技能，不是编程、管理、AI，也不是做自媒体",
         "学会赚钱后，你得到的最大好处是：可以自己掌控人生",
@@ -522,13 +685,23 @@
       "contrarian_phrases": [
         "真正的自由，是不被钱困住"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7575936937542962432",
       "title": "赚钱是最简单的修行 穷不是风骨，是病，得治。 很多人一谈钱就觉得肮脏、上不了台面。但孩子上学要钱，老人养老要钱，家人生病要钱。 最讽刺的是：住着父母买的房子，却鄙视谈钱。这是今天很",
-      "evidence_level": "needs_video_review",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "赚钱是最简单的修行 穷不是风骨，是病，得治",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "价值心法",
+        "财富",
+        "赚钱",
+        "方法"
+      ],
       "short_phrases": [
         "赚钱是最简单的修行 穷不是风骨，是病，得治",
         "很多人一谈钱就觉得肮脏、上不了台面",
@@ -538,13 +711,23 @@
       ],
       "question_phrases": [],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7578515738357402914",
       "title": "你认真做事的边角料都是极好的资产 工业时代，只有成品才能卖钱。半成品不值钱。 但移动互联网时代，做产品的过程本身就能变现。 这是一个根本性的转变。 1. 学习笔记可以卖钱 不是简单",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你认真做事的边角料都是极好的资产 工业时代，只有成品才能卖钱",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "创作系统",
+        "创业",
+        "赚钱",
+        "价值心法"
+      ],
       "short_phrases": [
         "你认真做事的边角料都是极好的资产 工业时代，只有成品才能卖钱",
         "但移动互联网时代，做产品的过程本身就能变现",
@@ -565,13 +748,23 @@
         "人们需要的不是高深理论，而是新手也能看懂的实操指南",
         "这种抽象能力和方法论，才是真正的价值"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7585936020093324584",
       "title": "杠铃策略 不要轻易创业。 尤其是你手里没有被市场验证的产品时。这时候创业就是赌运气，概率极低。 也别只是换份新工作。 塔勒布说过：人类有三样东西会上瘾——海洛因、碳水化合物、月薪。",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "杠铃策略 不要轻易创业",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "职业选择",
+        "创业",
+        "赚钱",
+        "方法"
+      ],
       "short_phrases": [
         "这时候创业就是赌运气，概率极低",
         "塔勒布说过：人类有三样东西会上瘾——海洛因、碳水化合物、月薪",
@@ -591,7 +784,17 @@
     {
       "source_id": "7591878323370741046",
       "title": "真正的财富不是钱 财富不是钱，是信任的度量。 一群人达成共识，形成信任，财富就产生了。 这个认知，决定了你该往哪走。 张一鸣说，人和人最大的区别就是认知。 钱是什么 你拿一张纸（钞",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "真正的财富不是钱 财富不是钱，是信任的度量",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "财富",
+        "钱",
+        "信任",
+        "共识"
+      ],
       "short_phrases": [
         "真正的财富不是钱 财富不是钱，是信任的度量",
         "一群人达成共识，形成信任，财富就产生了",
@@ -610,13 +813,23 @@
         "真正的财富不是钱 财富不是钱，是信任的度量",
         "真正的财富是什么 如果有一群人特别相信你、信任你，达成了共识，你就拥有了财富"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7611180315444268351",
       "title": "钱不是省出来的。那是怎么来的？ 钱不是省出来的。还有可能越省钱越穷。 为什么？ 因为你只看到了局部成本（钱），忽略了全局成本（钱+时间+精力+机会）。 物理学有个最小作用量原理。真",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "钱不是省出来的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "省钱",
+        "思维"
+      ],
       "short_phrases": [
         "因为你只看到了局部成本（钱），忽略了全局成本（钱+时间+精力+机会）",
         "真正好的系统，成本最低",
@@ -629,13 +842,23 @@
         "为什么我们会穷：线性思维 我们挣钱用的是加减法"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7620840179279858995",
       "title": "穷富思维差异：用时间换钱vs花钱买时间 穷人用时间换钱。 想赚钱了，第一反应是加班、接单、做副业。把时间都用来换钱，反而没时间思考更重要的事。这是死循环。 富人花钱买时间。 他们购",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "穷富思维差异：用时间换钱vs花钱买时间 穷人用时间换钱",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "认知",
+        "赚钱",
+        "思维",
+        "方法",
+        "姜胡说"
+      ],
       "short_phrases": [
         "穷富思维差异：用时间换钱vs花钱买时间 穷人用时间换钱",
         "想赚钱了，第一反应是加班、接单、做副业",
@@ -650,13 +873,23 @@
       "contrarian_phrases": [
         "把时间都用来换钱，反而没时间思考更重要的事"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7623432595895749926",
       "title": "怎么赚钱？ 最简单的赚钱方式，是把你验证过的赚钱过程教给别人。但前提是：你得先赚到一点。 关键知识点（梳理版） 赚钱不神秘：创造价值→拿到回报。 你给社会和他人带来更好的结果，就更",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "怎么赚钱",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "赚钱",
+        "方法",
+        "学习",
+        "个人成长",
+        "姜胡说"
+      ],
       "short_phrases": [
         "最简单的赚钱方式，是把你验证过的赚钱过程教给别人",
         "但前提是：你得先赚到一点",
@@ -675,13 +908,23 @@
         "真正的问题是：你想被喂，不想自己找、自己啃、自己验证",
         "我说的不是“老师没用”，而是“你要能自学”"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7633080344446602505",
       "title": "永远不要\"花钱\"，只做投资。 投资你的大脑、你的健康、你的技能、你的人脉——这些才是真正能带来回报的资产。 一杯星巴克，喝完就没了；买一本书或一个课程，它会转化成你大脑里永久的认知",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "永远不要\"花钱\"，只做投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "长期主义",
+        "复利思维",
+        "个人成长",
+        "财富认知",
+        "姜胡说"
+      ],
       "short_phrases": [
         "永远不要\"花钱\"，只做投资",
         "投资你的大脑、你的健康、你的技能、你的人脉——这些才是真正能带来回报的资产",
@@ -703,11 +946,24 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     }
   ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
   "candidate_deep_learning": [
     {
       "source_id": "6884082129827794189",
       "title": "希望你能更早的理解到这句话的意思。 #芬钛计划 #牛市来了吗",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "希望你能更早的理解到这句话的意思",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "芬钛计划",
+        "牛市来了吗"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -718,6 +974,13 @@
       "source_id": "7022619355741572386",
       "title": "这是我理解的：蕞简单的投资。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是我理解的：蕞简单的投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "这是我理解的：蕞简单的投资"
       ],
@@ -730,6 +993,15 @@
       "source_id": "7024871070935174400",
       "title": "真正的富人，是那些有大量的时间可以用来挥霍的人。 #姜胡说 #复利 #可成长 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正的富人，是那些有大量的时间可以用来挥霍的人",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "复利",
+        "可成长",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "真正的富人，是那些有大量的时间可以用来挥霍的人"
       ],
@@ -744,6 +1016,13 @@
       "source_id": "7026320210902781215",
       "title": "这差不多就是我理解的，关于投资的全部了。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这差不多就是我理解的，关于投资的全部了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "这差不多就是我理解的，关于投资的全部了"
       ],
@@ -756,6 +1035,12 @@
       "source_id": "7027463222697479424",
       "title": "做自己喜欢、擅长、复利的事。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "做自己喜欢、擅长、复利的事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "做自己喜欢、擅长、复利的事"
       ],
@@ -768,6 +1053,26 @@
       "source_id": "7030805530822167815",
       "title": "这是一条关于常识、复利、投资、行动的视频，信息密度有点大，建议反复多看两遍，好好琢磨琢磨。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是一条关于常识、复利、投资、行动的视频，信息密度有点大，建议反复多看两遍，好好琢磨琢磨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7062341768276102441",
+      "title": "聊聊学习投资",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习投资 聊聊学习投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -778,6 +1083,10 @@
       "source_id": "7067539493338828062",
       "title": "聊聊学习投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习投资 聊聊学习投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -788,6 +1097,12 @@
       "source_id": "7074568247122611492",
       "title": "真正的投资。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正的投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -798,6 +1113,10 @@
       "source_id": "7080924412383481102",
       "title": "我的思考与投资框架",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我的思考与投资框架 我的思考与投资框架",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -808,6 +1127,10 @@
       "source_id": "7091268111373978894",
       "title": "聊聊学习、思考、投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习、思考、投资 聊聊学习、思考、投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [
         "聊聊学习、思考、投资 聊聊学习、思考、投资"
       ],
@@ -820,6 +1143,12 @@
       "source_id": "7135449225596341539",
       "title": "#姜胡说 投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了。所以，它并不容易。",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了",
         "所以，它并不容易"
@@ -830,19 +1159,15 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7145489802316483847",
-      "title": "投资与思维模型",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
       "source_id": "7154004687308459271",
       "title": "#姜胡说 学习学习，再学习。学习（编程）、学习（抖音）、学习（投资）、学习（做生意）……",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "学习学习，再学习",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "学习学习，再学习",
         "学习（编程）、学习（抖音）、学习（投资）、学习（做生意）……"
@@ -853,31 +1178,15 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7176998179462728994",
-      "title": "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能。忍是一条线，能又是一条线，两者之间就是生存空间。” 别人想做，做不到，你能做，你就能赚到钱；挣得是能力",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能",
-        "忍是一条线，能又是一条线，两者之间就是生存空间",
-        "” 别人想做，做不到，你能做，你就能赚到钱",
-        "别人不愿意做，你做，也能赚到钱",
-        "不想挣辛苦钱，就必须想办法提升自己的能力"
-      ],
-      "question_phrases": [
-        "这两者并没有什么本质上的区别",
-        "你可以先学会怎么学习，再用学到的方法学习怎么赚钱",
-        "扫描目录，寻找同一个主题（比如“如何销售”），集中阅读",
-        "以获得洞见、获得灵感、启发为主，大量尝试，每天用自己的话写点什么",
-        "因为那里是近距离观察别人“如何射门得分”的最佳场所"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
       "source_id": "7195534646212300066",
       "title": "1、了解自己，知道在哪里可以获得财富。 即便从0岁开始培养，我也无法成为勒布朗.詹姆斯，成为老虎伍兹。再努力也不行。作为一名普通人，我必须待在一个能够获得运气的地方。 为什么要做抖",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "1、了解自己，知道在哪里可以获得财富",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "1、了解自己，知道在哪里可以获得财富",
         "即便从0岁开始培养，我也无法成为勒布朗.詹姆斯，成为老虎伍兹",
@@ -900,6 +1209,10 @@
       "source_id": "7202627097226005820",
       "title": "重新理解投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "重新理解投资 重新理解投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -910,6 +1223,10 @@
       "source_id": "7251983252007832892",
       "title": "价值心法.第一桶金",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "价值心法.第一桶金 价值心法.第一桶金",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [],
       "short_phrases": [
         "价值心法.第一桶金 价值心法.第一桶金"
       ],
@@ -922,6 +1239,15 @@
       "source_id": "7432307054242581814",
       "title": "4条认知 1、失败并不一定是成功之母。 2、努力不一定会成功。 3、不一定要听你父母的话。 4、最好的投资是投资自己。 #姜胡说 #努力 #投资 #个人成长",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4条认知 1、失败并不一定是成功之母",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "努力",
+        "投资",
+        "个人成长"
+      ],
       "short_phrases": [
         "4条认知 1、失败并不一定是成功之母",
         "2、努力不一定会成功",
@@ -937,6 +1263,16 @@
       "source_id": "7538383610173508900",
       "title": "你有问题 拿你有的换你想要的 “天下没有白走的路，走过的都算数”，过往学会的技能，如从不会演讲到会演讲、从不会做自媒体到会做自媒体、从不会投资到会投资、从不会做软件到会做软件等，这",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你有问题 拿你有的换你想要的 “天下没有白走的路，走过的都算数”，过往学会的技能，如从不会演讲到会演讲、从不会做自媒体到会做自媒体、从不会投资到会投资、从不会做软件到会做软件等，这",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "问题",
+        "干货分享"
+      ],
       "short_phrases": [
         "要好好盘点自己拥有的资产，然后用其去换取想要的",
         "若觉得自己没有什么，那就花几分钟列出自身问题，如晚睡、肥胖、缺乏自制力等",
@@ -954,30 +1290,68 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7540648379617987891",
-      "title": "真正有用的知识 真正的财富来自于两个关键行动：构建有价值的产品和掌握有效的营销方法。 大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用。我们从小被教育要不断学习，",
-      "evidence_level": "transcript_available",
+      "source_id": "7585936020093324584",
+      "title": "杠铃策略 不要轻易创业。 尤其是你手里没有被市场验证的产品时。这时候创业就是赌运气，概率极低。 也别只是换份新工作。 塔勒布说过：人类有三样东西会上瘾——海洛因、碳水化合物、月薪。",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "杠铃策略 不要轻易创业",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "职业选择",
+        "创业",
+        "赚钱",
+        "方法"
+      ],
       "short_phrases": [
-        "大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用",
-        "我们从小被教育要不断学习，却没人教我们如何把知识转化为财富",
-        "\" 贫穷的核心原因：我们从未研究过如何赚钱",
-        "父母没教、学校不教、社会不教，而我们自己又不主动学习",
-        "当有人教你时，你第一反应却有可能是\"他想赚我的钱\""
+        "这时候创业就是赌运气，概率极低",
+        "塔勒布说过：人类有三样东西会上瘾——海洛因、碳水化合物、月薪",
+        "月薪是毒品，它会限制你的选择",
+        "正确的策略是：杠铃策略",
+        "在极度不确定时期，中间资产波动最大"
       ],
       "question_phrases": [
-        "大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用",
-        "我们从小被教育要不断学习，却没人教我们如何把知识转化为财富",
-        "这就是为什么有人读完研究生后依然找不到工作——他们从未思考过\"我学的东西到底用在哪里",
-        "\" 贫穷的核心原因：我们从未研究过如何赚钱",
-        "赚钱的两步核心法则： 构建别人真正需要的产品 学习有效的营销方法 什么样的需求是刚需"
+        "什么是非对称收益",
+        "不要看别人怎么说，看别人怎么做",
+        "比如我做自媒体： 每天投入10分钟 收益上限极高 就算没做成，也只损失一点时间 具体怎么做"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7633080344446602505",
+      "title": "永远不要\"花钱\"，只做投资。 投资你的大脑、你的健康、你的技能、你的人脉——这些才是真正能带来回报的资产。 一杯星巴克，喝完就没了；买一本书或一个课程，它会转化成你大脑里永久的认知",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "永远不要\"花钱\"，只做投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "长期主义",
+        "复利思维",
+        "个人成长",
+        "财富认知",
+        "姜胡说"
+      ],
+      "short_phrases": [
+        "永远不要\"花钱\"，只做投资",
+        "投资你的大脑、你的健康、你的技能、你的人脉——这些才是真正能带来回报的资产",
+        "一杯星巴克，喝完就没了",
+        "买一本书或一个课程，它会转化成你大脑里永久的认知",
+        "消费是消耗，投资是增值，两者的差距在十年后会被时间放大到你难以想象的程度"
+      ],
+      "question_phrases": [
+        "我们普遍犯两个错误：高估自己一年能做什么，低估自己十年能做什么",
+        "很多人问我：我现在40岁了，还来得及吗",
+        "从今晚开始，睡前不要问\"今天消费了什么\"，而是问自己三个问题：今天我投资了什么",
+        "今天我在那件小事上进步了吗"
       ],
       "contrarian_phrases": [
-        "真正有用的知识 真正的财富来自于两个关键行动：构建有价值的产品和掌握有效的营销方法",
-        "大多数人陷入贫困和迷茫不是因为不学习，而是因为学了却不知道如何应用",
-        "真正的知识不在于你觉得懂了，而在于你能用出来"
+        "真正可怕的不是起点渺小，而是方向错了还在拼命坚持",
+        "不开始，才是真正的来不及"
       ],
       "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     }
   ],
   "needs_video_review": [
@@ -985,6 +1359,13 @@
       "source_id": "6884082129827794189",
       "title": "希望你能更早的理解到这句话的意思。 #芬钛计划 #牛市来了吗",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "希望你能更早的理解到这句话的意思",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "芬钛计划",
+        "牛市来了吗"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -995,6 +1376,13 @@
       "source_id": "7022619355741572386",
       "title": "这是我理解的：蕞简单的投资。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是我理解的：蕞简单的投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "这是我理解的：蕞简单的投资"
       ],
@@ -1007,6 +1395,15 @@
       "source_id": "7024871070935174400",
       "title": "真正的富人，是那些有大量的时间可以用来挥霍的人。 #姜胡说 #复利 #可成长 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正的富人，是那些有大量的时间可以用来挥霍的人",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "复利",
+        "可成长",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "真正的富人，是那些有大量的时间可以用来挥霍的人"
       ],
@@ -1021,6 +1418,13 @@
       "source_id": "7026320210902781215",
       "title": "这差不多就是我理解的，关于投资的全部了。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这差不多就是我理解的，关于投资的全部了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "这差不多就是我理解的，关于投资的全部了"
       ],
@@ -1033,6 +1437,12 @@
       "source_id": "7027463222697479424",
       "title": "做自己喜欢、擅长、复利的事。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "做自己喜欢、擅长、复利的事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "做自己喜欢、擅长、复利的事"
       ],
@@ -1045,6 +1455,26 @@
       "source_id": "7030805530822167815",
       "title": "这是一条关于常识、复利、投资、行动的视频，信息密度有点大，建议反复多看两遍，好好琢磨琢磨。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是一条关于常识、复利、投资、行动的视频，信息密度有点大，建议反复多看两遍，好好琢磨琢磨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7062341768276102441",
+      "title": "聊聊学习投资",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习投资 聊聊学习投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -1055,6 +1485,10 @@
       "source_id": "7067539493338828062",
       "title": "聊聊学习投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习投资 聊聊学习投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -1065,6 +1499,12 @@
       "source_id": "7074568247122611492",
       "title": "真正的投资。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真正的投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -1075,6 +1515,10 @@
       "source_id": "7080924412383481102",
       "title": "我的思考与投资框架",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我的思考与投资框架 我的思考与投资框架",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -1085,6 +1529,10 @@
       "source_id": "7091268111373978894",
       "title": "聊聊学习、思考、投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "聊聊学习、思考、投资 聊聊学习、思考、投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [
         "聊聊学习、思考、投资 聊聊学习、思考、投资"
       ],
@@ -1097,6 +1545,12 @@
       "source_id": "7135449225596341539",
       "title": "#姜胡说 投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了。所以，它并不容易。",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "投资很简单，只要在能力范围内做好简单的事，然后交给时间就好了",
         "所以，它并不容易"
@@ -1107,19 +1561,15 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7145489802316483847",
-      "title": "投资与思维模型",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
       "source_id": "7154004687308459271",
       "title": "#姜胡说 学习学习，再学习。学习（编程）、学习（抖音）、学习（投资）、学习（做生意）……",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "学习学习，再学习",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "学习学习，再学习",
         "学习（编程）、学习（抖音）、学习（投资）、学习（做生意）……"
@@ -1130,31 +1580,15 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7176998179462728994",
-      "title": "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能。忍是一条线，能又是一条线，两者之间就是生存空间。” 别人想做，做不到，你能做，你就能赚到钱；挣得是能力",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "丁元英在《天道》里有这么一段话：“生存法则很简单，就是忍人所不忍，能人所不能",
-        "忍是一条线，能又是一条线，两者之间就是生存空间",
-        "” 别人想做，做不到，你能做，你就能赚到钱",
-        "别人不愿意做，你做，也能赚到钱",
-        "不想挣辛苦钱，就必须想办法提升自己的能力"
-      ],
-      "question_phrases": [
-        "这两者并没有什么本质上的区别",
-        "你可以先学会怎么学习，再用学到的方法学习怎么赚钱",
-        "扫描目录，寻找同一个主题（比如“如何销售”），集中阅读",
-        "以获得洞见、获得灵感、启发为主，大量尝试，每天用自己的话写点什么",
-        "因为那里是近距离观察别人“如何射门得分”的最佳场所"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
       "source_id": "7195534646212300066",
       "title": "1、了解自己，知道在哪里可以获得财富。 即便从0岁开始培养，我也无法成为勒布朗.詹姆斯，成为老虎伍兹。再努力也不行。作为一名普通人，我必须待在一个能够获得运气的地方。 为什么要做抖",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "1、了解自己，知道在哪里可以获得财富",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "1、了解自己，知道在哪里可以获得财富",
         "即便从0岁开始培养，我也无法成为勒布朗.詹姆斯，成为老虎伍兹",
@@ -1177,6 +1611,10 @@
       "source_id": "7202627097226005820",
       "title": "重新理解投资",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "重新理解投资 重新理解投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -1187,6 +1625,10 @@
       "source_id": "7251983252007832892",
       "title": "价值心法.第一桶金",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "价值心法.第一桶金 价值心法.第一桶金",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [],
       "short_phrases": [
         "价值心法.第一桶金 价值心法.第一桶金"
       ],
@@ -1199,6 +1641,15 @@
       "source_id": "7432307054242581814",
       "title": "4条认知 1、失败并不一定是成功之母。 2、努力不一定会成功。 3、不一定要听你父母的话。 4、最好的投资是投资自己。 #姜胡说 #努力 #投资 #个人成长",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "4条认知 1、失败并不一定是成功之母",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "努力",
+        "投资",
+        "个人成长"
+      ],
       "short_phrases": [
         "4条认知 1、失败并不一定是成功之母",
         "2、努力不一定会成功",
@@ -1214,6 +1665,16 @@
       "source_id": "7538383610173508900",
       "title": "你有问题 拿你有的换你想要的 “天下没有白走的路，走过的都算数”，过往学会的技能，如从不会演讲到会演讲、从不会做自媒体到会做自媒体、从不会投资到会投资、从不会做软件到会做软件等，这",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你有问题 拿你有的换你想要的 “天下没有白走的路，走过的都算数”，过往学会的技能，如从不会演讲到会演讲、从不会做自媒体到会做自媒体、从不会投资到会投资、从不会做软件到会做软件等，这",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "问题",
+        "干货分享"
+      ],
       "short_phrases": [
         "要好好盘点自己拥有的资产，然后用其去换取想要的",
         "若觉得自己没有什么，那就花几分钟列出自身问题，如晚睡、肥胖、缺乏自制力等",
@@ -1231,20 +1692,68 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7575936937542962432",
-      "title": "赚钱是最简单的修行 穷不是风骨，是病，得治。 很多人一谈钱就觉得肮脏、上不了台面。但孩子上学要钱，老人养老要钱，家人生病要钱。 最讽刺的是：住着父母买的房子，却鄙视谈钱。这是今天很",
+      "source_id": "7585936020093324584",
+      "title": "杠铃策略 不要轻易创业。 尤其是你手里没有被市场验证的产品时。这时候创业就是赌运气，概率极低。 也别只是换份新工作。 塔勒布说过：人类有三样东西会上瘾——海洛因、碳水化合物、月薪。",
       "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "赚钱是最简单的修行 穷不是风骨，是病，得治",
-        "很多人一谈钱就觉得肮脏、上不了台面",
-        "但孩子上学要钱，老人养老要钱，家人生病要钱",
-        "最讽刺的是：住着父母买的房子，却鄙视谈钱",
-        "钱是人类文明史上最伟大的自由工具，是唯一向穷人开放的"
+      "title_pattern": "问题型标题",
+      "opening_fragment": "杠铃策略 不要轻易创业",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "职业选择",
+        "创业",
+        "赚钱",
+        "方法"
       ],
-      "question_phrases": [],
+      "short_phrases": [
+        "这时候创业就是赌运气，概率极低",
+        "塔勒布说过：人类有三样东西会上瘾——海洛因、碳水化合物、月薪",
+        "月薪是毒品，它会限制你的选择",
+        "正确的策略是：杠铃策略",
+        "在极度不确定时期，中间资产波动最大"
+      ],
+      "question_phrases": [
+        "什么是非对称收益",
+        "不要看别人怎么说，看别人怎么做",
+        "比如我做自媒体： 每天投入10分钟 收益上限极高 就算没做成，也只损失一点时间 具体怎么做"
+      ],
       "contrarian_phrases": [],
       "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7633080344446602505",
+      "title": "永远不要\"花钱\"，只做投资。 投资你的大脑、你的健康、你的技能、你的人脉——这些才是真正能带来回报的资产。 一杯星巴克，喝完就没了；买一本书或一个课程，它会转化成你大脑里永久的认知",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "永远不要\"花钱\"，只做投资",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "长期主义",
+        "复利思维",
+        "个人成长",
+        "财富认知",
+        "姜胡说"
+      ],
+      "short_phrases": [
+        "永远不要\"花钱\"，只做投资",
+        "投资你的大脑、你的健康、你的技能、你的人脉——这些才是真正能带来回报的资产",
+        "一杯星巴克，喝完就没了",
+        "买一本书或一个课程，它会转化成你大脑里永久的认知",
+        "消费是消耗，投资是增值，两者的差距在十年后会被时间放大到你难以想象的程度"
+      ],
+      "question_phrases": [
+        "我们普遍犯两个错误：高估自己一年能做什么，低估自己十年能做什么",
+        "很多人问我：我现在40岁了，还来得及吗",
+        "从今晚开始，睡前不要问\"今天消费了什么\"，而是问自己三个问题：今天我投资了什么",
+        "今天我在那件小事上进步了吗"
+      ],
+      "contrarian_phrases": [
+        "真正可怕的不是起点渺小，而是方向错了还在拼命坚持",
+        "不开始，才是真正的来不及"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     }
   ]
 }

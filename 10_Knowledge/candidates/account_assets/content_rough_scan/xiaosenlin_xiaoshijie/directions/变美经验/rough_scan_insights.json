@@ -1,0 +1,310 @@
+{
+  "direction": "变美经验",
+  "topic_clusters": [
+    {
+      "topic": "变美",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "65c4aefe000000002c0103d9",
+          "title": "紧急变美！试试家庭版肌肤灌注！省下几千块~",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "65d0422300000000070047b9",
+          "title": "聊聊我如何通过养生变美的",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6690fcbc00000000250051b3",
+          "title": "一包搞定变美！跟随我多次旅行的mini彩妆",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6867b1210000000024008ed6",
+          "title": "一包搞定变美！跟随我多次旅行的 mini彩妆～",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "692c1681000000001e022a14",
+          "title": "🇰🇷剪发vlog～花17w能笑着走出来吗？",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "发型",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "66f3fc4f000000001a0209b9",
+          "title": "10分钟搞定的慵懒卷发（保姆级教程了）",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "692c1681000000001e022a14",
+          "title": "🇰🇷剪发vlog～花17w能笑着走出来吗？",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "氛围感",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "66f3fc4f000000001a0209b9",
+          "title": "10分钟搞定的慵懒卷发（保姆级教程了）",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "6934f083000000001f005af1",
+          "title": "普女爆改vlog～花50w体验韩女三件套！",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "变美经验",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "63478bdf000000000801388a",
+          "title": "干净、清透的底妆分享",
+          "evidence_level": "deep_card_confirmed"
+        },
+        {
+          "source_id": "65ec424e000000000102950d",
+          "title": "这个油痘皮遮瑕方法绝了",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    },
+    {
+      "topic": "妆容",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "6934f083000000001f005af1",
+          "title": "普女爆改vlog～花50w体验韩女三件套！",
+          "evidence_level": "deep_card_confirmed"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "63478bdf000000000801388a",
+      "title": "干净、清透的底妆分享",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "干净、清透的底妆分享 我觉得想要有一个干净、清透的底妆，定妆的选择真的特别重要",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "妆容分享",
+        "底妆分享",
+        "完美底妆这样画",
+        "底妆",
+        "定妆",
+        "花西子"
+      ],
+      "short_phrases": [
+        "所以选一块粉质足够细腻，贴合皮肤的定妆产品真的很重要"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "65c4aefe000000002c0103d9",
+      "title": "紧急变美！试试家庭版肌肤灌注！省下几千块~",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "紧急变美",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "美容护肤",
+        "美容院",
+        "院线护肤",
+        "快速变美",
+        "我的护肤日常",
+        "修护",
+        "晚间护肤"
+      ],
+      "short_phrases": [
+        "大家就用手头有的产品套思路就行啦~ # # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "65d0422300000000070047b9",
+      "title": "聊聊我如何通过养生变美的",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "聊聊我如何通过养生变美的 去年我用自己8年前办的护照出国，却被机器卡住…它识别不出我了…后来，声音锁也识别不出我的声音了",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "养生"
+      ],
+      "short_phrases": [
+        "今天分享一下，我是如何通过养生变美的"
+      ],
+      "question_phrases": [
+        "聊聊我如何通过养生变美的 去年我用自己8年前办的护照出国，却被机器卡住…它识别不出我了…后来，声音锁也识别不出我的声音了",
+        "今天分享一下，我是如何通过养生变美的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "65ec424e000000000102950d",
+      "title": "这个油痘皮遮瑕方法绝了",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "这个油痘皮遮瑕方法绝了 今天这个遮瑕干货真的非常简单好上手 上脸后瑕疵直接消失 而且特别特别轻薄，粉感很低 工具、手法和用量都给你们标出来咯 直接照抄就行 再也不用担心一看就会一学",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "油痘肌",
+        "新手化妆",
+        "眼部遮瑕教程",
+        "遮瑕",
+        "干货分享",
+        "油皮",
+        "油皮底妆"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6690fcbc00000000250051b3",
+      "title": "一包搞定变美！跟随我多次旅行的mini彩妆",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一包搞定变美",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "迷你化妆品",
+        "我的平价好物",
+        "巨小巨好用",
+        "好物分享",
+        "平价彩妆"
+      ],
+      "short_phrases": [
+        "分享一下我旅行带的便携彩妆～ # # # # #"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "66f3fc4f000000001a0209b9",
+      "title": "10分钟搞定的慵懒卷发（保姆级教程了）",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "10分钟搞定的慵懒卷发（保姆级教程了） 经常有姐妹问我头发是怎么卷的 看起来发质很好又有氛围感 今天我就来分享这个简单好上手的教程 话很多非常详细 大家可以收藏着反复学习~ # #",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "发型",
+        "卷发教程",
+        "发型教程",
+        "高颅顶",
+        "手残党"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6867b1210000000024008ed6",
+      "title": "一包搞定变美！跟随我多次旅行的 mini彩妆～",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一包搞定变美",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "迷你化妆品",
+        "我的平价好物",
+        "巨小巨好用",
+        "好物分享",
+        "平价彩妆"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "692c1681000000001e022a14",
+      "title": "🇰🇷剪发vlog～花17w能笑着走出来吗？",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "🇰🇷剪发vlog～花17w能笑着走出来吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "vlog",
+        "韩国剪发",
+        "女Tony",
+        "韩式发型",
+        "变美",
+        "韩系发型",
+        "菱形脸发型",
+        "韩女的秘密"
+      ],
+      "short_phrases": [
+        "🇰🇷剪发vlog～花17w能笑着走出来吗"
+      ],
+      "question_phrases": [
+        "🇰🇷剪发vlog～花17w能笑着走出来吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    },
+    {
+      "source_id": "6934f083000000001f005af1",
+      "title": "普女爆改vlog～花50w体验韩女三件套！",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "普女爆改vlog～花50w体验韩女三件套",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "vlog",
+        "我的日常",
+        "韩国vlog",
+        "韩女三件套",
+        "韩式证件照",
+        "韩国化妆室",
+        "韩女妆容",
+        "氛围感",
+        "韩女的秘密"
+      ],
+      "short_phrases": [
+        "普女爆改vlog～花50w体验韩女三件套"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [],
+  "needs_video_review": []
+}

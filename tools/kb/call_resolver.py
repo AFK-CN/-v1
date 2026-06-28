@@ -219,6 +219,7 @@ def resolve_read_path_status(root: Path, route: dict[str, Any], account: dict[st
         candidates.extend(
             [
                 f"{formal_dir}/账号索引.md",
+                f"{formal_dir}/账号整体方法论.md",
                 f"{formal_dir}/内容生产使用说明.md",
                 f"{formal_dir}/减少AI味输出规则.md",
                 f"{formal_dir}/内容输出标准模板.md",

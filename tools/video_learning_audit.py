@@ -9,6 +9,8 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
 
+from tools.publish_content_source import load_publish_content_from_sqlite
+
 
 DEFAULT_SELECTED_DIR = Path("10_Knowledge/candidates/learning_cards/selected_deep_cards")
 DEFAULT_ARTIFACTS_DIR = Path("00_System/runtime/cache/video_learning/video_artifacts")
@@ -109,11 +111,18 @@ class CardDocument:
 
 @dataclass
 class EvidenceRecord:
+    platform: str = "douyin"
     transcript_available: bool = False
     selected_card_available: bool = False
+    publish_title_available: bool = False
+    publish_body_available: bool = False
+    publish_topics_available: bool = False
+    scene_artifacts_available: bool = False
     scene_status: str = ""
     selected_card_path: str = ""
     transcript_paths: list[str] = field(default_factory=list)
+    publish_db_source: str = ""
+    publish_topics: list[str] = field(default_factory=list)
 
 
 @dataclass
@@ -123,6 +132,8 @@ class CardAudit:
     card_path: str
     structure_errors: list[str] = field(default_factory=list)
     depth_risks: list[str] = field(default_factory=list)
+    publish_content_layer_risks: list[str] = field(default_factory=list)
+    video_content_layer_risks: list[str] = field(default_factory=list)
     evidence_risks: list[str] = field(default_factory=list)
     evidence: dict[str, Any] = field(default_factory=dict)
     machine_decision: str = "review"
@@ -187,6 +198,8 @@ def _meaningful_lines(text: str) -> list[str]:
 def audit_card(card: CardDocument, evidence: EvidenceRecord) -> CardAudit:
     structure_errors: list[str] = []
     depth_risks: list[str] = []
+    publish_content_layer_risks: list[str] = []
+    video_content_layer_risks: list[str] = []
     evidence_risks: list[str] = []
     for field_name in REQUIRED_METADATA:
         if not card.metadata.get(field_name):
@@ -216,21 +229,44 @@ def audit_card(card: CardDocument, evidence: EvidenceRecord) -> CardAudit:
         if content and len(_normalize(content)) < 24:
             depth_risks.append(f"section_too_short:{section_name}")
 
+    content_structure = card.sections.get("内容结构", "")
+    expression_material = card.sections.get("表达素材与金句提炼", "")
+    reusable_value = "\n".join(
+        [
+            card.sections.get("核心观点", ""),
+            content_structure,
+            expression_material,
+            card.sections.get("可复用模板", ""),
+        ]
+    )
+    if not evidence.publish_title_available and not re.search(r"标题|封面|开头|钩子|黄金", reusable_value):
+        publish_content_layer_risks.append("publish_title_not_audited")
+    if not evidence.publish_body_available and not re.search(r"正文|文案|展开|内容结构|脚本", reusable_value):
+        publish_content_layer_risks.append("publish_body_not_audited")
+    if not evidence.publish_topics_available and not re.search(r"话题|标签|hashtag|选题组合", reusable_value, re.I):
+        publish_content_layer_risks.append("publish_topics_not_audited")
+
     video_layer = card.sections.get("视频层学习", "")
     if evidence.scene_status.endswith("scene_failed") and re.search(r"切换到|字幕变成|红色字幕|办公室|地铁|特写|远景", video_layer):
-        evidence_risks.append("unsupported_scene_detail")
-    if not evidence.transcript_available:
-        evidence_risks.append("transcript_missing")
+        video_content_layer_risks.append("unsupported_scene_detail")
+    if evidence.platform == "douyin" and not evidence.transcript_available:
+        video_content_layer_risks.append("transcript_missing")
+    if evidence.platform == "douyin" and not evidence.scene_artifacts_available:
+        video_content_layer_risks.append("scene_artifacts_missing")
+    if evidence.platform == "douyin" and not re.search(r"逐字稿|口播|字幕|节奏|停顿|画面|场景|镜头|分镜", video_layer):
+        video_content_layer_risks.append("video_layer_not_audited")
     if not evidence.selected_card_available:
         evidence_risks.append("selected_card_missing")
 
-    machine_decision = "pass" if not (structure_errors or depth_risks or evidence_risks) else "review"
+    machine_decision = "pass" if not (structure_errors or depth_risks or publish_content_layer_risks or video_content_layer_risks or evidence_risks) else "review"
     return CardAudit(
         source_id=card.source_id,
         direction=card.direction,
         card_path=card.path.as_posix(),
         structure_errors=sorted(set(structure_errors)),
         depth_risks=sorted(set(depth_risks)),
+        publish_content_layer_risks=sorted(set(publish_content_layer_risks)),
+        video_content_layer_risks=sorted(set(video_content_layer_risks)),
         evidence_risks=sorted(set(evidence_risks)),
         evidence=asdict(evidence),
         machine_decision=machine_decision,
@@ -282,10 +318,13 @@ def find_similarity_pairs(cards: list[CardDocument], threshold: float = 0.92) ->
 
 def find_repeated_passages(cards: list[CardDocument], min_cards: int = 3) -> list[RepeatedPassage]:
     occurrences: dict[str, dict[str, Any]] = {}
+    repeated_audit_exempt_prefixes = ("数据来源：", "评论边界：", "发布内容层：", "话题/标签：")
     for card in cards:
         seen_in_card: set[str] = set()
         for section in card.sections.values():
             for line in _meaningful_lines(section):
+                if line.startswith(repeated_audit_exempt_prefixes):
+                    continue
                 normalized = _normalize(line)
                 if len(normalized) < 24 or normalized in {"未明确", "暂无明确证据"} or normalized in seen_in_card:
                     continue
@@ -307,19 +346,57 @@ def find_repeated_passages(cards: list[CardDocument], min_cards: int = 3) -> lis
 
 
 def _evidence_for(root: Path, config: AuditConfig, source_id: str) -> EvidenceRecord:
-    selected_path = root / config.selected_dir / f"douyin_{source_id}.md"
-    artifact_dir = root / config.artifacts_dir / f"douyin_{source_id}"
+    platform = "douyin"
+    card_text = ""
+    for path in (root / config.learned_base).glob(f"*/cards/*_{source_id}_*.md"):
+        card = parse_card(path)
+        card_text = card.raw_text
+        platform_label = card.metadata.get("平台", "")
+        if platform_label == "小红书":
+            platform = "xhs"
+        break
+    selected_path = root / config.selected_dir / f"{platform}_{source_id}.md"
+    artifact_dir = root / config.artifacts_dir / f"{platform}_{source_id}"
     transcript_paths = [path for path in (artifact_dir / "transcript.json", artifact_dir / "transcript.srt") if path.exists()]
+    if not transcript_paths:
+        formal_transcripts = sorted((root / "10_Knowledge/formal/accounts").glob(f"**/{source_id}_transcript.json"))
+        formal_transcripts += sorted((root / "10_Knowledge/formal/accounts").glob(f"**/{source_id}.srt"))
+        transcript_paths.extend(path for path in formal_transcripts if path.exists())
+    scene_artifacts = (
+        sorted(artifact_dir.glob("*Scenes.csv"))
+        + sorted(artifact_dir.glob("scenes.csv"))
+        + sorted((artifact_dir / "keyframes").glob("*.jpg"))
+        + sorted((artifact_dir / "keyframes").glob("*.png"))
+        + sorted(artifact_dir.glob("*Scene*.jpg"))
+        + sorted(artifact_dir.glob("*Scene*.png"))
+    )
     scene_status = ""
+    selected_text = ""
     if selected_path.exists():
-        match = re.search(r"video_analysis_status:\s*([^\n]+)", selected_path.read_text(encoding="utf-8", errors="ignore"))
+        selected_text = selected_path.read_text(encoding="utf-8", errors="ignore")
+        match = re.search(r"video_analysis_status:\s*([^\n]+)", selected_text)
         scene_status = match.group(1).strip() if match else ""
+    evidence_text = f"{selected_text}\n{card_text}"
+    publish = load_publish_content_from_sqlite(root, platform, source_id)
+    publish_title_available = bool(publish and publish.title) or bool(
+        re.search(r"(^|\n)\s*(title|标题|原标题|开头|黄金\s*3\s*秒)[:：]", evidence_text, re.I)
+    )
+    publish_body_available = bool(publish and publish.body) or bool(re.search(r"body|正文|文案|展开|内容结构|脚本", evidence_text, re.I))
+    publish_topics = list(publish.tags) if publish else []
+    publish_topics_available = bool(publish_topics) or bool(re.search(r"话题|标签|topic|hashtag|hashtags", evidence_text, re.I))
     return EvidenceRecord(
+        platform=platform,
         transcript_available=bool(transcript_paths),
         selected_card_available=selected_path.exists(),
+        publish_title_available=publish_title_available,
+        publish_body_available=publish_body_available,
+        publish_topics_available=publish_topics_available,
+        scene_artifacts_available=any(path.exists() and path.stat().st_size > 0 for path in scene_artifacts),
         scene_status=scene_status,
         selected_card_path=selected_path.relative_to(root).as_posix() if selected_path.exists() else "",
         transcript_paths=[path.relative_to(root).as_posix() for path in transcript_paths],
+        publish_db_source=publish.db_source if publish else "",
+        publish_topics=publish_topics,
     )
 
 
@@ -338,8 +415,13 @@ def run_audit(root: Path, config: AuditConfig) -> dict[str, Any]:
         card_path = str(item.get("card_path", ""))
         path = root / card_path
         if not card_path or not path.exists():
-            missing_paths.append(str(item.get("source_id", "")))
-            continue
+            source_id = str(item.get("source_id", ""))
+            fallback_matches = sorted((root / config.learned_base).glob(f"*/cards/*_{source_id}_*.md")) if source_id else []
+            if fallback_matches:
+                path = fallback_matches[0]
+            else:
+                missing_paths.append(source_id)
+                continue
         card = parse_card(path)
         cards.append(card)
         audits.append(audit_card(card, _evidence_for(root, config, card.source_id)))
@@ -396,13 +478,15 @@ def run_audit(root: Path, config: AuditConfig) -> dict[str, Any]:
         f"高相似卡对：{payload['similarity_pair_count']}",
         f"跨卡重复长句：{payload['repeated_passage_count']}",
         "",
-        "| source_id | 方向 | 机器结论 | 结构问题 | 深度风险 | 证据风险 |",
-        "|---|---|---|---|---|---|",
+        "| source_id | 方向 | 机器结论 | 结构问题 | 深度风险 | 发布内容层风险 | 视频内容层风险 | 证据风险 |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for audit in audits:
         lines.append(
             f"| {audit.source_id} | {audit.direction} | {audit.machine_decision} | "
             f"{'；'.join(audit.structure_errors) or '-'} | {'；'.join(audit.depth_risks) or '-'} | "
+            f"{'；'.join(audit.publish_content_layer_risks) or '-'} | "
+            f"{'；'.join(audit.video_content_layer_risks) or '-'} | "
             f"{'；'.join(audit.evidence_risks) or '-'} |"
         )
     (output_dir / "machine_audit.md").write_text("\n".join(lines) + "\n", encoding="utf-8")

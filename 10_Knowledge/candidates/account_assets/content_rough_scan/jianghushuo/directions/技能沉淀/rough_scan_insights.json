@@ -59,7 +59,7 @@
         {
           "source_id": "7520521925358030120",
           "title": "一次构建终身受益 我们的时间和精力非常有限。花时间学习那些\"一次性知识\"毫无意义。 真正值得投资的是那些学一次就终身受用的知识和技能，而非那些学完就用不到的信息",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         }
       ]
     },
@@ -75,12 +75,12 @@
         {
           "source_id": "7520521925358030120",
           "title": "一次构建终身受益 我们的时间和精力非常有限。花时间学习那些\"一次性知识\"毫无意义。 真正值得投资的是那些学一次就终身受用的知识和技能，而非那些学完就用不到的信息",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7551062641335209257",
           "title": "忙一年=0？3步复利法，你的人生开始复利 大多数人做的是重复劳动，天天清零，原地踏步。努力没有累积，自然没有复利效应。 我每天只花10分钟，复制粘贴完成工作。时",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7565927395371371812",
@@ -90,7 +90,7 @@
         {
           "source_id": "7582931244523048244",
           "title": "如何开始副业并建立自己的资产系统 为什么很多人做不成事？因为总想找个大项目，等个好机会，然后一口气干成。 这不现实。 真让你干的时候，你会手忙脚乱。因为我天天在",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         }
       ]
     },
@@ -106,12 +106,12 @@
         {
           "source_id": "7551062641335209257",
           "title": "忙一年=0？3步复利法，你的人生开始复利 大多数人做的是重复劳动，天天清零，原地踏步。努力没有累积，自然没有复利效应。 我每天只花10分钟，复制粘贴完成工作。时",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7557371251321343295",
           "title": "作品思维：把你的工作变成资产 80%的人每天重复昨天的工作，五年内难有进步。但只要思维转变，生活会焕然一新，甚至短期内就能实现飞跃。 任务思维 vs 作品思维 ",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7565927395371371812",
@@ -142,7 +142,7 @@
         {
           "source_id": "7411532856205266195",
           "title": "学会构建 创造财富，首先你要学会创造。 1、掌握一门构建技术。打螺丝不算构建技术。我的第一个构建技术是编程。给用户提供有价值的东西，可以是一款app 、一把茶壶",
-          "evidence_level": "transcript_available"
+          "evidence_level": "needs_video_review"
         }
       ]
     },
@@ -153,7 +153,7 @@
         {
           "source_id": "7597450892647992618",
           "title": "两句话方法论 分享两句话,不是很好理解,但一旦理解了,它既是方法论又是系统。 学习一定要学那种: 学了一次就能受用终身的事。 怎么理解? 它分前后两端说。 一个",
-          "evidence_level": "transcript_available"
+          "evidence_level": "deep_card_confirmed"
         },
         {
           "source_id": "7631959846937464070",
@@ -190,6 +190,13 @@
       "source_id": "6896456428970577160",
       "title": "必须习得且掌握的方法。#dou来聊职场 #知识创作人",
       "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "必须习得且掌握的方法",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "dou来聊职场",
+        "知识创作人"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -200,6 +207,13 @@
       "source_id": "6925781293300993294",
       "title": "请一定要当回事：积累资本、积累认知、积累心态。#姜胡说 #投基不投机",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "请一定要当回事：积累资本、积累认知、积累心态",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "投基不投机"
+      ],
       "short_phrases": [
         "请一定要当回事：积累资本、积累认知、积累心态"
       ],
@@ -212,6 +226,14 @@
       "source_id": "6979228506525846792",
       "title": "够直接不？ #姜胡说 #打造用的出来的知识体系 #知识就是财富",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "够直接不",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系",
+        "知识就是财富"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -222,6 +244,13 @@
       "source_id": "6981771698005626126",
       "title": "信息量有点大，反复琢磨琢磨。未来我很可能会删。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "信息量有点大，反复琢磨琢磨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "信息量有点大，反复琢磨琢磨"
       ],
@@ -234,6 +263,10 @@
       "source_id": "6984411218131913998",
       "title": "用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用的出来的知识体系 用的出来的知识体系",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -244,6 +277,13 @@
       "source_id": "6997761284695461128",
       "title": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报。#姜胡说 #打造用的出来的知识体系 @DOU+小助手",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
         "@DOU+小助手 知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
@@ -258,6 +298,13 @@
       "source_id": "7024116698630442255",
       "title": "写作是你蕞应该掌握的技能之一。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写作是你蕞应该掌握的技能之一",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -268,6 +315,13 @@
       "source_id": "7051196939395779876",
       "title": "年轻人蕞应该做的：1、通过刻意练习习得一技之长；2、通过阅读、思考提升定义问题、解决问题的能力。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
         "2、通过阅读、思考提升定义问题、解决问题的能力"
@@ -281,6 +335,12 @@
       "source_id": "7054922313925528868",
       "title": "二八原则学技能，60分进入一个领域。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "二八原则学技能，60分进入一个领域",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "二八原则学技能，60分进入一个领域"
       ],
@@ -293,6 +353,13 @@
       "source_id": "7345096882433101096",
       "title": "高效学习的方法： 每天认真完成一个完整的问题。 如此： 1、你每天学习到的东西都是一个完整的可以复用的模块。 2、你每天都在不断迭代自己学习、思考问题的方式。 #姜胡说 #真正有用",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "高效学习的方法： 每天认真完成一个完整的问题",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "高效学习的方法： 每天认真完成一个完整的问题",
         "如此： 1、你每天学习到的东西都是一个完整的可以复用的模块",
@@ -307,6 +374,13 @@
       "source_id": "7368820679493356835",
       "title": "基础技能 学会销售， 学会构建； 两技傍身， 势不可挡。 -- 纳瓦尔 #姜胡说 #基础技能",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "基础技能 学会销售， 学会构建",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "基础技能"
+      ],
       "short_phrases": [
         "基础技能 学会销售， 学会构建",
         "两技傍身， 势不可挡",
@@ -321,6 +395,16 @@
       "source_id": "7408929533908225334",
       "title": "学会自学 必须自学，并且主动学习。 一定跟别人学习，让别人教你，是很难成事的。 因为你没有自己解决问题的能力。 而只要做事，就会遇到各种各样的问题。 自学是一切其他技能的元技能。 ",
       "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "学会自学 必须自学，并且主动学习",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自学",
+        "阅读",
+        "倾听",
+        "产品"
+      ],
       "short_phrases": [
         "学会自学 必须自学，并且主动学习",
         "一定跟别人学习，让别人教你，是很难成事的",
@@ -338,7 +422,17 @@
     {
       "source_id": "7411532856205266195",
       "title": "学会构建 创造财富，首先你要学会创造。 1、掌握一门构建技术。打螺丝不算构建技术。我的第一个构建技术是编程。给用户提供有价值的东西，可以是一款app 、一把茶壶、一把椅子，首先也要",
-      "evidence_level": "transcript_available",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "学会构建 创造财富，首先你要学会创造",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "创造",
+        "财富",
+        "构建",
+        "机会"
+      ],
       "short_phrases": [
         "学会构建 创造财富，首先你要学会创造",
         "1、掌握一门构建技术",
@@ -357,7 +451,17 @@
     {
       "source_id": "7520521925358030120",
       "title": "一次构建终身受益 我们的时间和精力非常有限。花时间学习那些\"一次性知识\"毫无意义。 真正值得投资的是那些学一次就终身受用的知识和技能，而非那些学完就用不到的信息。 同理，我们应该追",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "一次构建终身受益 我们的时间和精力非常有限",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "方法",
+        "干货分享"
+      ],
       "short_phrases": [
         "花时间学习那些\"一次性知识\"毫无意义",
         "真正值得投资的是那些学一次就终身受用的知识和技能，而非那些学完就用不到的信息",
@@ -369,13 +473,23 @@
         "什么是微资产"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7533563783454231844",
       "title": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路。 抄、操、超、钞 - 模仿成功模板 - 动手操作，熟能成巧 - 不断改进创作技巧 \"先做一件小事\"。不要害怕失败，反复磨合，最",
       "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "直播回放"
+      ],
       "short_phrases": [
         "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
         "不要害怕失败，反复磨合，最终会迎来成功",
@@ -390,7 +504,17 @@
     {
       "source_id": "7551062641335209257",
       "title": "忙一年=0？3步复利法，你的人生开始复利 大多数人做的是重复劳动，天天清零，原地踏步。努力没有累积，自然没有复利效应。 我每天只花10分钟，复制粘贴完成工作。时间一长，收入翻倍。这",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "忙一年=0",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "创业",
+        "赚钱",
+        "思维",
+        "系统"
+      ],
       "short_phrases": [
         "3步复利法，你的人生开始复利 大多数人做的是重复劳动，天天清零，原地踏步",
         "努力没有累积，自然没有复利效应",
@@ -406,13 +530,23 @@
         "不是每次从零开始，而是建立流程和系统",
         "每天的努力建立在昨天基础上，这才是真正的复利"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7557371251321343295",
       "title": "作品思维：把你的工作变成资产 80%的人每天重复昨天的工作，五年内难有进步。但只要思维转变，生活会焕然一新，甚至短期内就能实现飞跃。 任务思维 vs 作品思维 任务思维是快餐，作品",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "作品思维：把你的工作变成资产 80%的人每天重复昨天的工作，五年内难有进步",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "思维"
+      ],
       "short_phrases": [
         "作品思维：把你的工作变成资产 80%的人每天重复昨天的工作，五年内难有进步",
         "但只要思维转变，生活会焕然一新，甚至短期内就能实现飞跃",
@@ -426,13 +560,23 @@
       "contrarian_phrases": [
         "记住：工作的终点不是完成，而是交付一件值得你签名的作品"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7565927395371371812",
       "title": "你不是在完成任务，你是在积累资产。 “浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”。 一、清0与复利 复利是什么：今天做的事，能让明天变得更轻松 两种工作",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你不是在完成任务，你是在积累资产",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "思维"
+      ],
       "short_phrases": [
         "你不是在完成任务，你是在积累资产",
         "“浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”"
@@ -448,6 +592,16 @@
       "source_id": "7571101071767080202",
       "title": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限。 时间管理是伪命题。时间不属于我们,无法管理。我们能管理",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "个人OS",
+        "价值心法",
+        "个人成长",
+        "学习"
+      ],
       "short_phrases": [
         "时间不属于我们,无法管理",
         "我们能管理的只有精力——区分什么重要,什么不重要",
@@ -468,7 +622,17 @@
     {
       "source_id": "7582931244523048244",
       "title": "如何开始副业并建立自己的资产系统 为什么很多人做不成事？因为总想找个大项目，等个好机会，然后一口气干成。 这不现实。 真让你干的时候，你会手忙脚乱。因为我天天在练，你却要从零开始。",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如何开始副业并建立自己的资产系统 为什么很多人做不成事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "构建系统",
+        "创业",
+        "赚钱",
+        "直播回放"
+      ],
       "short_phrases": [
         "因为总想找个大项目，等个好机会，然后一口气干成",
         "真让你干的时候，你会手忙脚乱",
@@ -484,13 +648,23 @@
         "这时候你有了什么"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7587443070640213286",
       "title": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做。 系统不靠意志力，靠的是4个特征： 很小：小到每天都能做 很简单：不需要意志力推动 即时反馈：做完就能看到结果 可持",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "系统",
+        "自媒体",
+        "复利",
+        "赚钱"
+      ],
       "short_phrases": [
         "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
         "举个例子：每天拍1条视频",
@@ -506,7 +680,17 @@
     {
       "source_id": "7593362807756721414",
       "title": "「每天写点什么」进化系统 真正让你进步的，不是写了多少篇，而是改了多少次。 今天分享一个极简系统，就两步： 今天写点什么 明天改点什么 重点在第二步。 第一步：每天写点什么 大多数",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "「每天写点什么」进化系统 真正让你进步的，不是写了多少篇，而是改了多少次",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "进化系统",
+        "写作",
+        "修改",
+        "复利效应"
+      ],
       "short_phrases": [
         "「每天写点什么」进化系统 真正让你进步的，不是写了多少篇，而是改了多少次",
         "今天分享一个极简系统，就两步： 今天写点什么 明天改点什么 重点在第二步",
@@ -523,13 +707,23 @@
       "contrarian_phrases": [
         "「每天写点什么」进化系统 真正让你进步的，不是写了多少篇，而是改了多少次"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7597450892647992618",
       "title": "两句话方法论 分享两句话,不是很好理解,但一旦理解了,它既是方法论又是系统。 学习一定要学那种: 学了一次就能受用终身的事。 怎么理解? 它分前后两端说。 一个是输入端。 输入的时",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "两句话方法论 分享两句话,不是很好理解,但一旦理解了,它既是方法论又是系统",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "学习",
+        "资产",
+        "复利",
+        "系统"
+      ],
       "short_phrases": [
         "两句话方法论 分享两句话,不是很好理解,但一旦理解了,它既是方法论又是系统",
         "学习一定要学那种: 学了一次就能受用终身的事",
@@ -544,13 +738,23 @@
         "一边做,一边日拱一卒,每天写点什么,对外输出"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7599316326846385462",
       "title": "内容资产创作系统 大多数人做内容的逻辑是:为这条视频写文案 → 拍视频 → 发布 → 过期。这是在生产\"内容消费品\"。 我的逻辑是:为了获得洞见而思考 → 顺手拍视频 → 洞见回流",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "内容资产创作系统 大多数人做内容的逻辑是:为这条视频写文案 → 拍视频 → 发布 → 过期",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "短视频",
+        "创作",
+        "资产"
+      ],
       "short_phrases": [
         "这是在生产\"内容消费品\"",
         "这是在生产\"内容资产\"",
@@ -567,13 +771,23 @@
         "我不是在\"表演\",而是在\"自然表达已经想清楚的东西\"",
         "真正的高效不是\"什么都能做\",而是\"什么时候做什么事,界限清晰\""
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7614896500782402858",
       "title": "做有积累的事，不要让自己陷入困境 一定要做可以积累的事儿。 流水线作业今天做完就过去了,而积累性工作可以不断持续。 三个真实风险 风险1: 公司高管被裁,年龄大了找不到合适工作,薪",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "做有积累的事，不要让自己陷入困境 一定要做可以积累的事儿",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "姜胡说",
+        "赚钱",
+        "积累",
+        "思维",
+        "方法"
+      ],
       "short_phrases": [
         "做有积累的事，不要让自己陷入困境 一定要做可以积累的事儿",
         "流水线作业今天做完就过去了,而积累性工作可以不断持续",
@@ -589,13 +803,23 @@
         "第二步: 总结提炼 如果可以用到别的行业,它可以解决什么问题"
       ],
       "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7619348188293565759",
       "title": "普通人进阶的4条管道 你以为在学技能,其实只是在升级打工水平。 学了三年技能,收入还是上不去——问题不在技能,在于你少装了三个零件。 赚钱不是一件事,是四件事串联的系统。 技能、分",
-      "evidence_level": "transcript_available",
+      "evidence_level": "deep_card_confirmed",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "普通人进阶的4条管道 你以为在学技能,其实只是在升级打工水平",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "赚钱",
+        "自媒体",
+        "创业",
+        "杠杆",
+        "姜胡说"
+      ],
       "short_phrases": [
         "普通人进阶的4条管道 你以为在学技能,其实只是在升级打工水平",
         "学了三年技能,收入还是上不去——问题不在技能,在于你少装了三个零件",
@@ -612,13 +836,23 @@
       "contrarian_phrases": [
         "不是让你天天发内容刷数据,而是建一个能重复触达目标客户的渠道"
       ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+      "deep_relation": "已覆盖",
+      "candidate_reason": "已形成深学单卡，可作为方向总结证据"
     },
     {
       "source_id": "7631959846937464070",
       "title": "我是怎么获得灵感 怎么使用AI帮助我完成创作的 1. 灵感获取与记录 刻意区分“灵感状态”和“工作状态”：灵感负责发散，工作负责收束。 利用散步、送孩子路上等“低压时刻”捕捉灵感。",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我是怎么获得灵感 怎么使用AI帮助我完成创作的 1. 灵感获取与记录 刻意区分“灵感状态”和“工作状态”：灵感负责发散，工作负责收束",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "短视频",
+        "AI",
+        "内容创作",
+        "系统",
+        "姜胡说"
+      ],
       "short_phrases": [
         "利用散步、送孩子路上等“低压时刻”捕捉灵感",
         "用手机一键录音口述想法，直接进入“灵感池”，避免打字打断思路",
@@ -637,11 +871,24 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     }
   ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
   "candidate_deep_learning": [
     {
       "source_id": "6896456428970577160",
       "title": "必须习得且掌握的方法。#dou来聊职场 #知识创作人",
       "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "必须习得且掌握的方法",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "dou来聊职场",
+        "知识创作人"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -652,6 +899,13 @@
       "source_id": "6925781293300993294",
       "title": "请一定要当回事：积累资本、积累认知、积累心态。#姜胡说 #投基不投机",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "请一定要当回事：积累资本、积累认知、积累心态",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "投基不投机"
+      ],
       "short_phrases": [
         "请一定要当回事：积累资本、积累认知、积累心态"
       ],
@@ -664,6 +918,14 @@
       "source_id": "6979228506525846792",
       "title": "够直接不？ #姜胡说 #打造用的出来的知识体系 #知识就是财富",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "够直接不",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系",
+        "知识就是财富"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -674,6 +936,13 @@
       "source_id": "6981771698005626126",
       "title": "信息量有点大，反复琢磨琢磨。未来我很可能会删。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "信息量有点大，反复琢磨琢磨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "信息量有点大，反复琢磨琢磨"
       ],
@@ -686,6 +955,10 @@
       "source_id": "6984411218131913998",
       "title": "用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用的出来的知识体系 用的出来的知识体系",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -696,6 +969,13 @@
       "source_id": "6997761284695461128",
       "title": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报。#姜胡说 #打造用的出来的知识体系 @DOU+小助手",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
         "@DOU+小助手 知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
@@ -710,6 +990,13 @@
       "source_id": "7024116698630442255",
       "title": "写作是你蕞应该掌握的技能之一。 #姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写作是你蕞应该掌握的技能之一",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [],
       "question_phrases": [],
       "contrarian_phrases": [],
@@ -720,6 +1007,13 @@
       "source_id": "7051196939395779876",
       "title": "年轻人蕞应该做的：1、通过刻意练习习得一技之长；2、通过阅读、思考提升定义问题、解决问题的能力。#姜胡说 #打造用的出来的知识体系",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
       "short_phrases": [
         "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
         "2、通过阅读、思考提升定义问题、解决问题的能力"
@@ -733,6 +1027,12 @@
       "source_id": "7054922313925528868",
       "title": "二八原则学技能，60分进入一个领域。#姜胡说",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "二八原则学技能，60分进入一个领域",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
       "short_phrases": [
         "二八原则学技能，60分进入一个领域"
       ],
@@ -745,6 +1045,13 @@
       "source_id": "7345096882433101096",
       "title": "高效学习的方法： 每天认真完成一个完整的问题。 如此： 1、你每天学习到的东西都是一个完整的可以复用的模块。 2、你每天都在不断迭代自己学习、思考问题的方式。 #姜胡说 #真正有用",
       "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "高效学习的方法： 每天认真完成一个完整的问题",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
       "short_phrases": [
         "高效学习的方法： 每天认真完成一个完整的问题",
         "如此： 1、你每天学习到的东西都是一个完整的可以复用的模块",
@@ -759,6 +1066,13 @@
       "source_id": "7368820679493356835",
       "title": "基础技能 学会销售， 学会构建； 两技傍身， 势不可挡。 -- 纳瓦尔 #姜胡说 #基础技能",
       "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "基础技能 学会销售， 学会构建",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "基础技能"
+      ],
       "short_phrases": [
         "基础技能 学会销售， 学会构建",
         "两技傍身， 势不可挡",
@@ -772,7 +1086,17 @@
     {
       "source_id": "7411532856205266195",
       "title": "学会构建 创造财富，首先你要学会创造。 1、掌握一门构建技术。打螺丝不算构建技术。我的第一个构建技术是编程。给用户提供有价值的东西，可以是一款app 、一把茶壶、一把椅子，首先也要",
-      "evidence_level": "transcript_available",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "学会构建 创造财富，首先你要学会创造",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "创造",
+        "财富",
+        "构建",
+        "机会"
+      ],
       "short_phrases": [
         "学会构建 创造财富，首先你要学会创造",
         "1、掌握一门构建技术",
@@ -789,291 +1113,19 @@
       "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
     },
     {
-      "source_id": "7520521925358030120",
-      "title": "一次构建终身受益 我们的时间和精力非常有限。花时间学习那些\"一次性知识\"毫无意义。 真正值得投资的是那些学一次就终身受用的知识和技能，而非那些学完就用不到的信息。 同理，我们应该追",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "花时间学习那些\"一次性知识\"毫无意义",
-        "真正值得投资的是那些学一次就终身受用的知识和技能，而非那些学完就用不到的信息",
-        "如果没有自己的方向，你每天都在实现别人的目标",
-        "大多数人没有方向，所以不断为他人打工，每天清零，重新开始，像永不停止的跑步机",
-        "传统思维告诉我们：努力学习→考大学→找好工作→考证升职→继续工作"
-      ],
-      "question_phrases": [
-        "什么是微资产"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
       "source_id": "7533563783454231844",
       "title": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路。 抄、操、超、钞 - 模仿成功模板 - 动手操作，熟能成巧 - 不断改进创作技巧 \"先做一件小事\"。不要害怕失败，反复磨合，最",
       "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
-        "不要害怕失败，反复磨合，最终会迎来成功",
-        "对想做短视频的朋友，我的建议只有一个字：动",
-        "不行动，永远只能干看着"
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "直播回放"
       ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7551062641335209257",
-      "title": "忙一年=0？3步复利法，你的人生开始复利 大多数人做的是重复劳动，天天清零，原地踏步。努力没有累积，自然没有复利效应。 我每天只花10分钟，复制粘贴完成工作。时间一长，收入翻倍。这",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "3步复利法，你的人生开始复利 大多数人做的是重复劳动，天天清零，原地踏步",
-        "努力没有累积，自然没有复利效应",
-        "我每天只花10分钟，复制粘贴完成工作",
-        "时间一长，收入翻倍",
-        "开始会慢一点，但坚持下去，复利效应像雪球一样越滚越大"
-      ],
-      "question_phrases": [
-        "实战案例： 每天10分钟拍视频，为什么",
-        "明确知道：什么情况做什么事，会有什么结果，变量在哪里"
-      ],
-      "contrarian_phrases": [
-        "不是每次从零开始，而是建立流程和系统",
-        "每天的努力建立在昨天基础上，这才是真正的复利"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7557371251321343295",
-      "title": "作品思维：把你的工作变成资产 80%的人每天重复昨天的工作，五年内难有进步。但只要思维转变，生活会焕然一新，甚至短期内就能实现飞跃。 任务思维 vs 作品思维 任务思维是快餐，作品",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "作品思维：把你的工作变成资产 80%的人每天重复昨天的工作，五年内难有进步",
-        "但只要思维转变，生活会焕然一新，甚至短期内就能实现飞跃",
-        "任务思维 vs 作品思维 任务思维是快餐，作品思维是作品集里的代表作",
-        "复利回报：优秀作品有长生命周期",
-        "所有权心态：从执行者转为创造者"
-      ],
-      "question_phrases": [
-        "如何从70分迭代到90分让人“哇”"
-      ],
-      "contrarian_phrases": [
-        "记住：工作的终点不是完成，而是交付一件值得你签名的作品"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7565927395371371812",
-      "title": "你不是在完成任务，你是在积累资产。 “浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”。 一、清0与复利 复利是什么：今天做的事，能让明天变得更轻松 两种工作",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "你不是在完成任务，你是在积累资产",
-        "“浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [
-        "“浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”"
-      ],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7571101071767080202",
-      "title": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限。 时间管理是伪命题。时间不属于我们,无法管理。我们能管理",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "时间不属于我们,无法管理",
-        "我们能管理的只有精力——区分什么重要,什么不重要",
-        "时间是成本,必须考虑如何产出",
-        "只发生一次的事,不值得投入时间学习",
-        "窗户破了,花钱请人修,而不是自己学修理"
-      ],
-      "question_phrases": [
-        "我们能管理的只有精力——区分什么重要,什么不重要",
-        "时间是成本,必须考虑如何产出",
-        "我们为什么没有过上自己想要的生活,因为我们没有学会与之相对应的技能",
-        "什么是滚雪球"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7582931244523048244",
-      "title": "如何开始副业并建立自己的资产系统 为什么很多人做不成事？因为总想找个大项目，等个好机会，然后一口气干成。 这不现实。 真让你干的时候，你会手忙脚乱。因为我天天在练，你却要从零开始。",
-      "evidence_level": "transcript_available",
-      "short_phrases": [
-        "因为总想找个大项目，等个好机会，然后一口气干成",
-        "真让你干的时候，你会手忙脚乱",
-        "因为我天天在练，你却要从零开始",
-        "做这样一件事： 看看工作中，哪些事情很重要、总是重复做、经常出现",
-        "找到那种必须做、又烦人、每天都要做、但你不想做的事"
-      ],
-      "question_phrases": [
-        "如何开始副业并建立自己的资产系统 为什么很多人做不成事",
-        "做这样一件事： 看看工作中，哪些事情很重要、总是重复做、经常出现",
-        "然后放到网上，拍视频也好、写文章也好，看看有没有人需要",
-        "做的过程中需要什么知识，再去学",
-        "这时候你有了什么"
-      ],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "权威深学范围内，适合补强方向方法论"
-    },
-    {
-      "source_id": "7587443070640213286",
-      "title": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做。 系统不靠意志力，靠的是4个特征： 很小：小到每天都能做 很简单：不需要意志力推动 即时反馈：做完就能看到结果 可持",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
-        "举个例子：每天拍1条视频",
-        "刚开始可能需要1-2小时，但随着熟练，10分钟就能完成",
-        "足够简单，每天都做，持续做",
-        "复利的威力 竹子前3年几乎不长，但第4年开始疯长"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    }
-  ],
-  "needs_video_review": [
-    {
-      "source_id": "6896456428970577160",
-      "title": "必须习得且掌握的方法。#dou来聊职场 #知识创作人",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6925781293300993294",
-      "title": "请一定要当回事：积累资本、积累认知、积累心态。#姜胡说 #投基不投机",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "请一定要当回事：积累资本、积累认知、积累心态"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6979228506525846792",
-      "title": "够直接不？ #姜胡说 #打造用的出来的知识体系 #知识就是财富",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6981771698005626126",
-      "title": "信息量有点大，反复琢磨琢磨。未来我很可能会删。#姜胡说 #打造用的出来的知识体系",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "信息量有点大，反复琢磨琢磨"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6984411218131913998",
-      "title": "用的出来的知识体系",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "6997761284695461128",
-      "title": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报。#姜胡说 #打造用的出来的知识体系 @DOU+小助手",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
-        "@DOU+小助手 知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
-        "@DOU+小助手"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7024116698630442255",
-      "title": "写作是你蕞应该掌握的技能之一。 #姜胡说 #打造用的出来的知识体系",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7051196939395779876",
-      "title": "年轻人蕞应该做的：1、通过刻意练习习得一技之长；2、通过阅读、思考提升定义问题、解决问题的能力。#姜胡说 #打造用的出来的知识体系",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
-        "2、通过阅读、思考提升定义问题、解决问题的能力"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7054922313925528868",
-      "title": "二八原则学技能，60分进入一个领域。#姜胡说",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "二八原则学技能，60分进入一个领域"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7345096882433101096",
-      "title": "高效学习的方法： 每天认真完成一个完整的问题。 如此： 1、你每天学习到的东西都是一个完整的可以复用的模块。 2、你每天都在不断迭代自己学习、思考问题的方式。 #姜胡说 #真正有用",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "高效学习的方法： 每天认真完成一个完整的问题",
-        "如此： 1、你每天学习到的东西都是一个完整的可以复用的模块",
-        "2、你每天都在不断迭代自己学习、思考问题的方式"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7368820679493356835",
-      "title": "基础技能 学会销售， 学会构建； 两技傍身， 势不可挡。 -- 纳瓦尔 #姜胡说 #基础技能",
-      "evidence_level": "needs_video_review",
-      "short_phrases": [
-        "基础技能 学会销售， 学会构建",
-        "两技傍身， 势不可挡",
-        "-- 纳瓦尔 基础技能 学会销售， 学会构建"
-      ],
-      "question_phrases": [],
-      "contrarian_phrases": [],
-      "deep_relation": "可补强",
-      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
-    },
-    {
-      "source_id": "7533563783454231844",
-      "title": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路。 抄、操、超、钞 - 模仿成功模板 - 动手操作，熟能成巧 - 不断改进创作技巧 \"先做一件小事\"。不要害怕失败，反复磨合，最",
-      "evidence_level": "needs_video_review",
       "short_phrases": [
         "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
         "不要害怕失败，反复磨合，最终会迎来成功",
@@ -1089,6 +1141,16 @@
       "source_id": "7565927395371371812",
       "title": "你不是在完成任务，你是在积累资产。 “浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”。 一、清0与复利 复利是什么：今天做的事，能让明天变得更轻松 两种工作",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你不是在完成任务，你是在积累资产",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "思维"
+      ],
       "short_phrases": [
         "你不是在完成任务，你是在积累资产",
         "“浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”"
@@ -1104,6 +1166,16 @@
       "source_id": "7571101071767080202",
       "title": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限。 时间管理是伪命题。时间不属于我们,无法管理。我们能管理",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "个人OS",
+        "价值心法",
+        "个人成长",
+        "学习"
+      ],
       "short_phrases": [
         "时间不属于我们,无法管理",
         "我们能管理的只有精力——区分什么重要,什么不重要",
@@ -1125,6 +1197,16 @@
       "source_id": "7587443070640213286",
       "title": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做。 系统不靠意志力，靠的是4个特征： 很小：小到每天都能做 很简单：不需要意志力推动 即时反馈：做完就能看到结果 可持",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "系统",
+        "自媒体",
+        "复利",
+        "赚钱"
+      ],
       "short_phrases": [
         "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
         "举个例子：每天拍1条视频",
@@ -1141,6 +1223,390 @@
       "source_id": "7631959846937464070",
       "title": "我是怎么获得灵感 怎么使用AI帮助我完成创作的 1. 灵感获取与记录 刻意区分“灵感状态”和“工作状态”：灵感负责发散，工作负责收束。 利用散步、送孩子路上等“低压时刻”捕捉灵感。",
       "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我是怎么获得灵感 怎么使用AI帮助我完成创作的 1. 灵感获取与记录 刻意区分“灵感状态”和“工作状态”：灵感负责发散，工作负责收束",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "短视频",
+        "AI",
+        "内容创作",
+        "系统",
+        "姜胡说"
+      ],
+      "short_phrases": [
+        "利用散步、送孩子路上等“低压时刻”捕捉灵感",
+        "用手机一键录音口述想法，直接进入“灵感池”，避免打字打断思路",
+        "几乎不刷短视频，把时间留给深度内容和思考",
+        "所有直播、会议、重要对话录音转文字，统一进入知识库",
+        "3. 与 AI 的工作环境 整个创作环境、素材和知识库都“托管”在 AI 里"
+      ],
+      "question_phrases": [
+        "每次落地执行后，都要做“反思复盘”：哪些有用，哪些该删，哪些该升级",
+        "结束前问系统：“今天哪些工作可以对外分享"
+      ],
+      "contrarian_phrases": [
+        "不是“让 AI 帮我写”，而是“我和 AI 在我的上下文里对话”"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "6896456428970577160",
+      "title": "必须习得且掌握的方法。#dou来聊职场 #知识创作人",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "经验方法型标题",
+      "opening_fragment": "必须习得且掌握的方法",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "dou来聊职场",
+        "知识创作人"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6925781293300993294",
+      "title": "请一定要当回事：积累资本、积累认知、积累心态。#姜胡说 #投基不投机",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "请一定要当回事：积累资本、积累认知、积累心态",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "投基不投机"
+      ],
+      "short_phrases": [
+        "请一定要当回事：积累资本、积累认知、积累心态"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6979228506525846792",
+      "title": "够直接不？ #姜胡说 #打造用的出来的知识体系 #知识就是财富",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "够直接不",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系",
+        "知识就是财富"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6981771698005626126",
+      "title": "信息量有点大，反复琢磨琢磨。未来我很可能会删。#姜胡说 #打造用的出来的知识体系",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "信息量有点大，反复琢磨琢磨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [
+        "信息量有点大，反复琢磨琢磨"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6984411218131913998",
+      "title": "用的出来的知识体系",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用的出来的知识体系 用的出来的知识体系",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "6997761284695461128",
+      "title": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报。#姜胡说 #打造用的出来的知识体系 @DOU+小助手",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [
+        "知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
+        "@DOU+小助手 知道没用，尝试着把它用出来，保持耐心，时间会给你回报",
+        "@DOU+小助手"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7024116698630442255",
+      "title": "写作是你蕞应该掌握的技能之一。 #姜胡说 #打造用的出来的知识体系",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "写作是你蕞应该掌握的技能之一",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7051196939395779876",
+      "title": "年轻人蕞应该做的：1、通过刻意练习习得一技之长；2、通过阅读、思考提升定义问题、解决问题的能力。#姜胡说 #打造用的出来的知识体系",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "打造用的出来的知识体系"
+      ],
+      "short_phrases": [
+        "年轻人蕞应该做的：1、通过刻意练习习得一技之长",
+        "2、通过阅读、思考提升定义问题、解决问题的能力"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7054922313925528868",
+      "title": "二八原则学技能，60分进入一个领域。#姜胡说",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "二八原则学技能，60分进入一个领域",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说"
+      ],
+      "short_phrases": [
+        "二八原则学技能，60分进入一个领域"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7345096882433101096",
+      "title": "高效学习的方法： 每天认真完成一个完整的问题。 如此： 1、你每天学习到的东西都是一个完整的可以复用的模块。 2、你每天都在不断迭代自己学习、思考问题的方式。 #姜胡说 #真正有用",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "高效学习的方法： 每天认真完成一个完整的问题",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "真正有用的知识"
+      ],
+      "short_phrases": [
+        "高效学习的方法： 每天认真完成一个完整的问题",
+        "如此： 1、你每天学习到的东西都是一个完整的可以复用的模块",
+        "2、你每天都在不断迭代自己学习、思考问题的方式"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7368820679493356835",
+      "title": "基础技能 学会销售， 学会构建； 两技傍身， 势不可挡。 -- 纳瓦尔 #姜胡说 #基础技能",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "基础技能 学会销售， 学会构建",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "基础技能"
+      ],
+      "short_phrases": [
+        "基础技能 学会销售， 学会构建",
+        "两技傍身， 势不可挡",
+        "-- 纳瓦尔 基础技能 学会销售， 学会构建"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7411532856205266195",
+      "title": "学会构建 创造财富，首先你要学会创造。 1、掌握一门构建技术。打螺丝不算构建技术。我的第一个构建技术是编程。给用户提供有价值的东西，可以是一款app 、一把茶壶、一把椅子，首先也要",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "学会构建 创造财富，首先你要学会创造",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "姜胡说",
+        "创造",
+        "财富",
+        "构建",
+        "机会"
+      ],
+      "short_phrases": [
+        "学会构建 创造财富，首先你要学会创造",
+        "1、掌握一门构建技术",
+        "2、在构建的过程中学习",
+        "3、为创造价值而构建",
+        "做的多了，就有了机会"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "你要做的就是 找到真正的问题 寻找解决问题的思路 行动 反思总结 在这个过程中形成你自己的知识体系框架",
+        "你要做的就是 找到真正的问题 寻找解决"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7533563783454231844",
+      "title": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路。 抄、操、超、钞 - 模仿成功模板 - 动手操作，熟能成巧 - 不断改进创作技巧 \"先做一件小事\"。不要害怕失败，反复磨合，最",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "直播回放"
+      ],
+      "short_phrases": [
+        "抄操超钞，认真做好一件小事 失败是通往成功的必经之路",
+        "不要害怕失败，反复磨合，最终会迎来成功",
+        "对想做短视频的朋友，我的建议只有一个字：动",
+        "不行动，永远只能干看着"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7565927395371371812",
+      "title": "你不是在完成任务，你是在积累资产。 “浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”。 一、清0与复利 复利是什么：今天做的事，能让明天变得更轻松 两种工作",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你不是在完成任务，你是在积累资产",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "自媒体",
+        "创业",
+        "赚钱",
+        "思维"
+      ],
+      "short_phrases": [
+        "你不是在完成任务，你是在积累资产",
+        "“浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [
+        "“浪费时间最危险的方式不是把它花在玩乐上， 而是把它花在做虚假的工作上”"
+      ],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7571101071767080202",
+      "title": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限。 时间管理是伪命题。时间不属于我们,无法管理。我们能管理",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我的目标是一次学习就要终生使用 这句话包含三个核心概念 一、选择比努力更重要 信息过剩时代,知识和课程随处可见,但精力有限",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "个人OS",
+        "价值心法",
+        "个人成长",
+        "学习"
+      ],
+      "short_phrases": [
+        "时间不属于我们,无法管理",
+        "我们能管理的只有精力——区分什么重要,什么不重要",
+        "时间是成本,必须考虑如何产出",
+        "只发生一次的事,不值得投入时间学习",
+        "窗户破了,花钱请人修,而不是自己学修理"
+      ],
+      "question_phrases": [
+        "我们能管理的只有精力——区分什么重要,什么不重要",
+        "时间是成本,必须考虑如何产出",
+        "我们为什么没有过上自己想要的生活,因为我们没有学会与之相对应的技能",
+        "什么是滚雪球"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7587443070640213286",
+      "title": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做。 系统不靠意志力，靠的是4个特征： 很小：小到每天都能做 很简单：不需要意志力推动 即时反馈：做完就能看到结果 可持",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "姜胡说",
+        "系统",
+        "自媒体",
+        "复利",
+        "赚钱"
+      ],
+      "short_phrases": [
+        "最小系统的力量 不靠爆发式努力，而是每天做1件简单的事，持续做",
+        "举个例子：每天拍1条视频",
+        "刚开始可能需要1-2小时，但随着熟练，10分钟就能完成",
+        "足够简单，每天都做，持续做",
+        "复利的威力 竹子前3年几乎不长，但第4年开始疯长"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7631959846937464070",
+      "title": "我是怎么获得灵感 怎么使用AI帮助我完成创作的 1. 灵感获取与记录 刻意区分“灵感状态”和“工作状态”：灵感负责发散，工作负责收束。 利用散步、送孩子路上等“低压时刻”捕捉灵感。",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我是怎么获得灵感 怎么使用AI帮助我完成创作的 1. 灵感获取与记录 刻意区分“灵感状态”和“工作状态”：灵感负责发散，工作负责收束",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "短视频",
+        "AI",
+        "内容创作",
+        "系统",
+        "姜胡说"
+      ],
       "short_phrases": [
         "利用散步、送孩子路上等“低压时刻”捕捉灵感",
         "用手机一键录音口述想法，直接进入“灵感池”，避免打字打断思路",
