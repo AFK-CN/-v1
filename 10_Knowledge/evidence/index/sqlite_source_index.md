@@ -2,7 +2,7 @@
 
 - 数据库：数据/sqlite_tables.db
 - 最新批次：20260627_152903
-- 最新批次目录：00_Inbox/sqlite_imports/20260627_152903
+- 最新批次目录：90_Temp/inbox/sqlite_imports/20260627_152903
 - 评论处理：已忽略
 
 ## 账号

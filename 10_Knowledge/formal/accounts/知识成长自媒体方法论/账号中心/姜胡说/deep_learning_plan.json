@@ -1,0 +1,133 @@
+{
+  "profile_id": "jianghushuo",
+  "account_name": "姜胡说",
+  "platform": "抖音",
+  "workflow_status": "formal_ingested_with_open_review_items",
+  "executor": "local_machine",
+  "evidence_storage": {
+    "formal_account_center": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说",
+    "rough_scan_inventory": "10_Knowledge/candidates/account_assets/content_rough_scan/jianghushuo/all_content_inventory.jsonl",
+    "source_deep_learning_plan": "10_Knowledge/candidates/review_registers/plans/jianghushuo_primary_top10.json",
+    "nas_role": "raw_artifact_store_only_if_configured_not_second_knowledge_base"
+  },
+  "counts": {
+    "rough_scan_total": 598,
+    "expected_total": 573,
+    "deep_learning_targets": 127,
+    "expected_deep_count": 127,
+    "formal_card_count": 127,
+    "formal_transcript_file_count": 254,
+    "needs_review": 39
+  },
+  "directions": [
+    {
+      "direction": "个人成长",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长"
+    },
+    {
+      "direction": "人生策略",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略"
+    },
+    {
+      "direction": "创业",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业"
+    },
+    {
+      "direction": "商业机会",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会"
+    },
+    {
+      "direction": "技能沉淀",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀"
+    },
+    {
+      "direction": "短视频",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频"
+    },
+    {
+      "direction": "结构化理解",
+      "status": "formal_ingested",
+      "card_count": 9,
+      "transcript_file_count": 18,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解"
+    },
+    {
+      "direction": "自媒体",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体"
+    },
+    {
+      "direction": "表达文案",
+      "status": "formal_ingested",
+      "card_count": 9,
+      "transcript_file_count": 18,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案"
+    },
+    {
+      "direction": "认知升级",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级"
+    },
+    {
+      "direction": "财富策略",
+      "status": "formal_ingested",
+      "card_count": 9,
+      "transcript_file_count": 18,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略"
+    },
+    {
+      "direction": "赚钱",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱"
+    },
+    {
+      "direction": "阅读输入",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入"
+    }
+  ],
+  "validation_snapshot": {
+    "generated_at": "2026-06-28T21:56:43",
+    "valid": false,
+    "errors": [
+      "count mismatch: expected 573, got 598",
+      "needs_review remains: 39"
+    ]
+  },
+  "source_plan_summary": {
+    "item_count": 129,
+    "selection_rule": null,
+    "top_n": 10
+  },
+  "acceptance_boundary": [
+    "正式账号中心调用以账号索引、账号方法论、方向方法论、学习卡和必要证据文件为准。",
+    "validation_snapshot 中的 needs_review 代表粗扫例外仍需后续收口，不等于已入库学习卡失效。",
+    "新增方向或把账号规则上升为通用规则，仍需用户确认或审核注册表通过。"
+  ]
+}

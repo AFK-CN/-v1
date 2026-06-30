@@ -10,17 +10,19 @@
 ## 内容创作
 
 - 读取：`10_Knowledge/formal/methods/`、`10_Knowledge/formal/topics/`、`10_Knowledge/formal/platforms/`、`10_Knowledge/formal/content_factory/`。
-- 知识成长/自媒体方向额外读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/`。
-- 当用户提到账号名、知识成长、自媒体、赚钱方向、出选题、写文案、口播、对标账号时，先读取：`10_Knowledge/evidence/index/account_knowledge_index.md`。
-- 如命中账号中心，继续读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号索引.md`、`账号整体方法论.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
+- 当用户提到账号名、对标账号、出选题、写文案、口播或账号风格时，先读取：`10_Knowledge/evidence/index/account_knowledge_index.md`。
+- 只有账号索引命中正式账号中心后，才继续读取该账号的 `账号索引.md`、`账号概述.md`、`账号方法论总览.md`、`账号整体方法论.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
+- `知识成长`、`赚钱`、`护肤`、`生活方式` 等只是可能的账号方向词，不是通用系统默认路由；不得因为某个方向词直接套用单一账号模板。
 - 账号中心调用默认禁止全扫候选区；需要证据时再读取正式单卡，需要核查时再读取逐字稿。
 - 内容生成不能直接反写正式知识；可沉淀的规则进入复盘或 Skill proposal。
 
 ## 账号学习
 
 - 读取：`10_Knowledge/evidence/index/account_knowledge_index.md`、`00_System/shareable/index/controller_routes.json`、`00_System/shareable/skills/active/视频深度学习Skill_v1.md`。
-- 工作流：粗扫 -> 深度学习 -> 候选卡 -> 审核 -> 用户确认 -> 正式账号中心。
+- 工作流分两大阶段：学习阶段、生产复盘阶段。学习阶段包含粗学与深学计划、深度学习总结、综合入库；生产复盘阶段包含内容生产、反馈复盘、针对性强化。
+- 粗学完成必须有 `账号概述.md`、`粗学与选题池.md`、`deep_learning_plan.json`；缺任何一个都要提醒用户，不宣布完成。
 - 脚本只能生成候选资产、学习卡、报告和状态；候选资产目标层是 `10_Knowledge/candidates/`，正式账号知识必须经过审核。
+- 默认使用通用 profile 化工具；旧账号专属命令只作为兼容入口，不作为新账号学习标准。
 
 ## 复盘和自我学习
 

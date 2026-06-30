@@ -7,6 +7,56 @@ from tools.video_learning_account_ingest import AccountIngestConfig, _approved_d
 
 
 class VideoLearningAccountIngestTests(unittest.TestCase):
+    def test_generic_card_validator_uses_profile_path(self):
+        from tools.video_learning_card_validator import validate_cards
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            cards = root / "10_Knowledge/candidates/learning_cards/learned_cards/demo_profile/表达/cards"
+            cards.mkdir(parents=True)
+            (cards / "01_demo.md").write_text(
+                "\n".join(
+                    [
+                        "# 视频深度学习卡：测试卡",
+                        "",
+                        "source_id: demo",
+                        "原视频链接：https://example.com/demo",
+                        "账号：测试账号",
+                        "平台：抖音",
+                        "主方向：表达",
+                        "状态：confirmed_learned",
+                        "",
+                        "## 1. 为什么值得学习",
+                        "有明确学习价值。",
+                        "## 2. 核心观点",
+                        "观点。",
+                        "## 3. 内容结构",
+                        "- 收尾/互动引导：自然收束。",
+                        "## 4. 表达素材与金句提炼",
+                        "素材。",
+                        "## 5. 视频层学习",
+                        "视频层。",
+                        "## 6. 可复用案例",
+                        "案例。",
+                        "## 7. 可复用方法论",
+                        "方法。",
+                        "## 8. 可复用模板",
+                        "模板。",
+                        "## 9. 证据缺口/后续问题",
+                        "无。",
+                        "## 10. 入库判断",
+                        "可审核。",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            result = validate_cards(root, "demo_profile")
+
+        self.assertEqual(result["profile_id"], "demo_profile")
+        self.assertEqual(result["card_count"], 1)
+        self.assertTrue(result["valid"])
+
     def test_ingest_directions_uses_profile_config_not_hardcoded_account_paths(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -73,6 +123,7 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
 
             result = ingest_directions(root, config, ["赚钱", "表达"], audit_register=register)
             account_index = (root / config.formal_account_dir / "账号索引.md").read_text(encoding="utf-8")
+            account_overview = (root / config.formal_account_dir / "账号概述.md").read_text(encoding="utf-8")
             account_summary = (root / config.formal_account_dir / "账号整体方法论.md").read_text(encoding="utf-8")
             formal_card = (root / config.formal_account_dir / "directions/表达/cards/01_9002_测试卡.md").read_text(encoding="utf-8")
             formal_rough = (root / config.formal_account_dir / "directions/表达/粗扫内容和选题.md").read_text(encoding="utf-8")
@@ -85,8 +136,14 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
         self.assertEqual(result["profile_id"], "demo_profile")
         self.assertEqual(result["direction_count"], 2)
         self.assertIn("# 测试账号账号索引", account_index)
+        self.assertIn("账号概述.md", account_index)
         self.assertIn("账号整体方法论.md", account_index)
+        self.assertIn("# 测试账号账号概述", account_overview)
+        self.assertIn("过程物如入库回执", account_overview)
         self.assertIn("# 测试账号账号整体方法论", account_summary)
+        self.assertIn("系统不按方向词预设账号风格", account_summary)
+        self.assertNotIn("普通人能执行", account_summary)
+        self.assertNotIn("不是零散技巧库", account_summary)
         self.assertIn("| 表达 | formal_ingested |", account_index)
         self.assertIn("状态：formal_ingested", formal_card)
         self.assertNotIn("候选学习卡", formal_card)
@@ -94,7 +151,9 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
         self.assertIn("- 已确认深学卡：1条。", formal_rough)
         self.assertIn("不学习评论正文", formal_rough)
         self.assertEqual(global_index["accounts"][0]["account_id"], "demo_account")
-        self.assertIn("account_summary", {layer["layer"] for layer in global_index["accounts"][0]["knowledge_layers"]})
+        layers = {layer["layer"] for layer in global_index["accounts"][0]["knowledge_layers"]}
+        self.assertIn("account_status_overview", layers)
+        self.assertIn("account_summary", layers)
         self.assertEqual(dirty_state["dirty_generation"], 1)
         self.assertEqual(dirty_state["events"][-1]["reason"], "formal_account_ingest")
         self.assertFalse(wrong_account_dir.exists())
@@ -150,9 +209,11 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
         self.assertEqual(result["transcript_file_count"], 2)
         self.assertTrue(srt_exists)
         self.assertTrue(json_exists)
-        self.assertIn("小红书账号", anti_ai)
         self.assertIn("本账号正式单卡", anti_ai)
-        self.assertIn("标题、正文和话题", anti_ai)
+        self.assertIn("标题、正文/文案、话题", anti_ai)
+        self.assertIn("不复制其他账号规则", anti_ai)
+        self.assertNotIn("小红书账号的风格控制文件", anti_ai)
+        self.assertNotIn("长期踩坑", anti_ai)
         self.assertNotIn("姜胡说", anti_ai)
         self.assertNotIn("普通人破局", anti_ai)
 

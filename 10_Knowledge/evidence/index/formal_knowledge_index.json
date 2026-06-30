@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-06-28T01:40:15",
+  "generated_at": "2026-06-30T10:24:09",
   "source_index": "knowledge_index.json",
   "description": "正式可调用知识索引；不包含候选资产、原始资料、归档和系统运行产物。",
-  "item_count": 477,
+  "item_count": 671,
   "items": [
     {
       "path": "10_Knowledge/formal/README.md",
@@ -21,12 +21,20 @@
       "updated_at": "2026-06-14T10:26:48+08:00"
     },
     {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/deep_learning_plan.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:16:11+08:00"
+    },
+    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
@@ -34,7 +42,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/03_7525084574431317286_自学终极技能.md",
@@ -42,7 +50,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
@@ -50,7 +58,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
@@ -58,7 +66,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
@@ -66,7 +74,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
@@ -74,7 +82,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
@@ -82,7 +90,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
@@ -90,7 +98,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
@@ -98,7 +106,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.json",
@@ -261,44 +269,12 @@
       "updated_at": "2026-06-21T16:29:00+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:40+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:15:04+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/粗扫内容和选题.md",
@@ -306,7 +282,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
@@ -314,7 +290,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
@@ -322,7 +298,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
@@ -330,7 +306,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
@@ -338,7 +314,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
@@ -346,7 +322,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
@@ -354,7 +330,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/07_7401507931113475363_选择性博弈.md",
@@ -362,7 +338,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/08_7542157131752033546_省力路径设计.md",
@@ -370,7 +346,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:40+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
@@ -378,7 +354,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
@@ -386,7 +362,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.json",
@@ -549,44 +525,12 @@
       "updated_at": "2026-06-21T16:29:00+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:15:04+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/粗扫内容和选题.md",
@@ -594,7 +538,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
@@ -602,7 +546,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
@@ -610,7 +554,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/03_7567763940030057755_极简创业法.md",
@@ -618,7 +562,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
@@ -626,7 +570,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
@@ -634,7 +578,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
@@ -642,7 +586,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/07_7586645512623901978_机会来自日常积累.md",
@@ -650,7 +594,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
@@ -658,7 +602,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/09_7618589475425275145_机会在规则空白期.md",
@@ -666,7 +610,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
@@ -674,7 +618,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.json",
@@ -837,44 +781,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:16:39+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/粗扫内容和选题.md",
@@ -882,7 +794,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
@@ -890,7 +802,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
@@ -898,7 +810,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
@@ -906,7 +818,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
@@ -914,7 +826,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
@@ -922,7 +834,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
@@ -930,7 +842,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
@@ -938,7 +850,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
@@ -946,7 +858,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
@@ -954,7 +866,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
@@ -962,7 +874,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.json",
@@ -1125,44 +1037,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/粗扫内容和选题.md",
@@ -1170,7 +1050,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
@@ -1178,7 +1058,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
@@ -1186,7 +1066,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
@@ -1194,7 +1074,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/04_7557371251321343295_作品思维.md",
@@ -1202,7 +1082,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
@@ -1210,7 +1090,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
@@ -1218,7 +1098,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
@@ -1226,7 +1106,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
@@ -1234,7 +1114,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
@@ -1242,7 +1122,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
@@ -1250,7 +1130,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.json",
@@ -1413,44 +1293,12 @@
       "updated_at": "2026-06-21T16:29:00+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:40+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:07+08:00"
+      "updated_at": "2026-06-30T09:16:39+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/粗扫内容和选题.md",
@@ -1458,7 +1306,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
@@ -1466,7 +1314,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
@@ -1474,7 +1322,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
@@ -1482,7 +1330,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
@@ -1490,7 +1338,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
@@ -1498,7 +1346,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
@@ -1506,7 +1354,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
@@ -1514,7 +1362,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
@@ -1522,7 +1370,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
@@ -1530,7 +1378,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
@@ -1538,7 +1386,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.json",
@@ -1701,44 +1549,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:05+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/粗扫内容和选题.md",
@@ -1746,7 +1562,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
@@ -1754,7 +1570,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
@@ -1762,7 +1578,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
@@ -1770,7 +1586,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
@@ -1778,7 +1594,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
@@ -1786,7 +1602,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
@@ -1794,7 +1610,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
@@ -1802,7 +1618,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
@@ -1810,7 +1626,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
@@ -1818,7 +1634,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.json",
@@ -1965,44 +1781,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:40+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:15:04+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/粗扫内容和选题.md",
@@ -2010,7 +1794,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
@@ -2018,7 +1802,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
@@ -2026,7 +1810,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
@@ -2034,7 +1818,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
@@ -2042,7 +1826,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
@@ -2050,7 +1834,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
@@ -2058,7 +1842,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
@@ -2066,7 +1850,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
@@ -2074,7 +1858,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
@@ -2082,7 +1866,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
@@ -2090,7 +1874,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.json",
@@ -2253,44 +2037,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:05+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/粗扫内容和选题.md",
@@ -2298,7 +2050,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
@@ -2306,7 +2058,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
@@ -2314,7 +2066,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
@@ -2322,7 +2074,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
@@ -2330,7 +2082,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
@@ -2338,7 +2090,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
@@ -2346,7 +2098,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
@@ -2354,7 +2106,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
@@ -2362,7 +2114,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
@@ -2370,7 +2122,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.json",
@@ -2517,44 +2269,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:15:04+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/粗扫内容和选题.md",
@@ -2562,7 +2282,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
@@ -2570,7 +2290,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
@@ -2578,7 +2298,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
@@ -2586,7 +2306,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
@@ -2594,7 +2314,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/05_7594110311276219686_重装操作系统.md",
@@ -2602,7 +2322,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
@@ -2610,7 +2330,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
@@ -2618,7 +2338,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
@@ -2626,7 +2346,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
@@ -2634,7 +2354,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
@@ -2642,7 +2362,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.json",
@@ -2805,44 +2525,12 @@
       "updated_at": "2026-06-21T16:29:00+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:00+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:15:04+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/粗扫内容和选题.md",
@@ -2850,7 +2538,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
@@ -2858,7 +2546,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
@@ -2866,7 +2554,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
@@ -2874,7 +2562,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
@@ -2882,7 +2570,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
@@ -2890,7 +2578,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
@@ -2898,7 +2586,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
@@ -2906,7 +2594,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
@@ -2914,7 +2602,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
@@ -2922,7 +2610,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.json",
@@ -3069,44 +2757,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:05+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/粗扫内容和选题.md",
@@ -3114,7 +2770,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
@@ -3122,7 +2778,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
@@ -3130,7 +2786,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
@@ -3138,7 +2794,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
@@ -3146,7 +2802,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
@@ -3154,7 +2810,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
@@ -3162,7 +2818,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
@@ -3170,7 +2826,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
@@ -3178,7 +2834,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
@@ -3186,7 +2842,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
@@ -3194,7 +2850,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.json",
@@ -3357,44 +3013,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:05+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/粗扫内容和选题.md",
@@ -3402,7 +3026,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
@@ -3410,7 +3034,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
@@ -3418,7 +3042,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
@@ -3426,7 +3050,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
@@ -3434,7 +3058,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
@@ -3442,7 +3066,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
@@ -3450,7 +3074,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
@@ -3458,7 +3082,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
@@ -3466,7 +3090,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
@@ -3474,7 +3098,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
@@ -3482,7 +3106,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:52+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.json",
@@ -3645,44 +3269,12 @@
       "updated_at": "2026-06-21T16:28:59+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/入库回执.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/存储分层清单.json",
-      "type": "json",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/存储分层清单.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
-    },
-    {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向方法论总结.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:29:39+08:00"
-    },
-    {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向验收报告.md",
-      "type": "md",
-      "purpose": "formal_account_knowledge",
-      "content_status": "approved",
-      "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:30:06+08:00"
+      "updated_at": "2026-06-30T09:16:39+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/粗扫内容和选题.md",
@@ -3690,7 +3282,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:28:59+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容生产使用说明.md",
@@ -3698,7 +3290,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-27T19:09:56+08:00"
+      "updated_at": "2026-06-29T15:12:21+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容输出标准模板.md",
@@ -3706,7 +3298,7 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:31:26+08:00"
+      "updated_at": "2026-06-29T15:11:58+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/减少AI味输出规则.md",
@@ -3714,15 +3306,23 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:31:26+08:00"
+      "updated_at": "2026-06-30T08:54:19+08:00"
     },
     {
-      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/正式入库总验收报告.md",
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/粗学与选题池.md",
       "type": "md",
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:32:03+08:00"
+      "updated_at": "2026-06-30T10:19:51+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号整体方法论.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T08:54:56+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号方法论总览.md",
@@ -3730,7 +3330,15 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:31:25+08:00"
+      "updated_at": "2026-06-28T21:58:13+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号概述.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-29T15:11:42+08:00"
     },
     {
       "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号索引.md",
@@ -3738,15 +3346,1959 @@
       "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-21T16:31:25+08:00"
+      "updated_at": "2026-06-30T09:17:30+08:00"
     },
     {
-      "path": "10_Knowledge/formal/content_factory/.DS_Store",
-      "type": "unknown",
-      "purpose": "formal_knowledge",
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/deep_learning_plan.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
       "content_status": "approved",
       "calling_scope": "allowed",
-      "updated_at": "2026-06-23T19:33:04+08:00"
+      "updated_at": "2026-06-30T09:16:11+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/01_6a20f3210000000022015948_无酸搞定颗粒脸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/02_6624dcd800000000010307b0_一张常年用酸的脸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/03_66f0e5e6000000001a023f47_11年油痘肌教你如何正确用水杨酸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/04_68777040000000001d00d5d7_12年油痘肌_用酸干货_爱用酸分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/05_69fee36d00000000230073b9_一张常年用酸年的脸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/06_65e307db000000000400283c_几十块钱的酸_让我从油痘肌变成水光肌.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/07_6788ff6c00000000180308ff_一张常年用酸的脸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/08_6800afe1000000001d014ca7_用酸6年的脸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/09_695a2561000000001f0096c0_经常用酸的好处.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/cards/10_67fb49a0000000001d01cbb4_感谢酸A晚间护肤还我妈生好皮.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/65e307db000000000400283c_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/65e307db000000000400283c_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/66f0e5e6000000001a023f47_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/66f0e5e6000000001a023f47_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/67fb49a0000000001d01cbb4_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/67fb49a0000000001d01cbb4_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6800afe1000000001d014ca7_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6800afe1000000001d014ca7_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/68777040000000001d00d5d7_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/68777040000000001d00d5d7_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6a20f3210000000022015948_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6a20f3210000000022015948_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/01_65c4aefe000000002c0103d9_紧急变美_试试家庭版肌肤灌注_省下几千块.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/02_6867b1210000000024008ed6_一包搞定变美_跟随我多次旅行的_mini彩妆.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/03_65d0422300000000070047b9_聊聊我如何通过养生变美的.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/04_65ec424e000000000102950d_这个油痘皮遮瑕方法绝了.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/05_63478bdf000000000801388a_干净_清透的底妆分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/06_6934f083000000001f005af1_普女爆改vlog_花50w体验韩女三件套.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/07_692c1681000000001e022a14_剪发vlog_花17w能笑着走出来吗.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/08_66f3fc4f000000001a0209b9_10分钟搞定的慵懒卷发_保姆级教程了.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/cards/09_6690fcbc00000000250051b3_一包搞定变美_跟随我多次旅行的mini彩妆.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65c4aefe000000002c0103d9_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65c4aefe000000002c0103d9_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65ec424e000000000102950d_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65ec424e000000000102950d_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6690fcbc00000000250051b3_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6690fcbc00000000250051b3_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/66f3fc4f000000001a0209b9_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/66f3fc4f000000001a0209b9_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6867b1210000000024008ed6_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6867b1210000000024008ed6_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/692c1681000000001e022a14_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/692c1681000000001e022a14_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6934f083000000001f005af1_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6934f083000000001f005af1_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/01_6950aad8000000001e035c17_怒花几千块总结的大实话_oy好物歹物全分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/02_63072d4c000000001b01d33f_告别猪肝红_告别乌唇_深唇变浅唇经验分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/03_667bd501000000001e010ec4_365天都在用的油皮真爱底妆.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/04_6975d4de000000001a02c269_不知道_橄榄皮涂烟紫色口红很曼妙.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/05_64eae6c1000000000c034f78_油痘肌用了不会闷痘的防晒_非日系.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/06_65d4624f0000000001029e88_只要几十块的油痘肌平价好物_超爱.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/07_631bfe28000000001103c53c_让油痘肌皮肤又细又滑的三款夜间精华分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/08_62442027000000002103ca20_眼部拨经12年_我现在眼睛怎么样了.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/09_63034030000000001b01d176_适合油痘肌_用了绝不闷痘的好用面霜分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/cards/10_67f20142000000001e0086ca_回购10年的油皮真爱底妆_油痘敏肌.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/62442027000000002103ca20_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/62442027000000002103ca20_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63034030000000001b01d176_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63034030000000001b01d176_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63072d4c000000001b01d33f_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63072d4c000000001b01d33f_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/631bfe28000000001103c53c_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/631bfe28000000001103c53c_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/64eae6c1000000000c034f78_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/64eae6c1000000000c034f78_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/65d4624f0000000001029e88_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/65d4624f0000000001029e88_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/667bd501000000001e010ec4_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/667bd501000000001e010ec4_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/67f20142000000001e0086ca_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/67f20142000000001e0086ca_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6950aad8000000001e035c17_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6950aad8000000001e035c17_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6975d4de000000001a02c269_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6975d4de000000001a02c269_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/01_67614235000000001300029b_一张常年刷A醇的脸.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/02_66c71790000000001d019c61_垮脸救星_家庭版胶原肌肤灌注.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/03_696b3c94000000000e03f1bf_坚持了很多年_淡眼纹_去黑眼圈的护眼干货.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/04_65472ea8000000001e03e2e0_淡化眼纹_黑眼圈的方法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/05_694e7815000000001f00e629_垮脸跟练_3min速速回春的胶原按摩法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/06_6a1d54940000000007027ae5_搞定眼纹_泪沟_松弛的眼周抗老干货.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/07_6718acb4000000001b03e9f9_油痘肌抗老_不长痘和嫩肤我都要.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/08_63c103ab000000001b015fe5_油痘肌抗老其实很简单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/09_682ec4d60000000021007d89_30岁淡化眼纹_黑眼圈超绝的方法.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/cards/10_69c5f94f000000002202bc26_NAD_抗老到底靠谱吗_说说我的真实感受.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/65472ea8000000001e03e2e0_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/65472ea8000000001e03e2e0_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/66c71790000000001d019c61_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/66c71790000000001d019c61_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6718acb4000000001b03e9f9_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6718acb4000000001b03e9f9_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/694e7815000000001f00e629_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/694e7815000000001f00e629_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/696b3c94000000000e03f1bf_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/696b3c94000000000e03f1bf_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/69c5f94f000000002202bc26_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/69c5f94f000000002202bc26_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6a1d54940000000007027ae5_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6a1d54940000000007027ae5_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/01_62db869c000000001b03ec75_油痘肌用了不会闷痘的清爽防晒.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/02_67f64650000000001a006dd1_手把手分享我是怎么搞定外油内干的.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/03_64c615ca000000000a01ab8a_2年没去美容院_皮肤反而更好了.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/04_62b2dbbe000000000102c8e5_敏M肌正确洗脸方式.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/05_62725331000000002103acec_洗面奶对于恢复皮肤屏障真的很重要.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/06_62b69b12000000000f008069_痘肌好皮养成_大家都能拥有素颜光泽肌.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/07_67ed251b000000001d027d32_12年油痘肌变成妈生好皮_我的变脸经历.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/08_67697519000000001300076f_刷A醇的第五年.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/09_6309d5f5000000001e009276_油痘肌2022上半年护肤品爱用_自用_广.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/cards/10_65051544000000001f0054d5_分享我觉得效果特别好的护肤搭配给大家.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62725331000000002103acec_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62725331000000002103acec_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62b2dbbe000000000102c8e5_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62b2dbbe000000000102c8e5_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62db869c000000001b03ec75_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62db869c000000001b03ec75_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67ed251b000000001d027d32_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67ed251b000000001d027d32_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67f64650000000001a006dd1_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67f64650000000001a006dd1_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/01_6a0c3b590000000006022a9a_让我全脸细腻的毛孔深层清洁5_0来了.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/02_674752270000000007024b95_手把手分享我是如何一周解决痘痘闭口粉刺的.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/03_6a03ecba000000000702eb7a_缩毛孔真的很简单_具体实操篇.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/04_68e49ee60000000004023c09_水光版毛孔深层清洁跟练_深层清洁全脸发光.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/05_62f60c35000000001402ba24_正确去闭口保姆级教程_针清后注意事项.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/06_62296ef5000000000102d689_去闭口干货_便宜_有效_直接抄作业.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/07_6795eedf000000002901deee_分享我是如何缩小毛孔的.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/08_689f013e000000001c00752b_5min手把手去闭口教程_狠人洗护跟练.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/09_6a01af100000000006033f62_13年油痘肌缩毛孔干货来咯_100_无广.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/cards/10_620f1f7d00000000210366b5_真实有效去闭口_痘痘经验分享.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:05+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/01_688eeb360000000023030410_黄皮素颜口红_原相机_日常显白_懒人必备.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/02_68aec3e8000000001b03d106_12年油痘肌超爱的健康果蔬汁配方.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/03_69bf6e26000000002800895f_vlog_这一路的麻辣鲜香只有自己知道.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/04_68ba84be000000001c00ec0a_12年油痘肌养成不长痘体质_内调实操篇.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/05_697ed0c7000000002802148f_12年油痘人_一天吃什么vlog.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/06_6922c5c9000000001e03699a_8min下饭菜_买了超多秋冬衣服配饰_爽拆.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/07_69db2205000000001f006e3c_13min超长下饭春夏开箱_爽拆.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/08_62fa3cab0000000015008f05_常年生活在夏季但一点没黑_我真的会谢.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/09_65532e6b000000001100efdf_小森林的Vlog_去香港吃吃逛逛买水晶咯.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/cards/10_69fda6690000000022024dad_3_个_13年油痘肌超爱去黄蔬果汁配方.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/65532e6b000000001100efdf_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/65532e6b000000001100efdf_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/688eeb360000000023030410_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/688eeb360000000023030410_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68aec3e8000000001b03d106_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68aec3e8000000001b03d106_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68ba84be000000001c00ec0a_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68ba84be000000001c00ec0a_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/6922c5c9000000001e03699a_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/6922c5c9000000001e03699a_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/697ed0c7000000002802148f_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/697ed0c7000000002802148f_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69bf6e26000000002800895f_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69bf6e26000000002800895f_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69db2205000000001f006e3c_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69db2205000000001f006e3c_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69fda6690000000022024dad_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69fda6690000000022024dad_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/01_64b8b4fb000000000a0186a3_家庭版水光海菲秀_皮肤细腻通透到全脸发光.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/02_66a4b2bd0000000027012756_家庭版水光发教程.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/03_66fd4382000000001a021c8b_家庭版光子真的让皮肤变得好细腻通透.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/04_6857fab6000000002400fecb_沉浸式_一周一次家庭版_飞秀.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/05_664829ea0000000014018add_养好发质的方法_水光发教程.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/06_66daaa6a000000001e01b1bd_分享我的家庭版舒敏之星_敏肌超爱.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/07_6a0ebd99000000000803d4d2_又省钱又有效果的家庭版项目图文来咯.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/08_659cdcba000000001a000038_油痘肌变水光肌_油光和水光就差一点点.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/09_68c2ac85000000001b03d2ca_5min居家版胶原灌肤省钱跟练_做完嫩到发光.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/cards/10_670d12720000000021002837_一些油痘肌超爱的狠货_深圳秋冬天版.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/64b8b4fb000000000a0186a3_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/64b8b4fb000000000a0186a3_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/664829ea0000000014018add_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/664829ea0000000014018add_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66a4b2bd0000000027012756_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66a4b2bd0000000027012756_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66daaa6a000000001e01b1bd_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66daaa6a000000001e01b1bd_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66fd4382000000001a021c8b_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66fd4382000000001a021c8b_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/6857fab6000000002400fecb_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/6857fab6000000002400fecb_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/68c2ac85000000001b03d2ca_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/68c2ac85000000001b03d2ca_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/01_69995208000000001a031908_30w粉福_是谁会莫名其妙的收到一个_呢.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/02_6313284d0000000013039b5e_六个月_从0到10w粉_感谢小红书感谢你们.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/03_6601240000000000120215ed_你是我惟一一个相信的博主_希望一直都是.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/04_6708e2ec000000001a0224e9_不花冤枉钱_双11直播间必买清单.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/05_691d78d3000000001e02e242_最简单的转场出现了_记录开心的东北行.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/06_6562aa89000000001701deda_真的很可怕_这种品牌请你不要再找我合作.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/07_65a20f9e000000001d035c85_做小红书买手10个月了_来说说心里话.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/cards/08_654f97740000000032008bd1_超级感谢大家.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:15:04+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6313284d0000000013039b5e_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6313284d0000000013039b5e_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6562aa89000000001701deda_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6562aa89000000001701deda_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6708e2ec000000001a0224e9_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6708e2ec000000001a0224e9_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/691d78d3000000001e02e242_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/691d78d3000000001e02e242_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/69995208000000001a031908_transcript.json",
+      "type": "json",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/69995208000000001a031908_transcript.srt",
+      "type": "srt",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/方向方法论总结.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/粗扫内容和选题.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容生产使用说明.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-29T15:12:21+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容输出标准模板.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-29T15:11:58+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/减少AI味输出规则.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T08:54:19+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/粗学与选题池.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T10:19:51+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号整体方法论.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T08:54:56+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号方法论总览.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-28T21:58:06+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号概述.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-29T15:11:43+08:00"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号索引.md",
+      "type": "md",
+      "purpose": "formal_account_knowledge",
+      "content_status": "approved",
+      "calling_scope": "allowed",
+      "updated_at": "2026-06-30T09:17:30+08:00"
     },
     {
       "path": "10_Knowledge/formal/content_factory/jianghushuo_50_content_2026-06-22/姜胡说_50条知识分享口播_完整稿.md",

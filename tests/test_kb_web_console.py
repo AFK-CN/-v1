@@ -53,11 +53,15 @@ class KBWebConsoleTests(unittest.TestCase):
             direction = batches[0]["direction"]
             task = web_console.queue_download_task(root, direction, [source_id])
 
-            def fake_download(url: str, path: Path, timeout: int = 300) -> None:
+            def fake_download(url: str, path: Path, force_download: bool = False) -> list[str]:
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes(b"video")
+                return []
 
-            with patch("tools.video_learning.ensure_video_file", side_effect=fake_download):
+            with patch("tools.video_learning.ensure_video_file", side_effect=fake_download), patch(
+                "tools.video_learning.validate_video_artifact",
+                return_value={"validation": "valid", "reason": "", "size_bytes": 5},
+            ):
                 processed = web_console.run_pending_web_tasks_once(root)
 
             self.assertTrue(processed)
@@ -89,11 +93,15 @@ class KBWebConsoleTests(unittest.TestCase):
             direction = web_console.candidate_batches(root)[0]["direction"]
             task = web_console.queue_download_task(root, direction, [source_id])
 
-            def fake_download(url: str, path: Path, timeout: int = 300) -> None:
+            def fake_download(url: str, path: Path, force_download: bool = False) -> list[str]:
                 path.parent.mkdir(parents=True, exist_ok=True)
                 path.write_bytes(b"video")
+                return []
 
-            with patch("tools.video_learning.ensure_video_file", side_effect=fake_download):
+            with patch("tools.video_learning.ensure_video_file", side_effect=fake_download), patch(
+                "tools.video_learning.validate_video_artifact",
+                return_value={"validation": "valid", "reason": "", "size_bytes": 5},
+            ):
                 web_console.run_pending_web_tasks_once(root)
 
             state = web_console.dashboard_state(root)

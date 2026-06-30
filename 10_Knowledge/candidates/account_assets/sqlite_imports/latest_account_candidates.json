@@ -553,6 +553,6 @@
   ],
   "batch_id": "20260627_152903",
   "comment_policy": "ignored",
-  "source_batch_dir": "00_Inbox/sqlite_imports/20260627_152903",
+  "source_batch_dir": "90_Temp/inbox/sqlite_imports/20260627_152903",
   "version": 1
 }

@@ -350,7 +350,7 @@
       }
     ]
   },
-  "latest_batch_dir": "00_Inbox/sqlite_imports/20260627_152903",
+  "latest_batch_dir": "90_Temp/inbox/sqlite_imports/20260627_152903",
   "latest_batch_id": "20260627_152903",
   "tables": [
     {

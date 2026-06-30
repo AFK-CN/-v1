@@ -203,7 +203,8 @@ def build_candidate_title(text: str, category: str) -> str:
 
 def list_memory(root: Path) -> dict[str, Any]:
     root = root.resolve()
-    pending = read_jsonl(pending_path(root))
+    rows = read_jsonl(pending_path(root))
+    pending = [item for item in rows if item.get("status") == "pending"]
     locations = {
         "memory_entry": "20_User/syncable/memory/记忆总入口.md",
         "user_syncable": USER_SYNCABLE_MEMORY_DIR,
@@ -219,6 +220,8 @@ def list_memory(root: Path) -> dict[str, Any]:
         "ok": True,
         "pending_count": len(pending),
         "pending_sensitive_count": sum(1 for item in pending if item.get("sensitive_warning")),
+        "total_candidate_count": len(rows),
+        "reviewed_candidate_count": len(rows) - len(pending),
         "locations": locations,
         "existing": existing,
     }

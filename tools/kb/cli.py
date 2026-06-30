@@ -18,13 +18,13 @@ from .runtime import doctor_runtime, health_gate, initialize_runtime, mark_dirty
 from .skill_package import write_skill_packages
 from .web_console import serve as serve_web_console
 from .scanner import write_scan_report
+from .system_cleaner import audit_system_boundaries, rewrite_legacy_path_references
 from .task_runner import create_task, finish_task
 from .validator import validate_system
 from tools.creator_db_export import export_creator_database
 from tools.sqlite_ingest import ingest_sqlite_database, sqlite_ingest_status
-from tools.jianghushuo_learning_index import write_learning_index
-from tools.jianghushuo_card_validator import validate_cards
-from tools.jianghushuo_account_ingest import ingest_direction
+from tools.video_learning_account_ingest import AccountIngestConfig, ingest_directions as ingest_video_learning_directions
+from tools.video_learning_card_validator import validate_cards as validate_video_learning_cards
 
 
 def main() -> int:
@@ -34,10 +34,15 @@ def main() -> int:
 
     subparsers.add_parser("scan", help="Scan files and cleanup candidates")
     subparsers.add_parser("index", help="Write knowledge indexes")
-    subparsers.add_parser("jianghushuo-index", help="Write Jianghushuo account-level learning index")
-    subparsers.add_parser("jianghushuo-validate-cards", help="Validate Jianghushuo learning card templates")
-    ingest_parser = subparsers.add_parser("jianghushuo-ingest-direction", help="Ingest one Jianghushuo learned direction into formal account center")
-    ingest_parser.add_argument("--direction", required=True)
+    account_validate_parser = subparsers.add_parser("account-validate-cards", help="Validate learned cards for one account profile")
+    account_validate_parser.add_argument("--profile", required=True)
+    account_ingest_parser = subparsers.add_parser("account-ingest-direction", help="Ingest one learned direction into a formal account center")
+    account_ingest_parser.add_argument("--profile", required=True)
+    account_ingest_parser.add_argument("--account-id", required=True)
+    account_ingest_parser.add_argument("--account-name", required=True)
+    account_ingest_parser.add_argument("--formal-account-dir", required=True)
+    account_ingest_parser.add_argument("--direction", required=True)
+    account_ingest_parser.add_argument("--platform", default="抖音")
     assets_parser = subparsers.add_parser("assets", help="Build candidate asset pools")
     assets_parser.add_argument("--top-n", type=int, default=10)
     search_parser = subparsers.add_parser("search-candidates", help="Search candidate assets by query/account/direction")
@@ -55,6 +60,8 @@ def main() -> int:
     apply_reorg_parser.add_argument("--plan", required=True)
     apply_reorg_parser.add_argument("--allow-delete", action="store_true")
     subparsers.add_parser("validate-system", help="Validate minimum KB system behavior")
+    clean_parser = subparsers.add_parser("clean-system-boundaries", help="Rewrite legacy knowledge paths and audit rule/knowledge boundaries")
+    clean_parser.add_argument("--dry-run", action="store_true")
     subparsers.add_parser("dashboard", help="Write KB runtime dashboard and registry")
     subparsers.add_parser("skill-packages", help="Regenerate Skill packages from the shared contract")
     agents_parser = subparsers.add_parser("agents", help="Regenerate or validate the user-syncable agent registry")
@@ -117,12 +124,19 @@ def main() -> int:
         result = write_scan_report(root)
     elif args.command == "index":
         result = write_indexes(root)
-    elif args.command == "jianghushuo-index":
-        result = write_learning_index(root)
-    elif args.command == "jianghushuo-validate-cards":
-        result = validate_cards(root)
-    elif args.command == "jianghushuo-ingest-direction":
-        result = ingest_direction(root, args.direction)
+    elif args.command == "account-validate-cards":
+        result = validate_video_learning_cards(root, args.profile)
+        if not result.get("valid", False):
+            exit_code = 2
+    elif args.command == "account-ingest-direction":
+        config = AccountIngestConfig.for_profile(
+            profile_id=args.profile,
+            account_id=args.account_id,
+            account_name=args.account_name,
+            platform=args.platform,
+            formal_account_dir=Path(args.formal_account_dir),
+        )
+        result = ingest_video_learning_directions(root, config, [args.direction])
     elif args.command == "assets":
         result = build_candidate_assets(root, top_n=max(args.top_n, 1))
     elif args.command == "search-candidates":
@@ -150,6 +164,12 @@ def main() -> int:
         result = apply_reorganization_plan(root, root / args.plan, allow_delete=args.allow_delete)
     elif args.command == "validate-system":
         result = validate_system(root)
+    elif args.command == "clean-system-boundaries":
+        rewrite_result = rewrite_legacy_path_references(root, dry_run=args.dry_run)
+        audit_result = audit_system_boundaries(root)
+        result = {"ok": audit_result["ok"], "rewrite": rewrite_result, "audit": audit_result}
+        if not result["ok"]:
+            exit_code = 2
     elif args.command == "dashboard":
         result = write_dashboard(root)
     elif args.command == "skill-packages":

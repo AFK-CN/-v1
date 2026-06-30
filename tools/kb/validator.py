@@ -21,6 +21,7 @@ from .schemas import (
 )
 from .agent_registry import validate_agent_registry
 from .skill_package import skill_package_drift
+from .system_cleaner import audit_system_boundaries
 
 
 REQUIRED_FILES = (
@@ -35,6 +36,7 @@ REQUIRED_FILES = (
     f"{SYSTEM_CONFIG_DIR}/skill_contract.json",
     f"{SYSTEM_CONFIG_DIR}/layer_map.json",
     f"{SYSTEM_RULES_DIR}/规则权威源.md",
+    f"{SYSTEM_RULES_DIR}/账号学习标准工作流.md",
     f"{SYSTEM_MEMORY_DIR}/memory_rules.md",
     f"{SYSTEM_MEMORY_DIR}/memory_schema.json",
     f"{SYSTEM_MEMORY_DIR}/retention_policy.md",
@@ -78,6 +80,7 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     task_index_text = read_text(root / SYSTEM_INDEX_DIR / "task_entry_index.md")
     user_console_text = read_text(root / SYSTEM_RULES_DIR / "用户操作台.md")
     output_contract_text = read_text(root / SYSTEM_RULES_DIR / "输出契约.md")
+    account_workflow_text = read_text(root / SYSTEM_RULES_DIR / "账号学习标准工作流.md")
     controller = load_json(root / SYSTEM_INDEX_DIR / "controller_routes.json", failed, "controller_routes_invalid_json")
     output_contracts = load_json(root / SYSTEM_CONFIG_DIR / "output_contracts.json", failed, "output_contracts_invalid_json")
     search_terms = load_json(root / SYSTEM_CONFIG_DIR / "search_terms.json", failed, "search_terms_invalid_json")
@@ -96,6 +99,7 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
         failed.append("task_index_missing_controller_route")
     if "输出契约" not in output_contract_text:
         failed.append("output_contract_doc_missing_title")
+    validate_account_learning_workflow(account_workflow_text, failed)
     validate_raw_blocked_index(raw_blocked_index, failed)
     if "禁止全盘扫库" not in project_use_text and "禁止全量扫库" not in project_use_text:
         failed.append("project_use_missing_no_full_scan_rule")
@@ -131,11 +135,18 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
         validate_agent_schema(agent_schema, failed)
     agent_registry_result = validate_agent_registry(root)
     failed.extend(agent_registry_result["failed"])
+    boundary_result = audit_system_boundaries(root)
+    for item in boundary_result.get("violations", []):
+        failed.append(f"system_boundary:{item['type']}:{item['path']}:{item['token']}")
+    for item in boundary_result.get("legacy_path_references", []):
+        failed.append(f"legacy_path_reference:{item['path']}")
     if (root / SYSTEM_CONFIG_DIR / "skill_contract.json").exists():
         for relative in skill_package_drift(root):
             failed.append(f"skill_package_drift:{relative}")
     health = build_health_summary(root, account_index, route_summary)
     health["agent_registry_count"] = agent_registry_result.get("agent_count", 0)
+    health["system_boundary_violation_count"] = len(boundary_result.get("violations", []))
+    health["legacy_path_reference_count"] = len(boundary_result.get("legacy_path_references", []))
     health.update(contract_summary)
     result = {"ok": not failed, "failed": failed, "health": health}
     if write_report:
@@ -165,6 +176,25 @@ def load_json(path: Path, failed: list[str], failure_code: str) -> dict[str, Any
         failed.append(failure_code)
         return {}
     return payload
+
+
+def validate_account_learning_workflow(text: str, failed: list[str]) -> None:
+    required_phrases = {
+        "account_workflow_missing_learning_phase": "## 一、学习阶段",
+        "account_workflow_missing_production_review_phase": "## 二、生产复盘阶段",
+        "account_workflow_missing_account_overview": "账号概述.md",
+        "account_workflow_missing_rough_pool": "粗学与选题池.md",
+        "account_workflow_missing_deep_plan": "deep_learning_plan.json",
+        "account_workflow_missing_production_usage": "内容生产使用说明.md",
+        "account_workflow_missing_output_template": "内容输出标准模板.md",
+        "account_workflow_missing_ai_style": "减少AI味输出规则.md",
+        "account_workflow_missing_nas_boundary": "NAS 只作为原始资产仓",
+        "account_workflow_missing_process_artifact_boundary": "过程物",
+        "account_workflow_missing_stage_gate": "缺任何一个都不能宣布粗学完成",
+    }
+    for failure, phrase in required_phrases.items():
+        if phrase not in text:
+            failed.append(failure)
 
 
 def validate_controller_routes(controller: dict[str, Any], failed: list[str]) -> dict[str, int]:

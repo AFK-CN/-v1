@@ -192,7 +192,7 @@ def build_knowledge_index(root: Path, include_raw_inputs: bool = True) -> dict[s
 
 
 def compact_index_item(item: dict[str, Any]) -> dict[str, Any]:
-    return {
+    compact = {
         "path": item["path"],
         "type": item["type"],
         "purpose": item["purpose"],
@@ -200,6 +200,24 @@ def compact_index_item(item: dict[str, Any]) -> dict[str, Any]:
         "calling_scope": item["calling_scope"],
         "updated_at": item["updated_at"],
     }
+    account_id = account_id_for_candidate_path(item["path"])
+    if item["purpose"] == "candidate_asset" or account_id:
+        compact["knowledge_layer"] = "candidate_knowledge"
+    if account_id:
+        compact["account_id"] = account_id
+    return compact
+
+
+def account_id_for_candidate_path(relative_path: str) -> str:
+    prefixes = (
+        "10_Knowledge/candidates/account_assets/content_rough_scan/",
+        "10_Knowledge/candidates/learning_cards/learned_cards/",
+    )
+    for prefix in prefixes:
+        if relative_path.startswith(prefix):
+            remainder = relative_path[len(prefix) :]
+            return remainder.split("/", 1)[0] if "/" in remainder else remainder
+    return ""
 
 
 def build_formal_knowledge_index(index: dict[str, Any], layer_map: dict[str, Any] | None = None) -> dict[str, Any]:
@@ -240,7 +258,7 @@ def build_candidate_asset_index(root: Path, index: dict[str, Any], layer_map: di
     return {
         "generated_at": index["generated_at"],
         "source_index": "knowledge_index.json + 10_Knowledge/candidates/generated_assets",
-        "description": "候选和待审核资产索引；候选资产属于知识层 candidates，包含候选卡、粗扫资产和生成候选资产，但默认不当作正式知识。",
+        "description": "候选和待审核资产索引；候选资产属于知识层 candidates，不属于系统规则层；账号候选资产必须通过 account_id 隔离，默认不当作正式知识。",
         "item_count": len(items),
         "items": items,
     }
@@ -425,17 +443,19 @@ def render_task_entry_index() -> str:
 ## 内容创作
 
 - 读取：`10_Knowledge/formal/methods/`、`10_Knowledge/formal/topics/`、`10_Knowledge/formal/platforms/`、`10_Knowledge/formal/content_factory/`。
-- 知识成长/自媒体方向额外读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/`。
-- 当用户提到账号名、知识成长、自媒体、赚钱方向、出选题、写文案、口播、对标账号时，先读取：`10_Knowledge/evidence/index/account_knowledge_index.md`。
-- 如命中账号中心，继续读取：`10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号索引.md`、`账号整体方法论.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
+- 当用户提到账号名、对标账号、出选题、写文案、口播或账号风格时，先读取：`10_Knowledge/evidence/index/account_knowledge_index.md`。
+- 只有账号索引命中正式账号中心后，才继续读取该账号的 `账号索引.md`、`账号概述.md`、`账号方法论总览.md`、`账号整体方法论.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
+- `知识成长`、`赚钱`、`护肤`、`生活方式` 等只是可能的账号方向词，不是通用系统默认路由；不得因为某个方向词直接套用单一账号模板。
 - 账号中心调用默认禁止全扫候选区；需要证据时再读取正式单卡，需要核查时再读取逐字稿。
 - 内容生成不能直接反写正式知识；可沉淀的规则进入复盘或 Skill proposal。
 
 ## 账号学习
 
 - 读取：`10_Knowledge/evidence/index/account_knowledge_index.md`、`00_System/shareable/index/controller_routes.json`、`00_System/shareable/skills/active/视频深度学习Skill_v1.md`。
-- 工作流：粗扫 -> 深度学习 -> 候选卡 -> 审核 -> 用户确认 -> 正式账号中心。
+- 工作流分两大阶段：学习阶段、生产复盘阶段。学习阶段包含粗学与深学计划、深度学习总结、综合入库；生产复盘阶段包含内容生产、反馈复盘、针对性强化。
+- 粗学完成必须有 `账号概述.md`、`粗学与选题池.md`、`deep_learning_plan.json`；缺任何一个都要提醒用户，不宣布完成。
 - 脚本只能生成候选资产、学习卡、报告和状态；候选资产目标层是 `10_Knowledge/candidates/`，正式账号知识必须经过审核。
+- 默认使用通用 profile 化工具；旧账号专属命令只作为兼容入口，不作为新账号学习标准。
 
 ## 复盘和自我学习
 

@@ -142,6 +142,15 @@ class KBSystemTests(unittest.TestCase):
             self.assertEqual(json.loads(gate.stdout)["status"], "healthy")
             self.assertEqual(json.loads(dirty.stdout)["dirty_generation"], 1)
 
+    def test_controller_account_learning_uses_generic_profile_tools(self):
+        controller = json.loads(Path("00_System/shareable/index/controller_routes.json").read_text(encoding="utf-8"))
+        routes = {route["id"]: route for route in controller["routes"]}
+        account_learning_tools = routes["account_learning"]["tools"]
+
+        self.assertIn("tools.video_learning_account_ingest", account_learning_tools)
+        self.assertIn("tools.video_learning_card_validator", account_learning_tools)
+        self.assertNotIn("tools.jianghushuo_account_ingest", account_learning_tools)
+
     def test_indexer_writes_machine_and_human_indexes(self):
         from tools.kb.indexer import write_indexes
 
@@ -231,6 +240,105 @@ class KBSystemTests(unittest.TestCase):
             self.assertNotIn("80_Local/paths.md", scopes)
             self.assertIn("80_Local/", blocked_paths)
 
+    def test_candidate_index_marks_account_assets_as_candidate_knowledge(self):
+        from tools.kb.indexer import write_indexes
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config_dir = root / "00_System" / "shareable" / "config"
+            config_dir.mkdir(parents=True)
+            (config_dir / "layer_map.json").write_text(
+                json.dumps(
+                    {
+                        "candidate_asset_roots": ["10_Knowledge/candidates/"],
+                        "formal_knowledge_roots": ["10_Knowledge/formal/"],
+                        "default_blocked_dirs": ["数据/"],
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            card_dir = root / "10_Knowledge" / "candidates" / "learning_cards" / "learned_cards" / "sample_account" / "方向" / "cards"
+            card_dir.mkdir(parents=True)
+            (card_dir / "01_card.md").write_text("# card\n", encoding="utf-8")
+
+            write_indexes(root)
+
+            candidate = json.loads((root / "10_Knowledge" / "evidence" / "index" / "candidate_asset_index.json").read_text(encoding="utf-8"))
+            item = next(row for row in candidate["items"] if row["path"].endswith("01_card.md"))
+            self.assertEqual(item["knowledge_layer"], "candidate_knowledge")
+            self.assertEqual(item["account_id"], "sample_account")
+
+    def test_system_cleaner_rewrites_legacy_paths_with_layer_map(self):
+        from tools.kb.system_cleaner import audit_system_boundaries, rewrite_legacy_path_references
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config_dir = root / "00_System" / "shareable" / "config"
+            config_dir.mkdir(parents=True)
+            (config_dir / "layer_map.json").write_text(
+                json.dumps(
+                    {
+                        "legacy_mapping": {
+                            "01_Case_Cleaning/video_learning/learned_cards": "10_Knowledge/candidates/learning_cards/learned_cards",
+                            "01_Case_Cleaning/video_learning/video_artifacts": "00_System/runtime/cache/video_learning/video_artifacts",
+                        }
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+            scope_path = root / "10_Knowledge" / "candidates" / "account_assets" / "content_rough_scan" / "sample_account" / "deep_learning_scope.json"
+            scope_path.parent.mkdir(parents=True)
+            scope_path.write_text(
+                json.dumps(
+                    {
+                        "items": [
+                            {
+                                "card_path": "01_Case_Cleaning/video_learning/learned_cards/sample_account/方向/cards/01.md",
+                                "video": "01_Case_Cleaning/video_learning/video_artifacts/douyin_1/source.mp4",
+                            }
+                        ]
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
+
+            result = rewrite_legacy_path_references(root)
+            audit = audit_system_boundaries(root)
+
+            text = scope_path.read_text(encoding="utf-8")
+            self.assertEqual(result["changed_file_count"], 1)
+            self.assertIn("10_Knowledge/candidates/learning_cards/learned_cards/sample_account/方向/cards/01.md", text)
+            self.assertIn("00_System/runtime/cache/video_learning/video_artifacts/douyin_1/source.mp4", text)
+            self.assertEqual(audit["legacy_path_references"], [])
+
+    def test_system_boundary_audit_rejects_account_knowledge_in_rules(self):
+        from tools.kb.system_cleaner import audit_system_boundaries
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config_dir = root / "00_System" / "shareable" / "config"
+            rules_dir = root / "00_System" / "shareable" / "rules"
+            config_dir.mkdir(parents=True)
+            rules_dir.mkdir(parents=True)
+            (config_dir / "content_rough_scan_profiles.json").write_text(
+                json.dumps({"profiles": {"sample_account": {"account_name": "样例账号"}}}, ensure_ascii=False),
+                encoding="utf-8",
+            )
+            (rules_dir / "账号学习标准工作流.md").write_text(
+                "通用规则不应读取 10_Knowledge/candidates/learning_cards/learned_cards/sample_account/card.md，也不应写样例账号模板。\n",
+                encoding="utf-8",
+            )
+
+            result = audit_system_boundaries(root)
+
+            self.assertFalse(result["ok"])
+            violation_types = {item["type"] for item in result["violations"]}
+            self.assertIn("account_token_in_system_rule", violation_types)
+            self.assertIn("candidate_knowledge_link_in_system_rule", violation_types)
+
     def test_scanner_protects_data_directory_without_expanding_contents(self):
         from tools.kb.scanner import scan_files
 
@@ -289,6 +397,18 @@ class KBSystemTests(unittest.TestCase):
             self.assertNotIn("数据", actions)
             preview = {item["source"]: item for item in plan["migration_preview"]}
             self.assertEqual(preview["13_Evolving_Skills"]["target"], "00_System/shareable/skills")
+
+    def test_reorganizer_keeps_github_as_engineering_control_directory(self):
+        from tools.kb.reorganizer import plan_reorganization
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            (root / ".github" / "workflows").mkdir(parents=True)
+
+            plan = plan_reorganization(root)
+
+        actions = {item["path"]: item["action"] for item in plan["actions"]}
+        self.assertNotIn(".github", actions)
 
     def test_layer_structure_initializer_creates_target_skeleton(self):
         from tools.kb.reorganizer import initialize_layer_structure
@@ -412,6 +532,22 @@ class KBSystemTests(unittest.TestCase):
             (root / "00_System" / "shareable" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
             (root / "00_System" / "shareable" / "rules" / "规则权威源.md").write_text(
                 "controller_routes.json skill_contract.json schemas.py\n不要在 Markdown 文档里再维护一份并行规则清单\n",
+                encoding="utf-8",
+            )
+            (root / "00_System" / "shareable" / "rules" / "账号学习标准工作流.md").write_text(
+                "\n".join(
+                    [
+                        "# 账号学习标准工作流",
+                        "## 一、学习阶段",
+                        "粗学与深学计划 深度学习总结 综合入库",
+                        "账号概述.md 粗学与选题池.md deep_learning_plan.json 内容生产使用说明.md 内容输出标准模板.md 减少AI味输出规则.md",
+                        "NAS 只作为原始资产仓",
+                        "过程物",
+                        "缺任何一个都不能宣布粗学完成",
+                        "## 二、生产复盘阶段",
+                        "内容生产 反馈复盘 针对性强化",
+                    ]
+                ),
                 encoding="utf-8",
             )
             (root / "00_System" / "shareable" / "config" / "search_terms.json").write_text(
@@ -543,6 +679,47 @@ class KBSystemTests(unittest.TestCase):
 
             self.assertIn("skill_package_drift:00_System/shareable/skill_packages/知识库/SKILL.md", result["failed"])
 
+    def test_validate_system_requires_account_learning_workflow_rule(self):
+        from tools.kb.validator import validate_system
+
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            self._write_minimum_valid_system_fixture(root)
+            (root / "00_System/shareable/rules/账号学习标准工作流.md").unlink()
+
+            result = validate_system(root)
+
+        self.assertIn("missing:00_System/shareable/rules/账号学习标准工作流.md", result["failed"])
+
+    def test_account_learning_workflow_rule_uses_two_macro_phases(self):
+        text = Path("00_System/shareable/rules/账号学习标准工作流.md").read_text(encoding="utf-8")
+
+        self.assertIn("## 一、学习阶段", text)
+        self.assertIn("## 二、生产复盘阶段", text)
+        self.assertIn("粗学与深学计划", text)
+        self.assertIn("深度学习总结", text)
+        self.assertIn("综合入库", text)
+        self.assertIn("内容生产", text)
+        self.assertIn("反馈复盘", text)
+        self.assertIn("针对性强化", text)
+        self.assertIn("账号概述.md", text)
+        self.assertIn("粗学与选题池.md", text)
+        self.assertIn("deep_learning_plan.json", text)
+        self.assertIn("NAS 只作为原始资产仓", text)
+        self.assertIn("过程物", text)
+        self.assertIn("缺任何一个都不能宣布粗学完成", text)
+        self.assertNotIn("| 0. 立项边界 |", text)
+
+    def test_task_entry_index_describes_account_learning_as_two_macro_phases(self):
+        text = Path("00_System/shareable/index/task_entry_index.md").read_text(encoding="utf-8")
+
+        self.assertIn("工作流分两大阶段：学习阶段、生产复盘阶段", text)
+        self.assertIn("粗学与深学计划", text)
+        self.assertIn("账号概述.md", text)
+        self.assertIn("deep_learning_plan.json", text)
+        self.assertIn("内容生产、反馈复盘、针对性强化", text)
+        self.assertNotIn("立项边界 -> 资料接入", text)
+
     def test_controller_declares_agents_as_logical_roles_not_process_boundaries(self):
         routes_path = Path("00_System/shareable/index/controller_routes.json")
         payload = json.loads(routes_path.read_text(encoding="utf-8"))
@@ -570,7 +747,7 @@ class KBSystemTests(unittest.TestCase):
             self._write_minimum_valid_system_fixture(root)
             account_center = root / "10_Knowledge" / "formal" / "accounts" / "姜胡说" / "账号中心"
             account_center.mkdir(parents=True)
-            for name in ("账号索引.md", "内容生产使用说明.md", "减少AI味输出规则.md", "内容输出标准模板.md"):
+            for name in ("账号索引.md", "账号概述.md", "账号方法论总览.md", "账号整体方法论.md", "内容生产使用说明.md", "减少AI味输出规则.md", "内容输出标准模板.md"):
                 (account_center / name).write_text(name, encoding="utf-8")
             index = root / "10_Knowledge" / "evidence" / "index"
             system_index = root / "00_System" / "shareable" / "index"
@@ -656,6 +833,22 @@ class KBSystemTests(unittest.TestCase):
         (root / "00_System" / "shareable" / "rules" / "初始化生命周期.md").write_text("初始化生命周期\n", encoding="utf-8")
         (root / "00_System" / "shareable" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
         (root / "00_System" / "shareable" / "rules" / "规则权威源.md").write_text("controller_routes.json skill_contract.json schemas.py\n", encoding="utf-8")
+        (root / "00_System" / "shareable" / "rules" / "账号学习标准工作流.md").write_text(
+            "\n".join(
+                [
+                    "# 账号学习标准工作流",
+                    "## 一、学习阶段",
+                    "粗学与深学计划 深度学习总结 综合入库",
+                    "账号概述.md 粗学与选题池.md deep_learning_plan.json 内容生产使用说明.md 内容输出标准模板.md 减少AI味输出规则.md",
+                    "NAS 只作为原始资产仓",
+                    "过程物",
+                    "缺任何一个都不能宣布粗学完成",
+                    "## 二、生产复盘阶段",
+                    "内容生产 反馈复盘 针对性强化",
+                ]
+            ),
+            encoding="utf-8",
+        )
         (root / "00_System" / "shareable" / "config" / "search_terms.json").write_text(
             '{"synonym_groups":[["赚钱","变现"]],"direction_terms":{"赚钱":["副业"]}}',
             encoding="utf-8",

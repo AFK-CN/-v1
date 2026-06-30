@@ -10,7 +10,7 @@
       "source_id": "7365862788821962018",
       "direction": "赚钱",
       "title": "知识服务赚钱",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -28,9 +28,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3058,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7365862788821962018/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7365862788821962018/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7365862788821962018.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7365862788821962018/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7365862788821962018/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7365862788821962018.md"
       ],
       "issues": [],
       "repairs": [],
@@ -40,7 +40,7 @@
       "source_id": "7474952939895934259",
       "direction": "赚钱",
       "title": "赚钱是一种技能",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -58,9 +58,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5078,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7474952939895934259/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7474952939895934259/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7474952939895934259.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7474952939895934259/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7474952939895934259/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7474952939895934259.md"
       ],
       "issues": [],
       "repairs": [],
@@ -70,7 +70,7 @@
       "source_id": "7482406384856730918",
       "direction": "赚钱",
       "title": "赚钱从你的擅长和别人需要的交集开始",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -88,9 +88,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3333,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7482406384856730918/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7482406384856730918/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7482406384856730918.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7482406384856730918/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7482406384856730918/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7482406384856730918.md"
       ],
       "issues": [],
       "repairs": [],
@@ -100,7 +100,7 @@
       "source_id": "7546226278702058779",
       "direction": "赚钱",
       "title": "把闲置注意力变成钱",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -118,9 +118,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5034,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7546226278702058779/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7546226278702058779/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7546226278702058779.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7546226278702058779/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7546226278702058779/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7546226278702058779.md"
       ],
       "issues": [],
       "repairs": [],
@@ -130,7 +130,7 @@
       "source_id": "7576672805584964904",
       "direction": "赚钱",
       "title": "副业靠系统，不是靠加班",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -150,9 +150,9 @@
       ],
       "evidence_support_score": 0.3245,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7576672805584964904/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7576672805584964904/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7576672805584964904.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7576672805584964904/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7576672805584964904/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7576672805584964904.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -166,7 +166,7 @@
       "source_id": "7577381671138364724",
       "direction": "赚钱",
       "title": "主业是副业的天使投资人",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -184,9 +184,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3214,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7577381671138364724/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7577381671138364724/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7577381671138364724.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7577381671138364724/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7577381671138364724/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7577381671138364724.md"
       ],
       "issues": [],
       "repairs": [],
@@ -196,7 +196,7 @@
       "source_id": "7580396616813776162",
       "direction": "赚钱",
       "title": "知识博主的收入组合",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -214,9 +214,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2614,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580396616813776162/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7580396616813776162.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7580396616813776162/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7580396616813776162/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7580396616813776162.md"
       ],
       "issues": [],
       "repairs": [],
@@ -226,7 +226,7 @@
       "source_id": "7624160450304920847",
       "direction": "赚钱",
       "title": "发现问题，给方案，用杠杆复制",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -246,9 +246,9 @@
       ],
       "evidence_support_score": 0.425,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7624160450304920847/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7624160450304920847/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7624160450304920847.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7624160450304920847/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7624160450304920847/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7624160450304920847.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -262,7 +262,7 @@
       "source_id": "7625643184860826926",
       "direction": "赚钱",
       "title": "兴趣变现的信任飞轮",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -282,9 +282,9 @@
       ],
       "evidence_support_score": 0.2756,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7625643184860826926/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7625643184860826926/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7625643184860826926.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7625643184860826926/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7625643184860826926/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7625643184860826926.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -298,7 +298,7 @@
       "source_id": "7637902663966838042",
       "direction": "赚钱",
       "title": "内容变现的三个坑",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -318,9 +318,9 @@
       ],
       "evidence_support_score": 0.3432,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7637902663966838042/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7637902663966838042/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7637902663966838042.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7637902663966838042/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7637902663966838042/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7637902663966838042.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -334,7 +334,7 @@
       "source_id": "7176998179462728994",
       "direction": "财富策略",
       "title": "能力窄门与赚钱研究",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -352,9 +352,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3289,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7176998179462728994/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7176998179462728994/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7176998179462728994.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7176998179462728994/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7176998179462728994/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7176998179462728994.md"
       ],
       "issues": [],
       "repairs": [],
@@ -364,7 +364,7 @@
       "source_id": "7540648379617987891",
       "direction": "财富策略",
       "title": "产品营销双引擎",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -384,9 +384,9 @@
       ],
       "evidence_support_score": 0.3333,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7540648379617987891/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7540648379617987891/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7540648379617987891.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7540648379617987891/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7540648379617987891/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7540648379617987891.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -400,7 +400,7 @@
       "source_id": "7573700909629263156",
       "direction": "财富策略",
       "title": "赚钱技能与人生选择权",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -418,9 +418,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.323,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7573700909629263156/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7573700909629263156/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7573700909629263156.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7573700909629263156/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7573700909629263156/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7573700909629263156.md"
       ],
       "issues": [],
       "repairs": [],
@@ -430,7 +430,7 @@
       "source_id": "7575936937542962432",
       "direction": "财富策略",
       "title": "价值交换与经济自由",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -448,9 +448,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2245,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7575936937542962432/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7575936937542962432/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7575936937542962432.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7575936937542962432/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7575936937542962432/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7575936937542962432.md"
       ],
       "issues": [],
       "repairs": [],
@@ -460,7 +460,7 @@
       "source_id": "7578515738357402914",
       "direction": "财富策略",
       "title": "过程边角料资产化",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -480,9 +480,9 @@
       ],
       "evidence_support_score": 0.332,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7578515738357402914/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7578515738357402914/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7578515738357402914.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7578515738357402914/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7578515738357402914/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7578515738357402914.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -496,7 +496,7 @@
       "source_id": "7591878323370741046",
       "direction": "财富策略",
       "title": "信任共识财富观",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -514,9 +514,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1897,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7591878323370741046/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7591878323370741046/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7591878323370741046.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7591878323370741046/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7591878323370741046/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7591878323370741046.md"
       ],
       "issues": [],
       "repairs": [],
@@ -526,7 +526,7 @@
       "source_id": "7611180315444268351",
       "direction": "财富策略",
       "title": "全局成本与时间价值",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -544,9 +544,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2607,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7611180315444268351/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7611180315444268351/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7611180315444268351.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7611180315444268351/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7611180315444268351/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7611180315444268351.md"
       ],
       "issues": [],
       "repairs": [],
@@ -556,7 +556,7 @@
       "source_id": "7620840179279858995",
       "direction": "财富策略",
       "title": "时间杠杆循环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -574,9 +574,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1934,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7620840179279858995/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7620840179279858995/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7620840179279858995.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7620840179279858995/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7620840179279858995/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7620840179279858995.md"
       ],
       "issues": [],
       "repairs": [],
@@ -586,7 +586,7 @@
       "source_id": "7623432595895749926",
       "direction": "财富策略",
       "title": "验证后再教授赚钱过程",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -604,9 +604,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3004,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7623432595895749926/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7623432595895749926/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7623432595895749926.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7623432595895749926/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7623432595895749926/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7623432595895749926.md"
       ],
       "issues": [],
       "repairs": [],
@@ -616,7 +616,7 @@
       "source_id": "7448232482178174258",
       "direction": "创业",
       "title": "从自身痛点出发验证创业机会",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -636,9 +636,9 @@
       ],
       "evidence_support_score": 0.467,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7448232482178174258/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7448232482178174258/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7448232482178174258.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7448232482178174258/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7448232482178174258/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7448232482178174258.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -652,7 +652,7 @@
       "source_id": "7475723067688308018",
       "direction": "创业",
       "title": "ACT + MVP 低成本创业",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -672,9 +672,9 @@
       ],
       "evidence_support_score": 0.3268,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7475723067688308018/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7475723067688308018/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7475723067688308018.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7475723067688308018/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7475723067688308018/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7475723067688308018.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -688,7 +688,7 @@
       "source_id": "7514323799211756863",
       "direction": "创业",
       "title": "从 0 到 1 的小实验创业",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -708,9 +708,9 @@
       ],
       "evidence_support_score": 0.4848,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7514323799211756863/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7514323799211756863/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7514323799211756863.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7514323799211756863/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7514323799211756863/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7514323799211756863.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -724,7 +724,7 @@
       "source_id": "7523959225278647590",
       "direction": "创业",
       "title": "长坡薄雪与非垄断市场",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -744,9 +744,9 @@
       ],
       "evidence_support_score": 0.415,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7523959225278647590/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7523959225278647590/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7523959225278647590.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7523959225278647590/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7523959225278647590/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7523959225278647590.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -760,7 +760,7 @@
       "source_id": "7536196932503506217",
       "direction": "创业",
       "title": "远离没有积累的工作",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -780,9 +780,9 @@
       ],
       "evidence_support_score": 0.4317,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7536196932503506217/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7536196932503506217/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7536196932503506217.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7536196932503506217/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7536196932503506217/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7536196932503506217.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -796,7 +796,7 @@
       "source_id": "7567763940030057755",
       "direction": "创业",
       "title": "极简创业法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/03_7567763940030057755_极简创业法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/03_7567763940030057755_极简创业法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -816,9 +816,9 @@
       ],
       "evidence_support_score": 0.5,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7567763940030057755/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7567763940030057755/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7567763940030057755.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7567763940030057755/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7567763940030057755/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7567763940030057755.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -832,7 +832,7 @@
       "source_id": "7586645512623901978",
       "direction": "创业",
       "title": "机会来自日常积累",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/07_7586645512623901978_机会来自日常积累.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/07_7586645512623901978_机会来自日常积累.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -852,9 +852,9 @@
       ],
       "evidence_support_score": 0.3472,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7586645512623901978/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7586645512623901978/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7586645512623901978.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7586645512623901978/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7586645512623901978/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7586645512623901978.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -868,7 +868,7 @@
       "source_id": "7590403619493629190",
       "direction": "创业",
       "title": "普通人逆袭三步法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -888,9 +888,9 @@
       ],
       "evidence_support_score": 0.5067,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7590403619493629190/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7590403619493629190/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7590403619493629190.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7590403619493629190/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7590403619493629190/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7590403619493629190.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -904,7 +904,7 @@
       "source_id": "7618589475425275145",
       "direction": "创业",
       "title": "机会在规则空白期",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/09_7618589475425275145_机会在规则空白期.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/09_7618589475425275145_机会在规则空白期.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -924,9 +924,9 @@
       ],
       "evidence_support_score": 0.4578,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7618589475425275145/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7618589475425275145/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7618589475425275145.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7618589475425275145/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7618589475425275145/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7618589475425275145.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -940,7 +940,7 @@
       "source_id": "7620096888573873417",
       "direction": "创业",
       "title": "一人公司产品营销品牌闭环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -960,9 +960,9 @@
       ],
       "evidence_support_score": 0.5648,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7620096888573873417/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7620096888573873417/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7620096888573873417.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7620096888573873417/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7620096888573873417/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7620096888573873417.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -976,7 +976,7 @@
       "source_id": "7416961845786873100",
       "direction": "商业机会",
       "title": "收入三层跃迁",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -996,9 +996,9 @@
       ],
       "evidence_support_score": 0.2099,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7416961845786873100/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7416961845786873100/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7416961845786873100.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7416961845786873100/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7416961845786873100/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7416961845786873100.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -1012,7 +1012,7 @@
       "source_id": "7432683956031540491",
       "direction": "商业机会",
       "title": "问题需求产品影响力闭环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1030,9 +1030,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2714,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7432683956031540491/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7432683956031540491/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7432683956031540491.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7432683956031540491/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7432683956031540491/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7432683956031540491.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1042,7 +1042,7 @@
       "source_id": "7461266943811620133",
       "direction": "商业机会",
       "title": "自我改变一人公司",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1060,9 +1060,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.302,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7461266943811620133/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7461266943811620133/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7461266943811620133.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7461266943811620133/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7461266943811620133/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7461266943811620133.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1072,7 +1072,7 @@
       "source_id": "7523594090828041526",
       "direction": "商业机会",
       "title": "用户研究与理性创业",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1090,9 +1090,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4152,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7523594090828041526/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7523594090828041526/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7523594090828041526.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7523594090828041526/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7523594090828041526/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7523594090828041526.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1102,7 +1102,7 @@
       "source_id": "7593729386504047914",
       "direction": "商业机会",
       "title": "知识到产品两次跃迁",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1120,9 +1120,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.291,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7593729386504047914/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7593729386504047914/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7593729386504047914.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7593729386504047914/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7593729386504047914/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7593729386504047914.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1132,7 +1132,7 @@
       "source_id": "7596705620514835748",
       "direction": "商业机会",
       "title": "稳定主业与副业能力栈",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1150,9 +1150,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3442,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7596705620514835748/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7596705620514835748/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7596705620514835748.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7596705620514835748/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7596705620514835748/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7596705620514835748.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1162,7 +1162,7 @@
       "source_id": "7598553754534776118",
       "direction": "商业机会",
       "title": "完整产品与市场反馈",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1182,9 +1182,9 @@
       ],
       "evidence_support_score": 0.2968,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7598553754534776118/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7598553754534776118/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7598553754534776118.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7598553754534776118/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7598553754534776118/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7598553754534776118.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -1198,7 +1198,7 @@
       "source_id": "7616745251776122138",
       "direction": "商业机会",
       "title": "普通人赚钱五步系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1216,9 +1216,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4028,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7616745251776122138/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7616745251776122138/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7616745251776122138.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7616745251776122138/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7616745251776122138/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7616745251776122138.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1228,7 +1228,7 @@
       "source_id": "7644578414015401235",
       "direction": "商业机会",
       "title": "发现问题最小产品",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1246,9 +1246,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3182,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7644578414015401235/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7644578414015401235/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7644578414015401235.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7644578414015401235/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7644578414015401235/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7644578414015401235.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1258,7 +1258,7 @@
       "source_id": "7648295360862899456",
       "direction": "商业机会",
       "title": "重复工作产品化",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1276,9 +1276,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2406,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7648295360862899456/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7648295360862899456/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7648295360862899456.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7648295360862899456/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7648295360862899456/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7648295360862899456.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1288,7 +1288,7 @@
       "source_id": "7505041506858224932",
       "direction": "自媒体",
       "title": "AIDA内容营销闭环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1306,9 +1306,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.474,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7505041506858224932/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7505041506858224932/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7505041506858224932.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7505041506858224932/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7505041506858224932/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7505041506858224932.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1318,7 +1318,7 @@
       "source_id": "7541046418572660020",
       "direction": "自媒体",
       "title": "小事模仿分享成长路径",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1336,9 +1336,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4206,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7541046418572660020/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7541046418572660020/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7541046418572660020.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7541046418572660020/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7541046418572660020/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7541046418572660020.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1348,7 +1348,7 @@
       "source_id": "7549574243395112192",
       "direction": "自媒体",
       "title": "内容不是输出而是对话场",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1366,9 +1366,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4397,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7549574243395112192/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7549574243395112192/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7549574243395112192.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7549574243395112192/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7549574243395112192/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7549574243395112192.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1378,7 +1378,7 @@
       "source_id": "7552895793951264039",
       "direction": "自媒体",
       "title": "AI多视角内容研究法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1396,9 +1396,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3026,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7552895793951264039/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7552895793951264039/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7552895793951264039.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7552895793951264039/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7552895793951264039/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7552895793951264039.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1408,7 +1408,7 @@
       "source_id": "7561436598668184858",
       "direction": "自媒体",
       "title": "经验试用装与信任连接",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1426,9 +1426,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1342,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7561436598668184858/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7561436598668184858/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7561436598668184858.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7561436598668184858/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7561436598668184858/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7561436598668184858.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1438,7 +1438,7 @@
       "source_id": "7568818546345963243",
       "direction": "自媒体",
       "title": "粉丝信任是真正的内容资产",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1456,9 +1456,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2446,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7568818546345963243/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7568818546345963243/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7568818546345963243.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7568818546345963243/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7568818546345963243/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7568818546345963243.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1468,7 +1468,7 @@
       "source_id": "7620452140850384179",
       "direction": "自媒体",
       "title": "伤疤起号与经历护城河",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1486,9 +1486,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5128,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7620452140850384179/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7620452140850384179/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7620452140850384179.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7620452140850384179/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7620452140850384179/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7620452140850384179.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1498,7 +1498,7 @@
       "source_id": "7621518948420324658",
       "direction": "自媒体",
       "title": "价值信任型内容资产",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1516,9 +1516,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3774,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7621518948420324658/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7621518948420324658/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7621518948420324658.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7621518948420324658/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7621518948420324658/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7621518948420324658.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1528,7 +1528,7 @@
       "source_id": "7642363455722229042",
       "direction": "自媒体",
       "title": "普通人机会系统三件事",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1546,9 +1546,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3459,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7642363455722229042/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7642363455722229042/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7642363455722229042.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7642363455722229042/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7642363455722229042/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7642363455722229042.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1558,7 +1558,7 @@
       "source_id": "7646802062281346356",
       "direction": "自媒体",
       "title": "一人公司的内容杠杆系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1576,9 +1576,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4382,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7646802062281346356/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7646802062281346356/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7646802062281346356.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7646802062281346356/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7646802062281346356/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7646802062281346356.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1588,7 +1588,7 @@
       "source_id": "7538795273326890282",
       "direction": "短视频",
       "title": "演讲式口播与松弛感",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
       "initial_decision": "minor_fix",
       "decision": "pass",
       "reviewed_sections": [
@@ -1606,9 +1606,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.256,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7538795273326890282/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7538795273326890282/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7538795273326890282.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7538795273326890282/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7538795273326890282/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7538795273326890282.md"
       ],
       "issues": [
         "原卡把吃透主题和提炼两三个要点包装成作者固定四步法"
@@ -1623,7 +1623,7 @@
       "source_id": "7568130374224629002",
       "direction": "短视频",
       "title": "关系才是短视频资产",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1641,9 +1641,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.255,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7568130374224629002/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7568130374224629002/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7568130374224629002.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7568130374224629002/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7568130374224629002/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7568130374224629002.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1653,7 +1653,7 @@
       "source_id": "7580014753293012264",
       "direction": "短视频",
       "title": "不露脸短视频三种做法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1671,9 +1671,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2216,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580014753293012264/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7580014753293012264/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7580014753293012264.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7580014753293012264/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7580014753293012264/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7580014753293012264.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1683,7 +1683,7 @@
       "source_id": "7601154241889193251",
       "direction": "短视频",
       "title": "信息差与信任差内容模型",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1703,9 +1703,9 @@
       ],
       "evidence_support_score": 0.3038,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7601154241889193251/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7601154241889193251/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7601154241889193251.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7601154241889193251/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7601154241889193251/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7601154241889193251.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -1719,7 +1719,7 @@
       "source_id": "7603386512180383012",
       "direction": "短视频",
       "title": "学习曲线连续剧",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1739,9 +1739,9 @@
       ],
       "evidence_support_score": 0.3537,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603386512180383012/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603386512180383012/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7603386512180383012.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7603386512180383012/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7603386512180383012/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7603386512180383012.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -1755,7 +1755,7 @@
       "source_id": "7607072666188631305",
       "direction": "短视频",
       "title": "经历卡片到自然口播",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1773,9 +1773,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7607072666188631305/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7607072666188631305/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7607072666188631305.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7607072666188631305/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7607072666188631305/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7607072666188631305.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1785,7 +1785,7 @@
       "source_id": "7617851728397962542",
       "direction": "短视频",
       "title": "说什么与怎么说分离",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1805,9 +1805,9 @@
       ],
       "evidence_support_score": 0.2609,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7617851728397962542/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7617851728397962542/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7617851728397962542.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7617851728397962542/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7617851728397962542/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7617851728397962542.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -1821,7 +1821,7 @@
       "source_id": "7622329208672406834",
       "direction": "短视频",
       "title": "短视频创作系统闭环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1839,9 +1839,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3853,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7622329208672406834/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7622329208672406834/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7622329208672406834.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7622329208672406834/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7622329208672406834/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7622329208672406834.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1851,7 +1851,7 @@
       "source_id": "7631599967408360746",
       "direction": "短视频",
       "title": "从0到1探测与复盘",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1869,9 +1869,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3144,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7631599967408360746/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7631599967408360746/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7631599967408360746.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7631599967408360746/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7631599967408360746/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7631599967408360746.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1881,7 +1881,7 @@
       "source_id": "7642736662568635675",
       "direction": "短视频",
       "title": "有用与真实双原则",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1901,9 +1901,9 @@
       ],
       "evidence_support_score": 0.1711,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7642736662568635675/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7642736662568635675/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7642736662568635675.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7642736662568635675/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7642736662568635675/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7642736662568635675.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -1917,7 +1917,7 @@
       "source_id": "6813708566600404236",
       "direction": "表达文案",
       "title": "用思维模型拆商业布局",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -1935,9 +1935,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2129,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_6813708566600404236/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_6813708566600404236/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_6813708566600404236.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_6813708566600404236/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_6813708566600404236/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_6813708566600404236.md"
       ],
       "issues": [],
       "repairs": [],
@@ -1947,7 +1947,7 @@
       "source_id": "6821719966333668616",
       "direction": "表达文案",
       "title": "生活赋予文案力量",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
       "initial_decision": "minor_fix",
       "decision": "pass",
       "reviewed_sections": [
@@ -1965,9 +1965,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1097,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_6821719966333668616/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_6821719966333668616/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_6821719966333668616.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_6821719966333668616/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_6821719966333668616/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_6821719966333668616.md"
       ],
       "issues": [
         "原方法中的语境三问不是视频明确步骤"
@@ -1982,7 +1982,7 @@
       "source_id": "7048251304447069453",
       "direction": "表达文案",
       "title": "每天写点什么健脑法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2000,9 +2000,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1942,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7048251304447069453/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7048251304447069453/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7048251304447069453.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7048251304447069453/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7048251304447069453/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7048251304447069453.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2012,7 +2012,7 @@
       "source_id": "7129521528927948068",
       "direction": "表达文案",
       "title": "真实作品胜过套路",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2030,9 +2030,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1533,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7129521528927948068/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7129521528927948068/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7129521528927948068.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7129521528927948068/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7129521528927948068/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7129521528927948068.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2042,7 +2042,7 @@
       "source_id": "7186260197860543803",
       "direction": "表达文案",
       "title": "写作认知飞轮",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2060,9 +2060,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2971,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7186260197860543803/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7186260197860543803/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7186260197860543803.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7186260197860543803/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7186260197860543803/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7186260197860543803.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2072,7 +2072,7 @@
       "source_id": "7356919376555052328",
       "direction": "表达文案",
       "title": "创造性表达即生产资料",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2090,9 +2090,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2814,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7356919376555052328/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7356919376555052328/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7356919376555052328.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7356919376555052328/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7356919376555052328/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7356919376555052328.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2102,7 +2102,7 @@
       "source_id": "7384068155007651107",
       "direction": "表达文案",
       "title": "有用知识表达结构",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2120,9 +2120,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3856,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7384068155007651107/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7384068155007651107/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7384068155007651107.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7384068155007651107/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7384068155007651107/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7384068155007651107.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2132,7 +2132,7 @@
       "source_id": "7561825588315442468",
       "direction": "表达文案",
       "title": "镖人高频记录法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2150,9 +2150,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4302,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7561825588315442468/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7561825588315442468/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7561825588315442468.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7561825588315442468/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7561825588315442468/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7561825588315442468.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2162,7 +2162,7 @@
       "source_id": "7597233865270910534",
       "direction": "表达文案",
       "title": "大师三层拆解法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2180,9 +2180,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4656,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7597233865270910534/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7597233865270910534/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7597233865270910534.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7597233865270910534/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7597233865270910534/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7597233865270910534.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2192,7 +2192,7 @@
       "source_id": "7046756749243616549",
       "direction": "结构化理解",
       "title": "人生编程与算法隐喻",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2210,9 +2210,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1823,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7046756749243616549/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7046756749243616549/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7046756749243616549.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7046756749243616549/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7046756749243616549/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7046756749243616549.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2222,7 +2222,7 @@
       "source_id": "7049353047872425223",
       "direction": "结构化理解",
       "title": "关键概念与逻辑脉络阅读法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2240,9 +2240,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3925,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7049353047872425223/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7049353047872425223/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7049353047872425223.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7049353047872425223/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7049353047872425223/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7049353047872425223.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2252,7 +2252,7 @@
       "source_id": "7058641665652821255",
       "direction": "结构化理解",
       "title": "三观地图与选择系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2270,9 +2270,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1394,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7058641665652821255/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7058641665652821255/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7058641665652821255.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7058641665652821255/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7058641665652821255/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7058641665652821255.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2282,7 +2282,7 @@
       "source_id": "7070143597873515810",
       "direction": "结构化理解",
       "title": "估值主题与版本迭代",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2300,9 +2300,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1459,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7070143597873515810/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7070143597873515810/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7070143597873515810.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7070143597873515810/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7070143597873515810/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7070143597873515810.md"
       ],
       "issues": [
         "视频标题指向估值，但有效逐字稿主要支持投资内容模块化和60分版本迭代"
@@ -2316,7 +2316,7 @@
       "source_id": "7270315554093731133",
       "direction": "结构化理解",
       "title": "学习服务自我进化",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2336,9 +2336,9 @@
       ],
       "evidence_support_score": 0.2197,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7270315554093731133/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7270315554093731133/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7270315554093731133.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7270315554093731133/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7270315554093731133/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7270315554093731133.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -2352,7 +2352,7 @@
       "source_id": "7274939371835428131",
       "direction": "结构化理解",
       "title": "可控圈与能力破局",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2370,9 +2370,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4066,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7274939371835428131/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7274939371835428131/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7274939371835428131.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7274939371835428131/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7274939371835428131/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7274939371835428131.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2382,7 +2382,7 @@
       "source_id": "7351006613240696090",
       "direction": "结构化理解",
       "title": "现卖现学应用闭环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2402,9 +2402,9 @@
       ],
       "evidence_support_score": 0.2994,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7351006613240696090/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7351006613240696090/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7351006613240696090.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7351006613240696090/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7351006613240696090/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7351006613240696090.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -2418,7 +2418,7 @@
       "source_id": "7578110142638542115",
       "direction": "结构化理解",
       "title": "社交关系三分法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2438,9 +2438,9 @@
       ],
       "evidence_support_score": 0.456,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7578110142638542115/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7578110142638542115/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7578110142638542115.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7578110142638542115/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7578110142638542115/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7578110142638542115.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -2454,7 +2454,7 @@
       "source_id": "7630837327660584238",
       "direction": "结构化理解",
       "title": "流量力学价值矩阵",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2472,9 +2472,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5167,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7630837327660584238/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7630837327660584238/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7630837327660584238.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7630837327660584238/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7630837327660584238/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7630837327660584238.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2484,7 +2484,7 @@
       "source_id": "7155485852842462495",
       "direction": "阅读输入",
       "title": "少读书读好书",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2502,9 +2502,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2857,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7155485852842462495/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7155485852842462495/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7155485852842462495.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7155485852842462495/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7155485852842462495/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7155485852842462495.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2514,7 +2514,7 @@
       "source_id": "7173673281491307776",
       "direction": "阅读输入",
       "title": "主题阅读与做中学",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2532,9 +2532,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5476,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7173673281491307776/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7173673281491307776/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7173673281491307776.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7173673281491307776/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7173673281491307776/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7173673281491307776.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2544,7 +2544,7 @@
       "source_id": "7185541439814651194",
       "direction": "阅读输入",
       "title": "三本书打开人生视野",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
       "initial_decision": "relearn",
       "decision": "pass",
       "reviewed_sections": [
@@ -2562,9 +2562,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.0906,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7185541439814651194/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7185541439814651194/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7185541439814651194.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7185541439814651194/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7185541439814651194/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7185541439814651194.md"
       ],
       "issues": [
         "原卡只总结书单数量和节日场景，遗漏逐字稿中三本书对应的时间、财富与行动视野",
@@ -2581,7 +2581,7 @@
       "source_id": "7233757661416705320",
       "direction": "阅读输入",
       "title": "行禅式深度学习",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2599,9 +2599,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5398,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7233757661416705320/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7233757661416705320/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7233757661416705320.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7233757661416705320/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7233757661416705320/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7233757661416705320.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2611,7 +2611,7 @@
       "source_id": "7486844955646774565",
       "direction": "阅读输入",
       "title": "每天一小时的创造学习分享",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2632,9 +2632,9 @@
       ],
       "evidence_support_score": 0.391,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7486844955646774565/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7486844955646774565/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7486844955646774565.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7486844955646774565/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7486844955646774565/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7486844955646774565.md"
       ],
       "issues": [
         "机器风险：method_lacks_action；repeated_passages:1"
@@ -2648,7 +2648,7 @@
       "source_id": "7548090908445609250",
       "direction": "阅读输入",
       "title": "学习同时赚钱",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2668,9 +2668,9 @@
       ],
       "evidence_support_score": 0.5437,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7548090908445609250/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7548090908445609250/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7548090908445609250.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7548090908445609250/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7548090908445609250/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7548090908445609250.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -2684,7 +2684,7 @@
       "source_id": "7596338568050593060",
       "direction": "阅读输入",
       "title": "学习不是读是演",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2704,9 +2704,9 @@
       ],
       "evidence_support_score": 0.5145,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7596338568050593060/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7596338568050593060/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7596338568050593060.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7596338568050593060/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7596338568050593060/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7596338568050593060.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -2720,7 +2720,7 @@
       "source_id": "7614151116225252651",
       "direction": "阅读输入",
       "title": "读书赚钱的闭环",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2740,9 +2740,9 @@
       ],
       "evidence_support_score": 0.3817,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7614151116225252651/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7614151116225252651/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7614151116225252651.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7614151116225252651/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7614151116225252651/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7614151116225252651.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -2756,7 +2756,7 @@
       "source_id": "7636042183547587875",
       "direction": "阅读输入",
       "title": "读书博主卖的是改变",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2776,9 +2776,9 @@
       ],
       "evidence_support_score": 0.5638,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7636042183547587875/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7636042183547587875/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7636042183547587875.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7636042183547587875/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7636042183547587875/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7636042183547587875.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -2792,7 +2792,7 @@
       "source_id": "7637158369555451187",
       "direction": "阅读输入",
       "title": "关键词读书法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2812,9 +2812,9 @@
       ],
       "evidence_support_score": 0.48,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7637158369555451187/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7637158369555451187/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7637158369555451187.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7637158369555451187/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7637158369555451187/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7637158369555451187.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -2828,7 +2828,7 @@
       "source_id": "7569249171526536474",
       "direction": "认知升级",
       "title": "困难试错分享财富认知",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2848,9 +2848,9 @@
       ],
       "evidence_support_score": 0.4318,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7569249171526536474/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7569249171526536474/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7569249171526536474.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7569249171526536474/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7569249171526536474/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7569249171526536474.md"
       ],
       "issues": [
         "机器风险：method_lacks_action"
@@ -2862,7 +2862,7 @@
       "source_id": "7571846145677249830",
       "direction": "认知升级",
       "title": "系统绕过拖延",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2882,9 +2882,9 @@
       ],
       "evidence_support_score": 0.5848,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7571846145677249830/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7571846145677249830/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7571846145677249830.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7571846145677249830/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7571846145677249830/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7571846145677249830.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -2898,7 +2898,7 @@
       "source_id": "7579257801478786319",
       "direction": "认知升级",
       "title": "认知提示词三级进阶",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2916,9 +2916,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5062,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7579257801478786319/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7579257801478786319/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7579257801478786319.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7579257801478786319/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7579257801478786319/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7579257801478786319.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2928,7 +2928,7 @@
       "source_id": "7592259516792622399",
       "direction": "认知升级",
       "title": "视野决策方法论认知系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2946,9 +2946,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.6275,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7592259516792622399/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7592259516792622399/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7592259516792622399.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7592259516792622399/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7592259516792622399/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7592259516792622399.md"
       ],
       "issues": [],
       "repairs": [],
@@ -2958,7 +2958,7 @@
       "source_id": "7594110311276219686",
       "direction": "认知升级",
       "title": "重装操作系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/05_7594110311276219686_重装操作系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/05_7594110311276219686_重装操作系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -2978,9 +2978,9 @@
       ],
       "evidence_support_score": 0.4065,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7594110311276219686/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7594110311276219686/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7594110311276219686.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7594110311276219686/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7594110311276219686/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7594110311276219686.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -2994,7 +2994,7 @@
       "source_id": "7615244850891345158",
       "direction": "认知升级",
       "title": "跳出陷阱积累成长路径",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3012,9 +3012,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.47,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615244850891345158/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615244850891345158/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7615244850891345158.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7615244850891345158/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7615244850891345158/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7615244850891345158.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3024,7 +3024,7 @@
       "source_id": "7634543338351250740",
       "direction": "认知升级",
       "title": "从小系统到财富系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3042,9 +3042,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4286,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7634543338351250740/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7634543338351250740/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7634543338351250740.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7634543338351250740/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7634543338351250740/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7634543338351250740.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3054,7 +3054,7 @@
       "source_id": "7634940154272156947",
       "direction": "认知升级",
       "title": "规则资源认知跃迁模型",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3072,9 +3072,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.5976,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7634940154272156947/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7634940154272156947/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7634940154272156947.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7634940154272156947/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7634940154272156947/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7634940154272156947.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3084,7 +3084,7 @@
       "source_id": "7637536206296747315",
       "direction": "认知升级",
       "title": "每天两小时升级操作系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3105,9 +3105,9 @@
       ],
       "evidence_support_score": 0.4699,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7637536206296747315/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7637536206296747315/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7637536206296747315.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7637536206296747315/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7637536206296747315/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7637536206296747315.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow；method_lacks_action"
@@ -3121,7 +3121,7 @@
       "source_id": "7641608326068948260",
       "direction": "认知升级",
       "title": "学习不是输入是变异",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3141,9 +3141,9 @@
       ],
       "evidence_support_score": 0.5,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7641608326068948260/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7641608326068948260/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7641608326068948260.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7641608326068948260/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7641608326068948260/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7641608326068948260.md"
       ],
       "issues": [
         "机器风险：ingest_judgement_too_shallow"
@@ -3157,7 +3157,7 @@
       "source_id": "7207763764735741218",
       "direction": "个人成长",
       "title": "认知差与学以致用",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3177,9 +3177,9 @@
       ],
       "evidence_support_score": 0.3279,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7207763764735741218/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7207763764735741218/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7207763764735741218.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7207763764735741218/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7207763764735741218/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7207763764735741218.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3193,7 +3193,7 @@
       "source_id": "7517285713059138879",
       "direction": "个人成长",
       "title": "项目驱动学习才能变现",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3213,9 +3213,9 @@
       ],
       "evidence_support_score": 0.5652,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7517285713059138879/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7517285713059138879/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7517285713059138879.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7517285713059138879/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7517285713059138879/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7517285713059138879.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3229,7 +3229,7 @@
       "source_id": "7525084574431317286",
       "direction": "个人成长",
       "title": "自学终极技能",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/03_7525084574431317286_自学终极技能.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/03_7525084574431317286_自学终极技能.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3249,9 +3249,9 @@
       ],
       "evidence_support_score": 0.4121,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7525084574431317286/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7525084574431317286/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7525084574431317286.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7525084574431317286/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7525084574431317286/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7525084574431317286.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3265,7 +3265,7 @@
       "source_id": "7537695497272790282",
       "direction": "个人成长",
       "title": "每天准备一份礼物",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3285,9 +3285,9 @@
       ],
       "evidence_support_score": 0.3208,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7537695497272790282/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7537695497272790282/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7537695497272790282.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7537695497272790282/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7537695497272790282/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7537695497272790282.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3301,7 +3301,7 @@
       "source_id": "7542519534188645683",
       "direction": "个人成长",
       "title": "放松版本成长法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3321,9 +3321,9 @@
       ],
       "evidence_support_score": 0.3537,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542519534188645683/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542519534188645683/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7542519534188645683.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7542519534188645683/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7542519534188645683/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7542519534188645683.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3337,7 +3337,7 @@
       "source_id": "7545859136433573170",
       "direction": "个人成长",
       "title": "小到不可能失败",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3357,9 +3357,9 @@
       ],
       "evidence_support_score": 0.3233,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7545859136433573170/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7545859136433573170/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7545859136433573170.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7545859136433573170/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7545859136433573170/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7545859136433573170.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3373,7 +3373,7 @@
       "source_id": "7556253638943853867",
       "direction": "个人成长",
       "title": "凿洞学习三步法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3393,9 +3393,9 @@
       ],
       "evidence_support_score": 0.3205,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7556253638943853867/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7556253638943853867/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7556253638943853867.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7556253638943853867/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7556253638943853867/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7556253638943853867.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3409,7 +3409,7 @@
       "source_id": "7569977115399998766",
       "direction": "个人成长",
       "title": "过程习惯改变人生",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3429,9 +3429,9 @@
       ],
       "evidence_support_score": 0.325,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7569977115399998766/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7569977115399998766/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7569977115399998766.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7569977115399998766/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7569977115399998766/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7569977115399998766.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3445,7 +3445,7 @@
       "source_id": "7574452831827053876",
       "direction": "个人成长",
       "title": "大庭广众学习法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3465,9 +3465,9 @@
       ],
       "evidence_support_score": 0.3681,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7574452831827053876/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7574452831827053876/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7574452831827053876.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7574452831827053876/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7574452831827053876/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7574452831827053876.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3481,7 +3481,7 @@
       "source_id": "7639005685547568399",
       "direction": "个人成长",
       "title": "测试复盘公开工作",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3501,9 +3501,9 @@
       ],
       "evidence_support_score": 0.2967,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7639005685547568399/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7639005685547568399/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7639005685547568399.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7639005685547568399/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7639005685547568399/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7639005685547568399.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3517,7 +3517,7 @@
       "source_id": "7172181768240483618",
       "direction": "人生策略",
       "title": "小事滚雪球",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3535,9 +3535,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4104,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7172181768240483618/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7172181768240483618.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7172181768240483618/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7172181768240483618/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7172181768240483618.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3547,7 +3547,7 @@
       "source_id": "7187394757394533687",
       "direction": "人生策略",
       "title": "选择校准三步法",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3565,9 +3565,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2014,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7187394757394533687/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7187394757394533687.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7187394757394533687/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7187394757394533687/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7187394757394533687.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3577,7 +3577,7 @@
       "source_id": "7196647811516026170",
       "direction": "人生策略",
       "title": "时间也要投对趋势",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
       "initial_decision": "minor_fix",
       "decision": "pass",
       "reviewed_sections": [
@@ -3595,9 +3595,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1698,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7196647811516026170/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7196647811516026170.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7196647811516026170/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7196647811516026170/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7196647811516026170.md"
       ],
       "issues": [
         "原卡把季度复核和能力匹配写成方法，但视频未明确给出"
@@ -3612,7 +3612,7 @@
       "source_id": "7218526700215340340",
       "direction": "人生策略",
       "title": "天赋优势复利方向",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3630,9 +3630,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2914,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7218526700215340340/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7218526700215340340.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7218526700215340340/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7218526700215340340/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7218526700215340340.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3642,7 +3642,7 @@
       "source_id": "7243416997281729853",
       "direction": "人生策略",
       "title": "时间兑换与今日一事",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3660,9 +3660,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3228,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7243416997281729853/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7243416997281729853.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7243416997281729853/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7243416997281729853/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7243416997281729853.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3672,7 +3672,7 @@
       "source_id": "7358793291510320436",
       "direction": "人生策略",
       "title": "借梯子看方向",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
       "initial_decision": "minor_fix",
       "decision": "pass",
       "reviewed_sections": [
@@ -3690,9 +3690,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.1705,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7358793291510320436/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7358793291510320436.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7358793291510320436/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7358793291510320436/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7358793291510320436.md"
       ],
       "issues": [
         "原卡自行增加至少比较三位实践者和小实验验证，超出本条证据"
@@ -3707,7 +3707,7 @@
       "source_id": "7401507931113475363",
       "direction": "人生策略",
       "title": "选择性博弈",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/07_7401507931113475363_选择性博弈.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/07_7401507931113475363_选择性博弈.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3725,9 +3725,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.2014,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7401507931113475363/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7401507931113475363.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7401507931113475363/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7401507931113475363/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7401507931113475363.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3737,7 +3737,7 @@
       "source_id": "7542157131752033546",
       "direction": "人生策略",
       "title": "省力路径设计",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/08_7542157131752033546_省力路径设计.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/08_7542157131752033546_省力路径设计.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3755,9 +3755,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4048,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7542157131752033546/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7542157131752033546.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7542157131752033546/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7542157131752033546/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7542157131752033546.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3767,7 +3767,7 @@
       "source_id": "7603767561850735935",
       "direction": "人生策略",
       "title": "方向先于努力",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/09_7603767561850735935_方向先于努力.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/09_7603767561850735935_方向先于努力.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3785,9 +3785,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.3598,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7603767561850735935/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7603767561850735935.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7603767561850735935/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7603767561850735935/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7603767561850735935.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3797,7 +3797,7 @@
       "source_id": "7615636638319922438",
       "direction": "人生策略",
       "title": "用公开行动提供确定性",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3815,9 +3815,9 @@
       "machine_risks": [],
       "evidence_support_score": 0.4293,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7615636638319922438/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7615636638319922438.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7615636638319922438/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7615636638319922438/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7615636638319922438.md"
       ],
       "issues": [],
       "repairs": [],
@@ -3827,7 +3827,7 @@
       "source_id": "7408929533908225334",
       "direction": "技能沉淀",
       "title": "自学是元技能",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3847,9 +3847,9 @@
       ],
       "evidence_support_score": 0.3894,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7408929533908225334/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7408929533908225334/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7408929533908225334.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7408929533908225334/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7408929533908225334/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7408929533908225334.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3863,7 +3863,7 @@
       "source_id": "7520521925358030120",
       "direction": "技能沉淀",
       "title": "一次构建终身受益",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3883,9 +3883,9 @@
       ],
       "evidence_support_score": 0.7081,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7520521925358030120/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7520521925358030120/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7520521925358030120.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7520521925358030120/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7520521925358030120/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7520521925358030120.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -3899,7 +3899,7 @@
       "source_id": "7551062641335209257",
       "direction": "技能沉淀",
       "title": "三步复利系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3919,9 +3919,9 @@
       ],
       "evidence_support_score": 0.76,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7551062641335209257/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7551062641335209257/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7551062641335209257.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7551062641335209257/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7551062641335209257/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7551062641335209257.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -3935,7 +3935,7 @@
       "source_id": "7557371251321343295",
       "direction": "技能沉淀",
       "title": "作品思维",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/04_7557371251321343295_作品思维.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/04_7557371251321343295_作品思维.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3955,9 +3955,9 @@
       ],
       "evidence_support_score": 0.7914,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7557371251321343295/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7557371251321343295/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7557371251321343295.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7557371251321343295/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7557371251321343295/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7557371251321343295.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -3971,7 +3971,7 @@
       "source_id": "7582931244523048244",
       "direction": "技能沉淀",
       "title": "副业资产系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -3991,9 +3991,9 @@
       ],
       "evidence_support_score": 0.6753,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7582931244523048244/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7582931244523048244/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7582931244523048244.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7582931244523048244/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7582931244523048244/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7582931244523048244.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -4007,7 +4007,7 @@
       "source_id": "7593362807756721414",
       "direction": "技能沉淀",
       "title": "每天写点什么进化系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -4027,9 +4027,9 @@
       ],
       "evidence_support_score": 0.7063,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7593362807756721414/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7593362807756721414/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7593362807756721414.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7593362807756721414/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7593362807756721414/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7593362807756721414.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"
@@ -4043,7 +4043,7 @@
       "source_id": "7597450892647992618",
       "direction": "技能沉淀",
       "title": "学能形成资产和复利的事",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -4063,9 +4063,9 @@
       ],
       "evidence_support_score": 0.744,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7597450892647992618/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7597450892647992618/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7597450892647992618.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7597450892647992618/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7597450892647992618/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7597450892647992618.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -4079,7 +4079,7 @@
       "source_id": "7599316326846385462",
       "direction": "技能沉淀",
       "title": "内容资产创作系统",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -4099,9 +4099,9 @@
       ],
       "evidence_support_score": 0.7917,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7599316326846385462/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7599316326846385462/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7599316326846385462.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7599316326846385462/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7599316326846385462/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7599316326846385462.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -4115,7 +4115,7 @@
       "source_id": "7614896500782402858",
       "direction": "技能沉淀",
       "title": "做有积累的事",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -4135,9 +4135,9 @@
       ],
       "evidence_support_score": 0.5789,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7614896500782402858/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7614896500782402858/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7614896500782402858.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7614896500782402858/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7614896500782402858/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7614896500782402858.md"
       ],
       "issues": [
         "机器风险：repeated_passages:1"
@@ -4151,7 +4151,7 @@
       "source_id": "7619348188293565759",
       "direction": "技能沉淀",
       "title": "技能分发资产自动化",
-      "card_path": "01_Case_Cleaning/video_learning/learned_cards/jianghushuo/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
+      "card_path": "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
       "initial_decision": "pass",
       "decision": "pass",
       "reviewed_sections": [
@@ -4171,9 +4171,9 @@
       ],
       "evidence_support_score": 0.7273,
       "evidence_paths": [
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7619348188293565759/transcript.json",
-        "01_Case_Cleaning/video_learning/video_artifacts/douyin_7619348188293565759/transcript.srt",
-        "01_Case_Cleaning/video_learning/selected_deep_cards/douyin_7619348188293565759.md"
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7619348188293565759/transcript.json",
+        "00_System/runtime/cache/video_learning/video_artifacts/douyin_7619348188293565759/transcript.srt",
+        "10_Knowledge/candidates/learning_cards/selected_deep_cards/douyin_7619348188293565759.md"
       ],
       "issues": [
         "机器风险：repeated_passages:2"

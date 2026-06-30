@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-28T21:58:13",
+  "generated_at": "2026-06-30T09:16:11",
   "accounts": [
     {
       "account_id": "xiaosenlin_xiaoshijie",
@@ -78,9 +78,19 @@
           "description": "账号整体方法和读取边界。"
         },
         {
+          "layer": "account_status_overview",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号概述.md",
+          "description": "账号学习状态、资料范围、证据地址和当前缺口。"
+        },
+        {
           "layer": "account_summary",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号整体方法论.md",
           "description": "账号级总结、跨方向模型和内容资产学习口径。"
+        },
+        {
+          "layer": "deep_learning_plan",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/deep_learning_plan.json",
+          "description": "机器可读深学计划、证据存储、方向计数和验收边界。"
         },
         {
           "layer": "content_usage",
@@ -95,7 +105,7 @@
         {
           "layer": "account_content_template",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容输出标准模板.md",
-          "description": "账号通用选题和文案输出模板。"
+          "description": "账号通用单条内容完整交付模板。"
         },
         {
           "layer": "direction_method",
@@ -112,8 +122,8 @@
         {
           "layer": "rough_learning_pool",
           "direction": "护肤功效",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/粗扫内容和选题.md",
-          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/粗学与选题池.md",
+          "description": "账号级发布内容层粗学、方向分布、Top 选题和待复核例外。"
         },
         {
           "layer": "transcripts",
@@ -326,91 +336,91 @@
           "direction": "个人成长",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长"
         },
         {
           "direction": "人生策略",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略"
         },
         {
           "direction": "创业",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业"
         },
         {
           "direction": "商业机会",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会"
         },
         {
           "direction": "技能沉淀",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀"
         },
         {
           "direction": "短视频",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频"
         },
         {
           "direction": "结构化理解",
           "status": "formal_ingested",
           "card_count": 9,
-          "transcript_file_count": 0,
+          "transcript_file_count": 18,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解"
         },
         {
           "direction": "自媒体",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体"
         },
         {
           "direction": "表达文案",
           "status": "formal_ingested",
           "card_count": 9,
-          "transcript_file_count": 0,
+          "transcript_file_count": 18,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案"
         },
         {
           "direction": "认知升级",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级"
         },
         {
           "direction": "财富策略",
           "status": "formal_ingested",
           "card_count": 9,
-          "transcript_file_count": 0,
+          "transcript_file_count": 18,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略"
         },
         {
           "direction": "赚钱",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱"
         },
         {
           "direction": "阅读输入",
           "status": "formal_ingested",
           "card_count": 10,
-          "transcript_file_count": 0,
+          "transcript_file_count": 20,
           "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入"
         }
       ],
@@ -421,9 +431,19 @@
           "description": "账号整体方法和读取边界。"
         },
         {
+          "layer": "account_status_overview",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号概述.md",
+          "description": "账号学习状态、资料范围、证据地址和当前缺口。"
+        },
+        {
           "layer": "account_summary",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号整体方法论.md",
           "description": "账号级总结、跨方向模型和内容资产学习口径。"
+        },
+        {
+          "layer": "deep_learning_plan",
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/deep_learning_plan.json",
+          "description": "机器可读深学计划、证据存储、方向计数和验收边界。"
         },
         {
           "layer": "content_usage",
@@ -438,7 +458,7 @@
         {
           "layer": "account_content_template",
           "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容输出标准模板.md",
-          "description": "账号通用选题和文案输出模板。"
+          "description": "账号通用单条内容完整交付模板。"
         },
         {
           "layer": "direction_method",
@@ -455,8 +475,8 @@
         {
           "layer": "rough_learning_pool",
           "direction": "个人成长",
-          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/粗扫内容和选题.md",
-          "description": "方向全量素材的发布内容层粗学和选题池；不包含视频内容层。"
+          "path": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/粗学与选题池.md",
+          "description": "账号级发布内容层粗学、方向分布、Top 选题和待复核例外。"
         },
         {
           "layer": "transcripts",

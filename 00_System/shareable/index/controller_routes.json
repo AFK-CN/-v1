@@ -150,6 +150,8 @@
       ],
       "read_first": [
         "10_Knowledge/evidence/index/account_knowledge_index.md",
+        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号概述.md",
+        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号方法论总览.md",
         "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号整体方法论.md",
         "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容生产使用说明.md",
         "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/减少AI味输出规则.md",
@@ -196,9 +198,11 @@
         "tools.kb.cli sqlite-ingest",
         "tools.content_rough_scan",
         "tools.video_learning",
-        "tools.jianghushuo_account_ingest"
+        "tools.video_learning_audit",
+        "tools.video_learning_account_ingest",
+        "tools.video_learning_card_validator"
       ],
-      "output_contract": "先生成粗扫、深度学习卡、候选报告和审核结果；用户确认后才能进入账号中心。",
+      "output_contract": "按通用 profile 工作流输出学习阶段产物：粗学与深学计划、深度学习总结、综合入库；后续生产复盘阶段输出内容生产、反馈复盘和针对性强化记录。粗学完成必须有账号概述、粗学与选题池和 deep_learning_plan.json；粗学与选题池必须按方向保留全部粗扫选题，Top/候补内容只用于深学优先级和执行计划；用户确认或审核注册表通过后才能进入账号中心。",
       "write_policy": "脚本可写候选资产和报告；正式账号知识写入需要审核通过。"
     },
     {

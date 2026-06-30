@@ -22,6 +22,7 @@ KEEP_ROOT_NAMES = {
 
 KEEP_ROOT_DIRS = {
     ".git",
+    ".github",
     ".venv",
     "00_Inbox",
     "00_System",

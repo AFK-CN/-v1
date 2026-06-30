@@ -142,7 +142,7 @@ class JianghushuoLearningAuditTests(unittest.TestCase):
             )
             result = audit_card(parse_card(path), evidence)
 
-        self.assertIn("unsupported_scene_detail", result.evidence_risks)
+        self.assertIn("unsupported_scene_detail", result.video_content_layer_risks)
         self.assertNotEqual(result.machine_decision, "pass")
 
     def test_similarity_flags_three_of_four_key_sections(self):

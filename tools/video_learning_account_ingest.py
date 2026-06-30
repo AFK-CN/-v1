@@ -9,7 +9,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
-from tools.kb.runtime import mark_dirty
+from tools.kb.runtime import mark_dirty, runtime_path
 
 
 def as_posix(path: Path) -> str:
@@ -251,15 +251,16 @@ def _render_account_index(config: AccountIngestConfig, directions: list[dict[str
         "",
         "## 读取顺序",
         "",
-        "1. `账号方法论总览.md`：先看账号整体方法。",
-        "2. `账号整体方法论.md`：读取账号级总结、跨方向模型和内容资产规律。",
-        "3. `内容生产使用说明.md`：会话外调用时先按这里确定读取路径和输出边界。",
-        "4. `减少AI味输出规则.md`：写选题、文案或脚本前必须读取。",
-        "5. `内容输出标准模板.md`：按账号通用字段输出选题和文案。",
-        "6. `directions/{方向}/方向方法论总结.md`：按方向调用方法论。",
-        "7. `directions/{方向}/cards/`：需要证据时回到单卡。",
-        "8. `directions/{方向}/粗扫内容和选题.md`：正式粗学与选题池，写选题和延展内容时调用。",
-        "9. `directions/{方向}/transcripts/`：仅在视频证据争议或文案复核时回溯；图文/元数据卡不强求逐字稿。",
+        "1. `账号概述.md`：先看账号状态、资料范围、证据地址和当前缺口。",
+        "2. `账号方法论总览.md`：读取深学后的账号级方法论。",
+        "3. `账号整体方法论.md`：兼容旧调用，读取账号级总结、跨方向模型和内容资产规律。",
+        "4. `内容生产使用说明.md`：会话外调用时先按这里确定读取路径和输出边界。",
+        "5. `减少AI味输出规则.md`：写选题、文案或脚本前必须读取。",
+        "6. `内容输出标准模板.md`：按账号通用字段输出完整内容包。",
+        "7. `directions/{方向}/方向方法论总结.md`：按方向调用方法论。",
+        "8. `directions/{方向}/cards/`：需要证据时回到单卡。",
+        "9. `directions/{方向}/粗扫内容和选题.md`：正式粗学与选题池，写选题和延展内容时调用。",
+        "10. `directions/{方向}/transcripts/`：仅在视频证据争议或文案复核时回溯；图文/元数据卡不强求逐字稿。",
         "",
         "## 方向入口",
         "",
@@ -271,6 +272,39 @@ def _render_account_index(config: AccountIngestConfig, directions: list[dict[str
             f"| {direction['direction']} | {direction['status']} | {direction['card_count']} | "
             f"{direction['transcript_file_count']} | {direction['formal_direction_dir']} |"
         )
+    return "\n".join(lines) + "\n"
+
+
+def _render_account_status_overview(config: AccountIngestConfig, directions: list[dict[str, Any]]) -> str:
+    lines = [
+        f"# {config.account_name}账号概述",
+        "",
+        "用途：账号学习和生产调用的状态面板。这里只放摘要、状态和入口，不堆完整证据。",
+        "",
+        f"- 账号：{config.account_name}",
+        f"- 平台：{config.platform}",
+        "- 学习状态：formal_ingested",
+        "- 资料范围：以已入库方向、学习卡和账号索引登记为准",
+        "- 原始证据/NAS 地址：如有外部原始仓，只记录地址和状态，不把 NAS 当第二知识库",
+        "- 当前缺口：按方向方法论、学习卡和证据缺口清单继续更新",
+        "",
+        "## 方向总览",
+        "",
+        "| 方向 | 状态 | 单卡 | 入口 |",
+        "|---|---|---:|---|",
+    ]
+    for direction in directions:
+        lines.append(f"| {direction['direction']} | {direction['status']} | {direction['card_count']} | {direction['formal_direction_dir']} |")
+    lines.extend(
+        [
+            "",
+            "## 调用提醒",
+            "",
+            "- 内容生产前先读本文件确认账号状态，再读方法论、生产说明、输出模板和风格规则。",
+            "- 粗学判断必须标注为待深学验证；深学结论必须能回到学习卡、source_id 和原链接。",
+            "- 过程物如入库回执、验收报告、存储分层清单只作为审计材料，不作为长期必读知识。",
+        ]
+    )
     return "\n".join(lines) + "\n"
 
 
@@ -305,58 +339,6 @@ def _render_account_overview(config: AccountIngestConfig, directions: list[dict[
 
 def _render_account_summary(config: AccountIngestConfig, directions: list[dict[str, Any]]) -> str:
     direction_names = [direction["direction"] for direction in directions]
-    direction_text = "、".join(direction_names)
-    is_beauty = any(keyword in direction_text for keyword in ("护肤", "美", "毛孔", "刷酸", "抗老", "修护", "好物", "产品", "生活方式"))
-    is_knowledge_business = any(keyword in direction_text for keyword in ("赚钱", "创业", "商业", "自媒体", "短视频", "表达", "学习", "成长", "认知", "阅读", "技能", "财富"))
-    if is_beauty:
-        core = [
-            f"{config.account_name}的账号级方法不是知识说教，而是用真实问题经历、产品筛选和生活化记录建立信任。",
-            "跨方向稳定结构是：先给具体状态或使用场景，再给可执行选择或护理动作，随后补真实反馈、预算和适用边界。",
-            "正式调用时要保留平台内容语境，优先学习标题、正文、话题和封面承诺之间的配合，从本账号证据归纳表达规则。",
-        ]
-        models = [
-            "具体状态/场景 -> 困扰结果 -> 自用/踩坑经验 -> 步骤或清单 -> 适用边界。",
-            "产品/项目名 -> 为什么买或避雷 -> 使用反馈 -> 适合谁/不适合谁。",
-            "关系或合作事件 -> 边界态度 -> 信任维护 -> 轻量互动。",
-        ]
-        style = [
-            "像长期踩坑后分享经验的人，不像专家讲课；少用抽象概念，多写具体状态、预算和使用感。",
-            "标题可以直接给结果、场景或避坑，但正文必须补适用人群和风险边界。",
-            "功效表达要克制，不写绝对承诺，不把个人经验包装成医学结论。",
-        ]
-        boundaries = [
-            "不学习评论正文；评论数只作为互动指标。",
-            "图文/元数据卡不强求逐字稿，核心证据是标题、正文/文案、话题、图片/OCR待补强。",
-        ]
-    elif is_knowledge_business:
-        core = [
-            f"{config.account_name}的账号级方法不是零散技巧库，而是把核心问题拆成普通人能执行的行动系统。",
-            "跨方向稳定结构是：先纠正常见误区，再重新定义问题，随后给低成本起点，最后把行动沉淀为作品、产品、模板或方法论。",
-            "正式调用时先读本文件判断账号级底层逻辑，再进入具体方向和单卡取证据。",
-        ]
-        models = [
-            "误区/反常识 -> 重新定义问题 -> 给出路径 -> 拆成步骤 -> 普通人案例 -> 行动任务。",
-            "真实问题 -> 小交付 -> 反馈验证 -> 模板/产品/系统化。",
-            "内容公开能力 -> 信任积累 -> 产品承接价值 -> 复盘迭代。",
-        ]
-        style = [
-            "多用强判断、反常识和重新定义，不要写成温和百科解释。",
-            "每个观点都落到普通人能做的一件小事、一个交付或一套系统。",
-            "允许口播感和短句，但必须有清晰递进，不能只堆金句。",
-        ]
-        boundaries = [
-            "赚钱、创业、财富相关内容只能作为内容方法和行动框架，不承诺收益。",
-            "不把单条爆款当成账号整体规律；跨方向结论优先用多个方向互相印证。",
-        ]
-    else:
-        core = [
-            f"{config.account_name}的账号级方法论来自正式入库方向的交叉总结。",
-            "正式调用时先读账号级总结，再按方向读取方法论、粗学与选题池和单卡证据。",
-        ]
-        models = ["账号问题 -> 内容结构 -> 证据边界 -> 可复用模板。"]
-        style = ["按账号正式单卡和方向总结抽取表达规则，不复制其他账号的风格文件。"]
-        boundaries = ["评论正文不纳入账号学习；评论数量只作为互动指标。"]
-
     lines = [
         f"# {config.account_name}账号整体方法论",
         "",
@@ -368,24 +350,40 @@ def _render_account_summary(config: AccountIngestConfig, directions: list[dict[s
         "",
         "## 1. 账号级核心判断",
         "",
+        "- 本文件是账号级综合入口，结论必须来自本账号正式方向总结、学习卡、标题、正文/文案、话题和必要证据索引。",
+        "- 系统不按方向词预设账号风格；任何表达结构、选题偏好、口吻和禁用写法，都要能回到本账号证据。",
+        "- 如果某条判断只来自粗学池，必须标注为粗学判断或待深学验证，不能写成已验证方法论。",
+        "",
+        "## 2. 跨方向归纳框架",
+        "",
+        "- 先比较各方向的标题、正文/文案、话题标签、内容结构和学习卡证据，再总结跨方向共性。",
+        "- 只记录在多个方向或多张正式学习卡中重复出现的稳定规律；单条爆款只作为案例，不直接上升为账号规律。",
+        "- 对无法确认的口吻、结构、受众、场景和证据缺口，保留为待补项，不用其他账号模板补齐。",
+        "",
+        "## 3. 内容资产学习口径",
+        "",
+        "- 粗学与选题池覆盖方向下所有素材的发布内容层，学习标题、正文/文案、话题/标签和内容结构协同。",
+        "- 深度学习卡完整学习发布内容层和视频内容层，包含标题、正文/文案、话题、逐字稿、抽帧/分镜和证据边界。",
+        "- 评论正文不纳入学习范围，不能从评论区提炼观点、痛点或话术。",
+        "- 评论数量、点赞、收藏、分享只作为平台互动指标和热度参考。",
+        "",
+        "## 4. 账号表达规则",
+        "",
+        "- 从本账号正式单卡和方向总结抽取表达规则，不复制其他账号的风格文件。",
+        "- 写作时优先保留本账号已验证的标题习惯、开头方式、转折方式、例子来源和收尾方式。",
+        "- 没有证据支持的表达偏好，不写入正式规则；需要继续观察的写入账号概述缺口或复盘待补项。",
+        "",
+        "## 5. 调用边界",
+        "",
+        "- 正式调用时先读账号概述和本文件，再按方向读取方向方法论、粗学与选题池和单卡证据。",
+        "- 不把别的账号经验、平台通用经验或系统默认模板当成本账号规律。",
+        "- 涉及效果、收益、健康、消费、投资等高风险表达时，只能按证据边界写，不能承诺结果。",
+        "",
+        "## 6. 正式方向入口",
+        "",
+        "| 方向 | 单卡 | 入口 |",
+        "|---|---:|---|",
     ]
-    lines.extend(f"- {item}" for item in core)
-    lines.extend(["", "## 2. 跨方向通用模型", ""])
-    lines.extend(f"- {item}" for item in models)
-    lines.extend(["", "## 3. 内容资产学习口径", ""])
-    lines.extend(
-        [
-            "- 粗学与选题池覆盖方向下所有素材的发布内容层，学习标题、正文/文案、话题/标签和内容结构协同。",
-            "- 深度学习卡完整学习发布内容层和视频内容层，包含标题、正文/文案、话题、逐字稿、抽帧/分镜和证据边界。",
-            "- 评论正文不纳入学习范围，不能从评论区提炼观点、痛点或话术。",
-            "- 评论数量、点赞、收藏、分享只作为平台互动指标和热度参考。",
-        ]
-    )
-    lines.extend(["", "## 4. 账号表达规则", ""])
-    lines.extend(f"- {item}" for item in style)
-    lines.extend(["", "## 5. 调用边界", ""])
-    lines.extend(f"- {item}" for item in boundaries)
-    lines.extend(["", "## 6. 正式方向入口", "", "| 方向 | 单卡 | 入口 |", "|---|---:|---|"])
     for direction in directions:
         lines.append(f"| {direction['direction']} | {direction['card_count']} | {direction['formal_direction_dir']} |")
     return "\n".join(lines) + "\n"
@@ -401,14 +399,15 @@ def _render_content_usage(config: AccountIngestConfig, directions: list[dict[str
         "",
         "1. `10_Knowledge/evidence/index/account_knowledge_index.md`：确认账号中心位置。",
         "2. `账号索引.md`：确认账号内有哪些方向已经正式入库。",
-        "3. `账号方法论总览.md`：确认账号定位和使用边界。",
-        "4. `账号整体方法论.md`：确认账号级核心判断、跨方向模型和内容资产学习口径。",
-        "5. `减少AI味输出规则.md`：确认输出风格和禁用写法。",
-        "6. `内容输出标准模板.md`：确认账号通用输出字段。",
-        "7. `directions/{方向}/方向方法论总结.md`：调用方向方法论。",
-        "8. `directions/{方向}/粗扫内容和选题.md`：寻找选题、对标内容和原链接。",
-        "9. `directions/{方向}/cards/*.md`：需要已验证证据、案例和内容结构时读取。",
-        "10. `directions/{方向}/transcripts/*`：只有视频证据争议、金句复核、文案不清时读取；图文/元数据卡不强求逐字稿。",
+        "3. `账号概述.md`：确认账号状态、资料范围、证据地址和当前缺口。",
+        "4. `账号方法论总览.md`：确认深学后的账号定位和使用边界。",
+        "5. `账号整体方法论.md`：兼容旧调用，确认账号级核心判断、跨方向模型和内容资产学习口径。",
+        "6. `减少AI味输出规则.md`：确认输出风格和禁用写法。",
+        "7. `内容输出标准模板.md`：确认单条内容完整交付字段。",
+        "8. `directions/{方向}/方向方法论总结.md`：调用方向方法论。",
+        "9. `directions/{方向}/粗扫内容和选题.md`：寻找选题、对标内容和原链接。",
+        "10. `directions/{方向}/cards/*.md`：需要已验证证据、案例和内容结构时读取。",
+        "11. `directions/{方向}/transcripts/*`：只有视频证据争议、金句复核、文案不清时读取；图文/元数据卡不强求逐字稿。",
         "",
         "## 禁止动作",
         "",
@@ -430,86 +429,33 @@ def _render_content_usage(config: AccountIngestConfig, directions: list[dict[str
 
 
 def _render_anti_ai_style(config: AccountIngestConfig, directions: list[dict[str, Any]] | None = None) -> str:
-    platform = config.platform.lower()
-    is_xhs_platform = "小红书" in config.platform or platform in {"xhs", "xiaohongshu"}
-    direction_text = "、".join(str(direction.get("direction", "")) for direction in directions or [])
-    knowledge_hint = config.account_name + "、" + direction_text
-    if is_xhs_platform:
-        lines = [
-            f"# {config.account_name}减少AI味输出规则",
-            "",
-            "用途：小红书账号的风格控制文件。必须基于本账号正式单卡、方向总结、标题、正文和话题归纳使用。",
-            "",
-            "## 核心原则",
-            "",
-            "- 像有具体经历的人在分享判断，不像专家授课，也不像品牌说明书。",
-            "- 先说具体状态或场景，再给做法、选择理由或避坑理由。",
-            "- 多写自用、回购、翻车、预算、使用感、适合谁和不适合谁，少写抽象方法论。",
-            "- 涉及功效、健康、消费决策时必须保留边界：个体差异、使用频率、前提条件、风险或专业建议。",
-            "- 标题可以直接给结果或避坑，但正文不能只种草，必须补具体原因和适用条件。",
-            "",
-            "## 禁用写法",
-            "",
-            "- 禁止写成抽象知识口播，不使用认知说教、抽象闭环、破局叙事这类表达。",
-            "- 禁止所有内容都用“先判断、再原因、再行动”的硬结构，账号内容要允许经历感和清单感。",
-            "- 禁止绝对功效承诺，例如“必好、根治、所有人都适合、用了就有效”。",
-            "- 禁止编造皮肤经历、医学结论、产品数据和用户反馈。",
-            "- 禁止学习评论正文；不能把评论区问题当作账号观点来源。",
-            "",
-            "## 批量输出防偷懒规则",
-            "",
-            "- 同一批选题要区分人群、预算、季节、使用步骤、产品类型、场景或风险边界。",
-            "- 不能只替换关键词；每条都要有不同的场景、动作或判断标准。",
-            "- 测评、经验、清单、避坑和生活记录要分别保留不同证据口径，不能写成同一种种草模板。",
-            "",
-        ]
-    elif any(keyword in knowledge_hint for keyword in ("赚钱", "创业", "商业", "自媒体", "短视频", "表达", "学习", "成长", "认知", "阅读", "技能", "财富", "知识")):
-        lines = [
-            f"# {config.account_name}减少AI味输出规则",
-            "",
-            "用途：账号级风格控制文件，跟随正式单卡和方向总结持续更新。适用于知识成长、赚钱、创业、自媒体、表达和行动系统类内容。",
-            "",
-            "## 核心原则",
-            "",
-            "- 像一个人在把复杂问题讲成可执行系统，不像 AI 在总结概念。",
-            "- 先指出常见误区或反常识，再重新定义问题，最后给普通人可做的小动作。",
-            "- 多用小事、小钱、小交付、作品、模板、系统、复盘这类可落地表达。",
-            "- 允许短句、停顿和口播感，但每段必须有递进，不堆空泛金句。",
-            "- 案例要来自正式单卡或粗学池，不编造收入、经历和外部事实。",
-            "",
-            "## 禁用写法",
-            "",
-            "- 禁止写成百科式“第一、第二、第三”的干讲解，必须有问题意识。",
-            "- 禁止把赚钱、创业、财富内容写成收益承诺。",
-            "- 禁止只换关键词批量复用同一个故事、同一个痛点、同一个结论。",
-            "- 禁止学习评论正文；评论数量只能作为互动指标。",
-            "",
-            "## 批量输出防偷懒规则",
-            "",
-            "- 禁止同一批选题使用同一种黄金3秒。",
-            "- 同一批选题要分别落到问题、交付、作品、产品、系统、复盘等不同抓手。",
-            "- 每条都要能回答“普通人下一步能做什么”。",
-            "- 粗学池线索必须标注来源层级，不能当成已深学结论。",
-            "",
-        ]
-    else:
-        lines = [
-            f"# {config.account_name}减少AI味输出规则",
-            "",
-            "用途：账号级风格控制文件。必须从该账号正式单卡和方向总结抽取，不复制其他账号规则。",
-            "",
-            "## 核心原则",
-            "",
-            "- 使用该账号自己的标题、正文、话题和内容结构特征。",
-            "- 不学习评论正文；评论数量只作为互动指标。",
-            "- 案例要具体，不编造数据、身份、经历和外部事实。",
-            "",
-            "## 批量输出防偷懒规则",
-            "",
-            "- 禁止同一批选题复用同一套钩子、故事和结论。",
-            "- 禁止只换关键词，不换角度。",
-            "",
-        ]
+    lines = [
+        f"# {config.account_name}减少AI味输出规则",
+        "",
+        "用途：账号级风格控制文件。必须从本账号正式单卡、方向总结、标题、正文/文案、话题和复盘反馈中归纳，不复制其他账号规则。",
+        "",
+        "## 核心原则",
+        "",
+        "- 使用本账号自己的标题、正文/文案、话题和内容结构特征；没有证据的风格判断先写为待补项。",
+        "- 每条输出都要能回到正式学习卡、方向总结或粗学池来源；粗学池线索必须标注为粗学，不能当成已深学结论。",
+        "- 保留具体场景、对象、动作、证据和边界，少用空泛总结词。",
+        "- 不学习评论正文；评论数量只作为互动指标。",
+        "- 不编造数据、身份、经历、产品效果、收入结果、医学结论或外部事实。",
+        "",
+        "## 禁用写法",
+        "",
+        "- 禁止把其他账号的口吻、故事、结构或禁用词复制到本账号。",
+        "- 禁止只换关键词批量复用同一个钩子、故事、痛点和结论。",
+        "- 禁止把单条爆款写成账号稳定规律；必须有多条证据或复盘反馈支撑。",
+        "- 涉及效果、收益、健康、消费、投资等高风险表达时，禁止承诺结果。",
+        "",
+        "## 批量输出防偷懒规则",
+        "",
+        "- 同一批内容必须区分选题角度、开头方式、证据来源和收尾方式。",
+        "- 每条都要标注借鉴学习卡、source_id、来源层级和原内容链接。",
+        "- 如果只能找到粗学线索，输出中必须提示该内容仍需深学验证。",
+        "",
+    ]
     return "\n".join(lines)
 
 
@@ -526,31 +472,47 @@ def _render_account_content_template(config: AccountIngestConfig) -> str:
         [
             f"# {config.account_name}内容输出标准模板",
             "",
-            "用途：账号通用模板。字段可以按用户要求增减，但不能省略证据来源。",
+            "用途：账号通用的单条内容交付模板。括号内说明是给 AI 的生成要求，最终输出内容时不要展示说明。",
             "",
-            "## 1. 选题输出模板",
+            "## 选题",
             "",
-            "| 字段 | 要求 |",
-            "|---|---|",
-            "| 选题标题 | 一句话表达具体问题或具体收益，不写空泛大词。 |",
-            "| 对应方法论 | 写清来自方向方法论中的哪个模型。 |",
-            "| 受众痛点 | 写具体人群的具体卡点。 |",
-            "| 钩子角度 | 说明黄金3秒角度。 |",
-            "| 核心观点 | 一句话讲清这条内容要证明什么。 |",
-            "| 可引用案例 | 优先引用正式单卡；粗扫线索必须标注为粗扫。 |",
-            "| 对标知识库内容 | 写文件名、source_id、来源层级。 |",
-            f"| {source_link_label} | 附上原始内容链接。 |",
+            "（说明：一句话说明这条内容解决什么问题，必须贴合账号方向。）",
             "",
-            "## 2. 文案输出模板",
+            "## 发布标题",
             "",
-            "```text",
-            "黄金3s：",
-            "完整文案：",
-            "互动收尾：",
-            "证据来源：",
-            "- 对标知识库内容：文件名/source_id/来源层级",
-            f"- {source_link_label}：链接",
-            "```",
+            "（说明：按本账号标题习惯写，不要泛营销标题。）",
+            "",
+            "## 发布文案",
+            "",
+            "（说明：平台发布区文案，承接标题，不重复正文。）",
+            "",
+            "## 话题标签",
+            "",
+            "（说明：包含平台标签、方向标签、场景标签。）",
+            "",
+            "## 黄金3s",
+            "",
+            "（说明：开头第一句话/第一幕/第一屏，直接给问题、结果或冲突。）",
+            "",
+            "## 正文内容",
+            "",
+            "（说明：按该账号常用结构写完整内容。）",
+            "",
+            "## 互动收尾",
+            "",
+            "（说明：轻提问或收藏引导，不要强行硬广。）",
+            "",
+            "## 借鉴学习卡",
+            "",
+            "（说明：列文件名、source_id、来源层级；优先使用正式单卡，粗学线索必须标注为粗学。）",
+            "",
+            "## 对标知识库内容",
+            "",
+            "（说明：写清方向方法论、粗学与选题池或单卡路径。）",
+            "",
+            f"## {source_link_label}",
+            "",
+            "（说明：列对应原内容发布链接，不要编造链接。）",
             "",
         ]
     )
@@ -588,6 +550,10 @@ def _render_storage_manifest_md(manifest: dict[str, Any]) -> str:
     return "\n".join(lines) + "\n"
 
 
+def _process_report_dir(root: Path, config: AccountIngestConfig, direction: str) -> Path:
+    return runtime_path(root, "reports") / "account_ingest" / config.profile_id / direction
+
+
 def _write_global_account_index(root: Path, config: AccountIngestConfig, direction_entries: list[dict[str, Any]]) -> None:
     payload = {"generated_at": datetime.now().isoformat(timespec="seconds"), "accounts": []}
     existing_path = root / config.global_account_index_json
@@ -605,10 +571,11 @@ def _write_global_account_index(root: Path, config: AccountIngestConfig, directi
         "directions": direction_entries,
         "knowledge_layers": [
             {"layer": "account_overview", "path": as_posix(config.formal_account_dir / "账号方法论总览.md"), "description": "账号整体方法和读取边界。"},
+            {"layer": "account_status_overview", "path": as_posix(config.formal_account_dir / "账号概述.md"), "description": "账号学习状态、资料范围、证据地址和当前缺口。"},
             {"layer": "account_summary", "path": as_posix(config.formal_account_dir / "账号整体方法论.md"), "description": "账号级总结、跨方向模型和内容资产学习口径。"},
             {"layer": "content_usage", "path": as_posix(config.formal_account_dir / "内容生产使用说明.md"), "description": "会话外调用和内容生产读取规则。"},
             {"layer": "anti_ai_style", "path": as_posix(config.formal_account_dir / "减少AI味输出规则.md"), "description": "账号级风格控制和批量输出防雷同规则。"},
-            {"layer": "account_content_template", "path": as_posix(config.formal_account_dir / "内容输出标准模板.md"), "description": "账号通用选题和文案输出模板。"},
+            {"layer": "account_content_template", "path": as_posix(config.formal_account_dir / "内容输出标准模板.md"), "description": "账号通用单条内容完整交付模板。"},
         ],
         "storage_policy": "热知识进账号中心；大体积媒体留原地址并登记为云端候选。",
     }
@@ -657,7 +624,6 @@ def ingest_direction_package(root: Path, config: AccountIngestConfig, direction:
     rough_source = source_dir / "粗扫内容和选题.md"
     if not _write_transformed(rough_source, formal_dir / "粗扫内容和选题.md", lambda text: _formalize_rough_learning_pool_text(text, len(rows))):
         raise FileNotFoundError(f"Missing required direction file: {source_dir / '粗扫内容和选题.md'}")
-    _copy_file(source_dir / "方向验收报告.md", formal_dir / "方向验收报告.md")
     storage_items: list[dict[str, Any]] = []
     transcript_file_count = 0
     for row in rows:
@@ -693,9 +659,11 @@ def ingest_direction_package(root: Path, config: AccountIngestConfig, direction:
         "policy": "正式热知识保留；大体积证据登记云端候选；候选区原件待迁移/删除审核。",
         "items": storage_items,
     }
-    _write_json(formal_dir / "存储分层清单.json", manifest)
-    (formal_dir / "存储分层清单.md").write_text(_render_storage_manifest_md(manifest), encoding="utf-8")
-    (formal_dir / "入库回执.md").write_text(_render_receipt(config, result, rows), encoding="utf-8")
+    process_dir = _process_report_dir(root, config, direction)
+    _copy_file(source_dir / "方向验收报告.md", process_dir / "方向验收报告.md")
+    _write_json(process_dir / "存储分层清单.json", manifest)
+    (process_dir / "存储分层清单.md").write_text(_render_storage_manifest_md(manifest), encoding="utf-8")
+    (process_dir / "入库回执.md").write_text(_render_receipt(config, result, rows), encoding="utf-8")
     stale_direction_template = formal_dir / "出内容标准模板.md"
     if stale_direction_template.exists():
         stale_direction_template.unlink()
@@ -792,6 +760,7 @@ def ingest_directions(
     account_dir = root / config.formal_account_dir
     account_dir.mkdir(parents=True, exist_ok=True)
     (account_dir / "账号索引.md").write_text(_render_account_index(config, direction_entries), encoding="utf-8")
+    (account_dir / "账号概述.md").write_text(_render_account_status_overview(config, direction_entries), encoding="utf-8")
     (account_dir / "账号方法论总览.md").write_text(_render_account_overview(config, direction_entries), encoding="utf-8")
     (account_dir / "账号整体方法论.md").write_text(_render_account_summary(config, direction_entries), encoding="utf-8")
     (account_dir / "内容生产使用说明.md").write_text(_render_content_usage(config, direction_entries), encoding="utf-8")

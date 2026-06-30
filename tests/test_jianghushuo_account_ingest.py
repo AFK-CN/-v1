@@ -122,9 +122,10 @@ class JianghushuoAccountIngestTests(unittest.TestCase):
 
             result = ingest_direction(root, "赚钱")
             formal_dir = root / result["formal_direction_dir"]
+            process_dir = root / "00_System/runtime/reports/account_ingest/jianghushuo/赚钱"
             account_index = root / "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号索引.md"
             total_index = root / "10_Knowledge/evidence/index/account_knowledge_index.json"
-            storage_manifest = json.loads((formal_dir / "存储分层清单.json").read_text(encoding="utf-8"))
+            storage_manifest = json.loads((process_dir / "存储分层清单.json").read_text(encoding="utf-8"))
             total_index_payload = json.loads(total_index.read_text(encoding="utf-8"))
 
             self.assertEqual(result["card_count"], 2)
@@ -133,6 +134,10 @@ class JianghushuoAccountIngestTests(unittest.TestCase):
             self.assertTrue((formal_dir / "粗扫内容和选题.md").exists())
             self.assertEqual(len(list((formal_dir / "cards").glob("*.md"))), 2)
             self.assertEqual(len(list((formal_dir / "transcripts").glob("*"))), 4)
+            self.assertFalse((formal_dir / "入库回执.md").exists())
+            self.assertFalse((formal_dir / "存储分层清单.json").exists())
+            self.assertTrue((process_dir / "入库回执.md").exists())
+            self.assertTrue((process_dir / "存储分层清单.md").exists())
             self.assertIn("赚钱", account_index.read_text(encoding="utf-8"))
             self.assertEqual(total_index_payload["accounts"][0]["directions"][0]["direction"], "赚钱")
         self.assertFalse(any("测试方法论可复用" in layer.get("description", "") for layer in total_index_payload["accounts"][0]["knowledge_layers"]))
@@ -177,20 +182,22 @@ class JianghushuoAccountIngestTests(unittest.TestCase):
 
         self.assertIn("会话外调用", usage)
         self.assertIn("不要全扫候选区", usage)
-        self.assertIn("持续更新", style)
-        self.assertIn("禁止同一批选题使用同一种黄金3秒", style)
+        self.assertIn("不复制其他账号规则", style)
+        self.assertIn("粗学池线索必须标注为粗学", style)
+        self.assertNotIn("适用于知识成长、赚钱", style)
+        self.assertNotIn("禁止同一批选题使用同一种黄金3秒", style)
+        self.assertIn("选题", template)
+        self.assertIn("发布标题", template)
+        self.assertIn("发布文案", template)
+        self.assertIn("话题标签", template)
+        self.assertIn("正文内容", template)
+        self.assertIn("借鉴学习卡", template)
         self.assertIn("对标知识库内容", template)
         self.assertIn("原抖音链接", template)
-        self.assertIn("选题标题", template)
-        self.assertIn("对应方法论", template)
-        self.assertIn("受众痛点", template)
-        self.assertIn("钩子角度", template)
-        self.assertIn("核心观点", template)
-        self.assertIn("可引用案例", template)
         self.assertIn("黄金3s", template)
-        self.assertIn("完整文案", template)
         self.assertIn("互动收尾", template)
         layers = {layer["layer"] for layer in total_index["accounts"][0]["knowledge_layers"]}
+        self.assertIn("account_status_overview", layers)
         self.assertIn("content_usage", layers)
         self.assertIn("anti_ai_style", layers)
         self.assertIn("account_content_template", layers)
