@@ -1,0 +1,768 @@
+{
+  "direction": "创作表达与作品索引",
+  "topic_clusters": [
+    {
+      "topic": "创作",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7174966201771101501",
+          "title": "《如此创作》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7174966201771101501",
+          "title": "《如此创作》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7458965741065342244",
+          "title": "创作瓶颈了！ #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7458965741065342244",
+          "title": "创作瓶颈了！ #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "创作表达与作品索引",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7161982104107060511",
+          "title": "《一个故事》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7479382209451871542",
+          "title": "《你们要的续集来了》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7505260893832449307",
+          "title": "你可能不认识我，但这些都没看过嘛？ #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7518992865429032201",
+          "title": "差点忘了以前是干啥的啦 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "拍",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7137867143542082851",
+          "title": "《不拍了行了吧！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7142693660327447843",
+          "title": "《这吻戏让我拍的…》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "一镜到底",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7508292805878713638",
+          "title": "《一镜到底》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "导演",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7102758562438466856",
+          "title": "《导演，我厉害吧？》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "编不下去",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7115992109492079913",
+          "title": "《我编不下去了！》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "戏痴",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7117831604109610275",
+          "title": "《我是戏痴》#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "电影奇遇夜",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7242603636315016480",
+          "title": "今天正经一次 我怎么穿的像个海苔一样？#李宗恒 #抖音电影奇遇夜",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7102758562438466856",
+      "title": "《导演，我厉害吧？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《导演，我厉害吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《导演，我厉害吧",
+        "》 《导演，我厉害吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7115992109492079913",
+      "title": "《我编不下去了！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我编不下去了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我编不下去了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7117831604109610275",
+      "title": "《我是戏痴》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是戏痴》 《我是戏痴》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我是戏痴》 《我是戏痴》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7133876186207243520",
+      "title": "一千W粉丝福利！（提前放送版）#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一千W粉丝福利",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "（提前放送版） 一千W粉丝福利"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7137867143542082851",
+      "title": "《不拍了行了吧！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不拍了行了吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《不拍了行了吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7142693660327447843",
+      "title": "《这吻戏让我拍的…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这吻戏让我拍的…》 《这吻戏让我拍的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这吻戏让我拍的…》 《这吻戏让我拍的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7161982104107060511",
+      "title": "《一个故事》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一个故事》 《一个故事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一个故事》 《一个故事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7174966201771101501",
+      "title": "《如此创作》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此创作》 《如此创作》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此创作》 《如此创作》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7242603636315016480",
+      "title": "今天正经一次 我怎么穿的像个海苔一样？#李宗恒 #抖音电影奇遇夜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "今天正经一次 我怎么穿的像个海苔一样",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音电影奇遇夜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "今天正经一次 我怎么穿的像个海苔一样"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7458965741065342244",
+      "title": "创作瓶颈了！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "创作瓶颈了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7479382209451871542",
+      "title": "《你们要的续集来了》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你们要的续集来了》 《你们要的续集来了》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你们要的续集来了》 《你们要的续集来了》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7495699121590144268",
+      "title": "祝大家看完这个视频，好运连连！！！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "祝大家看完这个视频，好运连连",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "祝大家看完这个视频，好运连连"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7505260893832449307",
+      "title": "你可能不认识我，但这些都没看过嘛？ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你可能不认识我，但这些都没看过嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你可能不认识我，但这些都没看过嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7508292805878713638",
+      "title": "《一镜到底》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《一镜到底》 《一镜到底》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一镜到底》 《一镜到底》"
+      ],
+      "question_phrases": [
+        "《一镜到底》 《一镜到底》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7518992865429032201",
+      "title": "差点忘了以前是干啥的啦 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "差点忘了以前是干啥的啦 差点忘了以前是干啥的啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7102758562438466856",
+      "title": "《导演，我厉害吧？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《导演，我厉害吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《导演，我厉害吧",
+        "》 《导演，我厉害吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7115992109492079913",
+      "title": "《我编不下去了！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我编不下去了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我编不下去了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7117831604109610275",
+      "title": "《我是戏痴》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是戏痴》 《我是戏痴》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我是戏痴》 《我是戏痴》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7133876186207243520",
+      "title": "一千W粉丝福利！（提前放送版）#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一千W粉丝福利",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "（提前放送版） 一千W粉丝福利"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7137867143542082851",
+      "title": "《不拍了行了吧！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不拍了行了吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《不拍了行了吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7142693660327447843",
+      "title": "《这吻戏让我拍的…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这吻戏让我拍的…》 《这吻戏让我拍的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这吻戏让我拍的…》 《这吻戏让我拍的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7161982104107060511",
+      "title": "《一个故事》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一个故事》 《一个故事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一个故事》 《一个故事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7174966201771101501",
+      "title": "《如此创作》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此创作》 《如此创作》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此创作》 《如此创作》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7242603636315016480",
+      "title": "今天正经一次 我怎么穿的像个海苔一样？#李宗恒 #抖音电影奇遇夜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "今天正经一次 我怎么穿的像个海苔一样",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音电影奇遇夜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "今天正经一次 我怎么穿的像个海苔一样"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7458965741065342244",
+      "title": "创作瓶颈了！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "创作瓶颈了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7479382209451871542",
+      "title": "《你们要的续集来了》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你们要的续集来了》 《你们要的续集来了》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你们要的续集来了》 《你们要的续集来了》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7495699121590144268",
+      "title": "祝大家看完这个视频，好运连连！！！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "祝大家看完这个视频，好运连连",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "祝大家看完这个视频，好运连连"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7505260893832449307",
+      "title": "你可能不认识我，但这些都没看过嘛？ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你可能不认识我，但这些都没看过嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你可能不认识我，但这些都没看过嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7508292805878713638",
+      "title": "《一镜到底》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《一镜到底》 《一镜到底》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一镜到底》 《一镜到底》"
+      ],
+      "question_phrases": [
+        "《一镜到底》 《一镜到底》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7518992865429032201",
+      "title": "差点忘了以前是干啥的啦 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "差点忘了以前是干啥的啦 差点忘了以前是干啥的啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7117831604109610275",
+      "title": "《我是戏痴》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是戏痴》 《我是戏痴》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我是戏痴》 《我是戏痴》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7161982104107060511",
+      "title": "《一个故事》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一个故事》 《一个故事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一个故事》 《一个故事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7479382209451871542",
+      "title": "《你们要的续集来了》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你们要的续集来了》 《你们要的续集来了》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你们要的续集来了》 《你们要的续集来了》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7505260893832449307",
+      "title": "你可能不认识我，但这些都没看过嘛？ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你可能不认识我，但这些都没看过嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你可能不认识我，但这些都没看过嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7518992865429032201",
+      "title": "差点忘了以前是干啥的啦 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "差点忘了以前是干啥的啦 差点忘了以前是干啥的啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

@@ -1,0 +1,2207 @@
+{
+  "direction": "校园大学生",
+  "topic_clusters": [
+    {
+      "topic": "大学生",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7010324282228198671",
+          "title": "《 早 起 》#内容过于真实 #宿舍 #当代大学生迷惑行为",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7016989254769331456",
+          "title": "《怎么啦？》#大学生 #李宗恒 #高情商",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7017282841558011171",
+          "title": "《 凉拌！》#大学生 #李宗恒 #男生对喜欢的人有多善解人意",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7018120695787818281",
+          "title": "《有理有据》#大学生 #李宗恒 #善解人意",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7019964976626535721",
+          "title": "《没毛病吧》？#大学生 #李宗恒 #高情商",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "高考",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7378078197872594203",
+          "title": "同学，考怎么样？ #2024高考",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7512175549243542794",
+          "title": "祝大家高考顺利！！！ #李宗恒 #2025高考必胜 #高考生的精选",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7513125992367754522",
+          "title": "《高考采访》 @大伟老三 #李宗恒 #高考生的精选",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7513635636088409354",
+          "title": "《高考采访 题名金榜》 @李宗恒 #大伟老三 #高考 #高考生的精选",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7513890744994876709",
+          "title": "再也不对了… #李宗恒 #高考生的精选",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "考试",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7283044582323997993",
+          "title": "这普通话考试，下回再考吧…#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7413275561084144936",
+          "title": "《反向考试》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7450782934102969639",
+          "title": "《如果考试像是去饭店》 @大伟老三 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7511666419961957642",
+          "title": "《当00后参加普通话考试》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7527769267715050771",
+          "title": "《大脑考试部》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "宿舍",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7008840377713069347",
+          "title": "《嗯…》#内容过于真实 #宿舍",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7010324282228198671",
+          "title": "《 早 起 》#内容过于真实 #宿舍 #当代大学生迷惑行为",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7011809111482322217",
+          "title": "这一脚给我杵的…#宿舍 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7015798711141911808",
+          "title": "《 生活费》#宿舍 #内容过于真实 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7020716230529109288",
+          "title": "《附议》#李宗恒 #大学生宿舍演技天花板",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "同学",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7157845246875798814",
+          "title": "《同学们好！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7157845246875798814",
+          "title": "《同学们好！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7378078197872594203",
+          "title": "同学，考怎么样？ #2024高考",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7611958261633512522",
+          "title": "《去同学家做客的社死时刻》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7611958261633512522",
+          "title": "《去同学家做客的社死时刻》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "老师",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7409550418289773858",
+          "title": "老师去学车，教练是自己的学生？ @脱缰凯✨ #李宗恒 #超值手机推荐 #数码潮电大玩家",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7426202979595848995",
+          "title": "《当霸总被老师叫到学校》 @鑫淼 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7473448318060743947",
+          "title": "《00后老师》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7475948510467067175",
+          "title": "《当00后成为了老师》 #李宗恒#爱回收",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7477504377876696361",
+          "title": "《00后老师又来啦》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "室友",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7054156877579504937",
+          "title": "《新型满级室友》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7094554073877220642",
+          "title": "《你想有这样的室友嘛？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7279234505125137718",
+          "title": "一种很新的大学室友：“霸道”室友！#李宗恒#周黑鸭 #解馋超自由",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7291875647083924747",
+          "title": "《不熟室友》#李宗恒#oppofindn3",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7294890768748088595",
+          "title": "《敏感室友》#李宗恒#马克华菲国潮",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "大学",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7016989254769331456",
+          "title": "《怎么啦？》#大学生 #李宗恒 #高情商",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7017282841558011171",
+          "title": "《 凉拌！》#大学生 #李宗恒 #男生对喜欢的人有多善解人意",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7018120695787818281",
+          "title": "《有理有据》#大学生 #李宗恒 #善解人意",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7019964976626535721",
+          "title": "《没毛病吧》？#大学生 #李宗恒 #高情商",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7025201509679861027",
+          "title": "《最近大家一定注意》#大学生 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7008840377713069347",
+      "title": "《嗯…》#内容过于真实 #宿舍",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《嗯…》 《嗯…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "宿舍"
+      ],
+      "short_phrases": [
+        "《嗯…》 《嗯…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7010324282228198671",
+      "title": "《 早 起 》#内容过于真实 #宿舍 #当代大学生迷惑行为",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 早 起 》 《 早 起 》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "宿舍",
+        "当代大学生迷惑行为"
+      ],
+      "short_phrases": [
+        "《 早 起 》 《 早 起 》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7011809111482322217",
+      "title": "这一脚给我杵的…#宿舍 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这一脚给我杵的… 这一脚给我杵的…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "宿舍",
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "这一脚给我杵的… 这一脚给我杵的…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7014769835527703848",
+      "title": "《 吃啥呢 》#校园 #内容过于真实 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 吃啥呢 》 《 吃啥呢 》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "校园",
+        "内容过于真实",
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《 吃啥呢 》 《 吃啥呢 》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7015798711141911808",
+      "title": "《 生活费》#宿舍 #内容过于真实 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 生活费》 《 生活费》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "宿舍",
+        "内容过于真实",
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《 生活费》 《 生活费》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7016989254769331456",
+      "title": "《怎么啦？》#大学生 #李宗恒 #高情商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怎么啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "》 《怎么啦"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7017282841558011171",
+      "title": "《 凉拌！》#大学生 #李宗恒 #男生对喜欢的人有多善解人意",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 凉拌",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "男生对喜欢的人有多善解人意"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7018120695787818281",
+      "title": "《有理有据》#大学生 #李宗恒 #善解人意",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《有理有据》 《有理有据》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "善解人意"
+      ],
+      "short_phrases": [
+        "《有理有据》 《有理有据》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7019964976626535721",
+      "title": "《没毛病吧》？#大学生 #李宗恒 #高情商",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《没毛病吧》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7020716230529109288",
+      "title": "《附议》#李宗恒 #大学生宿舍演技天花板",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《附议》 《附议》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "大学生宿舍演技天花板"
+      ],
+      "short_phrases": [
+        "《附议》 《附议》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7025201509679861027",
+      "title": "《最近大家一定注意》#大学生 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《最近大家一定注意》 《最近大家一定注意》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "大学生",
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《最近大家一定注意》 《最近大家一定注意》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7026673380359261481",
+      "title": "《 ？》#大学生 #李宗恒 #高情商",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7035963846430870818",
+      "title": "《哥学…》#大学生 #李宗恒 #查寝 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《哥学…》 《哥学…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "查寝",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《哥学…》 《哥学…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7036687751726550313",
+      "title": "《还去吗？》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《还去吗",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "》 《还去吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7037410511096515855",
+      "title": "《相濡以沫》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《相濡以沫》 《相濡以沫》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《相濡以沫》 《相濡以沫》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7037784430093618447",
+      "title": "《这四年过的…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这四年过的…》 《这四年过的…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《这四年过的…》 《这四年过的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7038538140138671375",
+      "title": "《就这样吧…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《就这样吧…》 《就这样吧…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《就这样吧…》 《就这样吧…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7039183269874633999",
+      "title": "《来！》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《来",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7040438709585595689",
+      "title": "《这四年啥玩意儿啊！》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这四年啥玩意儿啊",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《这四年啥玩意儿啊",
+        "》 《这四年啥玩意儿啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7041895433462910248",
+      "title": "《我输了…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我输了…》 《我输了…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《我输了…》 《我输了…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7043024552842038528",
+      "title": "《这一天呐》#墨菲定律 #李宗恒 #大学生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这一天呐》 《这一天呐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "墨菲定律",
+        "李宗恒",
+        "大学生"
+      ],
+      "short_phrases": [
+        "《这一天呐》 《这一天呐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7045224956623473954",
+      "title": "马上换寝室#内容过于真实 #大学生 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "马上换寝室 马上换寝室",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "大学生",
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7046966705985260840",
+      "title": "没事！#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "没事",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7054156877579504937",
+      "title": "《新型满级室友》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《新型满级室友》 《新型满级室友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《新型满级室友》 《新型满级室友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7094554073877220642",
+      "title": "《你想有这样的室友嘛？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你想有这样的室友嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你想有这样的室友嘛",
+        "》 《你想有这样的室友嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7120060677464657152",
+      "title": "《我要换寝室！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我要换寝室",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我要换寝室"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7267751852823924022",
+      "title": "《驾校教练遇到前学员…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《驾校教练遇到前学员…》 《驾校教练遇到前学员…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《驾校教练遇到前学员…》 《驾校教练遇到前学员…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7277012161421921590",
+      "title": "大学侠客，助人为乐！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "大学侠客，助人为乐",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "大学侠客，助人为乐"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7279234505125137718",
+      "title": "一种很新的大学室友：“霸道”室友！#李宗恒#周黑鸭 #解馋超自由",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的大学室友：“霸道”室友",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "解馋超自由"
+      ],
+      "short_phrases": [
+        "一种很新的大学室友：“霸道”室友"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7283044582323997993",
+      "title": "这普通话考试，下回再考吧…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这普通话考试，下回再考吧… 这普通话考试，下回再考吧…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "这普通话考试，下回再考吧… 这普通话考试，下回再考吧…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7291875647083924747",
+      "title": "《不熟室友》#李宗恒#oppofindn3",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《不熟室友》 《不熟室友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《不熟室友》 《不熟室友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7294890768748088595",
+      "title": "《敏感室友》#李宗恒#马克华菲国潮",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《敏感室友》 《敏感室友》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《敏感室友》 《敏感室友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7337603968861867327",
+      "title": "开学了，都得适应适应…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "开学了，都得适应适应… 开学了，都得适应适应…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "开学了，都得适应适应… 开学了，都得适应适应…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7345042572907138345",
+      "title": "如果这样上课，大家能认真听吧！@陈印泉 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "如果这样上课，大家能认真听吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "如果这样上课，大家能认真听吧",
+        "@陈印泉 如果这样上课，大家能认真听吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7378078197872594203",
+      "title": "同学，考怎么样？ #2024高考",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "同学，考怎么样",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "2024高考"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "同学，考怎么样"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7409550418289773858",
+      "title": "老师去学车，教练是自己的学生？ @脱缰凯✨ #李宗恒 #超值手机推荐 #数码潮电大玩家",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "老师去学车，教练是自己的学生",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "超值手机推荐",
+        "数码潮电大玩家"
+      ],
+      "short_phrases": [
+        "老师去学车，教练是自己的学生",
+        "@脱缰凯✨ 老师去学车，教练是自己的学生"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7413275561084144936",
+      "title": "《反向考试》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《反向考试》 《反向考试》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《反向考试》 《反向考试》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7426202979595848995",
+      "title": "《当霸总被老师叫到学校》 @鑫淼 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当霸总被老师叫到学校》 @鑫淼 《当霸总被老师叫到学校》 @鑫淼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当霸总被老师叫到学校》 @鑫淼 《当霸总被老师叫到学校》 @鑫淼"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7444757325342199074",
+      "title": "《如果室友相处像过年》 @王路翔 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果室友相处像过年》 @王路翔 《如果室友相处像过年》 @王路翔",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果室友相处像过年》 @王路翔 《如果室友相处像过年》 @王路翔"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7450782934102969639",
+      "title": "《如果考试像是去饭店》 @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果考试像是去饭店》 @大伟老三 《如果考试像是去饭店》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果考试像是去饭店》 @大伟老三 《如果考试像是去饭店》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7470735212956110121",
+      "title": "《返校大学生》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《返校大学生》 《返校大学生》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《返校大学生》 《返校大学生》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7473448318060743947",
+      "title": "《00后老师》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《00后老师》 《00后老师》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《00后老师》 《00后老师》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7475948510467067175",
+      "title": "《当00后成为了老师》 #李宗恒#爱回收",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后成为了老师》 《当00后成为了老师》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当00后成为了老师》 《当00后成为了老师》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7477504377876696361",
+      "title": "《00后老师又来啦》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《00后老师又来啦》 《00后老师又来啦》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《00后老师又来啦》 《00后老师又来啦》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7499048338315414823",
+      "title": "《如果上课有测谎仪》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果上课有测谎仪》 《如果上课有测谎仪》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果上课有测谎仪》 《如果上课有测谎仪》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7511185442026327346",
+      "title": "《当00后考教资》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后考教资》 《当00后考教资》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当00后考教资》 《当00后考教资》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7511666419961957642",
+      "title": "《当00后参加普通话考试》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后参加普通话考试》 《当00后参加普通话考试》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当00后参加普通话考试》 《当00后参加普通话考试》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7512175549243542794",
+      "title": "祝大家高考顺利！！！ #李宗恒 #2025高考必胜 #高考生的精选",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "祝大家高考顺利",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "2025高考必胜",
+        "高考生的精选"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7513125992367754522",
+      "title": "《高考采访》 @大伟老三 #李宗恒 #高考生的精选",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《高考采访》 @大伟老三 《高考采访》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高考生的精选"
+      ],
+      "short_phrases": [
+        "《高考采访》 @大伟老三 《高考采访》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7513635636088409354",
+      "title": "《高考采访 题名金榜》 @李宗恒 #大伟老三 #高考 #高考生的精选",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《高考采访 题名金榜》 @李宗恒 《高考采访 题名金榜》 @李宗恒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大伟老三",
+        "高考",
+        "高考生的精选"
+      ],
+      "short_phrases": [
+        "《高考采访 题名金榜》 @李宗恒 《高考采访 题名金榜》 @李宗恒"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7513890744994876709",
+      "title": "再也不对了… #李宗恒 #高考生的精选",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "再也不对了… 再也不对了…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高考生的精选"
+      ],
+      "short_phrases": [
+        "再也不对了… 再也不对了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7515012469224394022",
+      "title": "《考四级什么时候最紧张？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《考四级什么时候最紧张",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《考四级什么时候最紧张",
+        "》 《考四级什么时候最紧张"
+      ],
+      "question_phrases": [
+        "《考四级什么时候最紧张",
+        "》 《考四级什么时候最紧张"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7516109171626331429",
+      "title": "哄自己上课！很开心！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "哄自己上课",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7518711086699334962",
+      "title": "高考查分 什么时候最紧张？ @大伟老三 #李宗恒 #高考生的精选",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "高考查分 什么时候最紧张",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高考生的精选"
+      ],
+      "short_phrases": [
+        "@大伟老三 高考查分 什么时候最紧张"
+      ],
+      "question_phrases": [
+        "高考查分 什么时候最紧张",
+        "@大伟老三 高考查分 什么时候最紧张"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7527769267715050771",
+      "title": "《大脑考试部》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《大脑考试部》 《大脑考试部》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《大脑考试部》 《大脑考试部》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7540873579022372134",
+      "title": "《“霸道”室友》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《“霸道”室友》 《“霸道”室友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《“霸道”室友》 《“霸道”室友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7543481532665629978",
+      "title": "《敏感室友》 #李宗恒#发条总动员公测上线 #一指闯关轻松爽翻 #发条总动员",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《敏感室友》 《敏感室友》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "李宗恒",
+        "一指闯关轻松爽翻",
+        "发条总动员"
+      ],
+      "short_phrases": [
+        "《敏感室友》 《敏感室友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7590811035129735154",
+      "title": "《如果期末考试像去饭店》 @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果期末考试像去饭店》 @大伟老三 《如果期末考试像去饭店》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果期末考试像去饭店》 @大伟老三 《如果期末考试像去饭店》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7611958261633512522",
+      "title": "《去同学家做客的社死时刻》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《去同学家做客的社死时刻》 《去同学家做客的社死时刻》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《去同学家做客的社死时刻》 《去同学家做客的社死时刻》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7626726152758301513",
+      "title": "校园桃花运，春季限定款！ #李宗恒#王者荣耀世界上线 #王者荣耀世界",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "校园桃花运，春季限定款",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "王者荣耀世界"
+      ],
+      "short_phrases": [
+        "校园桃花运，春季限定款"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7647568516182595694",
+      "title": "祝所有考生高考顺利呀！ @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "祝所有考生高考顺利呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@大伟老三 祝所有考生高考顺利呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7648330461677491674",
+      "title": "高考采访，限时返场！ @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "高考采访，限时返场",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "高考采访，限时返场",
+        "@大伟老三 高考采访，限时返场"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7010324282228198671",
+      "title": "《 早 起 》#内容过于真实 #宿舍 #当代大学生迷惑行为",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 早 起 》 《 早 起 》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "宿舍",
+        "当代大学生迷惑行为"
+      ],
+      "short_phrases": [
+        "《 早 起 》 《 早 起 》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7016989254769331456",
+      "title": "《怎么啦？》#大学生 #李宗恒 #高情商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怎么啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "》 《怎么啦"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7017282841558011171",
+      "title": "《 凉拌！》#大学生 #李宗恒 #男生对喜欢的人有多善解人意",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 凉拌",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "男生对喜欢的人有多善解人意"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7018120695787818281",
+      "title": "《有理有据》#大学生 #李宗恒 #善解人意",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《有理有据》 《有理有据》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "善解人意"
+      ],
+      "short_phrases": [
+        "《有理有据》 《有理有据》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7019964976626535721",
+      "title": "《没毛病吧》？#大学生 #李宗恒 #高情商",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《没毛病吧》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7020716230529109288",
+      "title": "《附议》#李宗恒 #大学生宿舍演技天花板",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《附议》 《附议》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "大学生宿舍演技天花板"
+      ],
+      "short_phrases": [
+        "《附议》 《附议》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7025201509679861027",
+      "title": "《最近大家一定注意》#大学生 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《最近大家一定注意》 《最近大家一定注意》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "大学生",
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《最近大家一定注意》 《最近大家一定注意》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7026673380359261481",
+      "title": "《 ？》#大学生 #李宗恒 #高情商",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7035963846430870818",
+      "title": "《哥学…》#大学生 #李宗恒 #查寝 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《哥学…》 《哥学…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "查寝",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《哥学…》 《哥学…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7036687751726550313",
+      "title": "《还去吗？》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《还去吗",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "》 《还去吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7037410511096515855",
+      "title": "《相濡以沫》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《相濡以沫》 《相濡以沫》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《相濡以沫》 《相濡以沫》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7037784430093618447",
+      "title": "《这四年过的…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这四年过的…》 《这四年过的…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《这四年过的…》 《这四年过的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7038538140138671375",
+      "title": "《就这样吧…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《就这样吧…》 《就这样吧…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《就这样吧…》 《就这样吧…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7039183269874633999",
+      "title": "《来！》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《来",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7040438709585595689",
+      "title": "《这四年啥玩意儿啊！》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这四年啥玩意儿啊",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《这四年啥玩意儿啊",
+        "》 《这四年啥玩意儿啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7041895433462910248",
+      "title": "《我输了…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我输了…》 《我输了…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《我输了…》 《我输了…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7043024552842038528",
+      "title": "《这一天呐》#墨菲定律 #李宗恒 #大学生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这一天呐》 《这一天呐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "墨菲定律",
+        "李宗恒",
+        "大学生"
+      ],
+      "short_phrases": [
+        "《这一天呐》 《这一天呐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7045224956623473954",
+      "title": "马上换寝室#内容过于真实 #大学生 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "马上换寝室 马上换寝室",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "大学生",
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7046966705985260840",
+      "title": "没事！#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "没事",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7279234505125137718",
+      "title": "一种很新的大学室友：“霸道”室友！#李宗恒#周黑鸭 #解馋超自由",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的大学室友：“霸道”室友",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "解馋超自由"
+      ],
+      "short_phrases": [
+        "一种很新的大学室友：“霸道”室友"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7010324282228198671",
+      "title": "《 早 起 》#内容过于真实 #宿舍 #当代大学生迷惑行为",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 早 起 》 《 早 起 》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "宿舍",
+        "当代大学生迷惑行为"
+      ],
+      "short_phrases": [
+        "《 早 起 》 《 早 起 》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7017282841558011171",
+      "title": "《 凉拌！》#大学生 #李宗恒 #男生对喜欢的人有多善解人意",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《 凉拌",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "男生对喜欢的人有多善解人意"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7018120695787818281",
+      "title": "《有理有据》#大学生 #李宗恒 #善解人意",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《有理有据》 《有理有据》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "善解人意"
+      ],
+      "short_phrases": [
+        "《有理有据》 《有理有据》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7019964976626535721",
+      "title": "《没毛病吧》？#大学生 #李宗恒 #高情商",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《没毛病吧》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7020716230529109288",
+      "title": "《附议》#李宗恒 #大学生宿舍演技天花板",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《附议》 《附议》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "大学生宿舍演技天花板"
+      ],
+      "short_phrases": [
+        "《附议》 《附议》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7025201509679861027",
+      "title": "《最近大家一定注意》#大学生 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《最近大家一定注意》 《最近大家一定注意》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "大学生",
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《最近大家一定注意》 《最近大家一定注意》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7026673380359261481",
+      "title": "《 ？》#大学生 #李宗恒 #高情商",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7035963846430870818",
+      "title": "《哥学…》#大学生 #李宗恒 #查寝 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《哥学…》 《哥学…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "查寝",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《哥学…》 《哥学…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7036687751726550313",
+      "title": "《还去吗？》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《还去吗",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "》 《还去吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7037410511096515855",
+      "title": "《相濡以沫》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《相濡以沫》 《相濡以沫》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《相濡以沫》 《相濡以沫》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7037784430093618447",
+      "title": "《这四年过的…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这四年过的…》 《这四年过的…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《这四年过的…》 《这四年过的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7038538140138671375",
+      "title": "《就这样吧…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《就这样吧…》 《就这样吧…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《就这样吧…》 《就这样吧…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7039183269874633999",
+      "title": "《来！》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《来",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7040438709585595689",
+      "title": "《这四年啥玩意儿啊！》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这四年啥玩意儿啊",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《这四年啥玩意儿啊",
+        "》 《这四年啥玩意儿啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7041895433462910248",
+      "title": "《我输了…》#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我输了…》 《我输了…》",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "《我输了…》 《我输了…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7043024552842038528",
+      "title": "《这一天呐》#墨菲定律 #李宗恒 #大学生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这一天呐》 《这一天呐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "墨菲定律",
+        "李宗恒",
+        "大学生"
+      ],
+      "short_phrases": [
+        "《这一天呐》 《这一天呐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7045224956623473954",
+      "title": "马上换寝室#内容过于真实 #大学生 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "马上换寝室 马上换寝室",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实",
+        "大学生",
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7046966705985260840",
+      "title": "没事！#大学生 #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "没事",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "大学生",
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7279234505125137718",
+      "title": "一种很新的大学室友：“霸道”室友！#李宗恒#周黑鸭 #解馋超自由",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的大学室友：“霸道”室友",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "解馋超自由"
+      ],
+      "short_phrases": [
+        "一种很新的大学室友：“霸道”室友"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7513635636088409354",
+      "title": "《高考采访 题名金榜》 @李宗恒 #大伟老三 #高考 #高考生的精选",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《高考采访 题名金榜》 @李宗恒 《高考采访 题名金榜》 @李宗恒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大伟老三",
+        "高考",
+        "高考生的精选"
+      ],
+      "short_phrases": [
+        "《高考采访 题名金榜》 @李宗恒 《高考采访 题名金榜》 @李宗恒"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

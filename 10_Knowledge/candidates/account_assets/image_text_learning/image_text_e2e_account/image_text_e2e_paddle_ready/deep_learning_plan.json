@@ -1,0 +1,34 @@
+{
+  "workflow_id": "image_text_e2e_paddle_ready",
+  "profile_id": "image_text_e2e_account",
+  "media_branch": "image_text",
+  "executor": "local_machine",
+  "evidence_storage": "local_runtime_cache",
+  "status": "candidate_plan",
+  "items": [
+    {
+      "source_id": "image_text_e2e_paddle_ready_0001",
+      "priority": "candidate",
+      "reason": "image_text_structure_available",
+      "ocr_status": "completed",
+      "visual_status": "completed",
+      "image2_status": "pending_codex_review"
+    },
+    {
+      "source_id": "image_text_e2e_paddle_ready_0002",
+      "priority": "candidate",
+      "reason": "image_text_structure_available",
+      "ocr_status": "completed",
+      "visual_status": "completed",
+      "image2_status": "pending_codex_review"
+    },
+    {
+      "source_id": "image_text_e2e_paddle_ready_0003",
+      "priority": "candidate",
+      "reason": "image_text_structure_available",
+      "ocr_status": "completed",
+      "visual_status": "completed",
+      "image2_status": "pending_codex_review"
+    }
+  ]
+}

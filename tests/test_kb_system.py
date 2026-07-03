@@ -718,6 +718,8 @@ class KBSystemTests(unittest.TestCase):
         self.assertIn("账号概述.md", text)
         self.assertIn("deep_learning_plan.json", text)
         self.assertIn("内容生产、反馈复盘、针对性强化", text)
+        self.assertIn("图文学习从统一入口 `tools.kb.cli image-text-*` 走 `ingest -> structure -> scan -> select -> learn -> status`", text)
+        self.assertIn("图文账号学习标准工作流.md", text)
         self.assertNotIn("立项边界 -> 资料接入", text)
 
     def test_controller_declares_agents_as_logical_roles_not_process_boundaries(self):
@@ -1118,7 +1120,38 @@ class KBSystemTests(unittest.TestCase):
         for contract in payload["contracts"]:
             self.assertTrue(contract["required_fields"])
             self.assertTrue(contract["must_not"])
+        account_contract = next(contract for contract in payload["contracts"] if contract["route_id"] == "account_learning")
+        self.assertIn("图文结构化报告", account_contract["required_fields"])
+        self.assertIn("不把 OCR 或图片结构化结果当成已审核账号知识", account_contract["must_not"])
+        script_contract = next(contract for contract in payload["contracts"] if contract["route_id"] == "script_generation")
+        self.assertIn("图文脚本包（仅图文分支）", script_contract["required_fields"])
+        self.assertIn("image2生成状态（仅图文分支）", script_contract["required_fields"])
+        self.assertIn("不在选题未确认时直接生图", script_contract["must_not"])
+        self.assertIn("不让 image2 替代账号学习", script_contract["must_not"])
         self.assertIn("固定高级入口缺少最低信息时", doc.read_text(encoding="utf-8"))
+
+    def test_script_generation_route_supports_post_topic_image_text_generation(self):
+        payload = json.loads(Path("00_System/shareable/index/controller_routes.json").read_text(encoding="utf-8"))
+        route = next(route for route in payload["routes"] if route["id"] == "script_generation")
+        rule = Path("00_System/shareable/rules/图文成品生成标准流程.md")
+
+        self.assertTrue(rule.exists())
+        self.assertIn("图文", route["triggers"])
+        self.assertIn("00_System/shareable/rules/图文成品生成标准流程.md", route["read_first"])
+        self.assertIn("只能在选题确认后进入", route["output_contract"])
+        self.assertIn("用户确认后再调用 image2 生图", route["output_contract"])
+        self.assertIn("不让 image2 替代账号学习", rule.read_text(encoding="utf-8"))
+
+    def test_account_learning_route_supports_image_text_branch(self):
+        payload = json.loads(Path("00_System/shareable/index/controller_routes.json").read_text(encoding="utf-8"))
+        route = next(route for route in payload["routes"] if route["id"] == "account_learning")
+
+        self.assertIn("图文学习", route["triggers"])
+        self.assertIn("tools.kb.cli image-text-ingest", route["tools"])
+        self.assertIn("tools.kb.cli image-text-status", route["tools"])
+        self.assertIn("tools.image_text_learning", route["tools"])
+        self.assertIn("00_System/shareable/rules/图文账号学习标准工作流.md", route["read_first"])
+        self.assertIn("ingest -> structure -> scan -> select -> learn -> status", route["output_contract"])
 
     def test_dashboard_writes_runtime_registry_and_report(self):
         from tools.kb.dashboard import write_dashboard
@@ -1699,6 +1732,18 @@ class KBSystemTests(unittest.TestCase):
         result = resolve_route("@知识库 按姜胡说的方式出2个赚钱选题", routes)
 
         self.assertEqual(result["id"], "topic_generation")
+
+    def test_resolve_call_prefers_script_generation_for_confirmed_topic_image_text(self):
+        from tools.kb.call_resolver import resolve_route
+
+        routes = [
+            {"id": "topic_generation", "triggers": ["出选题", "选题"]},
+            {"id": "script_generation", "triggers": ["图文", "标题", "封面"]},
+        ]
+
+        result = resolve_route("基于刚才确认的选题，生成小红书图文，允许调用 image2 生图", routes)
+
+        self.assertEqual(result["id"], "script_generation")
 
     def test_resolve_call_cli_returns_nonzero_for_unresolved_prompt(self):
         with tempfile.TemporaryDirectory() as tmp:

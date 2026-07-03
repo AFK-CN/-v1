@@ -1,0 +1,1382 @@
+{
+  "direction": "剧情短剧与喜剧反转",
+  "topic_clusters": [
+    {
+      "topic": "如此",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7167285778412784926",
+          "title": "《如此理发》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7177237381999807805",
+          "title": "《原来如此》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7179795639503490361",
+          "title": "《如此一天》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7186480808977321274",
+          "title": "《如此过年》#李宗恒 #春晚小品没你不行 #一场非正式春晚",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7189887197812624699",
+          "title": "《如此客气》#李宗恒#YSL小金条",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "大伟老三",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7389489663137893686",
+          "title": "你俩是真不知趣啊… @大伟老三 #李宗恒#滴滴出行夏夜免单",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7490030238697540918",
+          "title": "《如此查寝》 @大伟老三 #李宗恒 #每日精选爆款",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7517489936406416650",
+          "title": "请问这期到底有多少个反转？ @大伟老三 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7519348226857798938",
+          "title": "不是？？？ @大伟老三 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "小品",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7186480808977321274",
+          "title": "《如此过年》#李宗恒 #春晚小品没你不行 #一场非正式春晚",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7190919342081527100",
+          "title": "《如此看小品》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7464424734936157494",
+          "title": "给大家演春晚小品啦～ #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "剧情",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7081238683596180751",
+          "title": "《这什么剧情啊…》#李宗恒 #不按套路出牌",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7270753140561988920",
+          "title": "班主任：服了这俩老六了～#搞笑 #剧情",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "搞笑",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7164652206438829343",
+          "title": "不做搞笑男 正儿八经给大家唱个歌～#李宗恒 #抖音闪耀之夜顶级现场 #万千快乐dou很简单",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7270753140561988920",
+          "title": "班主任：服了这俩老六了～#搞笑 #剧情",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "节目",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7110773605176266019",
+          "title": "《今天没录上节目…》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7128593364525567267",
+          "title": "《舔🐶闯关节目？》#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "喜剧",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7106018562657013027",
+          "title": "《谁说我脑袋不会转弯？》#李宗恒 #开播情景喜剧越看越上头",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "反转",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7517489936406416650",
+          "title": "请问这期到底有多少个反转？ @大伟老三 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7081238683596180751",
+      "title": "《这什么剧情啊…》#李宗恒 #不按套路出牌",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《这什么剧情啊…》 《这什么剧情啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "不按套路出牌"
+      ],
+      "short_phrases": [
+        "《这什么剧情啊…》 《这什么剧情啊…》"
+      ],
+      "question_phrases": [
+        "《这什么剧情啊…》 《这什么剧情啊…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7106018562657013027",
+      "title": "《谁说我脑袋不会转弯？》#李宗恒 #开播情景喜剧越看越上头",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《谁说我脑袋不会转弯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "开播情景喜剧越看越上头"
+      ],
+      "short_phrases": [
+        "《谁说我脑袋不会转弯",
+        "》 《谁说我脑袋不会转弯"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7110773605176266019",
+      "title": "《今天没录上节目…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天没录上节目…》 《今天没录上节目…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天没录上节目…》 《今天没录上节目…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7128593364525567267",
+      "title": "《舔🐶闯关节目？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔🐶闯关节目",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《舔🐶闯关节目"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7164652206438829343",
+      "title": "不做搞笑男 正儿八经给大家唱个歌～#李宗恒 #抖音闪耀之夜顶级现场 #万千快乐dou很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "不做搞笑男 正儿八经给大家唱个歌～ 不做搞笑男 正儿八经给大家唱个歌～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音闪耀之夜顶级现场",
+        "万千快乐dou很简单"
+      ],
+      "short_phrases": [
+        "不做搞笑男 正儿八经给大家唱个歌～ 不做搞笑男 正儿八经给大家唱个歌～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7167285778412784926",
+      "title": "《如此理发》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此理发》 《如此理发》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此理发》 《如此理发》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7177237381999807805",
+      "title": "《原来如此》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《原来如此》 《原来如此》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《原来如此》 《原来如此》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7179795639503490361",
+      "title": "《如此一天》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此一天》 《如此一天》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此一天》 《如此一天》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7186480808977321274",
+      "title": "《如此过年》#李宗恒 #春晚小品没你不行 #一场非正式春晚",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此过年》 《如此过年》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "春晚小品没你不行",
+        "一场非正式春晚"
+      ],
+      "short_phrases": [
+        "《如此过年》 《如此过年》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7189887197812624699",
+      "title": "《如此客气》#李宗恒#YSL小金条",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此客气》 《如此客气》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此客气》 《如此客气》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7190919342081527100",
+      "title": "《如此看小品》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此看小品》 《如此看小品》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此看小品》 《如此看小品》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7198187112934526267",
+      "title": "《如此前任》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此前任》 《如此前任》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此前任》 《如此前任》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7202808854105656633",
+      "title": "《如此租房》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此租房》 《如此租房》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此租房》 《如此租房》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7212883738613566780",
+      "title": "《如此快递》#李宗恒#转转 #转转回收",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此快递》 《如此快递》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "转转回收"
+      ],
+      "short_phrases": [
+        "《如此快递》 《如此快递》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7216992914440817976",
+      "title": "《如此愚人节》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此愚人节》 《如此愚人节》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此愚人节》 《如此愚人节》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7225914532554640696",
+      "title": "今天没段子 今天走颜值路线！@范丞丞 #李宗恒 #人生路不熟",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "今天没段子 今天走颜值路线",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "人生路不熟"
+      ],
+      "short_phrases": [
+        "@范丞丞 今天没段子 今天走颜值路线"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7270753140561988920",
+      "title": "班主任：服了这俩老六了～#搞笑 #剧情",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "班主任：服了这俩老六了～ 班主任：服了这俩老六了～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "搞笑",
+        "剧情"
+      ],
+      "short_phrases": [
+        "班主任：服了这俩老六了～ 班主任：服了这俩老六了～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7278243378448403731",
+      "title": "《隐藏文学》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《隐藏文学》 《隐藏文学》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《隐藏文学》 《隐藏文学》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7331348073517485324",
+      "title": "你们要的学生版来了！#李宗恒#开启龙年的一百种方式 #抖音龙年好戏大赏",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们要的学生版来了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音龙年好戏大赏"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7389489663137893686",
+      "title": "你俩是真不知趣啊… @大伟老三 #李宗恒#滴滴出行夏夜免单",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你俩是真不知趣啊… @大伟老三 你俩是真不知趣啊… @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你俩是真不知趣啊… @大伟老三 你俩是真不知趣啊… @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7411762080602279202",
+      "title": "《如此秋游》 @脱缰凯✨ @二阳咂 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此秋游》 @脱缰凯✨ @二阳咂 《如此秋游》 @脱缰凯✨ @二阳咂",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此秋游》 @脱缰凯✨ @二阳咂 《如此秋游》 @脱缰凯✨ @二阳咂"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7464424734936157494",
+      "title": "给大家演春晚小品啦～ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "给大家演春晚小品啦～ 给大家演春晚小品啦～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "给大家演春晚小品啦～ 给大家演春晚小品啦～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7467861632216075561",
+      "title": "《如此送礼》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此送礼》 《如此送礼》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此送礼》 《如此送礼》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7490030238697540918",
+      "title": "《如此查寝》 @大伟老三 #李宗恒 #每日精选爆款",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此查寝》 @大伟老三 《如此查寝》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "每日精选爆款"
+      ],
+      "short_phrases": [
+        "《如此查寝》 @大伟老三 《如此查寝》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7504752369335848242",
+      "title": "《如此AA》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此AA》 《如此AA》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此AA》 《如此AA》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7517489936406416650",
+      "title": "请问这期到底有多少个反转？ @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "请问这期到底有多少个反转",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@大伟老三 请问这期到底有多少个反转"
+      ],
+      "question_phrases": [
+        "请问这期到底有多少个反转",
+        "@大伟老三 请问这期到底有多少个反转"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7519348226857798938",
+      "title": "不是？？？ @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "不是",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@大伟老三 不是"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7606960033025557706",
+      "title": "祝大家新年快乐！ #李宗恒 #抖音新春联欢会 #过个抖音新轻年",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "祝大家新年快乐",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音新春联欢会",
+        "过个抖音新轻年"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7636107444749339930",
+      "title": "《如果人生有剧本》 @深圳素人 @钟婷xo #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果人生有剧本》 @深圳素人 @钟婷xo 《如果人生有剧本》 @深圳素人 @钟婷xo",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7081238683596180751",
+      "title": "《这什么剧情啊…》#李宗恒 #不按套路出牌",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《这什么剧情啊…》 《这什么剧情啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "不按套路出牌"
+      ],
+      "short_phrases": [
+        "《这什么剧情啊…》 《这什么剧情啊…》"
+      ],
+      "question_phrases": [
+        "《这什么剧情啊…》 《这什么剧情啊…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7106018562657013027",
+      "title": "《谁说我脑袋不会转弯？》#李宗恒 #开播情景喜剧越看越上头",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《谁说我脑袋不会转弯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "开播情景喜剧越看越上头"
+      ],
+      "short_phrases": [
+        "《谁说我脑袋不会转弯",
+        "》 《谁说我脑袋不会转弯"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7110773605176266019",
+      "title": "《今天没录上节目…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天没录上节目…》 《今天没录上节目…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天没录上节目…》 《今天没录上节目…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7128593364525567267",
+      "title": "《舔🐶闯关节目？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔🐶闯关节目",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《舔🐶闯关节目"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7164652206438829343",
+      "title": "不做搞笑男 正儿八经给大家唱个歌～#李宗恒 #抖音闪耀之夜顶级现场 #万千快乐dou很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "不做搞笑男 正儿八经给大家唱个歌～ 不做搞笑男 正儿八经给大家唱个歌～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音闪耀之夜顶级现场",
+        "万千快乐dou很简单"
+      ],
+      "short_phrases": [
+        "不做搞笑男 正儿八经给大家唱个歌～ 不做搞笑男 正儿八经给大家唱个歌～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7167285778412784926",
+      "title": "《如此理发》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此理发》 《如此理发》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此理发》 《如此理发》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7177237381999807805",
+      "title": "《原来如此》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《原来如此》 《原来如此》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《原来如此》 《原来如此》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7179795639503490361",
+      "title": "《如此一天》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此一天》 《如此一天》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此一天》 《如此一天》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7186480808977321274",
+      "title": "《如此过年》#李宗恒 #春晚小品没你不行 #一场非正式春晚",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此过年》 《如此过年》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "春晚小品没你不行",
+        "一场非正式春晚"
+      ],
+      "short_phrases": [
+        "《如此过年》 《如此过年》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7189887197812624699",
+      "title": "《如此客气》#李宗恒#YSL小金条",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此客气》 《如此客气》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此客气》 《如此客气》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7190919342081527100",
+      "title": "《如此看小品》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此看小品》 《如此看小品》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此看小品》 《如此看小品》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7198187112934526267",
+      "title": "《如此前任》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此前任》 《如此前任》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此前任》 《如此前任》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7202808854105656633",
+      "title": "《如此租房》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此租房》 《如此租房》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此租房》 《如此租房》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7216992914440817976",
+      "title": "《如此愚人节》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此愚人节》 《如此愚人节》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此愚人节》 《如此愚人节》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7225914532554640696",
+      "title": "今天没段子 今天走颜值路线！@范丞丞 #李宗恒 #人生路不熟",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "今天没段子 今天走颜值路线",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "人生路不熟"
+      ],
+      "short_phrases": [
+        "@范丞丞 今天没段子 今天走颜值路线"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7270753140561988920",
+      "title": "班主任：服了这俩老六了～#搞笑 #剧情",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "班主任：服了这俩老六了～ 班主任：服了这俩老六了～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "搞笑",
+        "剧情"
+      ],
+      "short_phrases": [
+        "班主任：服了这俩老六了～ 班主任：服了这俩老六了～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7278243378448403731",
+      "title": "《隐藏文学》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《隐藏文学》 《隐藏文学》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《隐藏文学》 《隐藏文学》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7331348073517485324",
+      "title": "你们要的学生版来了！#李宗恒#开启龙年的一百种方式 #抖音龙年好戏大赏",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们要的学生版来了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音龙年好戏大赏"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7411762080602279202",
+      "title": "《如此秋游》 @脱缰凯✨ @二阳咂 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此秋游》 @脱缰凯✨ @二阳咂 《如此秋游》 @脱缰凯✨ @二阳咂",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此秋游》 @脱缰凯✨ @二阳咂 《如此秋游》 @脱缰凯✨ @二阳咂"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7464424734936157494",
+      "title": "给大家演春晚小品啦～ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "给大家演春晚小品啦～ 给大家演春晚小品啦～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "给大家演春晚小品啦～ 给大家演春晚小品啦～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7081238683596180751",
+      "title": "《这什么剧情啊…》#李宗恒 #不按套路出牌",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《这什么剧情啊…》 《这什么剧情啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "不按套路出牌"
+      ],
+      "short_phrases": [
+        "《这什么剧情啊…》 《这什么剧情啊…》"
+      ],
+      "question_phrases": [
+        "《这什么剧情啊…》 《这什么剧情啊…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7106018562657013027",
+      "title": "《谁说我脑袋不会转弯？》#李宗恒 #开播情景喜剧越看越上头",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《谁说我脑袋不会转弯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "开播情景喜剧越看越上头"
+      ],
+      "short_phrases": [
+        "《谁说我脑袋不会转弯",
+        "》 《谁说我脑袋不会转弯"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7110773605176266019",
+      "title": "《今天没录上节目…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天没录上节目…》 《今天没录上节目…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天没录上节目…》 《今天没录上节目…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7128593364525567267",
+      "title": "《舔🐶闯关节目？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔🐶闯关节目",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《舔🐶闯关节目"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7164652206438829343",
+      "title": "不做搞笑男 正儿八经给大家唱个歌～#李宗恒 #抖音闪耀之夜顶级现场 #万千快乐dou很简单",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "不做搞笑男 正儿八经给大家唱个歌～ 不做搞笑男 正儿八经给大家唱个歌～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音闪耀之夜顶级现场",
+        "万千快乐dou很简单"
+      ],
+      "short_phrases": [
+        "不做搞笑男 正儿八经给大家唱个歌～ 不做搞笑男 正儿八经给大家唱个歌～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7177237381999807805",
+      "title": "《原来如此》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《原来如此》 《原来如此》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《原来如此》 《原来如此》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7179795639503490361",
+      "title": "《如此一天》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此一天》 《如此一天》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此一天》 《如此一天》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7189887197812624699",
+      "title": "《如此客气》#李宗恒#YSL小金条",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此客气》 《如此客气》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此客气》 《如此客气》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7202808854105656633",
+      "title": "《如此租房》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此租房》 《如此租房》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此租房》 《如此租房》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7225914532554640696",
+      "title": "今天没段子 今天走颜值路线！@范丞丞 #李宗恒 #人生路不熟",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "今天没段子 今天走颜值路线",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "人生路不熟"
+      ],
+      "short_phrases": [
+        "@范丞丞 今天没段子 今天走颜值路线"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7278243378448403731",
+      "title": "《隐藏文学》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《隐藏文学》 《隐藏文学》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《隐藏文学》 《隐藏文学》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7411762080602279202",
+      "title": "《如此秋游》 @脱缰凯✨ @二阳咂 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此秋游》 @脱缰凯✨ @二阳咂 《如此秋游》 @脱缰凯✨ @二阳咂",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此秋游》 @脱缰凯✨ @二阳咂 《如此秋游》 @脱缰凯✨ @二阳咂"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7464424734936157494",
+      "title": "给大家演春晚小品啦～ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "给大家演春晚小品啦～ 给大家演春晚小品啦～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "给大家演春晚小品啦～ 给大家演春晚小品啦～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7467861632216075561",
+      "title": "《如此送礼》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此送礼》 《如此送礼》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此送礼》 《如此送礼》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7519348226857798938",
+      "title": "不是？？？ @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "不是",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@大伟老三 不是"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7606960033025557706",
+      "title": "祝大家新年快乐！ #李宗恒 #抖音新春联欢会 #过个抖音新轻年",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "祝大家新年快乐",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音新春联欢会",
+        "过个抖音新轻年"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7636107444749339930",
+      "title": "《如果人生有剧本》 @深圳素人 @钟婷xo #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果人生有剧本》 @深圳素人 @钟婷xo 《如果人生有剧本》 @深圳素人 @钟婷xo",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

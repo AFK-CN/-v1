@@ -1,0 +1,1504 @@
+{
+  "direction": "家庭与代际关系",
+  "topic_clusters": [
+    {
+      "topic": "过年",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7187423659068263737",
+          "title": "《咋这样过年呢？》#李宗恒#拿得出手的年礼 #巨巨巨巨超值",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7324179912909180223",
+          "title": "快过年了，防止催婚小妙招！#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7443374846681140480",
+          "title": "《过年的神秘人物正在解冻》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7457027526498536740",
+          "title": "《我在期待什么呢？》 #李宗恒#过年搭子选伊利 #万事如伊大吉大利",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7461463930523749671",
+          "title": "《反向过年》 #李宗恒#奥利奥玩在一起就是年 #奥利奥年货礼盒 #五福饼纹好运临门",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "家人们",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7210976813105925413",
+          "title": "《家人们 我最近更新慢的原因》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7224287566864993592",
+          "title": "家人们～谁还有顶级理解综合症？#李宗恒#滴滴APP #五一出行就用滴滴app",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7243634419729190147",
+          "title": "家人们，文案你们出吧！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7287847901475163433",
+          "title": "家人们！硬走一回颜值路线！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7332333117727919423",
+          "title": "家人们，到时候记得看呀！#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "家人",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7210976813105925413",
+          "title": "《家人们 我最近更新慢的原因》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7224287566864993592",
+          "title": "家人们～谁还有顶级理解综合症？#李宗恒#滴滴APP #五一出行就用滴滴app",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7243634419729190147",
+          "title": "家人们，文案你们出吧！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7287847901475163433",
+          "title": "家人们！硬走一回颜值路线！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7328978857317436726",
+          "title": "《社恐一家人》#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "回家",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7390603242620685607",
+          "title": "回家后：爸，倒杯水！ #李宗恒#爱玛718直购节",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7390603242620685607",
+          "title": "回家后：爸，倒杯水！ #李宗恒#爱玛718直购节",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7520472341844266278",
+          "title": "回家吧…困了 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7520472341844266278",
+          "title": "回家吧…困了 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "生日",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7136200692389137679",
+          "title": "《这生日让我过得…》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7136757494692498703",
+          "title": "《过生日许的愿望成真！》@柳岩 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7542523642766642441",
+          "title": "《当生日许愿遇上了编剧》 #李宗恒 #生日",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "家庭",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7582957244796472585",
+          "title": "家人们，我演的这部剧你们看了嘛？ @毒舌家庭 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7598472724416227465",
+          "title": "《家庭业务中心》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "一家人",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7328978857317436726",
+          "title": "《社恐一家人》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7602632130237736923",
+          "title": "《“大喘气”一家人》 #李宗恒#马年搭子选伊利",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "小时候",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7617061092556033330",
+          "title": "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前。@李宗恒 #抖音人物故事 #生活闪亮时2026",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7112779670956854562",
+      "title": "《我是一家之主！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是一家之主",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我是一家之主"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7136200692389137679",
+      "title": "《这生日让我过得…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这生日让我过得…》 《这生日让我过得…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这生日让我过得…》 《这生日让我过得…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7136757494692498703",
+      "title": "《过生日许的愿望成真！》@柳岩 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《过生日许的愿望成真",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《过生日许的愿望成真",
+        "》@柳岩 《过生日许的愿望成真"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7187423659068263737",
+      "title": "《咋这样过年呢？》#李宗恒#拿得出手的年礼 #巨巨巨巨超值",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《咋这样过年呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "巨巨巨巨超值"
+      ],
+      "short_phrases": [
+        "》 《咋这样过年呢"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7188648814276889915",
+      "title": "《情景喜剧》#李宗恒 #家有姐妹 @柳岩 @杨超越 @家有姐妹",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《情景喜剧》 @柳岩 @杨超越 @家有姐妹 《情景喜剧》 @柳岩 @杨超越 @家有姐妹",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "家有姐妹"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7210976813105925413",
+      "title": "《家人们 我最近更新慢的原因》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《家人们 我最近更新慢的原因》 《家人们 我最近更新慢的原因》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《家人们 我最近更新慢的原因》 《家人们 我最近更新慢的原因》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7224287566864993592",
+      "title": "家人们～谁还有顶级理解综合症？#李宗恒#滴滴APP #五一出行就用滴滴app",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "家人们～谁还有顶级理解综合症",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "五一出行就用滴滴app"
+      ],
+      "short_phrases": [
+        "家人们～谁还有顶级理解综合症"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7235822835556420925",
+      "title": "第一次见家长，竟然…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "第一次见家长，竟然… 第一次见家长，竟然…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "第一次见家长，竟然… 第一次见家长，竟然…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7243634419729190147",
+      "title": "家人们，文案你们出吧！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，文案你们出吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，文案你们出吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7287847901475163433",
+      "title": "家人们！硬走一回颜值路线！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7317323175132450089",
+      "title": "《反“空巢”部？？？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《反“空巢”部",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《反“空巢”部"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7324179912909180223",
+      "title": "快过年了，防止催婚小妙招！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "快过年了，防止催婚小妙招",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "快过年了，防止催婚小妙招"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7326207496505330980",
+      "title": "大家以后会是这样的亲戚嘛！#李宗恒#娇兰复原蜜 #娇兰双效精华",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "大家以后会是这样的亲戚嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "娇兰双效精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7328978857317436726",
+      "title": "《社恐一家人》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《社恐一家人》 《社恐一家人》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《社恐一家人》 《社恐一家人》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7332333117727919423",
+      "title": "家人们，到时候记得看呀！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，到时候记得看呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，到时候记得看呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7332965135960657171",
+      "title": "家人们！年前最后一条段子啦！祝大家新年快乐！#李宗恒 #CODM游龙剑影 #使命召唤手游",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "CODM游龙剑影",
+        "使命召唤手游"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7361341764751461668",
+      "title": "家人们～硬走一下颜值路线！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们～硬走一下颜值路线",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们～硬走一下颜值路线"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7390603242620685607",
+      "title": "回家后：爸，倒杯水！ #李宗恒#爱玛718直购节",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "回家后：爸，倒杯水",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "回家后：爸，倒杯水"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7398860651038362934",
+      "title": "家人们！百亿了！演电影的李宗恒，和我是同一个人，并不是重名哦～#李宗恒#电影抓娃娃",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "演电影的李宗恒，和我是同一个人，并不是重名哦～ 家人们",
+        "演电影的李宗恒，和我是同一个人，并不是重名哦～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7443374846681140480",
+      "title": "《过年的神秘人物正在解冻》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《过年的神秘人物正在解冻》 《过年的神秘人物正在解冻》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《过年的神秘人物正在解冻》 《过年的神秘人物正在解冻》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7457027526498536740",
+      "title": "《我在期待什么呢？》 #李宗恒#过年搭子选伊利 #万事如伊大吉大利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我在期待什么呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "万事如伊大吉大利"
+      ],
+      "short_phrases": [
+        "《我在期待什么呢",
+        "》 《我在期待什么呢"
+      ],
+      "question_phrases": [
+        "《我在期待什么呢",
+        "》 《我在期待什么呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7461463930523749671",
+      "title": "《反向过年》 #李宗恒#奥利奥玩在一起就是年 #奥利奥年货礼盒 #五福饼纹好运临门",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《反向过年》 《反向过年》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "奥利奥年货礼盒",
+        "五福饼纹好运临门"
+      ],
+      "short_phrases": [
+        "《反向过年》 《反向过年》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7463311721180990759",
+      "title": "当00后成为长辈过年 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "当00后成为长辈过年 当00后成为长辈过年",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7520472341844266278",
+      "title": "回家吧…困了 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "回家吧…困了 回家吧…困了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "回家吧…困了 回家吧…困了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7542523642766642441",
+      "title": "《当生日许愿遇上了编剧》 #李宗恒 #生日",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当生日许愿遇上了编剧》 《当生日许愿遇上了编剧》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "生日"
+      ],
+      "short_phrases": [
+        "《当生日许愿遇上了编剧》 《当生日许愿遇上了编剧》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7582133198600146176",
+      "title": "不仅写实，还有常识。 @钟婷xo #李宗恒#SKII节日限定礼盒 #sk2神仙水",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "不仅写实，还有常识",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "sk2神仙水"
+      ],
+      "short_phrases": [
+        "不仅写实，还有常识",
+        "@钟婷xo 不仅写实，还有常识"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7582957244796472585",
+      "title": "家人们，我演的这部剧你们看了嘛？ @毒舌家庭 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "家人们，我演的这部剧你们看了嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，我演的这部剧你们看了嘛",
+        "@毒舌家庭 家人们，我演的这部剧你们看了嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7598472724416227465",
+      "title": "《家庭业务中心》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《家庭业务中心》 《家庭业务中心》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《家庭业务中心》 《家庭业务中心》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7602632130237736923",
+      "title": "《“大喘气”一家人》 #李宗恒#马年搭子选伊利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《“大喘气”一家人》 《“大喘气”一家人》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《“大喘气”一家人》 《“大喘气”一家人》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7606063262928915850",
+      "title": "《当你过年强的可怕！》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当你过年强的可怕",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当你过年强的可怕",
+        "》 《当你过年强的可怕"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7610510467530054537",
+      "title": "一种很新的孩子：预判型孩子！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的孩子：预判型孩子",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的孩子：预判型孩子"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7617061092556033330",
+      "title": "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前。@李宗恒 #抖音人物故事 #生活闪亮时2026",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抖音人物故事",
+        "生活闪亮时2026"
+      ],
+      "short_phrases": [
+        "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前",
+        "@李宗恒 第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7112779670956854562",
+      "title": "《我是一家之主！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是一家之主",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我是一家之主"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7136757494692498703",
+      "title": "《过生日许的愿望成真！》@柳岩 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《过生日许的愿望成真",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《过生日许的愿望成真",
+        "》@柳岩 《过生日许的愿望成真"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7187423659068263737",
+      "title": "《咋这样过年呢？》#李宗恒#拿得出手的年礼 #巨巨巨巨超值",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《咋这样过年呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "巨巨巨巨超值"
+      ],
+      "short_phrases": [
+        "》 《咋这样过年呢"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7188648814276889915",
+      "title": "《情景喜剧》#李宗恒 #家有姐妹 @柳岩 @杨超越 @家有姐妹",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《情景喜剧》 @柳岩 @杨超越 @家有姐妹 《情景喜剧》 @柳岩 @杨超越 @家有姐妹",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "家有姐妹"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7210976813105925413",
+      "title": "《家人们 我最近更新慢的原因》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《家人们 我最近更新慢的原因》 《家人们 我最近更新慢的原因》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《家人们 我最近更新慢的原因》 《家人们 我最近更新慢的原因》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7235822835556420925",
+      "title": "第一次见家长，竟然…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "第一次见家长，竟然… 第一次见家长，竟然…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "第一次见家长，竟然… 第一次见家长，竟然…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7243634419729190147",
+      "title": "家人们，文案你们出吧！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，文案你们出吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，文案你们出吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7287847901475163433",
+      "title": "家人们！硬走一回颜值路线！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7324179912909180223",
+      "title": "快过年了，防止催婚小妙招！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "快过年了，防止催婚小妙招",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "快过年了，防止催婚小妙招"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7326207496505330980",
+      "title": "大家以后会是这样的亲戚嘛！#李宗恒#娇兰复原蜜 #娇兰双效精华",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "大家以后会是这样的亲戚嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "娇兰双效精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7328978857317436726",
+      "title": "《社恐一家人》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《社恐一家人》 《社恐一家人》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《社恐一家人》 《社恐一家人》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7332333117727919423",
+      "title": "家人们，到时候记得看呀！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，到时候记得看呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，到时候记得看呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7332965135960657171",
+      "title": "家人们！年前最后一条段子啦！祝大家新年快乐！#李宗恒 #CODM游龙剑影 #使命召唤手游",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "CODM游龙剑影",
+        "使命召唤手游"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7361341764751461668",
+      "title": "家人们～硬走一下颜值路线！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们～硬走一下颜值路线",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们～硬走一下颜值路线"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7390603242620685607",
+      "title": "回家后：爸，倒杯水！ #李宗恒#爱玛718直购节",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "回家后：爸，倒杯水",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "回家后：爸，倒杯水"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7398860651038362934",
+      "title": "家人们！百亿了！演电影的李宗恒，和我是同一个人，并不是重名哦～#李宗恒#电影抓娃娃",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "演电影的李宗恒，和我是同一个人，并不是重名哦～ 家人们",
+        "演电影的李宗恒，和我是同一个人，并不是重名哦～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7443374846681140480",
+      "title": "《过年的神秘人物正在解冻》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《过年的神秘人物正在解冻》 《过年的神秘人物正在解冻》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《过年的神秘人物正在解冻》 《过年的神秘人物正在解冻》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7457027526498536740",
+      "title": "《我在期待什么呢？》 #李宗恒#过年搭子选伊利 #万事如伊大吉大利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我在期待什么呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "万事如伊大吉大利"
+      ],
+      "short_phrases": [
+        "《我在期待什么呢",
+        "》 《我在期待什么呢"
+      ],
+      "question_phrases": [
+        "《我在期待什么呢",
+        "》 《我在期待什么呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7461463930523749671",
+      "title": "《反向过年》 #李宗恒#奥利奥玩在一起就是年 #奥利奥年货礼盒 #五福饼纹好运临门",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《反向过年》 《反向过年》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "奥利奥年货礼盒",
+        "五福饼纹好运临门"
+      ],
+      "short_phrases": [
+        "《反向过年》 《反向过年》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7463311721180990759",
+      "title": "当00后成为长辈过年 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "当00后成为长辈过年 当00后成为长辈过年",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7112779670956854562",
+      "title": "《我是一家之主！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是一家之主",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我是一家之主"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7136757494692498703",
+      "title": "《过生日许的愿望成真！》@柳岩 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《过生日许的愿望成真",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《过生日许的愿望成真",
+        "》@柳岩 《过生日许的愿望成真"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7188648814276889915",
+      "title": "《情景喜剧》#李宗恒 #家有姐妹 @柳岩 @杨超越 @家有姐妹",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《情景喜剧》 @柳岩 @杨超越 @家有姐妹 《情景喜剧》 @柳岩 @杨超越 @家有姐妹",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "家有姐妹"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7210976813105925413",
+      "title": "《家人们 我最近更新慢的原因》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《家人们 我最近更新慢的原因》 《家人们 我最近更新慢的原因》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《家人们 我最近更新慢的原因》 《家人们 我最近更新慢的原因》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7243634419729190147",
+      "title": "家人们，文案你们出吧！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，文案你们出吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，文案你们出吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7287847901475163433",
+      "title": "家人们！硬走一回颜值路线！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7326207496505330980",
+      "title": "大家以后会是这样的亲戚嘛！#李宗恒#娇兰复原蜜 #娇兰双效精华",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "大家以后会是这样的亲戚嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "娇兰双效精华"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7328978857317436726",
+      "title": "《社恐一家人》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《社恐一家人》 《社恐一家人》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《社恐一家人》 《社恐一家人》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7332333117727919423",
+      "title": "家人们，到时候记得看呀！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，到时候记得看呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，到时候记得看呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7332965135960657171",
+      "title": "家人们！年前最后一条段子啦！祝大家新年快乐！#李宗恒 #CODM游龙剑影 #使命召唤手游",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "CODM游龙剑影",
+        "使命召唤手游"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7361341764751461668",
+      "title": "家人们～硬走一下颜值路线！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们～硬走一下颜值路线",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们～硬走一下颜值路线"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7390603242620685607",
+      "title": "回家后：爸，倒杯水！ #李宗恒#爱玛718直购节",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "回家后：爸，倒杯水",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "回家后：爸，倒杯水"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7398860651038362934",
+      "title": "家人们！百亿了！演电影的李宗恒，和我是同一个人，并不是重名哦～#李宗恒#电影抓娃娃",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "家人们",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "演电影的李宗恒，和我是同一个人，并不是重名哦～ 家人们",
+        "演电影的李宗恒，和我是同一个人，并不是重名哦～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7457027526498536740",
+      "title": "《我在期待什么呢？》 #李宗恒#过年搭子选伊利 #万事如伊大吉大利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我在期待什么呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "万事如伊大吉大利"
+      ],
+      "short_phrases": [
+        "《我在期待什么呢",
+        "》 《我在期待什么呢"
+      ],
+      "question_phrases": [
+        "《我在期待什么呢",
+        "》 《我在期待什么呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7461463930523749671",
+      "title": "《反向过年》 #李宗恒#奥利奥玩在一起就是年 #奥利奥年货礼盒 #五福饼纹好运临门",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《反向过年》 《反向过年》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "奥利奥年货礼盒",
+        "五福饼纹好运临门"
+      ],
+      "short_phrases": [
+        "《反向过年》 《反向过年》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7582133198600146176",
+      "title": "不仅写实，还有常识。 @钟婷xo #李宗恒#SKII节日限定礼盒 #sk2神仙水",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "不仅写实，还有常识",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "sk2神仙水"
+      ],
+      "short_phrases": [
+        "不仅写实，还有常识",
+        "@钟婷xo 不仅写实，还有常识"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7582957244796472585",
+      "title": "家人们，我演的这部剧你们看了嘛？ @毒舌家庭 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "家人们，我演的这部剧你们看了嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "家人们，我演的这部剧你们看了嘛",
+        "@毒舌家庭 家人们，我演的这部剧你们看了嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7602632130237736923",
+      "title": "《“大喘气”一家人》 #李宗恒#马年搭子选伊利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《“大喘气”一家人》 《“大喘气”一家人》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《“大喘气”一家人》 《“大喘气”一家人》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7617061092556033330",
+      "title": "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前。@李宗恒 #抖音人物故事 #生活闪亮时2026",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "抖音人物故事",
+        "生活闪亮时2026"
+      ],
+      "short_phrases": [
+        "第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前",
+        "@李宗恒 第三十四期｜《还是小时候》：有时会偏执抱着自己，有时会推着他向前"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "direction": "身体状态与压力崩溃",
+  "topic_clusters": [
+    {
+      "topic": "费劲",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7196573355028385080",
+          "title": "《其实前面收拾的最费劲》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7311194292284837156",
+          "title": "《出个门是真费劲啊……》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7322669885153185036",
+          "title": "真费劲呐……#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "累",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7257030635087220007",
+          "title": "《你俩吵个架，给我累够呛！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7286419179937336595",
+          "title": "模拟第一次去老丈人家，挺累呀…#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "真费劲",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7311194292284837156",
+          "title": "《出个门是真费劲啊……》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7322669885153185036",
+          "title": "真费劲呐……#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "睡",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7148994103076850975",
+          "title": "《我要睡觉！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7563298766971833610",
+          "title": "这是睡前小说吗？这是睡前小声说我呢！ #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7148994103076850975",
+      "title": "《我要睡觉！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我要睡觉",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7196573355028385080",
+      "title": "《其实前面收拾的最费劲》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《其实前面收拾的最费劲》 《其实前面收拾的最费劲》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《其实前面收拾的最费劲》 《其实前面收拾的最费劲》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7257030635087220007",
+      "title": "《你俩吵个架，给我累够呛！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你俩吵个架，给我累够呛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你俩吵个架，给我累够呛",
+        "》 《你俩吵个架，给我累够呛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7286419179937336595",
+      "title": "模拟第一次去老丈人家，挺累呀…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "模拟第一次去老丈人家，挺累呀… 模拟第一次去老丈人家，挺累呀…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "模拟第一次去老丈人家，挺累呀… 模拟第一次去老丈人家，挺累呀…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7311194292284837156",
+      "title": "《出个门是真费劲啊……》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《出个门是真费劲啊……》 《出个门是真费劲啊……》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《出个门是真费劲啊……》 《出个门是真费劲啊……》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7322669885153185036",
+      "title": "真费劲呐……#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真费劲呐…… 真费劲呐……",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "真费劲呐…… 真费劲呐……"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7563298766971833610",
+      "title": "这是睡前小说吗？这是睡前小声说我呢！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这是睡前小说吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "这是睡前小说吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7148994103076850975",
+      "title": "《我要睡觉！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我要睡觉",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7196573355028385080",
+      "title": "《其实前面收拾的最费劲》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《其实前面收拾的最费劲》 《其实前面收拾的最费劲》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《其实前面收拾的最费劲》 《其实前面收拾的最费劲》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7257030635087220007",
+      "title": "《你俩吵个架，给我累够呛！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你俩吵个架，给我累够呛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你俩吵个架，给我累够呛",
+        "》 《你俩吵个架，给我累够呛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7286419179937336595",
+      "title": "模拟第一次去老丈人家，挺累呀…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "模拟第一次去老丈人家，挺累呀… 模拟第一次去老丈人家，挺累呀…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "模拟第一次去老丈人家，挺累呀… 模拟第一次去老丈人家，挺累呀…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7311194292284837156",
+      "title": "《出个门是真费劲啊……》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《出个门是真费劲啊……》 《出个门是真费劲啊……》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《出个门是真费劲啊……》 《出个门是真费劲啊……》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7322669885153185036",
+      "title": "真费劲呐……#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "真费劲呐…… 真费劲呐……",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "真费劲呐…… 真费劲呐……"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7563298766971833610",
+      "title": "这是睡前小说吗？这是睡前小声说我呢！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这是睡前小说吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "这是睡前小说吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": []
+}

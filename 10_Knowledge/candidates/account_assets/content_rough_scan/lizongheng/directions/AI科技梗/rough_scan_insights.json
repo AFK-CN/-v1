@@ -1,0 +1,296 @@
+{
+  "direction": "AI科技梗",
+  "topic_clusters": [
+    {
+      "topic": "AI",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7355333239533260086",
+          "title": "如果分手办典礼？？？#李宗恒#科大讯飞ai鼠标am30 #科大讯飞智能鼠标",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7605238812160405734",
+          "title": "《当老丈人喜欢整蛊？？？》 #李宗恒#我的春节搭子 #用AI过好年 #这届年轻人开始主持大局了",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "科技",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7156850805696417032",
+          "title": "《你们有完没完了？》#李宗恒 #飞科科技生活",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7429561778092215586",
+          "title": "《老丈人见女婿？？？》 #李宗恒#飞科科技生活 #飞科剃须刀",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "智能",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7160366622199303438",
+          "title": "《emo员？》#李宗恒 #双11必买电子产品清单 #小度X8升级版 #小度智能屏",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7355333239533260086",
+          "title": "如果分手办典礼？？？#李宗恒#科大讯飞ai鼠标am30 #科大讯飞智能鼠标",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7156850805696417032",
+      "title": "《你们有完没完了？》#李宗恒 #飞科科技生活",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你们有完没完了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞科科技生活"
+      ],
+      "short_phrases": [
+        "《你们有完没完了",
+        "》 《你们有完没完了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7355333239533260086",
+      "title": "如果分手办典礼？？？#李宗恒#科大讯飞ai鼠标am30 #科大讯飞智能鼠标",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如果分手办典礼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "科大讯飞智能鼠标"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7429561778092215586",
+      "title": "《老丈人见女婿？？？》 #李宗恒#飞科科技生活 #飞科剃须刀",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《老丈人见女婿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞科剃须刀"
+      ],
+      "short_phrases": [
+        "》 《老丈人见女婿"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7605238812160405734",
+      "title": "《当老丈人喜欢整蛊？？？》 #李宗恒#我的春节搭子 #用AI过好年 #这届年轻人开始主持大局了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《当老丈人喜欢整蛊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "用AI过好年",
+        "这届年轻人开始主持大局了"
+      ],
+      "short_phrases": [
+        "《当老丈人喜欢整蛊",
+        "》 《当老丈人喜欢整蛊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7156850805696417032",
+      "title": "《你们有完没完了？》#李宗恒 #飞科科技生活",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你们有完没完了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞科科技生活"
+      ],
+      "short_phrases": [
+        "《你们有完没完了",
+        "》 《你们有完没完了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7355333239533260086",
+      "title": "如果分手办典礼？？？#李宗恒#科大讯飞ai鼠标am30 #科大讯飞智能鼠标",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如果分手办典礼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "科大讯飞智能鼠标"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7429561778092215586",
+      "title": "《老丈人见女婿？？？》 #李宗恒#飞科科技生活 #飞科剃须刀",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《老丈人见女婿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞科剃须刀"
+      ],
+      "short_phrases": [
+        "》 《老丈人见女婿"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7605238812160405734",
+      "title": "《当老丈人喜欢整蛊？？？》 #李宗恒#我的春节搭子 #用AI过好年 #这届年轻人开始主持大局了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《当老丈人喜欢整蛊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "用AI过好年",
+        "这届年轻人开始主持大局了"
+      ],
+      "short_phrases": [
+        "《当老丈人喜欢整蛊",
+        "》 《当老丈人喜欢整蛊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7156850805696417032",
+      "title": "《你们有完没完了？》#李宗恒 #飞科科技生活",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你们有完没完了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞科科技生活"
+      ],
+      "short_phrases": [
+        "《你们有完没完了",
+        "》 《你们有完没完了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7355333239533260086",
+      "title": "如果分手办典礼？？？#李宗恒#科大讯飞ai鼠标am30 #科大讯飞智能鼠标",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "如果分手办典礼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "科大讯飞智能鼠标"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7429561778092215586",
+      "title": "《老丈人见女婿？？？》 #李宗恒#飞科科技生活 #飞科剃须刀",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《老丈人见女婿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞科剃须刀"
+      ],
+      "short_phrases": [
+        "》 《老丈人见女婿"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7605238812160405734",
+      "title": "《当老丈人喜欢整蛊？？？》 #李宗恒#我的春节搭子 #用AI过好年 #这届年轻人开始主持大局了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《当老丈人喜欢整蛊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "用AI过好年",
+        "这届年轻人开始主持大局了"
+      ],
+      "short_phrases": [
+        "《当老丈人喜欢整蛊",
+        "》 《当老丈人喜欢整蛊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

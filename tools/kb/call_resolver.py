@@ -143,6 +143,14 @@ def resolve_route_result(prompt: str, routes: Any) -> dict[str, Any]:
         return {"status": "not_found", "route": {}, "candidates": [], "matched_triggers": []}
     task_matches = [item for item in matches if not item["is_generic_entry"]]
     candidates = task_matches or matches
+    preferred = prefer_post_topic_image_text_generation(prompt, candidates)
+    if preferred:
+        return {
+            "status": "resolved",
+            "route": preferred["route"],
+            "candidates": [],
+            "matched_triggers": preferred["matched_triggers"],
+        }
     best_length = max(int(item["max_trigger_length"]) for item in candidates)
     best = [item for item in candidates if int(item["max_trigger_length"]) == best_length]
     if len(best) == 1:
@@ -171,6 +179,30 @@ def resolve_route_result(prompt: str, routes: Any) -> dict[str, Any]:
             for item in best
         ],
     }
+
+
+def prefer_post_topic_image_text_generation(prompt: str, candidates: list[dict[str, Any]]) -> dict[str, Any]:
+    route_ids = {str(item["route"].get("id", "")) for item in candidates}
+    if not {"topic_generation", "script_generation"}.issubset(route_ids):
+        return {}
+    if any(trigger in prompt for trigger in ("出选题", "我要出选题", "生成选题", "给我选题")):
+        return {}
+    has_confirmed_topic = any(
+        marker in prompt
+        for marker in (
+            "确认的选题",
+            "已确认选题",
+            "选题确认",
+            "基于选题",
+            "基于刚才确认的选题",
+            "刚才的选题",
+            "这个选题",
+        )
+    )
+    has_image_text_output = any(marker in prompt for marker in ("图文", "小红书图文", "image2", "生图"))
+    if not (has_confirmed_topic and has_image_text_output):
+        return {}
+    return next((item for item in candidates if str(item["route"].get("id", "")) == "script_generation"), {})
 
 
 def resolve_account(prompt: str, accounts: Any) -> dict[str, Any]:

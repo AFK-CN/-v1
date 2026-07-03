@@ -1,0 +1,206 @@
+{
+  "direction": "品牌植入与消费体验",
+  "topic_clusters": [
+    {
+      "topic": "体验",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7568089247250644338",
+          "title": "《这瓜吃的…》 #李宗恒 #12万内SUV体验真卷王宝骏云海",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "晓田",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7533066373732814090",
+          "title": "《你今天也在装大人吗？》 #李宗恒#晓田 #立必得",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "立必得",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7533066373732814090",
+          "title": "《你今天也在装大人吗？》 #李宗恒#晓田 #立必得",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "品牌植入与消费体验",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7494676864037014796",
+          "title": "找手机的一天，找回了曾经的自己。 #李宗恒#去哪儿都有行动价 #旅行上去哪儿比比看",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7494676864037014796",
+      "title": "找手机的一天，找回了曾经的自己。 #李宗恒#去哪儿都有行动价 #旅行上去哪儿比比看",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "找手机的一天，找回了曾经的自己",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "旅行上去哪儿比比看"
+      ],
+      "short_phrases": [
+        "找手机的一天，找回了曾经的自己"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7533066373732814090",
+      "title": "《你今天也在装大人吗？》 #李宗恒#晓田 #立必得",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你今天也在装大人吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "立必得"
+      ],
+      "short_phrases": [
+        "《你今天也在装大人吗",
+        "》 《你今天也在装大人吗"
+      ],
+      "question_phrases": [
+        "《你今天也在装大人吗",
+        "》 《你今天也在装大人吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7568089247250644338",
+      "title": "《这瓜吃的…》 #李宗恒 #12万内SUV体验真卷王宝骏云海",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《这瓜吃的…》 《这瓜吃的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "12万内SUV体验真卷王宝骏云海"
+      ],
+      "short_phrases": [
+        "《这瓜吃的…》 《这瓜吃的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7533066373732814090",
+      "title": "《你今天也在装大人吗？》 #李宗恒#晓田 #立必得",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你今天也在装大人吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "立必得"
+      ],
+      "short_phrases": [
+        "《你今天也在装大人吗",
+        "》 《你今天也在装大人吗"
+      ],
+      "question_phrases": [
+        "《你今天也在装大人吗",
+        "》 《你今天也在装大人吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7568089247250644338",
+      "title": "《这瓜吃的…》 #李宗恒 #12万内SUV体验真卷王宝骏云海",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《这瓜吃的…》 《这瓜吃的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "12万内SUV体验真卷王宝骏云海"
+      ],
+      "short_phrases": [
+        "《这瓜吃的…》 《这瓜吃的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7533066373732814090",
+      "title": "《你今天也在装大人吗？》 #李宗恒#晓田 #立必得",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你今天也在装大人吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "立必得"
+      ],
+      "short_phrases": [
+        "《你今天也在装大人吗",
+        "》 《你今天也在装大人吗"
+      ],
+      "question_phrases": [
+        "《你今天也在装大人吗",
+        "》 《你今天也在装大人吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7568089247250644338",
+      "title": "《这瓜吃的…》 #李宗恒 #12万内SUV体验真卷王宝骏云海",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《这瓜吃的…》 《这瓜吃的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "12万内SUV体验真卷王宝骏云海"
+      ],
+      "short_phrases": [
+        "《这瓜吃的…》 《这瓜吃的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

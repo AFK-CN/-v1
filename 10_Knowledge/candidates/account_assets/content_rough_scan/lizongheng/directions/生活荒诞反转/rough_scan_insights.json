@@ -1,0 +1,1717 @@
+{
+  "direction": "生活荒诞反转",
+  "topic_clusters": [
+    {
+      "topic": "一定要看到最后",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7526054162607738121",
+          "title": "这不是倒霉，这是费斯汀格法则。 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7560006263476702515",
+          "title": "《学生出题考老师》 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7563032930697383214",
+          "title": "《权威课堂！》 #李宗恒 #一定要看到最后",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7563964474965626162",
+          "title": "《超高情商的面试》 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7588555234873832435",
+          "title": "《春晚保留节目：手机魔盗团》 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "最后",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7148400898321042695",
+          "title": "《最后怎么了这是…》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7560006263476702515",
+          "title": "《学生出题考老师》 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7563032930697383214",
+          "title": "《权威课堂！》 #李宗恒 #一定要看到最后",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7563964474965626162",
+          "title": "《超高情商的面试》 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7588555234873832435",
+          "title": "《春晚保留节目：手机魔盗团》 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "生活荒诞反转",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7068584186596068648",
+          "title": "《浅学一下》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7104843253618461987",
+          "title": "《他们怎么都跑了？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7126488959542152488",
+          "title": "《我到底是赢了还是输了？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7230628957601680697",
+          "title": "《今天上了一课》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7259216776683130131",
+          "title": "《这…》@大连老湿王博文 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "倒霉",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7448474289319251239",
+          "title": "《幸运的倒霉蛋》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7526054162607738121",
+          "title": "这不是倒霉，这是费斯汀格法则。 #李宗恒 #一定要看到最后",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "幸运",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7221064431160069432",
+          "title": "《如此约会》#李宗恒#海澜之家 #海澜之家能量幸运衫",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7448474289319251239",
+          "title": "《幸运的倒霉蛋》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "成功",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7050763342469696768",
+          "title": "这次如果不失败还是挺成功的 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7444488197377101116",
+          "title": "相亲成功但总感觉有什么地方不对劲… @李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "不行嘛",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7061167639975988495",
+          "title": "《不行嘛？》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7135266060818844963",
+          "title": "《给我点儿面子不行嘛？》#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "猫",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7064084191381671168",
+          "title": "《这猫真狗啊…》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7312327517866560807",
+          "title": "《如此“叛逆”》#李宗恒#四分半意面 #天猫大牌日",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7001414969464016128",
+      "title": "又咋的了？@百乔有毛病 #内容过于真实",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "又咋的了",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "内容过于真实"
+      ],
+      "short_phrases": [
+        "@百乔有毛病 又咋的了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7046225639904447778",
+      "title": "《这是高手！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这是高手",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7050763342469696768",
+      "title": "这次如果不失败还是挺成功的 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这次如果不失败还是挺成功的 这次如果不失败还是挺成功的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7057015241502231848",
+      "title": "欢迎二位下次再来！#李宗恒 @何欢不瘦 @蒋诗萌Panda",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "欢迎二位下次再来",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@何欢不瘦 @蒋诗萌Panda 欢迎二位下次再来",
+        "@何欢不瘦 @蒋诗萌Panda"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7061167639975988495",
+      "title": "《不行嘛？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《不行嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7064084191381671168",
+      "title": "《这猫真狗啊…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这猫真狗啊…》 《这猫真狗啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这猫真狗啊…》 《这猫真狗啊…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7068584186596068648",
+      "title": "《浅学一下》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《浅学一下》 《浅学一下》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《浅学一下》 《浅学一下》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7077753644199775523",
+      "title": "《什么玩意啊？！》#李宗恒 #蝴蝶效应",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《什么玩意啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "蝴蝶效应"
+      ],
+      "short_phrases": [
+        "》 《什么玩意啊"
+      ],
+      "question_phrases": [
+        "《什么玩意啊",
+        "》 《什么玩意啊"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7082208277001555235",
+      "title": "《你到底回来干啥来了？》#李宗恒 #穿越",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你到底回来干啥来了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "穿越"
+      ],
+      "short_phrases": [
+        "《你到底回来干啥来了",
+        "》 《你到底回来干啥来了"
+      ],
+      "question_phrases": [
+        "《你到底回来干啥来了",
+        "》 《你到底回来干啥来了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7083424202883206435",
+      "title": "《真狠啊…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《真狠啊…》 《真狠啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《真狠啊…》 《真狠啊…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7090874741170490659",
+      "title": "《这扯不扯…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这扯不扯…》 《这扯不扯…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这扯不扯…》 《这扯不扯…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7093048198851349800",
+      "title": "《梦中梦中梦中梦》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《梦中梦中梦中梦》 《梦中梦中梦中梦》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《梦中梦中梦中梦》 《梦中梦中梦中梦》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7104843253618461987",
+      "title": "《他们怎么都跑了？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《他们怎么都跑了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《他们怎么都跑了",
+        "》 《他们怎么都跑了"
+      ],
+      "question_phrases": [
+        "《他们怎么都跑了",
+        "》 《他们怎么都跑了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7113390852357082408",
+      "title": "《我忘得一干二净！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我忘得一干二净",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我忘得一干二净",
+        "》 《我忘得一干二净"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7114497506540571944",
+      "title": "《这就是魔术！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这就是魔术",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《这就是魔术"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7126488959542152488",
+      "title": "《我到底是赢了还是输了？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我到底是赢了还是输了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我到底是赢了还是输了",
+        "》 《我到底是赢了还是输了"
+      ],
+      "question_phrases": [
+        "《我到底是赢了还是输了",
+        "》 《我到底是赢了还是输了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7127529956007054592",
+      "title": "《没一个合适的…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《没一个合适的…》 《没一个合适的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《没一个合适的…》 《没一个合适的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7135266060818844963",
+      "title": "《给我点儿面子不行嘛？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《给我点儿面子不行嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《给我点儿面子不行嘛",
+        "》 《给我点儿面子不行嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7146416073028504847",
+      "title": "《好像哪里不对呢…》#李宗恒 #机械表",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《好像哪里不对呢…》 《好像哪里不对呢…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "机械表"
+      ],
+      "short_phrases": [
+        "《好像哪里不对呢…》 《好像哪里不对呢…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7148400898321042695",
+      "title": "《最后怎么了这是…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《最后怎么了这是…》 《最后怎么了这是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《最后怎么了这是…》 《最后怎么了这是…》"
+      ],
+      "question_phrases": [
+        "《最后怎么了这是…》 《最后怎么了这是…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7159495665347792158",
+      "title": "《今天这事整得…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天这事整得…》 《今天这事整得…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天这事整得…》 《今天这事整得…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7197249734799543610",
+      "title": "《这事…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这事…》 《这事…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这事…》 《这事…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7207258147457715515",
+      "title": "《今天这是…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天这是…》 《今天这是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天这是…》 《今天这是…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7221064431160069432",
+      "title": "《如此约会》#李宗恒#海澜之家 #海澜之家能量幸运衫",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此约会》 《如此约会》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "海澜之家能量幸运衫"
+      ],
+      "short_phrases": [
+        "《如此约会》 《如此约会》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7230628957601680697",
+      "title": "《今天上了一课》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天上了一课》 《今天上了一课》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天上了一课》 《今天上了一课》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7259216776683130131",
+      "title": "《这…》@大连老湿王博文 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这…》@大连老湿王博文 《这…》@大连老湿王博文",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这…》@大连老湿王博文 《这…》@大连老湿王博文"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7298944378301713676",
+      "title": "到底谁技高一筹？#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "到底谁技高一筹",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "到底谁技高一筹"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7312327517866560807",
+      "title": "《如此“叛逆”》#李宗恒#四分半意面 #天猫大牌日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此“叛逆”》 《如此“叛逆”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "天猫大牌日"
+      ],
+      "short_phrases": [
+        "《如此“叛逆”》 《如此“叛逆”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7394661061317627172",
+      "title": "《你的名字》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你的名字》 《你的名字》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你的名字》 《你的名字》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7421747582654860559",
+      "title": "《再改亿下》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《再改亿下》 《再改亿下》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《再改亿下》 《再改亿下》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7444488197377101116",
+      "title": "相亲成功但总感觉有什么地方不对劲… @李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "相亲成功但总感觉有什么地方不对劲… @李宗恒 相亲成功但总感觉有什么地方不对劲… @李宗恒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [
+        "相亲成功但总感觉有什么地方不对劲… @李宗恒 相亲成功但总感觉有什么地方不对劲… @李宗恒"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7448474289319251239",
+      "title": "《幸运的倒霉蛋》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《幸运的倒霉蛋》 《幸运的倒霉蛋》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《幸运的倒霉蛋》 《幸运的倒霉蛋》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7488197351031475475",
+      "title": "《愚人节快乐》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《愚人节快乐》 《愚人节快乐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《愚人节快乐》 《愚人节快乐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7507856541854338330",
+      "title": "《可别再走错了》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《可别再走错了》 《可别再走错了》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《可别再走错了》 《可别再走错了》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7526054162607738121",
+      "title": "这不是倒霉，这是费斯汀格法则。 #李宗恒 #一定要看到最后",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "这不是倒霉，这是费斯汀格法则",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [
+        "这不是倒霉，这是费斯汀格法则"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7546324903940869422",
+      "title": "《一切都是最好的安排》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一切都是最好的安排》 《一切都是最好的安排》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一切都是最好的安排》 《一切都是最好的安排》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7560006263476702515",
+      "title": "《学生出题考老师》 #李宗恒 #一定要看到最后",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《学生出题考老师》 《学生出题考老师》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [
+        "《学生出题考老师》 《学生出题考老师》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7563032930697383214",
+      "title": "《权威课堂！》 #李宗恒 #一定要看到最后",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《权威课堂",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7563964474965626162",
+      "title": "《超高情商的面试》 #李宗恒 #一定要看到最后",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《超高情商的面试》 《超高情商的面试》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [
+        "《超高情商的面试》 《超高情商的面试》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7569572309780171750",
+      "title": "这扯不扯的… #李宗恒 #内容太过真实",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这扯不扯的… 这扯不扯的…",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "李宗恒",
+        "内容太过真实"
+      ],
+      "short_phrases": [
+        "这扯不扯的… 这扯不扯的…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7588555234873832435",
+      "title": "《春晚保留节目：手机魔盗团》 #李宗恒 #一定要看到最后",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《春晚保留节目：手机魔盗团》 《春晚保留节目：手机魔盗团》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [
+        "《春晚保留节目：手机魔盗团》 《春晚保留节目：手机魔盗团》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7603669079937798566",
+      "title": "《用魔法打败魔法》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《用魔法打败魔法》 《用魔法打败魔法》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《用魔法打败魔法》 《用魔法打败魔法》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7641090258805196718",
+      "title": "《墨菲定律，反向应对》 #李宗恒 #一定要看到最后",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《墨菲定律，反向应对》 《墨菲定律，反向应对》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [
+        "《墨菲定律，反向应对》 《墨菲定律，反向应对》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7046225639904447778",
+      "title": "《这是高手！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这是高手",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7050763342469696768",
+      "title": "这次如果不失败还是挺成功的 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这次如果不失败还是挺成功的 这次如果不失败还是挺成功的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7061167639975988495",
+      "title": "《不行嘛？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《不行嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7064084191381671168",
+      "title": "《这猫真狗啊…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这猫真狗啊…》 《这猫真狗啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这猫真狗啊…》 《这猫真狗啊…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7077753644199775523",
+      "title": "《什么玩意啊？！》#李宗恒 #蝴蝶效应",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《什么玩意啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "蝴蝶效应"
+      ],
+      "short_phrases": [
+        "》 《什么玩意啊"
+      ],
+      "question_phrases": [
+        "《什么玩意啊",
+        "》 《什么玩意啊"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7082208277001555235",
+      "title": "《你到底回来干啥来了？》#李宗恒 #穿越",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你到底回来干啥来了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "穿越"
+      ],
+      "short_phrases": [
+        "《你到底回来干啥来了",
+        "》 《你到底回来干啥来了"
+      ],
+      "question_phrases": [
+        "《你到底回来干啥来了",
+        "》 《你到底回来干啥来了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7083424202883206435",
+      "title": "《真狠啊…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《真狠啊…》 《真狠啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《真狠啊…》 《真狠啊…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7090874741170490659",
+      "title": "《这扯不扯…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这扯不扯…》 《这扯不扯…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这扯不扯…》 《这扯不扯…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7093048198851349800",
+      "title": "《梦中梦中梦中梦》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《梦中梦中梦中梦》 《梦中梦中梦中梦》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《梦中梦中梦中梦》 《梦中梦中梦中梦》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7113390852357082408",
+      "title": "《我忘得一干二净！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我忘得一干二净",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我忘得一干二净",
+        "》 《我忘得一干二净"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7114497506540571944",
+      "title": "《这就是魔术！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这就是魔术",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《这就是魔术"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7127529956007054592",
+      "title": "《没一个合适的…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《没一个合适的…》 《没一个合适的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《没一个合适的…》 《没一个合适的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7135266060818844963",
+      "title": "《给我点儿面子不行嘛？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《给我点儿面子不行嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《给我点儿面子不行嘛",
+        "》 《给我点儿面子不行嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7146416073028504847",
+      "title": "《好像哪里不对呢…》#李宗恒 #机械表",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《好像哪里不对呢…》 《好像哪里不对呢…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "机械表"
+      ],
+      "short_phrases": [
+        "《好像哪里不对呢…》 《好像哪里不对呢…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7148400898321042695",
+      "title": "《最后怎么了这是…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《最后怎么了这是…》 《最后怎么了这是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《最后怎么了这是…》 《最后怎么了这是…》"
+      ],
+      "question_phrases": [
+        "《最后怎么了这是…》 《最后怎么了这是…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7159495665347792158",
+      "title": "《今天这事整得…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天这事整得…》 《今天这事整得…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天这事整得…》 《今天这事整得…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7197249734799543610",
+      "title": "《这事…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这事…》 《这事…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这事…》 《这事…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7207258147457715515",
+      "title": "《今天这是…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天这是…》 《今天这是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天这是…》 《今天这是…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7221064431160069432",
+      "title": "《如此约会》#李宗恒#海澜之家 #海澜之家能量幸运衫",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此约会》 《如此约会》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "海澜之家能量幸运衫"
+      ],
+      "short_phrases": [
+        "《如此约会》 《如此约会》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7298944378301713676",
+      "title": "到底谁技高一筹？#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "到底谁技高一筹",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "到底谁技高一筹"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7046225639904447778",
+      "title": "《这是高手！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这是高手",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7050763342469696768",
+      "title": "这次如果不失败还是挺成功的 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这次如果不失败还是挺成功的 这次如果不失败还是挺成功的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7061167639975988495",
+      "title": "《不行嘛？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《不行嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7064084191381671168",
+      "title": "《这猫真狗啊…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这猫真狗啊…》 《这猫真狗啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这猫真狗啊…》 《这猫真狗啊…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7082208277001555235",
+      "title": "《你到底回来干啥来了？》#李宗恒 #穿越",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你到底回来干啥来了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "穿越"
+      ],
+      "short_phrases": [
+        "《你到底回来干啥来了",
+        "》 《你到底回来干啥来了"
+      ],
+      "question_phrases": [
+        "《你到底回来干啥来了",
+        "》 《你到底回来干啥来了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7083424202883206435",
+      "title": "《真狠啊…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《真狠啊…》 《真狠啊…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《真狠啊…》 《真狠啊…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7090874741170490659",
+      "title": "《这扯不扯…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这扯不扯…》 《这扯不扯…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这扯不扯…》 《这扯不扯…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7093048198851349800",
+      "title": "《梦中梦中梦中梦》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《梦中梦中梦中梦》 《梦中梦中梦中梦》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《梦中梦中梦中梦》 《梦中梦中梦中梦》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7113390852357082408",
+      "title": "《我忘得一干二净！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我忘得一干二净",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我忘得一干二净",
+        "》 《我忘得一干二净"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7114497506540571944",
+      "title": "《这就是魔术！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这就是魔术",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《这就是魔术"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7127529956007054592",
+      "title": "《没一个合适的…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《没一个合适的…》 《没一个合适的…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《没一个合适的…》 《没一个合适的…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7135266060818844963",
+      "title": "《给我点儿面子不行嘛？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《给我点儿面子不行嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《给我点儿面子不行嘛",
+        "》 《给我点儿面子不行嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7146416073028504847",
+      "title": "《好像哪里不对呢…》#李宗恒 #机械表",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《好像哪里不对呢…》 《好像哪里不对呢…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "机械表"
+      ],
+      "short_phrases": [
+        "《好像哪里不对呢…》 《好像哪里不对呢…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7159495665347792158",
+      "title": "《今天这事整得…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天这事整得…》 《今天这事整得…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天这事整得…》 《今天这事整得…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7207258147457715515",
+      "title": "《今天这是…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《今天这是…》 《今天这是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《今天这是…》 《今天这是…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7221064431160069432",
+      "title": "《如此约会》#李宗恒#海澜之家 #海澜之家能量幸运衫",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此约会》 《如此约会》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "海澜之家能量幸运衫"
+      ],
+      "short_phrases": [
+        "《如此约会》 《如此约会》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7312327517866560807",
+      "title": "《如此“叛逆”》#李宗恒#四分半意面 #天猫大牌日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此“叛逆”》 《如此“叛逆”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "天猫大牌日"
+      ],
+      "short_phrases": [
+        "《如此“叛逆”》 《如此“叛逆”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7444488197377101116",
+      "title": "相亲成功但总感觉有什么地方不对劲… @李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "相亲成功但总感觉有什么地方不对劲… @李宗恒 相亲成功但总感觉有什么地方不对劲… @李宗恒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [
+        "相亲成功但总感觉有什么地方不对劲… @李宗恒 相亲成功但总感觉有什么地方不对劲… @李宗恒"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7563032930697383214",
+      "title": "《权威课堂！》 #李宗恒 #一定要看到最后",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《权威课堂",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7641090258805196718",
+      "title": "《墨菲定律，反向应对》 #李宗恒 #一定要看到最后",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《墨菲定律，反向应对》 《墨菲定律，反向应对》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到最后"
+      ],
+      "short_phrases": [
+        "《墨菲定律，反向应对》 《墨菲定律，反向应对》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

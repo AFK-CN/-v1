@@ -359,6 +359,8 @@ def latest_sqlite_candidate_records_path(root: Path) -> Path | None:
 def normalize_sqlite_candidate_record(row: dict[str, Any]) -> NormalizedRecord:
     metrics = row.get("metrics", {}) if isinstance(row.get("metrics"), dict) else {}
     tags = row.get("tags", []) if isinstance(row.get("tags"), list) else []
+    suggested = row.get("suggested_directions", []) if isinstance(row.get("suggested_directions"), list) else []
+    source_keyword = str(row.get("source_keyword") or "")
     source_id = str(row.get("source_id") or row.get("stable_id") or "")
     title = str(row.get("title") or "")
     body = str(row.get("summary") or "")
@@ -386,7 +388,7 @@ def normalize_sqlite_candidate_record(row: dict[str, Any]) -> NormalizedRecord:
             "comments": parse_int(metrics.get("comments")),
             "shares": parse_int(metrics.get("shares")),
         },
-        tags=[str(tag) for tag in tags],
+        tags=list(dict.fromkeys([str(tag) for tag in [*tags, *suggested, source_keyword] if str(tag)])),
         url=str(row.get("url") or ""),
         video_download_url=video_download_url,
         text_fingerprint=stable_id,

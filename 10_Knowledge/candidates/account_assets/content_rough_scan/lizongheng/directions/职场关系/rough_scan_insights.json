@@ -1,0 +1,1500 @@
+{
+  "direction": "职场关系",
+  "topic_clusters": [
+    {
+      "topic": "老板",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7471845918145350975",
+          "title": "《谁是老板？？？》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7471845918145350975",
+          "title": "《谁是老板？？？》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7486789767821036863",
+          "title": "《当00后成为了老板》 #李宗恒#零跑汽车 #零跑C16",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7486789767821036863",
+          "title": "《当00后成为了老板》 #李宗恒#零跑汽车 #零跑C16",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7537158061102763315",
+          "title": "《关于员工都比老板有钱这件事》 @李什么闯 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "面试",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7050072209812917519",
+          "title": "无懈可击#李宗恒 #面试",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7052933076619414819",
+          "title": "这次面试的真快啊…#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7402102731986586919",
+          "title": "《反向面试》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7509225154377321778",
+          "title": "《反向面试！重出江湖！》 #李宗恒#小米平板7Ultra #小米15周年献礼 #Ultra屏实力大有可为",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7510068436476480819",
+          "title": "《面试者面试了面试者？？？》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "员工",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7537158061102763315",
+          "title": "《关于员工都比老板有钱这件事》 @李什么闯 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7621064588155108251",
+          "title": "一种很新的员工：预判型员工！ #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7621064588155108251",
+          "title": "一种很新的员工：预判型员工！ #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7629208744215219491",
+          "title": "《关于员工都比老板还有钱这件事？》 @李什么闯 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "公司",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7143813226013150505",
+          "title": "《公司选部门经理 我…》#李宗恒 #别说话我懂你 #遇见懂你的好物 @百植萃官方旗舰店",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7342991417964252455",
+          "title": "你们公司不符合我的要求！#李宗恒#用电脑刷抖音有多爽 #抖音电脑版",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7483103390625516839",
+          "title": "《在公司又没在公司》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7622365691135511851",
+          "title": "《关于公司只养闲人这件事》 @李什么闯 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "班",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7280746714091277604",
+          "title": "《如此上班》#李宗恒#抖音商城超值购真香 #今夜想给月亮满上",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7484218738481401100",
+          "title": "《准时下班！》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7521216372430556467",
+          "title": "《如果上班像去饭店》 @大伟老三 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7559050049197411593",
+          "title": "《旅游上班族》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "上班",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7280746714091277604",
+          "title": "《如此上班》#李宗恒#抖音商城超值购真香 #今夜想给月亮满上",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7521216372430556467",
+          "title": "《如果上班像去饭店》 @大伟老三 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7559050049197411593",
+          "title": "《旅游上班族》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "部门",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7143813226013150505",
+          "title": "《公司选部门经理 我…》#李宗恒 #别说话我懂你 #遇见懂你的好物 @百植萃官方旗舰店",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7316012828563950860",
+          "title": "失眠部门…#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "职场关系",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7484836888973528361",
+          "title": "《“病例式”简历》 #李宗恒 #她们的精选 #每日精选爆款",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7522322749068692774",
+          "title": "当我第一次坐商务座 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7050072209812917519",
+      "title": "无懈可击#李宗恒 #面试",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无懈可击 无懈可击",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "面试"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7052933076619414819",
+      "title": "这次面试的真快啊…#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这次面试的真快啊… 这次面试的真快啊…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "这次面试的真快啊… 这次面试的真快啊…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7108696560447376680",
+      "title": "《准备参加求职节目！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准备参加求职节目",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《准备参加求职节目",
+        "》 《准备参加求职节目"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7119319533495520512",
+      "title": "《不行找个班上吧！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不行找个班上吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《不行找个班上吧",
+        "》 《不行找个班上吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7143813226013150505",
+      "title": "《公司选部门经理 我…》#李宗恒 #别说话我懂你 #遇见懂你的好物 @百植萃官方旗舰店",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《公司选部门经理 我…》 @百植萃官方旗舰店 《公司选部门经理 我…》 @百植萃官方旗舰店",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "别说话我懂你",
+        "遇见懂你的好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7172222564297739533",
+      "title": "《如此“酸”》#李宗恒#找工作就得投得准",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此“酸”》 《如此“酸”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此“酸”》 《如此“酸”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7180636900619849020",
+      "title": "《如此年终奖》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此年终奖》 《如此年终奖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此年终奖》 《如此年终奖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7280746714091277604",
+      "title": "《如此上班》#李宗恒#抖音商城超值购真香 #今夜想给月亮满上",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此上班》 《如此上班》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "今夜想给月亮满上"
+      ],
+      "short_phrases": [
+        "《如此上班》 《如此上班》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7316012828563950860",
+      "title": "失眠部门…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "失眠部门… 失眠部门…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "失眠部门… 失眠部门…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7342991417964252455",
+      "title": "你们公司不符合我的要求！#李宗恒#用电脑刷抖音有多爽 #抖音电脑版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们公司不符合我的要求",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音电脑版"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7346848421979933971",
+      "title": "还有这样整顿职场的…#李宗恒 #飞利浦钻石牙刷 #飞利浦电动牙刷",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "还有这样整顿职场的… 还有这样整顿职场的…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞利浦钻石牙刷",
+        "飞利浦电动牙刷"
+      ],
+      "short_phrases": [
+        "还有这样整顿职场的… 还有这样整顿职场的…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7402102731986586919",
+      "title": "《反向面试》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《反向面试》 《反向面试》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《反向面试》 《反向面试》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7471845918145350975",
+      "title": "《谁是老板？？？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《谁是老板",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7483103390625516839",
+      "title": "《在公司又没在公司》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《在公司又没在公司》 《在公司又没在公司》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《在公司又没在公司》 《在公司又没在公司》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7484218738481401100",
+      "title": "《准时下班！》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准时下班",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7484836888973528361",
+      "title": "《“病例式”简历》 #李宗恒 #她们的精选 #每日精选爆款",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《“病例式”简历》 《“病例式”简历》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "她们的精选",
+        "每日精选爆款"
+      ],
+      "short_phrases": [
+        "《“病例式”简历》 《“病例式”简历》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7486789767821036863",
+      "title": "《当00后成为了老板》 #李宗恒#零跑汽车 #零跑C16",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后成为了老板》 《当00后成为了老板》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "零跑C16"
+      ],
+      "short_phrases": [
+        "《当00后成为了老板》 《当00后成为了老板》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7509225154377321778",
+      "title": "《反向面试！重出江湖！》 #李宗恒#小米平板7Ultra #小米15周年献礼 #Ultra屏实力大有可为",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《反向面试",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "小米15周年献礼",
+        "Ultra屏实力大有可为"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7510068436476480819",
+      "title": "《面试者面试了面试者？？？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《面试者面试了面试者",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《面试者面试了面试者",
+        "》 《面试者面试了面试者"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7521216372430556467",
+      "title": "《如果上班像去饭店》 @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果上班像去饭店》 @大伟老三 《如果上班像去饭店》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果上班像去饭店》 @大伟老三 《如果上班像去饭店》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7523797231017069833",
+      "title": "00后面试的反客为主 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "00后面试的反客为主 00后面试的反客为主",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7537158061102763315",
+      "title": "《关于员工都比老板有钱这件事》 @李什么闯 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《关于员工都比老板有钱这件事》 @李什么闯 《关于员工都比老板有钱这件事》 @李什么闯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "《关于员工都比老板有钱这件事》 @李什么闯 《关于员工都比老板有钱这件事》 @李什么闯"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7544340659134876937",
+      "title": "《和老板的“无笑”沟通》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《和老板的“无笑”沟通》 《和老板的“无笑”沟通》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《和老板的“无笑”沟通》 《和老板的“无笑”沟通》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7551987264202050862",
+      "title": "《关于老板出去挣工资这件事》 #李宗恒#茅台1935喜逢时代芳华 #茅台1935",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《关于老板出去挣工资这件事》 《关于老板出去挣工资这件事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "茅台1935"
+      ],
+      "short_phrases": [
+        "《关于老板出去挣工资这件事》 《关于老板出去挣工资这件事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7552484344628497710",
+      "title": "《当00后成为了面试官》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后成为了面试官》 《当00后成为了面试官》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当00后成为了面试官》 《当00后成为了面试官》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7554293719798304027",
+      "title": "一种很新的老板：“霸道”老板 #李宗恒#亚朵星球深睡枕Pro3 #亚朵星球",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "一种很新的老板：“霸道”老板 一种很新的老板：“霸道”老板",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "亚朵星球"
+      ],
+      "short_phrases": [
+        "一种很新的老板：“霸道”老板 一种很新的老板：“霸道”老板"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7559050049197411593",
+      "title": "《旅游上班族》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《旅游上班族》 《旅游上班族》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《旅游上班族》 《旅游上班族》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7583582164818857243",
+      "title": "《当你“背叛”了饭店老板》 @奥斯卡刘大头 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当你“背叛”了饭店老板》 @奥斯卡刘大头 《当你“背叛”了饭店老板》 @奥斯卡刘大头",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7621064588155108251",
+      "title": "一种很新的员工：预判型员工！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的员工：预判型员工",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的员工：预判型员工"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7622365691135511851",
+      "title": "《关于公司只养闲人这件事》 @李什么闯 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《关于公司只养闲人这件事》 @李什么闯 《关于公司只养闲人这件事》 @李什么闯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "《关于公司只养闲人这件事》 @李什么闯 《关于公司只养闲人这件事》 @李什么闯"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7629208744215219491",
+      "title": "《关于员工都比老板还有钱这件事？》 @李什么闯 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《关于员工都比老板还有钱这件事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《关于员工都比老板还有钱这件事",
+        "》 @李什么闯 《关于员工都比老板还有钱这件事"
+      ],
+      "question_phrases": [
+        "》 @李什么闯 《关于员工都比老板还有钱这件事",
+        "》 @李什么闯"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7050072209812917519",
+      "title": "无懈可击#李宗恒 #面试",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无懈可击 无懈可击",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "面试"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7052933076619414819",
+      "title": "这次面试的真快啊…#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这次面试的真快啊… 这次面试的真快啊…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "这次面试的真快啊… 这次面试的真快啊…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7108696560447376680",
+      "title": "《准备参加求职节目！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准备参加求职节目",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《准备参加求职节目",
+        "》 《准备参加求职节目"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7119319533495520512",
+      "title": "《不行找个班上吧！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不行找个班上吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《不行找个班上吧",
+        "》 《不行找个班上吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7143813226013150505",
+      "title": "《公司选部门经理 我…》#李宗恒 #别说话我懂你 #遇见懂你的好物 @百植萃官方旗舰店",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《公司选部门经理 我…》 @百植萃官方旗舰店 《公司选部门经理 我…》 @百植萃官方旗舰店",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "别说话我懂你",
+        "遇见懂你的好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7172222564297739533",
+      "title": "《如此“酸”》#李宗恒#找工作就得投得准",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此“酸”》 《如此“酸”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此“酸”》 《如此“酸”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7180636900619849020",
+      "title": "《如此年终奖》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此年终奖》 《如此年终奖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此年终奖》 《如此年终奖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7280746714091277604",
+      "title": "《如此上班》#李宗恒#抖音商城超值购真香 #今夜想给月亮满上",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此上班》 《如此上班》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "今夜想给月亮满上"
+      ],
+      "short_phrases": [
+        "《如此上班》 《如此上班》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7316012828563950860",
+      "title": "失眠部门…#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "失眠部门… 失眠部门…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "失眠部门… 失眠部门…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7342991417964252455",
+      "title": "你们公司不符合我的要求！#李宗恒#用电脑刷抖音有多爽 #抖音电脑版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们公司不符合我的要求",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音电脑版"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7346848421979933971",
+      "title": "还有这样整顿职场的…#李宗恒 #飞利浦钻石牙刷 #飞利浦电动牙刷",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "还有这样整顿职场的… 还有这样整顿职场的…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞利浦钻石牙刷",
+        "飞利浦电动牙刷"
+      ],
+      "short_phrases": [
+        "还有这样整顿职场的… 还有这样整顿职场的…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7402102731986586919",
+      "title": "《反向面试》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《反向面试》 《反向面试》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《反向面试》 《反向面试》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7471845918145350975",
+      "title": "《谁是老板？？？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《谁是老板",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7483103390625516839",
+      "title": "《在公司又没在公司》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《在公司又没在公司》 《在公司又没在公司》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《在公司又没在公司》 《在公司又没在公司》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7484218738481401100",
+      "title": "《准时下班！》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准时下班",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7486789767821036863",
+      "title": "《当00后成为了老板》 #李宗恒#零跑汽车 #零跑C16",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后成为了老板》 《当00后成为了老板》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "零跑C16"
+      ],
+      "short_phrases": [
+        "《当00后成为了老板》 《当00后成为了老板》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7509225154377321778",
+      "title": "《反向面试！重出江湖！》 #李宗恒#小米平板7Ultra #小米15周年献礼 #Ultra屏实力大有可为",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《反向面试",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "小米15周年献礼",
+        "Ultra屏实力大有可为"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7510068436476480819",
+      "title": "《面试者面试了面试者？？？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《面试者面试了面试者",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《面试者面试了面试者",
+        "》 《面试者面试了面试者"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7521216372430556467",
+      "title": "《如果上班像去饭店》 @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果上班像去饭店》 @大伟老三 《如果上班像去饭店》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果上班像去饭店》 @大伟老三 《如果上班像去饭店》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7523797231017069833",
+      "title": "00后面试的反客为主 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "00后面试的反客为主 00后面试的反客为主",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7050072209812917519",
+      "title": "无懈可击#李宗恒 #面试",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "无懈可击 无懈可击",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "面试"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7052933076619414819",
+      "title": "这次面试的真快啊…#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这次面试的真快啊… 这次面试的真快啊…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "这次面试的真快啊… 这次面试的真快啊…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7108696560447376680",
+      "title": "《准备参加求职节目！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准备参加求职节目",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《准备参加求职节目",
+        "》 《准备参加求职节目"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7119319533495520512",
+      "title": "《不行找个班上吧！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不行找个班上吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《不行找个班上吧",
+        "》 《不行找个班上吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7143813226013150505",
+      "title": "《公司选部门经理 我…》#李宗恒 #别说话我懂你 #遇见懂你的好物 @百植萃官方旗舰店",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《公司选部门经理 我…》 @百植萃官方旗舰店 《公司选部门经理 我…》 @百植萃官方旗舰店",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "别说话我懂你",
+        "遇见懂你的好物"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7172222564297739533",
+      "title": "《如此“酸”》#李宗恒#找工作就得投得准",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此“酸”》 《如此“酸”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此“酸”》 《如此“酸”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7180636900619849020",
+      "title": "《如此年终奖》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此年终奖》 《如此年终奖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此年终奖》 《如此年终奖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7280746714091277604",
+      "title": "《如此上班》#李宗恒#抖音商城超值购真香 #今夜想给月亮满上",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此上班》 《如此上班》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "今夜想给月亮满上"
+      ],
+      "short_phrases": [
+        "《如此上班》 《如此上班》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7342991417964252455",
+      "title": "你们公司不符合我的要求！#李宗恒#用电脑刷抖音有多爽 #抖音电脑版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们公司不符合我的要求",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音电脑版"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7346848421979933971",
+      "title": "还有这样整顿职场的…#李宗恒 #飞利浦钻石牙刷 #飞利浦电动牙刷",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "还有这样整顿职场的… 还有这样整顿职场的…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "飞利浦钻石牙刷",
+        "飞利浦电动牙刷"
+      ],
+      "short_phrases": [
+        "还有这样整顿职场的… 还有这样整顿职场的…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7483103390625516839",
+      "title": "《在公司又没在公司》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《在公司又没在公司》 《在公司又没在公司》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《在公司又没在公司》 《在公司又没在公司》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7486789767821036863",
+      "title": "《当00后成为了老板》 #李宗恒#零跑汽车 #零跑C16",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《当00后成为了老板》 《当00后成为了老板》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "零跑C16"
+      ],
+      "short_phrases": [
+        "《当00后成为了老板》 《当00后成为了老板》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7509225154377321778",
+      "title": "《反向面试！重出江湖！》 #李宗恒#小米平板7Ultra #小米15周年献礼 #Ultra屏实力大有可为",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《反向面试",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "小米15周年献礼",
+        "Ultra屏实力大有可为"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7521216372430556467",
+      "title": "《如果上班像去饭店》 @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果上班像去饭店》 @大伟老三 《如果上班像去饭店》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果上班像去饭店》 @大伟老三 《如果上班像去饭店》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7551987264202050862",
+      "title": "《关于老板出去挣工资这件事》 #李宗恒#茅台1935喜逢时代芳华 #茅台1935",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《关于老板出去挣工资这件事》 《关于老板出去挣工资这件事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "茅台1935"
+      ],
+      "short_phrases": [
+        "《关于老板出去挣工资这件事》 《关于老板出去挣工资这件事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7554293719798304027",
+      "title": "一种很新的老板：“霸道”老板 #李宗恒#亚朵星球深睡枕Pro3 #亚朵星球",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "一种很新的老板：“霸道”老板 一种很新的老板：“霸道”老板",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "亚朵星球"
+      ],
+      "short_phrases": [
+        "一种很新的老板：“霸道”老板 一种很新的老板：“霸道”老板"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7559050049197411593",
+      "title": "《旅游上班族》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《旅游上班族》 《旅游上班族》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《旅游上班族》 《旅游上班族》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7583582164818857243",
+      "title": "《当你“背叛”了饭店老板》 @奥斯卡刘大头 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当你“背叛”了饭店老板》 @奥斯卡刘大头 《当你“背叛”了饭店老板》 @奥斯卡刘大头",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7621064588155108251",
+      "title": "一种很新的员工：预判型员工！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的员工：预判型员工",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的员工：预判型员工"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7629208744215219491",
+      "title": "《关于员工都比老板还有钱这件事？》 @李什么闯 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《关于员工都比老板还有钱这件事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《关于员工都比老板还有钱这件事",
+        "》 @李什么闯 《关于员工都比老板还有钱这件事"
+      ],
+      "question_phrases": [
+        "》 @李什么闯 《关于员工都比老板还有钱这件事",
+        "》 @李什么闯"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

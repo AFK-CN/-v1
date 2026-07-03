@@ -1,0 +1,2150 @@
+{
+  "direction": "爱情关系喜剧",
+  "topic_clusters": [
+    {
+      "topic": "恋爱",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7109426692552264960",
+          "title": "《我是恋爱专家 听说你找我？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7109849809120513321",
+          "title": "《参加恋爱综艺》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7383232787051990284",
+          "title": "《如果恋爱是大学必修课》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7630617471506683507",
+          "title": "《恋爱脑用在事业上》第一集 @钟婷xo #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7631729733899030346",
+          "title": "《恋爱脑用在事业上》第二集 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "相亲",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7099648836808740136",
+          "title": "《准备参加相亲节目》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7100762116042362153",
+          "title": "《换个相亲节目参加》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7194511396678225212",
+          "title": "《如此相亲》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7205788462992215356",
+          "title": "《相亲成功！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7270049054879403275",
+          "title": "《这相亲相的…》@刘大悦er #李宗恒#我的口味果然缤纷",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "分手",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7165484020560678180",
+          "title": "《如此分手》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7241039916690410763",
+          "title": "《分手手公司？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7265154947497397558",
+          "title": "《分手也不耽误打麻将！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7268505196739693887",
+          "title": "《分手吧！累了！》#李宗恒#抖音七夕好礼季 #一份好礼两厢欢喜",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7296017525773471017",
+          "title": "《分手也不耽误带货！》#李宗恒#娇兰第三代黄金复原蜜",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "舔",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7116784643399044392",
+          "title": "《舔🐶变形计？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7121547737086184704",
+          "title": "《舔🐶大赛？？？》#李宗恒 #天猫超级品牌日#要低糖更要好喝",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7131186704421047593",
+          "title": "《舔🐶巅峰》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7147611211419405568",
+          "title": "《共享舔🐶》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7163106307069709581",
+          "title": "《我不是舔神？》#李宗恒#抖音双11好物节 #美好生活尽在抖音电商",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "爱",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7109426692552264960",
+          "title": "《我是恋爱专家 听说你找我？》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7109849809120513321",
+          "title": "《参加恋爱综艺》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7353559755618635058",
+          "title": "一个扶梯 两种爱情",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7383232787051990284",
+          "title": "《如果恋爱是大学必修课》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7392098046609313036",
+          "title": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "爱情关系喜剧",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7340116695635201321",
+          "title": "《我知女人心》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7348631620921986315",
+          "title": "当霸总破产后，是这样的…#李宗恒#时温的旅行",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7362034104105307433",
+          "title": "《当霸道总裁参加辩论赛》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7367234649040489769",
+          "title": "当霸总第一次打麻将……#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7370182663275105572",
+          "title": "《当霸总去玩密室逃脱？？？》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "爱情",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7353559755618635058",
+          "title": "一个扶梯 两种爱情",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7392098046609313036",
+          "title": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7420272080593112335",
+          "title": "《一个地方 两种爱情》 @鑫淼 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7530883576863952137",
+          "title": "《爱情退场 事业登场！》 #李宗恒#冰梅见",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "女朋友",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7204355023176830269",
+          "title": "《如此哄女朋友》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7204355023176830269",
+          "title": "《如此哄女朋友》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7544674532553231666",
+          "title": "《和女朋友的无效沟通》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7544674532553231666",
+          "title": "《和女朋友的无效沟通》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7018766905863425315",
+      "title": "《一定要关心女生》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一定要关心女生》 《一定要关心女生》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一定要关心女生》 《一定要关心女生》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7031013739444882703",
+      "title": "《大无语》#李宗恒 #网恋 #奔现",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《大无语》 《大无语》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "网恋",
+        "奔现"
+      ],
+      "short_phrases": [
+        "《大无语》 《大无语》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7099648836808740136",
+      "title": "《准备参加相亲节目》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准备参加相亲节目》 《准备参加相亲节目》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《准备参加相亲节目》 《准备参加相亲节目》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7100762116042362153",
+      "title": "《换个相亲节目参加》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《换个相亲节目参加》 《换个相亲节目参加》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《换个相亲节目参加》 《换个相亲节目参加》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7109426692552264960",
+      "title": "《我是恋爱专家 听说你找我？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我是恋爱专家 听说你找我",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我是恋爱专家 听说你找我",
+        "》 《我是恋爱专家 听说你找我"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7109849809120513321",
+      "title": "《参加恋爱综艺》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《参加恋爱综艺》 《参加恋爱综艺》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《参加恋爱综艺》 《参加恋爱综艺》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7115324667472268585",
+      "title": "《暖她一整天》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《暖她一整天》 《暖她一整天》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《暖她一整天》 《暖她一整天》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7116784643399044392",
+      "title": "《舔🐶变形计？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔🐶变形计",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《舔🐶变形计"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7123156785032088866",
+      "title": "《怕媳妇大赛？？？》#李宗恒 #机械表 #七夕礼物",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怕媳妇大赛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "机械表",
+        "七夕礼物"
+      ],
+      "short_phrases": [
+        "》 《怕媳妇大赛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7125995201667058944",
+      "title": "《单身🐶大赛》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《单身🐶大赛》 《单身🐶大赛》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《单身🐶大赛》 《单身🐶大赛》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7130448561673604352",
+      "title": "《我是异地恋模范！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我是异地恋模范",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我是异地恋模范",
+        "》 《我是异地恋模范"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7131186704421047593",
+      "title": "《舔🐶巅峰》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《舔🐶巅峰》 《舔🐶巅峰》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《舔🐶巅峰》 《舔🐶巅峰》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7133046478397852962",
+      "title": "《男女之间真的有纯友谊吗？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《男女之间真的有纯友谊吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《男女之间真的有纯友谊吗",
+        "》 《男女之间真的有纯友谊吗"
+      ],
+      "question_phrases": [
+        "《男女之间真的有纯友谊吗",
+        "》 《男女之间真的有纯友谊吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7147611211419405568",
+      "title": "《共享舔🐶》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《共享舔🐶》 《共享舔🐶》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《共享舔🐶》 《共享舔🐶》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7155901897591901471",
+      "title": "《霸总男友》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《霸总男友》 《霸总男友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《霸总男友》 《霸总男友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7163106307069709581",
+      "title": "《我不是舔神？》#李宗恒#抖音双11好物节 #美好生活尽在抖音电商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我不是舔神",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "美好生活尽在抖音电商"
+      ],
+      "short_phrases": [
+        "》 《我不是舔神"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7164229697142934814",
+      "title": "《第六届舔🐶大赛！》#李宗恒 #百种造型贴士",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《第六届舔🐶大赛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "百种造型贴士"
+      ],
+      "short_phrases": [
+        "《第六届舔🐶大赛",
+        "》 《第六届舔🐶大赛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7165484020560678180",
+      "title": "《如此分手》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此分手》 《如此分手》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此分手》 《如此分手》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7182548002966424869",
+      "title": "《如此舔🐶》#李宗恒#娇兰新年娇红运 #娇兰口红",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此舔🐶》 《如此舔🐶》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "娇兰口红"
+      ],
+      "short_phrases": [
+        "《如此舔🐶》 《如此舔🐶》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7194511396678225212",
+      "title": "《如此相亲》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此相亲》 《如此相亲》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此相亲》 《如此相亲》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7204355023176830269",
+      "title": "《如此哄女朋友》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此哄女朋友》 《如此哄女朋友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此哄女朋友》 《如此哄女朋友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7208153808625487165",
+      "title": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗！快@你的冤种兄弟来看看！~#大白show #李宗恒 #喜剧 #春晚 #舔狗 #抖音蓝海计划",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大白show",
+        "李宗恒",
+        "喜剧",
+        "春晚",
+        "舔狗",
+        "抖音蓝海计划"
+      ],
+      "short_phrases": [
+        "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗",
+        "快@你的冤种兄弟来看看",
+        "~ 《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7217784811123952933",
+      "title": "《如果处对象是这样》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果处对象是这样》 《如果处对象是这样》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果处对象是这样》 《如果处对象是这样》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7241039916690410763",
+      "title": "《分手手公司？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《分手手公司",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《分手手公司"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7248825008494071043",
+      "title": "《其实浪漫很简单》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《其实浪漫很简单》 《其实浪漫很简单》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《其实浪漫很简单》 《其实浪漫很简单》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7254044380347108619",
+      "title": "《女友水平考试》#李宗恒#欧乐b电动牙刷",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《女友水平考试》 《女友水平考试》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《女友水平考试》 《女友水平考试》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7260391957950663948",
+      "title": "《前任驾校？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《前任驾校",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7263290694796692777",
+      "title": "《前任理发店》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《前任理发店》 《前任理发店》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《前任理发店》 《前任理发店》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7265154947497397558",
+      "title": "《分手也不耽误打麻将！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《分手也不耽误打麻将",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《分手也不耽误打麻将",
+        "》 《分手也不耽误打麻将"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7268505196739693887",
+      "title": "《分手吧！累了！》#李宗恒#抖音七夕好礼季 #一份好礼两厢欢喜",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《分手吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一份好礼两厢欢喜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7270049054879403275",
+      "title": "《这相亲相的…》@刘大悦er #李宗恒#我的口味果然缤纷",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这相亲相的…》@刘大悦er 《这相亲相的…》@刘大悦er",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这相亲相的…》@刘大悦er 《这相亲相的…》@刘大悦er"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7273355422092889363",
+      "title": "《以前有钢铁直男，现在有拿铁直男》#李宗恒##新一代oppo小折叠 OPPO Find N3 Flip",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《以前有钢铁直男，现在有拿铁直男》 # OPPO Find N3 Flip 《以前有钢铁直男，现在有拿铁直男》 # OPPO Find N3 Flip",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "新一代oppo小折叠"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7282616529890397479",
+      "title": "一种很新的男友，必须要硬气！#李宗恒 #全明星街球派对",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的男友，必须要硬气",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "全明星街球派对"
+      ],
+      "short_phrases": [
+        "一种很新的男友，必须要硬气"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7284107521810320652",
+      "title": "一种很新的男友：“超听话”男友！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的男友：“超听话”男友",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的男友：“超听话”男友"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7296017525773471017",
+      "title": "《分手也不耽误带货！》#李宗恒#娇兰第三代黄金复原蜜",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《分手也不耽误带货",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《分手也不耽误带货",
+        "》 《分手也不耽误带货"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7305234005912259879",
+      "title": "《这相亲相的……》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这相亲相的……》 《这相亲相的……》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这相亲相的……》 《这相亲相的……》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7308594033859890444",
+      "title": "《“分手”耳机？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《“分手”耳机",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《“分手”耳机"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7330497942127693097",
+      "title": "《男闺蜜》#李宗恒#祝你kfc祝你快发财 #肯德基",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《男闺蜜》 《男闺蜜》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "肯德基"
+      ],
+      "short_phrases": [
+        "《男闺蜜》 《男闺蜜》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7340116695635201321",
+      "title": "《我知女人心》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我知女人心》 《我知女人心》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我知女人心》 《我知女人心》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7348631620921986315",
+      "title": "当霸总破产后，是这样的…#李宗恒#时温的旅行",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "当霸总破产后，是这样的… 当霸总破产后，是这样的…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "当霸总破产后，是这样的… 当霸总破产后，是这样的…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7353559755618635058",
+      "title": "一个扶梯 两种爱情",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一个扶梯 两种爱情 一个扶梯 两种爱情",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7362034104105307433",
+      "title": "《当霸道总裁参加辩论赛》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当霸道总裁参加辩论赛》 《当霸道总裁参加辩论赛》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当霸道总裁参加辩论赛》 《当霸道总裁参加辩论赛》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7367234649040489769",
+      "title": "当霸总第一次打麻将……#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "当霸总第一次打麻将…… 当霸总第一次打麻将……",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "当霸总第一次打麻将…… 当霸总第一次打麻将……"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7370182663275105572",
+      "title": "《当霸总去玩密室逃脱？？？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《当霸总去玩密室逃脱",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当霸总去玩密室逃脱",
+        "》 《当霸总去玩密室逃脱"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7374226712890068236",
+      "title": "《舔狗向前冲？？？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔狗向前冲",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《舔狗向前冲"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7383232787051990284",
+      "title": "《如果恋爱是大学必修课》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果恋爱是大学必修课》 《如果恋爱是大学必修课》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果恋爱是大学必修课》 《如果恋爱是大学必修课》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7383989741491997988",
+      "title": "《新型电子约会？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《新型电子约会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《新型电子约会"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7392098046609313036",
+      "title": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7420272080593112335",
+      "title": "《一个地方 两种爱情》 @鑫淼 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一个地方 两种爱情》 @鑫淼 《一个地方 两种爱情》 @鑫淼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一个地方 两种爱情》 @鑫淼 《一个地方 两种爱情》 @鑫淼"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7423267323160694068",
+      "title": "《前任面试官》 @鑫淼 #李宗恒#OLAY抗糖小白瓶",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《前任面试官》 @鑫淼 《前任面试官》 @鑫淼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《前任面试官》 @鑫淼 《前任面试官》 @鑫淼"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7442623757321047296",
+      "title": "分手也不耽误吃火锅？？？ @钟婷xo #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "分手也不耽误吃火锅",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@钟婷xo 分手也不耽误吃火锅"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7449358320370076964",
+      "title": "《舔狗导航？？？》 @高德地图 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔狗导航",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 @高德地图 《舔狗导航"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7450985148704705804",
+      "title": "《舔狗的反客为主！》 @钟婷xo #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《舔狗的反客为主",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《舔狗的反客为主",
+        "》 @钟婷xo 《舔狗的反客为主"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7493014364048329996",
+      "title": "《“被暗恋”妄想症》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《“被暗恋”妄想症》 《“被暗恋”妄想症》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《“被暗恋”妄想症》 《“被暗恋”妄想症》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7501249219760819519",
+      "title": "你见过这样“哭穷”的人吗？ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "你见过这样“哭穷”的人吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你见过这样“哭穷”的人吗"
+      ],
+      "question_phrases": [
+        "你见过这样“哭穷”的人吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7516746164491619610",
+      "title": "《5G极速情侣》 @张小婉🧚🏻‍♀️ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《5G极速情侣》 @张小婉🧚🏻‍♀️ 《5G极速情侣》 @张小婉🧚🏻‍♀️",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《5G极速情侣》 @张小婉🧚🏻‍♀️ 《5G极速情侣》 @张小婉🧚🏻‍♀️"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7525341422683344179",
+      "title": "《大脑单身部》 #李宗恒#今日宜养生 #爆笑喜综带你养生 #劲酒带你开把养生局",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《大脑单身部》 《大脑单身部》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "爆笑喜综带你养生",
+        "劲酒带你开把养生局"
+      ],
+      "short_phrases": [
+        "《大脑单身部》 《大脑单身部》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "相关度或热度未进入本轮候补范围"
+    },
+    {
+      "source_id": "7530883576863952137",
+      "title": "《爱情退场 事业登场！》 #李宗恒#冰梅见",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《爱情退场 事业登场",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《爱情退场 事业登场",
+        "》 《爱情退场 事业登场"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7544674532553231666",
+      "title": "《和女朋友的无效沟通》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《和女朋友的无效沟通》 《和女朋友的无效沟通》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《和女朋友的无效沟通》 《和女朋友的无效沟通》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7630617471506683507",
+      "title": "《恋爱脑用在事业上》第一集 @钟婷xo #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《恋爱脑用在事业上》第一集 @钟婷xo 《恋爱脑用在事业上》第一集 @钟婷xo",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7631729733899030346",
+      "title": "《恋爱脑用在事业上》第二集 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《恋爱脑用在事业上》第二集 《恋爱脑用在事业上》第二集",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《恋爱脑用在事业上》第二集 《恋爱脑用在事业上》第二集"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7633928127651370378",
+      "title": "《恋爱脑用在事业上》第三集！ #李宗恒#宁德时代 #宁德时代麒麟电池 #宁德时代超级科技日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《恋爱脑用在事业上》第三集",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "宁德时代麒麟电池",
+        "宁德时代超级科技日"
+      ],
+      "short_phrases": [
+        "《恋爱脑用在事业上》第三集"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7637970474165958067",
+      "title": "《当恋爱脑用在事业上》第四集 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当恋爱脑用在事业上》第四集 《当恋爱脑用在事业上》第四集",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当恋爱脑用在事业上》第四集 《当恋爱脑用在事业上》第四集"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7031013739444882703",
+      "title": "《大无语》#李宗恒 #网恋 #奔现",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《大无语》 《大无语》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "网恋",
+        "奔现"
+      ],
+      "short_phrases": [
+        "《大无语》 《大无语》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7099648836808740136",
+      "title": "《准备参加相亲节目》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《准备参加相亲节目》 《准备参加相亲节目》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《准备参加相亲节目》 《准备参加相亲节目》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7123156785032088866",
+      "title": "《怕媳妇大赛？？？》#李宗恒 #机械表 #七夕礼物",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怕媳妇大赛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "机械表",
+        "七夕礼物"
+      ],
+      "short_phrases": [
+        "》 《怕媳妇大赛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7131186704421047593",
+      "title": "《舔🐶巅峰》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《舔🐶巅峰》 《舔🐶巅峰》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《舔🐶巅峰》 《舔🐶巅峰》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7133046478397852962",
+      "title": "《男女之间真的有纯友谊吗？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《男女之间真的有纯友谊吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《男女之间真的有纯友谊吗",
+        "》 《男女之间真的有纯友谊吗"
+      ],
+      "question_phrases": [
+        "《男女之间真的有纯友谊吗",
+        "》 《男女之间真的有纯友谊吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7147611211419405568",
+      "title": "《共享舔🐶》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《共享舔🐶》 《共享舔🐶》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《共享舔🐶》 《共享舔🐶》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7155901897591901471",
+      "title": "《霸总男友》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《霸总男友》 《霸总男友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《霸总男友》 《霸总男友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7165484020560678180",
+      "title": "《如此分手》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此分手》 《如此分手》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此分手》 《如此分手》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7204355023176830269",
+      "title": "《如此哄女朋友》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此哄女朋友》 《如此哄女朋友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此哄女朋友》 《如此哄女朋友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7208153808625487165",
+      "title": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗！快@你的冤种兄弟来看看！~#大白show #李宗恒 #喜剧 #春晚 #舔狗 #抖音蓝海计划",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大白show",
+        "李宗恒",
+        "喜剧",
+        "春晚",
+        "舔狗",
+        "抖音蓝海计划"
+      ],
+      "short_phrases": [
+        "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗",
+        "快@你的冤种兄弟来看看",
+        "~ 《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7260391957950663948",
+      "title": "《前任驾校？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《前任驾校",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7265154947497397558",
+      "title": "《分手也不耽误打麻将！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《分手也不耽误打麻将",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《分手也不耽误打麻将",
+        "》 《分手也不耽误打麻将"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7268505196739693887",
+      "title": "《分手吧！累了！》#李宗恒#抖音七夕好礼季 #一份好礼两厢欢喜",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《分手吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一份好礼两厢欢喜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7273355422092889363",
+      "title": "《以前有钢铁直男，现在有拿铁直男》#李宗恒##新一代oppo小折叠 OPPO Find N3 Flip",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《以前有钢铁直男，现在有拿铁直男》 # OPPO Find N3 Flip 《以前有钢铁直男，现在有拿铁直男》 # OPPO Find N3 Flip",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "新一代oppo小折叠"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7282616529890397479",
+      "title": "一种很新的男友，必须要硬气！#李宗恒 #全明星街球派对",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的男友，必须要硬气",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "全明星街球派对"
+      ],
+      "short_phrases": [
+        "一种很新的男友，必须要硬气"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7284107521810320652",
+      "title": "一种很新的男友：“超听话”男友！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的男友：“超听话”男友",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的男友：“超听话”男友"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7353559755618635058",
+      "title": "一个扶梯 两种爱情",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一个扶梯 两种爱情 一个扶梯 两种爱情",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7374226712890068236",
+      "title": "《舔狗向前冲？？？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔狗向前冲",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《舔狗向前冲"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7383232787051990284",
+      "title": "《如果恋爱是大学必修课》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果恋爱是大学必修课》 《如果恋爱是大学必修课》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果恋爱是大学必修课》 《如果恋爱是大学必修课》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7392098046609313036",
+      "title": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7031013739444882703",
+      "title": "《大无语》#李宗恒 #网恋 #奔现",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《大无语》 《大无语》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "网恋",
+        "奔现"
+      ],
+      "short_phrases": [
+        "《大无语》 《大无语》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7123156785032088866",
+      "title": "《怕媳妇大赛？？？》#李宗恒 #机械表 #七夕礼物",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怕媳妇大赛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "机械表",
+        "七夕礼物"
+      ],
+      "short_phrases": [
+        "》 《怕媳妇大赛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7133046478397852962",
+      "title": "《男女之间真的有纯友谊吗？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《男女之间真的有纯友谊吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《男女之间真的有纯友谊吗",
+        "》 《男女之间真的有纯友谊吗"
+      ],
+      "question_phrases": [
+        "《男女之间真的有纯友谊吗",
+        "》 《男女之间真的有纯友谊吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7147611211419405568",
+      "title": "《共享舔🐶》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《共享舔🐶》 《共享舔🐶》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《共享舔🐶》 《共享舔🐶》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7155901897591901471",
+      "title": "《霸总男友》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《霸总男友》 《霸总男友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《霸总男友》 《霸总男友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7204355023176830269",
+      "title": "《如此哄女朋友》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此哄女朋友》 《如此哄女朋友》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此哄女朋友》 《如此哄女朋友》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7208153808625487165",
+      "title": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗！快@你的冤种兄弟来看看！~#大白show #李宗恒 #喜剧 #春晚 #舔狗 #抖音蓝海计划",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "大白show",
+        "李宗恒",
+        "喜剧",
+        "春晚",
+        "舔狗",
+        "抖音蓝海计划"
+      ],
+      "short_phrases": [
+        "《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗",
+        "快@你的冤种兄弟来看看",
+        "~ 《独家专访李宗恒》剧本来源于生活之我有个朋友是舔狗"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7268505196739693887",
+      "title": "《分手吧！累了！》#李宗恒#抖音七夕好礼季 #一份好礼两厢欢喜",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《分手吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一份好礼两厢欢喜"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7273355422092889363",
+      "title": "《以前有钢铁直男，现在有拿铁直男》#李宗恒##新一代oppo小折叠 OPPO Find N3 Flip",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《以前有钢铁直男，现在有拿铁直男》 # OPPO Find N3 Flip 《以前有钢铁直男，现在有拿铁直男》 # OPPO Find N3 Flip",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "新一代oppo小折叠"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7284107521810320652",
+      "title": "一种很新的男友：“超听话”男友！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的男友：“超听话”男友",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的男友：“超听话”男友"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7383232787051990284",
+      "title": "《如果恋爱是大学必修课》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果恋爱是大学必修课》 《如果恋爱是大学必修课》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果恋爱是大学必修课》 《如果恋爱是大学必修课》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7392098046609313036",
+      "title": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡 这部电影里，我走的是颜值路线… @喜剧爱情电影她的小梨涡",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7420272080593112335",
+      "title": "《一个地方 两种爱情》 @鑫淼 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一个地方 两种爱情》 @鑫淼 《一个地方 两种爱情》 @鑫淼",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一个地方 两种爱情》 @鑫淼 《一个地方 两种爱情》 @鑫淼"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7449358320370076964",
+      "title": "《舔狗导航？？？》 @高德地图 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《舔狗导航",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 @高德地图 《舔狗导航"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7530883576863952137",
+      "title": "《爱情退场 事业登场！》 #李宗恒#冰梅见",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《爱情退场 事业登场",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《爱情退场 事业登场",
+        "》 《爱情退场 事业登场"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7544674532553231666",
+      "title": "《和女朋友的无效沟通》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《和女朋友的无效沟通》 《和女朋友的无效沟通》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《和女朋友的无效沟通》 《和女朋友的无效沟通》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7630617471506683507",
+      "title": "《恋爱脑用在事业上》第一集 @钟婷xo #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《恋爱脑用在事业上》第一集 @钟婷xo 《恋爱脑用在事业上》第一集 @钟婷xo",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7631729733899030346",
+      "title": "《恋爱脑用在事业上》第二集 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《恋爱脑用在事业上》第二集 《恋爱脑用在事业上》第二集",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《恋爱脑用在事业上》第二集 《恋爱脑用在事业上》第二集"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7633928127651370378",
+      "title": "《恋爱脑用在事业上》第三集！ #李宗恒#宁德时代 #宁德时代麒麟电池 #宁德时代超级科技日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《恋爱脑用在事业上》第三集",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "宁德时代麒麟电池",
+        "宁德时代超级科技日"
+      ],
+      "short_phrases": [
+        "《恋爱脑用在事业上》第三集"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7637970474165958067",
+      "title": "《当恋爱脑用在事业上》第四集 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当恋爱脑用在事业上》第四集 《当恋爱脑用在事业上》第四集",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当恋爱脑用在事业上》第四集 《当恋爱脑用在事业上》第四集"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

@@ -1,0 +1,1418 @@
+{
+  "direction": "性格标签与情绪自洽",
+  "topic_clusters": [
+    {
+      "topic": "社恐",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7225106446592068919",
+          "title": "第一次走红毯 确实有点社牛变社恐了…#李宗恒 #人生路不熟",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7271632755094605068",
+          "title": "社恐版？？？#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7333420235430563135",
+          "title": "我是真社恐啊……#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7530528075193994542",
+          "title": "《当社恐人点外卖》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7607169060182626459",
+          "title": "小品里真社牛，现实里真社恐呀！ #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "性格标签与情绪自洽",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7154319089714892069",
+          "title": "《聪明》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7155304931602337031",
+          "title": "《机智》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7397670992409038091",
+          "title": "《就是硬要享福》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7507066441965112586",
+          "title": "《傻人有傻福？？？》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7515368262085414181",
+          "title": "哄好自己！ #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "夸我",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7122656151740615970",
+          "title": "《怎么总夸我呢？》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7145706087914769698",
+          "title": "《你们都夸我一天啦！》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "听话",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7134577389979454760",
+          "title": "《我还不够听话嘛？》#李宗恒 #元气可乐 #不后悔可乐",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7628822921192865498",
+          "title": "看似听话，实则一身反骨！ #李宗恒#亚朵星球深睡被Pro3",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "体面",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7330864862572154148",
+          "title": "可以说是非常体面了！#李宗恒#抖音龙年好戏大赏",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7460812284345027851",
+          "title": "表面非常体面，实则废话连篇！ #李宗恒 #抖音新春特别会 #欢笑中国年",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "着急",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7140837800848444672",
+          "title": "《我特别着急！》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7404408314588695849",
+          "title": "哥！我着急下班呀！ @脸脸·于洋 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "非常体面",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7330864862572154148",
+          "title": "可以说是非常体面了！#李宗恒#抖音龙年好戏大赏",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7460812284345027851",
+          "title": "表面非常体面，实则废话连篇！ #李宗恒 #抖音新春特别会 #欢笑中国年",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "情绪",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7539064028883176754",
+          "title": "《关于驾校给提供情绪价值这件事》 #李宗恒#XC70把你当宝贝宠 #8月27日沃尔沃全新XC70预售开启",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7048582783924587810",
+      "title": "难受… #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "难受… 难受…",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7106698967450127631",
+      "title": "《容貌焦虑！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《容貌焦虑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7122656151740615970",
+      "title": "《怎么总夸我呢？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怎么总夸我呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《怎么总夸我呢"
+      ],
+      "question_phrases": [
+        "《怎么总夸我呢",
+        "》 《怎么总夸我呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7134577389979454760",
+      "title": "《我还不够听话嘛？》#李宗恒 #元气可乐 #不后悔可乐",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我还不够听话嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "元气可乐",
+        "不后悔可乐"
+      ],
+      "short_phrases": [
+        "《我还不够听话嘛",
+        "》 《我还不够听话嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7140837800848444672",
+      "title": "《我特别着急！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《我特别着急",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我特别着急"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7145706087914769698",
+      "title": "《你们都夸我一天啦！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你们都夸我一天啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你们都夸我一天啦",
+        "》 《你们都夸我一天啦"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7154319089714892069",
+      "title": "《聪明》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《聪明》 《聪明》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《聪明》 《聪明》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7155304931602337031",
+      "title": "《机智》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《机智》 《机智》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《机智》 《机智》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7157372128663309575",
+      "title": "《摆烂王？？？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《摆烂王",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7166444067767864584",
+      "title": "《太难了！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《太难了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7169039217492856095",
+      "title": "《如此敏感》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此敏感》 《如此敏感》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此敏感》 《如此敏感》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7171260492164386085",
+      "title": "《如此自作多情》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此自作多情》 《如此自作多情》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此自作多情》 《如此自作多情》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7225106446592068919",
+      "title": "第一次走红毯 确实有点社牛变社恐了…#李宗恒 #人生路不熟",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "第一次走红毯 确实有点社牛变社恐了… 第一次走红毯 确实有点社牛变社恐了…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒",
+        "人生路不熟"
+      ],
+      "short_phrases": [
+        "第一次走红毯 确实有点社牛变社恐了… 第一次走红毯 确实有点社牛变社恐了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7255133088206851339",
+      "title": "《不怕！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不怕",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7271632755094605068",
+      "title": "社恐版？？？#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "社恐版",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7330864862572154148",
+      "title": "可以说是非常体面了！#李宗恒#抖音龙年好戏大赏",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "可以说是非常体面了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7333420235430563135",
+      "title": "我是真社恐啊……#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我是真社恐啊…… 我是真社恐啊……",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "我是真社恐啊…… 我是真社恐啊……"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7397670992409038091",
+      "title": "《就是硬要享福》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《就是硬要享福》 《就是硬要享福》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《就是硬要享福》 《就是硬要享福》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7404408314588695849",
+      "title": "哥！我着急下班呀！ @脸脸·于洋 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "哥",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@脸脸·于洋 哥"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7453291374406847755",
+      "title": "《增强自信》 @钟婷xo #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《增强自信》 @钟婷xo 《增强自信》 @钟婷xo",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《增强自信》 @钟婷xo 《增强自信》 @钟婷xo"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7460812284345027851",
+      "title": "表面非常体面，实则废话连篇！ #李宗恒 #抖音新春特别会 #欢笑中国年",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "表面非常体面，实则废话连篇",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音新春特别会",
+        "欢笑中国年"
+      ],
+      "short_phrases": [
+        "表面非常体面，实则废话连篇"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7507066441965112586",
+      "title": "《傻人有傻福？？？》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《傻人有傻福",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《傻人有傻福"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7515368262085414181",
+      "title": "哄好自己！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "哄好自己",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7530528075193994542",
+      "title": "《当社恐人点外卖》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《当社恐人点外卖》 《当社恐人点外卖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《当社恐人点外卖》 《当社恐人点外卖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7539064028883176754",
+      "title": "《关于驾校给提供情绪价值这件事》 #李宗恒#XC70把你当宝贝宠 #8月27日沃尔沃全新XC70预售开启",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《关于驾校给提供情绪价值这件事》 《关于驾校给提供情绪价值这件事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "8月27日沃尔沃全新XC70预售开启"
+      ],
+      "short_phrases": [
+        "《关于驾校给提供情绪价值这件事》 《关于驾校给提供情绪价值这件事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7543964338148805915",
+      "title": "我真没骄傲 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我真没骄傲 我真没骄傲",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7550322686300917018",
+      "title": "学会钝感力，生活没压力！ #李宗恒#团圆搭子选伊利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "学会钝感力，生活没压力",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "学会钝感力，生活没压力"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7555046671455259930",
+      "title": "《聪明人的十一假期》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《聪明人的十一假期》 《聪明人的十一假期》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《聪明人的十一假期》 《聪明人的十一假期》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7607169060182626459",
+      "title": "小品里真社牛，现实里真社恐呀！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "小品里真社牛，现实里真社恐呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "小品里真社牛，现实里真社恐呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7628822921192865498",
+      "title": "看似听话，实则一身反骨！ #李宗恒#亚朵星球深睡被Pro3",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "看似听话，实则一身反骨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "看似听话，实则一身反骨"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7048582783924587810",
+      "title": "难受… #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "难受… 难受…",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7106698967450127631",
+      "title": "《容貌焦虑！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《容貌焦虑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7122656151740615970",
+      "title": "《怎么总夸我呢？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怎么总夸我呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《怎么总夸我呢"
+      ],
+      "question_phrases": [
+        "《怎么总夸我呢",
+        "》 《怎么总夸我呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7134577389979454760",
+      "title": "《我还不够听话嘛？》#李宗恒 #元气可乐 #不后悔可乐",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我还不够听话嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "元气可乐",
+        "不后悔可乐"
+      ],
+      "short_phrases": [
+        "《我还不够听话嘛",
+        "》 《我还不够听话嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7140837800848444672",
+      "title": "《我特别着急！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《我特别着急",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我特别着急"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7145706087914769698",
+      "title": "《你们都夸我一天啦！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《你们都夸我一天啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你们都夸我一天啦",
+        "》 《你们都夸我一天啦"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7154319089714892069",
+      "title": "《聪明》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《聪明》 《聪明》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《聪明》 《聪明》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7155304931602337031",
+      "title": "《机智》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《机智》 《机智》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《机智》 《机智》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7157372128663309575",
+      "title": "《摆烂王？？？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《摆烂王",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7166444067767864584",
+      "title": "《太难了！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《太难了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7169039217492856095",
+      "title": "《如此敏感》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此敏感》 《如此敏感》",
+      "body_pattern": "适用边界说明",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此敏感》 《如此敏感》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7171260492164386085",
+      "title": "《如此自作多情》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此自作多情》 《如此自作多情》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此自作多情》 《如此自作多情》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7225106446592068919",
+      "title": "第一次走红毯 确实有点社牛变社恐了…#李宗恒 #人生路不熟",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "第一次走红毯 确实有点社牛变社恐了… 第一次走红毯 确实有点社牛变社恐了…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒",
+        "人生路不熟"
+      ],
+      "short_phrases": [
+        "第一次走红毯 确实有点社牛变社恐了… 第一次走红毯 确实有点社牛变社恐了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7255133088206851339",
+      "title": "《不怕！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不怕",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7271632755094605068",
+      "title": "社恐版？？？#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "社恐版",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7330864862572154148",
+      "title": "可以说是非常体面了！#李宗恒#抖音龙年好戏大赏",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "可以说是非常体面了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7333420235430563135",
+      "title": "我是真社恐啊……#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我是真社恐啊…… 我是真社恐啊……",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "我是真社恐啊…… 我是真社恐啊……"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7397670992409038091",
+      "title": "《就是硬要享福》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《就是硬要享福》 《就是硬要享福》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《就是硬要享福》 《就是硬要享福》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7404408314588695849",
+      "title": "哥！我着急下班呀！ @脸脸·于洋 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "哥",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@脸脸·于洋 哥"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7453291374406847755",
+      "title": "《增强自信》 @钟婷xo #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《增强自信》 @钟婷xo 《增强自信》 @钟婷xo",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《增强自信》 @钟婷xo 《增强自信》 @钟婷xo"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7048582783924587810",
+      "title": "难受… #李宗恒 #内容过于真实",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "难受… 难受…",
+      "body_pattern": "个人经历背书",
+      "topic_tags": [
+        "李宗恒",
+        "内容过于真实"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7106698967450127631",
+      "title": "《容貌焦虑！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《容貌焦虑",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7122656151740615970",
+      "title": "《怎么总夸我呢？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《怎么总夸我呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《怎么总夸我呢"
+      ],
+      "question_phrases": [
+        "《怎么总夸我呢",
+        "》 《怎么总夸我呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7134577389979454760",
+      "title": "《我还不够听话嘛？》#李宗恒 #元气可乐 #不后悔可乐",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我还不够听话嘛",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "元气可乐",
+        "不后悔可乐"
+      ],
+      "short_phrases": [
+        "《我还不够听话嘛",
+        "》 《我还不够听话嘛"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7140837800848444672",
+      "title": "《我特别着急！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《我特别着急",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《我特别着急"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7154319089714892069",
+      "title": "《聪明》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《聪明》 《聪明》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《聪明》 《聪明》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7155304931602337031",
+      "title": "《机智》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《机智》 《机智》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《机智》 《机智》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7157372128663309575",
+      "title": "《摆烂王？？？》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《摆烂王",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7225106446592068919",
+      "title": "第一次走红毯 确实有点社牛变社恐了…#李宗恒 #人生路不熟",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "第一次走红毯 确实有点社牛变社恐了… 第一次走红毯 确实有点社牛变社恐了…",
+      "body_pattern": "步骤拆解",
+      "topic_tags": [
+        "李宗恒",
+        "人生路不熟"
+      ],
+      "short_phrases": [
+        "第一次走红毯 确实有点社牛变社恐了… 第一次走红毯 确实有点社牛变社恐了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7255133088206851339",
+      "title": "《不怕！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不怕",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7397670992409038091",
+      "title": "《就是硬要享福》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《就是硬要享福》 《就是硬要享福》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《就是硬要享福》 《就是硬要享福》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7460812284345027851",
+      "title": "表面非常体面，实则废话连篇！ #李宗恒 #抖音新春特别会 #欢笑中国年",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "表面非常体面，实则废话连篇",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音新春特别会",
+        "欢笑中国年"
+      ],
+      "short_phrases": [
+        "表面非常体面，实则废话连篇"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7507066441965112586",
+      "title": "《傻人有傻福？？？》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《傻人有傻福",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《傻人有傻福"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7515368262085414181",
+      "title": "哄好自己！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "哄好自己",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7539064028883176754",
+      "title": "《关于驾校给提供情绪价值这件事》 #李宗恒#XC70把你当宝贝宠 #8月27日沃尔沃全新XC70预售开启",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《关于驾校给提供情绪价值这件事》 《关于驾校给提供情绪价值这件事》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "8月27日沃尔沃全新XC70预售开启"
+      ],
+      "short_phrases": [
+        "《关于驾校给提供情绪价值这件事》 《关于驾校给提供情绪价值这件事》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7543964338148805915",
+      "title": "我真没骄傲 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我真没骄傲 我真没骄傲",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7550322686300917018",
+      "title": "学会钝感力，生活没压力！ #李宗恒#团圆搭子选伊利",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "学会钝感力，生活没压力",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "学会钝感力，生活没压力"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7555046671455259930",
+      "title": "《聪明人的十一假期》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《聪明人的十一假期》 《聪明人的十一假期》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《聪明人的十一假期》 《聪明人的十一假期》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7607169060182626459",
+      "title": "小品里真社牛，现实里真社恐呀！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "小品里真社牛，现实里真社恐呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "小品里真社牛，现实里真社恐呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7628822921192865498",
+      "title": "看似听话，实则一身反骨！ #李宗恒#亚朵星球深睡被Pro3",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "看似听话，实则一身反骨",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "看似听话，实则一身反骨"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

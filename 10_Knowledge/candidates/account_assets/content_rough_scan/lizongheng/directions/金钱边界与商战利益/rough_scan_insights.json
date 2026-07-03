@@ -1,0 +1,327 @@
+{
+  "direction": "金钱边界与商战利益",
+  "topic_clusters": [
+    {
+      "topic": "买单",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7490794300721073471",
+          "title": "《如此买单》 @大伟老三 #李宗恒 #她们的精选",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7490794300721073471",
+          "title": "《如此买单》 @大伟老三 #李宗恒 #她们的精选",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7503626944514002186",
+          "title": "《买单的极限拉扯》 #李宗恒#水星家纺雪糕被 #夏凉被 #京东家居馆",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7503626944514002186",
+          "title": "《买单的极限拉扯》 #李宗恒#水星家纺雪糕被 #夏凉被 #京东家居馆",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "钱",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7359795882881010980",
+          "title": "社恐的一天…#李宗恒 #末路狂花钱",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7435164189984951578",
+          "title": "我还得给你洗衣服钱 @李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "洗衣服钱",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7435164189984951578",
+          "title": "我还得给你洗衣服钱 @李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "消费",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7562130891766877486",
+          "title": "《AAAA制》 #李宗恒#解锁我的双11心头好 #抖音商城双11好物节 #双11消费劵",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "一分",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7152347442929732878",
+          "title": "《一分💰没花》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "没花",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7152347442929732878",
+          "title": "《一分💰没花》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7152347442929732878",
+      "title": "《一分💰没花》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一分💰没花》 《一分💰没花》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一分💰没花》 《一分💰没花》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7359795882881010980",
+      "title": "社恐的一天…#李宗恒 #末路狂花钱",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "社恐的一天… 社恐的一天…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "末路狂花钱"
+      ],
+      "short_phrases": [
+        "社恐的一天… 社恐的一天…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7435164189984951578",
+      "title": "我还得给你洗衣服钱 @李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我还得给你洗衣服钱 @李宗恒 我还得给你洗衣服钱 @李宗恒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [
+        "我还得给你洗衣服钱 @李宗恒 我还得给你洗衣服钱 @李宗恒"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7490794300721073471",
+      "title": "《如此买单》 @大伟老三 #李宗恒 #她们的精选",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此买单》 @大伟老三 《如此买单》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "她们的精选"
+      ],
+      "short_phrases": [
+        "《如此买单》 @大伟老三 《如此买单》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7503626944514002186",
+      "title": "《买单的极限拉扯》 #李宗恒#水星家纺雪糕被 #夏凉被 #京东家居馆",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《买单的极限拉扯》 《买单的极限拉扯》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "夏凉被",
+        "京东家居馆"
+      ],
+      "short_phrases": [
+        "《买单的极限拉扯》 《买单的极限拉扯》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7562130891766877486",
+      "title": "《AAAA制》 #李宗恒#解锁我的双11心头好 #抖音商城双11好物节 #双11消费劵",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《AAAA制》 《AAAA制》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "抖音商城双11好物节",
+        "双11消费劵"
+      ],
+      "short_phrases": [
+        "《AAAA制》 《AAAA制》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7152347442929732878",
+      "title": "《一分💰没花》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《一分💰没花》 《一分💰没花》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《一分💰没花》 《一分💰没花》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7359795882881010980",
+      "title": "社恐的一天…#李宗恒 #末路狂花钱",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "社恐的一天… 社恐的一天…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "末路狂花钱"
+      ],
+      "short_phrases": [
+        "社恐的一天… 社恐的一天…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7435164189984951578",
+      "title": "我还得给你洗衣服钱 @李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我还得给你洗衣服钱 @李宗恒 我还得给你洗衣服钱 @李宗恒",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [
+        "我还得给你洗衣服钱 @李宗恒 我还得给你洗衣服钱 @李宗恒"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7490794300721073471",
+      "title": "《如此买单》 @大伟老三 #李宗恒 #她们的精选",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此买单》 @大伟老三 《如此买单》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "她们的精选"
+      ],
+      "short_phrases": [
+        "《如此买单》 @大伟老三 《如此买单》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7503626944514002186",
+      "title": "《买单的极限拉扯》 #李宗恒#水星家纺雪糕被 #夏凉被 #京东家居馆",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《买单的极限拉扯》 《买单的极限拉扯》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "夏凉被",
+        "京东家居馆"
+      ],
+      "short_phrases": [
+        "《买单的极限拉扯》 《买单的极限拉扯》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7503626944514002186",
+      "title": "《买单的极限拉扯》 #李宗恒#水星家纺雪糕被 #夏凉被 #京东家居馆",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《买单的极限拉扯》 《买单的极限拉扯》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "夏凉被",
+        "京东家居馆"
+      ],
+      "short_phrases": [
+        "《买单的极限拉扯》 《买单的极限拉扯》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

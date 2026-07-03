@@ -1,0 +1,886 @@
+{
+  "direction": "沟通误解与语言表达",
+  "topic_clusters": [
+    {
+      "topic": "沟通误解与语言表达",
+      "count": 5,
+      "representative_items": [
+        {
+          "source_id": "7482309665527844115",
+          "title": "《普通话培训》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7507589779522309402",
+          "title": "《你是怎么知道的？》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7549533002327493897",
+          "title": "《中文十级教学》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7575029237842473354",
+          "title": "《顶级“李”解》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7584338480814214451",
+          "title": "用英语不会吵了吧… #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "介绍",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7061523704190160168",
+          "title": "《介绍的挺好 下次别介绍了！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7079743607908879631",
+          "title": "《到底还是…》#李宗恒 #营销号体自我介绍",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "聊天",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7288242171449199926",
+          "title": "一种很新的加密聊天：“藏头”聊天！#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "暗示",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7492635961063394572",
+          "title": "我暗示的还不够明显吗？ #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "回答",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7058478668875566351",
+          "title": "《我回答的挺好吧？》#李宗恒 @何欢不瘦",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "解读",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7181660371755797818",
+          "title": "《如此解读》#李宗恒#了不起的中国点心",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "拐弯抹角",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7175609000434715965",
+          "title": "《如此拐弯抹角》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "说忘就忘",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7302646839583558924",
+          "title": "《说忘就忘！》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7058478668875566351",
+      "title": "《我回答的挺好吧？》#李宗恒 @何欢不瘦",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我回答的挺好吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我回答的挺好吧",
+        "》 @何欢不瘦 《我回答的挺好吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7061523704190160168",
+      "title": "《介绍的挺好 下次别介绍了！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《介绍的挺好 下次别介绍了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《介绍的挺好 下次别介绍了",
+        "》 《介绍的挺好 下次别介绍了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7079743607908879631",
+      "title": "《到底还是…》#李宗恒 #营销号体自我介绍",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《到底还是…》 《到底还是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "营销号体自我介绍"
+      ],
+      "short_phrases": [
+        "《到底还是…》 《到底还是…》"
+      ],
+      "question_phrases": [
+        "《到底还是…》 《到底还是…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7175609000434715965",
+      "title": "《如此拐弯抹角》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此拐弯抹角》 《如此拐弯抹角》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此拐弯抹角》 《如此拐弯抹角》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7181660371755797818",
+      "title": "《如此解读》#李宗恒#了不起的中国点心",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此解读》 《如此解读》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此解读》 《如此解读》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7190352749056265529",
+      "title": "《我有些话想说》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我有些话想说》 《我有些话想说》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我有些话想说》 《我有些话想说》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7288242171449199926",
+      "title": "一种很新的加密聊天：“藏头”聊天！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的加密聊天：“藏头”聊天",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的加密聊天：“藏头”聊天"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7302646839583558924",
+      "title": "《说忘就忘！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《说忘就忘",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7482309665527844115",
+      "title": "《普通话培训》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《普通话培训》 《普通话培训》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《普通话培训》 《普通话培训》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7492635961063394572",
+      "title": "我暗示的还不够明显吗？ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我暗示的还不够明显吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "我暗示的还不够明显吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7507589779522309402",
+      "title": "《你是怎么知道的？》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你是怎么知道的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你是怎么知道的",
+        "》 《你是怎么知道的"
+      ],
+      "question_phrases": [
+        "《你是怎么知道的",
+        "》 《你是怎么知道的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7549533002327493897",
+      "title": "《中文十级教学》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《中文十级教学》 《中文十级教学》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《中文十级教学》 《中文十级教学》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7575029237842473354",
+      "title": "《顶级“李”解》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《顶级“李”解》 《顶级“李”解》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《顶级“李”解》 《顶级“李”解》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7584338480814214451",
+      "title": "用英语不会吵了吧… #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用英语不会吵了吧… 用英语不会吵了吧…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "用英语不会吵了吧… 用英语不会吵了吧…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7590121109632465481",
+      "title": "《中译中的翻译》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《中译中的翻译》 《中译中的翻译》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《中译中的翻译》 《中译中的翻译》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7608237411609498778",
+      "title": "《看见啥说啥》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《看见啥说啥》 《看见啥说啥》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《看见啥说啥》 《看见啥说啥》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7612331320252916106",
+      "title": "应该怎么说呢？ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "应该怎么说呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "应该怎么说呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7058478668875566351",
+      "title": "《我回答的挺好吧？》#李宗恒 @何欢不瘦",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《我回答的挺好吧",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我回答的挺好吧",
+        "》 @何欢不瘦 《我回答的挺好吧"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7061523704190160168",
+      "title": "《介绍的挺好 下次别介绍了！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《介绍的挺好 下次别介绍了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《介绍的挺好 下次别介绍了",
+        "》 《介绍的挺好 下次别介绍了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7079743607908879631",
+      "title": "《到底还是…》#李宗恒 #营销号体自我介绍",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《到底还是…》 《到底还是…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "营销号体自我介绍"
+      ],
+      "short_phrases": [
+        "《到底还是…》 《到底还是…》"
+      ],
+      "question_phrases": [
+        "《到底还是…》 《到底还是…》"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7175609000434715965",
+      "title": "《如此拐弯抹角》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此拐弯抹角》 《如此拐弯抹角》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此拐弯抹角》 《如此拐弯抹角》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7181660371755797818",
+      "title": "《如此解读》#李宗恒#了不起的中国点心",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此解读》 《如此解读》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此解读》 《如此解读》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7190352749056265529",
+      "title": "《我有些话想说》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我有些话想说》 《我有些话想说》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我有些话想说》 《我有些话想说》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7288242171449199926",
+      "title": "一种很新的加密聊天：“藏头”聊天！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的加密聊天：“藏头”聊天",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "一种很新的加密聊天：“藏头”聊天"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7302646839583558924",
+      "title": "《说忘就忘！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《说忘就忘",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7482309665527844115",
+      "title": "《普通话培训》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《普通话培训》 《普通话培训》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《普通话培训》 《普通话培训》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7492635961063394572",
+      "title": "我暗示的还不够明显吗？ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我暗示的还不够明显吗",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "我暗示的还不够明显吗"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7507589779522309402",
+      "title": "《你是怎么知道的？》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你是怎么知道的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你是怎么知道的",
+        "》 《你是怎么知道的"
+      ],
+      "question_phrases": [
+        "《你是怎么知道的",
+        "》 《你是怎么知道的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7549533002327493897",
+      "title": "《中文十级教学》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《中文十级教学》 《中文十级教学》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《中文十级教学》 《中文十级教学》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7575029237842473354",
+      "title": "《顶级“李”解》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《顶级“李”解》 《顶级“李”解》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《顶级“李”解》 《顶级“李”解》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7584338480814214451",
+      "title": "用英语不会吵了吧… #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用英语不会吵了吧… 用英语不会吵了吧…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "用英语不会吵了吧… 用英语不会吵了吧…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7590121109632465481",
+      "title": "《中译中的翻译》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《中译中的翻译》 《中译中的翻译》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《中译中的翻译》 《中译中的翻译》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7608237411609498778",
+      "title": "《看见啥说啥》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《看见啥说啥》 《看见啥说啥》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《看见啥说啥》 《看见啥说啥》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7612331320252916106",
+      "title": "应该怎么说呢？ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "应该怎么说呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [
+        "应该怎么说呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7482309665527844115",
+      "title": "《普通话培训》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《普通话培训》 《普通话培训》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《普通话培训》 《普通话培训》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7507589779522309402",
+      "title": "《你是怎么知道的？》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《你是怎么知道的",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《你是怎么知道的",
+        "》 《你是怎么知道的"
+      ],
+      "question_phrases": [
+        "《你是怎么知道的",
+        "》 《你是怎么知道的"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7549533002327493897",
+      "title": "《中文十级教学》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《中文十级教学》 《中文十级教学》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《中文十级教学》 《中文十级教学》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7575029237842473354",
+      "title": "《顶级“李”解》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《顶级“李”解》 《顶级“李”解》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《顶级“李”解》 《顶级“李”解》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7584338480814214451",
+      "title": "用英语不会吵了吧… #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "用英语不会吵了吧… 用英语不会吵了吧…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "用英语不会吵了吧… 用英语不会吵了吧…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7590121109632465481",
+      "title": "《中译中的翻译》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《中译中的翻译》 《中译中的翻译》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《中译中的翻译》 《中译中的翻译》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7608237411609498778",
+      "title": "《看见啥说啥》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《看见啥说啥》 《看见啥说啥》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《看见啥说啥》 《看见啥说啥》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

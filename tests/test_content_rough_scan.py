@@ -113,6 +113,90 @@ class ContentRoughScanTests(unittest.TestCase):
         self.assertEqual(by_id["x1"]["content_type"], "image_text")
         self.assertIn("ocr", by_id["x1"]["text_sources"])
 
+    def test_account_match_terms_include_coauthored_sqlite_records(self):
+        profile = {
+            **test_profile(expected_count=2),
+            "account_name": "李宗恒",
+            "account_match_terms": ["李宗恒"],
+            "directions": {"剧情短剧": {"core": ["剧情"], "support": []}},
+        }
+        rows = content_rough_scan.build_inventory(
+            Path("/tmp"),
+            [
+                make_record("1", "douyin", "李宗恒", "普通剧情", tags=["剧情"]),
+                make_record("2", "douyin", "合拍账号", "班主任：服了这俩老六了", tags=["剧情", "李宗恒"]),
+                make_record("3", "douyin", "其他账号", "普通剧情", tags=["剧情"]),
+            ],
+            profile,
+        )
+
+        self.assertEqual({row["source_id"] for row in rows}, {"1", "2"})
+        self.assertEqual({row["account_name"] for row in rows}, {"李宗恒"})
+
+    def test_commercial_integrated_keeps_topic_direction(self):
+        profile = {
+            **test_profile(expected_count=1),
+            "directions": {
+                "爱情关系喜剧": {"core": ["男闺蜜"], "support": []},
+                "品牌植入与消费体验": {"core": ["肯德基", "kfc"], "support": []},
+            },
+        }
+        rows = content_rough_scan.build_inventory(
+            Path("/tmp"),
+            [
+                make_record(
+                    "ad1",
+                    "douyin",
+                    "目标账号",
+                    "《男闺蜜》#李宗恒#祝你kfc祝你快发财 #肯德基",
+                    tags=["李宗恒", "祝你kfc祝你快发财", "肯德基"],
+                    likes=100,
+                )
+            ],
+            profile,
+        )
+
+        self.assertEqual(rows[0]["primary_direction"], "爱情关系喜剧")
+        self.assertEqual(rows[0]["commercial_type"], "ad_integrated")
+        self.assertTrue(rows[0]["commercial_flag"])
+        self.assertIn("肯德基", rows[0]["commercial_terms"])
+
+    def test_ad_heavy_is_not_candidate_deep_learning(self):
+        profile = {
+            **test_profile(expected_count=1),
+            "directions": {
+                "生活荒诞反转": {"core": ["美事"], "support": []},
+                "品牌植入与消费体验": {"core": ["美式", "品牌"], "support": []},
+            },
+        }
+        rows = content_rough_scan.build_inventory(
+            Path("/tmp"),
+            [make_record("ad2", "douyin", "目标账号", "享美式 想美事！#李宗恒 #品牌活动", tags=["李宗恒", "品牌活动"], likes=1000)],
+            profile,
+        )
+
+        self.assertEqual(rows[0]["commercial_type"], "ad_heavy")
+        self.assertFalse(rows[0]["candidate_deep_learning"])
+        self.assertEqual(rows[0]["rough_scan_value"], "low")
+
+    def test_unknown_brand_model_tag_marks_commercial_content(self):
+        profile = {
+            **test_profile(expected_count=1),
+            "directions": {
+                "身份错位短剧": {"core": ["假如"], "support": []},
+                "品牌植入与消费体验": {"core": [], "support": []},
+            },
+        }
+        rows = content_rough_scan.build_inventory(
+            Path("/tmp"),
+            [make_record("ad3", "douyin", "目标账号", "《假如有拉黑眼镜》#目标账号#荣耀Magic8", tags=["目标账号", "荣耀Magic8"], likes=100)],
+            profile,
+        )
+
+        self.assertEqual(rows[0]["primary_direction"], "身份错位短剧")
+        self.assertEqual(rows[0]["commercial_type"], "ad_integrated")
+        self.assertIn("荣耀Magic8", rows[0]["commercial_terms"])
+
     def test_load_rough_scan_records_includes_sqlite_candidate_batch(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -134,6 +218,7 @@ class ContentRoughScanTests(unittest.TestCase):
                 "url": "https://example.com/x1",
                 "metrics": {"likes": 10, "collects": 20, "comments": 3, "shares": 2},
                 "tags": ["护肤"],
+                "suggested_directions": ["护肤功效"],
             }
             (batch_dir / "records.jsonl").write_text(json.dumps(row, ensure_ascii=False) + "\n", encoding="utf-8")
 
@@ -143,6 +228,7 @@ class ContentRoughScanTests(unittest.TestCase):
         self.assertEqual(records[0].account_name, "小森林的小世界")
         self.assertEqual(records[0].platform, "xhs")
         self.assertEqual(records[0].metrics["collects"], 20)
+        self.assertIn("护肤功效", records[0].tags)
 
     def test_load_deep_items_ignores_stale_scope_items_when_plan_exists(self):
         with tempfile.TemporaryDirectory() as tmp:

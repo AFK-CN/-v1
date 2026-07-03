@@ -1,0 +1,185 @@
+{
+  "direction": "发布信息不足待复核",
+  "topic_clusters": [
+    {
+      "topic": "发布信息不足待复核",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7107520592731032847",
+          "title": "《没有技巧 全是感情》#李宗恒 @贴贴TieTie",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7111989786201656616",
+          "title": "《我多会过日子啊！》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7431419332342713651",
+          "title": "我五年前就准备好了",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7107520592731032847",
+      "title": "《没有技巧 全是感情》#李宗恒 @贴贴TieTie",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《没有技巧 全是感情》 @贴贴TieTie 《没有技巧 全是感情》 @贴贴TieTie",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7111989786201656616",
+      "title": "《我多会过日子啊！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我多会过日子啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我多会过日子啊",
+        "》 《我多会过日子啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7431419332342713651",
+      "title": "我五年前就准备好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我五年前就准备好了 我五年前就准备好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7107520592731032847",
+      "title": "《没有技巧 全是感情》#李宗恒 @贴贴TieTie",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《没有技巧 全是感情》 @贴贴TieTie 《没有技巧 全是感情》 @贴贴TieTie",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7111989786201656616",
+      "title": "《我多会过日子啊！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我多会过日子啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我多会过日子啊",
+        "》 《我多会过日子啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7431419332342713651",
+      "title": "我五年前就准备好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我五年前就准备好了 我五年前就准备好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7107520592731032847",
+      "title": "《没有技巧 全是感情》#李宗恒 @贴贴TieTie",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《没有技巧 全是感情》 @贴贴TieTie 《没有技巧 全是感情》 @贴贴TieTie",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7111989786201656616",
+      "title": "《我多会过日子啊！》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《我多会过日子啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《我多会过日子啊",
+        "》 《我多会过日子啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7431419332342713651",
+      "title": "我五年前就准备好了",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "我五年前就准备好了 我五年前就准备好了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

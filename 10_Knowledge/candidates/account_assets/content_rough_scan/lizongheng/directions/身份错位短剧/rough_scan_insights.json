@@ -1,0 +1,477 @@
+{
+  "direction": "身份错位短剧",
+  "topic_clusters": [
+    {
+      "topic": "假如",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7406155700583370025",
+          "title": "再见！叶酸！ #李宗恒 #假如我是这世上最爱你的人 #电影假如爱上映",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7407038787680783679",
+          "title": "家人们，嘴角真压不住了！ #李宗恒 #假如我是这世上最爱你的人 #佟丽娅新片台词宿命感",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7585769668858711347",
+          "title": "《假如有“拉黑眼镜”》 #李宗恒#荣耀Magic8",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "假如我是",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7406155700583370025",
+          "title": "再见！叶酸！ #李宗恒 #假如我是这世上最爱你的人 #电影假如爱上映",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7407038787680783679",
+          "title": "家人们，嘴角真压不住了！ #李宗恒 #假如我是这世上最爱你的人 #佟丽娅新片台词宿命感",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "以为",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7139407895732440335",
+          "title": "《是不真以为我傻呢？》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "误会",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7266664455411453196",
+          "title": "《误会！！！》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "李宗竖",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7129717751270165760",
+          "title": "《李宗竖》#李宗恒 #RIO强爽 #RIO强爽8度不信邪",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "怎么啦",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7062261165677694248",
+          "title": "《今天又怎么啦？》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "身份错位短剧",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7389096632949722422",
+          "title": "后天型双胞胎 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7062261165677694248",
+      "title": "《今天又怎么啦？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《今天又怎么啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《今天又怎么啦"
+      ],
+      "question_phrases": [
+        "《今天又怎么啦",
+        "》 《今天又怎么啦"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7129717751270165760",
+      "title": "《李宗竖》#李宗恒 #RIO强爽 #RIO强爽8度不信邪",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《李宗竖》 《李宗竖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "RIO强爽",
+        "RIO强爽8度不信邪"
+      ],
+      "short_phrases": [
+        "《李宗竖》 《李宗竖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7139407895732440335",
+      "title": "《是不真以为我傻呢？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《是不真以为我傻呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《是不真以为我傻呢",
+        "》 《是不真以为我傻呢"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7266664455411453196",
+      "title": "《误会！！！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《误会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7389096632949722422",
+      "title": "后天型双胞胎 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "后天型双胞胎 后天型双胞胎",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7406155700583370025",
+      "title": "再见！叶酸！ #李宗恒 #假如我是这世上最爱你的人 #电影假如爱上映",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "再见",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "假如我是这世上最爱你的人",
+        "电影假如爱上映"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7407038787680783679",
+      "title": "家人们，嘴角真压不住了！ #李宗恒 #假如我是这世上最爱你的人 #佟丽娅新片台词宿命感",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，嘴角真压不住了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "假如我是这世上最爱你的人",
+        "佟丽娅新片台词宿命感"
+      ],
+      "short_phrases": [
+        "家人们，嘴角真压不住了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7585769668858711347",
+      "title": "《假如有“拉黑眼镜”》 #李宗恒#荣耀Magic8",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《假如有“拉黑眼镜”》 《假如有“拉黑眼镜”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《假如有“拉黑眼镜”》 《假如有“拉黑眼镜”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7062261165677694248",
+      "title": "《今天又怎么啦？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《今天又怎么啦",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《今天又怎么啦"
+      ],
+      "question_phrases": [
+        "《今天又怎么啦",
+        "》 《今天又怎么啦"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7129717751270165760",
+      "title": "《李宗竖》#李宗恒 #RIO强爽 #RIO强爽8度不信邪",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《李宗竖》 《李宗竖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "RIO强爽",
+        "RIO强爽8度不信邪"
+      ],
+      "short_phrases": [
+        "《李宗竖》 《李宗竖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7139407895732440335",
+      "title": "《是不真以为我傻呢？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《是不真以为我傻呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《是不真以为我傻呢",
+        "》 《是不真以为我傻呢"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7266664455411453196",
+      "title": "《误会！！！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《误会",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7389096632949722422",
+      "title": "后天型双胞胎 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "后天型双胞胎 后天型双胞胎",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7406155700583370025",
+      "title": "再见！叶酸！ #李宗恒 #假如我是这世上最爱你的人 #电影假如爱上映",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "再见",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "假如我是这世上最爱你的人",
+        "电影假如爱上映"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7407038787680783679",
+      "title": "家人们，嘴角真压不住了！ #李宗恒 #假如我是这世上最爱你的人 #佟丽娅新片台词宿命感",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "家人们，嘴角真压不住了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "假如我是这世上最爱你的人",
+        "佟丽娅新片台词宿命感"
+      ],
+      "short_phrases": [
+        "家人们，嘴角真压不住了"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7585769668858711347",
+      "title": "《假如有“拉黑眼镜”》 #李宗恒#荣耀Magic8",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《假如有“拉黑眼镜”》 《假如有“拉黑眼镜”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《假如有“拉黑眼镜”》 《假如有“拉黑眼镜”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7129717751270165760",
+      "title": "《李宗竖》#李宗恒 #RIO强爽 #RIO强爽8度不信邪",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《李宗竖》 《李宗竖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "RIO强爽",
+        "RIO强爽8度不信邪"
+      ],
+      "short_phrases": [
+        "《李宗竖》 《李宗竖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7389096632949722422",
+      "title": "后天型双胞胎 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "后天型双胞胎 后天型双胞胎",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7406155700583370025",
+      "title": "再见！叶酸！ #李宗恒 #假如我是这世上最爱你的人 #电影假如爱上映",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "再见",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "假如我是这世上最爱你的人",
+        "电影假如爱上映"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7585769668858711347",
+      "title": "《假如有“拉黑眼镜”》 #李宗恒#荣耀Magic8",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《假如有“拉黑眼镜”》 《假如有“拉黑眼镜”》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《假如有“拉黑眼镜”》 《假如有“拉黑眼镜”》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

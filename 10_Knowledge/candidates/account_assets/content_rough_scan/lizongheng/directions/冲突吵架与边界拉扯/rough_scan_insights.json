@@ -1,0 +1,792 @@
+{
+  "direction": "冲突吵架与边界拉扯",
+  "topic_clusters": [
+    {
+      "topic": "换",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7089631965304868130",
+          "title": "《别针换别墅》#李宗恒 #一加ace",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7227734292124814649",
+          "title": "漫步人生路，别针换别墅！#李宗恒#王一博的note12turbo",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7378743873893305619",
+          "title": "《别墅换别针？？？》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7572424378610028955",
+          "title": "《换个小点儿杯》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "拉扯",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7203914668836998461",
+          "title": "《极限拉扯！》#李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7491996549044620598",
+          "title": "《查寝的极限拉扯》 @大伟老三 #李宗恒 #每日精选爆款",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7497220768033017100",
+          "title": "《借钱的极限拉扯》 @常远 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "吵架",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7383343697410182439",
+          "title": "假如吵架可以找“代吵” #李宗恒 #一定要看到结尾",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7393176171996925238",
+          "title": "你们下次就这么和对象吵架～ #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "冲突吵架与边界拉扯",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7306352065574407465",
+          "title": "《安静点儿…》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7387254298964397323",
+          "title": "《如果脚臭有人管》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "代吵",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7383343697410182439",
+          "title": "假如吵架可以找“代吵” #李宗恒 #一定要看到结尾",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "拒绝",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7483454376640548107",
+          "title": "《00后拒绝请假羞耻症》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "受伤",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7076640620432887080",
+          "title": "《为什么受伤的总是我？！》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "帮我",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7150897850333875464",
+          "title": "《这怎么还不帮我了呢？》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7076640620432887080",
+      "title": "《为什么受伤的总是我？！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《为什么受伤的总是我",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《为什么受伤的总是我",
+        "》 《为什么受伤的总是我"
+      ],
+      "question_phrases": [
+        "《为什么受伤的总是我",
+        "》 《为什么受伤的总是我"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7089631965304868130",
+      "title": "《别针换别墅》#李宗恒 #一加ace",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《别针换别墅》 《别针换别墅》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一加ace"
+      ],
+      "short_phrases": [
+        "《别针换别墅》 《别针换别墅》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7118581510269062415",
+      "title": "《友情保卫战？？？》#李宗恒 #梦幻西游网页版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《友情保卫战",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "梦幻西游网页版"
+      ],
+      "short_phrases": [
+        "》 《友情保卫战"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7150897850333875464",
+      "title": "《这怎么还不帮我了呢？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《这怎么还不帮我了呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这怎么还不帮我了呢",
+        "》 《这怎么还不帮我了呢"
+      ],
+      "question_phrases": [
+        "《这怎么还不帮我了呢",
+        "》 《这怎么还不帮我了呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7203914668836998461",
+      "title": "《极限拉扯！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《极限拉扯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7227734292124814649",
+      "title": "漫步人生路，别针换别墅！#李宗恒#王一博的note12turbo",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "漫步人生路，别针换别墅",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "漫步人生路，别针换别墅"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7306352065574407465",
+      "title": "《安静点儿…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《安静点儿…》 《安静点儿…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《安静点儿…》 《安静点儿…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7378743873893305619",
+      "title": "《别墅换别针？？？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《别墅换别针",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《别墅换别针"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7383343697410182439",
+      "title": "假如吵架可以找“代吵” #李宗恒 #一定要看到结尾",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "假如吵架可以找“代吵” 假如吵架可以找“代吵”",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到结尾"
+      ],
+      "short_phrases": [
+        "假如吵架可以找“代吵” 假如吵架可以找“代吵”"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7387254298964397323",
+      "title": "《如果脚臭有人管》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果脚臭有人管》 《如果脚臭有人管》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果脚臭有人管》 《如果脚臭有人管》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7393176171996925238",
+      "title": "你们下次就这么和对象吵架～ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们下次就这么和对象吵架～ 你们下次就这么和对象吵架～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你们下次就这么和对象吵架～ 你们下次就这么和对象吵架～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7483454376640548107",
+      "title": "《00后拒绝请假羞耻症》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《00后拒绝请假羞耻症》 《00后拒绝请假羞耻症》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《00后拒绝请假羞耻症》 《00后拒绝请假羞耻症》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7491996549044620598",
+      "title": "《查寝的极限拉扯》 @大伟老三 #李宗恒 #每日精选爆款",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《查寝的极限拉扯》 @大伟老三 《查寝的极限拉扯》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "每日精选爆款"
+      ],
+      "short_phrases": [
+        "《查寝的极限拉扯》 @大伟老三 《查寝的极限拉扯》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7497220768033017100",
+      "title": "《借钱的极限拉扯》 @常远 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《借钱的极限拉扯》 @常远 《借钱的极限拉扯》 @常远",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《借钱的极限拉扯》 @常远 《借钱的极限拉扯》 @常远"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7572424378610028955",
+      "title": "《换个小点儿杯》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《换个小点儿杯》 《换个小点儿杯》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《换个小点儿杯》 《换个小点儿杯》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7076640620432887080",
+      "title": "《为什么受伤的总是我？！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《为什么受伤的总是我",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《为什么受伤的总是我",
+        "》 《为什么受伤的总是我"
+      ],
+      "question_phrases": [
+        "《为什么受伤的总是我",
+        "》 《为什么受伤的总是我"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7089631965304868130",
+      "title": "《别针换别墅》#李宗恒 #一加ace",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《别针换别墅》 《别针换别墅》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一加ace"
+      ],
+      "short_phrases": [
+        "《别针换别墅》 《别针换别墅》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7118581510269062415",
+      "title": "《友情保卫战？？？》#李宗恒 #梦幻西游网页版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《友情保卫战",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "梦幻西游网页版"
+      ],
+      "short_phrases": [
+        "》 《友情保卫战"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7150897850333875464",
+      "title": "《这怎么还不帮我了呢？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《这怎么还不帮我了呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这怎么还不帮我了呢",
+        "》 《这怎么还不帮我了呢"
+      ],
+      "question_phrases": [
+        "《这怎么还不帮我了呢",
+        "》 《这怎么还不帮我了呢"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7203914668836998461",
+      "title": "《极限拉扯！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《极限拉扯",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7227734292124814649",
+      "title": "漫步人生路，别针换别墅！#李宗恒#王一博的note12turbo",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "漫步人生路，别针换别墅",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "漫步人生路，别针换别墅"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7306352065574407465",
+      "title": "《安静点儿…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《安静点儿…》 《安静点儿…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《安静点儿…》 《安静点儿…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7378743873893305619",
+      "title": "《别墅换别针？？？》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《别墅换别针",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《别墅换别针"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7383343697410182439",
+      "title": "假如吵架可以找“代吵” #李宗恒 #一定要看到结尾",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "假如吵架可以找“代吵” 假如吵架可以找“代吵”",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一定要看到结尾"
+      ],
+      "short_phrases": [
+        "假如吵架可以找“代吵” 假如吵架可以找“代吵”"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7387254298964397323",
+      "title": "《如果脚臭有人管》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果脚臭有人管》 《如果脚臭有人管》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果脚臭有人管》 《如果脚臭有人管》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7393176171996925238",
+      "title": "你们下次就这么和对象吵架～ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "你们下次就这么和对象吵架～ 你们下次就这么和对象吵架～",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "你们下次就这么和对象吵架～ 你们下次就这么和对象吵架～"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7483454376640548107",
+      "title": "《00后拒绝请假羞耻症》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《00后拒绝请假羞耻症》 《00后拒绝请假羞耻症》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《00后拒绝请假羞耻症》 《00后拒绝请假羞耻症》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7491996549044620598",
+      "title": "《查寝的极限拉扯》 @大伟老三 #李宗恒 #每日精选爆款",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《查寝的极限拉扯》 @大伟老三 《查寝的极限拉扯》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "每日精选爆款"
+      ],
+      "short_phrases": [
+        "《查寝的极限拉扯》 @大伟老三 《查寝的极限拉扯》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7497220768033017100",
+      "title": "《借钱的极限拉扯》 @常远 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《借钱的极限拉扯》 @常远 《借钱的极限拉扯》 @常远",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《借钱的极限拉扯》 @常远 《借钱的极限拉扯》 @常远"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7572424378610028955",
+      "title": "《换个小点儿杯》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《换个小点儿杯》 《换个小点儿杯》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《换个小点儿杯》 《换个小点儿杯》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7089631965304868130",
+      "title": "《别针换别墅》#李宗恒 #一加ace",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "《别针换别墅》 《别针换别墅》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "一加ace"
+      ],
+      "short_phrases": [
+        "《别针换别墅》 《别针换别墅》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7118581510269062415",
+      "title": "《友情保卫战？？？》#李宗恒 #梦幻西游网页版",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《友情保卫战",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "梦幻西游网页版"
+      ],
+      "short_phrases": [
+        "》 《友情保卫战"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7227734292124814649",
+      "title": "漫步人生路，别针换别墅！#李宗恒#王一博的note12turbo",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "漫步人生路，别针换别墅",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "漫步人生路，别针换别墅"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7306352065574407465",
+      "title": "《安静点儿…》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《安静点儿…》 《安静点儿…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《安静点儿…》 《安静点儿…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7387254298964397323",
+      "title": "《如果脚臭有人管》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果脚臭有人管》 《如果脚臭有人管》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果脚臭有人管》 《如果脚臭有人管》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

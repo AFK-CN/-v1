@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-06-27",
+  "updated_at": "2026-06-30",
   "default_entry": "@知识库",
   "compatible_entry": "knowledge-base",
   "global_priority": true,
@@ -141,7 +141,8 @@
       "clarify_when_missing": [
         "文案基于哪个选题或材料？",
         "输出平台和形式是什么？",
-        "是否指定账号/风格和字数？"
+        "是否指定账号/风格和字数？",
+        "如果要生成图文，是否已有确认选题并允许调用 image2 生图？"
       ],
       "agents": [
         "controller",
@@ -155,12 +156,13 @@
         "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号整体方法论.md",
         "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容生产使用说明.md",
         "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/减少AI味输出规则.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容输出标准模板.md"
+        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容输出标准模板.md",
+        "00_System/shareable/rules/图文成品生成标准流程.md"
       ],
       "tools": [
         "tools.kb.cli search-candidates"
       ],
-      "output_contract": "输出黄金3s、完整文案、互动收尾、证据来源，并说明使用的账号/方向知识层级。",
+      "output_contract": "视频/口播输出黄金3s、完整文案、互动收尾、证据来源，并说明使用的账号/方向知识层级；图文成品分支只能在选题确认后进入，先输出图文脚本包，用户确认后再调用 image2 生图，最终输出生成图片清单、发布标题、发布正文、话题标签和生图验收结果。",
       "write_policy": "不直接写正式知识；发布表现进入复盘链路。"
     },
     {
@@ -171,6 +173,10 @@
         "账号学习",
         "学习账号",
         "学习视频",
+        "图文学习",
+        "学习图文",
+        "学习图文账号",
+        "学习小红书图文",
         "深度学习",
         "对标账号"
       ],
@@ -192,17 +198,26 @@
       "read_first": [
         "10_Knowledge/evidence/index/account_knowledge_index.md",
         "00_System/shareable/config/content_rough_scan_profiles.json",
-        "00_System/shareable/skills/active/视频深度学习Skill_v1.md"
+        "00_System/shareable/skills/active/视频深度学习Skill_v1.md",
+        "00_System/shareable/rules/图文账号学习标准工作流.md"
       ],
       "tools": [
         "tools.kb.cli sqlite-ingest",
+        "tools.kb.cli image-text-env",
+        "tools.kb.cli image-text-ingest",
+        "tools.kb.cli image-text-structure",
+        "tools.kb.cli image-text-scan",
+        "tools.kb.cli image-text-select",
+        "tools.kb.cli image-text-learn",
+        "tools.kb.cli image-text-status",
         "tools.content_rough_scan",
         "tools.video_learning",
+        "tools.image_text_learning",
         "tools.video_learning_audit",
         "tools.video_learning_account_ingest",
         "tools.video_learning_card_validator"
       ],
-      "output_contract": "按通用 profile 工作流输出学习阶段产物：粗学与深学计划、深度学习总结、综合入库；后续生产复盘阶段输出内容生产、反馈复盘和针对性强化记录。粗学完成必须有账号概述、粗学与选题池和 deep_learning_plan.json；粗学与选题池必须按方向保留全部粗扫选题，Top/候补内容只用于深学优先级和执行计划；用户确认或审核注册表通过后才能进入账号中心。",
+      "output_contract": "按通用 profile 工作流输出学习阶段产物：粗学与深学计划、深度学习总结、综合入库；视频分支走 scan -> select -> learn -> status，图文分支走 ingest -> structure -> scan -> select -> learn -> status；后续生产复盘阶段输出内容生产、反馈复盘和针对性强化记录。粗学完成必须有账号概述、粗学与选题池和 deep_learning_plan.json；粗学与选题池必须按方向保留全部粗扫选题，Top/候补内容只用于深学优先级和执行计划；图文结构化结果必须标注图片顺序、OCR 状态、封面/分图角色和证据缺口；用户确认或审核注册表通过后才能进入账号中心。",
       "write_policy": "脚本可写候选资产和报告；正式账号知识写入需要审核通过。"
     },
     {

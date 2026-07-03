@@ -1,0 +1,1114 @@
+{
+  "direction": "吃饭咖啡生活场景",
+  "topic_clusters": [
+    {
+      "topic": "喝",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7222106502075551035",
+          "title": "做美“式”男人 喝美式咖啡 品美事人生！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7239219334374067495",
+          "title": "《人生遥控器》#李宗恒#补充电解质就喝外星人",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7288956561739762985",
+          "title": "“不熟”情侣…#李宗恒#喝乳茶吧哈哈哈哈",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7350510901776207115",
+          "title": "关于商战的那点事儿#李宗恒#安慕希牛油果星人滇起来 #好喝更有益益起安慕希",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "美式",
+      "count": 4,
+      "representative_items": [
+        {
+          "source_id": "7223210221768953148",
+          "title": "享美式 想美事！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7271092803684371751",
+          "title": "一种很新的大学生：“美式”男！#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7275179679982685452",
+          "title": "“美式”男孩！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7321188646554520871",
+          "title": "“美式”男（春节版）#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "咖啡",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7222106502075551035",
+          "title": "做美“式”男人 喝美式咖啡 品美事人生！#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7271092803684371751",
+          "title": "一种很新的大学生：“美式”男！#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7321188646554520871",
+          "title": "“美式”男（春节版）#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "饭",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7153811332498754853",
+          "title": "《这饭吃的挺好》#李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7432987691391749428",
+          "title": "《这饭吃的真累呀！》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "饿",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7206583225144085821",
+          "title": "十几年了居然一直瞒着我！#李宗恒#半糖也扛饿 #半糖士力架",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7297053958873287999",
+          "title": "被迫饿了…#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "吃饭咖啡生活场景",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7097565385368538368",
+          "title": "《都会玩不啊？》#李宗恒 #麻将",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7481613117500165439",
+          "title": "《谁说天下没有免费的午餐》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "点菜",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7518243461331963162",
+          "title": "《如此点菜》 @大伟老三 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "外卖",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7226560371459427644",
+          "title": "《前任外卖》#李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7097565385368538368",
+      "title": "《都会玩不啊？》#李宗恒 #麻将",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《都会玩不啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "麻将"
+      ],
+      "short_phrases": [
+        "》 《都会玩不啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7111165499534216448",
+      "title": "《他们怎么都跑了？》#李宗恒 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《他们怎么都跑了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT 《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT"
+      ],
+      "question_phrases": [
+        "《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT 《他们怎么都跑了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7153811332498754853",
+      "title": "《这饭吃的挺好》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这饭吃的挺好》 《这饭吃的挺好》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这饭吃的挺好》 《这饭吃的挺好》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7206583225144085821",
+      "title": "十几年了居然一直瞒着我！#李宗恒#半糖也扛饿 #半糖士力架",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "十几年了居然一直瞒着我",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "半糖士力架"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7222106502075551035",
+      "title": "做美“式”男人 喝美式咖啡 品美事人生！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "做美“式”男人 喝美式咖啡 品美事人生",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "做美“式”男人 喝美式咖啡 品美事人生"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7223210221768953148",
+      "title": "享美式 想美事！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "享美式 想美事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7226560371459427644",
+      "title": "《前任外卖》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《前任外卖》 《前任外卖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《前任外卖》 《前任外卖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7233613793648004389",
+      "title": "《如果能重来…》#李宗恒#周黑鸭 #单手吃虾",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果能重来…》 《如果能重来…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "单手吃虾"
+      ],
+      "short_phrases": [
+        "《如果能重来…》 《如果能重来…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7239219334374067495",
+      "title": "《人生遥控器》#李宗恒#补充电解质就喝外星人",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《人生遥控器》 《人生遥控器》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《人生遥控器》 《人生遥控器》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "低价值暂不学",
+      "candidate_reason": "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
+    },
+    {
+      "source_id": "7271092803684371751",
+      "title": "一种很新的大学生：“美式”男！#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的大学生：“美式”男",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "咖啡文学大赛",
+        "写咖啡文学享清醒人生"
+      ],
+      "short_phrases": [
+        "一种很新的大学生：“美式”男"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7275179679982685452",
+      "title": "“美式”男孩！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“美式”男孩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7288956561739762985",
+      "title": "“不熟”情侣…#李宗恒#喝乳茶吧哈哈哈哈",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“不熟”情侣… “不熟”情侣…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "“不熟”情侣… “不熟”情侣…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7297053958873287999",
+      "title": "被迫饿了…#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "被迫饿了… 被迫饿了…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "被迫饿了… 被迫饿了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7321188646554520871",
+      "title": "“美式”男（春节版）#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“美式”男（春节版） “美式”男（春节版）",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "咖啡文学大赛",
+        "写咖啡文学享清醒人生"
+      ],
+      "short_phrases": [
+        "“美式”男（春节版） “美式”男（春节版）"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7350510901776207115",
+      "title": "关于商战的那点事儿#李宗恒#安慕希牛油果星人滇起来 #好喝更有益益起安慕希",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "关于商战的那点事儿 关于商战的那点事儿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "好喝更有益益起安慕希"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7432987691391749428",
+      "title": "《这饭吃的真累呀！》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这饭吃的真累呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这饭吃的真累呀",
+        "》 《这饭吃的真累呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7481613117500165439",
+      "title": "《谁说天下没有免费的午餐》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《谁说天下没有免费的午餐》 《谁说天下没有免费的午餐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《谁说天下没有免费的午餐》 《谁说天下没有免费的午餐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7518243461331963162",
+      "title": "《如此点菜》 @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此点菜》 @大伟老三 《如此点菜》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此点菜》 @大伟老三 《如此点菜》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7097565385368538368",
+      "title": "《都会玩不啊？》#李宗恒 #麻将",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《都会玩不啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "麻将"
+      ],
+      "short_phrases": [
+        "》 《都会玩不啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7111165499534216448",
+      "title": "《他们怎么都跑了？》#李宗恒 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《他们怎么都跑了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT 《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT"
+      ],
+      "question_phrases": [
+        "《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT 《他们怎么都跑了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7153811332498754853",
+      "title": "《这饭吃的挺好》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这饭吃的挺好》 《这饭吃的挺好》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这饭吃的挺好》 《这饭吃的挺好》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7206583225144085821",
+      "title": "十几年了居然一直瞒着我！#李宗恒#半糖也扛饿 #半糖士力架",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "十几年了居然一直瞒着我",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "半糖士力架"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7222106502075551035",
+      "title": "做美“式”男人 喝美式咖啡 品美事人生！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "做美“式”男人 喝美式咖啡 品美事人生",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "做美“式”男人 喝美式咖啡 品美事人生"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7223210221768953148",
+      "title": "享美式 想美事！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "享美式 想美事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7226560371459427644",
+      "title": "《前任外卖》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《前任外卖》 《前任外卖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《前任外卖》 《前任外卖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7233613793648004389",
+      "title": "《如果能重来…》#李宗恒#周黑鸭 #单手吃虾",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果能重来…》 《如果能重来…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "单手吃虾"
+      ],
+      "short_phrases": [
+        "《如果能重来…》 《如果能重来…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7271092803684371751",
+      "title": "一种很新的大学生：“美式”男！#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的大学生：“美式”男",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "咖啡文学大赛",
+        "写咖啡文学享清醒人生"
+      ],
+      "short_phrases": [
+        "一种很新的大学生：“美式”男"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7275179679982685452",
+      "title": "“美式”男孩！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“美式”男孩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7288956561739762985",
+      "title": "“不熟”情侣…#李宗恒#喝乳茶吧哈哈哈哈",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“不熟”情侣… “不熟”情侣…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "“不熟”情侣… “不熟”情侣…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7297053958873287999",
+      "title": "被迫饿了…#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "被迫饿了… 被迫饿了…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "被迫饿了… 被迫饿了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7321188646554520871",
+      "title": "“美式”男（春节版）#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“美式”男（春节版） “美式”男（春节版）",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "咖啡文学大赛",
+        "写咖啡文学享清醒人生"
+      ],
+      "short_phrases": [
+        "“美式”男（春节版） “美式”男（春节版）"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7350510901776207115",
+      "title": "关于商战的那点事儿#李宗恒#安慕希牛油果星人滇起来 #好喝更有益益起安慕希",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "关于商战的那点事儿 关于商战的那点事儿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "好喝更有益益起安慕希"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7432987691391749428",
+      "title": "《这饭吃的真累呀！》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这饭吃的真累呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这饭吃的真累呀",
+        "》 《这饭吃的真累呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7481613117500165439",
+      "title": "《谁说天下没有免费的午餐》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《谁说天下没有免费的午餐》 《谁说天下没有免费的午餐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《谁说天下没有免费的午餐》 《谁说天下没有免费的午餐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7518243461331963162",
+      "title": "《如此点菜》 @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此点菜》 @大伟老三 《如此点菜》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此点菜》 @大伟老三 《如此点菜》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7097565385368538368",
+      "title": "《都会玩不啊？》#李宗恒 #麻将",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《都会玩不啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "麻将"
+      ],
+      "short_phrases": [
+        "》 《都会玩不啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7111165499534216448",
+      "title": "《他们怎么都跑了？》#李宗恒 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《他们怎么都跑了",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT 《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT"
+      ],
+      "question_phrases": [
+        "《他们怎么都跑了",
+        "》 @李雪琴 @老四的快乐生活 @孟鹤堂 @金志文-GT 《他们怎么都跑了"
+      ],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7153811332498754853",
+      "title": "《这饭吃的挺好》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这饭吃的挺好》 《这饭吃的挺好》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这饭吃的挺好》 《这饭吃的挺好》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7206583225144085821",
+      "title": "十几年了居然一直瞒着我！#李宗恒#半糖也扛饿 #半糖士力架",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "十几年了居然一直瞒着我",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "半糖士力架"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7222106502075551035",
+      "title": "做美“式”男人 喝美式咖啡 品美事人生！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "做美“式”男人 喝美式咖啡 品美事人生",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "做美“式”男人 喝美式咖啡 品美事人生"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7223210221768953148",
+      "title": "享美式 想美事！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "享美式 想美事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7226560371459427644",
+      "title": "《前任外卖》#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《前任外卖》 《前任外卖》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《前任外卖》 《前任外卖》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7233613793648004389",
+      "title": "《如果能重来…》#李宗恒#周黑鸭 #单手吃虾",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果能重来…》 《如果能重来…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "单手吃虾"
+      ],
+      "short_phrases": [
+        "《如果能重来…》 《如果能重来…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7271092803684371751",
+      "title": "一种很新的大学生：“美式”男！#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的大学生：“美式”男",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "咖啡文学大赛",
+        "写咖啡文学享清醒人生"
+      ],
+      "short_phrases": [
+        "一种很新的大学生：“美式”男"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7275179679982685452",
+      "title": "“美式”男孩！#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“美式”男孩",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7288956561739762985",
+      "title": "“不熟”情侣…#李宗恒#喝乳茶吧哈哈哈哈",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“不熟”情侣… “不熟”情侣…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "“不熟”情侣… “不熟”情侣…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7297053958873287999",
+      "title": "被迫饿了…#李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "被迫饿了… 被迫饿了…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "被迫饿了… 被迫饿了…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7321188646554520871",
+      "title": "“美式”男（春节版）#李宗恒 #咖啡文学大赛 #写咖啡文学享清醒人生",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "“美式”男（春节版） “美式”男（春节版）",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "咖啡文学大赛",
+        "写咖啡文学享清醒人生"
+      ],
+      "short_phrases": [
+        "“美式”男（春节版） “美式”男（春节版）"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7350510901776207115",
+      "title": "关于商战的那点事儿#李宗恒#安慕希牛油果星人滇起来 #好喝更有益益起安慕希",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "关于商战的那点事儿 关于商战的那点事儿",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "好喝更有益益起安慕希"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7432987691391749428",
+      "title": "《这饭吃的真累呀！》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《这饭吃的真累呀",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《这饭吃的真累呀",
+        "》 《这饭吃的真累呀"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7481613117500165439",
+      "title": "《谁说天下没有免费的午餐》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《谁说天下没有免费的午餐》 《谁说天下没有免费的午餐》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《谁说天下没有免费的午餐》 《谁说天下没有免费的午餐》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7518243461331963162",
+      "title": "《如此点菜》 @大伟老三 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如此点菜》 @大伟老三 《如此点菜》 @大伟老三",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此点菜》 @大伟老三 《如此点菜》 @大伟老三"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "direction": "个人成长反思",
+  "topic_clusters": [],
+  "expressions": [],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [],
+  "needs_video_review": []
+}

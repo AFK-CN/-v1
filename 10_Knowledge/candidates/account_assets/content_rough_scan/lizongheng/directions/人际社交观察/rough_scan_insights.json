@@ -1,0 +1,505 @@
+{
+  "direction": "人际社交观察",
+  "topic_clusters": [
+    {
+      "topic": "人际社交观察",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7385013478802623783",
+          "title": "这是啥打招呼方式？ #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7394317052967718163",
+          "title": "常客么！ #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7471187931990936886",
+          "title": "嘲笑对方 理解对方 成为对方 超越对方 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "高情商",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7024034463046831373",
+          "title": "《有惊无险》#李宗恒 #高情商",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7027793768279592192",
+          "title": "《不甜》#李宗恒 #高情商",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "朋友",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7522720963953741083",
+          "title": "每天绞尽脑汁，只为了朋友那一句：你有病啊！ #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "社交",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7363505308708228393",
+          "title": "《新型插队社交？？？》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "礼貌",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7391324145792847123",
+          "title": "最有礼貌！ @大伟老三 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "沟通",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7286771314881318183",
+          "title": "一种很新的冷战沟通方式！#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "客气",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7163964560955739405",
+          "title": "《太客气了》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7024034463046831373",
+      "title": "《有惊无险》#李宗恒 #高情商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《有惊无险》 《有惊无险》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [
+        "《有惊无险》 《有惊无险》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7027793768279592192",
+      "title": "《不甜》#李宗恒 #高情商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不甜》 《不甜》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [
+        "《不甜》 《不甜》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7163964560955739405",
+      "title": "《太客气了》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《太客气了》 《太客气了》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《太客气了》 《太客气了》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7286771314881318183",
+      "title": "一种很新的冷战沟通方式！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的冷战沟通方式",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7363505308708228393",
+      "title": "《新型插队社交？？？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《新型插队社交",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《新型插队社交"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7385013478802623783",
+      "title": "这是啥打招呼方式？ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这是啥打招呼方式",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7391324145792847123",
+      "title": "最有礼貌！ @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "最有礼貌",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@大伟老三 最有礼貌"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7394317052967718163",
+      "title": "常客么！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "常客么",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7471187931990936886",
+      "title": "嘲笑对方 理解对方 成为对方 超越对方 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "嘲笑对方 理解对方 成为对方 超越对方 嘲笑对方 理解对方 成为对方 超越对方",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7522720963953741083",
+      "title": "每天绞尽脑汁，只为了朋友那一句：你有病啊！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "每天绞尽脑汁，只为了朋友那一句：你有病啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "每天绞尽脑汁，只为了朋友那一句：你有病啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7024034463046831373",
+      "title": "《有惊无险》#李宗恒 #高情商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《有惊无险》 《有惊无险》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [
+        "《有惊无险》 《有惊无险》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7027793768279592192",
+      "title": "《不甜》#李宗恒 #高情商",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《不甜》 《不甜》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "高情商"
+      ],
+      "short_phrases": [
+        "《不甜》 《不甜》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7163964560955739405",
+      "title": "《太客气了》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《太客气了》 《太客气了》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《太客气了》 《太客气了》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7286771314881318183",
+      "title": "一种很新的冷战沟通方式！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一种很新的冷战沟通方式",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7363505308708228393",
+      "title": "《新型插队社交？？？》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "《新型插队社交",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《新型插队社交"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7385013478802623783",
+      "title": "这是啥打招呼方式？ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这是啥打招呼方式",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7391324145792847123",
+      "title": "最有礼貌！ @大伟老三 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "最有礼貌",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "@大伟老三 最有礼貌"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7394317052967718163",
+      "title": "常客么！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "常客么",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7471187931990936886",
+      "title": "嘲笑对方 理解对方 成为对方 超越对方 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "嘲笑对方 理解对方 成为对方 超越对方 嘲笑对方 理解对方 成为对方 超越对方",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7522720963953741083",
+      "title": "每天绞尽脑汁，只为了朋友那一句：你有病啊！ #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "每天绞尽脑汁，只为了朋友那一句：你有病啊",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "每天绞尽脑汁，只为了朋友那一句：你有病啊"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7385013478802623783",
+      "title": "这是啥打招呼方式？ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "这是啥打招呼方式",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7394317052967718163",
+      "title": "常客么！ #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "常客么",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7471187931990936886",
+      "title": "嘲笑对方 理解对方 成为对方 超越对方 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "嘲笑对方 理解对方 成为对方 超越对方 嘲笑对方 理解对方 成为对方 超越对方",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

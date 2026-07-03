@@ -17,6 +17,69 @@ from tools.video_learning import NormalizedRecord, deduplicate_records, heat_sco
 DEFAULT_PROFILES_PATH = Path("00_System/shareable/config/content_rough_scan_profiles.json")
 OUTPUT_BASE = Path("10_Knowledge/candidates/account_assets/content_rough_scan")
 SQLITE_ACCOUNT_CANDIDATES_PATH = Path("10_Knowledge/candidates/account_assets/sqlite_imports/latest_account_candidates.json")
+DEFAULT_COMMERCIAL_DIRECTIONS = {"品牌植入与消费体验"}
+DEFAULT_COMMERCIAL_TERMS = (
+    "kfc",
+    "肯德基",
+    "rio",
+    "oppo",
+    "olay",
+    "欧乐b",
+    "周黑鸭",
+    "滴滴",
+    "小度",
+    "海澜之家",
+    "转转",
+    "士力架",
+    "元气森林",
+    "元气可乐",
+    "娇兰",
+    "一加",
+    "伊利",
+    "老村长",
+    "永劫无间",
+    "梦幻西游",
+    "去哪儿",
+    "外星人",
+    "劲酒",
+    "立必得",
+    "晓田",
+    "荣耀",
+    "Magic",
+    "冰梅见",
+    "马克华菲",
+    "奥利奥",
+    "舒肤佳",
+    "科大讯飞",
+    "飞科",
+    "安慕希",
+    "水星家纺",
+    "京东",
+    "天猫",
+    "抖音商城",
+    "爱回收",
+    "荣耀Magic",
+    "宝骏",
+)
+COMMERCIAL_HEAVY_TERMS = (
+    "品牌活动",
+    "好物节",
+    "公测",
+    "免单",
+    "app",
+    "双11",
+    "618",
+    "新品",
+    "回收",
+    "享美式",
+    "想美事",
+    "补充电解质",
+)
+COMMERCIAL_TAG_PATTERNS = (
+    r"[A-Za-z]{2,}\s*[A-Za-z0-9]*",
+    r"\d+\s*(?:万|元|度|g|G|GB|款|折|代|级)",
+    r"(?:手机|电脑|鼠标|剃须刀|口红|精华|白瓶|复原蜜|家纺|夏凉被|商城|电商|出行|酒|可乐|咖啡|乳茶|SUV|体验|推荐|清单)",
+)
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -71,6 +134,8 @@ def latest_sqlite_candidate_records_path(root: Path) -> Path | None:
 def sqlite_candidate_to_record(row: dict[str, Any]) -> NormalizedRecord:
     metrics = row.get("metrics", {}) if isinstance(row.get("metrics"), dict) else {}
     tags = row.get("tags", []) if isinstance(row.get("tags"), list) else []
+    suggested = row.get("suggested_directions", []) if isinstance(row.get("suggested_directions"), list) else []
+    source_keyword = str(row.get("source_keyword") or "")
     source_id = str(row.get("source_id") or row.get("stable_id") or "")
     title = str(row.get("title") or "")
     body = str(row.get("summary") or "")
@@ -90,7 +155,7 @@ def sqlite_candidate_to_record(row: dict[str, Any]) -> NormalizedRecord:
             "comments": int(metrics.get("comments", 0) or 0),
             "shares": int(metrics.get("shares", 0) or 0),
         },
-        tags=[str(tag) for tag in tags],
+        tags=list(dict.fromkeys([str(tag) for tag in [*tags, *suggested, source_keyword] if str(tag)])),
         url=str(row.get("url") or ""),
         video_download_url="",
         text_fingerprint=stable_id,
@@ -200,10 +265,18 @@ def score_direction(evidence: dict[str, str], keywords: Any) -> int:
     return score
 
 
+def commercial_directions(profile: dict[str, Any]) -> set[str]:
+    configured = profile.get("commercial_directions", [])
+    return DEFAULT_COMMERCIAL_DIRECTIONS | {str(item) for item in configured if str(item)}
+
+
 def classification(evidence: dict[str, str], profile: dict[str, Any]) -> dict[str, Any]:
     directions = profile["directions"]
     scores = {direction: score_direction(evidence, keywords) for direction, keywords in directions.items()}
-    ordered = sorted(scores.items(), key=lambda item: (-item[1], list(directions).index(item[0])))
+    commercial = commercial_directions(profile)
+    topic_scores = {direction: score for direction, score in scores.items() if direction not in commercial}
+    ordered_source = topic_scores if any(score > 0 for score in topic_scores.values()) else scores
+    ordered = sorted(ordered_source.items(), key=lambda item: (-item[1], list(directions).index(item[0])))
     primary, top_score = ordered[0]
     second_score = ordered[1][1] if len(ordered) > 1 else 0
     margin = (top_score - second_score) / top_score if top_score else 0.0
@@ -229,6 +302,45 @@ def classification(evidence: dict[str, str], profile: dict[str, Any]) -> dict[st
         "needs_review": needs_review,
         "review_reason": reason,
         "review_note": "",
+    }
+
+
+def commercial_terms(profile: dict[str, Any]) -> list[str]:
+    terms = list(DEFAULT_COMMERCIAL_TERMS)
+    configured = profile.get("commercial_terms", [])
+    terms.extend(str(item) for item in configured if str(item))
+    for direction in commercial_directions(profile):
+        terms.extend(keywords_for_direction(profile, direction))
+    return list(dict.fromkeys(term for term in terms if term))
+
+
+def commercial_analysis(evidence: dict[str, str], classified: dict[str, Any], profile: dict[str, Any]) -> dict[str, Any]:
+    text = normalize_text(" ".join(str(value) for value in evidence.values() if value))
+    lower = text.lower()
+    terms = [term for term in commercial_terms(profile) if term.lower() in lower]
+    tags_text = evidence.get("tags", "")
+    inferred_terms = []
+    for tag in extract_topic_tags(tags_text) or tags_text.split():
+        cleaned = normalize_text(str(tag)).strip("#")
+        if cleaned and any(re.search(pattern, cleaned, flags=re.IGNORECASE) for pattern in COMMERCIAL_TAG_PATTERNS):
+            inferred_terms.append(cleaned)
+    terms = list(dict.fromkeys([*terms, *inferred_terms]))
+    scores = classified.get("classification_scores", {})
+    primary = str(classified.get("primary_direction", ""))
+    topic_score = int(scores.get(primary, 0) or 0)
+    commercial_score = max((int(scores.get(direction, 0) or 0) for direction in commercial_directions(profile)), default=0)
+    heavy = any(term.lower() in lower for term in COMMERCIAL_HEAVY_TERMS)
+    if not terms and commercial_score <= 0:
+        commercial_type = "normal_content"
+    elif topic_score <= 0 or heavy:
+        commercial_type = "ad_heavy"
+    else:
+        commercial_type = "ad_integrated"
+    return {
+        "commercial_type": commercial_type,
+        "commercial_flag": commercial_type != "normal_content",
+        "commercial_terms": terms,
+        "commercial_score": commercial_score,
     }
 
 
@@ -455,6 +567,25 @@ def direction_insights(direction: str, rows: list[dict[str, Any]], profile: dict
     }
 
 
+def record_matches_profile(record: NormalizedRecord, profile: dict[str, Any]) -> bool:
+    account = profile["account_name"]
+    if (record.account_name or record.author_name) == account:
+        return True
+    match_terms = [str(term) for term in profile.get("account_match_terms", []) if str(term)]
+    if not match_terms:
+        return False
+    text = " ".join(
+        [
+            record.title,
+            record.body,
+            " ".join(record.tags),
+            record.account_name,
+            record.author_name,
+        ]
+    )
+    return any(term in text for term in match_terms)
+
+
 def build_inventory(
     root: Path,
     records: list[NormalizedRecord],
@@ -464,18 +595,18 @@ def build_inventory(
 ) -> list[dict[str, Any]]:
     deep_items = deep_items or {}
     excluded = {str(item) for item in profile.get("excluded_deep_ids", [])}
-    account = profile["account_name"]
     platforms = set(profile.get("platforms", []))
     selected = [
         record
         for record in records
-        if (record.account_name or record.author_name) == account and (not platforms or record.platform in platforms)
+        if record_matches_profile(record, profile) and (not platforms or record.platform in platforms)
     ]
     rows: list[dict[str, Any]] = []
     for record in sorted(selected, key=lambda item: (item.platform, item.source_id)):
         record = enrich_record_from_publish_db(root, record)
         evidence, sources = text_evidence(root, record)
         classified = classification(evidence, profile)
+        commercial = commercial_analysis(evidence, classified, profile)
         deep = deep_items.get(str(record.source_id))
         if deep:
             classified.update(
@@ -502,7 +633,7 @@ def build_inventory(
             "profile_id": profile["profile_id"],
             "platform": record.platform,
             "content_type": "video" if record.platform == "douyin" else "image_text",
-            "account_name": account,
+            "account_name": profile["account_name"],
             "source_id": str(record.source_id),
             "source_url": url,
             "published_at": record.published_at,
@@ -522,6 +653,7 @@ def build_inventory(
             "is_deep_learning_target": is_deep,
             "deep_learning_status": deep_status,
             "confirmed_learned": bool(deep and deep.get("confirmed_learned")),
+            **commercial,
             **classified,
         }
         rows.append(row)
@@ -554,6 +686,10 @@ def assign_rough_scan_values(rows: list[dict[str, Any]], profile: dict[str, Any]
             row["rough_scan_value"] = "high"
             row["candidate_deep_learning"] = False
             row["defer_reason"] = ""
+        elif row.get("commercial_type") == "ad_heavy":
+            row["rough_scan_value"] = "low"
+            row["candidate_deep_learning"] = False
+            row["defer_reason"] = "广告污染较重，仅保留广告植入观察，不进入正常深学候补"
         elif row["deep_learning_status"] == "excluded_missing_media":
             row["rough_scan_value"] = "medium"
             row["candidate_deep_learning"] = False

@@ -1,0 +1,352 @@
+{
+  "profile_id": "lizongheng",
+  "commercial_counts": {
+    "normal_content": 391,
+    "ad_integrated": 30,
+    "ad_heavy": 10
+  },
+  "ad_heavy_items": [
+    {
+      "source_id": "7163106307069709581",
+      "title": "《我不是舔神？》#李宗恒#抖音双11好物节 #美好生活尽在抖音电商",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "好物节",
+        "电商"
+      ]
+    },
+    {
+      "source_id": "7395258585413930251",
+      "title": "当霸总暑假去学车？？？ #李宗恒#永劫无间手游公测 #永劫无间手游",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "永劫无间"
+      ]
+    },
+    {
+      "source_id": "7475948510467067175",
+      "title": "《当00后成为了老师》 #李宗恒#爱回收",
+      "primary_direction": "校园大学生",
+      "commercial_terms": [
+        "回收"
+      ]
+    },
+    {
+      "source_id": "7224287566864993592",
+      "title": "家人们～谁还有顶级理解综合症？#李宗恒#滴滴APP #五一出行就用滴滴app",
+      "primary_direction": "家庭与代际关系",
+      "commercial_terms": [
+        "滴滴",
+        "APP"
+      ]
+    },
+    {
+      "source_id": "7212883738613566780",
+      "title": "《如此快递》#李宗恒#转转 #转转回收",
+      "primary_direction": "剧情短剧与喜剧反转",
+      "commercial_terms": [
+        "转转",
+        "回收"
+      ]
+    },
+    {
+      "source_id": "7389489663137893686",
+      "title": "你俩是真不知趣啊… @大伟老三 #李宗恒#滴滴出行夏夜免单",
+      "primary_direction": "剧情短剧与喜剧反转",
+      "commercial_terms": [
+        "滴滴",
+        "免单"
+      ]
+    },
+    {
+      "source_id": "7494676864037014796",
+      "title": "找手机的一天，找回了曾经的自己。 #李宗恒#去哪儿都有行动价 #旅行上去哪儿比比看",
+      "primary_direction": "品牌植入与消费体验",
+      "commercial_terms": [
+        "去哪儿"
+      ]
+    },
+    {
+      "source_id": "7239219334374067495",
+      "title": "《人生遥控器》#李宗恒#补充电解质就喝外星人",
+      "primary_direction": "吃饭咖啡生活场景",
+      "commercial_terms": [
+        "外星人"
+      ]
+    },
+    {
+      "source_id": "7562130891766877486",
+      "title": "《AAAA制》 #李宗恒#解锁我的双11心头好 #抖音商城双11好物节 #双11消费劵",
+      "primary_direction": "金钱边界与商战利益",
+      "commercial_terms": [
+        "消费",
+        "好物节"
+      ]
+    },
+    {
+      "source_id": "7160366622199303438",
+      "title": "《emo员？》#李宗恒 #双11必买电子产品清单 #小度X8升级版 #小度智能屏",
+      "primary_direction": "AI科技梗",
+      "commercial_terms": [
+        "小度",
+        "产品",
+        "电子产品"
+      ]
+    }
+  ],
+  "ad_integrated_items": [
+    {
+      "source_id": "7129717751270165760",
+      "title": "《李宗竖》#李宗恒 #RIO强爽 #RIO强爽8度不信邪",
+      "primary_direction": "身份错位短剧",
+      "commercial_terms": [
+        "rio",
+        "RIO"
+      ]
+    },
+    {
+      "source_id": "7406155700583370025",
+      "title": "再见！叶酸！ #李宗恒 #假如我是这世上最爱你的人 #电影假如爱上映",
+      "primary_direction": "身份错位短剧",
+      "commercial_terms": [
+        "电影假如爱"
+      ]
+    },
+    {
+      "source_id": "7121547737086184704",
+      "title": "《舔🐶大赛？？？》#李宗恒 #天猫超级品牌日#要低糖更要好喝",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "品牌"
+      ]
+    },
+    {
+      "source_id": "7123156785032088866",
+      "title": "《怕媳妇大赛？？？》#李宗恒 #机械表 #七夕礼物",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "机械表",
+        "礼物"
+      ]
+    },
+    {
+      "source_id": "7182548002966424869",
+      "title": "《如此舔🐶》#李宗恒#娇兰新年娇红运 #娇兰口红",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "娇兰",
+        "口红"
+      ]
+    },
+    {
+      "source_id": "7254044380347108619",
+      "title": "《女友水平考试》#李宗恒#欧乐b电动牙刷",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "欧乐b"
+      ]
+    },
+    {
+      "source_id": "7273355422092889363",
+      "title": "《以前有钢铁直男，现在有拿铁直男》#李宗恒##新一代oppo小折叠 OPPO Find N3 Flip",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "oppo",
+        "OPPO"
+      ]
+    },
+    {
+      "source_id": "7296017525773471017",
+      "title": "《分手也不耽误带货！》#李宗恒#娇兰第三代黄金复原蜜",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "娇兰"
+      ]
+    },
+    {
+      "source_id": "7330497942127693097",
+      "title": "《男闺蜜》#李宗恒#祝你kfc祝你快发财 #肯德基",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "kfc",
+        "肯德基"
+      ]
+    },
+    {
+      "source_id": "7423267323160694068",
+      "title": "《前任面试官》 @鑫淼 #李宗恒#OLAY抗糖小白瓶",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "olay"
+      ]
+    },
+    {
+      "source_id": "7469229752612637971",
+      "title": "你们过年相亲都遇到啥样的啦？ #李宗恒#国民白酒老村长 #老村长酒 #给蛇年把快乐满上",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "老村长"
+      ]
+    },
+    {
+      "source_id": "7525341422683344179",
+      "title": "《大脑单身部》 #李宗恒#今日宜养生 #爆笑喜综带你养生 #劲酒带你开把养生局",
+      "primary_direction": "爱情关系喜剧",
+      "commercial_terms": [
+        "劲酒",
+        "养生"
+      ]
+    },
+    {
+      "source_id": "7279234505125137718",
+      "title": "一种很新的大学室友：“霸道”室友！#李宗恒#周黑鸭 #解馋超自由",
+      "primary_direction": "校园大学生",
+      "commercial_terms": [
+        "周黑鸭"
+      ]
+    },
+    {
+      "source_id": "7291875647083924747",
+      "title": "《不熟室友》#李宗恒#oppofindn3",
+      "primary_direction": "校园大学生",
+      "commercial_terms": [
+        "oppo",
+        "OPPO"
+      ]
+    },
+    {
+      "source_id": "7326207496505330980",
+      "title": "大家以后会是这样的亲戚嘛！#李宗恒#娇兰复原蜜 #娇兰双效精华",
+      "primary_direction": "家庭与代际关系",
+      "commercial_terms": [
+        "娇兰"
+      ]
+    },
+    {
+      "source_id": "7457027526498536740",
+      "title": "《我在期待什么呢？》 #李宗恒#过年搭子选伊利 #万事如伊大吉大利",
+      "primary_direction": "家庭与代际关系",
+      "commercial_terms": [
+        "伊利"
+      ]
+    },
+    {
+      "source_id": "7602632130237736923",
+      "title": "《“大喘气”一家人》 #李宗恒#马年搭子选伊利",
+      "primary_direction": "家庭与代际关系",
+      "commercial_terms": [
+        "伊利"
+      ]
+    },
+    {
+      "source_id": "7146416073028504847",
+      "title": "《好像哪里不对呢…》#李宗恒 #机械表",
+      "primary_direction": "生活荒诞反转",
+      "commercial_terms": [
+        "机械表"
+      ]
+    },
+    {
+      "source_id": "7201013830586060069",
+      "title": "《欢迎入住！》#李宗恒#元气森林气更足",
+      "primary_direction": "生活荒诞反转",
+      "commercial_terms": [
+        "元气森林",
+        "元气"
+      ]
+    },
+    {
+      "source_id": "7221064431160069432",
+      "title": "《如此约会》#李宗恒#海澜之家 #海澜之家能量幸运衫",
+      "primary_direction": "生活荒诞反转",
+      "commercial_terms": [
+        "海澜之家",
+        "海澜"
+      ]
+    },
+    {
+      "source_id": "7170147835898367263",
+      "title": "《如此小心眼》#李宗恒#vivox90 #京东超级品牌日",
+      "primary_direction": "心理博弈与心眼拟人",
+      "commercial_terms": [
+        "品牌"
+      ]
+    },
+    {
+      "source_id": "7236938720102862112",
+      "title": "《如此心眼子》#李宗恒#opporeno10",
+      "primary_direction": "心理博弈与心眼拟人",
+      "commercial_terms": [
+        "oppo",
+        "OPPO"
+      ]
+    },
+    {
+      "source_id": "7134577389979454760",
+      "title": "《我还不够听话嘛？》#李宗恒 #元气可乐   #不后悔可乐",
+      "primary_direction": "性格标签与情绪自洽",
+      "commercial_terms": [
+        "元气可乐",
+        "元气",
+        "可乐"
+      ]
+    },
+    {
+      "source_id": "7550322686300917018",
+      "title": "学会钝感力，生活没压力！ #李宗恒#团圆搭子选伊利",
+      "primary_direction": "性格标签与情绪自洽",
+      "commercial_terms": [
+        "伊利"
+      ]
+    },
+    {
+      "source_id": "7089631965304868130",
+      "title": "《别针换别墅》#李宗恒 #一加ace",
+      "primary_direction": "冲突吵架与边界拉扯",
+      "commercial_terms": [
+        "一加"
+      ]
+    },
+    {
+      "source_id": "7118581510269062415",
+      "title": "《友情保卫战？？？》#李宗恒 #梦幻西游网页版",
+      "primary_direction": "冲突吵架与边界拉扯",
+      "commercial_terms": [
+        "梦幻西游"
+      ]
+    },
+    {
+      "source_id": "7533066373732814090",
+      "title": "《你今天也在装大人吗？》 #李宗恒#晓田 #立必得",
+      "primary_direction": "品牌植入与消费体验",
+      "commercial_terms": [
+        "立必得",
+        "晓田"
+      ]
+    },
+    {
+      "source_id": "7568089247250644338",
+      "title": "《这瓜吃的…》 #李宗恒 #12万内SUV体验真卷王宝骏云海",
+      "primary_direction": "品牌植入与消费体验",
+      "commercial_terms": [
+        "体验"
+      ]
+    },
+    {
+      "source_id": "7206583225144085821",
+      "title": "十几年了居然一直瞒着我！#李宗恒#半糖也扛饿 #半糖士力架",
+      "primary_direction": "吃饭咖啡生活场景",
+      "commercial_terms": [
+        "士力架"
+      ]
+    },
+    {
+      "source_id": "7233613793648004389",
+      "title": "《如果能重来…》#李宗恒#周黑鸭 #单手吃虾",
+      "primary_direction": "吃饭咖啡生活场景",
+      "commercial_terms": [
+        "周黑鸭"
+      ]
+    }
+  ]
+}

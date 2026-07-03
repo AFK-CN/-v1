@@ -22,6 +22,7 @@ from .system_cleaner import audit_system_boundaries, rewrite_legacy_path_referen
 from .task_runner import create_task, finish_task
 from .validator import validate_system
 from tools.creator_db_export import export_creator_database
+from tools import image_text_learning
 from tools.sqlite_ingest import ingest_sqlite_database, sqlite_ingest_status
 from tools.video_learning_account_ingest import AccountIngestConfig, ingest_directions as ingest_video_learning_directions
 from tools.video_learning_card_validator import validate_cards as validate_video_learning_cards
@@ -116,6 +117,29 @@ def main() -> int:
     sqlite_ingest_parser.add_argument("--db-path", default="", help="SQLite database path, defaults to 数据/sqlite_tables.db")
     sqlite_ingest_parser.add_argument("--batch-id", default="", help="Optional deterministic batch id for tests or reruns")
     subparsers.add_parser("sqlite-status", help="Show SQLite ingest state")
+    image_text_env_parser = subparsers.add_parser("image-text-env", help="Check image-text learning tool availability")
+    image_text_env_parser.add_argument("--paddleocr-command", default="")
+    image_text_env_parser.add_argument("--image2-command", default="")
+    image_text_ingest_parser = subparsers.add_parser("image-text-ingest", help="Register a local image package for account learning")
+    image_text_ingest_parser.add_argument("--account-name", required=True)
+    image_text_ingest_parser.add_argument("--profile-id", default="")
+    image_text_ingest_parser.add_argument("--platform", default="xhs")
+    image_text_ingest_parser.add_argument("--input-dir", required=True)
+    image_text_ingest_parser.add_argument("--workflow-id", default="")
+    image_text_ingest_parser.add_argument("--ocr-engine", default="none")
+    image_text_ingest_parser.add_argument("--ocr-lang", default="chi_sim+eng")
+    image_text_ingest_parser.add_argument("--ocr-psm", type=int, default=6)
+    image_text_ingest_parser.add_argument("--visual-feature-engine", default="opencv", choices=["none", "pillow", "opencv"])
+    image_text_ingest_parser.add_argument("--paddleocr-command", default="")
+    image_text_ingest_parser.add_argument("--image2-mode", default="codex", choices=["codex", "external", "none"])
+    image_text_ingest_parser.add_argument("--image2-command", default="")
+    image_text_ingest_parser.add_argument("--image2-timeout", type=int, default=60)
+    for image_text_command in ("structure", "scan", "learn", "status"):
+        command = subparsers.add_parser(f"image-text-{image_text_command}", help=f"Run image-text {image_text_command} step")
+        command.add_argument("--workflow-id", required=True)
+    image_text_select_parser = subparsers.add_parser("image-text-select", help="Select structured image-text posts for candidate learning")
+    image_text_select_parser.add_argument("--workflow-id", required=True)
+    image_text_select_parser.add_argument("--top-n", type=int, default=0)
 
     args = parser.parse_args()
     root = Path(args.root).resolve()
@@ -276,6 +300,22 @@ def main() -> int:
         result = sqlite_ingest_status(root)
         if not result.get("ok", False):
             exit_code = 2
+    elif args.command == "image-text-env":
+        result = image_text_learning.image_text_env_report(args.image2_command, args.paddleocr_command)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "image-text-ingest":
+        result = image_text_learning.command_ingest(args)
+    elif args.command == "image-text-structure":
+        result = image_text_learning.command_structure(args)
+    elif args.command == "image-text-scan":
+        result = image_text_learning.command_scan(args)
+    elif args.command == "image-text-select":
+        result = image_text_learning.command_select(args)
+    elif args.command == "image-text-learn":
+        result = image_text_learning.command_learn(args)
+    elif args.command == "image-text-status":
+        result = image_text_learning.command_status(args)
     else:
         result = finish_task(root, args.task_id, args.status, summary=args.summary)
     print(json.dumps(result, ensure_ascii=False, indent=2))

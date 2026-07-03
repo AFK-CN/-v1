@@ -1,0 +1,715 @@
+{
+  "direction": "心理博弈与心眼拟人",
+  "topic_clusters": [
+    {
+      "topic": "心眼",
+      "count": 3,
+      "representative_items": [
+        {
+          "source_id": "7170147835898367263",
+          "title": "《如此小心眼》#李宗恒#vivox90 #京东超级品牌日",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7236938720102862112",
+          "title": "《如此心眼子》#李宗恒#opporeno10",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7307156970979495204",
+          "title": "《俩人一万个心眼子！》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "心理",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7571689449059538313",
+          "title": "《举手的心理战》 #李宗恒",
+          "evidence_level": "metadata_only"
+        },
+        {
+          "source_id": "7576543106938930611",
+          "title": "《极速心理开导》 #李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "拟人",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7300041218140933430",
+          "title": "《如果“疑心病”拟人化》#李宗恒#舒肤佳红石榴",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7340854114005323019",
+          "title": "《如果大脑拟人化》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "心理博弈与心眼拟人",
+      "count": 2,
+      "representative_items": [
+        {
+          "source_id": "7441421058281917736",
+          "title": "这是一个走心的故事。 #李宗恒",
+          "evidence_level": "needs_video_review"
+        },
+        {
+          "source_id": "7573245859657606382",
+          "title": "《完美破解》 #李宗恒",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "疑心",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7300041218140933430",
+          "title": "《如果“疑心病”拟人化》#李宗恒#舒肤佳红石榴",
+          "evidence_level": "needs_video_review"
+        }
+      ]
+    },
+    {
+      "topic": "证明不了",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7329721498611043595",
+          "title": "我咋就证明不了呢？#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "预判",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7331978134620753171",
+          "title": "一切尽在预判中！#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    },
+    {
+      "topic": "攀比",
+      "count": 1,
+      "representative_items": [
+        {
+          "source_id": "7199462540168924471",
+          "title": "《如果攀比员来让我攀比…》#李宗恒",
+          "evidence_level": "metadata_only"
+        }
+      ]
+    }
+  ],
+  "expressions": [
+    {
+      "source_id": "7170147835898367263",
+      "title": "《如此小心眼》#李宗恒#vivox90 #京东超级品牌日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《如此小心眼》 《如此小心眼》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "京东超级品牌日"
+      ],
+      "short_phrases": [
+        "《如此小心眼》 《如此小心眼》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7199462540168924471",
+      "title": "《如果攀比员来让我攀比…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果攀比员来让我攀比…》 《如果攀比员来让我攀比…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果攀比员来让我攀比…》 《如果攀比员来让我攀比…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7232548789507181861",
+      "title": "《心态决定一切！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《心态决定一切",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《心态决定一切"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7236938720102862112",
+      "title": "《如此心眼子》#李宗恒#opporeno10",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《如此心眼子》 《如此心眼子》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此心眼子》 《如此心眼子》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7300041218140933430",
+      "title": "《如果“疑心病”拟人化》#李宗恒#舒肤佳红石榴",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果“疑心病”拟人化》 《如果“疑心病”拟人化》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果“疑心病”拟人化》 《如果“疑心病”拟人化》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7307156970979495204",
+      "title": "《俩人一万个心眼子！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《俩人一万个心眼子",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《俩人一万个心眼子",
+        "》 《俩人一万个心眼子"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7329721498611043595",
+      "title": "我咋就证明不了呢？#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我咋就证明不了呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7331978134620753171",
+      "title": "一切尽在预判中！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一切尽在预判中",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7340854114005323019",
+      "title": "《如果大脑拟人化》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果大脑拟人化》 《如果大脑拟人化》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果大脑拟人化》 《如果大脑拟人化》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7441421058281917736",
+      "title": "这是一个走心的故事。 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是一个走心的故事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7566473497522818350",
+      "title": "感觉不是很闹心… #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "感觉不是很闹心… 感觉不是很闹心…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "感觉不是很闹心… 感觉不是很闹心…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7571689449059538313",
+      "title": "《举手的心理战》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《举手的心理战》 《举手的心理战》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《举手的心理战》 《举手的心理战》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7573245859657606382",
+      "title": "《完美破解》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《完美破解》 《完美破解》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《完美破解》 《完美破解》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7576543106938930611",
+      "title": "《极速心理开导》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《极速心理开导》 《极速心理开导》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《极速心理开导》 《极速心理开导》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "asset_learning_policy": {
+    "learn_title": true,
+    "learn_body_or_caption": true,
+    "learn_topic_tags": true,
+    "learn_comment_text": false
+  },
+  "candidate_deep_learning": [
+    {
+      "source_id": "7170147835898367263",
+      "title": "《如此小心眼》#李宗恒#vivox90 #京东超级品牌日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《如此小心眼》 《如此小心眼》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "京东超级品牌日"
+      ],
+      "short_phrases": [
+        "《如此小心眼》 《如此小心眼》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7199462540168924471",
+      "title": "《如果攀比员来让我攀比…》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果攀比员来让我攀比…》 《如果攀比员来让我攀比…》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果攀比员来让我攀比…》 《如果攀比员来让我攀比…》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7232548789507181861",
+      "title": "《心态决定一切！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《心态决定一切",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "》 《心态决定一切"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7236938720102862112",
+      "title": "《如此心眼子》#李宗恒#opporeno10",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《如此心眼子》 《如此心眼子》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此心眼子》 《如此心眼子》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7300041218140933430",
+      "title": "《如果“疑心病”拟人化》#李宗恒#舒肤佳红石榴",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果“疑心病”拟人化》 《如果“疑心病”拟人化》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果“疑心病”拟人化》 《如果“疑心病”拟人化》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7307156970979495204",
+      "title": "《俩人一万个心眼子！》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《俩人一万个心眼子",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《俩人一万个心眼子",
+        "》 《俩人一万个心眼子"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7329721498611043595",
+      "title": "我咋就证明不了呢？#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "问题型标题",
+      "opening_fragment": "我咋就证明不了呢",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7331978134620753171",
+      "title": "一切尽在预判中！#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "一切尽在预判中",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7340854114005323019",
+      "title": "《如果大脑拟人化》#李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果大脑拟人化》 《如果大脑拟人化》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果大脑拟人化》 《如果大脑拟人化》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7441421058281917736",
+      "title": "这是一个走心的故事。 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是一个走心的故事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7566473497522818350",
+      "title": "感觉不是很闹心… #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "强判断/反常识型标题",
+      "opening_fragment": "感觉不是很闹心… 感觉不是很闹心…",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "感觉不是很闹心… 感觉不是很闹心…"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7571689449059538313",
+      "title": "《举手的心理战》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《举手的心理战》 《举手的心理战》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《举手的心理战》 《举手的心理战》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    },
+    {
+      "source_id": "7573245859657606382",
+      "title": "《完美破解》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《完美破解》 《完美破解》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《完美破解》 《完美破解》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7576543106938930611",
+      "title": "《极速心理开导》 #李宗恒",
+      "evidence_level": "metadata_only",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《极速心理开导》 《极速心理开导》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《极速心理开导》 《极速心理开导》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "权威深学范围内，适合补强方向方法论"
+    }
+  ],
+  "needs_video_review": [
+    {
+      "source_id": "7170147835898367263",
+      "title": "《如此小心眼》#李宗恒#vivox90 #京东超级品牌日",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《如此小心眼》 《如此小心眼》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒",
+        "京东超级品牌日"
+      ],
+      "short_phrases": [
+        "《如此小心眼》 《如此小心眼》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7236938720102862112",
+      "title": "《如此心眼子》#李宗恒#opporeno10",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "数字/步骤/周期型标题",
+      "opening_fragment": "《如此心眼子》 《如此心眼子》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如此心眼子》 《如此心眼子》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7300041218140933430",
+      "title": "《如果“疑心病”拟人化》#李宗恒#舒肤佳红石榴",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《如果“疑心病”拟人化》 《如果“疑心病”拟人化》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《如果“疑心病”拟人化》 《如果“疑心病”拟人化》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7441421058281917736",
+      "title": "这是一个走心的故事。 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "这是一个走心的故事",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    },
+    {
+      "source_id": "7573245859657606382",
+      "title": "《完美破解》 #李宗恒",
+      "evidence_level": "needs_video_review",
+      "title_pattern": "结果/场景型标题",
+      "opening_fragment": "《完美破解》 《完美破解》",
+      "body_pattern": "问题到行动",
+      "topic_tags": [
+        "李宗恒"
+      ],
+      "short_phrases": [
+        "《完美破解》 《完美破解》"
+      ],
+      "question_phrases": [],
+      "contrarian_phrases": [],
+      "deep_relation": "可补强",
+      "candidate_reason": "本轮范围外但相关度或热度较高，适合作为候补深学素材"
+    }
+  ]
+}

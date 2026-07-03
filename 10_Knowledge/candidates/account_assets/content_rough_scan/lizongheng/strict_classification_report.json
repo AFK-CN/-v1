@@ -1,0 +1,151 @@
+{
+  "profile_id": "lizongheng",
+  "commercial_counts": {
+    "normal_content": 361,
+    "ad_integrated": 60,
+    "ad_heavy": 10
+  },
+  "selected_count": 134,
+  "excluded_counts": {
+    "commercial": 70,
+    "weak_signal": 62
+  },
+  "summary": [
+    {
+      "direction": "身份错位短剧",
+      "available": 8,
+      "eligible_strict": 4,
+      "commercial_excluded": 3,
+      "weak_signal_excluded": 1,
+      "selected": 4
+    },
+    {
+      "direction": "爱情关系喜剧",
+      "available": 70,
+      "eligible_strict": 48,
+      "commercial_excluded": 15,
+      "weak_signal_excluded": 8,
+      "selected": 10
+    },
+    {
+      "direction": "校园大学生",
+      "available": 66,
+      "eligible_strict": 56,
+      "commercial_excluded": 6,
+      "weak_signal_excluded": 4,
+      "selected": 10
+    },
+    {
+      "direction": "人际社交观察",
+      "available": 10,
+      "eligible_strict": 7,
+      "commercial_excluded": 0,
+      "weak_signal_excluded": 3,
+      "selected": 7
+    },
+    {
+      "direction": "职场关系",
+      "available": 32,
+      "eligible_strict": 26,
+      "commercial_excluded": 4,
+      "weak_signal_excluded": 2,
+      "selected": 10
+    },
+    {
+      "direction": "家庭与代际关系",
+      "available": 32,
+      "eligible_strict": 24,
+      "commercial_excluded": 7,
+      "weak_signal_excluded": 1,
+      "selected": 10
+    },
+    {
+      "direction": "生活荒诞反转",
+      "available": 48,
+      "eligible_strict": 29,
+      "commercial_excluded": 4,
+      "weak_signal_excluded": 15,
+      "selected": 10
+    },
+    {
+      "direction": "剧情短剧与喜剧反转",
+      "available": 29,
+      "eligible_strict": 25,
+      "commercial_excluded": 4,
+      "weak_signal_excluded": 0,
+      "selected": 10
+    },
+    {
+      "direction": "心理博弈与心眼拟人",
+      "available": 14,
+      "eligible_strict": 9,
+      "commercial_excluded": 3,
+      "weak_signal_excluded": 2,
+      "selected": 9
+    },
+    {
+      "direction": "性格标签与情绪自洽",
+      "available": 30,
+      "eligible_strict": 19,
+      "commercial_excluded": 4,
+      "weak_signal_excluded": 7,
+      "selected": 10
+    },
+    {
+      "direction": "沟通误解与语言表达",
+      "available": 17,
+      "eligible_strict": 10,
+      "commercial_excluded": 0,
+      "weak_signal_excluded": 7,
+      "selected": 10
+    },
+    {
+      "direction": "冲突吵架与边界拉扯",
+      "available": 15,
+      "eligible_strict": 10,
+      "commercial_excluded": 3,
+      "weak_signal_excluded": 2,
+      "selected": 10
+    },
+    {
+      "direction": "金钱边界与商战利益",
+      "available": 6,
+      "eligible_strict": 4,
+      "commercial_excluded": 2,
+      "weak_signal_excluded": 0,
+      "selected": 4
+    },
+    {
+      "direction": "身体状态与压力崩溃",
+      "available": 7,
+      "eligible_strict": 7,
+      "commercial_excluded": 0,
+      "weak_signal_excluded": 0,
+      "selected": 7
+    },
+    {
+      "direction": "叛逆反差与口号反讽",
+      "available": 2,
+      "eligible_strict": 2,
+      "commercial_excluded": 0,
+      "weak_signal_excluded": 0,
+      "selected": 2
+    },
+    {
+      "direction": "部门组织拟人",
+      "available": 1,
+      "eligible_strict": 1,
+      "commercial_excluded": 0,
+      "weak_signal_excluded": 0,
+      "selected": 1
+    },
+    {
+      "direction": "创作表达与作品索引",
+      "available": 15,
+      "eligible_strict": 11,
+      "commercial_excluded": 0,
+      "weak_signal_excluded": 4,
+      "selected": 10
+    }
+  ]
+}
