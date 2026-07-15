@@ -1,0 +1,10 @@
+{"source_id":"7148400898321042695","review_mode":"asr_quality_screened","retained_quotes":["火锅多腻啊","我有男朋友了"],"rejected_quotes":[]}
+{"source_id":"7147611211419405568","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"我是共享的田狗","reason":"ASR将舔狗错转为田狗，系列人设以标题和画面字幕为准。"},{"text":"9月32号当天还可以抽大奖","reason":"ASR生成不存在的日期，画面活动页明确为九三零当天。"}]}
+{"source_id":"7146416073028504847","review_mode":"asr_quality_screened","retained_quotes":["我给你一千","咱俩合好"],"rejected_quotes":[]}
+{"source_id":"7145706087914769698","review_mode":"asr_quality_screened","retained_quotes":["普天之下最值得信任的男人","你们都夸我一天了"],"rejected_quotes":[]}
+{"source_id":"7143813226013150505","review_mode":"asr_quality_screened","retained_quotes":["你说话一字千斤"],"rejected_quotes":[{"text":"这马屁排得真好","reason":"ASR将拍马屁的拍错转为排，不保留为可引用原句。"}]}
+{"source_id":"7142693660327447843","review_mode":"asr_quality_screened","retained_quotes":["我可以用替身吗","我没有替身"],"rejected_quotes":[]}
+{"source_id":"7140837800848444672","review_mode":"asr_quality_screened","retained_quotes":["我跟我女神和男朋友买的","我特别着急"],"rejected_quotes":[]}
+{"source_id":"7139407895732440335","review_mode":"asr_quality_screened","retained_quotes":["今天就是让我爸认识你","二手苹果12才三千多"],"rejected_quotes":[]}
+{"source_id":"7137867143542082851","review_mode":"asr_quality_screened","retained_quotes":["你说的VS朋友听到的"],"rejected_quotes":[{"text":"除非我有个熊脸","reason":"ASR将除非我有事求你错转成熊脸，不能作为潜台词原句。"}]}
+{"source_id":"7136757494692498703","review_mode":"asr_quality_screened","retained_quotes":["我也喜欢看我的视频"],"rejected_quotes":[{"text":"但是这千饼我是帮我女神的男朋友要的","reason":"ASR将签名及整句连续错转，真实目的由画面字幕确认。"}]}

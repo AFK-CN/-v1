@@ -1,0 +1,144 @@
+{
+  "ok": true,
+  "generated_at": "2026-07-13T22:42:25+08:00",
+  "nas_root": "/Volumes/dy/accounts/dy_77700555383",
+  "candidate_count": 36,
+  "skipped_attempted_count": 4,
+  "selected_count": 36,
+  "selected_ids": [
+    "7207763764735741218",
+    "7218526700215340340",
+    "7173673281491307776",
+    "7243416997281729853",
+    "7233757661416705320",
+    "7022619355741572386",
+    "7024116698630442255",
+    "7024871070935174400",
+    "7027463222697479424",
+    "7040826670210747655",
+    "7047872155094158592",
+    "7114298437268557096",
+    "7136925066519989538",
+    "7151996113468345600",
+    "7171405037640404239",
+    "7175150358476459304",
+    "7183279423737662754",
+    "7193315471544814863",
+    "7195534646212300066",
+    "7205551175725223223",
+    "7208890438902713640",
+    "7210751843343830324",
+    "7212608508749991183",
+    "7215957293215599912",
+    "7223007595429170447",
+    "7251931475480775992",
+    "7268289079706455355",
+    "7333964714050915584",
+    "7356238113959595291",
+    "7396710848225414435",
+    "7397442386571414836",
+    "7400042786155793699",
+    "7405235281172974863",
+    "7412293761977388299",
+    "7443448698757008679",
+    "7615023007971245750"
+  ],
+  "dry_run": false,
+  "results": [
+    {
+      "source_id": "7207763764735741218",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7207763764735741218/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7207763764735741218/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7207763764735741218/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7218526700215340340",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7218526700215340340/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 6
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7218526700215340340/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 6
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7218526700215340340/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    }
+  ],
+  "formal_write_allowed": false,
+  "completed_count": 0,
+  "failed_count": 2
+}

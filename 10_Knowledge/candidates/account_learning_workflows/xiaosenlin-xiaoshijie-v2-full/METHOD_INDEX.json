@@ -1,0 +1,67 @@
+{
+  "schema_version": "2.2",
+  "methods": [
+    {
+      "id": "xsl-cluster-problem_result",
+      "title": "具体皮肤问题转译为可感知结果",
+      "status": "verified_candidate",
+      "callable": false
+    },
+    {
+      "id": "xsl-cluster-step_sequence",
+      "title": "分步顺序与条件化执行",
+      "status": "verified_candidate",
+      "callable": false
+    },
+    {
+      "id": "xsl-cluster-time_feedback",
+      "title": "时间刻度与状态反馈形成可跟练闭环",
+      "status": "verified_candidate",
+      "callable": false
+    },
+    {
+      "id": "xsl-cluster-list_decision",
+      "title": "清单不是罗列而是决策分流",
+      "status": "verified_candidate",
+      "callable": false
+    }
+  ],
+  "relations": [
+    {
+      "source": "xsl-cluster-problem_result",
+      "target": "xsl-cluster-step_sequence",
+      "type": "composes_with",
+      "reason": "按主方法→递进方法→支持层的固定顺序组合；单方法仍需独立通过。"
+    },
+    {
+      "source": "xsl-cluster-step_sequence",
+      "target": "xsl-cluster-time_feedback",
+      "type": "composes_with",
+      "reason": "按主方法→递进方法→支持层的固定顺序组合；单方法仍需独立通过。"
+    },
+    {
+      "source": "xsl-cluster-time_feedback",
+      "target": "xsl-cluster-list_decision",
+      "type": "composes_with",
+      "reason": "按主方法→递进方法→支持层的固定顺序组合；单方法仍需独立通过。"
+    }
+  ],
+  "orchestration": {
+    "primary_method": "xsl-cluster-problem_result",
+    "progressive_methods": [
+      "xsl-cluster-step_sequence",
+      "xsl-cluster-time_feedback"
+    ],
+    "support_layer": [
+      "xsl-cluster-list_decision"
+    ],
+    "fixed_call_order": [
+      "xsl-cluster-problem_result",
+      "xsl-cluster-step_sequence",
+      "xsl-cluster-time_feedback",
+      "xsl-cluster-list_decision"
+    ],
+    "selection_before_generation": true,
+    "combination_requires_ablation_test": true
+  }
+}

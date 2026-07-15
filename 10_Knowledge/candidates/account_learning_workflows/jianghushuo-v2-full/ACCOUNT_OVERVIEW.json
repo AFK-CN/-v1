@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "jianghushuo-v2-full",
+  "account_name": "姜胡说",
+  "status": "v2_2_candidate_delivery_completed",
+  "one_line_theme": "把抽象知识转成普通人可执行的学习、成长、内容创作与商业实践路径。",
+  "content_pillars": [
+    "成长与行动",
+    "阅读与输入",
+    "结构化理解",
+    "内容表达与自媒体",
+    "商业实践与价值交换"
+  ],
+  "terminology": [
+    "项目驱动",
+    "行动验证",
+    "结构拆解",
+    "复利积累",
+    "价值交换",
+    "公开表达"
+  ],
+  "limitations": [
+    "旧知识卡不满足最新统一三层学习卡契约，已降级为候选备份",
+    "旧方向标签不能直接视为跨卡稳定方法",
+    "NAS 产物数与计划记录数存在差额，需要代码复核例外目录",
+    "热度和关键词只能辅助选样，不能替代证据与反例验证",
+    "旧账号级方法论即使在新流程完成后，正式晋升前仍只作为历史参考"
+  ],
+  "evidence_refs": [
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/EVIDENCE_GAP_STATUS.json",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/BATCH_GATE_STATUS.json",
+    "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/downgrade_manifest.json",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/FINAL_COMPLETION_AUDIT.json"
+  ],
+  "nas": {
+    "planned_records": 598,
+    "evidence_ready_records": 548,
+    "blocked_records": 50,
+    "account_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383"
+  },
+  "formal_write_allowed": false,
+  "next_gate": "explicit_formal_promotion_decision"
+}

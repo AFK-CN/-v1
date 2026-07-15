@@ -1,0 +1,59 @@
+{
+  "executor": "structured-mechanism-evaluator-v1",
+  "executed_at": "2026-07-14T21:14:42+08:00",
+  "prompt_set_sha256": "1b970eec8f4fb7487cd6187cab243d985e458750e8b89441857d5aeb2804f7e7",
+  "case_results": [
+    {
+      "id": "lz-m1-system-transfer-case-01",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"mapped_layers\": 4, \"settlement_affected\": true, \"sustained_rule\": true}；预期=trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-02",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"mapped_layers\": 0, \"settlement_affected\": false, \"sustained_rule\": false}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-03",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"mapped_layers\": 2, \"settlement_affected\": false, \"sustained_rule\": true}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-04",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"mapped_layers\": 3, \"settlement_affected\": true, \"sustained_rule\": true}；预期=trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-05",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": true, \"content_axis\": \"normal\", \"drives_action\": true, \"mapped_layers\": 1, \"settlement_affected\": false, \"sustained_rule\": false}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-06",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"mapped_layers\": 4, \"settlement_affected\": false, \"sustained_rule\": false}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-07",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 2, \"fixed_rule\": true, \"mapped_layers\": 4, \"ordered_intensity\": true, \"rounds\": 4, \"settlement_affected\": true, \"sustained_rule\": true}；预期=trigger。"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-08",
+      "passed": true,
+      "actual_decision": "boundary_only",
+      "evidence": "按结构事实判定：{\"content_axis\": \"commercial\", \"mapped_layers\": 4, \"settlement_affected\": true, \"sustained_rule\": true}；预期=boundary_only。"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

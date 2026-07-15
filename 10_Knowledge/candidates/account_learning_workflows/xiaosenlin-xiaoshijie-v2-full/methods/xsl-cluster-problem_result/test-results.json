@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.2",
+  "executor": "xiaosenlin_v22_blind_rule_evaluator_v1",
+  "executed_at": "2026-07-14T23:27:31+08:00",
+  "prompt_set_sha256": "f8cec9d9909af3d91c6ded3a1d6b82decf8760eb6be4795aa4922b887945b74a",
+  "case_results": [
+    {
+      "id": "xsl-cluster-problem_result-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "盲测文本命中同一机制组的3个结构信号。"
+    },
+    {
+      "id": "xsl-cluster-problem_result-lexical-decoy",
+      "passed": true,
+      "actual_decision": "not_trigger",
+      "evidence": "边界/商业/消融信号优先排除。"
+    },
+    {
+      "id": "xsl-cluster-problem_result-edge",
+      "passed": true,
+      "actual_decision": "not_trigger",
+      "evidence": "边界/商业/消融信号优先排除。"
+    },
+    {
+      "id": "xsl-cluster-problem_result-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "盲测文本命中同一机制组的3个结构信号。"
+    },
+    {
+      "id": "xsl-cluster-problem_result-sibling-decoy",
+      "passed": true,
+      "actual_decision": "not_trigger",
+      "evidence": "边界/商业/消融信号优先排除。"
+    },
+    {
+      "id": "xsl-cluster-problem_result-commercial",
+      "passed": true,
+      "actual_decision": "not_trigger",
+      "evidence": "边界/商业/消融信号优先排除。"
+    },
+    {
+      "id": "xsl-cluster-problem_result-ablation",
+      "passed": true,
+      "actual_decision": "not_trigger",
+      "evidence": "边界/商业/消融信号优先排除。"
+    }
+  ],
+  "total": 7,
+  "passed": 7,
+  "failed": 0,
+  "pass_rate": 1.0
+}

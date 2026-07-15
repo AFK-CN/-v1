@@ -1,0 +1,398 @@
+{
+  "profile_id": "lizongheng",
+  "generated_at": "2026-07-14T18:48:20+08:00",
+  "legacy_batches": [
+    {
+      "batch_id": "batch_01",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_02",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_03",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_04",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_05",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_06",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_07",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_08",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_09",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_10",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_11",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_12",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_13",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_14",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_15",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_16",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_17",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_18",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_19",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_20",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_21",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_22",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_23",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_24",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_25",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_26",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_27",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_28",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_29",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_30",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_31",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_32",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_33",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_34",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_35",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_36",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_37",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_38",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_39",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_40",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_41",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_42",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    },
+    {
+      "batch_id": "batch_43",
+      "legacy_gate": "pass",
+      "legacy_item_count": 10,
+      "v2_compatible": true,
+      "decision": "retain_as_v2_evidence",
+      "reason": "已补齐统一十二段单卡、逐条五视角评估、候选双向引用和v2批次审核。"
+    }
+  ],
+  "legacy_items": 430,
+  "v2_compatible_batches": [
+    "batch_01",
+    "batch_02",
+    "batch_03",
+    "batch_04",
+    "batch_05",
+    "batch_06",
+    "batch_07",
+    "batch_08",
+    "batch_09",
+    "batch_10",
+    "batch_11",
+    "batch_12",
+    "batch_13",
+    "batch_14",
+    "batch_15",
+    "batch_16",
+    "batch_17",
+    "batch_18",
+    "batch_19",
+    "batch_20",
+    "batch_21",
+    "batch_22",
+    "batch_23",
+    "batch_24",
+    "batch_25",
+    "batch_26",
+    "batch_27",
+    "batch_28",
+    "batch_29",
+    "batch_30",
+    "batch_31",
+    "batch_32",
+    "batch_33",
+    "batch_34",
+    "batch_35",
+    "batch_36",
+    "batch_37",
+    "batch_38",
+    "batch_39",
+    "batch_40",
+    "batch_41",
+    "batch_42",
+    "batch_43"
+  ],
+  "relearn_required_batches": [],
+  "formal_ingest_allowed": false
+}

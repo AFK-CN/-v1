@@ -1,0 +1,10 @@
+{"source_id": "7064084191381671168", "review_mode": "asr_quality_screened", "retained_quotes": ["养狗和养猫的区别", "你什么时候回来啊"], "rejected_quotes": []}
+{"source_id": "7062261165677694248", "review_mode": "asr_quality_screened", "retained_quotes": ["野生植物和家养植物的区别", "我不活了"], "rejected_quotes": []}
+{"source_id": "7061523704190160168", "review_mode": "asr_quality_screened", "retained_quotes": ["我先走了", "你说啥话呢"], "rejected_quotes": []}
+{"source_id": "7061167639975988495", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "那个刘海我捡一捡", "reason": "ASR将剪刘海误识为捡，不能作为准确原话引用"}, {"text": "因为我是那老舅", "reason": "ASR将你老舅误识为那老舅，只保留为核验线索"}]}
+{"source_id": "7058478668875566351", "review_mode": "asr_quality_screened", "retained_quotes": ["我月薪过万了", "是你先跟我开玩笑"], "rejected_quotes": []}
+{"source_id": "7057015241502231848", "review_mode": "asr_quality_screened", "retained_quotes": ["请问你的红烧狮子头", "明天早上八点上菜"], "rejected_quotes": []}
+{"source_id": "7054156877579504937", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": []}
+{"source_id": "7052933076619414819", "review_mode": "asr_quality_screened", "retained_quotes": ["我缺点钱", "上一家公司搬家"], "rejected_quotes": []}
+{"source_id": "7050763342469696768", "review_mode": "asr_quality_screened", "retained_quotes": ["我最怕你问我这个问题", "我觉得坦诚不算什么缺点"], "rejected_quotes": []}
+{"source_id": "7050072209812917519", "review_mode": "asr_quality_screened", "retained_quotes": ["因為你們公司缺人", "因為我不是別人"], "rejected_quotes": []}

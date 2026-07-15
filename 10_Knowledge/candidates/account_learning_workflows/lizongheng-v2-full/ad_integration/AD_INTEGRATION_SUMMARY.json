@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "total_cards": 430,
+  "product_ad_count": 140,
+  "platform_project_count": 18,
+  "bridge_counts": {
+    "ad-b1-same-engine": 26,
+    "ad-b5-payload-takeover": 37,
+    "ad-b4-world-feature": 3,
+    "ad-b3-role-need-prop": 59,
+    "ad-b2-reveal-payoff": 15
+  },
+  "grade_counts": {
+    "B": 83,
+    "A": 12,
+    "C": 45
+  },
+  "platform_project_type_counts": {
+    "profile_interview": 2,
+    "platform_campaign": 7,
+    "program_promotion": 6,
+    "event_stage": 3
+  },
+  "returns_to_story_count": 21,
+  "manual_plot_causality_review_count": 20,
+  "source_transcript_audit_count": 140,
+  "platform_source_audit_count": 18,
+  "visual_claim_coordinate_count": 88,
+  "performance_metric_match_count": 140,
+  "natural_v1_commercial_pollution": [],
+  "errors": [],
+  "formal_write_allowed": false,
+  "callable": false,
+  "generated_at": "2026-07-14T21:08:49+08:00"
+}

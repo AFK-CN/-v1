@@ -96,7 +96,7 @@ class ImageTextLearningTest(unittest.TestCase):
                     ocr_psm=6,
                     visual_feature_engine="pillow",
                     image2_mode="external",
-                    image2_command=f"python {image2_script}",
+                    image2_command=f"{sys.executable} {image2_script}",
                     image2_timeout=10,
                 )
             )
@@ -145,7 +145,7 @@ class ImageTextLearningTest(unittest.TestCase):
                     ocr_lang="ch",
                     ocr_psm=6,
                     visual_feature_engine="pillow",
-                    paddleocr_command=f"python {paddle_script}",
+                    paddleocr_command=f"{sys.executable} {paddle_script}",
                     image2_mode="none",
                     image2_command="",
                     image2_timeout=10,

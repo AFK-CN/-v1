@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_02",
+  "generated_at": "2026-07-14T23:26:09+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "6a1aca91000000000702a817",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a1560850000000008026000",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a0ebd99000000000803d4d2",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a0d6f5c0000000007013e67",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a0c3b590000000006022a9a",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a0ac1a400000000080024d6",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a094a7c000000000702667b",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a07f9f300000000060213e1",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a03ecba000000000702eb7a",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6a01af100000000006033f62",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "6a1aca91000000000702a817",
+    "6a1560850000000008026000",
+    "6a0ebd99000000000803d4d2",
+    "6a0d6f5c0000000007013e67",
+    "6a0c3b590000000006022a9a",
+    "6a0ac1a400000000080024d6",
+    "6a094a7c000000000702667b",
+    "6a07f9f300000000060213e1",
+    "6a03ecba000000000702eb7a",
+    "6a01af100000000006033f62"
+  ]
+}

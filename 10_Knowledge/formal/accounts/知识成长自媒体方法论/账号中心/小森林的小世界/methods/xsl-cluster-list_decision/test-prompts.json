@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.2",
+  "method_id": "xsl-cluster-list_decision",
+  "test_cases": [
+    {
+      "id": "xsl-cluster-list_decision-positive",
+      "type": "should_trigger",
+      "prompt": "任务需要按问题、条件与预算把清单分流，让不同用户做不同选择。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-list_decision-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "只罗列十个好物，没有问题分流、条件或选择标准。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-list_decision-edge",
+      "type": "edge_case",
+      "prompt": "边界任务部分接近“清单不是罗列而是决策分流”，但证据未补齐；应先进入证据门。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-list_decision-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "个人护理",
+      "target_scene": "知识成长",
+      "mechanism_preserved": true,
+      "prompt": "任务需要按问题、条件与预算把清单分流，让不同学习者做不同选择。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-list_decision-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-problem_result",
+      "decoy_kind": "sibling_method_without_target_mechanism",
+      "prompt": "任务只满足兄弟方法 xsl-cluster-problem_result，不包含当前方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-list_decision-commercial",
+      "type": "commercial_contamination",
+      "prompt": "这是品牌赞助和限时购买任务，只有购买利益，没有当前自然方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-list_decision-ablation",
+      "type": "combination_ablation",
+      "prompt": "组合流程明确移除“清单不是罗列而是决策分流”的核心机制，仅保留其他方法。",
+      "expected_decision": "not_trigger"
+    }
+  ]
+}

@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+from tools.account_learning_card import CONTRACT_ID, validate_card_text
+
 
 REQUIRED_SECTIONS = [
     "## 1. 为什么值得学习",
@@ -27,19 +29,20 @@ def learned_cards_base(profile_id: str) -> Path:
 
 def validate_card(path: Path, root: Path) -> list[str]:
     text = path.read_text(encoding="utf-8", errors="ignore")
-    errors: list[str] = []
-    for field in REQUIRED_METADATA:
-        if field not in text:
-            errors.append(f"missing metadata {field}")
-    for section in REQUIRED_SECTIONS:
-        if section not in text:
-            errors.append(f"missing section {section}")
-    if "结尾金句/互动引导" in text:
-        errors.append("old ending field remains")
-    if "收尾/互动引导" not in text:
-        errors.append("missing 收尾/互动引导")
-    if "可延展选题" in text:
-        errors.append("card contains 可延展选题")
+    validation = validate_card_text(text)
+    errors = list(validation.errors)
+    if validation.schema == "legacy_rich_v1":
+        for field in REQUIRED_METADATA:
+            if field not in text:
+                errors.append(f"missing metadata {field}")
+        if "结尾金句/互动引导" in text:
+            errors.append("old ending field remains")
+        if "收尾/互动引导" not in text:
+            errors.append("missing 收尾/互动引导")
+        if "可延展选题" in text:
+            errors.append("card contains 可延展选题")
+    elif validation.schema == "evidence_card_v1":
+        errors.append(f"evidence_card_v1_requires_relearning_to_{CONTRACT_ID}")
     return [f"{path.relative_to(root)}: {error}" for error in errors]
 
 

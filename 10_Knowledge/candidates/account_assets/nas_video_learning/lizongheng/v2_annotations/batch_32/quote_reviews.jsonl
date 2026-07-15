@@ -1,0 +1,10 @@
+{"source_id":"7167285778412784926","review_mode":"asr_quality_screened","retained_quotes":["我剪头来了","转转的新买的"],"rejected_quotes":[]}
+{"source_id":"7166444067767864584","review_mode":"asr_quality_screened","retained_quotes":["三个小时了","三票通过 发送"],"rejected_quotes":[]}
+{"source_id":"7165484020560678180","review_mode":"asr_quality_screened","retained_quotes":["咱俩分手吧","我给你收拾行李"],"rejected_quotes":[]}
+{"source_id":"7164652206438829343","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7164229697142934814","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"这里是第六季停留大赛","reason":"ASR将第六届舔狗大赛连续错转，比赛名以横幅和字幕为准。"},{"text":"喷把胶的时候","reason":"产品教学句被ASR截断错转，造型步骤以画面字幕和动作支持。"}]}
+{"source_id":"7163964560955739405","review_mode":"asr_quality_screened","retained_quotes":["非常客气","您算什么东西"],"rejected_quotes":[]}
+{"source_id":"7163106307069709581","review_mode":"asr_quality_screened","retained_quotes":["这本天狗攻略","点评论区"],"rejected_quotes":[]}
+{"source_id":"7161982104107060511","review_mode":"asr_quality_screened","retained_quotes":["你手机没坏"],"rejected_quotes":[{"text":"太不开机了","reason":"ASR句义不完整，只能确认手机无法正常使用的画面事实。"}]}
+{"source_id":"7160366622199303438","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"我是阴谋王","reason":"ASR将emo王错转为阴谋王，不能作为人物称谓原话。"},{"text":"小肚智能瓶","reason":"ASR将小度智能屏错转，产品名以标题标签和画面为准。"}]}
+{"source_id":"7159495665347792158","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"家务货算啥","reason":"ASR将家务活错转为家务货，不保留为原话。"},{"text":"大事智能手表","reason":"ASR未识别ADASER品牌，产品名以画面字幕为准。"}]}

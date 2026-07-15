@@ -1,0 +1,59 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T22:40:51+08:00",
+  "prompt_set_sha256": "59335a571e12eb1cf00fd6be6844587127172249e239a52962ba424872309dd2",
+  "case_results": [
+    {
+      "id": "problem-minimum-product-feedback-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['从重复真实问题出发', '先交付最小可用结果']"
+    },
+    {
+      "id": "problem-minimum-product-feedback-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "problem-minimum-product-feedback-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['从重复真实问题出发']"
+    },
+    {
+      "id": "problem-minimum-product-feedback-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['从重复真实问题出发', '先交付最小可用结果']"
+    },
+    {
+      "id": "problem-minimum-product-feedback-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "problem-minimum-product-feedback-commercial-contamination",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "problem-minimum-product-feedback-mechanism-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['从重复真实问题出发']"
+    },
+    {
+      "id": "problem-minimum-product-feedback-composition-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['从重复真实问题出发']"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

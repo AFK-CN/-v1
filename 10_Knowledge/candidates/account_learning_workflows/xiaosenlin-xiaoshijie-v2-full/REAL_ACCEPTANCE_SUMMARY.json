@@ -1,0 +1,187 @@
+{
+  "schema_version": "2.2",
+  "status": "passed",
+  "report_file": "REAL_ACCEPTANCE_REPORT_2026-07-14.md",
+  "sample_method": "sha256(stratum|source_id)升序，每层最多10条；发现旧候选包含延期证据和语义漏检后，对379条执行全量语义与轨道扫描。",
+  "sampled_source_ids": [
+    "63313c9c0000000017025e22",
+    "6351015f000000001700f572",
+    "64a95cc5000000001a013736",
+    "650e893d000000001e02dd21",
+    "654f97740000000032008bd1",
+    "65b5e095000000002c037fcf",
+    "6631db9a000000001e0359ea",
+    "664829ea0000000014018add",
+    "66f3fc4f000000001a0209b9",
+    "671b52010000000026034e31",
+    "67ed251b000000001d027d32",
+    "67f64650000000001a006dd1",
+    "6857fab6000000002400fecb",
+    "68777040000000001d00d5d7",
+    "688b25a7000000002303147f",
+    "688eeb360000000023030410",
+    "68a6d2f7000000001c00645d",
+    "68b40d25000000001c0121d0",
+    "68bd5366000000001b03f22f",
+    "68bff69f000000001c00b0f4",
+    "68f89cd30000000005030cb8",
+    "6905c4900000000004020633",
+    "6912bca60000000005013561",
+    "691d78d3000000001e02e242",
+    "69315d62000000001e03a6ed",
+    "693bdf97000000001f00c6c0",
+    "69ddfd160000000022029fb9",
+    "69fda6690000000022024dad",
+    "6a01af100000000006033f62",
+    "6a1e860f0000000021016c82",
+    "6a20f3210000000022015948",
+    "6a327c8d000000002102241a"
+  ],
+  "strata": {
+    "normal_visual": {
+      "status": "passed",
+      "population": 55,
+      "sampled": [
+        "68f89cd30000000005030cb8",
+        "693bdf97000000001f00c6c0",
+        "6351015f000000001700f572",
+        "6905c4900000000004020633",
+        "6a01af100000000006033f62",
+        "68777040000000001d00d5d7",
+        "63313c9c0000000017025e22",
+        "65b5e095000000002c037fcf",
+        "68a6d2f7000000001c00645d",
+        "650e893d000000001e02dd21"
+      ],
+      "checks": [
+        "source_id与统一卡一致",
+        "证据路径或明确降级边界可回查",
+        "内容轨道与商业披露语义不冲突",
+        "视觉结论无时间码或帧号时不作声明"
+      ]
+    },
+    "normal_long_transcript": {
+      "status": "passed",
+      "population": 31,
+      "sampled": [
+        "688eeb360000000023030410",
+        "6912bca60000000005013561",
+        "69fda6690000000022024dad",
+        "6a20f3210000000022015948",
+        "66f3fc4f000000001a0209b9",
+        "67f64650000000001a006dd1",
+        "68777040000000001d00d5d7",
+        "69ddfd160000000022029fb9",
+        "664829ea0000000014018add",
+        "671b52010000000026034e31"
+      ],
+      "checks": [
+        "source_id与统一卡一致",
+        "证据路径或明确降级边界可回查",
+        "内容轨道与商业披露语义不冲突",
+        "视觉结论无时间码或帧号时不作声明"
+      ]
+    },
+    "product_ad": {
+      "status": "not_applicable",
+      "reason": "当前379条有效深学卡中没有可证明属于该分层的样本。",
+      "population": 0,
+      "sampled": []
+    },
+    "platform_project": {
+      "status": "passed",
+      "population": 2,
+      "sampled": [
+        "64a95cc5000000001a013736",
+        "68bff69f000000001c00b0f4"
+      ],
+      "checks": [
+        "source_id与统一卡一致",
+        "证据路径或明确降级边界可回查",
+        "内容轨道与商业披露语义不冲突",
+        "视觉结论无时间码或帧号时不作声明"
+      ]
+    },
+    "collaboration_ownership": {
+      "status": "passed",
+      "population": 17,
+      "sampled": [
+        "68b40d25000000001c0121d0",
+        "68a6d2f7000000001c00645d",
+        "6a1e860f0000000021016c82",
+        "67ed251b000000001d027d32",
+        "69315d62000000001e03a6ed",
+        "6631db9a000000001e0359ea",
+        "6a01af100000000006033f62",
+        "688b25a7000000002303147f",
+        "688eeb360000000023030410",
+        "6a327c8d000000002102241a"
+      ],
+      "checks": [
+        "source_id与统一卡一致",
+        "证据路径或明确降级边界可回查",
+        "内容轨道与商业披露语义不冲突",
+        "视觉结论无时间码或帧号时不作声明"
+      ]
+    },
+    "low_information_or_asr_risk": {
+      "status": "passed",
+      "population": 6,
+      "sampled": [
+        "691d78d3000000001e02e242",
+        "654f97740000000032008bd1",
+        "68bd5366000000001b03f22f",
+        "68f89cd30000000005030cb8",
+        "6857fab6000000002400fecb",
+        "64a95cc5000000001a013736"
+      ],
+      "checks": [
+        "source_id与统一卡一致",
+        "证据路径或明确降级边界可回查",
+        "内容轨道与商业披露语义不冲突",
+        "视觉结论无时间码或帧号时不作声明"
+      ]
+    }
+  },
+  "severe_issues": [
+    "legacy_stage1_included_49_deferred_sources"
+  ],
+  "expanded_audit": {
+    "completed": true,
+    "scope": "all_379_deep_cards",
+    "reason": "旧阶段1曾包含49条证据延期来源，且抽样发现跨字段语义漏检；v2.2要求严重问题触发同类全量扫描。",
+    "records_scanned": 379,
+    "candidates_rebuilt": 1895
+  },
+  "semantic_consistency": {
+    "passed": true,
+    "conflict_count": 0,
+    "conflict_source_ids": [],
+    "conflict_details": []
+  },
+  "overview_scope": {
+    "consistent": true,
+    "source_total": 428,
+    "deep_learned": 379,
+    "deferred_evidence": 49
+  },
+  "commercial_learning": {
+    "product_ads": {
+      "total": 0,
+      "audited": 0,
+      "artifact": "commercial_learning/product_ads.jsonl"
+    },
+    "platform_projects": {
+      "total": 2,
+      "audited": 2,
+      "artifact": "commercial_learning/platform_projects.jsonl"
+    },
+    "commercial_unknown": {
+      "total": 319,
+      "audited": 319,
+      "artifact": "commercial_learning/commercial_unknown.jsonl"
+    }
+  },
+  "formal_write": false,
+  "callable": false
+}

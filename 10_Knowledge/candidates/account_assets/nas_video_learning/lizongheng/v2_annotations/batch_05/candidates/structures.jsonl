@@ -1,0 +1,10 @@
+{"id":"b05-str-clue-accumulation-reveal","title":"多线索单向误导后一次性统一翻案","type":"structures","source_refs":["7568089247250644338"],"summary":"连续增加指向同一误判的证据，待观众确信后用一个真相重释全部前文。","tags":["结构","线索累积","真相揭晓"],"callable":false}
+{"id":"b05-str-genre-expectation-reversal","title":"先建立类型仪式再用替代行为完成反差","type":"structures","source_refs":["7566473497522818350"],"summary":"场景和情绪先激活标准行为预期，人物限制逐步显现，最终以不匹配行为兑现反转。","tags":["结构","类型预期","行为反差"],"callable":false}
+{"id":"b05-str-multi-layer-evaluation","title":"评价标准多次变化后揭示真正考官","type":"structures","source_refs":["7563964474965626162"],"summary":"用竞争、任务和关系户连续调整胜负标准，最后揭示隐藏评价层改变整场意义。","tags":["结构","多层评价","身份揭示"],"callable":false}
+{"id":"b05-str-narrator-escalation","title":"全知旁白逐层逼近人物最痛现实","type":"structures","source_refs":["7563298766971833610"],"summary":"从公共状态开始，逐轮增加更私密信息，最后用不可反驳的现实事实结束人物自我安慰。","tags":["结构","旁白递进","贴脸揭短"],"callable":false}
+{"id":"b05-str-analysis-nullified","title":"长篇权威分析后用常识结论全部作废","type":"structures","source_refs":["7563032930697383214"],"summary":"不断增加论证维度建立专业预期，末尾用极简主观答案取消此前分析价值。","tags":["结构","铺陈落差","反高潮"],"callable":false}
+{"id":"b05-str-accounting-escalation","title":"每轮增加计价维度直至无法结算","type":"structures","source_refs":["7562130891766877486"],"summary":"从小额餐费开始，逐步纳入劳动、情绪、服务和机会成本，使公平计算无限膨胀。","tags":["结构","重复升级","金额膨胀"],"callable":false}
+{"id":"b05-str-recursive-dialogue","title":"逐级加入语言规则让对话递归失控","type":"structures","source_refs":["7560939402282962227"],"summary":"先分别说明简单回应规则，再加入针对规则的高阶规则，最终使判断本身无法终止。","tags":["结构","递归","规则升级"],"callable":false}
+{"id":"b05-str-authority-return","title":"逐项返还制度压力后切换商业教学","type":"structures","source_refs":["7560006263476702515"],"summary":"前段按学生经历逐轮反制老师，后段在学科题目中插入产品成分并接管信息目标。","tags":["结构","权力返还","广告切换"],"callable":false}
+{"id":"b05-str-process-remap","title":"声明新身份后按原流程逐项映射","type":"structures","source_refs":["7559050049197411593"],"summary":"固定身份解释规则，从进入空间到接受最难任务逐步覆盖完整日常流程。","tags":["结构","流程映射","身份系统"],"callable":false}
+{"id":"b05-str-visual-reveal","title":"一句自信判断后用环境全景立即反证","type":"structures","source_refs":["7555046671455259930"],"summary":"口播先建立个人聪明选择，镜头转向群体状态提供反证，再用自嘲句完成收尾。","tags":["结构","视觉揭示","快速反转"],"callable":false}

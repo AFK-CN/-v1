@@ -1,0 +1,59 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T22:40:51+08:00",
+  "prompt_set_sha256": "ddb4e755cedf0fab452f2bdafa23964e0639894a0b01a6b006ce89b712e563b8",
+  "case_results": [
+    {
+      "id": "content-relationship-leverage-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['持续解决具体问题', '形成稳定关系']"
+    },
+    {
+      "id": "content-relationship-leverage-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "content-relationship-leverage-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['持续解决具体问题']"
+    },
+    {
+      "id": "content-relationship-leverage-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['持续解决具体问题', '形成稳定关系']"
+    },
+    {
+      "id": "content-relationship-leverage-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "content-relationship-leverage-commercial-contamination",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "content-relationship-leverage-mechanism-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['持续解决具体问题']"
+    },
+    {
+      "id": "content-relationship-leverage-composition-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['持续解决具体问题']"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

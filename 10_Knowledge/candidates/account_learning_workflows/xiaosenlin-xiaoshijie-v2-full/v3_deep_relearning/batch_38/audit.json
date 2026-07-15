@@ -1,0 +1,58 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_38",
+  "generated_at": "2026-07-14T23:26:56+08:00",
+  "expected_source_count": 10,
+  "learned_count": 5,
+  "deferred_count": 5,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 5,
+  "anchor_traceability_passed_count": 5,
+  "quote_traceability_passed_count": 5,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass_with_deferred_evidence",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "63478bdf000000000801388a",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6336bc47000000001d013a93",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "63313c9c0000000017025e22",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6322e611000000000800baf0",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "631995c7000000001203b8fe",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "634ec8410000000008012454",
+    "63478bdf000000000801388a",
+    "6336bc47000000001d013a93",
+    "63313c9c0000000017025e22",
+    "632d6749000000000802ac34",
+    "63296d4a000000000801d847",
+    "6322e611000000000800baf0",
+    "632049b000000000090320fb",
+    "631bfe28000000001103c53c",
+    "631995c7000000001203b8fe"
+  ]
+}

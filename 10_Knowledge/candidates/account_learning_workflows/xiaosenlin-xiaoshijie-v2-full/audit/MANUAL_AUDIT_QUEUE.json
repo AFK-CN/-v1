@@ -1,0 +1,1366 @@
+{
+  "schema_version": "1.0",
+  "status": "passed",
+  "review_scope": "all registered gaps plus representative shortest/longest/video/image-text/high-risk/lifestyle complete cards",
+  "batches": [
+    {
+      "batch_id": "batch_01",
+      "mandatory_gap_review": [],
+      "representative_samples": [
+        {
+          "source_id": "69d60f5b000000002202ac32",
+          "title": "我的妆后补防晒邪修大法！去西藏八天没晒黑",
+          "content_type": "video",
+          "topic_family": "防晒",
+          "primary_text_chars": 624,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "69db2205000000001f006e3c",
+          "title": "13min超长下饭春夏开箱📦爽拆！",
+          "content_type": "video",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 4007,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "6a44b7f20000000008003b27",
+          "title": "炸毛沙发速速速进！",
+          "content_type": "video",
+          "topic_family": "头发护理",
+          "primary_text_chars": 1450,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "6a3b8b49000000002102159e",
+          "title": "🌳618顺利收官！来给大家售后啦～",
+          "content_type": "normal",
+          "topic_family": "商业售后与购买决策",
+          "primary_text_chars": 2582,
+          "mechanism_keys": [
+            "problem_result",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "69bf6e26000000002800895f",
+          "title": "🇯🇵vlog🍜这一路的麻辣鲜香只有自己知道…",
+          "content_type": "video",
+          "topic_family": "生活方式与信任",
+          "primary_text_chars": 1782,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_02",
+      "mandatory_gap_review": [],
+      "representative_samples": [
+        {
+          "source_id": "691d78d3000000001e02e242",
+          "title": "最简单的转场出现了！记录开心的东北行🚗",
+          "content_type": "video",
+          "topic_family": "生活方式与信任",
+          "primary_text_chars": 255,
+          "mechanism_keys": [
+            "time_feedback",
+            "list_decision"
+          ]
+        },
+        {
+          "source_id": "693bdf97000000001f00c6c0",
+          "title": "写写本油痘敏肌入冬后爱用好物（自用无广！",
+          "content_type": "normal",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 3214,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "69995208000000001a031908",
+          "title": "30w粉福，是谁会莫名其妙的收到一个🎁呢",
+          "content_type": "video",
+          "topic_family": "账号互动与社群",
+          "primary_text_chars": 2147,
+          "mechanism_keys": [
+            "engagement_boundary"
+          ]
+        },
+        {
+          "source_id": "695a2561000000001f0096c0",
+          "title": "经常用酸的好处",
+          "content_type": "normal",
+          "topic_family": "刷酸与焕肤",
+          "primary_text_chars": 957,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "698ae4740000000028021daf",
+          "title": "请大数据把我推给睡不好的姐妹（100%🈚️广",
+          "content_type": "video",
+          "topic_family": "饮食与状态",
+          "primary_text_chars": 1439,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "697ed0c7000000002802148f",
+          "title": "12年油痘人 一天吃什么vlog～",
+          "content_type": "video",
+          "topic_family": "生活方式与信任",
+          "primary_text_chars": 1699,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_03",
+      "mandatory_gap_review": [
+        {
+          "source_id": "68aec3e8000000001b03d106",
+          "title": "12年油痘肌超爱的健康果蔬汁配方～",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "current_nas_item_missing_and_media_unavailable"
+        },
+        {
+          "source_id": "683451f0000000002001d847",
+          "title": "感谢内服让我拥有素颜好气色~",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "current_nas_item_missing_and_media_unavailable"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "6857fab6000000002400fecb",
+          "title": "沉浸式！一周一次家庭版🌊飞秀～",
+          "content_type": "video",
+          "topic_family": "毛孔与清洁",
+          "primary_text_chars": 248,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary"
+          ]
+        },
+        {
+          "source_id": "68a7ced3000000001c0069b4",
+          "title": "一些让我皮肤变好的搭配（100%无广",
+          "content_type": "normal",
+          "topic_family": "毛孔与清洁",
+          "primary_text_chars": 2399,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "68ce40d2000000000b03dd3e",
+          "title": "🍠1年1度空瓶分享～都是无限回购的真爱品！",
+          "content_type": "video",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 1537,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary"
+          ]
+        },
+        {
+          "source_id": "68cac007000000000e032efd",
+          "title": "家庭版光子的护肤搭配（答疑解惑版",
+          "content_type": "normal",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 1378,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "68caa1f3000000000e032b58",
+          "title": "细毛孔✈️快的方法跟练（没耐心狠人版",
+          "content_type": "video",
+          "topic_family": "毛孔与清洁",
+          "primary_text_chars": 1414,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_04",
+      "mandatory_gap_review": [
+        {
+          "source_id": "67daafb7000000001e003975",
+          "title": "冷门小众宝藏！好用到我想安利给全世界~",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "67beed600000000029026261",
+          "title": "作为11年油痘肌，我的痘印真的淡的很快",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "679f4123000000002902b85c",
+          "title": "好皮肤是用对了精华，年度爱用精华分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "681074cc0000000021002ead",
+          "title": "油痘肌护肤：从大牌追逐者变实用护肤主义",
+          "content_type": "normal",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 945,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "681852230000000021018936",
+          "title": "让我不再长痘痘闭口的深层清洁流程！",
+          "content_type": "video",
+          "topic_family": "毛孔与清洁",
+          "primary_text_chars": 3319,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "682445f7000000002202541e",
+          "title": "学会正确的油皮护肤思路之后皮肤超好！",
+          "content_type": "video",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 1408,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_05",
+      "mandatory_gap_review": [
+        {
+          "source_id": "671a17c60000000021007485",
+          "title": "30岁油痘肌都在用什么好东西",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "66eb894c000000001e01bd21",
+          "title": "5年油敏肌靠它们把皮肤养好了！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "66daa4570000000012011008",
+          "title": "感谢每周一次轻油敷，对改变气色太有用了！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "66d97897000000000c01858f",
+          "title": "长3000颗痘再回到妈生好皮",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "66cc03b2000000001d01b57e",
+          "title": "旅行救命好物！出门在外满满的安全感～",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "67614235000000001300029b",
+          "title": "一张常年刷A醇的脸",
+          "content_type": "normal",
+          "topic_family": "抗老与紧致",
+          "primary_text_chars": 668,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "66fe57bb000000001902d35e",
+          "title": "国庆哪都不去，就在家搞脸，7日嫩肤计划",
+          "content_type": "normal",
+          "topic_family": "痘肌与痘印",
+          "primary_text_chars": 2260,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "67569ab2000000000700cc13",
+          "title": "大牌追逐者变成实用护肤主义，痘肌平价好物",
+          "content_type": "video",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 1231,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "list_decision",
+            "commercial_boundary"
+          ]
+        },
+        {
+          "source_id": "67697519000000001300076f",
+          "title": "刷A醇的第五年",
+          "content_type": "normal",
+          "topic_family": "抗老与紧致",
+          "primary_text_chars": 1266,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_06",
+      "mandatory_gap_review": [
+        {
+          "source_id": "66aca449000000002701f1cf",
+          "title": "洗漱台钉子户！爱用洁面分享（油痘敏肌版）",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "66612eac000000000e030952",
+          "title": "油皮素颜好皮肤，教你们去暗沉黄气呀～",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "664aba490000000005006335",
+          "title": "油痘敏肌终于把脆皮高原红秒了！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "66348763000000001e03354f",
+          "title": "显化了好皮肤",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "6618ec46000000001a00ffee",
+          "title": "油皮从根源解决黑头、闭口、痘痘问题",
+          "gaps": [
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_media_bundle_incomplete_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "6624dcd800000000010307b0",
+          "title": "一张常年用酸的脸",
+          "content_type": "normal",
+          "topic_family": "刷酸与焕肤",
+          "primary_text_chars": 440,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback"
+          ]
+        },
+        {
+          "source_id": "669c6dda0000000025003da0",
+          "title": "帮我养成妈生好皮的6组晚间护肤搭配（油皮）",
+          "content_type": "normal",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 2464,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "66c71790000000001d019c61",
+          "title": "垮脸救星！家庭版胶原肌肤灌注！",
+          "content_type": "video",
+          "topic_family": "毛孔与清洁",
+          "primary_text_chars": 1174,
+          "mechanism_keys": [
+            "problem_result",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "66c5b6ff000000001d015d82",
+          "title": "油皮离不开的初秋好物~💐✨💛",
+          "content_type": "normal",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 1533,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_07",
+      "mandatory_gap_review": [
+        {
+          "source_id": "65d0422300000000070047b9",
+          "title": "聊聊我如何通过养生变美的",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "659cdcba000000001a000038",
+          "title": "油痘肌变水光肌，油光和水光就差一点点",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "659a7317000000001d0248bc",
+          "title": "终于把黑头给解决了！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "65685787000000003903391d",
+          "title": "油痘肌小白跟护肤博主同住4天，逆袭！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "654f97740000000032008bd1",
+          "title": "超级感谢大家💕",
+          "content_type": "normal",
+          "topic_family": "账号互动与社群",
+          "primary_text_chars": 92,
+          "mechanism_keys": [
+            "engagement_boundary"
+          ]
+        },
+        {
+          "source_id": "6601240000000000120215ed",
+          "title": "你是我惟一一个相信的博主，希望一直都是",
+          "content_type": "normal",
+          "topic_family": "账号互动与社群",
+          "primary_text_chars": 1962,
+          "mechanism_keys": [
+            "engagement_boundary"
+          ]
+        },
+        {
+          "source_id": "66091515000000001a011957",
+          "title": "一年只分享一次！油痘肌博主爱用空瓶分享～",
+          "content_type": "video",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 1830,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary"
+          ]
+        },
+        {
+          "source_id": "6606ce3d000000001a0152c3",
+          "title": "闭眼黄睁眼亮，暗黄皮才懂它的含金量~",
+          "content_type": "normal",
+          "topic_family": "提亮与肤色",
+          "primary_text_chars": 759,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary"
+          ]
+        },
+        {
+          "source_id": "65fd3666000000001203c54f",
+          "title": "高原红终于远离我了，开心！",
+          "content_type": "normal",
+          "topic_family": "敏感维稳与红黑脸",
+          "primary_text_chars": 1206,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "65532e6b000000001100efdf",
+          "title": "小森林的Vlog｜去香港吃吃逛逛买水晶咯～🔮",
+          "content_type": "video",
+          "topic_family": "生活方式与信任",
+          "primary_text_chars": 524,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_08",
+      "mandatory_gap_review": [
+        {
+          "source_id": "653cf5bc0000000020000991",
+          "title": "10年经验分享如何解决痘痘闭口！不走弯路！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "6517cff70000000020001919",
+          "title": "油痘肌小白零基础护肤1⃣️皮肤变美顺序",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "64b8b4fb000000000a0186a3",
+          "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "64a95cc5000000001a013736",
+          "title": "新加坡vlog～🌴和我一起工作吧💚",
+          "gaps": [
+            "weak_transcript_without_visual_evidence"
+          ],
+          "reason": "nas_media_bundle_incomplete_sqlite_metadata_only"
+        },
+        {
+          "source_id": "6469843c0000000013002780",
+          "title": "家庭版海菲秀第二天",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "646db263000000000800c14f",
+          "title": "油痘肌抗老，拥有透亮好皮肤",
+          "content_type": "normal",
+          "topic_family": "抗老与紧致",
+          "primary_text_chars": 633,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "64ccca800000000010031194",
+          "title": "🈚️广！油痘肌2023上半年度爱用物分享_",
+          "content_type": "normal",
+          "topic_family": "空瓶与产品复盘",
+          "primary_text_chars": 1774,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "65421449000000001d01471f",
+          "title": "分享我脸刚垮时如何用抗老面霜补救回来",
+          "content_type": "video",
+          "topic_family": "抗老与紧致",
+          "primary_text_chars": 971,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "6535f83d000000001f004e78",
+          "title": "轻轻松松让皮肤水水嫩嫩又稳定",
+          "content_type": "normal",
+          "topic_family": "敏感维稳与红黑脸",
+          "primary_text_chars": 907,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_09",
+      "mandatory_gap_review": [
+        {
+          "source_id": "63a6b4e4000000001e03ea7e",
+          "title": "宝子们圣诞节快乐哦～🎁",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "63773624000000001c034e22",
+          "title": "11月宝藏爱用品分享，精华、面霜、粉底、洁面",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "646479f1000000001300b978",
+          "title": "油痘肌养成通透感好皮肤",
+          "content_type": "normal",
+          "topic_family": "提亮与肤色",
+          "primary_text_chars": 420,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "63e73031000000001203d6e8",
+          "title": "我长过的痘不会让你再长",
+          "content_type": "normal",
+          "topic_family": "痘肌与痘印",
+          "primary_text_chars": 2333,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "version_iteration",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "64507395000000001300a9a3",
+          "title": "油痘肌正确护肤：让300元有3000元效果",
+          "content_type": "video",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 1193,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_10",
+      "mandatory_gap_review": [
+        {
+          "source_id": "6368afb0000000000a00bd99",
+          "title": "油痘肌白白好物分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "63525c37000000001601f970",
+          "title": "脸真的越来越干净，去痘印方法分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "634ec8410000000008012454",
+          "title": "护肤分享，秋冬天皮肤也要水水嫩嫩哦🌙",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "632d6749000000000802ac34",
+          "title": "适合油痘肌平价又好用的卸妆洁面产品分享～",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "63296d4a000000000801d847",
+          "title": "这养肤粉霜居然怼脸都看不出妆感",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "632049b000000000090320fb",
+          "title": "油痘肌正确护肤分享，不是不好用是你不会用",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "631bfe28000000001103c53c",
+          "title": "让油痘肌皮肤又细又滑的三款夜间精华分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "6309d5f5000000001e009276",
+          "title": "油痘肌2022上半年护肤品爱用！自用🈚️广！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "6304a383000000001d035607",
+          "title": "适合油痘肌的超好用不闷痘修护面霜分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62f60c35000000001402ba24",
+          "title": "正确去闭口保姆级教程，针清后注意事项",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62db869c000000001b03ec75",
+          "title": "油痘肌用了不会闷痘的清爽防晒",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62d8f7c2000000000f000871",
+          "title": "一张张试，Fanbeauty面膜到底好用吗",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "63478bdf000000000801388a",
+          "title": "干净、清透的底妆分享",
+          "content_type": "normal",
+          "topic_family": "彩妆与底妆",
+          "primary_text_chars": 542,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "635cdec6000000001403678a",
+          "title": "油痘肌精简护肤💆秋冬氧气感养成秘诀",
+          "content_type": "normal",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 1641,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "63636a360000000008011202",
+          "title": "油痘肌购物指南，千万别瞎买分分钟烂脸‼️",
+          "content_type": "video",
+          "topic_family": "痘肌与痘印",
+          "primary_text_chars": 1171,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "63622c6b000000000601d65d",
+          "title": "油痘肌养成好皮肤，经验分享～",
+          "content_type": "normal",
+          "topic_family": "痘肌与痘印",
+          "primary_text_chars": 937,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    },
+    {
+      "batch_id": "batch_11",
+      "mandatory_gap_review": [
+        {
+          "source_id": "62c7dc03000000000d027be8",
+          "title": "油痘肌护肤小白，想皮肤细腻不长痘看这个",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62bd3ab000000000060373af",
+          "title": "让油痘肌皮肤细腻光滑的猛药晚间护肤（2）",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62bc1465000000000303f249",
+          "title": "油痘皮妈生水光肌，晚间护肤分享～（1）",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62b69b12000000000f008069",
+          "title": "痘肌好皮养成～大家都能拥有素颜光泽肌",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_ocr",
+            "missing_visual_summary"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62b57513000000000102a167",
+          "title": "269元搞定不输大牌的精简有效平价痘肌护肤",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62b2dbbe000000000102c8e5",
+          "title": "敏M肌正确洗脸方式",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "628700ee000000000102ef07",
+          "title": "不走弯路，逆光疹 痊愈 经验分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "627f811e00000000210385e3",
+          "title": "Tony问我用的什么洗护产品，他想买",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62725331000000002103acec",
+          "title": "洗面奶对于恢复皮肤屏障真的很重要！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "62651edb0000000001029f4c",
+          "title": "效果超好的眼部保养大法分享",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "623afb410000000021037017",
+          "title": "不输大牌的痘皮平价护肤攻略（直接抄作业）",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        },
+        {
+          "source_id": "6221e85b00000000210366b8",
+          "title": "我靠洗脸把皮肤屏障修复好了！",
+          "gaps": [
+            "missing_source_json",
+            "missing_images",
+            "missing_video",
+            "weak_transcript_without_visual_evidence",
+            "missing_frames"
+          ],
+          "reason": "nas_account_media_missing_sqlite_metadata_only"
+        }
+      ],
+      "representative_samples": [
+        {
+          "source_id": "62162e3a000000002103bb8b",
+          "title": "给混油皮安利一款无敌好用的伪素颜神器防晒",
+          "content_type": "video",
+          "topic_family": "防晒",
+          "primary_text_chars": 472,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary"
+          ]
+        },
+        {
+          "source_id": "6267c0a10000000001027382",
+          "title": "不走弯路去闭口，诚意分享",
+          "content_type": "video",
+          "topic_family": "痘肌与痘印",
+          "primary_text_chars": 1690,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "62ccfc8c000000000f005bac",
+          "title": "日常晚间护肤Vlog🌙",
+          "content_type": "video",
+          "topic_family": "其他护肤经验",
+          "primary_text_chars": 821,
+          "mechanism_keys": [
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        },
+        {
+          "source_id": "62c138f100000000060359df",
+          "title": "想要好皮肤真的很简单",
+          "content_type": "normal",
+          "topic_family": "痘肌与痘印",
+          "primary_text_chars": 819,
+          "mechanism_keys": [
+            "problem_result",
+            "identity_proof",
+            "step_sequence",
+            "time_feedback",
+            "list_decision",
+            "commercial_boundary",
+            "evidence_gate"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewed_at": "2026-07-14T00:18:33+08:00"
+}

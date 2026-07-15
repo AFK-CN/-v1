@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_11",
+  "generated_at": "2026-07-14T23:26:21+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "6880a645000000002203019e",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "687dedf9000000002203ef72",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68777040000000001d00d5d7",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68737733000000002203f9d0",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "686f5e06000000001c0356a0",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6867b1210000000024008ed6",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "686200f2000000002203d7ce",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "685bb2120000000022032fad",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6857fab6000000002400fecb",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "684e320b000000002101b422",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "6880a645000000002203019e",
+    "687dedf9000000002203ef72",
+    "68777040000000001d00d5d7",
+    "68737733000000002203f9d0",
+    "686f5e06000000001c0356a0",
+    "6867b1210000000024008ed6",
+    "686200f2000000002203d7ce",
+    "685bb2120000000022032fad",
+    "6857fab6000000002400fecb",
+    "684e320b000000002101b422"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T22:40:51+08:00",
+  "prompt_set_sha256": "35928d56bda22dc8396ac26fbb38991db3d682c128ff45e6bbdc8eaacf4cc830",
+  "case_results": [
+    {
+      "id": "record-to-compounding-asset-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['记录重复解决步骤', '封装可复用部分']"
+    },
+    {
+      "id": "record-to-compounding-asset-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "record-to-compounding-asset-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['记录重复解决步骤']"
+    },
+    {
+      "id": "record-to-compounding-asset-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['记录重复解决步骤', '封装可复用部分']"
+    },
+    {
+      "id": "record-to-compounding-asset-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "record-to-compounding-asset-commercial-contamination",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "record-to-compounding-asset-mechanism-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['记录重复解决步骤']"
+    },
+    {
+      "id": "record-to-compounding-asset-composition-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['记录重复解决步骤']"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

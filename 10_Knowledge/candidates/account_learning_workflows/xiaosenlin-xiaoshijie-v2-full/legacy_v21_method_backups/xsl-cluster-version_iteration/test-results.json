@@ -1,0 +1,41 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T00:18:00+08:00",
+  "prompt_set_sha256": "f0e99be113203d251b1697a31578dead271c2e49637be93808ac745f914c6486",
+  "case_results": [
+    {
+      "id": "xsl-cluster-version_iteration-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "盲测仅命中 2 个完整机制信号：['指出旧方案的保留与淘汰', '说明新版调整依据']"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "盲测仅命中 0 个完整机制信号：[]"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "盲测仅命中 1 个完整机制信号：['指出旧方案的保留与淘汰']"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "盲测仅命中 2 个完整机制信号：['指出旧方案的保留与淘汰', '说明新版调整依据']"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "盲测仅命中 0 个完整机制信号：[]"
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate": 1.0
+}

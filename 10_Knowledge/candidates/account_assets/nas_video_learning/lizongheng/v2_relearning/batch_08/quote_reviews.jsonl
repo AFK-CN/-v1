@@ -1,0 +1,10 @@
+{"source_id": "7523797231017069833", "review_mode": "asr_quality_screened", "retained_quotes": ["介绍一下你的公司", "你通过了"], "rejected_quotes": []}
+{"source_id": "7522720963953741083", "review_mode": "asr_quality_screened", "retained_quotes": ["你有病啊", "谢谢啊 兄弟"], "rejected_quotes": []}
+{"source_id": "7522322749068692774", "review_mode": "asr_quality_screened", "retained_quotes": ["来杯橙汁 加冰"], "rejected_quotes": [{"text": "当我第一次做商务做", "reason": "商务座被两次识别为做，属于明显ASR错字。"}]}
+{"source_id": "7521216372430556467", "review_mode": "asr_quality_screened", "retained_quotes": ["工作我有五不做", "那加完您的工资 就是两万五"], "rejected_quotes": []}
+{"source_id": "7520472341844266278", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "Kids up", "reason": "短音轨英文识别与画面叙事无明确对应。"}, {"text": "high high", "reason": "氛围音识别不能作为剧情原文金句。"}]}
+{"source_id": "7519348226857798938", "review_mode": "asr_quality_screened", "retained_quotes": ["是三个字吗", "我不玩了"], "rejected_quotes": []}
+{"source_id": "7518992865429032201", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": []}
+{"source_id": "7518711086699334962", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "您不打的号码是空炮", "reason": "空号被识别为空炮，属于明显ASR错字。"}, {"text": "还是分除了没有", "reason": "整句语序和关键词均失真，无法准确引用。"}]}
+{"source_id": "7518243461331963162", "review_mode": "asr_quality_screened", "retained_quotes": ["因为我们的厨师已经下班了"], "rejected_quotes": [{"text": "我们三个比较细致", "reason": "结合服务员语境应涉及餐厅，当前主语被ASR错误识别。"}]}
+{"source_id": "7517489936406416650", "review_mode": "asr_quality_screened", "retained_quotes": ["你做的也太好吃了", "我妈做菜是最难吃的"], "rejected_quotes": []}

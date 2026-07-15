@@ -1,0 +1,51 @@
+{
+  "id": "opportunity-rule-resource-leverage",
+  "schema_version": "2.2",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "account_scope": "姜胡说",
+  "title": "从规则变化和资源重组中识别机会",
+  "trigger_signals": [
+    "识别规则正在变化",
+    "盘点可借用资源",
+    "选择能借力的位置"
+  ],
+  "trigger_model": {
+    "mechanism": "先判断规则、趋势和资源配置正在如何变化，再选择能借力而非只靠个人努力的行动位置。",
+    "applicable_relations": [
+      "规则变化与机会窗口",
+      "资源重组与行动位置"
+    ],
+    "transferable_scenes": [
+      "新行业判断",
+      "平台迁移",
+      "职业方向选择"
+    ],
+    "do_not_trigger_on": [
+      "只因出现趋势或机会词",
+      "忽略约束条件的乐观预测"
+    ]
+  },
+  "do_not_use": [
+    "规则完全不透明且无法验证",
+    "风险超出承受能力的押注"
+  ],
+  "execution_steps": [
+    "列出发生变化的规则",
+    "核对供需和资源迁移证据",
+    "寻找低成本可借力位置",
+    "设定退出条件并小步验证"
+  ],
+  "source_refs": [
+    "6844867524975217934",
+    "7083504023571041544",
+    "7618589475425275145",
+    "7633813934260243753",
+    "7634940154272156947",
+    "7642363455722229042"
+  ],
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-14T23:06:58+08:00",
+  "approval_basis": "2026-07-14 user explicit formal-ingest approval after Skill v2.2 audit"
+}

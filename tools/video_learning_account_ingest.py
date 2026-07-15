@@ -181,6 +181,184 @@ def _formalize_rough_learning_pool_text(text: str, formal_card_count: int) -> st
     return text
 
 
+def _clean_signal_line(line: str) -> str:
+    line = line.strip()
+    line = re.sub(r"^[-*]\s*", "", line)
+    line = re.sub(r"^\d+[.)、]\s*", "", line)
+    return line.strip()
+
+
+def _extract_direction_style_signals(text: str, *, limit: int = 4) -> list[str]:
+    signals: list[str] = []
+    preferred_sections = (
+        "方向核心判断",
+        "高频选题结构",
+        "常见内容结构",
+        "高频黄金",
+        "表达素材",
+        "可入库内容",
+    )
+    in_preferred_section = False
+    for raw_line in text.splitlines():
+        stripped = raw_line.strip()
+        if not stripped:
+            continue
+        if stripped.startswith("## "):
+            in_preferred_section = any(section in stripped for section in preferred_sections)
+            continue
+        if not in_preferred_section:
+            continue
+        if stripped.startswith("|") or set(stripped) <= {"-", "|", " "}:
+            continue
+        if stripped.startswith(("```", ">")):
+            continue
+        signal = _clean_signal_line(stripped)
+        if not signal or signal.startswith("#"):
+            continue
+        if signal.startswith(">"):
+            continue
+        if signal.endswith(("：", ":")):
+            continue
+        if "结论来自" in signal or "已完成" in signal or "通过单卡字段" in signal:
+            continue
+        signals.append(signal)
+        if len(signals) >= limit:
+            break
+    return signals
+
+
+def _unique_limited(values: list[str], limit: int) -> list[str]:
+    unique: list[str] = []
+    for value in values:
+        value = value.strip()
+        if value and value not in unique:
+            unique.append(value)
+        if len(unique) >= limit:
+            break
+    return unique
+
+
+def _strip_signal_prefix(value: str) -> str:
+    value = _clean_signal_line(value)
+    value = re.sub(r"^(主结构|正式模型|正式模板|正式规则|高频开头|高频承接|高频边界|真实动作)[:：]\s*", "", value).strip()
+    return value.rstrip("。；; ")
+
+
+def _signals_with_prefix(directions: list[dict[str, Any]], prefixes: tuple[str, ...], *, limit: int = 5) -> list[str]:
+    matched: list[str] = []
+    for direction in directions:
+        for signal in direction.get("style_signals", []):
+            stripped = _clean_signal_line(str(signal))
+            if stripped.startswith(prefixes):
+                matched.append(_strip_signal_prefix(stripped))
+    return _unique_limited(matched, limit)
+
+
+def _direction_corpus(directions: list[dict[str, Any]]) -> str:
+    return " ".join(
+        [str(direction.get("direction", "")) for direction in directions]
+        + [signal for direction in directions for signal in direction.get("style_signals", [])]
+        + [title for direction in directions for title in direction.get("title_samples", [])]
+    )
+
+
+def _style_terms_from_evidence(directions: list[dict[str, Any]], candidates: tuple[str, ...], *, limit: int = 8) -> list[str]:
+    corpus = _direction_corpus(directions)
+    return [term for term in candidates if term in corpus][:limit]
+
+
+def _account_style_profile(config: AccountIngestConfig, directions: list[dict[str, Any]]) -> dict[str, Any]:
+    title_samples = _unique_limited(
+        [title for direction in directions for title in direction.get("title_samples", [])],
+        8,
+    )
+    structures = _signals_with_prefix(directions, ("主结构", "正式模型"), limit=6)
+    templates = _signals_with_prefix(directions, ("正式模板",), limit=3)
+    boundaries = _signals_with_prefix(directions, ("高频边界", "正式规则"), limit=4)
+    openings = _signals_with_prefix(directions, ("高频开头",), limit=3)
+    carriers = _signals_with_prefix(directions, ("高频承接",), limit=3)
+    action_signals = _signals_with_prefix(directions, ("真实动作",), limit=3)
+    judgments = _unique_limited(
+        [
+            _strip_signal_prefix(str(signal))
+            for direction in directions
+            for signal in direction.get("style_signals", [])
+            if not _clean_signal_line(str(signal)).startswith(("主结构", "正式模型", "正式模板", "正式规则", "高频开头", "高频承接", "高频边界"))
+        ],
+        5,
+    )
+    scene_terms = _style_terms_from_evidence(
+        directions,
+        (
+            "油痘肌",
+            "敏肌",
+            "刷酸",
+            "A醇",
+            "水杨酸",
+            "毛孔",
+            "抗老",
+            "修护",
+            "家庭版",
+            "水光",
+            "海菲秀",
+            "光子",
+            "好物",
+            "底妆",
+            "口红",
+            "防晒",
+            "读书",
+            "副业",
+            "成交",
+            "短视频",
+            "口播",
+            "项目",
+            "用户",
+            "产品",
+        ),
+    )
+    action_terms = _unique_limited(
+        action_signals
+        + _style_terms_from_evidence(
+            directions,
+            (
+                "建立耐受",
+                "修护兜底",
+                "跟练",
+                "筛选",
+                "观察变化",
+                "成本/效果对比",
+                "使用反馈",
+                "风险提示",
+                "记录",
+                "拆解",
+                "交付",
+                "发布",
+                "复盘",
+                "验证",
+                "资产化",
+            ),
+        ),
+        8,
+    )
+    first_structure = structures[0] if structures else (templates[0] if templates else "具体问题 + 可执行步骤 + 证据边界")
+    thesis = (
+        f"{config.account_name}的表达像是在把「{first_structure}」讲成可判断、可跟做、可追溯的内容，"
+        "不像 AI 在总结一类知识。"
+    )
+    return {
+        "thesis": thesis,
+        "scene_terms": scene_terms,
+        "action_terms": action_terms,
+        "structures": structures,
+        "templates": templates,
+        "boundaries": boundaries,
+        "openings": openings,
+        "carriers": carriers,
+        "judgments": judgments,
+        "title_samples": title_samples,
+    }
+
+
 def _card_rows(root: Path, config: AccountIngestConfig, direction: str) -> list[dict[str, str]]:
     cards_dir = root / config.resolved_learned_base() / direction / "cards"
     rows: list[dict[str, str]] = []
@@ -429,35 +607,118 @@ def _render_content_usage(config: AccountIngestConfig, directions: list[dict[str
 
 
 def _render_anti_ai_style(config: AccountIngestConfig, directions: list[dict[str, Any]] | None = None) -> str:
+    direction_items = directions or []
+    profile = _account_style_profile(config, direction_items)
+    scene_samples = _unique_limited(
+        [str(direction.get("direction", "")) for direction in direction_items]
+        + profile["title_samples"],
+        8,
+    )
+    structures = profile["structures"] or profile["templates"] or ["具体问题 -> 可执行步骤 -> 证据边界"]
+    openings = profile["openings"] or ["先给具体结果、具体痛点或具体使用场景"]
+    carriers = profile["carriers"] or ["用步骤、清单、跟练、案例或真实反馈提高收藏理由"]
+    boundaries = profile["boundaries"] or ["补适用对象、成本、风险或个人差异，避免绝对承诺"]
+    scene_text = "、".join(profile["scene_terms"][:8]) if profile["scene_terms"] else "正式方向里的具体对象、具体场景和具体卡点"
+    action_text = "、".join(profile["action_terms"][:8]) if profile["action_terms"] else "正式单卡里反复出现的可执行动作"
     lines = [
         f"# {config.account_name}减少AI味输出规则",
         "",
-        "用途：账号级风格控制文件。必须从本账号正式单卡、方向总结、标题、正文/文案、话题和复盘反馈中归纳，不复制其他账号规则。",
+        "状态：formal_ingested",
+        "用途：账号级写作控制器。凡是用本账号知识库写选题、文案、口播或方法论解释，都先读本文件；不复制其他账号规则。",
         "",
-        "## 核心原则",
+        "## 1. 核心风格",
         "",
-        "- 使用本账号自己的标题、正文/文案、话题和内容结构特征；没有证据的风格判断先写为待补项。",
+        profile["thesis"],
+        "",
+        "优先使用：",
+        "",
+        f"- 账号场景：{scene_text}。",
+        f"- 账号动作：{action_text}。",
+        f"- 开头方式：{openings[0]}。",
+        f"- 承接方式：{carriers[0]}。",
+        f"- 边界意识：{boundaries[0]}。",
+        "- 使用本账号自己的标题、正文/文案、话题和内容结构特征；没有证据的风格判断写为待补项。",
         "- 每条输出都要能回到正式学习卡、方向总结或粗学池来源；粗学池线索必须标注为粗学，不能当成已深学结论。",
-        "- 保留具体场景、对象、动作、证据和边界，少用空泛总结词。",
         "- 不学习评论正文；评论数量只作为互动指标。",
         "- 不编造数据、身份、经历、产品效果、收入结果、医学结论或外部事实。",
-        "",
-        "## 禁用写法",
-        "",
-        "- 禁止把其他账号的口吻、故事、结构或禁用词复制到本账号。",
-        "- 禁止只换关键词批量复用同一个钩子、故事、痛点和结论。",
-        "- 禁止把单条爆款写成账号稳定规律；必须有多条证据或复盘反馈支撑。",
-        "- 涉及效果、收益、健康、消费、投资等高风险表达时，禁止承诺结果。",
-        "",
-        "## 批量输出防偷懒规则",
-        "",
-        "- 同一批内容必须区分选题角度、开头方式、证据来源和收尾方式。",
-        "- 每条都要标注借鉴学习卡、source_id、来源层级和原内容链接。",
-        "- 如果只能找到粗学线索，输出中必须提示该内容仍需深学验证。",
-        "",
     ]
+    lines.extend(
+        [
+            "",
+            "## 2. 常用结构",
+            "",
+            "### 2.1 判断先行",
+            "",
+            "```text",
+            f"先贴【{openings[0]}】。",
+            f"再展开【{structures[0]}】。",
+            f"最后补【{boundaries[0]}】。",
+            "```",
+            "",
+            "### 2.2 具体问题切入",
+            "",
+            "```text",
+            "如果这条内容来自【具体标题/具体学习卡】，",
+            "先保留原始对象、场景和问题。",
+            "再写步骤、反馈、适用范围和不能确定的部分。",
+            "```",
+            "",
+            "### 2.3 账号专属视角",
+            "",
+            "\n".join(f"- {item}" for item in structures[:4]),
+            "",
+            "### 2.4 行动/边界收束",
+            "",
+            "```text",
+            "把建议落到【步骤/清单/跟练/筛选/复盘】之一。",
+            "结果只写到正式证据能支撑的程度。",
+            "如果只是粗学线索，明确标注待深学验证。",
+            "```",
+            "",
+            "## 3. 禁用写法",
+            "",
+            "- 禁止把其他账号的口吻、故事、结构或禁用词复制到本账号。",
+            "- 禁止只换关键词批量复用同一个钩子、故事、痛点和结论。",
+            "- 禁止把单条爆款写成账号稳定规律；必须有多条证据或复盘反馈支撑。",
+            "- 涉及效果、收益、健康、消费、投资等高风险表达时，禁止承诺结果。",
+            "- 禁止把方向词当成账号风格；必须回到本账号标题、正文/文案、话题、方向总结和正式单卡。",
+            "- 少用或不用：“在当今时代”“随着时代发展”“赋能”“闭环生态”“我将从以下几个维度展开”。",
+            "- 不要每条都写成“很多人以为……其实……”。",
+            "- 不要每段都工整排比、四字词堆叠、结尾升华。",
+            "- 不要为了体系感硬造模型名。",
+            "",
+            "## 4. 批量输出防雷同",
+            "",
+            "- 黄金3秒至少三种类型：误区纠偏、普通人直问、具体场景、风险自测、行动承诺、反常识判断。",
+            "- 同一批内容必须区分选题角度、开头方式、证据来源和收尾方式。",
+            "- 每条至少有一个独立变量：场景、痛点、案例、动作、风险或证据来源。",
+            "- 不允许所有条目都用同一个案例。",
+            "- 不允许只替换方向名、关键词、受众名。",
+            "- 不允许两次批量输出沿用同一组结构顺序。",
+            "- 每条都要标注借鉴学习卡、source_id、来源层级和原内容链接。",
+            "- 如果只能找到粗学线索，输出中必须提示该内容仍需深学验证。",
+            "",
+            "## 5. 真实感来源",
+            "",
+            "- 优先从本账号正式单卡里找真实问题、真实动作、真实边界和真实口语。",
+            f"- 真实结构：{'；'.join(structures[:4])}。",
+            f"- 真实标题：{'；'.join(profile['title_samples'][:5]) if profile['title_samples'] else '待从正式单卡补齐'}。",
+            f"- 真实边界：{'；'.join(boundaries[:3])}。",
+            "- 真实口语：短句、反问、停顿和具体焦虑只能从本账号证据中抽取。",
+            f"- 当前可用场景信号：{'；'.join(scene_samples) if scene_samples else '待从正式方向和单卡补齐'}。",
+            "",
+            "## 6. 输出后自检",
+            "",
+            "1. 这一条能否指向正式方向或 source_id？",
+            "2. 有没有具体场景？",
+            "3. 有没有一个今天能做的小动作？",
+            "4. 有没有夸大收益、效果、身份、医学结论或编造证据？",
+            "5. 同批内容是否钩子、案例、动作都不雷同？",
+            "6. 是否混入了其他账号的场景、动作或口吻？",
+            "",
+        ]
+    )
     return "\n".join(lines)
-
 
 def _source_link_label(config: AccountIngestConfig) -> str:
     platform = config.platform.lower()
@@ -619,7 +880,8 @@ def ingest_direction_package(root: Path, config: AccountIngestConfig, direction:
         unapproved = sorted(row["source_id"] for row in rows if row["source_id"] not in approved_ids)
         if unapproved:
             raise ValueError(f"Cards not approved for formal ingest in {direction}: {unapproved}")
-    if not _write_transformed(source_dir / "方向方法论总结.md", formal_dir / "方向方法论总结.md", _formalize_summary_text):
+    formal_summary_path = formal_dir / "方向方法论总结.md"
+    if not _write_transformed(source_dir / "方向方法论总结.md", formal_summary_path, _formalize_summary_text):
         raise FileNotFoundError(f"Missing required direction file: {source_dir / '方向方法论总结.md'}")
     rough_source = source_dir / "粗扫内容和选题.md"
     if not _write_transformed(rough_source, formal_dir / "粗扫内容和选题.md", lambda text: _formalize_rough_learning_pool_text(text, len(rows))):
@@ -643,6 +905,8 @@ def ingest_direction_package(root: Path, config: AccountIngestConfig, direction:
         "card_count": len(rows),
         "transcript_file_count": transcript_file_count,
         "formal_direction_dir": as_posix(formal_dir.relative_to(root)),
+        "style_signals": _extract_direction_style_signals(formal_summary_path.read_text(encoding="utf-8", errors="ignore")),
+        "title_samples": [row["title"] for row in rows[:5]],
     }
     result = {
         "generated_at": generated_at,
@@ -754,6 +1018,8 @@ def ingest_directions(
             "card_count": result["card_count"],
             "transcript_file_count": result["transcript_file_count"],
             "formal_direction_dir": result["formal_direction_dir"],
+            "style_signals": result.get("style_signals", []),
+            "title_samples": result.get("title_samples", []),
         }
         for result in results
     ]

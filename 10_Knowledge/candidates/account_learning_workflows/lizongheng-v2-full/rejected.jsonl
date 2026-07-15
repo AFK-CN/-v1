@@ -1,0 +1,6 @@
+{"id":"lz-g1-commercial-contamination","title":"商业分流与广告植入学习门","failed_checks":["v1_natural_frequency"],"reason":"商业内容不参与账号自然方法频次证明，但必须路由到广告植入学习分支，拆解正常剧情、引入桥、产品角色和收束。","disposition":"route_to_ad_integration_learning","callable":false}
+{"id":"lz-g2-evidence-account-boundary","title":"证据质量与账号归属门","failed_checks":["not_a_generation_method"],"reason":"证据质量与账号归属是前置门禁，不是内容生成方法。","disposition":"retain_as_evidence_gate","callable":false}
+{"id":"lz-r1-generic-contrast","title":"通用对照与正常/自己反差","failed_checks":["v3_account_exclusivity"],"reason":"正常/自己或前后对照是通用容器，尚未通过账号排他性验证。","disposition":"retain_as_support_pattern","callable":false}
+{"id":"lz-r2-generic-reveal-gap","title":"通用揭示、信息差与末尾反转","failed_checks":["v3_account_exclusivity"],"reason":"揭示、信息差和末尾反转属于行业通用收束方式，不能单独触发。","disposition":"retain_as_support_pattern","callable":false}
+{"id":"lz-r3-packaging-support","title":"标题、发布文案与表达包装","failed_checks":["v2_predictive_usefulness"],"reason":"标题、发布文案和话题属于表达支持层，不能绕过内容证据独立成为方法。","disposition":"retain_as_expression_support","callable":false}
+{"id":"lz-r4-case-specific-observation","title":"单例题材与未收敛观察","failed_checks":["v1_cross_context","mechanism_not_resolved"],"reason":"剩余观察尚未收敛为跨场景机制，保留单例和反例证据。","disposition":"wait_for_more_evidence","callable":false}

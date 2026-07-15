@@ -1,0 +1,49 @@
+{
+  "id": "experience-to-trust-asset",
+  "schema_version": "2.2",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "account_scope": "姜胡说",
+  "title": "把真实经历与解决过程转成信任资产",
+  "trigger_signals": [
+    "公开真实解决过程",
+    "展示可核验变化",
+    "逐步积累信任"
+  ],
+  "trigger_model": {
+    "mechanism": "不包装完美结论，而是公开真实经历、问题和解决过程，让可核验的变化逐步积累信任。",
+    "applicable_relations": [
+      "真实经历与可信度",
+      "解决过程与信任资产"
+    ],
+    "transferable_scenes": [
+      "无权威背书的新账号",
+      "失败复盘内容",
+      "服务案例说明"
+    ],
+    "do_not_trigger_on": [
+      "只有苦难故事没有解决过程",
+      "只因出现真实或经历词"
+    ]
+  },
+  "do_not_use": [
+    "隐私不可公开",
+    "结果无法核验且容易误导"
+  ],
+  "execution_steps": [
+    "选取亲历且可公开的问题",
+    "保留过程证据和关键转折",
+    "说明变化与未解决部分",
+    "持续回访结果并更新边界"
+  ],
+  "source_refs": [
+    "7567763940030057755",
+    "7607072666188631305",
+    "7623432595895749926",
+    "7642736662568635675"
+  ],
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-14T23:06:58+08:00",
+  "approval_basis": "2026-07-14 user explicit formal-ingest approval after Skill v2.2 audit"
+}

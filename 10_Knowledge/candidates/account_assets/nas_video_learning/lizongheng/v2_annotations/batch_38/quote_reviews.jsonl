@@ -1,0 +1,10 @@
+{"source_id":"7108696560447376680","review_mode":"asr_quality_screened","retained_quotes":["我每天最多能工作18个小时","我还撒谎"],"rejected_quotes":[]}
+{"source_id":"7107520592731032847","review_mode":"asr_quality_screened","retained_quotes":["五个好友位有我一个"],"rejected_quotes":[{"text":"贴贴是实实拍","reason":"ASR将‘实时拍’错转为‘实实拍’，功能名称以手机字幕和界面为准。"}]}
+{"source_id":"7106698967450127631","review_mode":"asr_quality_screened","retained_quotes":["我长得太帅了","我最想过普通人"],"rejected_quotes":[]}
+{"source_id":"7106018562657013027","review_mode":"asr_quality_screened","retained_quotes":["我是和雪琴打小玩到大的","你俩有病啊"],"rejected_quotes":[]}
+{"source_id":"7104843253618461987","review_mode":"asr_quality_screened","retained_quotes":["代表着热情啊"],"rejected_quotes":[{"text":"红色感叹号才意思","reason":"句子缺少谓语并疑似漏词，红色感叹号含义以聊天画面和后续解释复核。"}]}
+{"source_id":"7102758562438466856","review_mode":"asr_quality_screened","retained_quotes":["我要当一个练习生","我准备了一年唱跳"],"rejected_quotes":[]}
+{"source_id":"7100762116042362153","review_mode":"asr_quality_screened","retained_quotes":["物质型的女生","我每天都吃早餐"],"rejected_quotes":[]}
+{"source_id":"7099648836808740136","review_mode":"asr_quality_screened","retained_quotes":["我一個月的工資","我的錢就像是有繁殖能力"],"rejected_quotes":[]}
+{"source_id":"7097565385368538368","review_mode":"asr_quality_screened","retained_quotes":["那什么玩法啊"],"rejected_quotes":[{"text":"要么吃 要么帮我吃","reason":"ASR无法可靠还原麻将口令，真实吃牌动作以十五帧画面为准。"}]}
+{"source_id":"7094554073877220642","review_mode":"asr_quality_screened","retained_quotes":["这位是李氏集团的总裁","咱家集团破产了"],"rejected_quotes":[]}

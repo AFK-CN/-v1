@@ -1,0 +1,59 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T22:40:51+08:00",
+  "prompt_set_sha256": "2edefeb4732f5aa9e9fa81673a580ad424b031ea9cd10fc94ab9df27ef60b5ed",
+  "case_results": [
+    {
+      "id": "opportunity-rule-resource-leverage-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['识别规则正在变化', '盘点可借用资源']"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['识别规则正在变化']"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['识别规则正在变化', '盘点可借用资源']"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-commercial-contamination",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-mechanism-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['识别规则正在变化']"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-composition-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['识别规则正在变化']"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

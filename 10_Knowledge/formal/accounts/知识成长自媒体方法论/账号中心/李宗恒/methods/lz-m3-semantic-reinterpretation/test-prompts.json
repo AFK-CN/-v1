@@ -1,0 +1,107 @@
+{
+  "method_id": "lz-m3-semantic-reinterpretation",
+  "executor_input_excludes_expected_answer": true,
+  "evaluation_basis": "structured mechanism facts, not keyword matching",
+  "test_cases": [
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-01",
+      "type": "should_trigger",
+      "prompt": "领导说‘把客户留住’，员工把‘留住’理解成不让客户离开，并据此锁门导致投诉。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": true,
+        "drives_action": true,
+        "consequence_present": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-02",
+      "type": "should_not_trigger",
+      "prompt": "标题出现‘双语境’，正文没有任何可多解的话。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": false,
+        "drives_action": false,
+        "consequence_present": false,
+        "content_axis": "normal"
+      },
+      "decoy_kind": "lexical_overlap_without_mechanism"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-03",
+      "type": "edge_case",
+      "prompt": "角色指出一句话有双义，但没有按第二种含义行动。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": true,
+        "drives_action": false,
+        "consequence_present": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-04",
+      "type": "cross_scene_transfer",
+      "prompt": "恋人说‘给我一点空间’，对方按物理面积腾空房间，搬家具后关系进一步恶化。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": true,
+        "drives_action": true,
+        "consequence_present": true,
+        "content_axis": "normal"
+      },
+      "source_scene": "职场指令",
+      "target_scene": "服务对话",
+      "mechanism_preserved": true
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-05",
+      "type": "should_not_trigger",
+      "prompt": "员工夺取审批权并连续要求老板证明方案，没有任何语言替代解释。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": false,
+        "drives_action": false,
+        "consequence_present": false,
+        "transferred_rights": 1,
+        "sustained_actions": 3,
+        "process_changed": true,
+        "content_axis": "normal"
+      },
+      "sibling_method_id": "lz-m2-control-right-reversal"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-06",
+      "type": "ablation",
+      "prompt": "保留双关句，但删除角色行动和后果，剧情仍靠身份反转结束。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": true,
+        "drives_action": false,
+        "consequence_present": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-07",
+      "type": "composition",
+      "prompt": "角色把同一指代连续理解错三次，每轮行动造成更严重后果。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": true,
+        "drives_action": true,
+        "consequence_present": true,
+        "fixed_rule": true,
+        "rounds": 3,
+        "escalation_dimensions": 2,
+        "ordered_intensity": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-08",
+      "type": "commercial_contamination",
+      "prompt": "产品广告把‘轻一点’解释成重量和语气双义并驱动展示，结构成立但属于商业内容。",
+      "mechanism_facts": {
+        "alternative_interpretation_valid": true,
+        "drives_action": true,
+        "consequence_present": true,
+        "content_axis": "commercial"
+      }
+    }
+  ]
+}

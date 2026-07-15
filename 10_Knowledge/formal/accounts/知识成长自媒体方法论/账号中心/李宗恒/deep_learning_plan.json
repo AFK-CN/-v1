@@ -1,0 +1,14 @@
+{
+  "schema_version": "2.2",
+  "status": "formal_ingested",
+  "account_name": "李宗恒",
+  "account_id": "63700340656",
+  "source_count": 430,
+  "natural_card_count": 272,
+  "product_ad_card_count": 140,
+  "platform_project_card_count": 18,
+  "method_count": 4,
+  "performance_metric_match_count": 430,
+  "formal_ingested_at": "2026-07-14",
+  "source_workflow": "10_Knowledge/candidates/account_learning_workflows/lizongheng-v2-full"
+}

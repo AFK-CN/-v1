@@ -1,0 +1,3 @@
+{"id": "xsl-cluster-commercial_boundary", "title": "商业内容必须补足适用条件与证据边界", "failed_checks": ["not_method_candidate"], "reason": "该组作为边界/证据门保留，不升级为可复用方法。", "disposition": "retain_as_boundary"}
+{"id": "xsl-cluster-engagement_boundary", "title": "账号互动与售后回执不冒充护肤方法", "failed_checks": ["not_method_candidate"], "reason": "该组作为边界/证据门保留，不升级为可复用方法。", "disposition": "retain_as_boundary"}
+{"id": "xsl-cluster-evidence_gate", "title": "医学化功效与强时效承诺进入证据门", "failed_checks": ["not_method_candidate"], "reason": "该组作为边界/证据门保留，不升级为可复用方法。", "disposition": "retain_as_boundary"}

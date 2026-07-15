@@ -1,0 +1,104 @@
+{
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "account_name": "小森林的小世界",
+  "platform": "小红书",
+  "workflow_status": "formal_ingested_with_open_review_items",
+  "executor": "local_machine",
+  "evidence_storage": {
+    "formal_account_center": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界",
+    "rough_scan_inventory": "10_Knowledge/candidates/account_assets/content_rough_scan/xiaosenlin_xiaoshijie/all_content_inventory.jsonl",
+    "source_deep_learning_plan": "10_Knowledge/candidates/review_registers/plans/xiaosenlin_xiaoshijie_primary_top87.json",
+    "nas_role": "raw_artifact_store_only_if_configured_not_second_knowledge_base"
+  },
+  "counts": {
+    "rough_scan_total": 426,
+    "expected_total": 426,
+    "deep_learning_targets": 87,
+    "expected_deep_count": 87,
+    "formal_card_count": 87,
+    "formal_transcript_file_count": 130,
+    "needs_review": 25
+  },
+  "directions": [
+    {
+      "direction": "护肤功效",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 10,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效"
+    },
+    {
+      "direction": "毛孔清洁",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 18,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁"
+    },
+    {
+      "direction": "刷酸焕肤",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 12,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤"
+    },
+    {
+      "direction": "抗老修护",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 14,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护"
+    },
+    {
+      "direction": "美容项目平替",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 14,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替"
+    },
+    {
+      "direction": "好物测评",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 20,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评"
+    },
+    {
+      "direction": "变美经验",
+      "status": "formal_ingested",
+      "card_count": 9,
+      "transcript_file_count": 14,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验"
+    },
+    {
+      "direction": "生活方式",
+      "status": "formal_ingested",
+      "card_count": 10,
+      "transcript_file_count": 18,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式"
+    },
+    {
+      "direction": "账号运营",
+      "status": "formal_ingested",
+      "card_count": 8,
+      "transcript_file_count": 10,
+      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营"
+    }
+  ],
+  "validation_snapshot": {
+    "generated_at": "2026-06-28T21:56:43",
+    "valid": false,
+    "errors": [
+      "needs_review remains: 25"
+    ]
+  },
+  "source_plan_summary": {
+    "item_count": 87,
+    "selection_rule": "per direction max 10; no total cap; rank by heat score then classification score after review overrides",
+    "top_n": null
+  },
+  "acceptance_boundary": [
+    "正式账号中心调用以账号索引、账号方法论、方向方法论、学习卡和必要证据文件为准。",
+    "validation_snapshot 中的 needs_review 代表粗扫例外仍需后续收口，不等于已入库学习卡失效。",
+    "新增方向或把账号规则上升为通用规则，仍需用户确认或审核注册表通过。"
+  ]
+}

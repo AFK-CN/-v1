@@ -1,0 +1,50 @@
+{
+  "account": "小森林的小世界",
+  "generated_at": "2026-07-14T23:27:31+08:00",
+  "skill_version": "2.2",
+  "gate": "pass_with_deferred_evidence",
+  "source_total": 428,
+  "deep_learned": 379,
+  "deferred_evidence": 49,
+  "five_lens_candidates": 1895,
+  "candidate_clusters": 9,
+  "verified_candidate_methods": 4,
+  "rejected_or_boundary_clusters": 5,
+  "track_counts": {
+    "commercial_unknown": 319,
+    "community_or_aftercare": 3,
+    "natural_experience": 38,
+    "natural_product_review": 17,
+    "platform_project": 2
+  },
+  "method_order": [
+    "xsl-cluster-problem_result",
+    "xsl-cluster-step_sequence",
+    "xsl-cluster-time_feedback",
+    "xsl-cluster-list_decision"
+  ],
+  "candidate_unique_ids": 1895,
+  "candidate_assignment_exactly_once": true,
+  "deferred_candidate_overlap_count": 0,
+  "verified_v1_track_violation_count": 0,
+  "pressure_test": {
+    "method_count": 4,
+    "case_total": 28,
+    "case_passed": 28,
+    "case_failed": 0,
+    "required_types": [
+      "combination_ablation",
+      "commercial_contamination",
+      "cross_scene_transfer",
+      "edge_case",
+      "should_not_trigger",
+      "should_trigger"
+    ],
+    "sibling_interference_required": true
+  },
+  "real_acceptance": "passed",
+  "formal_write": false,
+  "callable": false,
+  "all_content_learned": false,
+  "errors": []
+}

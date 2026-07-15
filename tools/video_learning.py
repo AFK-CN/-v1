@@ -7,6 +7,7 @@ import json
 import os
 import re
 import shutil
+import sqlite3
 import statistics
 import subprocess
 import sys
@@ -18,6 +19,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+from tools.account_learning_card import CONTRACT_ID, validate_unified_text
 
 VIDEO_LEARNING_REPORTS_DIR = Path("00_System/runtime/reports/video_learning")
 VIDEO_LEARNING_CACHE_DIR = Path("00_System/runtime/cache/video_learning")
@@ -339,6 +341,8 @@ def normalize_record(platform: str, row: dict[str, Any], source_file: Path) -> N
 
 
 SQLITE_ACCOUNT_CANDIDATES_PATH = Path("10_Knowledge/candidates/account_assets/sqlite_imports/latest_account_candidates.json")
+SQLITE_INGEST_STATE_PATH = Path("00_System/runtime/state/sqlite_ingest/state.json")
+DEFAULT_SQLITE_DATABASE_PATH = Path("数据/sqlite_tables.db")
 
 
 def latest_sqlite_candidate_records_path(root: Path) -> Path | None:
@@ -396,6 +400,39 @@ def normalize_sqlite_candidate_record(row: dict[str, Any]) -> NormalizedRecord:
     )
 
 
+def sqlite_database_path(root: Path) -> Path | None:
+    state_path = root / SQLITE_INGEST_STATE_PATH
+    configured = ""
+    if state_path.exists():
+        try:
+            state = json.loads(state_path.read_text(encoding="utf-8"))
+            configured = str(state.get("database") or "").strip() if isinstance(state, dict) else ""
+        except (OSError, json.JSONDecodeError):
+            configured = ""
+    candidate = Path(configured).expanduser() if configured else DEFAULT_SQLITE_DATABASE_PATH
+    if not candidate.is_absolute():
+        candidate = root / candidate
+    return candidate if candidate.is_file() else None
+
+
+def douyin_video_urls_from_sqlite(root: Path) -> dict[str, str]:
+    database = sqlite_database_path(root)
+    if database is None:
+        return {}
+    try:
+        with sqlite3.connect(database) as conn:
+            columns = {str(row[1]) for row in conn.execute("PRAGMA table_info(douyin_aweme)")}
+            if not {"aweme_id", "video_download_url"}.issubset(columns):
+                return {}
+            rows = conn.execute(
+                "SELECT CAST(aweme_id AS TEXT), video_download_url "
+                "FROM douyin_aweme WHERE video_download_url IS NOT NULL AND TRIM(video_download_url) != ''"
+            ).fetchall()
+    except sqlite3.Error:
+        return {}
+    return {str(source_id): str(url).strip() for source_id, url in rows if str(source_id) and str(url).strip()}
+
+
 def load_sqlite_candidate_records(root: Path) -> tuple[list[NormalizedRecord], int, list[dict[str, str]]]:
     path = latest_sqlite_candidate_records_path(root)
     if path is None:
@@ -406,6 +443,7 @@ def load_sqlite_candidate_records(root: Path) -> tuple[list[NormalizedRecord], i
         lines = path.read_text(encoding="utf-8").splitlines()
     except (OSError, UnicodeError) as exc:
         return [], 0, [{"path": str(path.relative_to(root)), "stage": "read", "error_type": type(exc).__name__, "message": str(exc)}]
+    douyin_video_urls: dict[str, str] | None = None
     for index, line in enumerate(lines, start=1):
         if not line.strip():
             continue
@@ -435,6 +473,14 @@ def load_sqlite_candidate_records(root: Path) -> tuple[list[NormalizedRecord], i
         source_id = str(row.get("source_id") or row.get("stable_id") or "")
         if platform not in {"douyin", "xhs"} or not source_id:
             continue
+        if platform == "douyin" and not first_non_empty(
+            row.get("video_url"), row.get("video_download_url"), row.get("download_url"), row.get("play_url")
+        ):
+            if douyin_video_urls is None:
+                douyin_video_urls = douyin_video_urls_from_sqlite(root)
+            hydrated_url = douyin_video_urls.get(source_id, "")
+            if hydrated_url:
+                row = {**row, "video_download_url": hydrated_url}
         records.append(normalize_sqlite_candidate_record(row))
     return records, len(records), failed_rows
 
@@ -2577,67 +2623,184 @@ def save_manifest(root: Path, manifest: dict[str, Any]) -> None:
     write_json_file(manifest_path(root), manifest)
 
 
-def selected_card_markdown(record: NormalizedRecord, directions: list[str], video: dict[str, Any], image: dict[str, Any]) -> str:
+def transcript_excerpt_from_status(root: Path, video: dict[str, Any], limit: int = 220) -> str:
+    transcript_path = str((video.get("artifacts") or {}).get("transcript_json") or "")
+    if not transcript_path:
+        return ""
+    path = Path(transcript_path)
+    if not path.is_absolute():
+        path = root / path
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError, json.JSONDecodeError):
+        return ""
+    text = " ".join(str(item.get("text") or "").strip() for item in payload.get("segments", []) if str(item.get("text") or "").strip())
+    return first_sentence(text, limit)
+
+
+def selected_card_markdown(
+    record: NormalizedRecord,
+    directions: list[str],
+    video: dict[str, Any],
+    image: dict[str, Any],
+    transcript_excerpt: str = "",
+) -> str:
     metrics = record.metrics
     direction_text = "、".join(directions)
     topic_tags = "、".join(record.tags) if record.tags else "未提取到显式话题/标签；按标题与正文语义学习。"
+    direction = directions[0] if directions else "未归类"
+    story_directions = {
+        "剧情短剧", "喜剧反转", "校园大学生", "职场关系", "情感关系", "人际社交观察",
+        "爱情关系喜剧", "性格标签喜剧", "生活荒诞反转", "身份错位短剧", "语言表达喜剧",
+    }
+    content_form = "图文" if record.platform == "xhs" else ("剧情/故事" if any(item in story_directions for item in directions) else "知识/评论")
+    source_quote = transcript_excerpt or first_sentence(record.body, 180) or "无可回查原句；当前仅保留标题和媒体状态，不补造原话"
+    content_summary = first_sentence(transcript_excerpt or record.body, 180) or first_sentence(record.title, 100)
+    structure_template = reusable_template(direction, record)
+    if content_form == "剧情/故事":
+        structure = (
+            f"- 开头设定：{golden_3s_hook(record)}\n"
+            f"- 核心冲突：{content_summary}\n"
+            "- 升级：通过人物动作、限制条件或信息差持续放大冲突。\n"
+            f"- 转折或笑点：{ending_quote_or_interaction(record)}\n"
+            "- 收尾：停在关系变化或结果反转，不额外拔高。"
+        )
+    elif content_form == "图文":
+        structure = (
+            f"- 封面承诺：{golden_3s_hook(record)}\n"
+            "- 分图顺序：封面、问题、步骤、结果、边界。\n"
+            f"- 信息层级：{content_summary}\n"
+            f"- 行动建议：{structure_template}\n"
+            f"- 收尾互动：{ending_quote_or_interaction(record)}"
+        )
+    else:
+        structure = (
+            f"- 黄金3秒：{golden_3s_hook(record)}\n"
+            f"- 观点提出：{first_sentence(record.title, 100)}\n"
+            f"- 证据或案例：{content_summary}\n"
+            f"- 推演：{structure_template}\n"
+            f"- 收尾：{ending_quote_or_interaction(record)}"
+        )
+    media_type = "图文" if record.platform == "xhs" else "视频"
+    media_status = f"video={video.get('status', 'unknown')}；image={image.get('status', 'unknown')}"
+    candidate_status = "待验证；单卡不得直接形成稳定方法"
+    evidence_gap = "逐字稿/正文不足，当前观点仅按可见发布层学习。" if not transcript_excerpt and not record.body else "仍需至少一张独立内容支持，才能通过跨卡验证。"
     return f"""# 已确认深度学习卡：{record.platform} {record.source_id}
 
-```yaml
-source_id: {record.source_id}
-platform: {record.platform}
-account_name: {record.account_name or "未知账号"}
-directions: {direction_text}
-heat_score: {heat_score(record)}
-title: {record.title}
-url: {record.url}
-original_video_url: {record.url}
-metrics:
-  likes: {metrics["likes"]}
-  collects: {metrics["collects"]}
-  comments: {metrics["comments"]}
-  shares: {metrics["shares"]}
-video_analysis_status: {video["status"]}
-image_analysis_status: {image["status"]}
-decision: review
+学习卡契约：{CONTRACT_ID}
+source_id：{record.source_id}
+原内容链接：{record.url}
+账号：{record.account_name or "未知账号"}
+平台：{record.platform}
+主方向：{direction_text}
+学习批次：video-learning-manifest
+状态：candidate_learned
+
+## 1. 证据边界
+
+- 主证据：{('逐字稿、原视频' if transcript_excerpt else '发布标题、正文/文案和可用媒体产物')}。
+- 辅助证据：指标、话题/标签、图片/OCR和场景状态。
+- 证据状态：{media_status}；逐字稿摘录 {'可用' if transcript_excerpt else '缺失或未读取'}。
+
+## 2. 为什么值得学习
+
+- 本条由用户或计划确认进入深度学习队列，方向为 `{direction_text}`。
+- 指标证据：点赞 {metrics['likes']}，收藏 {metrics['collects']}，评论 {metrics['comments']}，转发 {metrics['shares']}；指标只作辅助。
+- 可学习价值：标题、正文和媒体表现共同承载“{candidate_topic_angle(direction, record)}”。
+
+## 3. 多维分类与商业隔离
+
+- 内容形态：{content_form}
+- 平台形态：{candidate_content_format(record)}
+- 商业属性：待复核
+- 分类依据：标题、正文、标签和媒体状态共同判断为 `{direction_text}`。
+- 隔离判断：商业信号尚未完成独立审核，本卡不能直接进入稳定方法或核心方向统计。
+
+## 4. 核心观点
+
+- 内容层观点：{content_summary}
+- 表达层观点：{golden_3s_hook(record)}
+- 复用判断：{candidate_topic_angle(direction, record)}。
+
+## 5. 内容结构
+
+{structure}
+
+## 6. 发布内容层学习
+
+- 标题：{record.title}
+- 正文或文案：{first_sentence(record.body, 180) or '未提取到有效正文/文案。'}
+- 话题或标签：{topic_tags}
+- 协同判断：标题负责承诺，正文/文案负责展开，话题/标签负责限定场景；缺失项不补造。
+
+## 7. 视频/图文表现层学习
+
+- 媒体类型：{media_type}。
+- 分析状态：{media_status}。
+- 表现学习：{('按封面、分图、OCR和视觉层级学习' if record.platform == 'xhs' else '按逐字稿、镜头、场景、节奏和停顿学习')}；未完成的媒体分析只保留降级判断。
+
+## 8. 金句与表达素材
+
+- 原文金句：{source_quote}
+- 提炼表达（非原话）：{content_summary}
+- 可复用句式：{structure_template}
+
+## 9. 可复用选题与案例
+
+- 可复用选题：{candidate_topic_angle(direction, record)}。
+- 可复用案例：{record.platform}:{record.source_id}，标题《{record.title}》。
+- 复用边界：只复用结构，不复制来源事实、身份、故事和原句。
+
+## 10. 方法候选与可复用方法论
+
+> 状态：候选，待跨卡三重验证。
+
+### R - 原始证据
+
+{source_quote}
+
+### I - 初步解释
+
+本条候选尝试用“{structure_template}”把 `{direction_text}` 转成可识别、可执行的内容结构。
+
+### A1 - 本条案例
+
+{record.platform}:{record.source_id} 以《{record.title}》承载该结构。
+
+### A2 - 未来触发场景
+
+- 触发机制：当新任务需要复用“{structure_template}”的结构因果，而不只是复用 `{direction}` 题材词时调用本候选。
+- 适用关系：来源人物关系只作为本条案例；目标关系能够承载同类冲突时可以迁移。
+- 可迁移场景：来源场景只作为本条案例；更换场景后核心结构仍成立时可以迁移。
+- 不触发条件：只出现来源人物、场景、道具或 `{direction}` 题材词，但没有同类结构因果时不得调用。
+
+### E - 初步执行步骤
+
+1. 先按账号、内容形态和主任务方向建立基础召回范围。
+2. 再按结构机制判断是否跨关系、跨场景调用，不因偶然名词触发。
+3. 把来源人物和场景替换为目标人物和目标场景，同时保留核心因果。
+4. 对齐标题、正文/文案、话题和媒体表现。
+5. 回查证据并标出不能确定的部分。
+
+### B - 边界与反例
+
+- {candidate_status}。
+- 商业属性未复核时，不进入核心方向规律。
+
+## 11. 可复用模板
+
+```text
+路由：先确定【主任务方向】和【内容形态】，再匹配【核心结构机制】。
+触发检查：只命中人物、场景、道具或题材词时不调用。
+{structure_template}
+替换【受众】【人物关系】【场景】【问题】【动作】【边界】，不复制来源事实和原句。
 ```
 
-原视频链接：{record.url}
+## 12. 证据缺口与候选判断
 
-## 为什么学习
-
-- 这是人工确认进入深度学习队列的内容。
-- 账号：{record.account_name or "未知账号"}。
-- 方向：{direction_text}。
-- 指标证据：点赞 {metrics["likes"]}，收藏 {metrics["collects"]}，评论 {metrics["comments"]}，转发 {metrics["shares"]}。
-
-## 内容结构
-
-- 黄金 3 秒钩子：{golden_3s_hook(record)}
-- 开头：{first_sentence(record.title, 80)}
-- 发布内容层：标题《{record.title}》；正文/文案摘要：{first_sentence(record.body, 120)}
-- 话题/标签：{topic_tags}
-- 目标人群：{infer_audience(directions[0], record)}
-- 展开：{first_sentence(record.body, 160)}
-- 可复用结构：{reusable_template(directions[0], record)}
-- 结尾金句/互动引导：{ending_quote_or_interaction(record)}
-
-## 视频层状态
-
-```json
-{json.dumps(video, ensure_ascii=False, indent=2)}
-```
-
-## 图片层状态
-
-```json
-{json.dumps(image, ensure_ascii=False, indent=2)}
-```
-
-## 下一步建议
-
-- 若视频或图片层完成：进入人工复核，判断是否沉淀到正式方法论/选题库。
-- 若状态为降级失败：保留文本学习结果，等待刷新下载链接或补充素材后再重跑。
+- 证据缺口：{evidence_gap}
+- 卡片判断：保留为候选学习卡，等待机器审计和人工复核。
+- 跨卡状态：待验证；进入五视角候选池后再决定支持、反驳或边界证据。
 """
 
 
@@ -2906,7 +3069,8 @@ def write_nas_account_mirror(
     now = datetime.now().isoformat(timespec="seconds")
     artifact_items = scan_account_artifacts(account_dir)
 
-    plan_items: dict[str, dict[str, Any]] = {}
+    existing_plan_items = read_json_file(account_dir / "_learning_plan.json", {"items": {}}).get("items", {})
+    plan_items: dict[str, dict[str, Any]] = dict(existing_plan_items) if isinstance(existing_plan_items, dict) else {}
     progress_items = read_json_file(account_dir / "_learning_progress.json", {"items": {}}).get("items", {})
     if not isinstance(progress_items, dict):
         progress_items = {}
@@ -3028,7 +3192,13 @@ def run_selected_deep_learning(
         if existing.get("status") == "completed" and card_validation["validation"] == "valid" and not force:
             skipped.append(source_id)
             continue
-        should_analyze_video = analyze_video and analyzed_videos < video_limit and can_attempt_record_video(record)
+        artifact_dir = resolved_video_artifact_dir(root, record, artifacts_dir, artifact_layout)
+        local_video_available = media_file_is_usable(artifact_dir / "source.mp4")
+        should_analyze_video = (
+            analyze_video
+            and analyzed_videos < video_limit
+            and (can_attempt_record_video(record) or local_video_available)
+        )
         if should_analyze_video:
             analyzed_videos += 1
         if artifacts_dir is None and artifact_layout == "flat":
@@ -3038,11 +3208,15 @@ def run_selected_deep_learning(
         image = image_status(root, record, analyze_images and record.platform == "xhs", max_images_per_note=max_images_per_note)
         directions = detect_directions(record)
         card_path = cards_dir / f"{record.platform}_{record.source_id}.md"
-        artifact_dir = resolved_video_artifact_dir(root, record, artifacts_dir, artifact_layout)
         pipeline_state = load_pipeline_state(artifact_dir, record)
         mark_pipeline_step(artifact_dir, pipeline_state, "write_card", "running")
-        card_path.write_text(selected_card_markdown(record, directions, video, image), encoding="utf-8")
+        transcript_excerpt = transcript_excerpt_from_status(root, video)
+        card_text = selected_card_markdown(record, directions, video, image, transcript_excerpt)
+        card_contract = validate_unified_text(card_text)
+        card_path.write_text(card_text, encoding="utf-8")
         status = learning_outcome(video, image, analyze_video, analyze_images)
+        if not card_contract.valid:
+            status = "card_contract_failed"
         if status == "completed":
             mark_pipeline_step(artifact_dir, pipeline_state, "write_card", "completed", "valid")
             pipeline_state["current_step"] = "completed"
@@ -3060,6 +3234,11 @@ def run_selected_deep_learning(
             "card_path": str(card_path.relative_to(root)),
             "video": video,
             "image": image,
+            "card_contract": {
+                "contract_id": CONTRACT_ID,
+                "valid": card_contract.valid,
+                "errors": list(card_contract.errors),
+            },
             "last_run_at": datetime.now().isoformat(timespec="seconds"),
         }
         manifest_items[key] = entry

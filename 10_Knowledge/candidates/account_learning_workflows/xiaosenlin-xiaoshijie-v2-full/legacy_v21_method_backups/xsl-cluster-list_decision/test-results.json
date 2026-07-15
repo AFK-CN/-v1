@@ -1,0 +1,41 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T00:18:00+08:00",
+  "prompt_set_sha256": "983c3078e6e5917d4a089ed6bf2ac6bfa3ffd997bc0e907eb6b2e316a9806e42",
+  "case_results": [
+    {
+      "id": "xsl-cluster-list_decision-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "盲测仅命中 2 个完整机制信号：['把清单按用户条件分组', '给出选择分流标准']"
+    },
+    {
+      "id": "xsl-cluster-list_decision-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "盲测仅命中 0 个完整机制信号：[]"
+    },
+    {
+      "id": "xsl-cluster-list_decision-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "盲测仅命中 1 个完整机制信号：['把清单按用户条件分组']"
+    },
+    {
+      "id": "xsl-cluster-list_decision-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "盲测仅命中 2 个完整机制信号：['把清单按用户条件分组', '给出选择分流标准']"
+    },
+    {
+      "id": "xsl-cluster-list_decision-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "盲测仅命中 0 个完整机制信号：[]"
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate": 1.0
+}

@@ -1,0 +1,553 @@
+{
+  "ok": false,
+  "generated_at": "2026-07-13T22:45:17+08:00",
+  "nas_root": "/Volumes/dy/accounts/dy_77700555383",
+  "candidate_count": 34,
+  "skipped_attempted_count": 6,
+  "selected_count": 12,
+  "selected_ids": [
+    "7173673281491307776",
+    "7243416997281729853",
+    "7233757661416705320",
+    "7022619355741572386",
+    "7024116698630442255",
+    "7024871070935174400",
+    "7027463222697479424",
+    "7040826670210747655",
+    "7047872155094158592",
+    "7114298437268557096",
+    "7136925066519989538",
+    "7151996113468345600"
+  ],
+  "dry_run": false,
+  "worker_id": "shard0",
+  "results": [
+    {
+      "source_id": "7173673281491307776",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7173673281491307776/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7173673281491307776/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7173673281491307776/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7243416997281729853",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7243416997281729853/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7243416997281729853/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7243416997281729853/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7233757661416705320",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7233757661416705320/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7233757661416705320/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7233757661416705320/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7022619355741572386",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7022619355741572386/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 2
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7022619355741572386/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 2
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7022619355741572386/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7024116698630442255",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7024116698630442255/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7024116698630442255/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7024116698630442255/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7024871070935174400",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7024871070935174400/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7024871070935174400/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7024871070935174400/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7027463222697479424",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7027463222697479424/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 15
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7027463222697479424/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 15
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7027463222697479424/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7040826670210747655",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7040826670210747655/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 8
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7040826670210747655/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 8
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7040826670210747655/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7047872155094158592",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7047872155094158592/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 4
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7047872155094158592/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 4
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7047872155094158592/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7114298437268557096",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7114298437268557096/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 6
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7114298437268557096/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 6
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7114298437268557096/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7136925066519989538",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7136925066519989538/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio",
+        "video"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 1,
+        "quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 4
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7136925066519989538/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "too_short",
+          "line_count": 1,
+          "normalized_char_count": 4
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7136925066519989538/video/transcript.codex.srt"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    },
+    {
+      "source_id": "7151996113468345600",
+      "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7151996113468345600/video",
+      "ok": false,
+      "media_stream_types": [
+        "audio"
+      ],
+      "transcript": {
+        "ok": false,
+        "segment_count": 0,
+        "quality": {
+          "file_present": false,
+          "usable": false,
+          "reason": "missing",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "error": "transcript_remains_unusable_after_two_attempts"
+      },
+      "frames": {
+        "ok": false,
+        "skipped": "no_video_stream",
+        "frame_count": 0
+      },
+      "after": {
+        "artifact_dir": "/Volumes/dy/accounts/dy_77700555383/dy_7151996113468345600/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": false,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": false,
+          "reason": "junk_only",
+          "line_count": 0,
+          "normalized_char_count": 0
+        },
+        "has_keyframes": false,
+        "has_scenes": false,
+        "scene_evidence_kind": "missing",
+        "transcript_path": "/Volumes/dy/accounts/dy_77700555383/dy_7151996113468345600/video/transcript.codex.json"
+      },
+      "error": "transcript_remains_unusable_after_two_attempts"
+    }
+  ],
+  "formal_write_allowed": false,
+  "completed_count": 0,
+  "failed_count": 12
+}

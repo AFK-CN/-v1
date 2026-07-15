@@ -1,0 +1,10 @@
+{"source_id": "7648330461677491674", "review_mode": "asr_quality_screened", "retained_quotes": ["因为我大一"], "rejected_quotes": [{"text": "同学您是第一个出来考怎么样", "reason": "句子缺少关键成分和停顿，疑似ASR合并，不作为原文金句。"}]}
+{"source_id": "7647568516182595694", "review_mode": "asr_quality_screened", "retained_quotes": ["数学我不要填空只要选择", "这不能是预制题吧"], "rejected_quotes": []}
+{"source_id": "7641090258805196718", "review_mode": "asr_quality_screened", "retained_quotes": ["迟到是最好的"], "rejected_quotes": [{"text": "我真是怕啥来着", "reason": "句意与上下文中的固定表达不完整，疑似ASR漏词。"}]}
+{"source_id": "7637970474165958067", "review_mode": "asr_quality_screened", "retained_quotes": ["舔一百个客户"], "rejected_quotes": [{"text": "我把恋爱脑拥在视野上", "reason": "语义明显异常，疑似ASR错字，不作为原文金句。"}]}
+{"source_id": "7636107444749339930", "review_mode": "asr_quality_screened", "retained_quotes": ["我自己的劇本我也要自己決定"], "rejected_quotes": [{"text": "咱就非得按劇本眼嘛", "reason": "末尾动词疑似ASR错字，当前不擅自纠正。"}]}
+{"source_id": "7633928127651370378", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "林德时代新出的麒麟电池", "reason": "品牌名称识别错误，不作为准确原文。"}, {"text": "体积随小但御含的能量虚大", "reason": "多处明显ASR错字，无法作为原文金句。"}]}
+{"source_id": "7631729733899030346", "review_mode": "asr_quality_screened", "retained_quotes": ["以后我只给我老板买", "黑名单里的人只是少数"], "rejected_quotes": []}
+{"source_id": "7630617471506683507", "review_mode": "asr_quality_screened", "retained_quotes": ["把你的恋爱脑放在事业上"], "rejected_quotes": [{"text": "这是有点的啊", "reason": "结合上下文应涉及优点，但ASR文本存在错字，不擅自改写。"}]}
+{"source_id": "7629208744215219491", "review_mode": "asr_quality_screened", "retained_quotes": ["上班只是我们的爱好", "这里的员工随时都可能收购公司"], "rejected_quotes": []}
+{"source_id": "7628822921192865498", "review_mode": "asr_quality_screened", "retained_quotes": ["我是故意沒接你電話的啊"], "rejected_quotes": [{"text": "這個是鴨腐性球深醉空聞下被瘦散", "reason": "产品名称和整句均严重ASR失真，退回引用。"}]}

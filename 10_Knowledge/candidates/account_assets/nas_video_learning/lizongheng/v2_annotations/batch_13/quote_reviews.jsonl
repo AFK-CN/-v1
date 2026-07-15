@@ -1,0 +1,10 @@
+{"source_id":"7478259517940059403","review_mode":"asr_quality_screened","retained_quotes":["您现在没时间吧","我这边好像要成了"],"rejected_quotes":[]}
+{"source_id":"7477504377876696361","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"我是因为懒懒","reason":"ASR将借口和重复语转写不完整，不作引语。"},{"text":"所以你们同学之间互相拼一下","reason":"ASR将互相批改转写为拼一下，字面失真。"}]}
+{"source_id":"7475948510467067175","review_mode":"asr_quality_screened","retained_quotes":["你这是掏了个新手机"],"rejected_quotes":[{"text":"平常不用把手机","reason":"ASR句子未转写完整，只作回收语境证据。"}]}
+{"source_id":"7473448318060743947","review_mode":"asr_quality_screened","retained_quotes":["没事我是老师","我就是选择故意迟到十分钟"],"rejected_quotes":[]}
+{"source_id":"7471845918145350975","review_mode":"asr_quality_screened","retained_quotes":["老板说的我肯定信呐","但这位才是王总"],"rejected_quotes":[]}
+{"source_id":"7471187931990936886","review_mode":"asr_quality_screened","retained_quotes":["一百零七"],"rejected_quotes":[{"text":"你把你老板老来","reason":"ASR将叫你们老板来转写错乱，不作引语。"}]}
+{"source_id":"7470735212956110121","review_mode":"asr_quality_screened","retained_quotes":["儿子 你再一走 妈感觉空落落的","等好久 终于等到今天"],"rejected_quotes":[]}
+{"source_id":"7469229752612637971","review_mode":"asr_quality_screened","retained_quotes":["你对另一半啥要说","这酒我喜欢"],"rejected_quotes":[]}
+{"source_id":"7467861632216075561","review_mode":"asr_quality_screened","retained_quotes":["我这来路上着急 我还没买","我先拿来给你转账"],"rejected_quotes":[]}
+{"source_id":"7464424734936157494","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}

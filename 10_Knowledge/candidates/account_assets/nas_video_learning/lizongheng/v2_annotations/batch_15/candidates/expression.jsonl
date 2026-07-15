@@ -1,0 +1,10 @@
+{"id":"b15-exp-if-role-title","title":"用如果句直接绑定室友与过年两套关系","type":"expression","source_refs":["7444757325342199074"],"summary":"标题公开核心规则，但不剧透学弟、送饭和送行如何被映射。","tags":["表达","如果标题","规则绑定"],"callable":false}
+{"id":"b15-exp-result-with-doubt","title":"先说相亲成功再用不对劲保留交易逻辑","type":"expression","source_refs":["7444488197377101116"],"summary":"成功结果与不确定评价并置，引导观众追问为何劣势者会胜出。","tags":["表达","结果先置","疑问钩子"],"callable":false}
+{"id":"b15-exp-method-teaser","title":"这招行只判断有效而隐去母亲真正解决的对象","type":"expression","source_refs":["7444014125962792232"],"summary":"极短评价文案不透露方法，反转依赖正文将亲戚而非单身定义为问题。","tags":["表达","方法钩子","极短文案"],"callable":false}
+{"id":"b15-exp-state-metaphor","title":"过年神秘人物正在解冻用状态隐喻社交启动","type":"expression","source_refs":["7443374846681140480"],"summary":"科幻或游戏状态词为亲戚上门的社交压力提供可表演动作。","tags":["表达","状态隐喻","解冻"],"callable":false}
+{"id":"b15-exp-contradictory-caption","title":"分手也不耽误吃火锅将关系终止与行动合作并置","type":"expression","source_refs":["7442623757321047296"],"summary":"一句即建立语言与行为矛盾，三个问号加强关系未真正结束的异常感。","tags":["表达","矛盾并置","分手火锅"],"callable":false}
+{"id":"b15-exp-emotional-placeholder","title":"走心的故事用情绪承诺隐去多身份轮换机关","type":"expression","source_refs":["7441421058281917736"],"summary":"标题不提供具体剧情，只承诺最后回到自我的情感余味。","tags":["表达","情绪承诺","信息留白"],"callable":false}
+{"id":"b15-exp-consequence-caption","title":"我还得给你洗衣服钱先说损失再让画面补原因","type":"expression","source_refs":["7435164189984951578"],"summary":"结果口吻提供情绪，洗头湿衣的操作失误必须从画面获得。","tags":["表达","结果文案","画面补因"],"callable":false}
+{"id":"b15-exp-fatigue-evaluation","title":"这饭吃得真累用情绪评价隐去餐位人数机关","type":"expression","source_refs":["7432987691391749428"],"summary":"不剧透一人四人的末尾，只用吃饭过程的疲惫作为观看承诺。","tags":["表达","情绪评价","机关留白"],"callable":false}
+{"id":"b15-exp-long-preparation","title":"五年前就准备好了为一次合影加上朋友时间史","type":"expression","source_refs":["7431419332342713651"],"summary":"短文案不解释约定，只用长时间准备感提升婚礼群体表演的仪式重量。","tags":["表达","时间承诺","朋友仪式"],"callable":false}
+{"id":"b15-exp-fiction-title-brand-tags","title":"剧情标题可以隐去产品但品牌话题仍会暴露广告归属","type":"expression","source_refs":["7429561778092215586"],"summary":"老丈人见女婿只写剧情，飞科科技生活和剃须刀话题则明确标记品牌。","tags":["表达","剧情标题","品牌话题"],"callable":false}

@@ -1,0 +1,6 @@
+{"id":"b24-str-commercial-bridge","title":"规则冲突陪伴安排反向成交和强制投喂节点桥接商品","type":"structures","source_refs":["7284107521810320652","7282616529890397479","7280746714091277604","7279234505125137718"],"summary":"四条广告均先建立独立冲突，再由购物、娱乐、送礼或聚餐动作转入产品。","tags":["结构","广告桥接","任务节点"],"callable":false}
+{"id":"b24-str-dual-layer-encoding","title":"表层句保持合理语境同时用首字或嵌入句传递第二层信息","type":"structures","source_refs":["7288242171449199926","7278243378448403731"],"summary":"旁听角色只接收表层，字幕向观众揭示真实意图并驱动误会。","tags":["结构","双层编码","字幕解码"],"callable":false}
+{"id":"b24-str-style-detour","title":"创作瓶颈触发跨风格试拍后再由账号本职收回","type":"structures","source_refs":["7287847901475163433"],"summary":"提案、认真执行与回归形成短片三段式账号自反。","tags":["结构","风格转向","回归定位"],"callable":false}
+{"id":"b24-str-remote-loop","title":"同空间电话沟通暂时和好后因新分歧回到开场","type":"structures","source_refs":["7286771314881318183"],"summary":"生活需求、道歉、挂断和点餐争执构成闭环。","tags":["结构","首尾循环","冷战复发"],"callable":false}
+{"id":"b24-str-solo-mime-escalation","title":"无实物递接与礼貌动作从进门逐步升级到陪酒帮忙","type":"structures","source_refs":["7286419179937336595"],"summary":"不存在的对手通过固定视线与身体反馈持续成立。","tags":["结构","单人表演","动作升级"],"callable":false}
+{"id":"b24-str-error-padding","title":"错误发音被强行解释后用家庭成员枚举拖延考试时间","type":"structures","source_refs":["7283044582323997993"],"summary":"错词、解释、流程拆碎和重复人物形成失控口播链。","tags":["结构","错误自洽","内容注水"],"callable":false}

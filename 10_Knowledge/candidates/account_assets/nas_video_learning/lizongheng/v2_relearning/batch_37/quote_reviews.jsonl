@@ -1,0 +1,10 @@
+{"source_id": "7115992109492079913", "review_mode": "asr_quality_screened", "retained_quotes": ["单身多好啊", "我单身跟你有啥关系"], "rejected_quotes": []}
+{"source_id": "7115324667472268585", "review_mode": "asr_quality_screened", "retained_quotes": ["四句话暖她一整天", "就是最近很火的心动日常"], "rejected_quotes": []}
+{"source_id": "7114497506540571944", "review_mode": "asr_quality_screened", "retained_quotes": ["我喜欢的女生都是单身"], "rejected_quotes": [{"text": "但是只要一表白", "reason": "句子在此处被截断，完整含义需结合下一句和画面，不能单独作原话。"}]}
+{"source_id": "7113390852357082408", "review_mode": "asr_quality_screened", "retained_quotes": ["我已经放下了", "现在和好了"], "rejected_quotes": []}
+{"source_id": "7112779670956854562", "review_mode": "asr_quality_screened", "retained_quotes": ["我们家必须是我说的算"], "rejected_quotes": [{"text": "一件不一致的我听他的", "reason": "ASR把妻子的指代错转为‘他的’，家庭权力结论以妻子入场和服从动作复核。"}]}
+{"source_id": "7111989786201656616", "review_mode": "asr_quality_screened", "retained_quotes": ["我这个人极简主义", "没有 我俩假装情侣"], "rejected_quotes": []}
+{"source_id": "7111165499534216448", "review_mode": "asr_quality_screened", "retained_quotes": ["我想有个家", "你给我拿十万块钱"], "rejected_quotes": []}
+{"source_id": "7110773605176266019", "review_mode": "asr_quality_screened", "retained_quotes": ["有请男嘉宾出场"], "rejected_quotes": [{"text": "在这里开启一天的恋爱伤口", "reason": "ASR将节目所说的恋爱生活或旅程错转为‘恋爱伤口’，不保留该错词原话。"}]}
+{"source_id": "7109849809120513321", "review_mode": "asr_quality_screened", "retained_quotes": ["现在拼多多百亿补贴", "点我评论区或者拼多多搜索"], "rejected_quotes": []}
+{"source_id": "7109426692552264960", "review_mode": "asr_quality_screened", "retained_quotes": ["开场白很重要", "每天还他一三一四"], "rejected_quotes": []}

@@ -9,13 +9,14 @@ from difflib import SequenceMatcher
 from pathlib import Path
 from typing import Any
 
+from tools.account_learning_card import CONTRACT_ID, UNIFIED_SECTIONS, detect_schema, validate_unified_text
 from tools.publish_content_source import load_publish_content_from_sqlite
 
 
 DEFAULT_SELECTED_DIR = Path("10_Knowledge/candidates/learning_cards/selected_deep_cards")
 DEFAULT_ARTIFACTS_DIR = Path("00_System/runtime/cache/video_learning/video_artifacts")
 
-SECTION_TITLES = [
+LEGACY_SECTION_TITLES = [
     "为什么值得学习",
     "核心观点",
     "内容结构",
@@ -27,8 +28,20 @@ SECTION_TITLES = [
     "证据缺口/后续问题",
     "入库判断",
 ]
+SECTION_TITLES = LEGACY_SECTION_TITLES
 REQUIRED_METADATA = ["source_id", "原视频链接", "账号", "平台", "主方向", "辅方向", "学习批次", "状态"]
-KEY_SIMILARITY_SECTIONS = ["核心观点", "可复用方法论", "可复用模板", "证据缺口/后续问题"]
+UNIFIED_REQUIRED_METADATA = ["学习卡契约", "source_id", "原视频链接", "账号", "平台", "主方向", "学习批次", "状态"]
+KEY_SIMILARITY_SECTIONS = ["核心观点", "方法", "可复用模板", "证据缺口"]
+SECTION_ALIASES = {
+    "核心观点": ("核心观点",),
+    "方法": ("方法候选与可复用方法论", "可复用方法论"),
+    "可复用模板": ("可复用模板",),
+    "证据缺口": ("证据缺口与候选判断", "证据缺口/后续问题"),
+    "案例": ("可复用选题与案例", "可复用案例"),
+    "表达素材": ("金句与表达素材", "表达素材与金句提炼"),
+    "视频层": ("视频/图文表现层学习", "视频层学习", "发布资产学习"),
+    "入库判断": ("证据缺口与候选判断", "入库判断"),
+}
 ACTION_WORDS = {
     "先",
     "再",
@@ -99,6 +112,7 @@ class CardDocument:
     metadata: dict[str, str]
     sections: dict[str, str]
     raw_text: str
+    schema: str
 
     @property
     def source_id(self) -> str:
@@ -167,20 +181,29 @@ def _normalize(text: str) -> str:
 
 def parse_card(path: Path) -> CardDocument:
     text = path.read_text(encoding="utf-8", errors="ignore")
-    title_match = re.search(r"^#\s*视频深度学习卡[:：]\s*(.+)$", text, re.M)
+    title_match = re.search(r"^#\s*(?:账号发布资产学习卡|已确认深度学习卡|[^\n]*视频深度学习卡|深度学习卡)[:：]\s*(.+)$", text, re.M)
     title = title_match.group(1).strip() if title_match else ""
     metadata: dict[str, str] = {}
     for line in text.splitlines()[:45]:
-        match = re.match(r"^(source_id|原视频链接|账号|平台|主方向|辅方向|学习批次|状态)[:：]\s*(.*)$", line.strip())
+        match = re.match(r"^(学习卡契约|source_id|原内容链接|原视频链接|账号|平台|主方向|辅方向|学习批次|状态)[:：]\s*(.*)$", line.strip())
         if match:
-            metadata[match.group(1)] = match.group(2).strip()
+            key = "原视频链接" if match.group(1) == "原内容链接" else match.group(1)
+            metadata[key] = match.group(2).strip()
     sections: dict[str, str] = {}
     matches = list(re.finditer(r"^##\s+\d+\.\s+(.+?)\s*$", text, re.M))
     for index, match in enumerate(matches):
         start = match.end()
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         sections[match.group(1).strip()] = text[start:end].strip()
-    return CardDocument(path=path, title=title, metadata=metadata, sections=sections, raw_text=text)
+    schema = detect_schema(text, sections, metadata)
+    return CardDocument(path=path, title=title, metadata=metadata, sections=sections, raw_text=text, schema=schema)
+
+
+def card_section(card: CardDocument, semantic_name: str) -> str:
+    for name in SECTION_ALIASES.get(semantic_name, (semantic_name,)):
+        if name in card.sections:
+            return card.sections[name]
+    return ""
 
 
 def _meaningful_lines(text: str) -> list[str]:
@@ -201,21 +224,25 @@ def audit_card(card: CardDocument, evidence: EvidenceRecord) -> CardAudit:
     publish_content_layer_risks: list[str] = []
     video_content_layer_risks: list[str] = []
     evidence_risks: list[str] = []
-    for field_name in REQUIRED_METADATA:
+    required_metadata = UNIFIED_REQUIRED_METADATA if card.schema == CONTRACT_ID else REQUIRED_METADATA
+    for field_name in required_metadata:
         if not card.metadata.get(field_name):
             structure_errors.append(f"missing_metadata:{field_name}")
-    for section in SECTION_TITLES:
+    required_sections = UNIFIED_SECTIONS if card.schema == CONTRACT_ID else LEGACY_SECTION_TITLES
+    for section in required_sections:
         if section not in card.sections:
             structure_errors.append(f"missing_section:{section}")
         elif not _meaningful_lines(card.sections[section]):
             structure_errors.append(f"empty_section:{section}")
-    if "收尾/互动引导" not in card.sections.get("内容结构", ""):
+    if card.schema == CONTRACT_ID:
+        structure_errors.extend(f"contract:{error}" for error in validate_unified_text(card.raw_text).errors)
+    elif "收尾/互动引导" not in card.sections.get("内容结构", ""):
         structure_errors.append("missing_field:收尾/互动引导")
 
-    core = card.sections.get("核心观点", "")
-    method = card.sections.get("可复用方法论", "")
-    template = card.sections.get("可复用模板", "")
-    ingest = card.sections.get("入库判断", "")
+    core = card_section(card, "核心观点")
+    method = card_section(card, "方法")
+    template = card_section(card, "可复用模板")
+    ingest = card_section(card, "入库判断")
     if core and _normalize(core) == _normalize(card.title):
         depth_risks.append("core_repeats_title")
     if method and not any(word in method for word in ACTION_WORDS):
@@ -224,17 +251,18 @@ def audit_card(card: CardDocument, evidence: EvidenceRecord) -> CardAudit:
         depth_risks.append("template_too_shallow")
     if ingest and len(_normalize(ingest)) < 18:
         depth_risks.append("ingest_judgement_too_shallow")
-    for section_name in ("核心观点", "可复用案例", "可复用方法论"):
-        content = card.sections.get(section_name, "")
+    for section_name in ("核心观点", "案例", "方法"):
+        content = card_section(card, section_name)
         if content and len(_normalize(content)) < 24:
             depth_risks.append(f"section_too_short:{section_name}")
 
     content_structure = card.sections.get("内容结构", "")
-    expression_material = card.sections.get("表达素材与金句提炼", "")
+    expression_material = card_section(card, "表达素材")
     reusable_value = "\n".join(
         [
-            card.sections.get("核心观点", ""),
+            core,
             content_structure,
+            card.sections.get("发布内容层学习", ""),
             expression_material,
             card.sections.get("可复用模板", ""),
         ]
@@ -246,7 +274,7 @@ def audit_card(card: CardDocument, evidence: EvidenceRecord) -> CardAudit:
     if not evidence.publish_topics_available and not re.search(r"话题|标签|hashtag|选题组合", reusable_value, re.I):
         publish_content_layer_risks.append("publish_topics_not_audited")
 
-    video_layer = card.sections.get("视频层学习", "")
+    video_layer = card_section(card, "视频层")
     if evidence.scene_status.endswith("scene_failed") and re.search(r"切换到|字幕变成|红色字幕|办公室|地铁|特写|远景", video_layer):
         video_content_layer_risks.append("unsupported_scene_detail")
     if evidence.platform == "douyin" and not evidence.transcript_available:
@@ -296,12 +324,12 @@ def find_similarity_pairs(cards: list[CardDocument], threshold: float = 0.92) ->
     for left_index, left in enumerate(cards):
         for right in cards[left_index + 1 :]:
             scores = {
-                section: _section_similarity(left.sections.get(section, ""), right.sections.get(section, ""))
+                section: _section_similarity(card_section(left, section), card_section(right, section))
                 for section in KEY_SIMILARITY_SECTIONS
             }
             passing_scores = sorted((value for value in scores.values() if value >= threshold), reverse=True)
             score = passing_scores[2] if len(passing_scores) >= 3 else 0.0
-            semantic_anchor = max(scores.get("核心观点", 0.0), scores.get("可复用方法论", 0.0))
+            semantic_anchor = max(scores.get("核心观点", 0.0), scores.get("方法", 0.0))
             if score >= threshold and semantic_anchor >= 0.97:
                 pairs.append(
                     SimilarityPair(

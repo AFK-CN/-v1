@@ -1,0 +1,153 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "account_name": "小森林的小世界",
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "source_scope": "唯一媒体源：NAS指定账号目录380个内容目录；SQLite仅作428条清单元数据；379条统一深学完成，49条证据延期；Skill v2.2候选池仅来自379条有效深学卡",
+  "media_branches": [
+    "image_text",
+    "video"
+  ],
+  "method": "RIA-TV++ adapted for account learning",
+  "status": "completed_with_deferred_evidence",
+  "current_stage": "completed",
+  "formal_write_allowed": false,
+  "acceptance_mode": "codex_independent_audit",
+  "stage2_confirmation_basis": "user_explicitly_delegated_batch_acceptance_to_codex",
+  "final_audit": "V22_FINAL_AUDIT.json",
+  "deep_card_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "deep_card_count": 379,
+  "deferred_evidence_count": 49,
+  "cross_card_revalidation": "v3_deep_relearning/CROSS_CARD_REVALIDATION.json",
+  "created_at": "2026-07-13T22:12:52",
+  "updated_at": "2026-07-14T23:36:43+08:00",
+  "stages": [
+    {
+      "id": "stage0_account_overview",
+      "name": "整体账号理解",
+      "status": "completed",
+      "completed_at": "2026-07-13T22:33:13",
+      "user_confirmed": true,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage0_account_overview",
+        "errors": [],
+        "metrics": {}
+      }
+    },
+    {
+      "id": "stage1_parallel_extraction",
+      "name": "五视角并行提取",
+      "status": "completed",
+      "completed_at": "2026-07-13T22:42:17",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage1_parallel_extraction",
+        "errors": [],
+        "metrics": {
+          "candidate_count": 1895,
+          "real_acceptance_status": "passed"
+        }
+      }
+    },
+    {
+      "id": "stage2_triple_verification",
+      "name": "三重验证筛选",
+      "status": "completed",
+      "completed_at": "2026-07-14T00:18:41",
+      "user_confirmed": true,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage2_triple_verification",
+        "errors": [],
+        "metrics": {
+          "candidate_count": 1895,
+          "cluster_count": 9,
+          "verified_count": 4,
+          "rejected_count": 5
+        }
+      }
+    },
+    {
+      "id": "stage3_ria_construction",
+      "name": "RIA++ 方法单元构造",
+      "status": "completed",
+      "completed_at": "2026-07-14T00:18:49",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage3_ria_construction",
+        "errors": [],
+        "metrics": {
+          "method_count": 4
+        }
+      }
+    },
+    {
+      "id": "stage4_method_linking",
+      "name": "方法链接与知识图谱",
+      "status": "completed",
+      "completed_at": "2026-07-14T00:18:59",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage4_method_linking",
+        "errors": [],
+        "metrics": {}
+      }
+    },
+    {
+      "id": "stage5_pressure_test",
+      "name": "触发与边界压力测试",
+      "status": "completed",
+      "completed_at": "2026-07-14T00:18:59",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage5_pressure_test",
+        "errors": [],
+        "metrics": {
+          "method_count": 4
+        }
+      }
+    },
+    {
+      "id": "stage6_learning_delivery",
+      "name": "学习交付与入库候选",
+      "status": "completed",
+      "completed_at": "2026-07-14T00:18:59",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+        "stage_id": "stage6_learning_delivery",
+        "errors": [],
+        "metrics": {}
+      }
+    }
+  ],
+  "skill_version": "2.2",
+  "stage1_candidate_count": 1895,
+  "verified_candidate_method_count": 4,
+  "rejected_or_boundary_cluster_count": 5,
+  "formal_promotion": {
+    "schema_version": "2.2",
+    "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+    "status": "formal_ingested_with_deferred_evidence",
+    "promoted_at": "2026-07-14T23:36:43+08:00",
+    "formal_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界",
+    "formal_card_count": 379,
+    "formal_method_count": 4,
+    "callable_method_count": 4,
+    "candidate_only_system_pending_count": 49,
+    "previous_account_center_snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14",
+    "user_approval": true
+  }
+}

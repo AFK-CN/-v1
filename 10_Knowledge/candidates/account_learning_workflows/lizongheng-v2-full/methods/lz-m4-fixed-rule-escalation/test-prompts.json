@@ -1,0 +1,114 @@
+{
+  "method_id": "lz-m4-fixed-rule-escalation",
+  "executor_input_excludes_expected_answer": true,
+  "evaluation_basis": "structured mechanism facts, not keyword matching",
+  "test_cases": [
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-01",
+      "type": "should_trigger",
+      "prompt": "角色坚持‘先验货再答应’，在相亲、租房、求职和聚餐四轮中不断提高验收代价。",
+      "mechanism_facts": {
+        "fixed_rule": true,
+        "rounds": 4,
+        "escalation_dimensions": 2,
+        "ordered_intensity": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-02",
+      "type": "should_not_trigger",
+      "prompt": "标题写‘连续升级’，视频只有一个场景。",
+      "mechanism_facts": {
+        "fixed_rule": false,
+        "rounds": 1,
+        "escalation_dimensions": 0,
+        "ordered_intensity": false,
+        "content_axis": "normal"
+      },
+      "decoy_kind": "lexical_overlap_without_mechanism"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-03",
+      "type": "edge_case",
+      "prompt": "同一句口令重复两次，人物和后果完全相同。",
+      "mechanism_facts": {
+        "fixed_rule": true,
+        "rounds": 2,
+        "escalation_dimensions": 0,
+        "ordered_intensity": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-04",
+      "type": "cross_scene_transfer",
+      "prompt": "把固定验收规则迁到校园、社团和毕业答辩三轮，每轮增加关系与失败代价。",
+      "mechanism_facts": {
+        "fixed_rule": true,
+        "rounds": 3,
+        "escalation_dimensions": 2,
+        "ordered_intensity": true,
+        "content_axis": "normal"
+      },
+      "source_scene": "连续面试",
+      "target_scene": "清单式生活场景",
+      "mechanism_preserved": true
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-05",
+      "type": "should_not_trigger",
+      "prompt": "一句指代被错误理解并立即产生后果，但没有重复轮次。",
+      "mechanism_facts": {
+        "fixed_rule": false,
+        "rounds": 1,
+        "escalation_dimensions": 0,
+        "ordered_intensity": false,
+        "alternative_interpretation_valid": true,
+        "drives_action": true,
+        "consequence_present": true,
+        "content_axis": "normal"
+      },
+      "sibling_method_id": "lz-m3-semantic-reinterpretation"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-06",
+      "type": "ablation",
+      "prompt": "保留四轮重复，却删除每轮新增信息和强度差异。",
+      "mechanism_facts": {
+        "fixed_rule": true,
+        "rounds": 4,
+        "escalation_dimensions": 0,
+        "ordered_intensity": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-07",
+      "type": "composition",
+      "prompt": "合租规则先按完整酒店系统运行，再用四轮违规处理逐步升级后果。",
+      "mechanism_facts": {
+        "fixed_rule": true,
+        "rounds": 4,
+        "escalation_dimensions": 3,
+        "ordered_intensity": true,
+        "mapped_layers": 4,
+        "sustained_rule": true,
+        "settlement_affected": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-08",
+      "type": "commercial_contamination",
+      "prompt": "广告用三轮场景逐步展示产品卖点，递进结构成立但不能证明自然方法频次。",
+      "mechanism_facts": {
+        "fixed_rule": true,
+        "rounds": 3,
+        "escalation_dimensions": 2,
+        "ordered_intensity": true,
+        "content_axis": "commercial"
+      }
+    }
+  ]
+}

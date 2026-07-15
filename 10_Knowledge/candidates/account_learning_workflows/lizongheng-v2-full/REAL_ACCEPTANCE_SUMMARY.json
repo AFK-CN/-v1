@@ -1,0 +1,98 @@
+{
+  "schema_version": "2.2",
+  "status": "passed",
+  "report_file": "REAL_ACCEPTANCE_REPORT_2026-07-14_V2_2.md",
+  "sample_method": "fixed_stratified_sample_from_prior_acceptance_plus_full_commercial_platform_source_audit",
+  "sampled_source_ids": [
+    "7001414969464016128",
+    "7037784430093618447",
+    "7064084191381671168",
+    "7106018562657013027",
+    "7136200692389137679",
+    "7164229697142934814",
+    "7225106446592068919",
+    "7235822835556420925",
+    "7260391957950663948",
+    "7275179679982685452",
+    "7378743873893305619",
+    "7393176171996925238",
+    "7444488197377101116",
+    "7479382209451871542",
+    "7490030238697540918",
+    "7504752369335848242",
+    "7507856541854338330",
+    "7563298766971833610",
+    "7573245859657606382",
+    "7617061092556033330",
+    "7628822921192865498",
+    "7633928127651370378",
+    "7648330461677491674"
+  ],
+  "strata": {
+    "normal_visual": {
+      "status": "passed",
+      "evidence": "REAL_ACCEPTANCE_REPORT_2026-07-14.md"
+    },
+    "normal_long_transcript": {
+      "status": "passed",
+      "evidence": "REAL_ACCEPTANCE_REPORT_2026-07-14.md"
+    },
+    "product_ad": {
+      "status": "passed",
+      "audited": 140
+    },
+    "platform_project": {
+      "status": "passed",
+      "audited": 18
+    },
+    "collaboration_ownership": {
+      "status": "passed",
+      "evidence": "平台项目均固定account_id=63700340656，合作姓名只作演员或合作方"
+    },
+    "low_information_or_asr_risk": {
+      "status": "passed",
+      "evidence": "旧分层抽检保留，商业与平台证据用SRT匹配失败即阻断"
+    }
+  },
+  "severe_issues": [
+    "commercial_semantic_contradictions",
+    "commercial_learning_was_isolation_only",
+    "platform_projects_were_index_only",
+    "source_time_coordinates_incomplete"
+  ],
+  "expanded_audit": {
+    "required": true,
+    "completed": true,
+    "scope": "140 product ads and 18 platform projects"
+  },
+  "semantic_consistency": {
+    "passed": true,
+    "contradiction_count": 0,
+    "natural_v1_commercial_pollution": []
+  },
+  "overview_scope": {
+    "overview_count": 430,
+    "learned_count": 430,
+    "state_count": 430,
+    "consistent": true
+  },
+  "commercial_learning": {
+    "product_ads": {
+      "total": 140,
+      "audited": 140,
+      "artifact": "ad_integration/AD_SOURCE_AUDIT_INDEX.jsonl"
+    },
+    "platform_projects": {
+      "total": 18,
+      "audited": 18,
+      "artifact": "ad_integration/PLATFORM_SOURCE_AUDIT_INDEX.jsonl"
+    }
+  },
+  "performance_analysis": {
+    "matched": 430,
+    "total": 430,
+    "artifact": "ad_integration/PERFORMANCE_METHOD_ANALYSIS.json"
+  },
+  "formal_write": false,
+  "callable": false
+}

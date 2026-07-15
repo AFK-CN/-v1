@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_08",
+  "generated_at": "2026-07-14T23:26:17+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "68ef66ef000000000503be22",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68e75ae30000000004011880",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68e5f8e30000000005032773",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68e49ee60000000004023c09",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68df50330000000004014436",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68da45cd000000001003d8ce",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68db91b80000000005001e8f",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68d8e916000000000e00d3f7",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68d3b9830000000011016341",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "68cf82400000000011014e8d",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "68ef66ef000000000503be22",
+    "68e75ae30000000004011880",
+    "68e5f8e30000000005032773",
+    "68e49ee60000000004023c09",
+    "68df50330000000004014436",
+    "68da45cd000000001003d8ce",
+    "68db91b80000000005001e8f",
+    "68d8e916000000000e00d3f7",
+    "68d3b9830000000011016341",
+    "68cf82400000000011014e8d"
+  ]
+}

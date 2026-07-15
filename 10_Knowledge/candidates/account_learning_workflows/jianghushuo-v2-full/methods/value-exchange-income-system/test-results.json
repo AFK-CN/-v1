@@ -1,0 +1,59 @@
+{
+  "executor": "deterministic-blind-trigger-evaluator-v1",
+  "executed_at": "2026-07-14T22:40:51+08:00",
+  "prompt_set_sha256": "38d15cd83d7e4e49115b3059e7535bd9e6b85f7a5354a2f7b6cbb0270988a647",
+  "case_results": [
+    {
+      "id": "value-exchange-income-system-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['验证谁愿意付费', '交付可核验结果']"
+    },
+    {
+      "id": "value-exchange-income-system-lexical-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "value-exchange-income-system-edge",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['验证谁愿意付费']"
+    },
+    {
+      "id": "value-exchange-income-system-transfer",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "blind matcher hit 2 mechanism signals: ['验证谁愿意付费', '交付可核验结果']"
+    },
+    {
+      "id": "value-exchange-income-system-sibling-decoy",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "value-exchange-income-system-commercial-contamination",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 0 mechanism signals: []"
+    },
+    {
+      "id": "value-exchange-income-system-mechanism-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['验证谁愿意付费']"
+    },
+    {
+      "id": "value-exchange-income-system-composition-ablation",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "blind matcher hit 1 mechanism signals: ['验证谁愿意付费']"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

@@ -1,0 +1,35 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "jianghushuo-v2-full",
+  "generated_at": "2026-07-14T23:06:58+08:00",
+  "status": "open_evidence_and_attribution_items_remain_candidate_only",
+  "formal_write_allowed": false,
+  "items": [
+    {
+      "id": "legacy_cards_promotion_decision",
+      "status": "resolved_keep_downgraded",
+      "count": 127,
+      "knowledge_layer": "candidate_knowledge",
+      "callable": false,
+      "artifact": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/downgrade_manifest.json",
+      "next_action": "已决定保留旧卡和旧账号中心为候选历史快照；新 v2.2 内容已正式入库。",
+      "resolved_at": "2026-07-14T23:06:58+08:00"
+    },
+    {
+      "id": "blocked_evidence_acquisition",
+      "status": "pending_evidence",
+      "count": 50,
+      "callable": false,
+      "artifact": "EVIDENCE_GAP_STATUS.json",
+      "next_action": "补齐视频、有效逐字稿、抽帧或场景证据后，再进入新的 v2.2 学习批次。"
+    },
+    {
+      "id": "collaboration_ownership_attribution",
+      "status": "pending_attribution",
+      "count": 2,
+      "callable": false,
+      "artifact": "commercial_learning/COLLABORATION_OWNERSHIP_INDEX.jsonl",
+      "next_action": "核验说话人和原始采访归属；核验前不得计入姜胡说自然方法 V1。"
+    }
+  ]
+}

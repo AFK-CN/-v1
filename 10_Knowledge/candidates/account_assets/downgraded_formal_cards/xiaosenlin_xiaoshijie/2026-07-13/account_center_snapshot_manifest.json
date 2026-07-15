@@ -1,0 +1,964 @@
+{
+  "schema_version": "2.2",
+  "account_id": "xiaosenlin_xiaoshijie",
+  "status": "full_account_center_snapshot_verified",
+  "knowledge_layer": "candidate_knowledge",
+  "callable": false,
+  "snapshot_at": "2026-07-14T23:36:43+08:00",
+  "source_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界",
+  "snapshot_dir": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14",
+  "file_count": 158,
+  "directory_count": 28,
+  "total_size_bytes": 2111544,
+  "all_hashes_verified": true,
+  "entries": [
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/deep_learning_plan.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/deep_learning_plan.json",
+      "size_bytes": 4347,
+      "sha256": "0fc91452d1498fc6d5804fb7efcd05d0b773989fb27b1076318c6c822cbfa5cc"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/65e307db000000000400283c_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/65e307db000000000400283c_transcript.json",
+      "size_bytes": 11812,
+      "sha256": "72b6a04586fb2f2d42ae0460f89dab24455b7381fe668ad84e77aa75219e7658"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/65e307db000000000400283c_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/65e307db000000000400283c_transcript.srt",
+      "size_bytes": 6211,
+      "sha256": "eef42e2c07ae8086e7828334c85124a9a0fddd8f07328e3599e00bb40fb11c58"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/66f0e5e6000000001a023f47_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/66f0e5e6000000001a023f47_transcript.json",
+      "size_bytes": 13530,
+      "sha256": "691100a108e21741b023ad34abd296d4281304e2faa8df207026787e2e82a1e7"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/66f0e5e6000000001a023f47_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/66f0e5e6000000001a023f47_transcript.srt",
+      "size_bytes": 7132,
+      "sha256": "877a8e46b46ebc8ead2572128cce53bb23026793fc1ed088701705d26fa3e792"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/67fb49a0000000001d01cbb4_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/67fb49a0000000001d01cbb4_transcript.json",
+      "size_bytes": 21423,
+      "sha256": "e01b1a9517cbd82abad3d9d0c2002ec4b053d86e071bc478485f68f10da4bf34"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/67fb49a0000000001d01cbb4_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/67fb49a0000000001d01cbb4_transcript.srt",
+      "size_bytes": 10900,
+      "sha256": "9551ae28164d5ea1d8b2569344706642dca25207540012a63dbb6c80a25746fc"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6800afe1000000001d014ca7_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/6800afe1000000001d014ca7_transcript.json",
+      "size_bytes": 15489,
+      "sha256": "2094975291aaacac783ae92e66990cbd4a87fd88bf3e1456e459266ebdc06850"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6800afe1000000001d014ca7_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/6800afe1000000001d014ca7_transcript.srt",
+      "size_bytes": 8404,
+      "sha256": "ac75e51f543f313d5853ec8c0c60b6790e2bfec98f89c76f0c2924fa25c25375"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/68777040000000001d00d5d7_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/68777040000000001d00d5d7_transcript.json",
+      "size_bytes": 26202,
+      "sha256": "309ba76a23fe72b2b06b37a9843d60ee847116d91326864107758d485fc7c315"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/68777040000000001d00d5d7_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/68777040000000001d00d5d7_transcript.srt",
+      "size_bytes": 13217,
+      "sha256": "a6bec030143fe1ab08fa7d9e55234bbeb6151612b9cebff0d4028c1b4244b9cd"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6a20f3210000000022015948_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/6a20f3210000000022015948_transcript.json",
+      "size_bytes": 17141,
+      "sha256": "2a81ba713aeccec21ee8186ea491007aa489fb0781bb06af992cb53b6744e477"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/transcripts/6a20f3210000000022015948_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/transcripts/6a20f3210000000022015948_transcript.srt",
+      "size_bytes": 9286,
+      "sha256": "c9ab3632d0544709d8160ea28f0130ba535c35d540ed3a363f1a4a589d4dc487"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/方向方法论总结.md",
+      "size_bytes": 2458,
+      "sha256": "5fd4e876d48da6bca087eaa729ea4abcce7b28d17093fc6d4557bb65a93cf993"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/刷酸焕肤/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/刷酸焕肤/粗扫内容和选题.md",
+      "size_bytes": 14445,
+      "sha256": "eeb6e1eb2eb0eb1825dc61bb272962749bfd98c5b37f3567870008f9a516cf92"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65c4aefe000000002c0103d9_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/65c4aefe000000002c0103d9_transcript.json",
+      "size_bytes": 16711,
+      "sha256": "2a094b93965a54633b6695c8e5bf082c439320ca752738b369b55e574384e3a4"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65c4aefe000000002c0103d9_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/65c4aefe000000002c0103d9_transcript.srt",
+      "size_bytes": 8676,
+      "sha256": "250cefc996359625ba6e2270f9d3196463aa5fdc36a70e8e42b6a3ddb9745f2d"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65ec424e000000000102950d_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/65ec424e000000000102950d_transcript.json",
+      "size_bytes": 17759,
+      "sha256": "83c030cada8f0c2ddc182a02acaa265eb434c9fcbd42cb884faaee9963d7da1b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/65ec424e000000000102950d_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/65ec424e000000000102950d_transcript.srt",
+      "size_bytes": 9131,
+      "sha256": "fcbf7cbe6001d775808880e79f140765b7ee86bc6807cb653953eb211006eaf6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6690fcbc00000000250051b3_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/6690fcbc00000000250051b3_transcript.json",
+      "size_bytes": 11473,
+      "sha256": "7c106a1f9ed573c6e054016d3bce0c7176156af41e1171baf39d65b9ebb9d973"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6690fcbc00000000250051b3_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/6690fcbc00000000250051b3_transcript.srt",
+      "size_bytes": 6436,
+      "sha256": "e7f18d487fd061786fc55f84bb1772d0c2a68fa2543bcd5ca0eba3a2baf9c000"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/66f3fc4f000000001a0209b9_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/66f3fc4f000000001a0209b9_transcript.json",
+      "size_bytes": 12121,
+      "sha256": "0cdb8471ed8df168a483f4c8c08a85155bea6ece45b9acfda77aadc661ff80d6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/66f3fc4f000000001a0209b9_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/66f3fc4f000000001a0209b9_transcript.srt",
+      "size_bytes": 6346,
+      "sha256": "bd193971f065f1c8bb80c51a7e10b24b417154b506a2300b66c0025dd7d484eb"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6867b1210000000024008ed6_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/6867b1210000000024008ed6_transcript.json",
+      "size_bytes": 23170,
+      "sha256": "65ce5ff240564f164c6c54c651548f71cf225e3859be836ec5a92518f1926127"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6867b1210000000024008ed6_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/6867b1210000000024008ed6_transcript.srt",
+      "size_bytes": 11811,
+      "sha256": "ed6e36381376664ac444d357e6efc876e32ea898fbdadc887b0bc8cf65979e3a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/692c1681000000001e022a14_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/692c1681000000001e022a14_transcript.json",
+      "size_bytes": 11588,
+      "sha256": "2cdbf345ed648e5b34ef1f6330e46b425a4fc0e162d108130986af02bfb8c100"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/692c1681000000001e022a14_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/692c1681000000001e022a14_transcript.srt",
+      "size_bytes": 5985,
+      "sha256": "2cfad9e18a990e9a98b3642ae91d57673dcbba787ba48f101b22cb6e765ec29c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6934f083000000001f005af1_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/6934f083000000001f005af1_transcript.json",
+      "size_bytes": 15502,
+      "sha256": "e884920944947f616751bdcfedeb9f567d6994323a663e742ac4d382dcff008c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/transcripts/6934f083000000001f005af1_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/transcripts/6934f083000000001f005af1_transcript.srt",
+      "size_bytes": 7910,
+      "sha256": "3c1a31433aadeabd526b3f217baa743343b0c70f5c56d6176d709ccbc8c2cd61"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/方向方法论总结.md",
+      "size_bytes": 2616,
+      "sha256": "b635a39df5154009e5d4d97f2063dec79dcb5877c9598ec157b336b3be0b9c7b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/变美经验/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/变美经验/粗扫内容和选题.md",
+      "size_bytes": 8110,
+      "sha256": "c52fcece7182dc29ff04b2458d10a65c0afcad2f78bfc8cbd5905f89eef93501"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/62442027000000002103ca20_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/62442027000000002103ca20_transcript.json",
+      "size_bytes": 12784,
+      "sha256": "e47549231a2a52865c5cc44037ca3d3c9d964f263fb58bda09777cb03ab538c0"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/62442027000000002103ca20_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/62442027000000002103ca20_transcript.srt",
+      "size_bytes": 7099,
+      "sha256": "2429e3dbf52a60661062b38a3827db6bba1a60c30a52ee0ff8fdbbdde3b267e8"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63034030000000001b01d176_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/63034030000000001b01d176_transcript.json",
+      "size_bytes": 12835,
+      "sha256": "f8b941f6fe9c6a5682476a43ed398de7ca8c2289a7dfd71c85dabeb44c3afa30"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63034030000000001b01d176_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/63034030000000001b01d176_transcript.srt",
+      "size_bytes": 6929,
+      "sha256": "ef0aa4a491424c1cd822c7c952cc03513ea64f598f3bfb8fe2b066a348dc878e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63072d4c000000001b01d33f_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/63072d4c000000001b01d33f_transcript.json",
+      "size_bytes": 11960,
+      "sha256": "0beaeb407e75d4a04c71ed87f2904efc619a781537019e7051e96cb71ee4bfc2"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/63072d4c000000001b01d33f_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/63072d4c000000001b01d33f_transcript.srt",
+      "size_bytes": 6413,
+      "sha256": "fbd5e1b1366dcccd042a4816101a4083a5bdaf876e1a4a8d17614a18d4337eae"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/631bfe28000000001103c53c_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/631bfe28000000001103c53c_transcript.json",
+      "size_bytes": 8241,
+      "sha256": "d100226cc88150b7bf797c66c022d7eb621f9a5e1444d35ac397d8c8cf75afe0"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/631bfe28000000001103c53c_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/631bfe28000000001103c53c_transcript.srt",
+      "size_bytes": 5413,
+      "sha256": "533db7cf40b9ee571b06c454f43dbdfd13fb92293c5a53d96d31749e4b0eca3c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/64eae6c1000000000c034f78_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/64eae6c1000000000c034f78_transcript.json",
+      "size_bytes": 9811,
+      "sha256": "40c4910ce6bbd519b45b2c475abbb8dda3158a5e9f23efab53f3e363ed852e35"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/64eae6c1000000000c034f78_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/64eae6c1000000000c034f78_transcript.srt",
+      "size_bytes": 6123,
+      "sha256": "e51f40a9b2e2cb764efbc651f43f37b63add18f9aaa80a8a52ff1f4fd4d4f41e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/65d4624f0000000001029e88_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/65d4624f0000000001029e88_transcript.json",
+      "size_bytes": 18554,
+      "sha256": "f4abd1ba30927d90b05dbf76b76105b1a6a0e9ca8465f1e7b113a8f5c7762d17"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/65d4624f0000000001029e88_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/65d4624f0000000001029e88_transcript.srt",
+      "size_bytes": 9576,
+      "sha256": "0e59bfb3b8b966413c17dad9906e5f04149bfc7d09e6c723588e87d19845be35"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/667bd501000000001e010ec4_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/667bd501000000001e010ec4_transcript.json",
+      "size_bytes": 19049,
+      "sha256": "6e9afc07cc0741cddeb11d9274cd9054e2cc59a0e4d649cfbe4f4f808c8dcf7c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/667bd501000000001e010ec4_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/667bd501000000001e010ec4_transcript.srt",
+      "size_bytes": 9514,
+      "sha256": "6981535d113be8b9e945f3e0e646011ea74c9f5b2988712c7f2b2cb306266b22"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/67f20142000000001e0086ca_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/67f20142000000001e0086ca_transcript.json",
+      "size_bytes": 19686,
+      "sha256": "11329be72bdc42c1ce62e34fc8ddca662f5f6294dec9d2fb86ae466b3a581316"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/67f20142000000001e0086ca_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/67f20142000000001e0086ca_transcript.srt",
+      "size_bytes": 10333,
+      "sha256": "8f6becb6ec2f2bbfbc732db0dffd8afa9aaa213d865c2f9523794da48e6dfd6a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6950aad8000000001e035c17_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/6950aad8000000001e035c17_transcript.json",
+      "size_bytes": 40387,
+      "sha256": "6dc5e5f61da6cb9c4e5496899fe888cf187436b07f8dd2253fabb6b2a5ac1b30"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6950aad8000000001e035c17_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/6950aad8000000001e035c17_transcript.srt",
+      "size_bytes": 20377,
+      "sha256": "8d93335997061ed58b3876b24c9e4e05451592f231fb7374aa6ef7d466d82658"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6975d4de000000001a02c269_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/6975d4de000000001a02c269_transcript.json",
+      "size_bytes": 9054,
+      "sha256": "9f2191bc4f5cb083875c46af9f151d694a02dd3bfdddc3c01fbf8aa487fbd1df"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/transcripts/6975d4de000000001a02c269_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/transcripts/6975d4de000000001a02c269_transcript.srt",
+      "size_bytes": 4936,
+      "sha256": "a9a560b2bdf9a1b14ccd980a27a9a0475982d8e47bb99878e110d89aebb2b7c6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/方向方法论总结.md",
+      "size_bytes": 2806,
+      "sha256": "2f1a25aaae774d1afaa9fbeb86ae0295b676205e647432cffef318d4448296c3"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/好物测评/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/好物测评/粗扫内容和选题.md",
+      "size_bytes": 47778,
+      "sha256": "4a8a046aef9f7957e153e51787655f2d10bfcc60863b0c0179053ef1a6b1e62d"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/65472ea8000000001e03e2e0_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/65472ea8000000001e03e2e0_transcript.json",
+      "size_bytes": 13154,
+      "sha256": "d29f0a9b3fae5c3471111461b34c10025de2e9a800437b8f8cef145ed4585b6e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/65472ea8000000001e03e2e0_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/65472ea8000000001e03e2e0_transcript.srt",
+      "size_bytes": 6927,
+      "sha256": "8c5e25fa7ee6e322278349d20bef786150f91438df8f8e4122bd8cd15f27981a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/66c71790000000001d019c61_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/66c71790000000001d019c61_transcript.json",
+      "size_bytes": 11902,
+      "sha256": "003b0e91608748182060159051d30fdd6182740db8915f1f019e419ed39c5851"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/66c71790000000001d019c61_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/66c71790000000001d019c61_transcript.srt",
+      "size_bytes": 6560,
+      "sha256": "7085fb48a234235cc7f28cbf98b247cb872376bc4c38c415efd724ba0eb98d5f"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6718acb4000000001b03e9f9_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/6718acb4000000001b03e9f9_transcript.json",
+      "size_bytes": 16966,
+      "sha256": "4ff766aa63f9e8fd8f2394f20b1da3db00636abe4c21acc4c46319aae2675ccd"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6718acb4000000001b03e9f9_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/6718acb4000000001b03e9f9_transcript.srt",
+      "size_bytes": 9134,
+      "sha256": "1872f31572ecc40c72354aa07d73d67a47c6957150ef939a6ff92bf32e75552d"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/694e7815000000001f00e629_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/694e7815000000001f00e629_transcript.json",
+      "size_bytes": 16674,
+      "sha256": "49d47c6b490a5d4695e59040c1e97585586cab3e3929f3421ca4ef68eb4be926"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/694e7815000000001f00e629_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/694e7815000000001f00e629_transcript.srt",
+      "size_bytes": 8915,
+      "sha256": "f112d6f44da569593ecd082c3954f8ed408ae01fbb413ec9a637b0a02930e152"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/696b3c94000000000e03f1bf_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/696b3c94000000000e03f1bf_transcript.json",
+      "size_bytes": 21602,
+      "sha256": "a1061481de7e2c2e6aa26426bfcd1b88cda0849e05fd32107aa68b604bb26ebc"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/696b3c94000000000e03f1bf_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/696b3c94000000000e03f1bf_transcript.srt",
+      "size_bytes": 10920,
+      "sha256": "cf3d0ccdfe26e53709aa28701c71ffb5d62236685991e64812bcbc9aaecd4dbb"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/69c5f94f000000002202bc26_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/69c5f94f000000002202bc26_transcript.json",
+      "size_bytes": 17940,
+      "sha256": "c6433245da2a52375195d0015e4fcc731d3fbeffd69cc43328fe15693e4aec65"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/69c5f94f000000002202bc26_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/69c5f94f000000002202bc26_transcript.srt",
+      "size_bytes": 9507,
+      "sha256": "eda0640a6a8138fbfd70b61b676f0677c843b1f824535106ac77162964c7f34e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6a1d54940000000007027ae5_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/6a1d54940000000007027ae5_transcript.json",
+      "size_bytes": 21210,
+      "sha256": "104439c7c346ea43c39b3d465ccae906865f15f66e71fa71f832f91cd3a524e7"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/transcripts/6a1d54940000000007027ae5_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/transcripts/6a1d54940000000007027ae5_transcript.srt",
+      "size_bytes": 11312,
+      "sha256": "3b1bcbead79ead7e48060de9f524ced3da0e2f2d1032f37c5eca3ce333af320f"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/方向方法论总结.md",
+      "size_bytes": 2680,
+      "sha256": "c1a81680eb12a2107d1f8436d34c4b807ab3451ea09d4d16ec0d73c8328dee1a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/抗老修护/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/抗老修护/粗扫内容和选题.md",
+      "size_bytes": 15266,
+      "sha256": "712a37dd94dc2ef6ea74660baaa78f410e36012d2ef239598ad1388f81519a6e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62725331000000002103acec_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/62725331000000002103acec_transcript.json",
+      "size_bytes": 13271,
+      "sha256": "1447506c21446d27d127508acfa5b851554f0acd0ddd64589f2b98ea19ab8c58"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62725331000000002103acec_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/62725331000000002103acec_transcript.srt",
+      "size_bytes": 7208,
+      "sha256": "7d622cd81a508f4646e2c249bf767ecc0f3313d1fd3795e5357c87ba0c45c2f6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62b2dbbe000000000102c8e5_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/62b2dbbe000000000102c8e5_transcript.json",
+      "size_bytes": 17500,
+      "sha256": "865f3a714cf8a0f266641b815e526b45318d009bb5e7b51a61ac6cf7478c267b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62b2dbbe000000000102c8e5_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/62b2dbbe000000000102c8e5_transcript.srt",
+      "size_bytes": 9130,
+      "sha256": "e7d7d57d49a5a549acb00af774915f7c1918e443d5b3e805a98002fd4eac8a84"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62db869c000000001b03ec75_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/62db869c000000001b03ec75_transcript.json",
+      "size_bytes": 13688,
+      "sha256": "5f0337aff509bf0b29b8c9aa42ae64632c43122209a8dde884b42410d3a42826"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/62db869c000000001b03ec75_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/62db869c000000001b03ec75_transcript.srt",
+      "size_bytes": 7260,
+      "sha256": "4e65e317fd446690a2ec9c008abb797cb8231aeebfe8795ae926f9298050d8b0"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67ed251b000000001d027d32_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/67ed251b000000001d027d32_transcript.json",
+      "size_bytes": 20781,
+      "sha256": "1cd32c28fa4f03a4105a05a8968974ebf62e0c32785569650d357341fa30bb8a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67ed251b000000001d027d32_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/67ed251b000000001d027d32_transcript.srt",
+      "size_bytes": 11095,
+      "sha256": "19ab78e3edde4fa572eb14e7651aba6d2ae67090180f1328bfc9852418a12729"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67f64650000000001a006dd1_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/67f64650000000001a006dd1_transcript.json",
+      "size_bytes": 22052,
+      "sha256": "4de90487f716971f740473acebab63d61113dafb519b083403ba135dbc8901c6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/transcripts/67f64650000000001a006dd1_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/transcripts/67f64650000000001a006dd1_transcript.srt",
+      "size_bytes": 10823,
+      "sha256": "92d07eef7fcf0905388bd325ff9cefeee0ac3c7ae75daa34ba2b2e7b6ae2c103"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/方向方法论总结.md",
+      "size_bytes": 2689,
+      "sha256": "9e29ba23a783a69d176409b10bf5a58d1b07f60f3e4b450ada8bf8987c0f344b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/护肤功效/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/护肤功效/粗扫内容和选题.md",
+      "size_bytes": 78633,
+      "sha256": "59088f00f251e5534549aeb9a04ad93279c2e75ef16120558b53af627454bcd2"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.json",
+      "size_bytes": 20243,
+      "sha256": "6df3ff579146664dccf25847761a1322ca1355378670c086e3795fd2ee9c5cd3"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/620f1f7d00000000210366b5_transcript.srt",
+      "size_bytes": 10031,
+      "sha256": "85bb2bb18b315b928dcc81e30f6224afcb1ad014235a72e7da572889929904bf"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.json",
+      "size_bytes": 13375,
+      "sha256": "995a1efd546aa36bf022b1bfa5aece5cd75c6867ddbf94b056b16933f8de28e5"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/62296ef5000000000102d689_transcript.srt",
+      "size_bytes": 7428,
+      "sha256": "17a3c54d3a95a8b3701e8ddd636e6d8fe545ed13def65df2c3b233c688464067"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.json",
+      "size_bytes": 17946,
+      "sha256": "c71fd8d069afb7a339c136e113f5e70d67856a739d5f3e47bd6af4e04e037b44"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/62f60c35000000001402ba24_transcript.srt",
+      "size_bytes": 9364,
+      "sha256": "f1c556452925ba820054b0927bae4208f72a4a98d75d93cec14ce2018c09aeff"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.json",
+      "size_bytes": 12721,
+      "sha256": "1937c585496cb622cf8d3f704338b344ccf6d6c9ff4f3634ed3f3df63a6e2718"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/674752270000000007024b95_transcript.srt",
+      "size_bytes": 6771,
+      "sha256": "e56c494fe70d8f0c5dc7f7da504bfe324a6cb484d604b83c44501d9a0c2e518e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.json",
+      "size_bytes": 20126,
+      "sha256": "ffcdff52d872e0623065c44d54e5654a6031d0a08d8dbb42cf12e398c2b36bb4"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/689f013e000000001c00752b_transcript.srt",
+      "size_bytes": 10825,
+      "sha256": "bceec2091ce908e675afa6ad7d89b57407a55dcf5eece3c38f429129df7e9a67"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.json",
+      "size_bytes": 22129,
+      "sha256": "6e31993f8aa8d1faf8c328c379c4eab0601878bd2b19288ce65d13394de64d2d"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/68e49ee60000000004023c09_transcript.srt",
+      "size_bytes": 11375,
+      "sha256": "bc6e96dd57f90de8441fc715f8fee219ee525e8985fa808c9b833234f303483e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.json",
+      "size_bytes": 26542,
+      "sha256": "d4d4a43bd486e9e91f2cd8dd07fc1a2d5cc9eb57d16c547d39d5c390e628d43b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/6a01af100000000006033f62_transcript.srt",
+      "size_bytes": 13861,
+      "sha256": "dc0e85600e0b117df51259d89857d248bfc3706c10375f967891d499e2e03965"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.json",
+      "size_bytes": 24941,
+      "sha256": "4ff6d0d7e542f7440a057b6ffbaab90033b642969c634e4875b06cf2e142972c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/6a03ecba000000000702eb7a_transcript.srt",
+      "size_bytes": 13209,
+      "sha256": "f5ec3bdfc4b8eb4998f813fe006c5f021a4762d61eea2e17b4baebe9f59fe93d"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.json",
+      "size_bytes": 41741,
+      "sha256": "ec664e3b88e78e562d5bfb3ddc55ee1045e03f092aec6d36eae88c7f9ab45d5e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/transcripts/6a0c3b590000000006022a9a_transcript.srt",
+      "size_bytes": 21404,
+      "sha256": "32991f9498818fb08f19a1619479739f14e29aa309a15e098a9b2f2efb539d8a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/方向方法论总结.md",
+      "size_bytes": 2787,
+      "sha256": "84a4ba45eec8c538a76075e98fa132eb72bc8d2a79939434d9dd0912a0d6b4d6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/毛孔清洁/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/毛孔清洁/粗扫内容和选题.md",
+      "size_bytes": 36279,
+      "sha256": "7534d0af998cc84f9b8850029474d7e3bf883d88256c2bf994fae50ab35c8939"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/65532e6b000000001100efdf_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/65532e6b000000001100efdf_transcript.json",
+      "size_bytes": 5948,
+      "sha256": "cd2eb14f01975914ebe70e7f61dc3ee07669b6ce6848fe5dc870c86afc5ee17c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/65532e6b000000001100efdf_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/65532e6b000000001100efdf_transcript.srt",
+      "size_bytes": 3042,
+      "sha256": "7c53eacf2b426a367c47b45ca7a0e9fc4bf12715b7b303bebe8acd85f2d8d2e5"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/688eeb360000000023030410_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/688eeb360000000023030410_transcript.json",
+      "size_bytes": 14527,
+      "sha256": "4d9100032b0ac00efd148121b2d43ae3901bdd882dc7170977c24afb33c806a2"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/688eeb360000000023030410_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/688eeb360000000023030410_transcript.srt",
+      "size_bytes": 7602,
+      "sha256": "9cc86cea2b5b5081e5488dc99639bdeb6419ac27815d1335bedee37606794bc1"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68aec3e8000000001b03d106_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/68aec3e8000000001b03d106_transcript.json",
+      "size_bytes": 11379,
+      "sha256": "8559f3890aa5eefeccd0ac71f6d42ab493466bc1e010bda4e60858c183b31067"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68aec3e8000000001b03d106_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/68aec3e8000000001b03d106_transcript.srt",
+      "size_bytes": 6028,
+      "sha256": "47989eded6d812d7f74249ef619b8ee05982d9411072ca3971304e21b06bf000"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68ba84be000000001c00ec0a_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/68ba84be000000001c00ec0a_transcript.json",
+      "size_bytes": 18254,
+      "sha256": "fbd38bf18bed84a02a1b593df059c2ac03cc4e4a402adbb01d5832365ab22773"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/68ba84be000000001c00ec0a_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/68ba84be000000001c00ec0a_transcript.srt",
+      "size_bytes": 9601,
+      "sha256": "f162ec6b960222180ef49b4f69c1f2cac10ac92b1674dbbc447fdfb8cf326f95"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/6922c5c9000000001e03699a_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/6922c5c9000000001e03699a_transcript.json",
+      "size_bytes": 35337,
+      "sha256": "6cb2d47c274ae0861214121e97b8f3d0485af43cdfd1a99816c62630811020e8"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/6922c5c9000000001e03699a_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/6922c5c9000000001e03699a_transcript.srt",
+      "size_bytes": 18208,
+      "sha256": "a9a26d143ab8f931720e94f81617b4a3f10892e0828f8692f711adf13f19e7b9"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/697ed0c7000000002802148f_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/697ed0c7000000002802148f_transcript.json",
+      "size_bytes": 22803,
+      "sha256": "027db991686e208d7f6cd6784c3af15f3af87e18953037e5ebc5b3270f7bcd78"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/697ed0c7000000002802148f_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/697ed0c7000000002802148f_transcript.srt",
+      "size_bytes": 11437,
+      "sha256": "0f87e8801d01b53efe0c418082471405ba3a3728818c336cbe167ec5d4e3040e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69bf6e26000000002800895f_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/69bf6e26000000002800895f_transcript.json",
+      "size_bytes": 22081,
+      "sha256": "88374242a263c9da58b02080b9b8d40214f09f79fdf9e883f2aa163b82725344"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69bf6e26000000002800895f_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/69bf6e26000000002800895f_transcript.srt",
+      "size_bytes": 11281,
+      "sha256": "e9aefced248a61ceed9d31227846e62e34eb41701846a38b4a54b71cb2680f43"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69db2205000000001f006e3c_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/69db2205000000001f006e3c_transcript.json",
+      "size_bytes": 55533,
+      "sha256": "18d65645def22393f929aa93f1ed7d356a0e0e1af1e7ac58cc2a91a44ab2016e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69db2205000000001f006e3c_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/69db2205000000001f006e3c_transcript.srt",
+      "size_bytes": 27697,
+      "sha256": "7f2088ad3780057352ec87354a0daa441e8f1357b3156c6db80becc84f31b7e5"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69fda6690000000022024dad_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/69fda6690000000022024dad_transcript.json",
+      "size_bytes": 8492,
+      "sha256": "5b788a51d99b66c3227de2bca87ce9e69f202ff80a696fdae99ad2f93f5e22c9"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/transcripts/69fda6690000000022024dad_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/transcripts/69fda6690000000022024dad_transcript.srt",
+      "size_bytes": 5202,
+      "sha256": "3b11b1042344b118d3d28f76949afb5e554dee749323bcfebc83bdc9671fc5d1"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/方向方法论总结.md",
+      "size_bytes": 2836,
+      "sha256": "e8b224a00f5741927584e4cadfa1691386dcff99acfc39980df2639986177020"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/生活方式/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/生活方式/粗扫内容和选题.md",
+      "size_bytes": 9297,
+      "sha256": "dd5795b121114586192dbe711af40cdbcdf36b2081b091ae7e0588cd4758167b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/64b8b4fb000000000a0186a3_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/64b8b4fb000000000a0186a3_transcript.json",
+      "size_bytes": 14127,
+      "sha256": "557b0112fcebe15cccaee963a42ec077b4049bba9536377ab323b026f6250190"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/64b8b4fb000000000a0186a3_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/64b8b4fb000000000a0186a3_transcript.srt",
+      "size_bytes": 7617,
+      "sha256": "ed0b09a7becffbabc5eac0fef5777a343d57d261d0ff2124b94978cfee607307"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/664829ea0000000014018add_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/664829ea0000000014018add_transcript.json",
+      "size_bytes": 11744,
+      "sha256": "b8fa5ab0cdc37e586d65e1c9885b9bf727f935663c81732c6ec31e18668bf6ec"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/664829ea0000000014018add_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/664829ea0000000014018add_transcript.srt",
+      "size_bytes": 6574,
+      "sha256": "02e6cacfb3a2bc798a27c718202524d1f543dbcc740f5791ac2492a44b9b5153"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66a4b2bd0000000027012756_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/66a4b2bd0000000027012756_transcript.json",
+      "size_bytes": 11153,
+      "sha256": "7e967561b388eca285703d3f8ed75cff42429c2b0320d0edb5a1dbfebd1b0f14"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66a4b2bd0000000027012756_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/66a4b2bd0000000027012756_transcript.srt",
+      "size_bytes": 5818,
+      "sha256": "e6da222af27f68890bcc3ffda9e571ec462f5ad1a0df97c5242bd00829618a0a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66daaa6a000000001e01b1bd_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/66daaa6a000000001e01b1bd_transcript.json",
+      "size_bytes": 20567,
+      "sha256": "e17b217aa498a9665f123c141499017f873b812283d4a737e2882d483975076f"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66daaa6a000000001e01b1bd_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/66daaa6a000000001e01b1bd_transcript.srt",
+      "size_bytes": 10448,
+      "sha256": "beaa0c2a0880e5c4fb0b7064a152654ffcc7ea0f523103522df59267e27a3992"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66fd4382000000001a021c8b_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/66fd4382000000001a021c8b_transcript.json",
+      "size_bytes": 22425,
+      "sha256": "45a3cc2101aba0b11d5cdbe85ab98dcb4edb54787f1e9a1e03b2de8046e657a6"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/66fd4382000000001a021c8b_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/66fd4382000000001a021c8b_transcript.srt",
+      "size_bytes": 11445,
+      "sha256": "3a04044f18a8a6a7b33384be5e7c09653d2db9f096e1b02907a616cf26e64614"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/6857fab6000000002400fecb_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/6857fab6000000002400fecb_transcript.json",
+      "size_bytes": 1201,
+      "sha256": "50e43c3f990b13558fb6392201dfd0d497ade4c084a8c64d7bcd50d504752fce"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/6857fab6000000002400fecb_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/6857fab6000000002400fecb_transcript.srt",
+      "size_bytes": 577,
+      "sha256": "76639b5a6150761326fa57ec0acc1354f6569dd8748dfa23021848b2a5e9ff79"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/68c2ac85000000001b03d2ca_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/68c2ac85000000001b03d2ca_transcript.json",
+      "size_bytes": 21659,
+      "sha256": "c013066751e1e59a889d4bcd66421b1a62dc75bb0446765cd0dd79614ec8e85d"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/transcripts/68c2ac85000000001b03d2ca_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/transcripts/68c2ac85000000001b03d2ca_transcript.srt",
+      "size_bytes": 11556,
+      "sha256": "834c09d79fe405bd334927b948b3fca97c3ae68b54e44426813e0e1f806fa3a3"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/方向方法论总结.md",
+      "size_bytes": 2787,
+      "sha256": "cff68b67ce00e3aa0fdf4378dff61b132e84cf4807922b30a9100a17b2e91642"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/美容项目平替/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/美容项目平替/粗扫内容和选题.md",
+      "size_bytes": 11375,
+      "sha256": "e20c68874595b2baa7a122f4c1365bf66e21dd9b8155e049ec6b9efc8f60019b"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6313284d0000000013039b5e_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/6313284d0000000013039b5e_transcript.json",
+      "size_bytes": 5416,
+      "sha256": "8b4480e58ad4e3f79b1dc18de3dd5fb54745fbdc913677859a808446e1724180"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6313284d0000000013039b5e_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/6313284d0000000013039b5e_transcript.srt",
+      "size_bytes": 3023,
+      "sha256": "e81cd47bdab37d2ca799987bfd49081e1e39085a200031858f97d6c7b190de1f"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6562aa89000000001701deda_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/6562aa89000000001701deda_transcript.json",
+      "size_bytes": 3849,
+      "sha256": "7734f5cac1abec8674214d6071ccc9bd218b3347d27fc72e0c7e38e4895c83a3"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6562aa89000000001701deda_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/6562aa89000000001701deda_transcript.srt",
+      "size_bytes": 2450,
+      "sha256": "4027f6a2a882aa194d4aba8d47b613478ab67293e04864090db6b4f19650dbd2"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6708e2ec000000001a0224e9_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/6708e2ec000000001a0224e9_transcript.json",
+      "size_bytes": 6880,
+      "sha256": "67eb4e80686926e344ca353c7f2506035b8eac8ba27f704c1cefa91952d94c93"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/6708e2ec000000001a0224e9_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/6708e2ec000000001a0224e9_transcript.srt",
+      "size_bytes": 5008,
+      "sha256": "534735f0ee9ca157b14cd68bf579ed1f3757bfa6094295434c9bff24dff56b25"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/691d78d3000000001e02e242_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/691d78d3000000001e02e242_transcript.json",
+      "size_bytes": 190,
+      "sha256": "88c70c6620def017361063206422fed99b9bd233b095f7e9903a687db442796f"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/691d78d3000000001e02e242_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/691d78d3000000001e02e242_transcript.srt",
+      "size_bytes": 68,
+      "sha256": "ac4172686d5931cdec52df6bb0c63c7d194326f687179af8a0fc0cbf0e2c044a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/69995208000000001a031908_transcript.json",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/69995208000000001a031908_transcript.json",
+      "size_bytes": 30289,
+      "sha256": "f6984c55bf49fba9bca1989cd81bf7296bcc790e87a152d14d2469563d747cda"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/transcripts/69995208000000001a031908_transcript.srt",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/transcripts/69995208000000001a031908_transcript.srt",
+      "size_bytes": 14981,
+      "sha256": "91c7e3f47edc1b910b11ee5a7fbf7b1efc0d3a4df91f76518ebd7d16eef0b9cb"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/方向方法论总结.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/方向方法论总结.md",
+      "size_bytes": 2613,
+      "sha256": "964ce8cb6f9fea5ba63f9f6aadeb8d0cd174bfd62f3ba8ce2d2d395d06506532"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/directions/账号运营/粗扫内容和选题.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/账号运营/粗扫内容和选题.md",
+      "size_bytes": 7159,
+      "sha256": "d25cb605da932fd6578111e11ddafb78c2934a0aadc0790b2b878e8b86b87e0a"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容生产使用说明.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/内容生产使用说明.md",
+      "size_bytes": 4508,
+      "sha256": "fd01cae1865550d399e0447025096ebcf6f1b1a4b15845ed61d512e2442293ca"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/内容输出标准模板.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/内容输出标准模板.md",
+      "size_bytes": 1157,
+      "sha256": "eaf3d3a22035d6c8cb99d14a4147a8a38b03a58e74082f19ff11461b0caf126e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/减少AI味输出规则.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/减少AI味输出规则.md",
+      "size_bytes": 3710,
+      "sha256": "7ec4abf0be981bb8480daf5287a4ae99805691ab6c52d52aeafb6ea6f8c308e4"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/升级重学状态.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/升级重学状态.md",
+      "size_bytes": 3735,
+      "sha256": "51e2ba2c742dc19790312763a648ca632fd8cade160b9c067dc1aa33b3527f13"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/粗学与选题池.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/粗学与选题池.md",
+      "size_bytes": 112408,
+      "sha256": "89e3aecda62b6d73a6a16a26b416f7ab9e7db9f6b06fdbdadc897bd2fb80d171"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号整体方法论.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号整体方法论.md",
+      "size_bytes": 3769,
+      "sha256": "5785b686d2fd49a3d0b6e48a7e482b60bc5553621797bb6e2357906c6c0ae37e"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号方法论总览.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号方法论总览.md",
+      "size_bytes": 2650,
+      "sha256": "233a6f465a3b6730105034cebb5ac49ba17662f5609dd16c3fab3824d99aac9c"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号概述.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号概述.md",
+      "size_bytes": 1486,
+      "sha256": "5f5f933fe9c223cf1a4dd82fb490ec25312b037d5e06f6844df49990cd2604c2"
+    },
+    {
+      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界/账号索引.md",
+      "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号索引.md",
+      "size_bytes": 3640,
+      "sha256": "f1ac278bc6f9fd1a3ef846736fd1445eaa8cf8a690c22f4881f96e58279420de"
+    }
+  ]
+}

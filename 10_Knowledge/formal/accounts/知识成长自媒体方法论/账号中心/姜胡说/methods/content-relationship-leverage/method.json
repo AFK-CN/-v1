@@ -1,0 +1,52 @@
+{
+  "id": "content-relationship-leverage",
+  "schema_version": "2.2",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "account_scope": "姜胡说",
+  "title": "用持续有用内容建立关系与分发杠杆",
+  "trigger_signals": [
+    "持续解决具体问题",
+    "形成稳定关系",
+    "重复分发有效经验"
+  ],
+  "trigger_model": {
+    "mechanism": "内容先解决具体问题并建立持续关系，再通过稳定分发把一次经验放大为长期影响力。",
+    "applicable_relations": [
+      "内容与受众关系",
+      "一次经验与长期分发"
+    ],
+    "transferable_scenes": [
+      "新账号栏目设计",
+      "专业经验公开分享",
+      "低流量内容复盘"
+    ],
+    "do_not_trigger_on": [
+      "只因出现流量或粉丝词",
+      "只追求一次播放峰值"
+    ]
+  },
+  "do_not_use": [
+    "纯投放优化",
+    "没有可持续帮助对象的一次性热点"
+  ],
+  "execution_steps": [
+    "定义一个持续存在的具体问题",
+    "交付可立即使用的答案",
+    "设计后续互动与重复分发",
+    "检查关系沉淀而非单次流量"
+  ],
+  "source_refs": [
+    "6829688565107100939",
+    "6833718387609308429",
+    "7535396180029754634",
+    "7537316313787026742",
+    "7587067316618267955",
+    "7637902663966838042",
+    "7644216083330714886"
+  ],
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-14T23:06:58+08:00",
+  "approval_basis": "2026-07-14 user explicit formal-ingest approval after Skill v2.2 audit"
+}

@@ -1,0 +1,55 @@
+{
+  "skill": "opportunity-rule-resource-leverage",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "opportunity-rule-resource-leverage-positive",
+      "type": "should_trigger",
+      "prompt": "新任务需要识别规则正在变化，并且要盘点可借用资源，应该调用什么方法？"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "文案里出现《从规则变化和资源重组中识别机会》相关题材词，但没有任何因果过程或执行关系，是否调用？"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到识别规则正在变化，没有第二个机制信号，是否足以调用？"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "新行业判断",
+      "target_scene": "跨领域-职业方向选择",
+      "mechanism_preserved": true,
+      "prompt": "换了人物、平台和道具，但仍需识别规则正在变化，随后盘点可借用资源，核心机制是否应触发？"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "problem-minimum-product-feedback",
+      "prompt": "任务明确要求从重复真实问题出发并先交付最小可用结果，但没有当前方法的机制，应调用当前方法吗？"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-commercial-contamination",
+      "type": "commercial_contamination",
+      "prompt": "新增一条带商品植入的样本，只在广告话术中提到《从规则变化和资源重组中识别机会》相关题材词，没有自然内容中的完整因果机制；它是否应提高当前自然方法 V1 权重并触发调用？",
+      "commercial_sample_must_not_increase_natural_v1": true
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-mechanism-ablation",
+      "type": "mechanism_ablation",
+      "ablated_signal": "盘点可借用资源",
+      "prompt": "消融关键环节后，任务只剩识别规则正在变化，没有后续因果闭环，是否仍应调用当前方法？"
+    },
+    {
+      "id": "opportunity-rule-resource-leverage-composition-ablation",
+      "type": "composition_ablation",
+      "ablated_method_id": "opportunity-rule-resource-leverage",
+      "retained_sibling_method_id": "problem-minimum-product-feedback",
+      "prompt": "组合中只保留当前方法的单一线索识别规则正在变化，主要机制改为从重复真实问题出发并先交付最小可用结果；当前方法是否仍是必要组成？"
+    }
+  ]
+}

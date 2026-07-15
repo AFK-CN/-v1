@@ -1,0 +1,292 @@
+{
+  "version": "2.2",
+  "updated_at": "2026-07-15",
+  "method": "RIA-TV++ adapted for account learning",
+  "candidate_root": "10_Knowledge/candidates/account_learning_workflows",
+  "card_contract": "00_System/shareable/config/account_learning_card_contract.json",
+  "formal_write_allowed": false,
+  "confirmation_gates": [
+    "stage0_account_overview",
+    "stage2_triple_verification"
+  ],
+  "stages": [
+    {
+      "id": "stage0_account_overview",
+      "name": "整体账号理解",
+      "principle": "Adler structural, interpretive, critical and applicability analysis",
+      "required_artifacts": [
+        "ACCOUNT_OVERVIEW.md",
+        "ACCOUNT_OVERVIEW.json"
+      ]
+    },
+    {
+      "id": "stage1_parallel_extraction",
+      "name": "五视角并行提取",
+      "principle": "Independent extraction for positioning, topics, structures, expression and counterexamples",
+      "required_artifacts": [
+        "candidates/positioning.jsonl",
+        "candidates/topics.jsonl",
+        "candidates/structures.jsonl",
+        "candidates/expression.jsonl",
+        "candidates/counterexamples.jsonl",
+        "REAL_ACCEPTANCE_REPORT_<date>.md",
+        "REAL_ACCEPTANCE_SUMMARY.json"
+      ]
+    },
+    {
+      "id": "stage2_triple_verification",
+      "name": "三重验证筛选",
+      "principle": "Consolidate five-lens observations into mechanism clusters, then verify cross-context evidence, predictive usefulness and account exclusivity",
+      "required_artifacts": [
+        "candidate_clusters.jsonl",
+        "verified.jsonl",
+        "rejected.jsonl"
+      ]
+    },
+    {
+      "id": "stage3_ria_construction",
+      "name": "RIA++ 方法单元构造",
+      "principle": "Reading, interpretation, past application, future trigger, execution and boundary",
+      "required_artifacts": [
+        "methods/"
+      ]
+    },
+    {
+      "id": "stage4_method_linking",
+      "name": "方法链接与知识图谱",
+      "principle": "Depends-on, contrasts-with and composes-with relations",
+      "required_artifacts": [
+        "METHOD_INDEX.json",
+        "GLOSSARY.md"
+      ]
+    },
+    {
+      "id": "stage5_pressure_test",
+      "name": "触发与边界压力测试",
+      "principle": "Executed positive, lexical-decoy, edge, cross-scene transfer and sibling-method confusion tests with per-case evidence",
+      "required_artifacts": [
+        "methods/*/test-prompts.json",
+        "methods/*/test-results.json"
+      ]
+    },
+    {
+      "id": "stage6_learning_delivery",
+      "name": "学习交付与入库候选",
+      "principle": "Candidate-only digest, promotion manifest and account production handoff; formal ingest remains approval-gated",
+      "required_artifacts": [
+        "LEARNING_DIGEST.md",
+        "promotion_manifest.json",
+        "ACCOUNT_PRODUCTION_HANDOFF.json"
+      ]
+    }
+  ],
+  "stage1_deep_observation": {
+    "schema_id": "deep_structure_expression_v1",
+    "applies_to_new_workflows": true,
+    "candidate_status": "single_card_observation",
+    "structure_dimensions": [
+      "concrete_entry_or_commitment",
+      "initial_problem_or_context",
+      "concrete_actions",
+      "obstacle_or_conflict",
+      "turning_point",
+      "result_or_feedback",
+      "abstraction_entry",
+      "beneficiary_closure"
+    ],
+    "expression_dimensions": [
+      "opening_voice",
+      "sentence_rhythm",
+      "oral_connectors",
+      "audience_relationship",
+      "concrete_detail",
+      "story_explanation_balance",
+      "abstraction_timing",
+      "beneficiary_landing",
+      "anti_template_signal"
+    ],
+    "structure_observation_fields": [
+      "status",
+      "dimensions_considered",
+      "observed_units",
+      "unit_order",
+      "missing_or_uncertain_units",
+      "evidence_coordinates",
+      "structure_fingerprint"
+    ],
+    "expression_observation_fields": [
+      "status",
+      "dimensions_considered",
+      "observed_signals",
+      "missing_or_uncertain_signals",
+      "evidence_coordinates",
+      "expression_fingerprint"
+    ]
+  },
+  "stage2_production_mechanism": {
+    "schema_id": "production_mechanism_v1",
+    "applies_to_new_workflows": true,
+    "mechanism_kinds": [
+      "positioning",
+      "topic_system",
+      "content_structure",
+      "expression_fingerprint",
+      "composite"
+    ],
+    "required_when_method_candidate_contains": [
+      "structures",
+      "expression"
+    ],
+    "required_analysis_fields": [
+      "fixed_elements",
+      "variable_elements",
+      "tension_engine",
+      "trust_engine",
+      "understanding_engine",
+      "beneficiary_engine",
+      "length_basis",
+      "boundaries"
+    ]
+  },
+  "stage6_production_handoff": {
+    "schema_id": "account_production_handoff_v1",
+    "applies_to_new_workflows": true,
+    "coverage_statuses": [
+      "verified",
+      "insufficient_evidence"
+    ],
+    "coverage_fields": [
+      "structures",
+      "expression",
+      "anti_ai",
+      "production_templates",
+      "acceptance"
+    ],
+    "candidate_fields": [
+      "structure_library_candidates",
+      "expression_fingerprint_candidates",
+      "anti_ai_rule_candidates",
+      "production_template_mappings",
+      "acceptance_checks"
+    ]
+  },
+  "verification": {
+    "v1_min_independent_sources": 3,
+    "v1_min_relation_or_scene_types": 2,
+    "minimum_verified_methods": 1,
+    "pressure_test_min_pass_rate": 1.0,
+    "required_test_types": [
+      "should_trigger",
+      "should_not_trigger",
+      "edge_case",
+      "cross_scene_transfer",
+      "commercial_contamination"
+    ],
+    "require_sibling_decoy_when_multiple_methods": true,
+    "required_negative_decoy_kinds": [
+      "lexical_overlap_without_mechanism"
+    ],
+    "require_prompt_set_sha256": true,
+    "require_per_case_results": true
+  },
+  "real_acceptance": {
+    "summary_artifact": "REAL_ACCEPTANCE_SUMMARY.json",
+    "required_strata": [
+      "normal_visual",
+      "normal_long_transcript",
+      "product_ad",
+      "platform_project",
+      "collaboration_ownership",
+      "low_information_or_asr_risk"
+    ],
+    "allowed_stratum_statuses": [
+      "passed",
+      "not_applicable"
+    ],
+    "require_reproducible_sample": true,
+    "require_expanded_audit_after_severe_issue": true,
+    "require_overview_scope_consistency": true,
+    "require_semantic_consistency": true
+  },
+  "commercial_learning": {
+    "separate_from_natural_v1": true,
+    "required_product_ad_sections": [
+      "pre_ad_content",
+      "ad_entry",
+      "product_role",
+      "post_ad_closure"
+    ],
+    "bridge_types": [
+      "same_engine",
+      "reveal_payoff",
+      "role_need_or_prop",
+      "world_feature",
+      "payload_takeover"
+    ],
+    "platform_projects_separate": true,
+    "visual_claim_requires_timecode_or_frame": true
+  },
+  "candidate_consolidation": {
+    "artifact": "candidate_clusters.jsonl",
+    "cluster_types": [
+      "method_candidate",
+      "boundary_rule",
+      "evidence_gate"
+    ],
+    "required_fields": [
+      "id",
+      "title",
+      "cluster_type",
+      "core_mechanism",
+      "candidate_ids",
+      "source_refs",
+      "lens_roles"
+    ],
+    "candidate_roles": [
+      "method_core",
+      "support",
+      "boundary",
+      "evidence_gate"
+    ],
+    "all_stage1_candidates_must_be_assigned_once": true,
+    "counterexamples_do_not_default_to_methods": true
+  },
+  "method_lifecycle": {
+    "card_statuses": [
+      "candidate_learned",
+      "review_passed",
+      "formal_ingested"
+    ],
+    "method_statuses": [
+      "candidate_cluster",
+      "verified_candidate",
+      "pressure_tested_candidate",
+      "approved_callable",
+      "rejected"
+    ],
+    "candidate_layer_callable": false,
+    "formal_approval_required_for_callable": true,
+    "single_card_never_callable": true
+  },
+  "invariants": [
+    "原始资料只读",
+    "候选与拒绝项都保留审计轨迹",
+    "每个方法单元可追溯到 source_id 或原链接",
+    "每个方法单元必须通过三重验证和压力测试",
+    "五视角候选必须先聚合为机制簇，不能把每个视角默认晋升成独立方法",
+    "单卡、五视角候选、机制簇和候选交付均不可直接调用",
+    "压力测试必须保存提示集哈希和逐案例结果，不能只填写汇总通过率",
+    "真实验收必须回看源证据，严重问题触发同类全量扫描或扩大抽样",
+    "文本证据记录逐字稿行号，视觉与商业画面结论记录视频时间码或帧号",
+    "商品广告与平台项目不进入自然方法V1，但必须分别完成植入学习和项目学习",
+    "广告植入学习必须保留正常剧情、引入桥、产品角色和广告后收束",
+    "总览覆盖范围、状态文件和实际深学数量必须一致",
+    "方法触发先按主任务方向路由，再按抽象机制跨场景扩展；人物、场景和道具词不得单独触发",
+    "阶段 0 和阶段 2 后必须有用户确认",
+    "学习交付不得直接写正式账号中心",
+    "结构与表达观察只进入阶段1派生候选，不改变统一学习卡契约",
+    "结构与表达观察维度允许缺失和新增，不得机械凑齐",
+    "账号结构类型和表达指纹只能由多卡聚合与三重验证形成，不得系统预设",
+    "阶段6生产交接包保持候选态，正式账号生产文件仍需审核后更新"
+  ]
+}

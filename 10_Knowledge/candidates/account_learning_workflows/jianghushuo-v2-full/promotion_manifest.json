@@ -1,0 +1,27 @@
+{
+  "status": "ready_for_review",
+  "method_ids": [
+    "content-relationship-leverage",
+    "experience-to-trust-asset",
+    "input-output-transformation",
+    "life-specific-expression",
+    "opportunity-rule-resource-leverage",
+    "problem-minimum-product-feedback",
+    "record-to-compounding-asset",
+    "small-step-process-system",
+    "structured-model-reasoning",
+    "value-exchange-income-system"
+  ],
+  "formal_write": false,
+  "formal_write_allowed": false,
+  "callable": false,
+  "user_review_required": true,
+  "batch_user_acceptance_required": false,
+  "audited_by_codex": true,
+  "formal_promotion_requires_explicit_user_approval": true,
+  "handoff_manifest_semantics": "historical_candidate_handoff",
+  "review_completed": true,
+  "review_completed_at": "2026-07-14T23:06:58+08:00",
+  "current_promotion_status": "PROMOTION_STATUS.json",
+  "formal_ingest_receipt": "FORMAL_INGEST_RECEIPT.json"
+}

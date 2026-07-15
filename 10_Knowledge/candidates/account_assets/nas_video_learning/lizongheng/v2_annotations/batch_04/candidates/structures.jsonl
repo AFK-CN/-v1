@@ -1,0 +1,10 @@
+{"id":"b04-str-constrained-dialogue-collapse","title":"错误解决方案逐步压缩表达直至关系崩塌","type":"structures","source_refs":["7584338480814214451"],"summary":"先提出语言限制解决争吵，随后表达不断缩短，结尾以最短真话推翻方案。","tags":["结构","语言压缩","错误方案"],"callable":false}
+{"id":"b04-str-domain-transfer-revenge","title":"跨关系映射后用对称行为完成报复闭环","type":"structures","source_refs":["7583582164818857243"],"summary":"先把消费选择定义成背叛，经过冷战和道歉，再由老板执行同样背叛收束。","tags":["结构","关系迁移","对称反转"],"callable":false}
+{"id":"b04-str-repeat-malapropism","title":"沿固定仪式流程逐步升级关键字口误","type":"structures","source_refs":["7582957244796472585"],"summary":"每个婚礼环节保留庄重预期，却增加更严重错词，纠正无法阻断下一轮。","tags":["结构","口误递进","仪式流程"],"callable":false}
+{"id":"b04-str-reality-vignettes","title":"多场景现实纠错串联类型人设并隔离广告段","type":"structures","source_refs":["7582133198600146176"],"summary":"多个短段共享幻想撞现实格式，中段商业展示可识别，前后仍回到同一结构。","tags":["结构","微场景","广告隔离"],"callable":false}
+{"id":"b04-str-reframe-to-catchphrase","title":"连续重译批评后压缩成万能口头禅","type":"structures","source_refs":["7576543106938930611"],"summary":"逐条建立统一解释规则，最后揭示全部开导都可以由三个字代替。","tags":["结构","重复重译","口头禅"],"callable":false}
+{"id":"b04-str-favorable-literalism","title":"处罚升级与有利字面解释同步推进","type":"structures","source_refs":["7575029237842473354"],"summary":"老板不断提高负面指令强度，员工保持同一重译方式，直到开除也变福利。","tags":["结构","字面解释","职场递进"],"callable":false}
+{"id":"b04-str-question-trap","title":"安全答案后立即揭示隐藏前提","type":"structures","source_refs":["7573245859657606382"],"summary":"用一问一答建立正向结论，再以一句追问改变前句意义，完成极短二段反转。","tags":["结构","问答陷阱","高压缩"],"callable":false}
+{"id":"b04-str-prop-escalation","title":"道具每次更符合要求却更难使用","type":"structures","source_refs":["7572424378610028955"],"summary":"尺寸和形状逐轮变化，解决方案复杂度持续增加，最终形成多道具装置。","tags":["结构","道具递进","机械执行"],"callable":false}
+{"id":"b04-str-layered-prediction","title":"策略反策略轮换后以更高层目标重释胜负","type":"structures","source_refs":["7571689449059538313"],"summary":"双方每轮揭示上一层预判，结尾说明所有博弈最终让学生完成学习。","tags":["结构","多层预判","教育反转"],"callable":false}
+{"id":"b04-str-viewer-knows-first","title":"先给观众错误动作再让角色后知真相","type":"structures","source_refs":["7569572309780171750"],"summary":"画面提前揭示误拿，角色继续自我解释，末尾对白才完成角色认知更新。","tags":["结构","观众先知","视觉反转"],"callable":false}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.2",
+  "method_id": "xsl-cluster-step_sequence",
+  "test_cases": [
+    {
+      "id": "xsl-cluster-step_sequence-positive",
+      "type": "should_trigger",
+      "prompt": "任务需要先判断状态，再执行步骤，出现异常就切换或停止，最后复核。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-step_sequence-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "只列三个产品名字，没有先后依赖、切换或停止条件。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-step_sequence-edge",
+      "type": "edge_case",
+      "prompt": "边界任务部分接近“分步顺序与条件化执行”，但证据未补齐；应先进入证据门。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-step_sequence-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "个人护理",
+      "target_scene": "知识成长",
+      "mechanism_preserved": true,
+      "prompt": "任务需要先判断状态，再执行步骤，出现异常就切换或停止，最后复核。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-step_sequence-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-time_feedback",
+      "decoy_kind": "sibling_method_without_target_mechanism",
+      "prompt": "任务只满足兄弟方法 xsl-cluster-time_feedback，不包含当前方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-step_sequence-commercial",
+      "type": "commercial_contamination",
+      "prompt": "这是品牌赞助和限时购买任务，只有购买利益，没有当前自然方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-step_sequence-ablation",
+      "type": "combination_ablation",
+      "prompt": "组合流程明确移除“分步顺序与条件化执行”的核心机制，仅保留其他方法。",
+      "expected_decision": "not_trigger"
+    }
+  ]
+}

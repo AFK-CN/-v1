@@ -1,0 +1,295 @@
+{
+  "batch_id": "batch_10",
+  "items": [
+    {
+      "source_id": "7621518948420324658",
+      "direction": "自媒体",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7621518948420324658.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7621518948420324658/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7621518948420324658/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 544,
+          "normalized_char_count": 4703
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7621518948420324658/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7561825588315442468",
+      "direction": "表达文案",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7561825588315442468.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7561825588315442468/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7561825588315442468/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 322,
+          "normalized_char_count": 2361
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7561825588315442468/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7634940154272156947",
+      "direction": "认知升级",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7634940154272156947.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7634940154272156947/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7634940154272156947/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 103,
+          "normalized_char_count": 1138
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7634940154272156947/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7620840179279858995",
+      "direction": "财富策略",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7620840179279858995.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7620840179279858995/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7620840179279858995/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 42,
+          "normalized_char_count": 605
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7620840179279858995/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7624160450304920847",
+      "direction": "赚钱",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7624160450304920847.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7624160450304920847/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7624160450304920847/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 360,
+          "normalized_char_count": 2713
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7624160450304920847/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7596338568050593060",
+      "direction": "阅读输入",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7596338568050593060.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7596338568050593060/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7596338568050593060/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 164,
+          "normalized_char_count": 1392
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7596338568050593060/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7574452831827053876",
+      "direction": "个人成长",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7574452831827053876.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7574452831827053876/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7574452831827053876/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 188,
+          "normalized_char_count": 1483
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7574452831827053876/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7603767561850735935",
+      "direction": "人生策略",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7603767561850735935.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7603767561850735935/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7603767561850735935/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 157,
+          "normalized_char_count": 2803
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7603767561850735935/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7618589475425275145",
+      "direction": "创业",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/09_7618589475425275145_机会在规则空白期.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7618589475425275145.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7618589475425275145/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7618589475425275145/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 306,
+          "normalized_char_count": 2589
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7618589475425275145/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7644578414015401235",
+      "direction": "商业机会",
+      "legacy_candidate_path": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7644578414015401235.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7644578414015401235/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7644578414015401235/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 430,
+          "normalized_char_count": 3591
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7644578414015401235/video/transcript.srt"
+      }
+    }
+  ]
+}

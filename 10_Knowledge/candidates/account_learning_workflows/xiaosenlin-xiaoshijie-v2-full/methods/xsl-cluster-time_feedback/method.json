@@ -1,0 +1,57 @@
+{
+  "id": "xsl-cluster-time_feedback",
+  "schema_version": "2.2",
+  "version": 2,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "xhs:5a201295e8ac2b0dbae9063a",
+  "title": "时间刻度与状态反馈形成可跟练闭环",
+  "trigger_signals": [
+    "核心因果成立",
+    "新任务需要结构性判断",
+    "存在可验证的执行或反馈边界"
+  ],
+  "trigger_model": {
+    "mechanism": "用第几天、多久、用后触感或皮肤状态反馈，把内容从推荐升级为可观察的实践过程。",
+    "applicable_relations": [
+      "刷酸与焕肤",
+      "毛孔与清洁",
+      "饮食与状态"
+    ],
+    "transferable_scenes": [
+      "机制成立的刷酸与焕肤类新任务",
+      "机制成立的毛孔与清洁类新任务",
+      "机制成立的饮食与状态类新任务"
+    ],
+    "do_not_trigger_on": [
+      "只有人物、产品、场景、道具或题材词相同",
+      "广告或平台项目只有购买信号但没有核心机制"
+    ]
+  },
+  "do_not_use": [
+    "证据缺失",
+    "只命中表面词",
+    "商品广告污染自然方法权重",
+    "个人护理功效被当作确定事实"
+  ],
+  "execution_steps": [
+    "先确定主任务方向",
+    "核对抽象机制",
+    "排除商业与证据边界",
+    "按固定方法顺序执行",
+    "以状态反馈判停"
+  ],
+  "source_refs": [
+    "63072d4c000000001b01d33f",
+    "658552e4000000001502c58d",
+    "684e320b000000002101b422",
+    "68777040000000001d00d5d7",
+    "68a7ced3000000001c0069b4"
+  ],
+  "natural_v1_source_count": 5,
+  "relation_or_scene_types": [
+    "刷酸与焕肤",
+    "毛孔与清洁",
+    "饮食与状态"
+  ]
+}

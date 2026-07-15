@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_04",
+  "generated_at": "2026-07-14T23:26:11+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "69d60f5b000000002202ac32",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69cb9aaf000000001f00492b",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69c5f94f000000002202bc26",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69c63cb5000000001b02251b",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69c5115a000000001a02fa66",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69bf6e26000000002800895f",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69b9159200000000230169fc",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69afc26f0000000005033cbd",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "69aad5e8000000000e00d139",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "699ab79b000000001a01c610",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "69d60f5b000000002202ac32",
+    "69cb9aaf000000001f00492b",
+    "69c5f94f000000002202bc26",
+    "69c63cb5000000001b02251b",
+    "69c5115a000000001a02fa66",
+    "69bf6e26000000002800895f",
+    "69b9159200000000230169fc",
+    "69afc26f0000000005033cbd",
+    "69aad5e8000000000e00d139",
+    "699ab79b000000001a01c610"
+  ]
+}

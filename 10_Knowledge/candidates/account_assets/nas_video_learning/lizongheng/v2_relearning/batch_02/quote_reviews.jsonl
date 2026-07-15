@@ -1,0 +1,10 @@
+{"source_id": "7626726152758301513", "review_mode": "asr_quality_screened", "retained_quotes": ["我回头率很高", "有你才有世界"], "rejected_quotes": []}
+{"source_id": "7623531779827431282", "review_mode": "asr_quality_screened", "retained_quotes": ["今天遇人节谁也别想骗我", "啥也没有"], "rejected_quotes": []}
+{"source_id": "7622365691135511851", "review_mode": "asr_quality_screened", "retained_quotes": ["罚你这个月再休两天"], "rejected_quotes": [{"text": "上班抹鱼下班回家", "reason": "摸鱼被识别为抹鱼，存在明显ASR错字，不作为准确原文。"}]}
+{"source_id": "7621064588155108251", "review_mode": "asr_quality_screened", "retained_quotes": ["这八版都是第一版", "也在我预判之内"], "rejected_quotes": []}
+{"source_id": "7617061092556033330", "review_mode": "asr_quality_screened", "retained_quotes": ["每天不是在拍段子就是在想段子", "你把自己丢掉了"], "rejected_quotes": []}
+{"source_id": "7612331320252916106", "review_mode": "asr_quality_screened", "retained_quotes": ["我提前了二十二个小时回来的", "我十点零一分到了家"], "rejected_quotes": []}
+{"source_id": "7611958261633512522", "review_mode": "asr_quality_screened", "retained_quotes": ["我一时间都分不清", "就当自己家一样"], "rejected_quotes": []}
+{"source_id": "7610510467530054537", "review_mode": "asr_quality_screened", "retained_quotes": ["我的衣服已经叠好了", "以后我继续努力"], "rejected_quotes": []}
+{"source_id": "7608237411609498778", "review_mode": "asr_quality_screened", "retained_quotes": ["先別問了"], "rejected_quotes": [{"text": "賣葡萄汁、蘋果汁、果汁啥", "reason": "枚举句残缺且语义边界不清，暂不作为原文金句。"}]}
+{"source_id": "7607169060182626459", "review_mode": "asr_quality_screened", "retained_quotes": ["你要不要对象呗你"], "rejected_quotes": [{"text": "又一年和家里人看文演的春晚小品", "reason": "人名或代词被识别为文演，存在明显ASR错字。"}]}

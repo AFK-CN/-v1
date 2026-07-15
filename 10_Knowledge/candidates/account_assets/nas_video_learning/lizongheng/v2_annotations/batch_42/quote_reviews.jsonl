@@ -1,0 +1,10 @@
+{"source_id":"7037410511096515855","review_mode":"asr_quality_screened","retained_quotes":["男生的恋爱变化 交往一周","我刚才睡着了"],"rejected_quotes":[]}
+{"source_id":"7036687751726550313","review_mode":"asr_quality_screened","retained_quotes":["走吧 上课去啊","不去了吧"],"rejected_quotes":[]}
+{"source_id":"7035963846430870818","review_mode":"asr_quality_screened","retained_quotes":["你怎么带帽子呢"],"rejected_quotes":[{"text":"骑着关门","reason":"ASR错识且不能还原准确关门台词"}]}
+{"source_id":"7031013739444882703","review_mode":"asr_quality_screened","retained_quotes":["打视频是吧"],"rejected_quotes":[{"text":"网恋不用网头用啥呀","reason":"ASR将网图误识为网头，不能作为准确原话"}]}
+{"source_id":"7027793768279592192","review_mode":"asr_quality_screened","retained_quotes":["你最喜欢我哪两个地方呀","那我可以尝尝"],"rejected_quotes":[]}
+{"source_id":"7026673380359261481","review_mode":"asr_quality_screened","retained_quotes":["我喜欢你"],"rejected_quotes":[{"text":"超级能死我喜欢你","reason":"关键称呼被ASR错识，无法确认准确字词"}]}
+{"source_id":"7025201509679861027","review_mode":"asr_quality_screened","retained_quotes":["我刚给你朋友圈点赞了","马上双十一了"],"rejected_quotes":[]}
+{"source_id":"7024034463046831373","review_mode":"asr_quality_screened","retained_quotes":["我就一个微信"],"rejected_quotes":[{"text":"少哥可以把你微信给我吗?","reason":"ASR将帅哥误识为少哥，不能作为准确原话"}]}
+{"source_id":"7020716230529109288","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7019964976626535721","review_mode":"asr_quality_screened","retained_quotes":["怎么办呀","少喝凉水"],"rejected_quotes":[]}

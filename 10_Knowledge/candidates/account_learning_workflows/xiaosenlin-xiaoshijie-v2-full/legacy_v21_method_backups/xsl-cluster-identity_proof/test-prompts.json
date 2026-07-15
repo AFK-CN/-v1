@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.2",
+  "method_id": "xsl-cluster-identity_proof",
+  "test_cases": [
+    {
+      "id": "xsl-cluster-identity_proof-positive",
+      "type": "should_trigger",
+      "prompt": "任务需要用长期自用史和复测证据说明判断来源，同时保留个体边界。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-identity_proof-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "只说自己是油痘肌，没有长期自用、复测或判断来源。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-identity_proof-edge",
+      "type": "edge_case",
+      "prompt": "边界任务部分接近“长期肤质身份与自用史构成可信度”，但证据未补齐；应先进入证据门。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-identity_proof-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "个人护理",
+      "target_scene": "知识成长",
+      "mechanism_preserved": true,
+      "prompt": "任务需要用长期自用史和复测证据说明判断来源，同时保留个体边界。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-identity_proof-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-problem_result",
+      "decoy_kind": "sibling_method_without_target_mechanism",
+      "prompt": "任务只满足兄弟方法 xsl-cluster-problem_result，不包含当前方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-identity_proof-commercial",
+      "type": "commercial_contamination",
+      "prompt": "这是品牌赞助和限时购买任务，只有购买利益，没有当前自然方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-identity_proof-ablation",
+      "type": "combination_ablation",
+      "prompt": "组合流程明确移除“长期肤质身份与自用史构成可信度”的核心机制，仅保留其他方法。",
+      "expected_decision": "not_trigger"
+    }
+  ]
+}

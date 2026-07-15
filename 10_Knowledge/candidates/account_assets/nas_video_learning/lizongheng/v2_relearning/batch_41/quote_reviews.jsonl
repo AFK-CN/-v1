@@ -1,0 +1,10 @@
+{"source_id": "7048582783924587810", "review_mode": "asr_quality_screened", "retained_quotes": ["分手可以啊", "必须是我提的分手"], "rejected_quotes": []}
+{"source_id": "7046966705985260840", "review_mode": "asr_quality_screened", "retained_quotes": ["能有啥事", "你想多了"], "rejected_quotes": []}
+{"source_id": "7046225639904447778", "review_mode": "asr_quality_screened", "retained_quotes": ["不同水平男生追女生 新手", "可是我还没买呢呀"], "rejected_quotes": []}
+{"source_id": "7045224956623473954", "review_mode": "asr_quality_screened", "retained_quotes": ["我肯定不带给你买的", "我故意买的假的"], "rejected_quotes": []}
+{"source_id": "7043024552842038528", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "今天礼部到", "reason": "ASR错识且无法从文本恢复准确原句"}, {"text": "这干什么呢", "reason": "语义过于孤立，不能支持墨菲定律结构"}]}
+{"source_id": "7041895433462910248", "review_mode": "asr_quality_screened", "retained_quotes": ["可不能学习"], "rejected_quotes": [{"text": "我吃完就行", "reason": "与画面主机制关系不清且疑似错识"}]}
+{"source_id": "7040438709585595689", "review_mode": "asr_quality_screened", "retained_quotes": ["等我女朋友"], "rejected_quotes": [{"text": "我前人结婚", "reason": "ASR将前任误识为前人，不能作为原话"}]}
+{"source_id": "7039183269874633999", "review_mode": "asr_quality_screened", "retained_quotes": ["刚才没发挥好"], "rejected_quotes": [{"text": "再来一把肯定了", "reason": "ASR漏掉肯定赢的关键结果词"}]}
+{"source_id": "7038538140138671375", "review_mode": "asr_quality_screened", "retained_quotes": ["长得好看的就行", "普通的就行"], "rejected_quotes": []}
+{"source_id": "7037784430093618447", "review_mode": "asr_quality_screened", "retained_quotes": ["对不起 学姐", "不能谈恋爱"], "rejected_quotes": []}

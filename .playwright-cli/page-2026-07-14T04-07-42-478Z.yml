@@ -1,0 +1,360 @@
+- generic [ref=f2e2]:
+  - main [ref=f2e3]:
+    - generic [ref=f2e4]:
+      - generic [ref=f2e5]: 系统
+      - generic [ref=f2e6]: 社区网络
+      - text: 节点 1028 · 关系 2724
+    - generic: 正在形成社区网络… 38%
+  - complementary [ref=f2e10]:
+    - generic [ref=f2e11]:
+      - heading "知识库关系图" [level=1] [ref=f2e12]
+      - generic [ref=f2e13]: Graphify 社区网络 · 五类知识视图 · 节点可回查来源
+    - generic [ref=f2e14]:
+      - generic [ref=f2e15]:
+        - heading "看什么" [level=2] [ref=f2e16]
+        - generic [ref=f2e17]:
+          - button "系统" [ref=f2e18] [cursor=pointer]
+          - button "正式知识" [ref=f2e19] [cursor=pointer]
+          - button "账号" [ref=f2e20] [cursor=pointer]
+          - button "流程" [ref=f2e21] [cursor=pointer]
+          - button "跨层关系" [ref=f2e22] [cursor=pointer]
+      - generic [ref=f2e23]:
+        - heading "呈现方式" [level=2] [ref=f2e24]
+        - generic [ref=f2e25]:
+          - button "社区网络" [ref=f2e26] [cursor=pointer]
+          - button "分层布局" [ref=f2e27] [cursor=pointer]
+      - generic [ref=f2e28]:
+        - heading "查找与筛选" [level=2] [ref=f2e29]
+        - textbox "搜索并定位节点…" [ref=f2e31]
+        - generic [ref=f2e32]:
+          - generic [ref=f2e33]:
+            - generic [ref=f2e34]: 层级
+            - combobox [ref=f2e35]:
+              - option "全部" [selected]
+              - option "system"
+              - option "workflow"
+          - generic [ref=f2e36]:
+            - generic [ref=f2e37]: 状态
+            - combobox [ref=f2e38]:
+              - option "全部" [selected]
+              - option "confirmation_gate"
+              - option "defined"
+              - option "system"
+          - generic [ref=f2e39]:
+            - generic [ref=f2e40]: 领域
+            - combobox [ref=f2e41]:
+              - option "全部" [selected]
+              - option "account_learning"
+              - option "code"
+              - option "commands"
+              - option "config"
+              - option "docs"
+              - option "entry"
+              - option "external"
+              - option "index"
+              - option "routes"
+              - option "rules"
+          - generic [ref=f2e42]:
+            - generic [ref=f2e43]: 关系来源
+            - combobox [ref=f2e44]:
+              - option "全部" [selected]
+              - option "结构确定"
+              - option "明确声明"
+              - option "底层推断"
+          - generic [ref=f2e45]:
+            - generic [ref=f2e46]: 最低可信度
+            - combobox [ref=f2e47]:
+              - option "全部（推断关系淡显）" [selected]
+              - option "中及以上"
+              - option "只看高可信"
+    - generic [ref=f2e48]:
+      - heading "社区" [level=2] [ref=f2e49]
+      - generic [ref=f2e50] [cursor=pointer]:
+        - checkbox "全选" [checked] [ref=f2e51]
+        - text: 全选
+    - generic [ref=f2e52]:
+      - generic [ref=f2e53]:
+        - checkbox "Path 146" [checked] [ref=f2e54]
+        - generic [ref=f2e56]: Path
+        - generic [ref=f2e57]: "146"
+      - generic [ref=f2e58]:
+        - checkbox "image_text_learning.py 48" [checked] [ref=f2e59]
+        - generic [ref=f2e61]: image_text_learning.py
+        - generic [ref=f2e62]: "48"
+      - generic [ref=f2e63]:
+        - checkbox "builder.py 46" [checked] [ref=f2e64]
+        - generic [ref=f2e66]: builder.py
+        - generic [ref=f2e67]: "46"
+      - generic [ref=f2e68]:
+        - checkbox "video_learning_account_ingest.py 42" [checked] [ref=f2e69]
+        - generic [ref=f2e71]: video_learning_account_ingest.py
+        - generic [ref=f2e72]: "42"
+      - generic [ref=f2e73]:
+        - checkbox "runtime.py 39" [checked] [ref=f2e74]
+        - generic [ref=f2e76]: runtime.py
+        - generic [ref=f2e77]: "39"
+      - generic [ref=f2e78]:
+        - checkbox "web_console.py 37" [checked] [ref=f2e79]
+        - generic [ref=f2e81]: web_console.py
+        - generic [ref=f2e82]: "37"
+      - generic [ref=f2e83]:
+        - checkbox "姜胡说全量深度学习审计与正式入库设计（已由通用方案取代） 33" [checked] [ref=f2e84]
+        - generic [ref=f2e86]: 姜胡说全量深度学习审计与正式入库设计（已由通用方案取代）
+        - generic [ref=f2e87]: "33"
+      - generic [ref=f2e88]:
+        - checkbox "candidate_search.py 32" [checked] [ref=f2e89]
+        - generic [ref=f2e91]: candidate_search.py
+        - generic [ref=f2e92]: "32"
+      - generic [ref=f2e93]:
+        - checkbox "account_learning_pipeline.py 31" [checked] [ref=f2e94]
+        - generic [ref=f2e96]: account_learning_pipeline.py
+        - generic [ref=f2e97]: "31"
+      - generic [ref=f2e98]:
+        - checkbox "三、单卡十二段标准 22" [checked] [ref=f2e99]
+        - generic [ref=f2e101]: 三、单卡十二段标准
+        - generic [ref=f2e102]: "22"
+      - generic [ref=f2e103]:
+        - checkbox "indexer.py 22" [checked] [ref=f2e104]
+        - generic [ref=f2e106]: indexer.py
+        - generic [ref=f2e107]: "22"
+      - generic [ref=f2e108]:
+        - checkbox "账号学习 20" [checked] [ref=f2e109]
+        - generic [ref=f2e111]: 账号学习
+        - generic [ref=f2e112]: "20"
+      - generic [ref=f2e113]:
+        - checkbox "固定高级入口 20" [checked] [ref=f2e114]
+        - generic [ref=f2e116]: 固定高级入口
+        - generic [ref=f2e117]: "20"
+      - generic [ref=f2e118]:
+        - checkbox "Any 17" [checked] [ref=f2e119]
+        - generic [ref=f2e121]: Any
+        - generic [ref=f2e122]: "17"
+      - generic [ref=f2e123]:
+        - checkbox "二、本项目里 AI 应该先读什么 17" [checked] [ref=f2e124]
+        - generic [ref=f2e126]: 二、本项目里 AI 应该先读什么
+        - generic [ref=f2e127]: "17"
+      - generic [ref=f2e128]:
+        - checkbox "kb 16" [checked] [ref=f2e129]
+        - generic [ref=f2e131]: kb
+        - generic [ref=f2e132]: "16"
+      - generic [ref=f2e133]:
+        - checkbox "normalize_record 16" [checked] [ref=f2e134]
+        - generic [ref=f2e136]: normalize_record
+        - generic [ref=f2e137]: "16"
+      - generic [ref=f2e138]:
+        - checkbox "controller_routes.json 14" [checked] [ref=f2e139]
+        - generic [ref=f2e141]: controller_routes.json
+        - generic [ref=f2e142]: "14"
+      - generic [ref=f2e143]:
+        - checkbox "config 14" [checked] [ref=f2e144]
+        - generic [ref=f2e146]: config
+        - generic [ref=f2e147]: "14"
+      - generic [ref=f2e148]:
+        - checkbox "知识库入口 14" [checked] [ref=f2e149]
+        - generic [ref=f2e151]: 知识库入口
+        - generic [ref=f2e152]: "14"
+      - generic [ref=f2e153]:
+        - checkbox "dashboard.py 13" [checked] [ref=f2e154]
+        - generic [ref=f2e156]: dashboard.py
+        - generic [ref=f2e157]: "13"
+      - generic [ref=f2e158]:
+        - checkbox "memory 12" [checked] [ref=f2e159]
+        - generic [ref=f2e161]: memory
+        - generic [ref=f2e162]: "12"
+      - generic [ref=f2e163]:
+        - checkbox "agent_registry.py 12" [checked] [ref=f2e164]
+        - generic [ref=f2e166]: agent_registry.py
+        - generic [ref=f2e167]: "12"
+      - generic [ref=f2e168]:
+        - checkbox "账号学习标准工作流 11" [checked] [ref=f2e169]
+        - generic [ref=f2e171]: 账号学习标准工作流
+        - generic [ref=f2e172]: "11"
+      - generic [ref=f2e173]:
+        - checkbox "memory.py 11" [checked] [ref=f2e174]
+        - generic [ref=f2e176]: memory.py
+        - generic [ref=f2e177]: "11"
+      - generic [ref=f2e178]:
+        - checkbox "schemas.py 11" [checked] [ref=f2e179]
+        - generic [ref=f2e181]: schemas.py
+        - generic [ref=f2e182]: "11"
+      - generic [ref=f2e183]:
+        - checkbox "本机使用速查 11" [checked] [ref=f2e184]
+        - generic [ref=f2e186]: 本机使用速查
+        - generic [ref=f2e187]: "11"
+      - generic [ref=f2e188]:
+        - checkbox "JSON 入库 10" [checked] [ref=f2e189]
+        - generic [ref=f2e191]: JSON 入库
+        - generic [ref=f2e192]: "10"
+      - generic [ref=f2e193]:
+        - checkbox "asset_builder.py 10" [checked] [ref=f2e194]
+        - generic [ref=f2e196]: asset_builder.py
+        - generic [ref=f2e197]: "10"
+      - generic [ref=f2e198]:
+        - checkbox "reorganizer.py 10" [checked] [ref=f2e199]
+        - generic [ref=f2e201]: reorganizer.py
+        - generic [ref=f2e202]: "10"
+      - generic [ref=f2e203]:
+        - checkbox "项目调用规则 10" [checked] [ref=f2e204]
+        - generic [ref=f2e206]: 项目调用规则
+        - generic [ref=f2e207]: "10"
+      - generic [ref=f2e208]:
+        - checkbox "任务入口索引 10" [checked] [ref=f2e209]
+        - generic [ref=f2e211]: 任务入口索引
+        - generic [ref=f2e212]: "10"
+      - generic [ref=f2e213]:
+        - checkbox "系统审计 9" [checked] [ref=f2e214]
+        - generic [ref=f2e216]: 系统审计
+        - generic [ref=f2e217]: "9"
+      - generic [ref=f2e218]:
+        - checkbox "rules 9" [checked] [ref=f2e219]
+        - generic [ref=f2e221]: rules
+        - generic [ref=f2e222]: "9"
+      - generic [ref=f2e223]:
+        - checkbox "active 9" [checked] [ref=f2e224]
+        - generic [ref=f2e226]: active
+        - generic [ref=f2e227]: "9"
+      - generic [ref=f2e228]:
+        - checkbox "账号专业学习提取与验证规范 9" [checked] [ref=f2e229]
+        - generic [ref=f2e231]: 账号专业学习提取与验证规范
+        - generic [ref=f2e232]: "9"
+      - generic [ref=f2e233]:
+        - checkbox "agents 8" [checked] [ref=f2e234]
+        - generic [ref=f2e236]: agents
+        - generic [ref=f2e237]: "8"
+      - generic [ref=f2e238]:
+        - checkbox "account_learning_pipeline.json 8" [checked] [ref=f2e239]
+        - generic [ref=f2e241]: account_learning_pipeline.json
+        - generic [ref=f2e242]: "8"
+      - generic [ref=f2e243]:
+        - checkbox "知识图谱构建与调用规则 8" [checked] [ref=f2e244]
+        - generic [ref=f2e246]: 知识图谱构建与调用规则
+        - generic [ref=f2e247]: "8"
+      - generic [ref=f2e248]:
+        - checkbox "skill_package.py 8" [checked] [ref=f2e249]
+        - generic [ref=f2e251]: skill_package.py
+        - generic [ref=f2e252]: "8"
+      - generic [ref=f2e253]:
+        - checkbox "task_runner.py 8" [checked] [ref=f2e254]
+        - generic [ref=f2e256]: task_runner.py
+        - generic [ref=f2e257]: "8"
+      - generic [ref=f2e258]:
+        - checkbox "视频学习全量审计与正式入库通用 Implementation Plan 8" [checked] [ref=f2e259]
+        - generic [ref=f2e261]: 视频学习全量审计与正式入库通用 Implementation Plan
+        - generic [ref=f2e262]: "8"
+      - generic [ref=f2e263]:
+        - checkbox "图文成品生成标准流程 8" [checked] [ref=f2e264]
+        - generic [ref=f2e266]: 图文成品生成标准流程
+        - generic [ref=f2e267]: "8"
+      - generic [ref=f2e268]:
+        - checkbox "关键任务契约 8" [checked] [ref=f2e269]
+        - generic [ref=f2e271]: 关键任务契约
+        - generic [ref=f2e272]: "8"
+      - generic [ref=f2e273]:
+        - checkbox "Skill：表格复盘 v1 7" [checked] [ref=f2e274]
+        - generic [ref=f2e276]: Skill：表格复盘 v1
+        - generic [ref=f2e277]: "7"
+      - generic [ref=f2e278]:
+        - checkbox "shareable 7" [checked] [ref=f2e279]
+        - generic [ref=f2e281]: shareable
+        - generic [ref=f2e282]: "7"
+      - generic [ref=f2e283]:
+        - checkbox "知识库 Initialization Lifecycle 7" [checked] [ref=f2e284]
+        - generic [ref=f2e286]: 知识库 Initialization Lifecycle
+        - generic [ref=f2e287]: "7"
+      - generic [ref=f2e288]:
+        - checkbox "三层去重 7" [checked] [ref=f2e289]
+        - generic [ref=f2e291]: 三层去重
+        - generic [ref=f2e292]: "7"
+      - generic [ref=f2e293]:
+        - checkbox "图文账号学习标准工作流 7" [checked] [ref=f2e294]
+        - generic [ref=f2e296]: 图文账号学习标准工作流
+        - generic [ref=f2e297]: "7"
+      - generic [ref=f2e298]:
+        - checkbox "知识库运行规则 7" [checked] [ref=f2e299]
+        - generic [ref=f2e301]: 知识库运行规则
+        - generic [ref=f2e302]: "7"
+      - generic [ref=f2e303]:
+        - checkbox "Skill：截图复盘 v1 7" [checked] [ref=f2e304]
+        - generic [ref=f2e306]: Skill：截图复盘 v1
+        - generic [ref=f2e307]: "7"
+      - generic [ref=f2e308]:
+        - checkbox "system_cleaner.py 7" [checked] [ref=f2e309]
+        - generic [ref=f2e311]: system_cleaner.py
+        - generic [ref=f2e312]: "7"
+      - generic [ref=f2e313]:
+        - checkbox "姜胡说全量深度学习审计与正式入库 Implementation Plan（已由通用计划取代） 7" [checked] [ref=f2e314]
+        - generic [ref=f2e316]: 姜胡说全量深度学习审计与正式入库 Implementation Plan（已由通用计划取代）
+        - generic [ref=f2e317]: "7"
+      - generic [ref=f2e318]:
+        - checkbox "Skill：视频深度学习 v1 7" [checked] [ref=f2e319]
+        - generic [ref=f2e321]: Skill：视频深度学习 v1
+        - generic [ref=f2e322]: "7"
+      - generic [ref=f2e323]:
+        - checkbox "docs 6" [checked] [ref=f2e324]
+        - generic [ref=f2e326]: docs
+        - generic [ref=f2e327]: "6"
+      - generic [ref=f2e328]:
+        - checkbox "案例评分规则 v1 6" [checked] [ref=f2e329]
+        - generic [ref=f2e331]: 案例评分规则 v1
+        - generic [ref=f2e332]: "6"
+      - generic [ref=f2e333]:
+        - checkbox "趋势雷达规则 6" [checked] [ref=f2e334]
+        - generic [ref=f2e336]: 趋势雷达规则
+        - generic [ref=f2e337]: "6"
+      - generic [ref=f2e338]:
+        - checkbox "Skill 进化与回滚规则 6" [checked] [ref=f2e339]
+        - generic [ref=f2e341]: Skill 进化与回滚规则
+        - generic [ref=f2e342]: "6"
+      - generic [ref=f2e343]:
+        - checkbox "2026-06-29 系统级清洁报告 6" [checked] [ref=f2e344]
+        - generic [ref=f2e346]: 2026-06-29 系统级清洁报告
+        - generic [ref=f2e347]: "6"
+      - generic [ref=f2e348]:
+        - checkbox "知识库优化目录结构 5" [checked] [ref=f2e349]
+        - generic [ref=f2e351]: 知识库优化目录结构
+        - generic [ref=f2e352]: "5"
+      - generic [ref=f2e353]:
+        - checkbox "记忆工作流 5" [checked] [ref=f2e354]
+        - generic [ref=f2e356]: 记忆工作流
+        - generic [ref=f2e357]: "5"
+      - generic [ref=f2e358]:
+        - checkbox "周复盘规则 5" [checked] [ref=f2e359]
+        - generic [ref=f2e361]: 周复盘规则
+        - generic [ref=f2e362]: "5"
+      - generic [ref=f2e363]:
+        - checkbox "子知识库创建规则 5" [checked] [ref=f2e364]
+        - generic [ref=f2e366]: 子知识库创建规则
+        - generic [ref=f2e367]: "5"
+      - generic [ref=f2e368]:
+        - checkbox "爆款方法论沉淀规则 5" [checked] [ref=f2e369]
+        - generic [ref=f2e371]: 爆款方法论沉淀规则
+        - generic [ref=f2e372]: "5"
+      - generic [ref=f2e373]:
+        - checkbox "选题生成规则 5" [checked] [ref=f2e374]
+        - generic [ref=f2e376]: 选题生成规则
+        - generic [ref=f2e377]: "5"
+      - generic [ref=f2e378]:
+        - checkbox "目录架构治理规则 5" [checked] [ref=f2e379]
+        - generic [ref=f2e381]: 目录架构治理规则
+        - generic [ref=f2e382]: "5"
+      - generic [ref=f2e383]:
+        - checkbox "Skill：账号专业学习 v2 5" [checked] [ref=f2e384]
+        - generic [ref=f2e386]: Skill：账号专业学习 v2
+        - generic [ref=f2e387]: "5"
+      - generic [ref=f2e388]:
+        - checkbox "superpowers 4" [checked] [ref=f2e389]
+        - generic [ref=f2e391]: superpowers
+        - generic [ref=f2e392]: "4"
+      - generic [ref=f2e393]:
+        - checkbox "candidate_assets.py 4" [checked] [ref=f2e394]
+        - generic [ref=f2e396]: candidate_assets.py
+        - generic [ref=f2e397]: "4"
+      - generic [ref=f2e398]:
+        - checkbox "move_children 2" [checked] [ref=f2e399]
+        - generic [ref=f2e401]: move_children
+        - generic [ref=f2e402]: "2"
+      - generic [ref=f2e403]:
+        - checkbox "unique_destination 1" [checked] [ref=f2e404]
+        - generic [ref=f2e406]: unique_destination
+        - generic [ref=f2e407]: "1"
+    - generic [ref=f2e408]: 点击网络中的节点查看层级、社区和原文件。

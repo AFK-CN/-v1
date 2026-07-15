@@ -1,0 +1,10 @@
+{"source_id":"7516746164491619610","review_mode":"asr_quality_screened","retained_quotes":["我错了行吗","错了就完事了"],"rejected_quotes":[]}
+{"source_id":"7516109171626331429","review_mode":"asr_quality_screened","retained_quotes":["时间就是金钱","你换个女神不就完事了吗"],"rejected_quotes":[]}
+{"source_id":"7515368262085414181","review_mode":"asr_quality_screened","retained_quotes":["月月有钱呐","熬过今天周六日"],"rejected_quotes":[]}
+{"source_id":"7515012469224394022","review_mode":"asr_quality_screened","retained_quotes":["吓死我了"],"rejected_quotes":[{"text":"从前四级考试结束 请教这儿","reason":"交卷提示被严重ASR误识别，句意不成立。"}]}
+{"source_id":"7513890744994876709","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"化學選擇絕對","reason":"句子截断且未包含具体答案，无法准确引用。"},{"text":"答案是無理的啊","reason":"视觉字幕显示应涉及物理学科，ASR关键词失真。"}]}
+{"source_id":"7513635636088409354","review_mode":"asr_quality_screened","retained_quotes":["今天我想做自己","高考就是一场普通考试"],"rejected_quotes":[]}
+{"source_id":"7513125992367754522","review_mode":"asr_quality_screened","retained_quotes":["因为被保送那个人 不是我","后面还有题呢"],"rejected_quotes":[]}
+{"source_id":"7512175549243542794","review_mode":"asr_quality_screened","retained_quotes":["我只要单选 你别给我省得多选","那就算你一共考了700分"],"rejected_quotes":[]}
+{"source_id":"7511666419961957642","review_mode":"asr_quality_screened","retained_quotes":["我出生那天一個朋友都沒來看我","吃飽了我就不餓了"],"rejected_quotes":[]}
+{"source_id":"7511185442026327346","review_mode":"asr_quality_screened","retained_quotes":["各位考生好 我是二号考官","同学们 起立 下课"],"rejected_quotes":[]}

@@ -1,0 +1,10 @@
+{"source_id":"7568089247250644338","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"这辆宝军送给你","reason":"品牌名称被识别为宝军，属于明显ASR错字。"},{"text":"辅助搏车功能","reason":"泊车被识别为搏车，属于明显ASR错字。"}]}
+{"source_id":"7566473497522818350","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"在酒吧之里牛奶","reason":"句法残缺且语义不成立，疑似ASR漏词。"},{"text":"因为啤酒上山堤","reason":"后半句严重失真，无法准确引用。"}]}
+{"source_id":"7563964474965626162","review_mode":"asr_quality_screened","retained_quotes":["我们俩其实是你的合作方"],"rejected_quotes":[{"text":"这是永异智能撑腰椅","reason":"品牌永艺被识别为永异，不作为准确原文。"}]}
+{"source_id":"7563298766971833610","review_mode":"asr_quality_screened","retained_quotes":["听着小说准备入睡","女神早就给他拉黑了"],"rejected_quotes":[]}
+{"source_id":"7563032930697383214","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"咱们得用假定形态的方式来解","reason":"句子在动作处截断，无法独立作为原文金句。"},{"text":"爱喝什么","reason":"结论只保留半句，语义不完整。"}]}
+{"source_id":"7562130891766877486","review_mode":"asr_quality_screened","retained_quotes":["领八八折消费券"],"rejected_quotes":[{"text":"上走一搜双十一消费券","reason":"平台动作短语存在明显ASR错字。"}]}
+{"source_id":"7560939402282962227","review_mode":"asr_quality_screened","retained_quotes":["我是反驳性认可","你们都不正常"],"rejected_quotes":[]}
+{"source_id":"7560006263476702515","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"全新升级的 修理和AGE面霜","reason":"产品名称前出现明显错词，无法准确引用。"},{"text":"有30% 波色鹰","reason":"波色因被识别为波色鹰，属于明显ASR错字。"}]}
+{"source_id":"7559050049197411593","review_mode":"asr_quality_screened","retained_quotes":["而我是旅游上班族","项目顺便体验一下"],"rejected_quotes":[]}
+{"source_id":"7555046671455259930","review_mode":"asr_quality_screened","retained_quotes":["都会选择提前几天出发","都是聪明人"],"rejected_quotes":[]}

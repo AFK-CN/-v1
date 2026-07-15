@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "account_name": "小森林的小世界",
+  "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "status": "pass_with_registered_evidence_gaps",
+  "source_coverage": {
+    "inventory": 428,
+    "cards": 428,
+    "evidence_complete": 378,
+    "registered_external_gap": 50,
+    "missing": [],
+    "duplicates": []
+  },
+  "batch_coverage": {
+    "planned_batches": 11,
+    "audited_batches": 11,
+    "batch_size": 40,
+    "all_machine_gates_passed": true
+  },
+  "effective_output": {
+    "structured_cards": 428,
+    "five_lens_candidates": 2140,
+    "candidate_clusters": 9,
+    "verified_methods": 6,
+    "rejected_or_boundary_clusters": 3,
+    "pressure_cases": 30,
+    "pressure_pass_rate": 1.0
+  },
+  "anti_slop": {
+    "unique_lens_values": {
+      "positioning": 61,
+      "topics": 425,
+      "structures": 23,
+      "expression": 379,
+      "counterexamples": 75
+    },
+    "largest_cluster_candidate_count": 544,
+    "largest_cluster_share": 0.254206,
+    "duplicate_method_bodies": [],
+    "duplicate_pressure_prompts": [],
+    "all_gaps_excluded_from_method_evidence": true
+  },
+  "gap_reasons": {
+    "current_nas_item_missing_and_media_unavailable": 2,
+    "nas_account_media_missing_sqlite_metadata_only": 46,
+    "nas_media_bundle_incomplete_sqlite_metadata_only": 2
+  },
+  "manual_audit": {
+    "status": "passed",
+    "reviewed_batches": 11,
+    "registered_gaps_reviewed": 50,
+    "representative_complete_cards_reviewed": 48,
+    "reviewed_at": "2026-07-14T00:18:33+08:00"
+  },
+  "system_validation": {
+    "account_learning_seven_stages": "passed",
+    "unit_tests": "258/258 passed",
+    "validate_system": "passed_no_failures",
+    "boundary_dry_run": "passed_0_changes_0_violations",
+    "formal_card_count": 0,
+    "downgraded_backup_card_count": 87,
+    "final_consistency_reclassification": "used already materialized batch evidence; NAS was not reaccessed for rule-only recalculation"
+  },
+  "machine_errors": [],
+  "formal_write_allowed": false,
+  "callable": false,
+  "generated_at": "2026-07-14T00:18:00+08:00"
+}

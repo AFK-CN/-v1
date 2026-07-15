@@ -1,0 +1,566 @@
+{
+  "ok": true,
+  "workflow_id": "jianghushuo-v2-full",
+  "generated_at": "2026-07-14T22:19:24+08:00",
+  "nas_plan_count": 598,
+  "evidence_ready_count": 548,
+  "priority_relearned_count": 127,
+  "additional_evidence_ready_count": 429,
+  "blocked_count": 50,
+  "counts_by_missing": {
+    "transcript+keyframes+scenes": 28,
+    "video+transcript+keyframes+scenes": 14,
+    "transcript": 8
+  },
+  "blocked_items": [
+    {
+      "source_id": "7172181768240483618",
+      "direction": "人生策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7172181768240483618/video"
+    },
+    {
+      "source_id": "7176998179462728994",
+      "direction": "财富策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7176998179462728994/video"
+    },
+    {
+      "source_id": "7207763764735741218",
+      "direction": "个人成长",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7207763764735741218/video"
+    },
+    {
+      "source_id": "7218526700215340340",
+      "direction": "人生策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7218526700215340340/video"
+    },
+    {
+      "source_id": "7173673281491307776",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7173673281491307776/video"
+    },
+    {
+      "source_id": "7243416997281729853",
+      "direction": "人生策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7243416997281729853/video"
+    },
+    {
+      "source_id": "7185541439814651194",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7185541439814651194/video"
+    },
+    {
+      "source_id": "7233757661416705320",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7233757661416705320/video"
+    },
+    {
+      "source_id": "7021377467747175714",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7021377467747175714/video"
+    },
+    {
+      "source_id": "7022619355741572386",
+      "direction": "财富策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7022619355741572386/video"
+    },
+    {
+      "source_id": "7024116698630442255",
+      "direction": "技能沉淀",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7024116698630442255/video"
+    },
+    {
+      "source_id": "7024871070935174400",
+      "direction": "财富策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7024871070935174400/video"
+    },
+    {
+      "source_id": "7027463222697479424",
+      "direction": "财富策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7027463222697479424/video"
+    },
+    {
+      "source_id": "7040826670210747655",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7040826670210747655/video"
+    },
+    {
+      "source_id": "7047872155094158592",
+      "direction": "个人成长",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7047872155094158592/video"
+    },
+    {
+      "source_id": "7103528845353012488",
+      "direction": "认知升级",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7103528845353012488/video"
+    },
+    {
+      "source_id": "7114298437268557096",
+      "direction": "个人成长",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7114298437268557096/video"
+    },
+    {
+      "source_id": "7119521149452700941",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7119521149452700941/video"
+    },
+    {
+      "source_id": "7135449225596341539",
+      "direction": "财富策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7135449225596341539/video"
+    },
+    {
+      "source_id": "7136925066519989538",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7136925066519989538/video"
+    },
+    {
+      "source_id": "7143232871216598312",
+      "direction": "结构化理解",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7143232871216598312/video"
+    },
+    {
+      "source_id": "7151996113468345600",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7151996113468345600/video"
+    },
+    {
+      "source_id": "7159041156289006882",
+      "direction": "认知升级",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7159041156289006882/video"
+    },
+    {
+      "source_id": "7163502772296486159",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7163502772296486159/video"
+    },
+    {
+      "source_id": "7167361887989026100",
+      "direction": "结构化理解",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7167361887989026100/video"
+    },
+    {
+      "source_id": "7168474630703959330",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7168474630703959330/video"
+    },
+    {
+      "source_id": "7171405037640404239",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7171405037640404239/video"
+    },
+    {
+      "source_id": "7175150358476459304",
+      "direction": "阅读输入",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7175150358476459304/video"
+    },
+    {
+      "source_id": "7193315471544814863",
+      "direction": "人生策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7193315471544814863/video"
+    },
+    {
+      "source_id": "7195534646212300066",
+      "direction": "财富策略",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7195534646212300066/video"
+    },
+    {
+      "source_id": "7203717087620074789",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7203717087620074789/video"
+    },
+    {
+      "source_id": "7208890438902713640",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7208890438902713640/video"
+    },
+    {
+      "source_id": "7210751843343830324",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7210751843343830324/video"
+    },
+    {
+      "source_id": "7212608508749991183",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7212608508749991183/video"
+    },
+    {
+      "source_id": "7213157891258207503",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7213157891258207503/video"
+    },
+    {
+      "source_id": "7223007595429170447",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7223007595429170447/video"
+    },
+    {
+      "source_id": "7251931475480775992",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7251931475480775992/video"
+    },
+    {
+      "source_id": "7264211001535483194",
+      "direction": "认知升级",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7264211001535483194/video"
+    },
+    {
+      "source_id": "7306658871580380416",
+      "direction": "自媒体",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7306658871580380416/video"
+    },
+    {
+      "source_id": "7314254603804036387",
+      "direction": "认知升级",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "video",
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7314254603804036387/video"
+    },
+    {
+      "source_id": "7333964714050915584",
+      "direction": "个人成长",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7333964714050915584/video"
+    },
+    {
+      "source_id": "7356238113959595291",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7356238113959595291/video"
+    },
+    {
+      "source_id": "7396710848225414435",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7396710848225414435/video"
+    },
+    {
+      "source_id": "7397442386571414836",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7397442386571414836/video"
+    },
+    {
+      "source_id": "7400042786155793699",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7400042786155793699/video"
+    },
+    {
+      "source_id": "7405235281172974863",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7405235281172974863/video"
+    },
+    {
+      "source_id": "7412293761977388299",
+      "direction": "认知升级",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7412293761977388299/video"
+    },
+    {
+      "source_id": "7425273633636945215",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7425273633636945215/video"
+    },
+    {
+      "source_id": "7443448698757008679",
+      "direction": "赚钱",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7443448698757008679/video"
+    },
+    {
+      "source_id": "7615023007971245750",
+      "direction": "个人成长",
+      "status": "blocked_missing_evidence",
+      "missing": [
+        "transcript",
+        "keyframes",
+        "scenes"
+      ],
+      "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7615023007971245750/video"
+    }
+  ],
+  "formal_write_allowed": false
+}

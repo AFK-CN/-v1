@@ -1,0 +1,2809 @@
+{
+  "account": "小森林的小世界",
+  "generated_at": "2026-07-14T22:06:28+08:00",
+  "gate": "pass_as_system_pending",
+  "scope": "external_evidence_recovery_and_pending_registration",
+  "all_content_learned": false,
+  "metrics": {
+    "pending_count": 49,
+    "nas_item_exists_count": 1,
+    "sqlite_rows_found": 49,
+    "sqlite_desc_ge_60_chars": 48,
+    "sqlite_image_list_present": 49,
+    "sqlite_video_url_present": 33,
+    "not_learned_not_callable": 49,
+    "relearn_trigger_registered": 49
+  },
+  "blocked_reason": "NAS原媒体缺失，旧CDN代表性URL返回403；当前浏览器策略禁止访问小红书，因此不能恢复实际媒体，也不能用SQLite元数据冒充完整学习。",
+  "items": [
+    {
+      "source_id": "68aec3e8000000001b03d106",
+      "title": "12年油痘肌超爱的健康果蔬汁配方～",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "current_nas_item_missing_and_media_unavailable",
+        "attempts": [
+          "NAS当前账号仓缺失",
+          "NAS旧证据区无同source_id目录",
+          "SQLite旧CDN地址返回403",
+          "公开页解析不到当前媒体",
+          "旧运行缓存路径已失效"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_68aec3e8000000001b03d106",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 90,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号仓缺失",
+        "NAS旧证据区无同source_id目录",
+        "SQLite旧CDN地址返回403",
+        "公开页解析不到当前媒体",
+        "旧运行缓存路径已失效",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_10",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 10"
+      }
+    },
+    {
+      "source_id": "683451f0000000002001d847",
+      "title": "感谢内服让我拥有素颜好气色~",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "current_nas_item_missing_and_media_unavailable",
+        "attempts": [
+          "NAS当前账号仓缺失",
+          "NAS旧证据区无同source_id目录",
+          "SQLite旧CDN地址返回403",
+          "公开页解析不到当前媒体",
+          "本地无可验证旧缓存"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_683451f0000000002001d847",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 112,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号仓缺失",
+        "NAS旧证据区无同source_id目录",
+        "SQLite旧CDN地址返回403",
+        "公开页解析不到当前媒体",
+        "本地无可验证旧缓存",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_12",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 12"
+      }
+    },
+    {
+      "source_id": "67daafb7000000001e003975",
+      "title": "冷门小众宝藏！好用到我想安利给全世界~",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_67daafb7000000001e003975",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 116,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_15",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 15"
+      }
+    },
+    {
+      "source_id": "67beed600000000029026261",
+      "title": "作为11年油痘肌，我的痘印真的淡的很快",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_67beed600000000029026261",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 959,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_15",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 15"
+      }
+    },
+    {
+      "source_id": "679f4123000000002902b85c",
+      "title": "好皮肤是用对了精华，年度爱用精华分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_679f4123000000002902b85c",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 983,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_16",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 16"
+      }
+    },
+    {
+      "source_id": "671a17c60000000021007485",
+      "title": "30岁油痘肌都在用什么好东西",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_671a17c60000000021007485",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 121,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_18",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 18"
+      }
+    },
+    {
+      "source_id": "66eb894c000000001e01bd21",
+      "title": "5年油敏肌靠它们把皮肤养好了！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66eb894c000000001e01bd21",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 166,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_20",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 20"
+      }
+    },
+    {
+      "source_id": "66daa4570000000012011008",
+      "title": "感谢每周一次轻油敷，对改变气色太有用了！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66daa4570000000012011008",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 216,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_20",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 20"
+      }
+    },
+    {
+      "source_id": "66d97897000000000c01858f",
+      "title": "长3000颗痘再回到妈生好皮",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66d97897000000000c01858f",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 967,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_20",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 20"
+      }
+    },
+    {
+      "source_id": "66cc03b2000000001d01b57e",
+      "title": "旅行救命好物！出门在外满满的安全感～",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66cc03b2000000001d01b57e",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 161,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_20",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 20"
+      }
+    },
+    {
+      "source_id": "66aca449000000002701f1cf",
+      "title": "洗漱台钉子户！爱用洁面分享（油痘敏肌版）",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66aca449000000002701f1cf",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 204,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_21",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 21"
+      }
+    },
+    {
+      "source_id": "66612eac000000000e030952",
+      "title": "油皮素颜好皮肤，教你们去暗沉黄气呀～",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66612eac000000000e030952",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 164,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_23",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 23"
+      }
+    },
+    {
+      "source_id": "664aba490000000005006335",
+      "title": "油痘敏肌终于把脆皮高原红秒了！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_664aba490000000005006335",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 211,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_23",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 23"
+      }
+    },
+    {
+      "source_id": "66348763000000001e03354f",
+      "title": "显化了好皮肤",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_66348763000000001e03354f",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 762,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_24",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 24"
+      }
+    },
+    {
+      "source_id": "6618ec46000000001a00ffee",
+      "title": "油皮从根源解决黑头、闭口、痘痘问题",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_media_bundle_incomplete_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6618ec46000000001a00ffee",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": true,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 164,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_24",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 24"
+      }
+    },
+    {
+      "source_id": "65d0422300000000070047b9",
+      "title": "聊聊我如何通过养生变美的",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_65d0422300000000070047b9",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 981,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_26",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 26"
+      }
+    },
+    {
+      "source_id": "659cdcba000000001a000038",
+      "title": "油痘肌变水光肌，油光和水光就差一点点",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_659cdcba000000001a000038",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 911,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_27",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 27"
+      }
+    },
+    {
+      "source_id": "659a7317000000001d0248bc",
+      "title": "终于把黑头给解决了！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_659a7317000000001d0248bc",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 65,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_27",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 27"
+      }
+    },
+    {
+      "source_id": "65685787000000003903391d",
+      "title": "油痘肌小白跟护肤博主同住4天，逆袭！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_65685787000000003903391d",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 918,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_28",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 28"
+      }
+    },
+    {
+      "source_id": "653cf5bc0000000020000991",
+      "title": "10年经验分享如何解决痘痘闭口！不走弯路！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_653cf5bc0000000020000991",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 108,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_29",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 29"
+      }
+    },
+    {
+      "source_id": "6517cff70000000020001919",
+      "title": "油痘肌小白零基础护肤1⃣️皮肤变美顺序",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6517cff70000000020001919",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 105,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_29",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 29"
+      }
+    },
+    {
+      "source_id": "64b8b4fb000000000a0186a3",
+      "title": "家庭版水光海菲秀，皮肤细腻通透到全脸发光",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_64b8b4fb000000000a0186a3",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 676,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_31",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 31"
+      }
+    },
+    {
+      "source_id": "6469843c0000000013002780",
+      "title": "家庭版海菲秀第二天",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6469843c0000000013002780",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 161,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_32",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 32"
+      }
+    },
+    {
+      "source_id": "63a6b4e4000000001e03ea7e",
+      "title": "宝子们圣诞节快乐哦～🎁",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_63a6b4e4000000001e03ea7e",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 59,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_36",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 36"
+      }
+    },
+    {
+      "source_id": "63773624000000001c034e22",
+      "title": "11月宝藏爱用品分享，精华、面霜、粉底、洁面",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_63773624000000001c034e22",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 85,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_36",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 36"
+      }
+    },
+    {
+      "source_id": "6368afb0000000000a00bd99",
+      "title": "油痘肌白白好物分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6368afb0000000000a00bd99",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 506,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_37",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 37"
+      }
+    },
+    {
+      "source_id": "63525c37000000001601f970",
+      "title": "脸真的越来越干净，去痘印方法分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_63525c37000000001601f970",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 173,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_37",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 37"
+      }
+    },
+    {
+      "source_id": "634ec8410000000008012454",
+      "title": "护肤分享，秋冬天皮肤也要水水嫩嫩哦🌙",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_634ec8410000000008012454",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 90,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_38",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 38"
+      }
+    },
+    {
+      "source_id": "632d6749000000000802ac34",
+      "title": "适合油痘肌平价又好用的卸妆洁面产品分享～",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_632d6749000000000802ac34",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 805,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_38",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 38"
+      }
+    },
+    {
+      "source_id": "63296d4a000000000801d847",
+      "title": "这养肤粉霜居然怼脸都看不出妆感",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_63296d4a000000000801d847",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 199,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_38",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 38"
+      }
+    },
+    {
+      "source_id": "632049b000000000090320fb",
+      "title": "油痘肌正确护肤分享，不是不好用是你不会用",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_632049b000000000090320fb",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 712,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_38",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 38"
+      }
+    },
+    {
+      "source_id": "631bfe28000000001103c53c",
+      "title": "让油痘肌皮肤又细又滑的三款夜间精华分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_631bfe28000000001103c53c",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 178,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_38",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 38"
+      }
+    },
+    {
+      "source_id": "6309d5f5000000001e009276",
+      "title": "油痘肌2022上半年护肤品爱用！自用🈚️广！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6309d5f5000000001e009276",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 926,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_39",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 39"
+      }
+    },
+    {
+      "source_id": "6304a383000000001d035607",
+      "title": "适合油痘肌的超好用不闷痘修护面霜分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6304a383000000001d035607",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 122,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_39",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 39"
+      }
+    },
+    {
+      "source_id": "62f60c35000000001402ba24",
+      "title": "正确去闭口保姆级教程，针清后注意事项",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62f60c35000000001402ba24",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 127,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_40",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 40"
+      }
+    },
+    {
+      "source_id": "62db869c000000001b03ec75",
+      "title": "油痘肌用了不会闷痘的清爽防晒",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62db869c000000001b03ec75",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 145,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_40",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 40"
+      }
+    },
+    {
+      "source_id": "62d8f7c2000000000f000871",
+      "title": "一张张试，Fanbeauty面膜到底好用吗",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62d8f7c2000000000f000871",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 289,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_40",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 40"
+      }
+    },
+    {
+      "source_id": "62c7dc03000000000d027be8",
+      "title": "油痘肌护肤小白，想皮肤细腻不长痘看这个",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62c7dc03000000000d027be8",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 469,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_41",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 41"
+      }
+    },
+    {
+      "source_id": "62bd3ab000000000060373af",
+      "title": "让油痘肌皮肤细腻光滑的猛药晚间护肤（2）",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62bd3ab000000000060373af",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 118,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_41",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 41"
+      }
+    },
+    {
+      "source_id": "62bc1465000000000303f249",
+      "title": "油痘皮妈生水光肌，晚间护肤分享～（1）",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62bc1465000000000303f249",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 287,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_41",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 41"
+      }
+    },
+    {
+      "source_id": "62b69b12000000000f008069",
+      "title": "痘肌好皮养成～大家都能拥有素颜光泽肌",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_ocr",
+        "missing_visual_summary"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62b69b12000000000f008069",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 575,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": false,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_41",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 41"
+      }
+    },
+    {
+      "source_id": "62b57513000000000102a167",
+      "title": "269元搞定不输大牌的精简有效平价痘肌护肤",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62b57513000000000102a167",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 247,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_41",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 41"
+      }
+    },
+    {
+      "source_id": "62b2dbbe000000000102c8e5",
+      "title": "敏M肌正确洗脸方式",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62b2dbbe000000000102c8e5",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 393,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_41",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 41"
+      }
+    },
+    {
+      "source_id": "628700ee000000000102ef07",
+      "title": "不走弯路，逆光疹 痊愈 经验分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_628700ee000000000102ef07",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 155,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_42",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 42"
+      }
+    },
+    {
+      "source_id": "627f811e00000000210385e3",
+      "title": "Tony问我用的什么洗护产品，他想买",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_627f811e00000000210385e3",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 116,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_42",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 42"
+      }
+    },
+    {
+      "source_id": "62725331000000002103acec",
+      "title": "洗面奶对于恢复皮肤屏障真的很重要！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62725331000000002103acec",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 83,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_42",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 42"
+      }
+    },
+    {
+      "source_id": "62651edb0000000001029f4c",
+      "title": "效果超好的眼部保养大法分享",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_62651edb0000000001029f4c",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 123,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_42",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 42"
+      }
+    },
+    {
+      "source_id": "623afb410000000021037017",
+      "title": "不输大牌的痘皮平价护肤攻略（直接抄作业）",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_623afb410000000021037017",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 698,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_42",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 42"
+      }
+    },
+    {
+      "source_id": "6221e85b00000000210366b8",
+      "title": "我靠洗脸把皮肤屏障修复好了！",
+      "status": "system_pending_evidence",
+      "reason": "NAS媒体证据不完整，不用SQLite元数据冒充深学。",
+      "gaps": [
+        "missing_source_json",
+        "missing_images",
+        "missing_video",
+        "weak_transcript_without_visual_evidence",
+        "missing_frames"
+      ],
+      "external_gap": {
+        "reason": "nas_account_media_missing_sqlite_metadata_only",
+        "attempts": [
+          "NAS当前账号媒体仓证据检查",
+          "只读回退NAS SQLite正文元数据"
+        ]
+      },
+      "nas_item_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6221e85b00000000210366b8",
+      "recovery_status": "blocked_external_evidence",
+      "audited_at": "2026-07-14T22:06:28+08:00",
+      "candidate_boundary": "not_learned_not_callable",
+      "nas_item_exists": false,
+      "sqlite_database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+      "sqlite_database_status": "ok",
+      "sqlite_row_found": true,
+      "sqlite_desc_chars": 275,
+      "sqlite_image_list_present": true,
+      "sqlite_video_url_present": true,
+      "recovery_attempts": [
+        "NAS当前账号媒体仓证据检查",
+        "只读回退NAS SQLite正文元数据",
+        "NAS账号媒体目录逐条存在性检查",
+        "NAS SQLite只读immutable模式回查正文与媒体URL字段",
+        "旧CDN代表性媒体URL执行HEAD与Range GET，均返回403",
+        "公开页匿名解析仅返回页面壳，浏览器返回风险错误300012",
+        "现有Chrome会话只读恢复被当前浏览器策略禁止，未绕过"
+      ],
+      "representative_network_evidence": {
+        "scope": "representative_stored_media_url_only",
+        "head_status": 403,
+        "range_get_status": 403,
+        "anonymous_page_result": "risk_error_300012",
+        "logged_in_chrome_result": "disallowed_by_current_browser_policy"
+      },
+      "completion_blockers": [
+        "缺少可验证的原始图片或视频字节",
+        "缺少可复核的画面帧与视觉证据",
+        "SQLite正文与媒体URL元数据不能替代实际媒体学习"
+      ],
+      "relearn_trigger": {
+        "condition": "指定NAS账号目录恢复source.json及图片/视频/frames后，重新执行该批并重跑finalize",
+        "batch_id": "batch_43",
+        "command": ".venv/bin/python -m tools.xiaosenlin_deep_relearning --root . batch --number 43"
+      }
+    }
+  ],
+  "errors": []
+}

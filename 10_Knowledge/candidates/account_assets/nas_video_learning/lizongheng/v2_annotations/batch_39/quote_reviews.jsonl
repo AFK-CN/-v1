@@ -1,0 +1,10 @@
+{"source_id":"7093048198851349800","review_mode":"asr_quality_screened","retained_quotes":["原来是做梦啊","现在工作不好找 知足了"],"rejected_quotes":[]}
+{"source_id":"7090874741170490659","review_mode":"asr_quality_screened","retained_quotes":["那就剩一间房了","谢谢你啊"],"rejected_quotes":[]}
+{"source_id":"7089631965304868130","review_mode":"asr_quality_screened","retained_quotes":["哎这手机好"],"rejected_quotes":[{"text":"还稳充点一分钟就能玩一整局联盟","reason":"ASR将快充与游戏表述转写成不通顺残句，功能以一加Ace画面字幕为准。"}]}
+{"source_id":"7083424202883206435","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7082208277001555235","review_mode":"asr_quality_screened","retained_quotes":["我是十年之后的","你追了他四年"],"rejected_quotes":[]}
+{"source_id":"7081238683596180751","review_mode":"asr_quality_screened","retained_quotes":["请二位新人交换戒指","这个案子非常难"],"rejected_quotes":[]}
+{"source_id":"7079743607908879631","review_mode":"asr_quality_screened","retained_quotes":["他也因此找不到女朋友"],"rejected_quotes":[{"text":"今日淡瓜 有網絡爆料","reason":"ASR将营销号常用的‘今日吃瓜’错转为‘今日淡瓜’，不保留错误开场。"}]}
+{"source_id":"7077753644199775523","review_mode":"asr_quality_screened","retained_quotes":["我嫁给别人了","等我再找个工作"],"rejected_quotes":[]}
+{"source_id":"7076640620432887080","review_mode":"asr_quality_screened","retained_quotes":["你是不是不爱我了","我上课去了"],"rejected_quotes":[]}
+{"source_id":"7068584186596068648","review_mode":"asr_quality_screened","retained_quotes":["我就是从他家转过来"],"rejected_quotes":[{"text":"开车之前先做一条自己最舒适的位置","reason":"ASR将调整座椅的教练指令严重错转，动作以车内画面为准。"}]}

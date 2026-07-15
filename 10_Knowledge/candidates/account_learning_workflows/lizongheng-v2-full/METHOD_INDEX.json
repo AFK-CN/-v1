@@ -1,0 +1,91 @@
+{
+  "methods": [
+    {
+      "id": "lz-m1-system-transfer",
+      "title": "整套系统迁移",
+      "status": "verified_candidate",
+      "callable": false,
+      "role": "primary_conflict"
+    },
+    {
+      "id": "lz-m2-control-right-reversal",
+      "title": "评价权与控制权反转",
+      "status": "verified_candidate",
+      "callable": false,
+      "role": "primary_conflict"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation",
+      "title": "字面重释与双语境链",
+      "status": "verified_candidate",
+      "callable": false,
+      "role": "primary_conflict"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation",
+      "title": "固定规则多场景递进",
+      "status": "verified_candidate",
+      "callable": false,
+      "role": "escalation_engine"
+    }
+  ],
+  "relations": [
+    {
+      "source": "lz-m1-system-transfer",
+      "target": "lz-m2-control-right-reversal",
+      "type": "composes_with",
+      "reason": "系统迁移可以同步改变谁拥有提问、审批或服务控制权，但两条因果都必须独立成立。"
+    },
+    {
+      "source": "lz-m1-system-transfer",
+      "target": "lz-m3-semantic-reinterpretation",
+      "type": "contrasts_with",
+      "reason": "M1由整套制度映射驱动，M3由一句话的替代解释驱动；只保留主要因果的一项作为主方法。"
+    },
+    {
+      "source": "lz-m2-control-right-reversal",
+      "target": "lz-m3-semantic-reinterpretation",
+      "type": "contrasts_with",
+      "reason": "M2判断控制权是否转移，M3判断语言解释是否改变行动，权力场景中的双关词不自动构成M3。"
+    },
+    {
+      "source": "lz-m1-system-transfer",
+      "target": "lz-m4-fixed-rule-escalation",
+      "type": "composes_with",
+      "reason": "M4可把迁移后的系统规则放入多个流程节点逐轮兑现。"
+    },
+    {
+      "source": "lz-m2-control-right-reversal",
+      "target": "lz-m4-fixed-rule-escalation",
+      "type": "composes_with",
+      "reason": "M4可用多轮问答或审批动作持续放大控制权反转。"
+    },
+    {
+      "source": "lz-m3-semantic-reinterpretation",
+      "target": "lz-m4-fixed-rule-escalation",
+      "type": "composes_with",
+      "reason": "M4可让同一替代语境在多个行动中连续产生更严重后果。"
+    }
+  ],
+  "orchestration": [
+    "G2 evidence gate",
+    "G1 content-axis routing",
+    "normal content: choose one primary method M1/M2/M3",
+    "normal content: optionally compose M4",
+    "commercial content: analyze the normal plot engine first",
+    "commercial content: choose ad bridge B1-B5 and inspect post-ad closure",
+    "apply expression packaging",
+    "repeat G1/G2 boundary check"
+  ],
+  "commercial_learning_route": {
+    "artifact": "ad_integration/AD_INTEGRATION_METHODS.md",
+    "sequence": [
+      "pre_ad_content",
+      "ad_entry",
+      "product_role",
+      "commercial_payload",
+      "returns_to_story"
+    ],
+    "natural_v1_weight": 0
+  }
+}

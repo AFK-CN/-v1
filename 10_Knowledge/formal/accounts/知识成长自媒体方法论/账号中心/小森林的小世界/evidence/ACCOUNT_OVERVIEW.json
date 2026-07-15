@@ -1,0 +1,56 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "account_name": "小森林的小世界",
+  "status": "candidate_learning_v22_completed_with_deferred_evidence",
+  "one_line_theme": "以油痘肌等真实肤质的长期实践为核心，把护肤原理、居家流程、项目平替和产品体验拆成可操作步骤，并用个人变化与复测建立信任。",
+  "content_pillars": [
+    "肤质问题与护肤功效验证",
+    "毛孔清洁与刷酸操作流程",
+    "抗老修护与居家美容项目平替",
+    "好物测评与变美经验",
+    "生活化表达与账号运营"
+  ],
+  "terminology": [
+    "油痘肌",
+    "家庭版",
+    "实测",
+    "维稳修护",
+    "毛孔深层清洁",
+    "刷酸耐受",
+    "项目平替"
+  ],
+  "limitations": [
+    "NAS 候选入口当前证明 428 条记录存在，但不等于每条都已完成下载、转写、抽帧或 OCR",
+    "旧 87 张正式知识卡不满足统一三层学习卡契约，已降级为候选备份",
+    "护肤效果受肤质、使用频率和耐受差异影响，个人经验不能替代医疗判断",
+    "商业合作、买手内容和普通经验必须分层隔离，不能因高热度直接进入核心方法",
+    "样本集中于小红书，平台表达规律不能未经验证迁移到其他平台"
+  ],
+  "evidence_refs": [
+    "10_Knowledge/candidates/account_assets/sqlite_account_sources/xiaosenlin_xiaoshijie/source_manifest.json",
+    "10_Knowledge/candidates/account_assets/sqlite_account_sources/xiaosenlin_xiaoshijie/nas_sqlite_inventory.jsonl",
+    "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/downgrade_manifest.json",
+    "10_Knowledge/candidates/account_assets/content_rough_scan/xiaosenlin_xiaoshijie/粗扫完整性审计报告.md"
+  ],
+  "nas": {
+    "database_mode": "read_only",
+    "account_id": "5a201295e8ac2b0dbae9063a",
+    "records": 428,
+    "video_records": 305,
+    "image_text_records": 123
+  },
+  "formal_write_allowed": false,
+  "confirmed_at": "2026-07-13T22:33:13",
+  "next_gate": "formal_promotion_requires_explicit_user_approval",
+  "final_audit_ref": "V22_FINAL_AUDIT.json",
+  "learning_coverage": {
+    "source_ids_covered": 428,
+    "evidence_complete": 379,
+    "evidence_deferred": 49,
+    "five_lens_candidates": 1895,
+    "verified_candidate_methods": 4,
+    "candidate_source_rule": "only_379_unified_deep_cards"
+  },
+  "skill_version": "2.2"
+}

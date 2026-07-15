@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_25",
+  "generated_at": "2026-07-14T23:26:40+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "66091515000000001a011957",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6606ce3d000000001a0152c3",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6601240000000000120215ed",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65fd3666000000001203c54f",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65f80ef60000000012021334",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65f3b739000000001203f625",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65ed6d260000000012021274",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65ec424e000000000102950d",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65e6d3f8000000000102872f",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "65e307db000000000400283c",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "66091515000000001a011957",
+    "6606ce3d000000001a0152c3",
+    "6601240000000000120215ed",
+    "65fd3666000000001203c54f",
+    "65f80ef60000000012021334",
+    "65f3b739000000001203f625",
+    "65ed6d260000000012021274",
+    "65ec424e000000000102950d",
+    "65e6d3f8000000000102872f",
+    "65e307db000000000400283c"
+  ]
+}

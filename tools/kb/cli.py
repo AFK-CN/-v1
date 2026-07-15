@@ -10,6 +10,7 @@ from .candidate_search import search_candidates
 from .call_resolver import resolve_call
 from .dashboard import write_dashboard
 from .evolution import write_evolution_report
+from .graph import build_graph, graph_status, query_graph, serve_graph
 from .indexer import write_indexes
 from .memory import create_memory_candidate, evaluate_memory_capture, list_memory
 from .reorganizer import apply_reorganization_plan, initialize_layer_structure, write_reorganization_plan
@@ -22,7 +23,8 @@ from .system_cleaner import audit_system_boundaries, rewrite_legacy_path_referen
 from .task_runner import create_task, finish_task
 from .validator import validate_system
 from tools.creator_db_export import export_creator_database
-from tools import image_text_learning
+from tools import account_learning_pipeline, image_text_learning
+from tools.account_learning_card import validate_card_file
 from tools.sqlite_ingest import ingest_sqlite_database, sqlite_ingest_status
 from tools.video_learning_account_ingest import AccountIngestConfig, ingest_directions as ingest_video_learning_directions
 from tools.video_learning_card_validator import validate_cards as validate_video_learning_cards
@@ -44,6 +46,24 @@ def main() -> int:
     account_ingest_parser.add_argument("--formal-account-dir", required=True)
     account_ingest_parser.add_argument("--direction", required=True)
     account_ingest_parser.add_argument("--platform", default="抖音")
+    account_learning_init = subparsers.add_parser("account-learning-init", help="Initialize the professional seven-stage account learning pipeline")
+    account_learning_init.add_argument("--account-name", required=True)
+    account_learning_init.add_argument("--source-scope", required=True)
+    account_learning_init.add_argument("--media-branch", action="append", required=True)
+    account_learning_init.add_argument("--profile-id", default="")
+    account_learning_init.add_argument("--workflow-id", default="")
+    for account_learning_command in ("status", "validate"):
+        command = subparsers.add_parser(f"account-learning-{account_learning_command}", help=f"{account_learning_command.title()} a professional account learning workflow")
+        command.add_argument("--workflow-id", required=True)
+    account_learning_refresh = subparsers.add_parser("account-learning-refresh", help="Refresh stored validation evidence for a rebuilt workflow")
+    account_learning_refresh.add_argument("--workflow-id", required=True)
+    account_learning_refresh.add_argument("--source-scope", default="")
+    account_learning_complete = subparsers.add_parser("account-learning-complete-stage", help="Validate and complete one professional account learning stage")
+    account_learning_complete.add_argument("--workflow-id", required=True)
+    account_learning_complete.add_argument("--stage", required=True)
+    account_learning_complete.add_argument("--user-confirmed", action="store_true")
+    account_learning_card = subparsers.add_parser("account-learning-validate-card", help="Validate one learning card against the unified three-layer contract")
+    account_learning_card.add_argument("--path", required=True)
     assets_parser = subparsers.add_parser("assets", help="Build candidate asset pools")
     assets_parser.add_argument("--top-n", type=int, default=10)
     search_parser = subparsers.add_parser("search-candidates", help="Search candidate assets by query/account/direction")
@@ -100,6 +120,22 @@ def main() -> int:
     web_parser.add_argument("--host", default="127.0.0.1")
     web_parser.add_argument("--port", type=int, default=8787)
     web_parser.add_argument("--no-worker", action="store_true")
+    graph_parser = subparsers.add_parser("graph", help="Build, query and view the system-layer knowledge graph")
+    graph_commands = graph_parser.add_subparsers(dest="graph_command", required=True)
+    graph_commands.add_parser("build", help="Build the graph from boundary-controlled indexes and system sources")
+    graph_commands.add_parser("status", help="Validate graph outputs, views and source boundaries")
+    graph_query_parser = graph_commands.add_parser("query", help="Traverse the graph and return source-backed context")
+    graph_query_parser.add_argument("question")
+    graph_query_parser.add_argument(
+        "--view",
+        default="cross_layer",
+        choices=["system", "knowledge", "accounts", "workflows", "cross_layer"],
+    )
+    graph_query_parser.add_argument("--depth", type=int, default=2)
+    graph_query_parser.add_argument("--limit", type=int, default=24)
+    graph_web_parser = graph_commands.add_parser("web", help="Run the local graph viewer")
+    graph_web_parser.add_argument("--host", default="127.0.0.1")
+    graph_web_parser.add_argument("--port", type=int, default=8790)
     export_parser = subparsers.add_parser("export-creator-db", help="Export one creator's database contents/comments and optionally write a Feishu sheet")
     export_parser.add_argument("--creator", required=True, help="Creator/blogger nickname to match")
     export_parser.add_argument("--platform", default="", help="Optional platform filter: douyin/xhs/weibo/bilibili/kuaishou/tieba/zhihu")
@@ -161,6 +197,45 @@ def main() -> int:
             formal_account_dir=Path(args.formal_account_dir),
         )
         result = ingest_video_learning_directions(root, config, [args.direction])
+    elif args.command == "account-learning-init":
+        result = account_learning_pipeline.init_workflow(
+            root,
+            account_name=args.account_name,
+            source_scope=args.source_scope,
+            media_branches=args.media_branch,
+            profile_id=args.profile_id,
+            workflow_id=args.workflow_id,
+        )
+    elif args.command == "account-learning-status":
+        result = account_learning_pipeline.workflow_status(root, args.workflow_id)
+    elif args.command == "account-learning-validate":
+        result = account_learning_pipeline.validate_workflow(root, args.workflow_id)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-learning-refresh":
+        result = account_learning_pipeline.refresh_workflow(
+            root,
+            args.workflow_id,
+            source_scope=args.source_scope,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-learning-complete-stage":
+        result = account_learning_pipeline.complete_stage(
+            root,
+            args.workflow_id,
+            args.stage,
+            user_confirmed=args.user_confirmed,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-learning-validate-card":
+        card_path = Path(args.path)
+        if not card_path.is_absolute():
+            card_path = root / card_path
+        result = validate_card_file(card_path, root)
+        if not result.get("ok", False):
+            exit_code = 2
     elif args.command == "assets":
         result = build_candidate_assets(root, top_n=max(args.top_n, 1))
     elif args.command == "search-candidates":
@@ -274,6 +349,25 @@ def main() -> int:
         result = create_task(root, args.name, command=args.task_command)
     elif args.command == "web":
         return serve_web_console(root, host=args.host, port=args.port, start_worker=not args.no_worker)
+    elif args.command == "graph":
+        if args.graph_command == "build":
+            result = build_graph(root)
+            if not result.get("ok", False):
+                exit_code = 2
+        elif args.graph_command == "status":
+            result = graph_status(root)
+            if not result.get("ok", False):
+                exit_code = 2
+        elif args.graph_command == "query":
+            result = query_graph(
+                root,
+                args.question,
+                view=args.view,
+                depth=max(args.depth, 0),
+                limit=max(args.limit, 1),
+            )
+        else:
+            return serve_graph(root, host=args.host, port=args.port)
     elif args.command == "export-creator-db":
         result = export_creator_database(
             root,

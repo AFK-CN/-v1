@@ -1,0 +1,10 @@
+{"source_id": "7426202979595848995", "review_mode": "asr_quality_screened", "retained_quotes": ["事情开始变得有趣了", "完全就是一瓶精华"], "rejected_quotes": []}
+{"source_id": "7423267323160694068", "review_mode": "asr_quality_screened", "retained_quotes": ["四年六个月零二十八天", "你没有通过今天的面试"], "rejected_quotes": []}
+{"source_id": "7421747582654860559", "review_mode": "asr_quality_screened", "retained_quotes": ["把7000改成7", "老师 少看点短剧吧"], "rejected_quotes": []}
+{"source_id": "7420272080593112335", "review_mode": "asr_quality_screened", "retained_quotes": ["这分手呢 看不出来啊", "我再累了 咱俩处吧"], "rejected_quotes": []}
+{"source_id": "7416184516881943842", "review_mode": "asr_quality_screened", "retained_quotes": ["老师 你看我抖音了", "我失败六回了"], "rejected_quotes": []}
+{"source_id": "7413275561084144936", "review_mode": "asr_quality_screened", "retained_quotes": ["为了提高教学水平", "这一期咱们改为同学出题"], "rejected_quotes": []}
+{"source_id": "7411762080602279202", "review_mode": "asr_quality_screened", "retained_quotes": ["秋游只能取消了"], "rejected_quotes": [{"text": "车个酒店都没定", "reason": "ASR将车和酒店转写为车个酒店，语义可理解但不适合直接引用。"}]}
+{"source_id": "7409550418289773858", "review_mode": "asr_quality_screened", "retained_quotes": ["君子报仇 十年不晚", "正好有活动"], "rejected_quotes": []}
+{"source_id": "7407038787680783679", "review_mode": "asr_quality_screened", "retained_quotes": ["大家都在入场的时候", "偷偷看一眼吧"], "rejected_quotes": []}
+{"source_id": "7406155700583370025", "review_mode": "asr_quality_screened", "retained_quotes": ["为了你俩安全", "你老婆怀孕了"], "rejected_quotes": []}

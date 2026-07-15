@@ -32,11 +32,14 @@ REQUIRED_FILES = (
     f"{SYSTEM_RULES_DIR}/初始化生命周期.md",
     f"{SYSTEM_RULES_DIR}/输出契约.md",
     f"{SYSTEM_CONFIG_DIR}/output_contracts.json",
+    f"{SYSTEM_CONFIG_DIR}/account_learning_pipeline.json",
+    f"{SYSTEM_CONFIG_DIR}/account_learning_card_contract.json",
     f"{SYSTEM_CONFIG_DIR}/search_terms.json",
     f"{SYSTEM_CONFIG_DIR}/skill_contract.json",
     f"{SYSTEM_CONFIG_DIR}/layer_map.json",
     f"{SYSTEM_RULES_DIR}/规则权威源.md",
     f"{SYSTEM_RULES_DIR}/账号学习标准工作流.md",
+    f"{SYSTEM_RULES_DIR}/统一学习卡产出标准.md",
     f"{SYSTEM_MEMORY_DIR}/memory_rules.md",
     f"{SYSTEM_MEMORY_DIR}/memory_schema.json",
     f"{SYSTEM_MEMORY_DIR}/retention_policy.md",
@@ -83,6 +86,16 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     account_workflow_text = read_text(root / SYSTEM_RULES_DIR / "账号学习标准工作流.md")
     controller = load_json(root / SYSTEM_INDEX_DIR / "controller_routes.json", failed, "controller_routes_invalid_json")
     output_contracts = load_json(root / SYSTEM_CONFIG_DIR / "output_contracts.json", failed, "output_contracts_invalid_json")
+    account_learning_pipeline = load_json(
+        root / SYSTEM_CONFIG_DIR / "account_learning_pipeline.json",
+        failed,
+        "account_learning_pipeline_invalid_json",
+    )
+    account_learning_card_contract = load_json(
+        root / SYSTEM_CONFIG_DIR / "account_learning_card_contract.json",
+        failed,
+        "account_learning_card_contract_invalid_json",
+    )
     search_terms = load_json(root / SYSTEM_CONFIG_DIR / "search_terms.json", failed, "search_terms_invalid_json")
     layer_map = load_json(root / SYSTEM_CONFIG_DIR / "layer_map.json", failed, "layer_map_invalid_json")
     memory_schema = load_json(root / SYSTEM_MEMORY_DIR / "memory_schema.json", failed, "memory_schema_invalid_json")
@@ -100,6 +113,8 @@ def validate_system(root: Path, write_report: bool = False) -> dict[str, Any]:
     if "输出契约" not in output_contract_text:
         failed.append("output_contract_doc_missing_title")
     validate_account_learning_workflow(account_workflow_text, failed)
+    validate_account_learning_pipeline(account_learning_pipeline, failed)
+    validate_account_learning_card_contract(account_learning_card_contract, failed)
     validate_raw_blocked_index(raw_blocked_index, failed)
     if "禁止全盘扫库" not in project_use_text and "禁止全量扫库" not in project_use_text:
         failed.append("project_use_missing_no_full_scan_rule")
@@ -191,10 +206,142 @@ def validate_account_learning_workflow(text: str, failed: list[str]) -> None:
         "account_workflow_missing_nas_boundary": "NAS 只作为原始资产仓",
         "account_workflow_missing_process_artifact_boundary": "过程物",
         "account_workflow_missing_stage_gate": "缺任何一个都不能宣布粗学完成",
+        "account_workflow_missing_triple_verification": "三重验证",
+        "account_workflow_missing_pressure_test": "压力测试",
+        "account_workflow_missing_rejected_audit": "rejected.jsonl",
+        "account_workflow_missing_candidate_clusters": "candidate_clusters.jsonl",
+        "account_workflow_missing_test_hash": "提示集哈希",
+        "account_workflow_missing_callable_boundary": "callable=false",
+        "account_workflow_missing_unified_card": "unified_three_layer_v2",
+        "account_workflow_missing_three_layers": "证据层 + 内容拆解层",
+        "account_workflow_missing_generic_rule": "系统规则不得包含账号专属内容",
     }
     for failure, phrase in required_phrases.items():
         if phrase not in text:
             failed.append(failure)
+
+
+def validate_account_learning_pipeline(payload: dict[str, Any], failed: list[str]) -> None:
+    if not payload:
+        failed.append("account_learning_pipeline_missing")
+        return
+    if payload.get("version") != "2.2":
+        failed.append("account_learning_pipeline_version_invalid")
+    expected_stages = [
+        "stage0_account_overview",
+        "stage1_parallel_extraction",
+        "stage2_triple_verification",
+        "stage3_ria_construction",
+        "stage4_method_linking",
+        "stage5_pressure_test",
+        "stage6_learning_delivery",
+    ]
+    stages = payload.get("stages", [])
+    stage_ids = [stage.get("id") for stage in stages if isinstance(stage, dict)]
+    if stage_ids != expected_stages:
+        failed.append("account_learning_pipeline_stage_order_invalid")
+    if payload.get("formal_write_allowed") is not False:
+        failed.append("account_learning_pipeline_must_be_candidate_only")
+    gates = set(payload.get("confirmation_gates", []))
+    if gates != {"stage0_account_overview", "stage2_triple_verification"}:
+        failed.append("account_learning_pipeline_confirmation_gates_invalid")
+    verification = payload.get("verification", {})
+    if verification.get("v1_min_independent_sources", 0) < 3:
+        failed.append("account_learning_pipeline_v1_gate_too_weak")
+    if verification.get("v1_min_relation_or_scene_types", 0) < 2:
+        failed.append("account_learning_pipeline_v1_context_gate_too_weak")
+    if float(verification.get("pressure_test_min_pass_rate", 0)) < 1.0:
+        failed.append("account_learning_pipeline_pressure_gate_too_weak")
+    if set(verification.get("required_test_types", [])) != {
+        "should_trigger",
+        "should_not_trigger",
+        "edge_case",
+        "cross_scene_transfer",
+        "commercial_contamination",
+    }:
+        failed.append("account_learning_pipeline_test_types_invalid")
+    if set(verification.get("required_negative_decoy_kinds", [])) != {"lexical_overlap_without_mechanism"}:
+        failed.append("account_learning_pipeline_lexical_decoy_missing")
+    if verification.get("require_prompt_set_sha256") is not True or verification.get("require_per_case_results") is not True:
+        failed.append("account_learning_pipeline_test_evidence_incomplete")
+    consolidation = payload.get("candidate_consolidation", {})
+    if consolidation.get("artifact") != "candidate_clusters.jsonl":
+        failed.append("account_learning_pipeline_cluster_artifact_missing")
+    if set(consolidation.get("cluster_types", [])) != {"method_candidate", "boundary_rule", "evidence_gate"}:
+        failed.append("account_learning_pipeline_cluster_types_invalid")
+    lifecycle = payload.get("method_lifecycle", {})
+    if lifecycle.get("candidate_layer_callable") is not False or lifecycle.get("single_card_never_callable") is not True:
+        failed.append("account_learning_pipeline_callable_boundary_invalid")
+    if payload.get("card_contract") != "00_System/shareable/config/account_learning_card_contract.json":
+        failed.append("account_learning_pipeline_card_contract_missing")
+    acceptance = payload.get("real_acceptance", {})
+    required_strata = {
+        "normal_visual",
+        "normal_long_transcript",
+        "product_ad",
+        "platform_project",
+        "collaboration_ownership",
+        "low_information_or_asr_risk",
+    }
+    if acceptance.get("summary_artifact") != "REAL_ACCEPTANCE_SUMMARY.json":
+        failed.append("account_learning_pipeline_acceptance_summary_missing")
+    if set(acceptance.get("required_strata", [])) != required_strata:
+        failed.append("account_learning_pipeline_acceptance_strata_invalid")
+    if acceptance.get("require_expanded_audit_after_severe_issue") is not True:
+        failed.append("account_learning_pipeline_expanded_audit_gate_missing")
+    commercial = payload.get("commercial_learning", {})
+    if commercial.get("separate_from_natural_v1") is not True:
+        failed.append("account_learning_pipeline_commercial_v1_boundary_missing")
+    if commercial.get("platform_projects_separate") is not True:
+        failed.append("account_learning_pipeline_platform_boundary_missing")
+    if commercial.get("visual_claim_requires_timecode_or_frame") is not True:
+        failed.append("account_learning_pipeline_visual_coordinate_gate_missing")
+
+
+def validate_account_learning_card_contract(payload: dict[str, Any], failed: list[str]) -> None:
+    if not payload:
+        failed.append("account_learning_card_contract_missing")
+        return
+    if payload.get("contract_id") != "unified_three_layer_v2":
+        failed.append("account_learning_card_contract_id_invalid")
+    expected_layers = ["evidence", "content_deconstruction", "cross_card_method"]
+    layers = [item.get("id") for item in payload.get("layers", []) if isinstance(item, dict)]
+    if layers != expected_layers:
+        failed.append("account_learning_card_contract_layers_invalid")
+    expected_sections = [
+        "证据边界",
+        "为什么值得学习",
+        "多维分类与商业隔离",
+        "核心观点",
+        "内容结构",
+        "发布内容层学习",
+        "视频/图文表现层学习",
+        "金句与表达素材",
+        "可复用选题与案例",
+        "方法候选与可复用方法论",
+        "可复用模板",
+        "证据缺口与候选判断",
+    ]
+    sections = [item.get("heading") for item in payload.get("card_sections", []) if isinstance(item, dict)]
+    if sections != expected_sections:
+        failed.append("account_learning_card_contract_sections_invalid")
+    if set(payload.get("quote_types", [])) != {"原文金句", "提炼表达", "可复用句式"}:
+        failed.append("account_learning_card_contract_quote_types_invalid")
+    trigger_model = payload.get("trigger_model", {})
+    if set(trigger_model.get("a2_required_fields", [])) != {
+        "触发机制",
+        "适用关系",
+        "可迁移场景",
+        "不触发条件",
+    }:
+        failed.append("account_learning_card_contract_trigger_fields_invalid")
+    if not trigger_model.get("mechanism_match_dimensions") or not trigger_model.get("forbidden_triggers"):
+        failed.append("account_learning_card_contract_trigger_model_incomplete")
+    if payload.get("compatibility", {}).get("bulk_migration") is not False:
+        failed.append("account_learning_card_contract_bulk_migration_must_be_false")
+    invariants = payload.get("invariants", [])
+    if "系统规则不得包含任何账号专属内容" not in invariants:
+        failed.append("account_learning_card_contract_generic_rule_missing")
 
 
 def validate_controller_routes(controller: dict[str, Any], failed: list[str]) -> dict[str, int]:

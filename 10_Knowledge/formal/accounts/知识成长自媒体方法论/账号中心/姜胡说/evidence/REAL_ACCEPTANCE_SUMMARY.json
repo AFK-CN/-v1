@@ -1,0 +1,182 @@
+{
+  "schema_version": "2.2",
+  "status": "passed",
+  "report_file": "REAL_ACCEPTANCE_REPORT_2026-07-14.md",
+  "sample_method": "sha256_deterministic_stratified_sample",
+  "sampled_source_ids": [
+    "6974027046766906660",
+    "6975351888606792973",
+    "7160290829280529694",
+    "7205551175725223223",
+    "7215957293215599912",
+    "7268289079706455355",
+    "7282605006623116602",
+    "7541046418572660020",
+    "7541775752548224298",
+    "7585138228433341730",
+    "7641179134495886592"
+  ],
+  "ok": true,
+  "workflow_id": "jianghushuo-v2-full",
+  "skill_version": "2.2",
+  "generated_at": "2026-07-14T22:40:51+08:00",
+  "sampling": {
+    "method": "sha256_deterministic_stratified_sample",
+    "seed": "0852715281bcdde1ed75785c307326afe105667a461691b10abf53f447b8166a",
+    "reproducible": true
+  },
+  "scope": {
+    "planned": 598,
+    "evidence_ready": 548,
+    "blocked": 50
+  },
+  "contract": {
+    "title_v2_2_count": 548,
+    "unified_three_layer_v2_count": 548,
+    "coordinate_count": 548
+  },
+  "classification_consistency": {
+    "passed": true,
+    "checked_cards": 548,
+    "counts": {
+      "natural_content": 546,
+      "collaboration_ownership": 2
+    },
+    "mismatches": []
+  },
+  "strata": {
+    "normal_visual": {
+      "status": "passed",
+      "sample": [
+        {
+          "source_id": "7585138228433341730",
+          "coordinate": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7585138228433341730/video/frames/000031.jpg（仅帧号可回查，时间码待补）；仅用于回查媒体表现，不据此猜测品牌、商品或购买利益",
+          "artifact_exists": true,
+          "no_unverified_visual_claim": true
+        },
+        {
+          "source_id": "7541775752548224298",
+          "coordinate": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7541775752548224298/video/frames/000031.jpg（仅帧号可回查，时间码待补）；仅用于回查媒体表现，不据此猜测品牌、商品或购买利益",
+          "artifact_exists": true,
+          "no_unverified_visual_claim": true
+        },
+        {
+          "source_id": "7541046418572660020",
+          "coordinate": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7541046418572660020/video/frames/000031.jpg（仅帧号可回查，时间码待补）；本卡未对该帧作超出画面的品牌、商品或购买利益判断",
+          "artifact_exists": true,
+          "no_unverified_visual_claim": true
+        }
+      ]
+    },
+    "normal_long_transcript": {
+      "status": "passed",
+      "sample": [
+        {
+          "source_id": "7160290829280529694",
+          "transcript_coordinate": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7160290829280529694/video/transcript.srt:L3",
+          "normalized_char_count": 45669,
+          "transcript_exists": true
+        },
+        {
+          "source_id": "6975351888606792973",
+          "transcript_coordinate": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_6975351888606792973/video/transcript.srt:L3",
+          "normalized_char_count": 41089,
+          "transcript_exists": true
+        },
+        {
+          "source_id": "6974027046766906660",
+          "transcript_coordinate": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_6974027046766906660/video/transcript.srt:L3",
+          "normalized_char_count": 36618,
+          "transcript_exists": true
+        }
+      ]
+    },
+    "product_ad": {
+      "status": "not_applicable",
+      "reason": "全量 548 卡未发现明确的自披露商业合作标记；谈论广告、接广告或直播间不等于本条为广告。",
+      "population_count": 0,
+      "sample_source_ids": [],
+      "artifact": "commercial_learning/PRODUCT_AD_INDEX.jsonl"
+    },
+    "platform_project": {
+      "status": "not_applicable",
+      "reason": "全量 548 卡未发现挑战赛、全民任务或平台活动的明确项目标记。",
+      "population_count": 0,
+      "sample_source_ids": [],
+      "artifact": "commercial_learning/PLATFORM_PROJECT_INDEX.jsonl"
+    },
+    "collaboration_ownership": {
+      "status": "passed",
+      "reason": "检出采访或合作归属信号并保持待归属核验状态。",
+      "population_count": 2,
+      "sample_source_ids": [
+        "7641179134495886592",
+        "7282605006623116602"
+      ],
+      "artifact": "commercial_learning/COLLABORATION_OWNERSHIP_INDEX.jsonl"
+    },
+    "low_information_or_asr_risk": {
+      "status": "passed",
+      "lowest_ready_sample": [
+        {
+          "source_id": "7215957293215599912",
+          "normalized_char_count": 20,
+          "kept_candidate_only": true
+        },
+        {
+          "source_id": "7268289079706455355",
+          "normalized_char_count": 22,
+          "kept_candidate_only": true
+        },
+        {
+          "source_id": "7205551175725223223",
+          "normalized_char_count": 26,
+          "kept_candidate_only": true
+        }
+      ],
+      "blocked_count": 50,
+      "blocked_excluded_from_cards": true
+    }
+  },
+  "overview_scope_consistency": true,
+  "overview_scope": {
+    "consistent": true,
+    "planned": 598,
+    "evidence_ready": 548,
+    "blocked": 50
+  },
+  "semantic_consistency": {
+    "passed": true,
+    "checked_cards": 548,
+    "classification_mismatch_count": 0
+  },
+  "severe_issues": [
+    "stale_nas_mount_and_candidate_write_boundary_attempt"
+  ],
+  "expanded_audit": {
+    "completed": true,
+    "population_scanned": 548,
+    "candidate_records_scanned": 2740
+  },
+  "severe_issue_expanded_audit": {
+    "triggered": true,
+    "reason": "旧 NAS 挂载别名失效且学习器曾尝试把运行状态写回证据目录；已修复为真实 NAS 只读、候选区写入，并对 548 张当前证据就绪卡全量重建与审计。",
+    "population_scanned": 548
+  },
+  "errors": [],
+  "commercial_learning": {
+    "product_ads": {
+      "total": 0,
+      "audited": 0,
+      "artifact": "commercial_learning/PRODUCT_AD_INDEX.jsonl"
+    },
+    "platform_projects": {
+      "total": 0,
+      "audited": 0,
+      "artifact": "commercial_learning/PLATFORM_PROJECT_INDEX.jsonl"
+    }
+  },
+  "formal_write": false,
+  "formal_write_allowed": false,
+  "callable": false
+}

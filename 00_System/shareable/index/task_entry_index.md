@@ -24,6 +24,7 @@
 - 媒介分支：视频学习走 `scan -> select -> learn -> status`；图文学习从统一入口 `tools.kb.cli image-text-*` 走 `ingest -> structure -> scan -> select -> learn -> status`，结构化结果先进入候选资产和审核清单。
 - 粗学完成必须有 `账号概述.md`、`粗学与选题池.md`、`deep_learning_plan.json`；缺任何一个都要提醒用户，不宣布完成。
 - 脚本只能生成候选资产、学习卡、报告和状态；候选资产目标层是 `10_Knowledge/candidates/`，正式账号知识必须经过审核。
+- 阶段 1 在现有学习卡上派生结构机制与表达指纹观察，不给单卡增加强制字段；阶段 2 经多卡聚合和 V1/V2/V3 后，阶段 6 才生成候选态 `ACCOUNT_PRODUCTION_HANDOFF.json`，映射账号结构库、表达指纹、反 AI 规则、内容模板和验收项。
 - 默认使用通用 profile 化工具；旧账号专属命令只作为兼容入口，不作为新账号学习标准。
 
 ## 复盘和自我学习
@@ -50,6 +51,15 @@
 - 可选：不导出评论时加 `--no-comments`；指定平台时加 `--platform douyin/xhs/weibo/bilibili/kuaishou/tieba/zhihu`。
 - 边界：`数据/sqlite_tables.db` 只读；只写 `90_Temp/exports/creator_db/` 导出文件和用户明确要求创建的飞书表格。
 - 输出：飞书链接、内容数量、评论数量、分享权限读回状态、本地 manifest 路径；脚本返回前不需要实时陪跑。
+
+## 知识图谱
+
+- 触发：`看知识图谱`、`看系统关系`、`查账号关系`、`查学习流程`、`图谱查询`。
+- 读取：`00_System/shareable/config/graph_sources.json`、`00_System/shareable/config/graph_views.json`、`00_System/shareable/rules/知识图谱构建与调用规则.md`。
+- 构建：`.venv/bin/python -m tools.kb.cli --root . graph build`；状态：`.venv/bin/python -m tools.kb.cli --root . graph status`。
+- 查询：`.venv/bin/python -m tools.kb.cli --root . graph query "问题" --view system/knowledge/accounts/workflows/cross_layer`。
+- 本地 Web：`.venv/bin/python -m tools.kb.cli --root . graph web`，默认地址 `http://127.0.0.1:8790`。
+- 边界：正式知识从索引取清单；候选层只显示汇总；原始、私有、归档、临时和 runtime 不进入输入。
 
 ## 系统审计
 

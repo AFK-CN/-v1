@@ -1,0 +1,10 @@
+{"source_id":"7157845246875798814","review_mode":"asr_quality_screened","retained_quotes":["同学们好","我走错班了"],"rejected_quotes":[]}
+{"source_id":"7157372128663309575","review_mode":"asr_quality_screened","retained_quotes":["我的梦想是当保安队长","蓝盒的床垫"],"rejected_quotes":[]}
+{"source_id":"7156850805696417032","review_mode":"asr_quality_screened","retained_quotes":["你们有完没完了","男人专属"],"rejected_quotes":[]}
+{"source_id":"7155901897591901471","review_mode":"asr_quality_screened","retained_quotes":["女人 你这是在玩火"],"rejected_quotes":[{"text":"高保时面霜","reason":"ASR将科颜氏高保湿面霜错转，不保留为产品原话，品牌与品类以结尾画面为准。"}]}
+{"source_id":"7155304931602337031","review_mode":"asr_quality_screened","retained_quotes":["把手机给我玩"],"rejected_quotes":[{"text":"东方 你脱鞋也是反的","reason":"ASR将人物称呼错转为东方，角色身份无法由该句可靠确认。"}]}
+{"source_id":"7154319089714892069","review_mode":"asr_quality_screened","retained_quotes":["没有梯子真是不敢下去","我手机不也丢了"],"rejected_quotes":[]}
+{"source_id":"7153811332498754853","review_mode":"asr_quality_screened","retained_quotes":["给钱就行"],"rejected_quotes":[{"text":"恋爱老就是猪脑","reason":"ASR将恋爱脑错转为恋爱老，核心文字梗只由画面菜单与语义确认。"}]}
+{"source_id":"7152347442929732878","review_mode":"asr_quality_screened","retained_quotes":["我还没买呢","我给你转过去"],"rejected_quotes":[]}
+{"source_id":"7150897850333875464","review_mode":"asr_quality_screened","retained_quotes":["直接见面"],"rejected_quotes":[{"text":"我是岳老","reason":"ASR将月老错转为岳老，人物身份以造型、字幕和剧情功能为准。"}]}
+{"source_id":"7148994103076850975","review_mode":"asr_quality_screened","retained_quotes":["我今天得早点睡","3点半了"],"rejected_quotes":[]}

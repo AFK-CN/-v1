@@ -1,0 +1,107 @@
+{
+  "method_id": "lz-m2-control-right-reversal",
+  "executor_input_excludes_expected_answer": true,
+  "evaluation_basis": "structured mechanism facts, not keyword matching",
+  "test_cases": [
+    {
+      "id": "lz-m2-control-right-reversal-case-01",
+      "type": "should_trigger",
+      "prompt": "租客要求房东逐项证明房屋价值，并掌握看房提问、验收和是否签约的决定权。",
+      "mechanism_facts": {
+        "transferred_rights": 1,
+        "sustained_actions": 3,
+        "process_changed": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-02",
+      "type": "should_not_trigger",
+      "prompt": "标题写‘反客为主’，角色只说了一句强硬台词，流程照旧。",
+      "mechanism_facts": {
+        "transferred_rights": 0,
+        "sustained_actions": 0,
+        "process_changed": false,
+        "content_axis": "normal"
+      },
+      "decoy_kind": "lexical_overlap_without_mechanism"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-03",
+      "type": "edge_case",
+      "prompt": "学生顶嘴一次，但老师继续提问、评分和决定处罚。",
+      "mechanism_facts": {
+        "transferred_rights": 1,
+        "sustained_actions": 1,
+        "process_changed": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-04",
+      "type": "cross_scene_transfer",
+      "prompt": "病人反向审核体检机构，连续要求资质、流程和结果解释后才决定是否购买。",
+      "mechanism_facts": {
+        "transferred_rights": 2,
+        "sustained_actions": 3,
+        "process_changed": true,
+        "content_axis": "normal"
+      },
+      "source_scene": "招聘面试",
+      "target_scene": "恋爱关系协商",
+      "mechanism_preserved": true
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-05",
+      "type": "should_not_trigger",
+      "prompt": "把家庭聚餐完整拍成董事会流程，但发言权和审批权没有转移。",
+      "mechanism_facts": {
+        "transferred_rights": 0,
+        "sustained_actions": 0,
+        "process_changed": false,
+        "mapped_layers": 4,
+        "sustained_rule": true,
+        "settlement_affected": true,
+        "content_axis": "normal"
+      },
+      "sibling_method_id": "lz-m1-system-transfer"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-06",
+      "type": "ablation",
+      "prompt": "删除夺权动作，只保留原弱势方语气更凶和最后身份揭示。",
+      "mechanism_facts": {
+        "transferred_rights": 0,
+        "sustained_actions": 2,
+        "process_changed": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-07",
+      "type": "composition",
+      "prompt": "面试者夺取提问权，并在四轮问答中逐步提高公司证明成本。",
+      "mechanism_facts": {
+        "transferred_rights": 1,
+        "sustained_actions": 4,
+        "process_changed": true,
+        "fixed_rule": true,
+        "rounds": 4,
+        "escalation_dimensions": 2,
+        "ordered_intensity": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-08",
+      "type": "commercial_contamination",
+      "prompt": "品牌短片让消费者反向审核产品，结构成立但属于商业内容。",
+      "mechanism_facts": {
+        "transferred_rights": 1,
+        "sustained_actions": 3,
+        "process_changed": true,
+        "content_axis": "commercial"
+      }
+    }
+  ]
+}

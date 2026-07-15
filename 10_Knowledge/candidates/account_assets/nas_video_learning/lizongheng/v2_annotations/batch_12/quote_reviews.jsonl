@@ -1,0 +1,10 @@
+{"source_id":"7490030238697540918","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"我们寝室有规定","reason":"ASR语境完整但整段查寝转写错词密集，不作引语。"},{"text":"我就是检视长","reason":"ASR将寝室长转写为检视长，字面失真。"}]}
+{"source_id":"7488197351031475475","review_mode":"asr_quality_screened","retained_quotes":["根本没录音"],"rejected_quotes":[{"text":"今天是余仁节","reason":"ASR将愚人节转写为余仁节。"}]}
+{"source_id":"7486789767821036863","review_mode":"asr_quality_screened","retained_quotes":["所以我买个零跑嘛","老板被员工开除了"],"rejected_quotes":[]}
+{"source_id":"7484836888973528361","review_mode":"asr_quality_screened","retained_quotes":["面试的时候准备说的"],"rejected_quotes":[{"text":"你这是简历啊 命令啊","reason":"ASR将病历转写为命令，机关字面失真。"}]}
+{"source_id":"7484218738481401100","review_mode":"asr_quality_screened","retained_quotes":["因为我想下班","我六点下班 我却不能六点到家呢"],"rejected_quotes":[]}
+{"source_id":"7483454376640548107","review_mode":"asr_quality_screened","retained_quotes":["你心里不感觉到羞耻吗","七天无理由嘛"],"rejected_quotes":[]}
+{"source_id":"7483103390625516839","review_mode":"asr_quality_screened","retained_quotes":["因为我不在的公司群里啊","你是来面试的"],"rejected_quotes":[]}
+{"source_id":"7482309665527844115","review_mode":"asr_quality_screened","retained_quotes":["这句没有口音的就是口音","最重要的是别再说东北话了"],"rejected_quotes":[]}
+{"source_id":"7481613117500165439","review_mode":"asr_quality_screened","retained_quotes":["你这个班才上二十五分钟吧"],"rejected_quotes":[{"text":"吐豆是凑饭 准备吃","reason":"ASR将土豆和句子语序转写错乱。"}]}
+{"source_id":"7479382209451871542","review_mode":"asr_quality_screened","retained_quotes":["我记得这款车性价比就不错"],"rejected_quotes":[{"text":"我成小冠了","reason":"ASR将销冠转写为小冠，不作正式引语。"}]}

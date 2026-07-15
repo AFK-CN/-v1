@@ -1,0 +1,10 @@
+{"source_id": "7126488959542152488", "review_mode": "asr_quality_screened", "retained_quotes": ["等到天黑也沒一個人來"], "rejected_quotes": [{"text": "原來是我被放歌詞了", "reason": "ASR将‘放鸽子’错转为‘放歌词’，反转含义只由标题、横幅和画面确认。"}]}
+{"source_id": "7125995201667058944", "review_mode": "asr_quality_screened", "retained_quotes": ["一分钟证明你们是单身狗"], "rejected_quotes": [{"text": "我已经在上五年了", "reason": "句义不完整且与单身年限语境不通，疑似ASR漏词，不作为人物原话。"}]}
+{"source_id": "7123156785032088866", "review_mode": "asr_quality_screened", "retained_quotes": ["我媳妇不让我和别人说话"], "rejected_quotes": [{"text": "我媳妇一半我一半", "reason": "该句缺少可理解的宾语或分配对象，无法由画面确认具体含义。"}]}
+{"source_id": "7122656151740615970", "review_mode": "asr_quality_screened", "retained_quotes": ["我妈不让我吃辣的", "结婚以后就不养了"], "rejected_quotes": []}
+{"source_id": "7121547737086184704", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "我就不是田狗", "reason": "ASR将‘舔狗’错转为‘田狗’，身份词以标题与赛场字幕为准。"}, {"text": "夏天这么热喝", "reason": "该句被截断且未包含完整产品判断，不能作为饮品卖点原话。"}]}
+{"source_id": "7120060677464657152", "review_mode": "asr_quality_screened", "retained_quotes": ["我虽然打呼噜", "我从来都是把外放开到最大上"], "rejected_quotes": []}
+{"source_id": "7119319533495520512", "review_mode": "asr_quality_screened", "retained_quotes": ["对我是高管", "我现在已经月两千五"], "rejected_quotes": []}
+{"source_id": "7118581510269062415", "review_mode": "asr_quality_screened", "retained_quotes": ["朋友比对象重要"], "rejected_quotes": [{"text": "梦魂我从小玩的大的", "reason": "ASR将《梦幻西游》相关说法错转为‘梦魂’，游戏名称以标题与手机界面为准。"}]}
+{"source_id": "7117831604109610275", "review_mode": "asr_quality_screened", "retained_quotes": ["其实我根本就没来电话"], "rejected_quotes": [{"text": "这就是什么", "reason": "句子在此处被截断且没有独立语义，无法支持表演方法判断。"}]}
+{"source_id": "7116784643399044392", "review_mode": "asr_quality_screened", "retained_quotes": ["我什么都能扛", "他都拿去舔别人去了"], "rejected_quotes": []}

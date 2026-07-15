@@ -1,0 +1,10 @@
+{"source_id":"7584338480814214451","review_mode":"asr_quality_screened","retained_quotes":["Do you love me"],"rejected_quotes":[{"text":"要用音乐与交流","reason":"语义明显异常，疑似ASR将其他词误识别为音乐，不作为原文金句。"}]}
+{"source_id":"7583582164818857243","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"你知道我等的你多久","reason":"语序异常，当前无法回看原视频确认，不作为原文金句。"},{"text":"这也是我特意 从隔壁给你买","reason":"句子残缺且含异常停顿，当前无法回看原视频确认。"}]}
+{"source_id":"7582957244796472585","review_mode":"asr_quality_screened","retained_quotes":["请二位新人上台"],"rejected_quotes":[{"text":"能不能胖我俩点好","reason":"语义明显异常，疑似婚礼口误与ASR错字叠加，不作为可学习金句。"}]}
+{"source_id":"7582133198600146176","review_mode":"asr_quality_screened","retained_quotes":["节日限定"],"rejected_quotes":[{"text":"私人飞机得提前申请网线","reason":"网线与上下文冲突，属于明显ASR错字，不擅自改写成原话。"}]}
+{"source_id":"7576543106938930611","review_mode":"asr_quality_screened","retained_quotes":["有病的是他"],"rejected_quotes":[{"text":"你只需要肌肤三个字","reason":"肌肤与心理开导上下文冲突，属于明显ASR错字。"}]}
+{"source_id":"7575029237842473354","review_mode":"asr_quality_screened","retained_quotes":["那太好了 那这会儿我不用扣了吧"],"rejected_quotes":[{"text":"我改居家帮我","reason":"句子残缺且语义不成立，当前无法回看原视频确认。"}]}
+{"source_id":"7573245859657606382","review_mode":"asr_quality_screened","retained_quotes":["肯定排第一啊","那第二是谁"],"rejected_quotes":[]}
+{"source_id":"7572424378610028955","review_mode":"asr_quality_screened","retained_quotes":["这杯还是大","那哪有比这更小的杯"],"rejected_quotes":[]}
+{"source_id":"7571689449059538313","review_mode":"asr_quality_screened","retained_quotes":["我预判难度的预判","这一波我在大气层"],"rejected_quotes":[]}
+{"source_id":"7569572309780171750","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"我这边可乐这么好喝呢","reason":"语序存在歧义，短文本样本主要依赖视觉，暂不作为金句。"},{"text":"你刚才喝过水的是吗","reason":"句意与错杯结论不完全一致，当前无法回看原视频确认。"}]}

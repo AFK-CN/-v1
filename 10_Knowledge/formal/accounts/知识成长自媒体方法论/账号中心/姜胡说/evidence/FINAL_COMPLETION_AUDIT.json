@@ -1,0 +1,91 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "jianghushuo-v2-full",
+  "generated_at": "2026-07-14T22:48:14+08:00",
+  "status": "completed_candidate_delivery",
+  "ok": true,
+  "skill_version": "2.2",
+  "source_scope": {
+    "planned": 598,
+    "evidence_ready": 548,
+    "blocked": 50,
+    "authoritative_nas": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383",
+    "removed_legacy_only_source_ids": [
+      "7103528845353012488",
+      "7185541439814651194"
+    ]
+  },
+  "batch_audit": {
+    "expected_batches": 55,
+    "passed_batches": 55,
+    "cards": 548,
+    "substantive_cards": 548,
+    "candidate_records": 2740,
+    "max_pair_similarity": 0.505455,
+    "similarity_threshold": 0.72
+  },
+  "full_audit": {
+    "contract_passed": 548,
+    "quote_supported": 548,
+    "high_similarity_pairs": 0,
+    "repeated_core_lines": 0,
+    "duplicate_candidate_summaries": 0,
+    "excessive_legacy_overlap": 0,
+    "max_legacy_overlap": 0.64148,
+    "classification_mismatches": 0
+  },
+  "classification": {
+    "natural_content": 546,
+    "collaboration_ownership_pending": 2,
+    "product_ads": 0,
+    "platform_projects": 0
+  },
+  "method_delivery": {
+    "clusters": 24,
+    "verified_methods": 10,
+    "rejected_or_evidence_gate": 14,
+    "ria_methods": 10,
+    "pressure_cases": 80,
+    "pressure_cases_passed": 80
+  },
+  "legacy_card_downgrade": {
+    "candidate_backup_cards": 127,
+    "formal_cards": 0,
+    "callable": false
+  },
+  "system_pending": {
+    "legacy_cards_promotion_decision": 127,
+    "blocked_evidence_acquisition": 50,
+    "collaboration_ownership_attribution": 2
+  },
+  "verification": {
+    "account_learning_validate": true,
+    "unit_tests_run": 294,
+    "unit_tests_passed": 294,
+    "validate_system": true,
+    "system_boundary_violations": 0,
+    "boundary_dry_run_changed_files": 0,
+    "legacy_path_references": 0
+  },
+  "memory_candidate": {
+    "memory_id": "mem_487eaf075d4a",
+    "status": "pending",
+    "captured": true,
+    "direct_long_term_write": false
+  },
+  "formal_write": false,
+  "formal_write_allowed": false,
+  "callable": false,
+  "formal_promotion_requires_explicit_user_approval": true,
+  "evidence": [
+    "PIPELINE_STATE.json",
+    "BATCH_GATE_STATUS.json",
+    "REAL_ACCEPTANCE_SUMMARY.json",
+    "audit/full_relearning_audit.json",
+    "audit/stage2_clustering_audit.json",
+    "audit/stage3_6_audit.json",
+    "SYSTEM_PENDING_ITEMS.json",
+    "promotion_manifest.json",
+    "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/downgrade_manifest.json"
+  ]
+}

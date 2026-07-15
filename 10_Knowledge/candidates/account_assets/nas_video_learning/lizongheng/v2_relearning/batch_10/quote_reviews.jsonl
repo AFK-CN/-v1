@@ -1,0 +1,10 @@
+{"source_id": "7510068436476480819", "review_mode": "asr_quality_screened", "retained_quotes": ["一个月八千 您看可以吗", "一言为定"], "rejected_quotes": []}
+{"source_id": "7509225154377321778", "review_mode": "asr_quality_screened", "retained_quotes": ["30秒钟之内 把这个平板卖给我", "恭喜你成为我的上司"], "rejected_quotes": []}
+{"source_id": "7508292805878713638", "review_mode": "asr_quality_screened", "retained_quotes": ["咱们公司水太深了", "我不会游泳"], "rejected_quotes": []}
+{"source_id": "7507856541854338330", "review_mode": "asr_quality_screened", "retained_quotes": ["这个人啊 他不是我", "这个黑锅我不背"], "rejected_quotes": []}
+{"source_id": "7507589779522309402", "review_mode": "asr_quality_screened", "retained_quotes": ["这些你都是怎么知道的"], "rejected_quotes": [{"text": "不你说的嘛", "reason": "句首疑似缺少否定判断词，ASR语法不完整。"}]}
+{"source_id": "7507066441965112586", "review_mode": "asr_quality_screened", "retained_quotes": ["回答正确", "我不知道"], "rejected_quotes": []}
+{"source_id": "7505260893832449307", "review_mode": "asr_quality_screened", "retained_quotes": ["你可能不认识我", "但现在你都看过了"], "rejected_quotes": []}
+{"source_id": "7504752369335848242", "review_mode": "asr_quality_screened", "retained_quotes": ["可乐总不能按口算吧", "时间就是金钱"], "rejected_quotes": []}
+{"source_id": "7503626944514002186", "review_mode": "asr_quality_screened", "retained_quotes": ["没事你不用等我", "现在这是我的家"], "rejected_quotes": []}
+{"source_id": "7501249219760819519", "review_mode": "asr_quality_screened", "retained_quotes": ["你还买了个表", "我买不买表我也没钱呢"], "rejected_quotes": []}

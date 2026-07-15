@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "errors": [],
+  "total_sources": 548,
+  "max_method_cluster_source_count": 23,
+  "max_method_cluster_share": 0.041971,
+  "unresolved_source_count": 404,
+  "unresolved_source_share": 0.737226,
+  "evidence_gate_cluster_count": 13,
+  "max_evidence_gate_source_count": 83,
+  "max_evidence_gate_source_share": 0.15146,
+  "verified_and_rejected_both_present": true
+}

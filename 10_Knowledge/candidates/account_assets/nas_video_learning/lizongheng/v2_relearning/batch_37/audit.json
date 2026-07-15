@@ -1,0 +1,147 @@
+{
+  "batch_id": "batch_37",
+  "schema_version": "2.1",
+  "generated_at": "2026-07-14T01:07:31+08:00",
+  "expected_count": 10,
+  "assessment_count": 10,
+  "passed_card_count": 10,
+  "failed_card_count": 0,
+  "candidate_counts": {
+    "positioning": 4,
+    "topics": 6,
+    "structures": 9,
+    "expression": 3,
+    "counterexamples": 6
+  },
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "gate_rule": "10张统一十二段学习卡、10条逐条五视角、逐条ASR引用质量筛查、五类候选非空且双向引用一致；任一项失败整批退回。",
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "cluster_ready_noncallable_v2_3",
+  "user_review_status": "pending",
+  "unified_card_count": 10,
+  "unified_card_passed_count": 10,
+  "unified_card_audits": [
+    {
+      "source_id": "7115992109492079913",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7115324667472268585",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7114497506540571944",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7113390852357082408",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7112779670956854562",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7111989786201656616",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7111165499534216448",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7110773605176266019",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7109849809120513321",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7109426692552264960",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "7115992109492079913",
+    "7115324667472268585",
+    "7114497506540571944",
+    "7113390852357082408",
+    "7112779670956854562",
+    "7111989786201656616",
+    "7111165499534216448",
+    "7110773605176266019",
+    "7109849809120513321",
+    "7109426692552264960"
+  ],
+  "input_hashes": {
+    "legacy_cards": "1ebc0e49cb78d9310508b410f12153232ca0594e5691b55a5c183971160a95a4",
+    "assessments": "2cf5219e3fb999fa93bd033f7d77890f6f80a76373df9f5527500a91bd267133",
+    "quote_reviews": "c2ee4cce87afa92b09cf6b7a1923b822f33311265babdbde4c33bb47eba70d1d"
+  },
+  "cards": [
+    {
+      "source_id": "7115992109492079913",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7115324667472268585",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7114497506540571944",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7113390852357082408",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7112779670956854562",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7111989786201656616",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7111165499534216448",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7110773605176266019",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7109849809120513321",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7109426692552264960",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "formal_ingest_allowed": false
+}

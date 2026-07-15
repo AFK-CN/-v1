@@ -217,6 +217,84 @@ class VideoLearningAccountIngestTests(unittest.TestCase):
         self.assertNotIn("姜胡说", anti_ai)
         self.assertNotIn("普通人破局", anti_ai)
 
+    def test_anti_ai_style_uses_account_specific_direction_summaries_and_titles(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            config = AccountIngestConfig.for_profile(
+                profile_id="style_profile",
+                account_id="style_account",
+                account_name="风格测试账号",
+                platform="小红书",
+                formal_account_dir=Path("10_Knowledge/formal/accounts/测试账号中心/风格测试账号"),
+            )
+            learned = root / config.learned_base / "护肤"
+            cards = learned / "cards"
+            cards.mkdir(parents=True)
+            (learned / "方向方法论总结.md").write_text(
+                "\n".join(
+                    [
+                        "# 护肤方向方法论总结",
+                        "",
+                        "## 1. 方向核心判断",
+                        "",
+                        "从油痘肌真实问题切入，给出手把手步骤，并用前后状态变化承接信任。",
+                        "",
+                        "## 3. 高频选题结构",
+                        "",
+                        "- 主结构：肤质问题 -> 护理动作 -> 可观察变化。",
+                        "- 高频边界：补适用肤质、成本、风险或个人差异，避免绝对功效承诺。",
+                        "- 真实动作：跟练、修护、建立耐受、观察变化。",
+                    ]
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            (learned / "粗扫内容和选题.md").write_text("# 护肤粗扫\n", encoding="utf-8")
+            (cards / "01_style_source_油痘肌保姆级修护步骤.md").write_text(
+                "\n".join(
+                    [
+                        "# 视频深度学习卡：油痘肌保姆级修护步骤",
+                        "",
+                        "source_id: style_source",
+                        "原视频链接：https://www.xiaohongshu.com/explore/style_source",
+                        "账号：风格测试账号",
+                        "平台：小红书",
+                        "主方向：护肤",
+                        "状态：confirmed_learned",
+                        "",
+                        "## 10. 入库判断",
+                        "",
+                        "- 待验证：保留为候选学习卡；审核后再进入正式知识库。",
+                    ]
+                ),
+                encoding="utf-8",
+            )
+
+            ingest_directions(root, config, ["护肤"])
+            anti_ai = (root / config.formal_account_dir / "减少AI味输出规则.md").read_text(encoding="utf-8")
+
+        self.assertIn("状态：formal_ingested", anti_ai)
+        self.assertIn("## 1. 核心风格", anti_ai)
+        self.assertIn("## 2. 常用结构", anti_ai)
+        self.assertIn("### 2.1 判断先行", anti_ai)
+        self.assertIn("### 2.2 具体问题切入", anti_ai)
+        self.assertIn("### 2.3 账号专属视角", anti_ai)
+        self.assertIn("### 2.4 行动/边界收束", anti_ai)
+        self.assertIn("## 3. 禁用写法", anti_ai)
+        self.assertIn("## 4. 批量输出防雷同", anti_ai)
+        self.assertIn("## 5. 真实感来源", anti_ai)
+        self.assertIn("## 6. 输出后自检", anti_ai)
+        self.assertIn("风格测试账号的表达像是在把「肤质问题 -> 护理动作 -> 可观察变化」讲成可判断、可跟做、可追溯的内容", anti_ai)
+        self.assertIn("油痘肌保姆级修护步骤", anti_ai)
+        self.assertIn("跟练、修护、建立耐受", anti_ai)
+        self.assertIn("肤质问题 -> 护理动作 -> 可观察变化", anti_ai)
+        self.assertIn("补适用肤质、成本、风险或个人差异", anti_ai)
+        self.assertIn("这一条能否指向正式方向或 source_id？", anti_ai)
+        self.assertNotIn("围绕具体肤质/变美问题给步骤、边界和观察反馈", anti_ai)
+        self.assertNotIn("从普通人具体卡点出发", anti_ai)
+        self.assertNotIn("## 账号专属风格摘要", anti_ai)
+        self.assertNotIn("### 方向风格证据", anti_ai)
+
     def test_all_approved_directions_accepts_machine_audit_cards_shape(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)

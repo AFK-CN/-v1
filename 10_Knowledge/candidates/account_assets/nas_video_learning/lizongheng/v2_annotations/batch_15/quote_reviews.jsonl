@@ -1,0 +1,10 @@
+{"source_id":"7444757325342199074","review_mode":"asr_quality_screened","retained_quotes":["啥时候回来的","大过年了"],"rejected_quotes":[]}
+{"source_id":"7444488197377101116","review_mode":"asr_quality_screened","retained_quotes":["我一个月挣三千","拒绝我也正常"],"rejected_quotes":[]}
+{"source_id":"7444014125962792232","review_mode":"asr_quality_screened","retained_quotes":["妈呀 这还有两个月过年了","谁别问我儿子"],"rejected_quotes":[]}
+{"source_id":"7443374846681140480","review_mode":"asr_quality_screened","retained_quotes":["这是过年人物开始解冻了","脚都忘解冻了"],"rejected_quotes":[]}
+{"source_id":"7442623757321047296","review_mode":"asr_quality_screened","retained_quotes":["咱们分手吧","那麻将怎么调的"],"rejected_quotes":[]}
+{"source_id":"7441421058281917736","review_mode":"asr_quality_screened","retained_quotes":["我要是老板就好了","我要是我自己就好了"],"rejected_quotes":[]}
+{"source_id":"7435164189984951578","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7432987691391749428","review_mode":"asr_quality_screened","retained_quotes":["我不是一个人","所以我是四个人"],"rejected_quotes":[]}
+{"source_id":"7431419332342713651","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"Ice cold","reason":"英文背景音乐转写，不是角色台词。"},{"text":"fight for that white goat","reason":"ASR对英文歌词的转写不稳定，且不承载视频剧情语义。"}]}
+{"source_id":"7429561778092215586","review_mode":"asr_quality_screened","retained_quotes":["我是你女朋友的爹"],"rejected_quotes":[{"text":"我把飞客新出的优异T恤刀","reason":"ASR将飞科及产品名转写错误，只可用于理解广告语境，不可直接引用。"}]}

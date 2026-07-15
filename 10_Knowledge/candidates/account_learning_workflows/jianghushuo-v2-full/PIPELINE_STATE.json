@@ -1,0 +1,128 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "jianghushuo-v2-full",
+  "account_name": "姜胡说",
+  "profile_id": "jianghushuo",
+  "source_scope": "SQLite 姜胡说 598 条；当前正确 NAS /Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383：548 条证据就绪并按 Skill v2.2 完成分批重学，50 条证据阻断",
+  "media_branches": [
+    "video"
+  ],
+  "method": "RIA-TV++ adapted for account learning",
+  "status": "completed",
+  "current_stage": "completed",
+  "formal_write_allowed": false,
+  "created_at": "2026-07-12T17:46:47",
+  "updated_at": "2026-07-14T22:41:26",
+  "stages": [
+    {
+      "id": "stage0_account_overview",
+      "name": "整体账号理解",
+      "status": "completed",
+      "completed_at": "2026-07-12T22:09:43",
+      "user_confirmed": true,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage0_account_overview",
+        "errors": [],
+        "metrics": {}
+      }
+    },
+    {
+      "id": "stage1_parallel_extraction",
+      "name": "五视角并行提取",
+      "status": "completed",
+      "completed_at": "2026-07-12T23:11:38",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage1_parallel_extraction",
+        "errors": [],
+        "metrics": {
+          "candidate_count": 2740,
+          "real_acceptance_status": "passed"
+        }
+      }
+    },
+    {
+      "id": "stage2_triple_verification",
+      "name": "三重验证筛选",
+      "status": "completed",
+      "completed_at": "2026-07-13T21:18:00",
+      "user_confirmed": true,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage2_triple_verification",
+        "errors": [],
+        "metrics": {
+          "candidate_count": 2740,
+          "cluster_count": 24,
+          "verified_count": 10,
+          "rejected_count": 14
+        }
+      }
+    },
+    {
+      "id": "stage3_ria_construction",
+      "name": "RIA++ 方法单元构造",
+      "status": "completed",
+      "completed_at": "2026-07-13T21:21:45",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage3_ria_construction",
+        "errors": [],
+        "metrics": {
+          "method_count": 10
+        }
+      }
+    },
+    {
+      "id": "stage4_method_linking",
+      "name": "方法链接与知识图谱",
+      "status": "completed",
+      "completed_at": "2026-07-13T21:21:45",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage4_method_linking",
+        "errors": [],
+        "metrics": {}
+      }
+    },
+    {
+      "id": "stage5_pressure_test",
+      "name": "触发与边界压力测试",
+      "status": "completed",
+      "completed_at": "2026-07-13T21:21:45",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage5_pressure_test",
+        "errors": [],
+        "metrics": {
+          "method_count": 10
+        }
+      }
+    },
+    {
+      "id": "stage6_learning_delivery",
+      "name": "学习交付与入库候选",
+      "status": "completed",
+      "completed_at": "2026-07-13T21:21:45",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "jianghushuo-v2-full",
+        "stage_id": "stage6_learning_delivery",
+        "errors": [],
+        "metrics": {}
+      }
+    }
+  ]
+}

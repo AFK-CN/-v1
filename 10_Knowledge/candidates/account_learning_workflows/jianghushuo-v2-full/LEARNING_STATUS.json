@@ -1,0 +1,12 @@
+{
+  "workflow_id": "jianghushuo-v2-full",
+  "status": "stage1_evidence_ready_completed",
+  "completed_cards": 548,
+  "priority_relearning_scope": 127,
+  "full_nas_plan_scope": 598,
+  "latest_batch": "batch_55",
+  "latest_batch_ok": true,
+  "formal_write_allowed": false,
+  "updated_at": "2026-07-14T22:40:30+08:00",
+  "full_audit_ok": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "ready_for_review",
+  "method_ids": [
+    "lz-m1-system-transfer",
+    "lz-m2-control-right-reversal",
+    "lz-m3-semantic-reinterpretation",
+    "lz-m4-fixed-rule-escalation"
+  ],
+  "ad_integration_artifacts": [
+    "ad_integration/AD_INTEGRATION_METHODS.md",
+    "ad_integration/AD_INTEGRATION_INDEX.jsonl",
+    "ad_integration/AD_SOURCE_AUDIT_INDEX.jsonl",
+    "ad_integration/cards/",
+    "ad_integration/MANUAL_VISUAL_COORDINATE_AUDIT.md",
+    "ad_integration/PLATFORM_PROJECT_METHODS.md",
+    "ad_integration/PLATFORM_PROJECT_INDEX.jsonl",
+    "ad_integration/PLATFORM_SOURCE_AUDIT_INDEX.jsonl",
+    "ad_integration/platform_cards/",
+    "ad_integration/PERFORMANCE_METHOD_ANALYSIS.md",
+    "ad_integration/PERFORMANCE_METHOD_ANALYSIS.json"
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "account_name": "李宗恒",
+  "workflow_id": "lizongheng-v2-full",
+  "pressure_test_pass_rate": 1.0
+}

@@ -1,0 +1,59 @@
+{
+  "account": "小森林的小世界",
+  "generated_at": "2026-07-14T23:27:03+08:00",
+  "final_gate": "pass_with_deferred_external_evidence",
+  "source_total": 428,
+  "deep_learned_count": 379,
+  "deferred_evidence_count": 49,
+  "batch_count": 43,
+  "passed_batch_count": 43,
+  "unified_card_contract": "unified_three_layer_v2",
+  "twelve_section_cards": 379,
+  "section_coverage": {
+    "证据边界": 379,
+    "为什么值得学习": 379,
+    "多维分类与商业隔离": 379,
+    "核心观点": 379,
+    "内容结构": 379,
+    "发布内容层学习": 379,
+    "视频/图文表现层学习": 379,
+    "金句与表达素材": 379,
+    "可复用选题与案例": 379,
+    "方法候选与可复用方法论": 379,
+    "可复用模板": 379,
+    "证据缺口与候选判断": 379
+  },
+  "median_card_chars": 5800,
+  "unique_card_hashes": 379,
+  "former_formal_cards_backed_up_as_candidates": 87,
+  "superseded_compact_candidate_cards_registered": 428,
+  "system_pending_count": 49,
+  "all_content_learned": false,
+  "evidence_recovery_audit": {
+    "gate": "pass_as_system_pending",
+    "metrics": {
+      "pending_count": 49,
+      "nas_item_exists_count": 1,
+      "sqlite_rows_found": 49,
+      "sqlite_desc_ge_60_chars": 48,
+      "sqlite_image_list_present": 49,
+      "sqlite_video_url_present": 33,
+      "not_learned_not_callable": 49,
+      "relearn_trigger_registered": 49
+    }
+  },
+  "cross_card_revalidation": {
+    "gate": "superseded_by_skill_v2_2",
+    "legacy_gate": "fail",
+    "passed_method_count": 4,
+    "method_count": 6,
+    "authoritative_audit": "../V22_FINAL_AUDIT.json"
+  },
+  "anti_laziness_audit": {
+    "gate": "pass",
+    "unique_source_text_hashes": 379,
+    "unique_evidence_anchor_signatures": 379
+  },
+  "formal_ingest_allowed": false,
+  "errors": []
+}

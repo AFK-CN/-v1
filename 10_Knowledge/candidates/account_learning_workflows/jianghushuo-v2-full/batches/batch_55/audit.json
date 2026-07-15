@@ -1,0 +1,32 @@
+{
+  "ok": true,
+  "batch_id": "batch_55",
+  "generated_at": "2026-07-14T22:38:40+08:00",
+  "expected_count": 8,
+  "card_count": 8,
+  "unified_card_passed_count": 8,
+  "candidate_counts": {
+    "positioning": 8,
+    "topics": 8,
+    "structures": 8,
+    "expression": 8,
+    "counterexamples": 8
+  },
+  "card_errors": {},
+  "formal_write_allowed": false,
+  "stage1_scope_status": "partial_batch_in_progress",
+  "raw_counts": {
+    "douyin_contents": 0,
+    "xhs_contents": 0,
+    "douyin_comments": 0,
+    "creators": 0,
+    "unknown": 0,
+    "sqlite_candidates": 1571
+  },
+  "dedupe_stats": {
+    "duplicate_source_id": 0,
+    "duplicate_text": 0,
+    "unique_records": 1571
+  },
+  "failed_files": []
+}

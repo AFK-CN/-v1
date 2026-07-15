@@ -1,0 +1,36 @@
+{
+  "skill": "xsl-cluster-version_iteration",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "xsl-cluster-version_iteration-positive",
+      "type": "should_trigger",
+      "prompt": "任务要求指出旧方案的保留与淘汰，并且说明新版调整依据，是否调用当前方法？"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "标题出现《版本迭代与旧方案复测》相关题材词，但没有任何执行关系，是否调用？"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到指出旧方案的保留与淘汰，没有第二个机制信号，是否足够？"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "多年经验更新",
+      "target_scene": "跨领域-跨领域方案复盘",
+      "mechanism_preserved": true,
+      "prompt": "换了平台和题材，但仍需指出旧方案的保留与淘汰，随后说明新版调整依据，是否触发？"
+    },
+    {
+      "id": "xsl-cluster-version_iteration-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-identity_proof",
+      "prompt": "任务只要求交代长期肤质身份并提供持续自用痕迹，没有当前机制，是否调用当前方法？"
+    }
+  ]
+}

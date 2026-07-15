@@ -1,0 +1,10 @@
+{"source_id":"7018766905863425315","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"关心你那个","reason":"ASR语句残缺且不能确认准确指代"},{"text":"什么快递","reason":"短语虽符合画面机制但音轨质量不足，不作为精确原话"}]}
+{"source_id":"7018120695787818281","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7017282841558011171","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7016989254769331456","review_mode":"asr_quality_screened","retained_quotes":["你有喜歡的人嗎?","你倆先聊完事找我!"],"rejected_quotes":[]}
+{"source_id":"7015798711141911808","review_mode":"asr_quality_screened","retained_quotes":["你给我拿一块钱"],"rejected_quotes":[{"text":"我给我妈要二生费","reason":"ASR将生活费错识为二生费"}]}
+{"source_id":"7014769835527703848","review_mode":"asr_quality_screened","retained_quotes":["吃爽了吗?"],"rejected_quotes":[{"text":"你们知道吧?","reason":"句子过于泛化且与画面课堂语境不能稳定对应"}]}
+{"source_id":"7011809111482322217","review_mode":"asr_quality_screened","retained_quotes":["正常人下鋪","没有梯子我不敢下来"],"rejected_quotes":[]}
+{"source_id":"7010324282228198671","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[]}
+{"source_id":"7008840377713069347","review_mode":"asr_quality_screened","retained_quotes":["我是不是吵到你们了"],"rejected_quotes":[{"text":"是不是出东西了","reason":"ASR将出动静错识为出东西，不能作为准确原话"}]}
+{"source_id":"7001414969464016128","review_mode":"asr_quality_screened","retained_quotes":["朋友视频时能有多敷衍","我这不一直看你呢吗兄弟"],"rejected_quotes":[]}

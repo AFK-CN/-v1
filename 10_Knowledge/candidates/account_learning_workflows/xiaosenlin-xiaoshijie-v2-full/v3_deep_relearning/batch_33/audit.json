@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_33",
+  "generated_at": "2026-07-14T23:26:50+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "646479f1000000001300b978",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "645f025c00000000070384f5",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "645b1afa0000000012030b5e",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "64507395000000001300a9a3",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "644a2e1f0000000027010695",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6434e0b800000000130345a1",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "642e77430000000011012bd5",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6427de83000000000800eb39",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "642431980000000014026d90",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "642143370000000014026a09",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "646479f1000000001300b978",
+    "645f025c00000000070384f5",
+    "645b1afa0000000012030b5e",
+    "64507395000000001300a9a3",
+    "644a2e1f0000000027010695",
+    "6434e0b800000000130345a1",
+    "642e77430000000011012bd5",
+    "6427de83000000000800eb39",
+    "642431980000000014026d90",
+    "642143370000000014026a09"
+  ]
+}

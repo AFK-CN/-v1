@@ -173,7 +173,7 @@ def _read_content_candidates(conn: sqlite3.Connection, root: Path) -> tuple[list
                     "summary": _summary(record.body or record.title, limit=160),
                     "url": record.url,
                     "content_type": str(payload.get("type") or ""),
-                    "video_url": str(payload.get("video_url") or ""),
+                    "video_url": str(payload.get("video_url") or payload.get("video_download_url") or ""),
                     "metrics": record.metrics,
                     "tags": record.tags,
                     "source_keyword": str(payload.get("source_keyword") or ""),

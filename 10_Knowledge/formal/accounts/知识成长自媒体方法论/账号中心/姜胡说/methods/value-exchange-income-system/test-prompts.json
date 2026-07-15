@@ -1,0 +1,55 @@
+{
+  "skill": "value-exchange-income-system",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "value-exchange-income-system-positive",
+      "type": "should_trigger",
+      "prompt": "新任务需要验证谁愿意付费，并且要交付可核验结果，应该调用什么方法？"
+    },
+    {
+      "id": "value-exchange-income-system-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "文案里出现《用可验证价值交换重构赚钱判断》相关题材词，但没有任何因果过程或执行关系，是否调用？"
+    },
+    {
+      "id": "value-exchange-income-system-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到验证谁愿意付费，没有第二个机制信号，是否足以调用？"
+    },
+    {
+      "id": "value-exchange-income-system-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "副业选择",
+      "target_scene": "跨领域-内容变现设计",
+      "mechanism_preserved": true,
+      "prompt": "换了人物、平台和道具，但仍需验证谁愿意付费，随后交付可核验结果，核心机制是否应触发？"
+    },
+    {
+      "id": "value-exchange-income-system-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "content-relationship-leverage",
+      "prompt": "任务明确要求持续解决具体问题并形成稳定关系，但没有当前方法的机制，应调用当前方法吗？"
+    },
+    {
+      "id": "value-exchange-income-system-commercial-contamination",
+      "type": "commercial_contamination",
+      "prompt": "新增一条带商品植入的样本，只在广告话术中提到《用可验证价值交换重构赚钱判断》相关题材词，没有自然内容中的完整因果机制；它是否应提高当前自然方法 V1 权重并触发调用？",
+      "commercial_sample_must_not_increase_natural_v1": true
+    },
+    {
+      "id": "value-exchange-income-system-mechanism-ablation",
+      "type": "mechanism_ablation",
+      "ablated_signal": "交付可核验结果",
+      "prompt": "消融关键环节后，任务只剩验证谁愿意付费，没有后续因果闭环，是否仍应调用当前方法？"
+    },
+    {
+      "id": "value-exchange-income-system-composition-ablation",
+      "type": "composition_ablation",
+      "ablated_method_id": "value-exchange-income-system",
+      "retained_sibling_method_id": "content-relationship-leverage",
+      "prompt": "组合中只保留当前方法的单一线索验证谁愿意付费，主要机制改为持续解决具体问题并形成稳定关系；当前方法是否仍是必要组成？"
+    }
+  ]
+}

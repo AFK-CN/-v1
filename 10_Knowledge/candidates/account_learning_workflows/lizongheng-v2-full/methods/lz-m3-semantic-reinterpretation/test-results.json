@@ -1,0 +1,59 @@
+{
+  "executor": "structured-mechanism-evaluator-v1",
+  "executed_at": "2026-07-14T21:14:42+08:00",
+  "prompt_set_sha256": "b8c74155d6bbb95b6b9c7e6d2d7de1a138b0cd167d42c2e84c7379c8ba52b4d6",
+  "case_results": [
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-01",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": true, \"content_axis\": \"normal\", \"drives_action\": true}；预期=trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-02",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": false, \"consequence_present\": false, \"content_axis\": \"normal\", \"drives_action\": false}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-03",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": false, \"content_axis\": \"normal\", \"drives_action\": false}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-04",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": true, \"content_axis\": \"normal\", \"drives_action\": true}；预期=trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-05",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": false, \"consequence_present\": false, \"content_axis\": \"normal\", \"drives_action\": false, \"process_changed\": true, \"sustained_actions\": 3, \"transferred_rights\": 1}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-06",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": false, \"content_axis\": \"normal\", \"drives_action\": false}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-07",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": true, \"content_axis\": \"normal\", \"drives_action\": true, \"escalation_dimensions\": 2, \"fixed_rule\": true, \"ordered_intensity\": true, \"rounds\": 3}；预期=trigger。"
+    },
+    {
+      "id": "lz-m3-semantic-reinterpretation-case-08",
+      "passed": true,
+      "actual_decision": "boundary_only",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": true, \"content_axis\": \"commercial\", \"drives_action\": true}；预期=boundary_only。"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

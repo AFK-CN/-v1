@@ -1,0 +1,52 @@
+{
+  "account": "小森林的小世界",
+  "generated_at": "2026-07-14T23:27:03+08:00",
+  "gate": "pass",
+  "checks": {
+    "all_learned_cards_present": true,
+    "source_ids_unique": true,
+    "source_text_hashes_unique": true,
+    "card_hashes_unique": true,
+    "evidence_anchor_signatures_unique": true,
+    "every_card_has_at_least_3_evidence_units": true,
+    "every_card_is_substantive_length": true,
+    "all_source_paths_exist": true,
+    "no_quote_cases_have_explicit_boundary": true,
+    "deferred_items_have_no_deep_card": true,
+    "learned_and_deferred_do_not_overlap": true,
+    "all_six_primary_mechanisms_have_support": true,
+    "all_cards_remain_noncallable_candidates": true
+  },
+  "metrics": {
+    "deep_card_count": 379,
+    "deferred_count": 49,
+    "unique_source_text_hashes": 379,
+    "unique_card_hashes": 379,
+    "unique_evidence_anchor_signatures": 379,
+    "card_chars_min": 5121,
+    "card_chars_median": 5800,
+    "card_chars_max": 6903,
+    "evidence_units_min": 3,
+    "evidence_units_median": 36,
+    "quote_retained_cards": 374,
+    "no_quote_cards_with_explicit_boundary": 5,
+    "human_visual_review_cards": 5,
+    "media_distribution": {
+      "video": 271,
+      "normal": 108
+    },
+    "primary_mechanism_distribution": {
+      "list_decision": 93,
+      "problem_result": 76,
+      "step_sequence": 134,
+      "identity_proof": 17,
+      "time_feedback": 44,
+      "evidence_gate": 10,
+      "version_iteration": 5
+    },
+    "missing_source_paths": [],
+    "deferred_card_ids": []
+  },
+  "formal_ingest_allowed": false,
+  "errors": []
+}

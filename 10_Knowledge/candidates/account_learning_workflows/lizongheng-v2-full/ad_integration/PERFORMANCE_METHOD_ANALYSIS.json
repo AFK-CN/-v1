@@ -1,0 +1,135 @@
+{
+  "matched_learning_cards": 430,
+  "inventory_count": 431,
+  "top_quartile_heat_threshold": 714451.8,
+  "ad_bridge_groups": {
+    "ad-b1-same-engine": {
+      "count": 26,
+      "median_heat": 411035.05,
+      "mean_heat": 549163.55,
+      "top_quartile_count": 6,
+      "top_quartile_rate": 0.2308
+    },
+    "ad-b2-reveal-payoff": {
+      "count": 15,
+      "median_heat": 414304.6,
+      "mean_heat": 543923.8,
+      "top_quartile_count": 3,
+      "top_quartile_rate": 0.2
+    },
+    "ad-b3-role-need-prop": {
+      "count": 59,
+      "median_heat": 499154.1,
+      "mean_heat": 578874.54,
+      "top_quartile_count": 13,
+      "top_quartile_rate": 0.2203
+    },
+    "ad-b4-world-feature": {
+      "count": 3,
+      "median_heat": 249728.5,
+      "mean_heat": 253091.87,
+      "top_quartile_count": 0,
+      "top_quartile_rate": 0.0
+    },
+    "ad-b5-payload-takeover": {
+      "count": 37,
+      "median_heat": 436230.6,
+      "mean_heat": 495442.87,
+      "top_quartile_count": 6,
+      "top_quartile_rate": 0.1622
+    }
+  },
+  "ad_grade_groups": {
+    "A": {
+      "count": 12,
+      "median_heat": 308176.1,
+      "mean_heat": 470363.12,
+      "top_quartile_count": 2,
+      "top_quartile_rate": 0.1667
+    },
+    "B": {
+      "count": 83,
+      "median_heat": 430540.5,
+      "mean_heat": 559346.08,
+      "top_quartile_count": 16,
+      "top_quartile_rate": 0.1928
+    },
+    "C": {
+      "count": 45,
+      "median_heat": 436230.6,
+      "mean_heat": 524695.26,
+      "top_quartile_count": 10,
+      "top_quartile_rate": 0.2222
+    }
+  },
+  "platform_groups": {
+    "event_stage": {
+      "count": 3,
+      "median_heat": 229877.9,
+      "mean_heat": 248038.63,
+      "top_quartile_count": 0,
+      "top_quartile_rate": 0.0
+    },
+    "platform_campaign": {
+      "count": 7,
+      "median_heat": 894013.3,
+      "mean_heat": 1078212.36,
+      "top_quartile_count": 4,
+      "top_quartile_rate": 0.5714
+    },
+    "profile_interview": {
+      "count": 2,
+      "median_heat": 129281.65,
+      "mean_heat": 129281.65,
+      "top_quartile_count": 0,
+      "top_quartile_rate": 0.0
+    },
+    "program_promotion": {
+      "count": 6,
+      "median_heat": 320200.65,
+      "mean_heat": 313211.97,
+      "top_quartile_count": 1,
+      "top_quartile_rate": 0.1667
+    }
+  },
+  "natural_method_v1_groups": {
+    "lz-m1-system-transfer": {
+      "count": 4,
+      "median_heat": 960845.3,
+      "mean_heat": 1011376.77,
+      "top_quartile_count": 3,
+      "top_quartile_rate": 0.75
+    },
+    "lz-m2-control-right-reversal": {
+      "count": 4,
+      "median_heat": 755646.9,
+      "mean_heat": 634402.58,
+      "top_quartile_count": 2,
+      "top_quartile_rate": 0.5
+    },
+    "lz-m3-semantic-reinterpretation": {
+      "count": 4,
+      "median_heat": 987293.8,
+      "mean_heat": 1129106.5,
+      "top_quartile_count": 3,
+      "top_quartile_rate": 0.75
+    },
+    "lz-m4-fixed-rule-escalation": {
+      "count": 4,
+      "median_heat": 667855.55,
+      "mean_heat": 1019210.38,
+      "top_quartile_count": 2,
+      "top_quartile_rate": 0.5
+    }
+  },
+  "interpretation_boundary": "描述性关联；未控制发布时间、粉丝增长、投流、品牌预算、活动曝光和视频时长，不得解释为方法因果。",
+  "callable": false,
+  "formal_write": false,
+  "observations": [
+    "样本数不少于5的广告桥中，ad-b3-role-need-prop 的中位热度最高（499154.1），只作为优先复核线索。",
+    "集中口播接管 ad-b5 的上四分位率为 16.2%，低于同一发动机 ad-b1 的 23.1%；但未控制品牌和发布时间，不能归因。",
+    "融合等级 A/B/C 没有呈现单调表现关系，说明结构融合质量不能直接由互动量代替判断。",
+    "平台节庆活动/挑战赛组中位热度为 894013.3，但仅7条且高度受平台曝光与节庆时点影响。",
+    "四个自然方法的V1代表样本由方法验证过程挑选，存在选择偏差，只能说明代表证据本身表现不低，不能证明方法整体增益。"
+  ]
+}

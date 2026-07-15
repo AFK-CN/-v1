@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "method_count": 4,
+  "relation_count": 6,
+  "v1_evidence_ref_count": 16,
+  "v1_all_normal_core": true,
+  "ad_integration_ok": true,
+  "product_ad_learning_card_count": 140,
+  "pressure_test": {
+    "method_count": 4,
+    "case_count": 32,
+    "passed": 32,
+    "failed": 0,
+    "all_passed": true,
+    "prompt_hashes": {
+      "lz-m1-system-transfer": "1b970eec8f4fb7487cd6187cab243d985e458750e8b89441857d5aeb2804f7e7",
+      "lz-m2-control-right-reversal": "dee988a0f28a9059e7a49de69f5a5adac2aa58b1ea1079637bb951f296332550",
+      "lz-m3-semantic-reinterpretation": "b8c74155d6bbb95b6b9c7e6d2d7de1a138b0cd167d42c2e84c7379c8ba52b4d6",
+      "lz-m4-fixed-rule-escalation": "6c6dc5967bd8793151a434efd12a64b3b621e3a4cc7bfee8108189c3e2372412"
+    }
+  },
+  "duplicate_method_bodies": [],
+  "formal_write_allowed": false,
+  "callable": false,
+  "generated_at": "2026-07-14T21:14:42+08:00"
+}

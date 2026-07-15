@@ -48,6 +48,7 @@ class SqliteIngestTests(unittest.TestCase):
             self.assertEqual([row["stable_id"] for row in records], ["douyin:aweme:a1", "xhs:note:n1"])
             self.assertEqual(records[0]["raw_locator"], {"table": "douyin_aweme", "pk": 1, "source_id": "a1"})
             self.assertEqual(records[0]["change_type"], "new")
+            self.assertEqual(records[0]["video_url"], "https://example.com/a1.mp4")
             self.assertNotIn("评论内容", records_path.read_text(encoding="utf-8"))
             self.assertIn("姜胡说", source_index.read_text(encoding="utf-8"))
             self.assertIn("测试小红书", source_index.read_text(encoding="utf-8"))
@@ -226,7 +227,7 @@ class SqliteIngestTests(unittest.TestCase):
                 """
                 INSERT INTO douyin_aweme VALUES (
                     1, 'u1', '姜胡说', 'a1', '#赚钱 普通人做自媒体', '创业 方法 短视频',
-                    1700000000, '100', '20', '30', '40', 'https://example.com/a1', '', '姜胡说', 1000, 1000
+                    1700000000, '100', '20', '30', '40', 'https://example.com/a1', 'https://example.com/a1.mp4', '姜胡说', 1000, 1000
                 )
                 """
             )

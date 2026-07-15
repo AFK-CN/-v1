@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "ok": true,
+  "status": "linked_read_only",
+  "profile_id": "xiaosenlin_xiaoshijie",
+  "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "account": {
+    "name": "小森林的小世界",
+    "platform": "xhs",
+    "user_id": "5a201295e8ac2b0dbae9063a",
+    "fans": 323157
+  },
+  "database": "/Volumes/AFK/zhishikushuju/sqlite_tables.db",
+  "database_mode": "read_only",
+  "record_count": 428,
+  "content_types": {
+    "normal": 123,
+    "video": 305
+  },
+  "media_counts": {
+    "video_url": 304,
+    "image_list": 428
+  },
+  "latest_publish_time": 1782888434000,
+  "candidate_only": true,
+  "formal_write_allowed": false,
+  "linked_at": "2026-07-13T22:09:34",
+  "database_size": 9973760,
+  "inventory": "10_Knowledge/candidates/account_assets/sqlite_account_sources/xiaosenlin_xiaoshijie/nas_sqlite_inventory.jsonl",
+  "inventory_sha256": "137a40f4aa2951cc1e30c6916335c43e1984cc1b381b0c2031fb4d6258d7c4f6"
+}

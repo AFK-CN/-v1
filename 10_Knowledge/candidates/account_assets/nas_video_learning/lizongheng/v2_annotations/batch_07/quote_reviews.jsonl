@@ -1,0 +1,10 @@
+{"source_id":"7542523642766642441","review_mode":"asr_quality_screened","retained_quotes":["你继承了他三百亿的遗产"],"rejected_quotes":[{"text":"我能见到一部手机","reason":"结合愿望起点应为捡到手机，当前ASR动词明显异常。"}]}
+{"source_id":"7540873579022372134","review_mode":"asr_quality_screened","retained_quotes":["寝室的卫生 只能由我一个人打扫","他们的生活费已经被我承包了"],"rejected_quotes":[]}
+{"source_id":"7539064028883176754","review_mode":"asr_quality_screened","retained_quotes":["能设定你的专属场景模式"],"rejected_quotes":[{"text":"这是World War XC70","reason":"沃尔沃品牌被识别为英文战争词组，属于明显ASR错误。"}]}
+{"source_id":"7537158061102763315","review_mode":"asr_quality_screened","retained_quotes":["每年上班九个月","我明天请个假"],"rejected_quotes":[]}
+{"source_id":"7533066373732814090","review_mode":"asr_quality_screened","retained_quotes":["其实我们每天都在装大人"],"rejected_quotes":[{"text":"这款小甜利比德之物饮料","reason":"品牌和产品名称严重ASR失真。"}]}
+{"source_id":"7530883576863952137","review_mode":"asr_quality_screened","retained_quotes":["这可是地道的东方美酒"],"rejected_quotes":[{"text":"正所谓一盏兵没见","reason":"产品名称和成语式开头均识别失真。"}]}
+{"source_id":"7530528075193994542","review_mode":"asr_quality_screened","retained_quotes":["得练一下怎么说"],"rejected_quotes":[{"text":"我是黄门机 我点的501","reason":"餐品名称和身份句式均存在明显ASR错字。"}]}
+{"source_id":"7527769267715050771","review_mode":"asr_quality_screened","retained_quotes":["新活动开始了"],"rejected_quotes":[{"text":"一键辅助帮助机老玩家","reason":"功能说明存在漏词和错字，语义不完整。"}]}
+{"source_id":"7526054162607738121","review_mode":"asr_quality_screened","retained_quotes":["合作取消","我这10分钟太值了"],"rejected_quotes":[]}
+{"source_id":"7525341422683344179","review_mode":"asr_quality_screened","retained_quotes":["每天来点这儿养生酒"],"rejected_quotes":[{"text":"里面老多草本计划了","reason":"产品成分词疑似ASR错字，无法准确引用。"}]}

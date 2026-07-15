@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.2",
+  "method_id": "xsl-cluster-time_feedback",
+  "test_cases": [
+    {
+      "id": "xsl-cluster-time_feedback-positive",
+      "type": "should_trigger",
+      "prompt": "任务需要按第几天记录状态反馈，根据变化调整频率并决定停止。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-time_feedback-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "只说效果很好，没有时间刻度、状态反馈或调整判停。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-time_feedback-edge",
+      "type": "edge_case",
+      "prompt": "边界任务部分接近“时间刻度与状态反馈形成可跟练闭环”，但证据未补齐；应先进入证据门。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-time_feedback-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "个人护理",
+      "target_scene": "知识成长",
+      "mechanism_preserved": true,
+      "prompt": "任务需要按第几天记录状态反馈，根据变化调整频率并决定停止。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-time_feedback-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-list_decision",
+      "decoy_kind": "sibling_method_without_target_mechanism",
+      "prompt": "任务只满足兄弟方法 xsl-cluster-list_decision，不包含当前方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-time_feedback-commercial",
+      "type": "commercial_contamination",
+      "prompt": "这是品牌赞助和限时购买任务，只有购买利益，没有当前自然方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-time_feedback-ablation",
+      "type": "combination_ablation",
+      "prompt": "组合流程明确移除“时间刻度与状态反馈形成可跟练闭环”的核心机制，仅保留其他方法。",
+      "expected_decision": "not_trigger"
+    }
+  ]
+}

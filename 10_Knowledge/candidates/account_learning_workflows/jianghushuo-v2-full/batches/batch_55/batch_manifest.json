@@ -1,0 +1,269 @@
+{
+  "batch_id": "batch_55",
+  "items": [
+    {
+      "source_id": "7647562491416939791",
+      "direction": "赚钱",
+      "legacy_candidate_path": "",
+      "topic_summary": "赚钱的步骤——从10.24到8000人的完整实操 昨天说发现问题解决问题就能赚钱，很多人问具体怎么做。 赚钱严格来说就四步，但顺序不能乱。 第一步，识别真实需求。抱怨不是需求，梦想也不是需求。怎么判断？三个信号：他有没有真的行动过？有没有在找替代方案？愿不愿意为这件事支付成本——成本不一定是钱，时间也是。 第二步，有能",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7647562491416939791.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7647562491416939791/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7647562491416939791/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 289,
+          "normalized_char_count": 3065
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7647562491416939791/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7647922452391103778",
+      "direction": "赚钱",
+      "legacy_candidate_path": "",
+      "topic_summary": "赚钱系统搭建｜日更6年不靠灵感靠系统 分享一套我的赚钱系统。资本家靠系统赚钱，机械化作业让农民没法竞争。我这套内容生产系统也是一样的逻辑。你说简单吗？简单。难吗？难在坚持。 首先要去挖这口井。我拍视频不奔流量，不蹭热点，每条视频就一个结构：告诉你什么问题，怎么解决，1234步。和我同期的人流量都比我高，但过两年人没了，",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7647922452391103778.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7647922452391103778/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7647922452391103778/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 457,
+          "normalized_char_count": 3316
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7647922452391103778/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7648659156265684258",
+      "direction": "人生策略",
+      "legacy_candidate_path": "",
+      "topic_summary": "一个人忙得底儿朝天是勤快还是懒？——我告诉你，是懒 我问你们个问题。一个人每天忙得底儿朝天，脚打后脑勺儿——他是勤快还是懒？我告诉你，是懒。不是手懒，是脑袋懒。你忙了一整天，做计划、搭工作流、搞自动发布——然后呢？行动产生结果，你在什么事上行动，就产生什么结果。你做的事全是无关紧要的，自己忙得够呛，但不会产生任何结果。",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7648659156265684258.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7648659156265684258/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7648659156265684258/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 74,
+          "normalized_char_count": 851
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7648659156265684258/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7649031361893813519",
+      "direction": "个人成长",
+      "legacy_candidate_path": "",
+      "topic_summary": "你的忙，是你给自己买的一张\"不用改变\"的通行证 你的忙，是一张不用改变的通行证。 每天回不完的消息、开不完的会、做不完的需求——别人看你很忙，银行看你有钱吗？ 这条视频讲三件事： 你的忙在保护什么——不是懒，是你给自己贴了标签（\"我是个外卖员\"\"我是个打工人\"） 为什么你做的事不积累——因为你做的事不可复用，做完就没了",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7649031361893813519.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649031361893813519/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649031361893813519/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 315,
+          "normalized_char_count": 2859
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649031361893813519/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7649403526078156047",
+      "direction": "阅读输入",
+      "legacy_candidate_path": "",
+      "topic_summary": "阅读不是下载是安装｜70%的人学习只是下载从来没运行过 我发现我们很多人是真不会学习。我是中专生，现在所有赚钱的能力全是自学来的。 方法就一句话：阅读不是下载，是安装。 你看多数人怎么学的？ 一本书拿来划线记笔记，看了一遍两遍三遍，但停在这了。第二层更普遍：理解了，但不动手。这种人大事干不了小事不愿意干，卡在那。还有的",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7649403526078156047.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649403526078156047/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649403526078156047/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 214,
+          "normalized_char_count": 2377
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649403526078156047/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7649773338591644928",
+      "direction": "短视频",
+      "legacy_candidate_path": "",
+      "topic_summary": "没文化怎么拍视频 每次直播都有人问：没文化，不会说话，更不敢面对镜头，生活陷入困境了怎么办。 今天不说大道理，给三个方案。不需要你露脸、不需要你说话、不需要一技之长，甚至不需要花钱——借个杯子就行。 打开冰箱拍过期酸奶、背对窗户画个心、泡杯茶看茶叶浮起来。 先拍一条。再拍一条。命运的齿轮才会转起来。 试试看。 #没文化",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7649773338591644928.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649773338591644928/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649773338591644928/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 123,
+          "normalized_char_count": 1281
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7649773338591644928/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7650155169027591476",
+      "direction": "短视频",
+      "legacy_candidate_path": "",
+      "topic_summary": "没文化，怎么拍视频（二） 今天不教方法，聊心法。 同样三样东西——冰箱、窗户、水杯。昨天拍感情，今天拍做事。 过期酸奶，当初认真选的，过期就是过期了，放下才有新的。 脏窗户，擦一小块就够了，光会进来，不必一开始就完美。 杯子放哪儿都不好看——不是杯子的问题，是地方不对。换个位置，就对了。 三个动作，不露脸，不写稿，不剪",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7650155169027591476.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7650155169027591476/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7650155169027591476/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 279,
+          "normalized_char_count": 1812
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7650155169027591476/video/transcript.srt"
+      }
+    },
+    {
+      "source_id": "7650514840460479763",
+      "direction": "短视频",
+      "legacy_candidate_path": "",
+      "topic_summary": "短视频吗？拿起来就能拍 大家拍短视频，最大的问题不是\"不会拍\"，是\"不知道拍什么\"。 你去翻翻那些拍得好的，不是因为他们的生活比你好，是因为他们知道一个简单的道理—— 选题不是从超市买的，是你冰箱里本来就有的。 你打开冰箱，剩半颗白菜、半盒牛奶、两个鸡蛋。 你做饭的时候，从来不会因为没有\"菜谱\"就不做饭。 那盘西红柿炒",
+      "needs_review": false,
+      "review_reason": "",
+      "material_status": "metadata_only",
+      "card_path": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_55/cards/douyin_7650514840460479763.md",
+      "card_contract": "unified_three_layer_v2",
+      "card_valid": true,
+      "nas_evidence": {
+        "artifact_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7650514840460479763/video",
+        "layout": "dy_account_video",
+        "has_video": true,
+        "video_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7650514840460479763/video/source.mp4",
+        "has_audio": true,
+        "has_metadata": true,
+        "has_transcript": true,
+        "transcript_file_present": true,
+        "transcript_quality": {
+          "file_present": true,
+          "usable": true,
+          "reason": "usable",
+          "line_count": 269,
+          "normalized_char_count": 1900
+        },
+        "has_keyframes": true,
+        "has_scenes": true,
+        "scene_evidence_kind": "time_sampled_frames",
+        "transcript_path": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7650514840460479763/video/transcript.srt"
+      }
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_34",
+  "generated_at": "2026-07-14T23:26:52+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "6421a76c00000000270294c6",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "641da1d80000000012033ce3",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "64144bf20000000011011970",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "64146d5c0000000012030eba",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "640eebf5000000001300b5f5",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "640da5be000000002702b6d6",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6406c09c000000001300521b",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "640735c30000000011010d4d",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "64059dba000000001203398c",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6400678700000000140276fc",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "6421a76c00000000270294c6",
+    "641da1d80000000012033ce3",
+    "64144bf20000000011011970",
+    "64146d5c0000000012030eba",
+    "640eebf5000000001300b5f5",
+    "640da5be000000002702b6d6",
+    "6406c09c000000001300521b",
+    "640735c30000000011010d4d",
+    "64059dba000000001203398c",
+    "6400678700000000140276fc"
+  ]
+}

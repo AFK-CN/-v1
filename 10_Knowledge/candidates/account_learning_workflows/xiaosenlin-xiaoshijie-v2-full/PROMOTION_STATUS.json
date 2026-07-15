@@ -1,0 +1,13 @@
+{
+  "schema_version": "2.2",
+  "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "status": "formal_ingested_with_deferred_evidence",
+  "promoted_at": "2026-07-14T23:36:43+08:00",
+  "formal_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界",
+  "formal_card_count": 379,
+  "formal_method_count": 4,
+  "callable_method_count": 4,
+  "candidate_only_system_pending_count": 49,
+  "previous_account_center_snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14",
+  "user_approval": true
+}

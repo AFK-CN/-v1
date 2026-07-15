@@ -1,0 +1,83 @@
+{
+  "schema_version": "3.0",
+  "batch_id": "batch_19",
+  "generated_at": "2026-07-14T23:26:32+08:00",
+  "expected_source_count": 10,
+  "learned_count": 10,
+  "deferred_count": 0,
+  "unified_card_contract": "unified_three_layer_v2",
+  "card_contract_version": "2.1",
+  "learning_method_revision": "xiaosenlin_unified_deep_relearn_v3_0",
+  "unified_card_passed_count": 10,
+  "anchor_traceability_passed_count": 10,
+  "quote_traceability_passed_count": 10,
+  "duplicate_card_hashes": 0,
+  "batch_errors": [],
+  "batch_gate": "pass",
+  "formal_ingest_allowed": false,
+  "user_acceptance_required": false,
+  "cards": [
+    {
+      "source_id": "670d12720000000021002837",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6709fab80000000021008902",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "6708e2ec000000001a0224e9",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "66fd4382000000001a021c8b",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "670214c3000000001b022274",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "66fe57bb000000001902d35e",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "66fd007d000000001b0237f9",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "66f90ab0000000001902da0b",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "66f91b56000000001a021614",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "66f3fc4f000000001a0209b9",
+      "decision": "pass",
+      "errors": []
+    }
+  ],
+  "source_ids": [
+    "670d12720000000021002837",
+    "6709fab80000000021008902",
+    "6708e2ec000000001a0224e9",
+    "66fd4382000000001a021c8b",
+    "670214c3000000001b022274",
+    "66fe57bb000000001902d35e",
+    "66fd007d000000001b0237f9",
+    "66f90ab0000000001902da0b",
+    "66f91b56000000001a021614",
+    "66f3fc4f000000001a0209b9"
+  ]
+}

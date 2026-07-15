@@ -1,0 +1,10 @@
+{
+  "ok": true,
+  "method_count": 6,
+  "pressure_case_count": 30,
+  "all_pressure_cases_passed": true,
+  "duplicate_method_bodies": [],
+  "duplicate_pressure_prompts": [],
+  "formal_write_allowed": false,
+  "generated_at": "2026-07-14T00:18:00+08:00"
+}

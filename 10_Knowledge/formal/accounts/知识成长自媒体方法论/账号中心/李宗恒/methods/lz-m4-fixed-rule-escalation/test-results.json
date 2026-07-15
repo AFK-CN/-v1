@@ -1,0 +1,59 @@
+{
+  "executor": "structured-mechanism-evaluator-v1",
+  "executed_at": "2026-07-14T21:14:42+08:00",
+  "prompt_set_sha256": "6c6dc5967bd8793151a434efd12a64b3b621e3a4cc7bfee8108189c3e2372412",
+  "case_results": [
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-01",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 2, \"fixed_rule\": true, \"ordered_intensity\": true, \"rounds\": 4}；预期=trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-02",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 0, \"fixed_rule\": false, \"ordered_intensity\": false, \"rounds\": 1}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-03",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 0, \"fixed_rule\": true, \"ordered_intensity\": false, \"rounds\": 2}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-04",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 2, \"fixed_rule\": true, \"ordered_intensity\": true, \"rounds\": 3}；预期=trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-05",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"alternative_interpretation_valid\": true, \"consequence_present\": true, \"content_axis\": \"normal\", \"drives_action\": true, \"escalation_dimensions\": 0, \"fixed_rule\": false, \"ordered_intensity\": false, \"rounds\": 1}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-06",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 0, \"fixed_rule\": true, \"ordered_intensity\": false, \"rounds\": 4}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-07",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 3, \"fixed_rule\": true, \"mapped_layers\": 4, \"ordered_intensity\": true, \"rounds\": 4, \"settlement_affected\": true, \"sustained_rule\": true}；预期=trigger。"
+    },
+    {
+      "id": "lz-m4-fixed-rule-escalation-case-08",
+      "passed": true,
+      "actual_decision": "boundary_only",
+      "evidence": "按结构事实判定：{\"content_axis\": \"commercial\", \"escalation_dimensions\": 2, \"fixed_rule\": true, \"ordered_intensity\": true, \"rounds\": 3}；预期=boundary_only。"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

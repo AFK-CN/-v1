@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-07-11T02:51:50.113603+00:00",
+  "smb_source": "smb://AFK-Fc._smb._tcp.local/AFK/zhishikushuju/dy",
+  "local_mount_source": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656",
+  "account_selected": {
+    "account_id": "63700340656",
+    "account_name": "李宗恒"
+  },
+  "excluded_accounts": [
+    {
+      "account_dir": "dy_77700555383",
+      "reason": "不是李宗恒账号，按用户说明视为其他账号/合拍来源，不纳入本次李宗恒深学。"
+    }
+  ],
+  "counts": {
+    "item_dirs": 430,
+    "eligible_full_deep_learning": 430,
+    "has_transcript_txt_verified_by_find": 430,
+    "has_video_mp4_verified_by_find": 430,
+    "has_frames_json_verified_by_find": 430
+  },
+  "read_strategy": "规划阶段只建固定证据路径，不逐条打开 NAS 文本；全量深学按 50 条一批读取逐字稿、视频信息和帧图。",
+  "warnings": [
+    "NAS 单文件读取延迟较高，已避免规划阶段全量读取逐字稿。"
+  ]
+}

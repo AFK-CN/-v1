@@ -1,0 +1,107 @@
+{
+  "method_id": "lz-m1-system-transfer",
+  "executor_input_excludes_expected_answer": true,
+  "evaluation_basis": "structured mechanism facts, not keyword matching",
+  "test_cases": [
+    {
+      "id": "lz-m1-system-transfer-case-01",
+      "type": "should_trigger",
+      "prompt": "把公司报销完整改造成餐厅点单：员工、菜单、下单、核销和月底结算都按餐厅规则运行。",
+      "mechanism_facts": {
+        "mapped_layers": 4,
+        "sustained_rule": true,
+        "settlement_affected": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m1-system-transfer-case-02",
+      "type": "should_not_trigger",
+      "prompt": "标题写‘系统迁移’，正文只是办公室换成餐厅布景。",
+      "mechanism_facts": {
+        "mapped_layers": 0,
+        "sustained_rule": false,
+        "settlement_affected": false,
+        "content_axis": "normal"
+      },
+      "decoy_kind": "lexical_overlap_without_mechanism"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-03",
+      "type": "edge_case",
+      "prompt": "把老师叫经理、作业叫订单，但结尾仍按普通考试成绩收束。",
+      "mechanism_facts": {
+        "mapped_layers": 2,
+        "sustained_rule": true,
+        "settlement_affected": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m1-system-transfer-case-04",
+      "type": "cross_scene_transfer",
+      "prompt": "把家庭春节问答迁成海关入境：申报、查验和放行共同决定能否进门。",
+      "mechanism_facts": {
+        "mapped_layers": 3,
+        "sustained_rule": true,
+        "settlement_affected": true,
+        "content_axis": "normal"
+      },
+      "source_scene": "职场与服务消费",
+      "target_scene": "恋爱与交易流程",
+      "mechanism_preserved": true
+    },
+    {
+      "id": "lz-m1-system-transfer-case-05",
+      "type": "should_not_trigger",
+      "prompt": "一句‘你来负责’被角色理解成承担费用并立刻付款，只有语义重释。",
+      "mechanism_facts": {
+        "mapped_layers": 1,
+        "sustained_rule": false,
+        "settlement_affected": false,
+        "alternative_interpretation_valid": true,
+        "drives_action": true,
+        "consequence_present": true,
+        "content_axis": "normal"
+      },
+      "sibling_method_id": "lz-m3-semantic-reinterpretation"
+    },
+    {
+      "id": "lz-m1-system-transfer-case-06",
+      "type": "ablation",
+      "prompt": "列出四组对应名词，但人物行动和结局都不受这些对应关系影响。",
+      "mechanism_facts": {
+        "mapped_layers": 4,
+        "sustained_rule": false,
+        "settlement_affected": false,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m1-system-transfer-case-07",
+      "type": "composition",
+      "prompt": "酒店管理规则被迁到合租生活，并在四轮场景中逐步升级处罚。",
+      "mechanism_facts": {
+        "mapped_layers": 4,
+        "sustained_rule": true,
+        "settlement_affected": true,
+        "fixed_rule": true,
+        "rounds": 4,
+        "escalation_dimensions": 2,
+        "ordered_intensity": true,
+        "content_axis": "normal"
+      }
+    },
+    {
+      "id": "lz-m1-system-transfer-case-08",
+      "type": "commercial_contamination",
+      "prompt": "品牌定制片把售后完整改成法庭流程，机制成立但用于广告传播。",
+      "mechanism_facts": {
+        "mapped_layers": 4,
+        "sustained_rule": true,
+        "settlement_affected": true,
+        "content_axis": "commercial"
+      }
+    }
+  ]
+}

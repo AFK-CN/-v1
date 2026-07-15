@@ -1,0 +1,10 @@
+{"source_id": "7606960033025557706", "review_mode": "asr_quality_screened", "retained_quotes": ["我特意准备了简历", "请开始你们的表演"], "rejected_quotes": []}
+{"source_id": "7606063262928915850", "review_mode": "asr_quality_screened", "retained_quotes": ["取消你的提问资格", "我现在强得可怕了"], "rejected_quotes": []}
+{"source_id": "7605238812160405734", "review_mode": "asr_quality_screened", "retained_quotes": ["豆包春节活动上线了", "解锁各种好玩的AI过年使用技能"], "rejected_quotes": []}
+{"source_id": "7603669079937798566", "review_mode": "asr_quality_screened", "retained_quotes": ["进攻就是最强的防守"], "rejected_quotes": [{"text": "你在干嘛 你早天你就知道把手机啊", "reason": "整句存在多处漏词和错字，无法作为准确原文。"}]}
+{"source_id": "7602632130237736923", "review_mode": "asr_quality_screened", "retained_quotes": ["你吓我一跳 说话老大喘气呢"], "rejected_quotes": [{"text": "马年喝一粒一切都顺利", "reason": "品牌伊利被识别为一粒，属于明显ASR错字。"}]}
+{"source_id": "7598472724416227465", "review_mode": "asr_quality_screened", "retained_quotes": ["你父母同意签字了"], "rejected_quotes": [{"text": "我想申请妈那两句名字", "reason": "业务申请对象与名词均识别异常，句意不完整。"}]}
+{"source_id": "7590811035129735154", "review_mode": "asr_quality_screened", "retained_quotes": ["然后再给我来个语文英语 双语套餐"], "rejected_quotes": [{"text": "三百分 然后三倍比让你绕的是 九百分", "reason": "后半句存在明显ASR错字，无法准确引用。"}]}
+{"source_id": "7590121109632465481", "review_mode": "asr_quality_screened", "retained_quotes": ["所以我把老板的潜台词翻译出来"], "rejected_quotes": [{"text": "零零后没有潜台车啊", "reason": "潜台词被识别为潜台车，属于明显ASR错字。"}]}
+{"source_id": "7588555234873832435", "review_mode": "asr_quality_screened", "retained_quotes": ["我预判了你预判的预判", "所以今天我穿的衣服有夹层"], "rejected_quotes": []}
+{"source_id": "7585769668858711347", "review_mode": "asr_quality_screened", "retained_quotes": ["我这个荣耀Magic 8 Pro", "七千两百毫安时 青海湖电池"], "rejected_quotes": []}

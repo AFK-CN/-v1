@@ -1,5 +1,6 @@
 import json
 import shutil
+import sqlite3
 import tempfile
 import unittest
 from pathlib import Path
@@ -109,6 +110,41 @@ class VideoLearningTests(unittest.TestCase):
         self.assertEqual(records[0].account_name, "小森林的小世界")
         self.assertEqual(records[0].metrics["collects"], 20)
         self.assertEqual(records[0].video_download_url, "https://sns-video-qc.xhscdn.com/x1.mp4")
+
+    def test_load_records_hydrates_douyin_video_url_from_read_only_sqlite(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            candidate_dir = root / "10_Knowledge/candidates/account_assets/sqlite_imports"
+            candidate_dir.mkdir(parents=True)
+            batch_dir = root / "00_Inbox/sqlite_imports/20260627_152903"
+            batch_dir.mkdir(parents=True)
+            (candidate_dir / "latest_account_candidates.json").write_text(
+                json.dumps({"source_batch_dir": "00_Inbox/sqlite_imports/20260627_152903"}),
+                encoding="utf-8",
+            )
+            row = {
+                "stable_id": "douyin:aweme:a1",
+                "platform": "douyin",
+                "account_name": "姜胡说",
+                "source_id": "a1",
+                "title": "测试视频",
+                "summary": "测试视频",
+                "url": "https://www.douyin.com/video/a1",
+                "video_url": "",
+                "metrics": {},
+            }
+            (batch_dir / "records.jsonl").write_text(json.dumps(row) + "\n", encoding="utf-8")
+            database = root / "数据/sqlite_tables.db"
+            database.parent.mkdir(parents=True)
+            with sqlite3.connect(database) as conn:
+                conn.execute("CREATE TABLE douyin_aweme (aweme_id TEXT, video_download_url TEXT)")
+                conn.execute("INSERT INTO douyin_aweme VALUES (?, ?)", ("a1", "https://example.com/a1.mp4"))
+
+            records, raw_counts, failed_files = video_learning.load_records_detailed(root)
+
+        self.assertEqual(raw_counts["sqlite_candidates"], 1)
+        self.assertEqual(failed_files, [])
+        self.assertEqual(records[0].video_download_url, "https://example.com/a1.mp4")
 
     def test_load_records_skips_sqlite_import_manifest_metadata(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -1474,6 +1510,23 @@ class VideoLearningTests(unittest.TestCase):
             artifact_dir.mkdir(parents=True)
             (artifact_dir / "source.mp4").write_text("video", encoding="utf-8")
             (artifact_dir / "transcript.srt").write_text("1\n00:00:00,000 --> 00:00:01,000\n你好\n", encoding="utf-8")
+            (account_dir / "_learning_plan.json").write_text(
+                json.dumps(
+                    {
+                        "account_name": "姜胡说",
+                        "items": {
+                            "douyin:older": {
+                                "platform": "douyin",
+                                "source_id": "older",
+                                "account_name": "姜胡说",
+                                "title": "既有计划",
+                            }
+                        },
+                    },
+                    ensure_ascii=False,
+                ),
+                encoding="utf-8",
+            )
 
             original = video_learning.video_status
 
@@ -1512,6 +1565,8 @@ class VideoLearningTests(unittest.TestCase):
             self.assertEqual(progress["items"]["douyin:a1"]["status"], "completed")
             self.assertEqual(progress["items"]["douyin:a1"]["current_step"], "completed")
             self.assertEqual(progress["items"]["douyin:a1"]["artifact_dir"], str(artifact_dir))
+            plan = json.loads((account_dir / "_learning_plan.json").read_text(encoding="utf-8"))
+            self.assertEqual(set(plan["items"]), {"douyin:older", "douyin:a1"})
             artifact_index = json.loads((account_dir / "_artifact_index.json").read_text(encoding="utf-8"))
             self.assertTrue(artifact_index["items"]["douyin:a1"]["has_video"])
             self.assertTrue(artifact_index["items"]["douyin:a1"]["has_transcript"])

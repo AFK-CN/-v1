@@ -1,0 +1,10 @@
+{"source_id":"7463311721180990759","review_mode":"asr_quality_screened","retained_quotes":["这个世界上本没有亲戚","行了 别打广告了"],"rejected_quotes":[]}
+{"source_id":"7461463930523749671","review_mode":"asr_quality_screened","retained_quotes":["大家都一人來一塊"],"rejected_quotes":[{"text":"都吃飽喝足了 長輩們來一展示範","reason":"ASR将让长辈展示才艺的句子转写不完整，不作引语。"}]}
+{"source_id":"7460812284345027851","review_mode":"asr_quality_screened","retained_quotes":["我在我工作的地方工作呢","我办婚礼的时候就结婚了"],"rejected_quotes":[]}
+{"source_id":"7458965741065342244","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"肯定是遇到创作瓶颈颈了","reason":"ASR存在重复错词，且语义需画面才可完整理解。"},{"text":"因为我在创作春晚小屁","reason":"ASR将春晚小品转写为小屁，不可直接引用。"}]}
+{"source_id":"7457027526498536740","review_mode":"asr_quality_screened","retained_quotes":["我还以为你是老板","没有奇迹"],"rejected_quotes":[]}
+{"source_id":"7453291374406847755","review_mode":"asr_quality_screened","retained_quotes":["有时候不需要用劲 要用脑"],"rejected_quotes":[{"text":"我觉得一个男友自信","reason":"ASR句子成分缺失，无法作为独立稳定引语。"}]}
+{"source_id":"7450985148704705804","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"铁一百 我就是海豹","reason":"ASR将舔一百和海王两个机关词同时转错。"},{"text":"不好意思 我这个月天清满了","reason":"ASR将舔狗排期已满转写为天清满，字面失真。"}]}
+{"source_id":"7450782934102969639","review_mode":"asr_quality_screened","retained_quotes":["咱家数学特色"],"rejected_quotes":[{"text":"同学一共考七十本","reason":"ASR将考七十分转写为七十本，不作引语。"}]}
+{"source_id":"7449358320370076964","review_mode":"asr_quality_screened","retained_quotes":["我现在是导航"],"rejected_quotes":[{"text":"你去的是女神男跑脚","reason":"ASR将女神男朋友转写错乱，不作正式引语。"}]}
+{"source_id":"7448474289319251239","review_mode":"asr_quality_screened","retained_quotes":["您太幸运了","我这一天到底说倒霉 还是得幸运"],"rejected_quotes":[]}

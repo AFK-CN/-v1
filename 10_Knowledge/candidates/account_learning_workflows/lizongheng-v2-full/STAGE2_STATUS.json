@@ -1,0 +1,25 @@
+{
+  "ok": true,
+  "workflow_id": "lizongheng-v2-full",
+  "candidate_count": 1330,
+  "assigned_candidate_count": 1330,
+  "cluster_count": 10,
+  "verified_count": 4,
+  "rejected_count": 6,
+  "cluster_counts": {
+    "lz-m1-system-transfer": 21,
+    "lz-m2-control-right-reversal": 27,
+    "lz-m3-semantic-reinterpretation": 75,
+    "lz-m4-fixed-rule-escalation": 55,
+    "lz-g1-commercial-contamination": 379,
+    "lz-g2-evidence-account-boundary": 173,
+    "lz-r1-generic-contrast": 41,
+    "lz-r2-generic-reveal-gap": 5,
+    "lz-r3-packaging-support": 127,
+    "lz-r4-case-specific-observation": 427
+  },
+  "errors": [],
+  "formal_write_allowed": false,
+  "user_confirmation_required": true,
+  "generated_at": "2026-07-14T20:15:08+08:00"
+}

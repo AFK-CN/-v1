@@ -1,0 +1,10 @@
+{"source_id":"7500881734961319207","review_mode":"asr_quality_screened","retained_quotes":["你手里拿的那个是手机吗","我爸也有一个"],"rejected_quotes":[]}
+{"source_id":"7499048338315414823","review_mode":"asr_quality_screened","retained_quotes":["小的 我没写"],"rejected_quotes":[{"text":"虽然这到底我一遍都没讲过","reason":"ASR将题和老师口头语转写错位，原句不够稳定。"}]}
+{"source_id":"7498978289692708135","review_mode":"asr_quality_screened","retained_quotes":["人生开门红即将在这个五一假期"],"rejected_quotes":[{"text":"第一次走华表讲红毯","reason":"ASR将华表奖转写为华表讲，不能作正式引语。"}]}
+{"source_id":"7497220768033017100","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"借你掏手机","reason":"ASR丢失主语和语序，无法作为独立稳定引语。"},{"text":"本来我刚做的借你 现在不借","reason":"ASR将‘刚才都想借你’转写严重破损。"}]}
+{"source_id":"7495699121590144268","review_mode":"asr_quality_screened","retained_quotes":["今天真倒霉","小李 方案不用改了"],"rejected_quotes":[]}
+{"source_id":"7494676864037014796","review_mode":"asr_quality_screened","retained_quotes":["谁离了手机能活呀"],"rejected_quotes":[{"text":"赶紧拿起手机上去哪儿订购票","reason":"ASR将APP和订票语序转写破损，仅作商业识别证据。"}]}
+{"source_id":"7493014364048329996","review_mode":"asr_quality_screened","retained_quotes":["小美好像暗恋我"],"rejected_quotes":[{"text":"我喜欢你 这是一首长写诗","reason":"ASR将藏头诗转写为长写诗，不适合直接引用。"}]}
+{"source_id":"7492635961063394572","review_mode":"asr_quality_screened","retained_quotes":["我暗示的这么明显 她都没发现","我同意了 她没同意"],"rejected_quotes":[]}
+{"source_id":"7491996549044620598","review_mode":"asr_quality_screened","retained_quotes":["恭喜你 再次通过了考验"],"rejected_quotes":[{"text":"我这热的快确实是炸了","reason":"ASR将违规电器热得快转写成短语，不作字面引语。"}]}
+{"source_id":"7490794300721073471","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"服务员买单","reason":"ASR丢失对话中的称呼和断句，语义不足以独立引用。"},{"text":"谁说不捷了","reason":"ASR将结账转写为不捷，字面证据严重失真。"}]}

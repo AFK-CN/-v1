@@ -1,0 +1,55 @@
+{
+  "id": "xsl-cluster-identity_proof",
+  "schema_version": "2.2",
+  "version": 2,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "xhs:5a201295e8ac2b0dbae9063a",
+  "title": "长期肤质身份与自用史构成可信度",
+  "trigger_signals": [
+    "核心因果成立",
+    "新任务需要结构性判断",
+    "存在可验证的执行或反馈边界"
+  ],
+  "trigger_model": {
+    "mechanism": "先交代油痘敏肌、使用年限、空瓶或反复测试，再给判断，形成经验型而非百科型权威。",
+    "applicable_relations": [
+      "其他护肤经验",
+      "痘肌与痘印",
+      "空瓶与产品复盘"
+    ],
+    "transferable_scenes": [
+      "机制成立的其他护肤经验类新任务",
+      "机制成立的痘肌与痘印类新任务",
+      "机制成立的空瓶与产品复盘类新任务"
+    ],
+    "do_not_trigger_on": [
+      "只有人物、产品、场景、道具或题材词相同",
+      "广告或平台项目只有购买信号但没有核心机制"
+    ]
+  },
+  "do_not_use": [
+    "证据缺失",
+    "只命中表面词",
+    "商品广告污染自然方法权重",
+    "个人护理功效被当作确定事实"
+  ],
+  "execution_steps": [
+    "先确定主任务方向",
+    "核对抽象机制",
+    "排除商业与证据边界",
+    "按固定方法顺序执行",
+    "以状态反馈判停"
+  ],
+  "source_refs": [
+    "63313c9c0000000017025e22",
+    "671b52010000000026034e31",
+    "693bdf97000000001f00c6c0"
+  ],
+  "natural_v1_source_count": 3,
+  "relation_or_scene_types": [
+    "其他护肤经验",
+    "痘肌与痘印",
+    "空瓶与产品复盘"
+  ]
+}

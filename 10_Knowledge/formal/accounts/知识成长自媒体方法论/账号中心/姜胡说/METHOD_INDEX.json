@@ -1,0 +1,111 @@
+{
+  "methods": [
+    {
+      "id": "content-relationship-leverage",
+      "title": "用持续有用内容建立关系与分发杠杆",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "experience-to-trust-asset",
+      "title": "把真实经历与解决过程转成信任资产",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "input-output-transformation",
+      "title": "让输入通过输出和使用发生转化",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "life-specific-expression",
+      "title": "用生活细节和真实问题承载抽象表达",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "opportunity-rule-resource-leverage",
+      "title": "从规则变化和资源重组中识别机会",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "problem-minimum-product-feedback",
+      "title": "从真实问题到最小产品再到反馈修正",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "record-to-compounding-asset",
+      "title": "把重复解决过程记录并封装成复利资产",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "small-step-process-system",
+      "title": "把长期目标改写成每天可交付的小过程",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "structured-model-reasoning",
+      "title": "用关键概念和结构模型压缩复杂问题",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "value-exchange-income-system",
+      "title": "用可验证价值交换重构赚钱判断",
+      "status": "approved_callable",
+      "callable": true
+    }
+  ],
+  "relations": [
+    {
+      "source": "experience-to-trust-asset",
+      "target": "content-relationship-leverage",
+      "type": "composes_with",
+      "reason": "真实过程证据帮助持续内容建立关系。"
+    },
+    {
+      "source": "life-specific-expression",
+      "target": "content-relationship-leverage",
+      "type": "composes_with",
+      "reason": "具体生活表达提升持续帮助的可感知性。"
+    },
+    {
+      "source": "input-output-transformation",
+      "target": "record-to-compounding-asset",
+      "type": "composes_with",
+      "reason": "使用后的输出可继续封装为复利资产。"
+    },
+    {
+      "source": "small-step-process-system",
+      "target": "record-to-compounding-asset",
+      "type": "composes_with",
+      "reason": "连续最小交付为复利资产提供稳定素材。"
+    },
+    {
+      "source": "problem-minimum-product-feedback",
+      "target": "value-exchange-income-system",
+      "type": "depends_on",
+      "reason": "收入系统应建立在真实问题和最小交付验证之后。"
+    },
+    {
+      "source": "structured-model-reasoning",
+      "target": "opportunity-rule-resource-leverage",
+      "type": "composes_with",
+      "reason": "结构模型用于压缩规则和资源变化。"
+    }
+  ],
+  "routing_boundary": {
+    "one_primary_conflict_method": true,
+    "commercial_content_routes_separately": true,
+    "platform_projects_route_separately": true,
+    "multi_method_composition_requires_per_method_ablation": true
+  },
+  "schema_version": "2.2",
+  "status": "formal_ingested",
+  "formal_ingested_at": "2026-07-14T23:06:58+08:00"
+}

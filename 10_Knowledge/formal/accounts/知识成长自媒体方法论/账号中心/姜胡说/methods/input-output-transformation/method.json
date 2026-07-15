@@ -1,0 +1,56 @@
+{
+  "id": "input-output-transformation",
+  "schema_version": "2.2",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "account_scope": "姜胡说",
+  "title": "让输入通过输出和使用发生转化",
+  "trigger_signals": [
+    "先定义使用任务",
+    "通过输出检验理解",
+    "让输入改变行动"
+  ],
+  "trigger_model": {
+    "mechanism": "输入必须经过复述、使用、输出或项目检验，只有改变判断和行动的内容才算完成学习。",
+    "applicable_relations": [
+      "输入与使用任务",
+      "理解与公开输出"
+    ],
+    "transferable_scenes": [
+      "读书计划",
+      "课程学习",
+      "陌生领域入门"
+    ],
+    "do_not_trigger_on": [
+      "只因出现学习或读书词",
+      "没有使用任务的资料囤积"
+    ]
+  },
+  "do_not_use": [
+    "只需查一个确定事实",
+    "不能实践且无输出目标的泛读"
+  ],
+  "execution_steps": [
+    "先写明要解决的任务",
+    "按任务选择最小输入",
+    "复述并用于真实行动",
+    "用输出或结果暴露理解缺口"
+  ],
+  "source_refs": [
+    "6946945614781418783",
+    "7000380741297196295",
+    "7130620410202180871",
+    "7166372283500612900",
+    "7201849392154922299",
+    "7379209845997571362",
+    "7548090908445609250",
+    "7597819263646289158",
+    "7614151116225252651",
+    "7636042183547587875",
+    "7637158369555451187"
+  ],
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-14T23:06:58+08:00",
+  "approval_basis": "2026-07-14 user explicit formal-ingest approval after Skill v2.2 audit"
+}

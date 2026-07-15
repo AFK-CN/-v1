@@ -1,0 +1,36 @@
+{
+  "skill": "xsl-cluster-list_decision",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "xsl-cluster-list_decision-positive",
+      "type": "should_trigger",
+      "prompt": "任务要求把清单按用户条件分组，并且给出选择分流标准，是否调用当前方法？"
+    },
+    {
+      "id": "xsl-cluster-list_decision-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "标题出现《清单不是罗列而是决策分流》相关题材词，但没有任何执行关系，是否调用？"
+    },
+    {
+      "id": "xsl-cluster-list_decision-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到把清单按用户条件分组，没有第二个机制信号，是否足够？"
+    },
+    {
+      "id": "xsl-cluster-list_decision-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "空瓶盘点",
+      "target_scene": "跨领域-跨领域工具清单",
+      "mechanism_preserved": true,
+      "prompt": "换了平台和题材，但仍需把清单按用户条件分组，随后给出选择分流标准，是否触发？"
+    },
+    {
+      "id": "xsl-cluster-list_decision-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-problem_result",
+      "prompt": "任务只要求锁定具体皮肤困扰并改写为可感知目标状态，没有当前机制，是否调用当前方法？"
+    }
+  ]
+}

@@ -1027,7 +1027,7 @@
       "platforms": [
         "xhs"
       ],
-      "expected_count": 426,
+      "expected_count": 428,
       "expected_deep_count": 87,
       "confidence_margin": 0.18,
       "candidate_limit_per_direction": 20,

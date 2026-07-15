@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "batch_11",
+  "account_name": "小森林的小世界",
+  "expected_count": 28,
+  "card_count": 28,
+  "evidence_complete_count": 16,
+  "registered_external_gap_count": 12,
+  "candidate_count": 140,
+  "cluster_count": 8,
+  "verified_method_count": 5,
+  "rejected_or_boundary_count": 3,
+  "anti_slop_metrics": {
+    "lens_unique_counts": {
+      "positioning": 12,
+      "topics": 28,
+      "structures": 12,
+      "expression": 17,
+      "counterexamples": 12
+    },
+    "largest_cluster_candidate_count": 72,
+    "largest_cluster_share": 0.5143,
+    "video_count": 24,
+    "image_text_count": 4,
+    "distinct_topic_families": 9,
+    "evidence_grounded_card_count": 28
+  },
+  "manual_exception_review": "required_before_next_batch",
+  "errors": [],
+  "quality_errors": [],
+  "technical_gate": "pass",
+  "quality_gate": "pass",
+  "acceptance_mode": "codex_independent_audit",
+  "user_acceptance": "not_required",
+  "batch_gate": "pass",
+  "formal_write_allowed": false,
+  "callable": false,
+  "generated_at": "2026-07-14T14:04:54.616804+00:00"
+}

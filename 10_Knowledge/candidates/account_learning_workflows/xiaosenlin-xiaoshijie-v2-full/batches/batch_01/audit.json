@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "batch_id": "batch_01",
+  "account_name": "小森林的小世界",
+  "expected_count": 40,
+  "card_count": 40,
+  "evidence_complete_count": 40,
+  "registered_external_gap_count": 0,
+  "candidate_count": 200,
+  "cluster_count": 7,
+  "verified_method_count": 5,
+  "rejected_or_boundary_count": 2,
+  "anti_slop_metrics": {
+    "lens_unique_counts": {
+      "positioning": 24,
+      "topics": 40,
+      "structures": 14,
+      "expression": 40,
+      "counterexamples": 23
+    },
+    "largest_cluster_candidate_count": 42,
+    "largest_cluster_share": 0.21,
+    "video_count": 35,
+    "image_text_count": 5,
+    "distinct_topic_families": 12,
+    "evidence_grounded_card_count": 40
+  },
+  "manual_exception_review": "pass",
+  "errors": [],
+  "quality_errors": [],
+  "technical_gate": "pass",
+  "quality_gate": "pass",
+  "acceptance_mode": "codex_independent_audit",
+  "user_acceptance": "not_required",
+  "batch_gate": "pass",
+  "formal_write_allowed": false,
+  "callable": false,
+  "generated_at": "2026-07-13T16:07:56.526797+00:00",
+  "reclassification_mode": "cached_evidence_reclassification",
+  "nas_reaccessed": false,
+  "reclassified_at": "2026-07-13T16:17:41.463030+00:00",
+  "manual_review_scope": {
+    "registered_gaps_reviewed": 0,
+    "representative_complete_cards_reviewed": 5,
+    "checks": [
+      "缺口未冒充完整学习",
+      "主题族与主命题一致",
+      "五路观察有证据摘录",
+      "高风险功效进入边界",
+      "candidate-only"
+    ]
+  }
+}

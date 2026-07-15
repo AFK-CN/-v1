@@ -1,0 +1,10 @@
+{"source_id": "7554293719798304027", "review_mode": "asr_quality_screened", "retained_quotes": ["任何人不许加班"], "rejected_quotes": [{"text": "这是亚多星球深睡诊", "reason": "品牌和产品名称均存在明显ASR错字。"}]}
+{"source_id": "7552484344628497710", "review_mode": "asr_quality_screened", "retained_quotes": ["我在第一次当面试官", "以后你就负责公司招聘吧"], "rejected_quotes": []}
+{"source_id": "7551987264202050862", "review_mode": "asr_quality_screened", "retained_quotes": ["由茅台1935总冠名的", "将会在抖音独家直播"], "rejected_quotes": []}
+{"source_id": "7550322686300917018", "review_mode": "asr_quality_screened", "retained_quotes": ["什么是内耗", "最高能抽到10倍"], "rejected_quotes": []}
+{"source_id": "7549533002327493897", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "中文实际教学", "reason": "标题或课堂称谓疑似被截断，语义不足。"}, {"text": "这是我最新的一些课", "reason": "结合卡片结论应涉及新与老的悖论，当前摘句不完整。"}]}
+{"source_id": "7546324903940869422", "review_mode": "asr_quality_screened", "retained_quotes": ["合作取消"], "rejected_quotes": [{"text": "那个方案我回去想问一下", "reason": "动作词疑似ASR错字，句意与客户认可结论不一致。"}]}
+{"source_id": "7544674532553231666", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "一字一句想 圈套", "reason": "歌词片段无法独立表达剧情机制。"}, {"text": "然後戰火再燃燒", "reason": "歌词只提供情绪，不是可复核的聊天原句。"}]}
+{"source_id": "7544340659134876937", "review_mode": "asr_quality_screened", "retained_quotes": [], "rejected_quotes": [{"text": "一字一句想 圈套", "reason": "歌词片段无法独立表达职场沟通证据。"}, {"text": "背對背有效", "reason": "歌词摘句疑似识别不完整，语义不成立。"}]}
+{"source_id": "7543964338148805915", "review_mode": "asr_quality_screened", "retained_quotes": ["我一月的工资已经达到了2450块钱", "不装了 我是百万富翁"], "rejected_quotes": []}
+{"source_id": "7543481532665629978", "review_mode": "asr_quality_screened", "retained_quotes": ["游戏今天上线", "绝对能躲开所有怪物的攻击"], "rejected_quotes": []}

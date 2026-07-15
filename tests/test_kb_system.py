@@ -527,9 +527,18 @@ class KBSystemTests(unittest.TestCase):
                 ),
                 encoding="utf-8",
             )
+            (root / "00_System" / "shareable" / "config" / "account_learning_pipeline.json").write_text(
+                (Path.cwd() / "00_System/shareable/config/account_learning_pipeline.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
+            (root / "00_System" / "shareable" / "config" / "account_learning_card_contract.json").write_text(
+                (Path.cwd() / "00_System/shareable/config/account_learning_card_contract.json").read_text(encoding="utf-8"),
+                encoding="utf-8",
+            )
             (root / "00_System" / "shareable" / "rules").mkdir(exist_ok=True)
             (root / "00_System" / "shareable" / "rules" / "用户操作台.md").write_text("@知识库 + 你的需求\n", encoding="utf-8")
             (root / "00_System" / "shareable" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
+            (root / "00_System" / "shareable" / "rules" / "统一学习卡产出标准.md").write_text("# 统一学习卡产出标准\n", encoding="utf-8")
             (root / "00_System" / "shareable" / "rules" / "规则权威源.md").write_text(
                 "controller_routes.json skill_contract.json schemas.py\n不要在 Markdown 文档里再维护一份并行规则清单\n",
                 encoding="utf-8",
@@ -544,6 +553,8 @@ class KBSystemTests(unittest.TestCase):
                         "NAS 只作为原始资产仓",
                         "过程物",
                         "缺任何一个都不能宣布粗学完成",
+                        "三重验证 压力测试 rejected.jsonl candidate_clusters.jsonl 提示集哈希 callable=false",
+                        "unified_three_layer_v2 证据层 + 内容拆解层 系统规则不得包含账号专属内容",
                         "## 二、生产复盘阶段",
                         "内容生产 反馈复盘 针对性强化",
                     ]
@@ -708,6 +719,9 @@ class KBSystemTests(unittest.TestCase):
         self.assertIn("NAS 只作为原始资产仓", text)
         self.assertIn("过程物", text)
         self.assertIn("缺任何一个都不能宣布粗学完成", text)
+        self.assertIn("派生观察", text)
+        self.assertIn("ACCOUNT_PRODUCTION_HANDOFF.json", text)
+        self.assertIn("不系统预设", text)
         self.assertNotIn("| 0. 立项边界 |", text)
 
     def test_task_entry_index_describes_account_learning_as_two_macro_phases(self):
@@ -720,6 +734,8 @@ class KBSystemTests(unittest.TestCase):
         self.assertIn("内容生产、反馈复盘、针对性强化", text)
         self.assertIn("图文学习从统一入口 `tools.kb.cli image-text-*` 走 `ingest -> structure -> scan -> select -> learn -> status`", text)
         self.assertIn("图文账号学习标准工作流.md", text)
+        self.assertIn("不给单卡增加强制字段", text)
+        self.assertIn("ACCOUNT_PRODUCTION_HANDOFF.json", text)
         self.assertNotIn("立项边界 -> 资料接入", text)
 
     def test_controller_declares_agents_as_logical_roles_not_process_boundaries(self):
@@ -834,6 +850,7 @@ class KBSystemTests(unittest.TestCase):
         (root / "00_System" / "shareable" / "rules" / "用户操作台.md").write_text("@知识库 + 你的需求\n", encoding="utf-8")
         (root / "00_System" / "shareable" / "rules" / "初始化生命周期.md").write_text("初始化生命周期\n", encoding="utf-8")
         (root / "00_System" / "shareable" / "rules" / "输出契约.md").write_text("# 输出契约\n", encoding="utf-8")
+        (root / "00_System" / "shareable" / "rules" / "统一学习卡产出标准.md").write_text("# 统一学习卡产出标准\n", encoding="utf-8")
         (root / "00_System" / "shareable" / "rules" / "规则权威源.md").write_text("controller_routes.json skill_contract.json schemas.py\n", encoding="utf-8")
         (root / "00_System" / "shareable" / "rules" / "账号学习标准工作流.md").write_text(
             "\n".join(
@@ -845,6 +862,8 @@ class KBSystemTests(unittest.TestCase):
                     "NAS 只作为原始资产仓",
                     "过程物",
                     "缺任何一个都不能宣布粗学完成",
+                    "三重验证 压力测试 rejected.jsonl candidate_clusters.jsonl 提示集哈希 callable=false",
+                    "unified_three_layer_v2 证据层 + 内容拆解层 系统规则不得包含账号专属内容",
                     "## 二、生产复盘阶段",
                     "内容生产 反馈复盘 针对性强化",
                 ]
@@ -899,6 +918,14 @@ class KBSystemTests(unittest.TestCase):
                 {"contracts": [{"route_id": route_id, "required_fields": ["字段"], "must_not": ["禁止项"]} for route_id in route_ids]},
                 ensure_ascii=False,
             ),
+            encoding="utf-8",
+        )
+        (root / "00_System" / "shareable" / "config" / "account_learning_pipeline.json").write_text(
+            (Path.cwd() / "00_System/shareable/config/account_learning_pipeline.json").read_text(encoding="utf-8"),
+            encoding="utf-8",
+        )
+        (root / "00_System" / "shareable" / "config" / "account_learning_card_contract.json").write_text(
+            (Path.cwd() / "00_System/shareable/config/account_learning_card_contract.json").read_text(encoding="utf-8"),
             encoding="utf-8",
         )
         for name, content in (

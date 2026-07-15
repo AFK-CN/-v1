@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-06-30",
+  "updated_at": "2026-07-15",
   "default_entry": "@知识库",
   "compatible_entry": "knowledge-base",
   "global_priority": true,
@@ -198,10 +198,20 @@
       "read_first": [
         "10_Knowledge/evidence/index/account_knowledge_index.md",
         "00_System/shareable/config/content_rough_scan_profiles.json",
+        "00_System/shareable/config/account_learning_pipeline.json",
+        "00_System/shareable/config/account_learning_card_contract.json",
+        "00_System/shareable/skills/active/账号专业学习Skill_v2.md",
+        "00_System/shareable/rules/统一学习卡产出标准.md",
+        "00_System/shareable/rules/账号专业学习提取与验证规范.md",
         "00_System/shareable/skills/active/视频深度学习Skill_v1.md",
         "00_System/shareable/rules/图文账号学习标准工作流.md"
       ],
       "tools": [
+        "tools.kb.cli account-learning-init",
+        "tools.kb.cli account-learning-status",
+        "tools.kb.cli account-learning-complete-stage",
+        "tools.kb.cli account-learning-validate",
+        "tools.kb.cli account-learning-validate-card",
         "tools.kb.cli sqlite-ingest",
         "tools.kb.cli image-text-env",
         "tools.kb.cli image-text-ingest",
@@ -217,7 +227,7 @@
         "tools.video_learning_account_ingest",
         "tools.video_learning_card_validator"
       ],
-      "output_contract": "按通用 profile 工作流输出学习阶段产物：粗学与深学计划、深度学习总结、综合入库；视频分支走 scan -> select -> learn -> status，图文分支走 ingest -> structure -> scan -> select -> learn -> status；后续生产复盘阶段输出内容生产、反馈复盘和针对性强化记录。粗学完成必须有账号概述、粗学与选题池和 deep_learning_plan.json；粗学与选题池必须按方向保留全部粗扫选题，Top/候补内容只用于深学优先级和执行计划；图文结构化结果必须标注图片顺序、OCR 状态、封面/分图角色和证据缺口；用户确认或审核注册表通过后才能进入账号中心。",
+      "output_contract": "账号学习阶段先建立七阶段专业流水线：整体账号理解 -> 五视角提取 -> 候选机制聚合与三重验证 -> RIA++ 方法构造 -> 方法链接 -> 带逐案例证据的压力测试 -> 候选交付；阶段 0 和阶段 2 后必须用户确认，状态以 PIPELINE_STATE.json 为准。阶段 1 在现有学习卡和必要源证据上派生结构机制与表达指纹观察，不修改单卡契约，不强制凑齐观察维度；阶段 2 才能通过多卡聚合形成账号专属结构和表达机制。视频分支继续走 scan -> select -> learn -> status，图文分支继续走 ingest -> structure -> scan -> select -> learn -> status，作为七阶段的证据采集层。粗学仍必须有账号概述、粗学与选题池和 deep_learning_plan.json；阶段 6 生成 formal_write=false、callable=false 的 promotion_manifest 与 ACCOUNT_PRODUCTION_HANDOFF.json，把已验证结论映射为账号结构库、表达指纹、反 AI 规则、内容模板和验收候选，不直接写正式账号中心。生产复盘阶段保持原流程。",
       "write_policy": "脚本可写候选资产和报告；正式账号知识写入需要审核通过。"
     },
     {
@@ -420,6 +430,40 @@
       ],
       "output_contract": "输出调用入口、命中路由、读取层级、允许使用范围、禁止使用范围、正式知识来源、候选证据状态和下一步调用建议。",
       "write_policy": "默认不读取原始数据、不读取候选资产，除非用户明确要求审核候选。"
+    },
+    {
+      "id": "knowledge_graph",
+      "name": "知识图谱",
+      "triggers": [
+        "知识图谱",
+        "关系图",
+        "系统图",
+        "知识网络",
+        "Graphify",
+        "图谱查询"
+      ],
+      "minimum_required": [
+        "查看视图或查询问题"
+      ],
+      "agents": [
+        "controller",
+        "retriever",
+        "auditor"
+      ],
+      "read_first": [
+        "00_System/shareable/config/graph_sources.json",
+        "00_System/shareable/config/graph_views.json",
+        "00_System/shareable/config/graph_output_contract.json",
+        "00_System/shareable/rules/知识图谱构建与调用规则.md"
+      ],
+      "tools": [
+        "tools.kb.cli graph status",
+        "tools.kb.cli graph build",
+        "tools.kb.cli graph query",
+        "tools.kb.cli graph web"
+      ],
+      "output_contract": "输出命中视图、相关节点、关系来源、可信度、原文件和行号；图谱只负责缩小范围，事实引用必须回查原文件。",
+      "write_policy": "只写 00_System/runtime/graphify/ 派生产物；不修改正式知识，不展开原始资料、私有资料或候选正文。"
     },
     {
       "id": "system_audit",

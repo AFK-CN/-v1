@@ -1,0 +1,10 @@
+{"source_id":"7180636900619849020","review_mode":"asr_quality_screened","retained_quotes":["我就是财务"],"rejected_quotes":[{"text":"年底送福利就是什么","reason":"商品段ASR错转严重，改以手表礼盒、画面字幕和产品特写作证。"}]}
+{"source_id":"7179795639503490361","review_mode":"asr_quality_screened","retained_quotes":["我一天我啥也没干","最近接了个兼职"],"rejected_quotes":[]}
+{"source_id":"7177237381999807805","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"你是不是创作平静了","reason":"ASR将创作瓶颈错转为创作平静，不保留为原话。"},{"text":"因为养了第四天了一块","reason":"ASR将阳了第四天错转且句尾混乱，以画面字幕和喝水动作确认。"}]}
+{"source_id":"7175609000434715965","review_mode":"asr_quality_screened","retained_quotes":["我最应该给的人就是你","真是男女同款"],"rejected_quotes":[]}
+{"source_id":"7174966201771101501","review_mode":"asr_quality_screened","retained_quotes":["1000万粉丝了","他一直拍的"],"rejected_quotes":[]}
+{"source_id":"7173118603758144776","review_mode":"asr_quality_screened","retained_quotes":["如果夢想不曾墜落","執著的人"],"rejected_quotes":[]}
+{"source_id":"7172222564297739533","review_mode":"asr_quality_screened","retained_quotes":["这是专业的招聘"],"rejected_quotes":[{"text":"赶紧下的试试","reason":"ASR将下载试试错转为下的试试，功能结论由猎聘页面和字幕支持。"}]}
+{"source_id":"7171260492164386085","review_mode":"asr_quality_screened","retained_quotes":[],"rejected_quotes":[{"text":"这招叫玉扬先义","reason":"ASR将欲扬先抑错转，不能作为精确表达样本。"},{"text":"你被开仇了","reason":"ASR将被开除了错转，改以连续扣薪开除画面作证。"}]}
+{"source_id":"7170147835898367263","review_mode":"asr_quality_screened","retained_quotes":["这个是Vivo X90","才不到4000"],"rejected_quotes":[]}
+{"source_id":"7169039217492856095","review_mode":"asr_quality_screened","retained_quotes":["你怎么这么敏感","我叫了车马上到了"],"rejected_quotes":[]}

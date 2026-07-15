@@ -1,0 +1,1073 @@
+{
+  "ok": true,
+  "workflow_id": "jianghushuo-v2-full",
+  "generated_at": "2026-07-14T22:24:09+08:00",
+  "evidence_ready_count": 548,
+  "batch_size": 10,
+  "batch_range": [
+    1,
+    55
+  ],
+  "completed_batches": [
+    {
+      "batch_id": "batch_01",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.153417,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_02",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.158392,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_03",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.164524,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_04",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.172149,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_05",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.16242,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_06",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.175,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_07",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.190554,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_08",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.17452,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_09",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.17341,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_10",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.151225,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_11",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.168487,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_12",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.202473,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_13",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.328542,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_14",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.340807,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_15",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.349666,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_16",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.446667,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_17",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.365566,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_18",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.370732,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_19",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.342733,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_20",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.391521,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_21",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.503686,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_22",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.377682,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_23",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.384434,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_24",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.350763,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_25",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.366822,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_26",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.37963,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_27",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.380952,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_28",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.405248,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_29",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.505455,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_30",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.404692,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_31",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.409091,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_32",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.482143,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_33",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.332536,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_34",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.320186,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_35",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.35641,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_36",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.313501,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_37",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.376731,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_38",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.294922,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_39",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.305085,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_40",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.294828,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_41",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.28629,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_42",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.278947,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_43",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.294333,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_44",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.284192,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_45",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.304189,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_46",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.296161,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_47",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.319444,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_48",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.293269,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_49",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.296741,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_50",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.278438,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_51",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.3,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_52",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.32008,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_53",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.279869,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_54",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 10,
+      "substantive_card_count": 10,
+      "effective_candidate_count": 50,
+      "max_pair_similarity": 0.284757,
+      "errors": []
+    },
+    {
+      "batch_id": "batch_55",
+      "learning_ok": true,
+      "gate_ok": true,
+      "card_count": 8,
+      "substantive_card_count": 8,
+      "effective_candidate_count": 40,
+      "max_pair_similarity": 0.289655,
+      "errors": []
+    }
+  ],
+  "failed_batch": "",
+  "formal_write_allowed": false,
+  "completed_at": "2026-07-14T22:39:00+08:00",
+  "aggregate_gate_status": {
+    "ok": true,
+    "expected_batch_count": 55,
+    "audited_batch_count": 55,
+    "missing_batches": [],
+    "card_count": 548,
+    "substantive_card_count": 548,
+    "effective_candidate_count": 2740,
+    "max_pair_similarity": 0.505455,
+    "batches": [
+      {
+        "batch_id": "batch_01",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.153417,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_02",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.158392,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_03",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.164524,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_04",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.172149,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_05",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.16242,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_06",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.175,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_07",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.190554,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_08",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.17452,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_09",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.17341,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_10",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.151225,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_11",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.168487,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_12",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.202473,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_13",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.328542,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_14",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.340807,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_15",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.349666,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_16",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.446667,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_17",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.365566,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_18",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.370732,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_19",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.342733,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_20",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.391521,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_21",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.503686,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_22",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.377682,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_23",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.384434,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_24",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.350763,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_25",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.366822,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_26",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.37963,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_27",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.380952,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_28",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.405248,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_29",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.505455,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_30",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.404692,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_31",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.409091,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_32",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.482143,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_33",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.332536,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_34",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.320186,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_35",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.35641,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_36",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.313501,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_37",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.376731,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_38",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.294922,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_39",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.305085,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_40",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.294828,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_41",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.28629,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_42",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.278947,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_43",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.294333,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_44",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.284192,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_45",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.304189,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_46",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.296161,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_47",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.319444,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_48",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.293269,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_49",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.296741,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_50",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.278438,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_51",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.3,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_52",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.32008,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_53",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.279869,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_54",
+        "ok": true,
+        "card_count": 10,
+        "substantive_card_count": 10,
+        "effective_candidate_count": 50,
+        "max_pair_similarity": 0.284757,
+        "errors": []
+      },
+      {
+        "batch_id": "batch_55",
+        "ok": true,
+        "card_count": 8,
+        "substantive_card_count": 8,
+        "effective_candidate_count": 40,
+        "max_pair_similarity": 0.289655,
+        "errors": []
+      }
+    ]
+  }
+}

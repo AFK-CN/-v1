@@ -1,0 +1,150 @@
+{
+  "ok": true,
+  "workflow_id": "jianghushuo-v2-full",
+  "batch_id": "batch_10",
+  "generated_at": "2026-07-14T22:25:14+08:00",
+  "formal_write_allowed": false,
+  "metrics": {
+    "expected_count": 10,
+    "card_count": 10,
+    "contract_passed_count": 10,
+    "quote_supported_count": 10,
+    "candidate_counts": {
+      "positioning": 10,
+      "topics": 10,
+      "structures": 10,
+      "expression": 10,
+      "counterexamples": 10
+    },
+    "substantive_card_count": 10,
+    "effective_candidate_count": 50,
+    "expected_effective_candidate_count": 50,
+    "max_pair_similarity": 0.151225,
+    "max_legacy_overlap": 0.517389
+  },
+  "errors": [],
+  "card_paths": [
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7561825588315442468.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7574452831827053876.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7596338568050593060.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7603767561850735935.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7618589475425275145.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7620840179279858995.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7621518948420324658.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7624160450304920847.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7634940154272156947.md",
+    "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/batches/batch_10/cards/douyin_7644578414015401235.md"
+  ],
+  "duplicate_source_ids": [],
+  "contract_errors": {},
+  "unsupported_quotes": [],
+  "high_similarity_pairs": [],
+  "top_similarity_pairs": [
+    {
+      "left": "7365862788821962018",
+      "right": "7624160450304920847",
+      "similarity": 0.151225
+    },
+    {
+      "left": "7548090908445609250",
+      "right": "7596338568050593060",
+      "similarity": 0.149606
+    },
+    {
+      "left": "7551062641335209257",
+      "right": "7596338568050593060",
+      "similarity": 0.14936
+    },
+    {
+      "left": "7596338568050593060",
+      "right": "7599316326846385462",
+      "similarity": 0.146814
+    },
+    {
+      "left": "7537695497272790282",
+      "right": "7574452831827053876",
+      "similarity": 0.144516
+    },
+    {
+      "left": "7474952939895934259",
+      "right": "7624160450304920847",
+      "similarity": 0.142032
+    },
+    {
+      "left": "7596338568050593060",
+      "right": "7597450892647992618",
+      "similarity": 0.141553
+    },
+    {
+      "left": "7551062641335209257",
+      "right": "7621518948420324658",
+      "similarity": 0.140845
+    },
+    {
+      "left": "7561436598668184858",
+      "right": "7596338568050593060",
+      "similarity": 0.140449
+    },
+    {
+      "left": "7561436598668184858",
+      "right": "7621518948420324658",
+      "similarity": 0.140056
+    },
+    {
+      "left": "7592259516792622399",
+      "right": "7634940154272156947",
+      "similarity": 0.139386
+    },
+    {
+      "left": "7586645512623901978",
+      "right": "7618589475425275145",
+      "similarity": 0.139043
+    },
+    {
+      "left": "7408929533908225334",
+      "right": "7596338568050593060",
+      "similarity": 0.138329
+    },
+    {
+      "left": "7561825588315442468",
+      "right": "7593362807756721414",
+      "similarity": 0.138081
+    },
+    {
+      "left": "7408929533908225334",
+      "right": "7574452831827053876",
+      "similarity": 0.136947
+    },
+    {
+      "left": "7384068155007651107",
+      "right": "7621518948420324658",
+      "similarity": 0.136296
+    },
+    {
+      "left": "7486844955646774565",
+      "right": "7574452831827053876",
+      "similarity": 0.136187
+    },
+    {
+      "left": "7593362807756721414",
+      "right": "7596338568050593060",
+      "similarity": 0.135258
+    },
+    {
+      "left": "7514323799211756863",
+      "right": "7624160450304920847",
+      "similarity": 0.135231
+    },
+    {
+      "left": "7545859136433573170",
+      "right": "7574452831827053876",
+      "similarity": 0.134801
+    }
+  ],
+  "repeated_core_lines": [],
+  "duplicate_candidate_summaries": [],
+  "excessive_legacy_overlap": [],
+  "substance_errors": {},
+  "candidate_effectiveness_errors": [],
+  "prior_gate_failures": []
+}

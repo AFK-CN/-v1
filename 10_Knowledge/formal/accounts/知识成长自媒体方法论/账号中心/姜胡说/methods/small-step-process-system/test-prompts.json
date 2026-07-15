@@ -1,0 +1,55 @@
+{
+  "skill": "small-step-process-system",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "small-step-process-system-positive",
+      "type": "should_trigger",
+      "prompt": "新任务需要把长期目标拆成最小过程，并且要每天交付可记录动作，应该调用什么方法？"
+    },
+    {
+      "id": "small-step-process-system-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "文案里出现《把长期目标改写成每天可交付的小过程》相关题材词，但没有任何因果过程或执行关系，是否调用？"
+    },
+    {
+      "id": "small-step-process-system-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到把长期目标拆成最小过程，没有第二个机制信号，是否足以调用？"
+    },
+    {
+      "id": "small-step-process-system-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "长期学习计划",
+      "target_scene": "跨领域-持续内容创作",
+      "mechanism_preserved": true,
+      "prompt": "换了人物、平台和道具，但仍需把长期目标拆成最小过程，随后每天交付可记录动作，核心机制是否应触发？"
+    },
+    {
+      "id": "small-step-process-system-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "structured-model-reasoning",
+      "prompt": "任务明确要求找到决定结果的关键概念并画出概念关系，但没有当前方法的机制，应调用当前方法吗？"
+    },
+    {
+      "id": "small-step-process-system-commercial-contamination",
+      "type": "commercial_contamination",
+      "prompt": "新增一条带商品植入的样本，只在广告话术中提到《把长期目标改写成每天可交付的小过程》相关题材词，没有自然内容中的完整因果机制；它是否应提高当前自然方法 V1 权重并触发调用？",
+      "commercial_sample_must_not_increase_natural_v1": true
+    },
+    {
+      "id": "small-step-process-system-mechanism-ablation",
+      "type": "mechanism_ablation",
+      "ablated_signal": "每天交付可记录动作",
+      "prompt": "消融关键环节后，任务只剩把长期目标拆成最小过程，没有后续因果闭环，是否仍应调用当前方法？"
+    },
+    {
+      "id": "small-step-process-system-composition-ablation",
+      "type": "composition_ablation",
+      "ablated_method_id": "small-step-process-system",
+      "retained_sibling_method_id": "structured-model-reasoning",
+      "prompt": "组合中只保留当前方法的单一线索把长期目标拆成最小过程，主要机制改为找到决定结果的关键概念并画出概念关系；当前方法是否仍是必要组成？"
+    }
+  ]
+}

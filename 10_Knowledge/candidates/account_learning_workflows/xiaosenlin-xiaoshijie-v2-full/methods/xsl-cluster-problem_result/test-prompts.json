@@ -1,0 +1,54 @@
+{
+  "schema_version": "2.2",
+  "method_id": "xsl-cluster-problem_result",
+  "test_cases": [
+    {
+      "id": "xsl-cluster-problem_result-positive",
+      "type": "should_trigger",
+      "prompt": "用户有具体困扰，需要先定义目标状态和判断标准，再决定方案。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-problem_result-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "只出现护肤和产品词，没有具体问题、目标状态或判断标准。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-problem_result-edge",
+      "type": "edge_case",
+      "prompt": "边界任务部分接近“具体皮肤问题转译为可感知结果”，但证据未补齐；应先进入证据门。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-problem_result-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "个人护理",
+      "target_scene": "知识成长",
+      "mechanism_preserved": true,
+      "prompt": "学习者有具体困扰，需要先定义目标状态和判断标准，再决定方案。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "xsl-cluster-problem_result-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "xsl-cluster-step_sequence",
+      "decoy_kind": "sibling_method_without_target_mechanism",
+      "prompt": "任务只满足兄弟方法 xsl-cluster-step_sequence，不包含当前方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-problem_result-commercial",
+      "type": "commercial_contamination",
+      "prompt": "这是品牌赞助和限时购买任务，只有购买利益，没有当前自然方法的核心机制。",
+      "expected_decision": "not_trigger"
+    },
+    {
+      "id": "xsl-cluster-problem_result-ablation",
+      "type": "combination_ablation",
+      "prompt": "组合流程明确移除“具体皮肤问题转译为可感知结果”的核心机制，仅保留其他方法。",
+      "expected_decision": "not_trigger"
+    }
+  ]
+}

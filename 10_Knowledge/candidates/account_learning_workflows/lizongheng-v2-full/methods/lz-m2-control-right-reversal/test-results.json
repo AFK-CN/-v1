@@ -1,0 +1,59 @@
+{
+  "executor": "structured-mechanism-evaluator-v1",
+  "executed_at": "2026-07-14T21:14:42+08:00",
+  "prompt_set_sha256": "dee988a0f28a9059e7a49de69f5a5adac2aa58b1ea1079637bb951f296332550",
+  "case_results": [
+    {
+      "id": "lz-m2-control-right-reversal-case-01",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"process_changed\": true, \"sustained_actions\": 3, \"transferred_rights\": 1}；预期=trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-02",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"process_changed\": false, \"sustained_actions\": 0, \"transferred_rights\": 0}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-03",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"process_changed\": false, \"sustained_actions\": 1, \"transferred_rights\": 1}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-04",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"process_changed\": true, \"sustained_actions\": 3, \"transferred_rights\": 2}；预期=trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-05",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"mapped_layers\": 4, \"process_changed\": false, \"settlement_affected\": true, \"sustained_actions\": 0, \"sustained_rule\": true, \"transferred_rights\": 0}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-06",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"process_changed\": false, \"sustained_actions\": 2, \"transferred_rights\": 0}；预期=do_not_trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-07",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "按结构事实判定：{\"content_axis\": \"normal\", \"escalation_dimensions\": 2, \"fixed_rule\": true, \"ordered_intensity\": true, \"process_changed\": true, \"rounds\": 4, \"sustained_actions\": 4, \"transferred_rights\": 1}；预期=trigger。"
+    },
+    {
+      "id": "lz-m2-control-right-reversal-case-08",
+      "passed": true,
+      "actual_decision": "boundary_only",
+      "evidence": "按结构事实判定：{\"content_axis\": \"commercial\", \"process_changed\": true, \"sustained_actions\": 3, \"transferred_rights\": 1}；预期=boundary_only。"
+    }
+  ],
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "pass_rate": 1.0
+}

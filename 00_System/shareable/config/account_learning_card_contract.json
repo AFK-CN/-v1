@@ -1,0 +1,126 @@
+{
+  "version": "2.1",
+  "updated_at": "2026-07-12",
+  "contract_id": "unified_three_layer_v2",
+  "scope": "all_account_learning_cards",
+  "new_cards_must_use_contract": true,
+  "layers": [
+    {
+      "id": "evidence",
+      "name": "证据层",
+      "purpose": "证明本卡结论来自什么、可信到什么程度，并隔离商业污染和缺失证据。"
+    },
+    {
+      "id": "content_deconstruction",
+      "name": "内容拆解层",
+      "purpose": "保留可直接服务选题、脚本和表达学习的核心观点、结构、金句、案例、方法候选和模板。"
+    },
+    {
+      "id": "cross_card_method",
+      "name": "跨卡方法层",
+      "purpose": "跨多张卡完成 Adler 理解、五视角提取、三重验证、完整 RIA++、关系图和压力测试；不在单卡内冒充稳定方法。"
+    }
+  ],
+  "required_metadata": [
+    "学习卡契约",
+    "source_id",
+    "原内容链接",
+    "账号",
+    "平台",
+    "主方向",
+    "学习批次",
+    "状态"
+  ],
+  "card_sections": [
+    {"id": "evidence_boundary", "heading": "证据边界", "layer": "evidence"},
+    {"id": "learning_value", "heading": "为什么值得学习", "layer": "content_deconstruction"},
+    {"id": "classification", "heading": "多维分类与商业隔离", "layer": "evidence"},
+    {"id": "core_viewpoints", "heading": "核心观点", "layer": "content_deconstruction"},
+    {"id": "content_structure", "heading": "内容结构", "layer": "content_deconstruction"},
+    {"id": "publish_layer", "heading": "发布内容层学习", "layer": "content_deconstruction"},
+    {"id": "media_layer", "heading": "视频/图文表现层学习", "layer": "content_deconstruction"},
+    {"id": "quotes", "heading": "金句与表达素材", "layer": "content_deconstruction"},
+    {"id": "cases_topics", "heading": "可复用选题与案例", "layer": "content_deconstruction"},
+    {"id": "method_candidate", "heading": "方法候选与可复用方法论", "layer": "content_deconstruction"},
+    {"id": "template", "heading": "可复用模板", "layer": "content_deconstruction"},
+    {"id": "gaps_decision", "heading": "证据缺口与候选判断", "layer": "evidence"}
+  ],
+  "quote_types": [
+    "原文金句",
+    "提炼表达",
+    "可复用句式"
+  ],
+  "method_candidate_sections": [
+    "R - 原始证据",
+    "I - 初步解释",
+    "A1 - 本条案例",
+    "A2 - 未来触发场景",
+    "E - 初步执行步骤",
+    "B - 边界与反例"
+  ],
+  "trigger_model": {
+    "routing_order": [
+      "先按正式状态、账号、内容形态和主任务方向建立基础召回范围",
+      "再按冲突因果、喜剧或表达机制、结构机制和信息差做跨方向扩展",
+      "最后用不触发条件、商业边界和证据边界排除误召回"
+    ],
+    "a2_required_fields": [
+      "触发机制",
+      "适用关系",
+      "可迁移场景",
+      "不触发条件"
+    ],
+    "hard_route_dimensions": [
+      "正式状态",
+      "账号",
+      "内容形态",
+      "主任务方向"
+    ],
+    "mechanism_match_dimensions": [
+      "冲突因果",
+      "喜剧或表达机制",
+      "结构机制",
+      "信息差或限制条件"
+    ],
+    "forbidden_triggers": [
+      "仅因人物关系词相同而触发",
+      "仅因场景、道具或题材词相同而触发",
+      "在生成过程中偶然出现某个名词后才临时追加方法"
+    ],
+    "selection_timing": "开始生成前完成方向路由、机制扩展和边界排除；生成过程中不得按偶然名词重新路由"
+  },
+  "content_structure_profiles": {
+    "knowledge_or_commentary": ["黄金3秒", "观点提出", "证据或案例", "推演", "收尾"],
+    "story_or_skit": ["开头设定", "核心冲突", "升级", "转折或笑点", "收尾"],
+    "image_text": ["封面承诺", "分图顺序", "信息层级", "行动建议", "收尾互动"]
+  },
+  "cross_card_outputs": [
+    "ACCOUNT_OVERVIEW.md/json",
+    "candidates/{positioning,topics,structures,expression,counterexamples}.jsonl",
+    "candidate_clusters.jsonl",
+    "verified.jsonl",
+    "rejected.jsonl",
+    "methods/{method_id}/METHOD.md",
+    "METHOD_INDEX.json",
+    "GLOSSARY.md",
+    "methods/{method_id}/test-prompts.json",
+    "methods/{method_id}/test-results.json",
+    "LEARNING_DIGEST.md",
+    "promotion_manifest.json"
+  ],
+  "compatibility": {
+    "legacy_rich_v1": "read_and_validate_without_rewrite",
+    "evidence_card_v1": "read_as_evidence_only",
+    "bulk_migration": false
+  },
+  "invariants": [
+    "系统规则不得包含任何账号专属内容",
+    "原文金句必须可回查，提炼表达不得冒充原话",
+    "内容结构必须按内容形态选择，不得强套知识口播模板",
+    "单卡方法只能标为候选，完整方法必须跨卡验证",
+    "A2必须按机制描述触发与迁移，不得把来源选题原句直接当作触发条件",
+    "人物关系、场景、道具和题材词只能作为适配维度，不能单独触发方法",
+    "广告和平台活动不得污染核心方向规律",
+    "新卡缺任一必需段落不得通过"
+  ]
+}

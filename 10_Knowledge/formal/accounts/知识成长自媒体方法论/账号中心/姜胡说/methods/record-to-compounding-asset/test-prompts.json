@@ -1,0 +1,55 @@
+{
+  "skill": "record-to-compounding-asset",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "record-to-compounding-asset-positive",
+      "type": "should_trigger",
+      "prompt": "新任务需要记录重复解决步骤，并且要封装可复用部分，应该调用什么方法？"
+    },
+    {
+      "id": "record-to-compounding-asset-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "文案里出现《把重复解决过程记录并封装成复利资产》相关题材词，但没有任何因果过程或执行关系，是否调用？"
+    },
+    {
+      "id": "record-to-compounding-asset-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到记录重复解决步骤，没有第二个机制信号，是否足以调用？"
+    },
+    {
+      "id": "record-to-compounding-asset-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "日常工作流程",
+      "target_scene": "跨领域-内容模板与自动化",
+      "mechanism_preserved": true,
+      "prompt": "换了人物、平台和道具，但仍需记录重复解决步骤，随后封装可复用部分，核心机制是否应触发？"
+    },
+    {
+      "id": "record-to-compounding-asset-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "small-step-process-system",
+      "prompt": "任务明确要求把长期目标拆成最小过程并每天交付可记录动作，但没有当前方法的机制，应调用当前方法吗？"
+    },
+    {
+      "id": "record-to-compounding-asset-commercial-contamination",
+      "type": "commercial_contamination",
+      "prompt": "新增一条带商品植入的样本，只在广告话术中提到《把重复解决过程记录并封装成复利资产》相关题材词，没有自然内容中的完整因果机制；它是否应提高当前自然方法 V1 权重并触发调用？",
+      "commercial_sample_must_not_increase_natural_v1": true
+    },
+    {
+      "id": "record-to-compounding-asset-mechanism-ablation",
+      "type": "mechanism_ablation",
+      "ablated_signal": "封装可复用部分",
+      "prompt": "消融关键环节后，任务只剩记录重复解决步骤，没有后续因果闭环，是否仍应调用当前方法？"
+    },
+    {
+      "id": "record-to-compounding-asset-composition-ablation",
+      "type": "composition_ablation",
+      "ablated_method_id": "record-to-compounding-asset",
+      "retained_sibling_method_id": "small-step-process-system",
+      "prompt": "组合中只保留当前方法的单一线索记录重复解决步骤，主要机制改为把长期目标拆成最小过程并每天交付可记录动作；当前方法是否仍是必要组成？"
+    }
+  ]
+}

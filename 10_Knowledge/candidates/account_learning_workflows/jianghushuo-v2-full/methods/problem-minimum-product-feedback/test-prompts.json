@@ -1,0 +1,55 @@
+{
+  "skill": "problem-minimum-product-feedback",
+  "executor_input_excludes_expected_answer": true,
+  "test_cases": [
+    {
+      "id": "problem-minimum-product-feedback-positive",
+      "type": "should_trigger",
+      "prompt": "新任务需要从重复真实问题出发，并且要先交付最小可用结果，应该调用什么方法？"
+    },
+    {
+      "id": "problem-minimum-product-feedback-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "prompt": "文案里出现《从真实问题到最小产品再到反馈修正》相关题材词，但没有任何因果过程或执行关系，是否调用？"
+    },
+    {
+      "id": "problem-minimum-product-feedback-edge",
+      "type": "edge_case",
+      "prompt": "目前只有一个模糊样本提到从重复真实问题出发，没有第二个机制信号，是否足以调用？"
+    },
+    {
+      "id": "problem-minimum-product-feedback-transfer",
+      "type": "cross_scene_transfer",
+      "source_scene": "副业验证",
+      "target_scene": "跨领域-一人公司试单",
+      "mechanism_preserved": true,
+      "prompt": "换了人物、平台和道具，但仍需从重复真实问题出发，随后先交付最小可用结果，核心机制是否应触发？"
+    },
+    {
+      "id": "problem-minimum-product-feedback-sibling-decoy",
+      "type": "should_not_trigger",
+      "sibling_method_id": "record-to-compounding-asset",
+      "prompt": "任务明确要求记录重复解决步骤并封装可复用部分，但没有当前方法的机制，应调用当前方法吗？"
+    },
+    {
+      "id": "problem-minimum-product-feedback-commercial-contamination",
+      "type": "commercial_contamination",
+      "prompt": "新增一条带商品植入的样本，只在广告话术中提到《从真实问题到最小产品再到反馈修正》相关题材词，没有自然内容中的完整因果机制；它是否应提高当前自然方法 V1 权重并触发调用？",
+      "commercial_sample_must_not_increase_natural_v1": true
+    },
+    {
+      "id": "problem-minimum-product-feedback-mechanism-ablation",
+      "type": "mechanism_ablation",
+      "ablated_signal": "先交付最小可用结果",
+      "prompt": "消融关键环节后，任务只剩从重复真实问题出发，没有后续因果闭环，是否仍应调用当前方法？"
+    },
+    {
+      "id": "problem-minimum-product-feedback-composition-ablation",
+      "type": "composition_ablation",
+      "ablated_method_id": "problem-minimum-product-feedback",
+      "retained_sibling_method_id": "record-to-compounding-asset",
+      "prompt": "组合中只保留当前方法的单一线索从重复真实问题出发，主要机制改为记录重复解决步骤并封装可复用部分；当前方法是否仍是必要组成？"
+    }
+  ]
+}

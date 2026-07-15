@@ -1,0 +1,63 @@
+{
+  "batch_id": "batch_40",
+  "generated_at": "2026-07-14T00:59:17+08:00",
+  "expected_count": 10,
+  "annotation_count": 10,
+  "evidence_count": 10,
+  "passed_count": 10,
+  "failed_count": 0,
+  "batch_gate": "pass",
+  "gate_rule": "全量逐条通过；任一条证据、分类、广告隔离或内容深度失败，整批不得晋级。",
+  "cards": [
+    {
+      "source_id": "7064084191381671168",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7062261165677694248",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7061523704190160168",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7061167639975988495",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7058478668875566351",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7057015241502231848",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7054156877579504937",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7052933076619414819",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7050763342469696768",
+      "decision": "pass",
+      "errors": []
+    },
+    {
+      "source_id": "7050072209812917519",
+      "decision": "pass",
+      "errors": []
+    }
+  ]
+}
