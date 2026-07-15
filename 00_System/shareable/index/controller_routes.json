@@ -432,40 +432,6 @@
       "write_policy": "默认不读取原始数据、不读取候选资产，除非用户明确要求审核候选。"
     },
     {
-      "id": "knowledge_graph",
-      "name": "知识图谱",
-      "triggers": [
-        "知识图谱",
-        "关系图",
-        "系统图",
-        "知识网络",
-        "Graphify",
-        "图谱查询"
-      ],
-      "minimum_required": [
-        "查看视图或查询问题"
-      ],
-      "agents": [
-        "controller",
-        "retriever",
-        "auditor"
-      ],
-      "read_first": [
-        "00_System/shareable/config/graph_sources.json",
-        "00_System/shareable/config/graph_views.json",
-        "00_System/shareable/config/graph_output_contract.json",
-        "00_System/shareable/rules/知识图谱构建与调用规则.md"
-      ],
-      "tools": [
-        "tools.kb.cli graph status",
-        "tools.kb.cli graph build",
-        "tools.kb.cli graph query",
-        "tools.kb.cli graph web"
-      ],
-      "output_contract": "输出命中视图、相关节点、关系来源、可信度、原文件和行号；图谱只负责缩小范围，事实引用必须回查原文件。",
-      "write_policy": "只写 00_System/runtime/graphify/ 派生产物；不修改正式知识，不展开原始资料、私有资料或候选正文。"
-    },
-    {
       "id": "system_audit",
       "name": "系统审计",
       "triggers": [

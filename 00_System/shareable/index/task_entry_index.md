@@ -52,15 +52,6 @@
 - 边界：`数据/sqlite_tables.db` 只读；只写 `90_Temp/exports/creator_db/` 导出文件和用户明确要求创建的飞书表格。
 - 输出：飞书链接、内容数量、评论数量、分享权限读回状态、本地 manifest 路径；脚本返回前不需要实时陪跑。
 
-## 知识图谱
-
-- 触发：`看知识图谱`、`看系统关系`、`查账号关系`、`查学习流程`、`图谱查询`。
-- 读取：`00_System/shareable/config/graph_sources.json`、`00_System/shareable/config/graph_views.json`、`00_System/shareable/rules/知识图谱构建与调用规则.md`。
-- 构建：`.venv/bin/python -m tools.kb.cli --root . graph build`；状态：`.venv/bin/python -m tools.kb.cli --root . graph status`。
-- 查询：`.venv/bin/python -m tools.kb.cli --root . graph query "问题" --view system/knowledge/accounts/workflows/cross_layer`。
-- 本地 Web：`.venv/bin/python -m tools.kb.cli --root . graph web`，默认地址 `http://127.0.0.1:8790`。
-- 边界：正式知识从索引取清单；候选层只显示汇总；原始、私有、归档、临时和 runtime 不进入输入。
-
 ## 系统审计
 
 - 日常调用先运行 `.venv/bin/python -m tools.kb.cli --root . health-gate`；该命令禁止遍历正式知识文件。

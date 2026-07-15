@@ -10,7 +10,6 @@ from .candidate_search import search_candidates
 from .call_resolver import resolve_call
 from .dashboard import write_dashboard
 from .evolution import write_evolution_report
-from .graph import build_graph, graph_status, query_graph, serve_graph
 from .indexer import write_indexes
 from .memory import create_memory_candidate, evaluate_memory_capture, list_memory
 from .reorganizer import apply_reorganization_plan, initialize_layer_structure, write_reorganization_plan
@@ -120,22 +119,6 @@ def main() -> int:
     web_parser.add_argument("--host", default="127.0.0.1")
     web_parser.add_argument("--port", type=int, default=8787)
     web_parser.add_argument("--no-worker", action="store_true")
-    graph_parser = subparsers.add_parser("graph", help="Build, query and view the system-layer knowledge graph")
-    graph_commands = graph_parser.add_subparsers(dest="graph_command", required=True)
-    graph_commands.add_parser("build", help="Build the graph from boundary-controlled indexes and system sources")
-    graph_commands.add_parser("status", help="Validate graph outputs, views and source boundaries")
-    graph_query_parser = graph_commands.add_parser("query", help="Traverse the graph and return source-backed context")
-    graph_query_parser.add_argument("question")
-    graph_query_parser.add_argument(
-        "--view",
-        default="cross_layer",
-        choices=["system", "knowledge", "accounts", "workflows", "cross_layer"],
-    )
-    graph_query_parser.add_argument("--depth", type=int, default=2)
-    graph_query_parser.add_argument("--limit", type=int, default=24)
-    graph_web_parser = graph_commands.add_parser("web", help="Run the local graph viewer")
-    graph_web_parser.add_argument("--host", default="127.0.0.1")
-    graph_web_parser.add_argument("--port", type=int, default=8790)
     export_parser = subparsers.add_parser("export-creator-db", help="Export one creator's database contents/comments and optionally write a Feishu sheet")
     export_parser.add_argument("--creator", required=True, help="Creator/blogger nickname to match")
     export_parser.add_argument("--platform", default="", help="Optional platform filter: douyin/xhs/weibo/bilibili/kuaishou/tieba/zhihu")
@@ -349,25 +332,6 @@ def main() -> int:
         result = create_task(root, args.name, command=args.task_command)
     elif args.command == "web":
         return serve_web_console(root, host=args.host, port=args.port, start_worker=not args.no_worker)
-    elif args.command == "graph":
-        if args.graph_command == "build":
-            result = build_graph(root)
-            if not result.get("ok", False):
-                exit_code = 2
-        elif args.graph_command == "status":
-            result = graph_status(root)
-            if not result.get("ok", False):
-                exit_code = 2
-        elif args.graph_command == "query":
-            result = query_graph(
-                root,
-                args.question,
-                view=args.view,
-                depth=max(args.depth, 0),
-                limit=max(args.limit, 1),
-            )
-        else:
-            return serve_graph(root, host=args.host, port=args.port)
     elif args.command == "export-creator-db":
         result = export_creator_database(
             root,
