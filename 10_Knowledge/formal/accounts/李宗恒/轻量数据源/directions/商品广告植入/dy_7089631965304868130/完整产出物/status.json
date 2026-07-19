@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T01:30:59",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7089631965304868130\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c9hmr2bc77u523c2jts0&line=0&file_id=28974037525b4672a66bcc65fa9c3a70&sign=a4091583550d713f081f82f4492db1c3&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:51:05",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7089631965304868130\\video\\source.mp4",
+      "duration_sec": 84.266667,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 2528,
+      "platform": "dy",
+      "source_id": "7089631965304868130",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c9hmr2bc77u523c2jts0&line=0&file_id=28974037525b4672a66bcc65fa9c3a70&sign=a4091583550d713f081f82f4492db1c3&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "《别针换别墅》#李宗恒 #一加ace",
+      "desc": "《别针换别墅》#李宗恒 #一加ace",
+      "publish_time": 1650684429,
+      "account_id": "63700340656",
+      "account_name": "李宗恒"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:51:10",
+      "count": 42,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7089631965304868130\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:51:12",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7089631965304868130\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:52:28",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7089631965304868130\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7089631965304868130\\video\\transcript.srt",
+      "segments": 76
+    }
+  },
+  "updated_at": "2026-07-05T14:52:28"
+}

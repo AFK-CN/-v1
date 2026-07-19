@@ -1,0 +1,297 @@
+{
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "烤土豆\n凉拌秋葵\n白灼虾\n牛排",
+      "items": [
+        {
+          "text": "烤土豆",
+          "score": 0.9959444403648376,
+          "box": [
+            [
+              243.0,
+              67.0
+            ],
+            [
+              391.0,
+              61.0
+            ],
+            [
+              394.0,
+              121.0
+            ],
+            [
+              245.0,
+              127.0
+            ]
+          ]
+        },
+        {
+          "text": "凉拌秋葵",
+          "score": 0.8735501766204834,
+          "box": [
+            [
+              80.0,
+              195.0
+            ],
+            [
+              269.0,
+              193.0
+            ],
+            [
+              270.0,
+              256.0
+            ],
+            [
+              81.0,
+              258.0
+            ]
+          ]
+        },
+        {
+          "text": "白灼虾",
+          "score": 0.9590296546618143,
+          "box": [
+            [
+              721.0,
+              1048.0
+            ],
+            [
+              955.0,
+              1140.0
+            ],
+            [
+              928.0,
+              1209.0
+            ],
+            [
+              694.0,
+              1116.0
+            ]
+          ]
+        },
+        {
+          "text": "牛排",
+          "score": 0.7638689875602722,
+          "box": [
+            [
+              546.0,
+              1204.0
+            ],
+            [
+              797.0,
+              1244.0
+            ],
+            [
+              787.0,
+              1309.0
+            ],
+            [
+              536.0,
+              1269.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\001_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\002_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "牛排切块，加入生抽、老抽、\n腌制15分钟\n孜然粉、辣椒粉\n热油热锅，下锅煎2分钟\n翻面继续煎2分钟",
+      "items": [
+        {
+          "text": "牛排切块，加入生抽、老抽、",
+          "score": 0.989161124596229,
+          "box": [
+            [
+              38.0,
+              627.0
+            ],
+            [
+              501.0,
+              627.0
+            ],
+            [
+              501.0,
+              666.0
+            ],
+            [
+              38.0,
+              666.0
+            ]
+          ]
+        },
+        {
+          "text": "腌制15分钟",
+          "score": 0.9960176845391592,
+          "box": [
+            [
+              692.0,
+              656.0
+            ],
+            [
+              925.0,
+              656.0
+            ],
+            [
+              925.0,
+              700.0
+            ],
+            [
+              692.0,
+              700.0
+            ]
+          ]
+        },
+        {
+          "text": "孜然粉、辣椒粉",
+          "score": 0.9885123201778957,
+          "box": [
+            [
+              140.0,
+              672.0
+            ],
+            [
+              401.0,
+              672.0
+            ],
+            [
+              401.0,
+              709.0
+            ],
+            [
+              140.0,
+              709.0
+            ]
+          ]
+        },
+        {
+          "text": "热油热锅，下锅煎2分钟",
+          "score": 0.9945978142998435,
+          "box": [
+            [
+              50.0,
+              1354.0
+            ],
+            [
+              473.0,
+              1356.0
+            ],
+            [
+              472.0,
+              1399.0
+            ],
+            [
+              50.0,
+              1397.0
+            ]
+          ]
+        },
+        {
+          "text": "翻面继续煎2分钟",
+          "score": 0.9793239161372185,
+          "box": [
+            [
+              630.0,
+              1359.0
+            ],
+            [
+              972.0,
+              1359.0
+            ],
+            [
+              972.0,
+              1399.0
+            ],
+            [
+              630.0,
+              1399.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\003_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\004_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\005_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "小",
+      "items": [
+        {
+          "text": "小",
+          "score": 0.5976886749267578,
+          "box": [
+            [
+              1039.0,
+              1416.0
+            ],
+            [
+              1066.0,
+              1416.0
+            ],
+            [
+              1066.0,
+              1431.0
+            ],
+            [
+              1039.0,
+              1431.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_68e4e6d200000000070158b5\\images\\006_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051113/3d9577fd2657ae1ee21b5a8bf3a7ec7f/notes_pre_post/1040g3k031nb761ub4q0g4busfur776f8gf2l9lg!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    }
+  ]
+}

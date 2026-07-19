@@ -1,0 +1,100 @@
+{
+  "id": "m04-weekly-reindex",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "formal_write": false,
+  "user_review_required": true,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "固定视觉骨架重编为七日菜单索引",
+  "mechanism_kind": "content_structure",
+  "trigger_signals": [
+    "已有至少七份可复用单餐封面",
+    "用户目标是快速比较一周组合",
+    "无需重复每餐教程"
+  ],
+  "trigger_model": {
+    "mechanism": "把既有单餐视觉资产按周一到周日重编为索引，用固定版式降低理解成本，用菜品变化提供新鲜感。",
+    "applicable_relations": [
+      "七日菜单",
+      "一页一餐",
+      "固定版式",
+      "既有资产重编"
+    ],
+    "transferable_scenes": [
+      "一周不重样",
+      "工作日菜单",
+      "备餐回顾",
+      "月度菜单精选"
+    ],
+    "do_not_trigger_on": [
+      "不足七餐",
+      "用户要学一道复杂菜",
+      "每餐缺少统一可比封面",
+      "把七天内容重复扩写成教程"
+    ]
+  },
+  "do_not_use": [
+    "不得伪造星期与实际用餐对应",
+    "不得复刻不存在的菜品",
+    "不得把合集写成减重周期结果"
+  ],
+  "execution_steps": [
+    "筛选七份可比的完整餐封面",
+    "统一背景、器皿、标注与裁切尺度",
+    "按周一到周日一页一餐排序",
+    "让菜品变化承担差异",
+    "删除重复教程与重复口号",
+    "正文给出菜单索引和必要来源边界"
+  ],
+  "source_refs": [
+    "xhs:68fb51bd000000000700ace0",
+    "xhs:6936a697000000001e001b7a",
+    "xhs:69afe9aa000000002203b952",
+    "xhs:69fdc6340000000035021c5e",
+    "xhs:6a423d42000000000f017143"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "11 条独立周合集跨 2025-10 至 2026-06 重复同一七日索引机制，并保持菜品变化与版式固定。",
+      "evidence_refs": [
+        "68fb51bd000000000700ace0",
+        "6936a697000000001e001b7a",
+        "69afe9aa000000002203b952",
+        "69fdc6340000000035021c5e",
+        "6a423d42000000000f017143"
+      ],
+      "relation_or_scene_types": [
+        "七日一页一餐",
+        "既有单餐重编的菜单索引"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-weekly-01",
+      "prompt_sha256": "2455f50cef1d07b73a3a46942f01dc45bec4401c99fc03462f197d9c2f371749",
+      "structural_prediction": [
+        "按周一至周日一页一餐",
+        "锁定背景、器皿、标注与页面尺度",
+        "不重复单餐教程，用菜品变化承担新鲜感"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "账号不是用长表做周计划，而是复用自身四碗封面作为七页视觉索引；这依赖其已稳定的单餐视觉资产。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  }
+}

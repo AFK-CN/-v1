@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m01",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m01-positive",
+      "type": "should_trigger",
+      "prompt": "搬家后想卖一个旧行李箱，箱角磨白、轮子换过两次，新买家准备带它去留学。请写闲鱼故事UGC。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m01",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m01-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m02",
+      "prompt": "写一篇闲鱼品牌介绍，必须从闲鱼不只是交易平台开头，没有具体人物和交易。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m02",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m01-edge",
+      "type": "edge_case",
+      "prompt": "只有一句旧箱子卖掉了，没有买家、用途和人物变化。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m01",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m01-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "在闲鱼提供一次代取药服务，有完整动作和结果，最后才解释连接价值。",
+      "source_scene": "旧物转卖",
+      "target_scene": "未见场景-1",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m01",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m01-commercial",
+      "type": "commercial_contamination",
+      "prompt": "新增一条闲鱼新品付费广告样本，询问是否能提高自然故事方法的证据权重。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m01",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

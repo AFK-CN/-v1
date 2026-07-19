@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0","status":"success","method":"codex_image2_multimodal","platform":"xhs","source_id":"692bc6d2000000001e006493","account_id":"xhs_5c09367300000000060099e8","title":"独居一人食｜生活化减脂也快乐了吧！","source_image_count":9,"analyzed_image_count":9,"ocr_reprocessed":false,
+  "visual_summary":"四碗餐由卤猪肝、溏心蛋、水煮小白菜和咸肉腊肠菜饭组成。双封面后用六格重点展示菜饭，再补一张整餐背景近照和一张手持菜饭特写；随后是生米与熟饭对照、猪肝、溏心蛋和小白菜单图。",
+  "content_intent":"把菜饭作为主角而非传统荤菜：青菜、腊肠与咸肉散点嵌在白米中，既有教程又有两张结果图。猪肝与溏心蛋用棕色和橙黄补充蛋白质视觉。",
+  "learning_value":"九图将最多篇幅给主食：双封面、六格教程、环境近照、手持近照、生熟对照，再用三张单菜补齐。适合学习主食型内容如何建立颗粒、配料和手持尺度。",
+  "food_visual":{"meal_type":"菜饭配猪肝溏心蛋青菜","dish_components":["咸肉腊肠菜饭","卤猪肝","溏心蛋","水煮小白菜"],"color_strategy":"菜饭白底配腊肉粉棕与青菜绿，猪肝灰棕，蛋黄橙黄，青菜鲜绿；整体低饱和家常。","plating":"小白菜后、菜饭左中、溏心蛋右中、猪肝前下。","camera":"封面与单菜俯拍，菜饭有整餐近照和手持近照，教程六格，生熟饭上下对照。","texture_focus":"米粒分明、腊肉丁与青菜碎散布；猪肝切片细密；蛋黄半凝固；小白菜梗叶完整。"},
+  "style":{"direction":"以菜饭为中心的家常四碗餐","orientation":"竖图","palette":"深灰、米白、鲜绿、粉棕、灰棕、橙黄","lighting":"均匀柔光，手持图略更生活化。","composition":"双封面、菜饭六格教程、环境成品、手持特写、生熟对照、三张配菜单图。","text_usage":"封面手写箭头，教程白底步骤字，其余成品无字。"},
+  "narrative_structure":["标注整餐","无字整餐","菜饭教程","菜饭环境近照","菜饭手持特写","米饭生熟对照","猪肝成品","溏心蛋成品","小白菜成品"],
+  "replication_recipe":{"shot_list":["拍四碗双封面","用六格记录咸肉去咸、切丁煸香、煮饭、炒青菜与拌匀","拍整餐背景下的菜饭近照","手持菜饭展示米粒与配料","拍生米和熟饭上下对照","猪肝、蛋和青菜各拍单图"],"editing":"教程强调菜饭配料加入顺序；两张成品分别表现环境和尺度；保持米饭不过曝，保留颗粒。","generation_prompt":"小红书独居一人食，深灰桌面四只米白条纹碗，小白菜、咸肉腊肠菜饭、酱汁溏心蛋、切片卤猪肝；包含双封面、菜饭六格教程、环境近照、手持米饭、生熟米饭对照和三张单菜图。","avoid":["不要宣称减脂、低脂或营养效果","不要验证大米产品口感与品质主张","不要仅凭图片判断猪肝、鸡蛋熟度或食品安全","不要把菜饭误写为普通白米饭"]},
+  "images":[
+    {"index":0,"file":"000_cover.jpg","role":"标注封面","visual":"小白菜、菜饭、溏心蛋和卤猪肝四碗。","composition":"鲜绿后、彩色米饭左、蛋右、猪肝前。","reusable_pattern":"主食型四碗封面。"},
+    {"index":1,"file":"001_image.jpg","role":"无字封面","visual":"同一套餐干净版本。","composition":"四碗菱形。","reusable_pattern":"无字主素材。"},
+    {"index":2,"file":"002_image.jpg","role":"菜饭教程","visual":"咸肉去咸、咸肉腊肠青菜切丁、煸香肉丁、米饭烹煮、炒青菜和拌饭六格。","composition":"两列三行。","reusable_pattern":"复合主食完整流程。"},
+    {"index":3,"file":"003_image.jpg","role":"菜饭环境近照","visual":"白米中散布青菜、腊肉与腊肠，背景可见猪肝和蛋。","composition":"菜饭在前，配菜作环境。","reusable_pattern":"用整餐背景建立搭配关系。"},
+    {"index":4,"file":"004_image.jpg","role":"菜饭手持特写","visual":"手持满碗菜饭，米粒、青菜丁和肉丁清楚。","composition":"碗占画面主体。","reusable_pattern":"手持尺度与颗粒特写。"},
+    {"index":5,"file":"005_image.jpg","role":"米饭生熟对照","visual":"上半为浸泡生米，下半为蒸熟白米饭。","composition":"上下二分。","reusable_pattern":"主食状态变化证据图。"},
+    {"index":6,"file":"006_image.jpg","role":"卤猪肝成品","visual":"灰棕猪肝厚片扇形叠放。","composition":"切片同向排列。","reusable_pattern":"切片荤菜用扇形展示内部质感。"},
+    {"index":7,"file":"007_image.jpg","role":"溏心蛋成品","visual":"四半鸡蛋浸在深色葱椒料汁中，蛋黄橙黄。","composition":"切面朝上环形分布。","reusable_pattern":"酱汁与切面形成高对比。"},
+    {"index":8,"file":"008_image.jpg","role":"小白菜成品","visual":"完整小白菜梗叶鲜绿。","composition":"菜梗朝外扇形排列。","reusable_pattern":"绿色单菜收尾。"}
+  ],
+  "quality":{"all_source_images_reviewed":true,"visual_only_supplement":true,"ocr_preserved":true,"nutrition_claims_not_validated":true,"product_claims_not_validated":true,"food_safety_not_inferred":true,"content_consistency_issue":false,"notes":"已逐张查看全部 9 张原图；未重新 OCR，不验证大米商品、减脂、营养、熟度或食品安全主张。"}
+}

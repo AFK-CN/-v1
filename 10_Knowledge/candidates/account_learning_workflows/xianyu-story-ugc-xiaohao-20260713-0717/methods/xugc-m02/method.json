@@ -1,0 +1,80 @@
+{
+  "id": "xugc-m02",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "task:xianyu-story-ugc",
+  "title": "物件痕迹触发记忆，由下一站完成情绪转移",
+  "trigger_signals": [
+    "物件有可感知使用痕迹",
+    "素材包含具体回忆",
+    "新主人或新用途能完成情绪转移"
+  ],
+  "trigger_model": {
+    "mechanism": "用划痕、杂音、气味、停留页码或使用习惯触发过去，再通过新主人或新用途证明转手不是丢弃。",
+    "applicable_relations": [
+      "原主人与家人",
+      "原主人与新主人",
+      "讲述者与过去的自己"
+    ],
+    "transferable_scenes": [
+      "亲情旧物",
+      "兴趣收藏",
+      "搬家断舍离",
+      "旧设备修复"
+    ],
+    "do_not_trigger_on": [
+      "只有老物件名词没有痕迹",
+      "没有真实记忆证据",
+      "没有下一站却硬写旧物新生"
+    ]
+  },
+  "do_not_use": [
+    "只有老物件名词没有痕迹",
+    "没有真实记忆证据",
+    "没有下一站却硬写旧物新生"
+  ],
+  "execution_steps": [
+    "选择一个可感知痕迹",
+    "绑定一段具体记忆",
+    "写清转手阻力",
+    "给出新主人或新用途",
+    "用用途延续完成情绪而非口号"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260713_s03",
+    "feishu_xianyu_20260714_s03",
+    "feishu_xianyu_20260715_s02",
+    "feishu_xianyu_20260716_s09",
+    "feishu_xianyu_20260717_s07",
+    "feishu_xianyu_20260713_s08",
+    "feishu_xianyu_20260714_s08",
+    "feishu_xianyu_20260714_s19"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "可感知的物件痕迹",
+      "一段具体记忆",
+      "转手阻力或舍不得",
+      "新用途或下一站"
+    ],
+    "variable_elements": [
+      "物件品类",
+      "记忆关系",
+      "新主人身份",
+      "情绪浓度"
+    ],
+    "tension_engine": "物件为什么舍不得卖，以及它是否会被真正需要。",
+    "trust_engine": "以声音、触感、划痕、页码等可复核细节代替泛泛怀旧。",
+    "understanding_engine": "旧用途与新用途并置，读者自然理解情绪转移。",
+    "beneficiary_engine": "帮助读者把断舍离理解为用途延续而非简单失去。",
+    "length_basis": "至少完成痕迹—记忆—转手—下一站四步；缺下一站时不得硬写新生。",
+    "boundaries": [
+      "只有老物件词汇但没有具体痕迹不触发",
+      "不编造家人回忆",
+      "不重复使用无法定价等空泛收束"
+    ]
+  },
+  "formal_write": false
+}

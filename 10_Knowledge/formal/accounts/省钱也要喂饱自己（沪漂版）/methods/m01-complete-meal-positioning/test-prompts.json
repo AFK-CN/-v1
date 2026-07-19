@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m01-complete-meal-positioning",
+  "test_cases": [
+    {
+      "id": "m01-complete-meal-positioning-t1",
+      "type": "should_trigger",
+      "prompt": "下班后想吃轻一点，素材有鸡肉、青菜、米饭和汤，主题是一个人也要吃饱。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t2",
+      "type": "should_not_trigger",
+      "prompt": "一款代餐饮料，文案反复说吃饱和减脂，但没有完整餐。",
+      "expected_decision": "do_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "m02-fixed-mother-topic-variable"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t3",
+      "type": "edge_case",
+      "prompt": "素材有完整三项餐，但没有任何体重或热量数据，只能写低门槛家常饭。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t4",
+      "type": "cross_scene_transfer",
+      "prompt": "把机制迁移到加班午餐：仍用完整餐化解少吃焦虑。",
+      "expected_decision": "trigger",
+      "mechanism_preserved": true,
+      "source_scene": "下班晚餐",
+      "target_scene": "宿舍/加班/便当等改变人物与道具后的新场景"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t5",
+      "type": "commercial_contamination",
+      "prompt": "品牌酸奶广告提供饱腹卖点，想计入自然定位证据。",
+      "expected_decision": "do_not_trigger",
+      "commercial_source_excluded_from_natural_v1": true
+    }
+  ],
+  "evaluation_rule": "仅当核心机制存在且未触发商品广告/平台项目/证据缺失边界时触发。"
+}

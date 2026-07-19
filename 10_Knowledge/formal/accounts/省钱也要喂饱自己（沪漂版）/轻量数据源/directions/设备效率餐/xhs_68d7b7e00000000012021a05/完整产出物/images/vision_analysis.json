@@ -1,0 +1,167 @@
+{
+    "schema_version":  "1.0",
+    "status":  "success",
+    "method":  "codex_image2_multimodal",
+    "platform":  "xhs",
+    "source_id":  "68d7b7e00000000012021a05",
+    "account_id":  "xhs_5c09367300000000060099e8",
+    "title":  "独居一人食｜吃的干净真的会瘦！！！",
+    "source_image_count":  11,
+    "analyzed_image_count":  11,
+    "ocr_reprocessed":  false,
+    "visual_summary":  "四碗餐由空气炸锅烤虾、烤土豆、焯炒菜心和水煮蛋组成。双封面之后，虾与土豆分别通过教程、成品和夹取/同锅状态展开，菜心也有教程与成品，最后以切开的水煮蛋收尾。",
+    "content_intent":  "围绕一台空气炸锅完成两道主菜，并用蔬菜和鸡蛋补齐整餐；多张过程与互动特写强化可操作性和食欲。",
+    "learning_value":  "可复刻为‘双主材共用设备’内容：封面呈现四碗，虾和土豆各自交付步骤与单菜照，再用同一炸篮同烤图把两条流程连接起来。",
+    "food_visual":  {
+                        "meal_type":  "空气炸锅双主材四碗餐",
+                        "dish_components":  [
+                                                "空气炸锅烤虾",
+                                                "烤土豆块",
+                                                "焯炒菜心",
+                                                "水煮蛋"
+                                            ],
+                        "color_strategy":  "虾橙红、土豆金黄、菜心鲜绿与蛋白白/蛋黄金形成清晰四色。",
+                        "plating":  "四碗纵向错落，土豆后上、菜心左中、鸡蛋右中、虾前下。",
+                        "camera":  "整餐与单菜俯拍，教程四宫格，夹虾为近景浅景深。",
+                        "texture_focus":  "虾壳烤色、土豆焦壳、菜心长梗与蒜末、水煮蛋切面。"
+                    },
+    "style":  {
+                  "direction":  "设备效率型家常教程",
+                  "orientation":  "竖图",
+                  "palette":  "黑灰背景、米白餐具、橙黄绿白",
+                  "lighting":  "成品明亮，过程图为厨房自然光",
+                  "composition":  "双封面、两套四格教程、单菜照、夹取互动和同锅设备照",
+                  "text_usage":  "封面手写箭头，教程白底黑字，成品无字。"
+              },
+    "narrative_structure":  [
+                                "标注整餐",
+                                "无字整餐",
+                                "烤虾教程",
+                                "虾成品",
+                                "夹虾互动",
+                                "土豆教程",
+                                "土豆成品",
+                                "虾土豆同锅",
+                                "菜心教程",
+                                "菜心成品",
+                                "水煮蛋成品"
+                            ],
+    "replication_recipe":  {
+                               "shot_list":  [
+                                                 "拍有字与无字四碗封面",
+                                                 "虾拍腌制、调味、入炸锅、出锅四格",
+                                                 "补拍虾成品和筷子夹取",
+                                                 "土豆拍泡水、调味、翻面与出锅四格",
+                                                 "拍虾土豆同锅体现设备复用",
+                                                 "菜心拍焯水快炒并补成品",
+                                                 "切开鸡蛋作结"
+                                             ],
+                               "editing":  "保持虾橙和土豆金黄的区别；夹取图可浅景深，教程图需保留设备温时和翻面节点。",
+                               "generation_prompt":  "小红书空气炸锅独居餐，深灰桌面四碗金黄土豆、鲜绿菜心、对半水煮蛋和橙红烤虾，固定陶瓷碗近俯拍；后续含虾教程、夹虾特写、土豆教程、虾土豆同锅、菜心教程和单菜成品。",
+                               "avoid":  [
+                                             "不要宣称减脂或热量效果",
+                                             "不要凭图判断虾和鸡蛋的食品安全",
+                                             "不要忽略同锅图表达的设备效率",
+                                             "不要把夹取照误判为新菜"
+                                         ]
+                           },
+    "images":  [
+                   {
+                       "index":  0,
+                       "file":  "000_cover.jpg",
+                       "role":  "标注封面",
+                       "visual":  "烤土豆、菜心、水煮蛋和烤虾四碗，手写标注。",
+                       "composition":  "黄绿白橙四块纵向错落。",
+                       "reusable_pattern":  "四种高区分色食材组成封面。"
+                   },
+                   {
+                       "index":  1,
+                       "file":  "001_image.jpg",
+                       "role":  "无字封面",
+                       "visual":  "同一整餐无文字版。",
+                       "composition":  "器皿边缘完整，适合素材复用。",
+                       "reusable_pattern":  "双封面模板。"
+                   },
+                   {
+                       "index":  2,
+                       "file":  "002_image.jpg",
+                       "role":  "烤虾教程",
+                       "visual":  "生虾腌制、加黑胡椒、入锡盘、烤成橙色四格。",
+                       "composition":  "四格状态递进。",
+                       "reusable_pattern":  "空气炸锅虾前后颜色变化。"
+                   },
+                   {
+                       "index":  3,
+                       "file":  "003_image.jpg",
+                       "role":  "烤虾成品",
+                       "visual":  "四只带壳烤虾装碗。",
+                       "composition":  "橙虾居中堆叠。",
+                       "reusable_pattern":  "单菜确认图。"
+                   },
+                   {
+                       "index":  4,
+                       "file":  "004_image.jpg",
+                       "role":  "夹取特写",
+                       "visual":  "筷子夹起一只去头虾，后方为烤土豆。",
+                       "composition":  "虾在前景清晰，背景轻虚。",
+                       "reusable_pattern":  "夹取动作连接主菜与配菜。"
+                   },
+                   {
+                       "index":  5,
+                       "file":  "005_image.jpg",
+                       "role":  "土豆教程",
+                       "visual":  "切块泡水、调味入盘、烘烤翻面、金黄出锅。",
+                       "composition":  "四格覆盖预处理和设备节点。",
+                       "reusable_pattern":  "根茎空气炸锅四步。"
+                   },
+                   {
+                       "index":  6,
+                       "file":  "006_image.jpg",
+                       "role":  "土豆成品",
+                       "visual":  "金黄带皮土豆块装碗。",
+                       "composition":  "居中俯拍，焦边可见。",
+                       "reusable_pattern":  "用不规则块面呈现脆壳。"
+                   },
+                   {
+                       "index":  7,
+                       "file":  "007_image.jpg",
+                       "role":  "设备效率展示",
+                       "visual":  "锡盘内虾和土豆同时置于空气炸锅。",
+                       "composition":  "俯看炸篮与锡盘。",
+                       "reusable_pattern":  "同锅完成两种食材。"
+                   },
+                   {
+                       "index":  8,
+                       "file":  "008_image.jpg",
+                       "role":  "菜心教程",
+                       "visual":  "菜心蒜末备料、焯水、爆蒜、快速翻炒四格。",
+                       "composition":  "四格从生鲜到锅内。",
+                       "reusable_pattern":  "先焯后炒的绿色蔬菜模板。"
+                   },
+                   {
+                       "index":  9,
+                       "file":  "009_image.jpg",
+                       "role":  "菜心成品",
+                       "visual":  "整棵菜心配蒜末装碗。",
+                       "composition":  "长梗平行排列，鲜绿突出。",
+                       "reusable_pattern":  "保持整棵形态展示爽脆感。"
+                   },
+                   {
+                       "index":  10,
+                       "file":  "010_image.jpg",
+                       "role":  "鸡蛋成品",
+                       "visual":  "一枚水煮蛋切成两半。",
+                       "composition":  "两半蛋居中留白。",
+                       "reusable_pattern":  "简洁切面作整组收尾。"
+                   }
+               ],
+    "quality":  {
+                    "all_source_images_reviewed":  true,
+                    "visual_only_supplement":  true,
+                    "ocr_preserved":  true,
+                    "nutrition_claims_not_validated":  true,
+                    "content_consistency_issue":  false,
+                    "notes":  "已查看全部 11 张原图；未重新 OCR，不验证减脂、营养或食品安全效果。",
+                    "food_safety_not_inferred":  true
+                }
+}

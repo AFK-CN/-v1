@@ -1,0 +1,100 @@
+{
+  "system_version": "3.0",
+  "release_version": "3.0.0",
+  "status": "active",
+  "released_at": "2026-07-19",
+  "upgrade_record": "00_System/shareable/docs/project_use/系统升级3.0记录.md",
+  "scope": "knowledge_base_system",
+  "components": [
+    {
+      "id": "P0",
+      "name": "重组收口与可复现产物修复",
+      "status": "completed"
+    },
+    {
+      "id": "P1",
+      "name": "正式知识混合检索",
+      "status": "completed",
+      "contract": "00_System/shareable/config/formal_retrieval.json"
+    },
+    {
+      "id": "P2",
+      "name": "表达资产通用契约与隔离提案",
+      "status": "foundation_completed_activation_pending",
+      "contract": "00_System/shareable/config/expression_asset_contract.json",
+      "proposal": "00_System/shareable/skills/proposals/account-learning-expression-assets-v3.0.md",
+      "visual_provenance_hardening": {
+        "status": "completed",
+        "account_learning_version": "2.8",
+        "proposal": "00_System/shareable/skills/proposals/account-learning-ai-output-provenance-v2.8.md"
+      }
+    },
+    {
+      "id": "P3",
+      "name": "账号 Skill 升级能力保留与污染隔离",
+      "status": "completed",
+      "account_learning_version": "2.9",
+      "all_registered_accounts_v29_complete": true,
+      "registered_account_count": 5,
+      "contract": "00_System/shareable/config/account_skill_contract.json",
+      "proposal": "00_System/shareable/skills/proposals/account-learning-capability-preservation-v2.9.md"
+    }
+  ],
+  "boundaries": {
+    "web_or_multi_user_ui_in_scope": false,
+    "account_learning_executed": false,
+    "account_assets_generated": false,
+    "active_account_learning_modified": true,
+    "account_skill_upgrade_executed": true,
+    "historical_workflow_migration_executed": true,
+    "account_specific_content_allowed_in_system": false,
+    "raw_source_mutation_allowed": false
+  },
+  "pending_activations": [
+    {
+      "id": "account-learning-expression-assets-v3.0",
+      "reason": "把 expression stage 接入 active account-learning 前仍需用户单独确认 proposal；v2.8 视觉来源隔离不代表表达资产已激活。"
+    }
+  ],
+  "rollback": {
+    "P1": "移除 formal_retrieval 路由、配置和 runtime 可复现缓存；不修改正式知识文件。",
+    "P2_foundation": "移除表达资产通用契约与校验入口；proposal 和候选审计轨迹可保留，不影响已独立生效的 v2.8 视觉来源隔离。",
+    "P3_account_skill_upgrade": "恢复 account-learning v2.8 与 account Skill contract v4；兼容清单、升级提案和失败报告保留为审计，不删除任何账号正式知识或历史资产。",
+    "active_skill_visual_provenance": "按 00_System/shareable/skills/rollback.md 恢复 v2.7；候选、原始资料和正式账号内容不删除。",
+    "active_skill_expression_assets_if_later_confirmed": "表达资产接入仍待单独确认；若未来激活后需回滚，恢复不含 expression stage 的 pipeline，候选保持不可调用。"
+  },
+  "validation": {
+    "status": "passed",
+    "required": [
+      "targeted_unit_tests",
+      "full_unit_test_suite",
+      "system_validation",
+      "runtime_doctor",
+      "system_boundary_audit",
+      "account_pollution_audit",
+      "account_skill_upgrade_compatibility_tests",
+      "account_skill_live_acceptance",
+      "distribution_audit",
+      "formal_retrieval_live_smoke_test",
+      "change_scope_audit",
+      "all_account_v29_learning_audit"
+    ],
+    "completed": [
+      "targeted_unit_tests",
+      "full_unit_test_suite",
+      "system_validation",
+      "runtime_doctor",
+      "system_boundary_audit",
+      "account_pollution_audit",
+      "account_skill_upgrade_compatibility_tests",
+      "account_skill_live_acceptance",
+      "distribution_audit",
+      "formal_retrieval_live_smoke_test",
+      "change_scope_audit",
+      "all_account_v29_learning_audit"
+    ],
+    "test_count": 264,
+    "validated_at": "2026-07-19",
+    "failures": []
+  }
+}

@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "direction": "平台项目",
+  "source_id": "7190352749056265529",
+  "title": "《我有些话想说》#李宗恒",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/平台项目/cards/7190352749056265529.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7190352749056265529",
+  "copied_file_count": 32,
+  "copied_bytes": 8692574,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 660,
+      "sha256": "5de46430f555bd72b83314047588e53ecc3fdb668feb1560cdee65e4b0c530f0"
+    },
+    {
+      "path": "source.json",
+      "bytes": 889,
+      "sha256": "6f9e8a15728ebf8157d7c46b3f93855fb0e41c228b27d5e2905fcec532c1371f"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2260,
+      "sha256": "199e2b9e6fc9f7a5aeab6379203e8440cbe77ce0371e415138fa092ff0e56710"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 1280380,
+      "sha256": "aa0a71981a0c7628cfa611cf9f0590437ad2b794710c47ad5ac1577382f5752d"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 42137,
+      "sha256": "6f108049d4e55296002cbfb48ccb4f617d9ec7520044e7b321d22d3f4d82c707"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 36749,
+      "sha256": "388c75bf734564c963d537d40122e898d9dd98fb8fbe9785b60367f65bc40080"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 58783,
+      "sha256": "453d95841fdcd762addd106d222d49c51b0cae461fc46c12531731bceb060d6d"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 85592,
+      "sha256": "6bb6c204aa512cb164ef393c4dae30a86debe8c51696a114445d8847ea9aa7ee"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 94876,
+      "sha256": "e45e73dff6f7ef976c6b389eb60991970e1b177f760731bd99f9a20f226fe6ad"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 91191,
+      "sha256": "e118ccf6f41e7a4c2f0c66efb0a40d1699462c7eeaf2718166435fc0fadee467"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 91473,
+      "sha256": "7f4e2800f9fd415bb6eb6779bdb551401fd24cbbfab45900ca9ae54b5b9d0a2d"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 91664,
+      "sha256": "b164ca5e366b535b35f7d237f10a620bc61b4e65e7b89cb116a50ede02c00f6c"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 94089,
+      "sha256": "7d18e86a7fd6519697ebb3e408a6243e1b26783d3d14d0f304c97263b7128e46"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 94810,
+      "sha256": "a474b7ba51e228f3b2d9c36ebc8152e416ec380574f49c96d75e5087c0978d53"
+    },
+    {
+      "path": "video/frames/000010.jpg",
+      "bytes": 65850,
+      "sha256": "39107dce2ca198e7d15e5bc6ae2ddd14e4c0b82be9574ddafd63ee394f027f3f"
+    },
+    {
+      "path": "video/frames/000011.jpg",
+      "bytes": 59091,
+      "sha256": "0aeae62c187213505696aae0000e5f9464cccb4ac6bd7dc6d6cc5eba74fbb323"
+    },
+    {
+      "path": "video/frames/000012.jpg",
+      "bytes": 51340,
+      "sha256": "d34039ded62a2c52ca882e5c91eebf36c8822bb4bdd3f9c37c258d8268af0d72"
+    },
+    {
+      "path": "video/frames/000013.jpg",
+      "bytes": 44062,
+      "sha256": "4890bd936d980b51d6d6c4358c437df1ecac3a98f386d374d01613d6a696a976"
+    },
+    {
+      "path": "video/frames/000014.jpg",
+      "bytes": 41308,
+      "sha256": "a60449c1e5dcc317a681cd70cfd65f7aa8ae4953e7f1437225c817729329ddff"
+    },
+    {
+      "path": "video/frames/000015.jpg",
+      "bytes": 29913,
+      "sha256": "5cbd3f632d51fb09f41e7afac1c4e8e4bc21ba2d992e1f3a41a2c4da87e8c180"
+    },
+    {
+      "path": "video/frames/000016.jpg",
+      "bytes": 33122,
+      "sha256": "6c30a244bbc703adb5c188636d47dc1bb89189611c4b84f7979117e4542c20ee"
+    },
+    {
+      "path": "video/frames/000017.jpg",
+      "bytes": 30106,
+      "sha256": "a0838404aaf0c6942322421a10529fbda83e21d06c6482a602c3db7eebbd6406"
+    },
+    {
+      "path": "video/frames/000018.jpg",
+      "bytes": 38420,
+      "sha256": "5443a4045d19239ca4cadec5957a58204bcc500fb1fdb49e57c62a3561119da2"
+    },
+    {
+      "path": "video/frames/000019.jpg",
+      "bytes": 43264,
+      "sha256": "e88160f29f6a09355f6e6671c87ae3e7b497f38ab16328aba005ae91cfb75b21"
+    },
+    {
+      "path": "video/frames/000020.jpg",
+      "bytes": 38532,
+      "sha256": "91af95395780598d879249b34a2367a46f76a0018fe869e41da888c0e76aa1d8"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 2373,
+      "sha256": "b80e2363781e88c427137e43d0b4dd7eb8729e09645ab70ef1c981205733c3e6"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 6144432,
+      "sha256": "5254ff5121bd031fe205683e6c7a66fdc012fac1e17c0b3af0a8c02894c4cc66"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 2303,
+      "sha256": "0cc9f0b15c846a811a6e1bd034f86bb41cf3089a107cff3de2ece6c952adb14b"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 1255,
+      "sha256": "0a3148d37ae0d722cb17c04529de9ff901a506c3b9bbb8662bb0280e66867da1"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 637,
+      "sha256": "ed55fc520a178953373796485c3e08defecac0c5d70cb6bfb59aab6807c5602d"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 305,
+      "sha256": "9dbc7a8e9a8fb684d573456d18ae2349417796dad28237c6dcd1fc9b9e53ed83"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 708,
+      "sha256": "eaab97000913acdb80bfb47ca60a8651491a29cd90bb532d42cc33984cd937cc"
+    }
+  ]
+}

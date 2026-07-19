@@ -14,7 +14,7 @@ from tools.publish_content_source import load_publish_content_from_sqlite
 from tools.video_learning import NormalizedRecord, deduplicate_records, heat_score, load_unique_records, transcript_covers_video
 
 
-DEFAULT_PROFILES_PATH = Path("00_System/shareable/config/content_rough_scan_profiles.json")
+DEFAULT_PROFILES_PATH = Path("20_User/config/content_rough_scan_profiles.json")
 OUTPUT_BASE = Path("10_Knowledge/candidates/account_assets/content_rough_scan")
 SQLITE_ACCOUNT_CANDIDATES_PATH = Path("10_Knowledge/candidates/account_assets/sqlite_imports/latest_account_candidates.json")
 DEFAULT_COMMERCIAL_DIRECTIONS = {"品牌植入与消费体验"}

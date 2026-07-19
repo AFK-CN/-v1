@@ -1,6 +1,6 @@
 {
-  "version": "2.2",
-  "updated_at": "2026-07-15",
+  "version": "2.9",
+  "updated_at": "2026-07-19",
   "method": "RIA-TV++ adapted for account learning",
   "candidate_root": "10_Knowledge/candidates/account_learning_workflows",
   "card_contract": "00_System/shareable/config/account_learning_card_contract.json",
@@ -29,6 +29,9 @@
         "candidates/structures.jsonl",
         "candidates/expression.jsonl",
         "candidates/counterexamples.jsonl",
+        "candidates/publish_copy_observations.jsonl",
+        "PUBLISH_COPY_SPECIAL_STUDY.json",
+        "PUBLISH_COPY_SPECIAL_STUDY.md",
         "REAL_ACCEPTANCE_REPORT_<date>.md",
         "REAL_ACCEPTANCE_SUMMARY.json"
       ]
@@ -53,7 +56,7 @@
     },
     {
       "id": "stage4_method_linking",
-      "name": "方法链接与知识图谱",
+      "name": "跨卡机制聚合与验证",
       "principle": "Depends-on, contrasts-with and composes-with relations",
       "required_artifacts": [
         "METHOD_INDEX.json",
@@ -76,12 +79,25 @@
       "required_artifacts": [
         "LEARNING_DIGEST.md",
         "promotion_manifest.json",
-        "ACCOUNT_PRODUCTION_HANDOFF.json"
+        "ACCOUNT_PRODUCTION_HANDOFF.json",
+        "VISUAL_REFERENCE_PROFILE.json",
+        "visual_reference_candidate/manifest.json",
+        "account_skill_candidate/SKILL.md",
+        "account_skill_candidate/ACCOUNT_SKILL_MANIFEST.json",
+        "account_skill_candidate/UPGRADE_COMPATIBILITY.json",
+        "account_skill_candidate/account_views/账号整体方法论.md",
+        "account_skill_candidate/account_views/内容生产使用说明.md",
+        "account_skill_candidate/account_views/减少AI味输出规则.md",
+        "account_skill_candidate/account_views/内容输出标准模板.md"
       ]
     }
   ],
   "stage1_deep_observation": {
     "schema_id": "deep_structure_expression_v1",
+    "publish_copy_schema_id": "publish_copy_observation_v1",
+    "publish_copy_study_schema_id": "publish_copy_special_study_v1",
+    "image_text_visual_schema_id": "image_text_visual_observation_v1",
+    "production_reference_candidate_schema_id": "production_visual_reference_candidate_v1",
     "applies_to_new_workflows": true,
     "candidate_status": "single_card_observation",
     "structure_dimensions": [
@@ -105,6 +121,32 @@
       "beneficiary_landing",
       "anti_template_signal"
     ],
+    "publish_copy_dimensions": [
+      "title_promise_and_information_gap",
+      "title_specificity_and_voice",
+      "opening_entry",
+      "body_information_sequence",
+      "operational_or_argument_detail_density",
+      "story_explanation_balance",
+      "lived_experience_signal",
+      "closing_mode",
+      "topic_strategy",
+      "publish_visual_alignment"
+    ],
+    "image_text_visual_dimensions": [
+      "cover_hook",
+      "image_role_sequence",
+      "composition_and_viewpoint",
+      "subject_action_and_state_change",
+      "visual_hierarchy",
+      "text_annotation_design",
+      "typography_hierarchy",
+      "color_light_texture",
+      "authenticity_cues",
+      "cross_modal_alignment",
+      "save_worthiness",
+      "production_reference_candidate"
+    ],
     "structure_observation_fields": [
       "status",
       "dimensions_considered",
@@ -121,6 +163,25 @@
       "missing_or_uncertain_signals",
       "evidence_coordinates",
       "expression_fingerprint"
+    ],
+    "publish_copy_observation_fields": [
+      "status",
+      "dimensions_considered",
+      "observed_signals",
+      "missing_or_uncertain_signals",
+      "evidence_coordinates",
+      "publish_layer_status",
+      "source_facets",
+      "publish_copy_fingerprint"
+    ],
+    "image_text_visual_observation_fields": [
+      "status",
+      "dimensions_considered",
+      "observed_signals",
+      "missing_or_uncertain_signals",
+      "evidence_coordinates",
+      "visual_sequence_fingerprint",
+      "production_reference_candidates"
     ]
   },
   "stage2_production_mechanism": {
@@ -168,6 +229,208 @@
       "anti_ai_rule_candidates",
       "production_template_mappings",
       "acceptance_checks"
+    ]
+  },
+  "stage6_account_skill_package": {
+    "schema_id": "account_skill_candidate_v1",
+    "required": true,
+    "root": "account_skill_candidate",
+    "skill": "account_skill_candidate/SKILL.md",
+    "manifest": "account_skill_candidate/ACCOUNT_SKILL_MANIFEST.json",
+    "required_references": [
+      "references/production.md",
+      "references/style.md",
+      "references/boundaries.md",
+      "references/acceptance.md"
+    ],
+    "required_account_views": [
+      "account_views/账号整体方法论.md",
+      "account_views/内容生产使用说明.md",
+      "account_views/减少AI味输出规则.md",
+      "account_views/内容输出标准模板.md"
+    ],
+    "formal_account_view_destination": "10_Knowledge/formal/accounts/{账号}/",
+    "candidate_callable": false,
+    "formal_write_allowed": false,
+    "user_review_required": true,
+    "required_skill_markers": [
+      "topic-memory-check",
+      "topic-memory-record",
+      "production-memory-record"
+    ]
+  },
+  "stage6_upgrade_compatibility": {
+    "schema_id": "account_skill_upgrade_compatibility_v1",
+    "applies_to_new_workflows": true,
+    "minimum_pipeline_version": "2.9",
+    "manifest": "account_skill_candidate/UPGRADE_COMPATIBILITY.json",
+    "candidate_only": true,
+    "formal_write_allowed": false,
+    "user_review_required": true,
+    "no_silent_capability_loss": true,
+    "previous_ids_must_remain_in_inventory": true,
+    "new_ids_must_equal_inventory_delta": true,
+    "changed_capabilities_require_explicit_user_confirmation": true,
+    "source_paths_same_account_only": true,
+    "cross_account_merge_allowed": false,
+    "system_contains_account_capabilities": false,
+    "formal_contract": "00_System/shareable/config/account_skill_contract.json"
+  },
+  "historical_workflow_v29_migration": {
+    "required_for_all_registered_accounts": true,
+    "formal_upgrade_command": "tools.kb.cli account-skills-v29-upgrade --all --user-confirmed",
+    "candidate_migration_command": "tools.kb.cli account-learning-migrate --all --force",
+    "acceptance_command": "tools.kb.cli account-learning-v29-audit",
+    "pipeline_state_version_required": "2.9",
+    "stage6_compatibility_schema_required": "account_skill_upgrade_compatibility_v1",
+    "formal_and_candidate_skill_snapshot_must_match": true,
+    "publishing_copy_and_account_validators_must_sync": true,
+    "account_change_proposals_must_sync": true,
+    "one_workflow_per_registered_account": true,
+    "same_account_sources_only": true,
+    "deferred_evidence_must_be_isolated_and_fully_audited": true,
+    "generated_garbage_forbidden": [
+      "__pycache__",
+      "*.pyc",
+      "*.pyo",
+      ".DS_Store"
+    ]
+  },
+  "stage6_visual_reference_package": {
+    "schema_id": "production_visual_reference_v1",
+    "manifest_schema_id": "production_visual_asset_manifest_v1",
+    "applies_to_new_workflows": true,
+    "visual_media_branches": [
+      "image_text",
+      "video",
+      "visual"
+    ],
+    "profile": "VISUAL_REFERENCE_PROFILE.json",
+    "root": "visual_reference_candidate",
+    "manifest": "visual_reference_candidate/manifest.json",
+    "required_candidate_reference": "account_skill_candidate/references/visual-evidence.md",
+    "minimum_positive_assets": 3,
+    "positive_source_kind": "account_source_positive",
+    "allowed_positive_uses": [
+      "generation_reference",
+      "validation"
+    ],
+    "production_roles": [
+      "cover_or_primary_result",
+      "process_or_proof",
+      "detail_or_outcome",
+      "environment_or_context",
+      "identity_or_recurring_element",
+      "annotation_or_typography"
+    ],
+    "risk_dimensions": [
+      "morphology_sensitive",
+      "identity_sensitive",
+      "material_sensitive",
+      "spatial_relationship_sensitive",
+      "temporal_state_sensitive",
+      "typography_sensitive"
+    ],
+    "source_kinds": {
+      "account_source_positive": "generation_reality_calibration_and_validation",
+      "user_accepted_ai_output": "page_continuity_and_composition_regression_only",
+      "user_rejected_output": "validation_only",
+      "external_reference": "explicit_scope_only"
+    },
+    "legacy_source_kinds": {
+      "account_source_positive": "generation_and_validation",
+      "user_accepted_positive": "preference_only",
+      "user_rejected_output": "validation_only",
+      "external_reference": "explicit_scope_only"
+    },
+    "positive_origin_contract": {
+      "origin_kind": "account_original",
+      "required_true_fields": [
+        "authenticity_authority",
+        "realism_authority",
+        "generation_reference_eligible"
+      ],
+      "required_false_fields": [
+        "ai_generated",
+        "method_evidence_eligible"
+      ]
+    },
+    "accepted_ai_output_contract": {
+      "profile_manifest_field": "accepted_ai_output_manifest",
+      "source_kind": "user_accepted_ai_output",
+      "origin_kind": "ai_generated",
+      "reference_policy": "page_continuity_and_composition_regression_only",
+      "allowed_uses": [
+        "page_continuity_regression",
+        "composition_regression"
+      ],
+      "forbidden_uses": [
+        "generation_reference",
+        "food_realism",
+        "camera_realism",
+        "authenticity_reference",
+        "master_reference",
+        "golden_positive"
+      ],
+      "required_false_fields": [
+        "authenticity_authority",
+        "realism_authority",
+        "master_reference_eligible",
+        "golden_positive_eligible",
+        "method_evidence_eligible",
+        "generation_reference_eligible"
+      ],
+      "user_acceptance_changes_origin": false,
+      "calibration_output_is_golden_positive": false,
+      "first_output_is_master_reference": false
+    },
+    "prompt_acceptance_separation": {
+      "generation_prompt_and_acceptance_rules_separate": true,
+      "acceptance_artifact_may_embed_generation_prompt": false,
+      "generation_stability_rules_scope": "model_runtime_only",
+      "generation_stability_rules_may_become_account_method": false
+    },
+    "required_boundaries": {
+      "system_contains_account_assets": false,
+      "positive_assets_same_account_only": true,
+      "account_assets_automatically_become_methods": false,
+      "user_accepted_ai_output_becomes_reality_source": false,
+      "user_accepted_ai_output_becomes_master_reference": false,
+      "generated_output_can_self_bootstrap": false,
+      "rejected_output_allowed_as_generation_reference": false,
+      "absolute_nas_paths_in_portable_manifest": false,
+      "role_and_risk_coverage_required": true
+    }
+  },
+  "post_approval_offline_source": {
+    "schema_id": "offline_lightweight_source_v1",
+    "trigger": "formal_account_ingest_and_registry_validation_passed",
+    "part_of_seven_stages": false,
+    "required_after_user_approval": true,
+    "tool": "tools.account_offline_source",
+    "reference": "00_System/shareable/skills/active/account-learning/references/offline-lightweight-source.md",
+    "output_root": "10_Knowledge/formal/accounts/{账号}/轻量数据源",
+    "selection": {
+      "min_total_per_account": 10,
+      "max_total_per_account": 20,
+      "min_per_formal_direction": 1,
+      "max_per_formal_direction": 5,
+      "priority": ["portable_ready", "evidence_complete", "smaller_total_bytes"]
+    },
+    "existing_bundle_policy": "dry_run_diff_only_until_explicit_force_approval",
+    "nas_unavailable_statuses": [
+      "nas_unavailable_existing_bundle_preserved",
+      "pending_nas_sync"
+    ],
+    "required_return_fields": [
+      "offline_source_status",
+      "selected_count",
+      "direction_count",
+      "direction_counts",
+      "manifest",
+      "selection_diff",
+      "gaps",
+      "errors"
     ]
   },
   "verification": {
@@ -287,6 +550,22 @@
     "结构与表达观察只进入阶段1派生候选，不改变统一学习卡契约",
     "结构与表达观察维度允许缺失和新增，不得机械凑齐",
     "账号结构类型和表达指纹只能由多卡聚合与三重验证形成，不得系统预设",
-    "阶段6生产交接包保持候选态，正式账号生产文件仍需审核后更新"
+    "阶段6生产交接包保持候选态，正式账号生产文件仍需审核后更新",
+    "阶段6必须生成账号 Skill 候选包，用户审核前 callable=false",
+    "账号 Skill 生成选题前只读取生产记忆查重摘要，不加载完整数据库",
+    "发布标题、正文和话题必须作为独立发布层证据学习，不得只摘抄或并入泛化表达总结",
+    "图文必须以一条发布内容及其有序组图为学习单元，散图不得自动推断归属和顺序",
+    "OCR只证明图中文字，不替代构图、文字设计、动作状态、结果呈现、生活感和组图叙事学习",
+    "发布文案机制与图文觉机制都只能由逐条证据和多卡验证形成，不得由系统预设账号结论",
+    "视觉分支阶段1必须标记生产参考候选，阶段6必须形成按生产角色和风险覆盖的同账号原始资产包",
+    "方向均衡离线源与生产视觉参考源职责分离，前者数量不得替代后者覆盖",
+    "系统只保存通用视觉schema，不保存账号图片、source_id、风格或结论",
+    "用户认可的AI生成结果只能用于页间连续性和构图回归；不得成为真实性、真实感、镜头真实感、母版、黄金正例、账号方法或后续生图来源",
+    "用户认可不改变AI生成来源；校准图与首张生成结果只能是回归基线，不能自举为新的正例权威",
+    "生图提示词、生成稳定性规则和验收规则必须分离；为提高模型稳定性而减少画面复杂度不得写成账号内容规律",
+    "用户拒绝反例只能validation_only，不得进入生成参考",
+    "轻量数据源只在用户审核和正式账号写入验证通过后组建，不改变阶段6候选态",
+    "已有轻量数据源默认只预览差异，未经明确批准不覆盖",
+    "NAS不可用时保留已有离线包或标记pending_nas_sync，不用候选资产填充"
   ]
 }

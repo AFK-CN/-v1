@@ -1,0 +1,47 @@
+{
+  "schema_version": "2.6",
+  "status": "ready_for_review",
+  "method_ids": [
+    "xugc-m01",
+    "xugc-m02",
+    "xugc-m03",
+    "xugc-m04",
+    "xugc-m05",
+    "xugc-m06",
+    "xugc-m07"
+  ],
+  "visual_method_ids": [
+    "xugc-v01",
+    "xugc-v02",
+    "xugc-v03",
+    "xugc-v04"
+  ],
+  "source_total": 100,
+  "deep_card_count": 100,
+  "visual_image_count": 230,
+  "visual_card_count": 100,
+  "visual_method_count": 4,
+  "visual_review_complete": true,
+  "deferred_evidence_count": 0,
+  "verified_candidate_method_count": 7,
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "task_skill_path": "task_skill_candidate/xianyu-story-ugc",
+  "candidate_callable": false,
+  "formal_promotion": {
+    "version": "1.0",
+    "account_skill_id": "xianyu_story_ugc_task",
+    "formal_account_dir": "10_Knowledge/formal/accounts/闲鱼故事UGC任务",
+    "formal_skill_path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md",
+    "receipt": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/FORMAL_INGEST_RECEIPT.json",
+    "promoted_at": "2026-07-17T13:40:32+08:00"
+  },
+  "v26_unified_source_count": 100,
+  "v26_legacy_compatible_source_count": 0,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 100,
+  "publish_copy_completed_count": 100,
+  "publish_copy_deferred_count": 0
+}

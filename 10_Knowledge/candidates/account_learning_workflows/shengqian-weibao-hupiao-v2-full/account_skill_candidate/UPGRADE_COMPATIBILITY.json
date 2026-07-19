@@ -1,0 +1,460 @@
+{
+  "schema_version": "account_skill_upgrade_compatibility_v1",
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "base_version": "2.0",
+  "target_version": "2.1",
+  "upgrade_scope": "single_account",
+  "candidate_only": true,
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "previous_capability_ids": [
+    "formal_method_and_evidence_routing",
+    "topic_and_production_memory_closed_loop",
+    "content_track_isolation",
+    "multi_image_independent_delivery",
+    "account_evidence_visual_calibration",
+    "handwritten_annotation_and_text_qa",
+    "complete_package_colocation",
+    "publish_copy_deep_recall_and_reproducibility",
+    "three_section_publish_copy_contract",
+    "user_material_anchor_scope",
+    "package_level_deduplication",
+    "meal_composition_and_staple_rotation",
+    "dynamic_tutorial_page_allocation",
+    "publish_copy_golden_regression",
+    "deterministic_publish_copy_gate",
+    "fixed_hand_identity",
+    "tutorial_layout_family_rotation",
+    "txt_publish_copy_delivery",
+    "account_original_visual_reference_package",
+    "single_master_visual_lineage",
+    "three_page_calibration_gate",
+    "high_risk_ingredient_reference_gate",
+    "visual_lineage_production_gate",
+    "accepted_ai_package_continuity_regression",
+    "account_original_food_master_authority",
+    "tableware_local_edit_preservation_gate",
+    "prompt_acceptance_firewall",
+    "texture_risk_budget",
+    "markdown_publish_copy_extension",
+    "walnut_tableware_default",
+    "accepted_ai_food_master_authority"
+  ],
+  "new_capability_ids": [
+    "ordered_multi_image_regression_graph",
+    "capability_preserving_upgrade_guard"
+  ],
+  "capabilities": [
+    {
+      "id": "formal_method_and_evidence_routing",
+      "introduced_in": "1.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/SKILL.md",
+        "account_skill_candidate/references/production.md"
+      ]
+    },
+    {
+      "id": "topic_and_production_memory_closed_loop",
+      "introduced_in": "1.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/SKILL.md"
+      ]
+    },
+    {
+      "id": "content_track_isolation",
+      "introduced_in": "1.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/boundaries.md",
+        "account_skill_candidate/references/production.md"
+      ]
+    },
+    {
+      "id": "multi_image_independent_delivery",
+      "introduced_in": "1.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "account_evidence_visual_calibration",
+      "introduced_in": "1.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-golden.md",
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "handwritten_annotation_and_text_qa",
+      "introduced_in": "1.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/acceptance.md",
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "complete_package_colocation",
+      "introduced_in": "1.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/SKILL.md",
+        "account_skill_candidate/references/production.md"
+      ]
+    },
+    {
+      "id": "publish_copy_deep_recall_and_reproducibility",
+      "introduced_in": "1.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/production.md",
+        "account_skill_candidate/references/publishing-copy.md"
+      ]
+    },
+    {
+      "id": "three_section_publish_copy_contract",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/acceptance.md",
+        "account_skill_candidate/references/publishing-copy.md"
+      ]
+    },
+    {
+      "id": "user_material_anchor_scope",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "package_level_deduplication",
+      "introduced_in": "1.4",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/package-cycle.md",
+        "account_skill_candidate/scripts/validate_package_batch.py"
+      ]
+    },
+    {
+      "id": "meal_composition_and_staple_rotation",
+      "introduced_in": "1.4",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/package-cycle.md",
+        "account_skill_candidate/scripts/validate_package_batch.py"
+      ]
+    },
+    {
+      "id": "dynamic_tutorial_page_allocation",
+      "introduced_in": "1.4",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/package-cycle.md",
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "publish_copy_golden_regression",
+      "introduced_in": "1.5",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/publishing-copy-golden.md"
+      ]
+    },
+    {
+      "id": "deterministic_publish_copy_gate",
+      "introduced_in": "1.5",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/acceptance.md",
+        "account_skill_candidate/scripts/validate_publishing_copy.py"
+      ]
+    },
+    {
+      "id": "fixed_hand_identity",
+      "introduced_in": "1.6",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "tutorial_layout_family_rotation",
+      "introduced_in": "1.7",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-production.md",
+        "account_skill_candidate/scripts/validate_package_batch.py"
+      ]
+    },
+    {
+      "id": "txt_publish_copy_delivery",
+      "introduced_in": "1.8",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/SKILL.md",
+        "account_skill_candidate/scripts/validate_publishing_copy.py"
+      ]
+    },
+    {
+      "id": "account_original_visual_reference_package",
+      "introduced_in": "1.9",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-golden.md"
+      ]
+    },
+    {
+      "id": "single_master_visual_lineage",
+      "introduced_in": "1.9",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-lineage.md",
+        "account_skill_candidate/scripts/validate_visual_package.py"
+      ]
+    },
+    {
+      "id": "three_page_calibration_gate",
+      "introduced_in": "1.9",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-lineage.md",
+        "account_skill_candidate/scripts/validate_visual_package.py"
+      ]
+    },
+    {
+      "id": "high_risk_ingredient_reference_gate",
+      "introduced_in": "1.9",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-lineage.md",
+        "account_skill_candidate/scripts/validate_visual_package.py"
+      ]
+    },
+    {
+      "id": "visual_lineage_production_gate",
+      "introduced_in": "1.9",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/acceptance.md",
+        "account_skill_candidate/scripts/validate_visual_package.py"
+      ]
+    },
+    {
+      "id": "accepted_ai_package_continuity_regression",
+      "introduced_in": "1.9",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-golden.md"
+      ]
+    },
+    {
+      "id": "account_original_food_master_authority",
+      "introduced_in": "2.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-golden.md",
+        "account_skill_candidate/references/visual-lineage.md"
+      ]
+    },
+    {
+      "id": "tableware_local_edit_preservation_gate",
+      "introduced_in": "2.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-lineage.md"
+      ]
+    },
+    {
+      "id": "prompt_acceptance_firewall",
+      "introduced_in": "2.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/visual-lineage.md",
+        "account_skill_candidate/scripts/validate_visual_package.py"
+      ]
+    },
+    {
+      "id": "texture_risk_budget",
+      "introduced_in": "2.0",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/package-cycle.md",
+        "account_skill_candidate/references/visual-production.md"
+      ]
+    },
+    {
+      "id": "markdown_publish_copy_extension",
+      "introduced_in": "1.1",
+      "status": "deprecated",
+      "source_paths": [
+        "account_skill_candidate/SKILL.md",
+        "account_skill_candidate/references/upgrade-compatibility.md"
+      ]
+    },
+    {
+      "id": "walnut_tableware_default",
+      "introduced_in": "1.3",
+      "status": "deprecated",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md"
+      ]
+    },
+    {
+      "id": "accepted_ai_food_master_authority",
+      "introduced_in": "1.9",
+      "status": "deprecated",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-golden.md"
+      ]
+    },
+    {
+      "id": "ordered_multi_image_regression_graph",
+      "introduced_in": "2.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md",
+        "account_skill_candidate/references/visual-lineage.md"
+      ]
+    },
+    {
+      "id": "capability_preserving_upgrade_guard",
+      "introduced_in": "2.1",
+      "status": "active",
+      "source_paths": [
+        "account_skill_candidate/references/upgrade-compatibility.md"
+      ]
+    }
+  ],
+  "changed_capabilities": [
+    {
+      "capability_id": "markdown_publish_copy_extension",
+      "change_type": "deprecated",
+      "effective_in": "1.8",
+      "replacement_ids": [
+        "txt_publish_copy_delivery"
+      ],
+      "user_confirmation": {
+        "confirmed": true,
+        "proposal_path": "account_skill_candidate/proposals/publish-txt-v1.8.md"
+      },
+      "rollback": "恢复 v1.7 的发布文案.md 文件名规则和对应校验脚本。"
+    },
+    {
+      "capability_id": "walnut_tableware_default",
+      "change_type": "deprecated",
+      "effective_in": "2.0",
+      "replacement_ids": [
+        "account_original_food_master_authority",
+        "tableware_local_edit_preservation_gate"
+      ],
+      "user_confirmation": {
+        "confirmed": true,
+        "proposal_path": "account_skill_candidate/proposals/account-realism-v2.0.md"
+      },
+      "rollback": "恢复 v1.9 默认材质口径；胡桃木锚点始终保留，不删除。"
+    },
+    {
+      "capability_id": "accepted_ai_food_master_authority",
+      "change_type": "deprecated",
+      "effective_in": "2.0",
+      "replacement_ids": [
+        "accepted_ai_package_continuity_regression",
+        "account_original_food_master_authority"
+      ],
+      "user_confirmation": {
+        "confirmed": true,
+        "proposal_path": "account_skill_candidate/proposals/account-realism-v2.0.md"
+      },
+      "rollback": "恢复 v1.9 清单仅用于审计；不得在没有新确认时重新赋予 AI 图真实感或生成权威。"
+    }
+  ],
+  "source_snapshot": [
+    {
+      "path": "account_skill_candidate/SKILL.md",
+      "sha256": "289fb248b10a12d309d6d8ed74ed04bb1be98a3a83fe1737f1148d3fbf30f686"
+    },
+    {
+      "path": "account_skill_candidate/references/acceptance.md",
+      "sha256": "80a361b39cd93fe1c7cefb05666d29f3bced1398d6de706164e4bc9715cb829e"
+    },
+    {
+      "path": "account_skill_candidate/references/boundaries.md",
+      "sha256": "d9a6de5a20591c38e0c5f971a8a7e57a5f26803397e6e3e6e1afb91a24319f13"
+    },
+    {
+      "path": "account_skill_candidate/references/package-cycle.md",
+      "sha256": "7e5d22bb3625fe8ed5400657aa28435869a1ddb3991c213da8a2d4c5b405e62a"
+    },
+    {
+      "path": "account_skill_candidate/references/production.md",
+      "sha256": "fe69b59148c084bf15010d64d0f9fc39e037e6b498d44ed25eaa96db084ba344"
+    },
+    {
+      "path": "account_skill_candidate/references/publishing-copy-golden.md",
+      "sha256": "4b30230fb0ccc0c34253f000e276061f9711beeb21dbae7701b146504bacd793"
+    },
+    {
+      "path": "account_skill_candidate/references/publishing-copy.md",
+      "sha256": "9d660cbfb0d0d3eae1bb73063103eb2238de0deaa71d86efe5fd7e9f4f0e6820"
+    },
+    {
+      "path": "account_skill_candidate/references/upgrade-compatibility.md",
+      "sha256": "43119b5cc8874afde1d422f758726b7adfa5f3e741fbdd843af3fe9bbfef88df"
+    },
+    {
+      "path": "account_skill_candidate/references/visual-golden.md",
+      "sha256": "6a7cf1289efb3d60b42e55f71dffce9099da6065ab60c30f2d4e964790924965"
+    },
+    {
+      "path": "account_skill_candidate/references/visual-lineage.md",
+      "sha256": "a3c825aa8e288aafc33964dbf27611ea6db7dd8cf8280b56ed9550e205b29fa9"
+    },
+    {
+      "path": "account_skill_candidate/references/visual-production.md",
+      "sha256": "b7900e62575909ab6919ccb75f716c9349d340ea458d3bd254aa32d007e1f04a"
+    },
+    {
+      "path": "account_skill_candidate/scripts/validate_package_batch.py",
+      "sha256": "7b983a5af4d2cf7c453f0f0a029f726d7567789b46cd7a9a969f9d290efc05b4"
+    },
+    {
+      "path": "account_skill_candidate/scripts/validate_publishing_copy.py",
+      "sha256": "59fd92160684f47ce996def93a43113a8f594bf46bee5a9b1b77e475c808834f"
+    },
+    {
+      "path": "account_skill_candidate/scripts/validate_visual_package.py",
+      "sha256": "68fa72ab3f988ee7c74f8b5a179b2e99e1416fc81261f990ee49c329733c7858"
+    }
+  ],
+  "regression_package_manifests": [],
+  "isolation": {
+    "same_account_only": true,
+    "cross_account_merge": false,
+    "system_rule_contamination": false,
+    "absolute_or_nas_paths": false
+  },
+  "rollback": {
+    "mode": "restore_pre_v29_candidate_snapshot",
+    "formal_account_skill_unchanged_by_candidate_migration": true,
+    "delete_formal_evidence": false
+  },
+  "migration": {
+    "type": "backfill_v29_from_same_account_formal_skill",
+    "source_manifest": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/UPGRADE_COMPATIBILITY.json",
+    "migrated_at": "2026-07-19T16:09:41"
+  }
+}

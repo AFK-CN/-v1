@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "platform": "小红书",
+  "direction": "成本透明一人食",
+  "source_id": "68c29b30000000001d00d062",
+  "title": "图文深度学习卡：68c29b30000000001d00d062",
+  "content_type": "image_text",
+  "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/成本透明一人食/cards/68c29b30000000001d00d062.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68c29b30000000001d00d062",
+  "copied_file_count": 12,
+  "copied_bytes": 957933,
+  "files": [
+    {
+      "path": "images/000_cover.jpg",
+      "bytes": 256029,
+      "sha256": "96e69a590d9289097892264047611d83e695a9f28e6e0c901ded486076a8289f"
+    },
+    {
+      "path": "images/001_image.jpg",
+      "bytes": 243419,
+      "sha256": "262f30c1d5f3e15be7b127ac44326638be05c5127079bbbbeff4ffa05878a9bb"
+    },
+    {
+      "path": "images/002_image.jpg",
+      "bytes": 176032,
+      "sha256": "261b2ddeb94c64eb2ddec38b44e163bad60387dd89b56a465b95d6eb3c29043d"
+    },
+    {
+      "path": "images/003_image.jpg",
+      "bytes": 216096,
+      "sha256": "2a7991b1244037419eacab2ee34b5b97359e37ff11010049ca8d255f81b833fe"
+    },
+    {
+      "path": "images/004_image.jpg",
+      "bytes": 35033,
+      "sha256": "432e38eefa32f8ab341cba4a8eaff129ac0f2864d523d633eafe8488f4613c8d"
+    },
+    {
+      "path": "images/image_analysis.json",
+      "bytes": 3713,
+      "sha256": "9236baa38b97fa74abd83fe03bb86271814de46994ff304cd725d88bb7a6b00f"
+    },
+    {
+      "path": "images/ocr.json",
+      "bytes": 7662,
+      "sha256": "2d0bebe0bcc9f5cf7f69077786c235610f17cbb376d5559ab04c6e76ffb3551a"
+    },
+    {
+      "path": "images/vision_analysis.json",
+      "bytes": 8504,
+      "sha256": "200e45227fbba54bbb35faaacd7b2bef6003a166fee51171de7ed54fbdd8b4a2"
+    },
+    {
+      "path": "images/visual_summary.json",
+      "bytes": 4927,
+      "sha256": "0c3bf71517e5c17a4d52e49e5fc1045cc52b76ba2c1cd66c73487bf7d8f61664"
+    },
+    {
+      "path": "manifest_item.json",
+      "bytes": 678,
+      "sha256": "e0babec78fb88b320f76899ccf6f52d0dc25d13a917f46ff7a59c028003cc712"
+    },
+    {
+      "path": "source.json",
+      "bytes": 2302,
+      "sha256": "f2803f651c9a709cb8cb6126d0144b222b413c6c8160e1f575b51536e00a888c"
+    },
+    {
+      "path": "status.json",
+      "bytes": 3538,
+      "sha256": "251a6b30ef5c2624f2fae40e5eb9db5cd6679bf09b91d802ad65ae6fb008d993"
+    }
+  ]
+}

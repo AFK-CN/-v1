@@ -1,0 +1,198 @@
+{
+  "platform": "xhs",
+  "source_id": "6909cc3b00000000070217c4",
+  "source_url": "https://www.xiaohongshu.com/explore/6909cc3b00000000070217c4",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "title": "独居一人食｜吃的干净真的会瘦！",
+  "desc": "今天吃🍽️\n🥩香煎牛肋排（💰15）\n1.牛肋排解冻后用厨房纸彻底吸干表面水分（产生美拉德反应的关键）；\n2.锅烧热，不放油或喷薄薄一层油，放入牛肋排，中大火每面煎1.5-2分钟，煎至表面形成深色焦壳；\n3.出锅后用锡纸包起来静置3-5分钟，吃之前再撒上海盐和黑胡椒碎。\n🦐煎开背虾（💰4）\n1. 大虾洗净，剪掉头从背部剪开，去除虾线，用刀背轻拍虾肉（防止煎时卷曲关键步骤）。\n2. 锅中烧热后喷少许油，将虾并排放入，中火煎约2分钟。\n3. 翻面，撒上黑胡椒和盐，继续煎1-2分钟。\n🥬 菠菜炒蛋（💰1.85）\n1.菠菜洗净切段（根部可去可留），沸水焯烫30秒去除草酸，捞出挤干水分。鸡蛋打散，加少许盐；\n2.热锅热油，倒入蛋液，快速划炒成块状，盛出备用；\n3.锅留底油，放入菠菜大火翻炒几下，倒回鸡蛋，加盐快速炒匀即可。\n米饭（💰0.5）\n合计💰21.35（有牛肉的时候一般都会超预算~）\n—————————\n《打开心智》你笃信这件事情对你将来有好处，会带来确切的回报和收获，能帮你更好地解决未来的某些问题，这也是一种动力，是一种长期的反馈。\n\t\n#独居[话题]# #一人食[话题]#\n#减脂餐[话题]#\n#低卡低脂餐[话题]#\n#干净饮食[话题]#\n#吃得干净才能长得干净[话题]#\n#菠菜炒蛋[话题]# #牛排[话题]# #煎虾[话题]# #米饭[话题]#",
+  "image_count": 7,
+  "has_text": true,
+  "ocr_text": "米饭子\n菠菜炒鸡蛋\nCe肋条\n开背虾\n对虾掐头，剪开背用刀拍一下\n（拍一下不会卷）\n葱姜料酒腌制10分钟\n锅中喷油，中大火煎1分钟\n出锅撒上黑胡椒即可\n翻面继续煎1分钟\n口感很像虾滑",
+  "ocr_by_image": [
+    {
+      "index": 0,
+      "role": "cover",
+      "text": "米饭子\n菠菜炒鸡蛋\nCe肋条\n开背虾",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "text": "对虾掐头，剪开背用刀拍一下\n（拍一下不会卷）\n葱姜料酒腌制10分钟\n锅中喷油，中大火煎1分钟\n出锅撒上黑胡椒即可\n翻面继续煎1分钟\n口感很像虾滑",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    }
+  ],
+  "visual_summary": "7 张portrait图片；包含 牛排、虾、牛肉、鸡蛋、米饭、减脂餐、一人食；主题为 独居、一人食、减脂餐、低卡低脂餐、干净饮食；图中文字示例：米饭子；画面风格：多图合集，有图中文字/标注，清晰",
+  "scene": "居家餐食",
+  "content_tags": [
+    "餐食",
+    "美食",
+    "居家饮食",
+    "减脂餐",
+    "竖图",
+    "图中文字",
+    "独居",
+    "一人食",
+    "低卡低脂餐",
+    "干净饮食",
+    "吃得干净才能长得干净",
+    "菠菜炒蛋",
+    "牛排"
+  ],
+  "topic_tags": [
+    "独居",
+    "一人食",
+    "减脂餐",
+    "低卡低脂餐",
+    "干净饮食",
+    "吃得干净才能长得干净",
+    "菠菜炒蛋",
+    "牛排",
+    "煎虾",
+    "米饭"
+  ],
+  "food_items": [
+    "牛排",
+    "虾",
+    "牛肉",
+    "鸡蛋",
+    "米饭",
+    "减脂餐",
+    "一人食"
+  ],
+  "style": {
+    "camera": "可能为俯拍/近景",
+    "composition": "多图合集",
+    "orientation": "portrait",
+    "text_overlay": "有图中文字/标注",
+    "dominant_colors": [
+      "#8a7d65",
+      "#887d68",
+      "#87786c",
+      "#8c8272",
+      "#8f8172"
+    ],
+    "clarity": "清晰",
+    "contrast": "对比度较高",
+    "tone": "真实记录型内容"
+  },
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#8a7d65",
+      "contrast_score": 64.81361925526177,
+      "blur_score": 580.4472870728769,
+      "has_text": true
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#887d68",
+      "contrast_score": 64.5621223306477,
+      "blur_score": 459.2413696009051,
+      "has_text": false
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "width": 1080,
+      "height": 1464,
+      "orientation": "portrait",
+      "dominant_color": "#87786c",
+      "contrast_score": 59.91390403849985,
+      "blur_score": 404.7085942670007,
+      "has_text": false
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#8c8272",
+      "contrast_score": 65.12738449819203,
+      "blur_score": 2218.8379493397597,
+      "has_text": true
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#8f8172",
+      "contrast_score": 64.90291991342389,
+      "blur_score": 283.41646113587706,
+      "has_text": false
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#7d7e65",
+      "contrast_score": 65.94350694950523,
+      "blur_score": 220.26097951315955,
+      "has_text": false
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#a3a29c",
+      "contrast_score": 68.7646706469659,
+      "blur_score": 409.1090874207817,
+      "has_text": false
+    }
+  ],
+  "method": "rule_based_ocr_summary",
+  "updated_at": "2026-07-11T00:25:04"
+}

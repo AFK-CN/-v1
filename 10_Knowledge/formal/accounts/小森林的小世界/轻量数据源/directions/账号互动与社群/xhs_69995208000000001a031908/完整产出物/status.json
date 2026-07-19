@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T11:49:10",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051149/3d92bbc8c961258be3bc693cbb5e4a06/1040g00831srddo8jlm004a00sj99a1hq7hec58g!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T11:49:32",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\video\\source.mp4",
+      "source_url": "http://sns-video-v2.xhscdn.com/stream/79/110/259/01e9995208283bdd010370039c7eea5d90_259.mp4?sign=8f01f95fefa691cea76e65f8b0d5b2bc&t=6a4e7170"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T06:00:18",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\video\\source.mp4",
+      "duration_sec": 413.333333,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frame_count": 12400,
+      "platform": "xhs",
+      "source_id": "69995208000000001a031908",
+      "source_url": "http://sns-video-v2.xhscdn.com/stream/79/110/259/01e9995208283bdd010370039c7eea5d90_259.mp4?sign=8f01f95fefa691cea76e65f8b0d5b2bc&t=6a4e7170",
+      "title": "30w粉福，是谁会莫名其妙的收到一个🎁呢",
+      "desc": "#拆箱分享[话题]##粉丝福利[话题]##开箱[话题]##新春市集[话题]# #小红书新春市集[话题]##小红书春节指南[话题]# #我和我的春节[话题]#",
+      "publish_time": 1771655688000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T06:00:23",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T06:00:26",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T06:04:14",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_69995208000000001a031908\\video\\transcript.srt",
+      "segments": 227
+    }
+  },
+  "updated_at": "2026-07-11T06:04:14"
+}

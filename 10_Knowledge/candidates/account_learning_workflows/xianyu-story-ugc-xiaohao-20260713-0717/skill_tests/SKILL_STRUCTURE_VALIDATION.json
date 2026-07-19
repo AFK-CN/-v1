@@ -1,0 +1,7 @@
+{
+  "schema_version": "skill_structure_validation_v1",
+  "skill": "xianyu-story-ugc",
+  "validator": "/Users/lao_wu/.codex/skills/.system/skill-creator/scripts/quick_validate.py",
+  "result": "Skill is valid!",
+  "ok": true
+}

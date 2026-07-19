@@ -1,0 +1,4 @@
+interface:
+  display_name: "知识库"
+  short_description: "总控：按索引、路由和输出契约调用本机知识库"
+  default_prompt: "使用 $knowledge-base-zh 按索引和路由处理当前需求，不扫描受保护原始资料。"

@@ -1,0 +1,37 @@
+{
+  "schema_version": "publish_copy_formal_validation_v1",
+  "status": "approved_callable",
+  "account_name": "闲鱼故事UGC任务",
+  "account_skill_version": "1.2",
+  "source_workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+  "validated_at": "2026-07-18",
+  "user_confirmation": "用户明确回复‘可以生效’。",
+  "source_report": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/PUBLISH_COPY_SPECIAL_STUDY.json",
+  "source_report_sha256": "83021d70445316aa6d6135ae24aae6fb7dccb1fe65d907a04095600c935c81c9",
+  "observation_file": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/candidates/publish_copy_observations.jsonl",
+  "observation_sha256": "5e24933ef531496f4f4d33a818c8439d42a79c140e26fb5aaa4cba1dfa087882",
+  "counts": {
+    "eligible": 100,
+    "completed": 100,
+    "deferred": 0,
+    "title_observed": 100,
+    "body_observed": 100,
+    "topics_observed": 98,
+    "topics_explicitly_missing": 2,
+    "coordination_observed": 100
+  },
+  "triple_verification": {
+    "cross_context": "passed: old-item, transaction-surprise, service, hobby-exit and short-anecdote evidence share the same fact-chain coordination without sharing one story template",
+    "predictive_usefulness": "passed: the promoted rules decide title promise, fact-chain depth, optional reflection, topic scope and image evidence before production",
+    "account_exclusivity": "passed: 100 titles and bodies are distinct, with a short concrete title and substantially longer factual body as the stable task-specific split"
+  },
+  "rejected_generalizations": [
+    "every old item implies youth, family or healing",
+    "missing topics should be filled with generic traffic tags",
+    "every story needs a platform-value conclusion",
+    "generated or recommended images can serve as transaction evidence"
+  ],
+  "candidate_preserved": true,
+  "raw_source_modified": false
+}
+

@@ -1,0 +1,4 @@
+{"id": "m08-tool-guide-single-source", "title": "问题封面—模块解答—表格工具化", "failed_checks": ["v1_cross_context", "v3_account_exclusivity"], "reason": "只有 1 条备餐知识卡，无法满足 3 个独立正常来源，也不能证明它是账号稳定而非一次性工具内容。", "disposition": "waiting_more_evidence", "source_refs": ["6954faae000000001e002da4"]}
+{"id": "g01-claim-and-evidence-gates", "title": "减脂、营养、价格、熟度与食品安全证据门", "failed_checks": ["cluster_not_method_candidate"], "reason": "这是后续所有方法必须遵守的证据门，不是可单独触发的内容生产方法。", "disposition": "retained_evidence_gate"}
+{"id": "b01-product-ad-isolation", "title": "商品广告与自然方法隔离", "failed_checks": ["natural_v1_ineligible", "cluster_not_method_candidate"], "reason": "47 条商品广告不得进入自然方法 V1；保留完整插入学习记录和商业边界。", "disposition": "retained_boundary"}
+{"id": "b02-platform-project-isolation", "title": "平台项目与商品广告双重分轨", "failed_checks": ["natural_v1_ineligible", "cluster_not_method_candidate"], "reason": "平台项目必须与自然内容和商品广告分轨，只保留项目壳与发布协同。", "disposition": "retained_boundary"}

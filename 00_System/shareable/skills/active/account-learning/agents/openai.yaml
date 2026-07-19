@@ -1,0 +1,4 @@
+interface:
+  display_name: "账号学习"
+  short_description: "把标准证据学习为可验证方法与待审核的账号 Skill 候选包"
+  default_prompt: "Use $account-learning to learn this account and produce a review-gated account Skill candidate."

@@ -1,0 +1,115 @@
+{
+  "schema_version": "xianyu_ugc_visual_forward_test_v1",
+  "skill": "xianyu-story-ugc",
+  "test_scope": "synthetic_visual_packages_with_real-evidence_boundaries",
+  "positive_case_count": 4,
+  "positive_pass_count": 4,
+  "negative_case_count": 5,
+  "negative_reject_count": 5,
+  "cli_smoke": {
+    "valid_exit_code": 0,
+    "invalid_exit_code": 2,
+    "passed": true
+  },
+  "positive_results": [
+    {
+      "case_id": "platform_listing_object_chat",
+      "expected": "pass",
+      "actual": "pass",
+      "errors": [],
+      "visual_mode": "platform_evidence_chain",
+      "package": "skill_tests/visual_packages/platform_listing_object_chat.json",
+      "output": "skill_tests/visual_outputs/platform_listing_object_chat.md",
+      "package_sha256": "484cfe5cc88c522768e19fe0d64f45e13cd6c084d61c79d68d49f539bac35ade"
+    },
+    {
+      "case_id": "object_context_detail_result",
+      "expected": "pass",
+      "actual": "pass",
+      "errors": [],
+      "visual_mode": "object_truth_sequence",
+      "package": "skill_tests/visual_packages/object_context_detail_result.json",
+      "output": "skill_tests/visual_outputs/object_context_detail_result.md",
+      "package_sha256": "31397dc04cfc5fa25984d4b31d2606166fc707b0b2c18a776ea2bc738a304a3f"
+    },
+    {
+      "case_id": "hook_card_then_real_proof",
+      "expected": "pass",
+      "actual": "pass",
+      "errors": [],
+      "visual_mode": "hook_card_then_proof",
+      "package": "skill_tests/visual_packages/hook_card_then_real_proof.json",
+      "output": "skill_tests/visual_outputs/hook_card_then_real_proof.md",
+      "package_sha256": "b505bb83deb8a71afe9a88c8ad163fc7b5d3096d69a90b1de26e666d7c0e7580"
+    },
+    {
+      "case_id": "single_photo_boundary",
+      "expected": "pass",
+      "actual": "pass",
+      "errors": [],
+      "visual_mode": "single_visual",
+      "package": "skill_tests/visual_packages/single_photo_boundary.json",
+      "output": "skill_tests/visual_outputs/single_photo_boundary.md",
+      "package_sha256": "24fd7016df39c8ef16301ce53684f4015edecf43566bbf7f786a7508efcc1444"
+    }
+  ],
+  "negative_results": [
+    {
+      "case_id": "reject_fabricated_chat_screenshot",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "visual_frame_3_screenshot_must_be_real",
+      "errors": [
+        "visual_frame_3_screenshot_must_be_real"
+      ],
+      "package": "skill_tests/visual_packages/reject_fabricated_chat_screenshot.json",
+      "package_sha256": "d6bc9f5821d2ab94372e4925563f4f2ab67c2739134399eb7f90f37dcc7938fd"
+    },
+    {
+      "case_id": "reject_unreviewed_visual_package",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "visual_claims_require_reviewed_evidence",
+      "errors": [
+        "visual_claims_require_reviewed_evidence",
+        "visual_package_requires_reviewed_evidence"
+      ],
+      "package": "skill_tests/visual_packages/reject_unreviewed_visual_package.json",
+      "package_sha256": "20e14ea9bbe7bb5d13a83ef4dae8f02c6c0de711fe3c597bfb7b19e15d502d79"
+    },
+    {
+      "case_id": "reject_missing_privacy_check",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "privacy_check_requires_all_fields",
+      "errors": [
+        "privacy_check_requires_all_fields"
+      ],
+      "package": "skill_tests/visual_packages/reject_missing_privacy_check.json",
+      "package_sha256": "00eb501997fe44777f4be6a97b39ab2fbcc0ba581bff280c2f0307fc767e4ee1"
+    },
+    {
+      "case_id": "reject_visual_performance_claim",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "visual_performance_claims_must_be_empty_list",
+      "errors": [
+        "visual_performance_claims_must_be_empty_list"
+      ],
+      "package": "skill_tests/visual_packages/reject_visual_performance_claim.json",
+      "package_sha256": "358848c2197869bd28297229ffbfe2537b594ccd1dcede8c71a51fd71484d031"
+    },
+    {
+      "case_id": "reject_unsupported_publish_order",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "actual_publish_order_claim_requires_evidence",
+      "errors": [
+        "actual_publish_order_claim_requires_evidence"
+      ],
+      "package": "skill_tests/visual_packages/reject_unsupported_publish_order.json",
+      "package_sha256": "85156c998a1516a9f4ae1ab566c38f257a3f7cfa95d8735bf1069bf24e8e08d7"
+    }
+  ],
+  "ok": true
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "direction": "自然短剧情",
+  "source_id": "7008840377713069347",
+  "title": "李宗恒统一账号发布资产学习卡：《嗯…》#内容过于真实 #宿舍",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/自然短剧情/cards/7008840377713069347.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7008840377713069347",
+  "copied_file_count": 21,
+  "copied_bytes": 3959797,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 665,
+      "sha256": "944101f4dfd4abd8e45c6f296c37f331a3d6484076c3867ba475a755d4fb7ac8"
+    },
+    {
+      "path": "source.json",
+      "bytes": 909,
+      "sha256": "e2ac322d448dca1f571baab3cae8626b93f9026099046c96be0a33d9865f791f"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2282,
+      "sha256": "bd73209dd41d156f1306d30ce1cf79629d28d55382fb022029b858365eaa48ab"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 552946,
+      "sha256": "00dcdfb64b9db80d87149dd001caec2c8c3d2fb9be9b816ffa5177a4a7f44eea"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 10837,
+      "sha256": "af1355475c5cc3e1b8372c5a012a10c032d2978d115ec859f8d124fb99340e99"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 10839,
+      "sha256": "0e5bc1544705090aca30f5a0319f473d4e6393d01f68616652e560e7e5759d92"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 58207,
+      "sha256": "5fcda846464838b1136ce072d880643e8074154239e61dbe9957875c9d8334e8"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 100632,
+      "sha256": "9619cf428c28053bbcff1eaf57491a9719589357937b96e3cdb0cca4195ef19e"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 93568,
+      "sha256": "33c8c757ee80f4826c09b9764422ac0470ffbdce29e0c982bfd60c1adaaaf1f1"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 87662,
+      "sha256": "bbccdae572c0a839504df39b33006f76e951c926f6274c32e6cdbbcd1f785553"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 87599,
+      "sha256": "59d30208e6c45c5f2bd008ee1728fd80dc6bcb7ea935fcdf2f631d92a23274c1"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 9384,
+      "sha256": "ac984a3b3208ab9accbc2765d718e06322de9bf7122894b5001527be5f3951df"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 86723,
+      "sha256": "97abe2013f146dea8f01a6d317a85f51a3184333497b05e4870d8a7fef26c1e4"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 19711,
+      "sha256": "1b53e77098d30dc0e028bdc0b6420e6d1c079723a11a4d6ad440328d1b3c665d"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 1141,
+      "sha256": "f4985198efd3338ac3fb78534e834cff89e35c86909deea542d25c6f89072d28"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 2833428,
+      "sha256": "8b4f87b9b95b2c8926a3f3fbc8e02667bcde9a02ef0330b66effae338c01a9eb"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 1375,
+      "sha256": "acfc32b910c30985822427df41aff9a9d3d2afe776b41559429f2c59262b7992"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 641,
+      "sha256": "8b615aa85df1b82af0973acb40c90866b7d0105e3f13888825db53edaf94178d"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 208,
+      "sha256": "ecd410330bdcae20cbb840317d5626af702d109d4b8b49c96bb47222309e77ab"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 309,
+      "sha256": "024871af7380d5f59165e54995d0543b3b6573a70855da20da5579348bf5cb7e"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 731,
+      "sha256": "2abc6aabd3815e262e1e05868f43d85c18ff311ffd107843889b758312bad396"
+    }
+  ]
+}

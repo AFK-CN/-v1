@@ -1,0 +1,68 @@
+{
+  "one_line_theme": "用一件旧物、一次服务或一段交易中的具体意外，把普通人的闲鱼经历写成有温度、有轻微反差、最终落到告别、信任、成长或价值感的短故事。",
+  "account_identity_status": "task_scope_confirmed",
+  "account_identity_note": "用户已确认按闲鱼故事类UGC任务级学习；小浩只作为来源文档标记，不建立其个人账号Skill。",
+  "task_direction": "闲鱼故事类UGC内容发布",
+  "content_pillars": [
+    "旧物回忆与情绪告别",
+    "交易中的陌生人善意与信任",
+    "闲鱼搞钱服务与身份成长",
+    "兴趣退坑与自我接纳",
+    "轻剧情交易奇遇",
+    "循环利用与小人物连接"
+  ],
+  "terminology": [
+    "旧物新生",
+    "体面告别",
+    "与自己和解",
+    "陌生人的善意",
+    "沉甸甸的信任",
+    "时间或技能变现",
+    "物件作为记忆触发器",
+    "闲鱼不只是交易平台"
+  ],
+  "limitations": [
+    "小浩身份仅由文档标题推断，可能是撰稿人或项目排期标识",
+    "样本只覆盖0713至0717的五篇集中发布文档",
+    "缺少发布链接与浏览互动收藏评论转化等平台表现数据",
+    "第一人称UGC故事没有事实核验，不能当成真实个人履历",
+    "230张关联图片尚未逐张复核，视觉结论不可成立",
+    "整批内容可能属于闲鱼平台项目，不能增加自然账号方法权重",
+    "无精确重复不等于无主题和结构同质化",
+    "极短聊天奇遇与完整长故事的证据密度不一致"
+  ],
+  "evidence_refs": [
+    "https://my.feishu.cn/wiki/E4BUw58vbiLhUzk9ngRcEMPcnqe",
+    "https://my.feishu.cn/wiki/CbZuwemEZibkUHkyGgAcQvG0nvb",
+    "https://my.feishu.cn/wiki/JOEnwlQjPi87XYkAHOFcpiPEnvf",
+    "https://my.feishu.cn/wiki/GSK5wkHyRijie1kRbhecHunznVh",
+    "https://my.feishu.cn/wiki/YHoJwJzsRiAWvUk203acBRcnnrh",
+    "feishu_xianyu_20260713_s05",
+    "feishu_xianyu_20260713_s13",
+    "feishu_xianyu_20260714_s09",
+    "feishu_xianyu_20260715_s01",
+    "feishu_xianyu_20260715_s17",
+    "feishu_xianyu_20260716_s18",
+    "feishu_xianyu_20260717_s03",
+    "feishu_xianyu_20260717_s08",
+    "feishu_xianyu_20260717_s16",
+    "feishu_xianyu_20260717_s18"
+  ],
+  "sample_summary": {
+    "document_count": 5,
+    "record_count": 100,
+    "image_count": 230,
+    "exact_duplicate_count": 0,
+    "text_complete_count": 100,
+    "visual_reviewed_count": 0
+  },
+  "media_branches": [
+    "图文",
+    "故事",
+    "长文案"
+  ],
+  "platform_project_risk": "high",
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true
+}

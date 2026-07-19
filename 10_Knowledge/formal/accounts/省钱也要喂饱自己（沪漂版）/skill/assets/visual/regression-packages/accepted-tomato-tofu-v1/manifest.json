@@ -1,0 +1,79 @@
+{
+  "schema_version": "account_visual_regression_package_v1",
+  "package_id": "accepted-tomato-tofu-five-page-regression-v1",
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "content_id": "content_shengqian_20260716_tomato_tofu",
+  "source_kind": "user_accepted_ai_output",
+  "origin_kind": "ai_generated",
+  "reference_policy": "page_continuity_and_composition_regression_only",
+  "allowed_uses": [
+    "page_continuity_regression",
+    "composition_regression"
+  ],
+  "authenticity_authority": false,
+  "realism_authority": false,
+  "master_reference_eligible": false,
+  "golden_positive_eligible": false,
+  "method_evidence_eligible": false,
+  "generation_reference_eligible": false,
+  "continuity_required": true,
+  "continuity_mother_asset_id": "accepted-tomato-tofu-clean-meal",
+  "derivation_policy": "local_edit_or_controlled_derivation",
+  "independent_regeneration_allowed": false,
+  "historical_lineage_basis": "v1.9 applied proposal records the accepted clean meal as the package continuity mother; this manifest preserves the five-page relationship for regression only.",
+  "immutable_fields": [
+    "same_meal_identity",
+    "dish_membership",
+    "tableware_continuity_within_this_historical_package",
+    "table_and_lighting_continuity",
+    "annotation_system_continuity"
+  ],
+  "mutable_fields": [
+    "page_role",
+    "crop",
+    "annotation_overlay",
+    "tutorial_action"
+  ],
+  "pages": [
+    {
+      "order": 1,
+      "asset_id": "accepted-tomato-tofu-annotated-cover",
+      "role": "annotated_cover",
+      "parent_asset_id": "accepted-tomato-tofu-clean-meal",
+      "asset_path": "../../golden-package-v2/user-accepted/accepted_01_annotated_cover.png",
+      "sha256": "88b3bdd27d5eec6982836355c694014149b1b4d958fdc81fb8fcc516c496835e"
+    },
+    {
+      "order": 2,
+      "asset_id": "accepted-tomato-tofu-clean-meal",
+      "role": "clean_meal",
+      "parent_asset_id": null,
+      "asset_path": "../../golden-package-v2/user-accepted/accepted_02_clean_meal.png",
+      "sha256": "29cd1e51af8a91e795559a67b87eb93f77e18ffdb462152f9c40b6ae65481253"
+    },
+    {
+      "order": 3,
+      "asset_id": "accepted-tomato-tofu-tutorial",
+      "role": "tutorial",
+      "parent_asset_id": "accepted-tomato-tofu-clean-meal",
+      "asset_path": "../../golden-package-v2/user-accepted/accepted_03_tutorial.png",
+      "sha256": "8cbda08b455b466f48c5d0f5b8402a22a7a927cdef91f780d7adb18d42ae8b88"
+    },
+    {
+      "order": 4,
+      "asset_id": "accepted-tomato-tofu-main-result",
+      "role": "result",
+      "parent_asset_id": "accepted-tomato-tofu-clean-meal",
+      "asset_path": "../../golden-package-v2/user-accepted/accepted_04_main_result.png",
+      "sha256": "0ec305358d7dde612dba36363317407ccd2877040e5dba3290baa77f7d36e7a5"
+    },
+    {
+      "order": 5,
+      "asset_id": "accepted-tomato-tofu-side-staple",
+      "role": "side_staple",
+      "parent_asset_id": "accepted-tomato-tofu-clean-meal",
+      "asset_path": "../../golden-package-v2/user-accepted/accepted_05_side_staple.png",
+      "sha256": "825774ac223bac35d7a665a03c5a6ca76a261c23e82608c9ac88c70884f16378"
+    }
+  ]
+}

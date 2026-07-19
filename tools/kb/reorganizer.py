@@ -6,7 +6,7 @@ from pathlib import Path
 from typing import Any
 
 from .runtime import runtime_path
-from .schemas import SYSTEM_RULES_DIR, as_posix, load_layer_map, now_iso
+from .schemas import as_posix, load_layer_map, now_iso
 
 
 KEEP_ROOT_NAMES = {
@@ -28,7 +28,6 @@ KEEP_ROOT_DIRS = {
     "00_System",
     "10_Knowledge",
     "20_User",
-    "80_Local",
     "90_Temp",
     "99_Archive",
     "tools",
@@ -37,33 +36,27 @@ KEEP_ROOT_DIRS = {
 }
 
 LEGACY_ROOT_TARGETS = {
-    "02_Viral_Methods": "10_Knowledge/formal/methods",
-    "03_Topic_Ideas": "10_Knowledge/formal/topics",
-    "04_Platform_Knowledge": "10_Knowledge/formal/platforms",
+    "02_Viral_Methods": "99_Archive/legacy_formal_libraries/methods",
+    "03_Topic_Ideas": "99_Archive/legacy_formal_libraries/topics",
+    "04_Platform_Knowledge": "99_Archive/legacy_formal_libraries/platforms",
     "05_Sub_KB_Candidates": "10_Knowledge/candidates/sub_kbs",
-    "06_Sub_KB": "10_Knowledge/formal/accounts",
-    "07_Trend_Radar": "00_System/shareable/rules/trend_radar",
-    "08_Content_Factory": "10_Knowledge/formal/content_factory",
-    "09_Performance_Feedback": "10_Knowledge/formal/reviews/feedback",
-    "10_Weekly_Review": "10_Knowledge/formal/reviews/weekly",
-    "12_User_Preferences": "20_User/syncable/preferences",
+    "06_Sub_KB": "99_Archive/legacy_formal_libraries/sub_kbs",
+    "07_Trend_Radar": "99_Archive/system_rules_legacy/trend_radar",
+    "08_Content_Factory": "99_Archive/content_factory",
+    "09_Performance_Feedback": "99_Archive/legacy_formal_libraries/reviews/feedback",
+    "10_Weekly_Review": "99_Archive/legacy_formal_libraries/reviews/weekly",
+    "12_User_Preferences": "20_User/config/preferences",
     "13_Evolving_Skills": "00_System/shareable/skills",
     "11_Project_Use": "00_System/shareable/docs/project_use",
     "docs": "00_System/shareable/docs",
-    "01_Case_Cleaning": "10_Knowledge/candidates plus 00_System/runtime",
+    "01_Case_Cleaning": "99_Archive/system_rules_legacy/case_cleaning",
+    "80_Local": "20_User/local/legacy_80_local",
 }
 
-RULE_FILES = {
-    "JSON入库清洗规则.md",
-    "Skill进化与回滚规则.md",
-    "使用文档.md",
-    "去重规则.md",
-    "周复盘规则.md",
-    "子知识库创建规则.md",
-    "本机使用速查.md",
-    "爆款方法论沉淀规则.md",
-    "知识库运行规则.md",
-    "选题生成规则.md",
+RULE_FILE_TARGETS = {
+    "JSON入库清洗规则.md": "00_System/shareable/skills/active/content-processing/references/json-cleaning.md",
+    "去重规则.md": "00_System/shareable/skills/active/content-processing/references/deduplication.md",
+    "本机使用速查.md": "00_System/shareable/docs/project_use/本机使用速查.md",
 }
 
 DELETE_ALLOWLIST = {".DS_Store", "feishu-auth-qrcode.png"}
@@ -79,9 +72,11 @@ TARGET_LAYER_DIRS = (
     "10_Knowledge/formal",
     "10_Knowledge/candidates",
     "10_Knowledge/evidence",
-    "20_User/syncable",
+    "20_User/config",
+    "20_User/data",
+    "20_User/feedback",
     "20_User/private",
-    "80_Local",
+    "20_User/local",
     "90_Temp/inbox",
     "90_Temp/drafts",
     "90_Temp/exports",
@@ -96,12 +91,12 @@ def classify_root_item(path: Path) -> dict[str, Any]:
         return {"path": name, "action": "move", "target": LEGACY_ROOT_TARGETS[name], "reason": "legacy_root_to_target_layer"}
     if name in KEEP_ROOT_NAMES or name in KEEP_ROOT_DIRS:
         return {"path": name, "action": "keep_root", "target": name, "reason": "root_entry_or_primary_directory"}
-    if name in RULE_FILES:
-        return {"path": name, "action": "move", "target": f"{SYSTEM_RULES_DIR}/{name}", "reason": "centralize_rules"}
+    if name in RULE_FILE_TARGETS:
+        return {"path": name, "action": "move", "target": RULE_FILE_TARGETS[name], "reason": "route_rule_to_owner"}
     if name.startswith("验收报告_") and name.endswith(".md"):
         return {"path": name, "action": "move", "target": f"00_System/runtime/reports/history/{name}", "reason": "historical_report"}
     if name == "feishu_doc_read":
-        return {"path": name, "action": "move", "target": "99_Archive/feishu_doc_read", "reason": "import_artifact_not_formal_knowledge"}
+        return {"path": name, "action": "delete_candidate", "target": "", "reason": "one_time_import_artifact"}
     if name in DELETE_ALLOWLIST:
         return {"path": name, "action": "delete_candidate", "target": "", "reason": "explicit_cleanup_allowlist"}
     return {"path": name, "action": "manual_review", "target": "", "reason": "unknown_root_item"}

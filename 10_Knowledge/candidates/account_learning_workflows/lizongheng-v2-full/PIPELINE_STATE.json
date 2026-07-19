@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.2",
+  "schema_version": "2.9",
   "workflow_id": "lizongheng-v2-full",
   "account_name": "李宗恒",
   "profile_id": "lizongheng",
@@ -12,7 +12,7 @@
   "current_stage": "completed",
   "formal_write_allowed": false,
   "created_at": "2026-07-11T23:05:32",
-  "updated_at": "2026-07-14T21:15:25",
+  "updated_at": "2026-07-19T16:09:41",
   "stages": [
     {
       "id": "stage0_account_overview",
@@ -40,6 +40,9 @@
         "stage_id": "stage1_parallel_extraction",
         "errors": [],
         "metrics": {
+          "publish_copy_expected_count": 430,
+          "publish_copy_completed_count": 430,
+          "publish_copy_deferred_count": 0,
           "candidate_count": 1330,
           "real_acceptance_status": "passed"
         }
@@ -124,5 +127,44 @@
         "metrics": {}
       }
     }
-  ]
+  ],
+  "stage6_account_skill_schema": "account_skill_candidate_v1",
+  "migrations": [
+    {
+      "id": "backfill_account_skill_candidate_v1",
+      "completed_at": "2026-07-15T16:36:32",
+      "source": "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md"
+    },
+    {
+      "id": "upgrade_account_learning_v2_6",
+      "completed_at": "2026-07-18T20:55:31",
+      "mode": "evidence_backfill_with_legacy_compatibility"
+    },
+    {
+      "id": "backfill_publish_copy_special_learning_v1",
+      "completed_at": "2026-07-18T21:29:34",
+      "mode": "per_source_publish_layer_observation_and_cross_card_candidate_summary"
+    },
+    {
+      "id": "backfill_account_skill_upgrade_compatibility_v29",
+      "completed_at": "2026-07-19T15:40:56",
+      "source": "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md",
+      "mode": "same_account_formal_snapshot_only"
+    }
+  ],
+  "source_total": 430,
+  "deep_card_count": 430,
+  "deferred_evidence_count": 0,
+  "verified_candidate_method_count": 4,
+  "stage1_observation_schema": "",
+  "stage2_production_mechanism_schema": "production_mechanism_v1",
+  "stage6_production_handoff_schema": "account_production_handoff_v1",
+  "v26_unified_source_count": 280,
+  "v26_legacy_compatible_source_count": 150,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 430,
+  "publish_copy_completed_count": 430,
+  "publish_copy_deferred_count": 0,
+  "stage6_upgrade_compatibility_schema": "account_skill_upgrade_compatibility_v1"
 }

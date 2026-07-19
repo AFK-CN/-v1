@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m07-recipe-body-fingerprint",
+  "test_cases": [
+    {
+      "id": "m07-recipe-body-fingerprint-t1",
+      "type": "should_trigger",
+      "prompt": "三道菜正文，主菜有编号动作，青菜只需写焯熟，尾部有真实碎碎念。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m07-recipe-body-fingerprint-t2",
+      "type": "should_not_trigger",
+      "prompt": "页面要做七日一页一餐索引，不需要展开每道菜正文。",
+      "expected_decision": "do_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "m01-complete-meal-positioning"
+    },
+    {
+      "id": "m07-recipe-body-fingerprint-t3",
+      "type": "edge_case",
+      "prompt": "有来源标注的每百克热量，但未验证；原样保留并加边界。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m07-recipe-body-fingerprint-t4",
+      "type": "cross_scene_transfer",
+      "prompt": "迁移到宿舍便当正文：仍按菜名分段并按复杂度决定详略。",
+      "expected_decision": "trigger",
+      "mechanism_preserved": true,
+      "source_scene": "普通单餐正文",
+      "target_scene": "宿舍/加班/便当等改变人物与道具后的新场景"
+    },
+    {
+      "id": "m07-recipe-body-fingerprint-t5",
+      "type": "commercial_contamination",
+      "prompt": "广告口播提供统一卖点句，要求当作账号自然语气指纹。",
+      "expected_decision": "do_not_trigger",
+      "commercial_source_excluded_from_natural_v1": true
+    }
+  ],
+  "evaluation_rule": "仅当核心机制存在且未触发商品广告/平台项目/证据缺失边界时触发。"
+}

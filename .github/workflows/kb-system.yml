@@ -5,9 +5,10 @@ on:
   pull_request:
 
 jobs:
-  test:
+  release-gate:
     name: ${{ matrix.os }} / Python 3.12
     runs-on: ${{ matrix.os }}
+    timeout-minutes: 30
     strategy:
       fail-fast: false
       matrix:
@@ -26,13 +27,25 @@ jobs:
         run: python -m pip install -r requirements.txt
 
       - name: Run unit tests
-        run: python -m unittest discover tests
+        run: python -m unittest discover -s tests -p "test_*.py"
 
       - name: Regenerate Skill packages
         run: python -m tools.kb.cli --root . skill-packages
 
-      - name: Regenerate indexes
-        run: python -m tools.kb.cli --root . index
+      - name: Verify generated Skill packages are committed
+        run: git diff --exit-code -- 00_System/shareable/skill_packages
 
-      - name: Validate KB system
-        run: python -m tools.kb.cli --root . validate-system
+      - name: Initialize ignored runtime state
+        run: python -m tools.kb.cli --root . init --no-rebuild --no-migrate
+
+      - name: Build formal retrieval cache
+        run: python -m tools.kb.cli --root . formal-search-index
+
+      - name: Run complete release gate
+        run: python -m tools.kb.cli --root . release-gate --query "角色" --max-search-ms 5000
+
+      - name: Verify system boundaries explicitly
+        run: python -m tools.kb.cli --root . clean-system-boundaries --dry-run
+
+      - name: Verify portable distribution explicitly
+        run: python -m tools.kb.cli --root . distribution-audit

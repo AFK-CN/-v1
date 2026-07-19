@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "schema_version": "2.5",
+  "status": "formal_ingested",
+  "account_name": "闲鱼故事UGC任务",
+  "account_skill_id": "xianyu_story_ugc_task",
+  "scope_type": "task",
+  "formal_account_dir": "10_Knowledge/formal/accounts/闲鱼故事UGC任务",
+  "ingested_at": "2026-07-17T13:40:32+08:00",
+  "counts": {
+    "source_total": 100,
+    "images": 230,
+    "formal_text_methods": 7,
+    "formal_visual_methods": 4,
+    "formal_skill_files": 9,
+    "account_views": 4
+  },
+  "candidate_workflow": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717",
+  "user_confirmation": "2026-07-17 user explicitly said 入库吧",
+  "candidate_preserved": true
+}

@@ -1,0 +1,32 @@
+{
+  "id": "xugc-v04",
+  "schema_version": "formal_visual_method_v1",
+  "version": 1,
+  "status": "formal_verified",
+  "callable": true,
+  "formal_write": true,
+  "account_skill_id": "xianyu_story_ugc_task",
+  "account_scope": "task:闲鱼故事UGC任务",
+  "title": "可选一句话标题卡",
+  "mechanism": "用浅色或白底、大号黑字的一到两行短句先建立故事钩子，再由实拍或截图证据承接。",
+  "trigger": "正文核心反差能压成一句话，且后续至少有一张真实证据图。",
+  "fixed_elements": [
+    "一到两行",
+    "大量留白",
+    "小装饰只做弱提示",
+    "后续必须接证据图"
+  ],
+  "do_not_trigger": "它只在部分连续样本中出现，不是全任务强制封面模板；不复制固定字体、配色或卡通形象。",
+  "source_refs": [
+    "feishu_xianyu_20260714_s09",
+    "feishu_xianyu_20260714_s11",
+    "feishu_xianyu_20260714_s14",
+    "feishu_xianyu_20260715_s11",
+    "feishu_xianyu_20260715_s15",
+    "feishu_xianyu_20260715_s20",
+    "feishu_xianyu_20260716_s01",
+    "feishu_xianyu_20260716_s02"
+  ],
+  "formal_ingested_at": "2026-07-17",
+  "test_evidence": "../../evidence/VISUAL_FORWARD_TEST_SUMMARY.json"
+}

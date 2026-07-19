@@ -1,0 +1,81 @@
+{
+  "id": "xugc-m07",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "formal_verified",
+  "callable": true,
+  "account_scope": "task:闲鱼故事UGC任务",
+  "title": "第三方误解或自嘲打断煽情，保留生活毛边",
+  "trigger_signals": [
+    "温情或成长叙事接近过满",
+    "素材中自然存在第三方误解吐槽或自嘲",
+    "笑点不改变主因果"
+  ],
+  "trigger_model": {
+    "mechanism": "在成长或温情叙事接近过满时，用室友、家人、客户的误解或讲述者自嘲加入现实摩擦，降低口号感。",
+    "applicable_relations": [
+      "讲述者与室友",
+      "讲述者与家人",
+      "服务者与旁观者"
+    ],
+    "transferable_scenes": [
+      "宿舍创业",
+      "家庭误解",
+      "兴趣练习",
+      "同城服务"
+    ],
+    "do_not_trigger_on": [
+      "素材没有自然误解",
+      "笑点会嘲弄弱势人物",
+      "吐槽会抢走交易主线"
+    ]
+  },
+  "do_not_use": [
+    "素材没有自然误解",
+    "笑点会嘲弄弱势人物",
+    "吐槽会抢走交易主线"
+  ],
+  "execution_steps": [
+    "先确保主事实链成立",
+    "寻找真实第三方反应或自嘲点",
+    "压缩成一处短插入",
+    "检查笑点不改变人物尊严",
+    "删去重复包袱"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260713_s13",
+    "feishu_xianyu_20260717_s01",
+    "feishu_xianyu_20260717_s03",
+    "feishu_xianyu_20260717_s08",
+    "feishu_xianyu_20260717_s09",
+    "feishu_xianyu_20260717_s10",
+    "feishu_xianyu_20260717_s15",
+    "feishu_xianyu_20260717_s18"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "已建立的具体事实",
+      "第三方误解或自嘲",
+      "不破坏主因果的短插入"
+    ],
+    "variable_elements": [
+      "第三方关系",
+      "吐槽力度",
+      "出现位置",
+      "是否形成笑点"
+    ],
+    "tension_engine": "严肃目标与日常旁观者理解之间的落差。",
+    "trust_engine": "生活化误解让人物不显得只为主题服务。",
+    "understanding_engine": "笑点作为节奏切口，不承担核心事实解释。",
+    "beneficiary_engine": "降低煽情疲劳，让读者更容易接受后续价值判断。",
+    "length_basis": "一处有效摩擦即可；重复吐槽会抢走故事主线。",
+    "boundaries": [
+      "不得硬造段子",
+      "不嘲笑弱势人物或买家",
+      "没有自然第三方时宁可不用"
+    ]
+  },
+  "formal_write": true,
+  "account_skill_id": "xianyu_story_ugc_task",
+  "formal_ingested_at": "2026-07-17"
+}

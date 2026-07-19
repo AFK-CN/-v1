@@ -47,7 +47,7 @@
   <text class="box-text" x="772" y="254">缺最低信息时最多反问 3 个问题</text>
   <rect class="card entry" x="1140" y="170" width="350" height="106"/>
   <text class="box-title" x="1162" y="202">已生效 Skill 包</text>
-  <text class="box-text" x="1162" y="230">00_System/shareable/skill_packages/知识库</text>
+  <text class="box-text" x="1162" y="230">00_System/shareable/skill_packages/knowledge-base-zh</text>
   <text class="box-text" x="1162" y="254">兼容：skill_packages/knowledge-base</text>
   <rect class="card route" x="1550" y="170" width="250" height="106"/>
   <text class="box-title" x="1572" y="202">总控智能体</text>
@@ -78,7 +78,7 @@
   <text class="box-text" x="1362" y="445">controller / planner / retriever / workflow_runner</text>
   <text class="box-text" x="1362" y="469">account_knowledge / content_generator</text>
   <text class="box-text" x="1362" y="493">review / skill_evolution / auditor</text>
-  <text class="small" x="1362" y="517">智能体声明：00_System/shareable/skill_packages/知识库/agents/openai.yaml</text>
+  <text class="small" x="1362" y="517">智能体声明：00_System/shareable/skill_packages/knowledge-base-zh/agents/openai.yaml</text>
   <path class="arrow" d="M215 300 V390"/>
   <path class="arrow" d="M360 450 H420"/>
   <path class="arrow" d="M1270 450 H1340"/>

@@ -1,0 +1,4 @@
+interface:
+  display_name: "姜胡说账号生产"
+  short_description: "基于正式方法和证据稳定生产账号专属选题、口播、长文案和内容包"
+  default_prompt: "Use $account-jianghushuo to create evidence-backed content with the validated account production system."

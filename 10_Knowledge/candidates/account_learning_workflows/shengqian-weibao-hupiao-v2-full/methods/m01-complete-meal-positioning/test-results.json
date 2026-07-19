@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m01-complete-meal-positioning",
+  "executor": "deterministic-boundary-audit-v1 + manual semantic case review",
+  "executed_at": "2026-07-16T19:53:37+08:00",
+  "prompt_set_sha256": "619416c35ee582c9bec2a5d096398bb52051e0b4c94064c0ddbc56a9b6a8bd85",
+  "case_results": [
+    {
+      "id": "m01-complete-meal-positioning-t1",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t2",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t3",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t4",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m01-complete-meal-positioning-t5",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；商业来源已排除出自然V1。"
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate": 1.0
+}

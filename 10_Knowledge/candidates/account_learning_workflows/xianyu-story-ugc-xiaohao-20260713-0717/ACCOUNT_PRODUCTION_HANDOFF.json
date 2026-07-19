@@ -1,0 +1,135 @@
+{
+  "schema_version": "account_production_handoff_v1",
+  "status": "ready_for_review",
+  "source_method_ids": [
+    "xugc-m01",
+    "xugc-m02",
+    "xugc-m03",
+    "xugc-m04",
+    "xugc-m05",
+    "xugc-m06",
+    "xugc-m07"
+  ],
+  "source_visual_method_ids": [
+    "xugc-v01",
+    "xugc-v02",
+    "xugc-v03",
+    "xugc-v04"
+  ],
+  "coverage": {
+    "structures": "verified",
+    "expression": "verified",
+    "anti_ai": "verified",
+    "production_templates": "verified",
+    "acceptance": "verified",
+    "visual_methods": "verified_candidate",
+    "privacy_and_order_boundaries": "verified"
+  },
+  "structure_library_candidates": [
+    {
+      "method_id": "xugc-m01",
+      "path": "methods/xugc-m01/METHOD.md"
+    },
+    {
+      "method_id": "xugc-m02",
+      "path": "methods/xugc-m02/METHOD.md"
+    },
+    {
+      "method_id": "xugc-m03",
+      "path": "methods/xugc-m03/METHOD.md"
+    },
+    {
+      "method_id": "xugc-m04",
+      "path": "methods/xugc-m04/METHOD.md"
+    },
+    {
+      "method_id": "xugc-m05",
+      "path": "methods/xugc-m05/METHOD.md"
+    },
+    {
+      "method_id": "xugc-m06",
+      "path": "methods/xugc-m06/METHOD.md"
+    }
+  ],
+  "expression_fingerprint_candidates": [
+    {
+      "method_id": "xugc-m01",
+      "rule": "具体事实先行，平台价值后置"
+    },
+    {
+      "method_id": "xugc-m07",
+      "rule": "第三方误解或自嘲只作为一处生活毛边"
+    }
+  ],
+  "anti_ai_rule_candidates": [
+    "不以平台口号开场",
+    "短奇遇不强行升华",
+    "不自动补感官细节和对话",
+    "减少固定治愈词与不是A而是B句式"
+  ],
+  "production_template_mappings": [
+    {
+      "template": "full_story",
+      "methods": [
+        "xugc-m01",
+        "xugc-m02",
+        "xugc-m03",
+        "xugc-m04",
+        "xugc-m05"
+      ]
+    },
+    {
+      "template": "short_transaction",
+      "methods": [
+        "xugc-m06"
+      ]
+    },
+    {
+      "template": "optional_life_texture",
+      "methods": [
+        "xugc-m07"
+      ]
+    },
+    {
+      "template": "platform_evidence_chain",
+      "visual_methods": [
+        "xugc-v01"
+      ]
+    },
+    {
+      "template": "object_truth_sequence",
+      "visual_methods": [
+        "xugc-v02",
+        "xugc-v03"
+      ]
+    },
+    {
+      "template": "hook_card_then_proof",
+      "visual_methods": [
+        "xugc-v04"
+      ]
+    }
+  ],
+  "acceptance_checks": [
+    "事实可回查且未核验项已标注",
+    "只选一个主方法",
+    "平台价值后置且最多一层",
+    "标题正文话题齐全",
+    "validate_output.py返回ok=true",
+    "视觉截图有真实来源且敏感信息已处理",
+    "推荐图序不冒充真实发布轮播顺序"
+  ],
+  "test_evidence": {
+    "method_pressure": "35/35 passed",
+    "forward_generation": "5/5 passed",
+    "negative_boundaries": "5/5 correctly rejected",
+    "skill_structure": "passed",
+    "report": "skill_tests/FORWARD_TEST_REPORT.md",
+    "visual_forward_generation": "4/4 passed",
+    "visual_negative_boundaries": "5/5 correctly rejected",
+    "visual_report": "skill_tests/VISUAL_FORWARD_TEST_REPORT.md"
+  },
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true
+}

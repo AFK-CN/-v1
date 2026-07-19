@@ -1,0 +1,23 @@
+{
+  "schema_version": "account_skill_candidate_v1",
+  "status": "ready_for_review",
+  "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "account_name": "小森林的小世界",
+  "account_skill_id": "xiaosenlin_xiaoshijie",
+  "account_skill_version": "1.4",
+  "pipeline_version": "2.9",
+  "source_method_ids": [
+    "xsl-cluster-list_decision",
+    "xsl-cluster-problem_result",
+    "xsl-cluster-step_sequence",
+    "xsl-cluster-time_feedback"
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "migration": {
+    "type": "backfill_from_approved_formal_account_skill",
+    "source_skill": "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md",
+    "migrated_at": "2026-07-19T16:09:41"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "id": "xugc-v02",
+  "schema_version": "formal_visual_method_v1",
+  "version": 1,
+  "status": "formal_verified",
+  "callable": true,
+  "formal_write": true,
+  "account_skill_id": "xianyu_story_ugc_task",
+  "account_scope": "task:闲鱼故事UGC任务",
+  "title": "低制作感物件真相",
+  "mechanism": "普通手机实拍、自然环境、手持视角和真实磨损让物件状态可见，真实优先于精修一致性。",
+  "trigger": "故事依赖物件状态、使用痕迹、服务现场或真实结果。",
+  "fixed_elements": [
+    "先拍全貌/使用环境",
+    "再拍关键细节或瑕疵",
+    "不通过修图掩盖交易相关状态"
+  ],
+  "do_not_trigger": "低制作感不等于模糊、无关或故意做旧。",
+  "source_refs": [
+    "feishu_xianyu_20260713_s03",
+    "feishu_xianyu_20260714_s03",
+    "feishu_xianyu_20260715_s06",
+    "feishu_xianyu_20260716_s07",
+    "feishu_xianyu_20260716_s16",
+    "feishu_xianyu_20260717_s02",
+    "feishu_xianyu_20260717_s13"
+  ],
+  "formal_ingested_at": "2026-07-17",
+  "test_evidence": "../../evidence/VISUAL_FORWARD_TEST_SUMMARY.json"
+}

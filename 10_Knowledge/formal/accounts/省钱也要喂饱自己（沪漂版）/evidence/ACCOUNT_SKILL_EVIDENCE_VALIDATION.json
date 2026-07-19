@@ -1,0 +1,34 @@
+{
+  "schema_version": "formal_account_evidence_validation_v1",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "profile_id": "xhs_5c09367300000000060099e8",
+  "source_workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "validated_at": "2026-07-16T20:11:21+08:00",
+  "status": "passed",
+  "coverage": {
+    "source_total": 116,
+    "image_total": 1027,
+    "formal_evidence_cards": 116,
+    "natural": 68,
+    "product_ads": 47,
+    "platform_projects": 1,
+    "verified_methods": 7,
+    "pressure_cases_passed": 35,
+    "pressure_cases_total": 35
+  },
+  "gates": {
+    "all_seven_stages_completed": true,
+    "all_116_cards_valid": true,
+    "real_acceptance_passed": true,
+    "v1_excludes_product_ads_and_platform_projects": true,
+    "triple_verification_passed": true,
+    "pressure_test_pass_rate": 1.0,
+    "user_formal_approval": true
+  },
+  "source_artifacts": {
+    "pipeline_state": "10_Knowledge/candidates/account_learning_workflows/shengqian-weibao-hupiao-v2-full/PIPELINE_STATE.json",
+    "real_acceptance": "10_Knowledge/candidates/account_learning_workflows/shengqian-weibao-hupiao-v2-full/REAL_ACCEPTANCE_SUMMARY.json",
+    "verified_methods": "10_Knowledge/candidates/account_learning_workflows/shengqian-weibao-hupiao-v2-full/verified.jsonl",
+    "promotion_manifest": "10_Knowledge/candidates/account_learning_workflows/shengqian-weibao-hupiao-v2-full/promotion_manifest.json"
+  }
+}

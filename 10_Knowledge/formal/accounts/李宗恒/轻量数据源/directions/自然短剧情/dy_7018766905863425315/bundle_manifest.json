@@ -1,0 +1,115 @@
+{
+  "schema_version": 1,
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "direction": "自然短剧情",
+  "source_id": "7018766905863425315",
+  "title": "李宗恒统一账号发布资产学习卡：《一定要关心女生》#李宗恒",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/自然短剧情/cards/7018766905863425315.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7018766905863425315",
+  "copied_file_count": 20,
+  "copied_bytes": 3360055,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 663,
+      "sha256": "576a3430d2cba5001ae8205c69d5d13f6755fa73c9533cc6ce780918d4c4ad8e"
+    },
+    {
+      "path": "source.json",
+      "bytes": 901,
+      "sha256": "a1e13a7774f9b74a8285336a738cd77c7b530abaf7c564851fde21b00c4147b8"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2272,
+      "sha256": "fec7f5a25fd13e719f9c213f748217cca99431322e687f2c69e9ba242be9e53c"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 509106,
+      "sha256": "48c1b6bb4977d7df06d3c85d526d97f2d0c46c67afafc8c67a69de65b7fcba87"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 41928,
+      "sha256": "d7525e313182e1c580fe84b62b6242d6a15f14c741b5877e154ad917724aa0cb"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 44775,
+      "sha256": "15bfef659af21d143b68f51883530182700bb4c8a82cf126336b1e8085f83dba"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 47171,
+      "sha256": "f2597722e712a01a8cacd55e4b36fe0086cc8b03eec740f168080feb8887ef54"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 100312,
+      "sha256": "0f8989df5d39e06a2a5666f810d345937f16a6a1708d48cf62b4ae21b02713c8"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 90393,
+      "sha256": "b715da525cee6c426ba70f93e24322c678e698e7057c29568ea3f36d55359151"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 89674,
+      "sha256": "fa52f182bd2e16d02ed3671c0c90a3dd03964945d554deffa62c203f8461005d"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 88687,
+      "sha256": "dd8a8e86bacaf18a7045c59123cd33162b7b630998fb93afc68b53653149c6cc"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 94465,
+      "sha256": "6fbb9b4c8a8ff94d84a9466de642da1320c05c3fb4dceeb60114785a177c1811"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 94822,
+      "sha256": "c6ea42d77690e6508c53aba7f43950cc6834631a07065f563f0de313da6058c1"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 1029,
+      "sha256": "ad5aadac741c9eb644a8b6b7f711d1b89f2ac2ff33fcd31e802888407a3ce00f"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 2151708,
+      "sha256": "302b26c7ac34dcfd13475f9a927ddc590eafc87748b591218a73f13d02a35551"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 719,
+      "sha256": "92d196bda19912bb94301e5925b08e07b3dc62f0af2b1932f2ae5ba31dfe0290"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 307,
+      "sha256": "27812d4658a092cfcc18df6d6cc92d2a98b8e607ede4323a91a14c5db1fac225"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 93,
+      "sha256": "1fc78b393793899efb7af7d2dfdeb5f38b06649cff6c2bf939fd494451475c10"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 308,
+      "sha256": "24f71f89ebaea1580a6dd126ffb0a94296e4419eeafb54a1237cf64663836de4"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 722,
+      "sha256": "a1a8c65989c6c5008547f54bd9bd5d0e90ec618ffe4a438a434e954028c3a4b7"
+    }
+  ]
+}

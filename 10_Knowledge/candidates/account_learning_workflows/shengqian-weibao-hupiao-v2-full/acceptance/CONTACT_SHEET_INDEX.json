@@ -1,0 +1,463 @@
+{
+  "normal_visual": [
+    {
+      "source_id": "68fb51bd000000000700ace0",
+      "direction": "一周合集",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "cover/day_1"
+    },
+    {
+      "source_id": "68fb51bd000000000700ace0",
+      "direction": "一周合集",
+      "index": 3,
+      "file": "003_image.jpg",
+      "role": "day_4"
+    },
+    {
+      "source_id": "68fb51bd000000000700ace0",
+      "direction": "一周合集",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "day_7"
+    },
+    {
+      "source_id": "69afe9aa000000002203b952",
+      "direction": "一周合集",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "周一"
+    },
+    {
+      "source_id": "69afe9aa000000002203b952",
+      "direction": "一周合集",
+      "index": 3,
+      "file": "003_image.jpg",
+      "role": "周四"
+    },
+    {
+      "source_id": "69afe9aa000000002203b952",
+      "direction": "一周合集",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "周日"
+    },
+    {
+      "source_id": "6a423d42000000000f017143",
+      "direction": "一周合集",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "周一餐与封面"
+    },
+    {
+      "source_id": "6a423d42000000000f017143",
+      "direction": "一周合集",
+      "index": 3,
+      "file": "003_image.jpg",
+      "role": "周四餐"
+    },
+    {
+      "source_id": "6a423d42000000000f017143",
+      "direction": "一周合集",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "周日餐"
+    },
+    {
+      "source_id": "6954faae000000001e002da4",
+      "direction": "备餐知识卡",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "封面"
+    },
+    {
+      "source_id": "6954faae000000001e002da4",
+      "direction": "备餐知识卡",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "菜单表1"
+    },
+    {
+      "source_id": "6954faae000000001e002da4",
+      "direction": "备餐知识卡",
+      "index": 11,
+      "file": "011_image.jpg",
+      "role": "结尾FAQ"
+    },
+    {
+      "source_id": "68c29b30000000001d00d062",
+      "direction": "成本透明一人食",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "成品封面"
+    },
+    {
+      "source_id": "68c29b30000000001d00d062",
+      "direction": "成本透明一人食",
+      "index": 2,
+      "file": "002_image.jpg",
+      "role": "备料展示"
+    },
+    {
+      "source_id": "68c29b30000000001d00d062",
+      "direction": "成本透明一人食",
+      "index": 4,
+      "file": "004_image.jpg",
+      "role": "成本证据"
+    },
+    {
+      "source_id": "68cfd191000000001203d37f",
+      "direction": "成本透明一人食",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "68cfd191000000001203d37f",
+      "direction": "成本透明一人食",
+      "index": 4,
+      "file": "004_image.jpg",
+      "role": "叶菜教程"
+    },
+    {
+      "source_id": "68cfd191000000001203d37f",
+      "direction": "成本透明一人食",
+      "index": 7,
+      "file": "007_image.jpg",
+      "role": "成本佐证"
+    },
+    {
+      "source_id": "6909cc3b00000000070217c4",
+      "direction": "成本透明一人食",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "6909cc3b00000000070217c4",
+      "direction": "成本透明一人食",
+      "index": 3,
+      "file": "003_image.jpg",
+      "role": "开背虾教程"
+    },
+    {
+      "source_id": "6909cc3b00000000070217c4",
+      "direction": "成本透明一人食",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "白米饭收尾"
+    },
+    {
+      "source_id": "68cb6d6700000000120219c8",
+      "direction": "自然一人食",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "68cb6d6700000000120219c8",
+      "direction": "自然一人食",
+      "index": 4,
+      "file": "004_image.jpg",
+      "role": "虾成品"
+    },
+    {
+      "source_id": "68cb6d6700000000120219c8",
+      "direction": "自然一人食",
+      "index": 7,
+      "file": "007_image.jpg",
+      "role": "生活记录"
+    },
+    {
+      "source_id": "69466e75000000001e0006f2",
+      "direction": "自然一人食",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "69466e75000000001e0006f2",
+      "direction": "自然一人食",
+      "index": 3,
+      "file": "003_image.jpg",
+      "role": "溏心蛋成品"
+    },
+    {
+      "source_id": "69466e75000000001e0006f2",
+      "direction": "自然一人食",
+      "index": 5,
+      "file": "005_image.jpg",
+      "role": "烤红薯成品"
+    },
+    {
+      "source_id": "6a47295e00000000110052af",
+      "direction": "自然一人食",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "四碗餐封面"
+    },
+    {
+      "source_id": "6a47295e00000000110052af",
+      "direction": "自然一人食",
+      "index": 3,
+      "file": "003_image.jpg",
+      "role": "白灼鱼片步骤"
+    },
+    {
+      "source_id": "6a47295e00000000110052af",
+      "direction": "自然一人食",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "藜麦饭收尾"
+    },
+    {
+      "source_id": "68d7b7e00000000012021a05",
+      "direction": "设备效率餐",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "68d7b7e00000000012021a05",
+      "direction": "设备效率餐",
+      "index": 5,
+      "file": "005_image.jpg",
+      "role": "土豆教程"
+    },
+    {
+      "source_id": "68d7b7e00000000012021a05",
+      "direction": "设备效率餐",
+      "index": 10,
+      "file": "010_image.jpg",
+      "role": "鸡蛋成品"
+    },
+    {
+      "source_id": "68df7adb000000000700eea4",
+      "direction": "设备效率餐",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "68df7adb000000000700eea4",
+      "direction": "设备效率餐",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "蒸菜入锅状态"
+    },
+    {
+      "source_id": "68df7adb000000000700eea4",
+      "direction": "设备效率餐",
+      "index": 11,
+      "file": "011_image.jpg",
+      "role": "主食成品"
+    },
+    {
+      "source_id": "68f21ba8000000000700f4dc",
+      "direction": "设备效率餐",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "68f21ba8000000000700f4dc",
+      "direction": "设备效率餐",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "玉米成品"
+    },
+    {
+      "source_id": "68f21ba8000000000700f4dc",
+      "direction": "设备效率餐",
+      "index": 11,
+      "file": "011_image.jpg",
+      "role": "双层装配展示"
+    }
+  ],
+  "product_ad": [
+    {
+      "source_id": "691480cc000000000703bbe6",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "691480cc000000000703bbe6",
+      "direction": "商业植入",
+      "index": 2,
+      "file": "002_image.jpg",
+      "role": "汤品备料与产品露出"
+    },
+    {
+      "source_id": "691480cc000000000703bbe6",
+      "direction": "商业植入",
+      "index": 9,
+      "file": "009_image.jpg",
+      "role": "紫米饭成品"
+    },
+    {
+      "source_id": "692eba18000000001e001510",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "692eba18000000001e001510",
+      "direction": "商业植入",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "礼盒场景"
+    },
+    {
+      "source_id": "692eba18000000001e001510",
+      "direction": "商业植入",
+      "index": 10,
+      "file": "010_image.jpg",
+      "role": "杂粮饭成品"
+    },
+    {
+      "source_id": "69490c57000000001e000333",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "标注封面"
+    },
+    {
+      "source_id": "69490c57000000001e000333",
+      "direction": "商业植入",
+      "index": 7,
+      "file": "007_image.jpg",
+      "role": "背标信息图"
+    },
+    {
+      "source_id": "696504f3000000000c034f1c",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "午餐封面"
+    },
+    {
+      "source_id": "696504f3000000000c034f1c",
+      "direction": "商业植入",
+      "index": 1,
+      "file": "001_image.jpg",
+      "role": "午餐食用场景"
+    },
+    {
+      "source_id": "696504f3000000000c034f1c",
+      "direction": "商业植入",
+      "index": 10,
+      "file": "010_image.jpg",
+      "role": "烤红薯成品"
+    },
+    {
+      "source_id": "69a6b2bb000000002603017f",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "午餐封面"
+    },
+    {
+      "source_id": "69a6b2bb000000002603017f",
+      "direction": "商业植入",
+      "index": 8,
+      "file": "008_image.jpg",
+      "role": "产品结构展示"
+    },
+    {
+      "source_id": "69a6b2bb000000002603017f",
+      "direction": "商业植入",
+      "index": 11,
+      "file": "011_image.jpg",
+      "role": "产品餐桌结尾"
+    },
+    {
+      "source_id": "69bfa4e0000000002200f418",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "午餐封面"
+    },
+    {
+      "source_id": "69bfa4e0000000002200f418",
+      "direction": "商业植入",
+      "index": 1,
+      "file": "001_image.jpg",
+      "role": "午餐食用场景"
+    },
+    {
+      "source_id": "69bfa4e0000000002200f418",
+      "direction": "商业植入",
+      "index": 11,
+      "file": "011_image.jpg",
+      "role": "产品整餐结尾"
+    },
+    {
+      "source_id": "69e0912b000000001d01a932",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "封面"
+    },
+    {
+      "source_id": "69e0912b000000001d01a932",
+      "direction": "商业植入",
+      "index": 2,
+      "file": "002_image.jpg",
+      "role": "食材产品"
+    },
+    {
+      "source_id": "69e0912b000000001d01a932",
+      "direction": "商业植入",
+      "index": 10,
+      "file": "010_image.jpg",
+      "role": "产品侧面结尾"
+    },
+    {
+      "source_id": "6a38d9bd000000000f006b7e",
+      "direction": "商业植入",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "四食材封面"
+    },
+    {
+      "source_id": "6a38d9bd000000000f006b7e",
+      "direction": "商业植入",
+      "index": 11,
+      "file": "011_image.jpg",
+      "role": "产品与成品"
+    },
+    {
+      "source_id": "6a38d9bd000000000f006b7e",
+      "direction": "商业植入",
+      "index": 12,
+      "file": "012_image.jpg",
+      "role": "手持产品收尾"
+    }
+  ],
+  "platform_project": [
+    {
+      "source_id": "6a30fc7c000000002201a33a",
+      "direction": "平台项目",
+      "index": 0,
+      "file": "000_cover.jpg",
+      "role": "四碗餐封面"
+    },
+    {
+      "source_id": "6a30fc7c000000002201a33a",
+      "direction": "平台项目",
+      "index": 6,
+      "file": "006_image.jpg",
+      "role": "泡泡馄饨准备"
+    },
+    {
+      "source_id": "6a30fc7c000000002201a33a",
+      "direction": "平台项目",
+      "index": 12,
+      "file": "012_image.jpg",
+      "role": "时令水果收尾"
+    }
+  ]
+}

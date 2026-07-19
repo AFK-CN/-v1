@@ -1,0 +1,36 @@
+{
+  "schema_version": "publish_copy_formal_validation_v1",
+  "status": "approved_callable",
+  "account_name": "姜胡说",
+  "account_skill_version": "1.3",
+  "source_workflow_id": "jianghushuo-v2-full",
+  "validated_at": "2026-07-18",
+  "user_confirmation": "用户明确回复‘可以生效’。",
+  "source_report": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/PUBLISH_COPY_SPECIAL_STUDY.json",
+  "source_report_sha256": "1b486a0bcb2f40672f920b342893e2e96f09e14276462332b1e8c440b77a35dd",
+  "observation_file": "10_Knowledge/candidates/account_learning_workflows/jianghushuo-v2-full/candidates/publish_copy_observations.jsonl",
+  "observation_sha256": "c1ce20aa44d29a9844ccb4722aa1ef83248b726f22bd1137ad5a8a4c98e43f65",
+  "counts": {
+    "eligible": 548,
+    "completed": 548,
+    "deferred": 0,
+    "title_observed": 548,
+    "body_observed": 548,
+    "topics_observed": 548,
+    "coordination_observed": 548
+  },
+  "triple_verification": {
+    "cross_context": "passed: observations span the formal topic and method families while preserving one title-body-topic coordination rule",
+    "predictive_usefulness": "passed: the promoted rules decide title promise, body evidence, beneficiary closure and topic scope before production",
+    "account_exclusivity": "passed: only 14 of 548 title-body pairs are identical and body expansion is bound to this account's case, action and model engines"
+  },
+  "rejected_generalizations": [
+    "direction words alone determine title or method",
+    "every title must use a question, number or counterintuitive claim",
+    "topics can substitute for body evidence",
+    "a fixed title length is an account method"
+  ],
+  "candidate_preserved": true,
+  "raw_source_modified": false
+}
+

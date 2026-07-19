@@ -1,0 +1,237 @@
+{
+  "schema_version": "publish_copy_special_study_v1",
+  "workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "status": "completed",
+  "observation_schema": "publish_copy_observation_v1",
+  "observation_file": "candidates/publish_copy_observations.jsonl",
+  "observation_sha256": "43d62f21cf30dc953d69b8d7fd142f03fb01a59bc7712a8dbf131c1c193b44c1",
+  "expected_source_count": 116,
+  "completed_source_count": 116,
+  "deferred_source_count": 0,
+  "deferred_source_ids": [],
+  "unified_card_count": 116,
+  "legacy_publish_evidence_count": 0,
+  "dimension_coverage": {
+    "body_information_sequence": {
+      "observed_source_count": 116,
+      "missing_source_count": 0
+    },
+    "closing_mode": {
+      "observed_source_count": 0,
+      "missing_source_count": 116
+    },
+    "lived_experience_signal": {
+      "observed_source_count": 0,
+      "missing_source_count": 116
+    },
+    "opening_entry": {
+      "observed_source_count": 0,
+      "missing_source_count": 116
+    },
+    "operational_or_argument_detail_density": {
+      "observed_source_count": 1,
+      "missing_source_count": 115
+    },
+    "publish_visual_alignment": {
+      "observed_source_count": 0,
+      "missing_source_count": 116
+    },
+    "story_explanation_balance": {
+      "observed_source_count": 3,
+      "missing_source_count": 113
+    },
+    "title_promise_and_information_gap": {
+      "observed_source_count": 116,
+      "missing_source_count": 0
+    },
+    "title_specificity_and_voice": {
+      "observed_source_count": 0,
+      "missing_source_count": 116
+    },
+    "topic_strategy": {
+      "observed_source_count": 116,
+      "missing_source_count": 0
+    }
+  },
+  "facet_coverage": {
+    "title": {
+      "observed_raw": 116
+    },
+    "body": {
+      "observed_raw": 116
+    },
+    "topics": {
+      "observed_raw": 116
+    },
+    "coordination": {
+      "observed_analysis": 116
+    }
+  },
+  "cross_card_pattern_candidates": [
+    {
+      "id": "publish-pattern-19eb656ca5dc",
+      "signals": [
+        "title_promise_and_information_gap",
+        "body_information_sequence",
+        "topic_strategy"
+      ],
+      "source_count": 112,
+      "source_refs": [
+        "68c29b30000000001d00d062",
+        "68cb6d6700000000120219c8",
+        "68cfd191000000001203d37f",
+        "68d65e76000000001201c5df",
+        "68d7b7e00000000012021a05",
+        "68df7adb000000000700eea4",
+        "68e4e6d200000000070158b5",
+        "68e63a700000000007031aa2",
+        "68e8eff2000000000700905f",
+        "68eb10520000000007015608",
+        "68ecdf110000000007003de1",
+        "68f0c17a00000000070379af",
+        "68f21ba8000000000700f4dc",
+        "68f35e810000000007014327",
+        "68f600920000000007023c76",
+        "68f8a6660000000007021921",
+        "68f9fd8d000000000700215d",
+        "68fb51bd000000000700ace0",
+        "68fca0bd00000000070394b0",
+        "68ff4abd00000000070300b8",
+        "69047fd80000000007015a11",
+        "69072db20000000007017028",
+        "690c71490000000007032e94",
+        "690f1793000000000700ba0a",
+        "691457b4000000000700ee4d",
+        "691480cc000000000703bbe6",
+        "69158bff0000000007000fcf",
+        "6917060e000000000703382f",
+        "69184f9800000000070337b8",
+        "691d9214000000001e00b1a9",
+        "691d9ac3000000001e00dcc6",
+        "69218957000000001e0070e0",
+        "69258f6a000000001d03863c",
+        "692acda8000000001e01751c",
+        "692bc6d2000000001e006493",
+        "692eba18000000001e001510",
+        "6931773c000000001d03aeb9",
+        "69355269000000001d038ab5",
+        "6936a697000000001e001b7a",
+        "693bef99000000001e010807",
+        "6943cbdd000000001d03d1fd",
+        "69451deb000000001e00b702",
+        "69466e75000000001e0006f2",
+        "69490c57000000001e000333",
+        "694a0d62000000001e0016f2",
+        "694a193e000000001e0013b6",
+        "6954faae000000001e002da4",
+        "695a3771000000001d038d69",
+        "695f7b4b000000000903b1c0",
+        "6960d122000000000a02c9b2",
+        "69622149000000000b00bbf0",
+        "6964c733000000000b0127c4",
+        "696504f3000000000c034f1c",
+        "696a1178000000000b00a519",
+        "696f53b0000000000a02a112",
+        "6971f1db000000000a03cf96",
+        "69749ec90000000009039855",
+        "6977390f000000000a028033",
+        "6979e22e000000000903aa5b",
+        "697c52c6000000000a03e1e1",
+        "69808866000000000a02b242",
+        "698469a1000000000a032560",
+        "698860c8000000000a02cb03",
+        "698aa629000000000a02d7e6",
+        "699c1e9b000000000a0335e1",
+        "69a162800000000026032cba",
+        "69a6b2bb000000002603017f",
+        "69a962f3000000002603102d",
+        "69ad509f000000002603c586",
+        "69afe9aa000000002203b952",
+        "69aff07a0000000022030af1",
+        "69b28c5800000000260338fe",
+        "69b5399a000000001d019073",
+        "69b8cdba000000002301116f",
+        "69bb662e000000001d01a758",
+        "69bfa4e0000000002200f418",
+        "69c11b16000000002200e70c",
+        "69c3a9c2000000001d01ec6e",
+        "69c652a1000000002200cc7a",
+        "69c891be000000002200ede4",
+        "69cf956d000000001d01fb47",
+        "69d3883f00000000230213b1",
+        "69d4788b000000001b0008f8",
+        "69db7df100000000230277b0",
+        "69dcb4d8000000001d01cf52",
+        "69de195c00000000210070bb",
+        "69def1a4000000002200c164",
+        "69e0912b000000001d01a932",
+        "69e4a967000000001d01d7d8",
+        "69e61653000000001b001a31",
+        "69eb4350000000001202980b",
+        "69ef35b70000000035023817",
+        "69f719750000000035025f43",
+        "69f93a7e0000000035026b89",
+        "69fdc6340000000035021c5e",
+        "6a01d86c0000000036003d97",
+        "6a09a44b00000000360002f8",
+        "6a0d95c3000000003502d951",
+        "6a117736000000003502f891",
+        "6a15733e000000003501d23d",
+        "6a18222e000000003502d04b",
+        "6a1c1dea0000000035026335",
+        "6a1ee0840000000035025a38",
+        "6a2393f5000000003501d216",
+        "6a27dfb1000000003502e32d",
+        "6a30fc7c000000002201a33a",
+        "6a30ff3700000000110074bf",
+        "6a315ea3000000001102f3f0",
+        "6a38d9bd000000000f006b7e",
+        "6a3f9da5000000001003d8fe",
+        "6a423d42000000000f017143",
+        "6a47295e00000000110052af"
+      ],
+      "status": "candidate_only",
+      "callable": false,
+      "triple_verification_required": true
+    },
+    {
+      "id": "publish-pattern-f4c3b3ac73f7",
+      "signals": [
+        "title_promise_and_information_gap",
+        "body_information_sequence",
+        "story_explanation_balance",
+        "topic_strategy"
+      ],
+      "source_count": 3,
+      "source_refs": [
+        "6901f2f500000000070140c5",
+        "6909cc3b00000000070217c4",
+        "6941361b000000001e010e41"
+      ],
+      "status": "candidate_only",
+      "callable": false,
+      "triple_verification_required": true
+    },
+    {
+      "id": "publish-pattern-9cb9ff77a7e9",
+      "signals": [
+        "title_promise_and_information_gap",
+        "body_information_sequence",
+        "operational_or_argument_detail_density",
+        "topic_strategy"
+      ],
+      "source_count": 1,
+      "source_refs": [
+        "6932b804000000001e00514d"
+      ],
+      "status": "candidate_only",
+      "callable": false,
+      "triple_verification_required": true
+    }
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "missing_card_source_ids": []
+}

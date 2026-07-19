@@ -5,7 +5,7 @@
   "knowledge_layer": "candidate_knowledge",
   "callable": false,
   "snapshot_at": "2026-07-14T23:06:58+08:00",
-  "source_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说",
+  "source_account_dir": "10_Knowledge/formal/accounts/姜胡说",
   "snapshot_dir": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14",
   "file_count": 292,
   "directory_count": 40,
@@ -13,1753 +13,1753 @@
   "all_hashes_verified": true,
   "entries": [
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/deep_learning_plan.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/deep_learning_plan.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/deep_learning_plan.json",
       "size_bytes": 5211,
       "sha256": "9dd450bb927303d312a05ac0d0108010867d282141a59a577bfa44f704e2e43a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7207763764735741218_transcript.json",
       "size_bytes": 168,
       "sha256": "bce7cd04a120b8d06e293ec67b86c9ae79fb9e9f4b391237ef5b1b57c2bbf9c0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7207763764735741218_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7207763764735741218_transcript.srt",
       "size_bytes": 48,
       "sha256": "9653c50edde358dece0a94475b52944651aafce4f8bb8cc67c06421eabea04d0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7517285713059138879_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7517285713059138879_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7517285713059138879_transcript.json",
       "size_bytes": 53114,
       "sha256": "56a9772836ed3662c1a49ebfffe1c3a555d42254303b39addb60e6ba1067622e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7517285713059138879_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7517285713059138879_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7517285713059138879_transcript.srt",
       "size_bytes": 26327,
       "sha256": "739f0d3f5d07f8822e681b9177acc93435dbb42f35422acc8c324bc8a69cf489"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7525084574431317286_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7525084574431317286_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7525084574431317286_transcript.json",
       "size_bytes": 26222,
       "sha256": "14ecf22385a57134fe16ece6e509a0f5f2b3ec9a8797038aa404131a775bbc3e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7525084574431317286_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7525084574431317286_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7525084574431317286_transcript.srt",
       "size_bytes": 14564,
       "sha256": "87c34ce7e91014941094826bc494b130ad3b1e3661bf1f55756174ff5975ced1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7537695497272790282_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7537695497272790282_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7537695497272790282_transcript.json",
       "size_bytes": 13953,
       "sha256": "71de4b0df5d9e474a96cc39038835edffcb68e0749aadcc8b3283795e576e9a2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7537695497272790282_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7537695497272790282_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7537695497272790282_transcript.srt",
       "size_bytes": 8622,
       "sha256": "c4000999d5969ee090f8398eb4103cef79f0a7061d940be9aba8e0a4265ba38f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7542519534188645683_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7542519534188645683_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7542519534188645683_transcript.json",
       "size_bytes": 13980,
       "sha256": "ed18575065d2738bf838af1eb9e2565037de420e2f7331db7f3b82144f560bc9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7542519534188645683_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7542519534188645683_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7542519534188645683_transcript.srt",
       "size_bytes": 7380,
       "sha256": "bfec77ba3acd6bbaab1856e756ccf0e1465ffe12fbf5780c5bcd11c1c46a9ef8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7545859136433573170_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7545859136433573170_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7545859136433573170_transcript.json",
       "size_bytes": 13124,
       "sha256": "3a3258f6b620b30f437f155f681c4ccec36d81686e59fd70399e4ae0c3aabef9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7545859136433573170_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7545859136433573170_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7545859136433573170_transcript.srt",
       "size_bytes": 7100,
       "sha256": "cdf9645d3bc935e86033011c0646afbb3a354840d94b7fc4216c2b8b117cfe20"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7556253638943853867_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7556253638943853867_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7556253638943853867_transcript.json",
       "size_bytes": 23971,
       "sha256": "d56ebc8f13c3e47b4449ea84f86c27eb435cb9db23dd25ac3b3a1df9d2945403"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7556253638943853867_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7556253638943853867_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7556253638943853867_transcript.srt",
       "size_bytes": 12093,
       "sha256": "8173e79a92e9d8a46154740f276c6e46ea8c7c5f1f617008df428bf9146aeeeb"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7569977115399998766_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7569977115399998766_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7569977115399998766_transcript.json",
       "size_bytes": 400,
       "sha256": "9828574bd19864b836fa64e499f454c3066c881f2e8fcfd774fc0a7925c64200"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7569977115399998766_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7569977115399998766_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7569977115399998766_transcript.srt",
       "size_bytes": 180,
       "sha256": "463dbcb0a241fd5f1b0714ac31ea05beca3751fd9a5fb4b47c75db7c6bef2a55"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7574452831827053876_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7574452831827053876_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7574452831827053876_transcript.json",
       "size_bytes": 14894,
       "sha256": "8052781563ca96bc0d89427c0a294c25d0d08819ad75caed862ee398818ea947"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7574452831827053876_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7574452831827053876_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7574452831827053876_transcript.srt",
       "size_bytes": 8408,
       "sha256": "d6475174fbf6724738d0e8e820055323b0262ea0e25973370f117033405f8b4f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7639005685547568399_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7639005685547568399_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7639005685547568399_transcript.json",
       "size_bytes": 54474,
       "sha256": "b7098ce9209e691684b8084e6b54f4667814c79996c3bc5c490e72665110fe7a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/transcripts/7639005685547568399_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/transcripts/7639005685547568399_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/transcripts/7639005685547568399_transcript.srt",
       "size_bytes": 26915,
       "sha256": "6a3e238c81359e89624675d651c58dc5c7eaf5697c4f493d63044350bc0f70db"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/方向方法论总结.md",
       "size_bytes": 8210,
       "sha256": "42bcc4b4e26b2a02803715fb4702f5b2a0b3914c11ebc8ef41200a5e9a567e99"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/个人成长/粗扫内容和选题.md",
       "size_bytes": 49045,
       "sha256": "2aa3d5f9822b89625e18a6cd4197777fbb2ba628386005270e22cd0005334d70"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7172181768240483618_transcript.json",
       "size_bytes": 266,
       "sha256": "2c7d5b6096ebfd9142cac720e218a4a32cf32598eb7b575e6c3fc84603efcc37"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7172181768240483618_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7172181768240483618_transcript.srt",
       "size_bytes": 91,
       "sha256": "59fde83adbc160a2535eb677f853d6887d4afe2a617cff80e0a1dac5186f7807"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7187394757394533687_transcript.json",
       "size_bytes": 5661,
       "sha256": "c0b30f775825db25cc0ffb419c69f8c57038ea432d7bffb342fd60bb15cbbcc4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7187394757394533687_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7187394757394533687_transcript.srt",
       "size_bytes": 4962,
       "sha256": "2aa09bf233bbcda4bfa1205015f31cb5f138817baf0dba4983395a3f486ebece"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7196647811516026170_transcript.json",
       "size_bytes": 3334,
       "sha256": "b296e4688304390d25af7af93c473b55c69736de5d57b47525fa5bcfcb8d86dd"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7196647811516026170_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7196647811516026170_transcript.srt",
       "size_bytes": 2418,
       "sha256": "2fd16a07124663e3cf9a0f93608f2689d2207076cdad1f341aaa1d7a7823d8c7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7218526700215340340_transcript.json",
       "size_bytes": 165,
       "sha256": "8bded35384df64961765b5c85ec047ffed12ad2d8806f24a055704a73300de14"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7218526700215340340_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7218526700215340340_transcript.srt",
       "size_bytes": 45,
       "sha256": "8655dcf1b080f20d5edf45a9326108ee7b8c4e46f8e8ef63f7c1aeecd1506ed6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7243416997281729853_transcript.json",
       "size_bytes": 165,
       "sha256": "252e77fdae3a3c3266dc7cd4d6e8a44160031f5f5ef6b428d9b219879354d85a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7243416997281729853_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7243416997281729853_transcript.srt",
       "size_bytes": 45,
       "sha256": "0ee0c9d9391888c41916f107ca0e0c2e26cd39e4838aed9a082bc6462e0c00c4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7358793291510320436_transcript.json",
       "size_bytes": 8620,
       "sha256": "09a068fdc046fd2e12d8232739ee75028afee2f59908fa2eb7bb201811eea57f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7358793291510320436_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7358793291510320436_transcript.srt",
       "size_bytes": 4676,
       "sha256": "15a145586120c4e46eb5dd44070326d21fe6e06656b98be66966fe0a5891ab06"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7401507931113475363_transcript.json",
       "size_bytes": 37290,
       "sha256": "9f960574af31a1385775b78fc19b44143b3310794dd706c681ab09947f692be8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7401507931113475363_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7401507931113475363_transcript.srt",
       "size_bytes": 19083,
       "sha256": "9d79e552ffb9c054e1e0883801faa85848d43294b1a534634056bcba9d3a17d2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7542157131752033546_transcript.json",
       "size_bytes": 20369,
       "sha256": "314d7fb86004ca83dfe765b3902e2939200e154ae637d3912a9f9a567d48c859"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7542157131752033546_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7542157131752033546_transcript.srt",
       "size_bytes": 11005,
       "sha256": "5d704347c719503923e5c6d60d07de1844b152c0111eb97d1a3681ece1deb10e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7603767561850735935_transcript.json",
       "size_bytes": 48039,
       "sha256": "9f6699c6a97f41544abac107d89288ef3c1e3415e5c68c7b35c1fd26479807b8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7603767561850735935_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7603767561850735935_transcript.srt",
       "size_bytes": 23387,
       "sha256": "1d32441cb5f1539e931bf34c55c9c4ea5a4f08823299cbddeffaa7e6b8ea3b85"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7615636638319922438_transcript.json",
       "size_bytes": 39636,
       "sha256": "2f525b9c65fc2f01218fe45e7387132966e53ea02f3b79d2a3d5870856e5b536"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/transcripts/7615636638319922438_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/transcripts/7615636638319922438_transcript.srt",
       "size_bytes": 20264,
       "sha256": "1347cf7ad3ac04b1b5138967987f6b7429d73b971ab51ebdb91c1709da8b7921"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/方向方法论总结.md",
       "size_bytes": 6572,
       "sha256": "a32fb80ddebb1c43d38bb9aa824feee90d493c6e2ee28b63b4bec29a5669f94d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/人生策略/粗扫内容和选题.md",
       "size_bytes": 47253,
       "sha256": "690a37a8558bdf5d50eec927c830fc6a93989176a15f5225202125c3f893c8ed"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7448232482178174258_transcript.json",
       "size_bytes": 59202,
       "sha256": "b15ee17fb2ac6394a47806b7fb0aac26fa035c4bbad5652cc3add0f835b6b104"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7448232482178174258_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7448232482178174258_transcript.srt",
       "size_bytes": 29900,
       "sha256": "c890d28215d07f2488d7b8ea7dab2cd08748cfa474177eb5dd1c461226dba317"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7475723067688308018_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7475723067688308018_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7475723067688308018_transcript.json",
       "size_bytes": 43593,
       "sha256": "60387f5df49769e31c14637af6348e931e77999bd03fbad212ad6a0fc4e023ee"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7475723067688308018_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7475723067688308018_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7475723067688308018_transcript.srt",
       "size_bytes": 21690,
       "sha256": "783e0b02c13cde0912bc2aca7810c6756e7b38fa2736b1f6abf43f3b7feec69c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7514323799211756863_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7514323799211756863_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7514323799211756863_transcript.json",
       "size_bytes": 40815,
       "sha256": "3b361f896ff92359744476ae465b1dd4278e5ba75ecf8ca473eb7cb33cf32a8d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7514323799211756863_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7514323799211756863_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7514323799211756863_transcript.srt",
       "size_bytes": 21236,
       "sha256": "8b5670d8b662811990fe688d3dd245598ae730f938649b642c40b2af82f10a9a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7523959225278647590_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7523959225278647590_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7523959225278647590_transcript.json",
       "size_bytes": 61756,
       "sha256": "d70404d4303a034507fbfa5771ade7f03ab4995d66171d58e1e795a729bb924c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7523959225278647590_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7523959225278647590_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7523959225278647590_transcript.srt",
       "size_bytes": 30484,
       "sha256": "f36c624f6312f79cbb37f5eb24beb148da2f8d582373c4b88fd6f3f9810ef06d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7536196932503506217_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7536196932503506217_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7536196932503506217_transcript.json",
       "size_bytes": 13144,
       "sha256": "28d4141b0e9c92729db6b675743794be267f873f2d0573b088e4293acde7b616"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7536196932503506217_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7536196932503506217_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7536196932503506217_transcript.srt",
       "size_bytes": 6550,
       "sha256": "d07d6c610d960851e49075e3ec72a00a44061426bedea6cbca106af097168b7f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7567763940030057755_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7567763940030057755_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7567763940030057755_transcript.json",
       "size_bytes": 15879,
       "sha256": "4d4409bab605d19e913574018758416313ab1719f28b12c8f597099e4d06231c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7567763940030057755_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7567763940030057755_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7567763940030057755_transcript.srt",
       "size_bytes": 8861,
       "sha256": "1206707e9e86e5ff0dff6e4c9c0c7a8f098d54ecf8c7d1054edaab9a8c788974"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7586645512623901978_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7586645512623901978_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7586645512623901978_transcript.json",
       "size_bytes": 10733,
       "sha256": "6f027910fee6cb70f77c106579d18ce0798acfe553fa5196b47e89afe9483a57"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7586645512623901978_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7586645512623901978_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7586645512623901978_transcript.srt",
       "size_bytes": 5752,
       "sha256": "29fcd2a3c5478b20d767abc1bf3a32d5c2ba925a04c72225b906b711793c553e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7590403619493629190_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7590403619493629190_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7590403619493629190_transcript.json",
       "size_bytes": 58045,
       "sha256": "b3d5d30c3b1d6d723af742ece15fddd3ff11e5df0efe4303e30c9a8121a2839e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7590403619493629190_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7590403619493629190_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7590403619493629190_transcript.srt",
       "size_bytes": 29218,
       "sha256": "06e8796904935da7cc71484a1f601a3601d4bf47aada05d9b6e360d89c4d381b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7618589475425275145_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7618589475425275145_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7618589475425275145_transcript.json",
       "size_bytes": 37134,
       "sha256": "396ec30cc30d674f96b0a33fec473b1caa449a5ac07070cf47a4a58dcdf23244"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7618589475425275145_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7618589475425275145_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7618589475425275145_transcript.srt",
       "size_bytes": 18994,
       "sha256": "36f5ffde3bbc718cc1eae8094ea6c1c8bad04f7ad5c23b12987b6ba181920167"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7620096888573873417_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7620096888573873417_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7620096888573873417_transcript.json",
       "size_bytes": 21832,
       "sha256": "af8975c0b7c4a038517c4d2c86f557ede14692010ed3a78c97e05216798588a2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/transcripts/7620096888573873417_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/transcripts/7620096888573873417_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/transcripts/7620096888573873417_transcript.srt",
       "size_bytes": 11923,
       "sha256": "5793a2f85b71e1ca93b5b8b9158a21f5c7107fd15a5e5725a44eaee4c6b21d90"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/方向方法论总结.md",
       "size_bytes": 5004,
       "sha256": "df8858feed1571f09b9c4a2df05649e826bec2533a31a016b7aefdf8688072a0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/创业/粗扫内容和选题.md",
       "size_bytes": 39961,
       "sha256": "22344ae239b2f384bbbaee27d11b59999d1dfa50de53b5a3a4af93d13490fc3c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7416961845786873100_transcript.json",
       "size_bytes": 26782,
       "sha256": "6c34b2b13b3a54d0e1e01de6b8eb82d44a37168fb70f9342658f517dc9449918"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7416961845786873100_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7416961845786873100_transcript.srt",
       "size_bytes": 13655,
       "sha256": "9297c9eb1b465195d0df3e06384ed3c37234f81f733e62de02b399987718a635"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7432683956031540491_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7432683956031540491_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7432683956031540491_transcript.json",
       "size_bytes": 40468,
       "sha256": "6e1eb5772f8d37bb6ba7cd7ad251023831844dc7b123f00c1821175f90374a4e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7432683956031540491_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7432683956031540491_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7432683956031540491_transcript.srt",
       "size_bytes": 23186,
       "sha256": "0c02c61675c75fed68f8a67f28be1b8669ff9aa2c107163808d7e401b2c028ee"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7461266943811620133_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7461266943811620133_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7461266943811620133_transcript.json",
       "size_bytes": 11404,
       "sha256": "62a1e19cb1ccbebf58fac297f71a5512eb7f700ab4b223f5d5b0c0d73064881e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7461266943811620133_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7461266943811620133_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7461266943811620133_transcript.srt",
       "size_bytes": 6341,
       "sha256": "6d7491086dbd2372d181afdc28a3d8d97783b1c92d880d27acf4aac01863027f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7523594090828041526_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7523594090828041526_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7523594090828041526_transcript.json",
       "size_bytes": 186292,
       "sha256": "745e3717206833dc4c89b2a42ec8ef71c47466c3774f59c32b49b16499ae4cf2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7523594090828041526_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7523594090828041526_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7523594090828041526_transcript.srt",
       "size_bytes": 90815,
       "sha256": "4bf96dcd4fbf35869309d775f839bd6f199b083562a2bd3d2232afb929cef268"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7593729386504047914_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7593729386504047914_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7593729386504047914_transcript.json",
       "size_bytes": 5966,
       "sha256": "ba8e29ddad4166d117815df4f528e271251c3e541b9e1d5684aa78ce303bca76"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7593729386504047914_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7593729386504047914_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7593729386504047914_transcript.srt",
       "size_bytes": 5115,
       "sha256": "0251ab96d3360fdee0a763b4b3fb2dfcc8d150857d37547f76316bd8d75a4b58"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7596705620514835748_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7596705620514835748_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7596705620514835748_transcript.json",
       "size_bytes": 19235,
       "sha256": "a7c01818da81ff2f7dc48d634e98c1debe95fedf215a5af32ca7710559aa37ed"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7596705620514835748_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7596705620514835748_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7596705620514835748_transcript.srt",
       "size_bytes": 11396,
       "sha256": "6485ead5b2fbb113ff04f047403b1153a57f171292166f87b79853689bb8d65f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7598553754534776118_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7598553754534776118_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7598553754534776118_transcript.json",
       "size_bytes": 65765,
       "sha256": "78161872128656a6de0a84df2e3719cd9f76b86baf772792535eb41620d36023"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7598553754534776118_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7598553754534776118_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7598553754534776118_transcript.srt",
       "size_bytes": 32286,
       "sha256": "64c9c266ff2c3f4415778df32efaf57a644937151203535e939c19316adb5a87"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7616745251776122138_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7616745251776122138_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7616745251776122138_transcript.json",
       "size_bytes": 20911,
       "sha256": "97c54518701ecc11e17d8e1fb93560eaa7531c1940c9d6481c51add67da5a50e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7616745251776122138_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7616745251776122138_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7616745251776122138_transcript.srt",
       "size_bytes": 12536,
       "sha256": "ff79768ecb60e87b3687c1ff4ac3b80f0fad1845b28feadca88ac84ec85ee005"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7644578414015401235_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7644578414015401235_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7644578414015401235_transcript.json",
       "size_bytes": 56743,
       "sha256": "66082ac00534c8a132ec9460d7d8d8ca2862dca628ce57ae9f02cd6a70ff734a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7644578414015401235_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7644578414015401235_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7644578414015401235_transcript.srt",
       "size_bytes": 28332,
       "sha256": "3c63c7ca8d6eef6b1455039e4b6e7421daf53f697714727de78a73afc9928f1d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7648295360862899456_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7648295360862899456_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7648295360862899456_transcript.json",
       "size_bytes": 27948,
       "sha256": "004a9782d1a3c1502c24907f52575be4a3865d48b310c1564ea71b01662f1e5f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/transcripts/7648295360862899456_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/transcripts/7648295360862899456_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/transcripts/7648295360862899456_transcript.srt",
       "size_bytes": 15378,
       "sha256": "046aa8f8836bc1f28941da4c318a7ac9d5d35616916d9ba62ad8bf74eb1b6077"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/方向方法论总结.md",
       "size_bytes": 7556,
       "sha256": "fef30dd4962ff57fd2f4d7acc7879ea311358ab76ac48d34ed32cb5623b953b6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/商业机会/粗扫内容和选题.md",
       "size_bytes": 37049,
       "sha256": "f62c9ea9dec22fd1b3e3f08959a7529887bd08435602bb18b4469a77ca709f8a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7408929533908225334_transcript.json",
       "size_bytes": 511,
       "sha256": "2035bd6a8effd9ced2e945da238a64b602a22715cc574b14202c9d3c9ca87b24"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7408929533908225334_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7408929533908225334_transcript.srt",
       "size_bytes": 235,
       "sha256": "0e44402f51d2520cf7f08308ef9f0c377fd2c69994428096c6f2c7a5c6d5fc82"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7520521925358030120_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7520521925358030120_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7520521925358030120_transcript.json",
       "size_bytes": 23013,
       "sha256": "eb0301d63838348235b5504ace92c082e7b263e17e44cf9de1ba9d5baac3108b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7520521925358030120_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7520521925358030120_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7520521925358030120_transcript.srt",
       "size_bytes": 12866,
       "sha256": "f4ec565d9b19221c41a804bb80936336f114b70d320732f733e2c82f33e64320"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7551062641335209257_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7551062641335209257_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7551062641335209257_transcript.json",
       "size_bytes": 26650,
       "sha256": "6d372214157d0cdb20f1c3fa1660effc1939dfb4cd0ff744e16bc181b42ac3e3"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7551062641335209257_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7551062641335209257_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7551062641335209257_transcript.srt",
       "size_bytes": 14819,
       "sha256": "c1e1fa0566bd2dca6ee39f93f41deed2ed21dda420de159a534304f50ce53ae2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7557371251321343295_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7557371251321343295_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7557371251321343295_transcript.json",
       "size_bytes": 14003,
       "sha256": "61a1be6e9c4b7ba6b844a342a2ec0b15d26a11785395b8904560534a604f9131"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7557371251321343295_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7557371251321343295_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7557371251321343295_transcript.srt",
       "size_bytes": 7297,
       "sha256": "727f69989583051d27a7531e1b28d2a5aa55cc110964c283b745cb2e7a5781ea"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7582931244523048244_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7582931244523048244_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7582931244523048244_transcript.json",
       "size_bytes": 14923,
       "sha256": "a9f3858a5f24990bba0915303ed2728d97b3c0d6a470eeda505d1e48e8f9591f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7582931244523048244_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7582931244523048244_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7582931244523048244_transcript.srt",
       "size_bytes": 8707,
       "sha256": "818b8a7845e614a3fe7ee12f556c1b27898b46c3f0ce5e0c277cab0835cf80c9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7593362807756721414_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7593362807756721414_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7593362807756721414_transcript.json",
       "size_bytes": 8442,
       "sha256": "1adc6a7c68fd2330c5a3a4949671e2dbe6afb2466702638514e929788da9f7b7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7593362807756721414_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7593362807756721414_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7593362807756721414_transcript.srt",
       "size_bytes": 5877,
       "sha256": "799a081b6ee902da375e8db6966e061d689d0c59c2a7d6997234330a6a88ce67"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7597450892647992618_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7597450892647992618_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7597450892647992618_transcript.json",
       "size_bytes": 4031,
       "sha256": "b1ed01d4ec9b17f381a8080659d101bcf28744b6b433d78a7a4e07a15838a8bb"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7597450892647992618_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7597450892647992618_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7597450892647992618_transcript.srt",
       "size_bytes": 3448,
       "sha256": "679eac80a8175d0238802a46f2215bf5cdf228c22064145f5af5dc256a9bfbf7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7599316326846385462_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7599316326846385462_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7599316326846385462_transcript.json",
       "size_bytes": 69509,
       "sha256": "d7537350f7ad58c7f03ac9b0423586ce673cd3d528c84ee247e15c1bf8e090db"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7599316326846385462_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7599316326846385462_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7599316326846385462_transcript.srt",
       "size_bytes": 35126,
       "sha256": "b6dbf53b0f3401e8ca800ef153c9781c4d436b527768ba5bf363f60a561c4295"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7614896500782402858_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7614896500782402858_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7614896500782402858_transcript.json",
       "size_bytes": 15733,
       "sha256": "42974b58d79913c38d89a534a6159aa575fdc79b924fe500f823820a00307e24"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7614896500782402858_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7614896500782402858_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7614896500782402858_transcript.srt",
       "size_bytes": 8279,
       "sha256": "e600182d437c9a6d21a14c26a5b6d86411f1eed76ee4282d490e30faab013764"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7619348188293565759_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7619348188293565759_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7619348188293565759_transcript.json",
       "size_bytes": 25800,
       "sha256": "3bb1cc4dd38e2a98f10d467c571990fc30fdb8133352b669188b022acc7664be"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/transcripts/7619348188293565759_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/transcripts/7619348188293565759_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/transcripts/7619348188293565759_transcript.srt",
       "size_bytes": 13706,
       "sha256": "a5801a3e88f57fdeca594402a8f8178638d5d919ffcab590d1b22e9c582c34b6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/方向方法论总结.md",
       "size_bytes": 4407,
       "sha256": "2b6425af9bc1f50074a054f8012b8ea766d90faebd92fd7ffc7e78452976a5b2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/技能沉淀/粗扫内容和选题.md",
       "size_bytes": 35082,
       "sha256": "04a12b007dd3986e45293f097997660ea38cd2536ac8d6479cd78ea60ad91a50"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7538795273326890282_transcript.json",
       "size_bytes": 6442,
       "sha256": "5df2d5de16bff023b3b821b7c62d6be438fadb449390342bd7c54671c181ff41"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7538795273326890282_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7538795273326890282_transcript.srt",
       "size_bytes": 3499,
       "sha256": "2963aaeee371ce60478cd98fb27266972e39b432c05832988bc5972bfd42b662"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7568130374224629002_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7568130374224629002_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7568130374224629002_transcript.json",
       "size_bytes": 11544,
       "sha256": "1f04aac714169d143eaa819bd54a893b03cd20fa428206b427324723ae71765f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7568130374224629002_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7568130374224629002_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7568130374224629002_transcript.srt",
       "size_bytes": 5861,
       "sha256": "fb6c5e002cddb92f62d993fd82b08d3f30ca54b0145b808aa397f30124d2182b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7580014753293012264_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7580014753293012264_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7580014753293012264_transcript.json",
       "size_bytes": 16428,
       "sha256": "bba9e6391317b86125ed39cfccc3f4b325e1c90f6b4d29216d00976aeb1332b5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7580014753293012264_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7580014753293012264_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7580014753293012264_transcript.srt",
       "size_bytes": 8967,
       "sha256": "eafdb20347cd7df7d30b0ff02fa04a78930c3ac8a3503e2c893a6e9d5347a0a0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7601154241889193251_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7601154241889193251_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7601154241889193251_transcript.json",
       "size_bytes": 7653,
       "sha256": "30dd2373442328ae65b3e5043f9d09f9c00d43880b6678a773f24c0bdf89af4e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7601154241889193251_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7601154241889193251_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7601154241889193251_transcript.srt",
       "size_bytes": 5032,
       "sha256": "a40d9efb3cf1077e8950f55f48601cbe7572d5b83495499893c86ed04d73ac40"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7603386512180383012_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7603386512180383012_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7603386512180383012_transcript.json",
       "size_bytes": 15875,
       "sha256": "4c2c71f10b52024986739d0ca3118a03476fdc9d9baf78682d56aef62914611f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7603386512180383012_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7603386512180383012_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7603386512180383012_transcript.srt",
       "size_bytes": 8282,
       "sha256": "7dab74f9d512020af710aff87065496eff0803f12e6d16c3ed34a9ed1b320b9d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7607072666188631305_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7607072666188631305_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7607072666188631305_transcript.json",
       "size_bytes": 12535,
       "sha256": "24e6455e956141d2faa888d6dff74efa1479786dae8ceafa3a097e6594192b9e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7607072666188631305_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7607072666188631305_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7607072666188631305_transcript.srt",
       "size_bytes": 9519,
       "sha256": "5fb5e6bf4d46ec791680e4d5dc740ffd9a8aa13d9a15ab0e19bf0982b7038583"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7617851728397962542_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7617851728397962542_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7617851728397962542_transcript.json",
       "size_bytes": 36132,
       "sha256": "11e1d0145ebd5e2303d78ca839ced5b5a806b71ba06fb7dac97af6e5e819bb17"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7617851728397962542_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7617851728397962542_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7617851728397962542_transcript.srt",
       "size_bytes": 17634,
       "sha256": "0bf33749f1eeec65b5278cd47740d1e20800007f5270d845757d476511edbdef"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7622329208672406834_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7622329208672406834_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7622329208672406834_transcript.json",
       "size_bytes": 97156,
       "sha256": "ba175020cf81f394e0423e7abaa9781edb1d3f73af30a3f078b522944141ec22"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7622329208672406834_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7622329208672406834_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7622329208672406834_transcript.srt",
       "size_bytes": 48418,
       "sha256": "504269d015bd2b7749a3ea4554353aea52448a0d99c37c3f99efe981a430956a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7631599967408360746_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7631599967408360746_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7631599967408360746_transcript.json",
       "size_bytes": 65307,
       "sha256": "fc19838a5f54a235dd481960349f60da84dd4638d093db7cf1f1a99d2df9040f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7631599967408360746_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7631599967408360746_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7631599967408360746_transcript.srt",
       "size_bytes": 32248,
       "sha256": "3d9331f6de8c38dcf47e800fab51012bbbe1187a76018c8e2796948b50815b4c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7642736662568635675_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7642736662568635675_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7642736662568635675_transcript.json",
       "size_bytes": 8136,
       "sha256": "aba7163ccd197bc8dfa355cd9365f75dd8bb1bc0f510e0962cbb1e205747ba04"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/transcripts/7642736662568635675_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/transcripts/7642736662568635675_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/transcripts/7642736662568635675_transcript.srt",
       "size_bytes": 4466,
       "sha256": "b992a7309e353bb42ebd30bbf36ff72af9e4d2115ac1f621924a70b41657125b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/方向方法论总结.md",
       "size_bytes": 6607,
       "sha256": "7f0d59e160c28a845126bcd16311b51af4487f3b00b29c3847fbd3fe7142922e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/短视频/粗扫内容和选题.md",
       "size_bytes": 48403,
       "sha256": "ded1ae7be22e78dd554608e0bccb5375141bfd5360658804d5848ae96e82015b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7046756749243616549_transcript.json",
       "size_bytes": 42886,
       "sha256": "477699e9a52311d03951a63f8e70402eb541c67864a963678d54d47e7067ad1d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7046756749243616549_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7046756749243616549_transcript.srt",
       "size_bytes": 21513,
       "sha256": "fe2bcc51fa1788d7cf761604c73ed64fdb80167b3f3598210085fb77d2ad50b9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7049353047872425223_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7049353047872425223_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7049353047872425223_transcript.json",
       "size_bytes": 138698,
       "sha256": "6f36ad7c150d6d78362ee09a0e3d284bc243d5b1896c4e80c6c763ea16270362"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7049353047872425223_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7049353047872425223_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7049353047872425223_transcript.srt",
       "size_bytes": 68831,
       "sha256": "e158f5d847ebeb7ea27551c097ea0b6c79db96ea6d5cc74d7d1157ed09b60b86"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7058641665652821255_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7058641665652821255_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7058641665652821255_transcript.json",
       "size_bytes": 3172,
       "sha256": "aa454be45183e85244a2b6376edd98188fa18ea77e3d9b8d56f062096f6d0c62"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7058641665652821255_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7058641665652821255_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7058641665652821255_transcript.srt",
       "size_bytes": 2096,
       "sha256": "47648c206b23daeba866bf419d14d3a3308f41d9af40c76c35f30916ea055af8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7070143597873515810_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7070143597873515810_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7070143597873515810_transcript.json",
       "size_bytes": 30719,
       "sha256": "7f9a169d9d509126aeb94b50d321ce95735d69796a92dc4541af8bb3a0efc7e8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7070143597873515810_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7070143597873515810_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7070143597873515810_transcript.srt",
       "size_bytes": 14749,
       "sha256": "4fb4de1dba2f21e7219e11d86cf87a47f70d146c2d1cce5d7ae635c384edd0d7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7270315554093731133_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7270315554093731133_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7270315554093731133_transcript.json",
       "size_bytes": 25969,
       "sha256": "bb3925609b45ec735a9c4f237dc3533cba1d51cfe055fadf2f6d648f2344734a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7270315554093731133_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7270315554093731133_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7270315554093731133_transcript.srt",
       "size_bytes": 12555,
       "sha256": "a6833b463b0825bc98f260727ae27393bf9d39c73845cd2985ab4870d0ec4ad1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7274939371835428131_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7274939371835428131_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7274939371835428131_transcript.json",
       "size_bytes": 22399,
       "sha256": "55719e766c3c430be86bcc033a361aebd1f34e9822ecebc5f5db1e37c0484fce"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7274939371835428131_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7274939371835428131_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7274939371835428131_transcript.srt",
       "size_bytes": 11575,
       "sha256": "e6c8b228c70ee52b1a02b2e74e45b61eda1a0c20ec8942842e2ff82c19f7bff7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7351006613240696090_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7351006613240696090_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7351006613240696090_transcript.json",
       "size_bytes": 7556,
       "sha256": "4c4835861003cc99a07c88fe8fca1574804d272623a65a22ccafa396b0298620"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7351006613240696090_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7351006613240696090_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7351006613240696090_transcript.srt",
       "size_bytes": 3721,
       "sha256": "cd00bae4967fabd7f1aca2810e58ba1fbb522edb219d5ebbbf6e685d805636cf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7578110142638542115_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7578110142638542115_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7578110142638542115_transcript.json",
       "size_bytes": 3788,
       "sha256": "d100de9d896be3c229ccd03fd77cb7642dcf776439999efe7aafc0d1c08f7397"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7578110142638542115_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7578110142638542115_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7578110142638542115_transcript.srt",
       "size_bytes": 2827,
       "sha256": "9728d7265c03dada00d8d530404de6e9f8188c48d2709ac7e2b052df9661388a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7630837327660584238_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7630837327660584238_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7630837327660584238_transcript.json",
       "size_bytes": 21854,
       "sha256": "2ecaae771d127962ffafb95ece30339a30ecbf26ab826040d193b8308bf416ed"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/transcripts/7630837327660584238_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/transcripts/7630837327660584238_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/transcripts/7630837327660584238_transcript.srt",
       "size_bytes": 13426,
       "sha256": "c5c4bffafffb4c39e39d80918f7f09afcbf4802cda66923112f9298e57287166"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/方向方法论总结.md",
       "size_bytes": 5528,
       "sha256": "8e8ff01eb6700571a21a66248ce4f289d78c71112318b8368a11ddce2c3afa8f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/结构化理解/粗扫内容和选题.md",
       "size_bytes": 33885,
       "sha256": "0bf844636abcf9d6f7fb58b351c49c144708d3fee13c2d53b4e1b63ceb5565fc"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7505041506858224932_transcript.json",
       "size_bytes": 19363,
       "sha256": "20d56e48ef8d948645e19e599a428e7f1e196f1a733af8aca3b3a74ad327c2e9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7505041506858224932_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7505041506858224932_transcript.srt",
       "size_bytes": 11707,
       "sha256": "492e19dc0425e29ac9da32a89c6cee74b66857f9fb2a7f7d971b006d96b7bb1a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7541046418572660020_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7541046418572660020_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7541046418572660020_transcript.json",
       "size_bytes": 6330,
       "sha256": "f7922eeddaf39ea0b335400a1f6e1d0697c49df606b1197f4a9e902f224d6276"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7541046418572660020_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7541046418572660020_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7541046418572660020_transcript.srt",
       "size_bytes": 5577,
       "sha256": "825a42ac69eec826caa3b4248336872bd37b6d00ec15ec8a5b1b29accc91e493"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7549574243395112192_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7549574243395112192_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7549574243395112192_transcript.json",
       "size_bytes": 24597,
       "sha256": "3a1abee7e453a4c143b55928755df0bf524d0390b6ada6381ea58193d7084159"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7549574243395112192_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7549574243395112192_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7549574243395112192_transcript.srt",
       "size_bytes": 12960,
       "sha256": "902e8569bc21ab29e3ae5a70cb9ee1810b62660dd5d9b33616df4d80522320d8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7552895793951264039_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7552895793951264039_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7552895793951264039_transcript.json",
       "size_bytes": 5255,
       "sha256": "c85156169fbd5ec576f3b4cf3ed62f9ed72ba6ce197576f575803c2e4869eae9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7552895793951264039_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7552895793951264039_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7552895793951264039_transcript.srt",
       "size_bytes": 3280,
       "sha256": "432c820d8557fbec789111bab7e71c4aa94ec493537759a238046cbfcaf634a7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7561436598668184858_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7561436598668184858_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7561436598668184858_transcript.json",
       "size_bytes": 5164,
       "sha256": "1d8351b638bc793b9710b7c8b8b191834d657a8bad3bebec3e288eb095fb2d46"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7561436598668184858_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7561436598668184858_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7561436598668184858_transcript.srt",
       "size_bytes": 2606,
       "sha256": "2b50f9c656f38389f03450f895ab58e50269ddd992f89ae42f07bbde9d879959"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7568818546345963243_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7568818546345963243_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7568818546345963243_transcript.json",
       "size_bytes": 9526,
       "sha256": "d8e6927df90830445761d42b35a511e5cd97b5252bceb758a73b290f59dc052a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7568818546345963243_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7568818546345963243_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7568818546345963243_transcript.srt",
       "size_bytes": 6178,
       "sha256": "2ddcf7219504996a9ab21bb05483c8d11d39bc0d06d7bdbfe0205000d5a7bcc5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7620452140850384179_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7620452140850384179_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7620452140850384179_transcript.json",
       "size_bytes": 18086,
       "sha256": "bad580ff0d53672b87eb9ce3e0f41485096383a617408ee7aa16e27fe5e06f5c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7620452140850384179_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7620452140850384179_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7620452140850384179_transcript.srt",
       "size_bytes": 9377,
       "sha256": "893866a470f353ed054d79535d6d4956bf786e3e66fc0b726a9938875d2c8154"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7621518948420324658_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7621518948420324658_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7621518948420324658_transcript.json",
       "size_bytes": 40882,
       "sha256": "9a3aaf8ff7787c69896854e8f9d5a3e6d93527863e108fce9e78fbdf24dcef7c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7621518948420324658_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7621518948420324658_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7621518948420324658_transcript.srt",
       "size_bytes": 24614,
       "sha256": "7509ca78b8c682cc8111bbfaabcc76397dbf4b4420a98cf094ad2f6e1828bacc"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7642363455722229042_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7642363455722229042_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7642363455722229042_transcript.json",
       "size_bytes": 14584,
       "sha256": "e9bc441a1751713fb719e9e734d2f7d300ba09130a9fe3cb8b3e7f423264d9a4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7642363455722229042_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7642363455722229042_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7642363455722229042_transcript.srt",
       "size_bytes": 7036,
       "sha256": "df361ed3d2f3b8c190583f3d47bfa5a1b675c5067610d953a03b6f247f29e0d4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7646802062281346356_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7646802062281346356_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7646802062281346356_transcript.json",
       "size_bytes": 47147,
       "sha256": "1aac7d22d0b5a0eb3a5cc90dfe9e2fdf31af8598451c94d315b0c721df4388ed"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/transcripts/7646802062281346356_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/transcripts/7646802062281346356_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/transcripts/7646802062281346356_transcript.srt",
       "size_bytes": 24460,
       "sha256": "a82d8e8671fca029190e734fd81744aeb747c617858fdf64ac142e89ebe34f31"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/方向方法论总结.md",
       "size_bytes": 4818,
       "sha256": "ae4988ef468814bfd8d096007910e6f97ad25f54467fd040bec58e155d6a1485"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/自媒体/粗扫内容和选题.md",
       "size_bytes": 34992,
       "sha256": "b4f76ccd0a96d34486c504c883cf14dbf479aa2273cdff1e60cd878bbe860c2d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/6813708566600404236_transcript.json",
       "size_bytes": 17399,
       "sha256": "94bb8154eff8dcc5d2de375aafb4eb3766b6c69f65c1698034b2d3569b94f08b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/6813708566600404236_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/6813708566600404236_transcript.srt",
       "size_bytes": 9072,
       "sha256": "3346318d734b8726ff64840cb1daa276e6f3dac72cb74eaff7bcb503517422b2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6821719966333668616_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/6821719966333668616_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/6821719966333668616_transcript.json",
       "size_bytes": 2913,
       "sha256": "a467cf5e1fce103ddf89f6d42fa412b18c3c6312be6e742e49d5f99e6632216d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/6821719966333668616_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/6821719966333668616_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/6821719966333668616_transcript.srt",
       "size_bytes": 1461,
       "sha256": "e3f700acef114743b494e664f79459c4e8e72c9a6a724101b4054680f11c9d61"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7048251304447069453_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7048251304447069453_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7048251304447069453_transcript.json",
       "size_bytes": 1462,
       "sha256": "8fe41bc734688705daa4b4c17ffbcd6f3edfa367cb0d4a04a61a6d7e9debfde2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7048251304447069453_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7048251304447069453_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7048251304447069453_transcript.srt",
       "size_bytes": 903,
       "sha256": "cb7a67be714fc454d5ea39d43f748cc85024d710b66c7ff9308c38c05479a6c2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7129521528927948068_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7129521528927948068_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7129521528927948068_transcript.json",
       "size_bytes": 18996,
       "sha256": "fe5fef45fd14849f255ff487234950e495cd5fa82ef328134c55926449608545"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7129521528927948068_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7129521528927948068_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7129521528927948068_transcript.srt",
       "size_bytes": 9751,
       "sha256": "e59a810c3a0700f77631f5bd716272268734d34e8916f9247f8c75862b39845d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7186260197860543803_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7186260197860543803_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7186260197860543803_transcript.json",
       "size_bytes": 9775,
       "sha256": "78fc87e6d1567d3764789fc6f46235d6ceec71449de2e558085b5e90f93f78ea"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7186260197860543803_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7186260197860543803_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7186260197860543803_transcript.srt",
       "size_bytes": 5046,
       "sha256": "cb02b80de08f4d8c3ee0187e646cc209ab8b02108a1c18dc9a5fb60e2790e388"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7356919376555052328_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7356919376555052328_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7356919376555052328_transcript.json",
       "size_bytes": 16553,
       "sha256": "cb31ee09cc621cada58f377ab0a345eadc23cd749530eb49c700526807105a9d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7356919376555052328_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7356919376555052328_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7356919376555052328_transcript.srt",
       "size_bytes": 8547,
       "sha256": "68284d02647902d12060efdb3f93eed8dbd99c0f00be459580025eee5aedff82"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7384068155007651107_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7384068155007651107_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7384068155007651107_transcript.json",
       "size_bytes": 20559,
       "sha256": "7244b41180117df07d083b3c40e2fb02bbd66c26f3118c890927ffdab4e7155f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7384068155007651107_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7384068155007651107_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7384068155007651107_transcript.srt",
       "size_bytes": 10283,
       "sha256": "8d442beb0907011d320012462f20e25392b48b6d024e27fc89361d5695fc533a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7561825588315442468_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7561825588315442468_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7561825588315442468_transcript.json",
       "size_bytes": 26808,
       "sha256": "e8f372c11422be023273d9031ebd4bc28fda355dd6ce1355ca6da674ecbbc060"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7561825588315442468_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7561825588315442468_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7561825588315442468_transcript.srt",
       "size_bytes": 14638,
       "sha256": "b60b256f4561a7fefb2e782ffd0fbc886f85b3075d770667dc662e8af9c77848"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7597233865270910534_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7597233865270910534_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7597233865270910534_transcript.json",
       "size_bytes": 46398,
       "sha256": "d98e178526cdae76a0512a5175b25f21beda422ce31aae09a93f9cbb07e6d2d8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/transcripts/7597233865270910534_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/transcripts/7597233865270910534_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/transcripts/7597233865270910534_transcript.srt",
       "size_bytes": 23243,
       "sha256": "b22e692283bdc8c4757567323bccaec673b2e938db8a3fd220e0d391cde7f92c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/方向方法论总结.md",
       "size_bytes": 6403,
       "sha256": "27cbbe6b8d46a43f288a780db94a458865d1ab75e62fc415e3f2f075558e9892"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/表达文案/粗扫内容和选题.md",
       "size_bytes": 31140,
       "sha256": "1e11a084da48b2bc1401a3d439fe20bc759264b15ce50b3f25f242f1f81ecaa2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7569249171526536474_transcript.json",
       "size_bytes": 15958,
       "sha256": "8701a2ba5da5785f6476fb25a735ee949a95d807cd27ba27d20dcaab97560346"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7569249171526536474_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7569249171526536474_transcript.srt",
       "size_bytes": 8880,
       "sha256": "4efcf555ec8d7e4a4cedc65b1a1258a0b226f65070db9778d0e1a9b17620446b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7571846145677249830_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7571846145677249830_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7571846145677249830_transcript.json",
       "size_bytes": 28690,
       "sha256": "72f9dc311079d35bd80741f10a935389ee0a472c66cf03e12370f5bdcd3ea94d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7571846145677249830_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7571846145677249830_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7571846145677249830_transcript.srt",
       "size_bytes": 14314,
       "sha256": "2488a4d4ed1f068f96caf8b7af7b5df7d313e24bf59e3c95e17b92ef60e60f63"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7579257801478786319_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7579257801478786319_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7579257801478786319_transcript.json",
       "size_bytes": 15146,
       "sha256": "6f8b7f38f2ce10edb0bbc044e559827700641fbfccd09bda42d075469ccdc0cd"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7579257801478786319_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7579257801478786319_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7579257801478786319_transcript.srt",
       "size_bytes": 8124,
       "sha256": "398e6ea46f28ba462ed673fd66362f84d6720c0d729cd1c7475ea910adda4abe"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7592259516792622399_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7592259516792622399_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7592259516792622399_transcript.json",
       "size_bytes": 46668,
       "sha256": "40761f913f88a8960e97af66fd8721171c712f8554e6a25961e5d8329ebc8062"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7592259516792622399_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7592259516792622399_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7592259516792622399_transcript.srt",
       "size_bytes": 25020,
       "sha256": "c6d2ab8242d8f5ff85096f025ef4b05510231800254af3f39d94d7e83424d65d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7594110311276219686_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7594110311276219686_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7594110311276219686_transcript.json",
       "size_bytes": 49615,
       "sha256": "74f7f06faf77965b5d3442171b6dc38949d300323754188ab01e32c55ebf2b47"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7594110311276219686_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7594110311276219686_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7594110311276219686_transcript.srt",
       "size_bytes": 25455,
       "sha256": "96ffbe17471dd04ca2302fe9b5ac2b68762788c1ac009918849df40c9889484e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7615244850891345158_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7615244850891345158_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7615244850891345158_transcript.json",
       "size_bytes": 19048,
       "sha256": "e3e6c661084203d1fd45257cce68705d1fe65d5cf90e3eb802c91b8d324ded51"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7615244850891345158_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7615244850891345158_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7615244850891345158_transcript.srt",
       "size_bytes": 11339,
       "sha256": "af3a0d0c2ae50a307b9d62bc6ad04231c088cd45b81f5206abdba5d0225582d1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634543338351250740_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7634543338351250740_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7634543338351250740_transcript.json",
       "size_bytes": 25992,
       "sha256": "ccab68c0b19411475002455b464db912af1f3263e57ed06b031d8c7864d23956"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634543338351250740_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7634543338351250740_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7634543338351250740_transcript.srt",
       "size_bytes": 12985,
       "sha256": "7eb3cb64118f81b7f305cb1818ff75292f14f536ff43e7d1f7997c88a033ce9c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634940154272156947_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7634940154272156947_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7634940154272156947_transcript.json",
       "size_bytes": 13570,
       "sha256": "e61af88882852e4ceefe74e87a217e648b6af3ba2ec890c00b75d00ffec252ca"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7634940154272156947_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7634940154272156947_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7634940154272156947_transcript.srt",
       "size_bytes": 7309,
       "sha256": "cdf9111eafcfe22dca9226cc74b5f7e6c140d7d50a9446aba9e453367449dca1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7637536206296747315_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7637536206296747315_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7637536206296747315_transcript.json",
       "size_bytes": 45374,
       "sha256": "de6c2588d069cac8403b719a2a5072bf3d352633b833f6a4d9e5d05231def890"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7637536206296747315_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7637536206296747315_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7637536206296747315_transcript.srt",
       "size_bytes": 22422,
       "sha256": "11e2a091610f0c02af2bc97545bc34718fed3d659190d758a09131725b0d46aa"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7641608326068948260_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7641608326068948260_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7641608326068948260_transcript.json",
       "size_bytes": 18479,
       "sha256": "5af4cca5299b8d51debb79d1474266773fae2d7424ebb34426550eb8554d08d1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/transcripts/7641608326068948260_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/transcripts/7641608326068948260_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/transcripts/7641608326068948260_transcript.srt",
       "size_bytes": 9826,
       "sha256": "492010bc35d14432aca905dce2dff9b61c019f401aa2afdce23b8688835a9280"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/方向方法论总结.md",
       "size_bytes": 5639,
       "sha256": "de9758b48d2d43c2941d657cf6ea69a4865cb960d4f78fbd61cb351577b6a234"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/认知升级/粗扫内容和选题.md",
       "size_bytes": 46752,
       "sha256": "72a387bf4195eea1d882eef7a803210da3177d3ed2b753bb270938257bbd4468"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7176998179462728994_transcript.json",
       "size_bytes": 168,
       "sha256": "bce7cd04a120b8d06e293ec67b86c9ae79fb9e9f4b391237ef5b1b57c2bbf9c0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7176998179462728994_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7176998179462728994_transcript.srt",
       "size_bytes": 48,
       "sha256": "9653c50edde358dece0a94475b52944651aafce4f8bb8cc67c06421eabea04d0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7540648379617987891_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7540648379617987891_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7540648379617987891_transcript.json",
       "size_bytes": 31671,
       "sha256": "c527207aeb7a868c298309004003fdd1da33553f9af7943f6654f5572cef693f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7540648379617987891_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7540648379617987891_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7540648379617987891_transcript.srt",
       "size_bytes": 16071,
       "sha256": "c47f9b568f9f8892e327501b6e7cca41894c882d61fb590d67ecefcb40ded382"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7573700909629263156_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7573700909629263156_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7573700909629263156_transcript.json",
       "size_bytes": 23105,
       "sha256": "a9aae665662d2d68dccbc8f1496815deb5428f40bd4b7c8bc77ea4108f12bebf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7573700909629263156_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7573700909629263156_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7573700909629263156_transcript.srt",
       "size_bytes": 12379,
       "sha256": "32c300d2cba403d3d23c8bea6d1a38e3d8ab4b562d8135c3534fa3e5b7024e2c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7575936937542962432_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7575936937542962432_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7575936937542962432_transcript.json",
       "size_bytes": 4291,
       "sha256": "992e1f19914f4bcfc365c55a533c24f2b054a979e0af44da02157bbd078808f4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7575936937542962432_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7575936937542962432_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7575936937542962432_transcript.srt",
       "size_bytes": 2444,
       "sha256": "9b758deaf15e2ae6616651a50cd9b3f0db7743aff6d47c36eb90a32e4d65678b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7578515738357402914_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7578515738357402914_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7578515738357402914_transcript.json",
       "size_bytes": 12362,
       "sha256": "9cbae49f6b6232cf75921877b89864947218ad21bb4587a1f086fcfa9cad1c7a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7578515738357402914_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7578515738357402914_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7578515738357402914_transcript.srt",
       "size_bytes": 7276,
       "sha256": "116bff796559535915acd132718cbc411552dabc28785cb27f1284b57de118cf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7591878323370741046_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7591878323370741046_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7591878323370741046_transcript.json",
       "size_bytes": 26488,
       "sha256": "683eb2c4c138e78c1146d607d4b8ee689830a43e297ff0332a8776d43ca08d12"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7591878323370741046_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7591878323370741046_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7591878323370741046_transcript.srt",
       "size_bytes": 14109,
       "sha256": "de5aeafddff6a1768b7796b7cfef7198a29e291fe8cc0d59e2fbc7b0804c521b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7611180315444268351_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7611180315444268351_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7611180315444268351_transcript.json",
       "size_bytes": 31504,
       "sha256": "62267b6426a5187f8ffb3650abfb6667879e77f23c933c254fba74ca988572fb"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7611180315444268351_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7611180315444268351_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7611180315444268351_transcript.srt",
       "size_bytes": 17305,
       "sha256": "dc5d03e9c721c6c95e0e658b2361d954a82ea388cde4b068e4145e946178a056"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7620840179279858995_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7620840179279858995_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7620840179279858995_transcript.json",
       "size_bytes": 7774,
       "sha256": "9990d93f8dda7a12d5a2830d7e06e2b333f38f8484a579683db43798141a55a9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7620840179279858995_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7620840179279858995_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7620840179279858995_transcript.srt",
       "size_bytes": 4056,
       "sha256": "49868a9f553155cf33b479f474314050aacd35efe6a2968abd673475b87f2943"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7623432595895749926_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7623432595895749926_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7623432595895749926_transcript.json",
       "size_bytes": 27677,
       "sha256": "5fa42a5ce77f28d840ebd547174c9ccc5eced8101704bc26d0195b7a21f644ed"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/transcripts/7623432595895749926_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/transcripts/7623432595895749926_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/transcripts/7623432595895749926_transcript.srt",
       "size_bytes": 14747,
       "sha256": "b4d7178d8403d28c11b6d620ab6ee8dcefc34146838f88ca45b5bb3f27181fab"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/方向方法论总结.md",
       "size_bytes": 7661,
       "sha256": "3358ba2fc4dc4e7dd1f9e53f82d2e5c2c01b6a4cfb5937ea364dddd050e5b748"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/财富策略/粗扫内容和选题.md",
       "size_bytes": 34830,
       "sha256": "679becb9a5095e847cc7e2320640f01125472e9f882baf2955a19d68b475571f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7365862788821962018_transcript.json",
       "size_bytes": 42949,
       "sha256": "3ace6d779b96045aca529710f0a6e10423eb5af9b623a49d0f08dc2f6b7c5223"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7365862788821962018_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7365862788821962018_transcript.srt",
       "size_bytes": 21544,
       "sha256": "9c97f8558d519d45b42e31bad9cf8fd82b341004a4ff32666baeab1493e8b5b3"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7474952939895934259_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7474952939895934259_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7474952939895934259_transcript.json",
       "size_bytes": 46184,
       "sha256": "6a93d5cedcdcdfd49fb7c3918b72db3d33b501acfc16a4fec688093645e4738e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7474952939895934259_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7474952939895934259_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7474952939895934259_transcript.srt",
       "size_bytes": 24735,
       "sha256": "fbeb49ba11c264903f18e092c611f502743ee90ca5da0be1eda949ec01e26dfb"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7482406384856730918_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7482406384856730918_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7482406384856730918_transcript.json",
       "size_bytes": 19110,
       "sha256": "ebace1b93a90b02dd6ed28a2c4748908bf3145474dd7900e6c44804b39a0278b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7482406384856730918_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7482406384856730918_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7482406384856730918_transcript.srt",
       "size_bytes": 9341,
       "sha256": "01122b636e2fa490c5f509b405e8875baed4787dd78563ed1319df6346501f0b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7546226278702058779_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7546226278702058779_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7546226278702058779_transcript.json",
       "size_bytes": 9036,
       "sha256": "b2ba7e6985d36b057e873f5297728c964cc95993697d8fec58402297c0177096"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7546226278702058779_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7546226278702058779_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7546226278702058779_transcript.srt",
       "size_bytes": 6660,
       "sha256": "5a9e1efc729ce0706cb78d72448fe71f5e8d1ca1bc1de588d3819b93ec75cc94"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7576672805584964904_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7576672805584964904_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7576672805584964904_transcript.json",
       "size_bytes": 36297,
       "sha256": "a86f795eafa8e891d909a641541c715fd655d63c86e65b54b00a0e5fe67031c5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7576672805584964904_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7576672805584964904_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7576672805584964904_transcript.srt",
       "size_bytes": 18224,
       "sha256": "35ee5ba63252ceb130efa927eb9324718962e0debf676953f28be23e5032917a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7577381671138364724_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7577381671138364724_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7577381671138364724_transcript.json",
       "size_bytes": 29781,
       "sha256": "39922bfcc5d027be297d61b19bde67abbf41a843db9d226e4dd21705ea58aac9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7577381671138364724_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7577381671138364724_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7577381671138364724_transcript.srt",
       "size_bytes": 16275,
       "sha256": "9ac61d9964cf7514c7eb35502c3c42499056a4a781e2a70e47d246a4a5cc5a29"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7580396616813776162_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7580396616813776162_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7580396616813776162_transcript.json",
       "size_bytes": 22027,
       "sha256": "9e294ba1187907425d9c1092b79006ab8aa0d5a5488f49cc3ff9bd9ecc451af7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7580396616813776162_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7580396616813776162_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7580396616813776162_transcript.srt",
       "size_bytes": 14100,
       "sha256": "95e80a81e21130ffa2caa9db3ff70eab91b83cd441df19b3326674728e93cb91"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7624160450304920847_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7624160450304920847_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7624160450304920847_transcript.json",
       "size_bytes": 26642,
       "sha256": "28f806f546eba176242bedc8d7a103725ceb525cf51f1a614ccbc8256dc1397e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7624160450304920847_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7624160450304920847_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7624160450304920847_transcript.srt",
       "size_bytes": 15119,
       "sha256": "3ffa656f33a9cf29484636c3d7dafa91fb4c8d3bed66896552f817f933ca505f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7625643184860826926_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7625643184860826926_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7625643184860826926_transcript.json",
       "size_bytes": 52549,
       "sha256": "0af4402468a0b9eb8a500e2cdae7f0bb0ed0fd4563c7a66dd31ce9e443660aa9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7625643184860826926_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7625643184860826926_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7625643184860826926_transcript.srt",
       "size_bytes": 27161,
       "sha256": "ce5adfbfc1df7e097e42a0c248e2ede3020a9d80e3c0872708681f186eb8e09b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7637902663966838042_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7637902663966838042_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7637902663966838042_transcript.json",
       "size_bytes": 14522,
       "sha256": "581e9808e690198edc65686828d558a3f512a5cad99cf73a47b57c662d63da09"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/transcripts/7637902663966838042_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/transcripts/7637902663966838042_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/transcripts/7637902663966838042_transcript.srt",
       "size_bytes": 8838,
       "sha256": "c416c6ed2b922784f7a0db0fbfe455a2d27d87317c1af6764bffec437a38236f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/方向方法论总结.md",
       "size_bytes": 9837,
       "sha256": "2a07a7a0dc929bc387b7819aff2201be74c0518a5d134c9b86f36d19a5ef7042"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/赚钱/粗扫内容和选题.md",
       "size_bytes": 71417,
       "sha256": "15cb15df7e097fd7b2cd7f0bef2ec5d9d6867a80f9c7d4ce6c479f854bc9e015"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7155485852842462495_transcript.json",
       "size_bytes": 7801,
       "sha256": "9809e25031d4b89be9f70a462ed2301547c49f00c8e54f95a7024128eaa30947"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7155485852842462495_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7155485852842462495_transcript.srt",
       "size_bytes": 5172,
       "sha256": "94efdbc30eccc0812439e7eecce1ecedbc9941d4884bb0cbc8a5ad47152c57b1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7173673281491307776_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7173673281491307776_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7173673281491307776_transcript.json",
       "size_bytes": 165,
       "sha256": "d82d16aedecd1ebe6b9b1741feb2e8c6b26bc08a9ab2b9c26934ee55db677c74"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7173673281491307776_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7173673281491307776_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7173673281491307776_transcript.srt",
       "size_bytes": 45,
       "sha256": "94b02d70775eae318a4dfacf783c7eafd35d240903b4138ffd58248ff7f3e4fd"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7185541439814651194_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7185541439814651194_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7185541439814651194_transcript.json",
       "size_bytes": 23393,
       "sha256": "48f35dc3e14c04e5447bb3c0f8445207cd6b88558090ba81bdd47cc9eb28548d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7185541439814651194_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7185541439814651194_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7185541439814651194_transcript.srt",
       "size_bytes": 11567,
       "sha256": "86f11816fe290168e1d152044ffa3b672a3bcb6337f57cf01c8f8b6199ed7913"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7233757661416705320_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7233757661416705320_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7233757661416705320_transcript.json",
       "size_bytes": 168,
       "sha256": "957a0d18fb35d5bb5857a803969beb17e4635fdfb3373769f92e7a50ee42b085"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7233757661416705320_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7233757661416705320_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7233757661416705320_transcript.srt",
       "size_bytes": 48,
       "sha256": "61f0acff998a74c67e66632b223af03ddf092ff28b35d2e9f1699877bde66c5e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7486844955646774565_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7486844955646774565_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7486844955646774565_transcript.json",
       "size_bytes": 4028,
       "sha256": "d5786fc62ab2ef1f968929d64359622adac274a6e56004e34a94ea632df2700e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7486844955646774565_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7486844955646774565_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7486844955646774565_transcript.srt",
       "size_bytes": 2018,
       "sha256": "ed15340cbf958d9dd2eb98b52e758493b9eb67e3978ef640f0f5dd7bf117aae0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7548090908445609250_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7548090908445609250_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7548090908445609250_transcript.json",
       "size_bytes": 24957,
       "sha256": "f6f51bb8f051843c0e57beefae5b29b8a311f907056220de08cd4f80dac8e63c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7548090908445609250_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7548090908445609250_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7548090908445609250_transcript.srt",
       "size_bytes": 14346,
       "sha256": "940f82c8e4643ebbdc2ec819a86a74bd4b3d4c7d62c08077190f22a290aba1aa"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7596338568050593060_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7596338568050593060_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7596338568050593060_transcript.json",
       "size_bytes": 16539,
       "sha256": "d75aff0837cd58aef193b1d3cb6de6495cb8a44b62120daa99734ca13e465f75"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7596338568050593060_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7596338568050593060_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7596338568050593060_transcript.srt",
       "size_bytes": 8800,
       "sha256": "a567152fae1a26f4dd3a9e6a1c4f82e24fa3ef3b7d172e0dd37c1cff86185bfa"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7614151116225252651_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7614151116225252651_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7614151116225252651_transcript.json",
       "size_bytes": 14466,
       "sha256": "b26b8fcbe070844d6f9fa2b1fe6aefb354e51ba2e4a6379d6ac6dfa3dac0609e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7614151116225252651_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7614151116225252651_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7614151116225252651_transcript.srt",
       "size_bytes": 8538,
       "sha256": "a2b29099d31850e75bd0029256056128c553f3638f5036047019f8107c420ac2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7636042183547587875_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7636042183547587875_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7636042183547587875_transcript.json",
       "size_bytes": 28257,
       "sha256": "3399355daa7be36bf2a019cfaca841947b33b1a630a79d9717b8e3684bfbf499"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7636042183547587875_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7636042183547587875_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7636042183547587875_transcript.srt",
       "size_bytes": 13956,
       "sha256": "dc3ac08d8ce3a4791f061011182bd8de269348ec78466e070e88b4c5a9534ce3"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7637158369555451187_transcript.json",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7637158369555451187_transcript.json",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7637158369555451187_transcript.json",
       "size_bytes": 15445,
       "sha256": "e3f3c1b84fe9a0004671ae8432380e453bb2d4f0c0c0dea693fccd4b7483c50e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/transcripts/7637158369555451187_transcript.srt",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/transcripts/7637158369555451187_transcript.srt",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/transcripts/7637158369555451187_transcript.srt",
       "size_bytes": 9759,
       "sha256": "aaa80eeea4d3ba408ad0d405832551d24edf80a9b6b5d7bd7f902cf28d57ba82"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/方向方法论总结.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/方向方法论总结.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/方向方法论总结.md",
       "size_bytes": 4212,
       "sha256": "c98d641e952e2b270d1471f2e08e231afbeadf862708fdac04c224cc56d42956"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/粗扫内容和选题.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/粗扫内容和选题.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/directions/阅读输入/粗扫内容和选题.md",
       "size_bytes": 46888,
       "sha256": "6035c620325922ee629b5353f8b53fe03e85d63a3a25569be6c5616f693afb0b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容生产使用说明.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/内容生产使用说明.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/内容生产使用说明.md",
       "size_bytes": 5595,
       "sha256": "e05c2a2c63920ba68c617349ec3ca2a96860c712c19791c34f6d7874ba7f3aac"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/内容输出标准模板.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/内容输出标准模板.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/内容输出标准模板.md",
       "size_bytes": 2216,
       "sha256": "cf1b3adbeb59071d90664dfd23410c6d5b12460c73aeced339e6b95f86c75177"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/减少AI味输出规则.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/减少AI味输出规则.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/减少AI味输出规则.md",
       "size_bytes": 3088,
       "sha256": "719dddfe2682ea9fd69875e11843007a64a5fe65143a57e782d79ae205c4fb74"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/升级重学状态.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/升级重学状态.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/升级重学状态.md",
       "size_bytes": 2100,
       "sha256": "31821cb7f991dc91ddf33ec389ebd281d9fe1677e9130dc0d2d2f361c2bb04de"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/批量内容验收标准.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/批量内容验收标准.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/批量内容验收标准.md",
       "size_bytes": 3956,
       "sha256": "b21847b8ee2224c23db96642a7dceae2a9abaa064a2c509b8265b79f2a3177b2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/粗学与选题池.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/粗学与选题池.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/粗学与选题池.md",
       "size_bytes": 188853,
       "sha256": "d87a9eeb065ea0b85f255f989f04b74e02e899dca5389ff56bebc4f59490bfe5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号整体方法论.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/账号整体方法论.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号整体方法论.md",
       "size_bytes": 4155,
       "sha256": "c5e29b852824b5d5fa24ad524aea766e3b95ee911100f525b4e72b1aa994bdf4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号方法论总览.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/账号方法论总览.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号方法论总览.md",
       "size_bytes": 3244,
       "sha256": "87c39ede27684dd407bbc8e9a66d2188de7703e684cd30df449191f40ee17f0f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号概述.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/账号概述.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号概述.md",
       "size_bytes": 1249,
       "sha256": "be923e81448087ef99c79e74fff0f0f7ccde92e3e4bcae00ad3ff9c01a823d55"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/账号索引.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/账号索引.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/账号索引.md",
       "size_bytes": 4288,
       "sha256": "996896133fa62dd4e15ecd8d91f5e5ed4553bce438b3e43fff036665cffd3a95"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/选题迭代与查重机制.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/选题迭代与查重机制.md",
       "snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14/选题迭代与查重机制.md",
       "size_bytes": 7882,
       "sha256": "403ff5da84494f7a7cb023f5504176d4bcb397ea29a6b670eff6a1fa847ac057"

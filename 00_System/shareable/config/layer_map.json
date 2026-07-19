@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updated_at": "2026-06-27",
+  "version": 2,
+  "updated_at": "2026-07-15",
   "migration_mode": "physical_system_consolidated",
   "target_layers": {
     "00_System": {
@@ -20,15 +20,14 @@
       }
     },
     "20_User": {
-      "description": "用户层：个人偏好、纠正规则和个人工作流。",
+      "description": "用户层：由系统规范并在每台电脑初始化的本地用户数据面。",
       "children": {
-        "syncable": "可同步用户偏好；可跨设备或项目复用。",
-        "private": "用户私有内容；默认不分享、不外部调用。"
+        "config": "账号 Skill 注册、用户偏好和默认行为；是否同步由用户决定。",
+        "data": "选题、生产内容和反馈的本地 SQLite 数据；不进入系统分享包。",
+        "feedback": "截图、表格和人工反馈；只由复盘 Skill 按需读取。",
+        "private": "用户私有内容；默认不分享、不外部调用。",
+        "local": "机器路径、NAS 地址和环境配置；禁止分享。"
       }
-    },
-    "80_Local": {
-      "description": "本机私有配置：本机路径、账号标识、NAS 地址、私有开关、环境配置和密钥引用说明。",
-      "share_policy": "never share"
     },
     "90_Temp": {
       "description": "临时层：短期输入、草稿、一次性中间文件、临时导出和待清理内容。",
@@ -46,13 +45,13 @@
     "tests": "00_System/shareable/tests",
     "docs": "00_System/shareable/docs",
     "13_Evolving_Skills": "00_System/shareable/skills",
-    "02_Viral_Methods": "10_Knowledge/formal/methods",
-    "03_Topic_Ideas": "10_Knowledge/formal/topics",
-    "04_Platform_Knowledge": "10_Knowledge/formal/platforms",
-    "06_Sub_KB": "10_Knowledge/formal/accounts",
-    "08_Content_Factory": "10_Knowledge/formal/content_factory",
-    "09_Performance_Feedback": "10_Knowledge/formal/reviews",
-    "10_Weekly_Review": "10_Knowledge/formal/reviews",
+    "02_Viral_Methods": "99_Archive/legacy_formal_libraries/methods",
+    "03_Topic_Ideas": "99_Archive/legacy_formal_libraries/topics",
+    "04_Platform_Knowledge": "99_Archive/legacy_formal_libraries/platforms",
+    "06_Sub_KB": "99_Archive/legacy_formal_libraries/sub_kbs",
+    "08_Content_Factory": "99_Archive/content_factory",
+    "09_Performance_Feedback": "99_Archive/legacy_formal_libraries/reviews/feedback",
+    "10_Weekly_Review": "99_Archive/legacy_formal_libraries/reviews/weekly",
     "05_Sub_KB_Candidates": "10_Knowledge/candidates/sub_kbs",
     "01_Case_Cleaning/content_rough_scan": "10_Knowledge/candidates/account_assets/content_rough_scan",
     "01_Case_Cleaning/video_learning/deep_cards": "10_Knowledge/candidates/learning_cards/deep_cards",
@@ -64,17 +63,20 @@
     "01_Case_Cleaning/video_learning/state": "00_System/runtime/state/video_learning",
     "01_Case_Cleaning/video_learning/video_artifacts": "00_System/runtime/cache/video_learning/video_artifacts",
     "01_Case_Cleaning/video_learning/image_artifacts": "00_System/runtime/cache/video_learning/image_artifacts",
-    "01_Case_Cleaning/案例评分规则_v1.md": "00_System/shareable/rules/case_cleaning/案例评分规则_v1.md",
-    "07_Trend_Radar": "00_System/shareable/rules/trend_radar",
-    "12_User_Preferences": "20_User/syncable",
-    "00_Inbox": "90_Temp/inbox",
+    "01_Case_Cleaning/案例评分规则_v1.md": "99_Archive/system_rules_legacy/case_cleaning/案例评分规则_v1.md",
+    "07_Trend_Radar": "99_Archive/system_rules_legacy/trend_radar",
+    "12_User_Preferences": "20_User/config/preferences",
+    "80_Local": "20_User/local/legacy_80_local",
+    "00_Inbox": "00_Inbox",
     "99_Archive": "99_Archive",
     "数据": "数据"
   },
   "share_exclusions": [
     "00_System/runtime/",
     "20_User/private/",
-    "80_Local/",
+    "20_User/data/",
+    "20_User/feedback/",
+    "20_User/local/",
     "90_Temp/",
     "99_Archive/",
     "数据/",
@@ -86,8 +88,10 @@
     "数据/",
     "00_Inbox/",
     "99_Archive/",
-    "80_Local/",
     "20_User/private/",
+    "20_User/data/",
+    "20_User/feedback/",
+    "20_User/local/",
     "00_System/runtime/"
   ],
   "candidate_asset_roots": [

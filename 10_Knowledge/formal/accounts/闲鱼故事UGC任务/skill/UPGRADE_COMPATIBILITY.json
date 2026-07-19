@@ -1,0 +1,321 @@
+{
+  "schema_version": "account_skill_upgrade_compatibility_v1",
+  "account_skill_id": "xianyu_story_ugc_task",
+  "base_version": "1.2",
+  "target_version": "1.3",
+  "upgrade_scope": "system_account_batch_member",
+  "previous_capability_ids": [
+    "topic_memory_deduplication",
+    "topic_memory_recording",
+    "production_memory_recording",
+    "acceptance_gates",
+    "evidence_boundaries",
+    "reference_methods",
+    "production_mechanism",
+    "publishing_copy_specialization",
+    "style_fingerprint",
+    "visual_rules",
+    "formal_method_xugc_m01",
+    "formal_method_xugc_m02",
+    "formal_method_xugc_m03",
+    "formal_method_xugc_m04",
+    "formal_method_xugc_m05",
+    "formal_method_xugc_m06",
+    "formal_method_xugc_m07",
+    "formal_method_xugc_v01",
+    "formal_method_xugc_v02",
+    "formal_method_xugc_v03",
+    "formal_method_xugc_v04",
+    "validator_validate_batch",
+    "validator_validate_output",
+    "account_view_sync"
+  ],
+  "new_capability_ids": [
+    "capability_preserving_upgrade_guard"
+  ],
+  "capabilities": [
+    {
+      "id": "topic_memory_deduplication",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "topic_memory_recording",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "production_memory_recording",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "acceptance_gates",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/acceptance.md"
+      ]
+    },
+    {
+      "id": "evidence_boundaries",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/boundaries.md"
+      ]
+    },
+    {
+      "id": "reference_methods",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/methods.md"
+      ]
+    },
+    {
+      "id": "production_mechanism",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/production.md"
+      ]
+    },
+    {
+      "id": "publishing_copy_specialization",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/publishing-copy.md"
+      ]
+    },
+    {
+      "id": "style_fingerprint",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/style.md"
+      ]
+    },
+    {
+      "id": "visual_rules",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/visual.md"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m01",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m02",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m03",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m04",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m05",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m06",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_m07",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_v01",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_v02",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_v03",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xugc_v04",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "validator_validate_batch",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/scripts/validate_batch.py"
+      ]
+    },
+    {
+      "id": "validator_validate_output",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/scripts/validate_output.py"
+      ]
+    },
+    {
+      "id": "account_view_sync",
+      "introduced_in": "1.2",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/账号整体方法论.md",
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/内容生产使用说明.md",
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/减少AI味输出规则.md",
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/内容输出标准模板.md"
+      ]
+    },
+    {
+      "id": "capability_preserving_upgrade_guard",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/upgrade-compatibility.md"
+      ]
+    }
+  ],
+  "changed_capabilities": [],
+  "source_snapshot": [
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/METHOD_INDEX.json",
+      "sha256": "6fa1b2e038c900ed8bed5212b4175c1ddc0acefe1ab41dcdb37e8c3a4ccd7744"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md",
+      "sha256": "c3d7b7940f9640a0b0c5294777fa4a403fe8ed72790aa987a7f0c882c45322df"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/acceptance.md",
+      "sha256": "874d2f5c000d94810c586bfaa6a2a5e3d3501b2e009f30d886d8ebdeac39bc05"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/boundaries.md",
+      "sha256": "6478925ae6e32d244e13e858645002e63eecaf3dd933921956315b6b653c2ff2"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/methods.md",
+      "sha256": "729c3b21019b1f941966e2e4b5d0e39e03925da94e0aeefed396e9a5328124ac"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/production.md",
+      "sha256": "660a03d387a39de2a23b51da3193e594096eecbc7f786995723c6df4ae8b4ec7"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/publishing-copy.md",
+      "sha256": "bc06a9f8517f20c5975e5395e276f58217d4786f10b0a6caeb33796f2a534eee"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/style.md",
+      "sha256": "799b90ca8b1fb0c778d92cefe87c83fbb150c6390d142e26310058cefa6886f3"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/upgrade-compatibility.md",
+      "sha256": "d7c10f28780e8da37da0cb8210e938b88c6f4e4c7918bd0a685fb18749389276"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/references/visual.md",
+      "sha256": "96db4e9a32e1f5db58a8c0fe429bed8a07fd6c8120b884551063bc1ef5873c80"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/scripts/validate_batch.py",
+      "sha256": "394115f0d8737641172bbda762a198e5a1c8cd0012dae5e861bb503cc07fad9f"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/scripts/validate_output.py",
+      "sha256": "051374c1075cb9436d48a52f119ad833088a70f3a62aaa33c657820c8568be87"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/内容生产使用说明.md",
+      "sha256": "ac053af00c5dad7d1cdd028dc5ac290d5c5b694f799f0d8da2e54f7ae70d2c54"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/内容输出标准模板.md",
+      "sha256": "6ecc9b310cc4e8f98ede1676c3c7b1601fd676b1cc864b981f3d003e28847d06"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/减少AI味输出规则.md",
+      "sha256": "7d10c8eca4d518f630609a90b8df8ebebbf5efd3d31f87d18855903c632ee6d1"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/账号整体方法论.md",
+      "sha256": "7f63a97ba50420e7efac49fb6cc48f2361931970492e4e674b20f4ed61748729"
+    }
+  ],
+  "regression_package_manifests": [],
+  "isolation": {
+    "same_account_only": true,
+    "cross_account_merge": false,
+    "system_rule_contamination": false,
+    "absolute_or_nas_paths": false
+  },
+  "rollback": {
+    "restore_version": "1.2",
+    "restore_proposal": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/proposals/capability-preservation-v1.3.md",
+    "preserve_new_audit_artifacts": true,
+    "delete_original_or_formal_evidence": false
+  }
+}

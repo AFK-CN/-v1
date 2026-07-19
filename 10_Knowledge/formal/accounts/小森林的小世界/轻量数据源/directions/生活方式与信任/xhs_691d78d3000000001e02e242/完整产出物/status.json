@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T11:58:10",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051158/68e6772399eae9f8a292525d243f1c4b/1040g00831p3ivo7gjce04a00sj99a1hq2d3189g!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T11:58:13",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\video\\source.mp4",
+      "source_url": "http://sns-video-v2.xhscdn.com/stream/1/110/259/01e91d785c2a8623010370039a9b201155_259.mp4?sign=2832218b512d62e457280447710894be&t=6a4e738d"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:03:59",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\video\\source.mp4",
+      "duration_sec": 5.833333,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frame_count": 175,
+      "platform": "xhs",
+      "source_id": "691d78d3000000001e02e242",
+      "source_url": "http://sns-video-v2.xhscdn.com/stream/1/110/259/01e91d785c2a8623010370039a9b201155_259.mp4?sign=2832218b512d62e457280447710894be&t=6a4e738d",
+      "title": "最简单的转场出现了！记录开心的东北行🚗",
+      "desc": "#旅行转场挑战[话题]##转场[话题]##抽象[话题]##旅行转场[话题]##长白山[话题]##东北旅行[话题]#",
+      "publish_time": 1763539155000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:03:59",
+      "count": 3,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:04:00",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:04:12",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_691d78d3000000001e02e242\\video\\transcript.srt",
+      "segments": 1
+    }
+  },
+  "updated_at": "2026-07-11T03:04:12"
+}

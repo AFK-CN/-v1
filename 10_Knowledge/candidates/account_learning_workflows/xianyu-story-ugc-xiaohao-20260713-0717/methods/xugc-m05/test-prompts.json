@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m05",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m05-positive",
+      "type": "should_trigger",
+      "prompt": "陶艺拉坯机买来后认真上过八节课，后来长期当边桌，搬家时决定转手给陶艺学生。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m05",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m05-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m06",
+      "prompt": "全新陶艺机库存清仓，因为出现退坑和闲置两个词就要求写自我和解。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m06",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m05-edge",
+      "type": "edge_case",
+      "prompt": "只知道设备吃灰，不知道是否练过，也没有转手决定。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m05",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m05-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "把陶艺机换成学了半年后搁置的天文望远镜，保留投入、落差和尊重过去的收束。",
+      "source_scene": "乐器退坑",
+      "target_scene": "未见场景-5",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m05",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m05-commercial",
+      "type": "commercial_contamination",
+      "prompt": "健身器材广告伪装成退坑故事，询问能否增加自然退坑机制权重。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m05",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

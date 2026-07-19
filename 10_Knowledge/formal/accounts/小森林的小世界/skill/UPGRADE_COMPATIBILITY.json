@@ -1,0 +1,206 @@
+{
+  "schema_version": "account_skill_upgrade_compatibility_v1",
+  "account_skill_id": "xiaosenlin_xiaoshijie",
+  "base_version": "1.3",
+  "target_version": "1.4",
+  "upgrade_scope": "system_account_batch_member",
+  "previous_capability_ids": [
+    "topic_memory_deduplication",
+    "topic_memory_recording",
+    "production_memory_recording",
+    "acceptance_gates",
+    "evidence_boundaries",
+    "production_mechanism",
+    "publishing_copy_specialization",
+    "style_fingerprint",
+    "formal_method_xsl_cluster_problem_result",
+    "formal_method_xsl_cluster_step_sequence",
+    "formal_method_xsl_cluster_time_feedback",
+    "formal_method_xsl_cluster_list_decision",
+    "account_view_sync"
+  ],
+  "new_capability_ids": [
+    "capability_preserving_upgrade_guard"
+  ],
+  "capabilities": [
+    {
+      "id": "topic_memory_deduplication",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "topic_memory_recording",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "production_memory_recording",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "acceptance_gates",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/references/acceptance.md"
+      ]
+    },
+    {
+      "id": "evidence_boundaries",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/references/boundaries.md"
+      ]
+    },
+    {
+      "id": "production_mechanism",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/references/production.md"
+      ]
+    },
+    {
+      "id": "publishing_copy_specialization",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/references/publishing-copy.md"
+      ]
+    },
+    {
+      "id": "style_fingerprint",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/references/style.md"
+      ]
+    },
+    {
+      "id": "formal_method_xsl_cluster_problem_result",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xsl_cluster_step_sequence",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xsl_cluster_time_feedback",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_xsl_cluster_list_decision",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "account_view_sync",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/账号整体方法论.md",
+        "10_Knowledge/formal/accounts/小森林的小世界/内容生产使用说明.md",
+        "10_Knowledge/formal/accounts/小森林的小世界/减少AI味输出规则.md",
+        "10_Knowledge/formal/accounts/小森林的小世界/内容输出标准模板.md"
+      ]
+    },
+    {
+      "id": "capability_preserving_upgrade_guard",
+      "introduced_in": "1.4",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/小森林的小世界/skill/references/upgrade-compatibility.md"
+      ]
+    }
+  ],
+  "changed_capabilities": [],
+  "source_snapshot": [
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/METHOD_INDEX.json",
+      "sha256": "2704322367d492e941da3ca828063ca495f219f44c17d8fe1ba32c94a2772ee1"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md",
+      "sha256": "d9136df8b433420374e9ccfa5e0b5e1af6cee346ca5aee70ac6925607ae156d6"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/references/acceptance.md",
+      "sha256": "f5d093169620bbce95a5f077759d7c8278cb053233e0e66dea23bf6170cbd2da"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/references/boundaries.md",
+      "sha256": "c8757b2445edb05210977a63f7bc388975519c0c3cc1d415e660b9b3096447b6"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/references/production.md",
+      "sha256": "f5c771239d23af18f84cb89d57a3c8867c545130ef307e355dfcb8feb7a986d2"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/references/publishing-copy.md",
+      "sha256": "0d33167dc65d0ca67f9f9503045f931273e242518fbc111cbe6159b76f2585f8"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/references/style.md",
+      "sha256": "4812efc4d44a46eaaa5c64c091a71150a5b037d74e6e9838731ba8b6c0d9970b"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/skill/references/upgrade-compatibility.md",
+      "sha256": "71b6cd68351e38b6c44fda5bd8424af198abdd72995ffe4170a74ffbe222d862"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/内容生产使用说明.md",
+      "sha256": "ca7eb7cfe175190e93903cc5294237fadceeaf9e838f0628a520343eeb178089"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/内容输出标准模板.md",
+      "sha256": "59b64de18f4e2aef9f48ac9d5905bea1a2f11e57af5e8e842359d6fbb177e14c"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/减少AI味输出规则.md",
+      "sha256": "58f0ede5cfb0df2ec74c3059995c95fd8e08e3080b1a58bf768cafb7aa4f997b"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/小森林的小世界/账号整体方法论.md",
+      "sha256": "92501976b438ac83f0c5e6948d661941573eb4f028de038225051292f31525f1"
+    }
+  ],
+  "regression_package_manifests": [],
+  "isolation": {
+    "same_account_only": true,
+    "cross_account_merge": false,
+    "system_rule_contamination": false,
+    "absolute_or_nas_paths": false
+  },
+  "rollback": {
+    "restore_version": "1.3",
+    "restore_proposal": "10_Knowledge/formal/accounts/小森林的小世界/skill/proposals/capability-preservation-v1.4.md",
+    "preserve_new_audit_artifacts": true,
+    "delete_original_or_formal_evidence": false
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "schema_version": "publishing_copy_evidence_validation_v1",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "profile_id": "xhs_5c09367300000000060099e8",
+  "validated_at": "2026-07-17",
+  "status": "passed_with_documented_source_drift",
+  "coverage": {
+    "current_database_posts": 116,
+    "current_database_nonempty_bodies": 116,
+    "formal_card_index_rows": 116,
+    "formal_cards_with_publish_layer": 116,
+    "formal_cards_with_body": 116,
+    "database_formal_overlap": 113,
+    "database_only_source_ids": [
+      "6922e8b9000000001e006482",
+      "694fb333000000001e00535f",
+      "6a2b40950000000035023fdd"
+    ],
+    "formal_only_source_ids": [
+      "6a3f9da5000000001003d8fe",
+      "6a423d42000000000f017143",
+      "6a47295e00000000110052af"
+    ],
+    "approved_natural_method_basis": 68
+  },
+  "current_database_observations": {
+    "all_posts": {
+      "numbered_steps": "98/116",
+      "explicit_time": "97/116",
+      "spoon_or_some": "93/116",
+      "grams_or_ml": "30/116",
+      "life_tail": "41/116",
+      "question_tail": "2/116",
+      "hashtags": "116/116"
+    },
+    "formal_natural_single_meal_overlap": {
+      "sample_count": 48,
+      "numbered_steps": "46/48",
+      "explicit_time": "46/48",
+      "spoon_or_some": "45/48",
+      "grams_or_ml": "12/48",
+      "life_tail": "20/48",
+      "question_tail": "0/48"
+    }
+  },
+  "validated_conclusions": [
+    "m07 remains the approved expression method; this upgrade expands production execution rather than creating a new method",
+    "single-meal copy uses dish sections, asymmetric detail, numbered complex-dish actions, timing and observable end states",
+    "household measures are the dominant voice; grams and milliliters are optional precision supplements",
+    "price, meal total, calories, life notes and reading notes are optional evidence-bound modules",
+    "weekly collections use day-by-day meal indexing rather than recipe paragraphs",
+    "commercial payload remains isolated from natural expression evidence",
+    "life notes are never mandatory; without verified personal material, copy ends naturally",
+    "generic engagement questions are not a stable natural-copy requirement"
+  ],
+  "boundaries": [
+    "The database is read-only and raw copy is not embedded in the Skill",
+    "The three database-only posts remain supplemental observations and are not promoted to formal method evidence",
+    "The three formal-only posts remain valid formal evidence from the approved workflow",
+    "No original sentence, personal experience, price, calorie, nutrition, result or brand claim may be fabricated"
+  ],
+  "source_artifacts": {
+    "database": "数据/sqlite_tables.db",
+    "formal_card_index": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/FORMAL_CARD_INDEX.jsonl",
+    "approved_method": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/methods/m07-recipe-body-fingerprint/method.json",
+    "reproducible_audit_json": "90_Temp/account_learning/shengqian_publishing_copy_20260717/publishing_copy_evidence.json",
+    "reproducible_audit_markdown": "90_Temp/account_learning/shengqian_publishing_copy_20260717/publishing_copy_evidence.md"
+  },
+  "approval_basis": "2026-07-17 用户明确要求：不是只修改这次的，而是充分学习理解后，进入账号skill。"
+}

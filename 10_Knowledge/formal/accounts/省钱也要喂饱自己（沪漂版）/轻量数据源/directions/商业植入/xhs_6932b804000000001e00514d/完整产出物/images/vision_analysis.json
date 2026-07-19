@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0","status":"success","method":"codex_image2_multimodal","platform":"xhs","source_id":"6932b804000000001e00514d","account_id":"xhs_5c09367300000000060099e8","title":"独居一人食｜吃的干净真的会瘦！","source_image_count":6,"analyzed_image_count":6,"ocr_reprocessed":false,
+  "visual_summary":"四碗餐由三文鱼切片、溏心蛋、西兰花和杂粮饭组成，旁边配一小碟深色蘸汁与芥末。双封面后用一张三文鱼与包装、酱料包和蘸碟同框的近照强调食材来源，其余三张分别展示鸡蛋、西兰花和杂粮饭，没有烹饪教程。",
+  "content_intent":"用三文鱼橙色条纹作为绝对主视觉，以西兰花鲜绿、蛋黄橙黄和紫黑米饭补齐四色；简短六图更接近食材搭配与品质展示。",
+  "learning_value":"适合无需复杂烹饪的内容模板：双封面、主食材来源与蘸料近照、三张配菜单品。不要为未拍摄的处理过程补写教程。",
+  "food_visual":{"meal_type":"三文鱼切片三菜一饭","dish_components":["三文鱼切片","溏心蛋","水煮西兰花","杂粮饭","蘸汁与芥末"],"color_strategy":"三文鱼橙粉、蛋黄橙黄、西兰花鲜绿、杂粮饭紫黑，米白餐具和深灰桌面统一。","plating":"杂粮饭后上、西兰花左、鸡蛋右、三文鱼前下，小蘸碟位于右下。","camera":"全部为近垂直俯拍，主食材近照把包装与调料包置于后景。","texture_focus":"三文鱼脂肪纹路、蛋黄切面、西兰花花球、杂粮饭颗粒和蘸汁镜面。"},
+  "style":{"direction":"极简食材搭配与来源展示","orientation":"竖图","palette":"深灰、米白、橙粉、鲜绿、紫黑、酱油深棕","lighting":"均匀柔光，三文鱼表面细节清晰。","composition":"双封面、主食材包装同框近照、三张配菜单品。","text_usage":"仅标注封面使用手写箭头，其余图片无叠加教程字，包装原字自然可见。"},
+  "narrative_structure":["标注整餐","无字整餐与蘸料","三文鱼来源近照","溏心蛋成品","西兰花成品","杂粮饭成品"],
+  "replication_recipe":{"shot_list":["拍四碗标注封面","加入小蘸碟拍无字整餐","把三文鱼切片置于前景并把包装、调料包和蘸碟放后方","鸡蛋、西兰花和米饭各拍单图"],"editing":"保持六图简洁，不插入虚构步骤；主食材近照让鱼纹清楚，包装退居背景。","generation_prompt":"小红书极简独居餐，深灰桌面四只米白条纹碗，杂粮饭、水煮西兰花、对半鸡蛋、橙粉三文鱼切片，旁有酱油芥末小碟；双封面后有三文鱼包装同框近照和三张配菜单图。","avoid":["不要宣称减脂、营养密度或健康效果","不要验证三文鱼包装、产地和品质主张","不要仅凭图片判断三文鱼与鸡蛋食用安全或熟度","不要虚构烹饪步骤"]},
+  "images":[
+    {"index":0,"file":"000_cover.jpg","role":"标注封面","visual":"杂粮饭、西兰花、溏心蛋和三文鱼切片四碗。","composition":"紫后、绿左、蛋右、橙前。","reusable_pattern":"四个强色块的极简封面。"},
+    {"index":1,"file":"001_image.jpg","role":"无字封面与蘸料","visual":"同一套餐，右下加入酱油芥末小碟。","composition":"四碗加小碟形成五点布局。","reusable_pattern":"无字整餐附食用搭配。"},
+    {"index":2,"file":"002_image.jpg","role":"三文鱼来源近照","visual":"整齐三文鱼切片在前，后方可见包装盒、调料包和蘸碟。","composition":"鱼碗最大，包装沿上缘铺陈。","reusable_pattern":"主食材、包装和调味三件套。"},
+    {"index":3,"file":"003_image.jpg","role":"溏心蛋成品","visual":"鸡蛋对半切开，橙黄蛋黄居中。","composition":"两半对称并排。","reusable_pattern":"切面单图。"},
+    {"index":4,"file":"004_image.jpg","role":"西兰花成品","visual":"鲜绿西兰花花球装碗。","composition":"花球朝上自然堆叠。","reusable_pattern":"绿色配菜单图。"},
+    {"index":5,"file":"005_image.jpg","role":"杂粮饭成品","visual":"深紫杂粮饭颗粒清楚。","composition":"浅碗居中。","reusable_pattern":"主食单图收尾。"}
+  ],
+  "quality":{"all_source_images_reviewed":true,"visual_only_supplement":true,"ocr_preserved":true,"nutrition_claims_not_validated":true,"product_claims_not_validated":true,"food_safety_not_inferred":true,"content_consistency_issue":false,"notes":"已逐张查看全部 6 张原图；无烹饪步骤。未重新 OCR，不验证产品、减脂、营养、生食安全或鸡蛋熟度。"}
+}

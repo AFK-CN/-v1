@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T13:41:14",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051341/9279da6033363f6d83e177d83144dc2f/1040g00830nr1k3ed16004a00sj99a1hq6q57kdo!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T13:41:23",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\video\\source.mp4",
+      "source_url": "http://sns-video-v3.xhscdn.com/stream/110/259/01e4dc85f01178960103700389fd6f837b_259.mp4?sign=430e627a76e6a922f55b3bde7ab1f028&t=6a4e8bb4"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:03:37",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\video\\source.mp4",
+      "duration_sec": 157.033333,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frame_count": 4711,
+      "platform": "xhs",
+      "source_id": "64dc8637000000001700d8ec",
+      "source_url": "http://sns-video-v3.xhscdn.com/stream/110/259/01e4dc85f01178960103700389fd6f837b_259.mp4?sign=430e627a76e6a922f55b3bde7ab1f028&t=6a4e8bb4",
+      "title": "其实不是黑，是黄！平价去黄气方法来了～",
+      "desc": "如果有宝宝和我之前一样，感觉用什么变白的护肤品效果都不明显，那我强烈安利你们试试用原型vc！去黄气绝了～\n\t\n#油痘肌护肤[话题]# #去黄气[话题]# #欧莱雅真C瓶[话题]# #抗老[话题]#",
+      "publish_time": 1692189757000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:03:42",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:03:44",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:05:46",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_64dc8637000000001700d8ec\\video\\transcript.srt",
+      "segments": 100
+    }
+  },
+  "updated_at": "2026-07-11T01:05:46"
+}

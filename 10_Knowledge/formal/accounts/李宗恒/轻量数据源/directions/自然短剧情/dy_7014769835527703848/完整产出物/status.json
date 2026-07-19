@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T01:33:40",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7014769835527703848\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c5cnfkjc77ufqmafmva0&line=0&file_id=89e64e866f9e481784906c1893444825&sign=85342115f18cd175512a5965c5d65528&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-05T15:30:32",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7014769835527703848\\video\\source.mp4",
+      "duration_sec": 23.733333,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 712,
+      "platform": "dy",
+      "source_id": "7014769835527703848",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c5cnfkjc77ufqmafmva0&line=0&file_id=89e64e866f9e481784906c1893444825&sign=85342115f18cd175512a5965c5d65528&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "《 吃啥呢 》#校园 #内容过于真实 #李宗恒",
+      "desc": "《 吃啥呢 》#校园 #内容过于真实 #李宗恒",
+      "publish_time": 1633253377,
+      "account_id": "63700340656",
+      "account_name": "李宗恒"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-05T15:30:33",
+      "count": 12,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7014769835527703848\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-05T15:30:34",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7014769835527703848\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-05T15:30:48",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7014769835527703848\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7014769835527703848\\video\\transcript.srt",
+      "segments": 13
+    }
+  },
+  "updated_at": "2026-07-05T15:30:48"
+}

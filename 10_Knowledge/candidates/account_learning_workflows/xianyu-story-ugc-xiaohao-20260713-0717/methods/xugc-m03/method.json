@@ -1,0 +1,77 @@
+{
+  "id": "xugc-m03",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "task:xianyu-story-ugc",
+  "title": "交易异常制造关系反差，让善意通过动作被看见",
+  "trigger_signals": [
+    "交易行为违背价格博弈常规",
+    "存在可复述的聊天或动作",
+    "反常行为改变人物判断"
+  ],
+  "trigger_model": {
+    "mechanism": "先建立价格博弈或陌生人防备的常规预期，再用主动补钱、退还夹款、赠物或特殊用途等反常动作改变关系判断。",
+    "applicable_relations": [
+      "买家与卖家",
+      "退货双方",
+      "陌生交易者"
+    ],
+    "transferable_scenes": [
+      "主动补价",
+      "退还夹款",
+      "退货赠物",
+      "特殊用途"
+    ],
+    "do_not_trigger_on": [
+      "只有善良标签没有动作",
+      "金额或聊天无法核对",
+      "把普通礼貌夸成巨大治愈"
+    ]
+  },
+  "do_not_use": [
+    "只有善良标签没有动作",
+    "金额或聊天无法核对",
+    "把普通礼貌夸成巨大治愈"
+  ],
+  "execution_steps": [
+    "建立常规交易预期",
+    "呈现一条反常消息或动作",
+    "补足理解反转所需背景",
+    "写讲述者即时判断变化",
+    "在关系结果处停下"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260713_s01",
+    "feishu_xianyu_20260715_s16",
+    "feishu_xianyu_20260716_s03",
+    "feishu_xianyu_20260713_s10",
+    "feishu_xianyu_20260713_s17"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "交易常规预期",
+      "一个反常动作",
+      "讲述者认知变化",
+      "关系结果"
+    ],
+    "variable_elements": [
+      "买家或卖家角色",
+      "异常类型",
+      "情绪强度",
+      "是否成交"
+    ],
+    "tension_engine": "反常消息或动作为什么发生，背后的人物动机是什么。",
+    "trust_engine": "保留聊天内容、金额、退还或赠送动作，不靠善良标签证明人物。",
+    "understanding_engine": "预期与实际行为对照，使反转无需解释过多。",
+    "beneficiary_engine": "让读者看到交易之外仍有体面、契约感和善意。",
+    "length_basis": "短内容完成预期—反常—结果即可停；长内容才补人物背景。",
+    "boundaries": [
+      "没有反常动作时不使用",
+      "金额和聊天不得编造",
+      "不要每次都用被治愈了收尾"
+    ]
+  },
+  "formal_write": false
+}

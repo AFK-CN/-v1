@@ -1,0 +1,32 @@
+{
+  "schema_version": "formal_skill_promotion_evidence_v1",
+  "status": "approved",
+  "approved_at": "2026-07-17T13:40:32+08:00",
+  "user_confirmation": "2026-07-17 user explicitly requested formal ingest after reviewing the text and visual learning result",
+  "candidate_workflow": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717",
+  "formal_account_dir": "10_Knowledge/formal/accounts/闲鱼故事UGC任务",
+  "identity_boundary": "task-scoped Xianyu story UGC capability; not a personal Xiaohao account Skill",
+  "evidence": {
+    "documents": 5,
+    "records": 100,
+    "images": 230,
+    "contact_sheets_reviewed": 20,
+    "text_methods": 7,
+    "visual_methods": 4
+  },
+  "tests": {
+    "method_pressure": "35/35 passed",
+    "text_forward_positive": "5/5 passed",
+    "text_forward_negative": "5/5 correctly rejected",
+    "visual_forward_positive": "4/4 passed",
+    "visual_forward_negative": "5/5 correctly rejected",
+    "candidate_skill_structure": "passed",
+    "account_learning_validation": "passed"
+  },
+  "known_boundary": "The image_text tool's per-image deep-visual placeholder remains pending; the approved cross-card visual mechanisms are supported by the separate 230-image manual contact-sheet audit.",
+  "source_hashes": {
+    "candidate_skill": "63d47602adab2f443e8b3d657991c34676d1eb5e748a3d2b1e430bda48ecf84b",
+    "visual_review_summary": "32a9a8839ac23db4572b1e3f4ba302a002e51a8622128fbeaccc51ba6fc14c98",
+    "visual_forward_tests": "ed0f3fb5117e0419caa2d1fb94303d3473925323f0faa7626e7b22bef57750aa"
+  }
+}

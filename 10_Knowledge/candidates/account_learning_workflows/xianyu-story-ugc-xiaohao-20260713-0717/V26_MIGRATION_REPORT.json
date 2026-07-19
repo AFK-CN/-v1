@@ -1,0 +1,383 @@
+{
+  "ok": true,
+  "status": "applied",
+  "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+  "account_name": "闲鱼故事UGC任务",
+  "stage1": {
+    "structure_expression_count": 200,
+    "deep_observation_backfilled": 0,
+    "deep_observation_preserved": 200,
+    "deep_observation_deferred": 0,
+    "publish_copy_expected": 100,
+    "publish_copy_backfilled": 0,
+    "publish_copy_preserved": 100,
+    "image_text_visual_expected": 100,
+    "image_text_visual_backfilled": 0,
+    "image_text_visual_preserved": 100,
+    "source_total": 100,
+    "unified_source_count": 100,
+    "deferred_source_count": 0,
+    "stage1_schema_enabled": true
+  },
+  "publish_copy": {
+    "schema_version": "publish_copy_special_study_v1",
+    "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+    "account_name": "闲鱼故事UGC任务",
+    "status": "completed",
+    "observation_schema": "publish_copy_observation_v1",
+    "observation_file": "candidates/publish_copy_observations.jsonl",
+    "observation_sha256": "5e24933ef531496f4f4d33a818c8439d42a79c140e26fb5aaa4cba1dfa087882",
+    "expected_source_count": 100,
+    "completed_source_count": 100,
+    "deferred_source_count": 0,
+    "deferred_source_ids": [],
+    "unified_card_count": 100,
+    "legacy_publish_evidence_count": 0,
+    "dimension_coverage": {
+      "body_information_sequence": {
+        "observed_source_count": 100,
+        "missing_source_count": 0
+      },
+      "closing_mode": {
+        "observed_source_count": 0,
+        "missing_source_count": 100
+      },
+      "lived_experience_signal": {
+        "observed_source_count": 3,
+        "missing_source_count": 97
+      },
+      "opening_entry": {
+        "observed_source_count": 0,
+        "missing_source_count": 100
+      },
+      "operational_or_argument_detail_density": {
+        "observed_source_count": 2,
+        "missing_source_count": 98
+      },
+      "publish_visual_alignment": {
+        "observed_source_count": 100,
+        "missing_source_count": 0
+      },
+      "story_explanation_balance": {
+        "observed_source_count": 12,
+        "missing_source_count": 88
+      },
+      "title_promise_and_information_gap": {
+        "observed_source_count": 100,
+        "missing_source_count": 0
+      },
+      "title_specificity_and_voice": {
+        "observed_source_count": 0,
+        "missing_source_count": 100
+      },
+      "topic_strategy": {
+        "observed_source_count": 100,
+        "missing_source_count": 0
+      }
+    },
+    "facet_coverage": {
+      "title": {
+        "observed_raw": 100
+      },
+      "body": {
+        "observed_raw": 100
+      },
+      "topics": {
+        "explicitly_missing": 2,
+        "observed_raw": 98
+      },
+      "coordination": {
+        "observed_analysis": 100
+      }
+    },
+    "cross_card_pattern_candidates": [
+      {
+        "id": "publish-pattern-223fb65fa8b4",
+        "signals": [
+          "title_promise_and_information_gap",
+          "body_information_sequence",
+          "topic_strategy",
+          "publish_visual_alignment"
+        ],
+        "source_count": 84,
+        "source_refs": [
+          "feishu_xianyu_20260713_s01",
+          "feishu_xianyu_20260713_s03",
+          "feishu_xianyu_20260713_s04",
+          "feishu_xianyu_20260713_s05",
+          "feishu_xianyu_20260713_s06",
+          "feishu_xianyu_20260713_s08",
+          "feishu_xianyu_20260713_s09",
+          "feishu_xianyu_20260713_s11",
+          "feishu_xianyu_20260713_s12",
+          "feishu_xianyu_20260713_s13",
+          "feishu_xianyu_20260713_s15",
+          "feishu_xianyu_20260713_s17",
+          "feishu_xianyu_20260713_s18",
+          "feishu_xianyu_20260713_s20",
+          "feishu_xianyu_20260714_s01",
+          "feishu_xianyu_20260714_s02",
+          "feishu_xianyu_20260714_s03",
+          "feishu_xianyu_20260714_s04",
+          "feishu_xianyu_20260714_s05",
+          "feishu_xianyu_20260714_s06",
+          "feishu_xianyu_20260714_s07",
+          "feishu_xianyu_20260714_s08",
+          "feishu_xianyu_20260714_s09",
+          "feishu_xianyu_20260714_s10",
+          "feishu_xianyu_20260714_s12",
+          "feishu_xianyu_20260714_s13",
+          "feishu_xianyu_20260714_s14",
+          "feishu_xianyu_20260714_s15",
+          "feishu_xianyu_20260714_s16",
+          "feishu_xianyu_20260714_s17",
+          "feishu_xianyu_20260714_s18",
+          "feishu_xianyu_20260714_s20",
+          "feishu_xianyu_20260715_s01",
+          "feishu_xianyu_20260715_s03",
+          "feishu_xianyu_20260715_s04",
+          "feishu_xianyu_20260715_s05",
+          "feishu_xianyu_20260715_s06",
+          "feishu_xianyu_20260715_s07",
+          "feishu_xianyu_20260715_s08",
+          "feishu_xianyu_20260715_s09",
+          "feishu_xianyu_20260715_s10",
+          "feishu_xianyu_20260715_s11",
+          "feishu_xianyu_20260715_s12",
+          "feishu_xianyu_20260715_s13",
+          "feishu_xianyu_20260715_s14",
+          "feishu_xianyu_20260715_s15",
+          "feishu_xianyu_20260715_s16",
+          "feishu_xianyu_20260715_s17",
+          "feishu_xianyu_20260715_s18",
+          "feishu_xianyu_20260715_s19",
+          "feishu_xianyu_20260715_s20",
+          "feishu_xianyu_20260716_s01",
+          "feishu_xianyu_20260716_s03",
+          "feishu_xianyu_20260716_s05",
+          "feishu_xianyu_20260716_s06",
+          "feishu_xianyu_20260716_s08",
+          "feishu_xianyu_20260716_s10",
+          "feishu_xianyu_20260716_s11",
+          "feishu_xianyu_20260716_s12",
+          "feishu_xianyu_20260716_s14",
+          "feishu_xianyu_20260716_s15",
+          "feishu_xianyu_20260716_s16",
+          "feishu_xianyu_20260716_s17",
+          "feishu_xianyu_20260716_s18",
+          "feishu_xianyu_20260716_s19",
+          "feishu_xianyu_20260716_s20",
+          "feishu_xianyu_20260717_s01",
+          "feishu_xianyu_20260717_s02",
+          "feishu_xianyu_20260717_s03",
+          "feishu_xianyu_20260717_s04",
+          "feishu_xianyu_20260717_s05",
+          "feishu_xianyu_20260717_s06",
+          "feishu_xianyu_20260717_s07",
+          "feishu_xianyu_20260717_s08",
+          "feishu_xianyu_20260717_s09",
+          "feishu_xianyu_20260717_s10",
+          "feishu_xianyu_20260717_s11",
+          "feishu_xianyu_20260717_s12",
+          "feishu_xianyu_20260717_s13",
+          "feishu_xianyu_20260717_s14",
+          "feishu_xianyu_20260717_s15",
+          "feishu_xianyu_20260717_s16",
+          "feishu_xianyu_20260717_s17",
+          "feishu_xianyu_20260717_s18"
+        ],
+        "status": "candidate_only",
+        "callable": false,
+        "triple_verification_required": true
+      },
+      {
+        "id": "publish-pattern-82acb7e2a027",
+        "signals": [
+          "title_promise_and_information_gap",
+          "body_information_sequence",
+          "story_explanation_balance",
+          "topic_strategy",
+          "publish_visual_alignment"
+        ],
+        "source_count": 11,
+        "source_refs": [
+          "feishu_xianyu_20260713_s10",
+          "feishu_xianyu_20260713_s16",
+          "feishu_xianyu_20260713_s19",
+          "feishu_xianyu_20260714_s11",
+          "feishu_xianyu_20260715_s02",
+          "feishu_xianyu_20260716_s02",
+          "feishu_xianyu_20260716_s04",
+          "feishu_xianyu_20260716_s07",
+          "feishu_xianyu_20260716_s09",
+          "feishu_xianyu_20260716_s13",
+          "feishu_xianyu_20260717_s20"
+        ],
+        "status": "candidate_only",
+        "callable": false,
+        "triple_verification_required": true
+      },
+      {
+        "id": "publish-pattern-a762cda8bd96",
+        "signals": [
+          "title_promise_and_information_gap",
+          "body_information_sequence",
+          "lived_experience_signal",
+          "topic_strategy",
+          "publish_visual_alignment"
+        ],
+        "source_count": 2,
+        "source_refs": [
+          "feishu_xianyu_20260713_s02",
+          "feishu_xianyu_20260713_s14"
+        ],
+        "status": "candidate_only",
+        "callable": false,
+        "triple_verification_required": true
+      },
+      {
+        "id": "publish-pattern-cfb1c26f4924",
+        "signals": [
+          "title_promise_and_information_gap",
+          "body_information_sequence",
+          "operational_or_argument_detail_density",
+          "topic_strategy",
+          "publish_visual_alignment"
+        ],
+        "source_count": 2,
+        "source_refs": [
+          "feishu_xianyu_20260713_s07",
+          "feishu_xianyu_20260714_s19"
+        ],
+        "status": "candidate_only",
+        "callable": false,
+        "triple_verification_required": true
+      },
+      {
+        "id": "publish-pattern-7e5eea561ea5",
+        "signals": [
+          "title_promise_and_information_gap",
+          "body_information_sequence",
+          "lived_experience_signal",
+          "story_explanation_balance",
+          "topic_strategy",
+          "publish_visual_alignment"
+        ],
+        "source_count": 1,
+        "source_refs": [
+          "feishu_xianyu_20260717_s19"
+        ],
+        "status": "candidate_only",
+        "callable": false,
+        "triple_verification_required": true
+      }
+    ],
+    "formal_write": false,
+    "callable": false,
+    "user_review_required": true,
+    "missing_card_source_ids": []
+  },
+  "stage2": {
+    "method_candidate_count": 7,
+    "production_analysis_backfilled": 0,
+    "production_analysis_preserved": 7,
+    "stage2_schema_enabled": true
+  },
+  "handoff": {
+    "status": "preserved",
+    "path": "ACCOUNT_PRODUCTION_HANDOFF.json",
+    "schema_version": "account_production_handoff_v1"
+  },
+  "state": {
+    "schema_version": "2.6",
+    "stage1_observation_schema": "deep_structure_expression_v1",
+    "stage2_production_mechanism_schema": "production_mechanism_v1",
+    "stage6_production_handoff_schema": "account_production_handoff_v1",
+    "stage6_account_skill_schema": "account_skill_candidate_v1",
+    "source_total": 100,
+    "deep_card_count": 100,
+    "deferred_evidence_count": 0,
+    "verified_candidate_method_count": 7,
+    "v26_unified_source_count": 100,
+    "v26_legacy_compatible_source_count": 0,
+    "publish_copy_observation_schema": "publish_copy_observation_v1",
+    "publish_copy_study_schema": "publish_copy_special_study_v1",
+    "publish_copy_expected_count": 100,
+    "publish_copy_completed_count": 100,
+    "publish_copy_deferred_count": 0
+  },
+  "validation": {
+    "ok": true,
+    "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+    "source_scope": "飞书文档：小浩0713发布至小浩0717发布，共5篇；按闲鱼故事类UGC任务级学习，不建立小浩个人账号Skill",
+    "completed_stage_failures": [],
+    "validations": [
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage0_account_overview",
+        "errors": [],
+        "metrics": {}
+      },
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage1_parallel_extraction",
+        "errors": [],
+        "metrics": {
+          "publish_copy_expected_count": 100,
+          "publish_copy_completed_count": 100,
+          "publish_copy_deferred_count": 0,
+          "candidate_count": 500,
+          "real_acceptance_status": "passed"
+        }
+      },
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage2_triple_verification",
+        "errors": [],
+        "metrics": {
+          "candidate_count": 500,
+          "cluster_count": 9,
+          "verified_count": 7,
+          "rejected_count": 2
+        }
+      },
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage3_ria_construction",
+        "errors": [],
+        "metrics": {
+          "method_count": 7
+        }
+      },
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage4_method_linking",
+        "errors": [],
+        "metrics": {}
+      },
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage5_pressure_test",
+        "errors": [],
+        "metrics": {
+          "method_count": 7
+        }
+      },
+      {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage6_learning_delivery",
+        "errors": [],
+        "metrics": {}
+      }
+    ],
+    "formal_write_allowed": false
+  },
+  "formal_write_allowed": false
+}

@@ -1,0 +1,124 @@
+{
+  "schema_version": "2.3",
+  "status": "passed",
+  "report_file": "REAL_ACCEPTANCE_REPORT_2026-07-16.md",
+  "sample_method": "fixed_stratified_quantile_v1: natural grouped by direction and sorted by publish_date/source_id, select first/middle/last; product ads select 8 equal quantiles",
+  "sampled_source_ids": [
+    "68fb51bd000000000700ace0",
+    "69afe9aa000000002203b952",
+    "6a423d42000000000f017143",
+    "6954faae000000001e002da4",
+    "68c29b30000000001d00d062",
+    "68cfd191000000001203d37f",
+    "6909cc3b00000000070217c4",
+    "68cb6d6700000000120219c8",
+    "69466e75000000001e0006f2",
+    "6a47295e00000000110052af",
+    "68d7b7e00000000012021a05",
+    "68df7adb000000000700eea4",
+    "68f21ba8000000000700f4dc",
+    "691480cc000000000703bbe6",
+    "692eba18000000001e001510",
+    "69490c57000000001e000333",
+    "696504f3000000000c034f1c",
+    "69a6b2bb000000002603017f",
+    "69bfa4e0000000002200f418",
+    "69e0912b000000001d01a932",
+    "6a38d9bd000000000f006b7e",
+    "6a30fc7c000000002201a33a"
+  ],
+  "strata": {
+    "normal_visual": {
+      "status": "passed",
+      "reason": "",
+      "sample_count": 13,
+      "source_ids": [
+        "68fb51bd000000000700ace0",
+        "69afe9aa000000002203b952",
+        "6a423d42000000000f017143",
+        "6954faae000000001e002da4",
+        "68c29b30000000001d00d062",
+        "68cfd191000000001203d37f",
+        "6909cc3b00000000070217c4",
+        "68cb6d6700000000120219c8",
+        "69466e75000000001e0006f2",
+        "6a47295e00000000110052af",
+        "68d7b7e00000000012021a05",
+        "68df7adb000000000700eea4",
+        "68f21ba8000000000700f4dc"
+      ],
+      "contact_sheet": "acceptance/NORMAL_VISUAL_CONTACT_SHEET.jpg"
+    },
+    "normal_long_transcript": {
+      "status": "not_applicable",
+      "reason": "116 条均为图文，无视频长逐字稿。"
+    },
+    "product_ad": {
+      "status": "passed",
+      "reason": "",
+      "sample_count": 8,
+      "source_ids": [
+        "691480cc000000000703bbe6",
+        "692eba18000000001e001510",
+        "69490c57000000001e000333",
+        "696504f3000000000c034f1c",
+        "69a6b2bb000000002603017f",
+        "69bfa4e0000000002200f418",
+        "69e0912b000000001d01a932",
+        "6a38d9bd000000000f006b7e"
+      ],
+      "full_audit_count": 47,
+      "contact_sheet": "acceptance/PRODUCT_AD_CONTACT_SHEET.jpg"
+    },
+    "platform_project": {
+      "status": "passed",
+      "reason": "",
+      "sample_count": 1,
+      "source_ids": [
+        "6a30fc7c000000002201a33a"
+      ],
+      "full_audit_count": 1,
+      "contact_sheet": "acceptance/PLATFORM_PROJECT_CONTACT_SHEET.jpg"
+    },
+    "collaboration_ownership": {
+      "status": "not_applicable",
+      "reason": "116 条均归属同一账号，无合拍或协作归属对象。"
+    },
+    "low_information_or_asr_risk": {
+      "status": "not_applicable",
+      "reason": "116 条均为图文且视觉/OCR 完整，无 ASR 与低信息样本。"
+    }
+  },
+  "severe_issues": [],
+  "expanded_audit": {
+    "required": false,
+    "completed": true,
+    "scope": "semantic 116/116; product ads 47/47; platform projects 1/1; low-information 116/116"
+  },
+  "semantic_consistency": {
+    "passed": true,
+    "audited": 116,
+    "contradiction_count": 0,
+    "artifact": "acceptance/SEMANTIC_CONSISTENCY_AUDIT.jsonl"
+  },
+  "overview_scope": {
+    "overview_count": 116,
+    "learned_count": 116,
+    "status_file_count": 116,
+    "consistent": true
+  },
+  "commercial_learning": {
+    "product_ads": {
+      "total": 47,
+      "audited": 47,
+      "artifact": "commercial_learning/PRODUCT_AD_INSERTION_AUDIT.jsonl"
+    },
+    "platform_projects": {
+      "total": 1,
+      "audited": 1,
+      "artifact": "commercial_learning/PLATFORM_PROJECT_AUDIT.jsonl"
+    }
+  },
+  "formal_write": false,
+  "callable": false
+}

@@ -1,0 +1,2100 @@
+{
+  "workflow_id": "image_text_xianyu_story_ugc_visual_20260717",
+  "profile_id": "xianyu_story_ugc",
+  "media_branch": "image_text",
+  "executor": "local_machine",
+  "evidence_storage": "local_runtime_cache",
+  "status": "candidate_plan",
+  "items": [
+    {
+      "source_id": "feishu_xianyu_20260713_s01",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s02",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s03",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s04",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s05",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s06",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s07",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s08",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s09",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s10",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s11",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s12",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s13",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s14",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s15",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s16",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s17",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s18",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s19",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260713_s20",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "partial",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s01",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s02",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s03",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s04",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s05",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s06",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s07",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s08",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s09",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s10",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s11",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s12",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s13",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s14",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s15",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 4,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s16",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s17",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s18",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s19",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260714_s20",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s01",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s02",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s03",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s04",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s05",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s06",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s07",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s08",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s09",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s10",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s11",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s12",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s13",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s14",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s15",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s16",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s17",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s18",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s19",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260715_s20",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s01",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s02",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s03",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "partial",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s04",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s05",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s06",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s07",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "empty",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s08",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s09",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s10",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s11",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s12",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s13",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s14",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s15",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s16",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s17",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s18",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 1,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s19",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260716_s20",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s01",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s02",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s03",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "empty"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s04",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s05",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s06",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s07",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s08",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s09",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s10",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s11",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s12",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s13",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s14",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 5,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "empty",
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s15",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s16",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 3,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s17",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s18",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s19",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    },
+    {
+      "source_id": "feishu_xianyu_20260717_s20",
+      "priority": "candidate",
+      "reason": "published_post_evidence_registered",
+      "publish_layer_status": "complete",
+      "image_count": 2,
+      "post_grouping_status": "ordered_post_sequence",
+      "ocr_statuses": [
+        "completed",
+        "completed"
+      ],
+      "visual_statuses": [
+        "completed",
+        "completed"
+      ],
+      "deep_visual_statuses": [
+        "pending_codex_visual_review",
+        "pending_codex_visual_review"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "id": "xugc-m06",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "task:xianyu-story-ugc",
+  "title": "短交易奇遇用单异常、单转折和及时止句完成",
+  "trigger_signals": [
+    "素材核心只有一次异常消息用途或动作",
+    "单次认知转折足以成立",
+    "不需要完整人生背景"
+  ],
+  "trigger_model": {
+    "mechanism": "短内容只保留一条异常消息或用途、一个认知转折和一个即时反应；完成后停句，不补长背景和宏大价值。",
+    "applicable_relations": [
+      "买家与卖家",
+      "退货双方",
+      "讲述者与陌生人"
+    ],
+    "transferable_scenes": [
+      "聊天砍价",
+      "退货赠物",
+      "物品意外用途",
+      "失误与补偿"
+    ],
+    "do_not_trigger_on": [
+      "转折信息不足",
+      "需要多轮执行才能理解",
+      "为短素材虚构长背景"
+    ]
+  },
+  "do_not_use": [
+    "转折信息不足",
+    "需要多轮执行才能理解",
+    "为短素材虚构长背景"
+  ],
+  "execution_steps": [
+    "把异常消息或动作用作开场",
+    "只补必要上下文",
+    "呈现单次转折",
+    "写即时反应或结果",
+    "转折完成即停句"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260715_s11",
+    "feishu_xianyu_20260716_s03",
+    "feishu_xianyu_20260715_s12",
+    "feishu_xianyu_20260715_s13",
+    "feishu_xianyu_20260715_s16",
+    "feishu_xianyu_20260715_s17",
+    "feishu_xianyu_20260715_s18",
+    "feishu_xianyu_20260715_s19"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "异常开场",
+      "必要上下文",
+      "单次转折",
+      "即时反应或结果"
+    ],
+    "variable_elements": [
+      "聊天内容",
+      "物件用途",
+      "反应语气",
+      "是否使用表情"
+    ],
+    "tension_engine": "读者快速追问这条异常消息或用途到底怎么回事。",
+    "trust_engine": "保留一两个具体聊天或动作，不扩写不可证背景。",
+    "understanding_engine": "只解释理解转折所需的信息，避免多轮升华。",
+    "beneficiary_engine": "提供轻量、真实、可快速读完的交易生活感。",
+    "length_basis": "异常—解释—反应完成即停，通常不需要完整人生变化。",
+    "boundaries": [
+      "短不等于信息缺失",
+      "禁止补写虚构背景",
+      "反转成立时不再硬加平台价值"
+    ]
+  },
+  "formal_write": false
+}

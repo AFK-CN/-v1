@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T00:46:10",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6896456428970577160\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0300f090000buqi0pnri6re6r2t7v9g&line=0&file_id=009f30bf28544cf3bb83ed82a2885b0f&sign=7671c16f39c1876cbfbbc52c2f323727&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-10T18:49:33",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6896456428970577160\\video\\source.mp4",
+      "duration_sec": 33.933333,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 1018,
+      "platform": "dy",
+      "source_id": "6896456428970577160",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0300f090000buqi0pnri6re6r2t7v9g&line=0&file_id=009f30bf28544cf3bb83ed82a2885b0f&sign=7671c16f39c1876cbfbbc52c2f323727&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "必须习得且掌握的方法。#dou来聊职场 #知识创作人",
+      "desc": "必须习得且掌握的方法。#dou来聊职场 #知识创作人",
+      "publish_time": 1605706524,
+      "account_id": "77700555383",
+      "account_name": "姜胡说"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-10T18:49:34",
+      "count": 17,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6896456428970577160\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-10T18:49:35",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6896456428970577160\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-10T18:49:49",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6896456428970577160\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6896456428970577160\\video\\transcript.srt",
+      "segments": 13
+    }
+  },
+  "updated_at": "2026-07-10T18:49:49"
+}

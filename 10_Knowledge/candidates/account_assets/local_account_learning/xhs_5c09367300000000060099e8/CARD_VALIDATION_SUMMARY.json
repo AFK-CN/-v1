@@ -1,0 +1,28 @@
+{
+  "schema_version": "xhs_unified_card_validation_v1",
+  "generated_at": "2026-07-16T19:36:46+08:00",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "source_account_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8",
+  "source_mode": "read_only",
+  "batch": "full_116_2026-07-16",
+  "contract_id": "unified_three_layer_v2",
+  "expected_card_count": 116,
+  "generated_card_count": 116,
+  "valid_card_count": 116,
+  "invalid_card_count": 0,
+  "all_valid": true,
+  "direction_counts": {
+    "一周合集": 11,
+    "商业植入": 47,
+    "备餐知识卡": 1,
+    "平台项目": 1,
+    "成本透明一人食": 3,
+    "自然一人食": 50,
+    "设备效率餐": 3
+  },
+  "commercial_isolated_count": 47,
+  "platform_project_isolated_count": 1,
+  "natural_content_count": 68,
+  "commercial_rule": "Primary rule: quality.product_claims_not_validated=true from the full-image vision packet; product/order vocabulary alone is not sufficient."
+}

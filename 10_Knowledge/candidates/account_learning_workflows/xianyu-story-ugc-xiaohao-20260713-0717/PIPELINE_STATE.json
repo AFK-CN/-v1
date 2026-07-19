@@ -1,0 +1,172 @@
+{
+  "schema_version": "2.9",
+  "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+  "account_name": "闲鱼故事UGC任务",
+  "profile_id": "",
+  "source_scope": "飞书文档：小浩0713发布至小浩0717发布，共5篇；按闲鱼故事类UGC任务级学习，不建立小浩个人账号Skill",
+  "media_branches": [
+    "图文",
+    "故事",
+    "长文案"
+  ],
+  "method": "RIA-TV++ adapted for account learning",
+  "stage1_observation_schema": "deep_structure_expression_v1",
+  "stage2_production_mechanism_schema": "production_mechanism_v1",
+  "stage6_production_handoff_schema": "account_production_handoff_v1",
+  "stage6_account_skill_schema": "account_skill_candidate_v1",
+  "status": "completed",
+  "current_stage": "completed",
+  "formal_write_allowed": false,
+  "created_at": "2026-07-17T11:02:23",
+  "updated_at": "2026-07-19T16:09:41",
+  "stages": [
+    {
+      "id": "stage0_account_overview",
+      "name": "整体账号理解",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:14:49",
+      "user_confirmed": true,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage0_account_overview",
+        "errors": [],
+        "metrics": {}
+      }
+    },
+    {
+      "id": "stage1_parallel_extraction",
+      "name": "五视角并行提取",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:19:50",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage1_parallel_extraction",
+        "errors": [],
+        "metrics": {
+          "publish_copy_expected_count": 100,
+          "publish_copy_completed_count": 100,
+          "publish_copy_deferred_count": 0,
+          "candidate_count": 500,
+          "real_acceptance_status": "passed"
+        }
+      }
+    },
+    {
+      "id": "stage2_triple_verification",
+      "name": "三重验证筛选",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:24:42",
+      "user_confirmed": true,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage2_triple_verification",
+        "errors": [],
+        "metrics": {
+          "candidate_count": 500,
+          "cluster_count": 9,
+          "verified_count": 7,
+          "rejected_count": 2
+        }
+      }
+    },
+    {
+      "id": "stage3_ria_construction",
+      "name": "RIA++ 方法单元构造",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:26:08",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage3_ria_construction",
+        "errors": [],
+        "metrics": {
+          "method_count": 7
+        }
+      }
+    },
+    {
+      "id": "stage4_method_linking",
+      "name": "跨卡机制聚合与验证",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:26:09",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage4_method_linking",
+        "errors": [],
+        "metrics": {}
+      }
+    },
+    {
+      "id": "stage5_pressure_test",
+      "name": "触发与边界压力测试",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:27:57",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage5_pressure_test",
+        "errors": [],
+        "metrics": {
+          "method_count": 7
+        }
+      }
+    },
+    {
+      "id": "stage6_learning_delivery",
+      "name": "学习交付与入库候选",
+      "status": "completed",
+      "completed_at": "2026-07-17T11:37:56",
+      "user_confirmed": false,
+      "validation": {
+        "ok": true,
+        "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+        "stage_id": "stage6_learning_delivery",
+        "errors": [],
+        "metrics": {}
+      }
+    }
+  ],
+  "source_total": 100,
+  "deep_card_count": 100,
+  "deferred_evidence_count": 0,
+  "verified_candidate_method_count": 7,
+  "migrations": [
+    {
+      "id": "upgrade_account_learning_v2_6",
+      "completed_at": "2026-07-18T20:55:31",
+      "mode": "evidence_backfill_with_legacy_compatibility"
+    },
+    {
+      "id": "backfill_publish_copy_special_learning_v1",
+      "completed_at": "2026-07-18T21:29:35",
+      "mode": "per_source_publish_layer_observation_and_cross_card_candidate_summary"
+    },
+    {
+      "id": "backfill_account_skill_candidate_v1",
+      "completed_at": "2026-07-19T15:40:56",
+      "source": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md"
+    },
+    {
+      "id": "backfill_account_skill_upgrade_compatibility_v29",
+      "completed_at": "2026-07-19T15:40:56",
+      "source": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md",
+      "mode": "same_account_formal_snapshot_only"
+    }
+  ],
+  "v26_unified_source_count": 100,
+  "v26_legacy_compatible_source_count": 0,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 100,
+  "publish_copy_completed_count": 100,
+  "publish_copy_deferred_count": 0,
+  "stage6_upgrade_compatibility_schema": "account_skill_upgrade_compatibility_v1"
+}

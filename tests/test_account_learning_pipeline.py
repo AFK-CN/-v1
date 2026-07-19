@@ -31,6 +31,154 @@ class AccountLearningPipelineTest(unittest.TestCase):
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text("".join(json.dumps(item, ensure_ascii=False) + "\n" for item in records), encoding="utf-8")
 
+    def _write_account_skill_candidate(self, base: Path, method_ids: list[str]) -> None:
+        skill_root = base / "account_skill_candidate"
+        skill_root.mkdir(parents=True, exist_ok=True)
+        (skill_root / "SKILL.md").write_text(
+            "---\nname: account-test\ndescription: Use for test account content production.\n---\n\n"
+            "# Test account skill\n\nBefore ideation run topic-memory-check. After confirmation run "
+            "topic-memory-record. After delivery run production-memory-record.\n",
+            encoding="utf-8",
+        )
+        for reference in ("production.md", "style.md", "boundaries.md", "acceptance.md"):
+            target = skill_root / "references" / reference
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(f"# {reference}\n\nCandidate evidence.\n", encoding="utf-8")
+        (skill_root / "references" / "visual-evidence.md").write_text(
+            "# Visual evidence\n\n"
+            "- account_source_positive: generation_reality_calibration_and_validation\n"
+            "- user_accepted_ai_output: page_continuity_and_composition_regression_only\n"
+            "- user_rejected_output: validation_only\n"
+            "- external_reference: explicit_scope_only\n",
+            encoding="utf-8",
+        )
+        for view in ("账号整体方法论.md", "内容生产使用说明.md", "减少AI味输出规则.md", "内容输出标准模板.md"):
+            target = skill_root / "account_views" / view
+            target.parent.mkdir(parents=True, exist_ok=True)
+            target.write_text(f"# {view}\n\nCandidate account view.\n", encoding="utf-8")
+        self._write_json(
+            skill_root / "ACCOUNT_SKILL_MANIFEST.json",
+            {
+                "schema_version": "account_skill_candidate_v1",
+                "status": "ready_for_review",
+                "account_skill_id": "test-account",
+                "source_method_ids": method_ids,
+                "formal_write": False,
+                "callable": False,
+                "user_review_required": True,
+            },
+        )
+        skill_hash = hashlib.sha256((skill_root / "SKILL.md").read_bytes()).hexdigest()
+        self._write_json(
+            skill_root / "UPGRADE_COMPATIBILITY.json",
+            {
+                "schema_version": "account_skill_upgrade_compatibility_v1",
+                "account_skill_id": "test-account",
+                "base_version": "0",
+                "target_version": "1.0",
+                "upgrade_scope": "initial_registration",
+                "candidate_only": True,
+                "formal_write": False,
+                "callable": False,
+                "user_review_required": True,
+                "previous_capability_ids": [],
+                "new_capability_ids": ["test-production-baseline"],
+                "capabilities": [
+                    {
+                        "id": "test-production-baseline",
+                        "introduced_in": "1.0",
+                        "status": "active",
+                        "source_paths": ["account_skill_candidate/SKILL.md"],
+                    }
+                ],
+                "changed_capabilities": [],
+                "source_snapshot": [
+                    {
+                        "path": "account_skill_candidate/SKILL.md",
+                        "sha256": skill_hash,
+                    }
+                ],
+                "regression_package_manifests": [],
+                "isolation": {
+                    "same_account_only": True,
+                    "cross_account_merge": False,
+                    "system_rule_contamination": False,
+                    "absolute_or_nas_paths": False,
+                },
+                "rollback": {"mode": "remove_unapproved_candidate"},
+            },
+        )
+        visual_root = base / "visual_reference_candidate"
+        visual_items = []
+        roles = ["cover_or_primary_result", "process_or_proof", "detail_or_outcome"]
+        risks = ["morphology_sensitive", "material_sensitive", "temporal_state_sensitive"]
+        for index, (role, risk) in enumerate(zip(roles, risks), 1):
+            asset = visual_root / "assets" / f"reference-{index}.jpg"
+            asset.parent.mkdir(parents=True, exist_ok=True)
+            asset.write_bytes(f"account-owned-reference-{index}".encode("utf-8"))
+            visual_items.append(
+                {
+                    "id": f"visual-positive-{index}",
+                    "source_kind": "account_source_positive",
+                    "source_account_name": "测试账号",
+                    "source_id": f"source-{index}",
+                    "evidence_coordinate": f"source-{index}#image:{index}",
+                    "path": f"assets/reference-{index}.jpg",
+                    "sha256": hashlib.sha256(asset.read_bytes()).hexdigest(),
+                    "production_roles": [role],
+                    "risk_dimensions": [risk],
+                    "allowed_use": ["generation_reference", "validation"],
+                    "method_evidence_eligible": False,
+                    "origin_kind": "account_original",
+                    "ai_generated": False,
+                    "authenticity_authority": True,
+                    "realism_authority": True,
+                    "generation_reference_eligible": True,
+                }
+            )
+        self._write_json(
+            visual_root / "manifest.json",
+            {
+                "schema_version": "production_visual_asset_manifest_v1",
+                "status": "ready_for_review",
+                "account_name": "测试账号",
+                "source_kind": "account_source_positive",
+                "sampling": "role_and_risk",
+                "formal_write": False,
+                "callable": False,
+                "user_review_required": True,
+                "required_roles": roles,
+                "required_risk_dimensions": risks,
+                "items": visual_items,
+            },
+        )
+        self._write_json(
+            base / "VISUAL_REFERENCE_PROFILE.json",
+            {
+                "schema_version": "production_visual_reference_v1",
+                "status": "ready_for_review",
+                "account_name": "测试账号",
+                "formal_write": False,
+                "callable": False,
+                "user_review_required": True,
+                "visual_applicability": "applicable",
+                "sampling_profiles": {
+                    "audit_offline_source": "direction_balanced",
+                    "production_visual_source": "role_and_risk",
+                },
+                "production_role_inventory": roles,
+                "risk_dimension_inventory": risks,
+                "positive_manifest": "visual_reference_candidate/manifest.json",
+                "negative_manifest": "",
+                "source_separation": {
+                    "account_source_positive": "generation_reality_calibration_and_validation",
+                    "user_accepted_ai_output": "page_continuity_and_composition_regression_only",
+                    "user_rejected_output": "validation_only",
+                    "external_reference": "explicit_scope_only",
+                },
+            },
+        )
+
     def _init(self, root: Path) -> Path:
         result = account_learning_pipeline.init_workflow(
             root,
@@ -102,6 +250,18 @@ class AccountLearningPipelineTest(unittest.TestCase):
                     }
                 )
             elif candidate["type"] == "expression":
+                publish_dimensions = [
+                    "title_promise_and_information_gap",
+                    "title_specificity_and_voice",
+                    "opening_entry",
+                    "body_information_sequence",
+                    "operational_or_argument_detail_density",
+                    "story_explanation_balance",
+                    "lived_experience_signal",
+                    "closing_mode",
+                    "topic_strategy",
+                    "publish_visual_alignment",
+                ]
                 candidate.update(
                     {
                         "observation_schema": "deep_structure_expression_v1",
@@ -119,10 +279,122 @@ class AccountLearningPipelineTest(unittest.TestCase):
                             "evidence_coordinates": ["source_4#transcript:2-5"],
                             "expression_fingerprint": "具体经历先行；单卡草案，待多卡验证",
                         },
+                        "publish_copy_observation_refs": ["publish-copy-source_4"],
+                        "publish_copy_observation": {
+                            "schema": "publish_copy_observation_v1",
+                            "status": "single_card_observation",
+                            "dimensions_considered": publish_dimensions,
+                            "observed_signals": [
+                                {
+                                    "signal": "title_promise_and_information_gap",
+                                    "evidence": "标题先承诺具体问题",
+                                    "source_coordinate": "card:cards/source_4.md#section:发布内容层学习",
+                                }
+                            ],
+                            "missing_or_uncertain_signals": publish_dimensions[1:],
+                            "evidence_coordinates": ["card:cards/source_4.md#section:发布内容层学习"],
+                            "publish_layer_status": "observed",
+                            "source_facets": {
+                                "title": {
+                                    "status": "observed_raw",
+                                    "evidence": "一个具体问题如何解决",
+                                    "source_coordinate": "card:cards/source_4.md#section:发布内容层学习",
+                                },
+                                "body": {
+                                    "status": "observed_analysis",
+                                    "evidence": "正文从经历进入并补充步骤",
+                                    "source_coordinate": "card:cards/source_4.md#section:发布内容层学习",
+                                },
+                                "topics": {
+                                    "status": "explicitly_missing",
+                                    "evidence": "未提供显式话题或标签证据",
+                                    "source_coordinate": "card:cards/source_4.md#section:发布内容层学习",
+                                },
+                                "coordination": {
+                                    "status": "observed_analysis",
+                                    "evidence": "标题承诺问题，正文完成解释",
+                                    "source_coordinate": "card:cards/source_4.md#section:发布内容层学习",
+                                },
+                            },
+                            "publish_copy_fingerprint": "title_promise_and_information_gap；单卡草案，待多卡验证",
+                        },
                     }
                 )
             candidates.append(candidate)
             self._write_jsonl(base / "candidates" / filename, [candidate])
+        publish_record = {
+            "id": "publish-copy-source_4",
+            "type": "publish_copy_observation",
+            "source_refs": ["source_4"],
+            "expression_candidate_ids": ["m4"],
+            "card_path": "cards/source_4.md",
+            "card_schema": "unified_three_layer_v2",
+            "compatibility_mode": "unified_card",
+            "status": "candidate_observation",
+            "callable": False,
+            "publish_copy_observation": candidates[3]["publish_copy_observation"],
+        }
+        publish_path = base / "candidates/publish_copy_observations.jsonl"
+        self._write_jsonl(publish_path, [publish_record])
+        self._write_json(
+            base / "PUBLISH_COPY_SPECIAL_STUDY.json",
+            {
+                "schema_version": "publish_copy_special_study_v1",
+                "workflow_id": "test-account",
+                "account_name": "测试账号",
+                "status": "completed",
+                "observation_schema": "publish_copy_observation_v1",
+                "observation_file": "candidates/publish_copy_observations.jsonl",
+                "observation_sha256": hashlib.sha256(publish_path.read_bytes()).hexdigest(),
+                "expected_source_count": 1,
+                "completed_source_count": 1,
+                "deferred_source_count": 0,
+                "deferred_source_ids": [],
+                "unified_card_count": 1,
+                "legacy_publish_evidence_count": 0,
+                "dimension_coverage": {
+                    dimension: {
+                        "observed_source_count": 1 if dimension == "title_promise_and_information_gap" else 0,
+                        "missing_source_count": 0 if dimension == "title_promise_and_information_gap" else 1,
+                    }
+                    for dimension in publish_dimensions
+                },
+                "facet_coverage": {
+                    "title": {"observed_raw": 1},
+                    "body": {"observed_analysis": 1},
+                    "topics": {"explicitly_missing": 1},
+                    "coordination": {"observed_analysis": 1},
+                },
+                "cross_card_pattern_candidates": [
+                    {
+                        "id": "publish-pattern-test",
+                        "signals": ["title_promise_and_information_gap"],
+                        "source_count": 1,
+                        "source_refs": ["source_4"],
+                        "status": "candidate_only",
+                        "callable": False,
+                        "triple_verification_required": True,
+                    }
+                ],
+                "formal_write": False,
+                "callable": False,
+                "user_review_required": True,
+            },
+        )
+        (base / "PUBLISH_COPY_SPECIAL_STUDY.md").write_text(
+            "# 测试账号发布文案专项学习报告\n\n- 专项观察：1 / 1\n",
+            encoding="utf-8",
+        )
+        state_path = base / "PIPELINE_STATE.json"
+        state = json.loads(state_path.read_text(encoding="utf-8"))
+        state.update(
+            {
+                "publish_copy_expected_count": 1,
+                "publish_copy_completed_count": 1,
+                "publish_copy_deferred_count": 0,
+            }
+        )
+        self._write_json(state_path, state)
         (base / "REAL_ACCEPTANCE_REPORT_2026-07-14.md").write_text(
             "# 真实验收\n\n分层样本已回看源证据，未发现未处理严重问题。\n", encoding="utf-8"
         )
@@ -155,7 +427,7 @@ class AccountLearningPipelineTest(unittest.TestCase):
             },
         )
         result = account_learning_pipeline.complete_stage(root, "test-account", "stage1_parallel_extraction")
-        self.assertTrue(result["ok"])
+        self.assertTrue(result["ok"], result)
         return candidates
 
     def _write_clusters(self, base: Path, candidates: list[dict]) -> None:
@@ -356,6 +628,7 @@ class AccountLearningPipelineTest(unittest.TestCase):
                     "acceptance_checks": [],
                 },
             )
+            self._write_account_skill_candidate(base, ["m1"])
             final = account_learning_pipeline.complete_stage(root, "test-account", "stage6_learning_delivery")
             self.assertTrue(final["ok"])
             self.assertEqual(final["next_stage"], "completed")
@@ -366,6 +639,12 @@ class AccountLearningPipelineTest(unittest.TestCase):
             self.assertFalse((root / "10_Knowledge" / "formal").exists())
             validation = account_learning_pipeline.validate_workflow(root, "test-account")
             self.assertTrue(validation["ok"])
+
+            (base / "account_skill_candidate" / "ACCOUNT_SKILL_MANIFEST.json").unlink()
+            invalid_status = account_learning_pipeline.workflow_status(root, "test-account")
+            self.assertFalse(invalid_status["ok"])
+            self.assertEqual(invalid_status["status"], "completed_with_validation_errors")
+            self.assertEqual(invalid_status["completed_stage_failures"], ["stage6_learning_delivery"])
 
     def test_triple_verification_rejects_unaccounted_candidate(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:
@@ -503,11 +782,207 @@ class AccountLearningPipelineTest(unittest.TestCase):
                     "acceptance_checks": [],
                 },
             )
+            self._write_account_skill_candidate(base, ["m1"])
 
             result = account_learning_pipeline.validate_stage(root, "test-account", "stage6_learning_delivery")
 
             self.assertFalse(result["ok"])
             self.assertIn("production_handoff:structures_verified_but_empty", result["errors"])
+
+    def test_visual_reference_rejects_cross_account_asset(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            base = self._init(root)
+            self._write_account_skill_candidate(base, ["m1"])
+            manifest_path = base / "visual_reference_candidate" / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["items"][0]["source_account_name"] = "另一个账号"
+            self._write_json(manifest_path, manifest)
+
+            result = account_learning_pipeline.validate_stage(
+                root, "test-account", "stage6_learning_delivery"
+            )
+
+            self.assertFalse(result["ok"])
+            self.assertIn(
+                "visual_reference:visual-positive-1:cross_account_asset_forbidden",
+                result["errors"],
+            )
+
+    def test_v29_stage6_requires_upgrade_compatibility_manifest(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            base = self._init(root)
+            self._write_account_skill_candidate(base, ["m1"])
+            (base / "account_skill_candidate/UPGRADE_COMPATIBILITY.json").unlink()
+
+            result = account_learning_pipeline.validate_stage(
+                root, "test-account", "stage6_learning_delivery"
+            )
+
+            self.assertFalse(result["ok"])
+            self.assertIn(
+                "missing:account_skill_candidate/UPGRADE_COMPATIBILITY.json",
+                result["errors"],
+            )
+
+    def test_v29_stage6_blocks_silent_capability_loss(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            base = self._init(root)
+            self._write_account_skill_candidate(base, ["m1"])
+            path = base / "account_skill_candidate/UPGRADE_COMPATIBILITY.json"
+            payload = json.loads(path.read_text(encoding="utf-8"))
+            payload["previous_capability_ids"] = ["lost-capability"]
+            self._write_json(path, payload)
+
+            result = account_learning_pipeline.validate_stage(
+                root, "test-account", "stage6_learning_delivery"
+            )
+
+            self.assertFalse(result["ok"])
+            self.assertIn(
+                "account_skill_upgrade_silent_capability_loss:lost-capability",
+                result["errors"],
+            )
+
+    def test_visual_reference_requires_declared_role_coverage(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            base = self._init(root)
+            self._write_account_skill_candidate(base, ["m1"])
+            manifest_path = base / "visual_reference_candidate" / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["items"][2]["production_roles"] = ["process_or_proof"]
+            self._write_json(manifest_path, manifest)
+
+            result = account_learning_pipeline.validate_stage(
+                root, "test-account", "stage6_learning_delivery"
+            )
+
+            self.assertFalse(result["ok"])
+            self.assertIn(
+                "visual_reference:role_not_covered:detail_or_outcome", result["errors"]
+            )
+
+    def test_visual_reference_rejects_ai_output_mislabeled_as_account_original(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            base = self._init(root)
+            self._write_account_skill_candidate(base, ["m1"])
+            manifest_path = base / "visual_reference_candidate" / "manifest.json"
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            manifest["items"][0]["origin_kind"] = "ai_generated"
+            manifest["items"][0]["ai_generated"] = True
+            self._write_json(manifest_path, manifest)
+
+            result = account_learning_pipeline.validate_stage(
+                root, "test-account", "stage6_learning_delivery"
+            )
+
+            self.assertFalse(result["ok"])
+            self.assertIn(
+                "visual_reference:visual-positive-1:ai_generated_positive_forbidden",
+                result["errors"],
+            )
+
+    def test_user_accepted_ai_output_cannot_become_generation_or_realism_reference(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            base = self._init(root)
+            self._write_account_skill_candidate(base, ["m1"])
+            profile_path = base / "VISUAL_REFERENCE_PROFILE.json"
+            profile = json.loads(profile_path.read_text(encoding="utf-8"))
+            profile["accepted_ai_output_manifest"] = "visual_regression_candidate/accepted.json"
+            self._write_json(profile_path, profile)
+            self._write_json(
+                base / "visual_regression_candidate" / "accepted.json",
+                {
+                    "source_kind": "user_accepted_ai_output",
+                    "origin_kind": "ai_generated",
+                    "reference_policy": "page_continuity_and_composition_regression_only",
+                    "account_name": "测试账号",
+                    "items": [
+                        {
+                            "id": "accepted-ai-1",
+                            "source_kind": "user_accepted_ai_output",
+                            "origin_kind": "ai_generated",
+                            "source_account_name": "测试账号",
+                            "allowed_use": ["generation_reference"],
+                            "authenticity_authority": True,
+                            "realism_authority": True,
+                            "master_reference_eligible": False,
+                            "golden_positive_eligible": False,
+                            "method_evidence_eligible": False,
+                            "generation_reference_eligible": True,
+                        }
+                    ],
+                },
+            )
+
+            result = account_learning_pipeline.validate_stage(
+                root, "test-account", "stage6_learning_delivery"
+            )
+
+            self.assertFalse(result["ok"])
+            self.assertIn(
+                "visual_reference:accepted-ai-1:allowed_use_invalid", result["errors"]
+            )
+            self.assertIn(
+                "visual_reference:accepted-ai-1:authenticity_authority_must_be_false",
+                result["errors"],
+            )
+            self.assertIn(
+                "visual_reference:accepted-ai-1:generation_reference_eligible_must_be_false",
+                result["errors"],
+            )
+
+    def test_user_accepted_ai_output_allows_only_continuity_and_composition_regression(self) -> None:
+        with tempfile.TemporaryDirectory() as tmp:
+            root = self._root(tmp)
+            contract = account_learning_pipeline.load_config(root)[
+                "stage6_visual_reference_package"
+            ]["accepted_ai_output_contract"]
+            self._write_json(
+                root / "accepted.json",
+                {
+                    "source_kind": "user_accepted_ai_output",
+                    "origin_kind": "ai_generated",
+                    "reference_policy": "page_continuity_and_composition_regression_only",
+                    "account_name": "测试账号",
+                    "items": [
+                        {
+                            "id": "accepted-ai-regression-1",
+                            "source_kind": "user_accepted_ai_output",
+                            "origin_kind": "ai_generated",
+                            "source_account_name": "测试账号",
+                            "allowed_use": [
+                                "page_continuity_regression",
+                                "composition_regression",
+                            ],
+                            "authenticity_authority": False,
+                            "realism_authority": False,
+                            "master_reference_eligible": False,
+                            "golden_positive_eligible": False,
+                            "method_evidence_eligible": False,
+                            "generation_reference_eligible": False,
+                        }
+                    ],
+                },
+            )
+            errors: list[str] = []
+
+            account_learning_pipeline._validate_accepted_ai_output_manifest(
+                root,
+                "accepted.json",
+                "测试账号",
+                contract,
+                set(),
+                set(),
+                errors,
+            )
+
+            self.assertEqual(errors, [])
 
     def test_stage1_rejects_missing_real_acceptance_artifacts(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

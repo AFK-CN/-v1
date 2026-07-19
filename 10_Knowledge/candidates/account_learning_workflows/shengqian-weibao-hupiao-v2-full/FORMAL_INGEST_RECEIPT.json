@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "schema_version": "2.3",
+  "status": "formal_ingested",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "formal_account_dir": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）",
+  "ingested_at": "2026-07-16T20:11:21+08:00",
+  "counts": {
+    "source_total": 116,
+    "formal_evidence_cards": 116,
+    "natural": 68,
+    "product_ads": 47,
+    "platform_projects": 1,
+    "formal_methods": 7,
+    "pressure_cases_passed": 35,
+    "pressure_cases_total": 35
+  },
+  "source_hashes": {
+    "pipeline_state_sha256": "ed6111da45b55c2216ec62792dd40384b76d57eaaba29a20d66352bf5aafd922",
+    "real_acceptance_sha256": "3f7e200109d617f0a97f4a910d3771ead496663683d3b992fa0922fa71827efe",
+    "verified_sha256": "8fa9a9c99b8933a77838d7bffa63af343ea963023c1ac747774fc0f0a13483f8",
+    "promotion_manifest_sha256": "fdfc8109a599f8cf36597133ddd3b9b39bc327dc461e0175a01f25a84f7d2695",
+    "card_inventory_sha256": "69b8f0da196e85079ea0b8e12a6c5216dbf2188380f00d7535ecaebeeb7dc312"
+  },
+  "source_method_ids": [
+    "m01-complete-meal-positioning",
+    "m02-fixed-mother-topic-variable",
+    "m03-double-cover-tiered-tutorial",
+    "m04-weekly-reindex",
+    "m05-cost-proof-tail",
+    "m06-device-process-proof",
+    "m07-recipe-body-fingerprint"
+  ],
+  "user_confirmation": "2026-07-16 用户明确回复‘入库吧’。",
+  "candidate_preserved": true,
+  "raw_source_modified": false
+}

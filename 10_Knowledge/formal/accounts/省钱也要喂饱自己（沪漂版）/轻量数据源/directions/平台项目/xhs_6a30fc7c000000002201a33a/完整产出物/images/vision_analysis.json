@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "status": "success",
+  "method": "codex_image2_multimodal",
+  "platform": "xhs",
+  "source_id": "6a30fc7c000000002201a33a",
+  "account_id": "xhs_5c09367300000000060099e8",
+  "title": "独居一人食｜夏日干净减脂餐！",
+  "source_image_count": 13,
+  "analyzed_image_count": 13,
+  "ocr_reprocessed": false,
+  "visual_summary": "从黑底四碗总览进入带荷花、水蜜桃和玻璃器皿的夏日餐桌，再依次拆解莼菜汤、泡泡馄饨、番茄牛肉滑蛋和茭白。食谱步骤与花果生活镜头交织，使内容既像教程，也像江南夏日生活记录。",
+  "content_intent": "用清淡餐食、时令食材与花果布景共同表达夏日独居饮食的清爽和仪式感。",
+  "learning_value": "可学习主题化一人食：先确定季节意象，再让菜品、食材特写、步骤图和生活静物围绕同一气质展开，而不是只堆叠菜谱。",
+  "food_visual": {
+    "meal_type": "江南夏日清淡一人食",
+    "dish_components": ["莼菜汤", "番茄牛肉滑蛋", "清炒茭白", "泡泡馄饨", "水蜜桃"],
+    "presentation": "四碗餐保持黑底栏目格式，生活场景改用浅色桌布、透明玻璃和粉色荷花；汤与清炒菜多用浅色圆碗。",
+    "appetite_strategy": "莼菜与汤水的通透感、番茄鸡蛋的橙红嫩黄、水蜜桃的粉红和荷花的柔和色调共同营造清凉多汁感。"
+  },
+  "style": {
+    "visual_direction": "夏日江南时令餐与生活方式叙事",
+    "palette": "浅绿、乳白、番茄红、桃粉和荷花粉",
+    "lighting": "高调自然柔光，静物画面通透",
+    "composition": "四碗俯拍、季节静物、单菜近景、步骤拼图交替",
+    "tone": "清雅、轻盈、独居仪式感"
+  },
+  "narrative_structure": ["完整餐封面", "花果餐桌定调", "莼菜汤成品", "汤品步骤", "泡泡馄饨或配餐呈现", "米饭细节", "馄饨准备", "馄饨成品", "番茄牛肉滑蛋", "滑蛋步骤", "清炒茭白", "茭白步骤", "水蜜桃收尾"],
+  "replication_recipe": {
+    "template": "完整餐 -> 季节生活场景 -> 菜品成品与步骤成对出现 -> 时令水果收尾",
+    "shooting_or_design": "选择一种季节花材和水果作为视觉线索；食谱图保持简洁俯拍；生活图加入玻璃瓶、浅桌布和自然光。",
+    "content_rules": "季节静物必须与菜品气质一致；教程仍按成品后接步骤；生活画面只承担情绪，不替代食谱信息。",
+    "reusable_angle": "适用于夏日汤饭、江南时令菜、春日野菜和秋季果蔬主题餐。",
+    "risk_boundary": "减脂效果、热量、食材功效、产品品质和肉蛋熟度未由图片验证。"
+  },
+  "images": [
+    {"index": 0, "file": "000_cover.jpg", "role": "四碗餐封面", "visual": "汤、番茄牛肉滑蛋、浅色配菜和主食在黑底构成完整一餐。"},
+    {"index": 1, "file": "001_image.jpg", "role": "夏日生活场景", "visual": "荷花、水蜜桃和完整餐食组成浅色静物餐桌。"},
+    {"index": 2, "file": "002_image.jpg", "role": "莼菜汤近景", "visual": "深色碗中呈现莼菜、鸡丝和火腿丝的清汤。"},
+    {"index": 3, "file": "003_image.jpg", "role": "莼菜汤步骤", "visual": "食材准备、入锅和完成汤品的多格过程。"},
+    {"index": 4, "file": "004_image.jpg", "role": "汤食或配餐近景", "visual": "浅色汤食盛于圆碗，突出清淡通透质感。"},
+    {"index": 5, "file": "005_image.jpg", "role": "主食细节", "visual": "白色米饭单碗居中。"},
+    {"index": 6, "file": "006_image.jpg", "role": "泡泡馄饨准备", "visual": "馄饨或相关食材的准备与说明拼图。"},
+    {"index": 7, "file": "007_image.jpg", "role": "泡泡馄饨成品", "visual": "浅色圆碗中的清汤馄饨。"},
+    {"index": 8, "file": "008_image.jpg", "role": "番茄牛肉滑蛋近景", "visual": "橙红番茄、牛肉和嫩黄滑蛋形成综合色块。"},
+    {"index": 9, "file": "009_image.jpg", "role": "番茄牛肉滑蛋步骤", "visual": "鸡蛋、番茄和牛肉分步处理后合炒的拼图。"},
+    {"index": 10, "file": "010_image.jpg", "role": "清炒茭白近景", "visual": "浅色茭白丝盛于大圆碗，画面留白充足。"},
+    {"index": 11, "file": "011_image.jpg", "role": "茭白步骤", "visual": "茭白处理和下锅翻炒的多格过程。"},
+    {"index": 12, "file": "012_image.jpg", "role": "时令水果收尾", "visual": "手持碗装水蜜桃，以粉红多汁质感结束。"}
+  ],
+  "quality": {"all_source_images_reviewed": true, "visual_only_supplement": true, "ocr_preserved": true, "nutrition_claims_not_validated": true, "food_safety_not_inferred": true, "promotion_context_detected": true, "product_claims_not_validated": true}
+}

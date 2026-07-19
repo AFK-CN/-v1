@@ -1,0 +1,4 @@
+interface:
+  display_name: "闲鱼故事 UGC"
+  short_description: "用真实事实和图片生成自然、少模板感的闲鱼故事UGC发布包"
+  default_prompt: "Use $xianyu-story-ugc to create a publish-ready Xianyu story UGC package, including an evidence-grounded visual plan when images are provided."

@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "direction": "平台项目",
+  "source_id": "7190919342081527100",
+  "title": "《如此看小品》#李宗恒",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/平台项目/cards/7190919342081527100.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7190919342081527100",
+  "copied_file_count": 29,
+  "copied_bytes": 8641428,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 657,
+      "sha256": "af6be1b03b5b57f1c24a14f30dcff70193a057adcf6e34d27287dfc0dacbb402"
+    },
+    {
+      "path": "source.json",
+      "bytes": 877,
+      "sha256": "845f3ad486aea00f33fafcf51a0f510b9f27ef7130340f7a4879cf939c0c03f8"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2248,
+      "sha256": "fc187eba53fbe7b94b30abf665705643d59c627a2d12f9a5977b18d7ae77f0a8"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 1087190,
+      "sha256": "a653c6e23f02328b26132d5ad2dbd68c6e8c6d06decf33d05dab2d85716f1e21"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 50447,
+      "sha256": "d805696af822ad5b929a0ed5b520a99fb2c336489c9f029778d88a6a3ec692e9"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 51086,
+      "sha256": "329e061f31694e2c944cc66bf7d514d03dee544ce20b4db823df860ddfe4c384"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 53167,
+      "sha256": "82433aebb349a345071ba4c7e3e21275f56b9a653e1638ce752cb43785322946"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 54751,
+      "sha256": "563a70fb09e56bae4e4886c722380c01beaff94ea7ccc1fb40b0257b1bba909f"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 141483,
+      "sha256": "1761ff2f230a3e3b9db443b70dbb9e4ffb290b1c0b3785973f30cc3e230a36fc"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 106773,
+      "sha256": "4aaf4397823eebba3859e023facaba4e0d02530d93642c245181df50e94cfe6a"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 110510,
+      "sha256": "304b890b704d2f9d49a14c2da11e685f374e5faaf61311add251cd3729138792"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 116943,
+      "sha256": "40d960d422921a4120a364bcd8e96885758085cb0ac88dec9ce8931033a356e0"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 102146,
+      "sha256": "0329216aa0d4fd7b5c4c2ccda97e2caaca2b8c58dedab310df24e2e4d4d34189"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 65597,
+      "sha256": "d40e0581974b51182b9d2289604701f20d7eef86bf023b085f65a75a7d67d467"
+    },
+    {
+      "path": "video/frames/000010.jpg",
+      "bytes": 43400,
+      "sha256": "90ecff1509c5fc6d6ee45943b42677bee6aa6ae0034536ff7225f0e6f5e418eb"
+    },
+    {
+      "path": "video/frames/000011.jpg",
+      "bytes": 34419,
+      "sha256": "2e336f6f457917e560ccc0f68cca73c1b2e7acbe67f8581e3516a8cf972d4b4d"
+    },
+    {
+      "path": "video/frames/000012.jpg",
+      "bytes": 37426,
+      "sha256": "e1db9e36f6cfeaab311104f579a212c4aa69abe41de3d619a3e3fe5e77ddaa3d"
+    },
+    {
+      "path": "video/frames/000013.jpg",
+      "bytes": 36077,
+      "sha256": "5352aca2736140ff61f8c1a4121ddf5a6d1b981e7d85ba2fdb2fc22f10e0b75a"
+    },
+    {
+      "path": "video/frames/000014.jpg",
+      "bytes": 46389,
+      "sha256": "997b05053497c2156970d663ab0ee59592f6a582782f54587f6d7248d20f9ca1"
+    },
+    {
+      "path": "video/frames/000015.jpg",
+      "bytes": 41431,
+      "sha256": "0fe5e6d5c7b665d2fc6d766b4747a32351b230ae1e0ce728c18a06fc7df26ecf"
+    },
+    {
+      "path": "video/frames/000016.jpg",
+      "bytes": 42502,
+      "sha256": "f6c19e142ddaac865941c0078bff0ac7ec13061eaa74bbe4b1869f620996a036"
+    },
+    {
+      "path": "video/frames/000017.jpg",
+      "bytes": 41205,
+      "sha256": "27f31e90a0603da576ef9867c8185bbf269e0a846631478291ed59d4f4f1ff35"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 2037,
+      "sha256": "b780cf9ebb54dbb2bc326b80be07f33da848f0660d9e6d88eaf01ff7f2f919b9"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 6371351,
+      "sha256": "4cb29f53efe1b6f5fa4ad9c8ebc2b1881efcfda26badb0cc364140d2c8833ace"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 201,
+      "sha256": "af26d9340e225f9480eeacc99355ab4498aad81997d84f8cc488a75eabe7c965"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 72,
+      "sha256": "c694ad2c1d5971afcbf250a1e75b39d7eed238d2928fa1b767496e830d851c03"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 38,
+      "sha256": "92407a20ac6b91c826310c306ead094b9329c2467cfa700a3f53199ba2e17d95"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 308,
+      "sha256": "40200f05e3f05d9e6e60511f121d56e84e4890416059c2e73e8789a70c003434"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 697,
+      "sha256": "be1d019dd7ba4ef716337f56314176532551338e2ebfadde7aed4b0933ebfa84"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m05-cost-proof-tail",
+  "test_cases": [
+    {
+      "id": "m05-cost-proof-tail-t1",
+      "type": "should_trigger",
+      "prompt": "有完整餐、关键步骤和当天订单截图，主题是这顿饭花了多少。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m05-cost-proof-tail-t2",
+      "type": "should_not_trigger",
+      "prompt": "标题说十元吃饱，但只有成品图，没有任何成本来源。",
+      "expected_decision": "do_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "m06-device-process-proof"
+    },
+    {
+      "id": "m05-cost-proof-tail-t3",
+      "type": "edge_case",
+      "prompt": "只有逐菜价格和日期，没有订单截图；可标为当期个案。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m05-cost-proof-tail-t4",
+      "type": "cross_scene_transfer",
+      "prompt": "迁移到宿舍采购复盘：先交付餐和做法，最后列当日成本。",
+      "expected_decision": "trigger",
+      "mechanism_preserved": true,
+      "source_scene": "低预算一人食",
+      "target_scene": "宿舍/加班/便当等改变人物与道具后的新场景"
+    },
+    {
+      "id": "m05-cost-proof-tail-t5",
+      "type": "commercial_contamination",
+      "prompt": "品牌促销到手价很低，想用它验证自然省钱链。",
+      "expected_decision": "do_not_trigger",
+      "commercial_source_excluded_from_natural_v1": true
+    }
+  ],
+  "evaluation_rule": "仅当核心机制存在且未触发商品广告/平台项目/证据缺失边界时触发。"
+}

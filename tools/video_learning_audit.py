@@ -538,10 +538,10 @@ def _config_from_args(args: argparse.Namespace) -> AuditConfig:
     return config
 
 
-def main(default_profile: str = "jianghushuo") -> int:
+def main(default_profile: str = "") -> int:
     parser = argparse.ArgumentParser(description="Audit profile-based video deep-learning cards for structure, depth, similarity and evidence risks.")
     parser.add_argument("--root", default=".")
-    parser.add_argument("--profile", default=default_profile)
+    parser.add_argument("--profile", default=default_profile or None, required=not bool(default_profile))
     parser.add_argument("--scope")
     parser.add_argument("--learned-base")
     parser.add_argument("--selected-dir")

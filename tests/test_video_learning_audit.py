@@ -119,7 +119,7 @@ class VideoLearningAuditTests(unittest.TestCase):
 
             result = run_audit(root, AuditConfig.for_profile(profile))
             report = root / f"10_Knowledge/candidates/learning_cards/learned_cards/{profile}/audit/machine_audit.md"
-            wrong_report = root / "10_Knowledge/candidates/learning_cards/learned_cards/jianghushuo/audit/machine_audit.md"
+            wrong_report = root / "10_Knowledge/candidates/learning_cards/learned_cards/knowledge_account_a/audit/machine_audit.md"
             report_exists = report.exists()
             wrong_report_exists = wrong_report.exists()
 

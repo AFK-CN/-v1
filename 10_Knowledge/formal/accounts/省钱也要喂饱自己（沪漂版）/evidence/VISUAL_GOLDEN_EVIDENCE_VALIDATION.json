@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "skill_version": "2.0",
+  "validated_at": "2026-07-19",
+  "status": "passed",
+  "proposal": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/proposals/account-realism-v2.0.md",
+  "golden_package": {
+    "id": "shengqian-visual-golden-v2",
+    "version": "2.0",
+    "manifest": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/assets/visual/golden-package-v2/manifest.json",
+    "account_source_count": 16,
+    "user_accepted_count": 5,
+    "account_master_reference_count": 4,
+    "negative_regression_count": 5,
+    "source_ids": [
+      "68cb6d6700000000120219c8",
+      "68f9fd8d000000000700215d",
+      "6917060e000000000703382f"
+    ],
+    "accepted_content_id": "content_shengqian_20260716_tomato_tofu"
+  },
+  "light_source_bridge": {
+    "base_manifest": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/轻量数据源/manifest.json",
+    "base_sampling": "7 个方向、10 条代表样本、自然一人食 1 条",
+    "identified_gap": "按方向抽样不足以覆盖视觉生产的完整餐机位、页面角色和高风险食材形态",
+    "new_sampling": "按完整餐母版、厨房过程和食材风险角色精确抽取，复制进入 Skill 并固定哈希"
+  },
+  "root_cause": [
+    "v1.9 允许用户认可 AI 完整餐与账号原图共同进入新母版，形成 AI 正例回流",
+    "默认胡桃木桌面和手作斑点陶器偏离账号黑/深炭灰桌面、普通器皿与手机直闪视觉语法",
+    "食材结果近景可以进入完整餐母版，使局部纹理要求扩散到整张图",
+    "验收用的纤维、颗粒、叶脉和高光词被写入生图提示词，诱导模型制造统一微纹理",
+    "餐具与桌面在食物形态确认之前一起变化，无法隔离真实性下降来自食物还是材质编辑"
+  ],
+  "v2_controls": [
+    "食物母版只允许 2–3 张账号 account_source master_reference",
+    "用户认可 AI 图只允许 validation_only；固定手部锚点是唯一 identity_only 例外",
+    "黑/深炭灰桌面锁定为账号基线，餐具只能在食物母版通过后做 tableware_local_edit",
+    "餐具编辑必须通过桌面、食物、构图和光线四项材质保真检查",
+    "prompt_firewall 隔离生图语言与验收语言，禁止微纹理枚举和全画面统一锐化",
+    "单个完整餐最多两个 texture_risk=high 单元"
+  ],
+  "validators": [
+    "skill/scripts/validate_visual_golden.py",
+    "skill/scripts/validate_visual_package.py",
+    "skill/scripts/validate_package_batch.py"
+  ],
+  "test_results": {
+    "golden_manifest": "passed: 21/21 files, 16 account-source + 5 user-accepted, 4 account master references, 3 source_ids",
+    "visual_positive_and_writeback": "passed with visual-package-v2.0",
+    "visual_negative_cases": [
+      "user_accepted_ai_generation_reference blocked",
+      "ingredient_closeup_in_food_master blocked",
+      "prompt_firewall_failure blocked",
+      "tableware_food_preservation_failure blocked",
+      "derived_from_derived blocked",
+      "visual_qa_failure blocked",
+      "file_hash_mismatch blocked",
+      "negative_reference blocked"
+    ],
+    "package_texture_budget": "passed positive case; more than two high-risk texture units blocked",
+    "skill_quick_validate": "passed",
+    "unit_tests": "250 passed",
+    "user_layer_validation": "passed",
+    "system_validation": "passed with 0 boundary violations"
+  },
+  "evidence_boundaries": [
+    "账号原图独占食物、相机、完整餐构图、厨房过程和真实食材形态",
+    "用户认可 AI 成稿只用于整包连续性和回归验收，不作为新图生成输入",
+    "餐具材质锚点只用于后置器皿局部替换，不迁移其桌面、灯光、杯子、方盘或构图",
+    "不得复制来源菜名组合、原文、价格或效果主张",
+    "本次升级是账号级生产执行固化，不修改系统级账号学习 Skill，也不新增账号稳定方法"
+  ]
+}

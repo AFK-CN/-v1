@@ -1,0 +1,826 @@
+{
+  "schema_version": "xhs_account_deep_learning_plan_v1",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "media_branch": "image_text",
+  "status": "candidate_plan",
+  "source_mode": "read_only_local_account_package",
+  "item_count": 116,
+  "stage0_sample_count": 24,
+  "items": [
+    {
+      "source_id": "68c29b30000000001d00d062",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68c29b30000000001d00d062"
+    },
+    {
+      "source_id": "68cb6d6700000000120219c8",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68cb6d6700000000120219c8"
+    },
+    {
+      "source_id": "68cfd191000000001203d37f",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68cfd191000000001203d37f"
+    },
+    {
+      "source_id": "68d65e76000000001201c5df",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68d65e76000000001201c5df"
+    },
+    {
+      "source_id": "68d7b7e00000000012021a05",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68d7b7e00000000012021a05"
+    },
+    {
+      "source_id": "68df7adb000000000700eea4",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68df7adb000000000700eea4"
+    },
+    {
+      "source_id": "68e4e6d200000000070158b5",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68e4e6d200000000070158b5"
+    },
+    {
+      "source_id": "68e63a700000000007031aa2",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68e63a700000000007031aa2"
+    },
+    {
+      "source_id": "68e8eff2000000000700905f",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68e8eff2000000000700905f"
+    },
+    {
+      "source_id": "68eb10520000000007015608",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68eb10520000000007015608"
+    },
+    {
+      "source_id": "68ecdf110000000007003de1",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68ecdf110000000007003de1"
+    },
+    {
+      "source_id": "68f0c17a00000000070379af",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68f0c17a00000000070379af"
+    },
+    {
+      "source_id": "68f21ba8000000000700f4dc",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68f21ba8000000000700f4dc"
+    },
+    {
+      "source_id": "68f35e810000000007014327",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68f35e810000000007014327"
+    },
+    {
+      "source_id": "68f600920000000007023c76",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68f600920000000007023c76"
+    },
+    {
+      "source_id": "68f8a6660000000007021921",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68f8a6660000000007021921"
+    },
+    {
+      "source_id": "68f9fd8d000000000700215d",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68f9fd8d000000000700215d"
+    },
+    {
+      "source_id": "68fb51bd000000000700ace0",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68fb51bd000000000700ace0"
+    },
+    {
+      "source_id": "68fca0bd00000000070394b0",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68fca0bd00000000070394b0"
+    },
+    {
+      "source_id": "68ff4abd00000000070300b8",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68ff4abd00000000070300b8"
+    },
+    {
+      "source_id": "6901f2f500000000070140c5",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6901f2f500000000070140c5"
+    },
+    {
+      "source_id": "69047fd80000000007015a11",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69047fd80000000007015a11"
+    },
+    {
+      "source_id": "69072db20000000007017028",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69072db20000000007017028"
+    },
+    {
+      "source_id": "6909cc3b00000000070217c4",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6909cc3b00000000070217c4"
+    },
+    {
+      "source_id": "690c71490000000007032e94",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_690c71490000000007032e94"
+    },
+    {
+      "source_id": "690f1793000000000700ba0a",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_690f1793000000000700ba0a"
+    },
+    {
+      "source_id": "691457b4000000000700ee4d",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_691457b4000000000700ee4d"
+    },
+    {
+      "source_id": "6917060e000000000703382f",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6917060e000000000703382f"
+    },
+    {
+      "source_id": "69184f9800000000070337b8",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69184f9800000000070337b8"
+    },
+    {
+      "source_id": "691480cc000000000703bbe6",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_691480cc000000000703bbe6"
+    },
+    {
+      "source_id": "691d9ac3000000001e00dcc6",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_691d9ac3000000001e00dcc6"
+    },
+    {
+      "source_id": "69158bff0000000007000fcf",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69158bff0000000007000fcf"
+    },
+    {
+      "source_id": "69218957000000001e0070e0",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69218957000000001e0070e0"
+    },
+    {
+      "source_id": "69258f6a000000001d03863c",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69258f6a000000001d03863c"
+    },
+    {
+      "source_id": "691d9214000000001e00b1a9",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_691d9214000000001e00b1a9"
+    },
+    {
+      "source_id": "692acda8000000001e01751c",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_692acda8000000001e01751c"
+    },
+    {
+      "source_id": "692eba18000000001e001510",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_692eba18000000001e001510"
+    },
+    {
+      "source_id": "6931773c000000001d03aeb9",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6931773c000000001d03aeb9"
+    },
+    {
+      "source_id": "6932b804000000001e00514d",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6932b804000000001e00514d"
+    },
+    {
+      "source_id": "69355269000000001d038ab5",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69355269000000001d038ab5"
+    },
+    {
+      "source_id": "6936a697000000001e001b7a",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6936a697000000001e001b7a"
+    },
+    {
+      "source_id": "692bc6d2000000001e006493",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_692bc6d2000000001e006493"
+    },
+    {
+      "source_id": "693bef99000000001e010807",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_693bef99000000001e010807"
+    },
+    {
+      "source_id": "6941361b000000001e010e41",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6941361b000000001e010e41"
+    },
+    {
+      "source_id": "6943cbdd000000001d03d1fd",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6943cbdd000000001d03d1fd"
+    },
+    {
+      "source_id": "69451deb000000001e00b702",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69451deb000000001e00b702"
+    },
+    {
+      "source_id": "69466e75000000001e0006f2",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69466e75000000001e0006f2"
+    },
+    {
+      "source_id": "69490c57000000001e000333",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69490c57000000001e000333"
+    },
+    {
+      "source_id": "694a0d62000000001e0016f2",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_694a0d62000000001e0016f2"
+    },
+    {
+      "source_id": "694a193e000000001e0013b6",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_694a193e000000001e0013b6"
+    },
+    {
+      "source_id": "6954faae000000001e002da4",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6954faae000000001e002da4"
+    },
+    {
+      "source_id": "695a3771000000001d038d69",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_695a3771000000001d038d69"
+    },
+    {
+      "source_id": "695f7b4b000000000903b1c0",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_695f7b4b000000000903b1c0"
+    },
+    {
+      "source_id": "6960d122000000000a02c9b2",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6960d122000000000a02c9b2"
+    },
+    {
+      "source_id": "69622149000000000b00bbf0",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69622149000000000b00bbf0"
+    },
+    {
+      "source_id": "6964c733000000000b0127c4",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6964c733000000000b0127c4"
+    },
+    {
+      "source_id": "696504f3000000000c034f1c",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_696504f3000000000c034f1c"
+    },
+    {
+      "source_id": "696a1178000000000b00a519",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_696a1178000000000b00a519"
+    },
+    {
+      "source_id": "696f53b0000000000a02a112",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_696f53b0000000000a02a112"
+    },
+    {
+      "source_id": "6971f1db000000000a03cf96",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6971f1db000000000a03cf96"
+    },
+    {
+      "source_id": "69749ec90000000009039855",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69749ec90000000009039855"
+    },
+    {
+      "source_id": "6977390f000000000a028033",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6977390f000000000a028033"
+    },
+    {
+      "source_id": "6979e22e000000000903aa5b",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6979e22e000000000903aa5b"
+    },
+    {
+      "source_id": "697c52c6000000000a03e1e1",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_697c52c6000000000a03e1e1"
+    },
+    {
+      "source_id": "69808866000000000a02b242",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69808866000000000a02b242"
+    },
+    {
+      "source_id": "698469a1000000000a032560",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_698469a1000000000a032560"
+    },
+    {
+      "source_id": "698860c8000000000a02cb03",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_698860c8000000000a02cb03"
+    },
+    {
+      "source_id": "698aa629000000000a02d7e6",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_698aa629000000000a02d7e6"
+    },
+    {
+      "source_id": "699c1e9b000000000a0335e1",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_699c1e9b000000000a0335e1"
+    },
+    {
+      "source_id": "69a162800000000026032cba",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69a162800000000026032cba"
+    },
+    {
+      "source_id": "69a6b2bb000000002603017f",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69a6b2bb000000002603017f"
+    },
+    {
+      "source_id": "69a962f3000000002603102d",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69a962f3000000002603102d"
+    },
+    {
+      "source_id": "69ad509f000000002603c586",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69ad509f000000002603c586"
+    },
+    {
+      "source_id": "69afe9aa000000002203b952",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69afe9aa000000002203b952"
+    },
+    {
+      "source_id": "69aff07a0000000022030af1",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69aff07a0000000022030af1"
+    },
+    {
+      "source_id": "69b5399a000000001d019073",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69b5399a000000001d019073"
+    },
+    {
+      "source_id": "69b28c5800000000260338fe",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69b28c5800000000260338fe"
+    },
+    {
+      "source_id": "69b8cdba000000002301116f",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69b8cdba000000002301116f"
+    },
+    {
+      "source_id": "69bb662e000000001d01a758",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69bb662e000000001d01a758"
+    },
+    {
+      "source_id": "69c11b16000000002200e70c",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69c11b16000000002200e70c"
+    },
+    {
+      "source_id": "69c3a9c2000000001d01ec6e",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69c3a9c2000000001d01ec6e"
+    },
+    {
+      "source_id": "69c652a1000000002200cc7a",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69c652a1000000002200cc7a"
+    },
+    {
+      "source_id": "69bfa4e0000000002200f418",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69bfa4e0000000002200f418"
+    },
+    {
+      "source_id": "69c891be000000002200ede4",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69c891be000000002200ede4"
+    },
+    {
+      "source_id": "69cf956d000000001d01fb47",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69cf956d000000001d01fb47"
+    },
+    {
+      "source_id": "69d3883f00000000230213b1",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69d3883f00000000230213b1"
+    },
+    {
+      "source_id": "69d4788b000000001b0008f8",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69d4788b000000001b0008f8"
+    },
+    {
+      "source_id": "69db7df100000000230277b0",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69db7df100000000230277b0"
+    },
+    {
+      "source_id": "69dcb4d8000000001d01cf52",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69dcb4d8000000001d01cf52"
+    },
+    {
+      "source_id": "69de195c00000000210070bb",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69de195c00000000210070bb"
+    },
+    {
+      "source_id": "69def1a4000000002200c164",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69def1a4000000002200c164"
+    },
+    {
+      "source_id": "69e0912b000000001d01a932",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69e0912b000000001d01a932"
+    },
+    {
+      "source_id": "69e4a967000000001d01d7d8",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69e4a967000000001d01d7d8"
+    },
+    {
+      "source_id": "69e61653000000001b001a31",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69e61653000000001b001a31"
+    },
+    {
+      "source_id": "69eb4350000000001202980b",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69eb4350000000001202980b"
+    },
+    {
+      "source_id": "69ef35b70000000035023817",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69ef35b70000000035023817"
+    },
+    {
+      "source_id": "69f719750000000035025f43",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69f719750000000035025f43"
+    },
+    {
+      "source_id": "69f93a7e0000000035026b89",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69f93a7e0000000035026b89"
+    },
+    {
+      "source_id": "69fdc6340000000035021c5e",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69fdc6340000000035021c5e"
+    },
+    {
+      "source_id": "6a01d86c0000000036003d97",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a01d86c0000000036003d97"
+    },
+    {
+      "source_id": "6a09a44b00000000360002f8",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a09a44b00000000360002f8"
+    },
+    {
+      "source_id": "6a0d95c3000000003502d951",
+      "priority": "anchor",
+      "reason": "user_supplied_anchor",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a0d95c3000000003502d951"
+    },
+    {
+      "source_id": "6a117736000000003502f891",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a117736000000003502f891"
+    },
+    {
+      "source_id": "6a15733e000000003501d23d",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a15733e000000003501d23d"
+    },
+    {
+      "source_id": "6a18222e000000003502d04b",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a18222e000000003502d04b"
+    },
+    {
+      "source_id": "6a1c1dea0000000035026335",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a1c1dea0000000035026335"
+    },
+    {
+      "source_id": "6a1ee0840000000035025a38",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a1ee0840000000035025a38"
+    },
+    {
+      "source_id": "6a2393f5000000003501d216",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a2393f5000000003501d216"
+    },
+    {
+      "source_id": "6a27dfb1000000003502e32d",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a27dfb1000000003502e32d"
+    },
+    {
+      "source_id": "6a30fc7c000000002201a33a",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a30fc7c000000002201a33a"
+    },
+    {
+      "source_id": "6a315ea3000000001102f3f0",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a315ea3000000001102f3f0"
+    },
+    {
+      "source_id": "6a30ff3700000000110074bf",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a30ff3700000000110074bf"
+    },
+    {
+      "source_id": "6a38d9bd000000000f006b7e",
+      "priority": "review",
+      "reason": "commercial_or_project_signal_requires_isolation",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a38d9bd000000000f006b7e"
+    },
+    {
+      "source_id": "6a3f9da5000000001003d8fe",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a3f9da5000000001003d8fe"
+    },
+    {
+      "source_id": "6a423d42000000000f017143",
+      "priority": "candidate",
+      "reason": "full_pool_stage1_candidate",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a423d42000000000f017143"
+    },
+    {
+      "source_id": "6a47295e00000000110052af",
+      "priority": "stage0_sample",
+      "reason": "deterministic_diversity_sample",
+      "evidence_complete": true,
+      "source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a47295e00000000110052af"
+    }
+  ],
+  "formal_write": false,
+  "callable": false
+}

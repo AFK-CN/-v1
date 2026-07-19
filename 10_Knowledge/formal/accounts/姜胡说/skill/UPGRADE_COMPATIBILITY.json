@@ -1,0 +1,260 @@
+{
+  "schema_version": "account_skill_upgrade_compatibility_v1",
+  "account_skill_id": "jianghushuo",
+  "base_version": "1.3",
+  "target_version": "1.4",
+  "upgrade_scope": "system_account_batch_member",
+  "previous_capability_ids": [
+    "topic_memory_deduplication",
+    "topic_memory_recording",
+    "production_memory_recording",
+    "acceptance_gates",
+    "evidence_boundaries",
+    "production_mechanism",
+    "publishing_copy_specialization",
+    "style_fingerprint",
+    "formal_method_content_relationship_leverage",
+    "formal_method_experience_to_trust_asset",
+    "formal_method_input_output_transformation",
+    "formal_method_life_specific_expression",
+    "formal_method_opportunity_rule_resource_leverage",
+    "formal_method_problem_minimum_product_feedback",
+    "formal_method_record_to_compounding_asset",
+    "formal_method_small_step_process_system",
+    "formal_method_structured_model_reasoning",
+    "formal_method_value_exchange_income_system",
+    "account_view_sync"
+  ],
+  "new_capability_ids": [
+    "capability_preserving_upgrade_guard"
+  ],
+  "capabilities": [
+    {
+      "id": "topic_memory_deduplication",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "topic_memory_recording",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "production_memory_recording",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "acceptance_gates",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/references/acceptance.md"
+      ]
+    },
+    {
+      "id": "evidence_boundaries",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/references/boundaries.md"
+      ]
+    },
+    {
+      "id": "production_mechanism",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/references/production.md"
+      ]
+    },
+    {
+      "id": "publishing_copy_specialization",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/references/publishing-copy.md"
+      ]
+    },
+    {
+      "id": "style_fingerprint",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/references/style.md"
+      ]
+    },
+    {
+      "id": "formal_method_content_relationship_leverage",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_experience_to_trust_asset",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_input_output_transformation",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_life_specific_expression",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_opportunity_rule_resource_leverage",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_problem_minimum_product_feedback",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_record_to_compounding_asset",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_small_step_process_system",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_structured_model_reasoning",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_value_exchange_income_system",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "account_view_sync",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/账号整体方法论.md",
+        "10_Knowledge/formal/accounts/姜胡说/内容生产使用说明.md",
+        "10_Knowledge/formal/accounts/姜胡说/减少AI味输出规则.md",
+        "10_Knowledge/formal/accounts/姜胡说/内容输出标准模板.md"
+      ]
+    },
+    {
+      "id": "capability_preserving_upgrade_guard",
+      "introduced_in": "1.4",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/姜胡说/skill/references/upgrade-compatibility.md"
+      ]
+    }
+  ],
+  "changed_capabilities": [],
+  "source_snapshot": [
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/METHOD_INDEX.json",
+      "sha256": "94e0dd6ad563f052c565c807b9e0e0291ea282fd6bc8b35e1c42508f49b7d3b7"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/SKILL.md",
+      "sha256": "ebe559584f107b49600a655d6a6ce8315efbd5f08896b838bf15a8b1ace3516b"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/references/acceptance.md",
+      "sha256": "8c32599fe09d20983d359dabc134f6be37043ed28e36f0d8cc6e219e3193ea29"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/references/boundaries.md",
+      "sha256": "71b66256b263f3f28c566442226999661d9874e6500710228ddc581858368e10"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/references/production.md",
+      "sha256": "aa269dd819d530fe08a1673c10112464d02701db5e306f24724ad0d3bd6ef7ac"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/references/publishing-copy.md",
+      "sha256": "4d24a52659939d588a3358e2e199077aacf5f5bc5c84faa6b12fe3b4fe9a1360"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/references/style.md",
+      "sha256": "4d09d8840c59b777fac89261faf4bdb2cf411e82883df2406ef21b1aa098cbfc"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/skill/references/upgrade-compatibility.md",
+      "sha256": "cf9cf3f138505304403e0ff019ebfec99b3611283b4160e3ee404121c2a3dfc8"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/内容生产使用说明.md",
+      "sha256": "cac4a9c688f6d61ac8d742f9496b63307e0ac5ac3471c8432529c0f27995d031"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/内容输出标准模板.md",
+      "sha256": "cf90a475ac132b3f75a522db4c4b4a470509aab6fe65ce900d2a21c9fdeb8897"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/减少AI味输出规则.md",
+      "sha256": "949d8abf75fe251e1620d47fa8a4eeb23123e42241c961c2277886e66121c334"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/姜胡说/账号整体方法论.md",
+      "sha256": "e2c104ee5a17c55fd0063871527a8d4b9563ac49e9cad78d35896c5eced169aa"
+    }
+  ],
+  "regression_package_manifests": [],
+  "isolation": {
+    "same_account_only": true,
+    "cross_account_merge": false,
+    "system_rule_contamination": false,
+    "absolute_or_nas_paths": false
+  },
+  "rollback": {
+    "restore_version": "1.3",
+    "restore_proposal": "10_Knowledge/formal/accounts/姜胡说/skill/proposals/capability-preservation-v1.4.md",
+    "preserve_new_audit_artifacts": true,
+    "delete_original_or_formal_evidence": false
+  }
+}

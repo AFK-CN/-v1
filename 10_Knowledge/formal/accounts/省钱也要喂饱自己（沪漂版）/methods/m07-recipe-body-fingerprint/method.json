@@ -1,0 +1,111 @@
+{
+  "id": "m07-recipe-body-fingerprint",
+  "schema_version": "2.3",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "formal_write": true,
+  "user_review_required": false,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "菜品分段与关键动作化的正文指纹",
+  "mechanism_kind": "expression_fingerprint",
+  "trigger_signals": [
+    "需要为多道菜写正文",
+    "素材同时包含复杂菜与简单菜",
+    "有价格、热量或生活附言等可选信息"
+  ],
+  "trigger_model": {
+    "mechanism": "用 emoji/菜名分段建立扫描入口，把价格或每百克热量紧跟菜名，复杂菜编号、简单菜写结果，尾部再容纳合计或生活附言。",
+    "applicable_relations": [
+      "菜名分段",
+      "编号动作",
+      "简单菜略写",
+      "整餐合计",
+      "碎碎念"
+    ],
+    "transferable_scenes": [
+      "普通单餐正文",
+      "成本餐正文",
+      "热量标注正文",
+      "带生活附言的食谱"
+    ],
+    "do_not_trigger_on": [
+      "素材只有一条口播",
+      "需要周索引而非菜谱",
+      "没有可核证的价格或热量却要求硬填",
+      "广告口播替代自然正文"
+    ]
+  },
+  "do_not_use": [
+    "不得把所有菜都写成同长度模板",
+    "不得编造作者原句或口头禅",
+    "热量和价格必须原样保留来源与未验证边界"
+  ],
+  "execution_steps": [
+    "按真实菜品建立 emoji/菜名小节",
+    "只把有来源的价格或每百克热量紧跟菜名",
+    "复杂菜用编号写关键动作",
+    "简单菜只写必要动作或结果",
+    "按素材选择整餐合计、知识小栏或碎碎念",
+    "删除空泛总结和统一腔结尾"
+  ],
+  "source_refs": [
+    "xhs:68cb6d6700000000120219c8",
+    "xhs:69072db20000000007017028",
+    "xhs:69b5399a000000001d019073",
+    "xhs:6a47295e00000000110052af",
+    "xhs:68fb51bd000000000700ace0",
+    "xhs:6a423d42000000000f017143",
+    "xhs:68cfd191000000001203d37f",
+    "xhs:68df7adb000000000700eea4"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "68 条自然内容跨价格期、热量期、合集和生活附言，持续按菜品分段并对复杂步骤详写。",
+      "evidence_refs": [
+        "68cb6d6700000000120219c8",
+        "69072db20000000007017028",
+        "69b5399a000000001d019073",
+        "6a47295e00000000110052af",
+        "68fb51bd000000000700ace0",
+        "6a423d42000000000f017143",
+        "68cfd191000000001203d37f",
+        "68df7adb000000000700eea4"
+      ],
+      "relation_or_scene_types": [
+        "价格分菜正文",
+        "热量分菜正文",
+        "碎碎念/知识小栏"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-expression-01",
+      "prompt_sha256": "7367102a98699219ed184b73098248653329f699af2818a9d92142b25a0be5b9",
+      "structural_prediction": [
+        "按菜名分段并让复杂菜编号",
+        "简单菜只写可见结果",
+        "热量原样标为来源表达并加未验证边界"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "emoji 菜名、价格/每百克热量紧跟、编号步骤、合计或碎碎念的组合具有账号连续指纹；不是泛化的‘文案分段’。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  },
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-16T20:11:21+08:00",
+  "approval_basis": "2026-07-16 用户明确回复‘入库吧’；七阶段验证、三重验证和压力测试全部通过。"
+}

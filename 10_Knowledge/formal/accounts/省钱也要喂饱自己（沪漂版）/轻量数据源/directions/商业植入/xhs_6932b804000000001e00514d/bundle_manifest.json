@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "platform": "小红书",
+  "direction": "商业植入",
+  "source_id": "6932b804000000001e00514d",
+  "title": "图文深度学习卡：6932b804000000001e00514d",
+  "content_type": "image_text",
+  "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/商业植入/cards/6932b804000000001e00514d.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6932b804000000001e00514d",
+  "copied_file_count": 13,
+  "copied_bytes": 1221435,
+  "files": [
+    {
+      "path": "images/000_cover.jpg",
+      "bytes": 205678,
+      "sha256": "4872ec1e526d0852e0e5543763491955f0726d79ed2ba99f2a35f07b482af112"
+    },
+    {
+      "path": "images/001_image.jpg",
+      "bytes": 197537,
+      "sha256": "7115e3c2b83b30c3b760da7981b2d64ae8b6a3dc54dfbef4bd114c4507fc24ce"
+    },
+    {
+      "path": "images/002_image.jpg",
+      "bytes": 179023,
+      "sha256": "e2cf9872eda9efb9e1b6e45c5c88eb3375288676ef0d082ad474102a1a0bdae2"
+    },
+    {
+      "path": "images/003_image.jpg",
+      "bytes": 155125,
+      "sha256": "4a1ad211aa117201947e6bf0c993778f4725ffd8ccb7fc82da0450d7659349c9"
+    },
+    {
+      "path": "images/004_image.jpg",
+      "bytes": 221705,
+      "sha256": "140e4147b7c4e254068abde4e7a70fd70820e03ec74824c04890f284b9ef6d84"
+    },
+    {
+      "path": "images/005_image.jpg",
+      "bytes": 233224,
+      "sha256": "dada34c718c99e150c762aaaec6fb2be87fae9d37df328f8ebab0ff8ef325553"
+    },
+    {
+      "path": "images/image_analysis.json",
+      "bytes": 4379,
+      "sha256": "8cc10cc50f3a3aaee03b258d130cada1daed962d7a1c7179846bb5581300662a"
+    },
+    {
+      "path": "images/ocr.json",
+      "bytes": 6773,
+      "sha256": "363e3bc37e391067b8b9255e7e14ed4ba080a93ec5507345e1a855bd16212908"
+    },
+    {
+      "path": "images/vision_analysis.json",
+      "bytes": 4627,
+      "sha256": "bc71ac9d63be2b19a2279670ec2b6b21c8d2135f757c923728f8866447f23bd5"
+    },
+    {
+      "path": "images/visual_summary.json",
+      "bytes": 5478,
+      "sha256": "c914c0c25e232fd291847bcca21e69a0dd2ffdc3b1adb49a22ec9c35873b0c93"
+    },
+    {
+      "path": "manifest_item.json",
+      "bytes": 677,
+      "sha256": "450fbbb650da339a005cd198edba8de063ee227b847e37af7e86302a49b5d9e1"
+    },
+    {
+      "path": "source.json",
+      "bytes": 2953,
+      "sha256": "443362c00810d78ec8ffbbf2fdfe8f82c3a1f854b6c32c2a2fea9dc498c0d450"
+    },
+    {
+      "path": "status.json",
+      "bytes": 4256,
+      "sha256": "ab91269a9a4a039c749740674b9e11bd628d007df4f58040b1c08ef95c3fc6d3"
+    }
+  ]
+}

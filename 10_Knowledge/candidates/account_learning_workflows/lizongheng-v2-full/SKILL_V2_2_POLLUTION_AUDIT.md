@@ -10,7 +10,7 @@
 
 - `00_System/shareable/skills/active/账号专业学习Skill_v2.md`
 - `00_System/shareable/config/account_learning_pipeline.json`
-- `00_System/shareable/rules/账号专业学习提取与验证规范.md`
+- `00_System/shareable/skills/active/account-learning/references/professional-extraction-validation.md`
 - `tools/account_learning_pipeline.py`
 - `tools/kb/validator.py`
 - `00_System/shareable/skill_packages/知识库/`
@@ -36,6 +36,5 @@
 李宗恒专属内容只进入：
 
 - `10_Knowledge/candidates/account_learning_workflows/lizongheng-v2-full/`
-- `10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/李宗恒/`
+- `10_Knowledge/formal/accounts/李宗恒/`
 - 账号专用入库器 `tools/lizongheng_formal_ingest.py`
-

@@ -38,16 +38,24 @@ CONTROL_FILES = (
     f"{EVIDENCE_INDEX_DIR}/account_knowledge_index.json",
     f"{SYSTEM_CONFIG_DIR}/output_contracts.json",
     f"{SYSTEM_CONFIG_DIR}/search_terms.json",
+    f"{SYSTEM_CONFIG_DIR}/formal_retrieval.json",
+    f"{SYSTEM_CONFIG_DIR}/expression_asset_contract.json",
+    f"{SYSTEM_CONFIG_DIR}/system_version.json",
     f"{SYSTEM_CONFIG_DIR}/skill_contract.json",
     f"{SYSTEM_CONFIG_DIR}/layer_map.json",
+    f"{SYSTEM_CONFIG_DIR}/user_layer_schema.json",
+    f"{SYSTEM_CONFIG_DIR}/account_skill_contract.json",
+    f"{SYSTEM_CONFIG_DIR}/production_memory_schema.json",
     f"{SYSTEM_RULES_DIR}/初始化生命周期.md",
-    "00_System/shareable/memory/memory_rules.md",
-    "00_System/shareable/agents/agent_registry_schema.json",
-    "20_User/syncable/memory/记忆总入口.md",
-    "20_User/syncable/agents/agent_registry.md",
-    f"{SYSTEM_SKILL_PACKAGES_DIR}/知识库/SKILL.md",
+    "00_System/shareable/skills/active/content-processing/SKILL.md",
+    "00_System/shareable/skills/active/account-learning/SKILL.md",
+    "00_System/shareable/skills/active/content-review/SKILL.md",
+    "20_User/config/account_skill_registry.json",
+    f"{SYSTEM_SKILL_PACKAGES_DIR}/knowledge-base-zh/SKILL.md",
     "tools/kb/runtime.py",
     "tools/kb/cli.py",
+    "tools/kb/formal_search.py",
+    "tools/kb/expression_assets.py",
     "tools/kb/schemas.py",
 )
 FULL_FINGERPRINT_DIRS = (
@@ -342,6 +350,8 @@ def initialize_runtime(
 ) -> dict[str, Any]:
     root = root.resolve()
     if dry_run:
+        from .user_layer import initialize_user_layer
+
         return {
             "ok": True,
             "dry_run": True,
@@ -349,9 +359,15 @@ def initialize_runtime(
             "would_create": [f"00_System/runtime/{section}" for section in RUNTIME_SECTIONS],
             "would_migrate": plan_legacy_migration(root) if migrate else [],
             "would_rebuild": ["skill_packages", "indexes", "dashboard"] if rebuild else [],
+            "user_layer": initialize_user_layer(root, dry_run=True),
         }
+    from .account_skills import sync_registry
+    from .user_layer import initialize_user_layer
+
     ensure_runtime_dirs(root)
     with MaintenanceLock(root, "init") as lock:
+        user_layer = initialize_user_layer(root)
+        account_registry = sync_registry(root)
         quarantine_corrupt_state(root)
         existing = read_json(manifest_path(root), {})
         initialized_at = existing.get("initialized_at") or now_iso()
@@ -403,6 +419,8 @@ def initialize_runtime(
             "applied_migrations": migrations,
             "migration_actions": migration_actions,
             "rebuilt": rebuilt,
+            "user_layer": user_layer,
+            "account_skill_registry": account_registry,
             "credential": as_posix(credential_path(root).relative_to(root)),
         }
         write_json(runtime_path(root, "reports") / "latest_initialization_receipt.json", receipt)
@@ -572,8 +590,6 @@ def mark_stale_tasks(root: Path, stale_after_seconds: int) -> list[str]:
     running = runtime_path(root, "tasks") / "running"
     stale_root = runtime_path(root, "tasks") / "stale"
     stale_root.mkdir(parents=True, exist_ok=True)
-    if worker_is_active(root, stale_after_seconds):
-        return []
     now = datetime.now().astimezone()
     moved: list[str] = []
     for task_dir in sorted(path for path in running.iterdir() if path.is_dir()):
@@ -601,7 +617,7 @@ def mark_stale_tasks(root: Path, stale_after_seconds: int) -> list[str]:
 
 def stale_task_candidates(root: Path, stale_after_seconds: int) -> list[str]:
     running = runtime_path(root, "tasks") / "running"
-    if not running.exists() or worker_is_active(root, stale_after_seconds):
+    if not running.exists():
         return []
     now = datetime.now().astimezone()
     candidates: list[str] = []
@@ -617,19 +633,6 @@ def stale_task_candidates(root: Path, stale_after_seconds: int) -> list[str]:
         if (now - heartbeat_time).total_seconds() > stale_after_seconds:
             candidates.append(task_dir.name)
     return candidates
-
-
-def worker_is_active(root: Path, stale_after_seconds: int) -> bool:
-    state = read_json(runtime_path(root, "state") / "web_console_state.json", {})
-    if state.get("worker_status") not in {"running", "idle"}:
-        return False
-    try:
-        heartbeat = datetime.fromisoformat(str(state.get("worker_heartbeat_at", "")))
-        if heartbeat.tzinfo is None:
-            heartbeat = heartbeat.astimezone()
-    except ValueError:
-        return False
-    return (datetime.now().astimezone() - heartbeat).total_seconds() <= stale_after_seconds
 
 
 def rebuild_reproducible_outputs(root: Path) -> list[str]:

@@ -1,0 +1,31 @@
+{
+  "schema_version": "2.6",
+  "workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "profile_id": "xhs_5c09367300000000060099e8",
+  "status": "ready_for_review",
+  "method_ids": [
+    "m01-complete-meal-positioning",
+    "m02-fixed-mother-topic-variable",
+    "m03-double-cover-tiered-tutorial",
+    "m04-weekly-reindex",
+    "m05-cost-proof-tail",
+    "m06-device-process-proof",
+    "m07-recipe-body-fingerprint"
+  ],
+  "source_total": 116,
+  "deep_card_count": 116,
+  "deferred_evidence_count": 0,
+  "verified_candidate_method_count": 7,
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "created_at": "2026-07-16T19:53:37+08:00",
+  "v26_unified_source_count": 116,
+  "v26_legacy_compatible_source_count": 0,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 116,
+  "publish_copy_completed_count": 116,
+  "publish_copy_deferred_count": 0
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": "real_acceptance_v1",
+  "status": "passed",
+  "report_file": "REAL_ACCEPTANCE_REPORT_2026-07-17.md",
+  "sample_method": "Sort all source_ids by sha256(workflow_id:source_id), inspect the first 15; separately audit all platform-project and low-information records.",
+  "sampled_source_ids": [
+    "feishu_xianyu_20260716_s14",
+    "feishu_xianyu_20260716_s18",
+    "feishu_xianyu_20260715_s03",
+    "feishu_xianyu_20260714_s02",
+    "feishu_xianyu_20260716_s16",
+    "feishu_xianyu_20260714_s16",
+    "feishu_xianyu_20260716_s09",
+    "feishu_xianyu_20260717_s17",
+    "feishu_xianyu_20260717_s09",
+    "feishu_xianyu_20260716_s01",
+    "feishu_xianyu_20260717_s10",
+    "feishu_xianyu_20260714_s20",
+    "feishu_xianyu_20260713_s09",
+    "feishu_xianyu_20260713_s15",
+    "feishu_xianyu_20260715_s16"
+  ],
+  "strata": {
+    "normal_visual": {
+      "status": "not_applicable",
+      "reason": "230 images are registered but excluded from claims; the task Skill is text-production only until visual evidence is reviewed."
+    },
+    "normal_long_transcript": {
+      "status": "not_applicable",
+      "reason": "Sources are Feishu title/body documents, not video transcripts."
+    },
+    "product_ad": {
+      "status": "not_applicable",
+      "reason": "No product-ad track was identified; the entire corpus is treated as a platform-project UGC track instead."
+    },
+    "platform_project": {
+      "status": "passed",
+      "total": 100,
+      "audited": 100,
+      "artifact": "audits/platform_projects.jsonl"
+    },
+    "collaboration_ownership": {
+      "status": "not_applicable",
+      "reason": "The user confirmed task-level learning; no personal account or co-creator ownership claim is made."
+    },
+    "low_information_or_asr_risk": {
+      "status": "passed",
+      "total": 7,
+      "audited": 7,
+      "artifact": "audits/low_information_records.jsonl"
+    }
+  },
+  "severe_issues": [],
+  "expanded_audit": {
+    "completed": true,
+    "scope": "100/100 source records, 100/100 learning cards, 100/100 platform-project records",
+    "note": "A pre-stage parser omission of 13 unnumbered stories was fixed before card generation; current source/card counts are 100/100."
+  },
+  "semantic_consistency": {
+    "passed": true,
+    "checked": 100,
+    "issues": [],
+    "fields": [
+      "source_id",
+      "source_url",
+      "title",
+      "task scope",
+      "platform-project isolation"
+    ]
+  },
+  "overview_scope": {
+    "consistent": true,
+    "overview_count": 100,
+    "inventory_count": 100,
+    "card_count": 100
+  },
+  "commercial_learning": {
+    "product_ads": {
+      "total": 0,
+      "audited": 0,
+      "artifact": ""
+    },
+    "platform_projects": {
+      "total": 100,
+      "audited": 100,
+      "artifact": "audits/platform_projects.jsonl"
+    }
+  },
+  "formal_write": false,
+  "callable": false
+}

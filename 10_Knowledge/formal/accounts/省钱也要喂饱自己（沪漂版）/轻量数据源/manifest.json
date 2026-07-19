@@ -1,0 +1,155 @@
+{
+  "schema_version": 1,
+  "status": "ready_offline",
+  "generated_at": "2026-07-17T00:19:54+08:00",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "platform": "小红书",
+  "purpose": "NAS 断开时的账号 Skill 查看、复查和证据回溯",
+  "source_policy": "原始资料只读；离线包仅复制已有产出物",
+  "selected_count": 10,
+  "direction_count": 7,
+  "direction_counts": {
+    "一周合集": 2,
+    "商业植入": 2,
+    "备餐知识卡": 1,
+    "平台项目": 1,
+    "成本透明一人食": 2,
+    "自然一人食": 1,
+    "设备效率餐": 1
+  },
+  "total_bytes": 16946409,
+  "discovery": {
+    "account_center": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）",
+    "formal_direction_count": 7,
+    "formal_card_count": 116,
+    "source_root": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8",
+    "source_root_match_scores": {
+      "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a": 0,
+      "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8": 40
+    },
+    "matched_direction_count": 7,
+    "matched_card_count": 38
+  },
+  "items": [
+    {
+      "direction": "一周合集",
+      "source_id": "6a1ee0840000000035025a38",
+      "title": "图文深度学习卡：6a1ee0840000000035025a38",
+      "content_type": "image_text",
+      "bytes": 1344894,
+      "file_count": 14,
+      "quality_score": 144,
+      "bundle_path": "directions/一周合集/xhs_6a1ee0840000000035025a38",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/一周合集/cards/6a1ee0840000000035025a38.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a1ee0840000000035025a38"
+    },
+    {
+      "direction": "一周合集",
+      "source_id": "69c652a1000000002200cc7a",
+      "title": "图文深度学习卡：69c652a1000000002200cc7a",
+      "content_type": "image_text",
+      "bytes": 1469382,
+      "file_count": 14,
+      "quality_score": 144,
+      "bundle_path": "directions/一周合集/xhs_69c652a1000000002200cc7a",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/一周合集/cards/69c652a1000000002200cc7a.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_69c652a1000000002200cc7a"
+    },
+    {
+      "direction": "商业植入",
+      "source_id": "6932b804000000001e00514d",
+      "title": "图文深度学习卡：6932b804000000001e00514d",
+      "content_type": "image_text",
+      "bytes": 1221435,
+      "file_count": 13,
+      "quality_score": 144,
+      "bundle_path": "directions/商业植入/xhs_6932b804000000001e00514d",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/商业植入/cards/6932b804000000001e00514d.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6932b804000000001e00514d"
+    },
+    {
+      "direction": "商业植入",
+      "source_id": "692bc6d2000000001e006493",
+      "title": "图文深度学习卡：692bc6d2000000001e006493",
+      "content_type": "image_text",
+      "bytes": 2083950,
+      "file_count": 16,
+      "quality_score": 144,
+      "bundle_path": "directions/商业植入/xhs_692bc6d2000000001e006493",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/商业植入/cards/692bc6d2000000001e006493.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_692bc6d2000000001e006493"
+    },
+    {
+      "direction": "备餐知识卡",
+      "source_id": "6954faae000000001e002da4",
+      "title": "图文深度学习卡：6954faae000000001e002da4",
+      "content_type": "image_text",
+      "bytes": 1875764,
+      "file_count": 19,
+      "quality_score": 144,
+      "bundle_path": "directions/备餐知识卡/xhs_6954faae000000001e002da4",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/备餐知识卡/cards/6954faae000000001e002da4.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6954faae000000001e002da4"
+    },
+    {
+      "direction": "平台项目",
+      "source_id": "6a30fc7c000000002201a33a",
+      "title": "图文深度学习卡：6a30fc7c000000002201a33a",
+      "content_type": "image_text",
+      "bytes": 2740152,
+      "file_count": 20,
+      "quality_score": 144,
+      "bundle_path": "directions/平台项目/xhs_6a30fc7c000000002201a33a",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/平台项目/cards/6a30fc7c000000002201a33a.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6a30fc7c000000002201a33a"
+    },
+    {
+      "direction": "成本透明一人食",
+      "source_id": "6909cc3b00000000070217c4",
+      "title": "图文深度学习卡：6909cc3b00000000070217c4",
+      "content_type": "image_text",
+      "bytes": 1579517,
+      "file_count": 14,
+      "quality_score": 144,
+      "bundle_path": "directions/成本透明一人食/xhs_6909cc3b00000000070217c4",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/成本透明一人食/cards/6909cc3b00000000070217c4.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_6909cc3b00000000070217c4"
+    },
+    {
+      "direction": "成本透明一人食",
+      "source_id": "68c29b30000000001d00d062",
+      "title": "图文深度学习卡：68c29b30000000001d00d062",
+      "content_type": "image_text",
+      "bytes": 957933,
+      "file_count": 12,
+      "quality_score": 144,
+      "bundle_path": "directions/成本透明一人食/xhs_68c29b30000000001d00d062",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/成本透明一人食/cards/68c29b30000000001d00d062.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68c29b30000000001d00d062"
+    },
+    {
+      "direction": "自然一人食",
+      "source_id": "68e4e6d200000000070158b5",
+      "title": "图文深度学习卡：68e4e6d200000000070158b5",
+      "content_type": "image_text",
+      "bytes": 1304704,
+      "file_count": 14,
+      "quality_score": 144,
+      "bundle_path": "directions/自然一人食/xhs_68e4e6d200000000070158b5",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/自然一人食/cards/68e4e6d200000000070158b5.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68e4e6d200000000070158b5"
+    },
+    {
+      "direction": "设备效率餐",
+      "source_id": "68d7b7e00000000012021a05",
+      "title": "图文深度学习卡：68d7b7e00000000012021a05",
+      "content_type": "image_text",
+      "bytes": 2368678,
+      "file_count": 18,
+      "quality_score": 144,
+      "bundle_path": "directions/设备效率餐/xhs_68d7b7e00000000012021a05",
+      "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/设备效率餐/cards/68d7b7e00000000012021a05.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68d7b7e00000000012021a05"
+    }
+  ]
+}

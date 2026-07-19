@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m03",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m03-positive",
+      "type": "should_trigger",
+      "prompt": "买家发现镜头标价少写一个零并主动提醒，双方重新核价后仍完成交易。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m03",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m03-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m04",
+      "prompt": "陌生买家正常说谢谢，因为出现陌生人和善意两个词就要求写巨大反转。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m04",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m03-edge",
+      "type": "edge_case",
+      "prompt": "买家说价格可能不对，但卖家没有回复，结果未知。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m03",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m03-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "卖家发错书，买家退回时把多出的运费一并转回，动作改变了卖家的判断。",
+      "source_scene": "主动补价",
+      "target_scene": "未见场景-3",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m03",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m03-commercial",
+      "type": "commercial_contamination",
+      "prompt": "付费广告剧情里演员主动补价，询问是否计入自然交易善意的V1证据。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m03",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

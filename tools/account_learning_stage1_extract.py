@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import re
 from collections import Counter
@@ -55,6 +56,33 @@ EXPRESSION_KEYWORDS = {
     "anti_template_signal": ("自然", "口语", "不端着", "自我修正", "具体经历", "去模板"),
 }
 
+PUBLISH_COPY_KEYWORDS = {
+    "title_promise_and_information_gap": ("标题机制", "标题：", "标题:", "承诺", "信息差", "点击理由"),
+    "title_specificity_and_voice": ("标题具体", "具体度", "标题语气", "叙事距离"),
+    "opening_entry": ("正文入口", "开头", "从结果", "从处境", "从问题", "从经历"),
+    "body_information_sequence": ("正文结构", "正文或文案", "文案学习", "信息推进", "段落推进", "步骤顺序"),
+    "operational_or_argument_detail_density": ("细节密度", "数量", "单位", "时长", "状态判断", "限制条件"),
+    "story_explanation_balance": ("故事", "解释", "步骤", "论证", "案例"),
+    "lived_experience_signal": ("真人感", "生活痕迹", "自我修正", "偏好", "犹豫"),
+    "closing_mode": ("结尾方式", "自然停住", "行动提醒", "情绪落点", "互动"),
+    "topic_strategy": ("话题策略", "话题或标签", "话题学习", "检索词", "分类标签", "系列标签"),
+    "publish_visual_alignment": ("协同判断", "发布视觉协同", "文图协同", "组图分工", "标题、正文"),
+}
+
+IMAGE_TEXT_VISUAL_KEYWORDS = {
+    "cover_hook": ("封面钩子", "封面承诺", "第一眼"),
+    "image_role_sequence": ("逐图角色", "分图顺序", "页序", "组图状态"),
+    "composition_and_viewpoint": ("构图与视角", "景别", "机位", "裁切", "视觉动线"),
+    "subject_action_and_state_change": ("动作与状态", "主体动作", "状态变化", "结果呈现"),
+    "visual_hierarchy": ("视觉层级", "视觉焦点", "信息层级"),
+    "text_annotation_design": ("文字注释设计", "贴纸", "底板", "指向关系"),
+    "typography_hierarchy": ("字形字号层级", "字重", "字号", "字体层级"),
+    "color_light_texture": ("色彩光线质感", "色调", "光源", "质感"),
+    "authenticity_cues": ("真人与生活感", "生活感", "使用痕迹", "轻微不完美"),
+    "cross_modal_alignment": ("跨模态协同", "对齐检查", "文图一致", "发布视觉协同"),
+    "save_worthiness": ("收藏理由", "回看", "判断标准", "参考模板"),
+}
+
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
@@ -68,7 +96,7 @@ def write_jsonl(path: Path, rows: list[dict[str, Any]]) -> None:
 
 
 def field(text: str, name: str) -> str:
-    match = re.search(rf"^{re.escape(name)}:\s*(.+?)\s*$", text, re.MULTILINE)
+    match = re.search(rf"^(?:[-*]\s*)?{re.escape(name)}\s*[：:]\s*(.+?)\s*$", text, re.MULTILINE)
     return match.group(1).strip() if match else ""
 
 
@@ -87,6 +115,12 @@ def named_sections(text: str) -> dict[str, str]:
         end = matches[index + 1].start() if index + 1 < len(matches) else len(text)
         sections[match.group(1).strip()] = text[start:end].strip()
     return sections
+
+
+def card_content_form(text: str) -> str:
+    classification = named_sections(text).get("多维分类与商业隔离", "")
+    match = re.search(r"内容形态[:：]\s*([^\n]+)", classification)
+    return match.group(1).strip() if match else ""
 
 
 def evidence_summary(text: str, headings: tuple[str, ...], *, limit: int = 900) -> str:
@@ -199,6 +233,332 @@ def _derive_observation(
     return observation
 
 
+def _derive_signal_observation(
+    *,
+    schema_id: str,
+    dimensions: list[str],
+    keyword_map: dict[str, tuple[str, ...]],
+    headings: tuple[str, ...],
+    fingerprint_key: str,
+    text: str,
+    path: Path,
+    root: Path,
+    status: str,
+) -> dict[str, Any]:
+    lines = _evidence_lines(text, headings, path, root)
+    observed: list[dict[str, Any]] = []
+    missing: list[str] = []
+    for dimension in dimensions:
+        keywords = keyword_map.get(dimension, ())
+        matches = [
+            row
+            for row in lines
+            if row["text"] and any(keyword in str(row["text"]) for keyword in keywords)
+        ]
+        if not matches:
+            missing.append(dimension)
+            continue
+        match = matches[0]
+        observed.append(
+            {
+                "signal": dimension,
+                "evidence": str(match["text"])[:360],
+                "source_coordinate": str(match["coordinate"]),
+                "_order": int(match["order"]),
+            }
+        )
+    observed.sort(key=lambda item: item["_order"])
+    for item in observed:
+        item.pop("_order", None)
+    labels = [str(item["signal"]) for item in observed]
+    coordinates = list(dict.fromkeys(str(item["source_coordinate"]) for item in observed))
+    if not coordinates:
+        coordinates = [str(lines[0]["coordinate"])]
+    return {
+        "schema": schema_id,
+        "status": status,
+        "dimensions_considered": dimensions,
+        "observed_signals": observed,
+        "missing_or_uncertain_signals": missing,
+        "evidence_coordinates": coordinates,
+        fingerprint_key: (">".join(labels) if labels else "未形成可证据化序列") + "；单卡草案，待多卡验证",
+    }
+
+
+PUBLISH_FACET_PREFIXES = {
+    "title": ("标题原文", "标题"),
+    "body": ("正文原文", "正文或文案", "发布文案", "正文", "文案学习"),
+    "topics": ("话题或标签", "话题标签", "话题学习", "话题"),
+    "coordination": ("协同判断", "发布协同", "发布层协同", "发布视觉协同", "协同关系"),
+}
+PUBLISH_EXPLICIT_MISSING_PATTERN = re.compile(
+    r"^(?:原文)?(?:没有显式|无显式|未提供|缺失|不存在|没有单独|无单独|未单独提供|无)(?:话题|标签|标题|正文|文案|协同|$)"
+)
+
+
+def _relative_card_ref(path: Path, root: Path) -> str:
+    try:
+        return path.relative_to(root).as_posix()
+    except ValueError:
+        return path.as_posix()
+
+
+def _facet_status(label: str, value: str) -> str:
+    if PUBLISH_EXPLICIT_MISSING_PATTERN.search(value.strip()):
+        return "explicitly_missing"
+    if label in {"文案学习", "话题学习", "协同判断", "发布协同", "发布层协同", "发布视觉协同", "协同关系"}:
+        return "observed_analysis"
+    return "observed_raw"
+
+
+def _publish_facet(
+    *,
+    facet: str,
+    lines: list[dict[str, str | int]],
+    card_ref: str,
+    text: str,
+    section_present: bool,
+) -> dict[str, str]:
+    prefixes = PUBLISH_FACET_PREFIXES[facet]
+    for row in lines:
+        value = str(row.get("text") or "").strip()
+        for prefix in prefixes:
+            match = re.match(rf"^{re.escape(prefix)}\s*[：:]\s*(.*)$", value)
+            if not match:
+                continue
+            evidence = match.group(1).strip() or value
+            return {
+                "status": _facet_status(prefix, evidence),
+                "evidence": evidence[:1200],
+                "source_coordinate": str(row.get("coordinate") or f"card:{card_ref}#section:发布内容层学习"),
+            }
+    if facet == "title":
+        metadata_title = field(text, "标题")
+        if metadata_title:
+            return {
+                "status": "observed_raw",
+                "evidence": metadata_title[:1200],
+                "source_coordinate": f"card:{card_ref}#metadata:标题",
+            }
+    missing_labels = {
+        "title": "未提供可回查标题证据",
+        "body": "未提供独立正文或发布文案证据",
+        "topics": "未提供显式话题或标签证据",
+        "coordination": "未提供标题、正文和话题的协同判断",
+    }
+    return {
+        "status": "explicitly_missing" if section_present else "evidence_unavailable",
+        "evidence": missing_labels[facet],
+        "source_coordinate": f"card:{card_ref}#section:发布内容层学习",
+    }
+
+
+def derive_publish_copy_observation(
+    *,
+    schema_id: str,
+    dimensions: list[str],
+    text: str,
+    path: Path,
+    root: Path,
+    status: str,
+) -> dict[str, Any]:
+    observation = _derive_signal_observation(
+        schema_id=schema_id,
+        dimensions=dimensions,
+        keyword_map=PUBLISH_COPY_KEYWORDS,
+        headings=("发布内容层学习",),
+        fingerprint_key="publish_copy_fingerprint",
+        text=text,
+        path=path,
+        root=root,
+        status=status,
+    )
+    section_present = bool(named_sections(text).get("发布内容层学习", "").strip())
+    lines = _evidence_lines(text, ("发布内容层学习",), path, root)
+    card_ref = _relative_card_ref(path, root)
+    source_facets = {
+        facet: _publish_facet(
+            facet=facet,
+            lines=lines,
+            card_ref=card_ref,
+            text=text,
+            section_present=section_present,
+        )
+        for facet in ("title", "body", "topics", "coordination")
+    }
+    coordinates = list(
+        dict.fromkeys(
+            [str(value) for value in observation.get("evidence_coordinates", []) if str(value)]
+            + [record["source_coordinate"] for record in source_facets.values()]
+        )
+    )
+    observation.update(
+        {
+            "publish_layer_status": "observed" if section_present else "missing",
+            "source_facets": source_facets,
+            "evidence_coordinates": coordinates,
+        }
+    )
+    return observation
+
+
+def publish_copy_observation_complete(observation: dict[str, Any]) -> bool:
+    if observation.get("publish_layer_status") != "observed":
+        return False
+    facets = observation.get("source_facets")
+    if not isinstance(facets, dict) or set(facets) != {"title", "body", "topics", "coordination"}:
+        return False
+    allowed = {"observed_raw", "observed_analysis", "explicitly_missing"}
+    statuses: list[str] = []
+    for facet in facets.values():
+        if not isinstance(facet, dict):
+            return False
+        if not all(str(facet.get(key) or "").strip() for key in ("status", "evidence", "source_coordinate")):
+            return False
+        statuses.append(str(facet["status"]))
+    return set(statuses).issubset(allowed) and any(value.startswith("observed") for value in statuses)
+
+
+def make_publish_copy_record(
+    *,
+    source_id: str,
+    expression_candidate_ids: list[str],
+    card_path: Path,
+    card_text: str,
+    root: Path,
+    schema_id: str,
+    dimensions: list[str],
+    status: str,
+) -> dict[str, Any]:
+    observation = derive_publish_copy_observation(
+        schema_id=schema_id,
+        dimensions=dimensions,
+        text=card_text,
+        path=card_path,
+        root=root,
+        status=status,
+    )
+    complete = publish_copy_observation_complete(observation)
+    return {
+        "id": f"publish-copy-{source_id}",
+        "type": "publish_copy_observation",
+        "source_refs": [source_id],
+        "expression_candidate_ids": sorted(set(expression_candidate_ids)),
+        "card_path": _relative_card_ref(card_path, root),
+        "card_schema": detect_schema(card_text),
+        "content_form": card_content_form(card_text),
+        "compatibility_mode": "unified_card" if detect_schema(card_text) == CONTRACT_ID else "legacy_publish_evidence",
+        "status": "candidate_observation" if complete else "deferred_evidence",
+        "callable": False,
+        "publish_copy_observation": observation,
+    }
+
+
+def summarize_publish_copy_records(
+    *,
+    workflow_id: str,
+    account_name: str,
+    records: list[dict[str, Any]],
+    expected_source_ids: set[str],
+    study_schema: str,
+    observation_schema: str,
+) -> dict[str, Any]:
+    completed = [item for item in records if item.get("status") == "candidate_observation"]
+    completed_ids = {
+        str(source_id)
+        for item in completed
+        for source_id in item.get("source_refs", [])
+        if str(source_id)
+    }
+    dimensions: Counter[str] = Counter()
+    missing_dimensions: Counter[str] = Counter()
+    facet_statuses: dict[str, Counter[str]] = {
+        facet: Counter() for facet in ("title", "body", "topics", "coordination")
+    }
+    patterns: dict[tuple[str, ...], list[str]] = {}
+    for item in completed:
+        observation = item.get("publish_copy_observation", {})
+        labels = tuple(
+            str(signal.get("signal"))
+            for signal in observation.get("observed_signals", [])
+            if isinstance(signal, dict) and signal.get("signal")
+        )
+        source_id = str((item.get("source_refs") or [""])[0])
+        patterns.setdefault(labels, []).append(source_id)
+        dimensions.update(labels)
+        missing_dimensions.update(map(str, observation.get("missing_or_uncertain_signals", [])))
+        facets = observation.get("source_facets", {})
+        if isinstance(facets, dict):
+            for facet, counter in facet_statuses.items():
+                value = facets.get(facet, {})
+                if isinstance(value, dict):
+                    counter.update([str(value.get("status") or "missing")])
+    pattern_candidates = []
+    for labels, source_ids in sorted(patterns.items(), key=lambda item: (-len(item[1]), item[0])):
+        pattern_id = hashlib.sha256("|".join(labels).encode("utf-8")).hexdigest()[:12]
+        pattern_candidates.append(
+            {
+                "id": f"publish-pattern-{pattern_id}",
+                "signals": list(labels),
+                "source_count": len(source_ids),
+                "source_refs": sorted(source_ids),
+                "status": "candidate_only",
+                "callable": False,
+                "triple_verification_required": True,
+            }
+        )
+    deferred_ids = sorted(expected_source_ids - completed_ids)
+    return {
+        "schema_version": study_schema,
+        "workflow_id": workflow_id,
+        "account_name": account_name,
+        "status": "completed" if not deferred_ids else "completed_with_deferred_evidence",
+        "observation_schema": observation_schema,
+        "observation_file": "candidates/publish_copy_observations.jsonl",
+        "observation_sha256": "",
+        "expected_source_count": len(expected_source_ids),
+        "completed_source_count": len(completed_ids),
+        "deferred_source_count": len(deferred_ids),
+        "deferred_source_ids": deferred_ids,
+        "unified_card_count": sum(item.get("compatibility_mode") == "unified_card" for item in completed),
+        "legacy_publish_evidence_count": sum(
+            item.get("compatibility_mode") == "legacy_publish_evidence" for item in completed
+        ),
+        "dimension_coverage": {
+            dimension: {
+                "observed_source_count": dimensions[dimension],
+                "missing_source_count": missing_dimensions[dimension],
+            }
+            for dimension in sorted(set(dimensions) | set(missing_dimensions))
+        },
+        "facet_coverage": {
+            facet: dict(sorted(counter.items())) for facet, counter in facet_statuses.items()
+        },
+        "cross_card_pattern_candidates": pattern_candidates,
+        "formal_write": False,
+        "callable": False,
+        "user_review_required": True,
+    }
+
+
+def render_publish_copy_study(payload: dict[str, Any]) -> str:
+    return "\n".join(
+        [
+            f"# {payload.get('account_name') or payload.get('workflow_id')}发布文案专项学习报告",
+            "",
+            f"- workflow_id: `{payload.get('workflow_id')}`",
+            f"- 状态: `{payload.get('status')}`",
+            f"- 专项观察: {payload.get('completed_source_count')} / {payload.get('expected_source_count')}",
+            f"- 证据延期: {payload.get('deferred_source_count')}",
+            f"- 统一卡: {payload.get('unified_card_count')}；旧卡发布层兼容证据: {payload.get('legacy_publish_evidence_count')}",
+            "- 学习范围: 标题、正文或文案、话题或标签及三者协同；缺失项显式记录，不补造。",
+            "- 跨卡聚合只形成待三重验证候选，不自动修改正式账号 Skill。",
+            "- 写入边界: formal_write=false、callable=false、user_review_required=true。",
+            "",
+        ]
+    )
+
+
 def lens_title(lens: str, direction: str, title: str) -> str:
     templates = {
         "positioning": "以{direction}问题建立经验型定位：{title}",
@@ -243,6 +603,10 @@ def extract_stage1_candidates(
     config = load_config(root)
     observation_contract = config.get("stage1_deep_observation", {})
     observation_schema = str(observation_contract.get("schema_id") or "")
+    publish_copy_schema = str(observation_contract.get("publish_copy_schema_id") or "")
+    publish_copy_study_schema = str(observation_contract.get("publish_copy_study_schema_id") or "")
+    image_text_visual_schema = str(observation_contract.get("image_text_visual_schema_id") or "")
+    publish_copy_dimensions = [str(value) for value in observation_contract.get("publish_copy_dimensions", [])]
 
     inventory = read_jsonl(inventory_path)
     inventory_ids = {str(row.get("source_id")) for row in inventory if row.get("source_id")}
@@ -250,6 +614,8 @@ def extract_stage1_candidates(
     outputs: dict[str, list[dict[str, Any]]] = {lens: [] for lens in LENSES}
     missing_inventory: list[str] = []
     direction_counts: Counter[str] = Counter()
+    compatibility_counts: Counter[str] = Counter()
+    publish_copy_records: list[dict[str, Any]] = []
 
     for path in cards:
         text = path.read_text(encoding="utf-8")
@@ -258,17 +624,26 @@ def extract_stage1_candidates(
             raise ValueError(f"source_id missing: {path}")
         title = card_title(text, path)
         direction = field(text, "主方向") or path.parents[1].name
+        content_form = card_content_form(text)
         card_schema = detect_schema(text)
         compatibility_mode = "unified_card" if card_schema == CONTRACT_ID else "downgraded_legacy_card"
+        compatibility_counts[compatibility_mode] += 1
         direction_counts[direction] += 1
         if source_id not in inventory_ids:
             missing_inventory.append(source_id)
         for lens in LENSES:
             summary = evidence_summary(text, SECTION_HEADINGS[lens])
             if not summary:
-                summary = f"《{title}》属于{direction}方向；当前只保留为兼容旧卡观察，等待新流程补齐证据。"
-            if lens == "counterexamples":
+                if compatibility_mode == "unified_card":
+                    summary = f"《{title}》属于{direction}方向；统一卡当前章节没有可提取的项目，保留缺口等待复核。"
+                else:
+                    summary = f"《{title}》属于{direction}方向；当前只保留为兼容旧卡观察，等待新流程补齐证据。"
+            if lens == "counterexamples" and compatibility_mode == "unified_card":
+                summary += "；本项只保留为单卡边界观察，单卡结论、功效表述和商业属性均不得直接晋升为稳定方法。"
+            elif lens == "counterexamples":
                 summary += "；旧卡已降级，单卡结论、功效表述和商业属性均不得直接晋升为稳定方法。"
+            elif compatibility_mode == "unified_card":
+                summary += "；该观察由统一学习卡的对应证据章节独立派生，只是阶段 1 候选，不做录取判断。"
             else:
                 summary += "；该观察来自降级后的兼容旧卡，只是阶段 1 候选，不做录取判断。"
             candidate = {
@@ -282,6 +657,7 @@ def extract_stage1_candidates(
                     "callable": False,
                     "compatibility_mode": compatibility_mode,
                     "card_schema": card_schema,
+                    "content_form": content_form,
                 }
             if lens in {"structures", "expression"} and observation_schema:
                 candidate["observation_schema"] = observation_schema
@@ -292,7 +668,56 @@ def extract_stage1_candidates(
                     root=root,
                     contract=observation_contract,
                 )
+            if lens == "expression" and publish_copy_schema:
+                candidate["publish_copy_observation"] = derive_publish_copy_observation(
+                        schema_id=publish_copy_schema,
+                        dimensions=publish_copy_dimensions,
+                        text=text,
+                        path=path,
+                        root=root,
+                        status=str(observation_contract.get("candidate_status") or "single_card_observation"),
+                    )
+                publish_copy_records.append(
+                    make_publish_copy_record(
+                        source_id=source_id,
+                        expression_candidate_ids=[str(candidate["id"])],
+                        card_path=path,
+                        card_text=text,
+                        root=root,
+                        schema_id=publish_copy_schema,
+                        dimensions=publish_copy_dimensions,
+                        status=str(observation_contract.get("candidate_status") or "single_card_observation"),
+                    )
+                )
+                candidate["publish_copy_observation_refs"] = [f"publish-copy-{source_id}"]
+            if compatibility_mode == "unified_card" and "图文" in content_form:
+                if lens == "structures" and image_text_visual_schema:
+                    candidate["image_text_visual_observation"] = _derive_signal_observation(
+                        schema_id=image_text_visual_schema,
+                        dimensions=[str(value) for value in observation_contract.get("image_text_visual_dimensions", [])],
+                        keyword_map=IMAGE_TEXT_VISUAL_KEYWORDS,
+                        headings=("内容结构", "视频/图文表现层学习"),
+                        fingerprint_key="visual_sequence_fingerprint",
+                        text=text,
+                        path=path,
+                        root=root,
+                        status=str(observation_contract.get("candidate_status") or "single_card_observation"),
+                    )
             outputs[lens].append(candidate)
+
+    publish_copy_study = summarize_publish_copy_records(
+        workflow_id=workflow_id,
+        account_name=str(state.get("account_name") or workflow_id),
+        records=publish_copy_records,
+        expected_source_ids={
+            str(source_id)
+            for record in publish_copy_records
+            for source_id in record.get("source_refs", [])
+            if str(source_id)
+        },
+        study_schema=publish_copy_study_schema,
+        observation_schema=publish_copy_schema,
+    )
 
     result = {
         "ok": True,
@@ -300,11 +725,16 @@ def extract_stage1_candidates(
         "workflow_id": workflow_id,
         "inventory_count": len(inventory),
         "compatibility_card_count": len(cards),
+        "unified_card_count": compatibility_counts["unified_card"],
+        "downgraded_legacy_card_count": compatibility_counts["downgraded_legacy_card"],
         "pending_full_evidence_count": max(len(inventory_ids) - len(cards), 0),
         "candidate_count": sum(len(rows) for rows in outputs.values()),
         "lens_counts": {lens: len(outputs[lens]) for lens in LENSES},
         "direction_counts": dict(sorted(direction_counts.items())),
         "card_ids_missing_from_inventory": sorted(missing_inventory),
+        "publish_copy_expected_count": publish_copy_study["expected_source_count"],
+        "publish_copy_completed_count": publish_copy_study["completed_source_count"],
+        "publish_copy_deferred_count": publish_copy_study["deferred_source_count"],
         "formal_write_allowed": False,
     }
     if not apply:
@@ -312,6 +742,23 @@ def extract_stage1_candidates(
 
     for lens, rows in outputs.items():
         write_jsonl(workflow / "candidates" / f"{lens}.jsonl", rows)
+    publish_copy_path = workflow / "candidates/publish_copy_observations.jsonl"
+    write_jsonl(publish_copy_path, publish_copy_records)
+    publish_copy_study["observation_sha256"] = hashlib.sha256(publish_copy_path.read_bytes()).hexdigest()
+    (workflow / "PUBLISH_COPY_SPECIAL_STUDY.json").write_text(
+        json.dumps(publish_copy_study, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    (workflow / "PUBLISH_COPY_SPECIAL_STUDY.md").write_text(
+        render_publish_copy_study(publish_copy_study),
+        encoding="utf-8",
+    )
+    state["publish_copy_observation_schema"] = publish_copy_schema
+    state["publish_copy_study_schema"] = publish_copy_study_schema
+    state["publish_copy_expected_count"] = publish_copy_study["expected_source_count"]
+    state["publish_copy_completed_count"] = publish_copy_study["completed_source_count"]
+    state["publish_copy_deferred_count"] = publish_copy_study["deferred_source_count"]
+    state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report_path = workflow / "STAGE1_EXTRACTION_REPORT.md"
     report_path.write_text(
         "\n".join(
@@ -320,16 +767,18 @@ def extract_stage1_candidates(
                 "",
                 f"- 生成时间：{datetime.now().isoformat(timespec='seconds')}",
                 f"- 候选资料范围：{len(inventory)} 条",
-                f"- 兼容读取的降级旧卡：{len(cards)} 张",
+                f"- 读取学习卡：{len(cards)} 张（统一卡 {compatibility_counts['unified_card']}；降级旧卡 {compatibility_counts['downgraded_legacy_card']}）",
                 f"- 五视角候选：{result['candidate_count']} 条（每视角 {len(cards)} 条）",
                 f"- 尚待补完整证据：{result['pending_full_evidence_count']} 条",
+                f"- 发布文案专项观察：{publish_copy_study['completed_source_count']} / {publish_copy_study['expected_source_count']}；延期 {publish_copy_study['deferred_source_count']}",
                 "- 状态：阶段 1 候选观察；不代表方法录取，不可调用，不写正式知识。",
                 "",
                 "## 证据边界",
                 "",
-                "- 旧卡按 active Skill 的兼容模式读取，但其历史 formal_ingested 标记不再生效。",
+                "- 统一卡从对应证据章节派生；旧卡仅按 active Skill 的兼容模式读取，其历史 formal_ingested 标记不再生效。",
                 "- 每个视角从不同卡片章节独立提取，不沿用其他视角的录取判断。",
                 "- 视频下载、逐字稿、抽帧和图文 OCR 缺口继续保留，阶段 2 不得把缺证据记录伪装为已验证。",
+                "- 所有内容形态都生成发布文案专项观察；统一图文卡额外生成图片深度派生观察。两者仍归入 expression 与 structures，不增加视角，也不自动晋升方法。",
                 "",
             ]
         ),
@@ -340,7 +789,7 @@ def extract_stage1_candidates(
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Extract five independent stage-1 lenses from downgraded account cards.")
+    parser = argparse.ArgumentParser(description="Extract five independent stage-1 lenses from unified or downgraded account cards.")
     parser.add_argument("--root", default=".")
     parser.add_argument("--workflow-id", required=True)
     parser.add_argument("--card-root", required=True)

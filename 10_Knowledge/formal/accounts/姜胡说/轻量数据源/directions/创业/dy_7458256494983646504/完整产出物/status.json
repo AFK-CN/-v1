@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-04T17:04:51",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7458256494983646504\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0300fg10000cu0gj3vog65utp9cfs3g&line=0&file_id=30257d13cfbb402abb1dde204db91d1c&sign=c55d0140d6038801d59a3e3de7c07a82&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-04T23:51:41",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7458256494983646504\\video\\source.mp4",
+      "duration_sec": 233.766667,
+      "width": 1920,
+      "height": 1080,
+      "fps": 30.0,
+      "frame_count": 7013,
+      "platform": "dy",
+      "source_id": "7458256494983646504",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0300fg10000cu0gj3vog65utp9cfs3g&line=0&file_id=30257d13cfbb402abb1dde204db91d1c&sign=c55d0140d6038801d59a3e3de7c07a82&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "Pony马的灵魂三问 他没有，他就是默默承受。\n当年心态特别好。\n干失败了无所谓。\n不怕输！ \n第一问：我干这件事有什么好处？\n第二问：这件事有什么坏处？\n第三问：我能不能干到最好？ \n#创业 #投资 #对话",
+      "desc": "Pony马的灵魂三问 他没有，他就是默默承受。\n当年心态特别好。\n干失败了无所谓。\n不怕输！ \n第一问：我干这件事有什么好处？\n第二问：这件事有什么坏处？\n第三问：我能不能干到最好？ \n#创业 #投资 #对话",
+      "publish_time": 1736510678,
+      "account_id": "77700555383",
+      "account_name": "姜胡说"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-04T23:51:53",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7458256494983646504\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-04T23:51:55",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7458256494983646504\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-04T23:53:57",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7458256494983646504\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7458256494983646504\\video\\transcript.srt",
+      "segments": 91
+    }
+  },
+  "updated_at": "2026-07-04T23:53:57"
+}

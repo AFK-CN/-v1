@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "source_batch_date": "2026-07-18",
+  "invalidated_at": "2026-07-19",
+  "decision": "discard_and_delete_outputs_keep_audit_and_isolated_negative_examples",
+  "reason": "用户判定该批次整体不真实、不流畅，且部分食材形态明显失真；不得继续作为正例、生成参考或可发布内容。",
+  "deleted_output_directories": [
+    "90_Temp/美食系列/番茄牛肉滑蛋",
+    "90_Temp/美食系列/香菇焖鸡腿",
+    "90_Temp/美食系列/黑椒口蘑鸡胸",
+    "90_Temp/美食系列/葱油鲈鱼",
+    "90_Temp/美食系列/咖喱虾仁豆腐",
+    "90_Temp/美食系列/孜然牛肉粒",
+    "90_Temp/美食系列/照烧鸡腿排",
+    "90_Temp/美食系列/菌菇豆腐煲",
+    "90_Temp/美食系列/豆豉蒸排骨",
+    "90_Temp/美食系列/酱香杏鲍菇肉片"
+  ],
+  "discarded_topic_ids": [
+    "topic_8857dd942d3e44ddb19c34c6e11424e5",
+    "topic_35d505a8190c457a93b3d83bc4252812",
+    "topic_3ab9ef161b604dcbae3c891ac3225644",
+    "topic_4cea0d48f50141a1bb5137095ba8ee14",
+    "topic_4d4c031cd311479f9a8821bf274b3636",
+    "topic_593e0f9539dd4520becf220d26b4b875",
+    "topic_7eb6929ff81545cbbb6ee4f0c3af2ae3",
+    "topic_99112286aeb2489f86c86ba424e51ad1",
+    "topic_a2f03531670541d9a149f2f22920504c",
+    "topic_f3ac2a7c37974bb0b9ec2ecd2b1f0f9c",
+    "topic_shengqian_20260718_tomato_beef_egg"
+  ],
+  "discarded_content_ids": [
+    "content_shengqian_20260718_tomato_beef_egg_v1",
+    "content_shengqian_20260718_shiitake_chicken_v1",
+    "content_shengqian_20260718_blackpepper_chicken_v1",
+    "content_shengqian_20260718_scallion_bass_v1",
+    "content_shengqian_20260718_curry_shrimp_tofu_v1"
+  ],
+  "preserved_feedback_ids": [
+    "feedback_shengqian_20260719_visual_realism_tomato_beef",
+    "feedback_shengqian_20260719_visual_realism_shiitake_chicken",
+    "feedback_shengqian_20260719_visual_realism_blackpepper_chicken",
+    "feedback_shengqian_20260719_visual_realism_scallion_bass",
+    "feedback_shengqian_20260719_visual_realism_curry_shrimp_tofu"
+  ],
+  "negative_validation_manifest": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/assets/visual/negative-regression-v1/manifest.json",
+  "negative_example_count": 5,
+  "recovery": "原输出目录已删除，不在工作区提供恢复；仅保留五张隔离反例和数据库审计记录。"
+}

@@ -1,0 +1,82 @@
+{
+  "id": "xugc-m05",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "formal_verified",
+  "callable": true,
+  "account_scope": "task:闲鱼故事UGC任务",
+  "title": "投入落差暴露阶段变化，转手完成退坑和解",
+  "trigger_signals": [
+    "曾认真投入某个爱好或理想",
+    "现实使用与承诺出现落差",
+    "转手能完成阶段性和解"
+  ],
+  "trigger_model": {
+    "mechanism": "先写购买时的认真承诺与投入，再写长期搁置或能力落差，最后通过转手承认阶段变化并保留对热爱的尊重。",
+    "applicable_relations": [
+      "讲述者与过去的自己",
+      "原主人与接手者"
+    ],
+    "transferable_scenes": [
+      "乐器退坑",
+      "健身器材",
+      "游戏收藏",
+      "手工设备"
+    ],
+    "do_not_trigger_on": [
+      "没有具体投入痕迹",
+      "只是清库存",
+      "结尾羞辱过去的自己"
+    ]
+  },
+  "do_not_use": [
+    "没有具体投入痕迹",
+    "只是清库存",
+    "结尾羞辱过去的自己"
+  ],
+  "execution_steps": [
+    "写最初承诺和投入",
+    "给出真实使用或失败细节",
+    "指出生活变化而非人格缺陷",
+    "写转手决定",
+    "保留过去努力的价值"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260713_s05",
+    "feishu_xianyu_20260715_s01",
+    "feishu_xianyu_20260716_s07",
+    "feishu_xianyu_20260717_s02",
+    "feishu_xianyu_20260713_s11",
+    "feishu_xianyu_20260713_s13",
+    "feishu_xianyu_20260713_s14",
+    "feishu_xianyu_20260713_s18"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "最初承诺",
+      "具体投入",
+      "现实落差或搁置",
+      "转手决定",
+      "不否定过去的收束"
+    ],
+    "variable_elements": [
+      "爱好类型",
+      "失败程度",
+      "幽默或温柔语气",
+      "接手者是否出现"
+    ],
+    "tension_engine": "讲述者何时承认自己不会继续，以及如何处理对过去投入的不舍。",
+    "trust_engine": "练习疼痛、使用次数、搬家负担等失败细节让和解可信。",
+    "understanding_engine": "购买理想与实际生活对照，转手成为认知转折。",
+    "beneficiary_engine": "帮助读者区分放弃、止损和阶段性完成。",
+    "length_basis": "投入与落差必须都出现；若只有吃灰，不足以支撑和解。",
+    "boundaries": [
+      "不羞辱过去的自己",
+      "不为所有闲置强行编造青春",
+      "没有真实投入痕迹时不触发"
+    ]
+  },
+  "formal_write": true,
+  "account_skill_id": "xianyu_story_ugc_task",
+  "formal_ingested_at": "2026-07-17"
+}

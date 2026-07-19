@@ -13,7 +13,7 @@ class SqliteIngestTests(unittest.TestCase):
     def test_apply_writes_incremental_candidates_state_and_indexes(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
-            (root / "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说").mkdir(parents=True)
+            (root / "10_Knowledge/formal/accounts/知识账号甲").mkdir(parents=True)
             self._write_fixture(root / "数据" / "sqlite_tables.db")
 
             result = ingest_sqlite_database(root, apply=True, batch_id="20260627_120000")
@@ -23,7 +23,7 @@ class SqliteIngestTests(unittest.TestCase):
             self.assertEqual(result["content"]["changed"], 0)
             self.assertEqual(result["content"]["missing"], 0)
             self.assertEqual(result["comments"], {"status": "ignored"})
-            self.assertEqual({row["account_name"] for row in result["accounts"]}, {"姜胡说", "测试小红书"})
+            self.assertEqual({row["account_name"] for row in result["accounts"]}, {"知识账号甲", "测试小红书"})
 
             batch_dir = root / "00_Inbox" / "sqlite_imports" / "20260627_120000"
             records_path = batch_dir / "records.jsonl"
@@ -50,15 +50,15 @@ class SqliteIngestTests(unittest.TestCase):
             self.assertEqual(records[0]["change_type"], "new")
             self.assertEqual(records[0]["video_url"], "https://example.com/a1.mp4")
             self.assertNotIn("评论内容", records_path.read_text(encoding="utf-8"))
-            self.assertIn("姜胡说", source_index.read_text(encoding="utf-8"))
+            self.assertIn("知识账号甲", source_index.read_text(encoding="utf-8"))
             self.assertIn("测试小红书", source_index.read_text(encoding="utf-8"))
             self.assertIn("评论处理：已忽略", status_index.read_text(encoding="utf-8"))
 
             account_candidates = json.loads(account_candidates_json.read_text(encoding="utf-8"))
             by_name = {row["account_name"]: row for row in account_candidates["accounts"]}
-            self.assertEqual(by_name["姜胡说"]["knowledge_status"], "formal_account_exists")
+            self.assertEqual(by_name["知识账号甲"]["knowledge_status"], "formal_account_exists")
             self.assertEqual(by_name["测试小红书"]["knowledge_status"], "candidate_account")
-            self.assertIn("赚钱", by_name["姜胡说"]["direction_counts"])
+            self.assertIn("赚钱", by_name["知识账号甲"]["direction_counts"])
             self.assertIn("00_Inbox/sqlite_imports/20260627_120000", account_candidates_md.read_text(encoding="utf-8"))
 
             status = sqlite_ingest_status(root)
@@ -221,13 +221,13 @@ class SqliteIngestTests(unittest.TestCase):
                 );
                 """
             )
-            conn.execute("INSERT INTO dy_creator VALUES (1, 'u1', '姜胡说', '100', '1', 1000, 1000)")
+            conn.execute("INSERT INTO dy_creator VALUES (1, 'u1', '知识账号甲', '100', '1', 1000, 1000)")
             conn.execute("INSERT INTO xhs_creator VALUES (1, 'x1', '测试小红书', '20', '30', 1000, 1000)")
             conn.execute(
                 """
                 INSERT INTO douyin_aweme VALUES (
-                    1, 'u1', '姜胡说', 'a1', '#赚钱 普通人做自媒体', '创业 方法 短视频',
-                    1700000000, '100', '20', '30', '40', 'https://example.com/a1', 'https://example.com/a1.mp4', '姜胡说', 1000, 1000
+                    1, 'u1', '知识账号甲', 'a1', '#赚钱 普通人做自媒体', '创业 方法 短视频',
+                    1700000000, '100', '20', '30', '40', 'https://example.com/a1', 'https://example.com/a1.mp4', '知识账号甲', 1000, 1000
                 )
                 """
             )

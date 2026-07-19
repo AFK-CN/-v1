@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "asset_id": "optional-minimal-black-ivory-tableware-anchor",
+  "path": "optional-minimal-black-ivory-tableware-anchor.png",
+  "sha256": "c9c3b0d48e9cf07f1f07ce923966ae17d95a63ed524645c8c1f86f06d439e824",
+  "source_kind": "user_material_reference",
+  "reference_policy": "tableware_material_only",
+  "status": "active_optional",
+  "confirmed_at": "2026-07-19",
+  "allowed_traits": [
+    "极简圆形器皿",
+    "象牙白或哑光黑纯色",
+    "光滑连续表面",
+    "轻微真实使用痕迹"
+  ],
+  "forbidden_transfer": [
+    "参考图白色桌面",
+    "杯子和玻璃器皿",
+    "方形或带柄烤盘",
+    "空餐具陈列构图",
+    "参考图光线和机位"
+  ],
+  "legacy_asset": {
+    "path": "default-walnut-tableware-anchor.png",
+    "status": "rollback_only",
+    "reference_policy": "never_default"
+  }
+}

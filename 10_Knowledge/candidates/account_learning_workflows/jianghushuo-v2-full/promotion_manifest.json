@@ -23,5 +23,17 @@
   "review_completed": true,
   "review_completed_at": "2026-07-14T23:06:58+08:00",
   "current_promotion_status": "PROMOTION_STATUS.json",
-  "formal_ingest_receipt": "FORMAL_INGEST_RECEIPT.json"
+  "formal_ingest_receipt": "FORMAL_INGEST_RECEIPT.json",
+  "source_total": 598,
+  "deep_card_count": 548,
+  "deferred_evidence_count": 50,
+  "verified_candidate_method_count": 10,
+  "schema_version": "2.6",
+  "v26_unified_source_count": 548,
+  "v26_legacy_compatible_source_count": 0,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 548,
+  "publish_copy_completed_count": 548,
+  "publish_copy_deferred_count": 0
 }

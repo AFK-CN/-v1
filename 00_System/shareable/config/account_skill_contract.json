@@ -1,0 +1,165 @@
+{
+  "version": 5,
+  "updated_at": "2026-07-19",
+  "canonical_location": "10_Knowledge/formal/accounts/{账号}/skill/SKILL.md",
+  "formal_manifest": "10_Knowledge/formal/accounts/{账号}/ACCOUNT_SKILL_MANIFEST.json",
+  "formal_account_parent_rule": "账号必须是 accounts 的直属子目录；禁止主题、平台或账号中心中间层",
+  "registry": "20_User/config/account_skill_registry.json",
+  "local_distribution_targets": "20_User/local/account_skill_distribution_targets.json",
+  "required_package_files": [
+    "SKILL.md",
+    "references/production.md",
+    "references/style.md",
+    "references/boundaries.md",
+    "references/acceptance.md"
+  ],
+  "required_account_view_files": [
+    "账号整体方法论.md",
+    "内容生产使用说明.md",
+    "减少AI味输出规则.md",
+    "内容输出标准模板.md"
+  ],
+  "account_view_rules": [
+    "中文可见视图必须从本账号已批准方法、正式 references 和边界生成",
+    "中文可见视图不得从方向词、平台词、其他账号模板或候选方法补造",
+    "skill/ 是权威源；中文可见视图必须声明账号 Skill 版本并随版本同步",
+    "账号索引必须直接暴露四份中文可见视图"
+  ],
+  "required_skill_rules": [
+    "生成新选题前批量调用 topic-memory-check",
+    "只读取少量查重冲突摘要，不读取完整生产数据库",
+    "生产后登记 topic_id、content_id 和账号 Skill 版本",
+    "只调用本账号正式方法和必要正式单卡",
+    "不得复制其他账号规则",
+    "不得编造原句、经历、数据和外部结果"
+  ],
+  "distribution_rules": [
+    "更新或发布独立账号 Skill 时，先按 account_skill_id 查询本机 local_distribution_targets",
+    "SMB 或本机路径只作为外部发布目标，不得写入独立 Skill 包内部",
+    "同步时保留目标端生产历史与用户数据，只合并 Skill 文件"
+  ],
+  "conditional_visual_package": {
+    "required_for_visual_accounts": true,
+    "candidate_profile": "VISUAL_REFERENCE_PROFILE.json",
+    "candidate_manifest": "visual_reference_candidate/manifest.json",
+    "candidate_reference": "account_skill_candidate/references/visual-evidence.md",
+    "formal_reference": "skill/references/visual-evidence.md",
+    "sampling_rule": "production_role_and_risk_coverage",
+    "source_separation": {
+      "account_source_positive": "generation_reality_calibration_and_validation",
+      "user_accepted_ai_output": "page_continuity_and_composition_regression_only",
+      "user_rejected_output": "validation_only",
+      "external_reference": "explicit_scope_only"
+    },
+    "legacy_source_aliases": {
+      "user_accepted_positive": "user_accepted_ai_output"
+    },
+    "accepted_ai_output_policy": {
+      "origin_kind": "ai_generated",
+      "allowed_uses": [
+        "page_continuity_regression",
+        "composition_regression"
+      ],
+      "forbidden_authority": [
+        "authenticity_authority",
+        "realism_authority",
+        "master_reference_eligible",
+        "golden_positive_eligible",
+        "method_evidence_eligible",
+        "generation_reference_eligible"
+      ],
+      "user_acceptance_changes_origin": false,
+      "generated_output_can_self_bootstrap": false
+    },
+    "hard_boundaries": [
+      "正例资产必须来自当前账号，禁止跨账号补样本",
+      "只有账号原图可以承担真实性、真实感与生成参考权威",
+      "用户认可AI图只能用于页间连续性和构图回归，不得升级为真实感来源、母版、黄金正例、账号方法或后续生图参考",
+      "校准图和首张生成结果只能作为回归基线，禁止生成结果自举为新正例",
+      "生图提示词、生成稳定性约束与验收规则必须分离；模型稳定性约束不得冒充账号内容规律",
+      "用户拒绝反例只能用于验收，不得进入生成参考",
+      "方向均衡轻量数据源不得替代按生产角色与风险覆盖的参考包",
+      "账号视觉资产不得写入系统 Skill，也不得自动升级为方法证据",
+      "便携清单不得包含 NAS 绝对路径"
+    ]
+  },
+  "upgrade_compatibility": {
+    "schema_id": "account_skill_upgrade_compatibility_v1",
+    "candidate_manifest": "account_skill_candidate/UPGRADE_COMPATIBILITY.json",
+    "formal_manifest": "skill/UPGRADE_COMPATIBILITY.json",
+    "applies_to_new_or_upgraded_skills": true,
+    "new_workflow_minimum_version": "2.9",
+    "capability_statuses": [
+      "active",
+      "replaced",
+      "deprecated"
+    ],
+    "required_top_level_fields": [
+      "schema_version",
+      "account_skill_id",
+      "base_version",
+      "target_version",
+      "upgrade_scope",
+      "previous_capability_ids",
+      "new_capability_ids",
+      "capabilities",
+      "changed_capabilities",
+      "source_snapshot",
+      "regression_package_manifests",
+      "isolation",
+      "rollback"
+    ],
+    "required_capability_fields": [
+      "id",
+      "introduced_in",
+      "status",
+      "source_paths"
+    ],
+    "invariants": {
+      "no_silent_capability_loss": true,
+      "stable_capability_ids_required": true,
+      "previous_ids_must_remain_in_inventory": true,
+      "new_ids_must_equal_inventory_delta": true,
+      "replaced_or_deprecated_requires_user_confirmation": true,
+      "replaced_requires_replacement_id": true,
+      "rollback_required": true,
+      "source_snapshot_hashes_required": true,
+      "source_paths_same_account_only": true,
+      "change_proposals_same_account_only": true,
+      "absolute_or_nas_paths_forbidden": true,
+      "cross_account_merge_allowed": false,
+      "one_manifest_per_account": true,
+      "system_may_contain_account_specific_capabilities": false
+    },
+    "multi_image_continuity": {
+      "schema_id": "account_visual_regression_package_v1",
+      "required_for_user_accepted_multi_image_sets": true,
+      "minimum_page_count": 2,
+      "ordered_pages_required": true,
+      "continuity_mother_required": true,
+      "direct_parent_relation_required": true,
+      "local_edit_or_controlled_derivation_required": true,
+      "independent_regeneration_when_continuity_required": false,
+      "source_kind": "user_accepted_ai_output",
+      "origin_kind": "ai_generated",
+      "reference_policy": "page_continuity_and_composition_regression_only",
+      "allowed_uses": [
+        "page_continuity_regression",
+        "composition_regression"
+      ],
+      "required_false_fields": [
+        "authenticity_authority",
+        "realism_authority",
+        "master_reference_eligible",
+        "golden_positive_eligible",
+        "method_evidence_eligible",
+        "generation_reference_eligible"
+      ]
+    }
+  },
+  "activation": {
+    "candidate_callable": false,
+    "formal_review_required": true,
+    "user_registry_status": "active"
+  }
+}

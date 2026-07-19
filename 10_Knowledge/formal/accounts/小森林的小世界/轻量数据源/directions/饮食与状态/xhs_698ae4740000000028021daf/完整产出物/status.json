@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T11:50:15",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051150/20b1bf335c28cbb90b4757b9f5d59e26/1040g00831sjjjojrls004a00sj99a1hqlt20538!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T11:50:28",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\video\\source.mp4",
+      "source_url": "http://sns-video-v2.xhscdn.com/stream/79/110/259/01e98ae474511ca1010370039c468e3f16_259.mp4?sign=413c7a1a0ec14d27b685e687a31df9fe&t=6a4e71b1"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T05:09:16",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\video\\source.mp4",
+      "duration_sec": 246.233333,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frame_count": 7387,
+      "platform": "xhs",
+      "source_id": "698ae4740000000028021daf",
+      "source_url": "http://sns-video-v2.xhscdn.com/stream/79/110/259/01e98ae474511ca1010370039c468e3f16_259.mp4?sign=413c7a1a0ec14d27b685e687a31df9fe&t=6a4e71b1",
+      "title": "请大数据把我推给睡不好的姐妹（100%🈚️广",
+      "desc": "都是我自己用下来真的有用的助眠好物，对我们这种容易睡眠障碍的人来说，好睡眠真的是靠各种努力堆出来的。希望我的分享对大家有用，都能睡个好觉！😪\n\t\n#卧室好物[话题]##睡眠好物[话题]##好物分享[话题]##一觉睡到大天亮[话题]##家居[话题]##无广告纯分享[话题]#",
+      "publish_time": 1770710132000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T05:09:22",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T05:09:23",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T05:12:04",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_698ae4740000000028021daf\\video\\transcript.srt",
+      "segments": 125
+    }
+  },
+  "updated_at": "2026-07-11T05:12:04"
+}

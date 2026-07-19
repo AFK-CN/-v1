@@ -1,0 +1,270 @@
+{
+  "platform": "xhs",
+  "source_id": "68d7b7e00000000012021a05",
+  "source_url": "https://www.xiaohongshu.com/explore/68d7b7e00000000012021a05",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "title": "独居一人食｜吃的干净真的会瘦！！！",
+  "desc": "今天吃🍽️\n🍤 空气炸锅烤虾（💰3.2）\n1. 大虾开背去虾线，用料酒、姜片、黑胡椒和少许盐腌制10分钟；\n2. 空气炸锅180℃ 10分钟，关键：中途（约5分钟时）拉出炸篮翻面，确保受热均匀。\n🥔 烤土豆块（💰1.2）\n1. 土豆切滚刀块泡水5分钟，加食用油、盐、黑胡椒、辣椒粉（可选）颠匀。\n2. 空气炸锅 200℃，烤 20分钟。关键：中途摇晃炸篮2-3次，直到表面金黄形成硬壳。\n🥬 焯炒菜心（💰0.9）\n1. 锅中水烧开（大火），加一勺盐和几滴油，放入菜心，烫1分钟至颜色变深绿；\n2. 快炒：热锅热油，下蒜末爆香至微黄，立刻倒入菜心；\n3. 调迅速加入一转中小火快速翻炒1-2分钟，加盐调味即可出锅。\n🥚 水煮蛋（💰0.75）\n1. 鸡蛋冷水下锅10分钟；\n2. 捞出放入冰水或冷水中浸泡 3分钟，这样蛋壳好剥，蛋黄表面也不会发灰。\n合计💰6.5\n—————————\n碎碎念📖\n找到自己的舒适区边缘，也就是会感觉到有挑战、有难度但是又不至于崩溃的时候，在这种状态下学习做事，专注度最高学习状态也会最佳，成长也会很快！并随着能力的增长不断向外扩展自己的舒适区边缘，舒适区就会越来越大，你也会变得越来越强大。\n\t\n#独居[话题]# #一人食[话题]#\n#下班快速吃上饭[话题]# #减脂[话题]#\n#一周减脂餐不重样[话题]#\n#一人居一人食[话题]#\n#好好吃饭[话题]#\n#好好生活[话题]#\n#天天开心[话题]#",
+  "image_count": 11,
+  "has_text": true,
+  "ocr_text": "烤土豆\n炒菜心\n烤基围虾\n黑胡椒、油抓匀放入空气炸\n生姜、料酒腌制15分钟\n锅\n180度正反面各4分钟\n肉质紧实，香喷喷\n小书\n土豆切块，泡水5分钟，洗去\n喷油抓匀，平铺空气炸锅内\n外层淀粉\n180度烤10分钟，拿出翻面，\n撒辣椒粉、番茄酱、烧烤料都\n继续180度10分钟\n很好吃！\n小方\n囍\n菜心择好洗净，拍蒜末\n水开牌水1分钟\n少许油爆香蒜末\n带一点水，中小火下锅炒1-2\n分钟，加盐调味即可出锅\n小市",
+  "ocr_by_image": [
+    {
+      "index": 0,
+      "role": "cover",
+      "text": "烤土豆\n炒菜心\n烤基围虾",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "text": "黑胡椒、油抓匀放入空气炸\n生姜、料酒腌制15分钟\n锅\n180度正反面各4分钟\n肉质紧实，香喷喷",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "text": "小书",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "text": "土豆切块，泡水5分钟，洗去\n喷油抓匀，平铺空气炸锅内\n外层淀粉\n180度烤10分钟，拿出翻面，\n撒辣椒粉、番茄酱、烧烤料都\n继续180度10分钟\n很好吃！",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "text": "小方",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 7,
+      "role": "image",
+      "text": "囍",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 8,
+      "role": "image",
+      "text": "菜心择好洗净，拍蒜末\n水开牌水1分钟\n少许油爆香蒜末\n带一点水，中小火下锅炒1-2\n分钟，加盐调味即可出锅",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 9,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 10,
+      "role": "image",
+      "text": "小市",
+      "status": "success",
+      "reason": ""
+    }
+  ],
+  "visual_summary": "11 张portrait图片；包含 虾、土豆、鸡蛋、菜心、减脂餐、一人食；主题为 独居、一人食、下班快速吃上饭、减脂、一周减脂餐不重样；图中文字示例：烤土豆；画面风格：多图合集，有图中文字/标注，清晰",
+  "scene": "居家餐食",
+  "content_tags": [
+    "餐食",
+    "美食",
+    "居家饮食",
+    "减脂餐",
+    "合集",
+    "竖图",
+    "图中文字",
+    "独居",
+    "一人食",
+    "下班快速吃上饭",
+    "减脂",
+    "一周减脂餐不重样",
+    "一人居一人食",
+    "好好吃饭",
+    "好好生活"
+  ],
+  "topic_tags": [
+    "独居",
+    "一人食",
+    "下班快速吃上饭",
+    "减脂",
+    "一周减脂餐不重样",
+    "一人居一人食",
+    "好好吃饭",
+    "好好生活",
+    "天天开心"
+  ],
+  "food_items": [
+    "虾",
+    "土豆",
+    "鸡蛋",
+    "菜心",
+    "减脂餐",
+    "一人食"
+  ],
+  "style": {
+    "camera": "可能为俯拍/近景",
+    "composition": "多图合集",
+    "orientation": "portrait",
+    "text_overlay": "有图中文字/标注",
+    "dominant_colors": [
+      "#887957",
+      "#87795d",
+      "#988b7a",
+      "#856d59",
+      "#998164"
+    ],
+    "clarity": "清晰",
+    "contrast": "对比度较高",
+    "tone": "真实记录型内容"
+  },
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#887957",
+      "contrast_score": 62.290829154051615,
+      "blur_score": 342.40004939908846,
+      "has_text": true
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#87795d",
+      "contrast_score": 62.04807792758829,
+      "blur_score": 258.8079983146441,
+      "has_text": false
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#988b7a",
+      "contrast_score": 69.03117894848802,
+      "blur_score": 1704.4816341520325,
+      "has_text": true
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#856d59",
+      "contrast_score": 62.418343372029874,
+      "blur_score": 106.56659270243543,
+      "has_text": true
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#998164",
+      "contrast_score": 62.43003137568393,
+      "blur_score": 147.80597018098143,
+      "has_text": false
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#a39162",
+      "contrast_score": 67.35971943093799,
+      "blur_score": 1683.395983145072,
+      "has_text": true
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#998563",
+      "contrast_score": 70.9275456325096,
+      "blur_score": 141.08276795139815,
+      "has_text": true
+    },
+    {
+      "index": 7,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#7f6b53",
+      "contrast_score": 67.89056286769437,
+      "blur_score": 712.2226871676882,
+      "has_text": true
+    },
+    {
+      "index": 8,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#737f52",
+      "contrast_score": 65.35538811785379,
+      "blur_score": 3768.082029825385,
+      "has_text": true
+    },
+    {
+      "index": 9,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#697448",
+      "contrast_score": 49.97974259463368,
+      "blur_score": 293.7805525641274,
+      "has_text": false
+    },
+    {
+      "index": 10,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#887d68",
+      "contrast_score": 66.16680990067779,
+      "blur_score": 90.23114360330933,
+      "has_text": true
+    }
+  ],
+  "method": "rule_based_ocr_summary",
+  "updated_at": "2026-07-11T00:27:06"
+}

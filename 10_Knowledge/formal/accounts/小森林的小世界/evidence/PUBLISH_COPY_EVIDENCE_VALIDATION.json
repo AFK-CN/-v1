@@ -1,0 +1,36 @@
+{
+  "schema_version": "publish_copy_formal_validation_v1",
+  "status": "approved_callable",
+  "account_name": "小森林的小世界",
+  "account_skill_version": "1.3",
+  "source_workflow_id": "xiaosenlin-xiaoshijie-v2-full",
+  "validated_at": "2026-07-18",
+  "user_confirmation": "用户明确回复‘可以生效’。",
+  "source_report": "10_Knowledge/candidates/account_learning_workflows/xiaosenlin-xiaoshijie-v2-full/PUBLISH_COPY_SPECIAL_STUDY.json",
+  "source_report_sha256": "4fbd6685ee2b0f48a8ca8f7fba8be8ad3d6f1eacaf1cf475386e5744c3cc7a10",
+  "observation_file": "10_Knowledge/candidates/account_learning_workflows/xiaosenlin-xiaoshijie-v2-full/candidates/publish_copy_observations.jsonl",
+  "observation_sha256": "b0c145023992f3521a38bb7c51d557b448003baccf53c3dae13992761542a150",
+  "counts": {
+    "eligible": 379,
+    "completed": 379,
+    "deferred": 0,
+    "title_observed": 379,
+    "body_observed": 379,
+    "topics_observed": 379,
+    "coordination_observed": 379
+  },
+  "triple_verification": {
+    "cross_context": "passed: experience, process, time-feedback, product-decision and separated commercial evidence preserve one title-process-topic coordination with track-specific boundaries",
+    "predictive_usefulness": "passed: the promoted rules decide promise strength, process evidence, condition and stop criteria, topic scope and visual downgrade before production",
+    "account_exclusivity": "passed: the rules require this account's observable skin state, use process, feedback and medical boundary rather than a generic product-review template"
+  },
+  "rejected_generalizations": [
+    "frequent efficacy tags prove universal effects",
+    "all product lists use the same recommendation structure",
+    "time nodes imply fixed time-to-effect",
+    "titles, OCR or visual appearance alone prove medical or efficacy conclusions"
+  ],
+  "candidate_preserved": true,
+  "raw_source_modified": false
+}
+

@@ -1,0 +1,315 @@
+{
+  "schema_version": "account_skill_transcript_validation_v1",
+  "validated_at": "2026-07-16",
+  "account": "李宗恒",
+  "minimum_per_method": 10,
+  "maximum_per_method": 15,
+  "selection_rule": "formal seeds first, then cluster/classified support with direction and length diversity; low-evidence expansion remains provisional",
+  "candidate_audit_path": "10_Knowledge/candidates/account_skill_upgrades/2026-07-16/evidence_revalidation/evidence_matrix.json",
+  "method_count": 4,
+  "validated_source_total": 59,
+  "methods": [
+    {
+      "method_id": "lz-m1-system-transfer",
+      "title": "整套系统迁移",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 14,
+      "source_refs": [
+        "7521216372430556467",
+        "7512175549243542794",
+        "7450782934102969639",
+        "7598472724416227465",
+        "7647568516182595694",
+        "7590811035129735154",
+        "7444757325342199074",
+        "7636107444749339930",
+        "7559050049197411593",
+        "7441421058281917736",
+        "7383232787051990284",
+        "7387254298964397323",
+        "7324179912909180223",
+        "7443374846681140480"
+      ],
+      "transcript_sha256": {
+        "7521216372430556467": "afb49340cd9e84ddcb29af45700e3f22bdb7b17867484d932f83f445037e43f8",
+        "7512175549243542794": "fd88bf2b500caad614bfb0d4e232ceb89d3a578bdd236ee4c78d6fc0bb9a1869",
+        "7450782934102969639": "1b11dedbc51dbd9bcf9f593a6be718f24a99ed1f9df0385077359f60e443ca4d",
+        "7598472724416227465": "4ae5e3d1f9644bb374eef1f4ce204c3af301253b984eaf7b354bd42160d13e7f",
+        "7647568516182595694": "3a62e672d79f87864a4bce83787b4080633c6fba3018126e007f074770a72b59",
+        "7590811035129735154": "183384e9e838f0af5b6a0c10b6a6f5834f6eff00725b5e32274ec9698929b34c",
+        "7444757325342199074": "c5c16c34d8a2e627cca89a3a46da1ca7055b4c495559c872d2af37f38224d8e6",
+        "7636107444749339930": "2b05f0ab802349fa2cf2c8209601b38206269f8575ca3575ec602a43ce7d1409",
+        "7559050049197411593": "70f9df626fd174eb0bf92da9dfd110dabef1ac5a8a428f838899133b9786b4e9",
+        "7441421058281917736": "d3dbe7c7745aa945650e708cdb4b14ffcdd03439b723c9350fbe5a51d630d871",
+        "7383232787051990284": "e3484d89d4edeb8e8113d5ff87d0f12eae1d608cdf3e4e2ccbc20c2e82a00f3d",
+        "7387254298964397323": "9603fd2273541ce2f9775c289c8fb0004438c81b22b8bfdc6f1091e1488ab6a1",
+        "7324179912909180223": "c62c10c039c1c5206a1e1ed6252554977c10bf472e233e24ef126a6d3b05b9eb",
+        "7443374846681140480": "50db4a03df6c618dc48b60378fda8be2f98efd5ba75f77cda63acf0c8cc22ebc"
+      },
+      "aggregate": {
+        "unique_source_count": 14,
+        "direction_count": 1,
+        "direction_distribution": {
+          "自然短剧情": 14
+        },
+        "selection_status_distribution": {
+          "formal_seed": 4,
+          "cluster_support": 10
+        },
+        "transcript_chars": {
+          "min": 103,
+          "median": 616,
+          "max": 907
+        },
+        "signal_medians": {
+          "audience_terms": 0,
+          "boundary_terms": 3,
+          "causal_terms": 0,
+          "feedback_terms": 0,
+          "first_person_terms": 22,
+          "line_count": 84,
+          "question_marks": 0,
+          "time_or_sequence_terms": 3
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": [
+        "7449358320370076964"
+      ]
+    },
+    {
+      "method_id": "lz-m2-control-right-reversal",
+      "title": "评价权与控制权反转",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "7523797231017069833",
+        "7490030238697540918",
+        "7058478668875566351",
+        "7606063262928915850",
+        "7552484344628497710",
+        "7603669079937798566",
+        "7510068436476480819",
+        "7052933076619414819",
+        "7035963846430870818",
+        "7050763342469696768",
+        "7050072209812917519",
+        "7629208744215219491",
+        "7537158061102763315",
+        "7522720963953741083",
+        "7636107444749339930"
+      ],
+      "transcript_sha256": {
+        "7523797231017069833": "0efca97ada5c377db6f6c8057c4ad13e649cc87d13e1852f53c1e6562ddba802",
+        "7490030238697540918": "74cb11696e59b756ffd5194234646a00a0ddedcd4a1efe116dba48381968637c",
+        "7058478668875566351": "b69fc3fc015e6723ab5fc9cb8133847315dbb3b44f884b25731de17e7d2d6804",
+        "7606063262928915850": "df03ba66de3b7c9460be317e3bb87ddfbc2f99b88339590133749b7c066a7f02",
+        "7552484344628497710": "e358186077357477b50a2b48cede62ac97af3ff2f4af892bce0708b973d13e19",
+        "7603669079937798566": "087b3f16411d163d561c639d880428d81ac656c2c1c2ce9f2ab11aea0902667d",
+        "7510068436476480819": "903ba40c3a745adf62ab7c87d9341c7b79bb58ae2c5f7d97ce23269e1ccdd761",
+        "7052933076619414819": "ee97a6eb5cef14399ce75f3a8c028e2860591986a163300f36be1ca939d98f29",
+        "7035963846430870818": "0d28e569ef5b8a80fa45ebfad409a5f6aea1c188fa44d07d455f620cf69957dc",
+        "7050763342469696768": "c03fda78bb2fd85064e46391528007b034542f7a76ecb8dfd4ed53b01627d908",
+        "7050072209812917519": "9970cf540efc2aeb819ab447241574ce26819690edac848951dfe64ddf73d8ed",
+        "7629208744215219491": "24ceefe31bc0e80e180cfa290f936ad3087e5313ef9ed2c380be0f2a7fbd6713",
+        "7537158061102763315": "92d8143203b5ebd3366120cdb8619f0322c8448824885711a25a1eafc8fa29f1",
+        "7522720963953741083": "4f36b5634d25da5312ca3882e9a50ac6df998b532ab8d78034b0bb290fcc1cc7",
+        "7636107444749339930": "2b05f0ab802349fa2cf2c8209601b38206269f8575ca3575ec602a43ce7d1409"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 1,
+        "direction_distribution": {
+          "自然短剧情": 15
+        },
+        "selection_status_distribution": {
+          "formal_seed": 4,
+          "cluster_support": 11
+        },
+        "transcript_chars": {
+          "min": 168,
+          "median": 478,
+          "max": 815
+        },
+        "signal_medians": {
+          "audience_terms": 1,
+          "boundary_terms": 1,
+          "causal_terms": 0,
+          "feedback_terms": 0,
+          "first_person_terms": 19,
+          "line_count": 68,
+          "question_marks": 0,
+          "time_or_sequence_terms": 5
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": [
+        "7402102731986586919",
+        "7423267323160694068",
+        "7450985148704705804",
+        "7509225154377321778",
+        "7560006263476702515",
+        "7563964474965626162",
+        "7606960033025557706"
+      ]
+    },
+    {
+      "method_id": "lz-m3-semantic-reinterpretation",
+      "title": "字面重释与双语境链",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "7519348226857798938",
+        "7275179679982685452",
+        "7260391957950663948",
+        "7484218738481401100",
+        "7483454376640548107",
+        "7629208744215219491",
+        "7575029237842473354",
+        "7481613117500165439",
+        "7508292805878713638",
+        "7612331320252916106",
+        "7484836888973528361",
+        "7622365691135511851",
+        "7068584186596068648",
+        "7608237411609498778",
+        "7641090258805196718"
+      ],
+      "transcript_sha256": {
+        "7519348226857798938": "61a32868a38e065752db4cf91a1e24cfb31417fb17e81a6e672cef71df6cf4f3",
+        "7275179679982685452": "3ece8add070d77ae5e4f3d59a382fc5faecec4007c1ecc0ffcee5983021d593d",
+        "7260391957950663948": "8d1d52f61ee2c9e6c1822201b1db194737986e79edbdaa04f76df0d4462382dd",
+        "7484218738481401100": "d3c83567078a652ac96c966c22c834e351ec89f5bd700d1aed9dbc219cc4e691",
+        "7483454376640548107": "40406d99868c605b9b1f2bf7caf1d2a7381a03a808610b0f71678df4726f111e",
+        "7629208744215219491": "24ceefe31bc0e80e180cfa290f936ad3087e5313ef9ed2c380be0f2a7fbd6713",
+        "7575029237842473354": "eede06310f361d704d0d368e0e8470eeb24e828d61cdb0f8177cf7f749b2d573",
+        "7481613117500165439": "e8f91063178bd4babd7f09eb927e4bf8fee9fc246a80ba0a2d34c73a51bbfad0",
+        "7508292805878713638": "0aaacdda920bb625ba6a9667f4f44f630991451fa42144cd576a27a4bf07c238",
+        "7612331320252916106": "38bea510f7694ca6ea1e64272aaf3d02d473a1b2ade1b8150e270ae6e7e921f5",
+        "7484836888973528361": "4d7884b7abd9491d6ee6716996d44fdfd01fe3781969243f5cdff9bd2663cd56",
+        "7622365691135511851": "8c4fb1a271e96ec784afb45c704324e0d1e54ff062d72cb357debda22d9a718c",
+        "7068584186596068648": "2e346a859e354534921fcf860100b68d2f2557f478896abac5753506d780dc56",
+        "7608237411609498778": "05df72d29bca9d319c0ce713fb9fdad297f2a952dd4e003d294e85c0edf1229c",
+        "7641090258805196718": "0e51b16a2fdeb2c38ebf750b69e7115c30d27d4771efab4a0eac5927df0c0221"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 1,
+        "direction_distribution": {
+          "自然短剧情": 15
+        },
+        "selection_status_distribution": {
+          "formal_seed": 4,
+          "cluster_support": 11
+        },
+        "transcript_chars": {
+          "min": 135,
+          "median": 475,
+          "max": 819
+        },
+        "signal_medians": {
+          "audience_terms": 0,
+          "boundary_terms": 2,
+          "causal_terms": 1,
+          "feedback_terms": 0,
+          "first_person_terms": 19,
+          "line_count": 56,
+          "question_marks": 0,
+          "time_or_sequence_terms": 5
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": [
+        "7263290694796692777",
+        "7271092803684371751",
+        "7378743873893305619",
+        "7395258585413930251",
+        "7421747582654860559",
+        "7507589779522309402",
+        "7602632130237736923",
+        "7606960033025557706",
+        "7626726152758301513",
+        "7628822921192865498",
+        "7633928127651370378"
+      ]
+    },
+    {
+      "method_id": "lz-m4-fixed-rule-escalation",
+      "title": "固定规则多场景递进",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "7522720963953741083",
+        "7169039217492856095",
+        "7179795639503490361",
+        "7648330461677491674",
+        "7641090258805196718",
+        "7612331320252916106",
+        "7488197351031475475",
+        "7148994103076850975",
+        "7576543106938930611",
+        "7572424378610028955",
+        "7582957244796472585",
+        "7444488197377101116",
+        "7608237411609498778",
+        "7610510467530054537",
+        "7629208744215219491"
+      ],
+      "transcript_sha256": {
+        "7522720963953741083": "4f36b5634d25da5312ca3882e9a50ac6df998b532ab8d78034b0bb290fcc1cc7",
+        "7169039217492856095": "9ac0b364b9e83dc3de1e4dfde39ac5c02df95e834b48c280f8c1993e237e2350",
+        "7179795639503490361": "efb97ed66757153ec9b02c319ed735ae84e6bdd0a6f7944a16003eb1b9308c3e",
+        "7648330461677491674": "a94cdb3d209630f101f3284f0baa3a4a72e3fd21732953e0ae1a1aa8f6ee130b",
+        "7641090258805196718": "0e51b16a2fdeb2c38ebf750b69e7115c30d27d4771efab4a0eac5927df0c0221",
+        "7612331320252916106": "38bea510f7694ca6ea1e64272aaf3d02d473a1b2ade1b8150e270ae6e7e921f5",
+        "7488197351031475475": "cab70ad9adb50dea12bba28328207891848ea040eea98f81fbd9481e169b0ba1",
+        "7148994103076850975": "c9e7a056563cafe9b80274a564f0764b74a45a16459dee8b3e15bff813c0cb2d",
+        "7576543106938930611": "74ff7e0ced5fba47b14c1e87c8a126c3f93d9eef548da0c3820ef4d469bac3fc",
+        "7572424378610028955": "2b1e4b200e86d1acec4e0b25c26925d11d6e4a086bec479c17eb308a32e134c9",
+        "7582957244796472585": "9065b1a7c1ded39f9517ed6c8a6639646b0a9b5f91bbfea95db3345f6267d50b",
+        "7444488197377101116": "b1a2963c8b47499e76e954f272d51ea4173bb4b1b69725cb8cea9c4bcc4cb3ea",
+        "7608237411609498778": "05df72d29bca9d319c0ce713fb9fdad297f2a952dd4e003d294e85c0edf1229c",
+        "7610510467530054537": "117f50b55c3f950f6fd9eb74aaa8ce996268619ceaaafd9657e959b169822ece",
+        "7629208744215219491": "24ceefe31bc0e80e180cfa290f936ad3087e5313ef9ed2c380be0f2a7fbd6713"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 1,
+        "direction_distribution": {
+          "自然短剧情": 15
+        },
+        "selection_status_distribution": {
+          "formal_seed": 4,
+          "cluster_support": 11
+        },
+        "transcript_chars": {
+          "min": 183,
+          "median": 462,
+          "max": 819
+        },
+        "signal_medians": {
+          "audience_terms": 0,
+          "boundary_terms": 2,
+          "causal_terms": 1,
+          "feedback_terms": 0,
+          "first_person_terms": 14,
+          "line_count": 68,
+          "question_marks": 0,
+          "time_or_sequence_terms": 4
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": [
+        "7257030635087220007",
+        "7389489663137893686",
+        "7457027526498536740",
+        "7499048338315414823",
+        "7562130891766877486",
+        "7605238812160405734",
+        "7626726152758301513",
+        "7628822921192865498"
+      ]
+    }
+  ],
+  "formal_skill_update_allowed": true
+}

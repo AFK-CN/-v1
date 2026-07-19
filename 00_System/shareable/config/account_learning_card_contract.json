@@ -1,6 +1,6 @@
 {
-  "version": "2.1",
-  "updated_at": "2026-07-12",
+  "version": "2.4",
+  "updated_at": "2026-07-19",
   "contract_id": "unified_three_layer_v2",
   "scope": "all_account_learning_cards",
   "new_cards_must_use_contract": true,
@@ -94,6 +94,32 @@
     "story_or_skit": ["开头设定", "核心冲突", "升级", "转折或笑点", "收尾"],
     "image_text": ["封面承诺", "分图顺序", "信息层级", "行动建议", "收尾互动"]
   },
+  "image_text_layer_requirements": {
+    "publish_layer": [
+      "标题原文与标题机制",
+      "正文原文与正文结构",
+      "细节密度",
+      "真人感或生活痕迹",
+      "结尾方式",
+      "话题策略",
+      "发布视觉协同"
+    ],
+    "visual_layer": [
+      "封面钩子",
+      "逐图角色与分图顺序",
+      "构图与视角",
+      "主体动作与状态变化",
+      "视觉层级",
+      "文字注释设计",
+      "字形字号层级",
+      "色彩光线质感",
+      "真人与生活感",
+      "跨模态协同",
+      "收藏理由",
+      "生产参考候选角色与风险"
+    ],
+    "evidence_rule": "OCR只证明可读文字，不替代构图、文字设计、动作状态、成品呈现或组图叙事证据。"
+  },
   "cross_card_outputs": [
     "ACCOUNT_OVERVIEW.md/json",
     "candidates/{positioning,topics,structures,expression,counterexamples}.jsonl",
@@ -106,7 +132,10 @@
     "methods/{method_id}/test-prompts.json",
     "methods/{method_id}/test-results.json",
     "LEARNING_DIGEST.md",
-    "promotion_manifest.json"
+    "promotion_manifest.json",
+    "VISUAL_REFERENCE_PROFILE.json",
+    "visual_reference_candidate/manifest.json",
+    "account_skill_candidate/references/visual-evidence.md"
   ],
   "compatibility": {
     "legacy_rich_v1": "read_and_validate_without_rewrite",
@@ -121,6 +150,11 @@
     "A2必须按机制描述触发与迁移，不得把来源选题原句直接当作触发条件",
     "人物关系、场景、道具和题材词只能作为适配维度，不能单独触发方法",
     "广告和平台活动不得污染核心方向规律",
-    "新卡缺任一必需段落不得通过"
+    "新卡缺任一必需段落不得通过",
+    "图文卡必须分别完成发布文案学习和图片深度学习，缺失证据可以明示但不得用任务清单或空泛形容词冒充结论",
+    "视觉账号在学习交付前必须组建按生产角色与风险覆盖的账号专属参考候选包，方向均衡轻量源不能替代生产参考包",
+    "账号原始正例、用户认可AI输出、用户拒绝反例和外部参考必须按真实来源分层隔离，用户认可不改变AI来源，用户拒绝反例只能用于验收，任何视觉资产都不得自动成为方法证据",
+    "用户认可AI输出只能用于页间连续性和构图回归，不得成为真实性、真实感、镜头真实感、母版、黄金正例或后续生图来源",
+    "生图提示词、模型稳定性约束和验收规则必须分离；生成稳定性限制不得冒充账号内容规律"
   ]
 }

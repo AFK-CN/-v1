@@ -1,0 +1,34 @@
+{
+  "schema_version": "xianyu_ugc_blind_tasks_v1",
+  "tasks": [
+    {
+      "id": "blind-m01-moving-suitcase",
+      "prompt": "搬家后卖一个旧行李箱，要求写成闲鱼故事UGC。"
+    },
+    {
+      "id": "blind-m02-sewing-machine",
+      "prompt": "卖掉一台缺针但还能转的旧缝纫机，要求写成闲鱼故事UGC。"
+    },
+    {
+      "id": "blind-m03-underpriced-lens",
+      "prompt": "买家发现镜头标价少写一个零并主动提醒，要求写短故事。"
+    },
+    {
+      "id": "blind-m04-plant-watering",
+      "prompt": "在闲鱼提供出差代浇植物服务，要求写成长故事。"
+    },
+    {
+      "id": "blind-m05-pottery-wheel",
+      "prompt": "把长期当边桌的陶艺拉坯机转手，要求写退坑故事。"
+    },
+    {
+      "id": "blind-m06-returned-book-note",
+      "prompt": "退回来的旧书里多了一张道歉便签，要求写短交易奇遇。"
+    },
+    {
+      "id": "blind-m07-night-printer",
+      "prompt": "夜里用3D打印机赶闲鱼订单，家人误会在开工厂，要求写自然的成长故事。"
+    }
+  ],
+  "expected_answers_hidden_during_execution": true
+}

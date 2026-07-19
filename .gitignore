@@ -11,11 +11,18 @@ env/
 
 # OS metadata.
 .DS_Store
+.playwright-cli/
 
 # Local-only knowledge-base state and configuration.
 00_System/runtime/*
 !00_System/runtime/README.md
 80_Local/
+20_User/data/*
+!20_User/data/README.md
+20_User/feedback/*
+!20_User/feedback/README.md
+20_User/local/*
+!20_User/local/README.md
 20_User/private/*
 !20_User/private/README.md
 !20_User/private/agents/
@@ -24,3 +31,22 @@ env/
 !20_User/private/agents/agent_auth_registry.template.md
 90_Temp/*
 !90_Temp/README.md
+
+# Protected raw inputs stay local and read-only. Keep only boundary docs in Git.
+数据/*
+!数据/README.md
+00_Inbox/*
+!00_Inbox/README.md
+99_Archive/*
+!99_Archive/README.md
+
+# Offline lightweight sources keep their text manifests in Git, while large
+# reproducible media remains local/NAS-backed.
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.mp4
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.mov
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.m4a
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.wav
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.jpg
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.jpeg
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.png
+10_Knowledge/**/轻量数据源/**/完整产出物/**/*.webp

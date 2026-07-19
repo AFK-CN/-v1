@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "negative_package_id": "shengqian-visual-negative-v1",
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "version": "1.0",
+  "created_at": "2026-07-19",
+  "source_kind": "user_rejected_output",
+  "reference_policy": "validation_only",
+  "never_use_as_positive_reference": true,
+  "purpose": "只用于识别视觉回归和测试拒绝规则；不得作为生图参考、账号风格证据或方法证据。",
+  "items": [
+    {
+      "id": "negative-tomato-beef-tutorial-morphology",
+      "path": "neg_01_tomato_beef_tutorial.png",
+      "sha256": "488bf81f05de6a3c4999e53d1eeb7c933f8e6027fa08ddc6a4812a49f2bccc94",
+      "content_id": "content_shengqian_20260718_tomato_beef_egg_v1",
+      "page_role": "tutorial",
+      "failure_labels": [
+        "meat_morphology_unreal",
+        "waxy_food_texture",
+        "synthetic_surface_repetition"
+      ],
+      "rejection_rule": "肉片、鸡蛋和番茄缺少自然纤维与受热差异，整体呈蜡质和重复纹理时拒绝。"
+    },
+    {
+      "id": "negative-shiitake-chicken-tutorial-repetition",
+      "path": "neg_02_shiitake_chicken_tutorial.png",
+      "sha256": "57de8b66cd2ebfcd26afab7e9639f825edb10c241935dbefd73f5ca48a7b65d4",
+      "content_id": "content_shengqian_20260718_shiitake_chicken_v1",
+      "page_role": "tutorial",
+      "failure_labels": [
+        "chicken_piece_shape_repetition",
+        "over_polished_food_surface",
+        "mechanical_grid_template"
+      ],
+      "rejection_rule": "鸡块形状和表面纹理高度重复、食物像模型且教程机械套格时拒绝。"
+    },
+    {
+      "id": "negative-blackpepper-chicken-result-plastic",
+      "path": "neg_03_blackpepper_chicken_result.png",
+      "sha256": "33422e7c6bd1055e68e18d342736438ad7bf9597980494dbf39698ed9bff5e74",
+      "content_id": "content_shengqian_20260718_blackpepper_chicken_v1",
+      "page_role": "result",
+      "failure_labels": [
+        "plastic_chicken_texture",
+        "uniform_mushroom_geometry",
+        "synthetic_highlight"
+      ],
+      "rejection_rule": "鸡胸纤维、口蘑切面和汁液高光过度均匀，呈塑料或橡胶感时拒绝。"
+    },
+    {
+      "id": "negative-scallion-bass-result-anatomy",
+      "path": "neg_04_scallion_bass_result.png",
+      "sha256": "87247b8e4d3c7b034f617863028c7403184862d905a125916c2fb408ff16a7df",
+      "content_id": "content_shengqian_20260718_scallion_bass_v1",
+      "page_role": "result",
+      "failure_labels": [
+        "fish_anatomy_uncanny",
+        "opaque_eye_artifact",
+        "waxy_scale_texture"
+      ],
+      "rejection_rule": "整鱼眼、鳞片、鳍、头身连接或熟制表面出现解剖与蜡质异常时拒绝。"
+    },
+    {
+      "id": "negative-curry-shrimp-tofu-tutorial-uniformity",
+      "path": "neg_05_curry_shrimp_tofu_tutorial.png",
+      "sha256": "b91f16f9ed142432f598030266c18d78efbde2c45bd0877e3e1b5711b365d9da",
+      "content_id": "content_shengqian_20260718_curry_shrimp_tofu_v1",
+      "page_role": "tutorial",
+      "failure_labels": [
+        "shrimp_shape_uniformity",
+        "tofu_surface_uniformity",
+        "synthetic_process_scene"
+      ],
+      "rejection_rule": "虾仁卷曲和豆腐块形态过度一致、厨房过程像合成展示图而非真实操作时拒绝。"
+    }
+  ]
+}

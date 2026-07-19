@@ -1,0 +1,23 @@
+{
+  "schema_version": "account_skill_candidate_v1",
+  "status": "ready_for_review",
+  "workflow_id": "lizongheng-v2-full",
+  "account_name": "李宗恒",
+  "account_skill_id": "lizongheng",
+  "account_skill_version": "1.4",
+  "pipeline_version": "2.9",
+  "source_method_ids": [
+    "lz-m1-system-transfer",
+    "lz-m2-control-right-reversal",
+    "lz-m3-semantic-reinterpretation",
+    "lz-m4-fixed-rule-escalation"
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "migration": {
+    "type": "backfill_from_approved_formal_account_skill",
+    "source_skill": "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md",
+    "migrated_at": "2026-07-19T16:09:41"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "schema_version": "2.3",
+  "account_scope": "xhs_5c09367300000000060099e8",
+  "status": "formal_ingested",
+  "callable": true,
+  "methods": [
+    {
+      "id": "m01-complete-meal-positioning",
+      "title": "完整而非惩罚式的一人食定位",
+      "kind": "positioning",
+      "path": "methods/m01-complete-meal-positioning/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "m02-fixed-mother-topic-variable",
+      "title": "固定母题加单一变量的选题系统",
+      "kind": "topic_system",
+      "path": "methods/m02-fixed-mother-topic-variable/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial",
+      "title": "标注封面到分级教程的单餐结构",
+      "kind": "content_structure",
+      "path": "methods/m03-double-cover-tiered-tutorial/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "m04-weekly-reindex",
+      "title": "固定视觉骨架重编为七日菜单索引",
+      "kind": "content_structure",
+      "path": "methods/m04-weekly-reindex/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "m05-cost-proof-tail",
+      "title": "成品—步骤—成本凭证的早期预算链",
+      "kind": "content_structure",
+      "path": "methods/m05-cost-proof-tail/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "m06-device-process-proof",
+      "title": "设备过程证明效率的一锅多菜结构",
+      "kind": "content_structure",
+      "path": "methods/m06-device-process-proof/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    },
+    {
+      "id": "m07-recipe-body-fingerprint",
+      "title": "菜品分段与关键动作化的正文指纹",
+      "kind": "expression_fingerprint",
+      "path": "methods/m07-recipe-body-fingerprint/METHOD.md",
+      "status": "approved_callable",
+      "callable": true
+    }
+  ],
+  "relations": [
+    {
+      "source": "m02-fixed-mother-topic-variable",
+      "target": "m01-complete-meal-positioning",
+      "type": "depends_on",
+      "reason": "先锁定吃饱且低负担的定位，才能判断哪些单一变量不偏离母题。"
+    },
+    {
+      "source": "m03-double-cover-tiered-tutorial",
+      "target": "m01-complete-meal-positioning",
+      "type": "depends_on",
+      "reason": "整餐地图承接完整餐定位。"
+    },
+    {
+      "source": "m04-weekly-reindex",
+      "target": "m03-double-cover-tiered-tutorial",
+      "type": "depends_on",
+      "reason": "七日索引依赖已稳定的单餐封面资产。"
+    },
+    {
+      "source": "m04-weekly-reindex",
+      "target": "m02-fixed-mother-topic-variable",
+      "type": "composes_with",
+      "reason": "周合集是固定母题下的合集变量。"
+    },
+    {
+      "source": "m03-double-cover-tiered-tutorial",
+      "target": "m04-weekly-reindex",
+      "type": "contrasts_with",
+      "reason": "前者交付单餐教程，后者交付跨餐比较索引。"
+    },
+    {
+      "source": "m05-cost-proof-tail",
+      "target": "m03-double-cover-tiered-tutorial",
+      "type": "composes_with",
+      "reason": "成本凭证位于单餐成品和必要步骤之后。"
+    },
+    {
+      "source": "m06-device-process-proof",
+      "target": "m03-double-cover-tiered-tutorial",
+      "type": "contrasts_with",
+      "reason": "设备结构以并行过程为主线，普通单餐结构以菜品操作价值分配页面。"
+    },
+    {
+      "source": "m07-recipe-body-fingerprint",
+      "target": "m03-double-cover-tiered-tutorial",
+      "type": "composes_with",
+      "reason": "正文详略承接图文教程的页面详略。"
+    },
+    {
+      "source": "m07-recipe-body-fingerprint",
+      "target": "m05-cost-proof-tail",
+      "type": "composes_with",
+      "reason": "价格可跟菜名进入正文，整餐合计保留在尾部。"
+    },
+    {
+      "source": "m07-recipe-body-fingerprint",
+      "target": "m06-device-process-proof",
+      "type": "composes_with",
+      "reason": "正文把设备过程还原为各菜关键动作。"
+    }
+  ],
+  "orchestration": {
+    "routing_order": [
+      "先分自然内容/商品广告/平台项目",
+      "选择一个主冲突方法",
+      "只沿同一因果链叠加方法",
+      "表达与视觉方法只做支持",
+      "执行多方法消融检查"
+    ],
+    "primary_method_rule": "一条内容只允许一个主冲突方法；其他方法必须说明如何增强同一机制。",
+    "ablation_rule": "逐个移除叠加方法；若移除后主承诺不变且信息无损，该方法不应加入。"
+  },
+  "formal_ingested_at": "2026-07-16T20:11:21+08:00",
+  "approval_basis": "2026-07-16 用户明确回复‘入库吧’。"
+}

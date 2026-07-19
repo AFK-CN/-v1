@@ -1,0 +1,125 @@
+{
+  "schema_version": "xianyu_ugc_skill_forward_test_v1",
+  "skill": "xianyu-story-ugc",
+  "test_scope": "unseen_synthetic_fact_packets_and_negative_boundary_cases",
+  "positive_case_count": 5,
+  "positive_pass_count": 5,
+  "negative_case_count": 5,
+  "negative_reject_count": 5,
+  "cli_smoke": {
+    "valid_exit_code": 0,
+    "invalid_exit_code": 2,
+    "passed": true
+  },
+  "pressure_test_reference": "methods/*/test-results.json (35/35 passed)",
+  "positive_results": [
+    {
+      "case_id": "old_suitcase_next_stop",
+      "expected": "pass",
+      "actual": "pass",
+      "method": "xugc-m02",
+      "errors": [],
+      "package": "skill_tests/packages/old_suitcase_next_stop.json",
+      "output": "skill_tests/outputs/old_suitcase_next_stop.md",
+      "package_sha256": "e0a1231629288f50f0e5e87d2b160324179444404cc6b92f7d92fddc726ae08b"
+    },
+    {
+      "case_id": "buyer_corrected_price",
+      "expected": "pass",
+      "actual": "pass",
+      "method": "xugc-m03",
+      "errors": [],
+      "package": "skill_tests/packages/buyer_corrected_price.json",
+      "output": "skill_tests/outputs/buyer_corrected_price.md",
+      "package_sha256": "5f0fe8a7a8d4196a01e0b54b8f32dc958ba66773367c6558f367f84fec66ac4e"
+    },
+    {
+      "case_id": "plant_watering_service",
+      "expected": "pass",
+      "actual": "pass",
+      "method": "xugc-m04",
+      "errors": [],
+      "package": "skill_tests/packages/plant_watering_service.json",
+      "output": "skill_tests/outputs/plant_watering_service.md",
+      "package_sha256": "a38d03a40d0670d8f8c802206fd5769e073a80b6b7c896c77ef6fb5e36353ea6"
+    },
+    {
+      "case_id": "pottery_wheel_goodbye",
+      "expected": "pass",
+      "actual": "pass",
+      "method": "xugc-m05",
+      "errors": [],
+      "package": "skill_tests/packages/pottery_wheel_goodbye.json",
+      "output": "skill_tests/outputs/pottery_wheel_goodbye.md",
+      "package_sha256": "6d29751e2430f9ad831221a5e211210ab7c608994b343adc5ad94b8c6eca436c"
+    },
+    {
+      "case_id": "book_note_short",
+      "expected": "pass",
+      "actual": "pass",
+      "method": "xugc-m06",
+      "errors": [],
+      "package": "skill_tests/packages/book_note_short.json",
+      "output": "skill_tests/outputs/book_note_short.md",
+      "package_sha256": "2c730caa1a0a5736141cfece2a73332ce8fbb1bc930da6a029f632f4174e1484"
+    }
+  ],
+  "negative_results": [
+    {
+      "case_id": "reject_abstract_platform_opening",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "abstract_or_platform_opening_forbidden",
+      "errors": [
+        "abstract_or_platform_opening_forbidden"
+      ],
+      "package": "skill_tests/packages/reject_abstract_platform_opening.json",
+      "package_sha256": "908142fb7e17e70893a03502698c514726ac8addfd45154497a770c12e7e2ba5"
+    },
+    {
+      "case_id": "reject_fabricated_identity",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "fabricated_claims_must_be_empty_list",
+      "errors": [
+        "fabricated_claims_must_be_empty_list"
+      ],
+      "package": "skill_tests/packages/reject_fabricated_identity.json",
+      "package_sha256": "431f0758925cd228a737d525464367801a3ddbf327a7a422215bac60b15173d8"
+    },
+    {
+      "case_id": "reject_unreviewed_visual_claim",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "visual_claims_require_reviewed_evidence",
+      "errors": [
+        "visual_claims_require_reviewed_evidence"
+      ],
+      "package": "skill_tests/packages/reject_unreviewed_visual_claim.json",
+      "package_sha256": "8dcdca14105294ba603ba89e557ee237162695496e99fb5c937a269d5e5a3b0d"
+    },
+    {
+      "case_id": "reject_overlong_short_story",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "short_transaction_story_too_long",
+      "errors": [
+        "short_transaction_story_too_long"
+      ],
+      "package": "skill_tests/packages/reject_overlong_short_story.json",
+      "package_sha256": "7a74782bcdd1215ab07df4414ef7c4ac9e8e5ce017396ae1fe0e78ac013c3e26"
+    },
+    {
+      "case_id": "reject_invalid_method_decoy",
+      "expected": "reject",
+      "actual": "reject",
+      "expected_error": "primary_method_invalid",
+      "errors": [
+        "primary_method_invalid"
+      ],
+      "package": "skill_tests/packages/reject_invalid_method_decoy.json",
+      "package_sha256": "94dc4f87dbb33278916187c20a14267d9fe377c7f9e4830e45283eeb773d3741"
+    }
+  ],
+  "ok": true
+}

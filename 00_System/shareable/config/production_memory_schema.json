@@ -1,0 +1,89 @@
+{
+  "version": 2,
+  "updated_at": "2026-07-19",
+  "database": "20_User/data/content_production.sqlite",
+  "tables": {
+    "topics": [
+      "topic_id",
+      "account_skill_id",
+      "title",
+      "audience",
+      "problem",
+      "direction",
+      "angle",
+      "mechanism",
+      "content_type",
+      "platform",
+      "status",
+      "skill_version",
+      "topic_fingerprint",
+      "created_at",
+      "updated_at"
+    ],
+    "productions": [
+      "content_id",
+      "topic_id",
+      "account_skill_id",
+      "skill_version",
+      "output_path",
+      "status",
+      "created_at",
+      "published_at",
+      "visual_manifest_path",
+      "visual_manifest_sha256",
+      "visual_golden_version",
+      "visual_status",
+      "generator_name",
+      "model_version",
+      "prompt_set_sha256",
+      "reference_assets_json",
+      "visual_qa_json",
+      "accepted_at"
+    ],
+    "feedback": [
+      "feedback_id",
+      "content_id",
+      "topic_id",
+      "account_skill_id",
+      "source_type",
+      "platform",
+      "metrics_json",
+      "assessment",
+      "decision",
+      "created_at"
+    ],
+    "topic_relations": [
+      "source_topic_id",
+      "target_topic_id",
+      "relation_type",
+      "similarity",
+      "created_at"
+    ]
+  },
+  "token_boundary": {
+    "full_database_in_model_context": false,
+    "batch_check": true,
+    "default_max_conflicts": 5,
+    "normal_pass_returns_summary_only": true,
+    "visual_manifest_full_payload_in_model_context": false
+  },
+  "production_gates": {
+    "account_manifest_field": "required_production_gates",
+    "visual_package": {
+      "requires": [
+        "visual_status=approved",
+        "visual_manifest_path",
+        "visual_manifest_sha256",
+        "validation.status=passed",
+        "content_id/account_skill_id/skill_version match"
+      ],
+      "stores": [
+        "golden package version",
+        "generator/model version",
+        "prompt-set hash",
+        "reference asset IDs",
+        "per-page visual QA"
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:52:15",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/86550f427e1e3e9dc46890211ec0af4b/notes_pre_post/1040g3k031pn71fa140004busfur776f8v5mkqd8!nd_dft_wlteh_jpg_3"
+    },
+    "download_image_001": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:52:18",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\001_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/5695d873fc6808f0fed1922a00444730/note_pre_post_uhdr/1040g3r831pn71eu6l4904busfur776f86lb7qa0!nd_dft_wlteh_jpg_3"
+    },
+    "download_image_002": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:52:21",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\002_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/1cf7584c3ccc542dc39e8818eab63917/note_pre_post_uhdr/1040g3r831pn71eu6l4804busfur776f8qo9848o!nd_dft_wlteh_jpg_3"
+    },
+    "download_image_003": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:52:25",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\003_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/4180cce2aea8a2e2f3ab595d84b1b692/note_pre_post_uhdr/1040g3r831pn71eu6l49g4busfur776f8ahc2rn0!nd_dft_wlteh_jpg_3"
+    },
+    "download_image_004": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:52:29",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\004_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/f4b235fd4b82cf587d0ad69954ac1578/note_pre_post_uhdr/1040g3r831pn71eu6l48g4busfur776f8go21r48!nd_dft_wlteh_jpg_3"
+    },
+    "download_image_005": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:52:32",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\005_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3"
+    },
+    "process_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:23:21",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\000_cover.jpg",
+      "has_text": true
+    },
+    "process_image_001": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:23:23",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\001_image.jpg",
+      "has_text": false
+    },
+    "process_image_002": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:23:25",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\002_image.jpg",
+      "has_text": true
+    },
+    "process_image_003": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:23:27",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\003_image.jpg",
+      "has_text": false
+    },
+    "process_image_004": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:23:29",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\004_image.jpg",
+      "has_text": false
+    },
+    "process_image_005": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:23:30",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\005_image.jpg",
+      "has_text": false
+    }
+  },
+  "updated_at": "2026-07-11T00:23:30"
+}

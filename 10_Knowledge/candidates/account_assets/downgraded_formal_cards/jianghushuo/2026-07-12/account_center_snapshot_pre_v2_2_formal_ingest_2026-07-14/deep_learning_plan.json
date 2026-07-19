@@ -5,7 +5,7 @@
   "workflow_status": "formal_ingested_with_open_review_items",
   "executor": "local_machine",
   "evidence_storage": {
-    "formal_account_center": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说",
+    "formal_account_center": "10_Knowledge/formal/accounts/姜胡说",
     "rough_scan_inventory": "10_Knowledge/candidates/account_assets/content_rough_scan/jianghushuo/all_content_inventory.jsonl",
     "source_deep_learning_plan": "10_Knowledge/candidates/review_registers/plans/jianghushuo_primary_top10.json",
     "nas_role": "raw_artifact_store_only_if_configured_not_second_knowledge_base"
@@ -25,91 +25,91 @@
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长"
     },
     {
       "direction": "人生策略",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略"
     },
     {
       "direction": "创业",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/创业"
     },
     {
       "direction": "商业机会",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会"
     },
     {
       "direction": "技能沉淀",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀"
     },
     {
       "direction": "短视频",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/短视频"
     },
     {
       "direction": "结构化理解",
       "status": "formal_ingested",
       "card_count": 9,
       "transcript_file_count": 18,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解"
     },
     {
       "direction": "自媒体",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体"
     },
     {
       "direction": "表达文案",
       "status": "formal_ingested",
       "card_count": 9,
       "transcript_file_count": 18,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案"
     },
     {
       "direction": "认知升级",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级"
     },
     {
       "direction": "财富策略",
       "status": "formal_ingested",
       "card_count": 9,
       "transcript_file_count": 18,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略"
     },
     {
       "direction": "赚钱",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱"
     },
     {
       "direction": "阅读输入",
       "status": "formal_ingested",
       "card_count": 10,
       "transcript_file_count": 20,
-      "formal_direction_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入"
+      "formal_direction_dir": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入"
     }
   ],
   "validation_snapshot": {

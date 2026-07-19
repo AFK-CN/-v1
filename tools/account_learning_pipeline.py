@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import json
 import re
+import shutil
 from pathlib import Path
 from typing import Any
 
@@ -73,6 +74,15 @@ def _safe_id(value: str) -> str:
     return cleaned
 
 
+def _candidate_resource_allowed(path: Path) -> bool:
+    return (
+        path.is_file()
+        and "__pycache__" not in path.parts
+        and path.suffix not in {".pyc", ".pyo"}
+        and path.name != ".DS_Store"
+    )
+
+
 def load_config(root: Path) -> dict[str, Any]:
     path = root.resolve() / CONFIG_PATH
     if not path.exists():
@@ -133,7 +143,7 @@ def init_workflow(
             }
         )
     state = {
-        "schema_version": str(config.get("version") or "2.2"),
+        "schema_version": str(config.get("version") or "2.6"),
         "workflow_id": workflow_id,
         "account_name": account_name.strip(),
         "profile_id": profile_id.strip(),
@@ -141,11 +151,32 @@ def init_workflow(
         "media_branches": branches,
         "method": config["method"],
         "stage1_observation_schema": str(config.get("stage1_deep_observation", {}).get("schema_id") or ""),
+        "publish_copy_observation_schema": str(
+            config.get("stage1_deep_observation", {}).get("publish_copy_schema_id") or ""
+        ),
+        "publish_copy_study_schema": str(
+            config.get("stage1_deep_observation", {}).get("publish_copy_study_schema_id") or ""
+        ),
+        "stage1_visual_reference_candidate_schema": str(
+            config.get("stage1_deep_observation", {}).get(
+                "production_reference_candidate_schema_id"
+            )
+            or ""
+        ),
         "stage2_production_mechanism_schema": str(
             config.get("stage2_production_mechanism", {}).get("schema_id") or ""
         ),
         "stage6_production_handoff_schema": str(
             config.get("stage6_production_handoff", {}).get("schema_id") or ""
+        ),
+        "stage6_account_skill_schema": str(
+            config.get("stage6_account_skill_package", {}).get("schema_id") or ""
+        ),
+        "stage6_upgrade_compatibility_schema": str(
+            config.get("stage6_upgrade_compatibility", {}).get("schema_id") or ""
+        ),
+        "stage6_visual_reference_schema": str(
+            config.get("stage6_visual_reference_package", {}).get("schema_id") or ""
         ),
         "status": "in_progress",
         "current_stage": stages[0]["id"],
@@ -236,8 +267,364 @@ def _state_schema_enabled(
     return bool(schema_id and state.get(state_field) == schema_id)
 
 
+def _portable_relative_path(value: Any) -> bool:
+    text = str(value or "").strip()
+    if not text or Path(text).is_absolute() or text.startswith("/Volumes/"):
+        return False
+    return ".." not in Path(text).parts
+
+
+def _version_at_least(value: Any, minimum: tuple[int, int]) -> bool:
+    match = re.fullmatch(r"(\d+)\.(\d+)(?:\.\d+)?", str(value or "").strip())
+    if not match:
+        return False
+    return (int(match.group(1)), int(match.group(2))) >= minimum
+
+
+def _validate_accepted_ai_output_manifest(
+    base: Path,
+    manifest_value: str,
+    expected_account: str,
+    contract: dict[str, Any],
+    positive_ids: set[str],
+    positive_hashes: set[str],
+    errors: list[str],
+) -> None:
+    if not _portable_relative_path(manifest_value):
+        errors.append("visual_reference:accepted_ai_manifest_path_not_portable")
+        return
+    manifest_path = (base / manifest_value).resolve()
+    try:
+        manifest_path.relative_to(base.resolve())
+    except ValueError:
+        errors.append("visual_reference:accepted_ai_manifest_outside_workflow")
+        return
+    if not manifest_path.is_file():
+        errors.append("visual_reference:accepted_ai_manifest_missing")
+        return
+
+    manifest = _read_json(manifest_path)
+    expected_source_kind = str(contract.get("source_kind") or "")
+    expected_origin_kind = str(contract.get("origin_kind") or "")
+    expected_policy = str(contract.get("reference_policy") or "")
+    if manifest.get("source_kind") != expected_source_kind:
+        errors.append("visual_reference:accepted_ai_source_kind_invalid")
+    if manifest.get("origin_kind") != expected_origin_kind:
+        errors.append("visual_reference:accepted_ai_origin_kind_invalid")
+    if manifest.get("reference_policy") != expected_policy:
+        errors.append("visual_reference:accepted_ai_reference_policy_invalid")
+    if manifest.get("account_name") != expected_account:
+        errors.append("visual_reference:accepted_ai_account_mismatch")
+
+    allowed_uses = set(map(str, contract.get("allowed_uses", [])))
+    forbidden_uses = set(map(str, contract.get("forbidden_uses", [])))
+    required_false_fields = tuple(map(str, contract.get("required_false_fields", [])))
+    items = manifest.get("items")
+    if not isinstance(items, list):
+        errors.append("visual_reference:accepted_ai_items_must_be_list")
+        return
+
+    for index, item in enumerate(items):
+        label = f"accepted_ai_item_{index}"
+        if not isinstance(item, dict):
+            errors.append(f"visual_reference:{label}:not_object")
+            continue
+        item_id = str(item.get("id") or "").strip()
+        label = item_id or label
+        if not item_id:
+            errors.append(f"visual_reference:{label}:id_missing")
+        if item.get("source_kind") != expected_source_kind:
+            errors.append(f"visual_reference:{label}:source_kind_invalid")
+        if item.get("origin_kind") != expected_origin_kind:
+            errors.append(f"visual_reference:{label}:origin_kind_invalid")
+        if item.get("source_account_name") != expected_account:
+            errors.append(f"visual_reference:{label}:account_mismatch")
+        uses = set(map(str, item.get("allowed_use", [])))
+        if not uses or not uses.issubset(allowed_uses) or bool(uses & forbidden_uses):
+            errors.append(f"visual_reference:{label}:allowed_use_invalid")
+        for field in required_false_fields:
+            if item.get(field) is not False:
+                errors.append(f"visual_reference:{label}:{field}_must_be_false")
+        expected_hash = str(item.get("sha256") or "").strip().lower()
+        if item_id in positive_ids:
+            errors.append(f"visual_reference:{label}:positive_id_overlap")
+        if expected_hash and expected_hash in positive_hashes:
+            errors.append(f"visual_reference:{label}:positive_hash_overlap")
+        for forbidden_field in (
+            "food_realism",
+            "camera_realism",
+            "authenticity_reference",
+            "master_reference",
+            "golden_positive",
+        ):
+            if item.get(forbidden_field) not in (None, False, "", []):
+                errors.append(f"visual_reference:{label}:{forbidden_field}_forbidden")
+
+
+def _validate_visual_reference_package(
+    base: Path,
+    workflow_state: dict[str, Any],
+    config: dict[str, Any],
+    errors: list[str],
+) -> dict[str, Any]:
+    starting_error_count = len(errors)
+    contract = config.get("stage6_visual_reference_package", {})
+    profile_path = base / str(contract.get("profile") or "VISUAL_REFERENCE_PROFILE.json")
+    manifest_path = base / str(contract.get("manifest") or "visual_reference_candidate/manifest.json")
+    visual_reference_path = base / str(
+        contract.get("required_candidate_reference")
+        or "account_skill_candidate/references/visual-evidence.md"
+    )
+    metrics: dict[str, Any] = {
+        "visual_reference_status": "missing",
+        "visual_reference_item_count": 0,
+        "visual_reference_role_coverage": 0,
+        "visual_reference_risk_coverage": 0,
+    }
+    if not profile_path.is_file():
+        errors.append("visual_reference:missing_profile")
+        return metrics
+    if not manifest_path.is_file():
+        errors.append("visual_reference:missing_manifest")
+        return metrics
+
+    profile = _read_json(profile_path)
+    manifest = _read_json(manifest_path)
+    visual_branches = set(map(str, contract.get("visual_media_branches", [])))
+    workflow_branches = set(map(str, workflow_state.get("media_branches", [])))
+    applicable = bool(visual_branches & workflow_branches)
+    expected_account = str(workflow_state.get("account_name") or "")
+    expected_profile_schema = str(contract.get("schema_id") or "")
+    expected_manifest_schema = str(contract.get("manifest_schema_id") or "")
+
+    for payload, prefix, schema in (
+        (profile, "visual_reference_profile", expected_profile_schema),
+        (manifest, "visual_reference_manifest", expected_manifest_schema),
+    ):
+        if payload.get("schema_version") != schema:
+            errors.append(f"{prefix}:schema_invalid")
+        if payload.get("account_name") != expected_account:
+            errors.append(f"{prefix}:account_mismatch")
+        if (
+            payload.get("formal_write") is not False
+            or payload.get("callable") is not False
+            or payload.get("user_review_required") is not True
+        ):
+            errors.append(f"{prefix}:candidate_boundary_invalid")
+
+    if not applicable:
+        if profile.get("visual_applicability") != "not_applicable":
+            errors.append("visual_reference_profile:non_visual_workflow_must_be_not_applicable")
+        if manifest.get("status") != "not_applicable" or manifest.get("items") not in ([], None):
+            errors.append("visual_reference_manifest:non_visual_workflow_must_be_empty")
+        metrics["visual_reference_status"] = "not_applicable"
+        return metrics
+
+    if profile.get("visual_applicability") != "applicable":
+        errors.append("visual_reference_profile:visual_workflow_must_be_applicable")
+    if profile.get("status") != "ready_for_review" or manifest.get("status") != "ready_for_review":
+        errors.append("visual_reference:status_must_be_ready_for_review")
+    sampling = profile.get("sampling_profiles")
+    if not isinstance(sampling, dict):
+        errors.append("visual_reference_profile:sampling_profiles_missing")
+        sampling = {}
+    if sampling.get("audit_offline_source") != "direction_balanced":
+        errors.append("visual_reference_profile:audit_sampling_invalid")
+    if sampling.get("production_visual_source") != "role_and_risk":
+        errors.append("visual_reference_profile:production_sampling_invalid")
+    if manifest.get("sampling") != "role_and_risk":
+        errors.append("visual_reference_manifest:sampling_invalid")
+    if profile.get("positive_manifest") != str(contract.get("manifest")):
+        errors.append("visual_reference_profile:positive_manifest_invalid")
+
+    separation = profile.get("source_separation")
+    current_policy = _version_at_least(workflow_state.get("schema_version"), (2, 8))
+    expected_separation = (
+        contract.get("source_kinds", {})
+        if current_policy
+        else contract.get("legacy_source_kinds", contract.get("source_kinds", {}))
+    )
+    if not isinstance(separation, dict) or any(
+        separation.get(key) != value for key, value in expected_separation.items()
+    ):
+        errors.append("visual_reference_profile:source_separation_invalid")
+
+    allowed_roles = set(map(str, contract.get("production_roles", [])))
+    allowed_risks = set(map(str, contract.get("risk_dimensions", [])))
+    declared_roles = set(map(str, profile.get("production_role_inventory", [])))
+    declared_risks = set(map(str, profile.get("risk_dimension_inventory", [])))
+    if not declared_roles or not declared_roles.issubset(allowed_roles):
+        errors.append("visual_reference_profile:production_role_inventory_invalid")
+    if not declared_risks or not declared_risks.issubset(allowed_risks):
+        errors.append("visual_reference_profile:risk_dimension_inventory_invalid")
+    if set(map(str, manifest.get("required_roles", []))) != declared_roles:
+        errors.append("visual_reference_manifest:required_roles_mismatch")
+    if set(map(str, manifest.get("required_risk_dimensions", []))) != declared_risks:
+        errors.append("visual_reference_manifest:required_risks_mismatch")
+    if manifest.get("source_kind") != contract.get("positive_source_kind"):
+        errors.append("visual_reference_manifest:positive_source_kind_invalid")
+
+    items = manifest.get("items")
+    if not isinstance(items, list):
+        errors.append("visual_reference_manifest:items_must_be_list")
+        items = []
+    minimum = int(contract.get("minimum_positive_assets", 3))
+    if len(items) < minimum:
+        errors.append(f"visual_reference_manifest:positive_item_count_below_{minimum}")
+    ids: set[str] = set()
+    hashes: set[str] = set()
+    covered_roles: set[str] = set()
+    covered_risks: set[str] = set()
+    allowed_uses = set(map(str, contract.get("allowed_positive_uses", [])))
+    manifest_root = manifest_path.parent.resolve()
+
+    for index, item in enumerate(items):
+        label = f"item_{index}"
+        if not isinstance(item, dict):
+            errors.append(f"visual_reference:{label}:not_object")
+            continue
+        item_id = str(item.get("id") or "").strip()
+        label = item_id or label
+        if not item_id:
+            errors.append(f"visual_reference:{label}:id_missing")
+        elif item_id in ids:
+            errors.append(f"visual_reference:{label}:id_duplicate")
+        ids.add(item_id)
+        if item.get("source_kind") != contract.get("positive_source_kind"):
+            errors.append(f"visual_reference:{label}:source_kind_invalid")
+        if item.get("source_account_name") != expected_account:
+            errors.append(f"visual_reference:{label}:cross_account_asset_forbidden")
+        if not str(item.get("source_id") or "").strip():
+            errors.append(f"visual_reference:{label}:source_id_missing")
+        if not str(item.get("evidence_coordinate") or "").strip():
+            errors.append(f"visual_reference:{label}:evidence_coordinate_missing")
+        if item.get("method_evidence_eligible") is not False:
+            errors.append(f"visual_reference:{label}:method_evidence_must_be_false")
+        positive_origin = contract.get("positive_origin_contract", {})
+        if item.get("origin_kind") not in (None, "", positive_origin.get("origin_kind")):
+            errors.append(f"visual_reference:{label}:origin_kind_must_be_account_original")
+        if item.get("ai_generated") is True:
+            errors.append(f"visual_reference:{label}:ai_generated_positive_forbidden")
+        if current_policy:
+            if item.get("origin_kind") != positive_origin.get("origin_kind"):
+                errors.append(f"visual_reference:{label}:origin_kind_missing")
+            for field in map(str, positive_origin.get("required_true_fields", [])):
+                if item.get(field) is not True:
+                    errors.append(f"visual_reference:{label}:{field}_must_be_true")
+            for field in map(str, positive_origin.get("required_false_fields", [])):
+                if item.get(field) is not False:
+                    errors.append(f"visual_reference:{label}:{field}_must_be_false")
+        uses = set(map(str, item.get("allowed_use", [])))
+        if not uses or not uses.issubset(allowed_uses):
+            errors.append(f"visual_reference:{label}:allowed_use_invalid")
+        roles = set(map(str, item.get("production_roles", [])))
+        risks = set(map(str, item.get("risk_dimensions", [])))
+        if not roles or not roles.issubset(declared_roles):
+            errors.append(f"visual_reference:{label}:production_roles_invalid")
+        if not risks or not risks.issubset(declared_risks):
+            errors.append(f"visual_reference:{label}:risk_dimensions_invalid")
+        covered_roles.update(roles)
+        covered_risks.update(risks)
+
+        relative = str(item.get("path") or "").strip()
+        if not _portable_relative_path(relative):
+            errors.append(f"visual_reference:{label}:path_not_portable")
+            continue
+        target = (manifest_root / relative).resolve()
+        try:
+            target.relative_to(manifest_root)
+        except ValueError:
+            errors.append(f"visual_reference:{label}:path_outside_package")
+            continue
+        if not target.is_file():
+            errors.append(f"visual_reference:{label}:asset_missing")
+            continue
+        expected_hash = str(item.get("sha256") or "").strip().lower()
+        if not re.fullmatch(r"[0-9a-f]{64}", expected_hash):
+            errors.append(f"visual_reference:{label}:sha256_invalid")
+        elif _sha256_file(target) != expected_hash:
+            errors.append(f"visual_reference:{label}:sha256_mismatch")
+        if expected_hash in hashes:
+            errors.append(f"visual_reference:{label}:duplicate_asset_hash")
+        hashes.add(expected_hash)
+        for forbidden_field in ("nas_path", "original_source_dir", "absolute_source_path"):
+            if str(item.get(forbidden_field) or "").strip():
+                errors.append(f"visual_reference:{label}:{forbidden_field}_forbidden")
+
+    missing_roles = declared_roles - covered_roles
+    missing_risks = declared_risks - covered_risks
+    errors.extend(f"visual_reference:role_not_covered:{role}" for role in sorted(missing_roles))
+    errors.extend(f"visual_reference:risk_not_covered:{risk}" for risk in sorted(missing_risks))
+
+    accepted_contract = contract.get("accepted_ai_output_contract", {})
+    accepted_manifest_field = str(
+        accepted_contract.get("profile_manifest_field") or "accepted_ai_output_manifest"
+    )
+    accepted_manifest_value = str(profile.get(accepted_manifest_field) or "").strip()
+    if accepted_manifest_value:
+        _validate_accepted_ai_output_manifest(
+            base,
+            accepted_manifest_value,
+            expected_account,
+            accepted_contract,
+            ids,
+            hashes,
+            errors,
+        )
+
+    if not visual_reference_path.is_file():
+        errors.append("visual_reference:missing_candidate_reference")
+    else:
+        reference_text = visual_reference_path.read_text(encoding="utf-8")
+        for source_kind in expected_separation:
+            if str(source_kind) not in reference_text:
+                errors.append(f"visual_reference:candidate_reference_missing_source_kind:{source_kind}")
+
+    negative_value = str(profile.get("negative_manifest") or "").strip()
+    if negative_value:
+        if not _portable_relative_path(negative_value):
+            errors.append("visual_reference:negative_manifest_path_not_portable")
+        else:
+            negative_path = (base / negative_value).resolve()
+            try:
+                negative_path.relative_to(base.resolve())
+            except ValueError:
+                errors.append("visual_reference:negative_manifest_outside_workflow")
+            else:
+                if not negative_path.is_file():
+                    errors.append("visual_reference:negative_manifest_missing")
+                else:
+                    negative = _read_json(negative_path)
+                    if negative.get("source_kind") != "user_rejected_output":
+                        errors.append("visual_reference:negative_source_kind_invalid")
+                    if negative.get("reference_policy") != "validation_only":
+                        errors.append("visual_reference:negative_reference_policy_invalid")
+                    if negative.get("never_use_as_positive_reference") is not True:
+                        errors.append("visual_reference:negative_positive_guard_missing")
+                    for item in negative.get("items", []):
+                        if not isinstance(item, dict):
+                            continue
+                        if str(item.get("id") or "") in ids:
+                            errors.append("visual_reference:negative_positive_id_overlap")
+                        if str(item.get("sha256") or "") in hashes:
+                            errors.append("visual_reference:negative_positive_hash_overlap")
+
+    metrics.update(
+        {
+            "visual_reference_status": (
+                "ready_for_review" if len(errors) == starting_error_count else "invalid"
+            ),
+            "visual_reference_item_count": len(items),
+            "visual_reference_role_coverage": len(covered_roles),
+            "visual_reference_risk_coverage": len(covered_risks),
+        }
+    )
+    return metrics
+
+
 def _validate_deep_observation_candidate(
     item: dict[str, Any],
+    workflow_state: dict[str, Any],
     config: dict[str, Any],
     errors: list[str],
 ) -> None:
@@ -303,6 +690,377 @@ def _validate_deep_observation_candidate(
     fingerprint_field = "structure_fingerprint" if lens == "structures" else "expression_fingerprint"
     if not str(observation.get(fingerprint_field) or "").strip():
         errors.append(f"candidate:{candidate_id}:missing_{fingerprint_field}")
+
+    if lens == "expression":
+        _validate_signal_observation(
+            item,
+            key="publish_copy_observation",
+            schema_id=str(contract.get("publish_copy_schema_id") or ""),
+            dimensions=[str(value) for value in contract.get("publish_copy_dimensions", [])],
+            fields=[str(value) for value in contract.get("publish_copy_observation_fields", [])],
+            fingerprint_key="publish_copy_fingerprint",
+            errors=errors,
+        )
+        return
+    content_form = str(item.get("content_form") or "").lower()
+    if "图文" not in content_form and "image_text" not in content_form and "image-text" not in content_form:
+        return
+    visual_dimensions = [str(value) for value in contract.get("image_text_visual_dimensions", [])]
+    visual_fields = [str(value) for value in contract.get("image_text_visual_observation_fields", [])]
+    enforce_production_reference_candidate = (
+        workflow_state.get("stage1_visual_reference_candidate_schema")
+        == contract.get("production_reference_candidate_schema_id")
+    )
+    if not enforce_production_reference_candidate:
+        visual_dimensions = [
+            value for value in visual_dimensions if value != "production_reference_candidate"
+        ]
+        visual_fields = [
+            value for value in visual_fields if value != "production_reference_candidates"
+        ]
+    _validate_signal_observation(
+        item,
+        key="image_text_visual_observation",
+        schema_id=str(contract.get("image_text_visual_schema_id") or ""),
+        dimensions=visual_dimensions,
+        fields=visual_fields,
+        fingerprint_key="visual_sequence_fingerprint",
+        errors=errors,
+    )
+
+
+def _validate_signal_observation(
+    item: dict[str, Any],
+    *,
+    key: str,
+    schema_id: str,
+    dimensions: list[str],
+    fields: list[str],
+    fingerprint_key: str,
+    errors: list[str],
+) -> None:
+    candidate_id = str(item.get("id") or "unknown")
+    observation = item.get(key)
+    if not isinstance(observation, dict):
+        errors.append(f"candidate:{candidate_id}:missing_{key}")
+        return
+    if observation.get("schema") != schema_id:
+        errors.append(f"candidate:{candidate_id}:invalid_{key}_schema")
+    _required_keys(observation, tuple(fields), f"{key}:{candidate_id}", errors)
+    observed = observation.get("observed_signals")
+    missing = observation.get("missing_or_uncertain_signals")
+    considered = observation.get("dimensions_considered")
+    coordinates = observation.get("evidence_coordinates")
+    if not isinstance(observed, list):
+        errors.append(f"candidate:{candidate_id}:{key}_observed_signals_must_be_list")
+        observed = []
+    if not isinstance(missing, list):
+        errors.append(f"candidate:{candidate_id}:{key}_missing_signals_must_be_list")
+        missing = []
+    if not isinstance(considered, list) or set(map(str, considered)) != set(dimensions):
+        errors.append(f"candidate:{candidate_id}:{key}_dimensions_incomplete")
+        considered = []
+    if not isinstance(coordinates, list) or not coordinates:
+        errors.append(f"candidate:{candidate_id}:{key}_evidence_coordinates_missing")
+    labels = {
+        str(record.get("signal"))
+        for record in observed
+        if isinstance(record, dict) and record.get("signal")
+    }
+    for index, record in enumerate(observed):
+        if not isinstance(record, dict):
+            errors.append(f"candidate:{candidate_id}:{key}_signal_{index}_must_be_object")
+            continue
+        _required_fields(
+            record,
+            ("signal", "evidence", "source_coordinate"),
+            f"{key}_signal:{candidate_id}",
+            errors,
+        )
+    unresolved = set(map(str, considered)) - labels - set(map(str, missing))
+    if unresolved:
+        errors.append(f"candidate:{candidate_id}:{key}_unresolved_dimensions:{','.join(sorted(unresolved))}")
+    if not str(observation.get(fingerprint_key) or "").strip():
+        errors.append(f"candidate:{candidate_id}:missing_{fingerprint_key}")
+    if key == "publish_copy_observation":
+        _validate_publish_source_facets(observation, candidate_id, errors)
+
+
+def _validate_publish_source_facets(
+    observation: dict[str, Any],
+    record_id: str,
+    errors: list[str],
+) -> None:
+    if observation.get("publish_layer_status") != "observed":
+        errors.append(f"publish_copy_observation:{record_id}:publish_layer_not_observed")
+    facets = observation.get("source_facets")
+    required_facets = {"title", "body", "topics", "coordination"}
+    if not isinstance(facets, dict) or set(facets) != required_facets:
+        errors.append(f"publish_copy_observation:{record_id}:source_facets_incomplete")
+        return
+    allowed_statuses = {"observed_raw", "observed_analysis", "explicitly_missing"}
+    statuses: list[str] = []
+    for name in sorted(required_facets):
+        facet = facets.get(name)
+        if not isinstance(facet, dict):
+            errors.append(f"publish_copy_observation:{record_id}:facet_{name}_must_be_object")
+            continue
+        _required_fields(
+            facet,
+            ("status", "evidence", "source_coordinate"),
+            f"publish_copy_facet:{record_id}:{name}",
+            errors,
+        )
+        status = str(facet.get("status") or "")
+        statuses.append(status)
+        if status not in allowed_statuses:
+            errors.append(f"publish_copy_observation:{record_id}:facet_{name}_invalid_status:{status}")
+    if statuses and not any(status.startswith("observed") for status in statuses):
+        errors.append(f"publish_copy_observation:{record_id}:no_observed_publish_facet")
+
+
+def _validate_publish_copy_study(
+    base: Path,
+    state: dict[str, Any],
+    config: dict[str, Any],
+    candidates: list[dict[str, Any]],
+    errors: list[str],
+) -> dict[str, Any]:
+    contract = config.get("stage1_deep_observation", {})
+    observation_schema = str(contract.get("publish_copy_schema_id") or "")
+    study_schema = str(contract.get("publish_copy_study_schema_id") or "")
+    if state.get("publish_copy_observation_schema") != observation_schema:
+        return {}
+    if state.get("publish_copy_study_schema") != study_schema:
+        errors.append("publish_copy_study:invalid_state_schema")
+        return {}
+
+    expression_candidates = {
+        str(item.get("id")): item
+        for item in candidates
+        if str(item.get("type") or item.get("lens") or "") == "expression" and item.get("id")
+    }
+    expected_source_ids = {
+        str(source_id)
+        for item in expression_candidates.values()
+        for source_id in item.get("source_refs", [])
+        if str(source_id)
+    }
+    observation_path = base / "candidates/publish_copy_observations.jsonl"
+    records, record_errors = _read_jsonl(observation_path)
+    errors.extend(record_errors)
+    record_ids: list[str] = []
+    observed_source_ids: list[str] = []
+    record_by_source: dict[str, dict[str, Any]] = {}
+    for record in records:
+        _required_fields(
+            record,
+            (
+                "id",
+                "type",
+                "source_refs",
+                "expression_candidate_ids",
+                "card_path",
+                "card_schema",
+                "compatibility_mode",
+                "status",
+                "callable",
+                "publish_copy_observation",
+            ),
+            "publish_copy_record",
+            errors,
+        )
+        record_id = str(record.get("id") or "")
+        record_ids.append(record_id)
+        source_refs = [str(value) for value in record.get("source_refs", []) if str(value)]
+        if len(source_refs) != 1:
+            errors.append(f"publish_copy_record:{record_id}:requires_one_source_ref")
+            continue
+        source_id = source_refs[0]
+        observed_source_ids.append(source_id)
+        record_by_source[source_id] = record
+        if record.get("type") != "publish_copy_observation":
+            errors.append(f"publish_copy_record:{record_id}:invalid_type")
+        if record.get("status") != "candidate_observation":
+            errors.append(f"publish_copy_record:{record_id}:not_completed")
+        if record.get("callable") is not False:
+            errors.append(f"publish_copy_record:{record_id}:candidate_boundary_violation")
+        linked_ids = [str(value) for value in record.get("expression_candidate_ids", []) if str(value)]
+        if not linked_ids:
+            errors.append(f"publish_copy_record:{record_id}:missing_expression_link")
+        for candidate_id in linked_ids:
+            candidate = expression_candidates.get(candidate_id)
+            if candidate is None:
+                errors.append(f"publish_copy_record:{record_id}:unknown_expression_candidate:{candidate_id}")
+            elif source_id not in set(map(str, candidate.get("source_refs", []))):
+                errors.append(f"publish_copy_record:{record_id}:expression_link_source_mismatch:{candidate_id}")
+        _validate_signal_observation(
+            record,
+            key="publish_copy_observation",
+            schema_id=observation_schema,
+            dimensions=[str(value) for value in contract.get("publish_copy_dimensions", [])],
+            fields=[str(value) for value in contract.get("publish_copy_observation_fields", [])],
+            fingerprint_key="publish_copy_fingerprint",
+            errors=errors,
+        )
+
+    if len(record_ids) != len(set(record_ids)):
+        errors.append("publish_copy_study:duplicate_record_ids")
+    if len(observed_source_ids) != len(set(observed_source_ids)):
+        errors.append("publish_copy_study:duplicate_source_ids")
+    observed_source_set = set(observed_source_ids)
+    if observed_source_set != expected_source_ids:
+        missing = sorted(expected_source_ids - observed_source_set)
+        unknown = sorted(observed_source_set - expected_source_ids)
+        if missing:
+            errors.append(f"publish_copy_study:missing_sources:{','.join(missing)}")
+        if unknown:
+            errors.append(f"publish_copy_study:unknown_sources:{','.join(unknown)}")
+
+    for candidate_id, candidate in expression_candidates.items():
+        expected_refs = {
+            str(record_by_source[source_id].get("id") or "")
+            for source_id in map(str, candidate.get("source_refs", []))
+            if source_id in record_by_source
+        }
+        actual_refs = {str(value) for value in candidate.get("publish_copy_observation_refs", []) if str(value)}
+        if expected_refs != actual_refs:
+            errors.append(f"candidate:{candidate_id}:publish_copy_observation_refs_mismatch")
+
+    report_path = base / "PUBLISH_COPY_SPECIAL_STUDY.json"
+    report_md = base / "PUBLISH_COPY_SPECIAL_STUDY.md"
+    if not report_path.exists():
+        errors.append("publish_copy_study:missing_json_report")
+        return {}
+    if not report_md.exists():
+        errors.append("publish_copy_study:missing_markdown_report")
+    report = _read_json(report_path)
+    _required_fields(
+        report,
+        (
+            "schema_version",
+            "workflow_id",
+            "status",
+            "observation_schema",
+            "observation_file",
+            "observation_sha256",
+            "expected_source_count",
+            "completed_source_count",
+            "deferred_source_count",
+            "dimension_coverage",
+            "facet_coverage",
+            "cross_card_pattern_candidates",
+            "formal_write",
+            "callable",
+            "user_review_required",
+        ),
+        "publish_copy_study",
+        errors,
+    )
+    if report.get("schema_version") != study_schema or report.get("observation_schema") != observation_schema:
+        errors.append("publish_copy_study:invalid_report_schema")
+    if report.get("status") != "completed":
+        errors.append("publish_copy_study:status_not_completed")
+    expected_count = len(expected_source_ids)
+    if report.get("expected_source_count") != expected_count:
+        errors.append("publish_copy_study:expected_count_mismatch")
+    if report.get("completed_source_count") != len(observed_source_set):
+        errors.append("publish_copy_study:completed_count_mismatch")
+    if report.get("deferred_source_count") != 0:
+        errors.append("publish_copy_study:deferred_sources_remain")
+    if report.get("formal_write") is not False or report.get("callable") is not False:
+        errors.append("publish_copy_study:candidate_boundary_violation")
+    if report.get("user_review_required") is not True:
+        errors.append("publish_copy_study:user_review_gate_missing")
+    if observation_path.exists() and report.get("observation_sha256") != _sha256_file(observation_path):
+        errors.append("publish_copy_study:observation_hash_mismatch")
+    configured_dimensions = {
+        str(value) for value in contract.get("publish_copy_dimensions", []) if str(value)
+    }
+    observed_dimension_counts: dict[str, int] = {dimension: 0 for dimension in configured_dimensions}
+    missing_dimension_counts: dict[str, int] = {dimension: 0 for dimension in configured_dimensions}
+    facet_status_counts: dict[str, dict[str, int]] = {
+        facet: {} for facet in ("title", "body", "topics", "coordination")
+    }
+    for record in records:
+        observation = record.get("publish_copy_observation", {})
+        if not isinstance(observation, dict):
+            continue
+        for signal in observation.get("observed_signals", []):
+            if isinstance(signal, dict):
+                label = str(signal.get("signal") or "")
+                if label in observed_dimension_counts:
+                    observed_dimension_counts[label] += 1
+        for label in map(str, observation.get("missing_or_uncertain_signals", [])):
+            if label in missing_dimension_counts:
+                missing_dimension_counts[label] += 1
+        facets = observation.get("source_facets", {})
+        if isinstance(facets, dict):
+            for facet, counts in facet_status_counts.items():
+                value = facets.get(facet, {})
+                status = str(value.get("status") or "missing") if isinstance(value, dict) else "missing"
+                counts[status] = counts.get(status, 0) + 1
+    dimension_coverage = report.get("dimension_coverage")
+    if not isinstance(dimension_coverage, dict) or set(dimension_coverage) != configured_dimensions:
+        errors.append("publish_copy_study:dimension_coverage_incomplete")
+    else:
+        for dimension in sorted(configured_dimensions):
+            value = dimension_coverage.get(dimension, {})
+            if not isinstance(value, dict) or value.get("observed_source_count") != observed_dimension_counts[dimension] or value.get("missing_source_count") != missing_dimension_counts[dimension]:
+                errors.append(f"publish_copy_study:dimension_coverage_mismatch:{dimension}")
+    if report.get("facet_coverage") != facet_status_counts:
+        errors.append("publish_copy_study:facet_coverage_mismatch")
+
+    pattern_candidates = report.get("cross_card_pattern_candidates")
+    pattern_source_ids: list[str] = []
+    if not isinstance(pattern_candidates, list) or not pattern_candidates:
+        errors.append("publish_copy_study:missing_cross_card_patterns")
+        pattern_candidates = []
+    for pattern in pattern_candidates:
+        if not isinstance(pattern, dict):
+            errors.append("publish_copy_study:pattern_must_be_object")
+            continue
+        _required_fields(
+            pattern,
+            (
+                "id",
+                "signals",
+                "source_count",
+                "source_refs",
+                "status",
+                "callable",
+                "triple_verification_required",
+            ),
+            "publish_copy_pattern",
+            errors,
+        )
+        signals = {str(value) for value in pattern.get("signals", []) if str(value)}
+        if not signals.issubset(configured_dimensions):
+            errors.append(f"publish_copy_study:pattern_unknown_signals:{pattern.get('id', 'unknown')}")
+        source_refs = [str(value) for value in pattern.get("source_refs", []) if str(value)]
+        pattern_source_ids.extend(source_refs)
+        if pattern.get("source_count") != len(set(source_refs)):
+            errors.append(f"publish_copy_study:pattern_source_count_mismatch:{pattern.get('id', 'unknown')}")
+        if pattern.get("status") != "candidate_only" or pattern.get("callable") is not False:
+            errors.append(f"publish_copy_study:pattern_boundary_violation:{pattern.get('id', 'unknown')}")
+        if pattern.get("triple_verification_required") is not True:
+            errors.append(f"publish_copy_study:pattern_missing_review_gate:{pattern.get('id', 'unknown')}")
+    if len(pattern_source_ids) != len(set(pattern_source_ids)):
+        errors.append("publish_copy_study:pattern_source_assigned_multiple_times")
+    if set(pattern_source_ids) != expected_source_ids:
+        errors.append("publish_copy_study:pattern_source_coverage_mismatch")
+    state_counts = (
+        state.get("publish_copy_expected_count"),
+        state.get("publish_copy_completed_count"),
+        state.get("publish_copy_deferred_count"),
+    )
+    if state_counts != (expected_count, len(observed_source_set), 0):
+        errors.append("publish_copy_study:state_count_mismatch")
+    return {
+        "publish_copy_expected_count": expected_count,
+        "publish_copy_completed_count": len(observed_source_set),
+        "publish_copy_deferred_count": 0,
+    }
 
 
 def _validate_real_acceptance(base: Path, config: dict[str, Any], errors: list[str]) -> dict[str, Any]:
@@ -437,10 +1195,11 @@ def validate_stage(root: Path, workflow_id: str, stage_id: str) -> dict[str, Any
                 state_field="stage1_observation_schema",
                 config_section="stage1_deep_observation",
             ):
-                _validate_deep_observation_candidate(item, config, errors)
+                _validate_deep_observation_candidate(item, workflow_state, config, errors)
             ids.append(str(item.get("id", "")))
         if len(ids) != len(set(ids)):
             errors.append("candidate_ids_not_unique")
+        metrics.update(_validate_publish_copy_study(base, workflow_state, config, candidates, errors))
         acceptance_summary = _validate_real_acceptance(base, config, errors)
         metrics["candidate_count"] = len(candidates)
         metrics["real_acceptance_status"] = acceptance_summary.get("status", "missing")
@@ -744,7 +1503,7 @@ def validate_stage(root: Path, workflow_id: str, stage_id: str) -> dict[str, Any
                 or manifest.get("user_review_required") is not True
             ):
                 errors.append("promotion_manifest_must_remain_candidate_only")
-            if str(manifest.get("schema_version") or "") == "2.2":
+            if str(manifest.get("schema_version") or "") in {"2.2", "2.3", "2.4", "2.5", "2.6"}:
                 state = _read_json(base / "PIPELINE_STATE.json")
                 consistency_fields = (
                     "deep_card_count",
@@ -830,6 +1589,194 @@ def validate_stage(root: Path, workflow_id: str, stage_id: str) -> dict[str, Any
                         errors.append(f"production_handoff:{candidate_field}_must_be_list")
                     elif coverage.get(coverage_field) == "verified" and not values:
                         errors.append(f"production_handoff:{coverage_field}_verified_but_empty")
+        if _state_schema_enabled(
+            workflow_state,
+            config,
+            state_field="stage6_visual_reference_schema",
+            config_section="stage6_visual_reference_package",
+        ):
+            metrics.update(
+                _validate_visual_reference_package(base, workflow_state, config, errors)
+            )
+        skill_contract = config.get("stage6_account_skill_package", {})
+        if skill_contract.get("required") is True:
+            skill_root = base / str(skill_contract.get("root") or "account_skill_candidate")
+            skill_path = base / str(skill_contract.get("skill") or "account_skill_candidate/SKILL.md")
+            skill_manifest_path = base / str(
+                skill_contract.get("manifest") or "account_skill_candidate/ACCOUNT_SKILL_MANIFEST.json"
+            )
+            if not skill_path.exists():
+                errors.append("missing:account_skill_candidate/SKILL.md")
+            else:
+                skill_text = skill_path.read_text(encoding="utf-8")
+                if not skill_text.startswith("---\n") or "name:" not in skill_text or "description:" not in skill_text:
+                    errors.append("account_skill_candidate_frontmatter_invalid")
+                for marker in skill_contract.get("required_skill_markers", []):
+                    if str(marker) not in skill_text:
+                        errors.append(f"account_skill_candidate_rule_missing:{marker}")
+            for relative in skill_contract.get("required_references", []):
+                if not (skill_root / str(relative)).exists():
+                    errors.append(f"missing:account_skill_candidate/{relative}")
+            for relative in skill_contract.get("required_account_views", []):
+                if not (skill_root / str(relative)).exists():
+                    errors.append(f"missing:account_skill_candidate/{relative}")
+            if not skill_manifest_path.exists():
+                errors.append("missing:account_skill_candidate/ACCOUNT_SKILL_MANIFEST.json")
+            else:
+                skill_manifest = _read_json(skill_manifest_path)
+                _required_fields(
+                    skill_manifest,
+                    (
+                        "schema_version",
+                        "status",
+                        "source_method_ids",
+                        "formal_write",
+                        "callable",
+                        "user_review_required",
+                    ),
+                    "account_skill_candidate",
+                    errors,
+                )
+                if skill_manifest.get("schema_version") != skill_contract.get("schema_id"):
+                    errors.append("account_skill_candidate_invalid_schema")
+                if skill_manifest.get("status") != "ready_for_review":
+                    errors.append("account_skill_candidate_status_must_be_ready_for_review")
+                if (
+                    skill_manifest.get("formal_write") is not False
+                    or skill_manifest.get("callable") is not False
+                    or skill_manifest.get("user_review_required") is not True
+                ):
+                    errors.append("account_skill_candidate_must_remain_candidate_only")
+                if {str(item) for item in skill_manifest.get("source_method_ids", [])} != verified_ids:
+                    errors.append("account_skill_candidate_method_ids_must_match_verified_ids")
+        compatibility_contract = config.get("stage6_upgrade_compatibility", {})
+        if _state_schema_enabled(
+            workflow_state,
+            config,
+            state_field="stage6_upgrade_compatibility_schema",
+            config_section="stage6_upgrade_compatibility",
+        ):
+            compatibility_path = base / str(
+                compatibility_contract.get("manifest")
+                or "account_skill_candidate/UPGRADE_COMPATIBILITY.json"
+            )
+            if not compatibility_path.is_file():
+                errors.append("missing:account_skill_candidate/UPGRADE_COMPATIBILITY.json")
+            else:
+                compatibility = _read_json(compatibility_path)
+                if compatibility.get("schema_version") != compatibility_contract.get("schema_id"):
+                    errors.append("account_skill_upgrade_compatibility_schema_invalid")
+                for field, expected in {
+                    "candidate_only": True,
+                    "formal_write": False,
+                    "callable": False,
+                    "user_review_required": True,
+                }.items():
+                    if compatibility.get(field) is not expected:
+                        errors.append(f"account_skill_upgrade_compatibility_boundary_invalid:{field}")
+                previous = [str(item) for item in compatibility.get("previous_capability_ids", [])]
+                new_ids = [str(item) for item in compatibility.get("new_capability_ids", [])]
+                capability_items = compatibility.get("capabilities")
+                if not isinstance(capability_items, list) or not capability_items:
+                    errors.append("account_skill_upgrade_compatibility_capabilities_missing")
+                    capability_items = []
+                capability_ids = [
+                    str(item.get("id") or "") for item in capability_items if isinstance(item, dict)
+                ]
+                current_set = set(capability_ids)
+                previous_set = set(previous)
+                if not previous_set.issubset(current_set):
+                    for cap_id in sorted(previous_set - current_set):
+                        errors.append(f"account_skill_upgrade_silent_capability_loss:{cap_id}")
+                if set(new_ids) != current_set - previous_set:
+                    errors.append("account_skill_upgrade_new_capability_delta_mismatch")
+                if (
+                    len(capability_ids) != len(current_set)
+                    or any(not item for item in capability_ids)
+                    or len(previous) != len(previous_set)
+                    or len(new_ids) != len(set(new_ids))
+                ):
+                    errors.append("account_skill_upgrade_capability_ids_invalid")
+                for item in capability_items:
+                    if not isinstance(item, dict):
+                        errors.append("account_skill_upgrade_capability_invalid")
+                        continue
+                    cap_id = str(item.get("id") or "")
+                    sources = item.get("source_paths")
+                    if not isinstance(sources, list) or not sources:
+                        errors.append(f"account_skill_upgrade_capability_sources_missing:{cap_id}")
+                        continue
+                    for source in sources:
+                        source_value = str(source or "")
+                        if not _portable_relative_path(source_value):
+                            errors.append(f"account_skill_upgrade_source_not_portable:{cap_id}")
+                            continue
+                        source_path = (base / source_value).resolve()
+                        try:
+                            source_path.relative_to(skill_root.resolve())
+                        except ValueError:
+                            errors.append(f"account_skill_upgrade_cross_account_source:{cap_id}")
+                        else:
+                            if not source_path.is_file():
+                                errors.append(f"account_skill_upgrade_source_missing:{cap_id}:{source_value}")
+                for change in compatibility.get("changed_capabilities", []):
+                    if not isinstance(change, dict):
+                        errors.append("account_skill_upgrade_change_record_invalid")
+                        continue
+                    confirmation = change.get("user_confirmation")
+                    if not isinstance(confirmation, dict) or confirmation.get("confirmed") is not True:
+                        errors.append("account_skill_upgrade_change_confirmation_missing")
+                        continue
+                    proposal_value = str(confirmation.get("proposal_path") or "")
+                    if not _portable_relative_path(proposal_value):
+                        errors.append("account_skill_upgrade_change_proposal_not_portable")
+                        continue
+                    proposal_path = (base / proposal_value).resolve()
+                    try:
+                        proposal_path.relative_to(skill_root.resolve())
+                    except ValueError:
+                        errors.append("account_skill_upgrade_change_proposal_cross_account")
+                    else:
+                        if not proposal_path.is_file():
+                            errors.append(
+                                f"account_skill_upgrade_change_proposal_missing:{proposal_value}"
+                            )
+                isolation = compatibility.get("isolation")
+                expected_isolation = {
+                    "same_account_only": True,
+                    "cross_account_merge": False,
+                    "system_rule_contamination": False,
+                    "absolute_or_nas_paths": False,
+                }
+                if not isinstance(isolation, dict) or any(
+                    isolation.get(key) is not value for key, value in expected_isolation.items()
+                ):
+                    errors.append("account_skill_upgrade_isolation_invalid")
+                snapshots = compatibility.get("source_snapshot")
+                if not isinstance(snapshots, list) or not snapshots:
+                    errors.append("account_skill_upgrade_source_snapshot_missing")
+                    snapshots = []
+                for snapshot in snapshots:
+                    if not isinstance(snapshot, dict):
+                        errors.append("account_skill_upgrade_source_snapshot_invalid")
+                        continue
+                    source_value = str(snapshot.get("path") or "")
+                    expected_hash = str(snapshot.get("sha256") or "").lower()
+                    if not _portable_relative_path(source_value):
+                        errors.append("account_skill_upgrade_snapshot_path_not_portable")
+                        continue
+                    source_path = (base / source_value).resolve()
+                    try:
+                        source_path.relative_to(skill_root.resolve())
+                    except ValueError:
+                        errors.append("account_skill_upgrade_snapshot_cross_account")
+                    else:
+                        if not source_path.is_file():
+                            errors.append(f"account_skill_upgrade_snapshot_missing:{source_value}")
+                        elif not re.fullmatch(r"[0-9a-f]{64}", expected_hash):
+                            errors.append(f"account_skill_upgrade_snapshot_hash_invalid:{source_value}")
+                        elif _sha256_file(source_path) != expected_hash:
+                            errors.append(f"account_skill_upgrade_snapshot_hash_mismatch:{source_value}")
     return {"ok": not errors, "workflow_id": _safe_id(workflow_id), "stage_id": stage_id, "errors": errors, "metrics": metrics}
 
 
@@ -868,12 +1815,18 @@ def complete_stage(root: Path, workflow_id: str, stage_id: str, *, user_confirme
 def workflow_status(root: Path, workflow_id: str) -> dict[str, Any]:
     state = load_state(root, workflow_id)
     validations = {stage["id"]: validate_stage(root, workflow_id, stage["id"]) for stage in state["stages"]}
+    completed_invalid = [
+        stage["id"]
+        for stage in state["stages"]
+        if stage.get("status") == "completed" and not validations[stage["id"]]["ok"]
+    ]
     return {
-        "ok": True,
+        "ok": not completed_invalid,
         "workflow_id": state["workflow_id"],
         "account_name": state["account_name"],
-        "status": state["status"],
+        "status": state["status"] if not completed_invalid else f"{state['status']}_with_validation_errors",
         "current_stage": state["current_stage"],
+        "completed_stage_failures": completed_invalid,
         "formal_write_allowed": False,
         "stages": state["stages"],
         "validations": validations,
@@ -893,13 +1846,568 @@ def validate_workflow(root: Path, workflow_id: str) -> dict[str, Any]:
     }
 
 
+def _candidate_compatibility_from_formal(
+    root: Path,
+    *,
+    workflow_id: str,
+    source_root: Path,
+    source_account_root: Path,
+    target_root: Path,
+) -> dict[str, Any]:
+    root = root.resolve()
+    source_root = source_root.resolve()
+    source_account_root = source_account_root.resolve()
+    target_root = target_root.resolve()
+    formal_path = source_root / "UPGRADE_COMPATIBILITY.json"
+    if not formal_path.is_file():
+        raise FileNotFoundError("formal_account_skill_upgrade_compatibility_missing")
+    formal = _read_json(formal_path)
+    workflow_base = workflow_root(root, workflow_id)
+    fallback = target_root / "references" / "upgrade-compatibility.md"
+    if not fallback.is_file():
+        raise FileNotFoundError("candidate_upgrade_compatibility_reference_missing")
+
+    def candidate_source(value: str) -> str:
+        source = (root / value).resolve()
+        if source == (source_root / "UPGRADE_COMPATIBILITY.json").resolve():
+            return fallback.relative_to(workflow_base).as_posix()
+        try:
+            relative = source.relative_to(source_root.resolve())
+        except ValueError:
+            relative = None
+        if relative is not None and (target_root / relative).is_file():
+            return (target_root / relative).relative_to(workflow_base).as_posix()
+        try:
+            account_relative = source.relative_to(source_account_root.resolve())
+        except ValueError:
+            account_relative = None
+        if account_relative is not None and len(account_relative.parts) == 1:
+            view = target_root / "account_views" / account_relative.name
+            if view.is_file():
+                return view.relative_to(workflow_base).as_posix()
+        if source == (source_account_root / "METHOD_INDEX.json").resolve():
+            method_snapshot = target_root / "references" / "formal-method-index.json"
+            if method_snapshot.is_file():
+                return method_snapshot.relative_to(workflow_base).as_posix()
+        return fallback.relative_to(workflow_base).as_posix()
+
+    capabilities: list[dict[str, Any]] = []
+    for item in formal.get("capabilities", []):
+        if not isinstance(item, dict):
+            continue
+        converted = dict(item)
+        converted["source_paths"] = sorted(
+            {
+                candidate_source(str(source))
+                for source in item.get("source_paths", [])
+                if str(source).strip()
+            }
+        )
+        capabilities.append(converted)
+    changed_capabilities: list[dict[str, Any]] = []
+    for item in formal.get("changed_capabilities", []):
+        if not isinstance(item, dict):
+            continue
+        converted = dict(item)
+        confirmation = item.get("user_confirmation")
+        if isinstance(confirmation, dict):
+            converted_confirmation = dict(confirmation)
+            proposal_path = str(confirmation.get("proposal_path") or "")
+            if proposal_path:
+                converted_confirmation["proposal_path"] = candidate_source(proposal_path)
+            converted["user_confirmation"] = converted_confirmation
+        changed_capabilities.append(converted)
+    source_paths = sorted(
+        {
+            source
+            for item in capabilities
+            for source in item.get("source_paths", [])
+            if str(source).strip()
+            and not str(source).endswith("/UPGRADE_COMPATIBILITY.json")
+        }
+    )
+    return {
+        "schema_version": formal.get("schema_version"),
+        "account_skill_id": formal.get("account_skill_id"),
+        "base_version": formal.get("base_version"),
+        "target_version": formal.get("target_version"),
+        "upgrade_scope": formal.get("upgrade_scope", "system_account_batch_member"),
+        "candidate_only": True,
+        "formal_write": False,
+        "callable": False,
+        "user_review_required": True,
+        "previous_capability_ids": formal.get("previous_capability_ids", []),
+        "new_capability_ids": formal.get("new_capability_ids", []),
+        "capabilities": capabilities,
+        "changed_capabilities": changed_capabilities,
+        "source_snapshot": [
+            {"path": source, "sha256": _sha256_file(workflow_base / source)} for source in source_paths
+        ],
+        "regression_package_manifests": [],
+        "isolation": {
+            "same_account_only": True,
+            "cross_account_merge": False,
+            "system_rule_contamination": False,
+            "absolute_or_nas_paths": False,
+        },
+        "rollback": {
+            "mode": "restore_pre_v29_candidate_snapshot",
+            "formal_account_skill_unchanged_by_candidate_migration": True,
+            "delete_formal_evidence": False,
+        },
+        "migration": {
+            "type": "backfill_v29_from_same_account_formal_skill",
+            "source_manifest": formal_path.relative_to(root).as_posix(),
+            "migrated_at": now_iso(),
+        },
+    }
+
+
+def migrate_account_skill_candidate(root: Path, workflow_id: str, *, force: bool = False) -> dict[str, Any]:
+    """Backfill the stage-6 candidate package from an already approved formal account Skill."""
+
+    from tools.kb.account_skills import resolve_account_skill
+
+    root = root.resolve()
+    config = load_config(root)
+    state = load_state(root, workflow_id)
+    resolved = resolve_account_skill(root, str(state.get("account_name") or ""))
+    if not resolved.get("ok"):
+        return {
+            "ok": False,
+            "workflow_id": _safe_id(workflow_id),
+            "error": "formal_account_skill_not_found",
+            "account_name": state.get("account_name", ""),
+        }
+    source_skill = root / str(resolved["skill_path"])
+    source_root = source_skill.parent
+    target_root = workflow_root(root, workflow_id) / "account_skill_candidate"
+    contract = config.get("stage6_account_skill_package", {})
+    required_files = {"SKILL.md", *[str(item) for item in contract.get("required_references", [])]}
+    for directory in ("references", "scripts", "agents", "proposals"):
+        source_directory = source_root / directory
+        if source_directory.is_dir():
+            required_files.update(
+                path.relative_to(source_root).as_posix()
+                for path in source_directory.rglob("*")
+                if _candidate_resource_allowed(path)
+            )
+    copied: list[str] = []
+    preserved: list[str] = []
+    for relative in sorted(required_files):
+        source = source_root / relative
+        target = target_root / relative
+        if not source.exists():
+            return {
+                "ok": False,
+                "workflow_id": _safe_id(workflow_id),
+                "error": f"formal_account_skill_missing:{relative}",
+                "source_skill": str(source_skill.relative_to(root)),
+            }
+        if target.exists() and not force:
+            preserved.append(relative)
+            continue
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+        copied.append(relative)
+
+    source_account_root = source_root.parent
+    formal_compatibility = source_root / "UPGRADE_COMPATIBILITY.json"
+    if not formal_compatibility.is_file():
+        return {
+            "ok": False,
+            "workflow_id": _safe_id(workflow_id),
+            "error": "formal_account_skill_upgrade_compatibility_missing",
+            "source_skill": str(source_skill.relative_to(root)),
+        }
+    method_index = source_account_root / "METHOD_INDEX.json"
+    method_snapshot = target_root / "references" / "formal-method-index.json"
+    if method_index.is_file():
+        if force or not method_snapshot.exists():
+            method_snapshot.parent.mkdir(parents=True, exist_ok=True)
+            shutil.copy2(method_index, method_snapshot)
+            copied.append("references/formal-method-index.json")
+        else:
+            preserved.append("references/formal-method-index.json")
+    for relative in [str(item) for item in contract.get("required_account_views", [])]:
+        filename = Path(relative).name
+        source = source_account_root / filename
+        target = target_root / relative
+        if not source.exists():
+            return {
+                "ok": False,
+                "workflow_id": _safe_id(workflow_id),
+                "error": f"formal_account_view_missing:{filename}",
+                "source_skill": str(source_skill.relative_to(root)),
+            }
+        if target.exists() and not force:
+            preserved.append(relative)
+            continue
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(source, target)
+        copied.append(relative)
+
+    verified, errors = _read_jsonl(workflow_root(root, workflow_id) / "verified.jsonl")
+    if errors:
+        return {"ok": False, "workflow_id": _safe_id(workflow_id), "errors": errors}
+    manifest_path = target_root / "ACCOUNT_SKILL_MANIFEST.json"
+    if force or not manifest_path.exists():
+        _write_json(
+            manifest_path,
+            {
+                "schema_version": str(contract.get("schema_id") or "account_skill_candidate_v1"),
+                "status": "ready_for_review",
+                "workflow_id": state["workflow_id"],
+                "account_name": state["account_name"],
+                "account_skill_id": resolved.get("account_skill_id", ""),
+                "account_skill_version": resolved.get("version", ""),
+                "pipeline_version": str(config.get("version") or ""),
+                "source_method_ids": sorted(str(item.get("id")) for item in verified if item.get("id")),
+                "formal_write": False,
+                "callable": False,
+                "user_review_required": True,
+                "migration": {
+                    "type": "backfill_from_approved_formal_account_skill",
+                    "source_skill": str(source_skill.relative_to(root)),
+                    "migrated_at": now_iso(),
+                },
+            },
+        )
+        copied.append("ACCOUNT_SKILL_MANIFEST.json")
+    else:
+        preserved.append("ACCOUNT_SKILL_MANIFEST.json")
+
+    compatibility_path = target_root / "UPGRADE_COMPATIBILITY.json"
+    if force or not compatibility_path.exists():
+        try:
+            candidate_compatibility = _candidate_compatibility_from_formal(
+                root,
+                workflow_id=workflow_id,
+                source_root=source_root,
+                source_account_root=source_account_root,
+                target_root=target_root,
+            )
+        except FileNotFoundError as exc:
+            return {
+                "ok": False,
+                "workflow_id": _safe_id(workflow_id),
+                "error": str(exc),
+                "source_skill": str(source_skill.relative_to(root)),
+            }
+        _write_json(compatibility_path, candidate_compatibility)
+        copied.append("UPGRADE_COMPATIBILITY.json")
+    else:
+        preserved.append("UPGRADE_COMPATIBILITY.json")
+
+    state["schema_version"] = str(config.get("version") or state.get("schema_version") or "")
+    state["stage6_account_skill_schema"] = str(contract.get("schema_id") or "")
+    state["stage6_upgrade_compatibility_schema"] = str(
+        config.get("stage6_upgrade_compatibility", {}).get("schema_id") or ""
+    )
+    validation = validate_stage(root, workflow_id, "stage6_learning_delivery")
+    for stage in state["stages"]:
+        if stage.get("id") == "stage6_learning_delivery":
+            stage["validation"] = validation
+            break
+    migrations = state.setdefault("migrations", [])
+    migration_id = "backfill_account_skill_candidate_v1"
+    if not any(isinstance(item, dict) and item.get("id") == migration_id for item in migrations):
+        migrations.append({"id": migration_id, "completed_at": now_iso(), "source": resolved["skill_path"]})
+    v29_migration_id = "backfill_account_skill_upgrade_compatibility_v29"
+    if not any(isinstance(item, dict) and item.get("id") == v29_migration_id for item in migrations):
+        migrations.append(
+            {
+                "id": v29_migration_id,
+                "completed_at": now_iso(),
+                "source": resolved["skill_path"],
+                "mode": "same_account_formal_snapshot_only",
+            }
+        )
+    state["updated_at"] = now_iso()
+    _write_json(state_path(root, workflow_id), state)
+    return {
+        "ok": bool(validation.get("ok")),
+        "workflow_id": state["workflow_id"],
+        "account_name": state["account_name"],
+        "source_skill": resolved["skill_path"],
+        "copied": copied,
+        "preserved": preserved,
+        "validation": validation,
+    }
+
+
+def migrate_all_account_skill_candidates(root: Path, *, force: bool = False) -> dict[str, Any]:
+    config = load_config(root)
+    candidate_root = root.resolve() / Path(str(config.get("candidate_root") or DEFAULT_CANDIDATE_ROOT))
+    results = []
+    if candidate_root.exists():
+        for state_file in sorted(candidate_root.glob("*/PIPELINE_STATE.json")):
+            results.append(migrate_account_skill_candidate(root, state_file.parent.name, force=force))
+    return {
+        "ok": all(item.get("ok") for item in results),
+        "workflow_count": len(results),
+        "failed": [item.get("workflow_id", "") for item in results if not item.get("ok")],
+        "results": results,
+    }
+
+
+def audit_all_account_learning_v29(root: Path) -> dict[str, Any]:
+    """Prove every registered account has one isolated, current v2.9 learning delivery."""
+
+    from tools.kb.account_skills import (
+        audit_account_skill_v29_compatibility,
+        resolve_account_skill,
+    )
+
+    root = root.resolve()
+    config = load_config(root)
+    candidate_root = root / Path(str(config.get("candidate_root") or DEFAULT_CANDIDATE_ROOT))
+    expected_pipeline = str(config.get("version") or "")
+    expected_compatibility = str(
+        config.get("stage6_upgrade_compatibility", {}).get("schema_id") or ""
+    )
+    formal_audit = audit_account_skill_v29_compatibility(root)
+    registered_accounts = [
+        item
+        for item in formal_audit.get("results", [])
+        if isinstance(item, dict) and item.get("account_skill_id")
+    ]
+    registered_tokens = {
+        str(item.get("account_skill_id") or ""): str(item.get("account_name") or "")
+        for item in registered_accounts
+    }
+    results: list[dict[str, Any]] = []
+    seen_account_ids: set[str] = set()
+    duplicate_account_ids: set[str] = set()
+    cross_account_token_leaks: list[dict[str, str]] = []
+    semantic_hash_owners: dict[str, list[dict[str, str]]] = {}
+    semantic_relative_paths = (
+        "skill/SKILL.md",
+        "skill/references/production.md",
+        "skill/references/style.md",
+        "skill/references/boundaries.md",
+        "skill/references/acceptance.md",
+        "skill/references/publishing-copy.md",
+        "账号整体方法论.md",
+        "内容生产使用说明.md",
+        "减少AI味输出规则.md",
+        "内容输出标准模板.md",
+    )
+    for state_file in sorted(candidate_root.glob("*/PIPELINE_STATE.json")) if candidate_root.is_dir() else []:
+        state = _read_json(state_file)
+        workflow_id = str(state.get("workflow_id") or state_file.parent.name)
+        account_name = str(state.get("account_name") or "")
+        errors: list[str] = []
+        if str(state.get("schema_version") or "") != expected_pipeline:
+            errors.append(f"pipeline_version_mismatch:{state.get('schema_version', '')}:{expected_pipeline}")
+        if str(state.get("stage6_upgrade_compatibility_schema") or "") != expected_compatibility:
+            errors.append("stage6_upgrade_compatibility_schema_missing")
+        deferred_evidence_count = 0
+        deferred_evidence_isolated = True
+        if "deferred_evidence" in str(state.get("status") or ""):
+            acceptance_summary_path = state_file.parent / "REAL_ACCEPTANCE_SUMMARY.json"
+            if not acceptance_summary_path.is_file():
+                errors.append("deferred_evidence_acceptance_summary_missing")
+                deferred_evidence_isolated = False
+            else:
+                acceptance_summary = _read_json(acceptance_summary_path)
+                overview_scope = acceptance_summary.get("overview_scope", {})
+                expanded_audit = acceptance_summary.get("expanded_audit", {})
+                semantic = acceptance_summary.get("semantic_consistency", {})
+                deferred_evidence_count = int(overview_scope.get("deferred_evidence", 0) or 0)
+                total = int(overview_scope.get("source_total", 0) or 0)
+                learned = int(overview_scope.get("deep_learned", 0) or 0)
+                deferred_evidence_isolated = (
+                    acceptance_summary.get("status") == "passed"
+                    and deferred_evidence_count > 0
+                    and learned + deferred_evidence_count == total
+                    and expanded_audit.get("completed") is True
+                    and int(expanded_audit.get("records_scanned", 0) or 0) == learned
+                    and semantic.get("passed") is True
+                    and int(semantic.get("conflict_count", 0) or 0) == 0
+                )
+                if not deferred_evidence_isolated:
+                    errors.append("deferred_evidence_not_isolated_or_fully_audited")
+        workflow_validation = validate_workflow(root, workflow_id)
+        if not workflow_validation.get("ok"):
+            errors.extend(
+                f"workflow_stage_invalid:{stage_id}"
+                for stage_id in workflow_validation.get("completed_stage_failures", [])
+            )
+
+        resolved = resolve_account_skill(root, account_name)
+        if not resolved.get("ok"):
+            errors.append("formal_account_skill_not_resolved")
+            results.append(
+                {
+                    "ok": False,
+                    "workflow_id": workflow_id,
+                    "account_name": account_name,
+                    "errors": errors,
+                }
+            )
+            continue
+        account_skill_id = str(resolved.get("account_skill_id") or "")
+        if account_skill_id in seen_account_ids:
+            duplicate_account_ids.add(account_skill_id)
+        seen_account_ids.add(account_skill_id)
+        source_skill = root / str(resolved["skill_path"])
+        source_root = source_skill.parent
+        source_account_root = source_root.parent
+        target_root = state_file.parent / "account_skill_candidate"
+        for relative in semantic_relative_paths:
+            semantic_path = source_account_root / relative
+            if not semantic_path.is_file():
+                continue
+            semantic_text = semantic_path.read_text(encoding="utf-8", errors="ignore")
+            for other_id, other_name in registered_tokens.items():
+                if other_id == account_skill_id:
+                    continue
+                for token in (other_id, other_name):
+                    if token and len(token) >= 3 and token in semantic_text:
+                        cross_account_token_leaks.append(
+                            {
+                                "account_skill_id": account_skill_id,
+                                "path": semantic_path.relative_to(root).as_posix(),
+                                "foreign_account_skill_id": other_id,
+                                "token": token,
+                            }
+                        )
+            semantic_hash_owners.setdefault(_sha256_file(semantic_path), []).append(
+                {
+                    "account_skill_id": account_skill_id,
+                    "path": semantic_path.relative_to(root).as_posix(),
+                }
+            )
+        proposal_root = source_root / "proposals"
+        for proposal_path in (
+            sorted(proposal_root.rglob("*.md")) if proposal_root.is_dir() else []
+        ):
+            proposal_text = proposal_path.read_text(encoding="utf-8", errors="ignore")
+            for other_id, other_name in registered_tokens.items():
+                if other_id == account_skill_id:
+                    continue
+                for token in (other_id, other_name):
+                    if token and len(token) >= 3 and token in proposal_text:
+                        cross_account_token_leaks.append(
+                            {
+                                "account_skill_id": account_skill_id,
+                                "path": proposal_path.relative_to(root).as_posix(),
+                                "foreign_account_skill_id": other_id,
+                                "token": token,
+                            }
+                        )
+        candidate_manifest = _read_json(target_root / "ACCOUNT_SKILL_MANIFEST.json")
+        if candidate_manifest.get("account_skill_id") != account_skill_id:
+            errors.append("candidate_account_skill_id_mismatch")
+        if str(candidate_manifest.get("account_skill_version") or "") != str(resolved.get("version") or ""):
+            errors.append("candidate_account_skill_version_mismatch")
+        if str(candidate_manifest.get("pipeline_version") or "") != expected_pipeline:
+            errors.append("candidate_pipeline_version_mismatch")
+
+        synchronized_files: list[str] = []
+        for source in [source_skill]:
+            target = target_root / source.relative_to(source_root)
+            synchronized_files.append(source.relative_to(root).as_posix())
+            if not target.is_file() or _sha256_file(source) != _sha256_file(target):
+                errors.append(f"candidate_learning_snapshot_mismatch:{source.relative_to(source_root).as_posix()}")
+        for directory in ("references", "scripts", "agents", "proposals"):
+            source_directory = source_root / directory
+            if not source_directory.is_dir():
+                continue
+            for source in sorted(path for path in source_directory.rglob("*") if _candidate_resource_allowed(path)):
+                relative = source.relative_to(source_root)
+                target = target_root / relative
+                synchronized_files.append(source.relative_to(root).as_posix())
+                if not target.is_file() or _sha256_file(source) != _sha256_file(target):
+                    errors.append(f"candidate_learning_snapshot_mismatch:{relative.as_posix()}")
+        for filename in (
+            "账号整体方法论.md",
+            "内容生产使用说明.md",
+            "减少AI味输出规则.md",
+            "内容输出标准模板.md",
+        ):
+            source = source_account_root / filename
+            target = target_root / "account_views" / filename
+            if not source.is_file() or not target.is_file() or _sha256_file(source) != _sha256_file(target):
+                errors.append(f"candidate_account_view_mismatch:{filename}")
+        method_index = source_account_root / "METHOD_INDEX.json"
+        method_snapshot = target_root / "references" / "formal-method-index.json"
+        if not method_index.is_file() or not method_snapshot.is_file() or _sha256_file(method_index) != _sha256_file(method_snapshot):
+            errors.append("candidate_formal_method_index_mismatch")
+
+        compatibility = _read_json(target_root / "UPGRADE_COMPATIBILITY.json")
+        if compatibility.get("account_skill_id") != account_skill_id:
+            errors.append("candidate_upgrade_compatibility_account_mismatch")
+        if str(compatibility.get("target_version") or "") != str(resolved.get("version") or ""):
+            errors.append("candidate_upgrade_compatibility_version_mismatch")
+        garbage = sorted(
+            path.relative_to(root).as_posix()
+            for base in (source_root, target_root)
+            for path in base.rglob("*")
+            if path.is_file()
+            and ("__pycache__" in path.parts or path.suffix in {".pyc", ".pyo"} or path.name == ".DS_Store")
+        )
+        errors.extend(f"generated_garbage:{path}" for path in garbage)
+        results.append(
+            {
+                "ok": not errors,
+                "workflow_id": workflow_id,
+                "account_name": account_name,
+                "account_skill_id": account_skill_id,
+                "account_skill_version": resolved.get("version", ""),
+                "pipeline_version": state.get("schema_version", ""),
+                "learning_snapshot_file_count": len(synchronized_files),
+                "deferred_evidence_count": deferred_evidence_count,
+                "deferred_evidence_isolated": deferred_evidence_isolated,
+                "errors": errors,
+            }
+        )
+
+    registered_ids = {
+        str(item.get("account_skill_id") or "")
+        for item in formal_audit.get("results", [])
+        if isinstance(item, dict) and item.get("account_skill_id")
+    }
+    missing_workflows = sorted(registered_ids - seen_account_ids)
+    extra_workflows = sorted(seen_account_ids - registered_ids)
+    formal_compatibility_ok = bool(formal_audit.get("ok")) if registered_ids else not results
+    cross_account_template_collisions = [
+        {"sha256": digest, "owners": owners}
+        for digest, owners in sorted(semantic_hash_owners.items())
+        if len({item["account_skill_id"] for item in owners}) > 1
+    ]
+    return {
+        "ok": (bool(results) or not registered_ids)
+        and all(item.get("ok") for item in results)
+        and formal_compatibility_ok
+        and not missing_workflows
+        and not extra_workflows
+        and not duplicate_account_ids
+        and not cross_account_token_leaks
+        and not cross_account_template_collisions,
+        "pipeline_version": expected_pipeline,
+        "registered_account_count": len(registered_ids),
+        "workflow_count": len(results),
+        "passed_count": sum(1 for item in results if item.get("ok")),
+        "formal_compatibility_passed_count": formal_audit.get("passed_count", 0),
+        "missing_workflows": missing_workflows,
+        "extra_workflows": extra_workflows,
+        "duplicate_account_skill_ids": sorted(duplicate_account_ids),
+        "cross_account_token_leaks": cross_account_token_leaks,
+        "cross_account_template_collisions": cross_account_template_collisions,
+        "failed": [item["workflow_id"] for item in results if not item.get("ok")],
+        "results": results,
+    }
+
+
 def refresh_workflow(root: Path, workflow_id: str, *, source_scope: str = "") -> dict[str, Any]:
     """Refresh stored validation evidence after a candidate-only workflow is rebuilt."""
 
     root = root.resolve()
     config = load_config(root)
     state = load_state(root, workflow_id)
-    state["schema_version"] = str(config.get("version") or "2.2")
+    state["schema_version"] = str(config.get("version") or "2.6")
     state["method"] = config["method"]
     if source_scope.strip():
         state["source_scope"] = source_scope.strip()

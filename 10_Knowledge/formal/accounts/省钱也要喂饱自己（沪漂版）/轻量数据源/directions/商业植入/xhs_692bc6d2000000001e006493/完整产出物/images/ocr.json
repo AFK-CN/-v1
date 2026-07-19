@@ -1,0 +1,450 @@
+{
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "小白菜\n菜饭\n心蛋\n卤猪肝",
+      "items": [
+        {
+          "text": "小白菜",
+          "score": 0.9754413167635599,
+          "box": [
+            [
+              199.0,
+              62.0
+            ],
+            [
+              444.0,
+              70.0
+            ],
+            [
+              441.0,
+              165.0
+            ],
+            [
+              196.0,
+              157.0
+            ]
+          ]
+        },
+        {
+          "text": "菜饭",
+          "score": 0.9932073652744293,
+          "box": [
+            [
+              185.0,
+              249.0
+            ],
+            [
+              300.0,
+              249.0
+            ],
+            [
+              300.0,
+              317.0
+            ],
+            [
+              185.0,
+              317.0
+            ]
+          ]
+        },
+        {
+          "text": "心蛋",
+          "score": 0.9578472375869751,
+          "box": [
+            [
+              700.0,
+              1032.0
+            ],
+            [
+              1002.0,
+              1105.0
+            ],
+            [
+              981.0,
+              1191.0
+            ],
+            [
+              679.0,
+              1118.0
+            ]
+          ]
+        },
+        {
+          "text": "卤猪肝",
+          "score": 0.9669603506724039,
+          "box": [
+            [
+              550.0,
+              1250.0
+            ],
+            [
+              842.0,
+              1257.0
+            ],
+            [
+              841.0,
+              1342.0
+            ],
+            [
+              548.0,
+              1335.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\001_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\002_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "咸肉冷水下锅小火煮5分钟\n锅中喷少许油\n出锅后将咸肉、腊肠、青菜切丁\n将咸肉、腊肠丁煸香\n淘米之后加入1倍水以及煸好的菜丁\n不用洗锅，用刚刚煸出的油\n按煮饭键烹煮\n将青菜小火炒30秒至断生即可\n将青菜丁倒入煮好的电饭锅中搅拌均匀\n继续焖5分钟（喜欢吃锅巴的伙伴可以按煲仔饭键哦）",
+      "items": [
+        {
+          "text": "咸肉冷水下锅小火煮5分钟",
+          "score": 0.9915284762779871,
+          "box": [
+            [
+              67.0,
+              387.0
+            ],
+            [
+              473.0,
+              387.0
+            ],
+            [
+              473.0,
+              420.0
+            ],
+            [
+              67.0,
+              420.0
+            ]
+          ]
+        },
+        {
+          "text": "锅中喷少许油",
+          "score": 0.9939628839492798,
+          "box": [
+            [
+              713.0,
+              386.0
+            ],
+            [
+              921.0,
+              386.0
+            ],
+            [
+              921.0,
+              420.0
+            ],
+            [
+              713.0,
+              420.0
+            ]
+          ]
+        },
+        {
+          "text": "出锅后将咸肉、腊肠、青菜切丁",
+          "score": 0.9849938367094312,
+          "box": [
+            [
+              24.0,
+              440.0
+            ],
+            [
+              512.0,
+              440.0
+            ],
+            [
+              512.0,
+              473.0
+            ],
+            [
+              24.0,
+              473.0
+            ]
+          ]
+        },
+        {
+          "text": "将咸肉、腊肠丁煸香",
+          "score": 0.9817545943790011,
+          "box": [
+            [
+              659.0,
+              440.0
+            ],
+            [
+              975.0,
+              440.0
+            ],
+            [
+              975.0,
+              473.0
+            ],
+            [
+              659.0,
+              473.0
+            ]
+          ]
+        },
+        {
+          "text": "淘米之后加入1倍水以及煸好的菜丁",
+          "score": 0.9750814735889435,
+          "box": [
+            [
+              4.0,
+              869.0
+            ],
+            [
+              535.0,
+              868.0
+            ],
+            [
+              535.0,
+              901.0
+            ],
+            [
+              4.0,
+              902.0
+            ]
+          ]
+        },
+        {
+          "text": "不用洗锅，用刚刚煸出的油",
+          "score": 0.9899221112330755,
+          "box": [
+            [
+              608.0,
+              870.0
+            ],
+            [
+              1022.0,
+              870.0
+            ],
+            [
+              1022.0,
+              903.0
+            ],
+            [
+              608.0,
+              903.0
+            ]
+          ]
+        },
+        {
+          "text": "按煮饭键烹煮",
+          "score": 0.9960326552391052,
+          "box": [
+            [
+              165.0,
+              921.0
+            ],
+            [
+              369.0,
+              921.0
+            ],
+            [
+              369.0,
+              954.0
+            ],
+            [
+              165.0,
+              954.0
+            ]
+          ]
+        },
+        {
+          "text": "将青菜小火炒30秒至断生即可",
+          "score": 0.9924595611436027,
+          "box": [
+            [
+              591.0,
+              922.0
+            ],
+            [
+              1041.0,
+              922.0
+            ],
+            [
+              1041.0,
+              955.0
+            ],
+            [
+              591.0,
+              955.0
+            ]
+          ]
+        },
+        {
+          "text": "将青菜丁倒入煮好的电饭锅中搅拌均匀",
+          "score": 0.9854824087199043,
+          "box": [
+            [
+              217.0,
+              1347.0
+            ],
+            [
+              803.0,
+              1347.0
+            ],
+            [
+              803.0,
+              1380.0
+            ],
+            [
+              217.0,
+              1380.0
+            ]
+          ]
+        },
+        {
+          "text": "继续焖5分钟（喜欢吃锅巴的伙伴可以按煲仔饭键哦）",
+          "score": 0.9750713979204496,
+          "box": [
+            [
+              102.0,
+              1395.0
+            ],
+            [
+              893.0,
+              1397.0
+            ],
+            [
+              893.0,
+              1433.0
+            ],
+            [
+              102.0,
+              1431.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\003_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\004_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "K",
+      "items": [
+        {
+          "text": "K",
+          "score": 0.5120208263397217,
+          "box": [
+            [
+              657.0,
+              936.0
+            ],
+            [
+              910.0,
+              883.0
+            ],
+            [
+              938.0,
+              1020.0
+            ],
+            [
+              685.0,
+              1073.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\005_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\006_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 7,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\007_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 8,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_692bc6d2000000001e006493\\images\\008_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051050/53ac032d1f41360572c676dec05b7bab/note_pre_post_uhdr/1040g3r031pge621ri8204busfur776f889oa37o!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "心",
+      "items": [
+        {
+          "text": "心",
+          "score": 0.7786550521850586,
+          "box": [
+            [
+              838.0,
+              464.0
+            ],
+            [
+              906.0,
+              484.0
+            ],
+            [
+              890.0,
+              537.0
+            ],
+            [
+              823.0,
+              517.0
+            ]
+          ]
+        }
+      ]
+    }
+  ]
+}

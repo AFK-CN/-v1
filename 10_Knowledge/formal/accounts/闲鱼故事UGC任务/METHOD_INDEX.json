@@ -1,0 +1,197 @@
+{
+  "schema_version": "formal_method_index_v1",
+  "account_skill_id": "xianyu_story_ugc_task",
+  "account_name": "闲鱼故事UGC任务",
+  "task_scope": "闲鱼故事类UGC内容发布",
+  "methods": [
+    {
+      "id": "xugc-m01",
+      "title": "具体事实先行，平台价值后置",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "composite",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-m02",
+      "title": "物件痕迹触发记忆，由下一站完成情绪转移",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "content_structure",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-m03",
+      "title": "交易异常制造关系反差，让善意通过动作被看见",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "content_structure",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-m04",
+      "title": "执行细节与反馈形成服务价值和身份增长双闭环",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "content_structure",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-m05",
+      "title": "投入落差暴露阶段变化，转手完成退坑和解",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "content_structure",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-m06",
+      "title": "短交易奇遇用单异常、单转折和及时止句完成",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "content_structure",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-m07",
+      "title": "第三方误解或自嘲打断煽情，保留生活毛边",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "expression_fingerprint",
+      "account_skill_id": "xianyu_story_ugc_task"
+    },
+    {
+      "id": "xugc-v01",
+      "title": "平台原生证据链",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "visual_structure",
+      "account_skill_id": "xianyu_story_ugc_task",
+      "source_refs": [
+        "feishu_xianyu_20260713_s04",
+        "feishu_xianyu_20260713_s05",
+        "feishu_xianyu_20260713_s11",
+        "feishu_xianyu_20260714_s06",
+        "feishu_xianyu_20260714_s15",
+        "feishu_xianyu_20260715_s02",
+        "feishu_xianyu_20260715_s15",
+        "feishu_xianyu_20260716_s04",
+        "feishu_xianyu_20260716_s06",
+        "feishu_xianyu_20260717_s04",
+        "feishu_xianyu_20260717_s14"
+      ]
+    },
+    {
+      "id": "xugc-v02",
+      "title": "低制作感物件真相",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "visual_structure",
+      "account_skill_id": "xianyu_story_ugc_task",
+      "source_refs": [
+        "feishu_xianyu_20260713_s03",
+        "feishu_xianyu_20260714_s03",
+        "feishu_xianyu_20260715_s06",
+        "feishu_xianyu_20260716_s07",
+        "feishu_xianyu_20260716_s16",
+        "feishu_xianyu_20260717_s02",
+        "feishu_xianyu_20260717_s13"
+      ]
+    },
+    {
+      "id": "xugc-v03",
+      "title": "功能型多图递进",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "visual_structure",
+      "account_skill_id": "xianyu_story_ugc_task",
+      "source_refs": [
+        "feishu_xianyu_20260713_s04",
+        "feishu_xianyu_20260714_s06",
+        "feishu_xianyu_20260715_s15",
+        "feishu_xianyu_20260716_s04",
+        "feishu_xianyu_20260717_s14"
+      ]
+    },
+    {
+      "id": "xugc-v04",
+      "title": "可选一句话标题卡",
+      "status": "approved_callable",
+      "callable": true,
+      "mechanism_kind": "visual_structure",
+      "account_skill_id": "xianyu_story_ugc_task",
+      "source_refs": [
+        "feishu_xianyu_20260714_s09",
+        "feishu_xianyu_20260714_s11",
+        "feishu_xianyu_20260714_s14",
+        "feishu_xianyu_20260715_s11",
+        "feishu_xianyu_20260715_s15",
+        "feishu_xianyu_20260715_s20",
+        "feishu_xianyu_20260716_s01",
+        "feishu_xianyu_20260716_s02"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "xugc-m02",
+      "target": "xugc-m01",
+      "type": "depends_on"
+    },
+    {
+      "source": "xugc-m03",
+      "target": "xugc-m01",
+      "type": "depends_on"
+    },
+    {
+      "source": "xugc-m04",
+      "target": "xugc-m01",
+      "type": "depends_on"
+    },
+    {
+      "source": "xugc-m05",
+      "target": "xugc-m01",
+      "type": "depends_on"
+    },
+    {
+      "source": "xugc-m06",
+      "target": "xugc-m02",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "xugc-m06",
+      "target": "xugc-m04",
+      "type": "contrasts_with"
+    },
+    {
+      "source": "xugc-m07",
+      "target": "xugc-m02",
+      "type": "composes_with"
+    },
+    {
+      "source": "xugc-m07",
+      "target": "xugc-m04",
+      "type": "composes_with"
+    },
+    {
+      "source": "xugc-m07",
+      "target": "xugc-m05",
+      "type": "composes_with"
+    }
+  ],
+  "orchestration": {
+    "primary_method_rule": "每个任务只选一个主内容结构方法；xugc-m01为基础叙事门，xugc-m07只作为可选表达支持层。",
+    "routing_order": [
+      "任务边界",
+      "主冲突或内容结构",
+      "表达支持",
+      "证据与商业边界"
+    ],
+    "commercial_split": "全部来源按闲鱼平台项目UGC处理，不与自然个人账号方法混合。",
+    "ablation_rule": "删除任一组合方法后若输出没有结构性变化，则该组合不成立。",
+    "visual_rule": "先选一个文字主方法，再按真实图片证据选择一个视觉模式；视觉模式不替代内容方法。"
+  },
+  "callable": true,
+  "formal_write": true,
+  "version": "1.0"
+}

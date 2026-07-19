@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T00:46:30",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6882743142420843783\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0300f100000bu26kchtjb63d9ctok6g&line=0&file_id=70d757daf7c04f5b907c5980b64e0943&sign=c0caf9282f11a637ea52e361c488d4da&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-09T22:51:55",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6882743142420843783\\video\\source.mp4",
+      "duration_sec": 94.566667,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 2837,
+      "platform": "dy",
+      "source_id": "6882743142420843783",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0300f100000bu26kchtjb63d9ctok6g&line=0&file_id=70d757daf7c04f5b907c5980b64e0943&sign=c0caf9282f11a637ea52e361c488d4da&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "再好的“软件”，也无法装到低版本的“操作系统”上。  #芬钛计划",
+      "desc": "再好的“软件”，也无法装到低版本的“操作系统”上。  #芬钛计划",
+      "publish_time": 1602513520,
+      "account_id": "77700555383",
+      "account_name": "姜胡说"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-09T22:51:57",
+      "count": 47,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6882743142420843783\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-09T22:51:58",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6882743142420843783\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-09T22:52:48",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6882743142420843783\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6882743142420843783\\video\\transcript.srt",
+      "segments": 22
+    }
+  },
+  "updated_at": "2026-07-09T22:52:48"
+}

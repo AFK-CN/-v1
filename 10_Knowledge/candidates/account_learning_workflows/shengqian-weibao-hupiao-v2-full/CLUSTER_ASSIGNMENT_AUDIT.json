@@ -1,0 +1,27 @@
+{
+  "schema_version": "candidate_cluster_assignment_audit_v1",
+  "generated_at": "2026-07-16T19:44:14+08:00",
+  "candidate_count": 580,
+  "assigned_count": 580,
+  "unique_assigned_count": 580,
+  "missing_candidate_ids": [],
+  "unknown_candidate_ids": [],
+  "cluster_count": 11,
+  "cluster_sizes": {
+    "m01-complete-meal-positioning": 68,
+    "m02-fixed-mother-topic-variable": 68,
+    "m03-double-cover-tiered-tutorial": 50,
+    "m04-weekly-reindex": 11,
+    "m05-cost-proof-tail": 3,
+    "m06-device-process-proof": 3,
+    "m07-recipe-body-fingerprint": 68,
+    "m08-tool-guide-single-source": 1,
+    "g01-claim-and-evidence-gates": 68,
+    "b01-product-ad-isolation": 235,
+    "b02-platform-project-isolation": 5
+  },
+  "all_candidates_assigned_exactly_once": true,
+  "natural_source_count": 68,
+  "commercial_source_count": 47,
+  "platform_project_count": 1
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "status": "pending_nas_sync",
+  "generated_at": "2026-07-17T16:17:15+08:00",
+  "account_name": "闲鱼故事UGC任务",
+  "platform": "闲鱼",
+  "purpose": "NAS 断开时的账号 Skill 查看、复查和证据回溯",
+  "source_policy": "原始资料只读；NAS 恢复后再组建离线包",
+  "selected_count": 0,
+  "direction_count": 0,
+  "direction_counts": {},
+  "total_bytes": 0,
+  "gaps": [
+    "nas_unavailable"
+  ],
+  "items": []
+}

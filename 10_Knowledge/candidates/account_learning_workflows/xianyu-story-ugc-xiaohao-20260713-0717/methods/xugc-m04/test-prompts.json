@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m04",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m04-positive",
+      "type": "should_trigger",
+      "prompt": "在闲鱼提供出差代浇植物服务，记录土壤、叶片和异常情况，客户复购三次。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m04",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m04-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m05",
+      "prompt": "只说在闲鱼搞副业赚很多钱，没有交付动作、客户反馈或订单证据。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m05",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m04-edge",
+      "type": "edge_case",
+      "prompt": "第一次代浇完成，但没有反馈，也不确定植物是否存活。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m04",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m04-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "把代浇植物换成上门调试投影仪，仍保留动作、阻力、反馈和身份变化。",
+      "source_scene": "同城上门服务",
+      "target_scene": "未见场景-4",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m04",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m04-commercial",
+      "type": "commercial_contamination",
+      "prompt": "培训机构投放闲鱼副业课程广告，询问能否提高自然服务方法的证据权重。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m04",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

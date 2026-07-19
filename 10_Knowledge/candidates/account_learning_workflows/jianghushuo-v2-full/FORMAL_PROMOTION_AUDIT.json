@@ -12,7 +12,7 @@
     "evidence_blocked_kept_candidate_only": 50
   },
   "snapshot_manifest": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/account_center_snapshot_manifest.json",
-  "formal_receipt": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/FORMAL_INGEST_RECEIPT.json",
+  "formal_receipt": "10_Knowledge/formal/accounts/姜胡说/FORMAL_INGEST_RECEIPT.json",
   "final_verification": {
     "formal_current_validator": true,
     "candidate_pipeline_validator": true,

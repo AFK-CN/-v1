@@ -1,0 +1,103 @@
+{
+  "id": "m03-double-cover-tiered-tutorial",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "formal_write": false,
+  "user_review_required": true,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "标注封面到分级教程的单餐结构",
+  "mechanism_kind": "content_structure",
+  "trigger_signals": [
+    "单餐包含多项菜品",
+    "至少一道菜有可教的关键动作",
+    "需要兼顾菜单识别、审美图和教程"
+  ],
+  "trigger_model": {
+    "mechanism": "先用标注整餐建立菜单地图，再用净图保留审美价值，之后按操作价值分配教程页，复杂菜详讲、简单菜略写。",
+    "applicable_relations": [
+      "整餐标注封面",
+      "无字净图",
+      "主菜教程",
+      "简单菜结果页"
+    ],
+    "transferable_scenes": [
+      "四项一人食",
+      "两菜一饭",
+      "带生活记录尾页的单餐",
+      "质感主菜教程"
+    ],
+    "do_not_trigger_on": [
+      "只有一道成品且无过程",
+      "周合集索引",
+      "设备过程本身才是效率证明",
+      "广告素材强制占据结构"
+    ]
+  },
+  "do_not_use": [
+    "不得平均给每道菜相同页数",
+    "不得用无素材步骤填满教程",
+    "不得让净图重复封面文字"
+  ],
+  "execution_steps": [
+    "第1页用整餐标注交代构成",
+    "有合适素材时第2页保留无字净图",
+    "识别最需要解释的复杂菜",
+    "给复杂菜分配步骤与质感结果",
+    "简单菜只保留必要动作或结果",
+    "最后检查每页是否新增信息"
+  ],
+  "source_refs": [
+    "xhs:68cb6d6700000000120219c8",
+    "xhs:68f8a6660000000007021921",
+    "xhs:69184f9800000000070337b8",
+    "xhs:698860c8000000000a02cb03",
+    "xhs:6a01d86c0000000036003d97",
+    "xhs:6a47295e00000000110052af"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "50 条普通自然单餐跨早中晚发布时间和多种页面变体，持续出现整餐前置与复杂菜详讲/简单菜略写。",
+      "evidence_refs": [
+        "68cb6d6700000000120219c8",
+        "68f8a6660000000007021921",
+        "69184f9800000000070337b8",
+        "698860c8000000000a02cb03",
+        "6a01d86c0000000036003d97",
+        "6a47295e00000000110052af"
+      ],
+      "relation_or_scene_types": [
+        "纯食物教程",
+        "合盘/手持入口",
+        "生活记录尾页"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-structure-01",
+      "prompt_sha256": "d2db8b478954807ae9f6c64abe5f0b872ada32b25185c4fd713ccb85998c8283",
+      "structural_prediction": [
+        "第 1 页标注整餐，第 2 页保留无字净图",
+        "主菜得到教程与成品，蔬菜按必要步骤分配",
+        "两个简单成品各一页，不平均扩写"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "深色背景四碗标注、常配无字净图、再按做法价值分配教程，是账号稳定视觉语法的组合，不是单一‘步骤清楚’常识。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  }
+}

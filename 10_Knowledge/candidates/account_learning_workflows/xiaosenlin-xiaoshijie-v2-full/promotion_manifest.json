@@ -17,10 +17,17 @@
   "deferred_evidence_count": 49,
   "deep_card_final_audit": "v3_deep_relearning/FINAL_DEEP_AUDIT.json",
   "cross_card_revalidation": "v3_deep_relearning/CROSS_CARD_REVALIDATION.json",
-  "schema_version": "2.2",
+  "schema_version": "2.6",
   "skill_version": "2.2",
   "source_total": 428,
   "five_lens_candidate_count": 1895,
   "verified_candidate_method_count": 4,
-  "real_acceptance_status": "passed"
+  "real_acceptance_status": "passed",
+  "v26_unified_source_count": 379,
+  "v26_legacy_compatible_source_count": 0,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 379,
+  "publish_copy_completed_count": 379,
+  "publish_copy_deferred_count": 0
 }

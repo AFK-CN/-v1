@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0",
+  "status": "success",
+  "method": "codex_image2_multimodal",
+  "platform": "xhs",
+  "source_id": "6a1ee0840000000035025a38",
+  "account_id": "xhs_5c09367300000000060099e8",
+  "title": "一周减脂餐合集来啦！！！",
+  "source_image_count": 7,
+  "analyzed_image_count": 7,
+  "ocr_reprocessed": false,
+  "visual_summary": "七张图分别呈现一周七天的四碗分区餐：主菜、配菜、蔬菜和主食固定围成紧凑方阵。统一黑色桌面、同款灰白餐具、俯拍角度和手写箭头标注，让不同菜色保持强烈系列感。",
+  "content_intent": "用统一模板集中展示七天不重样的减脂餐，强调选择丰富且容易连续执行。",
+  "learning_value": "可学习周合集型内容：保持机位、器皿和四分区结构不变，只替换食材与综合色彩，单图可独立阅读，整组又形成稳定栏目。",
+  "food_visual": {
+    "meal_type": "七日四分区减脂餐合集",
+    "dish_components": ["蛋白质主菜", "第二蛋白或汤蛋", "绿叶蔬菜", "米饭或藜麦饭"],
+    "presentation": "四只碗以前低后高、左右均衡方式排列，主食多在右上，主菜多在左下，文字沿空隙标注。",
+    "appetite_strategy": "用粉橙海鲜、焦褐肉类、嫩黄鸡蛋和高饱和绿色蔬菜制造综合色块与食材丰富感。"
+  },
+  "style": {
+    "visual_direction": "固定模板的一周餐单合集",
+    "palette": "黑灰底色配绿色、橙红、嫩黄和米白食物色",
+    "lighting": "均匀柔光，低反光",
+    "composition": "垂直俯拍，四碗紧凑方阵，手写箭头围绕菜品",
+    "tone": "规律、清爽、生活化、自律但不寡淡"
+  },
+  "narrative_structure": ["周一基础清淡餐", "周二高综合色彩冷食组合", "周三鸡腿与虾双蛋白", "周四牛肉与虾", "周五彩椒牛柳与蒸蛋", "周六鸡胸与菌菇", "周日鸡排与鸡蛋汤"],
+  "replication_recipe": {
+    "template": "固定四碗构图 -> 每天替换菜色 -> 单图标注食材 -> 七图按周一至周日排列",
+    "shooting_or_design": "使用同一桌面、同款碗和同一俯拍高度；每餐保持四个综合色块；在黑色留白处用白色手写字和箭头标注。",
+    "content_rules": "每图只承担一天菜单；周序必须清楚；食材变化但构图不变化；封面直接使用周一而非额外海报。",
+    "reusable_angle": "适用于一周便当、轻食、家庭晚餐和备餐合集。",
+    "risk_boundary": "减脂效果、热量、营养均衡和食材熟度未由图片验证。"
+  },
+  "images": [
+    {"index": 0, "file": "000_cover.jpg", "role": "周一餐与合集封面", "visual": "蒸肉饼、豌豆鱼丸、白菜和藜麦饭组成四碗方阵。"},
+    {"index": 1, "file": "001_image.jpg", "role": "周二餐", "visual": "三文鱼、牛油果、蓝莓和藜麦饭形成粉橙、浅绿与深蓝对比。"},
+    {"index": 2, "file": "002_image.jpg", "role": "周三餐", "visual": "煎鸡腿、白灼虾、生菜和藜麦饭，综合色彩偏暖。"},
+    {"index": 3, "file": "003_image.jpg", "role": "周四餐", "visual": "青椒牛肉、白灼虾、油麦菜和米饭，红绿褐三色明确。"},
+    {"index": 4, "file": "004_image.jpg", "role": "周五餐", "visual": "彩椒牛柳、虾仁蒸蛋、油麦菜和米饭，彩椒形成醒目橙红色。"},
+    {"index": 5, "file": "005_image.jpg", "role": "周六餐", "visual": "手撕鸡胸、虾仁蒸蛋、平菇和米饭，蒸蛋上有红绿点缀。"},
+    {"index": 6, "file": "006_image.jpg", "role": "周日餐", "visual": "煎鸡排、豌豆鸡蛋汤、菠菜和藜麦饭，绿色比例最高。"}
+  ],
+  "quality": {"all_source_images_reviewed": true, "visual_only_supplement": true, "ocr_preserved": true, "nutrition_claims_not_validated": true, "food_safety_not_inferred": true}
+}

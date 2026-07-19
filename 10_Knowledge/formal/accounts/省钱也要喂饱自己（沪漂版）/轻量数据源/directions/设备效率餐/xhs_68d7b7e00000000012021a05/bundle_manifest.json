@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "platform": "小红书",
+  "direction": "设备效率餐",
+  "source_id": "68d7b7e00000000012021a05",
+  "title": "图文深度学习卡：68d7b7e00000000012021a05",
+  "content_type": "image_text",
+  "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/设备效率餐/cards/68d7b7e00000000012021a05.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68d7b7e00000000012021a05",
+  "copied_file_count": 18,
+  "copied_bytes": 2368678,
+  "files": [
+    {
+      "path": "images/000_cover.jpg",
+      "bytes": 194444,
+      "sha256": "4db052a11d3b1bdad7fe9454ecbc189400e66d9e0f5e46dbdb56f97b274bbef4"
+    },
+    {
+      "path": "images/001_image.jpg",
+      "bytes": 186994,
+      "sha256": "402071be06ad0da91464a3bb062dc739b785e3e737d47005eecc7b70c25f81b2"
+    },
+    {
+      "path": "images/002_image.jpg",
+      "bytes": 273339,
+      "sha256": "06afbed679ddf431347a25bd11ead2b9824a34b692f34f93985a2f29b348e6b2"
+    },
+    {
+      "path": "images/003_image.jpg",
+      "bytes": 154934,
+      "sha256": "2069044bcd5b6144208a5718695998e9b035ffc434c5df8362d7f5094e2f9137"
+    },
+    {
+      "path": "images/004_image.jpg",
+      "bytes": 135802,
+      "sha256": "e03191c14190453ed8b99572af69e31bc0554afc73db6f8af18ff2213a7b8e83"
+    },
+    {
+      "path": "images/005_image.jpg",
+      "bytes": 247656,
+      "sha256": "cbe6a2427c3bc019b842a448692d58030a7ee4205dbfc1c79fd06615ae5e7805"
+    },
+    {
+      "path": "images/006_image.jpg",
+      "bytes": 178466,
+      "sha256": "6ea1304a06fe0fabb2828f1651beb042e7f5d59a9dae344ad80ca1feb4fd64cd"
+    },
+    {
+      "path": "images/007_image.jpg",
+      "bytes": 239466,
+      "sha256": "d9b7a89b16616d65654026510e5bd14bcfa95575e788ab8565e18a81f5d792e5"
+    },
+    {
+      "path": "images/008_image.jpg",
+      "bytes": 396241,
+      "sha256": "e67516f67093c0f3a522d388eb593938c0a07ab7aafeae5717de952780be2380"
+    },
+    {
+      "path": "images/009_image.jpg",
+      "bytes": 183527,
+      "sha256": "9da30d81d14c8e018d1bc76f36c1750e0e4ecbbd48eba4a9cabd272d99cdb2e5"
+    },
+    {
+      "path": "images/010_image.jpg",
+      "bytes": 122301,
+      "sha256": "5f58a1d6141423a0d51188639ddc721a871fde83a525e4349b11142fbb2a1b62"
+    },
+    {
+      "path": "images/image_analysis.json",
+      "bytes": 8120,
+      "sha256": "34f87fe8d522f0c54e68ecc903a548d0c886205045b560b86c5bd640360662ce"
+    },
+    {
+      "path": "images/ocr.json",
+      "bytes": 16003,
+      "sha256": "53e34e78e47ee5d5cbc11ed1dedd2f499fe79f6a28c9c4fdd78866fbfbb60c9b"
+    },
+    {
+      "path": "images/vision_analysis.json",
+      "bytes": 9894,
+      "sha256": "7a5037c77022ca4775ef85fbcf7b9d2975808e16596866e492349b9b7c4eeb38"
+    },
+    {
+      "path": "images/visual_summary.json",
+      "bytes": 9066,
+      "sha256": "1f4df4923a9493c636b480ab745db534f77594538e0825d21f596c5d438bdac8"
+    },
+    {
+      "path": "manifest_item.json",
+      "bytes": 664,
+      "sha256": "b6d172fd1227ada6ab60e485ade0820425a6024402ea0f17cc7d03782b20a259"
+    },
+    {
+      "path": "source.json",
+      "bytes": 4216,
+      "sha256": "ac350720c312e9060f869e4877fb75738c6e5160e9f1b7655afaf2c675b13d74"
+    },
+    {
+      "path": "status.json",
+      "bytes": 7545,
+      "sha256": "446e09e5f2737a85a71f703a3bf0de0bd510634642a69df51ad38caf8f0b181f"
+    }
+  ]
+}

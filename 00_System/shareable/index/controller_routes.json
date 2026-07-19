@@ -1,210 +1,111 @@
 {
-  "version": "1.0",
-  "updated_at": "2026-07-15",
+  "version": "3.0",
+  "updated_at": "2026-07-19",
   "default_entry": "@知识库",
   "compatible_entry": "knowledge-base",
   "global_priority": true,
   "agent_model": "logical_roles",
-  "agent_model_notice": "以下 Agent 是同一 AI 调用中的逻辑职责提示，不是独立进程、权限隔离或安全边界；强制边界由代码、索引、schema 和输出契约实现。",
+  "agent_model_notice": "以下职责属于同一次 AI 调用；真实边界由三套系统 Skill、schema、用户层、账号 Skill 注册表、代码和验证器执行。",
   "clarification_policy": {
     "max_questions": 3,
-    "rule": "固定高级入口缺少最低信息时先反问，不直接生成；只缺可选信息时可采用默认值并说明。",
-    "generic_entry_examples": [
-      "我要出选题",
-      "我要写文案",
-      "我要复盘",
-      "我要入库",
-      "我要查账号",
-      "我要学习账号",
-      "我要导出博主数据",
-      "我要看状态"
-    ]
+    "rule": "缺少最低输入时先反问；只缺可选信息时使用默认值并说明。"
   },
   "hard_rules": [
-    "默认禁止全盘扫库",
-    "默认禁止读取 数据/",
-    "默认禁止读取 00_Inbox/",
-    "默认禁止读取 99_Archive/",
+    "系统层只保留通用流程，不得包含账号专属内容",
+    "原始资料只读",
     "候选资产不等于正式知识",
-    "内容生成不能直接反写正式知识",
-    "active Skill 修改必须先进入 proposals"
+    "账号 Skill 唯一正式源位于对应账号中心 skill/",
+    "账号 Skill 注册和实际生产记忆属于用户层",
+    "生成新选题必须批量查重，禁止把完整生产数据库放入模型上下文",
+    "复盘不得自动修改 active Skill"
   ],
   "agents": [
     {
       "id": "controller",
-      "name": "知识库总控智能体",
+      "name": "知识库总控",
       "kind": "logical_role",
-      "responsibility": "作为唯一默认入口，识别用户需求、选择路由、调度规划器、检索器、工作流和专用智能体。"
+      "responsibility": "识别任务并在内容处理、账号学习、账号 Skill 生产、内容复盘、用户层和系统审计之间路由。"
     },
     {
-      "id": "planner",
-      "name": "任务规划器",
+      "id": "content_processor",
+      "name": "内容处理",
       "kind": "logical_role",
-      "responsibility": "把复杂需求拆成读取、检索、学习、生成、验证等可执行步骤。"
+      "responsibility": "负责接入、解析、清洗、扫描、粗学归类和深学计划。"
     },
     {
-      "id": "retriever",
-      "name": "检索器",
+      "id": "account_learner",
+      "name": "账号学习",
       "kind": "logical_role",
-      "responsibility": "只负责查找正式知识、候选资产和证据链，不负责生成内容或写入正式知识。"
+      "responsibility": "负责学习卡、流派观察、跨卡验证、方法构造、压力测试和账号 Skill 候选。"
     },
     {
-      "id": "workflow_runner",
-      "name": "工作流执行器",
+      "id": "account_skill_resolver",
+      "name": "账号 Skill 解析",
       "kind": "logical_role",
-      "responsibility": "调用本地脚本、生成候选报告、维护任务状态和运行日志。"
+      "responsibility": "用用户层注册表把账号名或别名解析到账号中心内的唯一 Skill。"
     },
     {
-      "id": "account_knowledge",
-      "name": "账号知识智能体",
+      "id": "account_producer",
+      "name": "账号内容生产",
       "kind": "logical_role",
-      "responsibility": "维护账号中心、账号学习、方向方法论、内容规则、证据卡和逐字稿索引。"
+      "responsibility": "执行正式账号 Skill，并通过生产记忆防重复和登记内容。"
     },
     {
-      "id": "content_generator",
-      "name": "内容生成智能体",
+      "id": "reviewer",
+      "name": "内容复盘与强化",
       "kind": "logical_role",
-      "responsibility": "基于正式知识和必要候选证据输出选题、文案、脚本、标题和封面方向。"
-    },
-    {
-      "id": "skill_evolution",
-      "name": "Skill 沉淀智能体",
-      "kind": "logical_role",
-      "responsibility": "把反复出现的用户纠正和稳定流程写成 proposal，不直接修改 active Skill。"
-    },
-    {
-      "id": "review",
-      "name": "复盘智能体",
-      "kind": "logical_role",
-      "responsibility": "根据表现数据判断方法论有效、失效和需要补充的证据。"
+      "responsibility": "把反馈绑定到生产记录，输出诊断、补学或人工批准的账号 Skill 升级提案。"
     },
     {
       "id": "auditor",
-      "name": "验证审计器",
+      "name": "系统审计",
       "kind": "logical_role",
-      "responsibility": "检查入口、路由、索引、候选待审、proposal、测试和边界违规。"
+      "responsibility": "验证三套系统 Skill、用户层、账号 Skill、注册表、生产数据库、索引和系统边界。"
+    },
+    {
+      "id": "formal_retriever",
+      "name": "正式知识检索",
+      "kind": "logical_role",
+      "responsibility": "只在正式知识层执行关键词、本地向量、元数据过滤和重排，返回短摘要与行号证据坐标。"
     }
   ],
   "routes": [
     {
-      "id": "topic_generation",
-      "name": "出选题",
-      "triggers": [
-        "我要出选题",
-        "出选题",
-        "选题",
-        "灵感",
-        "topic"
-      ],
-      "minimum_required": [
-        "主题或方向",
-        "数量"
-      ],
-      "clarify_when_missing": [
-        "你要哪个方向或主题？",
-        "你要几个选题？",
-        "是否指定平台或账号风格？"
-      ],
-      "agents": [
-        "controller",
-        "planner",
-        "retriever",
-        "content_generator"
-      ],
+      "id": "content_processing",
+      "name": "内容处理",
+      "triggers": ["我要处理资料", "内容处理", "资料接入", "下载清洗", "清洗资料", "扫描资料", "粗学", "SQLite入库", "JSON入库"],
+      "minimum_required": ["账号或资料范围"],
+      "clarify_when_missing": ["要处理哪个账号或哪批资料？", "资料来自链接、SQLite、NAS 还是本地目录？", "需要处理视频、图文还是结构化数据？"],
+      "agents": ["controller", "content_processor", "auditor"],
       "read_first": [
-        "知识库入口.md",
-        "00_System/shareable/index/task_entry_index.md",
-        "10_Knowledge/evidence/index/account_knowledge_index.md"
+        "00_System/shareable/skills/active/content-processing/SKILL.md",
+        "20_User/config/content_rough_scan_profiles.json"
       ],
       "tools": [
-        "tools.kb.cli search-candidates"
+        "tools.kb.cli sqlite-ingest",
+        "tools.kb.cli image-text-ingest",
+        "tools.kb.cli image-text-structure",
+        "tools.kb.cli image-text-scan",
+        "tools.kb.cli image-text-select",
+        "tools.kb.cli image-text-learn",
+        "tools.video_learning",
+        "tools.content_rough_scan"
       ],
-      "output_contract": "输出选题标题、对应方法论、受众痛点、钩子角度、核心观点、对标知识库内容、原链接或证据来源。",
-      "write_policy": "不写正式知识；如发现可沉淀规则，只生成复盘或 Skill proposal 建议。"
-    },
-    {
-      "id": "script_generation",
-      "name": "写文案/口播",
-      "triggers": [
-        "我要写文案",
-        "写文案",
-        "口播",
-        "脚本",
-        "图文",
-        "标题",
-        "封面"
-      ],
-      "minimum_required": [
-        "选题或材料",
-        "输出形式"
-      ],
-      "clarify_when_missing": [
-        "文案基于哪个选题或材料？",
-        "输出平台和形式是什么？",
-        "是否指定账号/风格和字数？",
-        "如果要生成图文，是否已有确认选题并允许调用 image2 生图？"
-      ],
-      "agents": [
-        "controller",
-        "retriever",
-        "content_generator"
-      ],
-      "read_first": [
-        "10_Knowledge/evidence/index/account_knowledge_index.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号概述.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号方法论总览.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/账号整体方法论.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容生产使用说明.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/减少AI味输出规则.md",
-        "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/{账号}/内容输出标准模板.md",
-        "00_System/shareable/rules/图文成品生成标准流程.md"
-      ],
-      "tools": [
-        "tools.kb.cli search-candidates"
-      ],
-      "output_contract": "视频/口播输出黄金3s、完整文案、互动收尾、证据来源，并说明使用的账号/方向知识层级；图文成品分支只能在选题确认后进入，先输出图文脚本包，用户确认后再调用 image2 生图，最终输出生成图片清单、发布标题、发布正文、话题标签和生图验收结果。",
-      "write_policy": "不直接写正式知识；发布表现进入复盘链路。"
+      "output_contract": "输出标准证据、清洗统计、完整粗学与选题池、深学计划、待学习清单、证据状态和阻塞项；图文必须分别报告发布标题/正文/话题完整性、有序组图归属、逐图视觉复核和 OCR 降级状态。",
+      "write_policy": "只写候选、runtime 和临时层；不写正式账号中心。"
     },
     {
       "id": "account_learning",
       "name": "账号学习",
-      "triggers": [
-        "我要学习账号",
-        "账号学习",
-        "学习账号",
-        "学习视频",
-        "图文学习",
-        "学习图文",
-        "学习图文账号",
-        "学习小红书图文",
-        "深度学习",
-        "对标账号"
-      ],
-      "minimum_required": [
-        "账号名或资料范围"
-      ],
-      "clarify_when_missing": [
-        "要学习哪个账号或哪批资料？",
-        "只做粗扫还是要生成候选学习卡？",
-        "是否允许进入正式入库审核？"
-      ],
-      "agents": [
-        "controller",
-        "planner",
-        "workflow_runner",
-        "account_knowledge",
-        "auditor"
-      ],
+      "triggers": ["我要学习账号", "账号学习", "学习账号", "学习视频", "图文学习", "深度学习", "对标账号", "组建轻量数据源", "离线数据源"],
+      "minimum_required": ["账号名或已处理资料范围"],
+      "clarify_when_missing": ["要学习哪个账号或哪批已处理证据？", "当前内容处理是否完成？", "是否允许进入账号 Skill 候选审核？"],
+      "agents": ["controller", "account_learner", "auditor"],
       "read_first": [
-        "10_Knowledge/evidence/index/account_knowledge_index.md",
-        "00_System/shareable/config/content_rough_scan_profiles.json",
+        "00_System/shareable/skills/active/account-learning/SKILL.md",
         "00_System/shareable/config/account_learning_pipeline.json",
         "00_System/shareable/config/account_learning_card_contract.json",
-        "00_System/shareable/skills/active/账号专业学习Skill_v2.md",
-        "00_System/shareable/rules/统一学习卡产出标准.md",
-        "00_System/shareable/rules/账号专业学习提取与验证规范.md",
-        "00_System/shareable/skills/active/视频深度学习Skill_v1.md",
-        "00_System/shareable/rules/图文账号学习标准工作流.md"
+        "00_System/shareable/config/account_skill_contract.json"
       ],
       "tools": [
         "tools.kb.cli account-learning-init",
@@ -212,327 +113,152 @@
         "tools.kb.cli account-learning-complete-stage",
         "tools.kb.cli account-learning-validate",
         "tools.kb.cli account-learning-validate-card",
-        "tools.kb.cli sqlite-ingest",
-        "tools.kb.cli image-text-env",
-        "tools.kb.cli image-text-ingest",
-        "tools.kb.cli image-text-structure",
-        "tools.kb.cli image-text-scan",
-        "tools.kb.cli image-text-select",
-        "tools.kb.cli image-text-learn",
-        "tools.kb.cli image-text-status",
-        "tools.content_rough_scan",
-        "tools.video_learning",
-        "tools.image_text_learning",
-        "tools.video_learning_audit",
-        "tools.video_learning_account_ingest",
-        "tools.video_learning_card_validator"
+        "tools.kb.cli account-skills-v29-audit",
+        "tools.kb.cli account-skills-v29-upgrade",
+        "tools.kb.cli account-learning-v29-audit",
+        "tools.kb.cli account-skills-sync",
+        "tools.account_offline_source"
       ],
-      "output_contract": "账号学习阶段先建立七阶段专业流水线：整体账号理解 -> 五视角提取 -> 候选机制聚合与三重验证 -> RIA++ 方法构造 -> 方法链接 -> 带逐案例证据的压力测试 -> 候选交付；阶段 0 和阶段 2 后必须用户确认，状态以 PIPELINE_STATE.json 为准。阶段 1 在现有学习卡和必要源证据上派生结构机制与表达指纹观察，不修改单卡契约，不强制凑齐观察维度；阶段 2 才能通过多卡聚合形成账号专属结构和表达机制。视频分支继续走 scan -> select -> learn -> status，图文分支继续走 ingest -> structure -> scan -> select -> learn -> status，作为七阶段的证据采集层。粗学仍必须有账号概述、粗学与选题池和 deep_learning_plan.json；阶段 6 生成 formal_write=false、callable=false 的 promotion_manifest 与 ACCOUNT_PRODUCTION_HANDOFF.json，把已验证结论映射为账号结构库、表达指纹、反 AI 规则、内容模板和验收候选，不直接写正式账号中心。生产复盘阶段保持原流程。",
-      "write_policy": "脚本可写候选资产和报告；正式账号知识写入需要审核通过。"
+      "output_contract": "输出七阶段状态、学习卡、验证方法、拒绝项、压力测试、生产交接和不可调用的账号 Skill 候选；视觉账号在阶段 6 还必须输出按生产角色与风险覆盖的账号专属视觉参考候选、来源隔离状态和反例边界；图文学习卡必须包含发布文案机制、逐图视觉机制、组图叙事和跨模态协同；用户审核与正式写入验证通过后，返回轻量数据源状态、内容数、方向数、体积、manifest、差异与缺口。",
+      "write_policy": "学习阶段只写候选；系统 Skill 只保存通用角色、风险和来源隔离规则，不保存账号内容；账号视觉资产只进入该账号候选或正式包；用户审核后才写正式账号中心 skill/ 并同步用户层注册表；正式验证通过后才组建轻量数据源，已有包未经批准不覆盖。"
     },
     {
-      "id": "skill_evolution",
-      "name": "Skill 沉淀",
-      "triggers": [
-        "我要沉淀规则",
-        "沉淀规则",
-        "更新Skill",
-        "形成Skill",
-        "以后都这样",
-        "记住这个流程"
-      ],
-      "minimum_required": [
-        "要沉淀的规则或反馈"
-      ],
-      "clarify_when_missing": [
-        "要沉淀哪条规则或哪类反馈？",
-        "这是通用规则还是账号专属规则？",
-        "有没有反例或适用边界？"
-      ],
-      "agents": [
-        "controller",
-        "skill_evolution",
-        "auditor"
-      ],
+      "id": "topic_generation",
+      "name": "账号 Skill 出选题",
+      "triggers": ["我要出选题", "出选题", "生成选题", "选题", "灵感"],
+      "minimum_required": ["账号或明确不使用账号 Skill", "主题或方向", "数量"],
+      "clarify_when_missing": ["使用哪个账号 Skill？", "主题或方向是什么？", "需要几个选题、什么平台或流派？"],
+      "agents": ["controller", "account_skill_resolver", "account_producer"],
       "read_first": [
-        "00_System/shareable/skills/active/",
-        "00_System/shareable/skills/proposals/Skill提案模板.md",
-        "00_System/shareable/skills/rollback.md"
+        "20_User/config/account_skill_registry.json",
+        "10_Knowledge/evidence/index/account_knowledge_index.md"
       ],
       "tools": [
-        "tools.kb.cli evolution-report"
+        "tools.kb.cli account-skill-resolve",
+        "tools.kb.cli topic-memory-check",
+        "tools.kb.cli topic-memory-record"
       ],
-      "output_contract": "输出 proposal，包含适用范围、触发条件、变更内容、验证用例和回滚说明。",
-      "write_policy": "只能写入 proposals；active Skill 必须用户确认后再生效。"
+      "output_contract": "输出账号 Skill、结构化选题字段、查重状态、真实新变量、证据和方法来源；交付选题写入生产记忆。",
+      "write_policy": "只写用户层生产记忆；不写正式知识和系统规则。"
     },
     {
-      "id": "json_ingest",
-      "name": "JSON 入库",
-      "triggers": [
-        "我要入库",
-        "JSON",
-        "入库",
-        "清洗",
-        "去重"
-      ],
-      "minimum_required": [
-        "资料类型或路径"
-      ],
-      "clarify_when_missing": [
-        "要处理的资料在哪里或是哪一类？",
-        "是否只生成候选和报告？",
-        "是否允许进入正式入库审核？"
-      ],
-      "agents": [
-        "controller",
-        "workflow_runner",
-        "auditor"
-      ],
+      "id": "script_generation",
+      "name": "账号 Skill 生产内容",
+      "triggers": ["我要写文案", "写文案", "口播", "脚本", "图文", "标题", "封面", "生产内容"],
+      "minimum_required": ["账号 Skill", "topic_id 或明确选题", "输出形式"],
+      "clarify_when_missing": ["使用哪个账号 Skill？", "基于哪个 topic_id 或选题？", "输出平台和形式是什么？"],
+      "agents": ["controller", "account_skill_resolver", "account_producer"],
       "read_first": [
-        "00_System/shareable/skills/active/JSON入库Skill_v1.md",
-        "00_System/shareable/rules/JSON入库清洗规则.md",
-        "00_System/shareable/rules/去重规则.md"
+        "20_User/config/account_skill_registry.json",
+        "10_Knowledge/evidence/index/account_knowledge_index.md"
       ],
       "tools": [
-        "tools.kb.cli assets",
-        "tools.kb.cli report"
+        "tools.kb.cli account-skill-resolve",
+        "tools.kb.cli production-memory-record"
       ],
-      "output_contract": "输出数据盘点、去重统计、候选内容、归档建议和需要确认的子库/规则变更。",
-      "write_policy": "原始 JSON 只读；正式知识写入需符合入库决策。"
+      "output_contract": "按正式账号 Skill 输出完整内容包、内部溯源和 content_id，并登记账号 Skill 版本。",
+      "write_policy": "只写用户层生产记录和用户要求的交付物；不直接更新正式账号 Skill。"
     },
     {
-      "id": "screenshot_review",
-      "name": "截图复盘",
-      "triggers": [
-        "我要复盘",
-        "截图",
-        "复盘截图",
-        "后台截图",
-        "评论截图"
-      ],
-      "minimum_required": [
-        "截图或复盘对象"
-      ],
-      "clarify_when_missing": [
-        "复盘对象是哪张截图或哪类反馈？",
-        "平台和时间范围是什么？",
-        "你想要单条内容复盘还是方法论复盘？"
-      ],
-      "agents": [
-        "controller",
-        "review",
-        "skill_evolution"
-      ],
+      "id": "content_review",
+      "name": "内容复盘与强化",
+      "triggers": ["我要复盘", "复盘", "截图复盘", "表格复盘", "数据复盘", "反馈强化", "升级账号Skill"],
+      "minimum_required": ["content_id", "截图、表格、指标或人工反馈"],
+      "clarify_when_missing": ["要复盘哪个 content_id？", "反馈来自截图、表格、评论还是人工判断？", "平台和时间范围是什么？"],
+      "agents": ["controller", "reviewer", "auditor"],
       "read_first": [
-        "00_System/shareable/skills/active/截图复盘Skill_v1.md",
-        "10_Knowledge/formal/reviews/feedback/反馈入库模板.md"
+        "00_System/shareable/skills/active/content-review/SKILL.md",
+        "20_User/config/review_defaults.json"
       ],
-      "tools": [],
-      "output_contract": "只记录清晰可见指标，标注不确定字段，并给出对方法论/选题/周复盘的影响。",
-      "write_policy": "截图只作为证据；不能单独决定长期方法论有效。"
+      "tools": [
+        "tools.kb.cli review-context",
+        "tools.kb.cli feedback-memory-record"
+      ],
+      "output_contract": "输出绑定生产记录的证据、问题诊断、单次或稳定信号、继续观察、补学任务或账号 Skill 升级提案。",
+      "write_policy": "写用户层反馈；不自动修改 active Skill，正式升级需要用户确认。"
     },
     {
-      "id": "table_review",
-      "name": "表格复盘",
-      "triggers": [
-        "我要复盘",
-        "表格",
-        "数据复盘",
-        "周复盘",
-        "表现数据"
-      ],
-      "minimum_required": [
-        "表格或数据来源",
-        "复盘目标"
-      ],
-      "clarify_when_missing": [
-        "表格或数据来源在哪里？",
-        "平台和时间范围是什么？",
-        "你想看周复盘、单条复盘还是方法论复盘？"
-      ],
-      "agents": [
-        "controller",
-        "review",
-        "skill_evolution"
-      ],
+      "id": "user_setup",
+      "name": "用户层初始化",
+      "triggers": ["初始化用户层", "建立用户层", "新电脑初始化", "同步账号Skill注册表"],
+      "minimum_required": ["知识库根目录"],
+      "clarify_when_missing": ["要初始化当前知识库根目录吗？"],
+      "agents": ["controller", "auditor"],
       "read_first": [
-        "00_System/shareable/skills/active/表格复盘Skill_v1.md",
-        "10_Knowledge/formal/reviews/weekly/周复盘模板.md"
+        "00_System/shareable/config/user_layer_schema.json",
+        "00_System/shareable/config/account_skill_contract.json",
+        "00_System/shareable/config/production_memory_schema.json"
       ],
-      "tools": [],
-      "output_contract": "按平台和时间范围输出最佳内容、最差内容、异常内容、方法论更新和下周建议。",
-      "write_policy": "不同平台不硬比；稳定规则进入 proposal。"
+      "tools": [
+        "tools.kb.cli skill-install",
+        "tools.kb.cli user-init",
+        "tools.kb.cli account-skills-sync",
+        "tools.kb.cli user-validate"
+      ],
+      "output_contract": "输出用户层目录、配置、数据库、账号 Skill 注册和验证状态。",
+      "write_policy": "只建立空白用户层、迁移本机配置和注册当前正式账号 Skill，不复制其他用户数据。"
     },
     {
       "id": "creator_db_export",
       "name": "博主数据导出",
-      "triggers": [
-        "导出博主",
-        "博主数据",
-        "账号数据",
-        "导出账号数据",
-        "导出博主数据",
-        "导出内容",
-        "导出评论",
-        "数据库导出",
-        "到飞书",
-        "写入飞书",
-        "返回飞书链接",
-        "creator export"
-      ],
-      "minimum_required": [
-        "博主名"
-      ],
-      "clarify_when_missing": [
-        "要导出哪个博主？",
-        "是否需要评论？",
-        "是否指定平台？"
-      ],
-      "agents": [
-        "controller",
-        "workflow_runner",
-        "auditor"
-      ],
+      "triggers": ["导出博主数据", "导出内容到飞书", "导出评论"],
+      "minimum_required": ["博主名"],
+      "clarify_when_missing": ["要导出哪个博主？", "是否导出评论？", "是否写入飞书？"],
+      "agents": ["controller", "content_processor"],
+      "read_first": ["00_System/shareable/skills/active/content-processing/SKILL.md"],
+      "tools": ["tools.kb.cli export-creator-db"],
+      "output_contract": "输出导出数量、manifest 和用户明确要求的飞书链接与权限读回。",
+      "write_policy": "原数据库只读；只写临时导出和用户明确要求的外部目标。"
+    },
+    {
+      "id": "formal_retrieval",
+      "name": "正式知识检索",
+      "triggers": ["查询正式知识", "检索正式知识", "搜索正式知识", "搜索知识库", "查询知识库"],
+      "minimum_required": ["检索主题、方法或问题"],
+      "clarify_when_missing": ["要检索哪个主题、方法或问题？"],
+      "agents": ["controller", "formal_retriever"],
       "read_first": [
-        "00_System/shareable/index/task_entry_index.md",
-        "00_System/shareable/index/controller_routes.json",
-        "00_System/shareable/rules/本机使用速查.md"
+        "00_System/shareable/config/formal_retrieval.json"
       ],
       "tools": [
-        "tools.kb.cli export-creator-db",
-        "/Users/lao_wu/.local/bin/lark-cli"
+        "tools.kb.cli search-formal",
+        "tools.kb.cli formal-search-index"
       ],
-      "output_contract": "输出飞书链接、导出内容数量、评论数量、分享权限读回状态和本地 manifest 路径；无需实时陪跑，只在脚本返回后汇报结果。",
-      "write_policy": "原始数据库只读；只写 90_Temp/exports/creator_db/ 导出文件和用户明确要求的飞书表格；公开分享权限必须由 --public-share 显式开启。"
+      "output_contract": "只返回正式知识层的紧凑摘要、账号/方向/文档角色、BM25/本地向量/元数据/重排分数及原文件行号证据坐标。",
+      "write_policy": "只写可复现 runtime 检索缓存；不读取或写入候选、原始资料、用户层、系统规则和 Skill proposal。"
     },
     {
       "id": "external_use",
       "name": "其他项目调用",
-      "triggers": [
-        "其他项目",
-        "项目外",
-        "外部调用",
-        "@知识库"
-      ],
-      "agents": [
-        "controller",
-        "retriever",
-        "auditor"
-      ],
-      "read_first": [
-        "00_System/shareable/docs/project_use/项目调用规则.md",
-        "00_System/shareable/index/task_entry_index.md",
-        "00_System/shareable/index/controller_routes.json",
-        "00_System/shareable/config/output_contracts.json"
-      ],
-      "tools": [
-        "tools.kb.cli validate-system"
-      ],
-      "output_contract": "输出调用入口、命中路由、读取层级、允许使用范围、禁止使用范围、正式知识来源、候选证据状态和下一步调用建议。",
-      "write_policy": "默认不读取原始数据、不读取候选资产，除非用户明确要求审核候选。"
+      "triggers": ["@知识库", "使用知识库", "调用知识库", "读取知识库", "knowledge-base"],
+      "minimum_required": ["具体需求"],
+      "clarify_when_missing": ["你要处理资料、学习账号、调用账号 Skill、复盘还是审计系统？"],
+      "agents": ["controller"],
+      "read_first": ["知识库入口.md", "00_System/shareable/index/task_entry_index.md"],
+      "tools": ["tools.kb.cli resolve-call"],
+      "output_contract": "输出命中路由、读取层级、账号 Skill、用户层边界和下一步。",
+      "write_policy": "按命中路由执行，不默认读取用户私有、原始、runtime 或候选层。"
     },
     {
       "id": "system_audit",
       "name": "系统审计",
-      "triggers": [
-        "我要看状态",
-        "健康检查",
-        "审计",
-        "验收",
-        "检查知识库",
-        "是否稳定"
-      ],
-      "agents": [
-        "controller",
-        "auditor"
-      ],
+      "triggers": ["我要看状态", "系统审计", "系统验证", "系统验收", "全盘整理", "系统清理"],
+      "minimum_required": ["审计或清理目标"],
+      "clarify_when_missing": ["要检查状态、执行验证还是生成清理计划？"],
+      "agents": ["controller", "auditor"],
       "read_first": [
         "00_System/shareable/index/controller_routes.json",
         "10_Knowledge/evidence/index/knowledge_index_summary.md",
-        "10_Knowledge/evidence/index/formal_knowledge_index.json",
-        "10_Knowledge/evidence/index/candidate_asset_index.json",
-        "10_Knowledge/evidence/index/raw_blocked_index.json",
-        "10_Knowledge/evidence/index/account_knowledge_index.json",
-        "00_System/shareable/config/output_contracts.json",
-        "00_System/runtime/state/kb_registry.json"
+        "20_User/config/account_skill_registry.json"
       ],
       "tools": [
-        "tools.kb.cli health-gate",
-        "tools.kb.cli init",
-        "tools.kb.cli doctor",
-        "tools.kb.cli repair",
+        "tools.kb.cli user-validate",
         "tools.kb.cli validate-system",
+        "tools.kb.cli clean-system-boundaries",
         "tools.kb.cli dashboard"
       ],
-      "output_contract": "输出入口、索引、路由、Skill 包、账号中心、proposal、候选注册表、输出契约和报告状态。",
-      "write_policy": "只写系统验证报告，不改正式知识。"
-    },
-    {
-      "id": "memory_capture",
-      "name": "记忆捕获",
-      "triggers": [
-        "记住这个",
-        "沉淀到记忆",
-        "会话总结",
-        "以后都这样",
-        "记忆系统",
-        "memory"
-      ],
-      "minimum_required": [
-        "要记录的信息",
-        "目标用途或层级"
-      ],
-      "clarify_when_missing": [
-        "这条信息以后会在哪类任务中复用？",
-        "这是用户偏好、问题复盘、智能体边界还是系统规则？",
-        "是否包含账号、路径或凭证信息？"
-      ],
-      "agents": [
-        "controller",
-        "planner",
-        "auditor"
-      ],
-      "read_first": [
-        "20_User/syncable/memory/记忆总入口.md",
-        "00_System/shareable/memory/memory_rules.md",
-        "00_System/shareable/memory/memory_schema.json"
-      ],
-      "tools": [
-        "tools.kb.cli memory"
-      ],
-      "output_contract": "输出记忆候选、目标层级、敏感信息检查、是否需要用户确认和后续写入建议。",
-      "write_policy": "默认只写 runtime pending；用户确认后再写入用户层或知识证据层。"
-    },
-    {
-      "id": "agent_registry",
-      "name": "智能体登记",
-      "triggers": [
-        "智能体登记表",
-        "智能体登录表",
-        "查看智能体",
-        "agent registry",
-        "智能体功能"
-      ],
-      "minimum_required": [
-        "查询或更新目标"
-      ],
-      "clarify_when_missing": [
-        "你是要查看功能表、更新功能，还是检查登录状态？"
-      ],
-      "agents": [
-        "controller",
-        "auditor"
-      ],
-      "read_first": [
-        "00_System/shareable/agents/agent_registry_schema.json",
-        "20_User/syncable/agents/agent_registry.md",
-        "20_User/private/agents/agent_auth_registry.template.md"
-      ],
-      "tools": [
-        "tools.kb.cli agents"
-      ],
-      "output_contract": "输出智能体 ID、功能、能力、入口、登录状态边界和记忆读写范围。",
-      "write_policy": "功能表可同步；真实登录状态和凭证位置提示只写用户私有层，禁止写真实密钥。"
+      "output_contract": "输出三套系统 Skill、用户层、账号 Skill、生产记忆、索引、边界、清理和测试状态。",
+      "write_policy": "只写验证和清理报告；正式知识变更必须有明确迁移和验收。"
     }
   ]
 }

@@ -1,0 +1,314 @@
+{
+  "schema_version": "account_skill_transcript_validation_v1",
+  "validated_at": "2026-07-16",
+  "account": "小森林的小世界",
+  "minimum_per_method": 10,
+  "maximum_per_method": 15,
+  "selection_rule": "formal seeds first, then cluster/classified support with direction and length diversity; low-evidence expansion remains provisional",
+  "candidate_audit_path": "10_Knowledge/candidates/account_skill_upgrades/2026-07-16/evidence_revalidation/evidence_matrix.json",
+  "method_count": 4,
+  "validated_source_total": 60,
+  "methods": [
+    {
+      "method_id": "xsl-cluster-list_decision",
+      "title": "清单不是罗列而是决策分流",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "628b599e000000002103e406",
+        "6351015f000000001700f572",
+        "6631db9a000000001e0359ea",
+        "683172050000000022006889",
+        "688b25a7000000002303147f",
+        "688eeb360000000023030410",
+        "68946716000000002302f9df",
+        "68b40d25000000001c0121d0",
+        "6950aad8000000001e035c17",
+        "69cb9aaf000000001f00492b",
+        "6a01af100000000006033f62",
+        "6a327c8d000000002102241a",
+        "6a44b7f20000000008003b27",
+        "65954c55000000001e008599",
+        "66f0e5e6000000001a023f47"
+      ],
+      "transcript_sha256": {
+        "628b599e000000002103e406": "c3b25cda24222f1fd0f646eeaa59ca2db6f128a2b3268e2753bf646278fb8b87",
+        "6351015f000000001700f572": "bc2a4b5f4aed3675241059ca33b49cc49ca4efc3108c5b93fdaee697d0f07ae8",
+        "6631db9a000000001e0359ea": "f7d1b956900abb0975a4bc0f6c50f6d4f4473b820b0a7513106f13a27a0b9816",
+        "683172050000000022006889": "845a68fa68ffa3eb20d93c2ccbb8ce3eda6b9f95636a9f4a89e9343a250ec5b2",
+        "688b25a7000000002303147f": "5de9359271f24e6f2500eea79d7585c5bd96a5f96287c3a3473b1910f2e7000a",
+        "688eeb360000000023030410": "899fd0e6a976a1a37b289371fc44c534bd421bed65813e512438bac3bfa93cd3",
+        "68946716000000002302f9df": "70a5a86c3a30063d7adf412605aead16862ee9c703f9142bbc1a715c899ca529",
+        "68b40d25000000001c0121d0": "f539867567282edfa36b5e8a970bf490d6669cc4f8c4b6df2effefc495a3c82a",
+        "6950aad8000000001e035c17": "65bda26386c400bd0f6cea8ce50a86a1ed7954cd514a75cc8d72a8253ebc626e",
+        "69cb9aaf000000001f00492b": "45800abda9332f0f578fa82c62a9928e12110b4ab14382b0bd85d9fd02b5fb0f",
+        "6a01af100000000006033f62": "ed46480d0f21ef9ae3a663ac2cc32b49e9d4d5d5fdab20d8857a8e8cd5722a0f",
+        "6a327c8d000000002102241a": "b7e743883d4934304f10f6545e2fa5c1b8a65c09c832573cfd8e6d246e70c54d",
+        "6a44b7f20000000008003b27": "0c00a831d5d7dc15f659297717db9b536dd98a33015806935bbe15e2df5eaa33",
+        "65954c55000000001e008599": "ec921e66ee46a028508f4e7985d3b40963d5117b68768f39133f1e2e1328f2d0",
+        "66f0e5e6000000001a023f47": "5f32501e58aebb6d2225a28fe45f5db593021df025f4569240ba8933c8efe1ef"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 6,
+        "direction_distribution": {
+          "空瓶与产品复盘": 10,
+          "防晒": 1,
+          "毛孔与清洁": 1,
+          "头发护理": 1,
+          "其他护肤经验": 1,
+          "刷酸与焕肤": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 13,
+          "cluster_support": 2
+        },
+        "transcript_chars": {
+          "min": 538,
+          "median": 1433,
+          "max": 3046
+        },
+        "signal_medians": {
+          "audience_terms": 6,
+          "boundary_terms": 3,
+          "causal_terms": 9,
+          "feedback_terms": 4,
+          "first_person_terms": 45,
+          "line_count": 125,
+          "question_marks": 0,
+          "time_or_sequence_terms": 11
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "xsl-cluster-problem_result",
+      "title": "具体皮肤问题转译为可感知结果",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "6486dec90000000013008f1a",
+        "64dc8637000000001700d8ec",
+        "67ed251b000000001d027d32",
+        "67f64650000000001a006dd1",
+        "68caa1f3000000000e032b58",
+        "6912bca60000000005013561",
+        "6a1e860f0000000021016c82",
+        "67e21fa5000000001d005ef5",
+        "6800afe1000000001d014ca7",
+        "65472ea8000000001e03e2e0",
+        "690087ed000000000401504c",
+        "6a40a95e0000000007029f7d",
+        "6837f6ce0000000022024e24",
+        "6971e0a5000000001a02c240",
+        "65866aa000000000380296c4"
+      ],
+      "transcript_sha256": {
+        "6486dec90000000013008f1a": "197faa0617db0f8db129a58ebccc775ca989e3730cbcbf037be93b6659f857fd",
+        "64dc8637000000001700d8ec": "99c90425131dbba919e570176fdc7c854efbe31ed8fefe15f5796f932d562a6e",
+        "67ed251b000000001d027d32": "f9241b4f2bebc2a54d0acb34094de7201fa0fa133577652ab32cf8a2d40f03e8",
+        "67f64650000000001a006dd1": "ccba57d5895083df7bb8cc3fbb5367858ac116a95bdc32bbedda2c0610898701",
+        "68caa1f3000000000e032b58": "e62758501bd5e5ee33f5f9a7cf42e90b403d5fe55b80da51de0f35354e7fd831",
+        "6912bca60000000005013561": "cbe6da0b0dd1f4e8319a313c3e735e6d1fe971de1062174faff72fa2c102c186",
+        "6a1e860f0000000021016c82": "4046953731cd51c544a2c419c4cdbd67228313348e7345e5e86e9487710aa0d4",
+        "67e21fa5000000001d005ef5": "27c0502df8cc70921586e6208b4d4abe1c4a7b492f9944853695ca61c5daabe8",
+        "6800afe1000000001d014ca7": "0da507159aed46d850fa7b24cea69faa679791901fe2f97ecd6ce863c153399e",
+        "65472ea8000000001e03e2e0": "48e4378d64037577a9b1d52535f264cea44d24f3ddbe991232af6f69138b0133",
+        "690087ed000000000401504c": "cb76c95f9db26ae2556650333a81ea2c7e6092e50398afce199ccdce311f97a0",
+        "6a40a95e0000000007029f7d": "19e62a199e352c12cbe417603ad6fd7df9582c78dec302004891d7dfd738a8ae",
+        "6837f6ce0000000022024e24": "8612305bdf907d37470c5ed6512bb8627f7cddf75de018610e77898ac7f54274",
+        "6971e0a5000000001a02c240": "c5e741116d83ff0e82b4c53ab6bf0153142c4d189cf5cb04238af679e052c633",
+        "65866aa000000000380296c4": "d8eb6f8a4c7c232b2b954af348877efbdaa6658188d065d1ce7afb74f21d2b29"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 12,
+        "direction_distribution": {
+          "彩妆与底妆": 1,
+          "提亮与肤色": 1,
+          "毛孔与清洁": 4,
+          "敏感维稳与红黑脸": 1,
+          "痘肌与痘印": 1,
+          "其他护肤经验": 1,
+          "刷酸与焕肤": 1,
+          "眼周护理": 1,
+          "空瓶与产品复盘": 1,
+          "饮食与状态": 1,
+          "抗老与紧致": 1,
+          "头发护理": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 7,
+          "cluster_support": 8
+        },
+        "transcript_chars": {
+          "min": 895,
+          "median": 1236,
+          "max": 1857
+        },
+        "signal_medians": {
+          "audience_terms": 4,
+          "boundary_terms": 3,
+          "causal_terms": 9,
+          "feedback_terms": 7,
+          "first_person_terms": 34,
+          "line_count": 116,
+          "question_marks": 0,
+          "time_or_sequence_terms": 9
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "xsl-cluster-step_sequence",
+      "title": "分步顺序与条件化执行",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "621f2c15000000002103473a",
+        "63579622000000001402837b",
+        "6475cce70000000013006e7d",
+        "64e3195d000000001700e640",
+        "650e893d000000001e02dd21",
+        "65ec424e000000000102950d",
+        "664829ea0000000014018add",
+        "6667f60a000000000e031b9c",
+        "66f3fc4f000000001a0209b9",
+        "6893290100000000230399ce",
+        "68a6d2f7000000001c00645d",
+        "693e7b70000000001e02bc3f",
+        "69d60f5b000000002202ac32",
+        "69ddfd160000000022029fb9",
+        "69fda6690000000022024dad"
+      ],
+      "transcript_sha256": {
+        "621f2c15000000002103473a": "c696e08ee61a87b7ff6506acfc75c2af96a1957dc95eee34881b8d41a98cb8b1",
+        "63579622000000001402837b": "808ee1e6dbf151e4797d5c3cfe51cd8b23aff3bbeb4b5f0a586703caa3f7ca8f",
+        "6475cce70000000013006e7d": "819b548e1a12669cbae10b3c812349fe71bfa5ee97b1204c9ad411f61f46e0bf",
+        "64e3195d000000001700e640": "a5cf7fd4280220b6d5addf69fd92ff16e428880c03ba553b83e2b6c96d5fa9da",
+        "650e893d000000001e02dd21": "5eb3c44deac3540d5bafc25646f84999c8463dc579654c6f4211d4863e37a03f",
+        "65ec424e000000000102950d": "cd054dba0025eeafb7a64132f5f3bc3d8e96983bea2b321defe912b0debb7e9a",
+        "664829ea0000000014018add": "4e6d03f66a75313379808a9e55827b510858842fd1211a10f257a3ceec01b740",
+        "6667f60a000000000e031b9c": "14e16566dc5a0528cc0d77f4197dbe78e09ce85218609bc5802122e058638b94",
+        "66f3fc4f000000001a0209b9": "10d261ffe6d371819cce0eb23bdfa29769e496ca79a7d0bbfee8ea33bbc8d694",
+        "6893290100000000230399ce": "5cac7f01f9163c3f843c53370b9d343536be7b60f63abafc708213c52aa3030e",
+        "68a6d2f7000000001c00645d": "198b5266f602d8b2c5b2f0f87a11a8b8e4bee76830801147af8d65f195ac7c7b",
+        "693e7b70000000001e02bc3f": "f6eea1baf31286eef5f3cb61150bf00bc9f3b64adfca24a7cf3f638f175e923c",
+        "69d60f5b000000002202ac32": "761f85ad8220ffb5e74a7a03df827ec60c40af0af4a6b54889c342bd40e60164",
+        "69ddfd160000000022029fb9": "723f493d679eee0e48caec2b80ecb90c7dff9bbc46e9e0e5d4981f0d83e7b413",
+        "69fda6690000000022024dad": "c824a4f6e8e865d90aaa3bdccd93f32c72694134c202d880a4dc00ff9d3fa278"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 6,
+        "direction_distribution": {
+          "痘肌与痘印": 3,
+          "其他护肤经验": 2,
+          "头发护理": 4,
+          "空瓶与产品复盘": 1,
+          "防晒": 4,
+          "饮食与状态": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 15
+        },
+        "transcript_chars": {
+          "min": 538,
+          "median": 1016,
+          "max": 1625
+        },
+        "signal_medians": {
+          "audience_terms": 4,
+          "boundary_terms": 4,
+          "causal_terms": 6,
+          "feedback_terms": 4,
+          "first_person_terms": 24,
+          "line_count": 88,
+          "question_marks": 0,
+          "time_or_sequence_terms": 9
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "xsl-cluster-time_feedback",
+      "title": "时间刻度与状态反馈形成可跟练闭环",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "63072d4c000000001b01d33f",
+        "658552e4000000001502c58d",
+        "68777040000000001d00d5d7",
+        "65a1084b000000001a02938c",
+        "669738be0000000025007f18",
+        "670f875500000000260359f9",
+        "6724abd30000000019016191",
+        "644a2e1f0000000027010695",
+        "69f829f9000000002202492e",
+        "6646cb420000000014019b72",
+        "6a0c3b590000000006022a9a",
+        "68ba84be000000001c00ec0a",
+        "62fe33f5000000001b01fd82",
+        "682445f7000000002202541e",
+        "6844fe5600000000200299b1"
+      ],
+      "transcript_sha256": {
+        "63072d4c000000001b01d33f": "bc917e7a1d64d54082148833fd0cc871f68916470093319116abfd36b46ca0f9",
+        "658552e4000000001502c58d": "217087efd83528216c1cfe214f98df4e2eb9b9e66af9fe074cb1b86d4776f4ba",
+        "68777040000000001d00d5d7": "a9c147bc3078ee21d4a1858c9453ce5fb563fbfe72c306a128fb77642e24abcb",
+        "65a1084b000000001a02938c": "fb2b4b8c29d45fa376cd6ac858d90c64c09d0dc30f2f2a27981d4ad569cf579f",
+        "669738be0000000025007f18": "6b793569c7503910e8f6c179224335959e852e75640e75d57cbfd26b4ec5f68a",
+        "670f875500000000260359f9": "a98aa63b75eb9cd174efda2c7396300197d51dbafb9f2013ed6cc9558c26b5e4",
+        "6724abd30000000019016191": "debcb68b582c9c6d21c64f9f6752316b50f67a37c0509ffba5eed1665ebe8ad5",
+        "644a2e1f0000000027010695": "f2dac3500d75117f01fe2bde8774feee53e74f0071adf15a316feac582f9861b",
+        "69f829f9000000002202492e": "a03ab76b52caeb3c7827ce003ef0ab8189e11b52072284a995a82276f5248512",
+        "6646cb420000000014019b72": "f3c0d71d6944c08e930c5888776d859fe9217b3e5a24569d6f011865d2167abb",
+        "6a0c3b590000000006022a9a": "09492688100dc676a2278873ae77abb4dfb065dd3f61efbbfadcff826bd38ad5",
+        "68ba84be000000001c00ec0a": "87792b9a350d509c782e57870db37720a3d300ab90eebfe606cd1324815fe4eb",
+        "62fe33f5000000001b01fd82": "c59ff8c172f95242e61eca64520d96deeab343b501871d4d9611ec1f3b76d836",
+        "682445f7000000002202541e": "a65b0005f4409fe58067a4b06c5097e03891cf9856c6c2a170daabe55cc855e9",
+        "6844fe5600000000200299b1": "5c8263953f7598b77d244cfc04a77d4f75e151f93a9a1c5f452185e7545bd41f"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 9,
+        "direction_distribution": {
+          "毛孔与清洁": 4,
+          "饮食与状态": 2,
+          "刷酸与焕肤": 1,
+          "其他护肤经验": 3,
+          "抗老与紧致": 1,
+          "痘肌与痘印": 1,
+          "提亮与肤色": 1,
+          "眼周护理": 1,
+          "敏感维稳与红黑脸": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 3,
+          "cluster_support": 12
+        },
+        "transcript_chars": {
+          "min": 881,
+          "median": 1383,
+          "max": 3207
+        },
+        "signal_medians": {
+          "audience_terms": 3,
+          "boundary_terms": 3,
+          "causal_terms": 8,
+          "feedback_terms": 5,
+          "first_person_terms": 36,
+          "line_count": 120,
+          "question_marks": 0,
+          "time_or_sequence_terms": 13
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    }
+  ],
+  "formal_skill_update_allowed": true
+}

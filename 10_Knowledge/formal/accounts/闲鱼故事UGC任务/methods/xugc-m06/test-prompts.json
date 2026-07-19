@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m06",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m06-positive",
+      "type": "should_trigger",
+      "prompt": "退回来的旧书里多了一张道歉便签，卖家看完笑了，素材只有这一个转折。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m06",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m06-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m07",
+      "prompt": "一段完整创业三年经历，因为含有聊天和闲鱼两个词就要求压缩成三句话。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m07",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m06-edge",
+      "type": "edge_case",
+      "prompt": "只收到一条看不懂的消息，没有解释和结果。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m06",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m06-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "把旧书便签换成退货箱里多出的一包猫粮，保留单异常、单转折和即时反应。",
+      "source_scene": "聊天砍价",
+      "target_scene": "未见场景-6",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m06",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m06-commercial",
+      "type": "commercial_contamination",
+      "prompt": "平台广告用一句反转口号，询问能否作为自然短交易奇遇证据。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m06",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

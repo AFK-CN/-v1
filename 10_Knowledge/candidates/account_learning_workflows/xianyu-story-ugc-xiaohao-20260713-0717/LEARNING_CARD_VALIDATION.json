@@ -1,0 +1,20 @@
+{
+  "workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+  "record_count": 100,
+  "card_count": 100,
+  "valid_count": 100,
+  "failed_count": 0,
+  "direction_counts": {
+    "兴趣技能与手作成长": 31,
+    "旧物回忆与情绪告别": 28,
+    "待人工归类": 16,
+    "闲鱼搞钱与同城服务": 12,
+    "陌生人善意与信任": 6,
+    "循环利用与旧物新生": 3,
+    "退坑断舍离与自我接纳": 3,
+    "小人物生计与在地连接": 1
+  },
+  "failed": [],
+  "formal_write": false,
+  "callable": false
+}

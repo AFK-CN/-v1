@@ -1,0 +1,136 @@
+{
+  "schema_version": "account_production_handoff_v1",
+  "status": "ready_for_review",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "profile_id": "xhs_5c09367300000000060099e8",
+  "source_method_ids": [
+    "m01-complete-meal-positioning",
+    "m02-fixed-mother-topic-variable",
+    "m03-double-cover-tiered-tutorial",
+    "m04-weekly-reindex",
+    "m05-cost-proof-tail",
+    "m06-device-process-proof",
+    "m07-recipe-body-fingerprint"
+  ],
+  "coverage": {
+    "structures": "verified",
+    "expression": "verified",
+    "anti_ai": "verified",
+    "production_templates": "verified",
+    "acceptance": "verified"
+  },
+  "structure_library_candidates": [
+    {
+      "id": "single_meal_tiered_tutorial",
+      "method_ids": [
+        "m01-complete-meal-positioning",
+        "m03-double-cover-tiered-tutorial"
+      ],
+      "page_order": [
+        "标注整餐",
+        "可选无字净图",
+        "复杂菜步骤",
+        "复杂菜结果",
+        "简单菜必要动作或结果"
+      ]
+    },
+    {
+      "id": "weekly_menu_index",
+      "method_ids": [
+        "m02-fixed-mother-topic-variable",
+        "m04-weekly-reindex"
+      ],
+      "page_order": [
+        "一周主题封面",
+        "周一至周日一页一餐",
+        "不重复教程"
+      ]
+    },
+    {
+      "id": "cost_proof_meal",
+      "method_ids": [
+        "m03-double-cover-tiered-tutorial",
+        "m05-cost-proof-tail"
+      ],
+      "page_order": [
+        "完整餐",
+        "必要做法",
+        "逐菜价格/合计/订单凭证",
+        "日期渠道边界"
+      ]
+    },
+    {
+      "id": "device_parallel_meal",
+      "method_ids": [
+        "m06-device-process-proof"
+      ],
+      "page_order": [
+        "备料",
+        "装锅或分层",
+        "设备状态",
+        "出锅",
+        "单菜结果"
+      ]
+    }
+  ],
+  "expression_fingerprint_candidates": [
+    "标题优先沿‘独居一人食｜单一变量’或‘一周减脂餐合集’母线，不拼接多个爆点。",
+    "正文用 emoji/菜名分段；复杂菜编号，简单菜只保留必要动作或结果。",
+    "价格或每百克热量只有来源存在时才紧跟菜名；尾部可接合计、知识小栏或真实碎碎念。"
+  ],
+  "anti_ai_rule_candidates": [
+    "禁止把每道菜写成同长度、同句式、同收尾的平均模板。",
+    "禁止补写作者原句、生活经历、体重结果、热量、营养或省时数字。",
+    "禁止空泛的价值升华；结尾只回到素材已有的吃饭场景或真实附言。",
+    "禁止用‘标题吸引人、画面高级、步骤清晰’替代账号特有结构。",
+    "允许详略不均、可选净图和阶段性价格尾页，保持素材真实的不规则性。"
+  ],
+  "production_template_mappings": [
+    {
+      "scene": "普通自然单餐",
+      "primary": "m03-double-cover-tiered-tutorial",
+      "supports": [
+        "m01-complete-meal-positioning",
+        "m02-fixed-mother-topic-variable",
+        "m07-recipe-body-fingerprint"
+      ]
+    },
+    {
+      "scene": "周菜单合集",
+      "primary": "m04-weekly-reindex",
+      "supports": [
+        "m01-complete-meal-positioning",
+        "m02-fixed-mother-topic-variable"
+      ]
+    },
+    {
+      "scene": "成本透明餐",
+      "primary": "m05-cost-proof-tail",
+      "supports": [
+        "m01-complete-meal-positioning",
+        "m03-double-cover-tiered-tutorial",
+        "m07-recipe-body-fingerprint"
+      ]
+    },
+    {
+      "scene": "设备效率餐",
+      "primary": "m06-device-process-proof",
+      "supports": [
+        "m01-complete-meal-positioning",
+        "m07-recipe-body-fingerprint"
+      ]
+    }
+  ],
+  "acceptance_checks": [
+    "任务已先分轨为自然内容、商品广告或平台项目。",
+    "一条内容只有一个主冲突和一个主结构。",
+    "完整餐组件、页序和正文详略均可在素材中找到证据。",
+    "价格、热量、营养、熟度、时间和结果声明均有来源或已删除。",
+    "商品广告与平台项目没有计入自然 V1。",
+    "叠加方法通过逐项消融，删除冗余方法后仍保持最小充分结构。",
+    "发布前完成 topic-memory-check；发布后按规则登记 topic_id、content_id 与 Skill 版本。"
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true
+}

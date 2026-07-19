@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "account_name": "姜胡说",
+  "platform": "抖音",
+  "direction": "自媒体",
+  "source_id": "6798862458191629581",
+  "title": "姜胡说 2.2 NAS 全量学习卡：(⊙o⊙)哇！你们居然搜索到了。",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/douyin_6798862458191629581.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_6798862458191629581",
+  "copied_file_count": 19,
+  "copied_bytes": 1782686,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 668,
+      "sha256": "c791790a9bc09938a1a17b92bc01d8fbda6e39af4e6a460b624c15f893be9379"
+    },
+    {
+      "path": "source.json",
+      "bytes": 921,
+      "sha256": "0e459fcc798baf08e35927e9cf30340b7694fcbf380454f32470fa1453f4e6fe"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2273,
+      "sha256": "1edc521cce9b1b672c7a80ba67e800b9b7683dc88d20206da74b0f5b55fd6f23"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 479384,
+      "sha256": "c58f4ffafac0c2554ae44b723f61605ef00e90a96b9b164366511b6579f02a4d"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 19123,
+      "sha256": "f9d7ed2295583d23b36d4f6fc4050b4d55cc65d4c3c75dece19599a5344d25a0"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 21330,
+      "sha256": "8b66a6c645e72de738e9f1f1abce3a2d7a861cae669d127d6f3f7b1f53695bd3"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 29857,
+      "sha256": "7d5481f4da4e947abb4ebe429e407da9d06840e1d7c6091ba9d6de10de62da88"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 31834,
+      "sha256": "a184e403e56932920f638e3600cac79a7dad7f6f1900a1a9da611c0e8786866c"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 37538,
+      "sha256": "01ba9c8a8d3f0f59d6a42a0867cc88bc21d5b981f769e04e1a6a9d045c3f8c90"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 30906,
+      "sha256": "b12d32d9cfb6943d3b55da5f0ed1c97c923d2a34bd262d481573db1752376130"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 38680,
+      "sha256": "6ecd645ad4283524caab019305a8dc0534a4daff3c255f81cfb280f5c31403f8"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 33165,
+      "sha256": "01032d7275c0d4c77ffe4f0612f572a313062d32706e2d00c83a40f4949ab12c"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 917,
+      "sha256": "2821ca7989cde8542cb1245f50ab4bce725394065644dc93ddad04118510acc5"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 1053768,
+      "sha256": "cea20b2bc043c1210657a519077024775a467b1938915699deef720025a84266"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 728,
+      "sha256": "77d90ff79593a396ea6cc9aa4b1a577771a3c5a481af163e821fb425a72bc054"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 371,
+      "sha256": "fba97c0e24fec853601daaea76ac50422ced18afd7cd98d99e004470f1597de3"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 193,
+      "sha256": "f34e5ec27617ef4d45930144c8e4378331a0ec01e9ade5e3201332a49318a828"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 307,
+      "sha256": "6145455ffc78454ca644f49060173089a0cdbd88daa37055620b32a3eb9ace53"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 723,
+      "sha256": "560f7c59ffa691415b3158c25d3283678c3f85fb112af4d65debf40e23d67bbd"
+    }
+  ]
+}

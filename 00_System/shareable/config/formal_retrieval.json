@@ -1,0 +1,90 @@
+{
+  "version": "3.0",
+  "updated_at": "2026-07-19",
+  "scope": "formal_only",
+  "description": "正式知识检索契约。索引只允许进入正式知识层，候选、原始资料、系统层、用户层、临时层和归档层一律禁止。",
+  "allowed_roots": [
+    "10_Knowledge/formal/"
+  ],
+  "forbidden_prefixes": [
+    "10_Knowledge/candidates/",
+    "00_Inbox/",
+    "数据/",
+    "00_System/",
+    "20_User/",
+    "90_Temp/",
+    "99_Archive/"
+  ],
+  "allowed_extensions": [
+    ".md",
+    ".json",
+    ".jsonl",
+    ".txt"
+  ],
+  "excluded_path_fragments": [
+    "/轻量数据源/",
+    "/skill/proposals/"
+  ],
+  "max_file_bytes": 1048576,
+  "chunk": {
+    "max_chars": 900,
+    "overlap_lines": 2,
+    "coordinate": "source_path_and_line_range"
+  },
+  "vector": {
+    "backend": "hashed_char_ngram_v1",
+    "dimensions": 512,
+    "ngram_sizes": [2, 3],
+    "max_features": 96,
+    "network_required": false,
+    "claim": "local_fuzzy_vector_not_neural_embedding"
+  },
+  "weights": {
+    "keyword": 0.55,
+    "vector": 0.3,
+    "metadata": 0.1,
+    "rerank": 0.05
+  },
+  "metadata_filters": {
+    "mode": "strict",
+    "fields": [
+      "account",
+      "direction",
+      "document_role"
+    ]
+  },
+  "result": {
+    "default_limit": 8,
+    "max_limit": 30,
+    "snippet_chars": 320,
+    "required_fields": [
+      "path",
+      "heading",
+      "line_start",
+      "line_end",
+      "evidence_coordinate",
+      "snippet",
+      "account",
+      "direction",
+      "document_role",
+      "score",
+      "score_details",
+      "matched_terms",
+      "chunk_sha256"
+    ]
+  },
+  "cache": {
+    "location": "00_System/runtime/cache/formal_retrieval/",
+    "reproducible": true,
+    "stale_policy": "requires_rebuild",
+    "stores_system_rules": false
+  },
+  "invariants": [
+    "候选资产不得进入正式检索索引",
+    "原始资料不得进入正式检索索引",
+    "系统规则和账号 Skill proposal 不得进入正式检索索引",
+    "账号过滤和方向过滤必须精确匹配",
+    "检索结果必须带原文件行号证据坐标",
+    "本地哈希向量只声明模糊相似，不冒充神经语义嵌入"
+  ]
+}

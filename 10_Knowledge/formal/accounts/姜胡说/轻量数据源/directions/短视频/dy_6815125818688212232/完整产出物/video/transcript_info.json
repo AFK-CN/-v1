@@ -1,0 +1,11 @@
+{
+  "engine": "faster-whisper",
+  "model": "small",
+  "device": "cpu",
+  "compute_type": "int8",
+  "language": "zh",
+  "language_probability": 1,
+  "duration": 82.2683125,
+  "input": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6815125818688212232\\video\\audio.wav",
+  "segments": 39
+}

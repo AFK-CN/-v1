@@ -1,0 +1,4 @@
+interface:
+  display_name: "闲鱼故事 UGC"
+  short_description: "直接生成第一人称、批次结构不重复的闲鱼故事UGC图文稿"
+  default_prompt: "Use $xianyu-story-ugc to directly create publish-ready first-person Xianyu story UGC with one physical-item image per post by default and explicit batch structure diversity."

@@ -1,0 +1,201 @@
+{
+  "platform": "xhs",
+  "source_id": "6a1ee0840000000035025a38",
+  "source_url": "https://www.xiaohongshu.com/explore/6a1ee0840000000035025a38",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "title": "一周减脂餐合集来啦！！！",
+  "desc": "周1️⃣：蒸肉饼➕豌豆鱼丸➕白菜➕藜麦饭\n周2️⃣：三文鱼➕牛油果➕蓝莓➕藜麦饭\n周3️⃣：煎鸡腿➕白灼虾➕白灼生菜➕藜麦饭\n周4️⃣：青椒牛肉➕白灼虾➕油麦菜➕米饭\n周5️⃣：彩椒牛柳➕虾仁蒸鸡蛋➕油麦菜➕米饭\n周6️⃣：手撕鸡胸肉➕虾仁蒸鸡蛋➕清炒平菇➕米饭\n周7️⃣：煎鸡排➕豌豆鸡蛋汤➕清炒菠菜➕藜麦饭\n\t\n忙忙碌碌的五月过去了，最近一步步的按照节奏在练字和学习，看到自己进步真的是一件事很满足的事～还看了《低智商犯罪》真的很有笑点！听朋友说世界杯快开始了，小红书也有世界杯转播权啦！期待！\n\t\n#减脂餐[话题]# #一周减脂餐不重样[话题]# #一周吃饭不重样[话题]# #午餐不重样[话题]# #低卡低脂餐[话题]# #上班族一周食谱备菜[话题]##世界杯聊个球[话题]#  #世界杯[话题]#  #一周晚餐合集[话题]##美食打卡[话题]#",
+  "image_count": 7,
+  "has_text": true,
+  "ocr_text": "藜麦饭\n白菜\n豌豆鱼丸\n蒸肉饼\n藜麦饭\n牛油果\n蓝莓\n月\n三文鱼\n藜麦饭\n白灼生菜\n白灼虾\n煎鸡腿\n八\n米饭\nd\n油麦菜\n白灼虾\n青椒肉\n米饭\n油麦菜\n虾蒸\n鸡蛋\n米饭\nd\n清炒平菇\n虾仁蒸\n鸡蛋\n手撕\n鸡胸肉\n藜麦饭\n清炒菜\ne豌豆\n鸡蛋汤",
+  "ocr_by_image": [
+    {
+      "index": 0,
+      "role": "cover",
+      "text": "藜麦饭\n白菜\n豌豆鱼丸\n蒸肉饼",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "text": "藜麦饭\n牛油果\n蓝莓\n月\n三文鱼",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "text": "藜麦饭\n白灼生菜\n白灼虾\n煎鸡腿\n八",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "text": "米饭\nd\n油麦菜\n白灼虾\n青椒肉",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "text": "米饭\n油麦菜\n虾蒸\n鸡蛋",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "text": "米饭\nd\n清炒平菇\n虾仁蒸\n鸡蛋\n手撕\n鸡胸肉",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "text": "藜麦饭\n清炒菜\ne豌豆\n鸡蛋汤",
+      "status": "success",
+      "reason": ""
+    }
+  ],
+  "visual_summary": "7 张portrait图片；包含 鸡腿、白灼虾、虾、牛肉、鸡蛋、米饭、减脂餐、午餐；主题为 减脂餐、一周减脂餐不重样、一周吃饭不重样、午餐不重样、低卡低脂餐；图中文字示例：藜麦饭；画面风格：多图合集，有图中文字/标注，清晰",
+  "scene": "居家餐食",
+  "content_tags": [
+    "餐食",
+    "美食",
+    "居家饮食",
+    "减脂餐",
+    "合集",
+    "竖图",
+    "图中文字",
+    "一周减脂餐不重样",
+    "一周吃饭不重样",
+    "午餐不重样",
+    "低卡低脂餐",
+    "上班族一周食谱备菜",
+    "世界杯聊个球",
+    "世界杯"
+  ],
+  "topic_tags": [
+    "减脂餐",
+    "一周减脂餐不重样",
+    "一周吃饭不重样",
+    "午餐不重样",
+    "低卡低脂餐",
+    "上班族一周食谱备菜",
+    "世界杯聊个球",
+    "世界杯",
+    "一周晚餐合集",
+    "美食打卡"
+  ],
+  "food_items": [
+    "鸡腿",
+    "白灼虾",
+    "虾",
+    "牛肉",
+    "鸡蛋",
+    "米饭",
+    "减脂餐",
+    "午餐",
+    "晚餐"
+  ],
+  "style": {
+    "camera": "可能为俯拍/近景",
+    "composition": "多图合集",
+    "orientation": "portrait",
+    "text_overlay": "有图中文字/标注",
+    "dominant_colors": [
+      "#867f66",
+      "#857661",
+      "#85795c",
+      "#847458",
+      "#897657"
+    ],
+    "clarity": "清晰",
+    "contrast": "对比度较高",
+    "tone": "真实记录型内容"
+  },
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#867f66",
+      "contrast_score": 66.26260268616583,
+      "blur_score": 429.73742733597663,
+      "has_text": true
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#857661",
+      "contrast_score": 65.87902135737946,
+      "blur_score": 432.5951518499263,
+      "has_text": true
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#85795c",
+      "contrast_score": 62.91184448831828,
+      "blur_score": 458.7869620691062,
+      "has_text": true
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#847458",
+      "contrast_score": 62.340946310100605,
+      "blur_score": 480.11439903657873,
+      "has_text": true
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#897657",
+      "contrast_score": 62.58899040653638,
+      "blur_score": 469.3383728232971,
+      "has_text": true
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#8d785b",
+      "contrast_score": 62.54700598953037,
+      "blur_score": 602.2171087132598,
+      "has_text": true
+    },
+    {
+      "index": 6,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#817a66",
+      "contrast_score": 67.43326034119269,
+      "blur_score": 527.3881129220013,
+      "has_text": true
+    }
+  ],
+  "method": "rule_based_ocr_summary",
+  "updated_at": "2026-07-11T00:31:14"
+}

@@ -1,0 +1,560 @@
+{
+  "schema_version": "contact_sheet_index_v1",
+  "sheet_count": 20,
+  "total_images": 230,
+  "sheets": [
+    {
+      "sheet_id": "sheet_01",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_01.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260713_s01",
+        "feishu_xianyu_20260713_s02",
+        "feishu_xianyu_20260713_s03",
+        "feishu_xianyu_20260713_s04",
+        "feishu_xianyu_20260713_s05"
+      ],
+      "image_count": 11,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s01/feishu_xianyu_20260713_s01_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s01/feishu_xianyu_20260713_s01_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s02/feishu_xianyu_20260713_s02_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s03/feishu_xianyu_20260713_s03_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s03/feishu_xianyu_20260713_s03_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s04/feishu_xianyu_20260713_s04_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s04/feishu_xianyu_20260713_s04_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s04/feishu_xianyu_20260713_s04_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s05/feishu_xianyu_20260713_s05_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s05/feishu_xianyu_20260713_s05_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s05/feishu_xianyu_20260713_s05_img03.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "平台页、聊天证据与真实物件照片并存；人物信息有打码，物件照片保留普通环境。"
+    },
+    {
+      "sheet_id": "sheet_02",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_02.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260713_s06",
+        "feishu_xianyu_20260713_s07",
+        "feishu_xianyu_20260713_s08",
+        "feishu_xianyu_20260713_s09",
+        "feishu_xianyu_20260713_s10"
+      ],
+      "image_count": 12,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s06/feishu_xianyu_20260713_s06_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s06/feishu_xianyu_20260713_s06_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s06/feishu_xianyu_20260713_s06_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s07/feishu_xianyu_20260713_s07_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s07/feishu_xianyu_20260713_s07_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s07/feishu_xianyu_20260713_s07_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s08/feishu_xianyu_20260713_s08_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s08/feishu_xianyu_20260713_s08_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s09/feishu_xianyu_20260713_s09_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s09/feishu_xianyu_20260713_s09_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s10/feishu_xianyu_20260713_s10_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s10/feishu_xianyu_20260713_s10_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "截图与实拍以说明交易或服务过程为主，不追求统一视觉模板。"
+    },
+    {
+      "sheet_id": "sheet_03",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_03.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260713_s11",
+        "feishu_xianyu_20260713_s12",
+        "feishu_xianyu_20260713_s13",
+        "feishu_xianyu_20260713_s14",
+        "feishu_xianyu_20260713_s15"
+      ],
+      "image_count": 11,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s11/feishu_xianyu_20260713_s11_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s11/feishu_xianyu_20260713_s11_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s11/feishu_xianyu_20260713_s11_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s12/feishu_xianyu_20260713_s12_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s12/feishu_xianyu_20260713_s12_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s12/feishu_xianyu_20260713_s12_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s13/feishu_xianyu_20260713_s13_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s13/feishu_xianyu_20260713_s13_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s13/feishu_xianyu_20260713_s13_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s14/feishu_xianyu_20260713_s14_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s15/feishu_xianyu_20260713_s15_img01.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "打印机等案例呈现商品页、沟通证据和实物结果的跨格式链路。"
+    },
+    {
+      "sheet_id": "sheet_04",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_04.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260713_s16",
+        "feishu_xianyu_20260713_s17",
+        "feishu_xianyu_20260713_s18",
+        "feishu_xianyu_20260713_s19",
+        "feishu_xianyu_20260713_s20"
+      ],
+      "image_count": 8,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s16/feishu_xianyu_20260713_s16_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s17/feishu_xianyu_20260713_s17_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s18/feishu_xianyu_20260713_s18_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s18/feishu_xianyu_20260713_s18_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s19/feishu_xianyu_20260713_s19_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s19/feishu_xianyu_20260713_s19_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s20/feishu_xianyu_20260713_s20_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s20/feishu_xianyu_20260713_s20_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "连续样本继续使用平台截图与生活照片组合，未形成稳定商业化画风。"
+    },
+    {
+      "sheet_id": "sheet_05",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_05.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260714_s01",
+        "feishu_xianyu_20260714_s02",
+        "feishu_xianyu_20260714_s03",
+        "feishu_xianyu_20260714_s04",
+        "feishu_xianyu_20260714_s05"
+      ],
+      "image_count": 10,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s01/feishu_xianyu_20260714_s01_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s01/feishu_xianyu_20260714_s01_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s02/feishu_xianyu_20260714_s02_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s02/feishu_xianyu_20260714_s02_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s03/feishu_xianyu_20260714_s03_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s03/feishu_xianyu_20260714_s03_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s04/feishu_xianyu_20260714_s04_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s04/feishu_xianyu_20260714_s04_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s05/feishu_xianyu_20260714_s05_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s05/feishu_xianyu_20260714_s05_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "手电等物件使用直接手机实拍，光线、背景与使用痕迹保持自然。"
+    },
+    {
+      "sheet_id": "sheet_06",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_06.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260714_s06",
+        "feishu_xianyu_20260714_s07",
+        "feishu_xianyu_20260714_s08",
+        "feishu_xianyu_20260714_s09",
+        "feishu_xianyu_20260714_s10"
+      ],
+      "image_count": 11,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s06/feishu_xianyu_20260714_s06_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s06/feishu_xianyu_20260714_s06_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s06/feishu_xianyu_20260714_s06_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s07/feishu_xianyu_20260714_s07_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s07/feishu_xianyu_20260714_s07_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s08/feishu_xianyu_20260714_s08_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s08/feishu_xianyu_20260714_s08_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s09/feishu_xianyu_20260714_s09_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s09/feishu_xianyu_20260714_s09_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s10/feishu_xianyu_20260714_s10_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s10/feishu_xianyu_20260714_s10_img02.png"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "宠物服务案例以说明页、聊天和现场照片共同证明执行过程。"
+    },
+    {
+      "sheet_id": "sheet_07",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_07.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260714_s11",
+        "feishu_xianyu_20260714_s12",
+        "feishu_xianyu_20260714_s13",
+        "feishu_xianyu_20260714_s14",
+        "feishu_xianyu_20260714_s15"
+      ],
+      "image_count": 12,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s11/feishu_xianyu_20260714_s11_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s11/feishu_xianyu_20260714_s11_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s12/feishu_xianyu_20260714_s12_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s12/feishu_xianyu_20260714_s12_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s13/feishu_xianyu_20260714_s13_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s13/feishu_xianyu_20260714_s13_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s14/feishu_xianyu_20260714_s14_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s14/feishu_xianyu_20260714_s14_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s15/feishu_xianyu_20260714_s15_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s15/feishu_xianyu_20260714_s15_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s15/feishu_xianyu_20260714_s15_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s15/feishu_xianyu_20260714_s15_img04.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "出现简洁的一句话标题卡；标题卡之后仍需物件或截图证据承接。"
+    },
+    {
+      "sheet_id": "sheet_08",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_08.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260714_s16",
+        "feishu_xianyu_20260714_s17",
+        "feishu_xianyu_20260714_s18",
+        "feishu_xianyu_20260714_s19",
+        "feishu_xianyu_20260714_s20"
+      ],
+      "image_count": 13,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s16/feishu_xianyu_20260714_s16_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s16/feishu_xianyu_20260714_s16_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s16/feishu_xianyu_20260714_s16_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s17/feishu_xianyu_20260714_s17_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s17/feishu_xianyu_20260714_s17_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s17/feishu_xianyu_20260714_s17_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s18/feishu_xianyu_20260714_s18_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s18/feishu_xianyu_20260714_s18_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s19/feishu_xianyu_20260714_s19_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s19/feishu_xianyu_20260714_s19_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s19/feishu_xianyu_20260714_s19_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s20/feishu_xianyu_20260714_s20_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260714/feishu_xianyu_20260714_s20/feishu_xianyu_20260714_s20_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "人物、聊天、主页和商品页混用时强调身份脱敏与可见事实边界。"
+    },
+    {
+      "sheet_id": "sheet_09",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_09.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260715_s01",
+        "feishu_xianyu_20260715_s02",
+        "feishu_xianyu_20260715_s03",
+        "feishu_xianyu_20260715_s04",
+        "feishu_xianyu_20260715_s05"
+      ],
+      "image_count": 13,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s01/feishu_xianyu_20260715_s01_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s01/feishu_xianyu_20260715_s01_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s02/feishu_xianyu_20260715_s02_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s02/feishu_xianyu_20260715_s02_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s02/feishu_xianyu_20260715_s02_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s03/feishu_xianyu_20260715_s03_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s03/feishu_xianyu_20260715_s03_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s03/feishu_xianyu_20260715_s03_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s04/feishu_xianyu_20260715_s04_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s04/feishu_xianyu_20260715_s04_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s04/feishu_xianyu_20260715_s04_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s05/feishu_xianyu_20260715_s05_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s05/feishu_xianyu_20260715_s05_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "商品页、聊天与音箱实物构成信息递进；不是单纯追求画面美感。"
+    },
+    {
+      "sheet_id": "sheet_10",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_10.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260715_s06",
+        "feishu_xianyu_20260715_s07",
+        "feishu_xianyu_20260715_s08",
+        "feishu_xianyu_20260715_s09",
+        "feishu_xianyu_20260715_s10"
+      ],
+      "image_count": 11,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s06/feishu_xianyu_20260715_s06_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s06/feishu_xianyu_20260715_s06_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s07/feishu_xianyu_20260715_s07_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s07/feishu_xianyu_20260715_s07_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s07/feishu_xianyu_20260715_s07_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s08/feishu_xianyu_20260715_s08_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s08/feishu_xianyu_20260715_s08_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s09/feishu_xianyu_20260715_s09_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s09/feishu_xianyu_20260715_s09_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s10/feishu_xianyu_20260715_s10_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s10/feishu_xianyu_20260715_s10_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "相机等物件以低制作感实拍承担真实性，不自动美化瑕疵。"
+    },
+    {
+      "sheet_id": "sheet_11",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_11.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260715_s11",
+        "feishu_xianyu_20260715_s12",
+        "feishu_xianyu_20260715_s13",
+        "feishu_xianyu_20260715_s14",
+        "feishu_xianyu_20260715_s15"
+      ],
+      "image_count": 11,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s11/feishu_xianyu_20260715_s11_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s11/feishu_xianyu_20260715_s11_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s12/feishu_xianyu_20260715_s12_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s12/feishu_xianyu_20260715_s12_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s13/feishu_xianyu_20260715_s13_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s13/feishu_xianyu_20260715_s13_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s14/feishu_xianyu_20260715_s14_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s14/feishu_xianyu_20260715_s14_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s15/feishu_xianyu_20260715_s15_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s15/feishu_xianyu_20260715_s15_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s15/feishu_xianyu_20260715_s15_img03.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "一句话标题卡与交易截图组合，卡片是可选钩子，不是统一封面规范。"
+    },
+    {
+      "sheet_id": "sheet_12",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_12.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260715_s16",
+        "feishu_xianyu_20260715_s17",
+        "feishu_xianyu_20260715_s18",
+        "feishu_xianyu_20260715_s19",
+        "feishu_xianyu_20260715_s20"
+      ],
+      "image_count": 10,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s16/feishu_xianyu_20260715_s16_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s16/feishu_xianyu_20260715_s16_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s17/feishu_xianyu_20260715_s17_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s17/feishu_xianyu_20260715_s17_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s18/feishu_xianyu_20260715_s18_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s18/feishu_xianyu_20260715_s18_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s19/feishu_xianyu_20260715_s19_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s19/feishu_xianyu_20260715_s19_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s20/feishu_xianyu_20260715_s20_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260715/feishu_xianyu_20260715_s20/feishu_xianyu_20260715_s20_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "标题卡在连续样本中复现，但颜色、装饰与后续证据形态并不恒定。"
+    },
+    {
+      "sheet_id": "sheet_13",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_13.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260716_s01",
+        "feishu_xianyu_20260716_s02",
+        "feishu_xianyu_20260716_s03",
+        "feishu_xianyu_20260716_s04",
+        "feishu_xianyu_20260716_s05"
+      ],
+      "image_count": 13,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s01/feishu_xianyu_20260716_s01_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s01/feishu_xianyu_20260716_s01_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s02/feishu_xianyu_20260716_s02_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s02/feishu_xianyu_20260716_s02_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s03/feishu_xianyu_20260716_s03_img01.png",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s03/feishu_xianyu_20260716_s03_img02.png",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s03/feishu_xianyu_20260716_s03_img03.png",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s04/feishu_xianyu_20260716_s04_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s04/feishu_xianyu_20260716_s04_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s04/feishu_xianyu_20260716_s04_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s05/feishu_xianyu_20260716_s05_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s05/feishu_xianyu_20260716_s05_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s05/feishu_xianyu_20260716_s05_img03.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "标题卡、平台截图、聊天和桌子实拍混排，序列服务于故事理解。"
+    },
+    {
+      "sheet_id": "sheet_14",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_14.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260716_s06",
+        "feishu_xianyu_20260716_s07",
+        "feishu_xianyu_20260716_s08",
+        "feishu_xianyu_20260716_s09",
+        "feishu_xianyu_20260716_s10"
+      ],
+      "image_count": 12,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s06/feishu_xianyu_20260716_s06_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s06/feishu_xianyu_20260716_s06_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s06/feishu_xianyu_20260716_s06_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s07/feishu_xianyu_20260716_s07_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s07/feishu_xianyu_20260716_s07_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s07/feishu_xianyu_20260716_s07_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s08/feishu_xianyu_20260716_s08_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s08/feishu_xianyu_20260716_s08_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s08/feishu_xianyu_20260716_s08_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s09/feishu_xianyu_20260716_s09_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s09/feishu_xianyu_20260716_s09_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s10/feishu_xianyu_20260716_s10_img01.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "笔记本商品页与实物、缝纫机生活照片体现先交代信息再给结果或细节。"
+    },
+    {
+      "sheet_id": "sheet_15",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_15.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260716_s11",
+        "feishu_xianyu_20260716_s12",
+        "feishu_xianyu_20260716_s13",
+        "feishu_xianyu_20260716_s14",
+        "feishu_xianyu_20260716_s15"
+      ],
+      "image_count": 10,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s11/feishu_xianyu_20260716_s11_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s11/feishu_xianyu_20260716_s11_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s12/feishu_xianyu_20260716_s12_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s13/feishu_xianyu_20260716_s13_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s13/feishu_xianyu_20260716_s13_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s13/feishu_xianyu_20260716_s13_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s14/feishu_xianyu_20260716_s14_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s14/feishu_xianyu_20260716_s14_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s15/feishu_xianyu_20260716_s15_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s15/feishu_xianyu_20260716_s15_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "多种截图和实拍共存，无法抽取稳定的摄影棚、滤镜或品牌配色规则。"
+    },
+    {
+      "sheet_id": "sheet_16",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_16.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260716_s16",
+        "feishu_xianyu_20260716_s17",
+        "feishu_xianyu_20260716_s18",
+        "feishu_xianyu_20260716_s19",
+        "feishu_xianyu_20260716_s20"
+      ],
+      "image_count": 12,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s16/feishu_xianyu_20260716_s16_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s16/feishu_xianyu_20260716_s16_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s16/feishu_xianyu_20260716_s16_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s17/feishu_xianyu_20260716_s17_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s17/feishu_xianyu_20260716_s17_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s17/feishu_xianyu_20260716_s17_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s18/feishu_xianyu_20260716_s18_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s19/feishu_xianyu_20260716_s19_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s19/feishu_xianyu_20260716_s19_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s20/feishu_xianyu_20260716_s20_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s20/feishu_xianyu_20260716_s20_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260716/feishu_xianyu_20260716_s20/feishu_xianyu_20260716_s20_img03.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "滑板等普通场景实拍保留环境毛边，适合作为物件真实性证据。"
+    },
+    {
+      "sheet_id": "sheet_17",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_17.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260717_s01",
+        "feishu_xianyu_20260717_s02",
+        "feishu_xianyu_20260717_s03",
+        "feishu_xianyu_20260717_s04",
+        "feishu_xianyu_20260717_s05"
+      ],
+      "image_count": 13,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s01/feishu_xianyu_20260717_s01_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s01/feishu_xianyu_20260717_s01_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s01/feishu_xianyu_20260717_s01_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s02/feishu_xianyu_20260717_s02_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s02/feishu_xianyu_20260717_s02_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s03/feishu_xianyu_20260717_s03_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s03/feishu_xianyu_20260717_s03_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s03/feishu_xianyu_20260717_s03_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s04/feishu_xianyu_20260717_s04_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s04/feishu_xianyu_20260717_s04_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s04/feishu_xianyu_20260717_s04_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s05/feishu_xianyu_20260717_s05_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s05/feishu_xianyu_20260717_s05_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "吉他和胶片相机案例使用物件、平台/聊天与使用结果共同推进。"
+    },
+    {
+      "sheet_id": "sheet_18",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_18.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260717_s06",
+        "feishu_xianyu_20260717_s07",
+        "feishu_xianyu_20260717_s08",
+        "feishu_xianyu_20260717_s09",
+        "feishu_xianyu_20260717_s10"
+      ],
+      "image_count": 12,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s06/feishu_xianyu_20260717_s06_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s06/feishu_xianyu_20260717_s06_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s06/feishu_xianyu_20260717_s06_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s07/feishu_xianyu_20260717_s07_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s07/feishu_xianyu_20260717_s07_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s08/feishu_xianyu_20260717_s08_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s08/feishu_xianyu_20260717_s08_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s08/feishu_xianyu_20260717_s08_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s09/feishu_xianyu_20260717_s09_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s09/feishu_xianyu_20260717_s09_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s10/feishu_xianyu_20260717_s10_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s10/feishu_xianyu_20260717_s10_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "2—3 张组合继续占主流；每张承担不同信息角色而非重复装饰。"
+    },
+    {
+      "sheet_id": "sheet_19",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_19.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260717_s11",
+        "feishu_xianyu_20260717_s12",
+        "feishu_xianyu_20260717_s13",
+        "feishu_xianyu_20260717_s14",
+        "feishu_xianyu_20260717_s15"
+      ],
+      "image_count": 14,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s11/feishu_xianyu_20260717_s11_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s11/feishu_xianyu_20260717_s11_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s12/feishu_xianyu_20260717_s12_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s12/feishu_xianyu_20260717_s12_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s12/feishu_xianyu_20260717_s12_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s13/feishu_xianyu_20260717_s13_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s13/feishu_xianyu_20260717_s13_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s14/feishu_xianyu_20260717_s14_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s14/feishu_xianyu_20260717_s14_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s14/feishu_xianyu_20260717_s14_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s14/feishu_xianyu_20260717_s14_img04.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s14/feishu_xianyu_20260717_s14_img05.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s15/feishu_xianyu_20260717_s15_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s15/feishu_xianyu_20260717_s15_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "生活照片、聊天与相机商品页组合；五图样本说明数量按证据需要变化。"
+    },
+    {
+      "sheet_id": "sheet_20",
+      "path": "10_Knowledge/candidates/account_learning_workflows/xianyu-story-ugc-xiaohao-20260713-0717/visual_evidence/contact_sheets/sheet_20.jpg",
+      "source_ids": [
+        "feishu_xianyu_20260717_s16",
+        "feishu_xianyu_20260717_s17",
+        "feishu_xianyu_20260717_s18",
+        "feishu_xianyu_20260717_s19",
+        "feishu_xianyu_20260717_s20"
+      ],
+      "image_count": 11,
+      "source_paths": [
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s16/feishu_xianyu_20260717_s16_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s16/feishu_xianyu_20260717_s16_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s16/feishu_xianyu_20260717_s16_img03.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s17/feishu_xianyu_20260717_s17_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s17/feishu_xianyu_20260717_s17_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s18/feishu_xianyu_20260717_s18_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s18/feishu_xianyu_20260717_s18_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s19/feishu_xianyu_20260717_s19_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s19/feishu_xianyu_20260717_s19_img02.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s20/feishu_xianyu_20260717_s20_img01.jpg",
+        "90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260717/feishu_xianyu_20260717_s20/feishu_xianyu_20260717_s20_img02.jpg"
+      ],
+      "audit_status": "reviewed",
+      "manual_review_note": "收尾样本仍以可核验截图和普通实拍为核心，没有稳定精修视觉体系。"
+    }
+  ],
+  "codex_visual_review_complete": true,
+  "reviewed_sheet_count": 20,
+  "reviewed_image_count": 230
+}

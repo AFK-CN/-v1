@@ -1,0 +1,89 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:45",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/142b50820ecb3dee9239d8455b6cdf9d/notes_pre_post/1040g3k8320n8csth5k804busfur776f8rgssl20!nd_dft_wlteh_webp_3"
+    },
+    "download_image_001": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:47",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\001_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/1f11137cb5b87fb1ee14389ff19347db/notes_pre_post/1040g3k8320n8csth5k704busfur776f804gmjng!nd_dft_wlteh_webp_3"
+    },
+    "download_image_002": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:49",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\002_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/436b70642763684cc03333ed8e416ac4/notes_pre_post/1040g3k8320n8csth5ka04busfur776f814g8ma0!nd_dft_wlteh_webp_3"
+    },
+    "download_image_003": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:51",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\003_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/088ce878e1ce86d9816a4f6ceec1d5ee/notes_pre_post/1040g3k8320n8csth5k8g4busfur776f8hjuuv08!nd_dft_wlteh_webp_3"
+    },
+    "download_image_004": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:53",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\004_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/cc814da9b7273578fff4bff386522548/notes_pre_post/1040g3k8320n8csth5k904busfur776f8mu4b7d8!nd_dft_wlteh_webp_3"
+    },
+    "download_image_005": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:56",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\005_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/0a99e4e524edf4b42648a78c06ee4d31/notes_pre_post/1040g3k8320n8csth5k9g4busfur776f87tb41c8!nd_dft_wlteh_webp_3"
+    },
+    "download_image_006": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:02:57",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\006_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051002/a3c6f0191bba881e8961b1adb8f7ffa7/notes_pre_post/1040g3k8320n8csth5k7g4busfur776f8gtvrfq0!nd_dft_wlteh_webp_3"
+    },
+    "process_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:03",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\000_cover.jpg",
+      "has_text": true
+    },
+    "process_image_001": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:05",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\001_image.jpg",
+      "has_text": true
+    },
+    "process_image_002": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:07",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\002_image.jpg",
+      "has_text": true
+    },
+    "process_image_003": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:08",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\003_image.jpg",
+      "has_text": true
+    },
+    "process_image_004": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:10",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\004_image.jpg",
+      "has_text": true
+    },
+    "process_image_005": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:12",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\005_image.jpg",
+      "has_text": true
+    },
+    "process_image_006": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:31:14",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6a1ee0840000000035025a38\\images\\006_image.jpg",
+      "has_text": true
+    }
+  },
+  "updated_at": "2026-07-11T00:31:14"
+}

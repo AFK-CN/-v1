@@ -24,5 +24,17 @@
   "user_review_required": true,
   "account_name": "李宗恒",
   "workflow_id": "lizongheng-v2-full",
-  "pressure_test_pass_rate": 1.0
+  "pressure_test_pass_rate": 1.0,
+  "source_total": 430,
+  "deep_card_count": 430,
+  "deferred_evidence_count": 0,
+  "verified_candidate_method_count": 4,
+  "schema_version": "2.6",
+  "v26_unified_source_count": 280,
+  "v26_legacy_compatible_source_count": 150,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 430,
+  "publish_copy_completed_count": 430,
+  "publish_copy_deferred_count": 0
 }

@@ -1,0 +1,151 @@
+{
+  "schema_version": 1,
+  "status": "ready_offline",
+  "generated_at": "2026-07-17T00:19:32+08:00",
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "purpose": "NAS 断开时的账号 Skill 查看、复查和证据回溯",
+  "source_policy": "原始资料只读；离线包仅复制已有产出物",
+  "selected_count": 10,
+  "direction_count": 3,
+  "direction_counts": {
+    "商品广告植入": 4,
+    "平台项目": 3,
+    "自然短剧情": 3
+  },
+  "total_bytes": 137454522,
+  "discovery": {
+    "account_center": "10_Knowledge/formal/accounts/李宗恒",
+    "formal_direction_count": 3,
+    "formal_card_count": 430,
+    "source_root": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656",
+    "source_root_match_scores": {
+      "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656": 40,
+      "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383": 0
+    },
+    "matched_direction_count": 3,
+    "matched_card_count": 30
+  },
+  "items": [
+    {
+      "direction": "商品广告植入",
+      "source_id": "7037784430093618447",
+      "title": "《这四年过的…》#大学生 #李宗恒 #内容过于真实",
+      "content_type": "video",
+      "bytes": 18638272,
+      "file_count": 40,
+      "quality_score": 185,
+      "bundle_path": "directions/商品广告植入/dy_7037784430093618447",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/商品广告植入/cards/7037784430093618447.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7037784430093618447"
+    },
+    {
+      "direction": "商品广告植入",
+      "source_id": "7118581510269062415",
+      "title": "《友情保卫战？？？》#李宗恒 #梦幻西游网页版",
+      "content_type": "video",
+      "bytes": 23832226,
+      "file_count": 55,
+      "quality_score": 185,
+      "bundle_path": "directions/商品广告植入/dy_7118581510269062415",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/商品广告植入/cards/7118581510269062415.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7118581510269062415"
+    },
+    {
+      "direction": "商品广告植入",
+      "source_id": "7089631965304868130",
+      "title": "《别针换别墅》#李宗恒 #一加ace",
+      "content_type": "video",
+      "bytes": 26672734,
+      "file_count": 54,
+      "quality_score": 185,
+      "bundle_path": "directions/商品广告植入/dy_7089631965304868130",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/商品广告植入/cards/7089631965304868130.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7089631965304868130"
+    },
+    {
+      "direction": "商品广告植入",
+      "source_id": "7115324667472268585",
+      "title": "《暖她一整天》#李宗恒",
+      "content_type": "video",
+      "bytes": 30541701,
+      "file_count": 57,
+      "quality_score": 185,
+      "bundle_path": "directions/商品广告植入/dy_7115324667472268585",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/商品广告植入/cards/7115324667472268585.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7115324667472268585"
+    },
+    {
+      "direction": "平台项目",
+      "source_id": "7190352749056265529",
+      "title": "《我有些话想说》#李宗恒",
+      "content_type": "video",
+      "bytes": 8692574,
+      "file_count": 32,
+      "quality_score": 185,
+      "bundle_path": "directions/平台项目/dy_7190352749056265529",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/平台项目/cards/7190352749056265529.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7190352749056265529"
+    },
+    {
+      "direction": "平台项目",
+      "source_id": "7190919342081527100",
+      "title": "《如此看小品》#李宗恒",
+      "content_type": "video",
+      "bytes": 8641428,
+      "file_count": 29,
+      "quality_score": 185,
+      "bundle_path": "directions/平台项目/dy_7190919342081527100",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/平台项目/cards/7190919342081527100.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7190919342081527100"
+    },
+    {
+      "direction": "平台项目",
+      "source_id": "7225106446592068919",
+      "title": "第一次走红毯 确实有点社牛变社恐了…#李宗恒 #人生路不熟",
+      "content_type": "video",
+      "bytes": 9041732,
+      "file_count": 33,
+      "quality_score": 185,
+      "bundle_path": "directions/平台项目/dy_7225106446592068919",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/平台项目/cards/7225106446592068919.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7225106446592068919"
+    },
+    {
+      "direction": "自然短剧情",
+      "source_id": "7018766905863425315",
+      "title": "李宗恒统一账号发布资产学习卡：《一定要关心女生》#李宗恒",
+      "content_type": "video",
+      "bytes": 3360055,
+      "file_count": 20,
+      "quality_score": 185,
+      "bundle_path": "directions/自然短剧情/dy_7018766905863425315",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/自然短剧情/cards/7018766905863425315.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7018766905863425315"
+    },
+    {
+      "direction": "自然短剧情",
+      "source_id": "7014769835527703848",
+      "title": "李宗恒统一账号发布资产学习卡：《 吃啥呢 》#校园 #内容过于真实 #李宗恒",
+      "content_type": "video",
+      "bytes": 4074003,
+      "file_count": 24,
+      "quality_score": 185,
+      "bundle_path": "directions/自然短剧情/dy_7014769835527703848",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/自然短剧情/cards/7014769835527703848.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7014769835527703848"
+    },
+    {
+      "direction": "自然短剧情",
+      "source_id": "7008840377713069347",
+      "title": "李宗恒统一账号发布资产学习卡：《嗯…》#内容过于真实 #宿舍",
+      "content_type": "video",
+      "bytes": 3959797,
+      "file_count": 21,
+      "quality_score": 185,
+      "bundle_path": "directions/自然短剧情/dy_7008840377713069347",
+      "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/自然短剧情/cards/7008840377713069347.md",
+      "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7008840377713069347"
+    }
+  ]
+}

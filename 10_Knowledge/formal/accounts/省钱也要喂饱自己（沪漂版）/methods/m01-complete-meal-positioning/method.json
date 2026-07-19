@@ -1,0 +1,110 @@
+{
+  "id": "m01-complete-meal-positioning",
+  "schema_version": "2.3",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "formal_write": true,
+  "user_review_required": false,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "完整而非惩罚式的一人食定位",
+  "mechanism_kind": "positioning",
+  "trigger_signals": [
+    "独居或打工人一人食",
+    "诉求是低负担但仍要吃饱",
+    "素材能组成蛋白质、蔬菜和主食的完整餐"
+  ],
+  "trigger_model": {
+    "mechanism": "用完整餐盘和低门槛做法化解‘自律等于少吃’的冲突，让吃饱成为定位承诺而非减脂反证。",
+    "applicable_relations": [
+      "独居一人食",
+      "生活化减脂",
+      "完整餐盘",
+      "省钱与饱腹并存"
+    ],
+    "transferable_scenes": [
+      "下班晚餐",
+      "普通工作日午餐",
+      "周菜单合集",
+      "设备并行做饭"
+    ],
+    "do_not_trigger_on": [
+      "只有单品零食或饮料",
+      "以体重变化为主角",
+      "无法组成完整餐",
+      "商品广告或平台项目未先分轨"
+    ]
+  },
+  "do_not_use": [
+    "不得把完整餐写成减重结果证明",
+    "不得虚构热量、营养或饱腹时长",
+    "不得用极端少量食物制造自律感"
+  ],
+  "execution_steps": [
+    "先确认素材至少包含主菜、蔬菜和主食",
+    "把用户冲突写成‘想轻负担但不想饿’",
+    "封面和标题优先交付完整餐而非体重承诺",
+    "用家常做法或真实成本降低执行门槛",
+    "结尾回到一个人也要认真吃饱，不上升为医学结论"
+  ],
+  "source_refs": [
+    "xhs:68cb6d6700000000120219c8",
+    "xhs:69072db20000000007017028",
+    "xhs:69b5399a000000001d019073",
+    "xhs:6a47295e00000000110052af",
+    "xhs:68fb51bd000000000700ace0",
+    "xhs:6a423d42000000000f017143",
+    "xhs:68cfd191000000001203d37f",
+    "xhs:68df7adb000000000700eea4"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "68 条自然内容跨普通单餐、周合集、成本与设备场景反复维持完整餐而非惩罚式少吃；商品广告和平台项目未计入。",
+      "evidence_refs": [
+        "68cb6d6700000000120219c8",
+        "69072db20000000007017028",
+        "69b5399a000000001d019073",
+        "6a47295e00000000110052af",
+        "68fb51bd000000000700ace0",
+        "6a423d42000000000f017143",
+        "68cfd191000000001203d37f",
+        "68df7adb000000000700eea4"
+      ],
+      "relation_or_scene_types": [
+        "普通单餐",
+        "周菜单合集",
+        "成本透明餐",
+        "设备效率餐"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-positioning-01",
+      "prompt_sha256": "3abd46d4e189f009d2ea6cd9ed4e0fce9f81d10d523bd07696f8c1e2c47ec716",
+      "structural_prediction": [
+        "仍呈现蛋白质、蔬菜、主食的完整餐",
+        "用低门槛做法替代少吃叙事",
+        "明确不把餐食画面写成减重证明"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "可辨识点不是泛泛的健康饮食，而是深色桌面四项完整餐、独居低门槛做法和‘吃饱/快乐自律’语气共同消解节食感。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  },
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-16T20:11:21+08:00",
+  "approval_basis": "2026-07-16 用户明确回复‘入库吧’；七阶段验证、三重验证和压力测试全部通过。"
+}

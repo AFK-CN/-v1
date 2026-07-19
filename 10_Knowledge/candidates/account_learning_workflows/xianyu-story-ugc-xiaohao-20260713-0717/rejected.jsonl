@@ -1,0 +1,2 @@
+{"id": "xugc-b01", "title": "平台项目、真实性、视觉和效果数据证据门", "failed_checks": ["not_a_callable_method", "missing_truth_visual_performance_evidence"], "reason": "这是所有方法必须遵守的证据门，不是内容生成方法。", "disposition": "retain_as_evidence_gate"}
+{"id": "xugc-b02", "title": "方向词、平台词和一般写作常识不构成方法", "failed_checks": ["v2_predictive_usefulness", "v3_task_exclusivity"], "reason": "方向词和平台常识不能对未见任务给出非平庸结构预测，只保留为误触发边界。", "disposition": "retain_as_boundary_rule"}

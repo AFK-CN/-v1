@@ -1,72 +1,31 @@
-# 通用知识库系统
+# 本机知识库系统
 
-本项目由两部分组成：
+系统被收敛为三条稳定能力：
 
-1. 通用知识库系统底座：规则、CLI、Skill、索引、schema、运行状态和模板包。
-2. 当前知识资产：使用这套系统后沉淀的方法论、学习卡、选题、账号中心、复盘和用户偏好。
+1. `content-processing`：接入、下载、解析、清洗、扫描、粗学归类和深学计划。
+2. `account-learning`：系统性学习证据，生成经审核的账号 Skill。
+3. `content-review`：把生产反馈绑定到真实内容，生成补学或账号 Skill 更新提案。
 
-系统层的目标是未来可以剥离成模板包，给其他人快速建立自己的知识库。知识层不能被任何单一账号写死；账号知识只是知识资产的一种。
+真正用于内容生产的是各账号中心自己的账号 Skill。账号 Skill 注册表和生产记忆位于 `20_User/`，因此系统可以迁移到其他电脑，而每台电脑保留自己的账号启用状态、选题记录、内容记录和反馈。
 
-## 核心原则
+入口见 `知识库入口.md`；路由见 `00_System/shareable/index/controller_routes.json`；规则权威源见 `00_System/shareable/rules/规则权威源.md`。
 
-- 原始文件不删除、不修改。`数据/` 和 `00_Inbox/` 中的原始资料只读处理。
-- 默认不全盘扫库，日常调用先读入口、任务索引和轻量摘要。
-- 系统底座和知识资产分离：系统可以分享，知识资产不进入系统模板包。
-- 运行状态和本机配置不分享：`00_System/runtime/`、`80_Local/` 默认阻断。
-- 候选资产属于知识层，进入 `10_Knowledge/candidates/`，不能当正式知识直接调用。
-- Skill 属于系统能力。通用 active Skill、proposal 模板和回滚规则归系统层；账号风格和个人偏好不写入系统级 Skill。
-- 正式子库新增前必须先问用户；active Skill 修改前必须先进入 proposal，确认后再生效。
+常用命令：
 
-## 目标分层
+```bash
+.venv/bin/python -m tools.kb.cli --root . skill-install
+.venv/bin/python -m tools.kb.cli --root . init
+.venv/bin/python -m tools.kb.cli --root . user-validate
+.venv/bin/python -m tools.kb.cli --root . validate-system
+.venv/bin/python -m tools.kb.cli --root . release-gate
+.venv/bin/python -m tools.kb.cli --root . distribution-audit
+.venv/bin/python -m tools.kb.cli --root . system-export --output /tmp/kb-system
+```
 
-- `00_System/`：系统层。`shareable/` 可分享，`runtime/` 不可分享。
-- `10_Knowledge/`：知识层。`formal/` 放正式知识，`candidates/` 放候选知识，`evidence/` 放证据索引。
-- `20_User/`：用户层。`syncable/` 可同步，`private/` 私有不分享。
-- `80_Local/`：本机私有配置，放路径、账号标识、NAS、私有开关和密钥引用说明，默认忽略。
-- `90_Temp/`：临时层，只放短期输入、草稿、一次性中间文件和临时导出。
-- `99_Archive/`：归档层，放历史、废弃、低价值内容索引。
-- `数据/`：受保护原始资料，默认不展开、不删除、不分享。
+新电脑先执行 `skill-install`，把中英文全局入口绑定到当前知识库根目录；再执行 `init` 建立本机用户层和运行状态。
 
-当前系统层已物理收口到 `00_System/shareable/` 和 `00_System/runtime/`。详细结构见 `00_System/shareable/docs/知识库优化目录结构.md`。
+`release-gate` 是本机与 CI 共用的完整发布门，覆盖系统验证、Doctor、用户层、污染边界、分发、正式检索和性能。`distribution-audit` 检查系统分享面是否混入账号、用户数据、本机绝对路径或凭证；`system-export` 按分享清单生成不含知识层和用户层的独立系统包。
 
-## 已迁移目录
+可迁移系统包采用 Apache-2.0；许可证只覆盖 `00_System/shareable/share_manifest.json` 选中的系统文件。正式知识、候选、账号资产、用户数据、原始资料、运行产物和归档不在开源授权范围内，具体见 `LICENSE_SCOPE.md`。
 
-- 旧系统目录已物理迁移完成，不再作为根目录里的系统入口。
-- `13_Evolving_Skills/` 已迁入 `00_System/shareable/skills/`。
-- `02_Viral_Methods/`、`03_Topic_Ideas/`、`04_Platform_Knowledge/`、`06_Sub_KB/`、`08_Content_Factory/`、`09_Performance_Feedback/`、`10_Weekly_Review/` 已迁入 `10_Knowledge/formal/`。
-- `05_Sub_KB_Candidates/` 已迁入 `10_Knowledge/candidates/sub_kbs/`。
-- `12_User_Preferences/` 已迁入 `20_User/syncable/preferences/`。
-- `01_Case_Cleaning/` 下的学习/粗扫候选资产已迁入 `10_Knowledge/candidates/`；状态、报告和缓存已迁入 `00_System/runtime/`。
-
-## 使用入口
-
-新对话或其他项目调用方式见：
-
-- `知识库入口.md`
-- `00_System/shareable/rules/用户操作台.md`
-- `00_System/shareable/rules/本机使用速查.md`
-- `00_System/shareable/rules/使用文档.md`
-- `00_System/shareable/docs/project_use/项目调用规则.md`
-
-默认先读 `00_System/shareable/index/controller_routes.json`、`00_System/shareable/index/task_entry_index.md` 和 `10_Knowledge/evidence/index/knowledge_index_summary.md`。`knowledge_index.json` 是全量机器索引，只给脚本、全量审计或明确要求时使用。
-
-## 系统命令
-
-- 初始化运行生命周期：`.venv/bin/python -m tools.kb.cli --root . init`
-- 初始化目标分层目录：`.venv/bin/python -m tools.kb.cli --root . init-layers`
-- 日常健康门禁：`.venv/bin/python -m tools.kb.cli --root . health-gate`
-- 生成索引：`.venv/bin/python -m tools.kb.cli --root . index`
-- 系统验收：`.venv/bin/python -m tools.kb.cli --root . validate-system`
-
-## 环境迁移
-
-环境依赖说明见 `ENVIRONMENT.md`。当前本机验证环境是 macOS；迁移到 Windows 家用电脑时，按 `ENVIRONMENT.md` 里的 Windows 迁移环境补齐 Python、FFmpeg/FFprobe、Tesseract 和中文 OCR 语言包后，再运行系统验收命令。
-
-## Skill 入口
-
-对外固定入口源包：
-
-- `00_System/shareable/skill_packages/知识库/`：中文快捷入口，优先用于 `@知识库`
-- `00_System/shareable/skill_packages/knowledge-base/`
-
-其他项目优先通过 `@知识库 + 需求` / “知识库” Skill 入口调用，不要直接用文件搜索选一批 Markdown 文件。
+`数据/` 和 `00_Inbox/` 中的原始资料只读，默认不展开扫描。

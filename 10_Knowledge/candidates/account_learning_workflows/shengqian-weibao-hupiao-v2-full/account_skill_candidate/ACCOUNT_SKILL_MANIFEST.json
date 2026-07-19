@@ -1,0 +1,26 @@
+{
+  "schema_version": "account_skill_candidate_v1",
+  "status": "ready_for_review",
+  "workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "account_skill_version": "2.1",
+  "pipeline_version": "2.9",
+  "source_method_ids": [
+    "m01-complete-meal-positioning",
+    "m02-fixed-mother-topic-variable",
+    "m03-double-cover-tiered-tutorial",
+    "m04-weekly-reindex",
+    "m05-cost-proof-tail",
+    "m06-device-process-proof",
+    "m07-recipe-body-fingerprint"
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "migration": {
+    "type": "backfill_from_approved_formal_account_skill",
+    "source_skill": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/SKILL.md",
+    "migrated_at": "2026-07-19T16:09:41"
+  }
+}

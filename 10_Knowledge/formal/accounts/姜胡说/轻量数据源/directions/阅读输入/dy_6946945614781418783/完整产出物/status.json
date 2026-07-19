@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T00:44:49",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6946945614781418783\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c1k81otjd0l2kfjd3v70&line=0&file_id=acd8c82ac5e64791b2913199162ce12c&sign=f61c3cb6f60383e8c192b1934892c530&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:19:16",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6946945614781418783\\video\\source.mp4",
+      "duration_sec": 65.366667,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 1961,
+      "platform": "dy",
+      "source_id": "6946945614781418783",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c1k81otjd0l2kfjd3v70&line=0&file_id=acd8c82ac5e64791b2913199162ce12c&sign=f61c3cb6f60383e8c192b1934892c530&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "像我一样的普通人，一定要多读书。#姜胡说 #知识就是财富",
+      "desc": "像我一样的普通人，一定要多读书。#姜胡说 #知识就是财富",
+      "publish_time": 1617461872,
+      "account_id": "77700555383",
+      "account_name": "姜胡说"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:19:18",
+      "count": 33,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6946945614781418783\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:19:18",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6946945614781418783\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:19:59",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6946945614781418783\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_6946945614781418783\\video\\transcript.srt",
+      "segments": 33
+    }
+  },
+  "updated_at": "2026-07-11T00:19:59"
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m04-weekly-reindex",
+  "test_cases": [
+    {
+      "id": "m04-weekly-reindex-t1",
+      "type": "should_trigger",
+      "prompt": "已有七份统一四碗封面，需要做一周不重样的快速菜单索引。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m04-weekly-reindex-t2",
+      "type": "should_not_trigger",
+      "prompt": "只有一餐但步骤丰富，要求复杂菜详讲、简单菜略写。",
+      "expected_decision": "do_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "m05-cost-proof-tail"
+    },
+    {
+      "id": "m04-weekly-reindex-t3",
+      "type": "edge_case",
+      "prompt": "现有八份餐，剔除一份版式不一致后组成七日索引。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m04-weekly-reindex-t4",
+      "type": "cross_scene_transfer",
+      "prompt": "迁移到五个工作日午餐：仍用固定版式做比较索引，并明确不是七日承诺。",
+      "expected_decision": "trigger",
+      "mechanism_preserved": true,
+      "source_scene": "一周不重样",
+      "target_scene": "宿舍/加班/便当等改变人物与道具后的新场景"
+    },
+    {
+      "id": "m04-weekly-reindex-t5",
+      "type": "commercial_contamination",
+      "prompt": "平台活动要求七页都放活动角标，想证明自然周合集方法。",
+      "expected_decision": "do_not_trigger",
+      "commercial_source_excluded_from_natural_v1": true
+    }
+  ],
+  "evaluation_rule": "仅当核心机制存在且未触发商品广告/平台项目/证据缺失边界时触发。"
+}

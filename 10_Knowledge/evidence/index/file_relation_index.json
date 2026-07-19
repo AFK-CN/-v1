@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-07-15T08:47:07",
+  "generated_at": "2026-07-19T16:18:25",
   "relations": [
     {
       "from": "知识库入口.md",
-      "to": "00_System/shareable/rules/用户操作台.md",
+      "to": "00_System/shareable/index/task_entry_index.md",
       "relation": "entry_requires"
     },
     {
@@ -12,29 +12,24 @@
       "relation": "entry_requires"
     },
     {
-      "from": "知识库入口.md",
-      "to": "00_System/shareable/rules/本机使用速查.md",
-      "relation": "entry_requires"
+      "from": "00_System/shareable/docs/project_use/用户操作台.md",
+      "to": "00_System/shareable/skills/active/content-processing/SKILL.md",
+      "relation": "routes_to"
     },
     {
-      "from": "知识库入口.md",
-      "to": "README.md",
-      "relation": "entry_requires"
+      "from": "00_System/shareable/docs/project_use/用户操作台.md",
+      "to": "00_System/shareable/skills/active/account-learning/SKILL.md",
+      "relation": "routes_to"
     },
     {
-      "from": "知识库入口.md",
-      "to": "00_System/shareable/rules/知识库运行规则.md",
-      "relation": "entry_requires"
+      "from": "00_System/shareable/docs/project_use/用户操作台.md",
+      "to": "00_System/shareable/skills/active/content-review/SKILL.md",
+      "relation": "routes_to"
     },
     {
-      "from": "00_System/shareable/rules/选题生成规则.md",
-      "to": "10_Knowledge/formal/topics/选题灵感库_v1.md",
-      "relation": "defines_schema_for"
-    },
-    {
-      "from": "00_System/shareable/rules/周复盘规则.md",
-      "to": "00_System/shareable/skills/proposals",
-      "relation": "may_create_proposal"
+      "from": "20_User/config/account_skill_registry.json",
+      "to": "10_Knowledge/formal/accounts",
+      "relation": "resolves_account_skills"
     }
   ]
 }

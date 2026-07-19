@@ -1,0 +1,109 @@
+{
+  "id": "m02-fixed-mother-topic-variable",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "formal_write": false,
+  "user_review_required": true,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "固定母题加单一变量的选题系统",
+  "mechanism_kind": "topic_system",
+  "trigger_signals": [
+    "需要连续产出而非一次性爆点",
+    "已有独居一人食或周餐母题",
+    "本条素材只有一个可辨识的新变量"
+  ],
+  "trigger_model": {
+    "mechanism": "锁定账号母题，每条只替换主菜、效率、成本或季节中的一个变量，以稳定识别承载持续新鲜感。",
+    "applicable_relations": [
+      "独居一人食",
+      "一周减脂餐",
+      "单一变量",
+      "系列选题"
+    ],
+    "transferable_scenes": [
+      "主菜轮换",
+      "快速下班餐",
+      "预算餐",
+      "季节菜单",
+      "七日合集"
+    ],
+    "do_not_trigger_on": [
+      "同时堆叠三个以上卖点",
+      "母题尚未成立",
+      "纯热点仿写",
+      "商品卖点主导选题"
+    ]
+  },
+  "do_not_use": [
+    "不得为了变化脱离独居完整餐母题",
+    "不得把素材没有的低卡、掉秤或省时数据当变量",
+    "不得把广告卖点伪装成自然选题"
+  ],
+  "execution_steps": [
+    "先从账号母题中选一条：独居单餐或七日合集",
+    "列出素材真实存在的变量",
+    "只保留一个主变量",
+    "标题沿母线表达该变量",
+    "检查画面与正文是否都服务同一变量",
+    "用 topic-memory-check 做批量查重后再立项"
+  ],
+  "source_refs": [
+    "xhs:68cb6d6700000000120219c8",
+    "xhs:69072db20000000007017028",
+    "xhs:69b5399a000000001d019073",
+    "xhs:6a47295e00000000110052af",
+    "xhs:68fb51bd000000000700ace0",
+    "xhs:6a423d42000000000f017143",
+    "xhs:68cfd191000000001203d37f",
+    "xhs:68df7adb000000000700eea4"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "跨 68 条自然内容可见母题稳定而单条变量收敛，且不同方向使用同一识别框架。",
+      "evidence_refs": [
+        "68cb6d6700000000120219c8",
+        "69072db20000000007017028",
+        "69b5399a000000001d019073",
+        "6a47295e00000000110052af",
+        "68fb51bd000000000700ace0",
+        "6a423d42000000000f017143",
+        "68cfd191000000001203d37f",
+        "68df7adb000000000700eea4"
+      ],
+      "relation_or_scene_types": [
+        "主菜变量",
+        "效率变量",
+        "预算变量",
+        "七日合集变量"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-topic-01",
+      "prompt_sha256": "f497061d18ae65bcf82de1381ddbbe353cd001afc8248c6fb83baf1998ee2175",
+      "structural_prediction": [
+        "保留独居一人食母题",
+        "只让番茄牛肉滑蛋或快手完成成为本条变量",
+        "不新增素材没有的低卡/减重结果"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "账号长期反复使用‘独居一人食｜…’与‘一周减脂餐合集’两条标题母线，变化集中在主菜/语境，而不是平台常见的任意爆点拼接。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  }
+}

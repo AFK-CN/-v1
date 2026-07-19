@@ -4,6 +4,8 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .account_skills import write_account_indexes
+from .formal_search import build_formal_search_index
 from .runtime import runtime_path
 from .scanner import classify_file, scan_files
 from .schemas import (
@@ -64,13 +66,12 @@ def calling_scope(relative_path: str, layer_map: dict[str, Any] | None = None) -
     if has_prefix(relative_path, formal_roots) or relative_path in {
         "知识库入口.md",
         "README.md",
-        f"{SYSTEM_RULES_DIR}/用户操作台.md",
+        "00_System/shareable/docs/project_use/用户操作台.md",
         f"{SYSTEM_INDEX_DIR}/controller_routes.json",
-        f"{SYSTEM_RULES_DIR}/本机使用速查.md",
-        f"{SYSTEM_RULES_DIR}/知识库运行规则.md",
+        "00_System/shareable/docs/project_use/本机使用速查.md",
     }:
         return "allowed"
-    if relative_path.startswith("20_User/syncable/"):
+    if relative_path.startswith("20_User/config/"):
         return "allowed"
     return "internal_or_review"
 
@@ -82,10 +83,6 @@ def purpose_for_path(relative_path: str) -> str:
         return "system_skill"
     if relative_path.startswith("00_System/shareable/skills/"):
         return "system_skill_support"
-    if relative_path.startswith("00_System/shareable/memory/"):
-        return "memory_system_rule"
-    if relative_path.startswith("00_System/shareable/agents/"):
-        return "agent_system_rule"
     if relative_path.startswith("00_System/shareable/"):
         return "shareable_system"
     if relative_path.startswith("00_System/runtime/"):
@@ -97,16 +94,16 @@ def purpose_for_path(relative_path: str) -> str:
     if relative_path.startswith("10_Knowledge/candidates/"):
         return "candidate_asset"
     if relative_path.startswith("10_Knowledge/evidence/"):
-        return "memory_evidence" if relative_path.startswith("10_Knowledge/evidence/memory/") else "evidence_index"
-    if relative_path.startswith("20_User/syncable/"):
-        if relative_path.startswith("20_User/syncable/memory/"):
-            return "syncable_user_memory"
-        if relative_path.startswith("20_User/syncable/agents/"):
-            return "syncable_agent_registry"
-        return "syncable_user_preference"
+        return "evidence_index"
+    if relative_path.startswith("20_User/config/"):
+        return "user_configuration"
+    if relative_path.startswith("20_User/data/"):
+        return "local_production_memory"
+    if relative_path.startswith("20_User/feedback/"):
+        return "local_feedback"
     if relative_path.startswith("20_User/private/"):
         return "private_user_preference"
-    if relative_path.startswith("80_Local/"):
+    if relative_path.startswith("20_User/local/"):
         return "local_private_config"
     if relative_path.startswith("90_Temp/"):
         return "temporary_file"
@@ -301,6 +298,7 @@ def write_indexes(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]
     system_target = system_index_dir(root)
     target.mkdir(parents=True, exist_ok=True)
     system_target.mkdir(parents=True, exist_ok=True)
+    account_index_result = write_account_indexes(root)
     index = build_knowledge_index(root, include_raw_inputs=include_raw_inputs)
     write_json(target / "knowledge_index.json", index)
     formal_index = build_formal_knowledge_index(index, layer_map)
@@ -317,14 +315,20 @@ def write_indexes(root: Path, include_raw_inputs: bool = True) -> dict[str, Any]
     )
     (target / "知识库总索引.md").write_text(render_human_index(index), encoding="utf-8")
     (system_target / "task_entry_index.md").write_text(render_task_entry_index(), encoding="utf-8")
+    formal_retrieval = build_formal_search_index(root)
     return {
-        "index_files": 8,
+        "index_files": 10,
         "index_dir": as_posix(target.relative_to(root)),
         "file_count": len(index["files"]),
         "formal_knowledge_count": formal_index["item_count"],
         "candidate_asset_count": candidate_index["item_count"],
         "raw_blocked_count": raw_blocked_index["item_count"],
         "cleanup_candidate_count": len(index["cleanup_candidates"]),
+        "account_count": account_index_result["account_count"],
+        "account_index_ok": account_index_result["ok"],
+        "formal_retrieval_source_count": formal_retrieval["source_count"],
+        "formal_retrieval_chunk_count": formal_retrieval["chunk_count"],
+        "formal_retrieval_scope": formal_retrieval["scope"],
     }
 
 
@@ -348,13 +352,12 @@ def build_file_relations(index: dict[str, Any]) -> dict[str, Any]:
     return {
         "generated_at": index["generated_at"],
         "relations": [
-            {"from": "知识库入口.md", "to": f"{SYSTEM_RULES_DIR}/用户操作台.md", "relation": "entry_requires"},
+            {"from": "知识库入口.md", "to": f"{SYSTEM_INDEX_DIR}/task_entry_index.md", "relation": "entry_requires"},
             {"from": "知识库入口.md", "to": f"{SYSTEM_INDEX_DIR}/controller_routes.json", "relation": "entry_requires"},
-            {"from": "知识库入口.md", "to": f"{SYSTEM_RULES_DIR}/本机使用速查.md", "relation": "entry_requires"},
-            {"from": "知识库入口.md", "to": "README.md", "relation": "entry_requires"},
-            {"from": "知识库入口.md", "to": f"{SYSTEM_RULES_DIR}/知识库运行规则.md", "relation": "entry_requires"},
-            {"from": f"{SYSTEM_RULES_DIR}/选题生成规则.md", "to": "10_Knowledge/formal/topics/选题灵感库_v1.md", "relation": "defines_schema_for"},
-            {"from": f"{SYSTEM_RULES_DIR}/周复盘规则.md", "to": "00_System/shareable/skills/proposals", "relation": "may_create_proposal"},
+            {"from": "00_System/shareable/docs/project_use/用户操作台.md", "to": "00_System/shareable/skills/active/content-processing/SKILL.md", "relation": "routes_to"},
+            {"from": "00_System/shareable/docs/project_use/用户操作台.md", "to": "00_System/shareable/skills/active/account-learning/SKILL.md", "relation": "routes_to"},
+            {"from": "00_System/shareable/docs/project_use/用户操作台.md", "to": "00_System/shareable/skills/active/content-review/SKILL.md", "relation": "routes_to"},
+            {"from": "20_User/config/account_skill_registry.json", "to": "10_Knowledge/formal/accounts", "relation": "resolves_account_skills"},
         ],
     }
 
@@ -372,7 +375,7 @@ def render_human_index(index: dict[str, Any]) -> str:
         "## 重要入口",
         "",
         "- `知识库入口.md`：主入口。",
-        f"- `{SYSTEM_RULES_DIR}/用户操作台.md`：用户可复制入口。",
+        "- `00_System/shareable/docs/project_use/用户操作台.md`：用户可复制入口。",
         f"- `{SYSTEM_INDEX_DIR}/controller_routes.json`：总控路由表。",
         "- `00_System/shareable/docs/project_use/项目调用规则.md`：其他项目调用入口。",
         "- `00_System/shareable/`：可分享系统底座。",
@@ -410,10 +413,10 @@ def render_knowledge_index_summary(
             "## 默认读取顺序",
             "",
             "1. `知识库入口.md`",
-            f"2. `{SYSTEM_RULES_DIR}/用户操作台.md`",
-            f"3. `{SYSTEM_INDEX_DIR}/controller_routes.json`",
-            f"4. `{SYSTEM_INDEX_DIR}/task_entry_index.md`",
-            f"5. `{EVIDENCE_INDEX_DIR}/knowledge_index_summary.md`",
+            f"2. `{SYSTEM_INDEX_DIR}/task_entry_index.md`",
+            f"3. `{SYSTEM_INDEX_DIR}/controller_routes.json`（命中任务后读取）",
+            "",
+            "用户示例另见 `00_System/shareable/docs/project_use/用户操作台.md`，不属于默认启动读取链。",
             "",
             "## 分层索引",
             "",
@@ -422,6 +425,7 @@ def render_knowledge_index_summary(
             "- `task_entry_index.md`：任务入口索引。",
             "- `account_knowledge_index.json/md`：账号中心索引。",
             "- `formal_knowledge_index.json`：正式知识索引。",
+            "- `00_System/runtime/cache/formal_retrieval/`：正式层混合检索的可复现缓存，不属于分享层。",
             "- `candidate_asset_index.json`：候选资产索引。",
             "- `raw_blocked_index.json`：默认禁止读取目录边界。",
             "- `知识库总索引.md`：全量人类审计索引，默认不读。",
@@ -433,42 +437,53 @@ def render_knowledge_index_summary(
 def render_task_entry_index() -> str:
     return """# 任务入口索引
 
-## 通用使用
+## 固定总控
 
-- 先读：`知识库入口.md`、`00_System/shareable/rules/用户操作台.md`、`00_System/shareable/index/controller_routes.json`、`00_System/shareable/rules/本机使用速查.md`。
-- 默认入口：`@知识库 + 需求`。兼容入口：`knowledge-base + 需求`。
-- 总控优先：先用 `controller_routes.json` 判断任务类型，再按本索引读取少量相关文件。
-- 分层权威源：`00_System/shareable/config/layer_map.json`。`00_System/shareable/` 才是可分享系统底座；`00_System/runtime/`、`80_Local/`、`20_User/private/`、`数据/` 默认阻断。
+- 先读 `知识库入口.md`，再由 `00_System/shareable/index/controller_routes.json` 命中路由。
+- 默认入口：`@知识库 + 需求`；兼容入口：`knowledge-base + 需求`。
+- `00_System/runtime/`、`20_User/data/`、`20_User/feedback/`、`20_User/private/`、`20_User/local/` 和 `数据/` 默认阻断。
 
-## 内容创作
+## 内容处理
 
-- 读取：`10_Knowledge/formal/methods/`、`10_Knowledge/formal/topics/`、`10_Knowledge/formal/platforms/`、`10_Knowledge/formal/content_factory/`。
-- 当用户提到账号名、对标账号、出选题、写文案、口播或账号风格时，先读取：`10_Knowledge/evidence/index/account_knowledge_index.md`。
-- 只有账号索引命中正式账号中心后，才继续读取该账号的 `账号索引.md`、`账号概述.md`、`账号方法论总览.md`、`账号整体方法论.md`、`内容生产使用说明.md`、`减少AI味输出规则.md`、`内容输出标准模板.md`，再按方向读取 `方向方法论总结.md`、`粗扫内容和选题.md`。
-- 图文成品生成是选题确认后的内容生产分支：先输出图文脚本包，用户确认后再按账号图文风格调用 image2 生图；规则见 `00_System/shareable/rules/图文成品生成标准流程.md`。
-- `知识成长`、`赚钱`、`护肤`、`生活方式` 等只是可能的账号方向词，不是通用系统默认路由；不得因为某个方向词直接套用单一账号模板。
-- 账号中心调用默认禁止全扫候选区；需要证据时再读取正式单卡，需要核查时再读取逐字稿。
-- 内容生成不能直接反写正式知识；可沉淀的规则进入复盘或 Skill proposal。
+- 读取 `00_System/shareable/skills/active/content-processing/SKILL.md`。
+- 负责接入、下载、解析、转写、OCR、抽帧、清洗、扫描、粗学归类和深学计划。
+- 只写候选证据与运行产物，不写正式账号中心。
 
 ## 账号学习
 
-- 读取：`10_Knowledge/evidence/index/account_knowledge_index.md`、`00_System/shareable/index/controller_routes.json`、`00_System/shareable/skills/active/视频深度学习Skill_v1.md`；图文样本任务还要读取 `00_System/shareable/rules/图文账号学习标准工作流.md`。
-- 工作流分两大阶段：学习阶段、生产复盘阶段。学习阶段包含粗学与深学计划、深度学习总结、综合入库；生产复盘阶段包含内容生产、反馈复盘、针对性强化。
-- 媒介分支：视频学习走 `scan -> select -> learn -> status`；图文学习从统一入口 `tools.kb.cli image-text-*` 走 `ingest -> structure -> scan -> select -> learn -> status`，结构化结果先进入候选资产和审核清单。
-- 粗学完成必须有 `账号概述.md`、`粗学与选题池.md`、`deep_learning_plan.json`；缺任何一个都要提醒用户，不宣布完成。
-- 脚本只能生成候选资产、学习卡、报告和状态；候选资产目标层是 `10_Knowledge/candidates/`，正式账号知识必须经过审核。
-- 默认使用通用 profile 化工具；旧账号专属命令只作为兼容入口，不作为新账号学习标准。
+- 读取 `00_System/shareable/skills/active/account-learning/SKILL.md` 和 `account_learning_pipeline.json`。
+- 剧情、长文案、视频和图文使用同一七阶段主流程与不同观察适配器。
+- 阶段 6 生成不可调用的账号 Skill 候选包；用户审核后才写账号中心。
+- 用户审核、正式写入和用户层注册验证通过后，按每账号整体 10–20 条、每个正式方向 1–5 条组建轻量数据源；每条保留完整产出物、manifest 与哈希，供 NAS 断开时查看和复查。
 
-## 复盘和自我学习
+## 账号 Skill 生产
 
-- 读取：`00_System/shareable/rules/周复盘规则.md`、`10_Knowledge/formal/reviews/`、`20_User/syncable/`。
-- Skill 更新只能写入系统级 proposal：`00_System/shareable/skills/proposals/`。
-- 当用户说“以后都这样”“沉淀成规则”“更新 Skill”时，进入 Skill 沉淀路由，只生成 proposal，不直接改 active。
+- 先读取 `20_User/config/account_skill_registry.json` 解析唯一账号 Skill。
+- 只读取该账号 `skill/SKILL.md`；参考文件由 Skill 按需加载，不批量读取旧账号根目录文档。
+- 出选题前调用 `topic-memory-check`；确认后记录 `topic_id`；交付后记录 `content_id` 与 Skill 版本。
+- 代码只返回生产记忆的少量冲突摘要，模型不读取完整数据库。
+
+## 内容复盘
+
+- 读取 `00_System/shareable/skills/active/content-review/SKILL.md`。
+- 以 `content_id` 绑定截图、表格、平台数据或人工反馈。
+- 输出继续观察、调整生产、定向补学或账号 Skill 更新提案，不自动进化。
+
+## 用户层
+
+- 新电脑运行 `user-init`；日常可运行 `user-validate` 和 `account-skills-sync`。
+- 系统定义结构，用户层保存本机注册、生产记忆、反馈、私有数据和机器配置。
+
+## 正式知识检索
+
+- 运行 `search-formal`，使用 BM25、本地字符向量、严格元数据过滤和重排。
+- 只索引 `10_Knowledge/formal/`；候选、原始资料、系统层、用户层、临时层和归档层不进入缓存。
+- 只返回短摘要、分项得分和 `path:Lx-Ly` 证据坐标；缓存陈旧时先运行 `formal-search-index`。
 
 ## 其他项目调用
 
 - 读取：`00_System/shareable/docs/project_use/项目调用规则.md`。
-- 默认禁止调用：`00_Inbox/`、`数据/`、`99_Archive/`、`80_Local/`、`20_User/private/`、runtime、未确认 Skill 提案。
+- 默认禁止调用原始资料、用户数据、用户反馈、本机配置、runtime 和未确认候选。
 - 其他项目优先调用全局 `@知识库` Skill；若入口失效，回退到读取 `知识库入口.md`。
 
 ## 代码批处理
@@ -492,5 +507,6 @@ def render_task_entry_index() -> str:
 - 读取：`00_System/shareable/index/controller_routes.json`、`10_Knowledge/evidence/index/knowledge_index_summary.md`、`10_Knowledge/evidence/index/account_knowledge_index.json`、`00_System/shareable/config/output_contracts.json`。
 - `10_Knowledge/evidence/index/knowledge_index.json` 是全量机器索引，只在脚本验证、全量审计或用户明确要求时读取。
 - 运行：`.venv/bin/python -m tools.kb.cli --root . validate-system` 或 `.venv/bin/python -m tools.kb.cli --root . dashboard`。
-- 输出：入口、索引、路由、Skill 包、账号中心、proposal、候选注册表、输出契约和报告状态。
+- 分享前运行 `distribution-audit`；需要独立系统包时运行 `system-export --output <目录>`。
+- 输出：三套系统 Skill、用户层、账号 Skill、生产记忆、索引、边界、清理和测试状态。
 """

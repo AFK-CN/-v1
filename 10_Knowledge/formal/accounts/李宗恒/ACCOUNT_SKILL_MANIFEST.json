@@ -1,0 +1,23 @@
+{
+  "schema_version": "formal_account_skill_v1",
+  "account_skill_id": "lizongheng",
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "skill_name": "account-lizongheng",
+  "version": "1.4",
+  "status": "active",
+  "aliases": [
+    "李宗恒"
+  ],
+  "canonical_skill_path": "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md",
+  "updated_at": "2026-07-19",
+  "upgrade_evidence": "基于每个正式方法 14–15 条自然短剧情逐字稿的充分验证，确认四类冲突机制、对白动作和结算规则稳定；广告与平台样本保持隔离。v1.3 基于 430/430 条发布层专项观察，确认极短标题/文案只承担设定、情绪和分发入口，并补入话题、艾特及分轨边界。",
+  "evidence_validation_path": "10_Knowledge/formal/accounts/李宗恒/evidence/ACCOUNT_SKILL_TRANSCRIPT_VALIDATION.json",
+  "supplemental_evidence_paths": [
+    "10_Knowledge/formal/accounts/李宗恒/evidence/PUBLISH_COPY_EVIDENCE_VALIDATION.json"
+  ],
+  "approval_basis": "2026-07-18 用户明确回复‘可以生效’，批准发布文案专项学习进入正式账号 Skill。 2026-07-19 用户确认全部账号按 account-learning v2.9 补齐且保留旧能力。",
+  "upgrade_guard_required": true,
+  "upgrade_compatibility_manifest": "10_Knowledge/formal/accounts/李宗恒/skill/UPGRADE_COMPATIBILITY.json",
+  "upgrade_proposal": "10_Knowledge/formal/accounts/李宗恒/skill/proposals/capability-preservation-v1.4.md"
+}

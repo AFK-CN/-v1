@@ -1,0 +1,29 @@
+{
+  "schema_version": "account_skill_candidate_v1",
+  "status": "ready_for_review",
+  "workflow_id": "jianghushuo-v2-full",
+  "account_name": "姜胡说",
+  "account_skill_id": "jianghushuo",
+  "account_skill_version": "1.4",
+  "pipeline_version": "2.9",
+  "source_method_ids": [
+    "content-relationship-leverage",
+    "experience-to-trust-asset",
+    "input-output-transformation",
+    "life-specific-expression",
+    "opportunity-rule-resource-leverage",
+    "problem-minimum-product-feedback",
+    "record-to-compounding-asset",
+    "small-step-process-system",
+    "structured-model-reasoning",
+    "value-exchange-income-system"
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "migration": {
+    "type": "backfill_from_approved_formal_account_skill",
+    "source_skill": "10_Knowledge/formal/accounts/姜胡说/skill/SKILL.md",
+    "migrated_at": "2026-07-19T16:09:41"
+  }
+}

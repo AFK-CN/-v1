@@ -1,6 +1,9 @@
 {
-  "version": 1,
+  "version": 2,
   "kb_root_mode": "repository_root",
+  "global_install_required": true,
+  "global_install_command": ".venv/bin/python -m tools.kb.cli --root . skill-install",
+  "installed_root_locator": "references/kb-root.json",
   "startup_read_order": [
     "知识库入口.md",
     "00_System/shareable/index/task_entry_index.md"
@@ -9,8 +12,17 @@
     "数据/",
     "00_Inbox/",
     "99_Archive/",
-    "80_Local/",
     "20_User/private/",
+    "20_User/data/",
+    "20_User/feedback/",
+    "20_User/local/",
     "00_System/runtime/"
-  ]
+  ],
+  "system_skills": [
+    "00_System/shareable/skills/active/content-processing/SKILL.md",
+    "00_System/shareable/skills/active/account-learning/SKILL.md",
+    "00_System/shareable/skills/active/content-review/SKILL.md"
+  ],
+  "user_layer_schema": "00_System/shareable/config/user_layer_schema.json",
+  "account_skill_contract": "00_System/shareable/config/account_skill_contract.json"
 }

@@ -1,0 +1,77 @@
+# 图文深学证据卡：feishu_xianyu_20260713_s02
+
+workflow_id: image_text_xianyu_story_ugc_visual_20260717
+profile_id: xianyu_story_ugc
+account_name: 闲鱼故事UGC任务
+media_branch: image_text
+source_id: feishu_xianyu_20260713_s02
+source_url: https://my.feishu.cn/wiki/YHoJwJzsRiAWvUk203acBRcnnrh
+evidence_readiness: evidence_incomplete_requires_review
+
+## 1. 发布原文证据
+
+- 发布层状态：complete
+- 标题原文：那些不规整的毛线挂件，藏着独一份的毕业礼物
+- 正文原文：
+> 闲暇无聊的日子，总喜欢坐在窗边勾毛线。 随心所欲织了一堆歪歪扭扭的小挂件，纯粹打发时间。随手挂闲鱼出，没抱任何期待。 没想到被一个女生拍下，她说想送给闺蜜当毕业礼物，不需要多精致完美的。 她问我能不能定制三十个，送给全班同学做纪念小礼物。 我犹豫了，我的手工不规整，比不上机器量产的精致。她却说，机器做的是商品，你手勾的才有温度。 那段时间，我每天空余时间都在绕线、钩织、收口。 指尖沾满毛线的软绒，沙发上堆满各色小挂件。 打包发货那天，看着满满一箱子大大小小的温柔。 这群少年的青春纪念里，藏着我一针一线织出来的、独一份的温柔心意。
+- 话题原文：毕业礼物、毛线钩织、治愈系手工、闲鱼
+
+## 2. 发布文案深学任务
+
+- 标题机制：识别承诺对象、具体程度、信息差、语气和点击理由；不得只摘抄标题。
+- 正文结构：标出开头入口、信息推进、操作或论证细节、转折、结果与收尾，不得只概括主题。
+- 细节密度：记录数量、单位、时长、动作、状态判断、人物处境和限制条件；缺少时明确写缺失。
+- 真人感：记录口语连接、自我修正、偏好、犹豫、生活痕迹和不对称细节；不得用“自然、有温度”等空词代替证据。
+- 结尾方式：区分自然停住、经验补充、行动提醒、情绪落点、互动和商业引导。
+- 话题策略：区分检索词、内容分类、身份或场景标签与平台项目标签；无显式话题时不补造。
+- 协同关系：解释标题、正文、话题是否共同兑现同一承诺，哪些信息由图片承担。
+
+## 3. 逐图视觉证据
+
+### 图 1｜cover
+
+- 图片路径：/Users/lao_wu/codexAI/知识库/90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s02/feishu_xianyu_20260713_s02_img01.jpg
+- OCR 状态：completed
+- OCR 原文：& 宝子在吗? 那些毛线挂件还在吗?
+驴 直拍吗
+& 要的，我想送给国密朋友当毕业礼物。
+& 不用多精致哈哈哈
+QB 可不可以定制30个呀? 我想送给全班同学当纪念小礼物。
+对方撤回了一条消息
+&  没关系啊，我还不着急。慢慢勾就行。机器做的是商品，手工的才有
+温度嘲~-
+- 客观视觉特征：{"engine": "opencv", "width": 1323, "height": 1395, "aspect_ratio": 0.9484, "dominant_colors": ["#FDFDFD", "#EFEFF0", "#F6E354", "#2F2D1D", "#8896A3"], "brightness": 0.9509, "contrast": 0.1362, "saturation": 0.065, "sharpness": 1188.4597, "edge_density": 0.0253, "complexity_signal": "low", "status": "completed", "evidence_flags": []}
+- image2/Codex 视觉证据：{"status": "pending_codex_review", "provider": "codex_image2", "image_path": "/Users/lao_wu/codexAI/知识库/90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s02/feishu_xianyu_20260713_s02_img01.jpg", "image_index": 1, "image_role_hint": "cover", "visual_description": "", "layout_type": "", "evidence_flags": ["codex_image2_pending"]}
+- 深层视觉证据：{"schema": "image_text_deep_visual_evidence_v1", "status": "pending_codex_visual_review", "image_index": 1, "image_role": "cover", "evidence_coordinate": "image:/Users/lao_wu/codexAI/知识库/90_Temp/tasks/xianyu_ugc_20260717/visual_source/20260713/feishu_xianyu_20260713_s02/feishu_xianyu_20260713_s02_img01.jpg#index:1", "dimensions_considered": ["subject_and_action", "composition_and_viewpoint", "visual_hierarchy", "text_annotation_design", "typography_hierarchy", "color_light_texture", "state_or_result", "authenticity_cues", "narrative_function"], "observed": {}, "missing_or_uncertain_dimensions": ["subject_and_action", "composition_and_viewpoint", "visual_hierarchy", "text_annotation_design", "typography_hierarchy", "color_light_texture", "state_or_result", "authenticity_cues", "narrative_function"], "rule": "OCR only proves readable text; it does not prove composition, typography, action, state change or authenticity."}
+
+## 4. 组图视觉深学任务
+
+- 组图状态：ordered_post_sequence；图片数量：1。
+- 封面钩子：学习主体选择、结果承诺、视觉焦点、留白、标题位置与第一眼识别顺序。
+- 分图角色：逐图写清封面、材料/背景、关键动作、过程状态、结果、总结或互动角色，并解释排序原因。
+- 构图与视角：学习景别、机位、裁切、主体占比、手或人物进入方式、空间关系和视觉动线。
+- 文字注释设计：学习注释贴纸、底板、字形、字号层级、对齐、位置、留白和与画面的指向关系；OCR 只负责读字，不能代替这项判断。
+- 动作与状态链：识别动作发生前后、关键手势、过程变化、熟度/质地/完成状态与结果证明。
+- 色彩光线质感：学习色调、光源、明暗、背景、器皿/服饰/道具和质感如何服务内容，不只记录色值。
+- 真人与生活感：识别自然手势、使用痕迹、轻微不完美、环境细节与非棚拍信号；不得凭想象补人物身份。
+- 组图叙事：解释信息如何逐页推进、重复和变化如何配合、为何值得收藏；单张好看不能代替组图完整性。
+
+## 5. 跨模态协同学习
+
+- 对齐检查：发布标题、正文、封面字、逐图 OCR 与画面是否指向同一承诺。
+- 分工检查：哪些信息只在正文、只在图片、两边重复或彼此矛盾。
+- 证据闭环：标题提出什么问题或结果，组图如何证明，正文如何补细节和边界，话题如何帮助检索或分类。
+
+## 6. 证据缺口与审核状态
+
+- 发布字段缺口：无
+- 待补视觉复核图片：[1]
+- 组图归属与顺序：ordered_post_sequence
+- 当前状态：evidence_incomplete_requires_review
+- 本卡是图文深学证据卡，不是账号稳定方法；完成逐条深学后仍需进入统一学习卡和跨卡三重验证。
+
+## 7. 后续学习动作
+
+- Codex 必须阅读全文并逐图查看原图，完成发布文案、逐图视觉和跨模态三个层面的实质判断。
+- 完成后生成 unified_three_layer_v2 学习卡；不能把本卡的任务清单直接复制成学习结论。
+

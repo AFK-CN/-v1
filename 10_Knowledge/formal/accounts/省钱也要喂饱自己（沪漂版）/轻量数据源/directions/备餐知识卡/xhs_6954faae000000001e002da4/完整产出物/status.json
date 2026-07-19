@@ -1,0 +1,149 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:58:48",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/5e219f8b51777905741276d4200c4d9d/1040g2sg31qoli5llmue04busfur776f8tq8dtmg!nd_dft_wlteh_webp_3"
+    },
+    "download_image_001": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:58:50",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\001_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/f3b8da83385566ce616052c39d534695/1040g2sg31qoli5llmuf04busfur776f8cqqjn5o!nd_dft_wlteh_webp_3"
+    },
+    "download_image_002": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:58:52",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\002_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/9eef166cda1d9b41291ba80643f9c2b9/1040g2sg31qoli5llmueg4busfur776f83pl1bu0!nd_dft_wlteh_webp_3"
+    },
+    "download_image_003": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:58:54",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\003_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/aca9db75da8eaacb244156ac59496f58/1040g2sg31qoli5llmuh04busfur776f8jgpp4pg!nd_dft_wlteh_webp_3"
+    },
+    "download_image_004": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:58:56",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\004_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/ffd8f4ec37f48920e884d982fc04131e/1040g2sg31qoli5llmug04busfur776f8bo81guo!nd_dft_wlteh_webp_3"
+    },
+    "download_image_005": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:58:58",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\005_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/655d12a1acabd33b0fd35523e68d2e41/1040g2sg31qoli5llmufg4busfur776f8pk4neg0!nd_dft_wlteh_webp_3"
+    },
+    "download_image_006": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:59:00",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\006_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/e1f49511f05d1eadc288a11d59ed29a2/1040g2sg31qoli5llmuhg4busfur776f89eib6io!nd_dft_wlteh_webp_3"
+    },
+    "download_image_007": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:59:02",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\007_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/2c163c4969269473dd2ac3244c11b4ff/1040g2sg31qoli5llmugg4busfur776f8at5j968!nd_dft_wlteh_webp_3"
+    },
+    "download_image_008": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:59:04",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\008_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/b7c0839c48d5e105b85056f6a7acc807/1040g2sg31qoli5llmui04busfur776f8rae5hg8!nd_dft_wlteh_webp_3"
+    },
+    "download_image_009": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:59:05",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\009_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/a5e40c245af367c6f16f063858bf6ab4/1040g2sg31qoli5llmuig4busfur776f858ogbdo!nd_dft_wlteh_webp_3"
+    },
+    "download_image_010": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:59:07",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\010_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/3903adb9c440b87cbd69003a88aa2c76/1040g2sg31qoli5llmuj04busfur776f8oaatrvg!nd_dft_wlteh_webp_3"
+    },
+    "download_image_011": {
+      "status": "success",
+      "updated_at": "2026-07-05T09:59:10",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\011_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607050958/38760412b8fc5f55f66fd29a45464273/1040g2sg31qoli5llmuk04busfur776f8djo88vo!nd_dft_wlteh_webp_3"
+    },
+    "process_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:09",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\000_cover.jpg",
+      "has_text": true
+    },
+    "process_image_001": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:14",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\001_image.jpg",
+      "has_text": true
+    },
+    "process_image_002": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:20",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\002_image.jpg",
+      "has_text": true
+    },
+    "process_image_003": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:24",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\003_image.jpg",
+      "has_text": true
+    },
+    "process_image_004": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:28",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\004_image.jpg",
+      "has_text": true
+    },
+    "process_image_005": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:37",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\005_image.jpg",
+      "has_text": true
+    },
+    "process_image_006": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:42",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\006_image.jpg",
+      "has_text": true
+    },
+    "process_image_007": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:48",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\007_image.jpg",
+      "has_text": true
+    },
+    "process_image_008": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:52",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\008_image.jpg",
+      "has_text": true
+    },
+    "process_image_009": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:51:56",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\009_image.jpg",
+      "has_text": true
+    },
+    "process_image_010": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:52:01",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\010_image.jpg",
+      "has_text": true
+    },
+    "process_image_011": {
+      "status": "success",
+      "updated_at": "2026-07-11T00:52:12",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6954faae000000001e002da4\\images\\011_image.jpg",
+      "has_text": true
+    }
+  },
+  "updated_at": "2026-07-11T00:52:12"
+}

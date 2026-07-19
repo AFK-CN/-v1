@@ -1,0 +1,4 @@
+interface:
+  display_name: "小森林的小世界账号生产"
+  short_description: "基于正式护肤经验和证据边界生产账号专属图文、口播和产品决策内容"
+  default_prompt: "Use $account-xiaosenlin to create evidence-backed content with validated experience and boundaries."

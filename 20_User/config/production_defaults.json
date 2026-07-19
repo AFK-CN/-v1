@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-15T15:20:35",
+  "topic_novelty": {
+    "warning_threshold": 0.62,
+    "block_threshold": 0.84,
+    "max_conflicts_returned": 5,
+    "batch_check": true,
+    "never_load_full_database_into_model": true
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T01:28:00",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7115324667472268585\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000cavbbrrc77uacuo5blr0&line=0&file_id=d8fcd055506a494fadf7aec5382a50ad&sign=4b3476033eb9f1c94021b55f4a897dbe&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-05T18:25:20",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7115324667472268585\\video\\source.mp4",
+      "duration_sec": 90.6,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 2718,
+      "platform": "dy",
+      "source_id": "7115324667472268585",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000cavbbrrc77uacuo5blr0&line=0&file_id=d8fcd055506a494fadf7aec5382a50ad&sign=4b3476033eb9f1c94021b55f4a897dbe&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "《暖她一整天》#李宗恒",
+      "desc": "《暖她一整天》#李宗恒",
+      "publish_time": 1656730839,
+      "account_id": "63700340656",
+      "account_name": "李宗恒"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-05T18:25:41",
+      "count": 45,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7115324667472268585\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-05T18:25:44",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7115324667472268585\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-05T18:27:57",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7115324667472268585\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7115324667472268585\\video\\transcript.srt",
+      "segments": 81
+    }
+  },
+  "updated_at": "2026-07-05T18:27:57"
+}

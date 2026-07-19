@@ -1,0 +1,66 @@
+{
+  "schema_version": "task_skill_candidate_v1",
+  "status": "ready_for_review",
+  "name": "xianyu-story-ugc",
+  "skill_version": "candidate-v2-visual",
+  "task_scope": "闲鱼故事UGC任务",
+  "source_method_ids": [
+    "xugc-m01",
+    "xugc-m02",
+    "xugc-m03",
+    "xugc-m04",
+    "xugc-m05",
+    "xugc-m06",
+    "xugc-m07"
+  ],
+  "source_visual_method_ids": [
+    "xugc-v01",
+    "xugc-v02",
+    "xugc-v03",
+    "xugc-v04"
+  ],
+  "evidence": {
+    "documents": 5,
+    "records": 100,
+    "learning_cards": 100,
+    "stage1_candidates": 500,
+    "images": 230,
+    "visual_cards": 100,
+    "contact_sheets_reviewed": 20,
+    "visual_methods": 4
+  },
+  "tests": {
+    "method_pressure_cases": 35,
+    "method_pressure_passed": 35,
+    "skill_structure_validation": "passed",
+    "forward_generation_tests": {
+      "status": "passed",
+      "positive_cases": 5,
+      "positive_passed": 5,
+      "negative_cases": 5,
+      "negative_correctly_rejected": 5,
+      "cli_smoke": "passed",
+      "report": "../../skill_tests/FORWARD_TEST_REPORT.md"
+    },
+    "visual_forward_generation_tests": {
+      "status": "passed",
+      "positive_cases": 4,
+      "positive_passed": 4,
+      "negative_cases": 5,
+      "negative_correctly_rejected": 5,
+      "cli_smoke": "passed",
+      "report": "../../skill_tests/VISUAL_FORWARD_TEST_REPORT.md"
+    }
+  },
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "candidate_callable": false,
+  "formal_promotion": {
+    "status": "formal_ingested",
+    "version": "1.0",
+    "account_skill_id": "xianyu_story_ugc_task",
+    "formal_skill_path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md",
+    "promoted_at": "2026-07-17T13:40:32+08:00"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "schema_version": "pressure_results_v1",
+  "method_id": "xugc-m04",
+  "executor": "deterministic_task_scope_router_v1",
+  "executed_at": "2026-07-17T11:27:49",
+  "prompt_set_sha256": "9f151125f0e89cf44e2150ed30c3aded4933e8689710a2d8edaa29a3e59141fc",
+  "case_results": [
+    {
+      "id": "xugc-m04-positive",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "目标方法核心机制完整，且任务范围为闲鱼故事UGC。"
+    },
+    {
+      "id": "xugc-m04-lexical-decoy",
+      "passed": true,
+      "actual_decision": "not_trigger",
+      "evidence": "只命中题材词或来源名词，核心机制不存在。"
+    },
+    {
+      "id": "xugc-m04-edge",
+      "passed": true,
+      "actual_decision": "hold_boundary",
+      "evidence": "核心事实链缺失，保留边界并请求补证据。"
+    },
+    {
+      "id": "xugc-m04-cross-scene",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "目标方法核心机制完整，且任务范围为闲鱼故事UGC。"
+    },
+    {
+      "id": "xugc-m04-commercial",
+      "passed": true,
+      "actual_decision": "isolate_commercial",
+      "evidence": "商业/平台广告样本隔离，不增加自然方法V1权重。"
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate": 1.0
+}

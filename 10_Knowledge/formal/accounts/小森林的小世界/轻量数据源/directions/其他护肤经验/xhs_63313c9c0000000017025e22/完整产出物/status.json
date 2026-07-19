@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:09:32",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051409/1ccf13592b7baac2be91860c9dd3a849/03029q016hvwfoc796i010tiauq0f75iyp!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:09:45",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\video\\source.mp4",
+      "source_url": "http://sns-video-v3.xhscdn.com/pre_post/01e3313a0c7c5f70018370038378580f6a_259.mp4?sign=bf270965d05be97104dfd816cfa73d2f&t=6a4e9257"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T02:33:16",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\video\\source.mp4",
+      "duration_sec": 126.783333,
+      "width": 720,
+      "height": 960,
+      "fps": 60.0,
+      "frame_count": 7607,
+      "platform": "xhs",
+      "source_id": "63313c9c0000000017025e22",
+      "source_url": "http://sns-video-v3.xhscdn.com/pre_post/01e3313a0c7c5f70018370038378580f6a_259.mp4?sign=bf270965d05be97104dfd816cfa73d2f&t=6a4e9257",
+      "title": "人人都羡慕的妈生好皮护肤思路分享",
+      "desc": "宝宝们一定要注意调理好自己的角质哦～\n#takami[话题]# #油痘肌大作战[话题]# #油痘肌护肤[话题]# #好皮肤养成记[话题]# #如何拯救痘痘肌[话题]# #痘痘肌肤[话题]# #怎么才能去闭口[话题]# #闭口粉刺[话题]# #角质养护[话题]#",
+      "publish_time": 1664177009000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T02:33:23",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T02:33:24",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T02:34:59",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_63313c9c0000000017025e22\\video\\transcript.srt",
+      "segments": 68
+    }
+  },
+  "updated_at": "2026-07-11T02:34:59"
+}

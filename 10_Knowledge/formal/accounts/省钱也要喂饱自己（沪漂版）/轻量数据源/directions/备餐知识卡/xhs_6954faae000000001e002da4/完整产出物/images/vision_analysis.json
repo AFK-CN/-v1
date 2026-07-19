@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "status": "success",
+  "method": "codex_image2_multimodal",
+  "platform": "xhs",
+  "source_id": "6954faae000000001e002da4",
+  "account_id": "xhs_5c09367300000000060099e8",
+  "title": "一人食备餐指南 | 附100顿菜单，从买到存！",
+  "source_image_count": 12,
+  "analyzed_image_count": 12,
+  "ocr_reprocessed": false,
+  "visual_summary": "一组以问题为入口的一人食备餐信息图。封面集中抛出买菜、储存和营养搭配三个痛点，内页依次用清单、分类表格、搭配公式和连续菜单表回答，最后以长篇问答收束。全组以黑白文字和低装饰表格为主，核心价值是信息组织而非食物摄影。",
+  "content_intent": "把独居备餐中零散、重复的问题整理成可收藏查阅的工具型内容，通过100顿菜单提高保存价值。",
+  "learning_value": "适合学习高收藏型知识图文的组织方式：问题封面建立需求，分模块解决，表格承载高密度信息，长清单形成资料感，结尾补充执行说明。",
+  "food_visual": {
+    "meal_type": "一人食备餐信息图",
+    "dish_components": ["买菜渠道与清单", "食材分类储存表", "每日搭配框架", "100顿菜单表", "执行问答"],
+    "presentation": "白底或浅底的纵向信息页，黑色正文配少量分区标题；菜单页采用规则四列表格连续呈现。",
+    "appetite_strategy": "不依赖成品特写，主要依靠实用密度、完整清单和可执行性制造收藏动机。"
+  },
+  "style": {
+    "visual_direction": "极简工具书式信息图",
+    "palette": "黑白灰为主，弱装饰、低色彩干扰",
+    "typography": "封面大号粗体关键词，内页以标题、分区标签、正文和表格形成层级",
+    "composition": "封面先给三个明确问题；正文保持单页单主题；长表按20条一页拆分，阅读节奏稳定",
+    "tone": "理性、耐心、可执行，接近个人备餐手册"
+  },
+  "narrative_structure": [
+    "封面用三个高频问题和评论需求建立内容必要性",
+    "先回答怎么买菜，降低采购门槛",
+    "按蔬菜、根茎、菌菇、调味、肉类和主食分类说明储存",
+    "给出蛋白质、蔬菜、主食和脂肪的日常搭配框架",
+    "用五页连续表格提供1至100顿菜单组合",
+    "以长篇FAQ和执行建议处理剩余疑问"
+  ],
+  "replication_recipe": {
+    "template": "痛点提问封面 -> 3至4个主题知识页 -> 大体量清单/表格 -> 执行FAQ",
+    "shooting_or_design": "统一竖版画布和页边距；每页只解决一个问题；表格列宽、字号和行高保持一致；长清单按固定条数分页。",
+    "content_rules": "封面问题必须具体；正文使用分类和步骤而非大段散文；菜单组合应可替换、可检索；结尾解释适用边界。",
+    "reusable_angle": "可迁移到冰箱备菜、上班带饭、低预算采购、厨房新手一周菜单等高频生活问题。",
+    "risk_boundary": "营养摄入、保存时长和食品安全需要结合食材状态、储存温度及个人情况判断，不能仅凭版式信息视为专业结论。"
+  },
+  "images": [
+    {"index": 0, "file": "000_cover.jpg", "role": "封面", "visual": "大标题点明独居一人食备餐指南和100顿菜单，列出买菜、储存、营养三个问题，并以评论截图强化真实需求。"},
+    {"index": 1, "file": "001_image.jpg", "role": "采购模块", "visual": "Q1怎么买菜，使用清单和三类购买渠道组织答案。"},
+    {"index": 2, "file": "002_image.jpg", "role": "储存模块", "visual": "Q2储存方法与时长，表格整理蔬菜和根茎类。"},
+    {"index": 3, "file": "003_image.jpg", "role": "储存模块", "visual": "延续同一表格系统，整理菌菇和调味类。"},
+    {"index": 4, "file": "004_image.jpg", "role": "储存模块", "visual": "延续同一表格系统，整理肉类与主食。"},
+    {"index": 5, "file": "005_image.jpg", "role": "搭配框架", "visual": "Q3每日摄入，给出蛋白质、蔬菜、主食、脂肪的组合框架及示例。"},
+    {"index": 6, "file": "006_image.jpg", "role": "菜单表1", "visual": "四列表格呈现第1至20顿组合。"},
+    {"index": 7, "file": "007_image.jpg", "role": "菜单表2", "visual": "相同版式呈现第21至40顿组合。"},
+    {"index": 8, "file": "008_image.jpg", "role": "菜单表3", "visual": "相同版式呈现第41至60顿组合。"},
+    {"index": 9, "file": "009_image.jpg", "role": "菜单表4", "visual": "相同版式呈现第61至80顿组合。"},
+    {"index": 10, "file": "010_image.jpg", "role": "菜单表5", "visual": "相同版式呈现第81至100顿组合。"},
+    {"index": 11, "file": "011_image.jpg", "role": "结尾FAQ", "visual": "纯文字长页，集中补充执行逻辑、常见问题和边界说明。"}
+  ],
+  "quality": {
+    "all_source_images_reviewed": true,
+    "visual_only_supplement": true,
+    "ocr_preserved": true,
+    "nutrition_claims_not_validated": true,
+    "food_safety_not_inferred": true,
+    "note": "本分析关注视觉结构和可复刻内容模板，未重新识别或逐字核验表格文字。"
+  }
+}

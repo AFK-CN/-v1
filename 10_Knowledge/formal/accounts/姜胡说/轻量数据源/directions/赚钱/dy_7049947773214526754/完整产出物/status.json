@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T00:01:17",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7049947773214526754\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c7b748bc77u8fp7dirg0&line=0&file_id=d7fe01a39016490992835d532312f87a&sign=5521ba592b844eeb9fa09f3343c3f351&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-09T21:19:52",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7049947773214526754\\video\\source.mp4",
+      "duration_sec": 11.866667,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 356,
+      "platform": "dy",
+      "source_id": "7049947773214526754",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0d00fg10000c7b748bc77u8fp7dirg0&line=0&file_id=d7fe01a39016490992835d532312f87a&sign=5521ba592b844eeb9fa09f3343c3f351&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "",
+      "desc": "",
+      "publish_time": 1641443879,
+      "account_id": "77700555383",
+      "account_name": "姜胡说"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-09T21:19:55",
+      "count": 6,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7049947773214526754\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-09T21:19:58",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7049947773214526754\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-09T21:20:13",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7049947773214526754\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7049947773214526754\\video\\transcript.srt",
+      "segments": 5
+    }
+  },
+  "updated_at": "2026-07-09T21:20:13"
+}

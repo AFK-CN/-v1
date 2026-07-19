@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "account_name": "姜胡说",
+  "platform": "抖音",
+  "direction": "财富策略",
+  "source_id": "7043428505912216845",
+  "title": "姜胡说 2.2 NAS 全量学习卡：真正的奢侈！#姜胡说",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/douyin_7043428505912216845.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7043428505912216845",
+  "copied_file_count": 21,
+  "copied_bytes": 4697893,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 655,
+      "sha256": "201c3d21659a3bc264a5f8f16e3d7087b725529b0b142129014e2d3e55ef91c4"
+    },
+    {
+      "path": "source.json",
+      "bytes": 869,
+      "sha256": "207ec6354c92584a587915e38a3bddb278bead22c03705654defad289543bab6"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2247,
+      "sha256": "77ef78156a6f256312ddaccf6a8a4e39e2d81b1dd26f0240ccc43565c004d8e8"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 562604,
+      "sha256": "cd3aa77bbdd87790878c11ed06c1885fcede115ac914425239efc8873a7b08d8"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 37675,
+      "sha256": "286c6012f47d95a6f2b01828ff07801e384bd0ba911deca27e45669db857a098"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 38477,
+      "sha256": "b1e582151bf2e25752a017eb6350afc8cfe2b28f7bfa9b0c1ae83d158a16e50b"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 52180,
+      "sha256": "37d5bc73a1ff3645dc61fd39b356830fa3b46b56a1ea177c383bbb9596e9fc0a"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 62084,
+      "sha256": "71fce4d1ecedec157ba7da67a7e246a45a68b1f4fdf2baa3e1d44dccedac1e2a"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 82039,
+      "sha256": "6ca911781f1e9fabb1320832149117fd9724f0bdae447a6bafefe0c4d06d8160"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 84511,
+      "sha256": "77a1f1df67ede6573eba4930c2e273b5ae7a7c55016a7394045a7e19ae29a6f3"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 69747,
+      "sha256": "c83fb9ab6cd931a760ae2a641d131153cb46951fadb838b5200d89491c511616"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 71912,
+      "sha256": "6f3856cf20e27dec7e4af6cfb9c997f45a44a4122c6934f285a6d68f03458a02"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 73786,
+      "sha256": "04231deaa4adf4bcc4e29251ae403109c1d7371b37134dd223167d67b75bbabc"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 83142,
+      "sha256": "3d5e5c45870d253b7f2e9b3e14e146c54e2a2b1429b071f2c1873f44b1b82b6d"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 1141,
+      "sha256": "58d1899a070b574c259e22bf6f78117889723ae2fde45464db2ce5098bda81df"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 3472190,
+      "sha256": "7343a064a8c3f5ffec22e9c69c7fb5ffe71adb8540c6fa4b57997c5d78a8f00d"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 888,
+      "sha256": "827d556c1472974ec9f11da66203549021dcf8cfd682b4428c9354075649800d"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 479,
+      "sha256": "7e55ccb37164cbab8fa6bdea72a398098c58e31aaface75249fa82bbbb190cae"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 265,
+      "sha256": "83bb7e01f2723f28570c0ffd14e81141fb7d03c07029e5b181bac03b957fa64f"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 305,
+      "sha256": "82af48ad6b13c1451892b0d52d212a1919d636b2a170aa842c66f16b33039774"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 697,
+      "sha256": "fd55eaf51495ea976e895b03f926bf70cee281aefb29388daead7068aaa979b2"
+    }
+  ]
+}

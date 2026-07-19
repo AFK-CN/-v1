@@ -4,7 +4,7 @@
   "knowledge_layer": "candidate_knowledge",
   "status": "downgraded_retained_after_v2_2_formal_promotion",
   "downgraded_at": "2026-07-12T17:47:41",
-  "source_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说",
+  "source_account_dir": "10_Knowledge/formal/accounts/姜胡说",
   "card_count": 127,
   "workflow_id": "jianghushuo-v2-full",
   "formal_callable": false,
@@ -14,637 +14,637 @@
   "pending_action": "resolved_keep_downgraded",
   "entries": [
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/01_7517285713059138879_项目驱动学习才能变现.md",
       "sha256": "169c7d680db410c6181eef45ae8dde98f5755a07fc5a7987e399c567b8ac276d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/02_7207763764735741218_认知差与学以致用.md",
       "sha256": "485a6e54dcbc18888cccfc709879bb7386d1adfe3921c1d0f145ca7c5a51f609"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/03_7525084574431317286_自学终极技能.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/03_7525084574431317286_自学终极技能.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/03_7525084574431317286_自学终极技能.md",
       "sha256": "60f895f9c3b415fd99f939a00905e4f7732fb19b204b86bf4e1b5462d26496b0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/04_7537695497272790282_每天准备一份礼物.md",
       "sha256": "78c1f4e07959413f56b6ba18874ccc3ae1e30558104fbadd07643e2fea6d6eb3"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/05_7542519534188645683_放松版本成长法.md",
       "sha256": "26d82aff3fb7cdcdff49332d45846782392a9498e827c3c4a14b8a99206c4c6e"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/06_7545859136433573170_小到不可能失败.md",
       "sha256": "c9e7aaea3f7ff26ede5d341f88752794173f68344836b84042cadc311c351fae"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/07_7556253638943853867_凿洞学习三步法.md",
       "sha256": "02fb6f859bdac9fa6ebe8afb22324384a6b9046afb514abc962af6927cc21aa3"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/08_7569977115399998766_过程习惯改变人生.md",
       "sha256": "9ad0a19a7666c9d35de77ff914b026782318d8574962425f4876415c58c9fbad"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/09_7574452831827053876_大庭广众学习法.md",
       "sha256": "221663547423aafb00255b27e1049c83d99e90f9cb2a1cf39d2a979b0b42157f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/个人成长/cards/10_7639005685547568399_测试复盘公开工作.md",
       "sha256": "54c4f0bb8c1944c32b14f46490e64d6de1607c9425fda5f282668a91a9ce5eb6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/01_7172181768240483618_小事滚雪球.md",
       "sha256": "0dead6b0cc8502c1a192855b2d3a186d2668d6097543a9fabf9980b9ef242a03"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/02_7187394757394533687_选择校准三步法.md",
       "sha256": "b34a848833fadaf103824aa89afa6832866410589328bbe4b2c1b8cf975eb6cd"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/03_7196647811516026170_时间也要投对趋势.md",
       "sha256": "215f4d0b6b050c94d7425dd9f451b1faac95e2a369df75b6cfe0213907ad72a5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/04_7218526700215340340_天赋优势复利方向.md",
       "sha256": "1b9fe2e0f03aa8203a724625527e60918c1f8b9987bb4988d21ee72c1720a0c6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/05_7243416997281729853_时间兑换与今日一事.md",
       "sha256": "608a599ca266831586ac624faef6889b533d4ced99d7f2cb1861cad788cc4311"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/06_7358793291510320436_借梯子看方向.md",
       "sha256": "759545686f9bd3a1560fb8032098b29f60b0f3e9b89dab258e5452d1130e638f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/07_7401507931113475363_选择性博弈.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/07_7401507931113475363_选择性博弈.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/07_7401507931113475363_选择性博弈.md",
       "sha256": "d9f1e127c051c04f19f94a3069b1f7314ed38fcac9fc1f5927fceb6755f4452f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/08_7542157131752033546_省力路径设计.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/08_7542157131752033546_省力路径设计.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/08_7542157131752033546_省力路径设计.md",
       "sha256": "532bd30babb6a8718ecfb8932de3578ce73aba69b4403f78fe591c60e737d500"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/09_7603767561850735935_方向先于努力.md",
       "sha256": "a69941695f63e023b1860507bff2f152ad55b7b9ac75e115956e2b1a67dd7029"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/人生策略/cards/10_7615636638319922438_用公开行动提供确定性.md",
       "sha256": "e1f66037fae346ce6388424f08bf9681907503abf60583a5deed932d5b9eca3f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/01_7475723067688308018_ACT_+_MVP_低成本创业.md",
       "sha256": "5f032e2cea2e1ca6beb3279825eb0d237604627eff9c100429856420ec2cf1cc"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/02_7514323799211756863_从_0_到_1_的小实验创业.md",
       "sha256": "25d4dfc6b0e6503a75e5fba3287be506c6fcbd16f7337e9765f8680b495dce22"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/03_7567763940030057755_极简创业法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/03_7567763940030057755_极简创业法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/03_7567763940030057755_极简创业法.md",
       "sha256": "127bf4f5cf1998130a5eedb47534ec756a6d1fe0af93e39bb763687a531d6801"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/04_7536196932503506217_远离没有积累的工作.md",
       "sha256": "e6b41a905b8f82ba7e72f29f1e977f241b47368b886b2c6e3ecab462052fc8bd"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/05_7448232482178174258_从自身痛点出发验证创业机会.md",
       "sha256": "4d6734f63a899a1588d2ae91ef4c94f77674c23fe93966f35f80915deaf69730"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/06_7523959225278647590_长坡薄雪与非垄断市场.md",
       "sha256": "cf26a7beeb89011dd3950dd2628934bd11a360cd49ba19d172947042baa2480c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/07_7586645512623901978_机会来自日常积累.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/07_7586645512623901978_机会来自日常积累.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/07_7586645512623901978_机会来自日常积累.md",
       "sha256": "c8384ee7a9a54205ef69e8f9d375d89049f1e9be5ca1977217dc86d467098ef2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/08_7590403619493629190_普通人逆袭三步法.md",
       "sha256": "7f8027e8148f20910d53284fd688f6065c13031be0dca39d6983ef9ef2f5c3c0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/09_7618589475425275145_机会在规则空白期.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/09_7618589475425275145_机会在规则空白期.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/09_7618589475425275145_机会在规则空白期.md",
       "sha256": "a956edea009f0357a14e82b114a33f56398f1b1c040b08b18f984167eaaef4e9"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/创业/cards/10_7620096888573873417_一人公司产品营销品牌闭环.md",
       "sha256": "a8766ee04477a4beb08f05b4508b1ee70c0e85f6f4d6edf6c5c61f9dbbde913c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/01_7416961845786873100_收入三层跃迁.md",
       "sha256": "313f0b95962e88c0fc0d2305f795156dec7d15fb97065e7c2ecb51e243bca426"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/02_7432683956031540491_问题需求产品影响力闭环.md",
       "sha256": "e68031b93fcccb0b7f2f16a3a93137bcedf1330a2c3fa9645e500bcb4d7491df"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/03_7461266943811620133_自我改变一人公司.md",
       "sha256": "1d995fc04455ebb8129cb799f7e31788b6e1d955d3c685ea8ccf53f14bf47829"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/04_7523594090828041526_用户研究与理性创业.md",
       "sha256": "8292381aba3a5f848ac9f6b30b64ae95090b99e8229a451795b7e328d4d29130"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/05_7593729386504047914_知识到产品两次跃迁.md",
       "sha256": "bf72c5ee5f2d132c6db2a7d19f458fa3947a208716f1d08422d533858bcc436f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/06_7596705620514835748_稳定主业与副业能力栈.md",
       "sha256": "fde8d2649cd524261c3be2d6300bd84feef8755e33a68dd61c4559167b173c06"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/07_7598553754534776118_完整产品与市场反馈.md",
       "sha256": "86cadbcbb95c98403375aece32c1f58a53878b0a318772d0612c1db1b37a6f00"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/08_7616745251776122138_普通人赚钱五步系统.md",
       "sha256": "390aa580b1185a45986979cfb5493c15822c6bfe0baa78da577a0dfdfcbc0ea6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/09_7644578414015401235_发现问题最小产品.md",
       "sha256": "65782a5ed977f4ebd5fae75afc994cca1fc5e088e7d2999a6134f21b637e3de4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/商业机会/cards/10_7648295360862899456_重复工作产品化.md",
       "sha256": "7116d082650229b6422556b2d445d817a94c69a153311d2cfb5f67db0beb43db"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/01_7408929533908225334_自学是元技能.md",
       "sha256": "aaf31562474ec01e29d510e9ed1031987b26941afc4794c86b9cdf1670785fe8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/02_7520521925358030120_一次构建终身受益.md",
       "sha256": "027c9b1c27025ba37a9f923b9201d528b7ba7427330867d4dbb47b0268390a16"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/03_7551062641335209257_三步复利系统.md",
       "sha256": "4fad051940a17accfaee62c3ebde7568a1f84824fa763f3c868acdac608fa929"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/04_7557371251321343295_作品思维.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/04_7557371251321343295_作品思维.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/04_7557371251321343295_作品思维.md",
       "sha256": "f8b7cc3a4ab54d78530cd389abfaec7edc5b48e8c84554c76f594b01041ee666"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/05_7582931244523048244_副业资产系统.md",
       "sha256": "45792b0db70a7878cc762051c31f59c67ab2eaeaa06f9e4cba853a18fb3bf98f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/06_7593362807756721414_每天写点什么进化系统.md",
       "sha256": "22b574a28e23bf33d3c03b3c22043adf517ac42d0a1f3678124b5b9b96040d42"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/07_7597450892647992618_学能形成资产和复利的事.md",
       "sha256": "2b0b66a7aa917a3e6cccd369ad4ed55f2d45dc6715fdb0f1071aad2484d45130"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/08_7599316326846385462_内容资产创作系统.md",
       "sha256": "72c6b5284b542d1d92158ebc5da1e1c38adf96bfd2f48a9e21162c1a58e10599"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/09_7614896500782402858_做有积累的事.md",
       "sha256": "8fd808d9793516ffc3ce4019d6b5691064fed61ba80ebab725f622a40dae73f8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/技能沉淀/cards/10_7619348188293565759_技能分发资产自动化.md",
       "sha256": "693523b0094f483edc63a6579d2bb4c8f749715485f7a3987d152d130ff8af1d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/01_7538795273326890282_演讲式口播与松弛感.md",
       "sha256": "f1bd68d45345e7eda0da12094739407be49b2273d366082380e4190ad3397924"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/02_7568130374224629002_关系才是短视频资产.md",
       "sha256": "cc10e0a92c0923a98f791273a94944e9c8d811b154d20bbcd68e31d78efa759b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/03_7580014753293012264_不露脸短视频三种做法.md",
       "sha256": "3522075d13aaaf4c3ab33c99a34817348a9a0d343169375623ac7cb5a4cede21"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/04_7601154241889193251_信息差与信任差内容模型.md",
       "sha256": "a9568af3ae5e24114a90590d90289c03175f16cc2ebe89861c113d4a7ad4d8c4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/05_7603386512180383012_学习曲线连续剧.md",
       "sha256": "b07617310483de41e4d8981ea6bc3a0ea3dc6a1c6f7a421be78789d673786391"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/06_7607072666188631305_经历卡片到自然口播.md",
       "sha256": "52e6a3801bfb531e0c9463b383e516f8de2c2a4fa2e86af26853ffaa2053e927"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/07_7617851728397962542_说什么与怎么说分离.md",
       "sha256": "cf4ba312a0d2615c70b0eae91440cf240d27ca23b31ad511947ee7f457b90b7c"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/08_7622329208672406834_短视频创作系统闭环.md",
       "sha256": "49ba5627a6acc2cf23b3e82f8e70a4b66cd50c4606ba2a0a925b0b97920d0abe"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/09_7631599967408360746_从0到1探测与复盘.md",
       "sha256": "39f74a92131e7a3ea3fa7e4e84bf736c859c03c0c1421b4375d34c1156d784bf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/短视频/cards/10_7642736662568635675_有用与真实双原则.md",
       "sha256": "35519856907ce495a1252634d2bfa0773198485893d152314b34d6d60e2aa4d4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/01_7046756749243616549_人生编程与算法隐喻.md",
       "sha256": "1012862b991c75b6d3b09ec83d0c9351074933032ce9619825b56323e07d8b8d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/02_7049353047872425223_关键概念与逻辑脉络阅读法.md",
       "sha256": "9241f294933541d5338b00942beac2b2ff6781cdf233da3160c6a1fc46d831c5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/03_7058641665652821255_三观地图与选择系统.md",
       "sha256": "37c689941c9eccd8a07aeb7dc7686386ac6c2696dbddcc266a88ba613d997027"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/04_7070143597873515810_估值主题与版本迭代.md",
       "sha256": "bd09f50bf8aafd68a8b9b074215e7d4aee8d36a1f14b9e7629c583273936e296"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/05_7270315554093731133_学习服务自我进化.md",
       "sha256": "827f7c3644657f0629ef54fa17326e9431df9014ccef7b31e1906d1d05c227f7"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/06_7274939371835428131_可控圈与能力破局.md",
       "sha256": "687e7bea1cccb91afd8c196111f65405a40e289a4a004a98017859e633b0eae0"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/07_7351006613240696090_现卖现学应用闭环.md",
       "sha256": "de0433fc7c14f39eac84b3eab6359d1a4e9ac2130053cbadee8d661c54fb12f2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/08_7578110142638542115_社交关系三分法.md",
       "sha256": "5c58987bb32ef8a647f17d50c1a73993b78b756f30070e714746fc9001464e4d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/结构化理解/cards/09_7630837327660584238_流量力学价值矩阵.md",
       "sha256": "f5a6dba606c0d09fc1bf8ad314e2671291558b4e23a4644e581af1c1285d25d5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/01_7505041506858224932_AIDA内容营销闭环.md",
       "sha256": "1cc39b55a3bd2bcca9b9dc25429bd609e4266582dd533cd51fd15a91b110c089"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/02_7541046418572660020_小事模仿分享成长路径.md",
       "sha256": "cc024d72276393900861d5c3bcc19cccafb2ef3314ed2231223b14a51bab4d6b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/03_7549574243395112192_内容不是输出而是对话场.md",
       "sha256": "316f8bdb85d7d246cd7d4ad30dee9f976c2ecea6a70d98917c0a12e420e811c5"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/04_7552895793951264039_AI多视角内容研究法.md",
       "sha256": "f1c377bfedb7bdad0e00d5a71e8f63b51453531cceffc8fde8fa2a8d19eea7d6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/05_7561436598668184858_经验试用装与信任连接.md",
       "sha256": "ea3356a08ed2d90dbcb20b3fa7094a4dc1e117edea275600dc77a1c3b158d224"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/06_7568818546345963243_粉丝信任是真正的内容资产.md",
       "sha256": "372a70b52c0adc77bcd630a890749a339e8bbee5966a96965599b70daefb37a8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/07_7620452140850384179_伤疤起号与经历护城河.md",
       "sha256": "6af8d2dd2c9a9679b641904f761bd2d950d9adfc5128d90932d4eb3c32ef4e14"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/08_7621518948420324658_价值信任型内容资产.md",
       "sha256": "ebc1c14c0dbc832a474b25eb72ba493f1491f58d0d186bde9bbdf976df3169fa"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/09_7642363455722229042_普通人机会系统三件事.md",
       "sha256": "deecd5099a5db6405bfd060f77f2a35cbd7ea60f2cc5a81794a33c90a933bf98"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/自媒体/cards/10_7646802062281346356_一人公司的内容杠杆系统.md",
       "sha256": "6a4a4357f0520c718814802e9fdc4f10519275bc8de39f2a2a8b05bbe13857e8"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/01_6813708566600404236_用思维模型拆商业布局.md",
       "sha256": "1193bdb5ab654512244417a386a0e24d86dcf0b3866e4c11565f442d775d4a3d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/02_6821719966333668616_生活赋予文案力量.md",
       "sha256": "085f0f1c87c44f1189fc1fbcc98c7312b484eeff2707df25d3dc3d7f24d99ca4"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/03_7048251304447069453_每天写点什么健脑法.md",
       "sha256": "700e2daa6e3e11450bc367d3228ba618860538d3950b0ee6d6b7c7f759b84bdf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/04_7129521528927948068_真实作品胜过套路.md",
       "sha256": "186cb6a2208604b9221fccf8b5f99055711cf2ac8b51fd8db0c6deef7919f77b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/05_7186260197860543803_写作认知飞轮.md",
       "sha256": "7d04cabfb6fa9d51ba994c48452666467478a6a7e5dde98b911130851d3d0e8f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/06_7356919376555052328_创造性表达即生产资料.md",
       "sha256": "be3e85d59236882e5b15e798bb68ec675bca3352225174ab883a96f9dce6842f"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/07_7384068155007651107_有用知识表达结构.md",
       "sha256": "d68981b0abf6c848c14f4499af5815e751d889c0f0e12f994a123fc49a8379fa"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/08_7561825588315442468_镖人高频记录法.md",
       "sha256": "bd3c24231a857ae93913aa1f8379a5ae446655847b4f4c2cd7268277d0fb5883"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/表达文案/cards/09_7597233865270910534_大师三层拆解法.md",
       "sha256": "f443688dec5c46b77c28a1d023a3981c68338bccb44d86d403d97526e0539f8b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/01_7569249171526536474_困难试错分享财富认知.md",
       "sha256": "593fe0f4af76728ec35bca7d122d16fc03bb72c2ee5cc45447c53501658a6499"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/02_7571846145677249830_系统绕过拖延.md",
       "sha256": "ed64da0c562696091a70119b1c61ce3c8da5aee278ffc911d72fd1fd69753570"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/03_7579257801478786319_认知提示词三级进阶.md",
       "sha256": "06381a30f45ee35b146ee4069ac71306307f581c7951a63a0a654c0c02bcda25"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/04_7592259516792622399_视野决策方法论认知系统.md",
       "sha256": "f25711e51860b79b39da0c872bb073ad3e341d232333e7c45b3bf379b2596abd"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/05_7594110311276219686_重装操作系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/05_7594110311276219686_重装操作系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/05_7594110311276219686_重装操作系统.md",
       "sha256": "6f734c13fe363a414e90d46a48554744606147ea72ed4cde2a7c8397ea65c967"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/06_7615244850891345158_跳出陷阱积累成长路径.md",
       "sha256": "f7c798465ff83668b530ba046c69248ae138449f3585512e1ea5c48d50a32721"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/07_7634543338351250740_从小系统到财富系统.md",
       "sha256": "4b2b0094d76bdfb206af0025032534d15a915ef529553d1077f2601fde4b4878"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/08_7634940154272156947_规则资源认知跃迁模型.md",
       "sha256": "c700240ec32bb0e6b4d39583c8a271cbce630b656dcc6c1c6c5ef65e13672b14"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/09_7637536206296747315_每天两小时升级操作系统.md",
       "sha256": "8db63860b7bb97aedffb8457f06f462e7fca841c954b1e1001103f5bf7ca5373"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/认知升级/cards/10_7641608326068948260_学习不是输入是变异.md",
       "sha256": "97d447cab66b50c7986b83bf68f4727489e4a293b6005e7aaa1adeb2eb9af1e1"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/01_7176998179462728994_能力窄门与赚钱研究.md",
       "sha256": "1c18b9e22703208d7e3e06039e965132a07ddcf2c92e58a8e7644abddcb427df"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/02_7540648379617987891_产品营销双引擎.md",
       "sha256": "e72269c25864960193d61612ca4a4a21f33dcf1beef696263073b3a51fa7c146"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/03_7573700909629263156_赚钱技能与人生选择权.md",
       "sha256": "4a80ccd5e16633b60e8e4cc80e76c5e176a051a27b0b319a9e0fa799b7790a6a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/04_7575936937542962432_价值交换与经济自由.md",
       "sha256": "76e4cedffb3017c1797d3b9fc1f96eb0fac5c9306d810309f6466426e151eded"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/05_7578515738357402914_过程边角料资产化.md",
       "sha256": "0e788a97806f34ede8a580bc8572fee510a76e32857880f11cc82647f92e4fdf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/06_7591878323370741046_信任共识财富观.md",
       "sha256": "f01268c5b31887dec00f0cea807e7c1dc292c3932088b8049c4da97e1423b573"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/07_7611180315444268351_全局成本与时间价值.md",
       "sha256": "ed69813de685b76f742c1a80ede1624f438489a4cfcb2a0c92d6cdb0beb56d47"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/08_7620840179279858995_时间杠杆循环.md",
       "sha256": "3059efb90beda948f700f462f9942e3871a48a541d033a6c85d0fe1ac851ccf6"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/财富策略/cards/09_7623432595895749926_验证后再教授赚钱过程.md",
       "sha256": "d163764f6a970597ab3b5d8a71c17517412ff93c0ceda75a0e7abae962af9653"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/01_7365862788821962018_知识服务赚钱.md",
       "sha256": "56f8f53ea098205acb07957d558310d96fb31c04ebcdd989efe25176a79cd068"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/02_7474952939895934259_赚钱是一种技能.md",
       "sha256": "664ed4cec0b70c82e99024abae9685be0fb739c56496c2b652ed888d2294a553"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/03_7482406384856730918_赚钱从你的擅长和别人需要的交集开始.md",
       "sha256": "7445b34001633df6d0e87c183f1ae981a167c696e6eee7de0d023b3c85800591"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/04_7546226278702058779_把闲置注意力变成钱.md",
       "sha256": "38395da7cd7ea55e1c395178ffece4918938466e63362fc4584bfc030f3c8cad"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/05_7576672805584964904_副业靠系统不是靠加班.md",
       "sha256": "fc7d6ceaa2027de092c6be124a1711d941915b5b51feb10c2afd4c556518778a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/06_7577381671138364724_主业是副业的天使投资人.md",
       "sha256": "0fc5c6b52ffea51a19ec73778479dd59c2496cf90a5cb5bb1aa17adf41b83fd2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/07_7580396616813776162_知识博主的收入组合.md",
       "sha256": "f38d0f60742b65b5838a904576e7b9a3bf32c5d0b978c6982118e73e27727269"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/08_7624160450304920847_发现问题给方案用杠杆复制.md",
       "sha256": "214f7a4caac0f0e43e2b39d83c26f77e52cd54f5067b8ef2f1b7d7eeaa058625"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/09_7625643184860826926_兴趣变现的信任飞轮.md",
       "sha256": "a9fc0181aa5992703184611d1885fddc24e7a36c691c63cefd8053ca5cc2f48b"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/赚钱/cards/10_7637902663966838042_内容变现的三个坑.md",
       "sha256": "743d73378d216e76b1ebb4e73ab2f1179eea3e2d0fe0817724dfc3ba3e019b0a"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/01_7614151116225252651_读书赚钱的闭环.md",
       "sha256": "53ab94f2d95c51f82835f1ebf9ec460c173532604272f332fe18e71c18d0ad00"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/02_7486844955646774565_每天一小时的创造学习分享.md",
       "sha256": "0706af159d12a8d4dfbcc073ea68d1478d9f8a0ef80061386326affe7cdd2296"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/03_7155485852842462495_少读书读好书.md",
       "sha256": "0f2a253dbf5a156f028a4281e3168d91a0d8038daa69d6dd47943a4efacc981d"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/04_7173673281491307776_主题阅读与做中学.md",
       "sha256": "7763dd46638c2445c95a20c73556b1e3e0d47bdc60176f092b8b6d5e8b5fbb99"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/05_7185541439814651194_三本书打开人生视野.md",
       "sha256": "accef53027f572a6a30c3bbc99f9b5f232cc0992fde5d14f046cc2e812f8ebf2"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/06_7233757661416705320_行禅式深度学习.md",
       "sha256": "16f4f308fd49bfb63200b181cd093eae04b00e12cdc0d3e7127d32cca1dacf49"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/07_7548090908445609250_学习同时赚钱.md",
       "sha256": "e77d3171b704aa82701e7fcb6a0bbbab89559d9241da6805daa29475f3181cff"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/08_7596338568050593060_学习不是读是演.md",
       "sha256": "0cfa63eb508d3d27c1dac5720584c306bb66778c19707c8bb18abcb4fdf85abf"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/09_7636042183547587875_读书博主卖的是改变.md",
       "sha256": "312cfc0d1baa80368b18c18297ea6e22ab262eb65cedadf174b0567e894e0b21"
     },
     {
-      "source": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/姜胡说/directions/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
+      "source": "10_Knowledge/formal/accounts/姜胡说/directions/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
       "backup": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/jianghushuo/2026-07-12/directions/阅读输入/cards/10_7637158369555451187_关键词读书法.md",
       "sha256": "38d1077008e1fad78a5b778b98193d14d6d9e60026c2f683ff005418979d36b1"
     }

@@ -2,20 +2,20 @@
 
 这是给 Codex 和人工快速判断状态的轻量索引。默认不要读取全量索引 `knowledge_index.json` 或全量审计索引 `知识库总索引.md`。
 
-生成时间：2026-07-15T08:47:07
-全量文件数：9116
-正式知识条目：1541
-候选资产条目：6659
-默认禁止读取边界：6
-清理候选：5
+生成时间：2026-07-19T16:18:25
+全量文件数：11994
+正式知识条目：4128
+候选资产条目：7305
+默认禁止读取边界：8
+清理候选：6
 
 ## 默认读取顺序
 
 1. `知识库入口.md`
-2. `00_System/shareable/rules/用户操作台.md`
-3. `00_System/shareable/index/controller_routes.json`
-4. `00_System/shareable/index/task_entry_index.md`
-5. `10_Knowledge/evidence/index/knowledge_index_summary.md`
+2. `00_System/shareable/index/task_entry_index.md`
+3. `00_System/shareable/index/controller_routes.json`（命中任务后读取）
+
+用户示例另见 `00_System/shareable/docs/project_use/用户操作台.md`，不属于默认启动读取链。
 
 ## 分层索引
 
@@ -24,6 +24,7 @@
 - `task_entry_index.md`：任务入口索引。
 - `account_knowledge_index.json/md`：账号中心索引。
 - `formal_knowledge_index.json`：正式知识索引。
+- `00_System/runtime/cache/formal_retrieval/`：正式层混合检索的可复现缓存，不属于分享层。
 - `candidate_asset_index.json`：候选资产索引。
 - `raw_blocked_index.json`：默认禁止读取目录边界。
 - `知识库总索引.md`：全量人类审计索引，默认不读。

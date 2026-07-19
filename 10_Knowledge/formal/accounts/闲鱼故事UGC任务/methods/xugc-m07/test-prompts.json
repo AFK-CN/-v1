@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m07",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m07-positive",
+      "type": "should_trigger",
+      "prompt": "夜里用3D打印机赶闲鱼订单，家人以为在家开小工厂；订单和交付事实完整。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m07",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m07-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m01",
+      "prompt": "故事中出现室友两个字，但室友没有误解或反应，要求硬加吐槽。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m01",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m07-edge",
+      "type": "edge_case",
+      "prompt": "有一句自嘲，但会嘲笑经济困难的买家。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m07",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m07-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "把家人误解换成客户把上门收纳师当保洁，主线仍是服务执行和反馈。",
+      "source_scene": "宿舍创业",
+      "target_scene": "未见场景-7",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m07",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m07-commercial",
+      "type": "commercial_contamination",
+      "prompt": "广告脚本强行插入段子，询问能否提高自然表达指纹证据权重。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m07",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

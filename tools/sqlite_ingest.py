@@ -17,7 +17,7 @@ STATE_PATH = Path("00_System/runtime/state/sqlite_ingest/state.json")
 INBOX_ROOT = Path("00_Inbox/sqlite_imports")
 INDEX_DIR = Path("10_Knowledge/evidence/index")
 ACCOUNT_ASSET_ROOT = Path("10_Knowledge/candidates/account_assets/sqlite_imports")
-FORMAL_ACCOUNT_CENTER = Path("10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心")
+FORMAL_ACCOUNTS_ROOT = Path("10_Knowledge/formal/accounts")
 
 
 @dataclass(frozen=True)
@@ -328,7 +328,7 @@ def _account_candidate_payload(
             {
                 "platform": platform,
                 "account_name": account_name,
-                "knowledge_status": "formal_account_exists" if (root / FORMAL_ACCOUNT_CENTER / account_name).exists() else "candidate_account",
+                "knowledge_status": "formal_account_exists" if (root / FORMAL_ACCOUNTS_ROOT / account_name).exists() else "candidate_account",
                 "content_count": len(account_records),
                 "new_count": sum(1 for record in account_records if record.get("change_type") == "new"),
                 "changed_count": sum(1 for record in account_records if record.get("change_type") == "changed"),

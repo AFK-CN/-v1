@@ -1,0 +1,37 @@
+{
+  "schema_version": "publish_copy_formal_validation_v1",
+  "status": "approved_callable",
+  "account_name": "李宗恒",
+  "account_skill_version": "1.3",
+  "source_workflow_id": "lizongheng-v2-full",
+  "validated_at": "2026-07-18",
+  "user_confirmation": "用户明确回复‘可以生效’。",
+  "source_report": "10_Knowledge/candidates/account_learning_workflows/lizongheng-v2-full/PUBLISH_COPY_SPECIAL_STUDY.json",
+  "source_report_sha256": "a6f14e436c67d0aa399977b3c99840eca2833bb0902bcfb30a553f6933819f77",
+  "observation_file": "10_Knowledge/candidates/account_learning_workflows/lizongheng-v2-full/candidates/publish_copy_observations.jsonl",
+  "observation_sha256": "aaad0e3d7ecab53e344f981bd2cd5f01c5a9e537afe82a8da85d412db6c0f56d",
+  "counts": {
+    "eligible": 430,
+    "completed": 430,
+    "deferred": 0,
+    "title_observed": 430,
+    "body_observed": 430,
+    "topics_observed": 430,
+    "coordination_observed": 430,
+    "title_equals_body": 430
+  },
+  "triple_verification": {
+    "cross_context": "passed: natural drama, product-ad and platform-project evidence all preserve a short publish-layer role while remaining separate tracks",
+    "predictive_usefulness": "passed: the promoted rules decide when a short title-caption is sufficient and prevent publishing copy from explaining away the conflict",
+    "account_exclusivity": "passed: all 430 title-body pairs are identical and all coordination observations assign full classification to video, transcript and visual evidence"
+  },
+  "rejected_generalizations": [
+    "short publishing copy alone determines drama classification",
+    "every post should expand the caption into a plot summary",
+    "mentions and project tags imply natural account methods",
+    "the title should reveal the full joke or settlement"
+  ],
+  "candidate_preserved": true,
+  "raw_source_modified": false
+}
+

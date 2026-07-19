@@ -1,0 +1,39 @@
+{
+  "schema_version": "2.3",
+  "workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "generated_at": "2026-07-16T20:13:43+08:00",
+  "ok": true,
+  "requirements": {
+    "candidate_workflow_preserved": true,
+    "formal_account_is_direct_child": true,
+    "formal_evidence_cards": 116,
+    "formal_methods": 7,
+    "methods_approved_callable": 7,
+    "product_ads_isolated_from_natural_v1": 47,
+    "platform_projects_isolated_from_natural_v1": 1,
+    "insufficient_evidence_method_kept_non_callable": 1
+  },
+  "formal_receipt": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/FORMAL_INGEST_RECEIPT.json",
+  "formal_skill": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/SKILL.md",
+  "final_verification": {
+    "candidate_pipeline_validator": true,
+    "formal_card_count_verified": 116,
+    "formal_method_count_verified": 7,
+    "pressure_cases_passed": 35,
+    "pressure_cases_total": 35,
+    "unit_tests_passed": 196,
+    "unit_tests_total": 196,
+    "account_index_rebuild": true,
+    "account_registry_sync": true,
+    "user_layer_validation": true,
+    "formal_full_name_resolved": true,
+    "formal_alias_resolved": true,
+    "validate_system": true,
+    "reproducible_outputs_rebuilt": true,
+    "health_gate_healthy": true,
+    "system_boundary_violations": 0,
+    "legacy_path_references": 0,
+    "boundary_dry_run_changed_files": 0
+  },
+  "user_approval": "2026-07-16 用户明确回复‘入库吧’。"
+}

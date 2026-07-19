@@ -1,0 +1,728 @@
+{
+  "schema_version": "account_skill_transcript_validation_v1",
+  "validated_at": "2026-07-16",
+  "account": "姜胡说",
+  "minimum_per_method": 10,
+  "maximum_per_method": 15,
+  "selection_rule": "formal seeds first, then cluster/classified support with direction and length diversity; low-evidence expansion remains provisional",
+  "candidate_audit_path": "10_Knowledge/candidates/account_skill_upgrades/2026-07-16/evidence_revalidation/evidence_matrix.json",
+  "method_count": 10,
+  "validated_source_total": 126,
+  "methods": [
+    {
+      "method_id": "content-relationship-leverage",
+      "title": "用持续有用内容建立关系与分发杠杆",
+      "evidence_status": "sufficient_transcript_validated",
+      "selected_count": 10,
+      "source_refs": [
+        "6829688565107100939",
+        "6833718387609308429",
+        "7535396180029754634",
+        "7537316313787026742",
+        "7587067316618267955",
+        "7637902663966838042",
+        "7644216083330714886",
+        "7621518948420324658",
+        "7549574243395112192",
+        "7568130374224629002"
+      ],
+      "transcript_sha256": {
+        "6829688565107100939": "90f0d395535f8dcd724821df59937e79a6708d0c77955abd99f4d1f0cb3584e8",
+        "6833718387609308429": "70579b3c16f701a78e12000b3d77c396507b71ef17037fe4ea8bd7513abb7302",
+        "7535396180029754634": "6b31c7de6e8ccb6e4a78bc5c4f55a642b5d576a3eda6a9ee42ac3d165c969a09",
+        "7537316313787026742": "bd433814d4f747c214d2f1019c67dfea688daef93fcda73742c7be30e97a6135",
+        "7587067316618267955": "f37be055373a33599c35524f31330316cae780d30e4ab19036f6610c4664eab9",
+        "7637902663966838042": "13bd4c5c006268bac3f2bb68cc942ef6c7d5e2f9bd5c2b80af8824d5f0f30f34",
+        "7644216083330714886": "b27d2078988e4f7d94f0bbab7da96fc60062121a32974506adb075eeb91b4d0a",
+        "7621518948420324658": "4ecb3fd54fe9734e9d4569b3268b3cb37c339fa2f07ff76ac6721b68deafe24a",
+        "7549574243395112192": "315010d79e55b8ec34293f3a06cb77ed77969edb9c86789dddd07f00caf35907",
+        "7568130374224629002": "d280dac1c3094a9f7f0ff38981fecdb51b38944e01982d70fd8e7ab33a59227b"
+      },
+      "aggregate": {
+        "unique_source_count": 10,
+        "direction_count": 5,
+        "direction_distribution": {
+          "认知升级": 1,
+          "自媒体": 5,
+          "短视频": 2,
+          "赚钱": 1,
+          "阅读输入": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 7,
+          "manual_validated_expansion": 3
+        },
+        "transcript_chars": {
+          "min": 362,
+          "median": 1524,
+          "max": 5334
+        },
+        "signal_medians": {
+          "audience_terms": 6,
+          "boundary_terms": 6,
+          "causal_terms": 16,
+          "feedback_terms": 2,
+          "first_person_terms": 34,
+          "line_count": 134,
+          "question_marks": 0,
+          "time_or_sequence_terms": 22
+        }
+      },
+      "manual_review": {
+        "accepted_source_ids": [
+          "7621518948420324658",
+          "7549574243395112192",
+          "7568130374224629002"
+        ],
+        "reason": "三条分别验证持续有用的资产型内容、对话关系和主动复访理由；都把平台流量与长期用户关系明确区分。",
+        "rejected_examples": {
+          "7639005685547568399": "主要验证公开成长、测试和复盘，更接近经历转信任与小步迭代。",
+          "7644578414015401235": "主要验证问题到最小产品，不属于内容关系的核心因果。",
+          "7599316326846385462": "主要验证内容资产生产系统，关系与分发只是结果层。"
+        }
+      },
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "experience-to-trust-asset",
+      "title": "把真实经历与解决过程转成信任资产",
+      "evidence_status": "sufficient_transcript_validated",
+      "selected_count": 10,
+      "source_refs": [
+        "7567763940030057755",
+        "7607072666188631305",
+        "7623432595895749926",
+        "7642736662568635675",
+        "7482406384856730918",
+        "7568818546345963243",
+        "7561436598668184858",
+        "7620452140850384179",
+        "7639005685547568399",
+        "7615636638319922438"
+      ],
+      "transcript_sha256": {
+        "7567763940030057755": "9c3a9ac34ca86f4dcdb68ad4580779806f300500f48ace5d6d831c053f5584eb",
+        "7607072666188631305": "47afedb15c1c837934256234c66cf38f4e571b414e2fafbd20adf3be016b6a90",
+        "7623432595895749926": "1f5cbf03e6732ae6487663ae437245a0a85bee929c10ce68e80d45d6731ec4af",
+        "7642736662568635675": "02aa6451b2bc99b00ab323b7d4f9767488cfa30e6253a6a33581bab6077239ba",
+        "7482406384856730918": "21cd5d506faade9a6603d6fcea6b412653d3fae673a3017500c2a48f24c3dbc7",
+        "7568818546345963243": "b1024c059b2246609554a4ad32c8db1ff779bf55b76426d766f2835a0bca8bbc",
+        "7561436598668184858": "0b8206ab6e7458db72b90a0d3519ce96f76621fd6b739e401167d2ec449f61a0",
+        "7620452140850384179": "681540a82368edc334bb89f80f2c00b5d8592caa3a4fd9aef6ba54358ea7fd1c",
+        "7639005685547568399": "c61d5a4c096ce695aeca4d9e6525ba944ef412e54b3bfe77d61ae01c79275317",
+        "7615636638319922438": "1c29527e49ae4e3c1ba28cbe85fe459ed20f9b5349215fc666d29edafaa2e50c"
+      },
+      "aggregate": {
+        "unique_source_count": 10,
+        "direction_count": 7,
+        "direction_distribution": {
+          "创业": 1,
+          "短视频": 2,
+          "财富策略": 1,
+          "赚钱": 1,
+          "自媒体": 3,
+          "个人成长": 1,
+          "人生策略": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 4,
+          "manual_validated_expansion": 6
+        },
+        "transcript_chars": {
+          "min": 395,
+          "median": 1610,
+          "max": 3805
+        },
+        "signal_medians": {
+          "audience_terms": 8,
+          "boundary_terms": 10,
+          "causal_terms": 16,
+          "feedback_terms": 2,
+          "first_person_terms": 42,
+          "line_count": 152,
+          "question_marks": 0,
+          "time_or_sequence_terms": 26
+        }
+      },
+      "manual_review": {
+        "accepted_source_ids": [
+          "7561436598668184858",
+          "7482406384856730918",
+          "7620452140850384179",
+          "7639005685547568399",
+          "7615636638319922438",
+          "7568818546345963243"
+        ],
+        "reason": "六条均以真实经历、问题或公开成长过程为主体，并明确说明经验展示、过程反馈或持续帮助如何转成信任。",
+        "rejected_examples": {
+          "7514323799211756863": "个人痛点主要用于发现创业机会，信任形成不是主因果。",
+          "7590403619493629190": "主要验证复刻、行动与资产积累，不是经历公开后的信任机制。",
+          "7624160450304920847": "主要验证发现问题、解决问题和产品化。"
+        }
+      },
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "input-output-transformation",
+      "title": "让输入通过输出和使用发生转化",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 11,
+      "source_refs": [
+        "6946945614781418783",
+        "7000380741297196295",
+        "7130620410202180871",
+        "7166372283500612900",
+        "7201849392154922299",
+        "7379209845997571362",
+        "7548090908445609250",
+        "7597819263646289158",
+        "7614151116225252651",
+        "7636042183547587875",
+        "7637158369555451187"
+      ],
+      "transcript_sha256": {
+        "6946945614781418783": "8d31dba2f1ab77dd3384cb2342f415e98a4eb6dc6dd2024b753bbadc3c50b1fd",
+        "7000380741297196295": "37ee9192d6577d3b4880a9f8a1f05c3ae11d89dc40c536e5fb1e40171f6fdb1f",
+        "7130620410202180871": "33fde1e6d0949e7ee8a5bde830e17832168c3b6b5a9f9a5f196f739b531a71a2",
+        "7166372283500612900": "97a972db3d08329eab4ca3db17b2848c747f18d21e1feb8bf07017df855b4aa7",
+        "7201849392154922299": "98302e112d57453793fdcba31445dd52ee407b5de8fc93debbc630cff312f454",
+        "7379209845997571362": "bd3d57caec91cedc722dea37dd1362c3e34291d9595471983d140e3ba27f549a",
+        "7548090908445609250": "2f5cd7082cbdd9a0718a8f0e800f974f6f249915deaa1caf1ffec25efa4b1230",
+        "7597819263646289158": "632b0d72014577a38e8e39d008cb91a1b9a8c2c9dfa43e1f87bf88cde5f99f70",
+        "7614151116225252651": "730254c7494ff38d9383016a99a620ec70dc7a5c95c80631b28ef75019f74215",
+        "7636042183547587875": "b8cc1e165fab9f68af874615364a8954d154caf2e2145b73740dd748ce327d2d",
+        "7637158369555451187": "d7f828308a958985bab9933ffabee01a3dd9752f44960ee11c9e5fcf3977b644"
+      },
+      "aggregate": {
+        "unique_source_count": 11,
+        "direction_count": 1,
+        "direction_distribution": {
+          "阅读输入": 11
+        },
+        "selection_status_distribution": {
+          "formal_seed": 11
+        },
+        "transcript_chars": {
+          "min": 340,
+          "median": 1851,
+          "max": 32549
+        },
+        "signal_medians": {
+          "audience_terms": 8,
+          "boundary_terms": 12,
+          "causal_terms": 10,
+          "feedback_terms": 2,
+          "first_person_terms": 33,
+          "line_count": 177,
+          "question_marks": 0,
+          "time_or_sequence_terms": 27
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "life-specific-expression",
+      "title": "用生活细节和真实问题承载抽象表达",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "6813708566600404236",
+        "6854877843646663944",
+        "6903853734564990221",
+        "7019266521407048996",
+        "7046025091531951391",
+        "7048251304447069453",
+        "7129521528927948068",
+        "7186260197860543803",
+        "7356919376555052328",
+        "7366271725065080064",
+        "7383659852616322338",
+        "7384068155007651107",
+        "7397776555751066914",
+        "7526907668867370250",
+        "7538795273326890282"
+      ],
+      "transcript_sha256": {
+        "6813708566600404236": "5ac45472c13fdace8ea0734896150df6bd48b5415386332d19a097ec9795c5bf",
+        "6854877843646663944": "23ca88d73fe0f8223f1f92ceecbd2dbd30ae141dec7b8075771225e0ece23278",
+        "6903853734564990221": "12fd5feeefe7b903c6669936d31a0f4e72402887196e7a35c0519d0249ad49c5",
+        "7019266521407048996": "67490bf3ca7937f2750fbedfdd58e378c992160ac432d741536ebd9fa9c2393c",
+        "7046025091531951391": "ad3f75fd95c85133ce4355c06bb97b2baabd88669218327d712ed13e5fb9c723",
+        "7048251304447069453": "15bf9834b59ded085b99a920841eaa6d4a6a524fff326054e9b5c9fa46e32f7c",
+        "7129521528927948068": "cf07ac6e197d19e12f59a22074c55b079b31db01530c6aa46bba34d561749d92",
+        "7186260197860543803": "96509c99786f4aedce07c1ca64a8814b713ea97248771ce15ab04ab0b1dff2ff",
+        "7356919376555052328": "03121034e8be59d48b614f92bbb9f56c5697a135e78c298eb797102c4fb195c3",
+        "7366271725065080064": "d1d3ed7fab1aacb54500968899f57ed6184ddc43f9b6de0551f75d2e2880aaab",
+        "7383659852616322338": "86f0074484c457c9585559b1c21fd81a904a5388aded0846e6c93fc5e70d097e",
+        "7384068155007651107": "9abe30bb9f7e7cf610c2c1ba22d573c09b5cd01562af3beaf838c55eff1f3a3b",
+        "7397776555751066914": "3ea8d97d471c2b4d782b8f487ba4ad77b204bd38758352c06317b4b562821325",
+        "7526907668867370250": "de3d1576bd1ff5223a9b468a77a8fe24f9bf8389cf5d2ccf123a78787fa04f84",
+        "7538795273326890282": "cfadba3853c1c10ee071ad6d46a0ced9a83a8ea97c02b8e7085a7368dafd538b"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 3,
+        "direction_distribution": {
+          "表达文案": 13,
+          "阅读输入": 1,
+          "短视频": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 15
+        },
+        "transcript_chars": {
+          "min": 214,
+          "median": 1351,
+          "max": 2267
+        },
+        "signal_medians": {
+          "audience_terms": 4,
+          "boundary_terms": 5,
+          "causal_terms": 5,
+          "feedback_terms": 1,
+          "first_person_terms": 22,
+          "line_count": 156,
+          "question_marks": 0,
+          "time_or_sequence_terms": 13
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "opportunity-rule-resource-leverage",
+      "title": "从规则变化和资源重组中识别机会",
+      "evidence_status": "sufficient_transcript_validated",
+      "selected_count": 10,
+      "source_refs": [
+        "6844867524975217934",
+        "7618589475425275145",
+        "7633813934260243753",
+        "7634940154272156947",
+        "7642363455722229042",
+        "7590403619493629190",
+        "7586645512623901978",
+        "7401507931113475363",
+        "7187394757394533687",
+        "7542157131752033546"
+      ],
+      "transcript_sha256": {
+        "6844867524975217934": "8908a96b57102258497d3218b51eac192bf4730ff5c9a0ab090a199a32436be9",
+        "7618589475425275145": "ae04dd39ebb52feb99bc80d039cf190261ec014bd630d6ef916af7ed6a8a8357",
+        "7633813934260243753": "adab1a51bc6c79d5be5967c84ac5d1073952e1cccefc4f56469a27e7f420b16f",
+        "7634940154272156947": "54df73a1171a3d609e35a4c200894da86124cf5aa630772f2dd6260eaad7cd89",
+        "7642363455722229042": "fe0ffbe64b7a91201468a68b22c940fe00099e2c5539bfa3698f48142a57c62e",
+        "7590403619493629190": "59c76bc5f38a5c77ae77418d10121ed18380e77ffcf8df43b2ad1ac6354d9880",
+        "7586645512623901978": "8c0e8746d5f63c7d7128691761d57b1e2c71e7d427f96c8bf7dee645cb9f08c4",
+        "7401507931113475363": "63b74de7b8bb7c986607976897943064b7cb9da0edffb6b7fb0f135a6182260a",
+        "7187394757394533687": "f382c83d1bbbe28c88a6a56953519125c338ffca1cb877ede2554494f2ba4bc9",
+        "7542157131752033546": "82cfea90e8b9382735109a9aba6480b4b0b88ed2a6fc9b57040e800b73697f5b"
+      },
+      "aggregate": {
+        "unique_source_count": 10,
+        "direction_count": 5,
+        "direction_distribution": {
+          "认知升级": 2,
+          "创业": 3,
+          "商业机会": 1,
+          "自媒体": 1,
+          "人生策略": 3
+        },
+        "selection_status_distribution": {
+          "formal_seed": 5,
+          "manual_validated_expansion": 5
+        },
+        "transcript_chars": {
+          "min": 456,
+          "median": 1591,
+          "max": 4191
+        },
+        "signal_medians": {
+          "audience_terms": 4,
+          "boundary_terms": 8,
+          "causal_terms": 20,
+          "feedback_terms": 2,
+          "first_person_terms": 44,
+          "line_count": 176,
+          "question_marks": 0,
+          "time_or_sequence_terms": 24
+        }
+      },
+      "manual_review": {
+        "accepted_source_ids": [
+          "7401507931113475363",
+          "7187394757394533687",
+          "7542157131752033546",
+          "7590403619493629190",
+          "7586645512623901978"
+        ],
+        "reason": "五条分别验证选择博弈规则、借用高质量认知资源、删减与复用、借训练场完成跃迁，以及长期积累承接机会。",
+        "rejected_examples": {
+          "7624160450304920847": "主要验证问题、方案与产品复制。",
+          "7596338568050593060": "主要验证结构化学习，不包含机会位置或资源重组。",
+          "7270315554093731133": "谈读人、读市场较多，但没有形成可回查的机会选择闭环。",
+          "7622329208672406834": "主要验证短视频生产和反馈系统。"
+        }
+      },
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "problem-minimum-product-feedback",
+      "title": "从真实问题到最小产品再到反馈修正",
+      "evidence_status": "sufficient_transcript_validated",
+      "selected_count": 10,
+      "source_refs": [
+        "6882743142420843783",
+        "7416961845786873100",
+        "7432683956031540491",
+        "7515755638774369572",
+        "7523594090828041526",
+        "7540648379617987891",
+        "7598553754534776118",
+        "7616745251776122138",
+        "7625643184860826926",
+        "7644578414015401235"
+      ],
+      "transcript_sha256": {
+        "6882743142420843783": "26c134e7db06039d7528781af5038978e14aa94558defd593d22b2156ed0a7a6",
+        "7416961845786873100": "2ad4e3559db9ab7a09641106550899a239a28486a1e7f2d77a20904856f966f3",
+        "7432683956031540491": "f6ce63e58fc08c2353e338b42ddcd5e4a4baf1829f65fb99da6ebb3297dc1c92",
+        "7515755638774369572": "3adba3dfad678f4c230f80237d280d59cc91e07d65d7ed6ea904904f05c66cbe",
+        "7523594090828041526": "216000858fbc381d15035eafdb8e73cc7e2f967106a525868074d36c5e4ba3b5",
+        "7540648379617987891": "05162978fd0fd8fa9de084bbd05f5c89f19233d51de5f33b2cbe8f4adb06a55e",
+        "7598553754534776118": "9db91deba79e223c393b3d5e585b0de13fb3f940e086dc97aa59c7a64cd6b78a",
+        "7616745251776122138": "ffb4b4b27cbf968585304b07f9b5b63058458ad2736b5951702e287d49a64b2c",
+        "7625643184860826926": "6e553b4166b7e29f8c10491c6b38472f8e24a773543cfae4a935d8cb6e4f7c60",
+        "7644578414015401235": "a985461160da5829213c07870ca17f6e63c4ec216a5ea1c30e5f5194367c8581"
+      },
+      "aggregate": {
+        "unique_source_count": 10,
+        "direction_count": 5,
+        "direction_distribution": {
+          "人生策略": 1,
+          "商业机会": 6,
+          "创业": 1,
+          "财富策略": 1,
+          "赚钱": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 9,
+          "manual_validated_expansion": 1
+        },
+        "transcript_chars": {
+          "min": 466,
+          "median": 4236,
+          "max": 11922
+        },
+        "signal_medians": {
+          "audience_terms": 9,
+          "boundary_terms": 14,
+          "causal_terms": 39,
+          "feedback_terms": 8,
+          "first_person_terms": 108,
+          "line_count": 470,
+          "question_marks": 0,
+          "time_or_sequence_terms": 48
+        }
+      },
+      "manual_review": {
+        "accepted_source_ids": [
+          "7644578414015401235"
+        ],
+        "reason": "逐字稿完整出现从过去问题、人工解决、记录高频需求、只做一个核心功能、交给真实用户到按反馈增删转向的闭环。",
+        "rejected_examples": {
+          "7525084574431317286": "主要验证自学与访谈，不是最小产品反馈。"
+        }
+      },
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "record-to-compounding-asset",
+      "title": "把重复解决过程记录并封装成复利资产",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "7351006613240696090",
+        "7408929533908225334",
+        "7461266943811620133",
+        "7520521925358030120",
+        "7523959225278647590",
+        "7551062641335209257",
+        "7576672805584964904",
+        "7578515738357402914",
+        "7582931244523048244",
+        "7591878323370741046",
+        "7592259516792622399",
+        "7593362807756721414",
+        "7594110311276219686",
+        "7597450892647992618",
+        "7601154241889193251"
+      ],
+      "transcript_sha256": {
+        "7351006613240696090": "08cd953af6acaeb931ec0a2b67d7c2c48a012628371e3e66ce6abc62789202bb",
+        "7408929533908225334": "45f5e8096f199f4727d4d3ca16027f180bfdf889a3545afa039331fa0d8be360",
+        "7461266943811620133": "2ebae6f995b08cd71abf7eeae3780f8127ae158e584da84c674a861bdd81a359",
+        "7520521925358030120": "7414beef41b16266620aa7d6a3fd3ea39e4e5114f1be10a074ef927bdef1eaa1",
+        "7523959225278647590": "e7ef976863a6ce1c18c85207896d496fd602a762a00ce25963340b5eb8c11d47",
+        "7551062641335209257": "d32ed2547b7c80d7d75544a4da87da3ee7393095a7af010ebfb4e5d906dfeaca",
+        "7576672805584964904": "dffe9752e81f5ead57800b20adc9dca6ac99bce68a8fc5478b3e3d46a6cbb1bc",
+        "7578515738357402914": "acb0b95b4d538c7f5b5f93be2445425c1802e6d28ade3134ee1563937983e71d",
+        "7582931244523048244": "70df1f5ca13763f9df308db52c0d7602d99c4f7f8a53afa42ad87e36883166f0",
+        "7591878323370741046": "8648b7f8988b8b49c9c98193529315a74763a47a983c153e13cc68c558bb7a3e",
+        "7592259516792622399": "be58604e5b25875cd451bb6102437ff109a2d43315a3999b59addb89a65868a1",
+        "7593362807756721414": "c5fc9737ea4fc7f5ae036db109a28c37b0160831ff796585a58d7db230b9f0e0",
+        "7594110311276219686": "3052b5ed5de09b0baef8fc8084518d19f006bfe6b4d6e53b168e35e88d8ceedf",
+        "7597450892647992618": "06db716aac2b2d568c45a1cd6c9b542b649b274d9e121c494fcde67749ffe3e7",
+        "7601154241889193251": "b865e4561d3eca819a823073c0ec122c751ca5f81403b1a4808c6e55663fe739"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 8,
+        "direction_distribution": {
+          "结构化理解": 1,
+          "技能沉淀": 6,
+          "商业机会": 1,
+          "创业": 1,
+          "赚钱": 1,
+          "财富策略": 2,
+          "认知升级": 2,
+          "短视频": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 15
+        },
+        "transcript_chars": {
+          "min": 535,
+          "median": 1844,
+          "max": 4374
+        },
+        "signal_medians": {
+          "audience_terms": 6,
+          "boundary_terms": 8,
+          "causal_terms": 21,
+          "feedback_terms": 3,
+          "first_person_terms": 36,
+          "line_count": 176,
+          "question_marks": 0,
+          "time_or_sequence_terms": 29
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "small-step-process-system",
+      "title": "把长期目标改写成每天可交付的小过程",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "6866013535097441550",
+        "7026320210902781215",
+        "7061232392282967332",
+        "7107230202689850655",
+        "7124316293137747230",
+        "7183674172936064293",
+        "7340987925187857698",
+        "7348779949681085696",
+        "7370674467149712675",
+        "7447837810884758810",
+        "7533238491967524137",
+        "7536963538255826212",
+        "7541775752548224298",
+        "7545859136433573170",
+        "7550692629248216359"
+      ],
+      "transcript_sha256": {
+        "6866013535097441550": "17f05459e56c5ee8e50205b6412b8d79cbabd280602859414df5c6cd5550560b",
+        "7026320210902781215": "cea63ee867ec62613e68b5bd0d8c5dfc868543cbee7c44464abd3f5062598d81",
+        "7061232392282967332": "1ee2cf61497731c632c0e2070098346b76d343b0ce719d4afc4fe77bf11a8957",
+        "7107230202689850655": "869edc2bd47b59264f6149dabe04702a7b6e538601a2900b95d4507496c06f6d",
+        "7124316293137747230": "e0e82d8ef5e2191c8d133492e202ae7eb0af52ddb261b0c45e5e06d4fb50ffcc",
+        "7183674172936064293": "9124e5171c63efb99316198e9c0b1d1c3729b706a95718b6afca9919c6bc8bcc",
+        "7340987925187857698": "a8e53ad12c99f05d5d5959719ea122465e59d30cd7965d878f06c5c35dff541b",
+        "7348779949681085696": "40187279b2c44a440ba453e4a7c74387db828d9a5efbfdf3d0f2245cabc55ccf",
+        "7370674467149712675": "34a82138711ce6a9470683367e6d7db0bcbfe9e36bd3575fe6882e046bcfcd01",
+        "7447837810884758810": "440aa2fe2de1568a20f36ecfae79e9775c0b191544606cd948a042e1efe4c5a4",
+        "7533238491967524137": "0cfb7c21177a1c781efdc4d054f942742ac974e8dad2dcc0dfa052e57484c75c",
+        "7536963538255826212": "d0a60d6029ed19056b08416251d208ba9a23ddc5572c50f41df24e77607b1aa6",
+        "7541775752548224298": "899edfdd7ba78d153330df02019de10768da71d9776a12fd053f853c999dcccf",
+        "7545859136433573170": "dffc213d903d5ac4af4a30c3a870d01c5a66b619caeebfdd19a21ada507bd69e",
+        "7550692629248216359": "50e514b86ada529a88c0f833b5c9d66cba7a1147a8302d8afdab81f5ee872e46"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 7,
+        "direction_distribution": {
+          "认知升级": 2,
+          "财富策略": 1,
+          "个人成长": 5,
+          "人生策略": 2,
+          "短视频": 2,
+          "赚钱": 2,
+          "自媒体": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 15
+        },
+        "transcript_chars": {
+          "min": 194,
+          "median": 1004,
+          "max": 2398
+        },
+        "signal_medians": {
+          "audience_terms": 4,
+          "boundary_terms": 4,
+          "causal_terms": 13,
+          "feedback_terms": 2,
+          "first_person_terms": 25,
+          "line_count": 80,
+          "question_marks": 0,
+          "time_or_sequence_terms": 19
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "structured-model-reasoning",
+      "title": "用关键概念和结构模型压缩复杂问题",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "6971427936712838430",
+        "7044162550266711304",
+        "7046756749243616549",
+        "7049353047872425223",
+        "7049735959826550047",
+        "7132500354784054541",
+        "7140300102412897549",
+        "7145489802316483847",
+        "7165498456558013703",
+        "7179253562562628925",
+        "7371417159299304738",
+        "7601893983224220968",
+        "7603010918661803299",
+        "7604095617383632169",
+        "7637536206296747315"
+      ],
+      "transcript_sha256": {
+        "6971427936712838430": "2da86c2b441915c4f6b4cfde3bcee38d76244801a5dac71301aa899dff4aea66",
+        "7044162550266711304": "925cca1895e75dcba3454028e2e9194f4e6d9fb7c77ee5bee63cd5e8c6c9f2fc",
+        "7046756749243616549": "a18e819e9ebb1021b6470133457dbba06ee12b52044f64aae21abf5139965d72",
+        "7049353047872425223": "a33f71a861aef5ecfec5a0dd238e2fc760eb3ac77c3eda9c4de11ade43ec9b2d",
+        "7049735959826550047": "a3a147b0e60b58a0deafef2d859af120dbaf7fccc0b7a6f05d1d57523e54ecd5",
+        "7132500354784054541": "0e3114d6cf1b64282090ed30d2cbffa15068cdb9716e7d875b1815bbb012ee09",
+        "7140300102412897549": "d1ce60686b6a44b3182a221a051836f7085762a9f7bdbc03195f2f3e4fbe2e60",
+        "7145489802316483847": "93d19ac0fe8d0515f163902c8d18c86a84e885904d8445c6f6e5bd2a06486e91",
+        "7165498456558013703": "6d4e9d7c36d69ab924974444c1ca4460c009961c643a54310d1224a56a4be608",
+        "7179253562562628925": "90f8d0ade9685d13eb37890fb4f70ecaeab8ddf88b9f5f8b1e7801ff1e7416ae",
+        "7371417159299304738": "f0792cd2fc3e07882c5d16a9c0a88b09fb35dae4540a3b2ce0b0056b0676bc6d",
+        "7601893983224220968": "65dcb2dc1db7b312aedd35119cd896fc9fbeeb77bb93235c913524cdaaf5158c",
+        "7603010918661803299": "ec9729b3b2a30bc7006a8f47ebcf808de4300d535f667af1eab6fd262cfd29e5",
+        "7604095617383632169": "6eab88fa1d1463024330b82606b5a8f8ea46a4ebf609410c5bf034f8810ed8b2",
+        "7637536206296747315": "1afa9035893eb629df91b17295f89b55aba1cdcd88ef0c765232c01d16e8abb0"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 4,
+        "direction_distribution": {
+          "结构化理解": 12,
+          "财富策略": 1,
+          "阅读输入": 1,
+          "认知升级": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 15
+        },
+        "transcript_chars": {
+          "min": 465,
+          "median": 29170,
+          "max": 38559
+        },
+        "signal_medians": {
+          "audience_terms": 151,
+          "boundary_terms": 102,
+          "causal_terms": 290,
+          "feedback_terms": 30,
+          "first_person_terms": 838,
+          "line_count": 3466,
+          "question_marks": 0,
+          "time_or_sequence_terms": 316
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    },
+    {
+      "method_id": "value-exchange-income-system",
+      "title": "用可验证价值交换重构赚钱判断",
+      "evidence_status": "sufficient_for_review",
+      "selected_count": 15,
+      "source_refs": [
+        "6884082129827794189",
+        "6942487118799211784",
+        "6981064520361889031",
+        "7148075815538822430",
+        "7354982492878802176",
+        "7360278090460777763",
+        "7515401408406293779",
+        "7535101729541557555",
+        "7538383610173508900",
+        "7539909515300130111",
+        "7544754191315504410",
+        "7555887112558513459",
+        "7564055243789602067",
+        "7580396616813776162",
+        "7594855053001837875"
+      ],
+      "transcript_sha256": {
+        "6884082129827794189": "13f6de3ab7dde6712845bf5537761bf2564d49d44d9d9c7e876e210a4c0b0851",
+        "6942487118799211784": "f2e55f6bea1d7340c5316155303f3f0968fd8229ff51564e543875ebcd427c24",
+        "6981064520361889031": "2181e69d22ef058bdcafe34ef1e608995b4da3347b9a9467206562c4057f88b0",
+        "7148075815538822430": "c9eb8c03664b382d9c3c2d9ff253dc9f2cd721f0c669f5a7c7c71d41dfb264ad",
+        "7354982492878802176": "a84fc70d25f502ca77ce51a2fac21e8e96b97d258c8007387c2fa2b6a764ebcf",
+        "7360278090460777763": "1c55ff75d9a3136833164df0eed64f3a49c4dbb3375be7dec0b9d9e7b43af0b9",
+        "7515401408406293779": "e5116ad0fc55cb12f6b8cbe508563df7d2d154e879b6ba018ec0ff62d5ce313d",
+        "7535101729541557555": "42b628638e890b42e34acb81df64b62acb372a9d5e1bed0e34df4ef8f4cdcbe3",
+        "7538383610173508900": "e3056e5856a8ce19a6d1e63de0cd30231969220b19a846efd13a6982521962ea",
+        "7539909515300130111": "fb278a80019a16d40ba51a659cae2da64465623f9f9415b2c9c3307f7d7a4a8d",
+        "7544754191315504410": "55d88331e30ffd2c1a5dc446e8aa3664f36cafedafb0d391e10ca9da88f57f91",
+        "7555887112558513459": "910a1c4277c7534840d272f2df56da872fdc4ab31763ffe0c7ce171a7ae2f6e5",
+        "7564055243789602067": "60719a719704057a99e9f11ed578839b4a7a5049cd3b53408c5e273d6e03cfbe",
+        "7580396616813776162": "5076a431bce9d868cae04591905d764b5efb2fd695835d1fa4a97b7496f598b3",
+        "7594855053001837875": "333506fa14797b12301d677cc0aba7167dd8e7ab88958b5c1e58ab0932aca054"
+      },
+      "aggregate": {
+        "unique_source_count": 15,
+        "direction_count": 3,
+        "direction_distribution": {
+          "财富策略": 3,
+          "赚钱": 11,
+          "认知升级": 1
+        },
+        "selection_status_distribution": {
+          "formal_seed": 15
+        },
+        "transcript_chars": {
+          "min": 307,
+          "median": 1524,
+          "max": 33261
+        },
+        "signal_medians": {
+          "audience_terms": 9,
+          "boundary_terms": 11,
+          "causal_terms": 16,
+          "feedback_terms": 1,
+          "first_person_terms": 24,
+          "line_count": 150,
+          "question_marks": 0,
+          "time_or_sequence_terms": 17
+        }
+      },
+      "manual_review": null,
+      "excluded_direction_source_refs": []
+    }
+  ],
+  "formal_skill_update_allowed": true
+}

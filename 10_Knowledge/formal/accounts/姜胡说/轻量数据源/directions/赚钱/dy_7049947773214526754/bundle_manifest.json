@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "account_name": "姜胡说",
+  "platform": "抖音",
+  "direction": "赚钱",
+  "source_id": "7049947773214526754",
+  "title": "姜胡说 2.2 NAS 全量学习卡：人生当中成功只是一时的，失败却是主旋律，但是如何面对失败却把人分成了不同的样子，有的人会被失败激化",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/姜胡说/directions/赚钱/cards/douyin_7049947773214526754.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_77700555383/dy_7049947773214526754",
+  "copied_file_count": 18,
+  "copied_bytes": 2909795,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 626,
+      "sha256": "e91d4b9f8ab2d5f1d640ee3e66e1e2c9beb7574378f979b02f185a25105eb504"
+    },
+    {
+      "path": "source.json",
+      "bytes": 753,
+      "sha256": "cc30a1fc69057e369eb3da534b531cd6b99777619c4486d0885e3140347e9c17"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2189,
+      "sha256": "ab32f14f25cb4e0b4f4c0c270cf6a4f797cbb9bcc06eaaf7ac2157e4029a5e4c"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 382046,
+      "sha256": "958f2c74bbf0a19c76c901d02843beedbad8610eade4772111f6dc33169e3368"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 55728,
+      "sha256": "06559906a40826af9a8584a078d9a094161aa41ea2c2e4446800bb04d1286a6b"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 54308,
+      "sha256": "008bbf1ce4699bc4187f09c2743d1492a192ae875fe1ce715604dcff3a72b3cd"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 61743,
+      "sha256": "0f52fecffa04ddfbb5f2e721fc8ced4533d31d37bfde7ddad445de5b31ada3fc"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 77875,
+      "sha256": "b5d2a1e12079b0db58d537eed0c99755142e9df18f1ccffc356f20d1bb5e3f5a"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 110532,
+      "sha256": "ed64bbb7d01eb01fd17e0d14b57507c1a7283de275708ea3b6d886b1bc689c6e"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 111375,
+      "sha256": "3e287a9af23eeb9fad21cbf02ffbd1068616129fca8f44cfd3fee1dd4df078c8"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 109429,
+      "sha256": "2f4ac17d0d85c5f9d8d1a761d87463b1441857f9c18f2e01ba592666e6269034"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 805,
+      "sha256": "55095da8ad882cd033e64b7b409ea586b7bfc98c0ceb27a0d1fbb73b7c7ddbfa"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 1940254,
+      "sha256": "9f381f76931736fb131363643b3e66cf1070963a972966cb91c9ea953196a701"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 693,
+      "sha256": "8c875bfc7367440cf7b9d196747cf82c7d42b77d719847100c453a9a8080ba0b"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 335,
+      "sha256": "bb143deb2cf4de96836d671cba95a43faf7881138d9f5fdf26001fcb5bfe9f71"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 157,
+      "sha256": "d9beca0a970c1406f69152e1b66517bb5bdc1597151c1d19311e27c1e6d2fdf6"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 308,
+      "sha256": "0b9ae3962318051fc02ec419ae5a15301122f7f0d72c8d09d640e6eaad6c333a"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 639,
+      "sha256": "894ee69b004d5fb45cc9c05d7b73e92e3607c3b530080764bcf4b8653b4675ee"
+    }
+  ]
+}

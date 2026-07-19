@@ -1,0 +1,60 @@
+{
+  "schema_version": "xianyu_ugc_visual_review_v1",
+  "status": "completed",
+  "reviewed_at": "2026-07-17T13:23:46+08:00",
+  "sources": {
+    "documents": 5,
+    "posts": 100,
+    "images": 230,
+    "contact_sheets": 20
+  },
+  "mapping": {
+    "posts_complete": 100,
+    "images_complete": 230,
+    "duplicate_binary_groups": 0
+  },
+  "objective_processing": {
+    "ocr_completed": 228,
+    "ocr_empty": 2,
+    "orientation_counts": {
+      "portrait": 165,
+      "landscape": 42,
+      "square": 23
+    },
+    "category_counts": {
+      "platform_page_screenshot": 61,
+      "mixed_text_visual": 78,
+      "photo_or_graphic": 58,
+      "text_or_document_screenshot": 10,
+      "chat_or_feedback_screenshot": 23
+    }
+  },
+  "manual_visual_review": {
+    "sheets_reviewed": 20,
+    "images_covered": 230,
+    "complete": true
+  },
+  "verified_visual_methods": [
+    "xugc-v01",
+    "xugc-v02",
+    "xugc-v03",
+    "xugc-v04"
+  ],
+  "verified_boundary": "xugc-vb01",
+  "rejected_generalization": "xugc-vr01",
+  "sequence_findings": {
+    "posts_with_2_or_3_images": 90,
+    "share": 0.9,
+    "interpretation": "多图用于信息/证据递进，2—3 张是常见分布而非强制数量。"
+  },
+  "order_boundary": "已核验飞书来源中的图片顺序；未单独核验真实发布后的轮播顺序。Skill 只能给推荐顺序。",
+  "performance_boundary": "图片、价格、订单或截图不构成流量、转化和收入效果证据。",
+  "official_image_text_workflow": {
+    "workflow_id": "image_text_xianyu_story_ugc_visual_20260717",
+    "status": "learned_candidate",
+    "structured_posts": 100,
+    "image_count": 230,
+    "candidate_cards": 100
+  },
+  "candidate_only": true
+}

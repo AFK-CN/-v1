@@ -1,0 +1,34 @@
+{
+  "id": "xugc-v01",
+  "schema_version": "formal_visual_method_v1",
+  "version": 1,
+  "status": "formal_verified",
+  "callable": true,
+  "formal_write": true,
+  "account_skill_id": "xianyu_story_ugc_task",
+  "account_scope": "task:闲鱼故事UGC任务",
+  "title": "平台原生证据链",
+  "mechanism": "用闲鱼商品/服务页、聊天或反馈截图与实物/结果照片共同完成可核验叙事。",
+  "trigger": "输入确有可公开的平台截图和对应实物、服务过程或结果照片。",
+  "fixed_elements": [
+    "每张图承担明确证据角色",
+    "截图只使用真实提供素材",
+    "敏感信息先脱敏"
+  ],
+  "do_not_trigger": "缺少真实截图时不得生成仿造聊天、订单或商品页。",
+  "source_refs": [
+    "feishu_xianyu_20260713_s04",
+    "feishu_xianyu_20260713_s05",
+    "feishu_xianyu_20260713_s11",
+    "feishu_xianyu_20260714_s06",
+    "feishu_xianyu_20260714_s15",
+    "feishu_xianyu_20260715_s02",
+    "feishu_xianyu_20260715_s15",
+    "feishu_xianyu_20260716_s04",
+    "feishu_xianyu_20260716_s06",
+    "feishu_xianyu_20260717_s04",
+    "feishu_xianyu_20260717_s14"
+  ],
+  "formal_ingested_at": "2026-07-17",
+  "test_evidence": "../../evidence/VISUAL_FORWARD_TEST_SUMMARY.json"
+}

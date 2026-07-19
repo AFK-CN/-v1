@@ -1,0 +1,100 @@
+{
+  "id": "m05-cost-proof-tail",
+  "schema_version": "2.3",
+  "version": 1,
+  "status": "approved_callable",
+  "callable": true,
+  "formal_write": true,
+  "user_review_required": false,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "成品—步骤—成本凭证的早期预算链",
+  "mechanism_kind": "content_structure",
+  "trigger_signals": [
+    "主题明确涉及省钱或预算",
+    "有发布日期附近的真实价格凭证",
+    "仍需先交付完整餐和做法"
+  ],
+  "trigger_model": {
+    "mechanism": "先用成品和步骤证明值得吃、能够做，再把逐菜价格、整餐合计或订单截图放到后段完成预算承诺。",
+    "applicable_relations": [
+      "完整餐成品",
+      "关键步骤",
+      "逐菜价格",
+      "订单截图",
+      "整餐合计"
+    ],
+    "transferable_scenes": [
+      "低预算一人食",
+      "采购复盘",
+      "整餐成本拆分",
+      "渠道订单凭证"
+    ],
+    "do_not_trigger_on": [
+      "没有真实价格来源",
+      "价格已经过时却未标日期",
+      "商品广告报价",
+      "只喊便宜没有完整餐价值"
+    ]
+  },
+  "do_not_use": [
+    "不得把个案价格写成长期承诺",
+    "不得隐藏渠道、日期或份量差异",
+    "不得用广告优惠价验证自然省钱方法"
+  ],
+  "execution_steps": [
+    "先展示完整餐并说明构成",
+    "给出决定可执行性的关键做法",
+    "逐项记录真实价格、份量、渠道和日期",
+    "最后呈现逐菜价格、整餐合计或订单截图",
+    "明确这是发布时间附近个案",
+    "若凭证不足则删除省钱结论"
+  ],
+  "source_refs": [
+    "xhs:68c29b30000000001d00d062",
+    "xhs:68cfd191000000001203d37f",
+    "xhs:6909cc3b00000000070217c4"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "3 条独立早期自然内容均形成成品—做法—成本证据链，并跨订单截图与正文合计两种成本场景。",
+      "evidence_refs": [
+        "68c29b30000000001d00d062",
+        "68cfd191000000001203d37f",
+        "6909cc3b00000000070217c4"
+      ],
+      "relation_or_scene_types": [
+        "订单截图收尾",
+        "逐菜价格与整餐合计"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-cost-01",
+      "prompt_sha256": "487988a9f7f81fdc888ea0ed308fea2c18fd394ea63871a322cd5a8209fa709a",
+      "structural_prediction": [
+        "封面先交付完整餐",
+        "步骤页解释可执行性",
+        "订单后置并标记日期/个案边界"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "该阶段性变体直接兑现账号名中的‘省钱’，且把成本证明放在食谱价值之后；不同于只在标题喊低价。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  },
+  "knowledge_layer": "formal",
+  "formal_ingested_at": "2026-07-16T20:11:21+08:00",
+  "approval_basis": "2026-07-16 用户明确回复‘入库吧’；七阶段验证、三重验证和压力测试全部通过。"
+}

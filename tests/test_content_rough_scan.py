@@ -116,22 +116,22 @@ class ContentRoughScanTests(unittest.TestCase):
     def test_account_match_terms_include_coauthored_sqlite_records(self):
         profile = {
             **test_profile(expected_count=2),
-            "account_name": "李宗恒",
-            "account_match_terms": ["李宗恒"],
+            "account_name": "剧情账号乙",
+            "account_match_terms": ["剧情账号乙"],
             "directions": {"剧情短剧": {"core": ["剧情"], "support": []}},
         }
         rows = content_rough_scan.build_inventory(
             Path("/tmp"),
             [
-                make_record("1", "douyin", "李宗恒", "普通剧情", tags=["剧情"]),
-                make_record("2", "douyin", "合拍账号", "班主任：服了这俩老六了", tags=["剧情", "李宗恒"]),
+                make_record("1", "douyin", "剧情账号乙", "普通剧情", tags=["剧情"]),
+                make_record("2", "douyin", "合拍账号", "班主任：服了这俩老六了", tags=["剧情", "剧情账号乙"]),
                 make_record("3", "douyin", "其他账号", "普通剧情", tags=["剧情"]),
             ],
             profile,
         )
 
         self.assertEqual({row["source_id"] for row in rows}, {"1", "2"})
-        self.assertEqual({row["account_name"] for row in rows}, {"李宗恒"})
+        self.assertEqual({row["account_name"] for row in rows}, {"剧情账号乙"})
 
     def test_commercial_integrated_keeps_topic_direction(self):
         profile = {
@@ -148,8 +148,8 @@ class ContentRoughScanTests(unittest.TestCase):
                     "ad1",
                     "douyin",
                     "目标账号",
-                    "《男闺蜜》#李宗恒#祝你kfc祝你快发财 #肯德基",
-                    tags=["李宗恒", "祝你kfc祝你快发财", "肯德基"],
+                    "《男闺蜜》#剧情账号乙#祝你kfc祝你快发财 #肯德基",
+                    tags=["剧情账号乙", "祝你kfc祝你快发财", "肯德基"],
                     likes=100,
                 )
             ],
@@ -171,7 +171,7 @@ class ContentRoughScanTests(unittest.TestCase):
         }
         rows = content_rough_scan.build_inventory(
             Path("/tmp"),
-            [make_record("ad2", "douyin", "目标账号", "享美式 想美事！#李宗恒 #品牌活动", tags=["李宗恒", "品牌活动"], likes=1000)],
+            [make_record("ad2", "douyin", "目标账号", "享美式 想美事！#剧情账号乙 #品牌活动", tags=["剧情账号乙", "品牌活动"], likes=1000)],
             profile,
         )
 
@@ -211,7 +211,7 @@ class ContentRoughScanTests(unittest.TestCase):
             row = {
                 "stable_id": "xhs:note:x1",
                 "platform": "xhs",
-                "account_name": "小森林的小世界",
+                "account_name": "护肤账号丙",
                 "source_id": "x1",
                 "title": "家庭版水光海菲秀",
                 "summary": "皮肤细腻通透到全脸发光",
@@ -225,7 +225,7 @@ class ContentRoughScanTests(unittest.TestCase):
             records = content_rough_scan.load_rough_scan_records(root)
 
         self.assertEqual(len(records), 1)
-        self.assertEqual(records[0].account_name, "小森林的小世界")
+        self.assertEqual(records[0].account_name, "护肤账号丙")
         self.assertEqual(records[0].platform, "xhs")
         self.assertEqual(records[0].metrics["collects"], 20)
         self.assertIn("护肤功效", records[0].tags)

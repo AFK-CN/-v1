@@ -1,0 +1,206 @@
+{
+  "schema_version": "account_skill_upgrade_compatibility_v1",
+  "account_skill_id": "lizongheng",
+  "base_version": "1.3",
+  "target_version": "1.4",
+  "upgrade_scope": "system_account_batch_member",
+  "previous_capability_ids": [
+    "topic_memory_deduplication",
+    "topic_memory_recording",
+    "production_memory_recording",
+    "acceptance_gates",
+    "evidence_boundaries",
+    "production_mechanism",
+    "publishing_copy_specialization",
+    "style_fingerprint",
+    "formal_method_lz_m1_system_transfer",
+    "formal_method_lz_m2_control_right_reversal",
+    "formal_method_lz_m3_semantic_reinterpretation",
+    "formal_method_lz_m4_fixed_rule_escalation",
+    "account_view_sync"
+  ],
+  "new_capability_ids": [
+    "capability_preserving_upgrade_guard"
+  ],
+  "capabilities": [
+    {
+      "id": "topic_memory_deduplication",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "topic_memory_recording",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "production_memory_recording",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md"
+      ]
+    },
+    {
+      "id": "acceptance_gates",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/references/acceptance.md"
+      ]
+    },
+    {
+      "id": "evidence_boundaries",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/references/boundaries.md"
+      ]
+    },
+    {
+      "id": "production_mechanism",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/references/production.md"
+      ]
+    },
+    {
+      "id": "publishing_copy_specialization",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/references/publishing-copy.md"
+      ]
+    },
+    {
+      "id": "style_fingerprint",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/references/style.md"
+      ]
+    },
+    {
+      "id": "formal_method_lz_m1_system_transfer",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_lz_m2_control_right_reversal",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_lz_m3_semantic_reinterpretation",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "formal_method_lz_m4_fixed_rule_escalation",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/METHOD_INDEX.json"
+      ]
+    },
+    {
+      "id": "account_view_sync",
+      "introduced_in": "1.3",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/账号整体方法论.md",
+        "10_Knowledge/formal/accounts/李宗恒/内容生产使用说明.md",
+        "10_Knowledge/formal/accounts/李宗恒/减少AI味输出规则.md",
+        "10_Knowledge/formal/accounts/李宗恒/内容输出标准模板.md"
+      ]
+    },
+    {
+      "id": "capability_preserving_upgrade_guard",
+      "introduced_in": "1.4",
+      "status": "active",
+      "source_paths": [
+        "10_Knowledge/formal/accounts/李宗恒/skill/references/upgrade-compatibility.md"
+      ]
+    }
+  ],
+  "changed_capabilities": [],
+  "source_snapshot": [
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/METHOD_INDEX.json",
+      "sha256": "b801ee487ab01322288d41bfdfdf99bb730f8171020998cd1cd8aaf61fb66825"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md",
+      "sha256": "d492fdbfccc717005bf28f440c48134936768fcd1d5bb9d3875650eb3400a4aa"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/references/acceptance.md",
+      "sha256": "e04805a3d26c9e9b650d5b6ee1d3570dfb9bb9c49ac787b4c6137f78c829a3cb"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/references/boundaries.md",
+      "sha256": "f9341b024653a77b29091c6c3894b30d87377ceca7db28ecde3ca775f3b7f96a"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/references/production.md",
+      "sha256": "887aa99f53e873323bd4899d0e9d63e336f059c49b7b0177c51822d9e2a86d60"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/references/publishing-copy.md",
+      "sha256": "b8722f1014c3605cc9298760fb79d3537b1aee10da5b0430c1a87203155d36f8"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/references/style.md",
+      "sha256": "d554ce42fbb297b2f80968f3698cadd62f0f48d8e0750ee1eb2e401803b869bd"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/skill/references/upgrade-compatibility.md",
+      "sha256": "62d300998bd909477c6e6b6ee90e05ec393931237ee9596772cff8b1bd9622ce"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/内容生产使用说明.md",
+      "sha256": "3c776ab4fa1fe766ce9f1bbed6375f26f7f53249ca33c919e0f92b9725d29c06"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/内容输出标准模板.md",
+      "sha256": "795e3577e39db89898cf0f40a34d705ee2b4d85eb37231c116a54eb3c0b798d5"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/减少AI味输出规则.md",
+      "sha256": "a1a9ed5edb1fe3af8d5d013553cd62175d6b0b235a593aa4c650e146a828a73b"
+    },
+    {
+      "path": "10_Knowledge/formal/accounts/李宗恒/账号整体方法论.md",
+      "sha256": "2d307dbe03e631e439398423fd5bc935388951d11e86b1bdda805d352444453a"
+    }
+  ],
+  "regression_package_manifests": [],
+  "isolation": {
+    "same_account_only": true,
+    "cross_account_merge": false,
+    "system_rule_contamination": false,
+    "absolute_or_nas_paths": false
+  },
+  "rollback": {
+    "restore_version": "1.3",
+    "restore_proposal": "10_Knowledge/formal/accounts/李宗恒/skill/proposals/capability-preservation-v1.4.md",
+    "preserve_new_audit_artifacts": true,
+    "delete_original_or_formal_evidence": false
+  }
+}

@@ -1,0 +1,380 @@
+{
+  "schema_version": 1,
+  "account_name": "小森林的小世界",
+  "platform": "小红书",
+  "direction": "头发护理",
+  "source_id": "6893290100000000230399ce",
+  "title": "小森林的小世界统一账号发布资产学习卡：能让你告别脂溢性头皮的护理方法（纯干货！",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/小森林的小世界/directions/头发护理/cards/xhs_6893290100000000230399ce.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_6893290100000000230399ce",
+  "copied_file_count": 73,
+  "copied_bytes": 29372362,
+  "files": [
+    {
+      "path": "images/000_cover.jpg",
+      "bytes": 191860,
+      "sha256": "fbf4d72101a0a8385a0e257f4c939c3e4ae91de92054b851d4f92905a81b143a"
+    },
+    {
+      "path": "manifest_item.json",
+      "bytes": 657,
+      "sha256": "8fee288426af6a9385e3861682034ebd8f0e333b5e9d89187b4e65f6dd63d9d8"
+    },
+    {
+      "path": "source.json",
+      "bytes": 1500,
+      "sha256": "166c1e510b92df16476730f9bf7d1863ecce8a916e0046812fb76ced4b71a37d"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2924,
+      "sha256": "492d98d418b222be648ed75ea08cf8749e3e52392d88eec9475b9e5ac2a4d085"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 4907892,
+      "sha256": "2d2e163661b6829f181cbae888cd959245d0087d7955c65d42da367150a27549"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 42543,
+      "sha256": "5565530c10c5e697c7c92dc3a2ac7acf80dfa78606289ea0c110a0136145b429"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 42652,
+      "sha256": "31c1caaa072f163204759a61f8f133d83887ebc5953fec9d78f85830faae27c1"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 51991,
+      "sha256": "0805292353fb4c025bf8db394fbac81a9cb840eb353671ac155098a3a9933274"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 67106,
+      "sha256": "0934148c79d86b82c97233a86ee2864423f8269a2f1f4303322b8975b8050a19"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 83448,
+      "sha256": "27b29cac5ec357987a7f510a724acc3af855d4eb37c89c94f5e8e9b6d172ab6c"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 83741,
+      "sha256": "94727974f900c3555731b5ee0c0fbc197af849e63a250dec984dd8fcfd99e4e3"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 85566,
+      "sha256": "aa234dda8c68f7272f7ee121e4f1e8be83f1e5b6c9af77b6e350c292f641607c"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 91537,
+      "sha256": "719ebc9c5b322aedbebd5a07a0d24eadc62b2668daadcde34f564aeade60c038"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 84753,
+      "sha256": "b225486776ea0885f9029cb5970e214fdd86ec115cf21c2ef45ce4842df53deb"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 82988,
+      "sha256": "4d3e4888511168b1714f66a23e6d7b9deb4c0cf864d76b34e99e5c76b0684b2d"
+    },
+    {
+      "path": "video/frames/000010.jpg",
+      "bytes": 77764,
+      "sha256": "1dc399e617b16cbb68bcc6d80932c7fadeb90fddca907e4138101d7410cddd12"
+    },
+    {
+      "path": "video/frames/000011.jpg",
+      "bytes": 72729,
+      "sha256": "40e46d829d20daa67ec75a37523aa7e3a026b0fe1f07edf6204687e8b8d2b7fd"
+    },
+    {
+      "path": "video/frames/000012.jpg",
+      "bytes": 59568,
+      "sha256": "3e7b7217bbe17ad13ef1692595d970cd4f6b3633fcfb1d64c569bb6f918c034a"
+    },
+    {
+      "path": "video/frames/000013.jpg",
+      "bytes": 17785,
+      "sha256": "f427ca870b584656219456b8e0dbf1ff5e846baf8d9dc93a789aa8557af490a5"
+    },
+    {
+      "path": "video/frames/000014.jpg",
+      "bytes": 60066,
+      "sha256": "d779c062c779bb8aff4dea821c94db11214866c00369147e3c99c82ed17ba820"
+    },
+    {
+      "path": "video/frames/000015.jpg",
+      "bytes": 62605,
+      "sha256": "0e90153a2cd73d5ff1a8d7ea717ace725ca461044a2cec72e81dab0e989030f4"
+    },
+    {
+      "path": "video/frames/000016.jpg",
+      "bytes": 54942,
+      "sha256": "e1d2f942b7e74c8153b6eecfeabf8b50413535a05e0a31dcda5f9d42253afd22"
+    },
+    {
+      "path": "video/frames/000017.jpg",
+      "bytes": 47312,
+      "sha256": "ad73cac0a5e975d3b89ececa82b02ecd44c0f7be463c62f83c21927a271c5c83"
+    },
+    {
+      "path": "video/frames/000018.jpg",
+      "bytes": 51546,
+      "sha256": "e6a1d18b43c8a0c7a384958d99c180588fd14f411f86b9a48b1132f3dd5c7bcd"
+    },
+    {
+      "path": "video/frames/000019.jpg",
+      "bytes": 44963,
+      "sha256": "18fc19218165abb2d757b48b074479a0e39c9ef5a02ab83941aabbba8461d851"
+    },
+    {
+      "path": "video/frames/000020.jpg",
+      "bytes": 45498,
+      "sha256": "a0115de6a7afdfda667a42e715566507c26e95712fc26b5d5ae1cda6b01fbc17"
+    },
+    {
+      "path": "video/frames/000021.jpg",
+      "bytes": 44216,
+      "sha256": "f5d5b379a4252cf1c4db2acfa54fa14f700848efb95b996d08810bdbd5ecc554"
+    },
+    {
+      "path": "video/frames/000022.jpg",
+      "bytes": 42299,
+      "sha256": "a91f604bd09ae5bee91780831b94c2043ca6cdc7fda4af4560ed090ae5c2c855"
+    },
+    {
+      "path": "video/frames/000023.jpg",
+      "bytes": 41299,
+      "sha256": "12bb92aa016b796e1625ef316453047931069b2b4f3ad05e9306b697979235df"
+    },
+    {
+      "path": "video/frames/000024.jpg",
+      "bytes": 44197,
+      "sha256": "2333bb9e9fddcdb64894f3ed113c38074ec972b0d323f051526db47e9daea8b8"
+    },
+    {
+      "path": "video/frames/000025.jpg",
+      "bytes": 43714,
+      "sha256": "ab559e3fdfeb8a45afb925b6aa90ca2a97c768ab8c16a11923397cd70a0f858a"
+    },
+    {
+      "path": "video/frames/000026.jpg",
+      "bytes": 45117,
+      "sha256": "09086e96f72495b5276d25725ccee874daab27ecaf664d655ad8d2831575fb1e"
+    },
+    {
+      "path": "video/frames/000027.jpg",
+      "bytes": 42578,
+      "sha256": "0c4b724f59e11b7adb002a82493dc2a0d0abafbf9b745033bafede2e7f0b7833"
+    },
+    {
+      "path": "video/frames/000028.jpg",
+      "bytes": 43793,
+      "sha256": "9b41047884b53e6fbf51fe716e77dc35071d103bec792b2138cf17b1e216335a"
+    },
+    {
+      "path": "video/frames/000029.jpg",
+      "bytes": 43838,
+      "sha256": "1b7e3f8d62cafdf78a0b839d4518cf34db102deb7ab2c19afefaa29c6febd02c"
+    },
+    {
+      "path": "video/frames/000030.jpg",
+      "bytes": 46106,
+      "sha256": "3b16e7aad18d664edefb85ee7fcb03f9f75df0451633f171285b5abb36b64edc"
+    },
+    {
+      "path": "video/frames/000031.jpg",
+      "bytes": 47473,
+      "sha256": "63e5b88e055ba4457064b3c3e2c2c12ceff9c908d05c395930ecdba5228a751e"
+    },
+    {
+      "path": "video/frames/000032.jpg",
+      "bytes": 49583,
+      "sha256": "7c60aaa850bb3c63d9e969e0786e7dd8b41f06796d734d94b8b84c0cfa6afb0c"
+    },
+    {
+      "path": "video/frames/000033.jpg",
+      "bytes": 45941,
+      "sha256": "f1322fd555d8d6a70fe2d033a6f8393f37c43310e8015ea24841cb4c08acb73e"
+    },
+    {
+      "path": "video/frames/000034.jpg",
+      "bytes": 45671,
+      "sha256": "56aa34efb5a9f7210d14a8e5b200e4e21fa788098c13a0dc0355f1c19dc28246"
+    },
+    {
+      "path": "video/frames/000035.jpg",
+      "bytes": 45107,
+      "sha256": "2bb44b8d98f7ac0b2c6cab35d3d02444215c9775679ade7b0697ce22f2aa7e19"
+    },
+    {
+      "path": "video/frames/000036.jpg",
+      "bytes": 48189,
+      "sha256": "64ba53eca66ccee6aa3847b8b49d51897015154e53e71740d0c26591c4ba8274"
+    },
+    {
+      "path": "video/frames/000037.jpg",
+      "bytes": 46558,
+      "sha256": "0e4e8acab7b5965317eec2a3ff67b4d62fcc37cf8b63c0605ee06dc12f39e4f3"
+    },
+    {
+      "path": "video/frames/000038.jpg",
+      "bytes": 44061,
+      "sha256": "00620574554a6fb48d8a5161e3a55e3d06de9adeb77c63a60a817068730c7906"
+    },
+    {
+      "path": "video/frames/000039.jpg",
+      "bytes": 43046,
+      "sha256": "9f0089e548891641f4e597c2747a4f1bd4d7132ef80246c661bf21e83671af57"
+    },
+    {
+      "path": "video/frames/000040.jpg",
+      "bytes": 47158,
+      "sha256": "20dc928ca4aa4e15faf15ff225c4479ffb829fc2ca8410b2f995babf10898343"
+    },
+    {
+      "path": "video/frames/000041.jpg",
+      "bytes": 47232,
+      "sha256": "f011d6ddda603766f9659e7ef356dfda7769541e001aeb4f25f045f198ba9603"
+    },
+    {
+      "path": "video/frames/000042.jpg",
+      "bytes": 46323,
+      "sha256": "bb565c448e28a94d3df028599c81d7ce4eb46b4370d2b1dbb54c8ffc415e77e5"
+    },
+    {
+      "path": "video/frames/000043.jpg",
+      "bytes": 47823,
+      "sha256": "72d07229718d5d5db3127a6fcaf68e90bf8227fff0509352afdf59b91a97360a"
+    },
+    {
+      "path": "video/frames/000044.jpg",
+      "bytes": 45840,
+      "sha256": "ad8ca487523e5b4042645b4192e051b055d21c94fc052cd76acdc7ae571200d3"
+    },
+    {
+      "path": "video/frames/000045.jpg",
+      "bytes": 51092,
+      "sha256": "4dcd6e292bc7a42072054f4d23fac50768a1d8fb0dbba8f3f7eb7d5d4576a8e6"
+    },
+    {
+      "path": "video/frames/000046.jpg",
+      "bytes": 46371,
+      "sha256": "2e46e735f498932b84a4cc07054c42516b6034daae6c6da1566d4868d83f1e73"
+    },
+    {
+      "path": "video/frames/000047.jpg",
+      "bytes": 46422,
+      "sha256": "5c5d50619fbbef06336d8825b22f5b4071b0a68e0162f2cf9e6a29fc7ea6d576"
+    },
+    {
+      "path": "video/frames/000048.jpg",
+      "bytes": 47239,
+      "sha256": "d67d2cf8ccaecc6cc0fde49b9dd1856d101b379dc6189739b997fd3be430b51e"
+    },
+    {
+      "path": "video/frames/000049.jpg",
+      "bytes": 45402,
+      "sha256": "c6237c0f42aa756f71e8f62148c224bfcb26acc1d26f59d213792beb2d1bace2"
+    },
+    {
+      "path": "video/frames/000050.jpg",
+      "bytes": 53726,
+      "sha256": "04769598b543273d73ff3ce32a0bbb90c27d03334942fa7f2635b82ea7173877"
+    },
+    {
+      "path": "video/frames/000051.jpg",
+      "bytes": 49499,
+      "sha256": "430c6aa71488ab050b4941e8f7d123de45f704e1ecc38d90dc77875cbf183cda"
+    },
+    {
+      "path": "video/frames/000052.jpg",
+      "bytes": 47212,
+      "sha256": "52a2ee7d9fdb636e5c04539a6918e343a918cbbcc9d150e4dabee57602a1ceb3"
+    },
+    {
+      "path": "video/frames/000053.jpg",
+      "bytes": 49014,
+      "sha256": "d06a5b3426231eb42abf46265e4c01b4300929a87c62ffdab0ab8aa0a13b3ae9"
+    },
+    {
+      "path": "video/frames/000054.jpg",
+      "bytes": 47275,
+      "sha256": "08f752daec7a1471239584c78cc5d3afc5999fb3f3e4bdfa98f8aa87e1e5bf23"
+    },
+    {
+      "path": "video/frames/000055.jpg",
+      "bytes": 44214,
+      "sha256": "03a13e9b5e3cb1b81963ebd2d27b7b852b99b3b5d4b5da880059834de443e0d1"
+    },
+    {
+      "path": "video/frames/000056.jpg",
+      "bytes": 41650,
+      "sha256": "fe4533d5d5f1c468ce282e9887c39d44f3abf4cbf1deebea623c4802818dd115"
+    },
+    {
+      "path": "video/frames/000057.jpg",
+      "bytes": 53640,
+      "sha256": "638129da4af89ae444c42502047e68973699cbba04172966ca6acd1a571149d7"
+    },
+    {
+      "path": "video/frames/000058.jpg",
+      "bytes": 56446,
+      "sha256": "3dad7674238dac8c39157d444eb5c5657b1bf55650de36de55581ee009ce06c9"
+    },
+    {
+      "path": "video/frames/000059.jpg",
+      "bytes": 54962,
+      "sha256": "d800abbe7744df0627a97ff83a41d9a6bec2008e3368e1e4e6e45eaed2241075"
+    },
+    {
+      "path": "video/frames/000060.jpg",
+      "bytes": 47994,
+      "sha256": "c332ce55dbfa51119800881d75c10271db13dbef3ac1745032cfa8b2bc9be4e7"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 8134,
+      "sha256": "c286001e1c5d5f304fdb14f568c25d37a93095ed8762839ba85e2339e4dbecc1"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 21057389,
+      "sha256": "2b94632ffdbea194edae9beff23487b53310d0d020180f7ebd19ad3d6953bb51"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 11320,
+      "sha256": "580cccce4858283aabc94bef89bbf5752ae530dc0ac2a0c6e3ffe6bf886fefb9"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 6122,
+      "sha256": "d0d4e2e3d5f98e6316e49f9859ac879beaa16b4a6a4747e296df3d914812329a"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 2877,
+      "sha256": "c0ceacd7bcc33d650d2a416912e57da0337f9c5fae09c8c5c7d26c679a3893cd"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 331,
+      "sha256": "ed2e36fbe0f4a23c8b4225caa5ea94349c9dcd9a57337ff4c70ed775e1f185d7"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 933,
+      "sha256": "c96da9ce0c508aa79288255cf217ae9cbb6fe20e38cb1b6c41132a7a3c07e9f3"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": "xianyu_ugc_visual_extension_v1",
+  "status": "completed",
+  "completed_at": "2026-07-17T13:23:46+08:00",
+  "parent_workflow_id": "xianyu-story-ugc-xiaohao-20260713-0717",
+  "image_text_workflow_id": "image_text_xianyu_story_ugc_visual_20260717",
+  "stages": [
+    {
+      "id": "download_and_map",
+      "status": "completed",
+      "images": 230,
+      "posts": 100
+    },
+    {
+      "id": "objective_visual_processing",
+      "status": "completed",
+      "images": 230
+    },
+    {
+      "id": "manual_visual_review",
+      "status": "completed",
+      "sheets": 20,
+      "images": 230
+    },
+    {
+      "id": "image_text_structure_scan_select_learn",
+      "status": "completed",
+      "cards": 100
+    },
+    {
+      "id": "skill_writeback_and_tests",
+      "status": "completed",
+      "visual_positive_tests": "4/4 passed",
+      "visual_negative_tests": "5/5 correctly rejected"
+    }
+  ],
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true
+}

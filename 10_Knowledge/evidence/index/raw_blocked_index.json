@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-07-15T08:47:07",
+  "generated_at": "2026-07-19T16:18:25",
   "source_index": "knowledge_index.json",
   "description": "默认禁止读取的原始资料和归档边界索引；记录目录边界，不展开受保护原始数据。",
-  "item_count": 6,
+  "item_count": 8,
   "items": [
     {
       "path": "数据/",
@@ -26,14 +26,28 @@
       "exists": true
     },
     {
-      "path": "80_Local/",
+      "path": "20_User/private/",
       "calling_scope": "blocked_by_default",
       "reason": "默认禁止读取；只有用户明确要求处理、审核或追溯时才按需进入。",
       "expanded": false,
       "exists": true
     },
     {
-      "path": "20_User/private/",
+      "path": "20_User/data/",
+      "calling_scope": "blocked_by_default",
+      "reason": "默认禁止读取；只有用户明确要求处理、审核或追溯时才按需进入。",
+      "expanded": false,
+      "exists": true
+    },
+    {
+      "path": "20_User/feedback/",
+      "calling_scope": "blocked_by_default",
+      "reason": "默认禁止读取；只有用户明确要求处理、审核或追溯时才按需进入。",
+      "expanded": false,
+      "exists": true
+    },
+    {
+      "path": "20_User/local/",
       "calling_scope": "blocked_by_default",
       "reason": "默认禁止读取；只有用户明确要求处理、审核或追溯时才按需进入。",
       "expanded": false,

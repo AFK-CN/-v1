@@ -1,0 +1,50 @@
+{
+  "title": "旧风扇只剩一张图，也先把缺口说清楚",
+  "body": "旧风扇只留下了一张正面照片，右侧网罩有一处小缺口，开关和电源线都能在画面里看见。现有素材不足以证明运转声音或风力，所以配图只使用这一张，建议裁掉无关杂物并保留缺口。正文把未核验的通电状态列为待确认，不为了做成轮播再补一张不存在的聊天或使用场景。",
+  "hashtags": [
+    "#闲鱼",
+    "#闲置转手",
+    "#交易故事"
+  ],
+  "input_facts": [
+    "用户提供物件与交易事实",
+    "用户提供并允许使用对应图片素材"
+  ],
+  "evidence_notes": [
+    "文字与画面只使用测试输入",
+    "推荐图序不冒充真实发布顺序"
+  ],
+  "fabricated_claims": [],
+  "visual_claims": [
+    "唯一实拍只支持网罩缺口和外观状态"
+  ],
+  "visual_evidence_reviewed": true,
+  "visual_package": {
+    "mode": "single_visual",
+    "frames": [
+      {
+        "role": "object_context",
+        "content": "风扇正面、网罩缺口、开关和电源线",
+        "source_basis": "用户提供唯一实拍",
+        "evidence_type": "supplied_photo"
+      }
+    ],
+    "privacy_check": {
+      "faces": "not_present",
+      "names_and_avatars": "redacted",
+      "contact_and_order_info": "redacted"
+    },
+    "performance_claims": [],
+    "fabricated_visual_assets": [],
+    "sequence_basis": "recommended_structure",
+    "claims_actual_publish_order": false
+  },
+  "method_trace": {
+    "primary_method": "xugc-m01",
+    "support_methods": [],
+    "completion_evidence": [
+      "事实入口清楚",
+      "结果由输入证据承接"
+    ]
+  }
+}

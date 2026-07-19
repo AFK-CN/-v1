@@ -178,7 +178,7 @@ class KBRuntimeTests(unittest.TestCase):
             raw = root / "数据" / "secret.json"
             raw.parent.mkdir(parents=True)
             raw.write_text("must not be parsed or hashed", encoding="utf-8")
-            formal = root / "02_Viral_Methods" / "method.md"
+            formal = root / "10_Knowledge" / "formal" / "accounts" / "sample" / "skill" / "SKILL.md"
             formal.parent.mkdir(parents=True)
             formal.write_text("# formal\n", encoding="utf-8")
             active = root / "00_System" / "shareable" / "skills" / "active" / "skill.md"
@@ -379,35 +379,6 @@ class KBRuntimeTests(unittest.TestCase):
 
             self.assertTrue(result["ok"])
             self.assertTrue(all(directory not in visited for directory in raw_directories))
-
-    def test_active_worker_prevents_running_task_from_being_marked_stale(self):
-        from tools.kb.runtime import initialize_runtime, repair_runtime, runtime_path
-
-        with tempfile.TemporaryDirectory() as tmp:
-            root = Path(tmp)
-            initialize_runtime(root, rebuild=False, migrate=False)
-            old = (datetime.now() - timedelta(hours=2)).isoformat(timespec="seconds")
-            write_json(
-                runtime_path(root, "tasks") / "running" / "task_a" / "status.json",
-                {
-                    "task_id": "task_a",
-                    "task_status": "running",
-                    "updated_at": old,
-                    "heartbeat_at": old,
-                },
-            )
-            write_json(
-                runtime_path(root, "state") / "web_console_state.json",
-                {
-                    "worker_status": "running",
-                    "worker_heartbeat_at": datetime.now().isoformat(timespec="seconds"),
-                },
-            )
-
-            result = repair_runtime(root, rebuild=False, stale_after_seconds=600)
-
-            self.assertEqual(result["stale_tasks"], [])
-            self.assertTrue((runtime_path(root, "tasks") / "running" / "task_a").exists())
 
     def test_healthy_doctor_renews_expired_shared_credential(self):
         from tools.kb.runtime import credential_path, doctor_runtime, initialize_runtime

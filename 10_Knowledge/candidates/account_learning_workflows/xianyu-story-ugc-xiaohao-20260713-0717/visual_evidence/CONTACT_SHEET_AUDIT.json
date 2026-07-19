@@ -1,0 +1,212 @@
+{
+  "schema_version": "xianyu_ugc_contact_sheet_audit_v1",
+  "status": "completed",
+  "reviewed_at": "2026-07-17T13:23:46+08:00",
+  "review_mode": "manual_contact_sheet_visual_review",
+  "sheet_count": 20,
+  "image_count": 230,
+  "post_count": 100,
+  "coverage_complete": true,
+  "sheets": [
+    {
+      "sheet_id": "sheet_01",
+      "source_span": [
+        "feishu_xianyu_20260713_s01",
+        "feishu_xianyu_20260713_s05"
+      ],
+      "image_count": 11,
+      "status": "reviewed",
+      "note": "平台页、聊天证据与真实物件照片并存；人物信息有打码，物件照片保留普通环境。"
+    },
+    {
+      "sheet_id": "sheet_02",
+      "source_span": [
+        "feishu_xianyu_20260713_s06",
+        "feishu_xianyu_20260713_s10"
+      ],
+      "image_count": 12,
+      "status": "reviewed",
+      "note": "截图与实拍以说明交易或服务过程为主，不追求统一视觉模板。"
+    },
+    {
+      "sheet_id": "sheet_03",
+      "source_span": [
+        "feishu_xianyu_20260713_s11",
+        "feishu_xianyu_20260713_s15"
+      ],
+      "image_count": 11,
+      "status": "reviewed",
+      "note": "打印机等案例呈现商品页、沟通证据和实物结果的跨格式链路。"
+    },
+    {
+      "sheet_id": "sheet_04",
+      "source_span": [
+        "feishu_xianyu_20260713_s16",
+        "feishu_xianyu_20260713_s20"
+      ],
+      "image_count": 8,
+      "status": "reviewed",
+      "note": "连续样本继续使用平台截图与生活照片组合，未形成稳定商业化画风。"
+    },
+    {
+      "sheet_id": "sheet_05",
+      "source_span": [
+        "feishu_xianyu_20260714_s01",
+        "feishu_xianyu_20260714_s05"
+      ],
+      "image_count": 10,
+      "status": "reviewed",
+      "note": "手电等物件使用直接手机实拍，光线、背景与使用痕迹保持自然。"
+    },
+    {
+      "sheet_id": "sheet_06",
+      "source_span": [
+        "feishu_xianyu_20260714_s06",
+        "feishu_xianyu_20260714_s10"
+      ],
+      "image_count": 11,
+      "status": "reviewed",
+      "note": "宠物服务案例以说明页、聊天和现场照片共同证明执行过程。"
+    },
+    {
+      "sheet_id": "sheet_07",
+      "source_span": [
+        "feishu_xianyu_20260714_s11",
+        "feishu_xianyu_20260714_s15"
+      ],
+      "image_count": 12,
+      "status": "reviewed",
+      "note": "出现简洁的一句话标题卡；标题卡之后仍需物件或截图证据承接。"
+    },
+    {
+      "sheet_id": "sheet_08",
+      "source_span": [
+        "feishu_xianyu_20260714_s16",
+        "feishu_xianyu_20260714_s20"
+      ],
+      "image_count": 13,
+      "status": "reviewed",
+      "note": "人物、聊天、主页和商品页混用时强调身份脱敏与可见事实边界。"
+    },
+    {
+      "sheet_id": "sheet_09",
+      "source_span": [
+        "feishu_xianyu_20260715_s01",
+        "feishu_xianyu_20260715_s05"
+      ],
+      "image_count": 13,
+      "status": "reviewed",
+      "note": "商品页、聊天与音箱实物构成信息递进；不是单纯追求画面美感。"
+    },
+    {
+      "sheet_id": "sheet_10",
+      "source_span": [
+        "feishu_xianyu_20260715_s06",
+        "feishu_xianyu_20260715_s10"
+      ],
+      "image_count": 11,
+      "status": "reviewed",
+      "note": "相机等物件以低制作感实拍承担真实性，不自动美化瑕疵。"
+    },
+    {
+      "sheet_id": "sheet_11",
+      "source_span": [
+        "feishu_xianyu_20260715_s11",
+        "feishu_xianyu_20260715_s15"
+      ],
+      "image_count": 11,
+      "status": "reviewed",
+      "note": "一句话标题卡与交易截图组合，卡片是可选钩子，不是统一封面规范。"
+    },
+    {
+      "sheet_id": "sheet_12",
+      "source_span": [
+        "feishu_xianyu_20260715_s16",
+        "feishu_xianyu_20260715_s20"
+      ],
+      "image_count": 10,
+      "status": "reviewed",
+      "note": "标题卡在连续样本中复现，但颜色、装饰与后续证据形态并不恒定。"
+    },
+    {
+      "sheet_id": "sheet_13",
+      "source_span": [
+        "feishu_xianyu_20260716_s01",
+        "feishu_xianyu_20260716_s05"
+      ],
+      "image_count": 13,
+      "status": "reviewed",
+      "note": "标题卡、平台截图、聊天和桌子实拍混排，序列服务于故事理解。"
+    },
+    {
+      "sheet_id": "sheet_14",
+      "source_span": [
+        "feishu_xianyu_20260716_s06",
+        "feishu_xianyu_20260716_s10"
+      ],
+      "image_count": 12,
+      "status": "reviewed",
+      "note": "笔记本商品页与实物、缝纫机生活照片体现先交代信息再给结果或细节。"
+    },
+    {
+      "sheet_id": "sheet_15",
+      "source_span": [
+        "feishu_xianyu_20260716_s11",
+        "feishu_xianyu_20260716_s15"
+      ],
+      "image_count": 10,
+      "status": "reviewed",
+      "note": "多种截图和实拍共存，无法抽取稳定的摄影棚、滤镜或品牌配色规则。"
+    },
+    {
+      "sheet_id": "sheet_16",
+      "source_span": [
+        "feishu_xianyu_20260716_s16",
+        "feishu_xianyu_20260716_s20"
+      ],
+      "image_count": 12,
+      "status": "reviewed",
+      "note": "滑板等普通场景实拍保留环境毛边，适合作为物件真实性证据。"
+    },
+    {
+      "sheet_id": "sheet_17",
+      "source_span": [
+        "feishu_xianyu_20260717_s01",
+        "feishu_xianyu_20260717_s05"
+      ],
+      "image_count": 13,
+      "status": "reviewed",
+      "note": "吉他和胶片相机案例使用物件、平台/聊天与使用结果共同推进。"
+    },
+    {
+      "sheet_id": "sheet_18",
+      "source_span": [
+        "feishu_xianyu_20260717_s06",
+        "feishu_xianyu_20260717_s10"
+      ],
+      "image_count": 12,
+      "status": "reviewed",
+      "note": "2—3 张组合继续占主流；每张承担不同信息角色而非重复装饰。"
+    },
+    {
+      "sheet_id": "sheet_19",
+      "source_span": [
+        "feishu_xianyu_20260717_s11",
+        "feishu_xianyu_20260717_s15"
+      ],
+      "image_count": 14,
+      "status": "reviewed",
+      "note": "生活照片、聊天与相机商品页组合；五图样本说明数量按证据需要变化。"
+    },
+    {
+      "sheet_id": "sheet_20",
+      "source_span": [
+        "feishu_xianyu_20260717_s16",
+        "feishu_xianyu_20260717_s20"
+      ],
+      "image_count": 11,
+      "status": "reviewed",
+      "note": "收尾样本仍以可核验截图和普通实拍为核心，没有稳定精修视觉体系。"
+    }
+  ]
+}

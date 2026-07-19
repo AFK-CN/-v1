@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "platform": "小红书",
+  "direction": "自然一人食",
+  "source_id": "68e4e6d200000000070158b5",
+  "title": "图文深度学习卡：68e4e6d200000000070158b5",
+  "content_type": "image_text",
+  "formal_card": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/directions/自然一人食/cards/68e4e6d200000000070158b5.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5c09367300000000060099e8/xhs_68e4e6d200000000070158b5",
+  "copied_file_count": 14,
+  "copied_bytes": 1304704,
+  "files": [
+    {
+      "path": "images/000_cover.jpg",
+      "bytes": 197643,
+      "sha256": "8fea6e399c000aebd7ba583ddd70e04c703e9c5086a5e9ba929b5fa171f294f0"
+    },
+    {
+      "path": "images/001_image.jpg",
+      "bytes": 189096,
+      "sha256": "3d31962c6d4f5fa1f9129888e86a5671aa8538381bd67adf5a8183af9b1e8343"
+    },
+    {
+      "path": "images/002_image.jpg",
+      "bytes": 378220,
+      "sha256": "1820a90fa323079dc688361aa05e74ff768054616f20c86965a49a170bb1c64b"
+    },
+    {
+      "path": "images/003_image.jpg",
+      "bytes": 145078,
+      "sha256": "a029ba37ac948514e45d975e1e219a1fa4dc919748284c59c4e862320c5c3ce3"
+    },
+    {
+      "path": "images/004_image.jpg",
+      "bytes": 134745,
+      "sha256": "d9f92b962ec2edba3b20c1f896dde768fd47c66a0cf94592f9db9408057228e9"
+    },
+    {
+      "path": "images/005_image.jpg",
+      "bytes": 109995,
+      "sha256": "d63e9a34af28d991b403fd44ad649cc182271b64cdd248d21e7e536c470455fe"
+    },
+    {
+      "path": "images/006_image.jpg",
+      "bytes": 112234,
+      "sha256": "08a6e9f5c3aa0ad4e10286efa33bdc599483d733caf5b345b565e1b1219dd01b"
+    },
+    {
+      "path": "images/image_analysis.json",
+      "bytes": 5126,
+      "sha256": "85024461d3ebdc98a475f51977e0d47f27e57c93140fa0f7fffa1789077677a5"
+    },
+    {
+      "path": "images/ocr.json",
+      "bytes": 7772,
+      "sha256": "04e118e62ec60da5ada01e5a5e10934cc91a7ead2741f90665a9381890b5c8d0"
+    },
+    {
+      "path": "images/vision_analysis.json",
+      "bytes": 9408,
+      "sha256": "019172cebebac96881ba15624581a84a10621feb5d63de707a5eb19c711076f2"
+    },
+    {
+      "path": "images/visual_summary.json",
+      "bytes": 6353,
+      "sha256": "4c97fee950b18fcd529cfcbf475a587ad452712745622258776c0b871ab4194d"
+    },
+    {
+      "path": "manifest_item.json",
+      "bytes": 682,
+      "sha256": "ee91f60d35974a37aa441b74099d341524debd9a67222bbe6212191e1bcec22e"
+    },
+    {
+      "path": "source.json",
+      "bytes": 3421,
+      "sha256": "c60697e16d8f143b733142465cab920250909675d3d7e1a80e50fdcc3b65f00e"
+    },
+    {
+      "path": "status.json",
+      "bytes": 4931,
+      "sha256": "47aa9012cb464edf995df10f281c9a21200ebf83ce2ea25a849c3973d5641cb2"
+    }
+  ]
+}

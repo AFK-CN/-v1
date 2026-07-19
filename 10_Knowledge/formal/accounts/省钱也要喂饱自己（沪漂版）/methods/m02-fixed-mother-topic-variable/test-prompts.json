@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m02-fixed-mother-topic-variable",
+  "test_cases": [
+    {
+      "id": "m02-fixed-mother-topic-variable-t1",
+      "type": "should_trigger",
+      "prompt": "沿用独居一人食母题，本条只突出番茄牛肉滑蛋这一主菜变量。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m02-fixed-mother-topic-variable-t2",
+      "type": "should_not_trigger",
+      "prompt": "想做一周合集，实际诉求是按七天重编既有封面。",
+      "expected_decision": "do_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "m03-double-cover-tiered-tutorial"
+    },
+    {
+      "id": "m02-fixed-mother-topic-variable-t3",
+      "type": "edge_case",
+      "prompt": "同时有快手、低价、春季和新锅四个变量，先收敛到一个后再立项。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m02-fixed-mother-topic-variable-t4",
+      "type": "cross_scene_transfer",
+      "prompt": "迁移到早餐系列：母题仍固定，每条只换一种主食。",
+      "expected_decision": "trigger",
+      "mechanism_preserved": true,
+      "source_scene": "主菜轮换",
+      "target_scene": "宿舍/加班/便当等改变人物与道具后的新场景"
+    },
+    {
+      "id": "m02-fixed-mother-topic-variable-t5",
+      "type": "commercial_contamination",
+      "prompt": "品牌要求把新品卖点当成系列母题的新变量。",
+      "expected_decision": "do_not_trigger",
+      "commercial_source_excluded_from_natural_v1": true
+    }
+  ],
+  "evaluation_rule": "仅当核心机制存在且未触发商品广告/平台项目/证据缺失边界时触发。"
+}

@@ -33,6 +33,40 @@ def unified_card_text(content_form: str = "剧情段子") -> str:
 - 信息层级：每图只承担一个信息任务。
 - 行动建议：给出可执行清单。
 - 收尾互动：邀请读者核对自己的情况。"""
+        publish_layer = """- 标题：一人食结果承诺。
+- 正文或文案：从处境进入，给出步骤、状态和结果。
+- 话题或标签：一人食、做饭记录。
+- 标题原文：下班后的一人食。
+- 标题机制：用具体处境和结果建立承诺。
+- 正文原文：今天下班晚，先把材料处理好，再按状态判断完成。
+- 正文结构：处境、动作、关键状态、结果、自然停住。
+- 细节密度：保留数量、单位、时长、动作和完成状态。
+- 真人感：用下班晚、个人偏好和口语连接形成生活痕迹。
+- 结尾方式：结果后自然停住，不追加空泛总结。
+- 话题策略：检索词和场景标签共同分类。
+- 发布视觉协同：标题给处境和结果，组图证明步骤，正文补数量和边界。"""
+        media_layer = """- 媒体类型：图文。
+- 分析状态：发布原文、有序组图、OCR和逐图视觉复核均可用。
+- 表现学习：组图用动作—状态—结果完成承诺。
+- 封面钩子：成品与处境标题共同建立第一眼承诺。
+- 逐图角色：封面、材料、关键动作、状态、结果。
+- 分图顺序：从承诺到动作再到结果，信息逐页增加。
+- 构图与视角：俯拍材料，近景表现动作和结果质地。
+- 动作与状态：手部动作连接处理、加热和完成状态。
+- 视觉层级：主体先于注释，辅助信息不遮挡关键动作。
+- 文字注释设计：纸张底板与短注释贴近对应动作。
+- 字形字号层级：主标题大字，步骤注释小一级且字重一致。
+- 色彩光线质感：自然光和真实器皿保留食物质感。
+- 真人与生活感：自然手势、灶台痕迹和轻微不完美构成生活证据。
+- 跨模态协同：封面兑现标题，组图证明步骤，正文补充数量和时间。
+- 收藏理由：可回看步骤、状态判断和数量。"""
+    else:
+        publish_layer = """- 标题：先承诺一个看似有效的解决办法。
+- 正文或文案：逐步增加限制，不提前泄露结局。
+- 话题或标签：关系、沟通、反转。"""
+        media_layer = """- 媒体类型：视频。
+- 分析状态：逐字稿和抽帧完成。
+- 表现学习：通过停顿、反应镜头和回答长度变化推进冲突。"""
     return f"""# 视频深度学习卡：sample-1
 
 学习卡契约：{CONTRACT_ID}
@@ -73,15 +107,11 @@ source_id：sample-1
 
 ## 6. 发布内容层学习
 
-- 标题：先承诺一个看似有效的解决办法。
-- 正文或文案：逐步增加限制，不提前泄露结局。
-- 话题或标签：关系、沟通、反转。
+{publish_layer}
 
 ## 7. 视频/图文表现层学习
 
-- 媒体类型：视频。
-- 分析状态：逐字稿和抽帧完成。
-- 表现学习：通过停顿、反应镜头和回答长度变化推进冲突。
+{media_layer}
 
 ## 8. 金句与表达素材
 
@@ -210,6 +240,21 @@ class AccountLearningCardContractTest(unittest.TestCase):
 
         self.assertIn("金句与表达素材:missing_提炼表达", result.errors)
 
+    def test_image_text_card_requires_publish_copy_and_deep_visual_learning(self) -> None:
+        text = unified_card_text("图文")
+        text = text.replace("- 细节密度：保留数量、单位、时长、动作和完成状态。\n", "")
+        text = text.replace("- 文字注释设计：纸张底板与短注释贴近对应动作。\n", "")
+
+        result = validate_unified_text(text)
+
+        self.assertIn("发布内容层学习:missing_细节密度", result.errors)
+        self.assertIn("视频/图文表现层学习:missing_文字注释设计", result.errors)
+
+    def test_image_text_card_rejects_placeholder_learning(self) -> None:
+        result = validate_unified_text(unified_card_text("图文").replace("用具体处境和结果建立承诺", "待分析"))
+
+        self.assertIn("image_text_layers:placeholder_not_allowed", result.errors)
+
     def test_legacy_rich_card_is_read_compatible(self) -> None:
         sections = [
             "为什么值得学习", "核心观点", "内容结构", "表达素材与金句提炼", "视频层学习",
@@ -248,12 +293,14 @@ class AccountLearningCardContractTest(unittest.TestCase):
     def test_system_rule_and_contract_contain_no_account_specific_names(self) -> None:
         paths = [
             REPO_ROOT / "00_System/shareable/config/account_learning_card_contract.json",
-            REPO_ROOT / "00_System/shareable/rules/统一学习卡产出标准.md",
-            REPO_ROOT / "00_System/shareable/rules/账号专业学习提取与验证规范.md",
-            REPO_ROOT / "00_System/shareable/skills/active/账号专业学习Skill_v2.md",
+            REPO_ROOT
+            / "00_System/shareable/skills/active/account-learning/references/unified-learning-card-standard.md",
+            REPO_ROOT
+            / "00_System/shareable/skills/active/account-learning/references/professional-extraction-validation.md",
+            REPO_ROOT / "00_System/shareable/skills/active/account-learning/SKILL.md",
         ]
         text = "\n".join(path.read_text(encoding="utf-8") for path in paths)
-        for account_name in ("姜胡说", "李宗恒", "小森林"):
+        for account_name in ("知识账号甲", "剧情账号乙", "小森林"):
             self.assertNotIn(account_name, text)
 
     def test_kb_cli_validates_any_unified_card_with_one_command(self) -> None:
@@ -288,7 +335,7 @@ class AccountLearningCardContractTest(unittest.TestCase):
         route = next(item for item in payload["routes"] if item["id"] == "account_learning")
 
         self.assertIn("00_System/shareable/config/account_learning_card_contract.json", route["read_first"])
-        self.assertIn("00_System/shareable/rules/统一学习卡产出标准.md", route["read_first"])
+        self.assertIn("00_System/shareable/skills/active/account-learning/SKILL.md", route["read_first"])
         self.assertIn("tools.kb.cli account-learning-validate-card", route["tools"])
 
 

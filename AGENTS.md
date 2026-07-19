@@ -8,7 +8,7 @@
 
 ## 知识库入口
 
-优先使用本仓库维护的中文 Skill 源包：`00_System/shareable/skill_packages/知识库/`。兼容入口为 `00_System/shareable/skill_packages/knowledge-base/`。
+优先使用本仓库维护的中文 Skill 源包：`00_System/shareable/skill_packages/knowledge-base-zh/`。兼容入口为 `00_System/shareable/skill_packages/knowledge-base/`。
 
 当用户在本项目中输入 `使用知识库`、`调用知识库`、`读取知识库`，或要求基于本机知识库工作时，按 `00_System/shareable/config/skill_contract.json` 生成的 Skill 包执行固定入口读取顺序，再按 `00_System/shareable/index/controller_routes.json` 路由到对应任务。
 
@@ -24,19 +24,9 @@
 - 修改 active Skill 前必须先进入 proposal，用户确认后再生效。
 - 无效信息、重复信息、低价值资料不进入正式知识库。
 
-## 记忆候选判断
+## 生产记忆边界
 
-完成实质性任务前，系统需要判断本次任务是否值得生成记忆候选，但不是每次都生成。
-
-只有出现以下信号时才生成候选：用户纠正规则或边界、确认长期偏好、形成可复用流程、问题已解决且有验证证据、智能体能力/权限/登录/记忆边界变化，或用户明确要求“记住/沉淀/会话总结”。
-
-候选写入统一走：
-
-```bash
-.venv/bin/python -m tools.kb.cli --root . memory --evaluate-text "<本次任务中可复用的结论>"
-```
-
-低价值结束语、一次性过程、未验证判断、临时方案和用户明确说不用记的内容，不生成候选。自动候选只进入 `00_System/runtime/memory/pending_session_extracts.jsonl`，不得直接写入长期记忆。
+系统不再默认生成会话记忆或自动进化候选。内容生产只记录结构化的选题、内容、账号 Skill 版本和反馈；查询由代码完成，模型不得加载完整生产数据库。账号 Skill 更新只能由复盘证据形成提案，并经用户确认后生效。
 
 ## Feishu / Lark CLI
 

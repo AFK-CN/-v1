@@ -1,0 +1,264 @@
+{
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "杂粮饭\n水煮\n西兰花\ne心蛋\n三文鱼",
+      "items": [
+        {
+          "text": "杂粮饭",
+          "score": 0.9883829553922018,
+          "box": [
+            [
+              213.0,
+              79.0
+            ],
+            [
+              381.0,
+              79.0
+            ],
+            [
+              381.0,
+              139.0
+            ],
+            [
+              213.0,
+              139.0
+            ]
+          ]
+        },
+        {
+          "text": "水煮",
+          "score": 0.9924842119216919,
+          "box": [
+            [
+              94.0,
+              198.0
+            ],
+            [
+              204.0,
+              196.0
+            ],
+            [
+              206.0,
+              263.0
+            ],
+            [
+              96.0,
+              265.0
+            ]
+          ]
+        },
+        {
+          "text": "西兰花",
+          "score": 0.9887350797653198,
+          "box": [
+            [
+              52.0,
+              272.0
+            ],
+            [
+              214.0,
+              256.0
+            ],
+            [
+              220.0,
+              320.0
+            ],
+            [
+              58.0,
+              336.0
+            ]
+          ]
+        },
+        {
+          "text": "e心蛋",
+          "score": 0.8320313692092896,
+          "box": [
+            [
+              717.0,
+              1022.0
+            ],
+            [
+              996.0,
+              1100.0
+            ],
+            [
+              974.0,
+              1182.0
+            ],
+            [
+              695.0,
+              1105.0
+            ]
+          ]
+        },
+        {
+          "text": "三文鱼",
+          "score": 0.8375378449757894,
+          "box": [
+            [
+              555.0,
+              1236.0
+            ],
+            [
+              824.0,
+              1249.0
+            ],
+            [
+              821.0,
+              1318.0
+            ],
+            [
+              552.0,
+              1305.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\001_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\002_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "se家庭料理新生品牌\n皇冠三文鱼\n佰丰\n9+kg丹麦法罗",
+      "items": [
+        {
+          "text": "se家庭料理新生品牌",
+          "score": 0.8801160156726837,
+          "box": [
+            [
+              71.0,
+              202.0
+            ],
+            [
+              229.0,
+              138.0
+            ],
+            [
+              237.0,
+              159.0
+            ],
+            [
+              79.0,
+              223.0
+            ]
+          ]
+        },
+        {
+          "text": "皇冠三文鱼",
+          "score": 0.9987010717391968,
+          "box": [
+            [
+              205.0,
+              228.0
+            ],
+            [
+              394.0,
+              149.0
+            ],
+            [
+              410.0,
+              189.0
+            ],
+            [
+              222.0,
+              268.0
+            ]
+          ]
+        },
+        {
+          "text": "佰丰",
+          "score": 0.9827370047569275,
+          "box": [
+            [
+              323.0,
+              259.0
+            ],
+            [
+              442.0,
+              213.0
+            ],
+            [
+              455.0,
+              247.0
+            ],
+            [
+              336.0,
+              293.0
+            ]
+          ]
+        },
+        {
+          "text": "9+kg丹麦法罗",
+          "score": 0.9924847930669785,
+          "box": [
+            [
+              175.0,
+              275.0
+            ],
+            [
+              420.0,
+              175.0
+            ],
+            [
+              437.0,
+              218.0
+            ],
+            [
+              192.0,
+              318.0
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\003_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\004_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5c09367300000000060099e8\\xhs_6932b804000000001e00514d\\images\\005_image.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051052/a9224c7b5329dfe3474cade4ad86c141/note_pre_post_uhdr/1040g3r831pn71eu6l4a04busfur776f8rhe55e0!nd_dft_wlteh_jpg_3",
+      "status": "success",
+      "reason": "",
+      "text": "",
+      "items": []
+    }
+  ]
+}

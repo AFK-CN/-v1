@@ -1,0 +1,159 @@
+{
+  "platform": "xhs",
+  "source_id": "68c29b30000000001d00d062",
+  "source_url": "https://www.xiaohongshu.com/explore/68c29b30000000001d00d062",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "title": "独居一人食｜吃的干净真的会瘦！！！",
+  "desc": "今天吃🥄\n白灼虾（💰2左右）\n依旧是盒马买的基围虾：切姜片，倒入料酒中小火上锅蒸5分钟。\n鸡蛋羹（💰0.75）\n加入等比例清水、一点点盐上中小火上锅蒸12分钟。\n海鲜菇炒牛肉（💰3左右）\n大火爆炒腌制好的牛肉30秒，倒入炒好水的海鲜菇翻炒2分钟，只要加一点点蚝油、小米辣调味即可，上锅前撒一把葱花更香！\n\t\n#一人居一人食[话题]# #独居一个人也要认真吃饭哦[话题]# #简简单单又是一餐[话题]# #减脂[话题]# #一人食[话题]# #减肥[话题]# #干净饮食[话题]# #瘦[话题]#",
+  "image_count": 5,
+  "has_text": true,
+  "ocr_text": "上海青\n鸡蛋\n基围虾\ne海鲜菇\n炒牛肉\n盒马鲜生\n冷鲜高盐基围虾散称(35-40..\n￥8.75\n规格：35-40只/500g0\n500g\n单价：￥8.75/500g￥35\n申请退款",
+  "ocr_by_image": [
+    {
+      "index": 0,
+      "role": "cover",
+      "text": "上海青\n鸡蛋\n基围虾\ne海鲜菇\n炒牛肉",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "text": "盒马鲜生\n冷鲜高盐基围虾散称(35-40..\n￥8.75\n规格：35-40只/500g0\n500g\n单价：￥8.75/500g￥35\n申请退款",
+      "status": "success",
+      "reason": ""
+    }
+  ],
+  "visual_summary": "5 张portrait图片；包含 白灼虾、虾、牛肉、鸡蛋、一人食；主题为 一人居一人食、独居一个人也要认真吃饭哦、简简单单又是一餐、减脂、一人食；图中文字示例：上海青；画面风格：多图合集，有图中文字/标注，清晰",
+  "scene": "居家餐食",
+  "content_tags": [
+    "餐食",
+    "美食",
+    "居家饮食",
+    "减脂餐",
+    "竖图",
+    "图中文字",
+    "一人居一人食",
+    "独居一个人也要认真吃饭哦",
+    "简简单单又是一餐",
+    "减脂",
+    "一人食",
+    "减肥",
+    "干净饮食",
+    "瘦"
+  ],
+  "topic_tags": [
+    "一人居一人食",
+    "独居一个人也要认真吃饭哦",
+    "简简单单又是一餐",
+    "减脂",
+    "一人食",
+    "减肥",
+    "干净饮食",
+    "瘦"
+  ],
+  "food_items": [
+    "白灼虾",
+    "虾",
+    "牛肉",
+    "鸡蛋",
+    "一人食"
+  ],
+  "style": {
+    "camera": "可能为俯拍/近景",
+    "composition": "多图合集",
+    "orientation": "portrait",
+    "text_overlay": "有图中文字/标注",
+    "dominant_colors": [
+      "#8b7658",
+      "#87765c",
+      "#8e876b",
+      "#817c60",
+      "#f4f4f4"
+    ],
+    "clarity": "清晰",
+    "contrast": "对比度较高",
+    "tone": "真实记录型内容"
+  },
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#8b7658",
+      "contrast_score": 70.06775288436343,
+      "blur_score": 694.6718011589451,
+      "has_text": true
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#87765c",
+      "contrast_score": 69.55910397969151,
+      "blur_score": 498.0588222935017,
+      "has_text": false
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "width": 1440,
+      "height": 1080,
+      "orientation": "landscape",
+      "dominant_color": "#8e876b",
+      "contrast_score": 65.28204108589094,
+      "blur_score": 311.9661418760383,
+      "has_text": false
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#817c60",
+      "contrast_score": 64.02725739439246,
+      "blur_score": 359.1829455947566,
+      "has_text": false
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "width": 1169,
+      "height": 566,
+      "orientation": "landscape",
+      "dominant_color": "#f4f4f4",
+      "contrast_score": 34.6229832815893,
+      "blur_score": 677.9154905736231,
+      "has_text": true
+    }
+  ],
+  "method": "rule_based_ocr_summary",
+  "updated_at": "2026-07-11T00:40:30"
+}

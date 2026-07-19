@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T01:19:39",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7190919342081527100\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0200fg10000cf5ke2jc77ufhvfb28lg&line=0&file_id=8a769f3fb4824be9965dd5ca060b23ab&sign=b6c14fbe38033703267c470fbff2548b&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:13:35",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7190919342081527100\\video\\source.mp4",
+      "duration_sec": 34.0,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 1020,
+      "platform": "dy",
+      "source_id": "7190919342081527100",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0200fg10000cf5ke2jc77ufhvfb28lg&line=0&file_id=8a769f3fb4824be9965dd5ca060b23ab&sign=b6c14fbe38033703267c470fbff2548b&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "《如此看小品》#李宗恒",
+      "desc": "《如此看小品》#李宗恒",
+      "publish_time": 1674266393,
+      "account_id": "63700340656",
+      "account_name": "李宗恒"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:13:37",
+      "count": 17,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7190919342081527100\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:13:38",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7190919342081527100\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-05T10:13:44",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7190919342081527100\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_63700340656\\dy_7190919342081527100\\video\\transcript.srt",
+      "segments": 1
+    }
+  },
+  "updated_at": "2026-07-05T10:13:44"
+}

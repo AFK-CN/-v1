@@ -1,0 +1,62 @@
+{
+  "title": "缝纫机闲置八个月，我先把卡线处拍清楚",
+  "body": "这台缝纫机跟着我做过两条窗帘，后来换工作，整整八个月没有再开。准备转手时，我没有把它擦得像新品，而是先拍全貌和桌面的正常使用环境，再把偶尔卡线的位置、踏板磨损和通电状态逐一拍清楚。买家看完后决定上门试机。图片的任务是交代物件真相，不是把旧物修成一张没有瑕疵的广告图。",
+  "hashtags": [
+    "#闲鱼",
+    "#闲置转手",
+    "#交易故事"
+  ],
+  "input_facts": [
+    "用户提供物件与交易事实",
+    "用户提供并允许使用对应图片素材"
+  ],
+  "evidence_notes": [
+    "文字与画面只使用测试输入",
+    "推荐图序不冒充真实发布顺序"
+  ],
+  "fabricated_claims": [],
+  "visual_claims": [
+    "普通实拍依次展示全貌、瑕疵与通电结果"
+  ],
+  "visual_evidence_reviewed": true,
+  "visual_package": {
+    "mode": "object_truth_sequence",
+    "frames": [
+      {
+        "role": "object_context",
+        "content": "缝纫机全貌与实际使用桌面",
+        "source_basis": "用户提供现场实拍",
+        "evidence_type": "supplied_photo"
+      },
+      {
+        "role": "object_detail",
+        "content": "卡线处和踏板磨损近照",
+        "source_basis": "用户提供细节实拍",
+        "evidence_type": "supplied_photo"
+      },
+      {
+        "role": "result_proof",
+        "content": "通电与运转状态",
+        "source_basis": "用户提供试机实拍",
+        "evidence_type": "supplied_photo"
+      }
+    ],
+    "privacy_check": {
+      "faces": "not_present",
+      "names_and_avatars": "redacted",
+      "contact_and_order_info": "redacted"
+    },
+    "performance_claims": [],
+    "fabricated_visual_assets": [],
+    "sequence_basis": "recommended_structure",
+    "claims_actual_publish_order": false
+  },
+  "method_trace": {
+    "primary_method": "xugc-m05",
+    "support_methods": [],
+    "completion_evidence": [
+      "事实入口清楚",
+      "结果由输入证据承接"
+    ]
+  }
+}

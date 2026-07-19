@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import html as html_lib
 import hashlib
+import importlib.util
 import json
 import os
 import re
@@ -29,143 +30,49 @@ CANDIDATE_LEARNING_DIR = Path("10_Knowledge/candidates/learning_cards")
 CANDIDATE_ACCOUNT_ASSETS_DIR = Path("10_Knowledge/candidates/account_assets")
 
 
-DIRECTION_KEYWORDS = {
-    "赚钱": ["赚钱", "财富", "收入", "商业", "商机", "变现", "副业"],
-    "创业": ["创业", "一人公司", "产品化", "机会", "项目"],
-    "自媒体": ["自媒体", "内容创作", "账号", "流量", "个人ip", "个人IP"],
-    "短视频": ["短视频", "视频", "拍摄", "脚本", "口播", "分镜"],
-    "剧情短剧": ["剧情", "短剧", "剧本", "编剧", "如果人生有剧本", "集", "第一集", "第二集", "第三集", "第四集"],
-    "喜剧反转": ["反转", "社死", "倒霉蛋", "愚人节", "一定要看到最后", "好运", "怎么啦", "扯不扯"],
-    "校园大学生": ["大学生", "校园", "宿舍", "同学", "高考", "考生", "上课"],
-    "职场关系": ["职场", "员工", "老板", "公司", "事业", "预判型员工", "上班", "下班", "准时下班", "着急下班"],
-    "情感关系": ["恋爱", "恋爱脑", "桃花运", "情感"],
-    "人际社交观察": ["社恐", "社交", "插队", "同学", "做客", "室友", "亲戚", "查寝", "不熟", "人情世故", "高情商"],
-    "代际观察": ["00后", "学生版", "孩子", "年轻人", "新型", "一种很新的"],
-    "爱情关系喜剧": ["爱情", "前任", "相亲", "分手", "情侣", "对象", "男女之间", "女人心", "恋爱", "桃花运", "舔狗", "舔🐶", "代吵"],
-    "性格标签喜剧": ["社恐", "敏感", "聪明", "小心眼", "自作多情", "心态", "反骨", "霸道", "直男", "钢铁直男", "拿铁直男"],
-    "生活荒诞反转": ["扶梯", "一镜到底", "预判", "体面", "生日", "许愿", "编剧", "饭店", "一分", "没花", "说忘就忘", "技高一筹", "证明不了", "普通话考试", "双胞胎", "跑了", "彩蛋"],
-    "身份错位短剧": ["老师", "销售", "孩子", "老板", "员工", "教练", "学生", "霸道总裁", "霸总", "面试", "简历", "考试", "饭店", "驾校", "查寝", "上课"],
-    "语言表达喜剧": ["中文", "普通话", "说忘就忘", "教学", "十级", "怎么说", "考试", "证明不了"],
-    "心理博弈": ["心理战", "举手", "技高一筹", "预判", "反向", "面试", "辩论", "心态"],
-    "情绪自洽": ["哄好自己", "走心", "故事", "小心眼", "敏感", "自作多情", "听得进", "痛的领悟"],
-    "咖啡生活梗": ["美式", "咖啡", "咖啡文学", "清醒人生"],
-    "品牌植入": ["科大讯飞", "宁德时代", "王者荣耀", "亚朵", "去哪儿", "荣耀", "SKII", "飞科", "周黑鸭", "宝骏", "伊利"],
-    "作品代表作索引": ["你可能不认识我", "这些都没看过", "代表作", "合集", "名场面"],
-    "求助边界拉扯": ["帮我", "不帮我", "求助", "帮一下", "帮忙", "这怎么还"],
-    "口号仪式反讽": ["不忘初心", "砥砺前行", "口号", "仪式感", "强的可怕"],
-    "部门组织拟人": ["部门", "业务中心", "家庭业务", "失眠部门", "中心"],
-    "节日家庭场景": ["过年", "回家", "家庭", "媳妇", "怕媳妇", "亲戚", "春节"],
-    "暗示沟通": ["暗示", "明显吗", "你懂", "你猜", "话里有话"],
-    "礼貌社交规则": ["礼貌", "最有礼貌", "客气", "规矩", "礼节"],
-    "冲突吵架技巧": ["吵架", "对象吵架", "拌嘴", "吵赢", "吵"],
-    "金钱边界喜剧": ["AA", "aa", "买单", "请客", "付款", "付钱"],
-    "消费体验反差": ["商务座", "第一次坐", "理发", "看小品", "点名", "坐商务"],
-    "叛逆反差": ["叛逆", "反骨", "不听话", "听话", "不后悔"],
-    "身体状态喜剧": ["睡觉", "困了", "饿了", "脚臭", "着急", "太累", "累了"],
-    "朋友熟人关系": ["朋友", "纯友谊", "男闺蜜", "熟人", "对方"],
-    "自信夸奖喜剧": ["增强自信", "自信", "夸我", "夸我一天", "总夸我"],
-    "心眼疑心拟人": ["心眼子", "疑心病", "妄想症", "综合症"],
-    "沟通误解喜剧": ["哪里不对", "这啥理由", "打招呼", "无效沟通", "中译中", "翻译", "拐弯抹角", "什么玩意", "最后怎么了", "这事"],
-    "压力崩溃喜剧": ["太难了", "闹心", "着急", "被迫", "太难"],
-    "吃饭点菜场景": ["点菜", "吃饭", "这饭", "午餐", "饭吃"],
-    "商战利益博弈": ["商战", "免费午餐", "别针换别墅", "利益", "博弈"],
-    "家庭身份关系": ["见家长", "一家之主", "家人们", "家长", "家人"],
-    "个人成长": ["成长", "逆袭", "行动", "自律", "习惯", "复盘", "学习"],
-    "人生策略": ["作弊", "捷径", "方向", "目标", "权利", "强者", "独立思考", "趋势", "改变自己", "跟对", "选择", "复利", "喜欢", "擅长", "朋友还多", "人生算法"],
-    "借势杠杆": ["大哥", "梯子", "借势", "杠杆", "buff", "前辈", "洞见", "跑赢"],
-    "技能资产": ["技能", "阅读", "写作", "销售", "构建", "演讲", "临摹", "换位思考", "自学", "运营", "数学知识"],
-    "表达文案": ["文案", "表达", "作品", "生活状态", "土才是你的优势", "写点什么"],
-    "商业机会": ["聚宝盆", "生意", "需求", "产品", "连接", "好用户", "好产品", "交易", "小钱", "挣钱", "挣"],
-    "财富策略": ["投资", "财富", "钱", "能力范围", "交给时间", "奢侈"],
-    "心智修炼": ["有念", "无念", "念", "思考的时间", "关在笼子", "独立思考", "惯性"],
-    "风险避坑": ["炒G", "小心", "风险", "不推荐", "不要浪费", "删"],
-    "阅读输入": ["推荐几本书", "推荐三本书", "读好书", "阅读", "书"],
-    "机会准备": ["上帝来敲门", "应该在家", "机会", "趋势", "准备"],
-    "信息源判断": ["知识的主要来源", "来源", "合适的人", "合适的书", "意见"],
-    "高手思考模型": ["高手一样思考", "第一性原理", "剃刀法则", "思考“思考的过程”", "思考的过程", "人生算法", "+-×÷", "深度思考", "重新思考", "原理、法则"],
-    "自我进化": ["每天都在进化", "每一天都在进化", "看见.改变.渐变", "姜胡说2.0", "姜胡说 2.0", "见证", "转型之路"],
-    "关键知识": ["关键的知识", "知识不用太多", "真正理解", "人生就改变了"],
-    "宏观趋势": ["城镇化", "工业化", "消费+互联网", "新能源车", "碳中和", "高精尖"],
-    "自知谦逊": ["知道自己不厉害", "不厉害", "无能的人", "脸这个东西"],
-    "做事框架": ["做小事", "做好", "做完整", "保持专注", "全情投入", "做事的框架", "认真做好一件事", "对抗熵增", "重复重复再重复", "不可能的事", "解读框架", "重新理解计划"],
-    "结构化理解": ["知识、结构", "函数调用", "人生编程", "重构对这个世界的理解", "重新梳理", "重新理解", "估算", "价值"],
-    "市场周期理解": ["牛市", "市场", "当下市场", "会议解读", "芬钛计划"],
-    "认知升级": ["认知", "思维", "系统", "方法", "心法", "知识体系"],
-    "AI": ["AI", "人工智能", "codex", "ChatGPT", "智能体"],
-    "减脂餐": ["减脂", "低卡", "低脂", "健身餐", "干净饮食"],
-    "一人食": ["一人食", "独居", "一个人也要好好吃饭"],
-    "备餐": ["备餐", "备菜", "一周", "菜单", "食谱", "午餐不重样"],
-}
+USER_DIRECTION_CONFIG = Path("20_User/config/content_rough_scan_profiles.json")
+_DIRECTION_CONFIG_CACHE: dict[str, tuple[int, dict[str, object]]] = {}
 
-KNOWN_DIRECTIONS = set(DIRECTION_KEYWORDS)
 
-ACCOUNT_SCOPED_DIRECTIONS = {
-    "李宗恒": {
-        "剧情短剧",
-        "喜剧反转",
-        "校园大学生",
-        "职场关系",
-        "情感关系",
-        "人际社交观察",
-        "代际观察",
-        "爱情关系喜剧",
-        "性格标签喜剧",
-        "生活荒诞反转",
-        "身份错位短剧",
-        "语言表达喜剧",
-        "心理博弈",
-        "情绪自洽",
-        "咖啡生活梗",
-        "品牌植入",
-        "作品代表作索引",
-        "求助边界拉扯",
-        "口号仪式反讽",
-        "部门组织拟人",
-        "节日家庭场景",
-        "暗示沟通",
-        "礼貌社交规则",
-        "冲突吵架技巧",
-        "金钱边界喜剧",
-        "消费体验反差",
-        "叛逆反差",
-        "身体状态喜剧",
-        "朋友熟人关系",
-        "自信夸奖喜剧",
-        "心眼疑心拟人",
-        "沟通误解喜剧",
-        "压力崩溃喜剧",
-        "吃饭点菜场景",
-        "商战利益博弈",
-        "家庭身份关系",
-    },
-    "姜胡说": {
-        "人生策略",
-        "借势杠杆",
-        "技能资产",
-        "表达文案",
-        "商业机会",
-        "财富策略",
-        "心智修炼",
-        "风险避坑",
-        "阅读输入",
-        "机会准备",
-        "信息源判断",
-        "高手思考模型",
-        "自我进化",
-        "关键知识",
-        "宏观趋势",
-        "自知谦逊",
-        "做事框架",
-        "结构化理解",
-        "市场周期理解",
-    },
-}
+def direction_config_path() -> Path:
+    configured = str(os.environ.get("KB_CONTENT_PROFILE_CONFIG") or "").strip()
+    return Path(configured).expanduser() if configured else USER_DIRECTION_CONFIG
 
-DIRECTION_ACCOUNT_SCOPE = {
-    direction: account_name
-    for account_name, directions in ACCOUNT_SCOPED_DIRECTIONS.items()
-    for direction in directions
-}
+
+def load_direction_classifier_config(path: Path | None = None) -> dict[str, object]:
+    config_path = (path or direction_config_path()).expanduser()
+    try:
+        modified = config_path.stat().st_mtime_ns
+    except OSError:
+        return {"fallback_directions": {}, "account_directions": {}}
+    cache_key = str(config_path.resolve())
+    cached = _DIRECTION_CONFIG_CACHE.get(cache_key)
+    if cached and cached[0] == modified:
+        return cached[1]
+    try:
+        payload = json.loads(config_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {"fallback_directions": {}, "account_directions": {}}
+    raw = payload.get("video_learning_classification", {}) if isinstance(payload, dict) else {}
+    fallback = raw.get("fallback_directions", {}) if isinstance(raw, dict) else {}
+    accounts = raw.get("account_directions", {}) if isinstance(raw, dict) else {}
+    normalized = {
+        "fallback_directions": fallback if isinstance(fallback, dict) else {},
+        "account_directions": accounts if isinstance(accounts, dict) else {},
+    }
+    _DIRECTION_CONFIG_CACHE[cache_key] = (modified, normalized)
+    return normalized
+
+
+def configured_direction_names(path: Path | None = None) -> set[str]:
+    config = load_direction_classifier_config(path)
+    fallback = config.get("fallback_directions", {})
+    accounts = config.get("account_directions", {})
+    names = set(fallback) if isinstance(fallback, dict) else set()
+    for directions in accounts.values() if isinstance(accounts, dict) else ():
+        if isinstance(directions, dict):
+            names.update(directions)
+    return names
 
 
 def find_executable(name: str) -> str:
@@ -617,15 +524,36 @@ def deduplicate_records(records: list[NormalizedRecord]) -> tuple[list[Normalize
     }
 
 
+def direction_keywords_for_record(record: NormalizedRecord) -> dict[str, Any]:
+    config = load_direction_classifier_config()
+    fallback = config.get("fallback_directions", {})
+    accounts = config.get("account_directions", {})
+    available = dict(fallback) if isinstance(fallback, dict) else {}
+    if isinstance(accounts, dict):
+        for account in (record.account_name, record.author_name):
+            scoped = accounts.get(account)
+            if isinstance(scoped, dict):
+                available.update(scoped)
+                break
+    return available
+
+
+def classifier_keywords(value: Any) -> list[str]:
+    if isinstance(value, dict):
+        values = [*value.get("core", []), *value.get("support", [])]
+    elif isinstance(value, list):
+        values = value
+    else:
+        values = []
+    return [str(item).strip() for item in values if str(item).strip()]
+
+
 def detect_directions(record: NormalizedRecord) -> list[str]:
     text = f"{record.title} {record.body} {' '.join(record.tags)}"
     lowered = text.lower()
     directions = []
-    for direction, keywords in DIRECTION_KEYWORDS.items():
-        scoped_account = DIRECTION_ACCOUNT_SCOPE.get(direction)
-        if scoped_account and scoped_account not in {record.account_name, record.author_name}:
-            continue
-        for keyword in keywords:
+    for direction, configured_keywords in direction_keywords_for_record(record).items():
+        for keyword in classifier_keywords(configured_keywords):
             if keyword.lower() in lowered:
                 directions.append(direction)
                 break
@@ -737,11 +665,7 @@ def first_sentence(text: str, length: int = 80) -> str:
 
 
 def infer_audience(direction: str, record: NormalizedRecord) -> str:
-    if direction in {"减脂餐", "一人食", "备餐"}:
-        return "想低成本、可执行地安排饮食的人"
-    if direction in {"赚钱", "创业", "自媒体", "短视频"}:
-        return "想通过内容或项目获得增长的普通人"
-    return "想提升行动质量和认知效率的普通人"
+    return f"关注{direction}并希望获得具体价值的人"
 
 
 def reusable_template(direction: str, record: NormalizedRecord) -> str:
@@ -771,13 +695,9 @@ def first_non_unknown(directions: list[str]) -> str:
 
 
 def candidate_topic_angle(direction: str, record: NormalizedRecord) -> str:
-    if direction in {"赚钱", "创业", "自媒体", "短视频", "个人成长", "人生策略", "做事框架", "高手思考模型", "认知升级", "结构化理解", "商业机会", "财富策略"}:
-        return f"围绕{direction}拆成一个可执行的方法或行动模板"
-    if direction in {"剧情短剧", "喜剧反转", "身份错位短剧", "生活荒诞反转", "爱情关系喜剧", "性格标签喜剧", "人际社交观察", "职场关系"}:
-        return f"围绕{direction}拆成角色关系、场景冲突和反转结构"
     if record.platform == "xhs":
         return f"围绕{direction}做成步骤清单、周期清单或结果清单"
-    return f"围绕{direction}提炼可复用表达结构"
+    return f"围绕{direction}提炼可复用结构、冲突机制或行动路径"
 
 
 def candidate_content_format(record: NormalizedRecord) -> str:
@@ -1369,18 +1289,11 @@ def video_status(
     status["has_video_url"] = True
     status["resolved_video_url"] = download_url
     status["warnings"].extend(resolve_warnings)
-    try:
-        import faster_whisper  # type: ignore # noqa: F401
-
-        status["faster_whisper"] = True
-    except Exception:
-        status["faster_whisper"] = False
-    try:
-        import scenedetect  # type: ignore # noqa: F401
-
-        status["scenedetect"] = True
-    except Exception:
-        status["scenedetect"] = False
+    # Capability checks must not import both native stacks into one macOS process.
+    # faster-whisper/av and OpenCV/scenedetect may bundle different FFmpeg builds;
+    # scene detection already runs in its own subprocess below.
+    status["faster_whisper"] = importlib.util.find_spec("faster_whisper") is not None
+    status["scenedetect"] = importlib.util.find_spec("scenedetect") is not None
 
     if not status["ffmpeg"] or not status["faster_whisper"] or not status["scenedetect"]:
         status["status"] = "degraded_missing_tools"
@@ -1649,8 +1562,6 @@ def download_image_url(url: str, path: Path) -> None:
 
 XHS_PAGE_HOSTS = {"www.xiaohongshu.com", "xiaohongshu.com", "xhslink.com"}
 XHS_VIDEO_HOST_MARKERS = ("xhscdn.com", "xiaohongshu.com")
-BUNDLED_NODE = Path("/Users/lao_wu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node")
-BUNDLED_NODE_MODULES = Path("/Users/lao_wu/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules")
 
 
 def is_xhs_page_url(url: str) -> bool:
@@ -1728,12 +1639,26 @@ def xhs_browser_resolve_enabled() -> bool:
     return str(os.environ.get("XHS_BROWSER_RESOLVE", "")).lower() in {"1", "true", "yes", "on"}
 
 
+def bundled_node_root_candidates() -> list[Path]:
+    configured = str(os.environ.get("CODEX_PRIMARY_RUNTIME") or "").strip()
+    candidates = [Path(configured).expanduser()] if configured else []
+    candidates.extend(
+        [
+            Path.home() / ".cache/codex-runtimes/codex-primary-runtime",
+            Path.home() / ".codex/runtimes/codex-primary-runtime",
+        ]
+    )
+    return candidates
+
+
 def node_executable_for_xhs_browser_resolve() -> str:
     configured = str(os.environ.get("XHS_NODE") or "").strip()
     if configured:
         return configured
-    if BUNDLED_NODE.exists():
-        return str(BUNDLED_NODE)
+    for runtime_root in bundled_node_root_candidates():
+        bundled_node = runtime_root / "dependencies/node/bin/node"
+        if bundled_node.exists():
+            return str(bundled_node)
     return find_executable("node")
 
 
@@ -1745,8 +1670,11 @@ def node_path_for_xhs_browser_resolve() -> str:
     xhs_node_path = str(os.environ.get("XHS_NODE_PATH") or "").strip()
     if xhs_node_path:
         paths.append(xhs_node_path)
-    if BUNDLED_NODE_MODULES.exists():
-        paths.append(str(BUNDLED_NODE_MODULES))
+    for runtime_root in bundled_node_root_candidates():
+        bundled_modules = runtime_root / "dependencies/node/node_modules"
+        if bundled_modules.exists():
+            paths.append(str(bundled_modules))
+            break
     return os.pathsep.join(paths)
 
 
@@ -2060,10 +1988,10 @@ def image_learning_section(record: NormalizedRecord, image: dict[str, Any]) -> s
 
 ### 图文结构判断
 
-- 首图作用：优先判断是否承担标题承诺、成果展示或收藏理由。
-- 多图顺序：按封面、结果、步骤、清单、细节补充来拆解。
-- 收藏价值：重点看菜单、步骤、食材、周期、成本、减脂承诺是否可照抄执行。
-- 可复用图文模板：{reusable_template("减脂餐" if "减脂餐" in detect_directions(record) else "一人食", record)}
+- 首图作用：判断是否承担标题承诺、成果展示或继续阅读理由。
+- 多图顺序：按封面、结果、过程、证据和细节补充拆解。
+- 收藏价值：判断关键信息是否形成可执行步骤、清单或可复查证据。
+- 可复用图文结构：{reusable_template(first_non_unknown(detect_directions(record)), record)}
 """
 
 
@@ -2140,122 +2068,6 @@ decision: {"keep" if high_confidence(item) else "review"}
 """
 
 
-def formal_method_entry(item: RankedRecord) -> str:
-    record = item.record
-    metrics = record.metrics
-    method_id = f"auto-{record.platform}-{item.direction}-{record.source_id}"
-    return f"""
-
-## 自动学习方法：{item.direction} / {record.source_id}
-
-<!-- video-learning:auto-method:{record.platform}:{record.source_id}:{item.direction} -->
-
-```yaml
-method_id: {method_id}
-platform: {record.platform}
-适用领域: {item.direction}
-适用人群: {infer_audience(item.direction, record)}
-适用场景: 从高表现内容中提炼可复用结构
-核心机制: 用明确场景和可执行承诺降低理解成本
-内容结构: {reusable_template(item.direction, record)}
-标题结构: {reusable_template(item.direction, record)}
-正文/脚本结构: {reusable_template(item.direction, record)}
-可复用模板: {reusable_template(item.direction, record)}
-证据案例: {record.platform}:{record.source_id} {record.url}
-指标表现: {metrics["likes"]}赞/{metrics["collects"]}藏/{metrics["comments"]}评/{metrics["shares"]}转
-适合生成的选题: 围绕 {item.direction} 做步骤、清单、强观点或行动模板
-不适合: 指标不足、主题不明确或仅有情绪无方法的内容
-风险: 自动提炼可能过度概括，需要后续复盘校准
-```
-"""
-
-
-def formal_topic_entry(item: RankedRecord) -> str:
-    record = item.record
-    topic_id = f"auto-{record.platform}-{item.direction}-{record.source_id}"
-    form = "图文清单/教程" if record.platform == "xhs" else "口播短视频/图文改写"
-    return f"""
-
-## 自动学习选题：{item.direction} / {record.source_id}
-
-<!-- video-learning:auto-topic:{record.platform}:{record.source_id}:{item.direction} -->
-
-```yaml
-topic_id: {topic_id}
-platform: {record.platform}
-领域: {item.direction}
-人群: {infer_audience(item.direction, record)}
-场景: 看到同方向高表现案例后需要可复用选题
-痛点: 不知道如何把 {item.direction} 做成可执行内容
-内容承诺: 拆出一个能照着做的 {item.direction} 方法
-爆点: 高指标案例证明该方向有传播和收藏价值
-形式: {form}
-参考方法: {record.platform}:{record.source_id}
-可生成标题: {record.title}
-正文/脚本方向: {reusable_template(item.direction, record)}
-证据: {record.url}
-优先级: high
-状态: ready
-```
-"""
-
-
-def formal_template_entry(items: list[RankedRecord]) -> str:
-    if not items:
-        return ""
-    directions = "、".join(sorted({item.direction for item in items}))
-    signature = template_signature(items)
-    return f"""
-
-## 自动学习模板更新：{signature}
-
-<!-- video-learning:auto-template:{signature} -->
-
-适用方向：{directions}
-
-```text
-1. 先用强场景或强观点标记人群。
-2. 立刻给出可执行承诺：步骤、清单、公式或每天动作。
-3. 用一个具体案例证明不是空泛观点。
-4. 收束为可复述标题、金句或保存理由。
-```
-"""
-
-
-def template_signature(items: list[RankedRecord]) -> str:
-    directions = "|".join(sorted({item.direction for item in items}))
-    return hashlib.sha1(directions.encode("utf-8")).hexdigest()[:12]
-
-
-def append_once(path: Path, marker: str, text: str) -> bool:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    current = path.read_text(encoding="utf-8") if path.exists() else ""
-    if marker in current:
-        return False
-    with path.open("a", encoding="utf-8") as handle:
-        handle.write(text)
-    return True
-
-
-def write_formal_entries(root: Path, high_items: list[RankedRecord]) -> dict[str, int]:
-    counts = {"methods": 0, "topics": 0, "templates": 0}
-    for item in high_items:
-        method_path = root / "10_Knowledge" / "formal" / "methods" / ("小红书爆款方法论_v1.md" if item.record.platform == "xhs" else "抖音爆款方法论_v1.md")
-        topic_path = root / "10_Knowledge" / "formal" / "topics" / "选题灵感库_v1.md"
-        method_marker = f"video-learning:auto-method:{item.record.platform}:{item.record.source_id}:{item.direction}"
-        topic_marker = f"video-learning:auto-topic:{item.record.platform}:{item.record.source_id}:{item.direction}"
-        if append_once(method_path, method_marker, formal_method_entry(item)):
-            counts["methods"] += 1
-        if append_once(topic_path, topic_marker, formal_topic_entry(item)):
-            counts["topics"] += 1
-
-    template_path = root / "10_Knowledge" / "formal" / "content_factory" / "内容生产模板_v1.md"
-    signature = template_signature(high_items)
-    if append_once(template_path, f"video-learning:auto-template:{signature}", formal_template_entry(high_items)):
-        counts["templates"] += 1
-    return counts
-
-
 def account_card_markdown(account_name: str, platform: str, records: list[NormalizedRecord], rankings: dict[str, list[RankedRecord]]) -> str:
     account_records = [record for record in records if (record.account_name or "未知账号") == account_name and record.platform == platform]
     direction_rows = [
@@ -2303,7 +2115,8 @@ def write_account_cards(root: Path, records: list[NormalizedRecord], rankings: d
 
 def write_candidate_subkb(root: Path, rankings: dict[str, list[RankedRecord]]) -> int:
     path = root / "10_Knowledge" / "candidates" / "sub_kbs" / "候选子库_视频深度学习方向.md"
-    new_directions = sorted(direction for direction in rankings if direction not in KNOWN_DIRECTIONS and direction != "未归类")
+    configured = configured_direction_names()
+    new_directions = sorted(direction for direction in rankings if direction not in configured and direction != "未归类")
     if not new_directions:
         return 0
     path.parent.mkdir(parents=True, exist_ok=True)
@@ -2405,10 +2218,8 @@ def write_outputs(
     report = report_markdown(raw_counts, dedupe_stats, records, rankings, high_items, apply, analyze_video, analyze_images, account_name)
     (output_dir / "latest_scan_report.md").write_text(report, encoding="utf-8")
 
-    formal_counts = {"methods": 0, "topics": 0, "templates": 0}
     candidate_count = 0
     if apply:
-        formal_counts = write_formal_entries(root, high_items)
         candidate_count = write_candidate_subkb(root, rankings)
 
     return {
@@ -2420,7 +2231,7 @@ def write_outputs(
         "video_analysis_requested": analyzed_videos,
         "image_analysis_requested": analyzed_images,
         "high_confidence": len(high_items),
-        "formal_counts": formal_counts,
+        "formal_write": "blocked_by_content_processing_boundary",
         "candidate_subkb_directions": candidate_count,
         "initial_knowledge": initial_knowledge_outputs,
         "report": str((output_dir / "latest_scan_report.md").relative_to(root)),
@@ -2481,7 +2292,8 @@ def report_markdown(
         "",
         "## 运行模式",
         "",
-        f"- 自动写入正式库：{'是' if apply else '否'}",
+        "- 自动写入正式库：禁止",
+        f"- 候选产物落盘：{'是' if apply else '否'}",
         f"- 视频分析：{'尝试启用' if analyze_video else '未启用'}",
         f"- 图片分析：{'尝试启用' if analyze_images else '未启用'}",
         "",
@@ -2496,7 +2308,7 @@ def report_markdown(
         score = top.score if top else 0
         lines.append(f"| {direction} | {len(ranked)} | {title} | {score} |")
 
-    lines.extend(["", "## 高置信自动入库候选", ""])
+    lines.extend(["", "## 高置信深学候选", ""])
     if high_items:
         for item in high_items:
             lines.append(f"- {item.direction} / {item.record.platform}:{item.record.source_id} / Top{item.rank} / score={item.score}")
@@ -2685,6 +2497,44 @@ def selected_card_markdown(
     media_status = f"video={video.get('status', 'unknown')}；image={image.get('status', 'unknown')}"
     candidate_status = "待验证；单卡不得直接形成稳定方法"
     evidence_gap = "逐字稿/正文不足，当前观点仅按可见发布层学习。" if not transcript_excerpt and not record.body else "仍需至少一张独立内容支持，才能通过跨卡验证。"
+    if record.platform == "xhs":
+        body_quote = "\n".join(f"> {line}" if line else ">" for line in record.body.splitlines()) if record.body else "> 【缺失】"
+        publish_layer = f"""- 标题：{record.title}
+- 正文或文案：原文全文如下，不以首句摘要代替。
+- 话题或标签：{topic_tags}
+- 标题原文：{record.title or '【缺失】'}
+- 标题机制：{golden_3s_hook(record)}；这是单卡候选观察，需与正文和封面共同复核。
+- 正文原文：
+{body_quote}
+- 正文结构：按开头入口、信息推进、具体步骤或论证、结果和收尾逐段复核；自动卡不补造缺失段落。
+- 细节密度：从原文逐项核对数量、单位、时长、动作、状态判断、人物处境和限制条件；未出现的维度明确记缺失。
+- 真人感：从口语连接、自我修正、偏好、犹豫和生活痕迹提取可回查信号；不能只写“自然、有生活味”。
+- 结尾方式：回到正文最后一段判断自然停住、经验补充、行动提醒、情绪落点、互动或商业引导。
+- 话题策略：区分检索、分类、身份/场景、系列和平台项目标签；无显式标签时不补造。
+- 发布视觉协同：标题、正文和话题需要与封面字、逐图 OCR 和真实画面逐项对齐；当前自动卡只登记任务，不代表协同结论已完成。"""
+        media_layer = f"""- 媒体类型：图文。
+- 分析状态：{media_status}；必须逐张打开原图复核，OCR、尺寸、色值或图片转述不能单独标记完成。
+- 表现学习：当前仅建立图文深学坐标；实质观察必须回写具体图号或原图路径。
+- 封面钩子：证据不足时明示；复核主体、结果承诺、视觉焦点、标题位置和第一眼识别顺序。
+- 逐图角色：逐页记录封面、材料/背景、关键动作、过程状态、结果、总结或互动角色。
+- 分图顺序：检查信息增量、前后依赖、重复与变化；散图或页序不明时不得推断。
+- 构图与视角：逐图记录景别、机位、裁切、主体占比、空间关系、视觉动线和留白。
+- 动作与状态：逐图记录关键手势、过程变化、前后对比、完成状态和结果证明。
+- 视觉层级：记录第一眼、第二眼和辅助信息，说明焦点如何建立。
+- 文字注释设计：检查贴纸/底板、对齐、位置、留白、指向和遮挡关系，不能用 OCR 结果替代。
+- 字形字号层级：检查字形、字重、字号、颜色及主副信息层级。
+- 色彩光线质感：综合色调、光源、明暗、背景和材质如何服务内容，不只记录色值。
+- 真人与生活感：记录自然姿态、使用痕迹、轻微不完美和环境细节，不从外观猜测身份。
+- 跨模态协同：对齐标题、正文、封面字、逐图 OCR 与真实画面的承诺、分工和矛盾。
+- 收藏理由：判断读者回看的原因来自步骤、清单、判断标准、前后对比还是参考模板。"""
+    else:
+        publish_layer = f"""- 标题：{record.title}
+- 正文或文案：{first_sentence(record.body, 180) or '未提取到有效正文/文案。'}
+- 话题或标签：{topic_tags}
+- 协同判断：标题负责承诺，正文/文案负责展开，话题/标签负责限定场景；缺失项不补造。"""
+        media_layer = f"""- 媒体类型：{media_type}。
+- 分析状态：{media_status}。
+- 表现学习：按逐字稿、镜头、场景、节奏和停顿学习；未完成的媒体分析只保留降级判断。"""
     return f"""# 已确认深度学习卡：{record.platform} {record.source_id}
 
 学习卡契约：{CONTRACT_ID}
@@ -2728,16 +2578,11 @@ source_id：{record.source_id}
 
 ## 6. 发布内容层学习
 
-- 标题：{record.title}
-- 正文或文案：{first_sentence(record.body, 180) or '未提取到有效正文/文案。'}
-- 话题或标签：{topic_tags}
-- 协同判断：标题负责承诺，正文/文案负责展开，话题/标签负责限定场景；缺失项不补造。
+{publish_layer}
 
 ## 7. 视频/图文表现层学习
 
-- 媒体类型：{media_type}。
-- 分析状态：{media_status}。
-- 表现学习：{('按封面、分图、OCR和视觉层级学习' if record.platform == 'xhs' else '按逐字稿、镜头、场景、节奏和停顿学习')}；未完成的媒体分析只保留降级判断。
+{media_layer}
 
 ## 8. 金句与表达素材
 
@@ -3506,30 +3351,10 @@ def check_env() -> dict[str, Any]:
         "pillow": False,
         "pytesseract": False,
     }
-    try:
-        import faster_whisper  # type: ignore # noqa: F401
-
-        env["faster_whisper"] = True
-    except Exception:
-        env["faster_whisper"] = False
-    try:
-        import scenedetect  # type: ignore # noqa: F401
-
-        env["scenedetect"] = True
-    except Exception:
-        env["scenedetect"] = False
-    try:
-        import PIL  # type: ignore # noqa: F401
-
-        env["pillow"] = True
-    except Exception:
-        env["pillow"] = False
-    try:
-        import pytesseract  # type: ignore # noqa: F401
-
-        env["pytesseract"] = True
-    except Exception:
-        env["pytesseract"] = False
+    env["faster_whisper"] = importlib.util.find_spec("faster_whisper") is not None
+    env["scenedetect"] = importlib.util.find_spec("scenedetect") is not None
+    env["pillow"] = importlib.util.find_spec("PIL") is not None
+    env["pytesseract"] = importlib.util.find_spec("pytesseract") is not None
     return env
 
 
@@ -3579,7 +3404,7 @@ def main() -> int:
 
         scan_parser = subparsers.add_parser("scan", help="Run full metadata scan and rankings")
         scan_parser.add_argument("--root", default=".", help="Knowledge base root")
-        scan_parser.add_argument("--apply", action="store_true", help="Append high-confidence entries to formal knowledge files")
+        scan_parser.add_argument("--apply", action="store_true", help="Write candidate scan outputs; formal knowledge remains blocked")
         scan_parser.add_argument("--analyze-video", action="store_true", help="Try video analysis during scan")
         scan_parser.add_argument("--video-limit", type=int, default=1, help="Maximum videos to analyze during scan")
         scan_parser.add_argument("--analyze-images", action="store_true", help="Try image analysis during scan")
@@ -3679,7 +3504,7 @@ def main() -> int:
 
     parser = argparse.ArgumentParser(description="Run video metadata learning for the knowledge base.")
     parser.add_argument("--root", default=".", help="Knowledge base root")
-    parser.add_argument("--apply", action="store_true", help="Append high-confidence entries to formal knowledge files")
+    parser.add_argument("--apply", action="store_true", help="Write candidate scan outputs; formal knowledge remains blocked")
     parser.add_argument("--analyze-video", action="store_true", help="Try video download, audio extraction, transcription, and scene detection")
     parser.add_argument("--video-limit", type=int, default=1, help="Maximum videos to analyze in one run")
     parser.add_argument("--analyze-images", action="store_true", help="Try XHS image download, OCR, and image learning")

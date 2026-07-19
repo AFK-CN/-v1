@@ -1,18 +1,18 @@
 {
-  "version": 1,
-  "updated_at": "2026-06-26",
+  "version": 3,
+  "updated_at": "2026-07-19",
   "purpose": "Define the shareable knowledge-base system package boundary.",
   "include": [
     "00_System/shareable/",
-    "00_System/shareable/config/",
-    "00_System/shareable/rules/",
-    "00_System/shareable/skill_packages/",
-    "00_System/shareable/index/controller_routes.json",
-    "00_System/shareable/index/task_entry_index.md",
     "tools/",
     "tests/",
-    "00_System/shareable/docs/知识库优化目录结构.md",
-    "00_System/shareable/docs/知识库运行逻辑图.mmd",
+    ".gitignore",
+    ".github/workflows/kb-system.yml",
+    "LICENSE",
+    "LICENSE_SCOPE.md",
+    "NOTICE",
+    "VERSION",
+    "CHANGELOG.md",
     "README.md",
     "知识库入口.md",
     "requirements.txt",
@@ -22,8 +22,7 @@
   "exclude": [
     "00_System/runtime/",
     "10_Knowledge/",
-    "20_User/private/",
-    "80_Local/",
+    "20_User/",
     "90_Temp/",
     "99_Archive/",
     "数据/",
@@ -39,8 +38,9 @@
     "10_Knowledge/evidence/index/知识库总索引.md"
   ],
   "notes": [
-    "Current executable system source still lives in root-level tools and tests while imports remain stable.",
-    "Only this manifest and 00_System/shareable are safe defaults for packaging decisions.",
-    "Local paths, accounts, secrets, NAS addresses, runtime state, and current knowledge assets must not be included."
+    "The portable default is the three system Skills plus routing, contracts, tools and tests.",
+    "Account Skills, their registry, production memory, local paths, secrets, runtime state and knowledge assets are user data and must not be included.",
+    "A new computer binds the global Skill with skill-install, then creates an empty user layer with user-init.",
+    "The portable system package is licensed under Apache-2.0; knowledge, account, user, raw, runtime and archive content remain outside that license as defined in LICENSE_SCOPE.md."
   ]
 }

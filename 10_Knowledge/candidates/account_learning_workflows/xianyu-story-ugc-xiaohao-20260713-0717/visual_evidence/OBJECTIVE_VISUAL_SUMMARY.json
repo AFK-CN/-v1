@@ -1,0 +1,49 @@
+{
+  "schema_version": "xianyu_ugc_objective_visual_summary_v1",
+  "ok": true,
+  "image_count": 230,
+  "post_count": 100,
+  "contact_sheet_count": 20,
+  "ocr_status_counts": {
+    "completed": 228,
+    "empty": 2
+  },
+  "visual_category_counts": {
+    "platform_page_screenshot": 61,
+    "mixed_text_visual": 78,
+    "photo_or_graphic": 58,
+    "text_or_document_screenshot": 10,
+    "chat_or_feedback_screenshot": 23
+  },
+  "orientation_counts": {
+    "portrait": 165,
+    "landscape": 42,
+    "square": 23
+  },
+  "sequence_pattern_counts": {
+    "multi_screenshot_evidence": 42,
+    "single_visual": 8,
+    "photo_context_to_feedback_or_proof": 27,
+    "context_or_platform_to_photo_result": 16,
+    "multi_photo_story": 3,
+    "mixed_evidence_sequence": 4
+  },
+  "image_count_distribution": {
+    "1": 8,
+    "2": 57,
+    "3": 33,
+    "4": 1,
+    "5": 1
+  },
+  "objective_features_complete": true,
+  "codex_visual_review_complete": true,
+  "candidate_only": true,
+  "notes": [
+    "OCR and OpenCV are objective evidence; final methods were accepted only after all 20 contact sheets were reviewed.",
+    "Contact sheets cover all 230 mapped images across all 100 posts.",
+    "Visual methods remain candidate rules inside the task Skill and do not become a personal-account style."
+  ],
+  "candidate_method_count": 4,
+  "verified_boundary_count": 1,
+  "rejected_generalization_count": 1
+}

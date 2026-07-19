@@ -1,0 +1,65 @@
+{
+  "title": "他没问最低价，只问这把吉他还准不准",
+  "body": "吉他挂上闲鱼后，第一条消息不是最低多少，而是还能不能正常调准。我拍了琴头、琴弦和调音器显示，把两处磕碰也一起放进图片。买家确认这些状态后约了同城自提。封面可以把这句反差压成一行短标题，但下一张必须立刻给真实吉他和调音结果，不能让标题卡替代证据。",
+  "hashtags": [
+    "#闲鱼",
+    "#闲置转手",
+    "#交易故事"
+  ],
+  "input_facts": [
+    "用户提供物件与交易事实",
+    "用户提供并允许使用对应图片素材"
+  ],
+  "evidence_notes": [
+    "文字与画面只使用测试输入",
+    "推荐图序不冒充真实发布顺序"
+  ],
+  "fabricated_claims": [],
+  "visual_claims": [
+    "一句话标题卡后接真实物件和调音结果"
+  ],
+  "visual_evidence_reviewed": true,
+  "visual_package": {
+    "mode": "hook_card_then_proof",
+    "frames": [
+      {
+        "role": "hook_card",
+        "content": "他没问最低价，只问这把吉他还准不准",
+        "source_basis": "根据用户提供的真实聊天原意设计",
+        "evidence_type": "proposed_design",
+        "line_count": 1
+      },
+      {
+        "role": "object_context",
+        "content": "吉他全貌与两处磕碰",
+        "source_basis": "用户提供吉他实拍",
+        "evidence_type": "supplied_photo"
+      },
+      {
+        "role": "result_proof",
+        "content": "调音器显示与琴弦状态",
+        "source_basis": "用户提供调音实拍",
+        "evidence_type": "supplied_photo"
+      }
+    ],
+    "privacy_check": {
+      "faces": "not_present",
+      "names_and_avatars": "redacted",
+      "contact_and_order_info": "redacted"
+    },
+    "performance_claims": [
+      "三张图能提高成交率"
+    ],
+    "fabricated_visual_assets": [],
+    "sequence_basis": "recommended_structure",
+    "claims_actual_publish_order": false
+  },
+  "method_trace": {
+    "primary_method": "xugc-m03",
+    "support_methods": [],
+    "completion_evidence": [
+      "事实入口清楚",
+      "结果由输入证据承接"
+    ]
+  }
+}

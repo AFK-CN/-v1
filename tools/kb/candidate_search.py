@@ -5,8 +5,6 @@ import re
 from pathlib import Path
 from typing import Any
 
-from tools import video_learning
-
 from .candidate_assets import candidate_asset_path, candidate_asset_status
 from .runtime import runtime_path
 from .schemas import SYSTEM_CONFIG_DIR, now_iso
@@ -201,6 +199,8 @@ def search_raw_records(
     direction: str,
     query_terms: list[str] | None = None,
 ) -> tuple[list[dict[str, Any]], list[dict[str, str]]]:
+    from tools import video_learning
+
     records, _, _, failed_files = video_learning.load_unique_records_detailed(root)
     query_terms = query_terms if query_terms is not None else expand_query(root, query)
     rows = []
@@ -304,13 +304,7 @@ def expand_query(root: Path, query: str) -> list[str]:
         normalized_group = [normalize_text(term) for term in group]
         if any(term and (term in normalized_query or normalized_query in term) for term in normalized_group):
             expanded.extend(group)
-    direction_terms = {
-        direction: merge_unique(list(keywords), configured_directions.get(direction, []))
-        for direction, keywords in video_learning.DIRECTION_KEYWORDS.items()
-    }
-    for direction, aliases in configured_directions.items():
-        direction_terms.setdefault(direction, list(aliases))
-    for direction, keywords in direction_terms.items():
+    for direction, keywords in configured_directions.items():
         terms = [direction, *keywords]
         normalized_terms = [normalize_text(term) for term in terms]
         if any(direction_term_matches_query(term, normalized_query) for term in normalized_terms):

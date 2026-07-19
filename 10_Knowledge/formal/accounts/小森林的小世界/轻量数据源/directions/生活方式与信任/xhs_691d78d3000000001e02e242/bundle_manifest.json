@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "account_name": "小森林的小世界",
+  "platform": "小红书",
+  "direction": "生活方式与信任",
+  "source_id": "691d78d3000000001e02e242",
+  "title": "小森林的小世界统一账号发布资产学习卡：最简单的转场出现了！记录开心的东北行🚗",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/小森林的小世界/directions/生活方式与信任/cards/xhs_691d78d3000000001e02e242.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/xhs/accounts/xhs_5a201295e8ac2b0dbae9063a/xhs_691d78d3000000001e02e242",
+  "copied_file_count": 16,
+  "copied_bytes": 2272547,
+  "files": [
+    {
+      "path": "images/000_cover.jpg",
+      "bytes": 172467,
+      "sha256": "9d734179bee7cc3a0474d5758bea54e743dc979712256dd8a5432f03d228196a"
+    },
+    {
+      "path": "manifest_item.json",
+      "bytes": 655,
+      "sha256": "d95f31b2e3521cbafa0d70235045728afc69973cd5dd53660ce2f8385bf48fc7"
+    },
+    {
+      "path": "source.json",
+      "bytes": 1228,
+      "sha256": "a5aa652bbae0bf58101c98f29d76e86a3066ff09e8584cfe30be6def2d167802"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2788,
+      "sha256": "6e334fbaa9e9c5d92bbf4977ef7f6d80bc7ede49529cf9587199f4b1bfd33a1e"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 188112,
+      "sha256": "e4f8fe1fdaaea5dc9b6d7a16d21994fb88dc182b56125a98cf7cb195893e8e52"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 108368,
+      "sha256": "bc14168251a1ca580c29fab1bbd886cb64b789655a11acd965aacf3c5a29f813"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 53166,
+      "sha256": "37d5fc0645a8b274c2a01c047dd98a3d4dc0b6346f4b75b9f50afe8d00580dc7"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 109333,
+      "sha256": "7c3d5299b47e61cf9a473fa25d86aff49594b38611cde9e0905ad049eff505d7"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 146323,
+      "sha256": "300a4425059318726f3b17651edcea531bb06192a7954d3db8ae7ce84b63f827"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 553,
+      "sha256": "befcc9bae291448b82126f8fce84179e40d897ac67060aba965938f97c47cfc8"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 1488214,
+      "sha256": "a079c159d4eef0b7092b2be26d515f9cd714d06a00a1d416251eaa86f4f6173f"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 169,
+      "sha256": "79950cb391b54402854d608a690e3af5b51ddc5f5ab0d26a507906b0652eb7a5"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 39,
+      "sha256": "df2c320fa586f95090670dbad0d1608c7a7e98600d5093a153eb546a4c261d61"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 5,
+      "sha256": "dedc221b6a7d8cbc61ab664a0670d9b756bd00be20cbd1a60d6f55a8e478011a"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 328,
+      "sha256": "a5548487c27569a51bb0a11f7e0bda7763a1d4e4303a97da265647ff0ebac998"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 799,
+      "sha256": "5b5e72a9f51bdf072e87745de3de71d02a6b8808b24d939ea754da0b24b40cc0"
+    }
+  ]
+}

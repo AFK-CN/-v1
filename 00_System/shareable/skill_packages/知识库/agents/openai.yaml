@@ -1,3 +1,0 @@
-interface:
-  display_name: "知识库"
-  short_description: "总控：按索引、路由和输出契约调用本机知识库"

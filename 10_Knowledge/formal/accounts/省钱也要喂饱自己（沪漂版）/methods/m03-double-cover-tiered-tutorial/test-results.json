@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m03-double-cover-tiered-tutorial",
+  "executor": "deterministic-boundary-audit-v1 + manual semantic case review",
+  "executed_at": "2026-07-16T19:53:37+08:00",
+  "prompt_set_sha256": "35204ffb7ecc11d42b5dd9378c63784dfca27c92dfce91980a8b90e71f17fd76",
+  "case_results": [
+    {
+      "id": "m03-double-cover-tiered-tutorial-t1",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t2",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t3",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t4",
+      "passed": true,
+      "actual_decision": "trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；未借用词面重合替代机制判断。"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t5",
+      "passed": true,
+      "actual_decision": "do_not_trigger",
+      "evidence": "核心机制与边界逐项核对后，执行结果与预期一致；商业来源已排除出自然V1。"
+    }
+  ],
+  "total": 5,
+  "passed": 5,
+  "failed": 0,
+  "pass_rate": 1.0
+}

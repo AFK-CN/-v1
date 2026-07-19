@@ -1,0 +1,81 @@
+{
+  "id": "xugc-m04",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "task:xianyu-story-ugc",
+  "title": "执行细节与反馈形成服务价值和身份增长双闭环",
+  "trigger_signals": [
+    "普通技能或时间可以交付",
+    "素材包含真实执行细节",
+    "有客户反馈或收入身份变化"
+  ],
+  "trigger_model": {
+    "mechanism": "从普通人的技能或时间出发，用第一单、具体动作、现实阻力、客户反馈和收入/身份变化证明服务价值。",
+    "applicable_relations": [
+      "服务者与客户",
+      "手作者与买家",
+      "创业者与家人室友"
+    ],
+    "transferable_scenes": [
+      "同城上门服务",
+      "手作售卖",
+      "宿舍创业",
+      "实体经营转型"
+    ],
+    "do_not_trigger_on": [
+      "只有收入数字没有交付",
+      "一次成交被写成稳定事业",
+      "缺少客户反馈或执行结果"
+    ]
+  },
+  "do_not_use": [
+    "只有收入数字没有交付",
+    "一次成交被写成稳定事业",
+    "缺少客户反馈或执行结果"
+  ],
+  "execution_steps": [
+    "明确可交付技能时间或资源",
+    "写第一单或最小起点",
+    "列出关键执行动作和阻力",
+    "加入客户反馈或复购证据",
+    "区分收入结果与身份变化"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260713_s02",
+    "feishu_xianyu_20260714_s01",
+    "feishu_xianyu_20260715_s05",
+    "feishu_xianyu_20260716_s01",
+    "feishu_xianyu_20260717_s01",
+    "feishu_xianyu_20260713_s04",
+    "feishu_xianyu_20260713_s06",
+    "feishu_xianyu_20260713_s07"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "可交付技能或时间",
+      "第一单或起点",
+      "具体执行动作",
+      "客户反馈",
+      "收入或身份变化"
+    ],
+    "variable_elements": [
+      "服务类型",
+      "获客方式",
+      "执行难点",
+      "结果规模"
+    ],
+    "tension_engine": "这项普通能力是否真的有人需要，以及能否持续交付。",
+    "trust_engine": "动作、时长、订单和反馈共同出现，不只报收入。",
+    "understanding_engine": "按尝试—执行—反馈—复用推进，清楚解释价值形成。",
+    "beneficiary_engine": "给普通人一个识别可变现能力和验证方向的路径。",
+    "length_basis": "至少说明一次真实交付和一次反馈；只有收入结果时证据不足。",
+    "boundaries": [
+      "不得编造金额和订单量",
+      "不把一次成交夸成稳定事业",
+      "不写无执行细节的搞钱鸡汤"
+    ]
+  },
+  "formal_write": false
+}

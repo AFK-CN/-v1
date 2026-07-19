@@ -1,0 +1,97 @@
+{
+  "id": "m06-device-process-proof",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "formal_write": false,
+  "user_review_required": true,
+  "account_scope": {
+    "profile_id": "xhs_5c09367300000000060099e8",
+    "account_name": "省钱也要喂饱自己（沪漂版）"
+  },
+  "title": "设备过程证明效率的一锅多菜结构",
+  "mechanism_kind": "content_structure",
+  "trigger_signals": [
+    "设备同时承担多项食物",
+    "有备料、装锅或分层过程",
+    "效率需要由过程而非口号证明"
+  ],
+  "trigger_model": {
+    "mechanism": "用备料—装锅/分层—设备状态—出锅的连续过程证明多项食物如何并行完成，再回到单菜结果。",
+    "applicable_relations": [
+      "一锅多菜",
+      "设备分层",
+      "并行烹饪",
+      "过程证据"
+    ],
+    "transferable_scenes": [
+      "空气炸锅双主材",
+      "蒸锅上下层",
+      "分层炖盅",
+      "电饭煲同步餐"
+    ],
+    "do_not_trigger_on": [
+      "设备只是背景或摆拍",
+      "内容核心是参数评测",
+      "只有出锅图没有过程",
+      "设备为付费商品且未先分轨"
+    ]
+  },
+  "do_not_use": [
+    "不得虚构省时分钟数",
+    "不得把产品参数当餐食效率证据",
+    "不得忽略熟度与食品安全"
+  ],
+  "execution_steps": [
+    "列出每项食物及所用层位/容器",
+    "拍齐备料与装锅关系",
+    "展示能解释并行的设备状态",
+    "记录真实出锅顺序",
+    "分别展示关键菜品结果",
+    "只陈述过程能证明的效率，不补写时间承诺"
+  ],
+  "source_refs": [
+    "xhs:68d7b7e00000000012021a05",
+    "xhs:68df7adb000000000700eea4",
+    "xhs:68f21ba8000000000700f4dc"
+  ],
+  "verification": {
+    "v1_cross_context": {
+      "passed": true,
+      "reason": "3 条独立自然内容跨空气炸锅、蒸锅和分层炖盅场景，均用设备内过程解释并行效率。",
+      "evidence_refs": [
+        "68d7b7e00000000012021a05",
+        "68df7adb000000000700eea4",
+        "68f21ba8000000000700f4dc"
+      ],
+      "relation_or_scene_types": [
+        "空气炸锅双主材",
+        "蒸锅/炖盅分层",
+        "设备状态与出锅"
+      ],
+      "commercial_sources_excluded": true,
+      "platform_projects_excluded": true
+    },
+    "v2_predictive_usefulness": {
+      "passed": true,
+      "reason": "方法给出了页面顺序、信息分配或证据边界的具体预测，不只是建议标题吸引人或内容清晰。",
+      "blind_task_id": "blind-device-01",
+      "prompt_sha256": "34508d739f254131820cf1a70e79f6bfcb139b482f80ba76c112f31d18cb38f7",
+      "structural_prediction": [
+        "先拍全部备料和层级任务",
+        "用装锅/分层/状态页解释并行关系",
+        "用出锅和单菜结果收束"
+      ]
+    },
+    "v3_account_exclusivity": {
+      "passed": true,
+      "reason": "账号的设备页不是评测，而是嵌入四项一人食的组织证据；核心是同锅多菜的餐食编排，而非产品参数。",
+      "platform_commonplace_rejected": [
+        "标题要吸引人",
+        "画面要好看",
+        "步骤要清楚"
+      ]
+    }
+  }
+}

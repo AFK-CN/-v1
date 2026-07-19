@@ -1,0 +1,49 @@
+{
+  "steps": {
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T00:20:32",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7043428505912216845\\video\\source.mp4",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0200fg10000c6vkhj3c77u0rdbpuc6g&line=0&file_id=dade91525a2c4624a21d49b803a60ded&sign=454c794d8ec3fabac0146d058e957375&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-10T15:34:58",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7043428505912216845\\video\\source.mp4",
+      "duration_sec": 17.566667,
+      "width": 576,
+      "height": 1024,
+      "fps": 30.0,
+      "frame_count": 527,
+      "platform": "dy",
+      "source_id": "7043428505912216845",
+      "source_url": "https://www.douyin.com/aweme/v1/play/?video_id=v0200fg10000c6vkhj3c77u0rdbpuc6g&line=0&file_id=dade91525a2c4624a21d49b803a60ded&sign=454c794d8ec3fabac0146d058e957375&is_play_url=1&source=PackSourceEnum_AWEME_DETAIL",
+      "title": "真正的奢侈！#姜胡说 ",
+      "desc": "真正的奢侈！#姜胡说 ",
+      "publish_time": 1639925994,
+      "account_id": "77700555383",
+      "account_name": "姜胡说"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-10T15:34:59",
+      "count": 9,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7043428505912216845\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-10T15:34:59",
+      "file": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7043428505912216845\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-10T15:35:10",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7043428505912216845\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\dy\\accounts\\dy_77700555383\\dy_7043428505912216845\\video\\transcript.srt",
+      "segments": 6
+    }
+  },
+  "updated_at": "2026-07-10T15:35:10"
+}

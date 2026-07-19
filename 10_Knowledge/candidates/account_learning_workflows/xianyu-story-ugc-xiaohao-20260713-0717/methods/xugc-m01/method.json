@@ -1,0 +1,80 @@
+{
+  "id": "xugc-m01",
+  "schema_version": "2.1",
+  "version": 1,
+  "status": "verified_candidate",
+  "callable": false,
+  "account_scope": "task:xianyu-story-ugc",
+  "title": "具体事实先行，平台价值后置",
+  "trigger_signals": [
+    "任务需要从普通交易提炼平台或人生价值",
+    "素材已有具体物件动作或聊天",
+    "需要避免品牌口号开场"
+  ],
+  "trigger_model": {
+    "mechanism": "先用具体物件、动作或聊天建立事实与人物变化，等结果出现后再解释闲鱼的连接价值；不以平台口号开场。",
+    "applicable_relations": [
+      "卖家与买家",
+      "服务者与客户",
+      "原主人与新主人"
+    ],
+    "transferable_scenes": [
+      "旧物转卖",
+      "同城服务",
+      "交易聊天",
+      "兴趣变现"
+    ],
+    "do_not_trigger_on": [
+      "只有平台宣传口号",
+      "没有可观察人物变化",
+      "要求纯交易教程而非故事"
+    ]
+  },
+  "do_not_use": [
+    "只有平台宣传口号",
+    "没有可观察人物变化",
+    "要求纯交易教程而非故事"
+  ],
+  "execution_steps": [
+    "提取物件动作聊天等硬事实",
+    "确定人物当前处境和变化",
+    "按事实到结果排序",
+    "只在结果成立后补一层价值解释",
+    "删除可提前猜到的平台口号"
+  ],
+  "source_refs": [
+    "feishu_xianyu_20260713_s01",
+    "feishu_xianyu_20260714_s01",
+    "feishu_xianyu_20260715_s01",
+    "feishu_xianyu_20260716_s01",
+    "feishu_xianyu_20260717_s01",
+    "feishu_xianyu_20260713_s02",
+    "feishu_xianyu_20260713_s03",
+    "feishu_xianyu_20260713_s04"
+  ],
+  "production_analysis": {
+    "fixed_elements": [
+      "具体事实入口",
+      "人物处境或交易动作",
+      "可观察结果",
+      "必要时后置价值解释"
+    ],
+    "variable_elements": [
+      "物件或服务",
+      "人物关系",
+      "冲突强度",
+      "是否需要价值收束"
+    ],
+    "tension_engine": "观众先想知道这个具体交易为什么异常、最终去了哪里或改变了谁。",
+    "trust_engine": "物件状态、对话、动作和结果早于抽象判断。",
+    "understanding_engine": "按事实发生顺序推进，最后才给平台或人生解释。",
+    "beneficiary_engine": "让读者获得对告别、善意、变现或循环价值的新判断。",
+    "length_basis": "事实—变化—结果闭环完成即停；短奇遇不强行加长，长故事需补足阻力与执行。",
+    "boundaries": [
+      "禁止以闲鱼不只是交易平台等口号开场",
+      "没有人物变化时不升华",
+      "不把第一人称当作已核验事实"
+    ]
+  },
+  "formal_write": false
+}

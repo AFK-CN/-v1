@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:10:31",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051410/f815bcc12c56f82b4e7e47c0940adc34/010298016hvwfoc796i010wkwak0zk4l0w!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T14:10:40",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\video\\source.mp4",
+      "source_url": "http://sns-video-v3.xhscdn.com/pre_post/01e31995c77c7fb101837003831bf482e6_259.mp4?sign=a28507a9c88d2ddcfbf69c672c6689c6&t=6a4e9292"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:29:32",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\video\\source.mp4",
+      "duration_sec": 130.85,
+      "width": 720,
+      "height": 960,
+      "fps": 60.0,
+      "frame_count": 7851,
+      "platform": "xhs",
+      "source_id": "631995c7000000001203b8fe",
+      "source_url": "http://sns-video-v3.xhscdn.com/pre_post/01e31995c77c7fb101837003831bf482e6_259.mp4?sign=a28507a9c88d2ddcfbf69c672c6689c6&t=6a4e9292",
+      "title": "油痘肌告别黑头、闭口、痘痘的精简护肤方式",
+      "desc": "很爱出油的宝子们一定要试试这套水乳～真的感觉脸部清爽很多～\n\t\n#C咖水乳[话题]# #C咖[话题]# #油痘肌大作战[话题]# #油痘肌护肤[话题]# #好皮肤养成记[话题]# #如何拯救痘痘肌[话题]# #痘痘肌肤[话题]# #痘痘肌[话题]# #闭口粉刺[话题]# #油皮[话题]# #拯救混油皮[话题]#",
+      "publish_time": 1662625559000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:29:37",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:29:38",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T01:30:59",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_631995c7000000001203b8fe\\video\\transcript.srt",
+      "segments": 58
+    }
+  },
+  "updated_at": "2026-07-11T01:30:59"
+}

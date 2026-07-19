@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "account_skill_id": "shengqian_weibao_hupiao",
+  "skill_version": "2.0",
+  "golden_package_id": "shengqian-visual-golden-v2",
+  "golden_package_version": "2.0",
+  "content_id": "content_replace_me",
+  "package_id": "meal_replace_me",
+  "validation": {
+    "status": "pending",
+    "validated_at": ""
+  },
+  "generator": {
+    "name": "replace_me",
+    "model_version": "replace_me"
+  },
+  "food_master_asset_id": "page_food_master",
+  "master_asset_id": "page_master_meal",
+  "prompt_firewall": {
+    "qa_language_separated": true,
+    "no_microtexture_enumeration": true,
+    "single_role_per_reference": true,
+    "no_uniform_sharpness_request": true
+  },
+  "validation_reference_asset_ids": [],
+  "ingredients": [
+    {
+      "name": "replace_me",
+      "class": "replace_me",
+      "risk": "low",
+      "reference_asset_ids": []
+    }
+  ],
+  "references": [
+    {
+      "id": "account-68f9-annotated-cover",
+      "kind": "golden",
+      "reference_role": "master_reference",
+      "path": "golden:account-source/account_68f9_01_annotated_cover.jpg",
+      "sha256": "c624a336d0ea2fce107a9e7f82b5aaff9d5138eaff7d8927cd05f9644612d67f"
+    },
+    {
+      "id": "account-68f9-clean-meal",
+      "kind": "golden",
+      "reference_role": "master_reference",
+      "path": "golden:account-source/account_68f9_02_clean_meal.jpg",
+      "sha256": "5393d70c3a1532d72edb6b828071eab38f5c4a5ec19571b22539ec79da599728"
+    },
+    {
+      "id": "account-68cb-annotated-cover",
+      "kind": "golden",
+      "reference_role": "master_reference",
+      "path": "golden:account-source/account_68cb_00_annotated_cover.jpg",
+      "sha256": "865557ae27e8d6cdb4cb3823c0284e0cef15352e877f9790b6b3dc4ab23ec84b"
+    },
+    {
+      "id": "optional-minimal-black-ivory-tableware-anchor",
+      "kind": "skill_asset",
+      "reference_role": "tableware_material_only",
+      "path": "skill:assets/visual/optional-minimal-black-ivory-tableware-anchor.png",
+      "sha256": "c9c3b0d48e9cf07f1f07ce923966ae17d95a63ed524645c8c1f86f06d439e824"
+    },
+    {
+      "id": "default-hand-identity-anchor",
+      "kind": "skill_asset",
+      "reference_role": "hand_identity",
+      "path": "skill:assets/visual/default-hand-identity-anchor.png",
+      "sha256": "8cbda08b455b466f48c5d0f5b8402a22a7a927cdef91f780d7adb18d42ae8b88"
+    }
+  ],
+  "pages": [
+    {
+      "id": "page_food_master",
+      "role": "food_master",
+      "file": "01_食物母版.png",
+      "sha256": "replace_with_file_sha256",
+      "status": "pending",
+      "generation_mode": "single_generation",
+      "parent_ids": [],
+      "reference_asset_ids": [
+        "account-68f9-annotated-cover",
+        "account-68f9-clean-meal",
+        "account-68cb-annotated-cover"
+      ],
+      "prompt_sha256": "replace_with_prompt_sha256",
+      "hand_present": false,
+      "visual_review": {
+        "identity_continuity": "passed",
+        "ingredient_morphology": "passed",
+        "texture_naturalness": "passed",
+        "lighting_continuity": "passed",
+        "cookware_realism": "not_applicable",
+        "hand_identity": "not_applicable"
+      }
+    },
+    {
+      "id": "page_master_meal",
+      "role": "master_meal",
+      "file": "02_无字完整餐.png",
+      "sha256": "replace_with_file_sha256",
+      "status": "pending",
+      "generation_mode": "tableware_local_edit",
+      "parent_ids": ["page_food_master"],
+      "reference_asset_ids": ["optional-minimal-black-ivory-tableware-anchor"],
+      "prompt_sha256": "replace_with_prompt_sha256",
+      "hand_present": false,
+      "visual_review": {
+        "identity_continuity": "passed",
+        "ingredient_morphology": "passed",
+        "texture_naturalness": "passed",
+        "lighting_continuity": "passed",
+        "cookware_realism": "not_applicable",
+        "hand_identity": "not_applicable"
+      }
+    }
+  ],
+  "food_master_gate": {
+    "status": "pending",
+    "asset_id": "page_food_master",
+    "approved_at": ""
+  },
+  "material_gate": {
+    "status": "pending",
+    "asset_id": "page_master_meal",
+    "approved_at": "",
+    "table_locked": true,
+    "food_preservation": false,
+    "composition_preservation": false,
+    "lighting_preservation": false
+  },
+  "calibration_gate": {
+    "status": "pending",
+    "page_ids": [],
+    "approved_at": ""
+  },
+  "batch_parallelism": {
+    "unlocked_after_calibration": false
+  }
+}

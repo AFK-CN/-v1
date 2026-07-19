@@ -1,0 +1,120 @@
+{
+  "schema_version": "account_production_handoff_v1",
+  "status": "ready_for_review",
+  "formal_write": false,
+  "callable": false,
+  "user_review_required": true,
+  "source_method_ids": [
+    "content-relationship-leverage",
+    "experience-to-trust-asset",
+    "input-output-transformation",
+    "life-specific-expression",
+    "opportunity-rule-resource-leverage",
+    "problem-minimum-product-feedback",
+    "record-to-compounding-asset",
+    "small-step-process-system",
+    "structured-model-reasoning",
+    "value-exchange-income-system"
+  ],
+  "coverage": {
+    "structures": "verified",
+    "expression": "verified",
+    "anti_ai": "verified",
+    "production_templates": "verified",
+    "acceptance": "verified"
+  },
+  "structure_library_candidates": [
+    {
+      "source": "account_skill_candidate/references/production.md",
+      "basis": "approved_formal_account_skill_backfill",
+      "source_method_ids": [
+        "content-relationship-leverage",
+        "experience-to-trust-asset",
+        "input-output-transformation",
+        "life-specific-expression",
+        "opportunity-rule-resource-leverage",
+        "problem-minimum-product-feedback",
+        "record-to-compounding-asset",
+        "small-step-process-system",
+        "structured-model-reasoning",
+        "value-exchange-income-system"
+      ]
+    }
+  ],
+  "expression_fingerprint_candidates": [
+    {
+      "source": "account_skill_candidate/references/style.md",
+      "basis": "approved_formal_account_skill_backfill",
+      "source_method_ids": [
+        "content-relationship-leverage",
+        "experience-to-trust-asset",
+        "input-output-transformation",
+        "life-specific-expression",
+        "opportunity-rule-resource-leverage",
+        "problem-minimum-product-feedback",
+        "record-to-compounding-asset",
+        "small-step-process-system",
+        "structured-model-reasoning",
+        "value-exchange-income-system"
+      ]
+    }
+  ],
+  "anti_ai_rule_candidates": [
+    {
+      "source": "account_skill_candidate/account_views/减少AI味输出规则.md",
+      "basis": "approved_formal_account_skill_backfill",
+      "source_method_ids": [
+        "content-relationship-leverage",
+        "experience-to-trust-asset",
+        "input-output-transformation",
+        "life-specific-expression",
+        "opportunity-rule-resource-leverage",
+        "problem-minimum-product-feedback",
+        "record-to-compounding-asset",
+        "small-step-process-system",
+        "structured-model-reasoning",
+        "value-exchange-income-system"
+      ]
+    }
+  ],
+  "production_template_mappings": [
+    {
+      "source": "account_skill_candidate/account_views/内容输出标准模板.md",
+      "basis": "approved_formal_account_skill_backfill",
+      "source_method_ids": [
+        "content-relationship-leverage",
+        "experience-to-trust-asset",
+        "input-output-transformation",
+        "life-specific-expression",
+        "opportunity-rule-resource-leverage",
+        "problem-minimum-product-feedback",
+        "record-to-compounding-asset",
+        "small-step-process-system",
+        "structured-model-reasoning",
+        "value-exchange-income-system"
+      ]
+    }
+  ],
+  "acceptance_checks": [
+    {
+      "source": "account_skill_candidate/references/acceptance.md",
+      "basis": "approved_formal_account_skill_backfill",
+      "source_method_ids": [
+        "content-relationship-leverage",
+        "experience-to-trust-asset",
+        "input-output-transformation",
+        "life-specific-expression",
+        "opportunity-rule-resource-leverage",
+        "problem-minimum-product-feedback",
+        "record-to-compounding-asset",
+        "small-step-process-system",
+        "structured-model-reasoning",
+        "value-exchange-income-system"
+      ]
+    }
+  ],
+  "migration": {
+    "type": "backfill_from_approved_formal_account_skill_candidate",
+    "migrated_at": "2026-07-18T20:55:31"
+  }
+}

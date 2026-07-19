@@ -1,0 +1,176 @@
+{
+  "platform": "xhs",
+  "source_id": "6932b804000000001e00514d",
+  "source_url": "https://www.xiaohongshu.com/explore/6932b804000000001e00514d",
+  "account_id": "5c09367300000000060099e8",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "title": "独居一人食｜吃的干净真的会瘦！",
+  "desc": "今天吃🍽️\n🐟三文鱼（40）\n🍳溏心蛋（2.5）\n水开中小火煮6-8分钟，关火焖2分钟\n🥦水煮西蓝花（2.48）\n1.锅中水烧开，加少许盐及植物油；\n2.下西蓝花大火煮1分钟，捞出撒上黑胡椒即可。\n🍚杂粮饭（1）\n合计💰45.98\n—————————\n📚营养知识小专栏—《你是你吃出来的》\n对运动量不大的现代人来说，最好的食物选择是：低能量密度，高营养密度。如果是体力劳动者，那就要高能量密度，高营养密度。\n所谓能量密度，指的是单位体积中所含的提供给细胞的能量营养素有多少。比如馒头和油煎馒头比，肯定后者能量密度大。\n#独居[话题]# #减脂餐[话题]#\n#一人食吃什么[话题]#\n#健康饮食[话题]#\n#吃的干净才能长得干净[话题]#\n#干净饮食[话题]# #懒人食谱[话题]#\n#三文鱼[话题]# #西兰花[话题]# #溏心蛋[话题]#",
+  "image_count": 6,
+  "has_text": true,
+  "ocr_text": "杂粮饭\n水煮\n西兰花\ne心蛋\n三文鱼\nse家庭料理新生品牌\n皇冠三文鱼\n佰丰\n9+kg丹麦法罗",
+  "ocr_by_image": [
+    {
+      "index": 0,
+      "role": "cover",
+      "text": "杂粮饭\n水煮\n西兰花\ne心蛋\n三文鱼",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "text": "se家庭料理新生品牌\n皇冠三文鱼\n佰丰\n9+kg丹麦法罗",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "text": "",
+      "status": "success",
+      "reason": ""
+    }
+  ],
+  "visual_summary": "6 张portrait图片；包含 杂粮饭、减脂餐、一人食；主题为 独居、减脂餐、一人食吃什么、健康饮食、吃的干净才能长得干净；图中文字示例：杂粮饭；画面风格：多图合集，有图中文字/标注，清晰",
+  "scene": "居家餐食",
+  "content_tags": [
+    "餐食",
+    "美食",
+    "居家饮食",
+    "减脂餐",
+    "竖图",
+    "图中文字",
+    "独居",
+    "一人食吃什么",
+    "健康饮食",
+    "吃的干净才能长得干净",
+    "干净饮食",
+    "懒人食谱",
+    "三文鱼"
+  ],
+  "topic_tags": [
+    "独居",
+    "减脂餐",
+    "一人食吃什么",
+    "健康饮食",
+    "吃的干净才能长得干净",
+    "干净饮食",
+    "懒人食谱",
+    "三文鱼",
+    "西兰花",
+    "溏心蛋"
+  ],
+  "food_items": [
+    "杂粮饭",
+    "减脂餐",
+    "一人食"
+  ],
+  "style": {
+    "camera": "可能为俯拍/近景",
+    "composition": "多图合集",
+    "orientation": "portrait",
+    "text_overlay": "有图中文字/标注",
+    "dominant_colors": [
+      "#866f53",
+      "#897255",
+      "#a0785f",
+      "#918575",
+      "#797d57"
+    ],
+    "clarity": "清晰",
+    "contrast": "对比度较高",
+    "tone": "真实记录型内容"
+  },
+  "images": [
+    {
+      "index": 0,
+      "role": "cover",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#866f53",
+      "contrast_score": 67.45351402622816,
+      "blur_score": 505.758963247482,
+      "has_text": true
+    },
+    {
+      "index": 1,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#897255",
+      "contrast_score": 63.11190349446967,
+      "blur_score": 319.1918065371936,
+      "has_text": false
+    },
+    {
+      "index": 2,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#a0785f",
+      "contrast_score": 63.32158231601602,
+      "blur_score": 172.5747200084209,
+      "has_text": true
+    },
+    {
+      "index": 3,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#918575",
+      "contrast_score": 57.84525951966607,
+      "blur_score": 97.39763614003142,
+      "has_text": false
+    },
+    {
+      "index": 4,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#797d57",
+      "contrast_score": 52.34624209921648,
+      "blur_score": 324.1182940721235,
+      "has_text": false
+    },
+    {
+      "index": 5,
+      "role": "image",
+      "width": 1080,
+      "height": 1440,
+      "orientation": "portrait",
+      "dominant_color": "#847a74",
+      "contrast_score": 74.7956348758491,
+      "blur_score": 310.05192826721463,
+      "has_text": false
+    }
+  ],
+  "method": "rule_based_ocr_summary",
+  "updated_at": "2026-07-11T00:23:30"
+}

@@ -174,6 +174,43 @@ def validate_unified_text(text: str) -> CardContractValidation:
     _require_terms("发布内容层学习", publish, ("标题", "正文或文案", "话题或标签"), errors)
     media = sections.get("视频/图文表现层学习", "")
     _require_terms("视频/图文表现层学习", media, ("媒体类型", "分析状态", "表现学习"), errors)
+    if "图文" in content_form:
+        _require_terms(
+            "发布内容层学习",
+            publish,
+            (
+                "标题原文",
+                "标题机制",
+                "正文原文",
+                "正文结构",
+                "细节密度",
+                "真人感",
+                "结尾方式",
+                "话题策略",
+                "发布视觉协同",
+            ),
+            errors,
+        )
+        _require_terms(
+            "视频/图文表现层学习",
+            media,
+            (
+                "封面钩子",
+                "逐图角色",
+                "分图顺序",
+                "构图与视角",
+                "动作与状态",
+                "文字注释设计",
+                "字形字号层级",
+                "色彩光线质感",
+                "真人与生活感",
+                "跨模态协同",
+                "收藏理由",
+            ),
+            errors,
+        )
+        if any(placeholder in publish or placeholder in media for placeholder in ("待补充", "待分析", "待学习")):
+            errors.append("image_text_layers:placeholder_not_allowed")
     quotes = sections.get("金句与表达素材", "")
     _require_terms("金句与表达素材", quotes, ("原文金句", "提炼表达", "可复用句式"), errors)
     topics_cases = sections.get("可复用选题与案例", "")

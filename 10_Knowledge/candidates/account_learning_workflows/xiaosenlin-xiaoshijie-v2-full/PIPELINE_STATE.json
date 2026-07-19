@@ -1,5 +1,5 @@
 {
-  "schema_version": "2.2",
+  "schema_version": "2.9",
   "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
   "account_name": "小森林的小世界",
   "profile_id": "xiaosenlin_xiaoshijie",
@@ -20,7 +20,7 @@
   "deferred_evidence_count": 49,
   "cross_card_revalidation": "v3_deep_relearning/CROSS_CARD_REVALIDATION.json",
   "created_at": "2026-07-13T22:12:52",
-  "updated_at": "2026-07-14T23:36:43+08:00",
+  "updated_at": "2026-07-19T16:09:41",
   "stages": [
     {
       "id": "stage0_account_overview",
@@ -48,6 +48,9 @@
         "stage_id": "stage1_parallel_extraction",
         "errors": [],
         "metrics": {
+          "publish_copy_expected_count": 379,
+          "publish_copy_completed_count": 379,
+          "publish_copy_deferred_count": 0,
           "candidate_count": 1895,
           "real_acceptance_status": "passed"
         }
@@ -142,12 +145,48 @@
     "workflow_id": "xiaosenlin-xiaoshijie-v2-full",
     "status": "formal_ingested_with_deferred_evidence",
     "promoted_at": "2026-07-14T23:36:43+08:00",
-    "formal_account_dir": "10_Knowledge/formal/accounts/知识成长自媒体方法论/账号中心/小森林的小世界",
+    "formal_account_dir": "10_Knowledge/formal/accounts/小森林的小世界",
     "formal_card_count": 379,
     "formal_method_count": 4,
     "callable_method_count": 4,
     "candidate_only_system_pending_count": 49,
     "previous_account_center_snapshot": "10_Knowledge/candidates/account_assets/downgraded_formal_cards/xiaosenlin_xiaoshijie/2026-07-13/account_center_snapshot_pre_v2_2_formal_ingest_2026-07-14",
     "user_approval": true
-  }
+  },
+  "stage6_account_skill_schema": "account_skill_candidate_v1",
+  "migrations": [
+    {
+      "id": "backfill_account_skill_candidate_v1",
+      "completed_at": "2026-07-15T16:36:32",
+      "source": "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md"
+    },
+    {
+      "id": "upgrade_account_learning_v2_6",
+      "completed_at": "2026-07-18T20:55:32",
+      "mode": "evidence_backfill_with_legacy_compatibility"
+    },
+    {
+      "id": "backfill_publish_copy_special_learning_v1",
+      "completed_at": "2026-07-18T21:29:36",
+      "mode": "per_source_publish_layer_observation_and_cross_card_candidate_summary"
+    },
+    {
+      "id": "backfill_account_skill_upgrade_compatibility_v29",
+      "completed_at": "2026-07-19T15:40:56",
+      "source": "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md",
+      "mode": "same_account_formal_snapshot_only"
+    }
+  ],
+  "source_total": 428,
+  "stage1_observation_schema": "deep_structure_expression_v1",
+  "stage2_production_mechanism_schema": "production_mechanism_v1",
+  "stage6_production_handoff_schema": "account_production_handoff_v1",
+  "v26_unified_source_count": 379,
+  "v26_legacy_compatible_source_count": 0,
+  "publish_copy_observation_schema": "publish_copy_observation_v1",
+  "publish_copy_study_schema": "publish_copy_special_study_v1",
+  "publish_copy_expected_count": 379,
+  "publish_copy_completed_count": 379,
+  "publish_copy_deferred_count": 0,
+  "stage6_upgrade_compatibility_schema": "account_skill_upgrade_compatibility_v1"
 }

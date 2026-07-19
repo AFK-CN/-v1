@@ -1,0 +1,43 @@
+{
+  "schema_version": "2.1",
+  "method_id": "m03-double-cover-tiered-tutorial",
+  "test_cases": [
+    {
+      "id": "m03-double-cover-tiered-tutorial-t1",
+      "type": "should_trigger",
+      "prompt": "四项单餐中主菜有三步过程，配菜只有成品，需安排图文页序。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t2",
+      "type": "should_not_trigger",
+      "prompt": "已有七份封面，要做周一到周日一页一餐合集。",
+      "expected_decision": "do_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "m04-weekly-reindex"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t3",
+      "type": "edge_case",
+      "prompt": "只有一张完整餐和两张主菜步骤，没有净图；省略净图仍可分级。",
+      "expected_decision": "trigger"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t4",
+      "type": "cross_scene_transfer",
+      "prompt": "迁移到宿舍双菜一饭：先菜单地图，再详讲唯一复杂菜。",
+      "expected_decision": "trigger",
+      "mechanism_preserved": true,
+      "source_scene": "四项一人食",
+      "target_scene": "宿舍/加班/便当等改变人物与道具后的新场景"
+    },
+    {
+      "id": "m03-double-cover-tiered-tutorial-t5",
+      "type": "commercial_contamination",
+      "prompt": "厨具广告要求产品页固定插在第二页并计入自然结构。",
+      "expected_decision": "do_not_trigger",
+      "commercial_source_excluded_from_natural_v1": true
+    }
+  ],
+  "evaluation_rule": "仅当核心机制存在且未触发商品广告/平台项目/证据缺失边界时触发。"
+}

@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "direction": "平台项目",
+  "source_id": "7225106446592068919",
+  "title": "第一次走红毯 确实有点社牛变社恐了…#李宗恒 #人生路不熟",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/平台项目/cards/7225106446592068919.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7225106446592068919",
+  "copied_file_count": 33,
+  "copied_bytes": 9041732,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 705,
+      "sha256": "f96cd21cf79d98ee7f8b54180019165d8aaa151cac3f4948f04d73d88583a78f"
+    },
+    {
+      "path": "source.json",
+      "bytes": 1069,
+      "sha256": "d78a8f085a98af956cc8a0da169000b8d2a1e6d21620de8da283d026409ae6bf"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2364,
+      "sha256": "0fa2ede6560017d1d2c4271f6f382ee5071336d33813f102cb414c70013a9e81"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 1320504,
+      "sha256": "b91edf3a37c870eb30cbb97d34bf1b56ae7998d6004c2610b421a9df269c77f0"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 52869,
+      "sha256": "1830fa372092078f96cdaa34a8a04e84250bfeb8565dc3656d2aae74d5d2ad6b"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 53261,
+      "sha256": "112a94479857c2c06d56597ffb36bc7571d1f542dfe5383589e0ddebfde1b4f5"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 62645,
+      "sha256": "2b502160dd742876a1a1b0ee0410492c430c51fc4db5938430fd4dd2c782889e"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 41573,
+      "sha256": "05c857459ea0911985cada2dbf30593b908655723101afddfb3d6ccba2669264"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 75834,
+      "sha256": "0cb55feb6d193c23d1faeaabae8135a7f3371b095ee0275828cd4419381e8455"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 73547,
+      "sha256": "e3e385d82c48c4bcd6eddb441928ad926bb6831dfbc7015a4ecf3dfd7e023fa0"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 86805,
+      "sha256": "ccfe756d4f06667ff9033f501669df386d19be9cbb6f7601817b75f9f8fa68ba"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 84787,
+      "sha256": "b45d9bc80797cea76c4cac01b54dd0e7d1a36ef09bb1a7c24f5c8bd3bcb21be5"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 54644,
+      "sha256": "cdf85fceb1c57ee777b314587f09800d92788431a6eeeb2c6ef46abf3499807f"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 67735,
+      "sha256": "4e6a47b9a0b9e6e372ed7e0ddabba8e081e37dc4a6e5fd8e86128b53e066eb28"
+    },
+    {
+      "path": "video/frames/000010.jpg",
+      "bytes": 59806,
+      "sha256": "ac6c650b719c1953471e9b6b329be6e4bd3c2143501519d35f670ef68102e5aa"
+    },
+    {
+      "path": "video/frames/000011.jpg",
+      "bytes": 104440,
+      "sha256": "b3b6a0e0ab2fdb4dfb6a6825a3a9b03161a95c30f6f7d8d2b0bd62d717e3536a"
+    },
+    {
+      "path": "video/frames/000012.jpg",
+      "bytes": 97333,
+      "sha256": "927d8fd22c43628ba30be774fb9a94f5891cc922eab4c0a4b1e2955751307929"
+    },
+    {
+      "path": "video/frames/000013.jpg",
+      "bytes": 53628,
+      "sha256": "1466832e6877c7e2b79279df78f5a8e127bc7968fc3575595f9820bcd2419d20"
+    },
+    {
+      "path": "video/frames/000014.jpg",
+      "bytes": 49751,
+      "sha256": "8bbae62ea411e07c0da8870daa8cc2c8d0c96b6e579f325456d44a0501c6c2cc"
+    },
+    {
+      "path": "video/frames/000015.jpg",
+      "bytes": 37293,
+      "sha256": "f103f716cbfcd0653c4530dfd6c5baf883799c88726e5a12bb63910c0fa87022"
+    },
+    {
+      "path": "video/frames/000016.jpg",
+      "bytes": 37067,
+      "sha256": "1af21a120a8594c774bd318746f724fe54c5dfebfa6ffcf57c95c3746515d39f"
+    },
+    {
+      "path": "video/frames/000017.jpg",
+      "bytes": 31963,
+      "sha256": "36b74ceecb1cb763d2dfcbc473e9109c2b1f24b4d1fdb98d54dd83cb1a323784"
+    },
+    {
+      "path": "video/frames/000018.jpg",
+      "bytes": 27138,
+      "sha256": "e68a0397f0e69bef0981c430642b1278f2910bb936240c6e305e5ec2d0fb3e27"
+    },
+    {
+      "path": "video/frames/000019.jpg",
+      "bytes": 37176,
+      "sha256": "b694e5d2d4da4b113177a7b8b1c05ebe140b48222e5461003fca05e5395e14d9"
+    },
+    {
+      "path": "video/frames/000020.jpg",
+      "bytes": 60149,
+      "sha256": "8269d3fff00192c87070557bae1750d891c6844f7a4758237dbca05129f513d0"
+    },
+    {
+      "path": "video/frames/000021.jpg",
+      "bytes": 54122,
+      "sha256": "61783accc59920948eeba2da577648a671d015bc51d040ecda04774fe46483b9"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 2485,
+      "sha256": "a4be4efc22ae81d5d1d328e1f778533dd7180ccb7855ec6449500aa613cb945a"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 6406677,
+      "sha256": "5a96760443b709a12618129cc207bf165c836e3f1a9a4c10ed411e88ae11988f"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 1929,
+      "sha256": "8de9ee155b09cb8c49e092ff85065be9dbef4598d547e347a36c38985b734b18"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 947,
+      "sha256": "d40becddfd365f343cd1cdc5663bbdca09f6bb5e82cbf5ef7c66d82187bb4baf"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 366,
+      "sha256": "fab7e09c5ed8949b86f8d1a6c11dbeb6696adcc60a727473ee7cba559ec03207"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 308,
+      "sha256": "aa9dcab0f364b64aafc6993a13819ae024886319e44beed17816a16535d441f1"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 812,
+      "sha256": "1c53fef96cbe9cf4d9e247cff7be0e93322c013d3dc4ba633e2613ea2a86d318"
+    }
+  ]
+}

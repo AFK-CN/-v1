@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-19T15:40:34",
+  "accounts": [
+    {
+      "account_skill_id": "jianghushuo",
+      "account_name": "姜胡说",
+      "platform": "抖音",
+      "skill_path": "10_Knowledge/formal/accounts/姜胡说/skill/SKILL.md",
+      "skill_name": "account-jianghushuo",
+      "version": "1.4",
+      "status": "active",
+      "aliases": [
+        "姜胡说"
+      ],
+      "updated_at": "2026-07-19T15:40:34"
+    },
+    {
+      "account_skill_id": "lizongheng",
+      "account_name": "李宗恒",
+      "platform": "抖音",
+      "skill_path": "10_Knowledge/formal/accounts/李宗恒/skill/SKILL.md",
+      "skill_name": "account-lizongheng",
+      "version": "1.4",
+      "status": "active",
+      "aliases": [
+        "李宗恒"
+      ],
+      "updated_at": "2026-07-19T15:40:34"
+    },
+    {
+      "account_skill_id": "shengqian_weibao_hupiao",
+      "account_name": "省钱也要喂饱自己（沪漂版）",
+      "platform": "小红书",
+      "skill_path": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）/skill/SKILL.md",
+      "skill_name": "account-shengqian-weibao-hupiao",
+      "version": "2.1",
+      "status": "active",
+      "aliases": [
+        "沪漂版省钱也要喂饱自己",
+        "省钱也要喂饱自己",
+        "省钱也要喂饱自己（沪漂版）"
+      ],
+      "updated_at": "2026-07-19T15:40:34"
+    },
+    {
+      "account_skill_id": "xianyu_story_ugc_task",
+      "account_name": "闲鱼故事UGC任务",
+      "platform": "闲鱼",
+      "skill_path": "10_Knowledge/formal/accounts/闲鱼故事UGC任务/skill/SKILL.md",
+      "skill_name": "xianyu-story-ugc",
+      "version": "1.3",
+      "status": "active",
+      "aliases": [
+        "闲鱼UGC",
+        "闲鱼故事UGC",
+        "闲鱼故事UGC任务",
+        "闲鱼故事类UGC"
+      ],
+      "updated_at": "2026-07-19T15:40:34"
+    },
+    {
+      "account_skill_id": "xiaosenlin_xiaoshijie",
+      "account_name": "小森林的小世界",
+      "platform": "小红书",
+      "skill_path": "10_Knowledge/formal/accounts/小森林的小世界/skill/SKILL.md",
+      "skill_name": "account-xiaosenlin",
+      "version": "1.4",
+      "status": "active",
+      "aliases": [
+        "小森林的小世界"
+      ],
+      "updated_at": "2026-07-19T15:40:34"
+    }
+  ]
+}

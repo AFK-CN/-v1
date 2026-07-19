@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T13:50:31",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051350/6cc97292eec2f0ff1d49622efe290366/1000g0082dh4h8b8go00g4a00sj99a1hqjprpat8!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T13:50:41",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\video\\source.mp4",
+      "source_url": "http://sns-video-v3.xhscdn.com/stream/110/259/01e44a2dfa6bb08d0103700387c1c82189_259.mp4?sign=811b895d89b3f9ead746ae0adf8117d0&t=6a4e8de3"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:55:48",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\video\\source.mp4",
+      "duration_sec": 201.6,
+      "width": 1280,
+      "height": 720,
+      "fps": 30.0,
+      "frame_count": 6048,
+      "platform": "xhs",
+      "source_id": "644a2e1f0000000027010695",
+      "source_url": "http://sns-video-v3.xhscdn.com/stream/110/259/01e44a2dfa6bb08d0103700387c1c82189_259.mp4?sign=811b895d89b3f9ead746ae0adf8117d0&t=6a4e8de3",
+      "title": "在家spa🛀深度补水灌注护理💧🧊",
+      "desc": "用到了很多宝藏，分享给大家\n在疲惫的时候，给自己做一个肌肤灌注\n让身心都舒缓放松下来🛀\n\t\n#我的护肤日常[话题]#",
+      "publish_time": 1682583071000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:55:52",
+      "count": 60,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:55:54",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T03:57:59",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_644a2e1f0000000027010695\\video\\transcript.srt",
+      "segments": 83
+    }
+  },
+  "updated_at": "2026-07-11T03:57:59"
+}

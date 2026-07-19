@@ -1,0 +1,260 @@
+{
+  "version": "3.0",
+  "updated_at": "2026-07-19",
+  "status": "active_system_schema",
+  "scope": "generic_contract_only",
+  "description": "表达资产候选的通用结构、隔离、状态机和验收门。系统层不保存账号名、账号话术、source_id、具体金句或账号结论。",
+  "activation_boundary": {
+    "active_account_learning_integration": false,
+    "proposal": "00_System/shareable/skills/proposals/account-learning-expression-assets-v3.0.md",
+    "needs_user_confirmation": true,
+    "current_behavior": "只提供候选数据契约与校验器，不启动账号学习、不生成账号资产、不把 expression stage 接入 active account-learning Skill。"
+  },
+  "storage": {
+    "candidate_root_template": "10_Knowledge/candidates/account_assets/expression_assets/{account_id}/",
+    "sample_file": "expression_assets.sample.jsonl",
+    "full_file": "expression_assets.jsonl",
+    "source_registry_file": "source_registry.jsonl",
+    "sample_acceptance_file": "sample_acceptance.json",
+    "source_authority_root_template": "10_Knowledge/evidence/index/account_source_authority/{account_id}/",
+    "performance_authority_root_template": "10_Knowledge/evidence/index/performance_authority/{account_id}/",
+    "validation_evidence_root_template": "10_Knowledge/evidence/index/account_validation_authority/{account_id}/",
+    "validator_version": "expression_asset_validator_v3.0",
+    "pattern_files": [
+      "hook_patterns.md",
+      "golden_line_patterns.md",
+      "adaptation_templates.md",
+      "anti_patterns.md"
+    ],
+    "formal_write_allowed": false,
+    "system_write_allowed": false,
+    "cross_account_merge_allowed": false
+  },
+  "asset_types": {
+    "hook": "负责触发继续阅读或观看的结构，不保存账号原句为系统规则。",
+    "golden_line": "承担命名、解释、判断、行动或身份表达功能的结构。",
+    "opening_move": "进入主题前的动作与信息顺序。",
+    "ending_move": "收束、行动提示、互动或回扣动作。",
+    "pain_point": "受众问题、矛盾或阻力的可追溯表达。",
+    "anti_pattern": "弱资产、失效结构、过度承诺或不可迁移表达。",
+    "adaptation_template": "保留结构变量、删除身份绑定和账号措辞后的改编骨架。"
+  },
+  "required_record_fields": [
+    "asset_id",
+    "asset_type",
+    "account_id",
+    "knowledge_layer",
+    "callable",
+    "method_evidence_eligible",
+    "generation_eligible",
+    "lifecycle_state",
+    "transition_history",
+    "gate_evidence",
+    "source",
+    "source_excerpt",
+    "abstracted_pattern",
+    "structural_usefulness_score",
+    "performance_evidence",
+    "intended_usage",
+    "risk_flags"
+  ],
+  "source_contract": {
+    "required_fields": [
+      "source_id",
+      "source_registry_id",
+      "source_type",
+      "source_account_id",
+      "source_path_or_url",
+      "evidence_coordinate",
+      "sha256",
+      "registry_record_sha256",
+      "authority_manifest_path",
+      "authority_record_id",
+      "authority_record_sha256"
+    ],
+    "source_types": {
+      "account_source_positive": "同账号原始或正式证据；可做候选结构和验证，不直接证明稳定方法。",
+      "user_accepted_output": "用户认可的生产结果；只证明偏好或连续性，不证明账号规律。",
+      "user_rejected_output": "用户拒绝的生产结果；只能 validation_only，不得做生成参考。",
+      "external_explicit_reference": "用户明确指定的外部参考；只承担当次指定角色，不进入账号方法。"
+    },
+    "sha256_pattern": "^[0-9a-f]{64}$",
+    "coordinate_required": true,
+    "coordinate_must_match_source_locator": true,
+    "registry_required": true,
+    "registry_required_fields": [
+      "source_registry_id",
+      "source_id",
+      "source_type",
+      "account_id",
+      "source_path_or_url",
+      "sha256",
+      "registry_record_sha256"
+    ],
+    "authority_required": true,
+    "authority_required_fields": [
+      "authority_record_id",
+      "source_id",
+      "source_type",
+      "account_id",
+      "source_path_or_url",
+      "sha256",
+      "authority_record_sha256"
+    ],
+    "source_file_hash_verification_required": true
+  },
+  "lifecycle": {
+    "states": [
+      "observed",
+      "sampled",
+      "retrieval_validated",
+      "cross_card_verified",
+      "pressure_tested",
+      "approved_callable",
+      "rejected"
+    ],
+    "default_state": "observed",
+    "callable_states": [
+      "approved_callable"
+    ],
+    "candidate_state_callable": false,
+    "candidate_state_method_evidence_eligible": false,
+    "candidate_state_generation_eligible": false,
+    "transition_required_fields": ["from", "to", "evidence_coordinate", "evidence_sha256"],
+    "transitions": [
+      ["observed", "sampled"],
+      ["sampled", "retrieval_validated"],
+      ["retrieval_validated", "cross_card_verified"],
+      ["cross_card_verified", "pressure_tested"],
+      ["pressure_tested", "approved_callable"],
+      ["observed", "rejected"],
+      ["sampled", "rejected"],
+      ["retrieval_validated", "rejected"],
+      ["cross_card_verified", "rejected"],
+      ["pressure_tested", "rejected"]
+    ]
+  },
+  "score_contract": {
+    "structural_usefulness_range": [0, 100],
+    "structural_usefulness_means": "结构清晰度、可抽象性、可迁移性和风险可控性，不等于传播效果。",
+    "performance_statuses": [
+      "not_claimed",
+      "observed_uncontrolled",
+      "validated_with_evidence"
+    ],
+    "default_performance_status": "not_claimed",
+    "performance_required_fields": [
+      "status",
+      "evidence_coordinates",
+      "evidence_kind",
+      "metric",
+      "sample_size",
+      "observation_window",
+      "source_hashes",
+      "authority_manifest_path",
+      "authority_record_ids"
+    ],
+    "performance_allowed_fields": [
+      "status",
+      "evidence_coordinates",
+      "evidence_kind",
+      "metric",
+      "sample_size",
+      "observation_window",
+      "source_hashes",
+      "authority_manifest_path",
+      "authority_record_ids"
+    ],
+    "validated_evidence_kinds": [
+      "controlled_test",
+      "platform_metrics",
+      "user_acceptance_with_trace"
+    ],
+    "forbidden_validated_evidence_kinds": [
+      "transcript_only",
+      "single_item",
+      "subjective_score"
+    ],
+    "validated_min_sample_size": 2,
+    "performance_authority_required_fields": [
+      "performance_record_id",
+      "account_id",
+      "evidence_kind",
+      "metric",
+      "observation_window",
+      "unique_sample_ids",
+      "evidence_path",
+      "evidence_sha256",
+      "performance_record_sha256"
+    ],
+    "forbidden_claim": "不得依据逐字稿、单条内容或主观评分宣称已证明传播效果。"
+  },
+  "risk_flags": [
+    "identity_binding",
+    "copying_risk",
+    "unsupported_claim",
+    "overpromise",
+    "commercial_contamination",
+    "platform_mismatch",
+    "context_dependence",
+    "account_leakage"
+  ],
+  "gates": {
+    "audit_before_extraction": true,
+    "sample_max_items": 20,
+    "sample_must_cover": [
+      "multiple_directions_when_available",
+      "multiple_content_forms_when_available",
+      "positive_and_negative_cases"
+    ],
+    "sample_acceptance": [
+      "top_k_relevance",
+      "source_traceability",
+      "abstraction_quality",
+      "adaptation_quality",
+      "risk_detection",
+      "account_isolation"
+    ],
+    "state_gate_evidence": {
+      "sampled": ["sample_selection"],
+      "retrieval_validated": ["sample_selection", "retrieval_validation"],
+      "cross_card_verified": ["sample_selection", "retrieval_validation", "cross_card_verification"],
+      "pressure_tested": ["sample_selection", "retrieval_validation", "cross_card_verification", "pressure_test"]
+    },
+    "gate_evidence_item_required_fields": ["evidence_coordinate", "evidence_sha256"],
+    "full_extraction_requires_sample_acceptance": true,
+    "sample_acceptance_required_fields": [
+      "status",
+      "account_id",
+      "validator_version",
+      "sample_count",
+      "sample_file_sha256",
+      "sample_record_hashes",
+      "sample_validation_sha256",
+      "source_registry_sha256",
+      "completed_checks",
+      "audit_report_coordinate",
+      "audit_report_sha256",
+      "evidence_coordinates"
+    ],
+    "approved_callable_requires": [
+      "cross_card_verified",
+      "pressure_tested",
+      "user_confirmation",
+      "active_skill_version_upgrade",
+      "regression_passed",
+      "rollback_recorded"
+    ]
+  },
+  "invariants": [
+    "系统配置不得包含任何账号专属话术、账号名、source_id 或内容结论",
+    "账号表达资产只能写入对应账号候选目录",
+    "候选表达资产默认不可调用且不得作为方法证据",
+    "候选表达资产和用户拒绝产物在任何消费端都必须 generation_eligible=false",
+    "来源原文与抽象结构必须分字段保存",
+    "结构可用性评分不得冒充传播效果证据",
+    "用户拒绝产物必须使用 anti_pattern、rejected、validation_only 且不得作为生成参考",
+    "跨账号合并、补正例或放宽过滤一律禁止",
+    "未确认 active Skill 提案前不得启动表达资产学习阶段"
+  ]
+}

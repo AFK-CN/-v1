@@ -22,7 +22,6 @@ SYSTEM_BOUNDARY_DIRS = (
     "00_System/shareable/skill_packages",
 )
 SYSTEM_BOUNDARY_EXCLUSIONS = (
-    "00_System/shareable/config/content_rough_scan_profiles.json",
     "00_System/shareable/config/layer_map.json",
     "00_System/shareable/docs/system_cleaning/",
 )
@@ -103,7 +102,7 @@ def audit_system_boundaries(root: Path) -> dict[str, Any]:
 
 def load_account_tokens(root: Path) -> list[str]:
     tokens: set[str] = set()
-    profile_path = root / "00_System" / "shareable" / "config" / "content_rough_scan_profiles.json"
+    profile_path = root / "20_User" / "config" / "content_rough_scan_profiles.json"
     if profile_path.exists():
         try:
             payload = json.loads(profile_path.read_text(encoding="utf-8"))
@@ -116,6 +115,10 @@ def load_account_tokens(root: Path) -> list[str]:
                     tokens.add(profile_id)
                 if isinstance(profile, dict) and isinstance(profile.get("account_name"), str):
                     tokens.add(profile["account_name"])
+        classifier = payload.get("video_learning_classification", {}) if isinstance(payload, dict) else {}
+        account_directions = classifier.get("account_directions", {}) if isinstance(classifier, dict) else {}
+        if isinstance(account_directions, dict):
+            tokens.update(str(account) for account in account_directions if str(account))
     account_cards = root / "10_Knowledge" / "candidates" / "account_assets" / "account_cards"
     if account_cards.exists():
         for path in account_cards.glob("*.md"):

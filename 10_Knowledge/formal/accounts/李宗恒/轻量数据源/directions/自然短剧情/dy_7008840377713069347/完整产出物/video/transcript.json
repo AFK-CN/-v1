@@ -1,0 +1,78 @@
+{
+  "language": "zh",
+  "duration": 17.2756875,
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 2.0,
+      "text": "当我在寝室发出声响,别人的室友"
+    },
+    {
+      "index": 2,
+      "start": 4.0,
+      "end": 5.0,
+      "text": "我是不是吵到你们了"
+    },
+    {
+      "index": 3,
+      "start": 5.0,
+      "end": 6.0,
+      "text": "没事啊"
+    },
+    {
+      "index": 4,
+      "start": 6.0,
+      "end": 7.0,
+      "text": "没事吧"
+    },
+    {
+      "index": 5,
+      "start": 7.0,
+      "end": 8.0,
+      "text": "听着了"
+    },
+    {
+      "index": 6,
+      "start": 8.0,
+      "end": 9.0,
+      "text": "听着了"
+    },
+    {
+      "index": 7,
+      "start": 9.0,
+      "end": 10.0,
+      "text": "你帮我偷一下"
+    },
+    {
+      "index": 8,
+      "start": 10.0,
+      "end": 11.0,
+      "text": "你动一下"
+    },
+    {
+      "index": 9,
+      "start": 11.0,
+      "end": 12.0,
+      "text": "你动一下"
+    },
+    {
+      "index": 10,
+      "start": 13.0,
+      "end": 14.0,
+      "text": "我的室友"
+    },
+    {
+      "index": 11,
+      "start": 15.0,
+      "end": 16.0,
+      "text": "是不是出东西了"
+    },
+    {
+      "index": 12,
+      "start": 16.0,
+      "end": 17.0,
+      "text": "嗯"
+    }
+  ]
+}

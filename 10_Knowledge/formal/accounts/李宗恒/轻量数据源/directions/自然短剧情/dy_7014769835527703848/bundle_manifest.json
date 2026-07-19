@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "account_name": "李宗恒",
+  "platform": "抖音",
+  "direction": "自然短剧情",
+  "source_id": "7014769835527703848",
+  "title": "李宗恒统一账号发布资产学习卡：《 吃啥呢 》#校园 #内容过于真实 #李宗恒",
+  "content_type": "video",
+  "formal_card": "10_Knowledge/formal/accounts/李宗恒/directions/自然短剧情/cards/7014769835527703848.md",
+  "original_source_dir": "/Volumes/AFK/zhishikushuju/dy/accounts/dy_63700340656/dy_7014769835527703848",
+  "copied_file_count": 24,
+  "copied_bytes": 4074003,
+  "files": [
+    {
+      "path": "manifest_item.json",
+      "bytes": 681,
+      "sha256": "6fd3029303c88ffb053d70bf8d10d57efadd6f8e6fb72d7e12b4b4aefe8c08a4"
+    },
+    {
+      "path": "source.json",
+      "bytes": 973,
+      "sha256": "695669b3797054b2ff72db831581cd0dfffb1a133bd9f98851882058068f3a5e"
+    },
+    {
+      "path": "status.json",
+      "bytes": 2301,
+      "sha256": "7e1ac353f7e2be0b150336a6915e9a3cd40f5ffa5138ff2c42309db6aca48139"
+    },
+    {
+      "path": "video/audio.wav",
+      "bytes": 760252,
+      "sha256": "aba56f42de981ace0d05a11fa83519599636170db2defa4803cb560a1ab6ab15"
+    },
+    {
+      "path": "video/cover.jpg",
+      "bytes": 10891,
+      "sha256": "4db568f604872aa6f00387000ddc43cac5813bc8469eea737de559d7f282b952"
+    },
+    {
+      "path": "video/frames/000001.jpg",
+      "bytes": 10899,
+      "sha256": "283fbba28b009f847a974424ee5ff1ae2425b294e6274ed831ec11c19778355a"
+    },
+    {
+      "path": "video/frames/000002.jpg",
+      "bytes": 62567,
+      "sha256": "9e4dd0374f6857423c7b131a32e8ada33ac52a8897fc65a7a001319145e9de05"
+    },
+    {
+      "path": "video/frames/000003.jpg",
+      "bytes": 95648,
+      "sha256": "e7634f0e2f8df098df8cd99b97e325b663259e74aad5580e0deb3434900be755"
+    },
+    {
+      "path": "video/frames/000004.jpg",
+      "bytes": 92998,
+      "sha256": "00c09fe8755fa48d6e4f7109b2a13c426022bd967e880b4bef635201c25c6715"
+    },
+    {
+      "path": "video/frames/000005.jpg",
+      "bytes": 96038,
+      "sha256": "9f520d3bbed64d6c8717d182dbadc195872f33d67e53ca1d34e562fa2eaea115"
+    },
+    {
+      "path": "video/frames/000006.jpg",
+      "bytes": 106878,
+      "sha256": "192ebf034a9fe71f18e8961b66723e9c6654106bd883aa70e22d2da2442765f6"
+    },
+    {
+      "path": "video/frames/000007.jpg",
+      "bytes": 102897,
+      "sha256": "adba7881488bd5b8596b7a8089f92b0bd7fbdfd86cbb4f7961a0e4d4409a32a0"
+    },
+    {
+      "path": "video/frames/000008.jpg",
+      "bytes": 107741,
+      "sha256": "a6f584399c744f01de65e2076aed32e41101596bea5ece67bb71bd225a2d7fe6"
+    },
+    {
+      "path": "video/frames/000009.jpg",
+      "bytes": 76792,
+      "sha256": "9c3be5f30466e71fb895f6bfc92c3657a3fe90a309c50ab4b4c9fa917eceb3a8"
+    },
+    {
+      "path": "video/frames/000010.jpg",
+      "bytes": 72747,
+      "sha256": "6aaf559497173420ee2e5d6c7fecb448c63847fe8a0a485b67e8871c37101092"
+    },
+    {
+      "path": "video/frames/000011.jpg",
+      "bytes": 56810,
+      "sha256": "7bce198b2148428f3533dfe2b2b0991a2a680f2e7848c4965201fd01cf45f035"
+    },
+    {
+      "path": "video/frames/000012.jpg",
+      "bytes": 52482,
+      "sha256": "7ecbc828393e6ed785e3c16b14bc730373dde95075fc60ccf09890f16162173c"
+    },
+    {
+      "path": "video/frames.json",
+      "bytes": 1477,
+      "sha256": "99ef26fbd49f59e2d26cb1e981a96bcd7633299aa014ab43d24cf6aab25b367a"
+    },
+    {
+      "path": "video/source.mp4",
+      "bytes": 2359273,
+      "sha256": "e1f3383a6e6d4cbce7de0bfcd65752578ec8b3320f25b00f2c6c67af91c70938"
+    },
+    {
+      "path": "video/transcript.json",
+      "bytes": 1550,
+      "sha256": "86b9e6028cc67460162892f1c319b0b46d37257fbc6ee9f6e56be445de339ac1"
+    },
+    {
+      "path": "video/transcript.srt",
+      "bytes": 762,
+      "sha256": "88fa4e2aa2bdc34d45ad7b37cf0af45afd1fbf278fe3f6655444c095667a1da8"
+    },
+    {
+      "path": "video/transcript.txt",
+      "bytes": 292,
+      "sha256": "57d84f079eab6ccbe37798c6d71ccc557c4d9326371a708c39d5f21b617b1268"
+    },
+    {
+      "path": "video/transcript_info.json",
+      "bytes": 305,
+      "sha256": "fc6ebd07458662dbe3ae177fa72d6602f25549b24e1c3ff279033054a7534112"
+    },
+    {
+      "path": "video/video_info.json",
+      "bytes": 749,
+      "sha256": "bb866eb2240e2db1c911c8dfa86173b727329ccb35994dbb5d0e54f32eaa3e87"
+    }
+  ]
+}

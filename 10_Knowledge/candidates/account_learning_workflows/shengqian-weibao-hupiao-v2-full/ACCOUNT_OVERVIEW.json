@@ -1,0 +1,61 @@
+{
+  "schema_version": "2.3",
+  "workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "account_name": "省钱也要喂饱自己（沪漂版）",
+  "account_id": "5c09367300000000060099e8",
+  "status": "ready_for_user_review",
+  "one_line_theme": "以独居、打工人和身材管理期的一人食为生活场景，用完整餐盘、价格或热量标注、可执行菜谱和固定图文秩序，证明省钱、低负担与吃饱并不冲突。",
+  "content_pillars": [
+    "独居与打工人一人食",
+    "生活化减脂与完整餐盘",
+    "低成本、备菜复用与一周不重样",
+    "轻教程型图文交付",
+    "餐食场景中的商业内容分轨"
+  ],
+  "terminology": [
+    "独居一人食",
+    "减脂餐",
+    "干净饮食",
+    "有肉有菜有碳水",
+    "生活化减脂",
+    "一周减脂餐不重样",
+    "下班快速吃上饭",
+    "自律期跟我这样吃"
+  ],
+  "limitations": [
+    "样本只覆盖小红书和2025-09-11至2026-07-04，不能直接外推到其他平台",
+    "缺少完整表现指标，不能把重复标题或视觉模板直接解释为高传播原因",
+    "减脂、体重、热量、营养和身材管理说法未做营养学、医学或因果验证",
+    "价格与订单截图只代表当时当地对应渠道，不能作为长期成本承诺",
+    "49条商业待审候选来自关键词召回，必须逐条复核，不能直接当作确认广告",
+    "自动OCR和视觉摘要不能替代阶段1逐图复核",
+    "平台项目关键词召回为0不等于已证明平台项目不存在",
+    "用户给定路径是一条笔记，本阶段按账号目标使用同账号ID的上一级116条目录，需用户确认范围"
+  ],
+  "evidence_refs": [
+    "10_Knowledge/candidates/account_assets/local_account_packages/xhs_5c09367300000000060099e8/source_manifest.json",
+    "10_Knowledge/candidates/account_assets/local_account_packages/xhs_5c09367300000000060099e8/source_inventory.jsonl",
+    "10_Knowledge/candidates/account_assets/local_account_packages/xhs_5c09367300000000060099e8/STAGE0_SAMPLE_PACKET.md",
+    "10_Knowledge/candidates/account_assets/local_account_packages/xhs_5c09367300000000060099e8/粗学与选题池.md",
+    "10_Knowledge/candidates/account_assets/local_account_packages/xhs_5c09367300000000060099e8/deep_learning_plan.json",
+    "xhs:6a0d95c3000000003502d951"
+  ],
+  "coverage": {
+    "records": 116,
+    "unique_source_ids": 116,
+    "evidence_complete": 116,
+    "images": 1027,
+    "image_count_min": 5,
+    "image_count_median": 8,
+    "image_count_max": 14,
+    "publish_date_start": "2025-09-11",
+    "publish_date_end": "2026-07-04",
+    "stage0_sample_count": 24,
+    "commercial_signal_candidates": 49,
+    "platform_project_signal_candidates": 0
+  },
+  "formal_write_allowed": false,
+  "callable": false,
+  "user_review_required": true,
+  "next_gate": "stage0_user_confirmation"
+}

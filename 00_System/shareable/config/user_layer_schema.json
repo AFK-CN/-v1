@@ -1,0 +1,37 @@
+{
+  "version": 1,
+  "updated_at": "2026-07-16",
+  "root": "20_User",
+  "required_directories": [
+    "20_User/config",
+    "20_User/data",
+    "20_User/feedback",
+    "20_User/private",
+    "20_User/local"
+  ],
+  "config_files": {
+    "account_skill_registry": "20_User/config/account_skill_registry.json",
+    "content_rough_scan_profiles": "20_User/config/content_rough_scan_profiles.json",
+    "production_defaults": "20_User/config/production_defaults.json",
+    "review_defaults": "20_User/config/review_defaults.json"
+  },
+  "local_files": {
+    "account_skill_distribution_targets": "20_User/local/account_skill_distribution_targets.json"
+  },
+  "local_database": "20_User/data/content_production.sqlite",
+  "boundaries": {
+    "config": "用户启用的账号 Skill、别名、账号粗学 profile 和默认行为，可按用户选择同步。",
+    "data": "本地生产记录数据库，不进入可分享系统包。",
+    "feedback": "截图、表格和人工反馈的用户资料，默认不外部调用。",
+    "private": "用户私有内容，默认阻断。",
+    "local": "机器路径、NAS 和环境配置，禁止分享。"
+  },
+  "system_responsibilities": [
+    "创建空白用户层",
+    "从 content_classification_defaults.json 写入账号无关的基础粗学分类",
+    "初始化和迁移数据库",
+    "验证账号 Skill 注册表",
+    "保护私有与本机配置",
+    "不得复制其他用户的真实数据"
+  ]
+}

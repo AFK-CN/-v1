@@ -1,0 +1,15 @@
+{
+  "schema_version": "2.3",
+  "workflow_id": "shengqian-weibao-hupiao-v2-full",
+  "status": "formal_ingested",
+  "promoted_at": "2026-07-16T20:11:21+08:00",
+  "formal_account_dir": "10_Knowledge/formal/accounts/省钱也要喂饱自己（沪漂版）",
+  "formal_card_count": 116,
+  "formal_method_count": 7,
+  "callable_method_count": 7,
+  "natural_count": 68,
+  "product_ad_count": 47,
+  "platform_project_count": 1,
+  "candidate_preserved": true,
+  "user_approval": true
+}

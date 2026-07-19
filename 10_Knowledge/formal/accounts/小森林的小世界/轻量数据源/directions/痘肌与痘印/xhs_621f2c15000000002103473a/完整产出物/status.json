@@ -1,0 +1,55 @@
+{
+  "steps": {
+    "download_image_000": {
+      "status": "success",
+      "updated_at": "2026-07-05T15:34:28",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\images\\000_cover.jpg",
+      "source_url": "http://sns-webpic-qc.xhscdn.com/202607051534/918b39a3c2a8fb9ac68052b0620cb026/010232016hvwfoc796i010ziwm313y24kl!nd_dft_wlteh_jpg_3"
+    },
+    "download_video": {
+      "status": "success",
+      "updated_at": "2026-07-05T15:34:36",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\video\\source.mp4",
+      "source_url": "http://sns-video-v6.xhscdn.com/01e21f2c1563cd41018370037f49c66995_259.mp4?sign=b514221d38c84788f705cc61fd1b417c&t=6a4ea63f"
+    },
+    "video_info": {
+      "status": "success",
+      "updated_at": "2026-07-11T07:22:24",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\video\\source.mp4",
+      "duration_sec": 93.366667,
+      "width": 720,
+      "height": 1280,
+      "fps": 30.0,
+      "frame_count": 2801,
+      "platform": "xhs",
+      "source_id": "621f2c15000000002103473a",
+      "source_url": "http://sns-video-v6.xhscdn.com/01e21f2c1563cd41018370037f49c66995_259.mp4?sign=b514221d38c84788f705cc61fd1b417c&t=6a4ea63f",
+      "title": "给姐妹们分享一个祛痘神器",
+      "desc": "主要针对 小脓包、上火大痘\n\t\n爱熬夜，之后湿气重，容易上火的姐妹一定要去试试！\n\t\n#痘痘[话题]# #上火[话题]# #湿气重[话题]#",
+      "publish_time": 1646210069000,
+      "account_id": "5a201295e8ac2b0dbae9063a",
+      "account_name": "小森林的小世界"
+    },
+    "extract_frames": {
+      "status": "success",
+      "updated_at": "2026-07-11T07:22:28",
+      "count": 47,
+      "frames_dir": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\video\\frames"
+    },
+    "extract_audio": {
+      "status": "success",
+      "updated_at": "2026-07-11T07:22:29",
+      "file": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\video\\audio.wav"
+    },
+    "transcript": {
+      "status": "success",
+      "updated_at": "2026-07-11T07:23:23",
+      "engine": "faster-whisper",
+      "model": "small",
+      "transcript": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\video\\transcript.txt",
+      "srt": "Z:\\AFK\\zhishikushuju\\xhs\\accounts\\xhs_5a201295e8ac2b0dbae9063a\\xhs_621f2c15000000002103473a\\video\\transcript.srt",
+      "segments": 38
+    }
+  },
+  "updated_at": "2026-07-11T07:23:23"
+}

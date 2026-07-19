@@ -22,13 +22,13 @@ class AccountSqliteSourceTests(unittest.TestCase):
                 "comment_count TEXT, share_count TEXT, video_url TEXT, image_list TEXT)"
             )
             connection.execute(
-                "INSERT INTO xhs_creator VALUES (1, 'u1', '小森林的小世界', '123')"
+                "INSERT INTO xhs_creator VALUES (1, 'u1', '护肤账号丙', '123')"
             )
             connection.executemany(
                 "INSERT INTO xhs_note VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
                 [
-                    (1, "小森林的小世界", "n1", "video", "视频", 10, 11, "2", "3", "4", "5", "https://video", "[]"),
-                    (2, "小森林的小世界", "n2", "normal", "图文", 20, 21, "6", "7", "8", "9", "", "[\"image\"]"),
+                    (1, "护肤账号丙", "n1", "video", "视频", 10, 11, "2", "3", "4", "5", "https://video", "[]"),
+                    (2, "护肤账号丙", "n2", "normal", "图文", 20, 21, "6", "7", "8", "9", "", "[\"image\"]"),
                     (3, "其他账号", "n3", "normal", "不应出现", 30, 31, "1", "1", "1", "1", "", "[]"),
                 ],
             )
@@ -40,10 +40,10 @@ class AccountSqliteSourceTests(unittest.TestCase):
             result = build_account_source_snapshot(
                 root,
                 database=self._database(root),
-                account_name="小森林的小世界",
+                account_name="护肤账号丙",
                 platform="xhs",
-                profile_id="xiaosenlin_xiaoshijie",
-                workflow_id="xiaosenlin-xiaoshijie-v2-full",
+                profile_id="skincare_account_c",
+                workflow_id="skincare_account-xiaoshijie-v2-full",
                 apply=True,
             )
             self.assertTrue(result["ok"])
@@ -63,10 +63,10 @@ class AccountSqliteSourceTests(unittest.TestCase):
             result = build_account_source_snapshot(
                 root,
                 database=self._database(root),
-                account_name="小森林的小世界",
+                account_name="护肤账号丙",
                 platform="xhs",
-                profile_id="xiaosenlin_xiaoshijie",
-                workflow_id="xiaosenlin-xiaoshijie-v2-full",
+                profile_id="skincare_account_c",
+                workflow_id="skincare_account-xiaoshijie-v2-full",
                 apply=False,
             )
             self.assertEqual(result["status"], "dry_run")

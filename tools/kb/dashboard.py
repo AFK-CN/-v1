@@ -4,9 +4,11 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .runtime import runtime_path
-from .schemas import SYSTEM_DIR, active_skills_dir, as_posix, now_iso, skill_proposals_dir
-from .validator import validate_system
+from .runtime import health_gate, runtime_path
+from .account_skills import validate_registry
+from .production_memory import validate_database
+from .schemas import active_skills_dir, as_posix, now_iso, skill_proposals_dir
+from .validator import validate_account_learning_workflows, validate_system
 
 
 def read_json(path: Path, default: Any) -> Any:
@@ -27,7 +29,9 @@ def active_skills(root: Path) -> list[str]:
     active_dir = active_skills_dir(root)
     if not active_dir.exists():
         return []
-    return sorted(path.name for path in active_dir.glob("*.md"))
+    packages = [path.name for path in active_dir.iterdir() if path.is_dir() and (path / "SKILL.md").exists()]
+    legacy = [path.name for path in active_dir.glob("*.md")]
+    return sorted([*packages, *legacy])
 
 
 def pending_proposals(root: Path) -> list[str]:
@@ -47,7 +51,7 @@ def task_counts(root: Path) -> dict[str, int]:
 
 
 def account_summary(root: Path) -> dict[str, Any]:
-    payload = read_json(root / SYSTEM_DIR / "index" / "account_knowledge_index.json", {"accounts": []})
+    payload = read_json(root / "10_Knowledge" / "evidence" / "index" / "account_knowledge_index.json", {"accounts": []})
     accounts = payload.get("accounts", []) if isinstance(payload.get("accounts"), list) else []
     result = []
     direction_count = 0
@@ -68,7 +72,7 @@ def account_summary(root: Path) -> dict[str, Any]:
 def candidate_summary(root: Path) -> dict[str, Any]:
     path = root.resolve() / "10_Knowledge" / "candidates" / "generated_assets" / "candidate_topics.jsonl"
     if not path.exists():
-        path = root / SYSTEM_DIR / "assets" / "candidate_topics.jsonl"
+        path = root / "00_System" / "assets" / "candidate_topics.jsonl"
     if not path.exists():
         return {"candidate_topic_count": 0, "unique_source_count": 0, "top_directions": []}
     count = 0
@@ -115,6 +119,10 @@ def registry(root: Path) -> dict[str, Any]:
     learning = learning_summary(root)
     active = active_skills(root)
     proposals = pending_proposals(root)
+    account_skills = validate_registry(root)
+    production_memory = validate_database(root)
+    gate = health_gate(root)
+    account_learning_workflows = validate_account_learning_workflows(root)
     return {
         "generated_at": now_iso(),
         "source": "tools.kb.dashboard",
@@ -124,6 +132,10 @@ def registry(root: Path) -> dict[str, Any]:
         "candidates": candidates,
         "learning": learning,
         "tasks": task_counts(root),
+        "account_skills": account_skills,
+        "production_memory": production_memory,
+        "health_gate": gate,
+        "account_learning_workflows": account_learning_workflows,
     }
 
 
@@ -131,6 +143,10 @@ def next_actions(data: dict[str, Any], validation: dict[str, Any]) -> list[str]:
     actions: list[str] = []
     if not validation.get("ok"):
         actions.append("先修复 validate-system 失败项。")
+    if data["health_gate"].get("status") != "healthy":
+        actions.append("先执行 doctor / repair，恢复健康凭证。")
+    if data["account_learning_workflows"].get("invalid"):
+        actions.append("修复已完成账号学习工作流的失效阶段产物。")
     if data["pending_proposals"]:
         actions.append("处理待确认 Skill proposal。")
     running = data["tasks"].get("running", 0)
@@ -153,6 +169,7 @@ def render_dashboard(data: dict[str, Any], validation: dict[str, Any]) -> str:
         "## 1. 系统入口",
         "",
         f"- validate-system：{'通过' if validation.get('ok') else '未通过'}",
+        f"- health-gate：{data['health_gate'].get('status', 'unknown')}",
         f"- 失败项：{', '.join(validation.get('failed', [])) or '无'}",
         "",
         "## 2. Active Skill",
@@ -176,6 +193,13 @@ def render_dashboard(data: dict[str, Any], validation: dict[str, Any]) -> str:
     )
     for account in accounts["accounts"]:
         lines.append(f"- {account['account_name']} / {account['platform']}：{account['direction_count']} 个方向")
+    lines.extend(
+        [
+            f"- 正式账号 Skill：{data['account_skills'].get('registered', 0)} 个",
+            f"- 账号 Skill 注册表：{'正常' if data['account_skills'].get('ok') else '异常'}",
+            f"- 生产记忆：{'正常' if data['production_memory'].get('ok') else '异常'}",
+        ]
+    )
     candidates = data["candidates"]
     lines.extend(
         [
@@ -189,7 +213,19 @@ def render_dashboard(data: dict[str, Any], validation: dict[str, Any]) -> str:
     for item in candidates["top_directions"][:5]:
         lines.append(f"- {item['direction']}：{item['count']}")
     learning = data["learning"]
-    lines.extend(["", "## 6. 最近学习状态", "", f"- manifest 条目数：{learning['manifest_item_count']}"])
+    workflows = data["account_learning_workflows"]
+    lines.extend(
+        [
+            "",
+            "## 6. 最近学习状态",
+            "",
+            f"- 账号学习工作流：{workflows['workflow_count']} 个",
+            f"- 账号学习异常：{len(workflows['invalid'])} 个",
+            f"- 视频学习 manifest 条目数：{learning['manifest_item_count']}",
+        ]
+    )
+    for item in workflows["invalid"]:
+        lines.append(f"- 异常 workflow {item['workflow_id']}：{', '.join(item['failures'])}")
     for status, count in sorted(learning["status_counts"].items()):
         lines.append(f"- {status}：{count}")
     lines.extend(["", "## 7. 任务状态", ""])

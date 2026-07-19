@@ -1,0 +1,78 @@
+{
+  "schema_version": "pressure_prompts_v1",
+  "method_id": "xugc-m02",
+  "blind_execution": true,
+  "test_cases": [
+    {
+      "id": "xugc-m02-positive",
+      "type": "should_trigger",
+      "prompt": "卖一台旧缝纫机，脚踏会响，针板上有母亲修衣留下的划痕，新主人要拿去学服装设计。",
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m02",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m02-lexical-decoy",
+      "type": "should_not_trigger",
+      "decoy_kind": "lexical_overlap_without_mechanism",
+      "sibling_method_id": "xugc-m03",
+      "prompt": "写一个全新的智能缝纫机，只因为出现缝纫机和妈妈两个词就套怀旧故事。",
+      "expected_decision": "not_trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m03",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": true,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m02-edge",
+      "type": "edge_case",
+      "prompt": "物件有划痕但来源不明，也没有新主人用途。",
+      "expected_decision": "hold_boundary",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m02",
+        "core_mechanism_present": false,
+        "lexical_overlap_only": false,
+        "evidence_strength": "insufficient"
+      }
+    },
+    {
+      "id": "xugc-m02-cross-scene",
+      "type": "cross_scene_transfer",
+      "prompt": "把旧收音机换成有手写批注的旧菜谱，新主人准备用它开小饭馆。",
+      "source_scene": "亲情旧物",
+      "target_scene": "未见场景-2",
+      "mechanism_preserved": true,
+      "expected_decision": "trigger",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m02",
+        "core_mechanism_present": true,
+        "lexical_overlap_only": false,
+        "evidence_strength": "sufficient"
+      }
+    },
+    {
+      "id": "xugc-m02-commercial",
+      "type": "commercial_contamination",
+      "prompt": "把品牌复古相机广告作为旧物故事证据，询问能否增加自然旧物机制权重。",
+      "expected_decision": "isolate_commercial",
+      "input_signals": {
+        "task_scope": "xianyu_story_ugc",
+        "target_method": "xugc-m02",
+        "core_mechanism_present": true,
+        "commercial_sample": true,
+        "natural_method_weight_increase": false,
+        "evidence_strength": "sufficient"
+      }
+    }
+  ]
+}

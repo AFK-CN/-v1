@@ -1,0 +1,4 @@
+interface:
+  display_name: "李宗恒账号生产"
+  short_description: "基于正式剧情方法和证据边界生产自然短剧、商业植入与平台项目内容"
+  default_prompt: "Use $account-lizongheng to create evidence-backed short drama or commercial content with validated methods."

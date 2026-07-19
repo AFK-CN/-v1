@@ -5,28 +5,143 @@ import json
 from pathlib import Path
 
 from .asset_builder import build_candidate_assets
-from .agent_registry import write_agent_registry, validate_agent_registry
+from .account_skills import (
+    audit_account_skill_v29_compatibility,
+    resolve_account_skill,
+    sync_registry,
+    upgrade_all_formal_account_skills_v29,
+    upgrade_formal_account_skill_v29,
+    validate_registry,
+    write_account_indexes,
+)
 from .candidate_search import search_candidates
 from .call_resolver import resolve_call
 from .dashboard import write_dashboard
-from .evolution import write_evolution_report
+from .distribution import audit_distribution, export_system_package
+from .expression_assets import validate_expression_asset_file
+from .formal_search import build_formal_search_index, search_formal
 from .indexer import write_indexes
-from .memory import create_memory_candidate, evaluate_memory_capture, list_memory
+from .production_memory import (
+    check_topics,
+    initialize_database as initialize_production_memory,
+    record_feedback,
+    record_production,
+    record_topics,
+    review_context,
+)
+from .release_gate import DEFAULT_MAX_SEARCH_MS, DEFAULT_SMOKE_QUERY, run_release_gate
 from .reorganizer import apply_reorganization_plan, initialize_layer_structure, write_reorganization_plan
 from .review_report import write_review_report
 from .runtime import doctor_runtime, health_gate, initialize_runtime, mark_dirty, repair_runtime
-from .skill_package import write_skill_packages
-from .web_console import serve as serve_web_console
+from .skill_package import sync_installed_skill_packages, write_skill_packages
 from .scanner import write_scan_report
 from .system_cleaner import audit_system_boundaries, rewrite_legacy_path_references
 from .task_runner import create_task, finish_task
+from .user_layer import initialize_user_layer, validate_user_layer
 from .validator import validate_system
 from tools.creator_db_export import export_creator_database
 from tools import account_learning_pipeline, image_text_learning
 from tools.account_learning_card import validate_card_file
 from tools.sqlite_ingest import ingest_sqlite_database, sqlite_ingest_status
-from tools.video_learning_account_ingest import AccountIngestConfig, ingest_directions as ingest_video_learning_directions
-from tools.video_learning_card_validator import validate_cards as validate_video_learning_cards
+
+
+def compact_sqlite_result(root: Path, payload: dict) -> dict:
+    database = str(payload.get("database") or "")
+    try:
+        database_path = Path(database)
+        if database_path.is_absolute():
+            database = str(database_path.resolve().relative_to(root.resolve()))
+    except (OSError, ValueError):
+        database = Path(database).name if database else ""
+    accounts = []
+    for item in payload.get("accounts", []) if isinstance(payload.get("accounts"), list) else []:
+        if not isinstance(item, dict):
+            continue
+        accounts.append(
+            {
+                "platform": item.get("platform", ""),
+                "account_name": item.get("account_name", ""),
+                "content_count": item.get("content_count", 0),
+            }
+        )
+    tables = [item for item in payload.get("tables", []) if isinstance(item, dict)]
+    result = {
+        key: payload[key]
+        for key in ("ok", "status", "batch_id", "latest_batch_id", "latest_batch_dir", "content", "comments", "candidate_count", "missing_stable_ids")
+        if key in payload
+    }
+    result.update(
+        {
+            "database": database,
+            "account_count": len(accounts),
+            "accounts": accounts,
+            "tables": {
+                "count": len(tables),
+                "nonempty_count": sum(int(item.get("count", 0) or 0) > 0 for item in tables),
+                "row_count": sum(int(item.get("count", 0) or 0) for item in tables),
+            },
+            "output_mode": "compact",
+        }
+    )
+    last = payload.get("last_result")
+    if isinstance(last, dict):
+        result["last_result"] = {
+            key: last[key]
+            for key in ("ok", "status", "batch_id", "content", "comments", "candidate_count", "missing_stable_ids")
+            if key in last
+        }
+    return result
+
+
+def compact_account_learning_result(payload: dict) -> dict:
+    stages = payload.get("stages", []) if isinstance(payload.get("stages"), list) else []
+    validations = payload.get("validations", {})
+    if isinstance(validations, list):
+        validation_by_stage = {
+            str(item.get("stage_id") or ""): item for item in validations if isinstance(item, dict)
+        }
+    elif isinstance(validations, dict):
+        validation_by_stage = validations
+    else:
+        validation_by_stage = {}
+    stage_summary = []
+    for stage in stages:
+        if not isinstance(stage, dict):
+            continue
+        stage_id = str(stage.get("id") or "")
+        validation = validation_by_stage.get(stage_id, {})
+        stage_summary.append(
+            {
+                "id": stage_id,
+                "status": stage.get("status", ""),
+                "validation_ok": validation.get("ok") if isinstance(validation, dict) else None,
+            }
+        )
+    if not stage_summary:
+        for stage_id, validation in validation_by_stage.items():
+            stage_summary.append(
+                {
+                    "id": stage_id,
+                    "validation_ok": validation.get("ok") if isinstance(validation, dict) else None,
+                }
+            )
+    return {
+        key: payload[key]
+        for key in (
+            "ok",
+            "workflow_id",
+            "account_name",
+            "status",
+            "current_stage",
+            "completed_stage_failures",
+            "formal_write_allowed",
+        )
+        if key in payload
+    } | {
+        "stage_count": len(stages) or len(validation_by_stage),
+        "stages": stage_summary,
+        "output_mode": "compact",
+    }
 
 
 def main() -> int:
@@ -36,15 +151,6 @@ def main() -> int:
 
     subparsers.add_parser("scan", help="Scan files and cleanup candidates")
     subparsers.add_parser("index", help="Write knowledge indexes")
-    account_validate_parser = subparsers.add_parser("account-validate-cards", help="Validate learned cards for one account profile")
-    account_validate_parser.add_argument("--profile", required=True)
-    account_ingest_parser = subparsers.add_parser("account-ingest-direction", help="Ingest one learned direction into a formal account center")
-    account_ingest_parser.add_argument("--profile", required=True)
-    account_ingest_parser.add_argument("--account-id", required=True)
-    account_ingest_parser.add_argument("--account-name", required=True)
-    account_ingest_parser.add_argument("--formal-account-dir", required=True)
-    account_ingest_parser.add_argument("--direction", required=True)
-    account_ingest_parser.add_argument("--platform", default="抖音")
     account_learning_init = subparsers.add_parser("account-learning-init", help="Initialize the professional seven-stage account learning pipeline")
     account_learning_init.add_argument("--account-name", required=True)
     account_learning_init.add_argument("--source-scope", required=True)
@@ -54,9 +160,34 @@ def main() -> int:
     for account_learning_command in ("status", "validate"):
         command = subparsers.add_parser(f"account-learning-{account_learning_command}", help=f"{account_learning_command.title()} a professional account learning workflow")
         command.add_argument("--workflow-id", required=True)
+        command.add_argument("--verbose", action="store_true", help="Return full per-stage validation details")
     account_learning_refresh = subparsers.add_parser("account-learning-refresh", help="Refresh stored validation evidence for a rebuilt workflow")
     account_learning_refresh.add_argument("--workflow-id", required=True)
     account_learning_refresh.add_argument("--source-scope", default="")
+    account_learning_migrate = subparsers.add_parser(
+        "account-learning-migrate",
+        help="Backfill stage-6 account Skill candidate packages from approved formal account Skills",
+    )
+    account_learning_migrate_scope = account_learning_migrate.add_mutually_exclusive_group(required=True)
+    account_learning_migrate_scope.add_argument("--workflow-id")
+    account_learning_migrate_scope.add_argument("--all", action="store_true")
+    account_learning_migrate.add_argument("--force", action="store_true")
+    subparsers.add_parser(
+        "account-learning-v29-audit",
+        help="Audit all registered account workflows and same-account Skill snapshots against v2.9",
+    )
+    subparsers.add_parser(
+        "account-skills-v29-audit",
+        help="Audit every registered formal account Skill for the v2.9 no-loss upgrade contract",
+    )
+    account_skills_v29_upgrade = subparsers.add_parser(
+        "account-skills-v29-upgrade",
+        help="Add the v2.9 no-loss upgrade guard to registered formal account Skills",
+    )
+    account_skills_v29_scope = account_skills_v29_upgrade.add_mutually_exclusive_group(required=True)
+    account_skills_v29_scope.add_argument("--account-skill-id")
+    account_skills_v29_scope.add_argument("--all", action="store_true")
+    account_skills_v29_upgrade.add_argument("--user-confirmed", action="store_true")
     account_learning_complete = subparsers.add_parser("account-learning-complete-stage", help="Validate and complete one professional account learning stage")
     account_learning_complete.add_argument("--workflow-id", required=True)
     account_learning_complete.add_argument("--stage", required=True)
@@ -71,6 +202,23 @@ def main() -> int:
     search_parser.add_argument("--direction", default="")
     search_parser.add_argument("--limit", type=int, default=10)
     search_parser.add_argument("--include-raw", action="store_true")
+    subparsers.add_parser("formal-search-index", help="Rebuild the formal-only hybrid retrieval cache")
+    formal_search_parser = subparsers.add_parser(
+        "search-formal",
+        help="Search approved formal knowledge with BM25, local vector similarity, filters and reranking",
+    )
+    formal_search_parser.add_argument("--query", required=True)
+    formal_search_parser.add_argument("--account", default="")
+    formal_search_parser.add_argument("--direction", default="")
+    formal_search_parser.add_argument("--role", default="")
+    formal_search_parser.add_argument("--limit", type=int, default=8)
+    formal_search_parser.add_argument("--rebuild", action="store_true")
+    expression_validate_parser = subparsers.add_parser(
+        "expression-assets-validate",
+        help="Validate a per-account expression-asset candidate JSONL without activating account learning",
+    )
+    expression_validate_parser.add_argument("--path", required=True)
+    expression_validate_parser.add_argument("--account-id", default="")
     resolve_parser = subparsers.add_parser("resolve-call", help="Resolve a user prompt into a deterministic KB call plan")
     resolve_parser.add_argument("--text", required=True)
     subparsers.add_parser("report", help="Write review report")
@@ -80,19 +228,44 @@ def main() -> int:
     apply_reorg_parser.add_argument("--plan", required=True)
     apply_reorg_parser.add_argument("--allow-delete", action="store_true")
     subparsers.add_parser("validate-system", help="Validate minimum KB system behavior")
+    release_gate_parser = subparsers.add_parser(
+        "release-gate",
+        help="Run the complete engineering release gate for the current knowledge-base baseline",
+    )
+    release_gate_parser.add_argument("--query", default=DEFAULT_SMOKE_QUERY)
+    release_gate_parser.add_argument("--max-search-ms", type=float, default=DEFAULT_MAX_SEARCH_MS)
+    release_gate_parser.add_argument("--require-clean-git", action="store_true")
+    subparsers.add_parser("distribution-audit", help="Audit the system-only share package for user data, machine paths and secrets")
+    system_export_parser = subparsers.add_parser("system-export", help="Export a system-only package from the share manifest")
+    system_export_parser.add_argument("--output", required=True)
+    system_export_parser.add_argument("--force", action="store_true")
     clean_parser = subparsers.add_parser("clean-system-boundaries", help="Rewrite legacy knowledge paths and audit rule/knowledge boundaries")
     clean_parser.add_argument("--dry-run", action="store_true")
     subparsers.add_parser("dashboard", help="Write KB runtime dashboard and registry")
     subparsers.add_parser("skill-packages", help="Regenerate Skill packages from the shared contract")
-    agents_parser = subparsers.add_parser("agents", help="Regenerate or validate the user-syncable agent registry")
-    agents_parser.add_argument("--validate-only", action="store_true")
-    memory_parser = subparsers.add_parser("memory", help="List memory locations or create a pending memory candidate")
-    memory_parser.add_argument("--title", default="")
-    memory_parser.add_argument("--content", default="")
-    memory_parser.add_argument("--category", default="session_summary")
-    memory_parser.add_argument("--source", default="manual")
-    memory_parser.add_argument("--evaluate-text", default="")
-    memory_parser.add_argument("--dry-run", action="store_true")
+    skill_install_parser = subparsers.add_parser(
+        "skill-install",
+        help="Install or synchronize the global knowledge-base Skill entrypoints",
+    )
+    skill_install_parser.add_argument("--target-root", default="", help="Skills directory; defaults to $CODEX_HOME/skills")
+    skill_install_parser.add_argument("--dry-run", action="store_true")
+    user_init_parser = subparsers.add_parser("user-init", help="Initialize the portable user-layer structure and local production database")
+    user_init_parser.add_argument("--dry-run", action="store_true")
+    subparsers.add_parser("user-validate", help="Validate user-layer configuration, account Skill registry and production database")
+    subparsers.add_parser("account-skills-sync", help="Register formal account-center Skills in the user-layer registry")
+    account_skill_resolve = subparsers.add_parser("account-skill-resolve", help="Resolve an account name or alias to its formal account Skill")
+    account_skill_resolve.add_argument("--text", required=True)
+    subparsers.add_parser("production-memory-init", help="Initialize the local topic, production and feedback database")
+    for command_name in ("topic-memory-check", "topic-memory-record"):
+        command = subparsers.add_parser(command_name, help=f"{command_name.replace('-', ' ').title()} from a JSON list")
+        command.add_argument("--account-skill-id", required=True)
+        command.add_argument("--input", required=True, help="JSON file containing a list or an object with a topics list")
+    production_record = subparsers.add_parser("production-memory-record", help="Record one produced content item from JSON")
+    production_record.add_argument("--input", required=True)
+    feedback_record = subparsers.add_parser("feedback-memory-record", help="Record one feedback item from JSON")
+    feedback_record.add_argument("--input", required=True)
+    review_context_parser = subparsers.add_parser("review-context", help="Read compact production and feedback context for one content id")
+    review_context_parser.add_argument("--content-id", required=True)
     init_parser = subparsers.add_parser("init", help="Initialize or migrate the KB runtime lifecycle")
     init_parser.add_argument("--no-rebuild", action="store_true")
     init_parser.add_argument("--no-migrate", action="store_true")
@@ -106,7 +279,6 @@ def main() -> int:
     dirty_parser = subparsers.add_parser("mark-dirty", help="Increment the shared KB dirty generation")
     dirty_parser.add_argument("--reason", required=True)
     dirty_parser.add_argument("--path", action="append", default=[])
-    subparsers.add_parser("evolution-report", help="Write candidate-only evolution report")
     task_parser = subparsers.add_parser("task", help="Create a manual wakeup task")
     task_parser.add_argument("name")
     task_parser.add_argument("--task-command", default="")
@@ -114,11 +286,6 @@ def main() -> int:
     finish_parser.add_argument("task_id")
     finish_parser.add_argument("status", choices=["done", "failed", "paused"])
     finish_parser.add_argument("--summary", default="")
-    web_parser = subparsers.add_parser("web", help="Run the local knowledge-base console")
-    web_parser.add_argument("--root", default=".")
-    web_parser.add_argument("--host", default="127.0.0.1")
-    web_parser.add_argument("--port", type=int, default=8787)
-    web_parser.add_argument("--no-worker", action="store_true")
     export_parser = subparsers.add_parser("export-creator-db", help="Export one creator's database contents/comments and optionally write a Feishu sheet")
     export_parser.add_argument("--creator", required=True, help="Creator/blogger nickname to match")
     export_parser.add_argument("--platform", default="", help="Optional platform filter: douyin/xhs/weibo/bilibili/kuaishou/tieba/zhihu")
@@ -135,7 +302,9 @@ def main() -> int:
     sqlite_ingest_mode.add_argument("--dry-run", action="store_true", help="Preview changes without writing outputs")
     sqlite_ingest_parser.add_argument("--db-path", default="", help="SQLite database path, defaults to 数据/sqlite_tables.db")
     sqlite_ingest_parser.add_argument("--batch-id", default="", help="Optional deterministic batch id for tests or reruns")
-    subparsers.add_parser("sqlite-status", help="Show SQLite ingest state")
+    sqlite_ingest_parser.add_argument("--verbose", action="store_true", help="Return full account, user and table details")
+    sqlite_status_parser = subparsers.add_parser("sqlite-status", help="Show SQLite ingest state")
+    sqlite_status_parser.add_argument("--verbose", action="store_true", help="Return full account, user and table details")
     image_text_env_parser = subparsers.add_parser("image-text-env", help="Check image-text learning tool availability")
     image_text_env_parser.add_argument("--paddleocr-command", default="")
     image_text_env_parser.add_argument("--image2-command", default="")
@@ -144,6 +313,7 @@ def main() -> int:
     image_text_ingest_parser.add_argument("--profile-id", default="")
     image_text_ingest_parser.add_argument("--platform", default="xhs")
     image_text_ingest_parser.add_argument("--input-dir", required=True)
+    image_text_ingest_parser.add_argument("--posts-file", default="", help="JSON/JSONL manifest grouping ordered images with title, caption and tags")
     image_text_ingest_parser.add_argument("--workflow-id", default="")
     image_text_ingest_parser.add_argument("--ocr-engine", default="none")
     image_text_ingest_parser.add_argument("--ocr-lang", default="chi_sim+eng")
@@ -167,19 +337,6 @@ def main() -> int:
         result = write_scan_report(root)
     elif args.command == "index":
         result = write_indexes(root)
-    elif args.command == "account-validate-cards":
-        result = validate_video_learning_cards(root, args.profile)
-        if not result.get("valid", False):
-            exit_code = 2
-    elif args.command == "account-ingest-direction":
-        config = AccountIngestConfig.for_profile(
-            profile_id=args.profile,
-            account_id=args.account_id,
-            account_name=args.account_name,
-            platform=args.platform,
-            formal_account_dir=Path(args.formal_account_dir),
-        )
-        result = ingest_video_learning_directions(root, config, [args.direction])
     elif args.command == "account-learning-init":
         result = account_learning_pipeline.init_workflow(
             root,
@@ -191,16 +348,55 @@ def main() -> int:
         )
     elif args.command == "account-learning-status":
         result = account_learning_pipeline.workflow_status(root, args.workflow_id)
+        if not result.get("ok", False):
+            exit_code = 2
+        if not args.verbose:
+            result = compact_account_learning_result(result)
     elif args.command == "account-learning-validate":
         result = account_learning_pipeline.validate_workflow(root, args.workflow_id)
         if not result.get("ok", False):
             exit_code = 2
+        if not args.verbose:
+            result = compact_account_learning_result(result)
     elif args.command == "account-learning-refresh":
         result = account_learning_pipeline.refresh_workflow(
             root,
             args.workflow_id,
             source_scope=args.source_scope,
         )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-learning-migrate":
+        if args.all:
+            result = account_learning_pipeline.migrate_all_account_skill_candidates(root, force=args.force)
+        else:
+            result = account_learning_pipeline.migrate_account_skill_candidate(
+                root,
+                args.workflow_id,
+                force=args.force,
+            )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-learning-v29-audit":
+        result = account_learning_pipeline.audit_all_account_learning_v29(root)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-skills-v29-audit":
+        result = audit_account_skill_v29_compatibility(root)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-skills-v29-upgrade":
+        if args.all:
+            result = upgrade_all_formal_account_skills_v29(
+                root,
+                user_confirmed=args.user_confirmed,
+            )
+        else:
+            result = upgrade_formal_account_skill_v29(
+                root,
+                args.account_skill_id,
+                user_confirmed=args.user_confirmed,
+            )
         if not result.get("ok", False):
             exit_code = 2
     elif args.command == "account-learning-complete-stage":
@@ -232,6 +428,28 @@ def main() -> int:
         )
         if result.get("status") == "requires_init":
             exit_code = 2
+    elif args.command == "formal-search-index":
+        result = build_formal_search_index(root)
+    elif args.command == "search-formal":
+        result = search_formal(
+            root,
+            query=args.query,
+            account=args.account,
+            direction=args.direction,
+            document_role=args.role,
+            limit=args.limit,
+            rebuild=args.rebuild,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "expression-assets-validate":
+        result = validate_expression_asset_file(
+            root,
+            Path(args.path),
+            expected_account_id=args.account_id,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
     elif args.command == "resolve-call":
         result = resolve_call(root, args.text)
         if not result.get("ok", False):
@@ -246,6 +464,25 @@ def main() -> int:
         result = apply_reorganization_plan(root, root / args.plan, allow_delete=args.allow_delete)
     elif args.command == "validate-system":
         result = validate_system(root)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "release-gate":
+        result = run_release_gate(
+            root,
+            query=args.query,
+            max_search_ms=max(float(args.max_search_ms), 1.0),
+            require_clean_git=args.require_clean_git,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "distribution-audit":
+        result = audit_distribution(root)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "system-export":
+        result = export_system_package(root, Path(args.output), force=args.force)
+        if not result.get("ok", False):
+            exit_code = 2
     elif args.command == "clean-system-boundaries":
         rewrite_result = rewrite_legacy_path_references(root, dry_run=args.dry_run)
         audit_result = audit_system_boundaries(root)
@@ -254,23 +491,66 @@ def main() -> int:
             exit_code = 2
     elif args.command == "dashboard":
         result = write_dashboard(root)
-    elif args.command == "skill-packages":
-        result = write_skill_packages(root)
-    elif args.command == "agents":
-        result = validate_agent_registry(root) if args.validate_only else write_agent_registry(root)
         if not result.get("ok", False):
             exit_code = 2
-    elif args.command == "memory":
-        if args.evaluate_text:
-            result = evaluate_memory_capture(root, args.evaluate_text, source=args.source, dry_run=args.dry_run)
-        elif args.title or args.content:
-            if not args.title or not args.content:
-                result = {"ok": False, "error": "memory_requires_title_and_content"}
-                exit_code = 2
-            else:
-                result = create_memory_candidate(root, args.title, args.content, category=args.category, source=args.source)
+    elif args.command == "skill-packages":
+        result = write_skill_packages(root)
+    elif args.command == "skill-install":
+        result = sync_installed_skill_packages(
+            root,
+            Path(args.target_root) if args.target_root else None,
+            dry_run=args.dry_run,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "user-init":
+        result = initialize_user_layer(root, dry_run=args.dry_run)
+    elif args.command == "user-validate":
+        result = validate_user_layer(root)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "account-skills-sync":
+        account_index_result = write_account_indexes(root)
+        result = sync_registry(root)
+        result["account_index"] = account_index_result
+        registry_validation = validate_registry(root)
+        result["validation"] = registry_validation
+        if (
+            not account_index_result.get("ok", False)
+            or not result.get("ok", False)
+            or not registry_validation.get("ok", False)
+        ):
+            exit_code = 2
+    elif args.command == "account-skill-resolve":
+        result = resolve_account_skill(root, args.text)
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "production-memory-init":
+        result = initialize_production_memory(root)
+    elif args.command in {"topic-memory-check", "topic-memory-record"}:
+        input_path = Path(args.input)
+        if not input_path.is_absolute():
+            input_path = root / input_path
+        payload = json.loads(input_path.read_text(encoding="utf-8"))
+        topics = payload.get("topics", []) if isinstance(payload, dict) else payload
+        if not isinstance(topics, list):
+            raise ValueError("topic input must be a JSON list or an object with a topics list")
+        if args.command == "topic-memory-check":
+            result = check_topics(root, args.account_skill_id, topics)
         else:
-            result = list_memory(root)
+            result = record_topics(root, args.account_skill_id, topics)
+    elif args.command in {"production-memory-record", "feedback-memory-record"}:
+        input_path = Path(args.input)
+        if not input_path.is_absolute():
+            input_path = root / input_path
+        payload = json.loads(input_path.read_text(encoding="utf-8"))
+        if not isinstance(payload, dict):
+            raise ValueError("production memory input must be a JSON object")
+        result = record_production(root, payload) if args.command == "production-memory-record" else record_feedback(root, payload)
+    elif args.command == "review-context":
+        result = review_context(root, args.content_id)
+        if not result.get("ok", False):
+            exit_code = 2
     elif args.command == "init":
         try:
             result = initialize_runtime(
@@ -326,12 +606,8 @@ def main() -> int:
             exit_code = exit_code or 3
     elif args.command == "mark-dirty":
         result = mark_dirty(root, args.reason, args.path)
-    elif args.command == "evolution-report":
-        result = write_evolution_report(root)
     elif args.command == "task":
         result = create_task(root, args.name, command=args.task_command)
-    elif args.command == "web":
-        return serve_web_console(root, host=args.host, port=args.port, start_worker=not args.no_worker)
     elif args.command == "export-creator-db":
         result = export_creator_database(
             root,
@@ -352,10 +628,14 @@ def main() -> int:
             db_path=Path(args.db_path) if args.db_path else None,
             batch_id=args.batch_id or None,
         )
+        if not args.verbose:
+            result = compact_sqlite_result(root, result)
         if not result.get("ok", False):
             exit_code = 2
     elif args.command == "sqlite-status":
         result = sqlite_ingest_status(root)
+        if not args.verbose:
+            result = compact_sqlite_result(root, result)
         if not result.get("ok", False):
             exit_code = 2
     elif args.command == "image-text-env":

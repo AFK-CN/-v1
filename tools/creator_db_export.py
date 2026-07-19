@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import csv
 import json
+import os
 import re
+import shutil
 import sqlite3
 import subprocess
 from dataclasses import dataclass
@@ -11,7 +13,17 @@ from pathlib import Path
 from typing import Any
 
 
-LARK_CLI = "/Users/lao_wu/.local/bin/lark-cli"
+def default_lark_cli() -> str:
+    configured = str(os.environ.get("LARK_CLI") or "").strip()
+    if configured:
+        return configured
+    found = shutil.which("lark-cli")
+    if found:
+        return found
+    return str(Path.home() / ".local/bin/lark-cli")
+
+
+LARK_CLI = default_lark_cli()
 DEFAULT_DB_PATH = Path("数据") / "sqlite_tables.db"
 DEFAULT_OUTPUT_DIR = Path("90_Temp") / "exports" / "creator_db"
 MAX_FEISHU_BATCH_ROWS = 400
