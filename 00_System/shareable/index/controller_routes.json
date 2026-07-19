@@ -104,6 +104,7 @@
       "read_first": [
         "00_System/shareable/skills/active/account-learning/SKILL.md",
         "00_System/shareable/config/account_learning_pipeline.json",
+        "00_System/shareable/config/expression_asset_contract.json",
         "00_System/shareable/config/account_learning_card_contract.json",
         "00_System/shareable/config/account_skill_contract.json"
       ],
@@ -113,13 +114,16 @@
         "tools.kb.cli account-learning-complete-stage",
         "tools.kb.cli account-learning-validate",
         "tools.kb.cli account-learning-validate-card",
+        "tools.kb.cli account-learning-upgrade-expression-assets",
+        "tools.kb.cli expression-assets-validate",
+        "tools.kb.cli expression-assets-build-package",
         "tools.kb.cli account-skills-v29-audit",
         "tools.kb.cli account-skills-v29-upgrade",
         "tools.kb.cli account-learning-v29-audit",
         "tools.kb.cli account-skills-sync",
         "tools.account_offline_source"
       ],
-      "output_contract": "输出七阶段状态、学习卡、验证方法、拒绝项、压力测试、生产交接和不可调用的账号 Skill 候选；视觉账号在阶段 6 还必须输出按生产角色与风险覆盖的账号专属视觉参考候选、来源隔离状态和反例边界；图文学习卡必须包含发布文案机制、逐图视觉机制、组图叙事和跨模态协同；用户审核与正式写入验证通过后，返回轻量数据源状态、内容数、方向数、体积、manifest、差异与缺口。",
+      "output_contract": "输出同一套七阶段状态、学习卡、验证方法、拒绝项、压力测试、生产交接和不可调用的账号 Skill 候选；表达资产并行链必须逐条列出并拆解开头及内容过程中的钩子、金句、句式、结构单元、转场、开头/结尾动作、痛点、改编骨架与反例，并在阶段 6 同时输出机器 JSONL/manifest 与中文图谱；视觉账号还必须输出按生产角色与风险覆盖的账号专属视觉参考候选、来源隔离状态和反例边界；图文学习卡必须包含发布文案机制、逐图视觉机制、组图叙事和跨模态协同；用户审核与正式写入验证通过后，返回轻量数据源状态、内容数、方向数、体积、manifest、差异与缺口。",
       "write_policy": "学习阶段只写候选；系统 Skill 只保存通用角色、风险和来源隔离规则，不保存账号内容；账号视觉资产只进入该账号候选或正式包；用户审核后才写正式账号中心 skill/ 并同步用户层注册表；正式验证通过后才组建轻量数据源，已有包未经批准不覆盖。"
     },
     {

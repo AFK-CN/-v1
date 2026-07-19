@@ -44,6 +44,9 @@ class ExpressionAssetContractTests(unittest.TestCase):
             "asset_id": asset_id,
             "asset_type": "hook",
             "account_id": account_id,
+            "source_surface": "video_spoken_middle",
+            "content_position": "middle",
+            "functional_role": "retention",
             "knowledge_layer": "candidate",
             "callable": False,
             "method_evidence_eligible": False,
@@ -80,6 +83,23 @@ class ExpressionAssetContractTests(unittest.TestCase):
             },
             "source_excerpt": "一段仅保存在账号候选区的来源摘录",
             "abstracted_pattern": "具体处境 + 明确矛盾 + 继续阅读收益",
+            "pattern_variables": {
+                "hook_role": "conflict",
+                "situation": "具体处境",
+                "tension": "明确矛盾",
+                "payoff": "继续阅读收益",
+            },
+            "adaptation_template": "当[具体处境]出现[明确矛盾]时，承诺后文给出[可验证收益]。",
+            "source_usage": {
+                "display_eligible": True,
+                "retrieval_eligible": True,
+                "generation_eligible": False,
+            },
+            "pattern_usage": {
+                "candidate_reference_eligible": True,
+                "production_eligible": False,
+                "requires_user_confirmation": True,
+            },
             "structural_usefulness_score": 78,
             "performance_evidence": {
                 "status": "not_claimed",
@@ -152,27 +172,36 @@ class ExpressionAssetContractTests(unittest.TestCase):
         item["registry_record_sha256"] = canonical_sha256(item)
         return item
 
-    def test_contract_is_generic_and_active_learning_integration_remains_unconfirmed(self) -> None:
+    def test_contract_is_generic_and_integrated_into_the_single_active_pipeline(self) -> None:
         failures: list[str] = []
         validate_expression_asset_contract(self.contract, failures)
 
         self.assertEqual(failures, [])
-        self.assertEqual(self.contract["scope"], "generic_contract_only")
-        self.assertFalse(self.contract["activation_boundary"]["active_account_learning_integration"])
-        self.assertTrue(self.contract["activation_boundary"]["needs_user_confirmation"])
+        self.assertEqual(self.contract["scope"], "generic_contract_and_active_pipeline")
+        self.assertTrue(self.contract["activation_boundary"]["active_account_learning_integration"])
+        self.assertFalse(self.contract["activation_boundary"]["needs_user_confirmation"])
         pipeline = json.loads(
             Path("00_System/shareable/config/account_learning_pipeline.json").read_text(encoding="utf-8")
         )
-        self.assertEqual(pipeline["version"], "2.9")
-        self.assertNotIn("expression_assets", json.dumps(pipeline, ensure_ascii=False))
+        self.assertEqual(pipeline["version"], "3.0")
+        self.assertIn("expression_asset_learning", pipeline)
+        self.assertEqual([item["id"] for item in pipeline["stages"]], [
+            "stage0_account_overview",
+            "stage1_parallel_extraction",
+            "stage2_triple_verification",
+            "stage3_ria_construction",
+            "stage4_method_linking",
+            "stage5_pressure_test",
+            "stage6_learning_delivery",
+        ])
         active_skill = Path("00_System/shareable/skills/active/account-learning/SKILL.md").read_text(encoding="utf-8")
-        self.assertNotIn("expression_asset", active_skill)
-        self.assertNotIn("表达资产", active_skill)
+        self.assertIn("expression-asset-learning.md", active_skill)
+        self.assertIn("同一七阶段", active_skill)
         proposal = Path(
             "00_System/shareable/skills/proposals/account-learning-expression-assets-v3.0.md"
         ).read_text(encoding="utf-8")
-        self.assertIn("status: proposal", proposal)
-        self.assertIn("needs_user_confirmation: true", proposal)
+        self.assertIn("status: approved_and_implemented", proposal)
+        self.assertIn("needs_user_confirmation: false", proposal)
 
     def test_valid_candidate_record_separates_source_pattern_score_and_performance(self) -> None:
         record = self.valid_record()
@@ -243,12 +272,16 @@ class ExpressionAssetContractTests(unittest.TestCase):
         record["source"]["evidence_coordinate"] = "evidence/account-beta/other.md:L1-L2"
         record["lifecycle_state"] = "pressure_tested"
         record["claimed_effectiveness"] = "proven viral"
+        record["source_usage"]["generation_input"] = True
+        record["pattern_usage"]["auto_publish"] = True
 
         errors = validate_expression_asset_record(record, self.contract)
 
         self.assertIn("evidence_coordinate_source_mismatch", errors)
         self.assertIn("transition_history_does_not_reach_state", errors)
         self.assertIn("unknown_field:claimed_effectiveness", errors)
+        self.assertIn("source_usage_unknown_field:generation_input", errors)
+        self.assertIn("pattern_usage_unknown_field:auto_publish", errors)
 
     def test_transition_and_gate_evidence_cannot_use_another_account_namespace(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
@@ -516,7 +549,7 @@ class ExpressionAssetContractTests(unittest.TestCase):
     def test_malformed_contract_fails_safe_validation(self) -> None:
         payload = deepcopy(self.contract)
         payload["storage"]["candidate_root_template"] = "00_System/shareable/assets/{account_id}/"
-        payload["activation_boundary"]["active_account_learning_integration"] = True
+        payload["activation_boundary"]["active_account_learning_integration"] = False
         failures: list[str] = []
 
         validate_expression_asset_contract(payload, failures)

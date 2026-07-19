@@ -83,6 +83,22 @@ IMAGE_TEXT_VISUAL_KEYWORDS = {
     "save_worthiness": ("收藏理由", "回看", "判断标准", "参考模板"),
 }
 
+EXPRESSION_SURFACES = (
+    "publish_title",
+    "publish_body_opening",
+    "publish_body_middle",
+    "publish_body_ending",
+    "publish_topic",
+    "video_spoken_opening",
+    "video_spoken_middle",
+    "video_spoken_ending",
+    "video_visual_cover",
+    "video_visual_opening",
+    "video_visual_middle",
+    "video_visual_ending",
+    "cross_modal_coordination",
+)
+
 
 def read_jsonl(path: Path) -> list[dict[str, Any]]:
     if not path.exists():
@@ -301,6 +317,42 @@ def _relative_card_ref(path: Path, root: Path) -> str:
         return path.relative_to(root).as_posix()
     except ValueError:
         return path.as_posix()
+
+
+def _expression_audit_surfaces(text: str, content_form: str) -> list[str]:
+    sections = named_sections(text)
+    publish = sections.get("发布内容层学习", "") + "\n" + sections.get("发布资产学习", "")
+    performance = sections.get("视频/图文表现层学习", "")
+    structure = sections.get("内容结构", "")
+    golden = sections.get("金句与表达素材", "") + "\n" + sections.get("表达素材与金句提炼", "")
+    surfaces: list[str] = []
+    if re.search(r"(?:^|\n)\s*[-*]?\s*标题(?:原文)?\s*[：:]", publish):
+        surfaces.append("publish_title")
+    if any(marker in publish for marker in ("正文", "文案")):
+        surfaces.append("publish_body_middle")
+    if any(marker in publish for marker in ("正文入口", "发布开头", "开头方式")):
+        surfaces.append("publish_body_opening")
+    if any(marker in publish for marker in ("结尾方式", "正文结尾", "发布结尾")):
+        surfaces.append("publish_body_ending")
+    if any(marker in publish for marker in ("话题", "标签")):
+        surfaces.append("publish_topic")
+    is_image_text = "图文" in content_form
+    if performance:
+        if not is_image_text:
+            surfaces.append("video_visual_middle")
+            if any(marker in performance for marker in ("封面", "首帧", "第一眼")):
+                surfaces.extend(["video_visual_cover", "video_visual_opening"])
+            if any(marker in performance for marker in ("结尾", "末帧", "收束")):
+                surfaces.append("video_visual_ending")
+        if any(marker in performance for marker in ("协同", "文图一致", "对齐")):
+            surfaces.append("cross_modal_coordination")
+    if not is_image_text and (structure or golden):
+        surfaces.append("video_spoken_middle")
+        if any(marker in structure + golden for marker in ("开头", "黄金3秒", "起话", "第一句")):
+            surfaces.append("video_spoken_opening")
+        if any(marker in structure + golden for marker in ("结尾", "收束", "最后一句")):
+            surfaces.append("video_spoken_ending")
+    return list(dict.fromkeys(surfaces))
 
 
 def _facet_status(label: str, value: str) -> str:
@@ -616,6 +668,13 @@ def extract_stage1_candidates(
     direction_counts: Counter[str] = Counter()
     compatibility_counts: Counter[str] = Counter()
     publish_copy_records: list[dict[str, Any]] = []
+    expression_lane = config.get("expression_asset_learning", {})
+    expression_lane_enabled = bool(
+        expression_lane.get("schema_id")
+        and state.get("expression_asset_schema") == expression_lane.get("schema_id")
+    )
+    expression_audit_items: list[dict[str, Any]] = []
+    expression_surface_coverage: Counter[str] = Counter({surface: 0 for surface in EXPRESSION_SURFACES})
 
     for path in cards:
         text = path.read_text(encoding="utf-8")
@@ -631,6 +690,30 @@ def extract_stage1_candidates(
         direction_counts[direction] += 1
         if source_id not in inventory_ids:
             missing_inventory.append(source_id)
+        if expression_lane_enabled:
+            surfaces = _expression_audit_surfaces(text, content_form)
+            expression_surface_coverage.update(surfaces)
+            expression_audit_items.append(
+                {
+                    "source_id": source_id,
+                    "card_path": _relative_card_ref(path, root),
+                    "content_form": content_form or "unknown",
+                    "available_surfaces": surfaces,
+                    "status": "awaiting_expression_deconstruction",
+                    "required_asset_types": [
+                        "hook",
+                        "golden_line",
+                        "sentence_pattern",
+                        "structure_unit",
+                        "transition",
+                        "opening_move",
+                        "ending_move",
+                        "pain_point",
+                        "adaptation_template",
+                        "anti_pattern",
+                    ],
+                }
+            )
         for lens in LENSES:
             summary = evidence_summary(text, SECTION_HEADINGS[lens])
             if not summary:
@@ -736,6 +819,8 @@ def extract_stage1_candidates(
         "publish_copy_completed_count": publish_copy_study["completed_source_count"],
         "publish_copy_deferred_count": publish_copy_study["deferred_source_count"],
         "formal_write_allowed": False,
+        "expression_asset_audit_source_count": len(expression_audit_items),
+        "expression_asset_sample_generated": False,
     }
     if not apply:
         return result
@@ -758,6 +843,28 @@ def extract_stage1_candidates(
     state["publish_copy_expected_count"] = publish_copy_study["expected_source_count"]
     state["publish_copy_completed_count"] = publish_copy_study["completed_source_count"]
     state["publish_copy_deferred_count"] = publish_copy_study["deferred_source_count"]
+    if expression_lane_enabled:
+        expression_root = workflow / str(expression_lane.get("root") or "expression_assets")
+        expression_root.mkdir(parents=True, exist_ok=True)
+        audit = {
+            "schema_version": "expression_asset_audit_v1",
+            "status": "completed",
+            "workflow_id": workflow_id,
+            "account_id": str(state.get("account_id") or state.get("profile_id") or workflow_id),
+            "source_count": len(expression_audit_items),
+            "surface_coverage": dict(sorted(expression_surface_coverage.items())),
+            "extraction_started": False,
+            "queue_file": "extraction_queue.jsonl",
+            "sample_max_items": 20,
+            "formal_write": False,
+            "callable": False,
+            "account_assets_generated": False,
+        }
+        (expression_root / "audit_report.json").write_text(
+            json.dumps(audit, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        write_jsonl(expression_root / "extraction_queue.jsonl", expression_audit_items)
     state_path.write_text(json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     report_path = workflow / "STAGE1_EXTRACTION_REPORT.md"
     report_path.write_text(
@@ -779,6 +886,7 @@ def extract_stage1_candidates(
                 "- 每个视角从不同卡片章节独立提取，不沿用其他视角的录取判断。",
                 "- 视频下载、逐字稿、抽帧和图文 OCR 缺口继续保留，阶段 2 不得把缺证据记录伪装为已验证。",
                 "- 所有内容形态都生成发布文案专项观察；统一图文卡额外生成图片深度派生观察。两者仍归入 expression 与 structures，不增加视角，也不自动晋升方法。",
+                "- 表达资产链只生成证据覆盖审计与待拆解队列；小样本必须逐条拆解、绑定来源权威并通过校验，代码不会用关键词冒充钩子或金句。",
                 "",
             ]
         ),

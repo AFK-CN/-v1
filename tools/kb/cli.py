@@ -41,6 +41,7 @@ from .user_layer import initialize_user_layer, validate_user_layer
 from .validator import validate_system
 from tools.creator_db_export import export_creator_database
 from tools import account_learning_pipeline, image_text_learning
+from tools.account_expression_assets import build_expression_asset_package
 from tools.account_learning_card import validate_card_file
 from tools.sqlite_ingest import ingest_sqlite_database, sqlite_ingest_status
 
@@ -164,6 +165,12 @@ def main() -> int:
     account_learning_refresh = subparsers.add_parser("account-learning-refresh", help="Refresh stored validation evidence for a rebuilt workflow")
     account_learning_refresh.add_argument("--workflow-id", required=True)
     account_learning_refresh.add_argument("--source-scope", default="")
+    account_learning_expression_upgrade = subparsers.add_parser(
+        "account-learning-upgrade-expression-assets",
+        help="Upgrade an existing saved workflow in place to the expression-asset lane",
+    )
+    account_learning_expression_upgrade.add_argument("--workflow-id", required=True)
+    account_learning_expression_upgrade.add_argument("--user-confirmed", action="store_true")
     account_learning_migrate = subparsers.add_parser(
         "account-learning-migrate",
         help="Backfill stage-6 account Skill candidate packages from approved formal account Skills",
@@ -215,10 +222,18 @@ def main() -> int:
     formal_search_parser.add_argument("--rebuild", action="store_true")
     expression_validate_parser = subparsers.add_parser(
         "expression-assets-validate",
-        help="Validate a per-account expression-asset candidate JSONL without activating account learning",
+        help="Validate a per-account expression-asset candidate JSONL inside the active candidate-only pipeline",
     )
     expression_validate_parser.add_argument("--path", required=True)
     expression_validate_parser.add_argument("--account-id", default="")
+    expression_validate_parser.add_argument("--workflow-id", default="")
+    expression_package_parser = subparsers.add_parser(
+        "expression-assets-build-package",
+        help="Build the candidate-only machine and human expression-asset delivery package",
+    )
+    expression_package_parser.add_argument("--path", required=True)
+    expression_package_parser.add_argument("--account-id", required=True)
+    expression_package_parser.add_argument("--workflow-id", default="")
     resolve_parser = subparsers.add_parser("resolve-call", help="Resolve a user prompt into a deterministic KB call plan")
     resolve_parser.add_argument("--text", required=True)
     subparsers.add_parser("report", help="Write review report")
@@ -366,6 +381,14 @@ def main() -> int:
         )
         if not result.get("ok", False):
             exit_code = 2
+    elif args.command == "account-learning-upgrade-expression-assets":
+        result = account_learning_pipeline.upgrade_expression_asset_lane(
+            root,
+            args.workflow_id,
+            user_confirmed=args.user_confirmed,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
     elif args.command == "account-learning-migrate":
         if args.all:
             result = account_learning_pipeline.migrate_all_account_skill_candidates(root, force=args.force)
@@ -447,6 +470,16 @@ def main() -> int:
             root,
             Path(args.path),
             expected_account_id=args.account_id,
+            expected_workflow_id=args.workflow_id,
+        )
+        if not result.get("ok", False):
+            exit_code = 2
+    elif args.command == "expression-assets-build-package":
+        result = build_expression_asset_package(
+            root,
+            Path(args.path),
+            expected_account_id=args.account_id,
+            expected_workflow_id=args.workflow_id,
         )
         if not result.get("ok", False):
             exit_code = 2

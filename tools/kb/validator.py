@@ -29,6 +29,8 @@ REQUIRED_FILES = (
     "00_System/shareable/docs/project_use/用户操作台.md",
     "00_System/shareable/docs/project_use/本机使用速查.md",
     "00_System/shareable/docs/project_use/系统升级3.0记录.md",
+    "00_System/shareable/docs/project_use/系统升级3.1记录.md",
+    "00_System/shareable/docs/releases/3.1.0.md",
     f"{SYSTEM_RULES_DIR}/初始化生命周期.md",
     f"{SYSTEM_RULES_DIR}/输出契约.md",
     f"{SYSTEM_CONFIG_DIR}/output_contracts.json",
@@ -69,6 +71,7 @@ REQUIRED_FILES = (
     "00_System/shareable/skills/active/account-learning/references/unified-learning-card-standard.md",
     "00_System/shareable/skills/active/account-learning/references/professional-extraction-validation.md",
     "00_System/shareable/skills/active/account-learning/references/capability-preserving-upgrades.md",
+    "00_System/shareable/skills/active/account-learning/references/expression-asset-learning.md",
     "00_System/shareable/skills/active/content-review/SKILL.md",
     "00_System/shareable/skills/active/content-review/agents/openai.yaml",
     "00_System/shareable/skills/rollback.md",
@@ -332,6 +335,9 @@ def validate_system_skill_docs(root: Path, failed: list[str]) -> None:
         "upgrades": read_text(
             root / "00_System/shareable/skills/active/account-learning/references/capability-preserving-upgrades.md"
         ),
+        "expression_assets": read_text(
+            root / "00_System/shareable/skills/active/account-learning/references/expression-asset-learning.md"
+        ),
         "processing": read_text(root / "00_System/shareable/skills/active/content-processing/references/pipeline.md"),
     }
     required_phrases = {
@@ -353,6 +359,9 @@ def validate_system_skill_docs(root: Path, failed: list[str]) -> None:
         "account_upgrade_missing_multi_image_mother": ("upgrades", "continuity_mother_asset_id"),
         "account_upgrade_missing_formal_v29_audit": ("upgrades", "account-skills-v29-audit"),
         "account_upgrade_missing_all_account_v29_audit": ("upgrades", "account-learning-v29-audit"),
+        "account_expression_missing_single_workflow_boundary": ("expression_assets", "不是第二套工作流"),
+        "account_expression_missing_mid_content_hooks": ("expression_assets", "内容过程"),
+        "account_expression_missing_source_generation_boundary": ("expression_assets", "原文永远不可作为生成输入"),
         "content_processing_missing_rough_pool": ("processing", "完整粗学与选题池"),
         "content_processing_missing_deep_plan": ("processing", "deep_learning_plan.json"),
     }
@@ -635,7 +644,7 @@ def validate_account_learning_pipeline(payload: dict[str, Any], failed: list[str
     if not payload:
         failed.append("account_learning_pipeline_missing")
         return
-    if payload.get("version") != "2.9":
+    if payload.get("version") != "3.0":
         failed.append("account_learning_pipeline_version_invalid")
     expected_stages = [
         "stage0_account_overview",
@@ -748,6 +757,35 @@ def validate_account_learning_pipeline(payload: dict[str, Any], failed: list[str
         failed.append("account_learning_pipeline_account_skill_manifest_missing")
     if handoff.get("candidate_callable") is not False or handoff.get("user_review_required") is not True:
         failed.append("account_learning_pipeline_account_skill_gate_invalid")
+    expression = payload.get("expression_asset_learning", {})
+    if (
+        expression.get("schema_id") != "expression_asset_learning_v3"
+        or expression.get("contract_version") != "3.1"
+        or expression.get("applies_to_new_workflows") is not True
+        or expression.get("legacy_workflow_migration") != "explicit_only"
+        or expression.get("candidate_only") is not True
+        or expression.get("formal_write_allowed") is not False
+        or expression.get("source_excerpt_generation_eligible") is not False
+        or expression.get("abstract_pattern_production_eligible_before_approval") is not False
+    ):
+        failed.append("account_learning_pipeline_expression_lane_invalid")
+    expression_stages = expression.get("stages", {}) if isinstance(expression, dict) else {}
+    if set(expression_stages) != set(expected_stages):
+        failed.append("account_learning_pipeline_expression_stage_mapping_invalid")
+    stage1_expression = expression_stages.get("stage1_parallel_extraction", {})
+    if not {"audit_report.json", "expression_assets.sample.jsonl", "source_registry.jsonl"}.issubset(
+        set(map(str, stage1_expression.get("required_files", [])))
+    ):
+        failed.append("account_learning_pipeline_expression_sample_gate_missing")
+    stage6_expression = expression_stages.get("stage6_learning_delivery", {})
+    if not {
+        "expression_assets.jsonl",
+        "manifest.json",
+        "表达资产总览.md",
+        "发布层与视频层协同图谱.md",
+        "单条内容拆解索引.md",
+    }.issubset(set(map(str, stage6_expression.get("required_files", [])))):
+        failed.append("account_learning_pipeline_expression_delivery_incomplete")
     expected_account_views = {
         "account_views/账号整体方法论.md",
         "account_views/内容生产使用说明.md",
@@ -1232,13 +1270,14 @@ def validate_expression_asset_contract(payload: dict[str, Any], failed: list[str
     if not payload:
         failed.append("expression_asset_contract_missing")
         return
-    if payload.get("version") != "3.0" or payload.get("scope") != "generic_contract_only":
+    if payload.get("version") != "3.1" or payload.get("scope") != "generic_contract_and_active_pipeline":
         failed.append("expression_asset_contract_version_or_scope_invalid")
     activation = payload.get("activation_boundary", {})
     if (
         not isinstance(activation, dict)
-        or activation.get("active_account_learning_integration") is not False
-        or activation.get("needs_user_confirmation") is not True
+        or activation.get("active_account_learning_integration") is not True
+        or activation.get("needs_user_confirmation") is not False
+        or not str(activation.get("confirmed_scope", "")).strip()
         or not str(activation.get("proposal", "")).startswith("00_System/shareable/skills/proposals/")
     ):
         failed.append("expression_asset_activation_boundary_invalid")
@@ -1249,11 +1288,18 @@ def validate_expression_asset_contract(payload: dict[str, Any], failed: list[str
         candidate_root = str(storage.get("candidate_root_template", ""))
         if not candidate_root.startswith("10_Knowledge/candidates/") or "{account_id}" not in candidate_root:
             failed.append("expression_asset_candidate_root_invalid")
+        workflow_root = str(storage.get("workflow_root_template", ""))
+        if not workflow_root.startswith("10_Knowledge/candidates/account_learning_workflows/") or "{workflow_id}" not in workflow_root:
+            failed.append("expression_asset_workflow_root_invalid")
         if storage.get("formal_write_allowed") is not False or storage.get("system_write_allowed") is not False:
             failed.append("expression_asset_write_boundary_invalid")
         if storage.get("cross_account_merge_allowed") is not False:
             failed.append("expression_asset_cross_account_merge_not_forbidden")
-        if not storage.get("source_registry_file") or not storage.get("sample_acceptance_file"):
+        if (
+            not storage.get("source_registry_file")
+            or not storage.get("sample_acceptance_file")
+            or not storage.get("retrieval_validation_file")
+        ):
             failed.append("expression_asset_registry_or_sample_receipt_missing")
         if not str(storage.get("source_authority_root_template", "")).startswith("10_Knowledge/evidence/index/"):
             failed.append("expression_asset_source_authority_root_invalid")
@@ -1266,6 +1312,9 @@ def validate_expression_asset_contract(payload: dict[str, Any], failed: list[str
     required_types = {
         "hook",
         "golden_line",
+        "sentence_pattern",
+        "structure_unit",
+        "transition",
         "opening_move",
         "ending_move",
         "pain_point",
@@ -1278,6 +1327,9 @@ def validate_expression_asset_contract(payload: dict[str, Any], failed: list[str
     required_fields = set(map(str, payload.get("required_record_fields", [])))
     if not {
         "account_id",
+        "source_surface",
+        "content_position",
+        "functional_role",
         "knowledge_layer",
         "callable",
         "method_evidence_eligible",
@@ -1286,11 +1338,43 @@ def validate_expression_asset_contract(payload: dict[str, Any], failed: list[str
         "gate_evidence",
         "source_excerpt",
         "abstracted_pattern",
+        "pattern_variables",
+        "adaptation_template",
+        "source_usage",
+        "pattern_usage",
         "structural_usefulness_score",
         "performance_evidence",
         "risk_flags",
     }.issubset(required_fields):
         failed.append("expression_asset_record_fields_incomplete")
+    surfaces = payload.get("surface_contract", {})
+    if not isinstance(surfaces, dict) or not {
+        "publish_title",
+        "publish_body_middle",
+        "video_spoken_middle",
+        "video_visual_opening",
+        "cross_modal_coordination",
+    }.issubset(set(map(str, surfaces.get("source_surfaces", [])))):
+        failed.append("expression_asset_surface_contract_incomplete")
+    if not isinstance(surfaces, dict) or not {
+        "opening",
+        "information_gap",
+        "segment_transition",
+        "conflict",
+        "evidence",
+        "reversal",
+        "emotion",
+        "ending",
+    }.issubset(set(map(str, surfaces.get("hook_roles", [])))):
+        failed.append("expression_asset_hook_roles_incomplete")
+    usage = payload.get("usage_contract", {})
+    if (
+        not isinstance(usage, dict)
+        or usage.get("source_generation_eligible") is not False
+        or usage.get("candidate_pattern_production_eligible") is not False
+        or usage.get("approved_pattern_requires_user_confirmation") is not True
+    ):
+        failed.append("expression_asset_usage_boundary_invalid")
     source = payload.get("source_contract", {})
     required_source_types = {
         "account_source_positive",
@@ -1355,21 +1439,27 @@ def validate_expression_asset_contract(payload: dict[str, Any], failed: list[str
         failed.append("expression_asset_state_gate_evidence_missing")
     if not isinstance(gates, dict) or not gates.get("sample_acceptance_required_fields"):
         failed.append("expression_asset_sample_acceptance_evidence_missing")
+    elif "retrieval_validation_sha256" not in set(map(str, gates.get("sample_acceptance_required_fields", []))):
+        failed.append("expression_asset_retrieval_receipt_binding_missing")
     invariants = set(map(str, payload.get("invariants", [])))
     if not any("系统配置不得包含" in item for item in invariants):
         failed.append("expression_asset_system_pollution_boundary_missing")
     if not any("跨账号" in item and "禁止" in item for item in invariants):
         failed.append("expression_asset_account_isolation_boundary_missing")
-    if not any("未确认" in item and "不得启动" in item for item in invariants):
-        failed.append("expression_asset_confirmation_gate_missing")
+    if not any("本次系统升级" in item and "不得启动" in item for item in invariants):
+        failed.append("expression_asset_system_only_upgrade_boundary_missing")
+    if not any("原文资产" in item and "不得用于生成" in item for item in invariants):
+        failed.append("expression_asset_source_generation_boundary_missing")
+    if not any("历史工作流" in item and "静默" in item for item in invariants):
+        failed.append("expression_asset_legacy_compatibility_boundary_missing")
 
 
 def validate_system_version(root: Path, payload: dict[str, Any], failed: list[str]) -> None:
     if not payload:
         failed.append("system_version_missing")
         return
-    if payload.get("system_version") != "3.0":
-        failed.append("system_version_not_3_0")
+    if payload.get("system_version") != "3.1" or payload.get("release_version") != "3.1.0":
+        failed.append("system_version_not_3_1")
     status = str(payload.get("status", ""))
     if status not in {"validating", "active"}:
         failed.append("system_version_status_invalid")
@@ -1380,6 +1470,21 @@ def validate_system_version(root: Path, payload: dict[str, Any], failed: list[st
     component_ids = {str(item.get("id", "")) for item in components if isinstance(item, dict)}
     if component_ids != {"P0", "P1", "P2", "P3"}:
         failed.append("system_version_components_incomplete")
+    p2 = next((item for item in components if isinstance(item, dict) and item.get("id") == "P2"), {})
+    if (
+        p2.get("status") != "completed_active_candidate_only"
+        or p2.get("account_learning_version") != "3.0"
+        or not str(p2.get("package_builder", "")).startswith("tools/")
+    ):
+        failed.append("system_version_expression_asset_component_incomplete")
+    predecessor = payload.get("predecessor", {})
+    if (
+        not isinstance(predecessor, dict)
+        or predecessor.get("system_version") != "3.0"
+        or not re.fullmatch(r"[0-9a-f]{40}", str(predecessor.get("git_baseline", "")))
+        or not (root / str(predecessor.get("upgrade_record", ""))).is_file()
+    ):
+        failed.append("system_version_predecessor_invalid")
     boundaries = payload.get("boundaries", {})
     required_false = {
         "web_or_multi_user_ui_in_scope",
@@ -1395,11 +1500,8 @@ def validate_system_version(root: Path, payload: dict[str, Any], failed: list[st
     if not isinstance(boundaries, dict) or boundaries.get("account_skill_upgrade_executed") is not True:
         failed.append("system_version_account_skill_upgrade_missing")
     pending = payload.get("pending_activations", [])
-    if not any(
-        isinstance(item, dict) and item.get("id") == "account-learning-expression-assets-v3.0"
-        for item in pending if isinstance(pending, list)
-    ):
-        failed.append("system_version_pending_activation_missing")
+    if not isinstance(pending, list) or pending:
+        failed.append("system_version_unexpected_pending_activation")
     validation = payload.get("validation", {})
     required_validation = {
         "targeted_unit_tests",
@@ -1414,6 +1516,10 @@ def validate_system_version(root: Path, payload: dict[str, Any], failed: list[st
         "formal_retrieval_live_smoke_test",
         "change_scope_audit",
         "all_account_v29_learning_audit",
+        "single_active_seven_stage_workflow_test",
+        "expression_asset_package_test",
+        "expression_asset_source_generation_boundary_test",
+        "legacy_workflow_in_place_upgrade_test",
     }
     declared = set(map(str, validation.get("required", []))) if isinstance(validation, dict) else set()
     completed = set(map(str, validation.get("completed", []))) if isinstance(validation, dict) else set()

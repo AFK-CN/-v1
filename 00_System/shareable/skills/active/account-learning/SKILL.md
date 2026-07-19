@@ -7,16 +7,16 @@ description: Learn an account from processed evidence and produce traceable lear
 
 把内容处理 Skill 交付的标准证据学习为账号中心内的候选账号 Skill。系统流程必须通用，账号结论只进入对应账号候选和账号中心。
 
-账号学习组件版本：2.9（系统 3.0 的账号 Skill 防回退机制）。
+账号学习组件版本：3.0（系统 3.1 的表达资产增强；保留系统 3.0 的账号 Skill 防回退机制）。
 
 ## 执行
 
 1. 读取 `account_learning_pipeline.json`、学习卡契约和状态文件。
 2. 单条内容按 `references/unified-learning-card-standard.md` 生成统一学习卡；图文/视频分支必须额外完整执行 `references/image-text-deep-learning.md`，并按 `references/visual-reference-learning.md` 标记可承担生产角色和视觉风险校准的原始证据候选。不能把 OCR、单图描述或发布文案摘抄当作已学完。
-3. 再按 `references/professional-extraction-validation.md` 执行整体理解、五视角观察、机制聚合与三重验证、RIA++ 构造、方法链接、压力测试和候选交付；按 `references/genre-adapters.md` 选择观察维度，允许一个账号同时包含多个流派。
+3. 再按 `references/professional-extraction-validation.md` 执行整体理解、五视角观察、机制聚合与三重验证、RIA++ 构造、方法链接、压力测试和候选交付；同时按 `references/expression-asset-learning.md` 在同一七阶段内执行表达资产链，逐条列出并拆解开头及内容过程中的钩子、金句、句式、结构单元、转场、开头/结尾动作、痛点、改编骨架和反例。按 `references/genre-adapters.md` 选择观察维度，允许一个账号同时包含多个流派。
 4. 单卡只贡献证据和候选，不宣布稳定方法。
 5. 阶段 0 和阶段 2 后等待用户确认。
-6. 阶段 6 按 `references/account-skill-packaging.md` 生成不可调用的账号 Skill 候选包、四份账号专属中文可见视图和生产交接包；同时按 `references/capability-preserving-upgrades.md` 生成能力兼容清单。已有账号升级时，旧能力 ID 必须逐项进入新清单；删除、替换或弃用只能作为显式提案等待用户确认，不能静默消失。
+6. 阶段 6 按 `references/account-skill-packaging.md` 生成不可调用的账号 Skill 候选包、四份账号专属中文可见视图和生产交接包；同时交付表达资产的机器 JSONL/manifest 和中文拆解图谱，并按 `references/capability-preserving-upgrades.md` 生成能力兼容清单。已有账号升级时，旧能力 ID 必须逐项进入新清单；删除、替换或弃用只能作为显式提案等待用户确认，不能静默消失。
 7. 视觉分支同时按 `references/visual-reference-learning.md` 生成按生产角色与视觉风险覆盖的参考候选包；用户认可的多图成套结果必须作为一个有序回归包保存母图、页面顺序与继承关系，但仍只能做连续性/构图回归，不能成为真实感或后续生图来源。缺失时不得完成阶段 6。
 8. 用户审核通过后才写正式账号中心并进入用户层注册表；正式写入验证通过后，将视觉参考候选复制进本账号 Skill，并按 `references/offline-lightweight-source.md` 组建方向均衡轻量数据源。两个轻量层职责不同，必须分别验证。
 9. 历史账号升级到 v2.9 时，先运行 `account-skills-v29-audit`定位正式 Skill 缺口；经用户确认后逐账号执行 `account-skills-v29-upgrade`，再用 `account-learning-migrate --all --force` 同步本账号已批准的发布文案、验收规则、脚本和方法索引。最后必须以 `account-learning-v29-audit` 证明注册账号与工作流一一对应、正式与候选快照一致、延期证据已隔离且无生成型垃圾。
@@ -24,6 +24,8 @@ description: Learn an account from processed evidence and produce traceable lear
 ## 硬边界
 
 - 原始资料只读，候选与拒绝项都保留审计轨迹。
+- active 入口始终只有一套七阶段流程；表达资产是内嵌并行链，不得另建第二套账号学习工作流。
+- 来源原文只用于展示和溯源，永远不可用于生成；候选抽象模式也必须保持不可生产，直到跨卡验证、压力测试、用户确认和正式提案全部通过。
 - 不把方向词、人物、场景、道具或平台常识当成账号方法。
 - 不预设结构数量、表达句式和篇幅。
 - 不把账号结论写入本系统 Skill。

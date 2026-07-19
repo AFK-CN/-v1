@@ -1,5 +1,5 @@
 {
-  "version": "2.9",
+  "version": "3.0",
   "updated_at": "2026-07-19",
   "method": "RIA-TV++ adapted for account learning",
   "candidate_root": "10_Knowledge/candidates/account_learning_workflows",
@@ -33,7 +33,9 @@
         "PUBLISH_COPY_SPECIAL_STUDY.json",
         "PUBLISH_COPY_SPECIAL_STUDY.md",
         "REAL_ACCEPTANCE_REPORT_<date>.md",
-        "REAL_ACCEPTANCE_SUMMARY.json"
+        "REAL_ACCEPTANCE_SUMMARY.json",
+        "expression_assets/audit_report.json",
+        "expression_assets/expression_assets.sample.jsonl"
       ]
     },
     {
@@ -43,7 +45,9 @@
       "required_artifacts": [
         "candidate_clusters.jsonl",
         "verified.jsonl",
-        "rejected.jsonl"
+        "rejected.jsonl",
+        "expression_assets/retrieval_validation.json",
+        "expression_assets/sample_acceptance.json"
       ]
     },
     {
@@ -60,7 +64,11 @@
       "principle": "Depends-on, contrasts-with and composes-with relations",
       "required_artifacts": [
         "METHOD_INDEX.json",
-        "GLOSSARY.md"
+        "GLOSSARY.md",
+        "expression_assets/asset_method_links.jsonl",
+        "expression_assets/钩子与留存机制图谱.md",
+        "expression_assets/金句与句式图谱.md",
+        "expression_assets/内容结构完整图谱.md"
       ]
     },
     {
@@ -69,7 +77,8 @@
       "principle": "Executed positive, lexical-decoy, edge, cross-scene transfer and sibling-method confusion tests with per-case evidence",
       "required_artifacts": [
         "methods/*/test-prompts.json",
-        "methods/*/test-results.json"
+        "methods/*/test-results.json",
+        "expression_assets/pressure_test_report.json"
       ]
     },
     {
@@ -88,7 +97,14 @@
         "account_skill_candidate/account_views/账号整体方法论.md",
         "account_skill_candidate/account_views/内容生产使用说明.md",
         "account_skill_candidate/account_views/减少AI味输出规则.md",
-        "account_skill_candidate/account_views/内容输出标准模板.md"
+        "account_skill_candidate/account_views/内容输出标准模板.md",
+        "expression_assets/expression_assets.jsonl",
+        "expression_assets/manifest.json",
+        "expression_assets/表达资产总览.md",
+        "expression_assets/发布层与视频层协同图谱.md",
+        "expression_assets/表达资产使用说明.md",
+        "expression_assets/反例与慎用表达.md",
+        "expression_assets/单条内容拆解索引.md"
       ]
     }
   ],
@@ -182,6 +198,76 @@
       "evidence_coordinates",
       "visual_sequence_fingerprint",
       "production_reference_candidates"
+    ]
+  },
+  "expression_asset_learning": {
+    "schema_id": "expression_asset_learning_v3",
+    "contract_version": "3.1",
+    "applies_to_new_workflows": true,
+    "legacy_workflow_migration": "explicit_only",
+    "root": "expression_assets",
+    "account_id_source": "profile_id_or_workflow_id",
+    "candidate_only": true,
+    "formal_write_allowed": false,
+    "source_excerpt_generation_eligible": false,
+    "abstract_pattern_production_eligible_before_approval": false,
+    "stages": {
+      "stage0_account_overview": {
+        "purpose": "审计证据覆盖、内容层和媒介层，不提取资产。"
+      },
+      "stage1_parallel_extraction": {
+        "purpose": "逐条列出钩子、金句、句式、结构单元、转场、开头、结尾、痛点、改编骨架和反例；钩子覆盖内容全过程。",
+        "required_files": [
+          "audit_report.json",
+          "expression_assets.sample.jsonl",
+          "source_registry.jsonl"
+        ]
+      },
+      "stage2_triple_verification": {
+        "purpose": "先审计、最多20条样本、真实检索与改编验收，再允许全量提取。",
+        "required_files": [
+          "retrieval_validation.json",
+          "sample_acceptance.json"
+        ]
+      },
+      "stage3_ria_construction": {
+        "purpose": "表达资产继续作为独立证据层；构造方法时只建立引用，不删除来源资产。"
+      },
+      "stage4_method_linking": {
+        "purpose": "聚合钩子、金句、句式和完整结构图谱，并建立资产到方法的可追溯链接。",
+        "required_files": [
+          "asset_method_links.jsonl",
+          "钩子与留存机制图谱.md",
+          "金句与句式图谱.md",
+          "内容结构完整图谱.md"
+        ]
+      },
+      "stage5_pressure_test": {
+        "purpose": "执行检索、改编、原句复制、效果承诺、账号污染和跨媒介错配测试。",
+        "required_files": [
+          "pressure_test_report.json"
+        ]
+      },
+      "stage6_learning_delivery": {
+        "purpose": "同时交付机器可检索资产包和人工可读拆解包；保持不可调用候选态。",
+        "required_files": [
+          "expression_assets.jsonl",
+          "manifest.json",
+          "表达资产总览.md",
+          "发布层与视频层协同图谱.md",
+          "表达资产使用说明.md",
+          "反例与慎用表达.md",
+          "单条内容拆解索引.md"
+        ]
+      }
+    },
+    "invariants": [
+      "七阶段ID和顺序不变",
+      "发布层、口播层、视觉层和跨模态协同分别记录",
+      "开头与内容过程中的钩子都必须记录位置、功能和机制",
+      "原文与抽象模式分别保存，原文永远不得生成",
+      "旧工作流只有显式迁移才启用，旧能力和旧产物不得静默丢失",
+      "单账号独立提取、验证和交付，禁止跨账号补样本或合并规则"
     ]
   },
   "stage2_production_mechanism": {

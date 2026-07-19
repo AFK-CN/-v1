@@ -188,7 +188,17 @@ class AccountLearningPipelineTest(unittest.TestCase):
             profile_id="test-account",
         )
         self.assertTrue(result["ok"])
-        return root / result["workflow_dir"]
+        base = root / result["workflow_dir"]
+        # Existing regression fixtures represent pre-3.0 saved workflows. They
+        # must remain readable after the single active pipeline gains the new
+        # expression-asset lane.
+        state_path = base / "PIPELINE_STATE.json"
+        state = json.loads(state_path.read_text(encoding="utf-8"))
+        state["schema_version"] = "2.9"
+        state.pop("expression_asset_schema", None)
+        state.pop("expression_asset_contract_version", None)
+        self._write_json(state_path, state)
+        return base
 
     def _complete_stage0(self, root: Path, base: Path) -> None:
         (base / "ACCOUNT_OVERVIEW.md").write_text(

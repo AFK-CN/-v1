@@ -1,38 +1,60 @@
 {
-  "version": "3.0",
+  "version": "3.1",
   "updated_at": "2026-07-19",
   "status": "active_system_schema",
-  "scope": "generic_contract_only",
-  "description": "表达资产候选的通用结构、隔离、状态机和验收门。系统层不保存账号名、账号话术、source_id、具体金句或账号结论。",
+  "scope": "generic_contract_and_active_pipeline",
+  "description": "表达资产候选的通用结构、七阶段接入、隔离、状态机和验收门。系统层不保存账号名、账号话术、source_id、具体金句或账号结论。",
   "activation_boundary": {
-    "active_account_learning_integration": false,
+    "active_account_learning_integration": true,
     "proposal": "00_System/shareable/skills/proposals/account-learning-expression-assets-v3.0.md",
-    "needs_user_confirmation": true,
-    "current_behavior": "只提供候选数据契约与校验器，不启动账号学习、不生成账号资产、不把 expression stage 接入 active account-learning Skill。"
+    "needs_user_confirmation": false,
+    "confirmed_scope": "用户已确认只升级系统机制；不运行账号学习，不生成任何真实账号资产。",
+    "current_behavior": "新建账号学习工作流默认接入表达资产链；历史工作流保持原 schema，只有显式迁移才启用。所有资产仍停留在候选层。"
   },
   "storage": {
     "candidate_root_template": "10_Knowledge/candidates/account_assets/expression_assets/{account_id}/",
+    "workflow_root_template": "10_Knowledge/candidates/account_learning_workflows/{workflow_id}/expression_assets/",
     "sample_file": "expression_assets.sample.jsonl",
     "full_file": "expression_assets.jsonl",
     "source_registry_file": "source_registry.jsonl",
     "sample_acceptance_file": "sample_acceptance.json",
+    "retrieval_validation_file": "retrieval_validation.json",
     "source_authority_root_template": "10_Knowledge/evidence/index/account_source_authority/{account_id}/",
     "performance_authority_root_template": "10_Knowledge/evidence/index/performance_authority/{account_id}/",
     "validation_evidence_root_template": "10_Knowledge/evidence/index/account_validation_authority/{account_id}/",
-    "validator_version": "expression_asset_validator_v3.0",
+    "validator_version": "expression_asset_validator_v3.1",
+    "derived_jsonl_files": {
+      "hook": "hooks.jsonl",
+      "golden_line": "golden_lines.jsonl",
+      "sentence_pattern": "sentence_patterns.jsonl",
+      "structure_unit": "structure_units.jsonl",
+      "transition": "transitions.jsonl",
+      "opening_move": "opening_moves.jsonl",
+      "ending_move": "ending_moves.jsonl",
+      "pain_point": "pain_points.jsonl",
+      "adaptation_template": "adaptation_templates.jsonl",
+      "anti_pattern": "anti_patterns.jsonl"
+    },
     "pattern_files": [
-      "hook_patterns.md",
-      "golden_line_patterns.md",
-      "adaptation_templates.md",
-      "anti_patterns.md"
+      "表达资产总览.md",
+      "钩子与留存机制图谱.md",
+      "金句与句式图谱.md",
+      "内容结构完整图谱.md",
+      "发布层与视频层协同图谱.md",
+      "表达资产使用说明.md",
+      "反例与慎用表达.md",
+      "单条内容拆解索引.md"
     ],
     "formal_write_allowed": false,
     "system_write_allowed": false,
     "cross_account_merge_allowed": false
   },
   "asset_types": {
-    "hook": "负责触发继续阅读或观看的结构，不保存账号原句为系统规则。",
+    "hook": "负责在开头或内容过程中触发继续阅读或观看的结构；必须记录位置和功能，不保存账号原句为系统规则。",
     "golden_line": "承担命名、解释、判断、行动或身份表达功能的结构。",
+    "sentence_pattern": "可复用的句法与节奏骨架，必须保留变量位和适用边界。",
+    "structure_unit": "内容中的问题、行动、冲突、证据、转折、结果或收束等结构单元。",
+    "transition": "段落、镜头或论证之间的承接与转场机制。",
     "opening_move": "进入主题前的动作与信息顺序。",
     "ending_move": "收束、行动提示、互动或回扣动作。",
     "pain_point": "受众问题、矛盾或阻力的可追溯表达。",
@@ -43,6 +65,9 @@
     "asset_id",
     "asset_type",
     "account_id",
+    "source_surface",
+    "content_position",
+    "functional_role",
     "knowledge_layer",
     "callable",
     "method_evidence_eligible",
@@ -53,11 +78,81 @@
     "source",
     "source_excerpt",
     "abstracted_pattern",
+    "pattern_variables",
+    "adaptation_template",
+    "source_usage",
+    "pattern_usage",
     "structural_usefulness_score",
     "performance_evidence",
     "intended_usage",
     "risk_flags"
   ],
+  "surface_contract": {
+    "source_surfaces": [
+      "publish_title",
+      "publish_body_opening",
+      "publish_body_middle",
+      "publish_body_ending",
+      "publish_topic",
+      "video_spoken_opening",
+      "video_spoken_middle",
+      "video_spoken_ending",
+      "video_visual_cover",
+      "video_visual_opening",
+      "video_visual_middle",
+      "video_visual_ending",
+      "cross_modal_coordination"
+    ],
+    "content_positions": [
+      "title",
+      "opening",
+      "early_middle",
+      "middle",
+      "late_middle",
+      "ending",
+      "distributed",
+      "cross_modal"
+    ],
+    "hook_roles": [
+      "opening",
+      "information_gap",
+      "segment_transition",
+      "conflict",
+      "evidence",
+      "reversal",
+      "emotion",
+      "ending"
+    ],
+    "functional_roles": [
+      "attention",
+      "retention",
+      "clarification",
+      "naming",
+      "trust",
+      "tension",
+      "transition",
+      "payoff",
+      "action",
+      "identity",
+      "boundary",
+      "validation"
+    ]
+  },
+  "usage_contract": {
+    "source_usage_required_fields": [
+      "display_eligible",
+      "retrieval_eligible",
+      "generation_eligible"
+    ],
+    "pattern_usage_required_fields": [
+      "candidate_reference_eligible",
+      "production_eligible",
+      "requires_user_confirmation"
+    ],
+    "source_generation_eligible": false,
+    "candidate_pattern_production_eligible": false,
+    "approved_pattern_requires_user_confirmation": true
+  },
   "source_contract": {
     "required_fields": [
       "source_id",
@@ -231,6 +326,7 @@
       "sample_file_sha256",
       "sample_record_hashes",
       "sample_validation_sha256",
+      "retrieval_validation_sha256",
       "source_registry_sha256",
       "completed_checks",
       "audit_report_coordinate",
@@ -255,6 +351,8 @@
     "结构可用性评分不得冒充传播效果证据",
     "用户拒绝产物必须使用 anti_pattern、rejected、validation_only 且不得作为生成参考",
     "跨账号合并、补正例或放宽过滤一律禁止",
-    "未确认 active Skill 提案前不得启动表达资产学习阶段"
+    "表达资产链已接入新工作流，但本次系统升级不得启动任何真实账号学习或生成账号资产",
+    "原文资产永远不得用于生成；只有抽象模式在跨卡验证、压力测试和用户确认后才可另行提案为正式生产资产",
+    "历史工作流不得被静默强制迁移，旧能力、旧产物和旧阶段状态必须保留"
   ]
 }

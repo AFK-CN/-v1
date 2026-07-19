@@ -96,7 +96,12 @@ class AccountLearningStage1ExtractTests(unittest.TestCase):
             workflow = root / "10_Knowledge/candidates/account_learning_workflows/sample"
             workflow.mkdir(parents=True)
             (workflow / "PIPELINE_STATE.json").write_text(
-                json.dumps({"current_stage": "stage1_parallel_extraction", "account_name": "测试账号"}),
+                json.dumps({
+                    "current_stage": "stage1_parallel_extraction",
+                    "account_name": "测试账号",
+                    "account_id": "test-account",
+                    "expression_asset_schema": "expression_asset_learning_v3",
+                }),
                 encoding="utf-8",
             )
             inventory = root / "inventory.jsonl"
@@ -142,6 +147,13 @@ class AccountLearningStage1ExtractTests(unittest.TestCase):
             self.assertIn("text_annotation_design", [item["signal"] for item in structures["image_text_visual_observation"]["observed_signals"]])
             report = (workflow / "STAGE1_EXTRACTION_REPORT.md").read_text(encoding="utf-8")
             self.assertIn("统一卡 1；降级旧卡 0", report)
+            audit = json.loads((workflow / "expression_assets/audit_report.json").read_text(encoding="utf-8"))
+            self.assertEqual(audit["source_count"], 1)
+            self.assertFalse(audit["extraction_started"])
+            self.assertGreaterEqual(audit["surface_coverage"]["publish_title"], 1)
+            queue = read_jsonl(workflow / "expression_assets/extraction_queue.jsonl")
+            self.assertEqual(queue[0]["status"], "awaiting_expression_deconstruction")
+            self.assertFalse((workflow / "expression_assets/expression_assets.sample.jsonl").exists())
 
     def test_unified_video_card_also_gets_publish_copy_special_observation(self) -> None:
         with tempfile.TemporaryDirectory() as tmp:

@@ -8,6 +8,7 @@ import shutil
 from pathlib import Path
 from typing import Any
 
+from tools.kb.expression_assets import valid_coordinate, validate_expression_asset_file
 from tools.kb.schemas import now_iso
 
 
@@ -74,6 +75,15 @@ def _safe_id(value: str) -> str:
     return cleaned
 
 
+def _account_scope_id(profile_id: str, workflow_id: str) -> str:
+    if profile_id.strip():
+        try:
+            return _safe_id(profile_id)
+        except ValueError:
+            pass
+    return _safe_id(workflow_id)
+
+
 def _candidate_resource_allowed(path: Path) -> bool:
     return (
         path.is_file()
@@ -130,6 +140,7 @@ def init_workflow(
     (target / "candidates").mkdir(parents=True, exist_ok=True)
     (target / "rejected").mkdir(parents=True, exist_ok=True)
     (target / "methods").mkdir(parents=True, exist_ok=True)
+    (target / "expression_assets").mkdir(parents=True, exist_ok=True)
     stages = []
     for index, stage in enumerate(config["stages"]):
         stages.append(
@@ -146,6 +157,7 @@ def init_workflow(
         "schema_version": str(config.get("version") or "2.6"),
         "workflow_id": workflow_id,
         "account_name": account_name.strip(),
+        "account_id": _account_scope_id(profile_id, workflow_id),
         "profile_id": profile_id.strip(),
         "source_scope": source_scope.strip(),
         "media_branches": branches,
@@ -177,6 +189,12 @@ def init_workflow(
         ),
         "stage6_visual_reference_schema": str(
             config.get("stage6_visual_reference_package", {}).get("schema_id") or ""
+        ),
+        "expression_asset_schema": str(
+            config.get("expression_asset_learning", {}).get("schema_id") or ""
+        ),
+        "expression_asset_contract_version": str(
+            config.get("expression_asset_learning", {}).get("contract_version") or ""
         ),
         "status": "in_progress",
         "current_stage": stages[0]["id"],
@@ -265,6 +283,198 @@ def _state_schema_enabled(
 ) -> bool:
     schema_id = str(config.get(config_section, {}).get("schema_id") or "")
     return bool(schema_id and state.get(state_field) == schema_id)
+
+
+def _validate_expression_asset_stage(
+    root: Path,
+    base: Path,
+    workflow_state: dict[str, Any],
+    config: dict[str, Any],
+    stage_id: str,
+    errors: list[str],
+    metrics: dict[str, Any],
+) -> None:
+    if not _state_schema_enabled(
+        workflow_state,
+        config,
+        state_field="expression_asset_schema",
+        config_section="expression_asset_learning",
+    ):
+        return
+    lane = config.get("expression_asset_learning", {})
+    asset_root = base / str(lane.get("root") or "expression_assets")
+    stage_contract = lane.get("stages", {}).get(stage_id, {})
+    for relative in stage_contract.get("required_files", []):
+        if not (asset_root / str(relative)).is_file():
+            errors.append(f"expression_assets:missing:{relative}")
+    expected_account_id = str(workflow_state.get("account_id") or workflow_state.get("profile_id") or workflow_state.get("workflow_id") or "")
+    expected_workflow_id = str(workflow_state.get("workflow_id") or "")
+
+    if stage_id == "stage1_parallel_extraction":
+        audit_path = asset_root / "audit_report.json"
+        if audit_path.is_file():
+            audit = _read_json(audit_path)
+            _required_fields(
+                audit,
+                ("schema_version", "status", "account_id", "source_count", "surface_coverage", "extraction_started"),
+                "expression_asset_audit",
+                errors,
+            )
+            if audit.get("schema_version") != "expression_asset_audit_v1" or audit.get("status") != "completed":
+                errors.append("expression_assets:audit_status_invalid")
+            if audit.get("account_id") != expected_account_id:
+                errors.append("expression_assets:audit_account_mismatch")
+            if audit.get("extraction_started") is not False:
+                errors.append("expression_assets:audit_must_precede_extraction")
+            if not isinstance(audit.get("source_count"), int) or int(audit.get("source_count", 0)) < 1:
+                errors.append("expression_assets:audit_source_count_invalid")
+            coverage = audit.get("surface_coverage")
+            if not isinstance(coverage, dict) or not coverage:
+                errors.append("expression_assets:audit_surface_coverage_missing")
+        sample_path = asset_root / "expression_assets.sample.jsonl"
+        if sample_path.is_file():
+            validation = validate_expression_asset_file(
+                root,
+                sample_path,
+                expected_account_id=expected_account_id,
+                expected_workflow_id=expected_workflow_id,
+            )
+            if not validation.get("ok"):
+                errors.extend(f"expression_assets:sample:{item}" for item in validation.get("errors", []))
+            metrics["expression_asset_sample_count"] = int(validation.get("record_count", 0) or 0)
+
+    elif stage_id == "stage2_triple_verification":
+        sample_path = asset_root / "expression_assets.sample.jsonl"
+        retrieval_path = asset_root / "retrieval_validation.json"
+        acceptance_path = asset_root / "sample_acceptance.json"
+        if retrieval_path.is_file():
+            retrieval = _read_json(retrieval_path)
+            _required_fields(
+                retrieval,
+                ("schema_version", "status", "account_id", "queries", "checks", "sample_file_sha256"),
+                "expression_asset_retrieval",
+                errors,
+            )
+            if retrieval.get("schema_version") != "expression_asset_retrieval_validation_v1" or retrieval.get("status") != "passed":
+                errors.append("expression_assets:retrieval_validation_not_passed")
+            if retrieval.get("account_id") != expected_account_id:
+                errors.append("expression_assets:retrieval_account_mismatch")
+            queries = retrieval.get("queries")
+            if not isinstance(queries, list) or not queries or any(not isinstance(item, dict) or item.get("passed") is not True for item in queries):
+                errors.append("expression_assets:retrieval_queries_incomplete")
+            checks = retrieval.get("checks")
+            required_checks = {
+                "top_k_relevance",
+                "source_traceability",
+                "abstraction_quality",
+                "adaptation_quality",
+                "risk_detection",
+                "account_isolation",
+            }
+            if not isinstance(checks, dict) or any(checks.get(item) is not True for item in required_checks):
+                errors.append("expression_assets:retrieval_checks_incomplete")
+            if sample_path.is_file() and retrieval.get("sample_file_sha256") != _sha256_file(sample_path):
+                errors.append("expression_assets:retrieval_sample_hash_mismatch")
+        if acceptance_path.is_file():
+            acceptance = _read_json(acceptance_path)
+            if acceptance.get("status") != "accepted" or acceptance.get("account_id") != expected_account_id:
+                errors.append("expression_assets:sample_acceptance_invalid")
+            if sample_path.is_file() and acceptance.get("sample_file_sha256") != _sha256_file(sample_path):
+                errors.append("expression_assets:sample_acceptance_hash_mismatch")
+            if retrieval_path.is_file() and acceptance.get("retrieval_validation_sha256") != _sha256_file(retrieval_path):
+                errors.append("expression_assets:sample_acceptance_retrieval_hash_mismatch")
+
+    elif stage_id == "stage4_method_linking":
+        links, link_errors = _read_jsonl(asset_root / "asset_method_links.jsonl")
+        errors.extend(f"expression_assets:links:{item}" for item in link_errors)
+        for link in links:
+            _required_fields(link, ("asset_id", "method_id", "relation", "evidence_coordinate"), "expression_asset_link", errors)
+            if not valid_coordinate(link.get("evidence_coordinate")):
+                errors.append("expression_assets:link_coordinate_invalid")
+        if not links:
+            errors.append("expression_assets:asset_method_links_empty")
+        for name in ("钩子与留存机制图谱.md", "金句与句式图谱.md", "内容结构完整图谱.md"):
+            path = asset_root / name
+            if path.is_file() and len(path.read_text(encoding="utf-8").strip()) < 40:
+                errors.append(f"expression_assets:view_too_short:{name}")
+
+    elif stage_id == "stage5_pressure_test":
+        pressure_path = asset_root / "pressure_test_report.json"
+        if pressure_path.is_file():
+            report = _read_json(pressure_path)
+            required_tests = {
+                "retrieval",
+                "adaptation",
+                "source_copying",
+                "unsupported_performance_claim",
+                "cross_account_contamination",
+                "cross_surface_mismatch",
+            }
+            results = report.get("test_results")
+            if (
+                report.get("schema_version") != "expression_asset_pressure_test_v1"
+                or report.get("status") != "passed"
+                or report.get("account_id") != expected_account_id
+                or not isinstance(results, dict)
+                or any(results.get(item) is not True for item in required_tests)
+                or report.get("failures") not in ([], None)
+            ):
+                errors.append("expression_assets:pressure_test_not_passed")
+
+    elif stage_id == "stage6_learning_delivery":
+        full_path = asset_root / "expression_assets.jsonl"
+        if full_path.is_file():
+            validation = validate_expression_asset_file(
+                root,
+                full_path,
+                expected_account_id=expected_account_id,
+                expected_workflow_id=expected_workflow_id,
+            )
+            if not validation.get("ok"):
+                errors.extend(f"expression_assets:full:{item}" for item in validation.get("errors", []))
+            metrics["expression_asset_count"] = int(validation.get("record_count", 0) or 0)
+        manifest_path = asset_root / "manifest.json"
+        if manifest_path.is_file():
+            manifest = _read_json(manifest_path)
+            _required_fields(
+                manifest,
+                ("schema_version", "status", "account_id", "record_count", "full_file_sha256", "files", "boundaries"),
+                "expression_asset_manifest",
+                errors,
+            )
+            if manifest.get("schema_version") != "expression_asset_package_v1" or manifest.get("status") != "ready_for_review":
+                errors.append("expression_assets:manifest_status_invalid")
+            if manifest.get("account_id") != expected_account_id:
+                errors.append("expression_assets:manifest_account_mismatch")
+            if full_path.is_file() and manifest.get("full_file_sha256") != _sha256_file(full_path):
+                errors.append("expression_assets:manifest_full_hash_mismatch")
+            boundaries = manifest.get("boundaries")
+            expected_boundaries = {
+                "candidate_only": True,
+                "formal_write": False,
+                "callable": False,
+                "source_generation_eligible": False,
+                "cross_account_merge": False,
+            }
+            if not isinstance(boundaries, dict) or any(boundaries.get(key) is not value for key, value in expected_boundaries.items()):
+                errors.append("expression_assets:manifest_boundaries_invalid")
+            files = manifest.get("files")
+            if not isinstance(files, list) or not files:
+                errors.append("expression_assets:manifest_files_missing")
+            else:
+                for item in files:
+                    if not isinstance(item, dict) or not _portable_relative_path(item.get("path")):
+                        errors.append("expression_assets:manifest_file_invalid")
+                        continue
+                    target = asset_root / str(item.get("path"))
+                    if not target.is_file():
+                        errors.append(f"expression_assets:manifest_file_missing:{item.get('path')}")
+                    elif item.get("sha256") != _sha256_file(target):
+                        errors.append(f"expression_assets:manifest_file_hash_mismatch:{item.get('path')}")
+        for name in ("表达资产总览.md", "发布层与视频层协同图谱.md", "表达资产使用说明.md", "反例与慎用表达.md", "单条内容拆解索引.md"):
+            path = asset_root / name
+            if path.is_file() and len(path.read_text(encoding="utf-8").strip()) < 40:
+                errors.append(f"expression_assets:view_too_short:{name}")
 
 
 def _portable_relative_path(value: Any) -> bool:
@@ -1777,6 +1987,15 @@ def validate_stage(root: Path, workflow_id: str, stage_id: str) -> dict[str, Any
                             errors.append(f"account_skill_upgrade_snapshot_hash_invalid:{source_value}")
                         elif _sha256_file(source_path) != expected_hash:
                             errors.append(f"account_skill_upgrade_snapshot_hash_mismatch:{source_value}")
+    _validate_expression_asset_stage(
+        root,
+        base,
+        workflow_state,
+        config,
+        stage_id,
+        errors,
+        metrics,
+    )
     return {"ok": not errors, "workflow_id": _safe_id(workflow_id), "stage_id": stage_id, "errors": errors, "metrics": metrics}
 
 
@@ -2162,7 +2381,10 @@ def audit_all_account_learning_v29(root: Path) -> dict[str, Any]:
     root = root.resolve()
     config = load_config(root)
     candidate_root = root / Path(str(config.get("candidate_root") or DEFAULT_CANDIDATE_ROOT))
-    expected_pipeline = str(config.get("version") or "")
+    expected_pipeline = str(
+        config.get("historical_workflow_v29_migration", {}).get("pipeline_state_version_required")
+        or "2.9"
+    )
     expected_compatibility = str(
         config.get("stage6_upgrade_compatibility", {}).get("schema_id") or ""
     )
@@ -2434,6 +2656,80 @@ def refresh_workflow(root: Path, workflow_id: str, *, source_scope: str = "") ->
     }
 
 
+def upgrade_expression_asset_lane(
+    root: Path,
+    workflow_id: str,
+    *,
+    user_confirmed: bool = False,
+) -> dict[str, Any]:
+    """Enable the new lane inside an existing workflow without creating a second workflow."""
+
+    root = root.resolve()
+    config = load_config(root)
+    state = load_state(root, workflow_id)
+    lane = config.get("expression_asset_learning", {})
+    schema_id = str(lane.get("schema_id") or "")
+    contract_version = str(lane.get("contract_version") or "")
+    if not schema_id or not contract_version:
+        return {"ok": False, "error": "expression_asset_learning_contract_missing"}
+    if state.get("expression_asset_schema") == schema_id:
+        return {
+            "ok": True,
+            "already_enabled": True,
+            "workflow_id": state.get("workflow_id"),
+            "same_workflow": True,
+            "stage_count": len(state.get("stages", [])),
+        }
+    if not user_confirmed:
+        return {
+            "ok": False,
+            "error": "user_confirmation_required",
+            "workflow_id": state.get("workflow_id"),
+            "same_workflow": True,
+            "planned_schema": schema_id,
+        }
+    before_payload = json.dumps(state, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    before_stages = [
+        {"id": item.get("id"), "status": item.get("status"), "completed_at": item.get("completed_at", "")}
+        for item in state.get("stages", [])
+        if isinstance(item, dict)
+    ]
+    base = workflow_root(root, workflow_id)
+    (base / str(lane.get("root") or "expression_assets")).mkdir(parents=True, exist_ok=True)
+    state["schema_version"] = str(config.get("version") or state.get("schema_version") or "")
+    state["account_id"] = str(
+        state.get("account_id")
+        or _account_scope_id(
+            str(state.get("profile_id") or ""),
+            str(state.get("workflow_id") or workflow_id),
+        )
+    )
+    state["expression_asset_schema"] = schema_id
+    state["expression_asset_contract_version"] = contract_version
+    state["expression_asset_upgrade"] = {
+        "status": "pending_backfill",
+        "same_workflow": True,
+        "previous_state_sha256": hashlib.sha256(before_payload).hexdigest(),
+        "previous_stages": before_stages,
+        "enabled_at": now_iso(),
+        "formal_write": False,
+        "account_assets_generated": False,
+    }
+    state["updated_at"] = now_iso()
+    _write_json(state_path(root, workflow_id), state)
+    (base / "WORKFLOW_PLAN.md").write_text(_render_plan(config, state), encoding="utf-8")
+    return {
+        "ok": True,
+        "workflow_id": state["workflow_id"],
+        "same_workflow": True,
+        "stage_count": len(state.get("stages", [])),
+        "expression_asset_schema": schema_id,
+        "status": "pending_backfill",
+        "formal_write_allowed": False,
+        "account_assets_generated": False,
+    }
+
+
 def _parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Professional seven-stage account learning pipeline")
     parser.add_argument("--root", default=".")
@@ -2450,6 +2746,9 @@ def _parser() -> argparse.ArgumentParser:
     refresh = subparsers.add_parser("refresh")
     refresh.add_argument("--workflow-id", required=True)
     refresh.add_argument("--source-scope", default="")
+    expression_upgrade = subparsers.add_parser("upgrade-expression-assets")
+    expression_upgrade.add_argument("--workflow-id", required=True)
+    expression_upgrade.add_argument("--user-confirmed", action="store_true")
     complete = subparsers.add_parser("complete-stage")
     complete.add_argument("--workflow-id", required=True)
     complete.add_argument("--stage", required=True)
@@ -2476,6 +2775,12 @@ def main() -> int:
             result = validate_workflow(root, args.workflow_id)
         elif args.command == "refresh":
             result = refresh_workflow(root, args.workflow_id, source_scope=args.source_scope)
+        elif args.command == "upgrade-expression-assets":
+            result = upgrade_expression_asset_lane(
+                root,
+                args.workflow_id,
+                user_confirmed=args.user_confirmed,
+            )
         else:
             result = complete_stage(root, args.workflow_id, args.stage, user_confirmed=args.user_confirmed)
     except (FileNotFoundError, FileExistsError, ValueError, json.JSONDecodeError) as exc:

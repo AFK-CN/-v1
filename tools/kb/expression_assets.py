@@ -59,6 +59,20 @@ def validate_expression_asset_record(
     asset_types = set(map(str, contract.get("asset_types", {}).keys()))
     if str(record.get("asset_type", "")) not in asset_types:
         errors.append("asset_type_invalid")
+    surface_contract = contract.get("surface_contract", {}) if isinstance(contract.get("surface_contract"), dict) else {}
+    source_surface = str(record.get("source_surface", ""))
+    content_position = str(record.get("content_position", ""))
+    functional_role = str(record.get("functional_role", ""))
+    if source_surface not in set(map(str, surface_contract.get("source_surfaces", []))):
+        errors.append("source_surface_invalid")
+    if content_position not in set(map(str, surface_contract.get("content_positions", []))):
+        errors.append("content_position_invalid")
+    if functional_role not in set(map(str, surface_contract.get("functional_roles", []))):
+        errors.append("functional_role_invalid")
+    if record.get("asset_type") == "hook":
+        hook_role = str(record.get("pattern_variables", {}).get("hook_role", "")) if isinstance(record.get("pattern_variables"), dict) else ""
+        if hook_role not in set(map(str, surface_contract.get("hook_roles", []))):
+            errors.append("hook_role_invalid")
     if record.get("knowledge_layer") != "candidate":
         errors.append("knowledge_layer_must_be_candidate")
     if record.get("callable") is not False:
@@ -171,6 +185,44 @@ def validate_expression_asset_record(
         errors.append("abstracted_pattern_required")
     if source_excerpt and abstracted_pattern and source_excerpt == abstracted_pattern:
         errors.append("source_and_abstraction_must_be_separate")
+    pattern_variables = record.get("pattern_variables", {})
+    if not isinstance(pattern_variables, dict) or not pattern_variables:
+        errors.append("pattern_variables_required")
+    adaptation_template = str(record.get("adaptation_template", "")).strip()
+    if not adaptation_template:
+        errors.append("adaptation_template_required")
+    if source_excerpt and adaptation_template == source_excerpt:
+        errors.append("adaptation_template_must_not_copy_source")
+
+    usage_contract = contract.get("usage_contract", {}) if isinstance(contract.get("usage_contract"), dict) else {}
+    source_usage = record.get("source_usage", {})
+    if not isinstance(source_usage, dict):
+        errors.append("source_usage_must_be_object")
+        source_usage = {}
+    required_source_usage = set(map(str, usage_contract.get("source_usage_required_fields", [])))
+    for field in sorted(required_source_usage - set(source_usage)):
+        errors.append(f"source_usage_missing_field:{field}")
+    for field in sorted(set(source_usage) - required_source_usage):
+        errors.append(f"source_usage_unknown_field:{field}")
+    if source_usage.get("generation_eligible") is not False:
+        errors.append("source_excerpt_must_not_be_generation_eligible")
+    if source_usage.get("display_eligible") not in {True, False} or source_usage.get("retrieval_eligible") not in {True, False}:
+        errors.append("source_usage_flags_must_be_boolean")
+    pattern_usage = record.get("pattern_usage", {})
+    if not isinstance(pattern_usage, dict):
+        errors.append("pattern_usage_must_be_object")
+        pattern_usage = {}
+    required_pattern_usage = set(map(str, usage_contract.get("pattern_usage_required_fields", [])))
+    for field in sorted(required_pattern_usage - set(pattern_usage)):
+        errors.append(f"pattern_usage_missing_field:{field}")
+    for field in sorted(set(pattern_usage) - required_pattern_usage):
+        errors.append(f"pattern_usage_unknown_field:{field}")
+    if pattern_usage.get("candidate_reference_eligible") not in {True, False}:
+        errors.append("pattern_candidate_reference_flag_must_be_boolean")
+    if pattern_usage.get("production_eligible") is not False:
+        errors.append("candidate_pattern_must_not_be_production_eligible")
+    if pattern_usage.get("requires_user_confirmation") is not True:
+        errors.append("pattern_usage_must_require_user_confirmation")
 
     score_range = contract.get("score_contract", {}).get("structural_usefulness_range", [0, 100])
     try:
@@ -503,6 +555,7 @@ def validate_expression_asset_file(
     path: Path,
     *,
     expected_account_id: str = "",
+    expected_workflow_id: str = "",
 ) -> dict[str, Any]:
     root = root.resolve()
     target = path if path.is_absolute() else root / path
@@ -588,6 +641,7 @@ def validate_expression_asset_file(
             errors.append("sample_item_limit_exceeded")
     if target.name == full_name:
         acceptance_path = target.parent / str(storage.get("sample_acceptance_file", "sample_acceptance.json"))
+        retrieval_path = target.parent / str(storage.get("retrieval_validation_file", "retrieval_validation.json"))
         sample_path = target.parent / sample_name
         sample_validation: dict[str, Any] = {}
         sample_validation_sha256 = ""
@@ -597,6 +651,7 @@ def validate_expression_asset_file(
                 root,
                 sample_path,
                 expected_account_id=expected_sample_account,
+                expected_workflow_id=expected_workflow_id,
             )
             validation_receipt = {
                 key: sample_validation.get(key)
@@ -649,6 +704,28 @@ def validate_expression_asset_file(
                 errors.append("sample_acceptance_validator_version_mismatch")
             if acceptance.get("sample_validation_sha256") != sample_validation_sha256:
                 errors.append("sample_acceptance_validation_receipt_mismatch")
+            if not retrieval_path.exists():
+                errors.append("sample_retrieval_validation_file_missing")
+            else:
+                try:
+                    retrieval = json.loads(retrieval_path.read_text(encoding="utf-8"))
+                except (OSError, UnicodeError, json.JSONDecodeError):
+                    retrieval = {}
+                    errors.append("sample_retrieval_validation_invalid_json")
+                if not isinstance(retrieval, dict) or retrieval.get("status") != "passed":
+                    errors.append("sample_retrieval_validation_not_passed")
+                if accounts and retrieval.get("account_id") not in accounts:
+                    errors.append("sample_retrieval_validation_account_mismatch")
+                if sample_path.exists() and retrieval.get("sample_file_sha256") != hashlib.sha256(sample_path.read_bytes()).hexdigest():
+                    errors.append("sample_retrieval_validation_sample_hash_mismatch")
+                required_retrieval_checks = set(map(str, contract.get("gates", {}).get("sample_acceptance", [])))
+                retrieval_checks = retrieval.get("checks", {}) if isinstance(retrieval, dict) else {}
+                if not isinstance(retrieval_checks, dict) or any(
+                    retrieval_checks.get(check) is not True for check in required_retrieval_checks
+                ):
+                    errors.append("sample_retrieval_validation_checks_incomplete")
+                if acceptance.get("retrieval_validation_sha256") != hashlib.sha256(retrieval_path.read_bytes()).hexdigest():
+                    errors.append("sample_acceptance_retrieval_hash_mismatch")
             if accounts and acceptance.get("account_id") not in accounts:
                 errors.append("sample_acceptance_account_mismatch")
             if not sample_path.exists():
@@ -689,12 +766,20 @@ def validate_expression_asset_file(
         relative = target.name
     template = str(storage.get("candidate_root_template", ""))
     candidate_prefix = template.split("{account_id}", 1)[0]
-    if not candidate_prefix or not relative.startswith(candidate_prefix):
+    workflow_template = str(storage.get("workflow_root_template", ""))
+    workflow_prefix = workflow_template.split("{workflow_id}", 1)[0]
+    in_account_root = bool(candidate_prefix and relative.startswith(candidate_prefix))
+    in_workflow_root = bool(workflow_prefix and relative.startswith(workflow_prefix))
+    if not in_account_root and not in_workflow_root:
         errors.append("file_outside_expression_asset_candidate_root")
-    elif accounts:
+    elif in_account_root and accounts:
         directory_account = relative[len(candidate_prefix) :].split("/", 1)[0]
         if accounts != {directory_account}:
             errors.append("file_account_directory_mismatch")
+    elif in_workflow_root:
+        directory_workflow = relative[len(workflow_prefix) :].split("/", 1)[0]
+        if expected_workflow_id and directory_workflow != expected_workflow_id:
+            errors.append("file_workflow_directory_mismatch")
     return {
         "ok": not errors,
         "status": "valid" if not errors else "invalid",
@@ -703,5 +788,5 @@ def validate_expression_asset_file(
         "account_ids": sorted(accounts),
         "errors": errors,
         "contract_version": contract.get("version", ""),
-        "activation_boundary": "candidate_contract_only",
+        "activation_boundary": "active_pipeline_candidate_only",
     }

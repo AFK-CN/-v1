@@ -1,9 +1,14 @@
 {
-  "system_version": "3.0",
-  "release_version": "3.0.0",
+  "system_version": "3.1",
+  "release_version": "3.1.0",
   "status": "active",
   "released_at": "2026-07-19",
-  "upgrade_record": "00_System/shareable/docs/project_use/系统升级3.0记录.md",
+  "upgrade_record": "00_System/shareable/docs/project_use/系统升级3.1记录.md",
+  "predecessor": {
+    "system_version": "3.0",
+    "upgrade_record": "00_System/shareable/docs/project_use/系统升级3.0记录.md",
+    "git_baseline": "d7871e4b38f34ef6930505615b2a6f165a2939ee"
+  },
   "scope": "knowledge_base_system",
   "components": [
     {
@@ -19,10 +24,12 @@
     },
     {
       "id": "P2",
-      "name": "表达资产通用契约与隔离提案",
-      "status": "foundation_completed_activation_pending",
+      "name": "表达资产七阶段增强与隔离执行",
+      "status": "completed_active_candidate_only",
       "contract": "00_System/shareable/config/expression_asset_contract.json",
       "proposal": "00_System/shareable/skills/proposals/account-learning-expression-assets-v3.0.md",
+      "account_learning_version": "3.0",
+      "package_builder": "tools/account_expression_assets.py",
       "visual_provenance_hardening": {
         "status": "completed",
         "account_learning_version": "2.8",
@@ -47,21 +54,17 @@
     "active_account_learning_modified": true,
     "account_skill_upgrade_executed": true,
     "historical_workflow_migration_executed": true,
+    "expression_asset_workflow_migration_executed": false,
     "account_specific_content_allowed_in_system": false,
     "raw_source_mutation_allowed": false
   },
-  "pending_activations": [
-    {
-      "id": "account-learning-expression-assets-v3.0",
-      "reason": "把 expression stage 接入 active account-learning 前仍需用户单独确认 proposal；v2.8 视觉来源隔离不代表表达资产已激活。"
-    }
-  ],
+  "pending_activations": [],
   "rollback": {
     "P1": "移除 formal_retrieval 路由、配置和 runtime 可复现缓存；不修改正式知识文件。",
-    "P2_foundation": "移除表达资产通用契约与校验入口；proposal 和候选审计轨迹可保留，不影响已独立生效的 v2.8 视觉来源隔离。",
+    "P2_expression_assets": "恢复 Git 基线 d7871e4b 中的 account-learning v2.9、pipeline 2.9 和 expression contract 3.0；已生成候选保持不可调用且不删除。",
     "P3_account_skill_upgrade": "恢复 account-learning v2.8 与 account Skill contract v4；兼容清单、升级提案和失败报告保留为审计，不删除任何账号正式知识或历史资产。",
     "active_skill_visual_provenance": "按 00_System/shareable/skills/rollback.md 恢复 v2.7；候选、原始资料和正式账号内容不删除。",
-    "active_skill_expression_assets_if_later_confirmed": "表达资产接入仍待单独确认；若未来激活后需回滚，恢复不含 expression stage 的 pipeline，候选保持不可调用。"
+    "active_skill_expression_assets": "恢复不含表达资产链的 v2.9 pipeline；保留所有原始、正式、候选和审计记录。"
   },
   "validation": {
     "status": "passed",
@@ -77,7 +80,11 @@
       "distribution_audit",
       "formal_retrieval_live_smoke_test",
       "change_scope_audit",
-      "all_account_v29_learning_audit"
+      "all_account_v29_learning_audit",
+      "single_active_seven_stage_workflow_test",
+      "expression_asset_package_test",
+      "expression_asset_source_generation_boundary_test",
+      "legacy_workflow_in_place_upgrade_test"
     ],
     "completed": [
       "targeted_unit_tests",
@@ -91,9 +98,13 @@
       "distribution_audit",
       "formal_retrieval_live_smoke_test",
       "change_scope_audit",
-      "all_account_v29_learning_audit"
+      "all_account_v29_learning_audit",
+      "single_active_seven_stage_workflow_test",
+      "expression_asset_package_test",
+      "expression_asset_source_generation_boundary_test",
+      "legacy_workflow_in_place_upgrade_test"
     ],
-    "test_count": 264,
+    "test_count": 268,
     "validated_at": "2026-07-19",
     "failures": []
   }

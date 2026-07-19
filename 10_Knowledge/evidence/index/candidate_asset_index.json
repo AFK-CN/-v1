@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T16:18:25",
+  "generated_at": "2026-07-19T17:53:32",
   "source_index": "knowledge_index.json + 10_Knowledge/candidates/generated_assets",
   "description": "候选和待审核资产索引；候选资产属于知识层 candidates，不属于系统规则层；账号候选资产必须通过 account_id 隔离，默认不当作正式知识。",
   "item_count": 7305,
